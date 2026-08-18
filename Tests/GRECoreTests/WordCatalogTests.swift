@@ -4,6 +4,14 @@ import Testing
 
 @Suite struct WordCatalogTests {
 
+    @Test func anEmptyCatalogIsAUsablePlaceholder() {
+        // The app holds this before the dataset finishes loading, so it must not trap.
+        #expect(WordCatalog.empty.words.isEmpty)
+        #expect(WordCatalog.empty["abate"] == nil)
+        #expect(WordCatalog.empty.words(inTier: .core).isEmpty)
+        #expect(WordCatalog.empty.words(withPartOfSpeech: .noun).isEmpty)
+    }
+
     @Test func loadsTheBundledDataset() throws {
         let catalog = try WordCatalog.bundled()
         // The pipeline currently ships 2898 words; assert a floor rather than an

@@ -15,12 +15,16 @@ public struct WordCatalog: Sendable {
         }
     }
 
+    public static let empty = WordCatalog(words: [])
+
     public let words: [Word]
     private let byID: [String: Word]
     private let byPartOfSpeech: [PartOfSpeech: [Word]]
 
-    public init(words: [Word]) throws {
-        guard !words.isEmpty else { throw LoadError.empty }
+    /// Non-throwing: an empty catalog is a legitimate value (it is the
+    /// placeholder the app holds before the dataset finishes loading). Rejecting
+    /// an empty *dataset* is `bundled()`'s job, where it means a broken build.
+    public init(words: [Word]) {
         self.words = words
         self.byID = Dictionary(words.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
         self.byPartOfSpeech = Dictionary(grouping: words, by: \.primaryPartOfSpeech)
@@ -31,7 +35,9 @@ public struct WordCatalog: Sendable {
         guard let url = Bundle.module.url(forResource: "words", withExtension: "json") else {
             throw LoadError.resourceMissing
         }
-        return try WordCatalog(words: JSONDecoder().decode([Word].self, from: Data(contentsOf: url)))
+        let words = try JSONDecoder().decode([Word].self, from: Data(contentsOf: url))
+        guard !words.isEmpty else { throw LoadError.empty }
+        return WordCatalog(words: words)
     }
 
     public subscript(id: String) -> Word? { byID[id] }

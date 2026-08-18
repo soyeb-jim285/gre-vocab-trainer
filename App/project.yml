@@ -1,0 +1,52 @@
+name: GRE
+options:
+  bundleIdPrefix: dev.soyeb
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+packages:
+  GRECore:
+    path: ..
+
+targets:
+  GRE:
+    type: application
+    platform: iOS
+    sources:
+      - path: GRE
+    dependencies:
+      - package: GRECore
+        product: GRECore
+    settings:
+      base:
+        SWIFT_VERSION: "6.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: GRE
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+
+  GRETests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: GRETests
+    dependencies:
+      - target: GRE
+    settings:
+      base:
+        SWIFT_VERSION: "6.0"
+
+schemes:
+  GRE:
+    build:
+      targets:
+        GRE: all
+    test:
+      targets:
+        - GRETests
