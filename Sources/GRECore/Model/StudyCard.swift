@@ -15,6 +15,25 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     public static let locallyGraded: [StudyMode] = [.multipleChoice, .reverseRecall, .spelling]
 
     public var needsAI: Bool { self == .defineAndUse }
+
+    /// Shown in the session's mode picker.
+    public var label: String {
+        switch self {
+        case .multipleChoice: "Multiple choice"
+        case .reverseRecall: "Recall"
+        case .spelling: "Spelling"
+        case .defineAndUse: "Writing"
+        }
+    }
+
+    public var systemImage: String {
+        switch self {
+        case .multipleChoice: "checklist"
+        case .reverseRecall: "arrow.uturn.backward"
+        case .spelling: "ear"
+        case .defineAndUse: "square.and.pencil"
+        }
+    }
 }
 
 /// One word's scheduling state. The app persists this; GRECore only reads it.
@@ -40,17 +59,20 @@ public struct SessionSettings: Equatable, Sendable {
     /// Reviews a word must have before it graduates to writing practice.
     /// Zero starts there immediately; the default eases in through the local modes.
     public var writingModeAfterReviews: Int
+    /// Drills one mode for the whole session. Nil follows the automatic ladder.
+    public var forcedMode: StudyMode?
 
     public init(
         dailyNewWordLimit: Int = 10, sessionLength: Int = 20,
         strictness: GradingStrictness = .standard, aiEnabled: Bool = true,
-        writingModeAfterReviews: Int = 3
+        writingModeAfterReviews: Int = 3, forcedMode: StudyMode? = nil
     ) {
         self.dailyNewWordLimit = dailyNewWordLimit
         self.sessionLength = sessionLength
         self.strictness = strictness
         self.aiEnabled = aiEnabled
         self.writingModeAfterReviews = writingModeAfterReviews
+        self.forcedMode = forcedMode
     }
 }
 

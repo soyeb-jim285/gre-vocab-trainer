@@ -71,6 +71,9 @@ import Testing
 
         // Enum surfaces the UI iterates
         _ = StudyMode.allCases.map(\.rawValue)
+        _ = StudyMode.allCases.map(\.label)
+        _ = StudyMode.allCases.map(\.systemImage)
+        _ = SessionSettings(aiEnabled: true, writingModeAfterReviews: 0, forcedMode: .spelling)
         _ = StudyMode.locallyGraded
         _ = StudyMode.defineAndUse.needsAI
         _ = WordTier.allCases.sorted()

@@ -15,6 +15,7 @@ final class AppSettings {
         static let accent = "speechAccent"
         static let voiceIdentifier = "voiceIdentifier"
         static let writingAfter = "writingModeAfterReviews"
+        static let forcedMode = "forcedMode"
         static let dailyNewWordLimit = "dailyNewWordLimit"
         static let sessionLength = "sessionLength"
         static let strictness = "gradingStrictness"
@@ -40,6 +41,10 @@ final class AppSettings {
     var writingModeAfterReviews: Int {
         didSet { defaults.set(writingModeAfterReviews, forKey: Key.writingAfter) }
     }
+    /// Drills one mode for the whole session; nil follows the automatic ladder.
+    var forcedMode: StudyMode? {
+        didSet { defaults.set(forcedMode?.rawValue, forKey: Key.forcedMode) }
+    }
     var dailyNewWordLimit: Int { didSet { defaults.set(dailyNewWordLimit, forKey: Key.dailyNewWordLimit) } }
     var sessionLength: Int { didSet { defaults.set(sessionLength, forKey: Key.sessionLength) } }
     var strictness: GradingStrictness { didSet { defaults.set(strictness.rawValue, forKey: Key.strictness) } }
@@ -58,6 +63,7 @@ final class AppSettings {
         accent = SpeechAccent(rawValue: defaults.string(forKey: Key.accent) ?? "") ?? .american
         voiceIdentifier = defaults.string(forKey: Key.voiceIdentifier)
         writingModeAfterReviews = defaults.object(forKey: Key.writingAfter) as? Int ?? 3
+        forcedMode = StudyMode(rawValue: defaults.string(forKey: Key.forcedMode) ?? "")
         dailyNewWordLimit = defaults.object(forKey: Key.dailyNewWordLimit) as? Int ?? 10
         sessionLength = defaults.object(forKey: Key.sessionLength) as? Int ?? 20
         strictness = GradingStrictness(rawValue: defaults.string(forKey: Key.strictness) ?? "") ?? .standard
@@ -68,6 +74,8 @@ final class AppSettings {
     func setAPIKey(_ key: String?) {
         KeychainStore.apiKey = key
         hasAPIKey = KeychainStore.hasKey
+        // Otherwise the picker stays pinned to a mode that can no longer run.
+        if !hasAPIKey, forcedMode?.needsAI == true { forcedMode = nil }
     }
 
     var sessionSettings: SessionSettings {
@@ -76,7 +84,8 @@ final class AppSettings {
             sessionLength: sessionLength,
             strictness: strictness,
             aiEnabled: hasAPIKey,
-            writingModeAfterReviews: writingModeAfterReviews
+            writingModeAfterReviews: writingModeAfterReviews,
+            forcedMode: forcedMode
         )
     }
 

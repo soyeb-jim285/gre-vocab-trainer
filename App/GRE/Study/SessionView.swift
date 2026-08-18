@@ -18,12 +18,43 @@ struct SessionView: View {
             }
         }
         .screenBackground()
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) { modePicker }
+        }
         .task {
             guard model == nil else { return }
             let created = SessionViewModel(context: context, catalog: catalog, settings: settings)
             created.start()
             model = created
         }
+        // Changing what you're drilling has to rebuild the queue, so the change
+        // takes effect on the very next card rather than the next session.
+        .onChange(of: settings.forcedMode) { _, _ in model?.start() }
+    }
+
+    /// Auto follows the ladder: recognise, recall, spell, use. Picking a mode
+    /// drills that one skill across every card in the session.
+    private var modePicker: some View {
+        @Bindable var settings = settings
+        return Menu {
+            Picker("Mode", selection: $settings.forcedMode) {
+                Label("Auto", systemImage: "wand.and.stars").tag(StudyMode?.none)
+                Divider()
+                // Writing is left out entirely without a key rather than shown
+                // selected while the planner quietly substitutes something else.
+                ForEach(StudyMode.allCases.filter { settings.hasAPIKey || !$0.needsAI }, id: \.self) { mode in
+                    Label(mode.label, systemImage: mode.systemImage)
+                        .tag(StudyMode?.some(mode))
+                }
+            }
+        } label: {
+            Label(
+                settings.forcedMode?.label ?? "Auto",
+                systemImage: settings.forcedMode?.systemImage ?? "wand.and.stars"
+            )
+            .font(Theme.label)
+        }
+        .tint(Theme.accent)
     }
 
     @ViewBuilder

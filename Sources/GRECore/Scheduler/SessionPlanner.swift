@@ -55,7 +55,14 @@ public enum SessionPlanner {
     /// ponytail: progression keys off review count alone. If lapsed words turn
     /// out to need an easier re-entry, branch on `fsrs.state == .relearning` here.
     static func mode(for card: StudyCard, settings: SessionSettings) -> StudyMode {
-        if settings.aiEnabled && card.reviewCount >= settings.writingModeAfterReviews {
+        // A forced mode drills one skill and overrides the ladder entirely --
+        // except that it cannot conjure an API key, so writing without one
+        // still falls back rather than stranding the learner on a locked mode.
+        if let forced = settings.forcedMode, !forced.needsAI || settings.aiEnabled {
+            return forced
+        }
+        if settings.forcedMode == nil,
+           settings.aiEnabled, card.reviewCount >= settings.writingModeAfterReviews {
             return .defineAndUse
         }
         let local = StudyMode.locallyGraded

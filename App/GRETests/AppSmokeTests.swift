@@ -189,4 +189,46 @@ struct AppSmokeTests {
                                            rating: .again, scheduler: scheduler, in: context)
         #expect(lapsed.lapses == 1)
     }
+
+    // MARK: - Session mode picker
+
+    @Test func forcingAModeRetestsEveryCardThatWay() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        settings.dailyNewWordLimit = 5
+        settings.forcedMode = .spelling
+
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        model.start()
+        #expect(model.items.isEmpty == false)
+        #expect(model.items.allSatisfy { $0.mode == .spelling })
+    }
+
+    @Test func autoRestoresTheLadder() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        settings.dailyNewWordLimit = 5
+        settings.forcedMode = nil
+
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        model.start()
+        #expect(model.items.allSatisfy { $0.mode == .multipleChoice })
+    }
+
+    @Test func removingTheKeyClearsAForcedWritingMode() {
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        settings.forcedMode = .defineAndUse
+        settings.setAPIKey(nil)
+        // Otherwise the picker would read "Writing" while the planner ran something else.
+        #expect(settings.forcedMode == nil)
+    }
+
+    @Test func aForcedSpellingModeSurvivesRemovingTheKey() {
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        settings.forcedMode = .spelling
+        settings.setAPIKey(nil)
+        #expect(settings.forcedMode == .spelling)
+    }
 }
