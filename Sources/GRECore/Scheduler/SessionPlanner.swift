@@ -47,15 +47,17 @@ public enum SessionPlanner {
     /// Modes get harder as a word becomes familiar: recognise it, recall it,
     /// spell it, then actually use it.
     ///
+    /// Writing is the exercise the app exists for, so how soon a word reaches it
+    /// is a setting rather than a constant -- the default eases in, zero starts
+    /// there. Below the threshold (or with no API key, which is a hard
+    /// constraint rather than a preference) words cycle through the local modes.
+    ///
     /// ponytail: progression keys off review count alone. If lapsed words turn
     /// out to need an easier re-entry, branch on `fsrs.state == .relearning` here.
     static func mode(for card: StudyCard, settings: SessionSettings) -> StudyMode {
-        let ladder: [StudyMode] = [.multipleChoice, .reverseRecall, .spelling, .defineAndUse]
-        let target = ladder[min(card.reviewCount, ladder.count - 1)]
-
-        guard target.needsAI && !settings.aiEnabled else { return target }
-        // With no key the graded mode is unavailable, so mature words cycle
-        // through the local modes instead of stalling on the last one they can do.
+        if settings.aiEnabled && card.reviewCount >= settings.writingModeAfterReviews {
+            return .defineAndUse
+        }
         let local = StudyMode.locallyGraded
         return local[card.reviewCount % local.count]
     }

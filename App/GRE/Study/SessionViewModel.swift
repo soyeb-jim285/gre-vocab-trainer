@@ -182,31 +182,11 @@ final class SessionViewModel {
         guard let item = current else { return }
         let rating = rating ?? grade.rating(strictness: settings.strictness)
 
-        let record = existingRecord(for: item.card.wordID)
-            ?? {
-                let fresh = CardRecord(wordID: item.card.wordID)
-                context.insert(fresh)
-                return fresh
-            }()
-
-        let before = record.fsrs.state
-        record.fsrs = settings.scheduler.review(record.fsrs, rating: rating, at: .now)
-        record.reviewCount += 1
-        if before == .review && record.fsrs.state == .relearning { record.lapses += 1 }
-
-        context.insert(ReviewRecord(
-            wordID: item.card.wordID, reviewedAt: .now,
-            mode: item.mode, score: grade.score, rating: rating
-        ))
-        try? context.save()
-
+        ReviewRecorder.record(
+            wordID: item.card.wordID, mode: item.mode, grade: grade, rating: rating,
+            scheduler: settings.scheduler, in: context
+        )
         phase = .reviewing(feedback)
-    }
-
-    private func existingRecord(for wordID: String) -> CardRecord? {
-        var descriptor = FetchDescriptor<CardRecord>(predicate: #Predicate { $0.wordID == wordID })
-        descriptor.fetchLimit = 1
-        return try? context.fetch(descriptor).first
     }
 
     func advance() {

@@ -47,7 +47,7 @@ struct SessionView: View {
                     SessionProgressBar(progress: model.progress)
                     ScrollView {
                         VStack(alignment: .leading, spacing: 28) {
-                            PromptCard(item: item, accent: settings.accent)
+                            PromptCard(item: item, accent: settings.accent, voiceIdentifier: settings.voiceIdentifier)
                             if case let .reviewing(feedback) = model.phase {
                                 FeedbackCard(feedback: feedback, item: item)
                             } else {
@@ -147,6 +147,7 @@ private struct SessionProgressBar: View {
 private struct PromptCard: View {
     let item: SessionItem
     let accent: SpeechAccent
+    let voiceIdentifier: String?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
@@ -158,7 +159,7 @@ private struct PromptCard: View {
             switch item.mode {
             case .spelling:
                 Button {
-                    Speaker.shared.say(item.word, accent: accent)
+                    Speaker.shared.say(item.word, accent: accent, voiceIdentifier: voiceIdentifier)
                 } label: {
                     Label("Play the word", systemImage: "speaker.wave.3.fill")
                         .font(Theme.headword(28))
@@ -177,7 +178,7 @@ private struct PromptCard: View {
                         .font(Theme.headword())
                         .foregroundStyle(Theme.primaryText)
                     Button {
-                        Speaker.shared.say(item.word, accent: accent)
+                        Speaker.shared.say(item.word, accent: accent, voiceIdentifier: voiceIdentifier)
                     } label: {
                         Image(systemName: "speaker.wave.2")
                             .foregroundStyle(Theme.secondaryText)

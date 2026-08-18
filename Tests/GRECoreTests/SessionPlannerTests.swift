@@ -18,9 +18,10 @@ import Testing
     }
 
     private func settings(
-        newLimit: Int = 10, length: Int = 20, ai: Bool = true
+        newLimit: Int = 10, length: Int = 20, ai: Bool = true, writingAfter: Int = 3
     ) -> SessionSettings {
-        SessionSettings(dailyNewWordLimit: newLimit, sessionLength: length, aiEnabled: ai)
+        SessionSettings(dailyNewWordLimit: newLimit, sessionLength: length,
+                        aiEnabled: ai, writingModeAfterReviews: writingAfter)
     }
 
     // MARK: - What goes in the queue
@@ -160,5 +161,68 @@ import Testing
         let plan = SessionPlanner.plan(cards: [seen("thiswordwasremoved", dueIn: -1)],
                                        catalog: Self.catalog, settings: settings(newLimit: 0), now: now)
         #expect(plan.isEmpty)
+    }
+}
+
+
+@Suite struct WritingModeThresholdTests {
+
+    private static let catalog = try! WordCatalog.bundled()
+    private let now = Date(timeIntervalSince1970: 1_800_000_000)
+
+    private func card(reviews: Int) -> StudyCard {
+        StudyCard(
+            wordID: "abate",
+            fsrs: FSRSCard(stability: 10, difficulty: 5, due: now.addingTimeInterval(-86_400),
+                           lastReview: now.addingTimeInterval(-172_800), state: .review, step: nil),
+            reviewCount: reviews
+        )
+    }
+
+    private func mode(reviews: Int, writingAfter: Int, ai: Bool = true) -> StudyMode {
+        SessionPlanner.plan(
+            cards: [card(reviews: reviews)], catalog: Self.catalog,
+            settings: SessionSettings(dailyNewWordLimit: 0, aiEnabled: ai,
+                                      writingModeAfterReviews: writingAfter),
+            now: now
+        )[0].mode
+    }
+
+    @Test func theDefaultThresholdKeepsTheExistingLadder() {
+        let settings = SessionSettings()
+        #expect(settings.writingModeAfterReviews == 3)
+        #expect(mode(reviews: 0, writingAfter: 3) == .multipleChoice)
+        #expect(mode(reviews: 1, writingAfter: 3) == .reverseRecall)
+        #expect(mode(reviews: 2, writingAfter: 3) == .spelling)
+        #expect(mode(reviews: 3, writingAfter: 3) == .defineAndUse)
+    }
+
+    @Test func aThresholdOfZeroGoesStraightToWriting() {
+        // For someone who wants the real exercise from the very first word.
+        #expect(mode(reviews: 0, writingAfter: 0) == .defineAndUse)
+        #expect(mode(reviews: 7, writingAfter: 0) == .defineAndUse)
+    }
+
+    @Test func aThresholdOfOneMeetsTheWordThenWritesAboutIt() {
+        #expect(mode(reviews: 0, writingAfter: 1) == .multipleChoice)
+        #expect(mode(reviews: 1, writingAfter: 1) == .defineAndUse)
+    }
+
+    @Test func aHighThresholdDelaysWritingAndKeepsCyclingLocalModes() {
+        #expect(mode(reviews: 5, writingAfter: 99) != .defineAndUse)
+        #expect(mode(reviews: 40, writingAfter: 99) != .defineAndUse)
+    }
+
+    @Test func noApiKeyOverridesEvenAZeroThreshold() {
+        // The threshold is a preference; having no key is a hard constraint.
+        #expect(mode(reviews: 0, writingAfter: 0, ai: false) != .defineAndUse)
+        #expect(mode(reviews: 9, writingAfter: 0, ai: false) != .defineAndUse)
+    }
+
+    @Test(arguments: 0...6)
+    func belowTheThresholdEveryModeIsLocallyGraded(reviews: Int) {
+        let mode = mode(reviews: reviews, writingAfter: 99)
+        #expect(StudyMode.locallyGraded.contains(mode))
+        #expect(mode.needsAI == false)
     }
 }

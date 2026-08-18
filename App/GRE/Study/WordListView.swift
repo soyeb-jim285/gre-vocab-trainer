@@ -76,11 +76,13 @@ struct WordDetailView: View {
     @State private var dive: WordDeepDive?
     @State private var error: String?
     @State private var loading = false
+    @State private var practising = false
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
                 header
+                practiceButton
                 ForEach(Array(word.senses.enumerated()), id: \.offset) { _, sense in
                     SenseBlock(sense: sense)
                 }
@@ -92,6 +94,25 @@ struct WordDetailView: View {
         .navigationTitle(word.word)
         .navigationBarTitleDisplayMode(.inline)
         .task { dive = cached() }
+        .sheet(isPresented: $practising) { WritingPracticeView(word: word) }
+    }
+
+    /// Direct route to the mode the app is built around, without waiting for the
+    /// scheduler to walk this word up the ladder.
+    @ViewBuilder
+    private var practiceButton: some View {
+        if settings.hasAPIKey {
+            Button {
+                practising = true
+            } label: {
+                Label("Practise writing this one", systemImage: "square.and.pencil")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 6)
+            }
+            .buttonStyle(.glassProminent)
+            .tint(Theme.accent)
+        }
     }
 
     private var header: some View {
@@ -101,7 +122,7 @@ struct WordDetailView: View {
                     .font(Theme.headword())
                     .foregroundStyle(Theme.primaryText)
                 Button {
-                    Speaker.shared.say(word, accent: settings.accent)
+                    Speaker.shared.say(word, accent: settings.accent, voiceIdentifier: settings.voiceIdentifier)
                 } label: {
                     Image(systemName: "speaker.wave.2").foregroundStyle(Theme.accent)
                 }

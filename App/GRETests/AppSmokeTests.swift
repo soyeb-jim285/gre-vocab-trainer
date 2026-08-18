@@ -1,3 +1,4 @@
+import AVFoundation
 import Foundation
 import GRECore
 import SwiftData
@@ -102,5 +103,90 @@ struct AppSmokeTests {
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
         #expect(settings.hasAPIKey == false, "no key should be present in a fresh test suite")
         #expect(settings.sessionSettings.aiEnabled == false)
+    }
+
+    // MARK: - Voice selection
+
+    @Test func aVoiceIsAlwaysResolvedByIdentifierNotByLanguage() throws {
+        // AVSpeechSynthesisVoice(language:) regressed in iOS 26 and returns the
+        // system default regardless of accent, which would flatten the picker.
+        // Resolving through the catalog must give a concrete, distinct voice.
+        let american = try #require(VoiceCatalog.best(for: .american))
+        #expect(american.identifier.isEmpty == false)
+        #expect(american.language.lowercased().hasPrefix("en-us"))
+
+        if let british = VoiceCatalog.best(for: .british) {
+            #expect(british.language.lowercased().hasPrefix("en-gb"))
+            #expect(british.identifier != american.identifier,
+                    "accents resolved to the same voice — the regression is not being worked around")
+        }
+    }
+
+    @Test func voicesAreOfferedBestQualityFirst() {
+        for accent in SpeechAccent.allCases {
+            let ranks = VoiceCatalog.voices(for: accent).map(\.quality.rank)
+            #expect(ranks == ranks.sorted(by: >), "\(accent.label) voices are not best-first")
+        }
+    }
+
+    @Test func aPinnedVoiceWinsAndAMissingOneFallsBack() throws {
+        let best = try #require(VoiceCatalog.best(for: .american))
+        let pinned = try #require(VoiceCatalog.voice(identifier: best.identifier, accent: .american))
+        #expect(pinned.identifier == best.identifier)
+
+        // A voice the user has since deleted must not silence the app.
+        let fallback = VoiceCatalog.voice(identifier: "com.example.deleted.voice", accent: .american)
+        #expect(fallback?.identifier == best.identifier)
+    }
+
+    // MARK: - Writing practice
+
+    @Test func writingModeIsReachableImmediatelyWhenTheThresholdIsZero() throws {
+        let catalog = try WordCatalog.bundled()
+        var settings = SessionSettings(dailyNewWordLimit: 3, aiEnabled: true, writingModeAfterReviews: 0)
+        var plan = SessionPlanner.plan(cards: [], catalog: catalog, settings: settings, now: .now)
+        #expect(plan.allSatisfy { $0.mode == .defineAndUse })
+
+        settings.writingModeAfterReviews = 3
+        plan = SessionPlanner.plan(cards: [], catalog: catalog, settings: settings, now: .now)
+        #expect(plan.allSatisfy { $0.mode == .multipleChoice })
+    }
+
+    @Test func practisingAWordOutsideASessionSchedulesItTheSameWay() throws {
+        let context = try inMemoryContext()
+        let scheduler = FSRS(enableFuzzing: false)
+
+        let record = ReviewRecorder.record(
+            wordID: "abate", mode: .defineAndUse, grade: Grade(score: 95),
+            rating: .easy, scheduler: scheduler, in: context
+        )
+        #expect(record.reviewCount == 1)
+        #expect(record.due > .now)
+
+        // Same word again, and the schedule must keep moving rather than reset.
+        let firstDue = record.due
+        let again = ReviewRecorder.record(
+            wordID: "abate", mode: .defineAndUse, grade: Grade(score: 95),
+            rating: .easy, scheduler: scheduler, in: context
+        )
+        #expect(again.reviewCount == 2)
+        #expect(again.due > firstDue)
+        #expect(try context.fetch(FetchDescriptor<CardRecord>()).count == 1, "practice created a duplicate card")
+        #expect(try context.fetch(FetchDescriptor<ReviewRecord>()).count == 2)
+    }
+
+    @Test func aLapseAfterGraduatingIsCounted() throws {
+        let context = try inMemoryContext()
+        let scheduler = FSRS(enableFuzzing: false)
+        for _ in 0..<4 {
+            ReviewRecorder.record(wordID: "laconic", mode: .defineAndUse, grade: Grade(score: 95),
+                                  rating: .easy, scheduler: scheduler, in: context)
+        }
+        let graduated = try #require(ReviewRecorder.existing("laconic", in: context))
+        #expect(graduated.fsrs.state == .review)
+
+        let lapsed = ReviewRecorder.record(wordID: "laconic", mode: .defineAndUse, grade: Grade(score: 10),
+                                           rating: .again, scheduler: scheduler, in: context)
+        #expect(lapsed.lapses == 1)
     }
 }

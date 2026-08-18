@@ -13,6 +13,8 @@ final class AppSettings {
         static let deepDiveModel = "deepDiveModel"
         static let coachModel = "coachModel"
         static let accent = "speechAccent"
+        static let voiceIdentifier = "voiceIdentifier"
+        static let writingAfter = "writingModeAfterReviews"
         static let dailyNewWordLimit = "dailyNewWordLimit"
         static let sessionLength = "sessionLength"
         static let strictness = "gradingStrictness"
@@ -24,7 +26,20 @@ final class AppSettings {
     var gradingModel: String { didSet { defaults.set(gradingModel, forKey: Key.gradingModel) } }
     var deepDiveModel: String { didSet { defaults.set(deepDiveModel, forKey: Key.deepDiveModel) } }
     var coachModel: String { didSet { defaults.set(coachModel, forKey: Key.coachModel) } }
-    var accent: SpeechAccent { didSet { defaults.set(accent.rawValue, forKey: Key.accent) } }
+    var accent: SpeechAccent {
+        didSet {
+            defaults.set(accent.rawValue, forKey: Key.accent)
+            // A voice pinned for the old accent would keep speaking in it.
+            if oldValue != accent { voiceIdentifier = nil }
+        }
+    }
+    /// Pins a specific installed voice; nil follows the best one available.
+    var voiceIdentifier: String? {
+        didSet { defaults.set(voiceIdentifier, forKey: Key.voiceIdentifier) }
+    }
+    var writingModeAfterReviews: Int {
+        didSet { defaults.set(writingModeAfterReviews, forKey: Key.writingAfter) }
+    }
     var dailyNewWordLimit: Int { didSet { defaults.set(dailyNewWordLimit, forKey: Key.dailyNewWordLimit) } }
     var sessionLength: Int { didSet { defaults.set(sessionLength, forKey: Key.sessionLength) } }
     var strictness: GradingStrictness { didSet { defaults.set(strictness.rawValue, forKey: Key.strictness) } }
@@ -41,6 +56,8 @@ final class AppSettings {
         deepDiveModel = defaults.string(forKey: Key.deepDiveModel) ?? fallbackModel
         coachModel = defaults.string(forKey: Key.coachModel) ?? fallbackModel
         accent = SpeechAccent(rawValue: defaults.string(forKey: Key.accent) ?? "") ?? .american
+        voiceIdentifier = defaults.string(forKey: Key.voiceIdentifier)
+        writingModeAfterReviews = defaults.object(forKey: Key.writingAfter) as? Int ?? 3
         dailyNewWordLimit = defaults.object(forKey: Key.dailyNewWordLimit) as? Int ?? 10
         sessionLength = defaults.object(forKey: Key.sessionLength) as? Int ?? 20
         strictness = GradingStrictness(rawValue: defaults.string(forKey: Key.strictness) ?? "") ?? .standard
@@ -58,7 +75,8 @@ final class AppSettings {
             dailyNewWordLimit: dailyNewWordLimit,
             sessionLength: sessionLength,
             strictness: strictness,
-            aiEnabled: hasAPIKey
+            aiEnabled: hasAPIKey,
+            writingModeAfterReviews: writingModeAfterReviews
         )
     }
 

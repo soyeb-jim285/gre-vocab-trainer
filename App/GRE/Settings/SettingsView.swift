@@ -68,14 +68,25 @@ struct SettingsView: View {
                 }
             }
 
-            Section("Pronunciation") {
+            Section {
                 Picker("Accent", selection: $settings.accent) {
                     ForEach(SpeechAccent.allCases) { Text($0.label).tag($0) }
                 }
+                NavigationLink {
+                    VoicePickerView(accent: settings.accent, selection: $settings.voiceIdentifier)
+                } label: {
+                    LabeledContent("Voice", value: currentVoiceLabel)
+                }
                 Button("Hear a sample") {
                     if let word = sampleWord {
-                        Speaker.shared.say(word, accent: settings.accent)
+                        Speaker.shared.say(word, accent: settings.accent, voiceIdentifier: settings.voiceIdentifier)
                     }
+                }
+            } header: {
+                Text("Pronunciation")
+            } footer: {
+                if VoiceCatalog.onlyCompactAvailable(for: settings.accent) {
+                    Text("Only the compact voice is installed. Enhanced and Premium voices sound far closer to a dictionary recording — see the Voice screen for where to get them.")
                 }
             }
 
@@ -89,10 +100,20 @@ struct SettingsView: View {
                         Text($0.rawValue.capitalized).tag($0)
                     }
                 }
+                Picker("Start writing after", selection: $settings.writingModeAfterReviews) {
+                    Text("Straight away").tag(0)
+                    Text("1 review").tag(1)
+                    Text("2 reviews").tag(2)
+                    Text("3 reviews").tag(3)
+                    Text("5 reviews").tag(5)
+                }
+                .disabled(!settings.hasAPIKey)
             } header: {
                 Text("Study")
             } footer: {
-                Text("Strictness moves the line between scores that count as remembered and scores that bring a word back sooner.")
+                Text(settings.hasAPIKey
+                     ? "Writing out a definition and a sentence is the real exercise. Set this to \u{201C}straight away\u{201D} to skip the warmups entirely."
+                     : "Writing practice needs an OpenRouter key. Without one, words cycle through multiple choice, recall and spelling.")
             }
 
             Section {
@@ -113,6 +134,15 @@ struct SettingsView: View {
 
     @Environment(\.catalog) private var catalog
     private var sampleWord: Word? { catalog["abate"] ?? catalog.words.first }
+
+    private var currentVoiceLabel: String {
+        guard let voice = VoiceCatalog.voice(
+            identifier: settings.voiceIdentifier, accent: settings.accent
+        ) else { return "None installed" }
+        return settings.voiceIdentifier == nil
+            ? "Best · \(voice.quality.label)"
+            : "\(voice.name) · \(voice.quality.label)"
+    }
 
     private func short(_ id: String) -> String {
         id.split(separator: "/").last.map(String.init) ?? id

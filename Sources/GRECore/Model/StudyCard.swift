@@ -37,15 +37,20 @@ public struct SessionSettings: Equatable, Sendable {
     public var strictness: GradingStrictness
     /// False when no API key is configured, which locks the graded mode.
     public var aiEnabled: Bool
+    /// Reviews a word must have before it graduates to writing practice.
+    /// Zero starts there immediately; the default eases in through the local modes.
+    public var writingModeAfterReviews: Int
 
     public init(
         dailyNewWordLimit: Int = 10, sessionLength: Int = 20,
-        strictness: GradingStrictness = .standard, aiEnabled: Bool = true
+        strictness: GradingStrictness = .standard, aiEnabled: Bool = true,
+        writingModeAfterReviews: Int = 3
     ) {
         self.dailyNewWordLimit = dailyNewWordLimit
         self.sessionLength = sessionLength
         self.strictness = strictness
         self.aiEnabled = aiEnabled
+        self.writingModeAfterReviews = writingModeAfterReviews
     }
 }
 
