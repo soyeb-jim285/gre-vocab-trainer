@@ -14,7 +14,8 @@ let package = Package(
         ),
         .testTarget(
             name: "GRECoreTests",
-            dependencies: ["GRECore"]
+            dependencies: ["GRECore"],
+            resources: [.process("Fixtures")]
         ),
     ]
 )
