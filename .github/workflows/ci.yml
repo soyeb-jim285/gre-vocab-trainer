@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  core:
+    name: GRECore (Linux)
+    runs-on: ubuntu-latest
+    container: swift:6.3
+    steps:
+      - uses: actions/checkout@v5
+      - run: swift build --build-tests
+      - run: swift test
+
+  dataset:
+    name: Dataset pipeline
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - run: pip install -r tools/requirements.txt
+      - name: Self-check the committed dataset
+        run: python3 tools/build_dataset.py --verify-only
