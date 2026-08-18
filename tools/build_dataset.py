@@ -1,0 +1,311 @@
+#!/usr/bin/env python3
+"""Build the bundled GRE word dataset.
+
+Merges curated GRE word lists, attaches WordNet definitions, and derives IPA
+from CMUdict. Output: Sources/GRECore/Resources/words.json
+
+Definitions come from Open English WordNet (CC BY 4.0), never from the prep
+books the word lists are named after -- a list of words is a fact, a
+publisher's definition of them is not.
+
+    python3 tools/build_dataset.py               # fetch, build, write
+    python3 tools/build_dataset.py --verify-only # check the committed file (no network)
+"""
+
+from __future__ import annotations
+
+import argparse
+import base64
+import json
+import os
+import re
+import subprocess
+import sys
+import urllib.request
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+CACHE = ROOT / "tools" / "cache"
+OUT = ROOT / "Sources" / "GRECore" / "Resources" / "words.json"
+REPORT = ROOT / "tools" / "dataset-report.md"
+
+WORDLIST_REPO = "Xatta-Trone/gre-words-collection"
+CMUDICT_URL = "https://raw.githubusercontent.com/cmusphinx/cmudict/master/cmudict.dict"
+
+# Curated lists only. The repo also carries "GRE 3000+", two 5000-word dumps and
+# a 4700 list; those are unfiltered scrapes that trade precision for size and
+# would take the merge from ~2.5k words to ~8.8k without making any of them more
+# likely to appear on the test.
+SOURCE_LISTS = {
+    "gregmat": "001 GregMat960.csv",
+    "prepscholar": "002 Prepscholar357.csv",
+    "magoosh-basic": "003 Magoosh_Basic-352.csv",
+    "magoosh-common": "004 Magoosh_Common-309.csv",
+    "magoosh-advanced": "005 Magoosh_Advanced-367.csv",
+    "powerscore": "005 PowerscoreRepeatOffenders-699.csv",
+    "barrons-333": "006 Barrons-333.csv",
+    "greenlight": "007 Greenlight-Vocab-List-Basic-500.csv",
+    "magoosh-1000": "008 Magoosh-1000.csv",
+    "vocabulary-com": "012 The Vocabulary.com Top 1000﻿.csv",
+    "manhattan": "013 Manhattan-Prep-1000-GRE-Words-Definitions.csv",
+}
+
+MAX_SENSES = 3
+
+# ARPAbet -> IPA. Stress digits are stripped before lookup.
+ARPABET_IPA = {
+    "AA": "ɑ", "AE": "æ", "AH": "ʌ", "AO": "ɔ", "AW": "aʊ", "AY": "aɪ",
+    "B": "b", "CH": "tʃ", "D": "d", "DH": "ð", "EH": "ɛ", "ER": "ɝ",
+    "EY": "eɪ", "F": "f", "G": "ɡ", "HH": "h", "IH": "ɪ", "IY": "i",
+    "JH": "dʒ", "K": "k", "L": "l", "M": "m", "N": "n", "NG": "ŋ",
+    "OW": "oʊ", "OY": "ɔɪ", "P": "p", "R": "ɹ", "S": "s", "SH": "ʃ",
+    "T": "t", "TH": "θ", "UH": "ʊ", "UW": "u", "V": "v", "W": "w",
+    "Y": "j", "Z": "z", "ZH": "ʒ",
+}
+VOWELS = {"AA", "AE", "AH", "AO", "AW", "AY", "EH", "ER", "EY",
+          "IH", "IY", "OW", "OY", "UH", "UW"}
+
+# Consonant clusters English allows at the start of a syllable. Used to place
+# stress marks: the walk-back from a stressed vowel may only absorb consonants
+# that could legally begin a syllable, so "obsequious" comes out əbˈsikwiəs
+# rather than əˈbsikwiəs -- /bs/ is not a possible English onset.
+# NOTE: spelled in IPA, so the rhotic is ɹ -- not ASCII r.
+LEGAL_ONSETS = {
+    "pl", "bl", "kl", "ɡl", "fl", "sl", "pɹ", "bɹ", "tɹ", "dɹ", "kɹ", "ɡɹ",
+    "fɹ", "θɹ", "ʃɹ", "tw", "dw", "kw", "sw", "θw", "sp", "st", "sk", "sm",
+    "sn", "sf", "spl", "spɹ", "stɹ", "skɹ", "skw", "hj", "pj", "bj",
+    "kj", "fj", "vj", "mj", "nj", "lj",
+}
+
+POS_NAMES = {"n": "noun", "v": "verb", "a": "adjective",
+             "s": "adjective", "r": "adverb"}
+
+WORD_RE = re.compile(r"^[a-z][a-z'-]*$")
+
+
+# --------------------------------------------------------------------------- fetch
+
+def fetch_wordlists() -> dict[str, list[str]]:
+    """Download each curated CSV via the gh CLI, caching to disk."""
+    d = CACHE / "wordlists"
+    d.mkdir(parents=True, exist_ok=True)
+    out = {}
+    for key, filename in SOURCE_LISTS.items():
+        path = d / f"{key}.csv"
+        if not path.exists():
+            print(f"  fetching {key}")
+            content = subprocess.run(
+                ["gh", "api", f"repos/{WORDLIST_REPO}/contents/word-list/{filename}",
+                 "--jq", ".content"],
+                capture_output=True, text=True, check=True,
+            ).stdout
+            path.write_bytes(base64.b64decode(content))
+        out[key] = path.read_text(encoding="utf-8-sig").splitlines()
+    return out
+
+
+def fetch_cmudict() -> dict[str, list[str]]:
+    path = CACHE / "cmudict.dict"
+    if not path.exists():
+        print("  fetching cmudict")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with urllib.request.urlopen(CMUDICT_URL) as r:
+            path.write_bytes(r.read())
+
+    pron = {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.split("#")[0].strip()
+        if not line:
+            continue
+        head, *phones = line.split()
+        # cmudict marks alternate pronunciations as "word(2)"; keep the first.
+        if head.endswith(")"):
+            continue
+        pron.setdefault(head.lower(), phones)
+    return pron
+
+
+# --------------------------------------------------------------------------- transform
+
+def normalize(raw: str) -> str | None:
+    """Lowercase and strip a raw list line, or None if it isn't a usable word."""
+    w = raw.strip().strip('"').strip()
+    w = re.sub(r"\s*\(.*?\)\s*", "", w)     # drop "(adj.)" style annotations
+    w = w.split(",")[0].strip().lower()      # some rows are "word, definition"
+    return w if WORD_RE.match(w) else None
+
+
+def to_ipa(phones: list[str]) -> str:
+    """ARPAbet phones -> IPA, with primary/secondary stress marks."""
+    syms, stresses = [], []
+    for p in phones:
+        stress = p[-1] if p[-1].isdigit() else ""
+        base = p[:-1] if stress else p
+        if base not in ARPABET_IPA:
+            return ""
+        # unstressed AH is schwa; ER follows the same reduction
+        ipa = ARPABET_IPA[base]
+        if base == "AH" and stress == "0":
+            ipa = "ə"
+        elif base == "ER" and stress == "0":
+            ipa = "ɚ"
+        syms.append(ipa)
+        stresses.append((base, stress))
+
+    # Place each stress mark before the onset of its syllable. Walk left from the
+    # stressed vowel collecting consonants, then keep only the longest trailing
+    # run that forms a legal English onset -- the rest belongs to the previous
+    # syllable's coda.
+    marks = {}
+    for i, (base, stress) in enumerate(stresses):
+        if stress not in ("1", "2") or base not in VOWELS:
+            continue
+        start = i
+        while start > 0 and stresses[start - 1][0] not in VOWELS:
+            start -= 1
+        j = i
+        for k in range(start, i):
+            if "".join(syms[k:i]) in LEGAL_ONSETS or i - k == 1:
+                j = k
+                break
+        marks[j] = "ˈ" if stress == "1" else "ˌ"
+
+    return "".join(marks.get(i, "") + s for i, s in enumerate(syms))
+
+
+def senses_for(wordnet, word: str) -> list[dict]:
+    out = []
+    for ss in wordnet.synsets(word)[:MAX_SENSES]:
+        lemmas = [l for l in ss.lemmas() if l.lower() != word]
+        antonyms = []
+        for sense in ss.senses():
+            for rel in sense.get_related("antonym"):
+                antonyms.extend(l for l in rel.synset().lemmas())
+        out.append({
+            "pos": POS_NAMES.get(ss.pos, ss.pos or "unknown"),
+            "definition": ss.definition() or "",
+            "examples": ss.examples()[:2],
+            "synonyms": sorted(set(lemmas))[:6],
+            "antonyms": sorted(set(antonyms))[:4],
+        })
+    return [s for s in out if s["definition"]]
+
+
+def tier_for(list_count: int) -> str:
+    if list_count >= 3:
+        return "core"
+    return "common" if list_count == 2 else "extended"
+
+
+def build() -> tuple[list[dict], list[str]]:
+    import wn
+    import wn.morphy
+
+    print("Fetching sources...")
+    lists = fetch_wordlists()
+    cmudict = fetch_cmudict()
+
+    print("Merging lists...")
+    sources: dict[str, set[str]] = {}
+    for key, lines in lists.items():
+        for line in lines:
+            w = normalize(line)
+            if w:
+                sources.setdefault(w, set()).add(key)
+
+    print(f"  {len(sources)} unique words")
+    print("Attaching WordNet senses...")
+    # Morphy falls back to lemmatization only when the surface form misses, so
+    # inflected entries resolve while list typos still drop out.
+    wordnet = wn.Wordnet("oewn:2024", lemmatizer=wn.morphy.Morphy())
+
+    entries, missing = [], []
+    for word in sorted(sources):
+        senses = senses_for(wordnet, word)
+        if not senses:
+            missing.append(word)
+            continue
+        src = sorted(sources[word])
+        entries.append({
+            "id": word,
+            "word": word,
+            "ipa": to_ipa(cmudict[word]) if word in cmudict else "",
+            "senses": senses,
+            "sourceLists": src,
+            "listCount": len(src),
+            "tier": tier_for(len(src)),
+        })
+    return entries, missing
+
+
+# --------------------------------------------------------------------------- checks
+
+def verify(entries: list[dict]) -> None:
+    """Fail loudly rather than shipping a card whose answer side is blank."""
+    assert entries, "dataset is empty"
+
+    ids = [e["id"] for e in entries]
+    dupes = [w for w, n in Counter(ids).items() if n > 1]
+    assert not dupes, f"duplicate ids: {dupes[:5]}"
+
+    for e in entries:
+        assert e["senses"], f"{e['id']}: no senses"
+        assert all(s["definition"] for s in e["senses"]), f"{e['id']}: blank definition"
+        assert e["tier"] in ("core", "common", "extended"), f"{e['id']}: bad tier"
+        assert e["listCount"] == len(e["sourceLists"]), f"{e['id']}: listCount mismatch"
+        assert e["tier"] == tier_for(e["listCount"]), f"{e['id']}: tier/listCount disagree"
+
+    assert sum(1 for e in entries if e["ipa"]) > len(entries) * 0.8, \
+        "IPA coverage below 80% -- cmudict lookup probably broke"
+
+
+def write_report(entries: list[dict], missing: list[str]) -> None:
+    tiers = Counter(e["tier"] for e in entries)
+    per_list = Counter(s for e in entries for s in e["sourceLists"])
+    no_ipa = [e["id"] for e in entries if not e["ipa"]]
+
+    lines = [
+        "# Dataset report", "",
+        f"- **{len(entries)}** words shipped",
+        f"- core (3+ lists): {tiers['core']} · common (2): {tiers['common']} · extended (1): {tiers['extended']}",
+        f"- IPA coverage: {len(entries) - len(no_ipa)}/{len(entries)}",
+        f"- dropped, no WordNet entry: {len(missing)}", "",
+        "## Words per source list", "",
+        "| List | Words kept |", "|---|---|",
+        *(f"| {k} | {v} |" for k, v in sorted(per_list.items())), "",
+        "## Dropped (no WordNet sense)", "",
+        ", ".join(missing) if missing else "_none_", "",
+        "## No IPA (not in CMUdict)", "",
+        ", ".join(no_ipa) if no_ipa else "_none_", "",
+    ]
+    REPORT.write_text("\n".join(lines))
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--verify-only", action="store_true",
+                    help="validate the committed words.json without rebuilding")
+    args = ap.parse_args()
+
+    if args.verify_only:
+        verify(json.loads(OUT.read_text()))
+        print(f"OK: {OUT.relative_to(ROOT)} passes checks")
+        return 0
+
+    os.environ.setdefault("WN_DATA_DIR", str(CACHE / "wn"))
+    entries, missing = build()
+    verify(entries)
+
+    OUT.write_text(json.dumps(entries, ensure_ascii=False, sort_keys=True,
+                              separators=(",", ":")))
+    write_report(entries, missing)
+
+    print(f"\nWrote {len(entries)} words to {OUT.relative_to(ROOT)} "
+          f"({OUT.stat().st_size // 1024} KB)")
+    print(f"Dropped {len(missing)} without a WordNet sense; see {REPORT.relative_to(ROOT)}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
