@@ -13,6 +13,15 @@ public struct WordDeepDive: Decodable, Equatable, Sendable {
         case etymology, mnemonic, nuance
         case confusableWith = "confusable_with"
     }
+
+    /// Spelled out because the app rebuilds these from its own cache, and a
+    /// synthesised memberwise init would be internal to GRECore.
+    public init(etymology: String, mnemonic: String, nuance: String, confusableWith: [String]) {
+        self.etymology = etymology
+        self.mnemonic = mnemonic
+        self.nuance = nuance
+        self.confusableWith = confusableWith
+    }
 }
 
 public struct CoachSummary: Decodable, Equatable, Sendable {
@@ -23,6 +32,12 @@ public struct CoachSummary: Decodable, Equatable, Sendable {
     private enum CodingKeys: String, CodingKey {
         case summary, encouragement
         case focusAreas = "focus_areas"
+    }
+
+    public init(summary: String, focusAreas: [String], encouragement: String) {
+        self.summary = summary
+        self.focusAreas = focusAreas
+        self.encouragement = encouragement
     }
 }
 
