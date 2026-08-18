@@ -59,3 +59,46 @@ jobs:
             -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
             CODE_SIGNING_ALLOWED=NO \
             | xcbeautify
+
+  ipa:
+    name: Unsigned .ipa
+    runs-on: macos-26
+    needs: app
+    steps:
+      - uses: actions/checkout@v5
+      - name: Select the newest Xcode on the image
+        run: sudo xcode-select -s "$(ls -d /Applications/Xcode*.app | sort -V | tail -1)"
+      - run: brew install xcodegen
+      - working-directory: App
+        run: xcodegen generate
+
+      - name: Archive for a device
+        working-directory: App
+        run: |
+          set -o pipefail
+          xcodebuild archive \
+            -project GRE.xcodeproj \
+            -scheme GRE \
+            -configuration Release \
+            -destination 'generic/platform=iOS' \
+            -archivePath "$RUNNER_TEMP/GRE.xcarchive" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGN_ENTITLEMENTS=""
+
+      - name: Wrap the .app as an unsigned .ipa
+        run: |
+          # An .ipa is just a zip with the .app under Payload/. Unsigned, so it
+          # needs re-signing with your own Apple ID before a device will run it.
+          cd "$RUNNER_TEMP"
+          mkdir -p Payload
+          cp -R GRE.xcarchive/Products/Applications/GRE.app Payload/
+          zip -qry GRE-unsigned.ipa Payload
+          ls -lh GRE-unsigned.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GRE-unsigned-ipa
+          path: ${{ runner.temp }}/GRE-unsigned.ipa
+          retention-days: 30
