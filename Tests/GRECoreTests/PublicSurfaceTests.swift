@@ -26,6 +26,16 @@ import Testing
         _ = CoachSummary(summary: "", focusAreas: [], encouragement: "")
     }
 
+    @Test func sessionItemCanBeBuiltByHandForPracticeOutsideASession() throws {
+        // Writing practice reuses the session's feedback view for a single word,
+        // so it builds a SessionItem itself rather than getting one from the planner.
+        let catalog = try WordCatalog.bundled()
+        let word = try #require(catalog["abate"])
+        let item = SessionItem(card: StudyCard(wordID: word.id), word: word, mode: .defineAndUse)
+        #expect(item.mode == .defineAndUse)
+        #expect(item.word.id == "abate")
+    }
+
     @Test func everyPropertyTheAppReadsIsPubliclyReadable() throws {
         let catalog = try WordCatalog.bundled()
         let word = try #require(catalog["abate"])

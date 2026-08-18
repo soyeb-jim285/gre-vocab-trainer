@@ -58,4 +58,10 @@ public struct SessionItem: Equatable, Sendable {
     public let card: StudyCard
     public let word: Word
     public let mode: StudyMode
+
+    public init(card: StudyCard, word: Word, mode: StudyMode) {
+        self.card = card
+        self.word = word
+        self.mode = mode
+    }
 }
