@@ -20,8 +20,9 @@ import Testing
         _ = OpenRouterClient(apiKey: "")
         _ = GradeResult(
             definitionScore: 1, definitionFeedback: "", sentenceScore: 1,
-            sentenceFeedback: "", correctedSentence: "", rating: .good, missedNuances: []
-        )
+            sentenceFeedback: "", correctedSentence: "", rating: .good,
+            missedNuances: [], memorableSentence: ""
+        ).memorableSentence
         _ = WordDeepDive(etymology: "", mnemonic: "", nuance: "", confusableWith: [])
         _ = CoachSummary(summary: "", focusAreas: [], encouragement: "")
     }
@@ -42,6 +43,8 @@ import Testing
 
         // Word rendering
         _ = (word.id, word.word, word.ipa, word.tier, word.listCount, word.sourceLists, word.senses)
+        _ = (word.zipf, word.difficulty)
+        _ = catalog.words(withDifficulty: .familiar)
         _ = (word.primarySense, word.primaryPartOfSpeech)
         let sense = word.primarySense
         _ = (sense.pos.rawValue, sense.definition, sense.examples, sense.synonyms, sense.antonyms)
@@ -55,7 +58,8 @@ import Testing
         // Scheduling round trip, as the view model does it
         let card = StudyCard(wordID: word.id)
         let settings = SessionSettings(aiEnabled: false)
-        let plan = SessionPlanner.plan(cards: [card], catalog: catalog, settings: settings, now: .now)
+        let plan = SessionPlanner.plan(cards: [card], catalog: catalog, settings: settings,
+                                       recentAccuracy: 72, now: .now)
         for item in plan { _ = (item.card, item.word, item.mode) }
         let scheduled = FSRS().review(card.fsrs, rating: .good, at: .now)
         _ = (scheduled.stability, scheduled.difficulty, scheduled.due,
@@ -73,7 +77,13 @@ import Testing
         _ = StudyMode.allCases.map(\.rawValue)
         _ = StudyMode.allCases.map(\.label)
         _ = StudyMode.allCases.map(\.systemImage)
-        _ = SessionSettings(aiEnabled: true, writingModeAfterReviews: 0, forcedMode: .spelling)
+        _ = SessionSettings(aiEnabled: true, writingModeAfterReviews: 0,
+                            forcedMode: .spelling, newWordOrder: .easiestFirst)
+        _ = NewWordOrder.allCases.map(\.rawValue)
+        _ = WordDifficulty.allCases.sorted()
+        _ = SessionSettings.difficultyCeiling(forAccuracy: 80)
+        _ = CallCost(promptTokens: 1, completionTokens: 2, usd: 0.001).displayCost
+        _ = CallCost(promptTokens: 1, completionTokens: 2, usd: nil).totalTokens
         _ = StudyMode.locallyGraded
         _ = StudyMode.defineAndUse.needsAI
         _ = WordTier.allCases.sorted()

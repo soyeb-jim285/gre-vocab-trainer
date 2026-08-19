@@ -50,16 +50,20 @@ private func fixture(_ name: String) throws -> Data {
 
 /// A chat-completions envelope whose message content is `payload`, as the real
 /// API returns it -- structured output arrives as a JSON *string*, not an object.
-private func completion(_ payload: String) -> String {
+private func completion(_ payload: String, usage: String? = nil) -> String {
     let escaped = String(data: try! JSONEncoder().encode(payload), encoding: .utf8)!
-    return #"{"id":"gen-1","choices":[{"message":{"role":"assistant","content":\#(escaped)}}]}"#
+    let usagePart = usage.map { ",\"usage\":\($0)" } ?? ""
+    return #"{"id":"gen-1","choices":[{"message":{"role":"assistant","content":\#(escaped)}}]\#(usagePart)}"#
 }
+
+private let usageBlock = #"{"prompt_tokens":412,"completion_tokens":96,"total_tokens":508,"cost":0.00031}"#
 
 private let validGradePayload = """
 {"definition_score":82,"definition_feedback":"Close, but you missed the intensity.",\
 "sentence_score":70,"sentence_feedback":"Grammatical but the word is doing no work.",\
 "corrected_sentence":"The storm abated by morning.","overall_rating":3,\
-"missed_nuances":["implies gradual decrease"]}
+"missed_nuances":["implies gradual decrease"],\
+"memorable_sentence":"By dawn the gale had abated to a whisper against the shutters."}
 """
 
 // MARK: - Model listing
@@ -184,6 +188,22 @@ private let validGradePayload = """
         #expect(rating["enum"] as? [Int] == [1, 2, 3, 4])
     }
 
+    @Test func theSchemaAsksForAMemorableSentence() async throws {
+        let body = try await gradeRequestBody()
+        let properties = try #require(
+            (((body["response_format"] as? [String: Any])?["json_schema"] as? [String: Any])?["schema"]
+                as? [String: Any])?["properties"] as? [String: Any]
+        )
+        #expect(properties["memorable_sentence"] != nil)
+    }
+
+    @Test func thePromptAsksForASentenceWorthRemembering() async throws {
+        let body = try await gradeRequestBody()
+        let messages = try #require(body["messages"] as? [[String: Any]])
+        let text = messages.compactMap { $0["content"] as? String }.joined(separator: "\n").lowercased()
+        #expect(text.contains("memorable") || text.contains("remember"))
+    }
+
     @Test func sendsTheChosenModelAndTheApiKey() async throws {
         let transport = StubTransport(json: completion(validGradePayload))
         let client = OpenRouterClient(apiKey: "sk-secret", transport: transport)
@@ -231,6 +251,16 @@ private let validGradePayload = """
         #expect(result.correctedSentence == "The storm abated by morning.")
         #expect(result.missedNuances == ["implies gradual decrease"])
         #expect(result.rating == .good)
+        // A vivid sentence to remember the word by, asked for in the same call
+        // rather than a second one.
+        #expect(result.memorableSentence == "By dawn the gale had abated to a whisper against the shutters.")
+    }
+
+    @Test func aGradeWithoutAMemorableSentenceStillDecodes() throws {
+        // Older cached payloads, and providers that drop an optional field.
+        let payload = #"{"definition_score":50,"sentence_score":50,"overall_rating":2}"#
+        let result = try JSONDecoder().decode(GradeResult.self, from: Data(payload.utf8))
+        #expect(result.memorableSentence.isEmpty)
     }
 
     @Test func clampsScoresAModelPutOutOfRange() async throws {
@@ -298,5 +328,70 @@ private let validGradePayload = """
                 learnerDefinition: "x", learnerSentence: "y", model: "m"
             )
         }
+    }
+}
+
+
+@Suite struct OpenRouterCostTests {
+
+    @Test func asksTheApiToReportWhatTheCallCost() async throws {
+        let transport = StubTransport(json: completion(validGradePayload, usage: usageBlock))
+        let client = OpenRouterClient(apiKey: "sk-test", transport: transport)
+        _ = try await client.gradeWithCost(
+            word: "abate", referenceDefinition: "d", partOfSpeech: "verb",
+            learnerDefinition: "x", learnerSentence: "y", model: "m"
+        )
+        let body = try parseBody(try await transport.requestBodyData())
+        // Without this OpenRouter omits cost from the response entirely.
+        let usage = try #require(body["usage"] as? [String: Any])
+        #expect(usage["include"] as? Bool == true)
+    }
+
+    @Test func reportsTokensAndDollarsSpent() async throws {
+        let transport = StubTransport(json: completion(validGradePayload, usage: usageBlock))
+        let client = OpenRouterClient(apiKey: "sk-test", transport: transport)
+        let (result, cost) = try await client.gradeWithCost(
+            word: "abate", referenceDefinition: "d", partOfSpeech: "verb",
+            learnerDefinition: "x", learnerSentence: "y", model: "m"
+        )
+        #expect(result.definitionScore == 82)
+        let spent = try #require(cost)
+        #expect(spent.promptTokens == 412)
+        #expect(spent.completionTokens == 96)
+        #expect(spent.usd == 0.00031)
+    }
+
+    @Test func aResponseWithoutUsageStillGrades() async throws {
+        // Not every provider reports usage; that must not fail the grade.
+        let transport = StubTransport(json: completion(validGradePayload))
+        let client = OpenRouterClient(apiKey: "sk-test", transport: transport)
+        let (result, cost) = try await client.gradeWithCost(
+            word: "abate", referenceDefinition: "d", partOfSpeech: "verb",
+            learnerDefinition: "x", learnerSentence: "y", model: "m"
+        )
+        #expect(result.definitionScore == 82)
+        #expect(cost == nil)
+    }
+
+    @Test func usageWithoutACostFigureStillReportsTokens() async throws {
+        let noCost = #"{"prompt_tokens":10,"completion_tokens":5,"total_tokens":15}"#
+        let transport = StubTransport(json: completion(validGradePayload, usage: noCost))
+        let client = OpenRouterClient(apiKey: "sk-test", transport: transport)
+        let (_, cost) = try await client.gradeWithCost(
+            word: "a", referenceDefinition: "d", partOfSpeech: "verb",
+            learnerDefinition: "x", learnerSentence: "y", model: "m"
+        )
+        let spent = try #require(cost)
+        #expect(spent.promptTokens == 10)
+        #expect(spent.usd == nil)
+    }
+
+    @Test func formatsTinyAmountsWithoutRoundingThemToZero() {
+        // A grade costs a fraction of a cent; "$0.00" would be useless.
+        #expect(CallCost(promptTokens: 1, completionTokens: 1, usd: 0.00031).displayCost == "0.031¢")
+        #expect(CallCost(promptTokens: 1, completionTokens: 1, usd: 0.0245).displayCost == "2.45¢")
+        #expect(CallCost(promptTokens: 1, completionTokens: 1, usd: 1.5).displayCost == "$1.50")
+        #expect(CallCost(promptTokens: 1, completionTokens: 1, usd: 0).displayCost == "free")
+        #expect(CallCost(promptTokens: 1, completionTokens: 1, usd: nil).displayCost == "—")
     }
 }

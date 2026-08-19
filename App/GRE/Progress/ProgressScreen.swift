@@ -17,6 +17,7 @@ struct ProgressScreen: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 26) {
                 StatRow(cards: cards, catalog: catalog, reviews: reviews)
+                LevelCard(reviews: reviews, order: settings.newWordOrder)
                 if !reviews.isEmpty {
                     AccuracyChart(reviews: reviews)
                     UpcomingChart(cards: cards)
@@ -74,6 +75,64 @@ private struct StatRow: View {
             Stat(value: "\(mature)", label: "Solid", of: "3+ weeks' recall")
             Stat(value: "\(reviews.count)", label: "Reviews", of: "all time")
         }
+    }
+}
+
+/// Where the adaptive order currently has the ceiling, and what grading has cost.
+private struct LevelCard: View {
+    let reviews: [ReviewRecord]
+    let order: NewWordOrder
+
+    private var accuracy: Double? {
+        let recent = reviews.prefix(40)
+        guard recent.count >= 5 else { return nil }
+        return Double(recent.map(\.score).reduce(0, +)) / Double(recent.count)
+    }
+
+    private var spend: Double { reviews.compactMap(\.costUSD).reduce(0, +) }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            HStack {
+                Text("Level")
+                    .font(Theme.label)
+                    .foregroundStyle(Theme.tertiaryText)
+                    .textCase(.uppercase)
+                Spacer()
+                Text(spendLabel)
+                    .font(.footnote)
+                    .foregroundStyle(Theme.tertiaryText)
+                    .monospacedDigit()
+            }
+
+            if let accuracy {
+                let ceiling = SessionSettings.difficultyCeiling(forAccuracy: accuracy)
+                HStack(spacing: 10) {
+                    Text("\(Int(accuracy))%")
+                        .font(Theme.headword(28))
+                        .foregroundStyle(Theme.tint(forScore: Int(accuracy)))
+                    DifficultyBadge(difficulty: ceiling)
+                }
+                Text(order == .adaptive
+                     ? "Recent accuracy. New words reach up to \(ceiling.rawValue) at this rate."
+                     : "Recent accuracy over your last \(min(reviews.count, 40)) answers.")
+                    .font(.footnote)
+                    .foregroundStyle(Theme.secondaryText)
+            } else {
+                Text("Answer a few more and this will show your recent accuracy and how hard the new words are getting.")
+                    .font(Theme.body)
+                    .foregroundStyle(Theme.secondaryText)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .cardSurface()
+    }
+
+    private var spendLabel: String {
+        guard spend > 0 else { return "no grading cost yet" }
+        return spend < 1
+            ? String(format: "%.1f¢ spent on grading", spend * 100)
+            : String(format: "$%.2f spent on grading", spend)
     }
 }
 

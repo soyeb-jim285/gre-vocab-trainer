@@ -27,6 +27,31 @@ public enum WordTier: String, Codable, Sendable, CaseIterable, Comparable {
     }
 }
 
+/// How hard a word is likely to be, from how often it appears in ordinary
+/// English (wordfreq's Zipf scale).
+///
+/// This is a different axis from ``WordTier``, and the two run *opposite* ways:
+/// words carried by many prep lists have a slightly lower median frequency,
+/// because the lists compete on obscurity. Tier answers "how likely is this to
+/// be on the test"; difficulty answers "how likely is the learner to know it".
+public enum WordDifficulty: String, Codable, Sendable, CaseIterable, Comparable {
+    case familiar   // zipf >= 3.5
+    case moderate   // zipf >= 2.9
+    case hard       // zipf >= 2.2
+    case rare       // below that
+
+    private var order: Int {
+        switch self {
+        case .familiar: 0
+        case .moderate: 1
+        case .hard: 2
+        case .rare: 3
+        }
+    }
+
+    public static func < (lhs: Self, rhs: Self) -> Bool { lhs.order < rhs.order }
+}
+
 /// One WordNet sense of a word.
 public struct Sense: Codable, Hashable, Sendable {
     public let pos: PartOfSpeech
@@ -46,6 +71,9 @@ public struct Word: Codable, Identifiable, Hashable, Sendable {
     public let sourceLists: [String]
     public let listCount: Int
     public let tier: WordTier
+    /// Zipf frequency in ordinary English; higher means more familiar.
+    public let zipf: Double
+    public let difficulty: WordDifficulty
 
     /// WordNet orders senses by frequency, so the first one is the sense a
     /// learner is most likely to meet.

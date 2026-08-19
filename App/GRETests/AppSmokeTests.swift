@@ -231,4 +231,59 @@ struct AppSmokeTests {
         settings.setAPIKey(nil)
         #expect(settings.forcedMode == .spelling)
     }
+
+    // MARK: - Difficulty and cost
+
+    @Test func newWordsStartFamiliarAndClimbWithAccuracy() throws {
+        let catalog = try WordCatalog.bundled()
+        let settings = SessionSettings(dailyNewWordLimit: 8, aiEnabled: false, newWordOrder: .adaptive)
+
+        let beginner = SessionPlanner.plan(cards: [], catalog: catalog, settings: settings,
+                                           recentAccuracy: nil, now: .now)
+        #expect(beginner.allSatisfy { $0.word.difficulty == .familiar })
+
+        let strong = SessionPlanner.plan(cards: [], catalog: catalog, settings: settings,
+                                         recentAccuracy: 95, now: .now)
+        // Ceiling rises, but easiest-first still applies, so it must not jump.
+        #expect(strong.first?.word.difficulty == .familiar)
+        #expect(SessionSettings.difficultyCeiling(forAccuracy: 95) == .rare)
+    }
+
+    @Test func recentAccuracyNeedsSomeHistoryBeforeItReportsAnything() throws {
+        let context = try inMemoryContext()
+        let scheduler = FSRS(enableFuzzing: false)
+        #expect(ReviewRecorder.recentAccuracy(in: context) == nil)
+
+        for i in 0..<4 {
+            ReviewRecorder.record(wordID: "w\(i)", mode: .spelling, grade: Grade(score: 100),
+                                  rating: .easy, scheduler: scheduler, in: context)
+        }
+        #expect(ReviewRecorder.recentAccuracy(in: context) == nil, "four answers is not enough to judge by")
+
+        ReviewRecorder.record(wordID: "w5", mode: .spelling, grade: Grade(score: 100),
+                              rating: .easy, scheduler: scheduler, in: context)
+        #expect(ReviewRecorder.recentAccuracy(in: context) == 100)
+    }
+
+    @Test func gradingCostIsStoredAndTotalled() throws {
+        let context = try inMemoryContext()
+        let scheduler = FSRS(enableFuzzing: false)
+        #expect(ReviewRecorder.totalSpend(in: context) == 0)
+
+        ReviewRecorder.record(
+            wordID: "abate", mode: .defineAndUse, grade: Grade(score: 80), rating: .good,
+            scheduler: scheduler, in: context,
+            cost: CallCost(promptTokens: 400, completionTokens: 90, usd: 0.0003)
+        )
+        ReviewRecorder.record(
+            wordID: "laconic", mode: .defineAndUse, grade: Grade(score: 80), rating: .good,
+            scheduler: scheduler, in: context,
+            cost: CallCost(promptTokens: 400, completionTokens: 90, usd: 0.0002)
+        )
+        // A locally-graded answer costs nothing and must not inflate the total.
+        ReviewRecorder.record(wordID: "acumen", mode: .spelling, grade: Grade(score: 100),
+                              rating: .easy, scheduler: scheduler, in: context)
+
+        #expect(abs(ReviewRecorder.totalSpend(in: context) - 0.0005) < 1e-9)
+    }
 }

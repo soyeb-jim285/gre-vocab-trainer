@@ -18,6 +18,7 @@ struct WritingPracticeView: View {
     @State private var definition = ""
     @State private var sentence = ""
     @State private var result: GradeResult?
+    @State private var cost: CallCost?
     @State private var error: String?
     @State private var grading = false
 
@@ -41,15 +42,15 @@ struct WritingPracticeView: View {
                                 detail: result.definitionFeedback,
                                 sentenceFeedback: result.sentenceFeedback,
                                 correctedSentence: result.correctedSentence,
-                                missedNuances: result.missedNuances
+                                missedNuances: result.missedNuances,
+                                memorableSentence: result.memorableSentence,
+                                cost: cost,
+                                showsReference: true
                             ),
                             item: SessionItem(
                                 card: StudyCard(wordID: word.id), word: word, mode: .defineAndUse
                             )
                         )
-                        Text("Reference: \(word.primarySense.definition)")
-                            .font(.footnote)
-                            .foregroundStyle(Theme.tertiaryText)
                     } else {
                         DefineAndUseAnswer(definition: $definition, sentence: $sentence)
                         if let error {
@@ -102,7 +103,7 @@ struct WritingPracticeView: View {
         error = nil
         defer { grading = false }
         do {
-            let graded = try await settings.client().grade(
+            let (graded, spent) = try await settings.client().gradeWithCost(
                 word: word.word,
                 referenceDefinition: word.primarySense.definition,
                 partOfSpeech: word.primarySense.pos.rawValue,
@@ -110,10 +111,11 @@ struct WritingPracticeView: View {
                 learnerSentence: sentence,
                 model: settings.gradingModel
             )
+            cost = spent
             ReviewRecorder.record(
                 wordID: word.id, mode: .defineAndUse,
                 grade: Grade(score: graded.combinedScore), rating: graded.rating,
-                scheduler: settings.scheduler, in: context
+                scheduler: settings.scheduler, in: context, cost: spent
             )
             result = graded
         } catch {

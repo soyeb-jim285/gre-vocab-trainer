@@ -9,11 +9,14 @@ public struct GradeResult: Equatable, Sendable {
     public let correctedSentence: String
     public let rating: FSRSRating
     public let missedNuances: [String]
+    /// A vivid sentence to hang the word on. Asked for in the grading call
+    /// rather than a second one, so it costs nothing extra.
+    public let memorableSentence: String
 
     public init(
         definitionScore: Int, definitionFeedback: String, sentenceScore: Int,
         sentenceFeedback: String, correctedSentence: String, rating: FSRSRating,
-        missedNuances: [String]
+        missedNuances: [String], memorableSentence: String = ""
     ) {
         self.definitionScore = Grade(score: definitionScore).score
         self.definitionFeedback = definitionFeedback
@@ -22,6 +25,7 @@ public struct GradeResult: Equatable, Sendable {
         self.correctedSentence = correctedSentence
         self.rating = rating
         self.missedNuances = missedNuances
+        self.memorableSentence = memorableSentence
     }
 
     /// Knowing the meaning and being able to use it weigh the same.
@@ -37,6 +41,7 @@ extension GradeResult: Decodable {
         case correctedSentence = "corrected_sentence"
         case overallRating = "overall_rating"
         case missedNuances = "missed_nuances"
+        case memorableSentence = "memorable_sentence"
     }
 
     public init(from decoder: Decoder) throws {
@@ -51,7 +56,8 @@ extension GradeResult: Decodable {
             sentenceFeedback: try c.decodeIfPresent(String.self, forKey: .sentenceFeedback) ?? "",
             correctedSentence: try c.decodeIfPresent(String.self, forKey: .correctedSentence) ?? "",
             rating: FSRSRating(rawValue: min(max(raw, 1), 4)) ?? .good,
-            missedNuances: try c.decodeIfPresent([String].self, forKey: .missedNuances) ?? []
+            missedNuances: try c.decodeIfPresent([String].self, forKey: .missedNuances) ?? [],
+            memorableSentence: try c.decodeIfPresent(String.self, forKey: .memorableSentence) ?? ""
         )
     }
 }

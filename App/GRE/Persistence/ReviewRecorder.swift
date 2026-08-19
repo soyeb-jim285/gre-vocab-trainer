@@ -13,7 +13,7 @@ enum ReviewRecorder {
     @discardableResult
     static func record(
         wordID: String, mode: StudyMode, grade: Grade, rating: FSRSRating,
-        scheduler: FSRS, in context: ModelContext, at date: Date = .now
+        scheduler: FSRS, in context: ModelContext, cost: CallCost? = nil, at date: Date = .now
     ) -> CardRecord {
         let record = existing(wordID, in: context) ?? {
             let fresh = CardRecord(wordID: wordID)
@@ -28,10 +28,26 @@ enum ReviewRecorder {
 
         context.insert(ReviewRecord(
             wordID: wordID, reviewedAt: date, mode: mode,
-            score: grade.score, rating: rating
+            score: grade.score, rating: rating, cost: cost
         ))
         try? context.save()
         return record
+    }
+
+    /// Mean score over the learner's most recent answers, which is what the
+    /// adaptive word order reads. Nil until there is enough to judge by.
+    static func recentAccuracy(in context: ModelContext, over count: Int = 40) -> Double? {
+        var descriptor = FetchDescriptor<ReviewRecord>(
+            sortBy: [SortDescriptor(\.reviewedAt, order: .reverse)]
+        )
+        descriptor.fetchLimit = count
+        guard let recent = try? context.fetch(descriptor), recent.count >= 5 else { return nil }
+        return Double(recent.map(\.score).reduce(0, +)) / Double(recent.count)
+    }
+
+    static func totalSpend(in context: ModelContext) -> Double {
+        let all = (try? context.fetch(FetchDescriptor<ReviewRecord>())) ?? []
+        return all.compactMap(\.costUSD).reduce(0, +)
     }
 
     static func existing(_ wordID: String, in context: ModelContext) -> CardRecord? {

@@ -56,13 +56,24 @@ final class ReviewRecord {
     var modeRaw: String = StudyMode.multipleChoice.rawValue
     var score: Int = 0
     var ratingRaw: Int = FSRSRating.good.rawValue
+    /// What the grading call cost, when the provider reported it. Nil for the
+    /// locally-graded modes, which cost nothing.
+    var costUSD: Double?
+    var promptTokens: Int = 0
+    var completionTokens: Int = 0
 
-    init(wordID: String, reviewedAt: Date, mode: StudyMode, score: Int, rating: FSRSRating) {
+    init(
+        wordID: String, reviewedAt: Date, mode: StudyMode, score: Int,
+        rating: FSRSRating, cost: CallCost? = nil
+    ) {
         self.wordID = wordID
         self.reviewedAt = reviewedAt
         self.modeRaw = mode.rawValue
         self.score = score
         self.ratingRaw = rating.rawValue
+        self.costUSD = cost?.usd
+        self.promptTokens = cost?.promptTokens ?? 0
+        self.completionTokens = cost?.completionTokens ?? 0
     }
 
     var mode: StudyMode { StudyMode(rawValue: modeRaw) ?? .multipleChoice }

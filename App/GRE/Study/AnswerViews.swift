@@ -158,6 +158,10 @@ struct FeedbackCard: View {
                 LabelledBlock(title: "Tightened up", text: corrected, italic: true)
             }
 
+            if let memorable = feedback.memorableSentence, !memorable.isEmpty {
+                LabelledBlock(title: "Worth remembering", text: memorable, italic: true)
+            }
+
             if !feedback.missedNuances.isEmpty {
                 Divider().overlay(Theme.hairline)
                 VStack(alignment: .leading, spacing: 8) {
@@ -174,11 +178,93 @@ struct FeedbackCard: View {
                 }
             }
 
+            if feedback.showsReference {
+                Divider().overlay(Theme.hairline)
+                ReferenceBlock(word: item.word)
+            }
+
             Divider().overlay(Theme.hairline)
-            NextReviewNote(word: item.word.word, rating: feedback.rating)
+            HStack {
+                NextReviewNote(word: item.word.word, rating: feedback.rating)
+                Spacer()
+                if let cost = feedback.cost {
+                    // Worth seeing per grade: it is the only recurring cost of
+                    // using the app, and it is easy to pick an expensive model
+                    // without noticing.
+                    Text("\(cost.displayCost) · \(cost.totalTokens) tok")
+                        .font(.footnote)
+                        .foregroundStyle(Theme.tertiaryText)
+                        .monospacedDigit()
+                }
+            }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .cardSurface()
+    }
+}
+
+/// What the dictionary actually says, shown after the model's verdict so the
+/// learner checks their answer against the source rather than against a
+/// paraphrase of it. All of this ships in the bundle, so it costs nothing.
+private struct ReferenceBlock: View {
+    let word: Word
+
+    private var synonyms: [String] {
+        // Deduplicated across senses; the same synonym often appears in several.
+        var seen = Set<String>()
+        return word.senses.flatMap(\.synonyms).filter { seen.insert($0).inserted }
+    }
+
+    private var examples: [String] {
+        Array(word.senses.flatMap(\.examples).prefix(3))
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            VStack(alignment: .leading, spacing: 12) {
+                Text(word.senses.count > 1 ? "What it means" : "The definition")
+                    .font(Theme.label)
+                    .foregroundStyle(Theme.tertiaryText)
+                    .textCase(.uppercase)
+                ForEach(Array(word.senses.enumerated()), id: \.offset) { _, sense in
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text(sense.pos.rawValue)
+                            .font(.caption2)
+                            .foregroundStyle(Theme.accent.opacity(0.8))
+                            .textCase(.uppercase)
+                        Text(sense.definition)
+                            .font(Theme.definition)
+                            .foregroundStyle(Theme.primaryText)
+                    }
+                }
+            }
+
+            if !synonyms.isEmpty {
+                VStack(alignment: .leading, spacing: 6) {
+                    Text("Synonyms")
+                        .font(Theme.label)
+                        .foregroundStyle(Theme.tertiaryText)
+                        .textCase(.uppercase)
+                    Text(synonyms.joined(separator: " · "))
+                        .font(Theme.body)
+                        .foregroundStyle(Theme.secondaryText)
+                }
+            }
+
+            if !examples.isEmpty {
+                VStack(alignment: .leading, spacing: 6) {
+                    Text("In use")
+                        .font(Theme.label)
+                        .foregroundStyle(Theme.tertiaryText)
+                        .textCase(.uppercase)
+                    ForEach(examples, id: \.self) { example in
+                        Text("\u{201C}\(example)\u{201D}")
+                            .font(Theme.definition.italic())
+                            .foregroundStyle(Theme.secondaryText)
+                    }
+                }
+            }
+        }
     }
 }
 

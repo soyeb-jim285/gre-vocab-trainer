@@ -80,11 +80,22 @@ import Testing
         #expect(plan.count == 4)
     }
 
-    @Test func newWordsComeFromTheCoreTierFirst() {
-        let plan = SessionPlanner.plan(cards: [], catalog: Self.catalog,
-                                       settings: settings(newLimit: 8), now: now)
+    @Test func mostTestedOrderIntroducesTheCoreTierFirst() {
+        var s = settings(newLimit: 8)
+        s.newWordOrder = .mostTested
+        let plan = SessionPlanner.plan(cards: [], catalog: Self.catalog, settings: s, now: now)
         let tiers = plan.compactMap { Self.catalog[$0.card.wordID]?.tier }
         #expect(tiers.allSatisfy { $0 == .core }, "got \(Set(tiers))")
+    }
+
+    @Test func theDefaultOrderIsAdaptiveSoBeginnersMeetFamiliarWordsFirst() {
+        // Changed deliberately: tier is exam value, not ease, and the two run
+        // opposite ways -- ordering by tier hands a beginner the obscure words.
+        #expect(SessionSettings().newWordOrder == .adaptive)
+        let plan = SessionPlanner.plan(cards: [], catalog: Self.catalog,
+                                       settings: settings(newLimit: 8), now: now)
+        let difficulties = plan.compactMap { Self.catalog[$0.card.wordID]?.difficulty }
+        #expect(difficulties.allSatisfy { $0 == .familiar }, "got \(Set(difficulties))")
     }
 
     @Test func wordsAlreadyBeingStudiedAreNotIntroducedAgain() {

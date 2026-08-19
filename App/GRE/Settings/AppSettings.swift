@@ -16,6 +16,7 @@ final class AppSettings {
         static let voiceIdentifier = "voiceIdentifier"
         static let writingAfter = "writingModeAfterReviews"
         static let forcedMode = "forcedMode"
+        static let newWordOrder = "newWordOrder"
         static let dailyNewWordLimit = "dailyNewWordLimit"
         static let sessionLength = "sessionLength"
         static let strictness = "gradingStrictness"
@@ -45,6 +46,9 @@ final class AppSettings {
     var forcedMode: StudyMode? {
         didSet { defaults.set(forcedMode?.rawValue, forKey: Key.forcedMode) }
     }
+    var newWordOrder: NewWordOrder {
+        didSet { defaults.set(newWordOrder.rawValue, forKey: Key.newWordOrder) }
+    }
     var dailyNewWordLimit: Int { didSet { defaults.set(dailyNewWordLimit, forKey: Key.dailyNewWordLimit) } }
     var sessionLength: Int { didSet { defaults.set(sessionLength, forKey: Key.sessionLength) } }
     var strictness: GradingStrictness { didSet { defaults.set(strictness.rawValue, forKey: Key.strictness) } }
@@ -64,6 +68,7 @@ final class AppSettings {
         voiceIdentifier = defaults.string(forKey: Key.voiceIdentifier)
         writingModeAfterReviews = defaults.object(forKey: Key.writingAfter) as? Int ?? 3
         forcedMode = StudyMode(rawValue: defaults.string(forKey: Key.forcedMode) ?? "")
+        newWordOrder = NewWordOrder(rawValue: defaults.string(forKey: Key.newWordOrder) ?? "") ?? .adaptive
         dailyNewWordLimit = defaults.object(forKey: Key.dailyNewWordLimit) as? Int ?? 10
         sessionLength = defaults.object(forKey: Key.sessionLength) as? Int ?? 20
         strictness = GradingStrictness(rawValue: defaults.string(forKey: Key.strictness) ?? "") ?? .standard
@@ -85,7 +90,8 @@ final class AppSettings {
             strictness: strictness,
             aiEnabled: hasAPIKey,
             writingModeAfterReviews: writingModeAfterReviews,
-            forcedMode: forcedMode
+            forcedMode: forcedMode,
+            newWordOrder: newWordOrder
         )
     }
 

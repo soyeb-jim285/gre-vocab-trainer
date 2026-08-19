@@ -2,6 +2,7 @@
 
 - **2898** words shipped
 - core (3+ lists): 915 · common (2): 697 · extended (1): 1286
+- familiar: 497 · moderate: 786 · hard: 1001 · rare: 614
 - IPA coverage: 2586/2898
 - dropped, no WordNet entry: 29
 

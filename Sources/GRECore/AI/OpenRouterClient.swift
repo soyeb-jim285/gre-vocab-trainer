@@ -75,10 +75,11 @@ public struct OpenRouterClient: Sendable {
 
     // MARK: - Calls
 
-    public func grade(
+    /// Grades an answer and reports what the call cost.
+    public func gradeWithCost(
         word: String, referenceDefinition: String, partOfSpeech: String,
         learnerDefinition: String, learnerSentence: String, model: String
-    ) async throws -> GradeResult {
+    ) async throws -> (GradeResult, CallCost?) {
         try await complete(
             messages: Prompts.grade(
                 word: word, referenceDefinition: referenceDefinition,
@@ -89,11 +90,22 @@ public struct OpenRouterClient: Sendable {
         )
     }
 
+    public func grade(
+        word: String, referenceDefinition: String, partOfSpeech: String,
+        learnerDefinition: String, learnerSentence: String, model: String
+    ) async throws -> GradeResult {
+        try await gradeWithCost(
+            word: word, referenceDefinition: referenceDefinition,
+            partOfSpeech: partOfSpeech, learnerDefinition: learnerDefinition,
+            learnerSentence: learnerSentence, model: model
+        ).0
+    }
+
     public func deepDive(word: String, definition: String, model: String) async throws -> WordDeepDive {
         try await complete(
             messages: Prompts.deepDive(word: word, definition: definition),
             schemaName: "word_deep_dive", schema: Schemas.deepDive, model: model
-        )
+        ).0
     }
 
     public func weeklyCoach(
@@ -102,14 +114,14 @@ public struct OpenRouterClient: Sendable {
         try await complete(
             messages: Prompts.coach(recentMisses: recentMisses, recentWins: recentWins),
             schemaName: "weekly_coach", schema: Schemas.coach, model: model
-        )
+        ).0
     }
 
     // MARK: - Plumbing
 
     private func complete<T: Decodable>(
         messages: [[String: String]], schemaName: String, schema: [String: Any], model: String
-    ) async throws -> T {
+    ) async throws -> (T, CallCost?) {
         guard !apiKey.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
             throw OpenRouterError.missingAPIKey
         }
@@ -120,6 +132,8 @@ public struct OpenRouterClient: Sendable {
             // Without require_parameters a provider may quietly drop response_format
             // and answer in prose instead.
             "provider": ["require_parameters": true],
+            // Without this OpenRouter omits cost from the response entirely.
+            "usage": ["include": true],
             "response_format": Schemas.responseFormat(name: schemaName, schema: schema),
         ]
 
@@ -159,16 +173,35 @@ public struct OpenRouterClient: Sendable {
             struct Message: Decodable { let content: String? }
             let message: Message
         }
+        struct Usage: Decodable {
+            let promptTokens: Int?
+            let completionTokens: Int?
+            let cost: Double?
+
+            private enum CodingKeys: String, CodingKey {
+                case cost
+                case promptTokens = "prompt_tokens"
+                case completionTokens = "completion_tokens"
+            }
+        }
         let choices: [Choice]
+        let usage: Usage?
     }
 
-    private static func decodeContent<T: Decodable>(from data: Data) throws -> T {
+    private static func decodeContent<T: Decodable>(from data: Data) throws -> (T, CallCost?) {
         let envelope = try JSONDecoder().decode(CompletionEnvelope.self, from: data)
         guard let content = envelope.choices.first?.message.content, !content.isEmpty else {
             throw OpenRouterError.noChoices
         }
+        let cost = envelope.usage.map {
+            CallCost(
+                promptTokens: $0.promptTokens ?? 0,
+                completionTokens: $0.completionTokens ?? 0,
+                usd: $0.cost
+            )
+        }
         do {
-            return try JSONDecoder().decode(T.self, from: Data(content.utf8))
+            return (try JSONDecoder().decode(T.self, from: Data(content.utf8)), cost)
         } catch {
             throw OpenRouterError.unparseableContent(String(content.prefix(200)))
         }

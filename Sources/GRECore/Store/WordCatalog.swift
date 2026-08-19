@@ -20,6 +20,7 @@ public struct WordCatalog: Sendable {
     public let words: [Word]
     private let byID: [String: Word]
     private let byPartOfSpeech: [PartOfSpeech: [Word]]
+    private let byDifficulty: [WordDifficulty: [Word]]
 
     /// Non-throwing: an empty catalog is a legitimate value (it is the
     /// placeholder the app holds before the dataset finishes loading). Rejecting
@@ -28,6 +29,7 @@ public struct WordCatalog: Sendable {
         self.words = words
         self.byID = Dictionary(words.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
         self.byPartOfSpeech = Dictionary(grouping: words, by: \.primaryPartOfSpeech)
+        self.byDifficulty = Dictionary(grouping: words, by: \.difficulty)
     }
 
     /// Load the dataset shipped inside GRECore.
@@ -50,5 +52,9 @@ public struct WordCatalog: Sendable {
 
     public func words(inTier tier: WordTier) -> [Word] {
         words.filter { $0.tier == tier }
+    }
+
+    public func words(withDifficulty difficulty: WordDifficulty) -> [Word] {
+        byDifficulty[difficulty] ?? []
     }
 }

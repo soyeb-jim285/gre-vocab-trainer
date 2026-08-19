@@ -5,14 +5,15 @@ import SwiftUI
 struct WordListView: View {
     @Environment(\.catalog) private var catalog
     @State private var search = ""
-    @State private var tier: WordTier?
+    @State private var difficulty: WordDifficulty?
 
     private var visible: [Word] {
-        var words = tier.map { catalog.words(inTier: $0) } ?? catalog.words
+        var words = difficulty.map { catalog.words(withDifficulty: $0) } ?? catalog.words
         if !search.isEmpty {
             words = words.filter { $0.word.localizedCaseInsensitiveContains(search) }
         }
-        return words
+        // Easiest first, so browsing mirrors the order words are taught in.
+        return words.sorted { $0.zipf != $1.zipf ? $0.zipf > $1.zipf : $0.id < $1.id }
     }
 
     var body: some View {
@@ -26,10 +27,11 @@ struct WordListView: View {
                             Text(word.word)
                                 .font(Theme.headword(19))
                                 .foregroundStyle(Theme.primaryText)
+                            DifficultyBadge(difficulty: word.difficulty)
                             if word.tier == .core {
                                 Image(systemName: "star.fill")
-                                    .font(.system(size: 8))
-                                    .foregroundStyle(Theme.accent)
+                                    .font(.system(size: 7))
+                                    .foregroundStyle(Theme.accent.opacity(0.7))
                             }
                         }
                         Text(word.primarySense.definition)
@@ -46,10 +48,10 @@ struct WordListView: View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Menu {
-                    Picker("Tier", selection: $tier) {
-                        Text("All").tag(WordTier?.none)
-                        ForEach(WordTier.allCases, id: \.self) { t in
-                            Text(label(for: t)).tag(WordTier?.some(t))
+                    Picker("Difficulty", selection: $difficulty) {
+                        Text("All").tag(WordDifficulty?.none)
+                        ForEach(WordDifficulty.allCases, id: \.self) { d in
+                            Text(label(for: d)).tag(WordDifficulty?.some(d))
                         }
                     }
                 } label: {
@@ -59,11 +61,46 @@ struct WordListView: View {
         }
     }
 
-    private func label(for tier: WordTier) -> String {
-        switch tier {
-        case .core: "Core — on 3+ lists"
-        case .common: "Common — on 2 lists"
-        case .extended: "Extended — on 1 list"
+    private func label(for difficulty: WordDifficulty) -> String {
+        switch difficulty {
+        case .familiar: "Familiar — you likely know these"
+        case .moderate: "Moderate"
+        case .hard: "Hard"
+        case .rare: "Rare — seldom seen outside a test"
+        }
+    }
+}
+
+/// A small band marker. The star elsewhere means "on many prep lists", which is
+/// a different thing from difficulty and worth not conflating.
+struct DifficultyBadge: View {
+    let difficulty: WordDifficulty
+
+    var body: some View {
+        Text(label)
+            .font(.system(size: 9, weight: .semibold))
+            .textCase(.uppercase)
+            .padding(.horizontal, 6)
+            .padding(.vertical, 2)
+            .background(tint.opacity(0.16), in: .capsule)
+            .foregroundStyle(tint)
+    }
+
+    private var label: String {
+        switch difficulty {
+        case .familiar: "easy"
+        case .moderate: "med"
+        case .hard: "hard"
+        case .rare: "rare"
+        }
+    }
+
+    private var tint: Color {
+        switch difficulty {
+        case .familiar: Theme.positive
+        case .moderate: Theme.accent
+        case .hard: Color(red: 0.90, green: 0.68, blue: 0.35)
+        case .rare: Theme.negative
         }
     }
 }

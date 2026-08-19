@@ -3,8 +3,11 @@ import Foundation
 /// Builds the study queue: what to show, in what order, tested which way.
 public enum SessionPlanner {
 
+    /// - Parameter recentAccuracy: mean score (0...100) over the learner's recent
+    ///   answers, used only by ``NewWordOrder/adaptive``. Nil means no history.
     public static func plan(
-        cards: [StudyCard], catalog: WordCatalog, settings: SessionSettings, now: Date
+        cards: [StudyCard], catalog: WordCatalog, settings: SessionSettings,
+        recentAccuracy: Double? = nil, now: Date
     ) -> [SessionItem] {
         let studied = Set(cards.map(\.wordID))
 
@@ -19,7 +22,8 @@ public enum SessionPlanner {
 
         let newItems = introductions(
             catalog: catalog, excluding: studied,
-            limit: settings.dailyNewWordLimit, settings: settings
+            limit: settings.dailyNewWordLimit, settings: settings,
+            recentAccuracy: recentAccuracy
         )
 
         // Reviews lead, so truncating here can only ever drop new words --
@@ -27,21 +31,41 @@ public enum SessionPlanner {
         return Array((due + newItems).prefix(settings.sessionLength))
     }
 
-    /// Fresh words, most widely-listed tier first, in a stable order.
+    /// Fresh words, in whichever order the learner asked for, stable across calls.
     private static func introductions(
-        catalog: WordCatalog, excluding studied: Set<String>, limit: Int, settings: SessionSettings
+        catalog: WordCatalog, excluding studied: Set<String>, limit: Int,
+        settings: SessionSettings, recentAccuracy: Double?
     ) -> [SessionItem] {
         guard limit > 0 else { return [] }
-        var picked: [SessionItem] = []
 
-        for tier in WordTier.allCases.sorted() {
-            for word in catalog.words(inTier: tier) where !studied.contains(word.id) {
-                let card = StudyCard(wordID: word.id, fsrs: FSRSCard(), reviewCount: 0)
-                picked.append(SessionItem(card: card, word: word, mode: mode(for: card, settings: settings)))
-                if picked.count == limit { return picked }
+        let candidates: [Word]
+        switch settings.newWordOrder {
+        case .mostTested:
+            // Tier first, which is exam value rather than ease.
+            candidates = catalog.words.sorted {
+                $0.tier != $1.tier ? $0.tier < $1.tier : $0.id < $1.id
             }
+        case .easiestFirst:
+            candidates = byRisingDifficulty(catalog.words)
+        case .adaptive:
+            // Still easiest-first; the ceiling only decides how far up to reach.
+            let ceiling = SessionSettings.difficultyCeiling(forAccuracy: recentAccuracy)
+            candidates = byRisingDifficulty(catalog.words.filter { $0.difficulty <= ceiling })
         }
-        return picked
+
+        return candidates
+            .lazy
+            .filter { !studied.contains($0.id) }
+            .prefix(limit)
+            .map { word in
+                let card = StudyCard(wordID: word.id, fsrs: FSRSCard(), reviewCount: 0)
+                return SessionItem(card: card, word: word, mode: mode(for: card, settings: settings))
+            }
+    }
+
+    /// Most common in ordinary English first; id breaks ties so the order is stable.
+    private static func byRisingDifficulty(_ words: [Word]) -> [Word] {
+        words.sorted { $0.zipf != $1.zipf ? $0.zipf > $1.zipf : $0.id < $1.id }
     }
 
     /// Modes get harder as a word becomes familiar: recognise it, recall it,

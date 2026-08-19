@@ -37,6 +37,7 @@ enum Schemas {
         "corrected_sentence": string,
         "overall_rating": ["type": "integer", "enum": [1, 2, 3, 4]],
         "missed_nuances": stringArray,
+        "memorable_sentence": string,
     ]) }
 
     static var deepDive: [String: Any] { object([

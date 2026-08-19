@@ -113,23 +113,32 @@ struct SessionView: View {
     /// The one place Liquid Glass belongs: a floating control layer over content.
     @ViewBuilder
     private func actionBar(_ model: SessionViewModel) -> some View {
-        if let item = model.current, item.mode != .multipleChoice || isReviewing(model) {
+        if let item = model.current {
             GlassEffectContainer(spacing: 16) {
                 HStack(spacing: 16) {
                     if isReviewing(model) {
                         Button("Next") { model.advance() }
                             .buttonStyle(.glassProminent)
                     } else {
-                        Button("Check") {
-                            switch item.mode {
-                            case .spelling: model.submitSpelling()
-                            case .reverseRecall: model.submitRecall()
-                            case .defineAndUse: Task { await model.submitDefineAndUse() }
-                            case .multipleChoice: break
+                        // Available in every mode, including multiple choice --
+                        // guessing at random teaches nothing and pollutes the
+                        // schedule with answers that were never really known.
+                        Button("I don't know") { model.admitNotKnowing() }
+                            .buttonStyle(.glass)
+                            .foregroundStyle(Theme.secondaryText)
+
+                        if item.mode != .multipleChoice {
+                            Button("Check") {
+                                switch item.mode {
+                                case .spelling: model.submitSpelling()
+                                case .reverseRecall: model.submitRecall()
+                                case .defineAndUse: Task { await model.submitDefineAndUse() }
+                                case .multipleChoice: break
+                                }
                             }
+                            .buttonStyle(.glassProminent)
+                            .disabled(!canSubmit(model, item))
                         }
-                        .buttonStyle(.glassProminent)
-                        .disabled(!canSubmit(model, item))
                     }
                 }
                 .font(.headline)

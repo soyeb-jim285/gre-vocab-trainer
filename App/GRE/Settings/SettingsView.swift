@@ -91,6 +91,18 @@ struct SettingsView: View {
             }
 
             Section {
+                Picker("New words", selection: $settings.newWordOrder) {
+                    Text("Adapt to me").tag(NewWordOrder.adaptive)
+                    Text("Easiest first").tag(NewWordOrder.easiestFirst)
+                    Text("Most tested first").tag(NewWordOrder.mostTested)
+                }
+            } header: {
+                Text("What to learn next")
+            } footer: {
+                Text(newWordOrderExplanation)
+            }
+
+            Section {
                 Stepper("New words a day: \(settings.dailyNewWordLimit)",
                         value: $settings.dailyNewWordLimit, in: 0...50)
                 Stepper("Session length: \(settings.sessionLength)",
@@ -134,6 +146,17 @@ struct SettingsView: View {
 
     @Environment(\.catalog) private var catalog
     private var sampleWord: Word? { catalog["abate"] ?? catalog.words.first }
+
+    private var newWordOrderExplanation: String {
+        switch settings.newWordOrder {
+        case .adaptive:
+            "Starts with the most familiar words and reaches for harder ones as your scores rise."
+        case .easiestFirst:
+            "Most common in ordinary English first, whatever the prep lists say."
+        case .mostTested:
+            "Words carried by the most prep lists first. Highest exam value — but they tend to be the obscure ones, so it's a steeper start."
+        }
+    }
 
     private var currentVoiceLabel: String {
         guard let voice = VoiceCatalog.voice(

@@ -13,6 +13,13 @@ struct AnswerFeedback: Equatable {
     var sentenceFeedback: String?
     var correctedSentence: String?
     var missedNuances: [String] = []
+    var memorableSentence: String?
+    /// What this grade cost, when a model was involved.
+    var cost: CallCost?
+    /// Whether to print the dictionary entry underneath. Worth it after writing,
+    /// where the learner produced the meaning themselves and needs to check it;
+    /// noise after multiple choice, which already showed the definition.
+    var showsReference = false
 }
 
 @Observable
@@ -31,6 +38,10 @@ final class SessionViewModel {
     private(set) var items: [SessionItem] = []
     private(set) var index = 0
     private(set) var phase: Phase = .loading
+    /// Mean score over recent answers; nil until there is enough history.
+    private(set) var recentAccuracy: Double?
+    /// What this session has cost so far.
+    private(set) var sessionSpend: Double = 0
 
     /// Kept so a failed API call can be retried with the same answer.
     var definitionDraft = ""
@@ -58,9 +69,12 @@ final class SessionViewModel {
         phase = .loading
         do {
             let records = try context.fetch(FetchDescriptor<CardRecord>())
+            // The adaptive order reads this to decide how hard the new words
+            // should be, so it has to be recomputed each session.
+            recentAccuracy = ReviewRecorder.recentAccuracy(in: context)
             items = SessionPlanner.plan(
                 cards: records.map(\.studyCard), catalog: catalog,
-                settings: settings.sessionSettings, now: now
+                settings: settings.sessionSettings, recentAccuracy: recentAccuracy, now: now
             )
             index = 0
             resetDrafts()
@@ -128,7 +142,8 @@ final class SessionViewModel {
                 score: grade.score,
                 rating: grade.rating(strictness: settings.strictness),
                 headline: grade.score == 100 ? "Got it" : (grade.score > 0 ? "Close" : "The word was"),
-                detail: item.word.word
+                detail: item.word.word,
+                showsReference: true
             )
         )
     }
@@ -141,7 +156,7 @@ final class SessionViewModel {
         }
         phase = .grading
         do {
-            let result = try await settings.client().grade(
+            let (result, cost) = try await settings.client().gradeWithCost(
                 word: item.word.word,
                 referenceDefinition: item.word.primarySense.definition,
                 partOfSpeech: item.word.primarySense.pos.rawValue,
@@ -149,9 +164,11 @@ final class SessionViewModel {
                 learnerSentence: sentenceDraft,
                 model: settings.gradingModel
             )
+            sessionSpend += cost?.usd ?? 0
             finish(
                 grade: Grade(score: result.combinedScore),
                 rating: result.rating,
+                cost: cost,
                 feedback: AnswerFeedback(
                     score: result.combinedScore,
                     rating: result.rating,
@@ -159,7 +176,10 @@ final class SessionViewModel {
                     detail: result.definitionFeedback,
                     sentenceFeedback: result.sentenceFeedback,
                     correctedSentence: result.correctedSentence,
-                    missedNuances: result.missedNuances
+                    missedNuances: result.missedNuances,
+                    memorableSentence: result.memorableSentence,
+                    cost: cost,
+                    showsReference: true
                 )
             )
         } catch {
@@ -170,6 +190,28 @@ final class SessionViewModel {
         }
     }
 
+    /// Give up on the current card.
+    ///
+    /// Scored zero and rated Again, so the word comes back almost immediately.
+    /// No model call: there is nothing to grade, and paying to be told an empty
+    /// answer is wrong would be absurd.
+    func admitNotKnowing() {
+        guard let item = current else { return }
+        finish(
+            grade: Grade(score: 0),
+            rating: .again,
+            feedback: AnswerFeedback(
+                score: 0,
+                rating: .again,
+                headline: "Let's learn it",
+                detail: item.mode == .reverseRecall || item.mode == .spelling
+                    ? item.word.word
+                    : "",
+                showsReference: true
+            )
+        )
+    }
+
     /// Return to the answer screen with the drafts intact after a failed call.
     func retryAfterFailure() {
         phase = .answering
@@ -178,13 +220,15 @@ final class SessionViewModel {
     // MARK: - Scheduling
 
     /// The model's own rating wins when it gave one; otherwise the score maps.
-    private func finish(grade: Grade, rating: FSRSRating? = nil, feedback: AnswerFeedback) {
+    private func finish(
+        grade: Grade, rating: FSRSRating? = nil, cost: CallCost? = nil, feedback: AnswerFeedback
+    ) {
         guard let item = current else { return }
         let rating = rating ?? grade.rating(strictness: settings.strictness)
 
         ReviewRecorder.record(
             wordID: item.card.wordID, mode: item.mode, grade: grade, rating: rating,
-            scheduler: settings.scheduler, in: context
+            scheduler: settings.scheduler, in: context, cost: cost
         )
         phase = .reviewing(feedback)
     }

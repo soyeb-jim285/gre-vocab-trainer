@@ -53,6 +53,12 @@ SOURCE_LISTS = {
 
 MAX_SENSES = 3
 
+# Zipf frequency bands, from wordfreq. Higher zipf means the word turns up more
+# often in ordinary English, which is a far better proxy for "easy" than how many
+# prep lists carry it -- those correlate *inversely* (words on nine lists have a
+# lower median zipf than words on one, because the lists compete on obscurity).
+DIFFICULTY_BANDS = [(3.5, "familiar"), (2.9, "moderate"), (2.2, "hard"), (0.0, "rare")]
+
 # ARPAbet -> IPA. Stress digits are stripped before lookup.
 ARPABET_IPA = {
     "AA": "ɑ", "AE": "æ", "AH": "ʌ", "AO": "ɔ", "AW": "aʊ", "AY": "aɪ",
@@ -192,6 +198,13 @@ def senses_for(wordnet, word: str) -> list[dict]:
     return [s for s in out if s["definition"]]
 
 
+def difficulty_for(zipf: float) -> str:
+    for threshold, name in DIFFICULTY_BANDS:
+        if zipf >= threshold:
+            return name
+    return "rare"
+
+
 def tier_for(list_count: int) -> str:
     if list_count >= 3:
         return "core"
@@ -215,6 +228,8 @@ def build() -> tuple[list[dict], list[str]]:
                 sources.setdefault(w, set()).add(key)
 
     print(f"  {len(sources)} unique words")
+    from wordfreq import zipf_frequency
+
     print("Attaching WordNet senses...")
     # Morphy falls back to lemmatization only when the surface form misses, so
     # inflected entries resolve while list typos still drop out.
@@ -227,6 +242,7 @@ def build() -> tuple[list[dict], list[str]]:
             missing.append(word)
             continue
         src = sorted(sources[word])
+        zipf = round(zipf_frequency(word, "en"), 2)
         entries.append({
             "id": word,
             "word": word,
@@ -235,6 +251,8 @@ def build() -> tuple[list[dict], list[str]]:
             "sourceLists": src,
             "listCount": len(src),
             "tier": tier_for(len(src)),
+            "zipf": zipf,
+            "difficulty": difficulty_for(zipf),
         })
     return entries, missing
 
@@ -255,13 +273,23 @@ def verify(entries: list[dict]) -> None:
         assert e["tier"] in ("core", "common", "extended"), f"{e['id']}: bad tier"
         assert e["listCount"] == len(e["sourceLists"]), f"{e['id']}: listCount mismatch"
         assert e["tier"] == tier_for(e["listCount"]), f"{e['id']}: tier/listCount disagree"
+        assert e["difficulty"] in ("familiar", "moderate", "hard", "rare"), \
+            f"{e['id']}: bad difficulty"
+        assert e["difficulty"] == difficulty_for(e["zipf"]), \
+            f"{e['id']}: difficulty disagrees with zipf"
 
     assert sum(1 for e in entries if e["ipa"]) > len(entries) * 0.8, \
         "IPA coverage below 80% -- cmudict lookup probably broke"
+    assert sum(1 for e in entries if e["zipf"] > 0) > len(entries) * 0.9, \
+        "frequency coverage below 90% -- wordfreq lookup probably broke"
+    # Every band must be populated, or ordering by difficulty does nothing.
+    bands = {e["difficulty"] for e in entries}
+    assert bands == {"familiar", "moderate", "hard", "rare"}, f"missing bands: {bands}"
 
 
 def write_report(entries: list[dict], missing: list[str]) -> None:
     tiers = Counter(e["tier"] for e in entries)
+    difficulties = Counter(e["difficulty"] for e in entries)
     per_list = Counter(s for e in entries for s in e["sourceLists"])
     no_ipa = [e["id"] for e in entries if not e["ipa"]]
 
@@ -269,6 +297,8 @@ def write_report(entries: list[dict], missing: list[str]) -> None:
         "# Dataset report", "",
         f"- **{len(entries)}** words shipped",
         f"- core (3+ lists): {tiers['core']} · common (2): {tiers['common']} · extended (1): {tiers['extended']}",
+        f"- familiar: {difficulties['familiar']} · moderate: {difficulties['moderate']} "
+        f"· hard: {difficulties['hard']} · rare: {difficulties['rare']}",
         f"- IPA coverage: {len(entries) - len(no_ipa)}/{len(entries)}",
         f"- dropped, no WordNet entry: {len(missing)}", "",
         "## Words per source list", "",

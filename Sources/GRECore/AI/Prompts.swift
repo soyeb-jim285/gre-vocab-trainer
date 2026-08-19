@@ -22,6 +22,10 @@ enum Prompts {
                 of the word -- a grammatical sentence where the word carries no weight \
                 scores poorly. Keep feedback to one or two sentences, addressed to the \
                 learner. Return the corrected sentence even when the original was fine.
+
+                Finish with one memorable sentence of your own: concrete, vivid, and \
+                built so the word's meaning is obvious from the situation rather than \
+                stated. It should be worth remembering, not a dictionary example.
                 """,
             ],
             [
