@@ -10,7 +10,7 @@ struct GREApp: App {
 
     private let container: ModelContainer = {
         do {
-            return try ModelContainer(for: CardRecord.self, ReviewRecord.self, DeepDiveRecord.self)
+            return try ModelContainer(for: CardRecord.self, ReviewRecord.self, DeepDiveRecord.self, QuizRecord.self)
         } catch {
             fatalError("Could not open the local store: \(error)")
         }

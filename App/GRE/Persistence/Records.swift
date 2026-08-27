@@ -101,3 +101,20 @@ final class DeepDiveRecord {
         self.fetchedAt = fetchedAt
     }
 }
+
+/// One finished test, for the deck's best score.
+@Model
+final class QuizRecord {
+    /// Nil for a test over everything studied.
+    var deckID: String?
+    var score: Int = 0
+    var wordCount: Int = 0
+    var takenAt: Date = Date.distantPast
+
+    init(deckID: String?, score: Int, wordCount: Int, takenAt: Date) {
+        self.deckID = deckID
+        self.score = score
+        self.wordCount = wordCount
+        self.takenAt = takenAt
+    }
+}

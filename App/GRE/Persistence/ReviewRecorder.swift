@@ -45,6 +45,17 @@ enum ReviewRecorder {
         return Double(recent.map(\.score).reduce(0, +)) / Double(recent.count)
     }
 
+    /// Every card keyed by word, which is how decks and the planner read them.
+    static func cardsByID(in context: ModelContext) -> [String: StudyCard] {
+        let records = (try? context.fetch(FetchDescriptor<CardRecord>())) ?? []
+        return Dictionary(records.map { ($0.wordID, $0.studyCard) }, uniquingKeysWith: { a, _ in a })
+    }
+
+    static func bestQuizScore(deckID: String?, in context: ModelContext) -> Int? {
+        let all = (try? context.fetch(FetchDescriptor<QuizRecord>())) ?? []
+        return all.filter { $0.deckID == deckID }.map(\.score).max()
+    }
+
     static func totalSpend(in context: ModelContext) -> Double {
         let all = (try? context.fetch(FetchDescriptor<ReviewRecord>())) ?? []
         return all.compactMap(\.costUSD).reduce(0, +)
