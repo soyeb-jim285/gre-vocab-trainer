@@ -369,20 +369,35 @@ struct AppSmokeTests {
         #expect(sentence.isEmpty == false)
     }
 
-    @Test func choosingTheEverydayMeaningIsMarkedWrong() throws {
+    @Test func choosingTheWrongMeaningIsMarkedWrong() throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
         model.start()
+        let item = try #require(model.current)
 
-        let word = try #require(catalog["flag"])
-        let item = SessionItem(card: StudyCard(wordID: word.id), word: word, mode: .senseInContext)
-        // Put the planner's item aside and answer this one directly.
-        model.submitSense(word.teachingDefinition)
+        // Graded against the card actually on screen, so drive it through the model.
+        let wrong = try #require(
+            model.senseOptions(for: item).first { $0 != item.word.teachingDefinition }
+        )
+        model.submitSense(wrong)
+        guard case let .reviewing(feedback) = model.phase else { Issue.record("expected review"); return }
+        #expect(feedback.score == 0)
+        #expect(feedback.showsReference, "the whole point is to show the tested meaning")
+    }
+
+    @Test func choosingTheTestedMeaningScoresFull() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        model.start()
+        let item = try #require(model.current)
+
+        model.submitSense(item.word.teachingDefinition)
         guard case let .reviewing(feedback) = model.phase else { Issue.record("expected review"); return }
         #expect(feedback.score == 100)
-        _ = item
     }
 
     // MARK: - Reset
