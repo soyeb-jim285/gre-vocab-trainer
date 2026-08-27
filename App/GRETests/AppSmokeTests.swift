@@ -12,7 +12,7 @@ struct AppSmokeTests {
 
     private func inMemoryContext() throws -> ModelContext {
         let container = try ModelContainer(
-            for: CardRecord.self, ReviewRecord.self, DeepDiveRecord.self,
+            for: CardRecord.self, ReviewRecord.self, DeepDiveRecord.self, QuizRecord.self,
             configurations: ModelConfiguration(isStoredInMemoryOnly: true)
         )
         return ModelContext(container)
@@ -40,13 +40,11 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        settings.dailyNewWordLimit = 3
-        settings.sessionLength = 5
 
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
         model.start()
 
-        #expect(model.items.count == 3)
+        #expect(model.current != nil)
         let first = try #require(model.current)
         #expect(first.mode == .multipleChoice)
 
@@ -68,7 +66,6 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        settings.dailyNewWordLimit = 2
 
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
         model.start()
@@ -88,14 +85,16 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        settings.dailyNewWordLimit = 12
 
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
         model.start()
-        for item in model.items {
+        for _ in 0..<12 {
+            let item = try #require(model.current)
             let options = model.multipleChoiceOptions(for: item)
             #expect(options.count == 4, "\(item.word.id) offered \(options.count) options")
             #expect(options.contains { $0.id == item.word.id }, "\(item.word.id) was not among its own options")
+            model.submitMultipleChoice(item.word)
+            model.advance()
         }
     }
 
@@ -143,13 +142,15 @@ struct AppSmokeTests {
 
     @Test func writingModeIsReachableImmediatelyWhenTheThresholdIsZero() throws {
         let catalog = try WordCatalog.bundled()
-        var settings = SessionSettings(dailyNewWordLimit: 3, aiEnabled: true, writingModeAfterReviews: 0)
-        var plan = SessionPlanner.plan(cards: [], catalog: catalog, settings: settings, now: .now)
-        #expect(plan.allSatisfy { $0.mode == .defineAndUse })
-
-        settings.writingModeAfterReviews = 3
-        plan = SessionPlanner.plan(cards: [], catalog: catalog, settings: settings, now: .now)
-        #expect(plan.allSatisfy { $0.mode == .multipleChoice })
+        func firstMode(writingAfter: Int) -> StudyMode? {
+            SessionPlanner.next(
+                cards: [], catalog: catalog,
+                settings: SessionSettings(aiEnabled: true, writingModeAfterReviews: writingAfter),
+                scheduler: FSRS(), recentAccuracy: nil, recentWordIDs: [], now: .now
+            )?.mode
+        }
+        #expect(firstMode(writingAfter: 0) == .defineAndUse)
+        #expect(firstMode(writingAfter: 3) == .multipleChoice)
     }
 
     @Test func practisingAWordOutsideASessionSchedulesItTheSameWay() throws {
@@ -196,25 +197,22 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        settings.dailyNewWordLimit = 5
         settings.forcedMode = .spelling
 
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
         model.start()
-        #expect(model.items.isEmpty == false)
-        #expect(model.items.allSatisfy { $0.mode == .spelling })
+        #expect(model.current?.mode == .spelling)
     }
 
     @Test func autoRestoresTheLadder() throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        settings.dailyNewWordLimit = 5
         settings.forcedMode = nil
 
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
         model.start()
-        #expect(model.items.allSatisfy { $0.mode == .multipleChoice })
+        #expect(model.current?.mode == .multipleChoice)
     }
 
     @Test func removingTheKeyClearsAForcedWritingMode() {
@@ -234,19 +232,47 @@ struct AppSmokeTests {
 
     // MARK: - Difficulty and cost
 
-    @Test func newWordsStartFamiliarAndClimbWithAccuracy() throws {
+    @Test func aMissedWordDoesNotRepeatBackToBackAndTheDeckPointerMoves() throws {
+        let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
-        let settings = SessionSettings(dailyNewWordLimit: 8, aiEnabled: false, newWordOrder: .adaptive)
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        model.start()
+        let missed = try #require(model.current)
+        model.admitNotKnowing()
+        model.advance()
+        // Rated Again → due in a minute, so within this synchronous test it is
+        // not yet due; the planner's controlled-clock tests cover the return.
+        var seen: [String] = []
+        for _ in 0..<6 {
+            guard let item = model.current else { break }
+            seen.append(item.word.id)
+            model.submitMultipleChoice(item.word)
+            model.advance()
+        }
+        #expect(seen.contains(missed.word.id) == false, "the same word should not repeat back-to-back")
+        #expect(settings.currentDeckID == catalog.decks[0].id)
+    }
 
-        let beginner = SessionPlanner.plan(cards: [], catalog: catalog, settings: settings,
-                                           recentAccuracy: nil, now: .now)
-        #expect(beginner.allSatisfy { $0.word.difficulty == .familiar })
-
-        let strong = SessionPlanner.plan(cards: [], catalog: catalog, settings: settings,
-                                         recentAccuracy: 95, now: .now)
-        // Ceiling rises, but easiest-first still applies, so it must not jump.
-        #expect(strong.first?.word.difficulty == .familiar)
-        #expect(SessionSettings.difficultyCeiling(forAccuracy: 95) == .rare)
+    @Test func aDeckTestRecordsItsScore() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let deck = catalog.decks[0]
+        for id in deck.wordIDs.prefix(5) {
+            ReviewRecorder.record(wordID: id, mode: .multipleChoice, grade: Grade(score: 100),
+                                  rating: .good, scheduler: FSRS(), in: context)
+        }
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, quiz: .deck(deck))
+        model.start()
+        #expect(model.progress == 0)
+        while let item = model.current {
+            model.submitMultipleChoice(item.word)
+            model.advance()
+        }
+        guard case let .finished(summary) = model.phase else { Issue.record("expected finished"); return }
+        #expect(summary.answered == 5 && summary.meanScore == 100 && summary.isQuiz)
+        #expect(ReviewRecorder.bestQuizScore(deckID: deck.id, in: context) == 100)
     }
 
     @Test func recentAccuracyNeedsSomeHistoryBeforeItReportsAnything() throws {

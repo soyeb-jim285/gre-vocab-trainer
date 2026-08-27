@@ -17,8 +17,24 @@ stop wasting your time.
 | Spelling | Hear it in your chosen accent, type it | locally, free |
 | Define & use | Write a definition and a sentence | a model, via OpenRouter |
 
-Modes climb as a word becomes familiar. **Without an API key the first three work
-fully** — only the graded mode is locked.
+Modes climb as a word's memory gets stronger: recognise it, recall it, spell it,
+then write with it. **Without an API key the first three work fully** — only the
+graded mode is locked.
+
+## Pace and decks
+
+There is no daily quota. A session runs until you stop: due reviews first (the
+ones you are most likely to have forgotten), then new words from your current
+deck. A word you miss comes back within minutes; the number of half-learned words
+in flight follows your recent accuracy, so a bad day slows the intake instead of
+burying you.
+
+The 2,898 words are split into decks of ~25 — **Core** (on 3+ prep lists),
+**Common** (2), **Extended** (1), easiest first inside each tier. Every word has a
+mastery level read off its FSRS stability (new → learning → familiar → known →
+mastered), decks show a ring of that, and each deck can be tested once you've
+studied five of its words. "Test everything I know" samples the words you are
+most likely to have forgotten.
 
 ## The word list
 
@@ -46,7 +62,7 @@ need a Mac. CI builds the app on `macos-26`.
 
 ```sh
 tools/setup-linux-toolchain.sh   # Swift + the libraries Arch names differently
-. ./env.sh && swift test         # 94 tests
+. ./env.sh && swift test         # 147 tests
 python3 tools/build_dataset.py   # regenerate the word dataset
 ```
 
