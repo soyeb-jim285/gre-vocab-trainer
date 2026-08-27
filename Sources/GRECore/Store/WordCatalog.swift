@@ -21,6 +21,9 @@ public struct WordCatalog: Sendable {
     private let byID: [String: Word]
     private let byPartOfSpeech: [PartOfSpeech: [Word]]
     private let byDifficulty: [WordDifficulty: [Word]]
+    public let decks: [Deck]
+    private let deckByWord: [String: String]
+    private let deckByID: [String: Deck]
 
     /// Non-throwing: an empty catalog is a legitimate value (it is the
     /// placeholder the app holds before the dataset finishes loading). Rejecting
@@ -30,6 +33,13 @@ public struct WordCatalog: Sendable {
         self.byID = Dictionary(words.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
         self.byPartOfSpeech = Dictionary(grouping: words, by: \.primaryPartOfSpeech)
         self.byDifficulty = Dictionary(grouping: words, by: \.difficulty)
+        self.decks = WordTier.allCases.sorted().flatMap { tier in
+            Deck.chunk(words.filter { $0.tier == tier }, tier: tier)
+        }
+        self.deckByID = Dictionary(uniqueKeysWithValues: decks.map { ($0.id, $0) })
+        self.deckByWord = Dictionary(uniqueKeysWithValues: decks.flatMap { deck in
+            deck.wordIDs.map { ($0, deck.id) }
+        })
     }
 
     /// Load the dataset shipped inside GRECore.
@@ -56,5 +66,15 @@ public struct WordCatalog: Sendable {
 
     public func words(withDifficulty difficulty: WordDifficulty) -> [Word] {
         byDifficulty[difficulty] ?? []
+    }
+
+    public func deck(id: String) -> Deck? { deckByID[id] }
+
+    public func deck(containing wordID: String) -> Deck? {
+        deckByWord[wordID].flatMap { deckByID[$0] }
+    }
+
+    public func decks(inTier tier: WordTier) -> [Deck] {
+        decks.filter { $0.tier == tier }
     }
 }
