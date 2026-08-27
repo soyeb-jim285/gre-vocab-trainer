@@ -53,6 +53,11 @@ SOURCE_LISTS = {
 
 MAX_SENSES = 3
 GRE_SENSES = ROOT / "tools" / "gre_senses.json"
+# Magoosh's own basic/intermediate/advanced banding and level number for the 991
+# words in their vocabulary app. Their sentences and answer options are theirs;
+# which band a word sits in is an ordering fact, and a better teaching order than
+# raw frequency for the words it covers.
+MAGOOSH_LEVELS = ROOT / "tools" / "magoosh_levels.json"
 POS_LETTER = {"noun": "n", "verb": "v", "adjective": "a", "adverb": "r"}
 
 # Zipf frequency bands, from wordfreq. Higher zipf means the word turns up more
@@ -194,6 +199,12 @@ def load_gre_senses() -> dict[str, dict]:
     return json.loads(GRE_SENSES.read_text(encoding="utf-8"))
 
 
+def load_magoosh_levels() -> dict[str, dict]:
+    if not MAGOOSH_LEVELS.exists():
+        return {}
+    return json.loads(MAGOOSH_LEVELS.read_text(encoding="utf-8"))
+
+
 def senses_for(wordnet, word: str, gre: dict | None = None) -> list[dict]:
     out = []
     # Instances are proper nouns (Margaret Court the tennis player, Ravel the
@@ -255,6 +266,7 @@ def build() -> tuple[list[dict], list[str]]:
     from wordfreq import zipf_frequency
 
     gre_senses = load_gre_senses()
+    levels = load_magoosh_levels()
     print(f"Attaching WordNet senses ({len(gre_senses)} hand-written GRE senses)...")
     # Morphy falls back to lemmatization only when the surface form misses, so
     # inflected entries resolve while list typos still drop out.
@@ -280,6 +292,7 @@ def build() -> tuple[list[dict], list[str]]:
             "zipf": zipf,
             "difficulty": difficulty_for(zipf),
             **({"gre": gre} if gre else {}),
+            **({"magoosh": levels[word]} if word in levels else {}),
         })
     return entries, missing
 
@@ -296,6 +309,9 @@ def verify(entries: list[dict]) -> None:
 
     for e in entries:
         assert e["senses"], f"{e['id']}: no senses"
+        if m := e.get("magoosh"):
+            assert m["band"] in ("basic", "common", "advanced"), f"{e['id']}: bad band"
+            assert 1 <= m["level"] <= 10, f"{e['id']}: bad level"
         if g := e.get("gre"):
             assert g["pos"] in POS_LETTER, f"{e['id']}: bad gre pos"
             assert g["definition"] and len(g["sentences"]) >= 1, f"{e['id']}: thin gre sense"

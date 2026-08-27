@@ -1,222 +1,3623 @@
 {
- "dovetail": {"pos": "verb", "definition": "to fit together neatly", "synonyms": ["interlock", "mesh", "coincide"], "antonyms": ["clash", "conflict"], "sentences": ["Her findings dovetailed with his so precisely that reviewers suspected collaboration.", "The joint is named for a bird's tail, and it holds without a single nail."]},
- "dowdy": {"pos": "adjective", "definition": "dull and unfashionable in appearance", "synonyms": ["frumpy", "drab", "unstylish"], "antonyms": ["chic", "elegant"], "sentences": ["She dressed dowdy on purpose, having learned what being noticed cost her.", "The dowdy little building housed the most expensive art in the county."]},
- "draconian": {"pos": "adjective", "definition": "excessively harsh and severe", "synonyms": ["punitive", "stringent", "oppressive"], "antonyms": ["lenient", "lax"], "sentences": ["The draconian penalties for late returns emptied the library rather than filled it.", "Draco's Athenian code punished stealing a cabbage with death, and lent his name to every harsh law since."]},
- "dregs": {"pos": "noun", "definition": "the worthless remainder; sediment", "synonyms": ["residue", "sediment", "remnants"], "antonyms": ["cream", "elite"], "sentences": ["By midnight only the dregs of the conference remained, arguing about fonts.", "He drank the dregs and pretended, loudly, to enjoy them."]},
- "droll": {"pos": "adjective", "definition": "amusing in an odd, dry way", "synonyms": ["wry", "whimsical", "waggish"], "antonyms": ["earnest", "humorless"], "sentences": ["His droll account of the disaster made everyone laugh and nobody feel better.", "A droll remark delivered without a smile is the most efficient joke available."]},
- "dubious": {"pos": "adjective", "definition": "doubtful or of questionable value", "synonyms": ["questionable", "suspect", "skeptical"], "antonyms": ["certain", "trustworthy"], "sentences": ["He earned the dubious honor of being cited most often as a warning.", "The dubious expression on her face preceded the objection by a full minute."]},
- "dulcet": {"pos": "adjective", "definition": "sweet and soothing in sound", "synonyms": ["mellifluous", "melodious", "honeyed"], "antonyms": ["harsh", "grating"], "sentences": ["The dulcet tones of the announcer failed to make the delay any shorter.", "Dulcet shares a root with \"dolce\": it is sugar for the ear."]},
- "dupe": {"pos": "verb", "definition": "to deceive or trick", "synonyms": ["swindle", "hoodwink", "gull"], "antonyms": ["undeceive", "enlighten"], "sentences": ["Two museums were duped by the same forger using the same catalogue trick.", "He was duped by a website whose only flaw was a missing letter in the address."]},
- "duplicitous": {"pos": "adjective", "definition": "deliberately deceptive; two-faced", "synonyms": ["deceitful", "double-dealing", "treacherous"], "antonyms": ["honest", "straightforward"], "sentences": ["The duplicitous memo praised the team it was quietly recommending be dissolved.", "Duplicitous behavior needs a good memory, which is why most of it fails."]},
- "duplicity": {"pos": "noun", "definition": "deceitfulness; double-dealing", "synonyms": ["deceit", "guile", "double-dealing"], "antonyms": ["honesty", "candor"], "sentences": ["The duplicity was not in what he said but in what he let everyone assume.", "Duplicity means twofold: one face for you and one for the room next door."]},
- "duress": {"pos": "noun", "definition": "coercion by threat or force", "synonyms": ["coercion", "compulsion", "constraint"], "antonyms": ["free will", "consent"], "sentences": ["A confession signed under duress is worth precisely nothing in court.", "He claimed duress; the emails suggested enthusiasm."]},
- "dutiful": {"pos": "adjective", "definition": "conscientiously fulfilling obligations", "synonyms": ["conscientious", "obedient", "devoted"], "antonyms": ["negligent", "remiss"], "sentences": ["A dutiful phone call every Sunday for thirty years, never once a minute late.", "Dutiful applause is distinguishable from real applause by its punctuality."]},
- "dwell": {"pos": "verb", "definition": "to linger on a subject; to reside", "synonyms": ["linger", "brood", "reside"], "antonyms": ["ignore", "dismiss"], "sentences": ["Do not dwell on the error, said the man who had dwelt on it for nine years.", "They dwelt in one room and told the story as if it had been an adventure."]},
- "dwindling": {"pos": "adjective", "definition": "steadily decreasing", "synonyms": ["diminishing", "waning", "shrinking"], "antonyms": ["growing", "burgeoning"], "sentences": ["A dwindling audience is quieter than an angry one and much worse.", "Dwindling reserves forced a decision three governments had deferred."]},
- "dynamo": {"pos": "noun", "definition": "an extremely energetic person", "synonyms": ["powerhouse", "livewire"], "antonyms": ["sluggard"], "sentences": ["The office dynamo organized two conferences and one wedding in a single quarter.", "The word borrowed from generators, which is fair: both convert motion into output."]},
- "dyspeptic": {"pos": "adjective", "definition": "irritable and gloomy", "synonyms": ["irascible", "morose", "peevish"], "antonyms": ["genial", "sunny"], "sentences": ["His dyspeptic reviews were feared, quoted, and secretly enjoyed by their victims.", "Dyspeptic literally means bad digestion, which explains a great deal of criticism."]},
- "earnest": {"pos": "adjective", "definition": "sincere and serious in intention", "synonyms": ["sincere", "fervent", "solemn"], "antonyms": ["flippant", "insincere"], "sentences": ["His earnest defense of the project was more persuasive than any of its data.", "Earnest students ask questions; brilliant ones ask the same question twice."]},
- "ebb": {"pos": "verb", "definition": "to decline or recede", "synonyms": ["recede", "wane", "subside"], "antonyms": ["flow", "surge"], "sentences": ["Support ebbed quietly over two years and vanished in a single vote.", "The tide ebbs whether or not the argument on the beach has finished."]},
- "ebullient": {"pos": "adjective", "definition": "cheerful and full of energy", "synonyms": ["exuberant", "buoyant", "effervescent"], "antonyms": ["morose", "subdued"], "sentences": ["Ebullient after the result, he offered to buy dinner for forty people.", "The word means boiling over, which is exactly what such moods do to a room."]},
- "eccentric": {"pos": "adjective", "definition": "unconventional and slightly strange", "synonyms": ["idiosyncratic", "quirky", "unorthodox"], "antonyms": ["conventional", "ordinary"], "sentences": ["An eccentric millionaire left his fortune to a cat and his letters to a university.", "Eccentric means off-center; the rich get called eccentric and the poor get called something else."]},
- "echelon": {"pos": "noun", "definition": "a level or rank within an organization", "synonyms": ["tier", "rank", "stratum"], "antonyms": [], "sentences": ["Decisions made in the upper echelons arrived downstairs as weather.", "She reached the highest echelon and found the view mostly of meetings."]},
- "eclectic": {"pos": "adjective", "definition": "drawing from a wide variety of sources", "synonyms": ["varied", "wide-ranging", "catholic"], "antonyms": ["narrow", "uniform"], "sentences": ["His eclectic library held medieval theology beside a manual for outboard motors.", "An eclectic playlist is either sophisticated or unfinished, depending on the guests."]},
- "eclipse": {"pos": "verb", "definition": "to surpass or overshadow", "synonyms": ["outshine", "overshadow", "surpass"], "antonyms": ["trail", "lag"], "sentences": ["Her second novel eclipsed the first so thoroughly that reprints changed the cover.", "The scandal eclipsed a genuinely important reform announced the same morning."]},
- "economical": {"pos": "adjective", "definition": "thrifty; avoiding waste", "synonyms": ["frugal", "sparing", "efficient"], "antonyms": ["wasteful", "extravagant"], "sentences": ["His prose is economical: no sentence carries a passenger.", "He was economical with the truth, which is the polite phrase for lying."]},
- "economy": {"pos": "noun", "definition": "efficient use of resources; a financial system", "synonyms": ["thrift", "frugality", "system"], "antonyms": ["waste", "extravagance"], "sentences": ["The film's economy is astonishing: ninety minutes, four sets, one idea.", "False economy is saving eleven pounds now and spending nine hundred in March."]},
- "edict": {"pos": "noun", "definition": "an official order issued by authority", "synonyms": ["decree", "proclamation", "ordinance"], "antonyms": [], "sentences": ["The edict banned the practice on Monday and was quietly unenforced by Thursday.", "One edict from the head office ended twenty years of local custom."]},
- "edifice": {"pos": "noun", "definition": "a large imposing building or system", "synonyms": ["structure", "building", "framework"], "antonyms": [], "sentences": ["The whole legal edifice rests on a statute nobody has read since 1961.", "The edifice took forty years to build and eleven seconds to fall."]},
- "edify": {"pos": "verb", "definition": "to instruct morally or intellectually", "synonyms": ["enlighten", "instruct", "improve"], "antonyms": ["corrupt", "mislead"], "sentences": ["The lecture was designed to edify and succeeded mainly in emptying the room.", "Edify shares a root with edifice: it is building, but for the mind."]},
- "edifying": {"pos": "adjective", "definition": "instructive and morally improving", "synonyms": ["instructive", "enlightening", "uplifting"], "antonyms": ["corrupting", "degrading"], "sentences": ["The scandal was not edifying, though everyone found it educational.", "An edifying book and an enjoyable one occasionally arrive in the same volume."]},
- "effacing": {"pos": "adjective", "definition": "erasing or keeping oneself unnoticed", "synonyms": ["self-effacing", "modest", "retiring"], "antonyms": ["boastful", "assertive"], "sentences": ["Her self-effacing introduction understated a career of considerable brilliance.", "Time is effacing the inscription faster than the conservators can read it."]},
- "effervescence": {"pos": "noun", "definition": "lively enthusiasm; bubbling", "synonyms": ["vivacity", "exuberance", "fizz"], "antonyms": ["flatness", "lethargy"], "sentences": ["Her effervescence survived a nine-hour flight and two cancelled connections.", "The wine lost its effervescence, and the party its point, at roughly the same hour."]},
- "effervescent": {"pos": "adjective", "definition": "lively and enthusiastic; bubbly", "synonyms": ["vivacious", "ebullient", "sparkling"], "antonyms": ["flat", "listless"], "sentences": ["The effervescent host kept a difficult table talking for four hours.", "Effervescent charm is exhausting to sustain and instantly missed when it stops."]},
- "effete": {"pos": "adjective", "definition": "weak and worn out; over-refined", "synonyms": ["decadent", "enfeebled", "exhausted"], "antonyms": ["vigorous", "robust"], "sentences": ["He dismissed the whole department as effete, having failed twice to join it.", "An effete aristocracy is the standard villain of every revolution's pamphlets."]},
- "efficacious": {"pos": "adjective", "definition": "producing the desired effect", "synonyms": ["effective", "potent", "productive"], "antonyms": ["ineffectual", "useless"], "sentences": ["The treatment proved efficacious in trials and unaffordable in practice.", "A short, efficacious rule beats a long, admirable one."]},
- "efficacy": {"pos": "noun", "definition": "the power to produce a desired result", "synonyms": ["effectiveness", "potency", "capability"], "antonyms": ["inefficacy", "impotence"], "sentences": ["Efficacy is what a drug does in the trial; effectiveness is what it does in the world.", "The policy's efficacy was assumed rather than measured for eleven years."]},
- "effigy": {"pos": "noun", "definition": "a crude likeness used for mockery", "synonyms": ["likeness", "figure", "dummy"], "antonyms": [], "sentences": ["He was burned in effigy in three towns and re-elected in all of them.", "The effigy on the tomb shows him younger, thinner, and considerably kinder."]},
- "effluvium": {"pos": "noun", "definition": "an unpleasant smell or discharge", "synonyms": ["stench", "miasma", "emanation"], "antonyms": ["fragrance"], "sentences": ["An effluvium from the drains ended the garden party twenty minutes early.", "Victorians blamed disease on effluvium and were wrong about the mechanism, right about the drains."]},
- "effrontery": {"pos": "noun", "definition": "shameless boldness", "synonyms": ["audacity", "impudence", "gall"], "antonyms": ["diffidence", "meekness"], "sentences": ["He had the effrontery to ask for a reference from the man he had sued.", "Effrontery is nerve with the shame removed."]},
- "effulgence": {"pos": "noun", "definition": "radiant brightness", "synonyms": ["radiance", "brilliance", "luster"], "antonyms": ["dimness", "gloom"], "sentences": ["The effulgence of the stained glass at four o'clock is the reason people still visit.", "Her reputation's effulgence dimmed the moment the archives opened."]},
- "effusive": {"pos": "adjective", "definition": "expressing feelings excessively", "synonyms": ["gushing", "unrestrained", "demonstrative"], "antonyms": ["reserved", "restrained"], "sentences": ["The effusive praise in the introduction made the review that followed even crueler.", "Effusive thanks for a small favor usually signals a larger one coming."]},
- "egalitarian": {"pos": "adjective", "definition": "believing in equality for all", "synonyms": ["equitable", "democratic", "level"], "antonyms": ["elitist", "hierarchical"], "sentences": ["The egalitarian seating plan lasted until the seniority question arose over dessert.", "Egalitarian in principle and hierarchical in practice describes most institutions."]},
- "egotist": {"pos": "noun", "definition": "a self-absorbed, boastful person", "synonyms": ["braggart", "narcissist"], "antonyms": ["altruist"], "sentences": ["The egotist listened just long enough to find a way back to himself.", "An egoist believes in self-interest; an egotist merely talks about himself."]},
- "egregious": {"pos": "adjective", "definition": "outstandingly bad", "synonyms": ["flagrant", "glaring", "blatant"], "antonyms": ["minor", "excusable"], "sentences": ["An egregious error on page one survived four rounds of proofreading.", "The word once meant outstandingly good, which shows how quickly praise can sour."]},
- "egress": {"pos": "noun", "definition": "a way out; the act of leaving", "synonyms": ["exit", "outlet", "departure"], "antonyms": ["ingress", "entrance"], "sentences": ["Barnum labeled a door \"This Way to the Egress,\" and crowds paid to leave.", "The building has one egress for four hundred people, which the inspector underlined."]},
- "elaborate": {"pos": "verb", "definition": "to explain in greater detail", "synonyms": ["expand", "expound", "amplify"], "antonyms": ["summarize", "abbreviate"], "sentences": ["Asked to elaborate, he repeated the sentence more slowly.", "She elaborated for an hour and clarified nothing anyone had asked."]},
- "elated": {"pos": "adjective", "definition": "very happy and excited", "synonyms": ["jubilant", "exultant", "overjoyed"], "antonyms": ["dejected", "crestfallen"], "sentences": ["Elated by the acceptance, she reread the email eleven times looking for a catch.", "The team was elated for four days and back in training on the fifth."]},
- "elegiac": {"pos": "adjective", "definition": "mournful; expressing sorrow for something lost", "synonyms": ["mournful", "plaintive", "wistful"], "antonyms": ["celebratory", "joyful"], "sentences": ["The film's elegiac tone mourns a town that is still, technically, inhabited.", "His elegiac final chapter reads like a goodbye to a discipline, not a subject."]},
- "elegy": {"pos": "noun", "definition": "a mournful poem, especially for the dead", "synonyms": ["lament", "dirge", "requiem"], "antonyms": ["ode", "paean"], "sentences": ["Gray's Elegy took seven years to write and about seven minutes to read.", "The article was less a report than an elegy for a shuttered factory."]},
- "elementary": {"pos": "adjective", "definition": "basic and fundamental", "synonyms": ["rudimentary", "basic", "primary"], "antonyms": ["advanced", "complex"], "sentences": ["An elementary mistake in the second line invalidated forty pages of algebra.", "Holmes never actually said \"elementary, my dear Watson,\" which is elementary trivia."]},
- "elevate": {"pos": "verb", "definition": "to raise in rank, quality, or position", "synonyms": ["promote", "uplift", "exalt"], "antonyms": ["demote", "lower"], "sentences": ["A single essay elevated her from contributor to the person everyone quoted.", "Good lighting elevates a mediocre room the way an accent elevates a mediocre argument."]},
- "elicit": {"pos": "verb", "definition": "to draw out a response or information", "synonyms": ["evoke", "extract", "provoke"], "antonyms": ["suppress", "repress"], "sentences": ["The question elicited a longer silence than any answer would have filled.", "Elicit draws out; illicit is illegal. One letter separates the interview from the crime."]},
- "elitist": {"pos": "adjective", "definition": "favoring a privileged few", "synonyms": ["exclusive", "snobbish", "select"], "antonyms": ["egalitarian", "inclusive"], "sentences": ["The complaint that the museum was elitist was made in a members-only lounge.", "Elitist standards and open doors are not actually incompatible, whatever both sides claim."]},
- "ellipsis": {"pos": "noun", "definition": "the omission of words; the three-dot mark", "synonyms": ["omission", "gap"], "antonyms": [], "sentences": ["The quotation used an ellipsis to remove the word \"not,\" which changed everything.", "Ellipsis in speech is why \"coming?\" is a complete sentence."]},
- "eloquence": {"pos": "noun", "definition": "persuasive and fluent expression", "synonyms": ["articulacy", "rhetoric", "fluency"], "antonyms": ["inarticulacy"], "sentences": ["His eloquence won the debate and cost him the friendship it was aimed at.", "There is an eloquence in a well-timed silence that no speech matches."]},
- "eloquent": {"pos": "adjective", "definition": "fluent and persuasive in expression", "synonyms": ["articulate", "expressive", "silver-tongued"], "antonyms": ["inarticulate", "tongue-tied"], "sentences": ["Her eloquent two minutes changed a vote that four reports had not moved.", "The empty chair at the table was eloquent enough without anybody explaining it."]},
- "elucidate": {"pos": "verb", "definition": "to make clear; to explain", "synonyms": ["clarify", "illuminate", "explicate"], "antonyms": ["obscure", "confuse"], "sentences": ["One diagram elucidated what three pages of prose had thoroughly hidden.", "He was asked to elucidate and produced a second, longer mystery."]},
- "elude": {"pos": "verb", "definition": "to escape or evade, physically or mentally", "synonyms": ["evade", "dodge", "escape"], "antonyms": ["confront", "face"], "sentences": ["The name eluded her for two days and arrived, unbidden, in the shower.", "He eluded capture for nine years by being extremely boring."]},
- "elusive": {"pos": "adjective", "definition": "hard to find, catch, or define", "synonyms": ["evasive", "fleeting", "intangible"], "antonyms": ["obvious", "accessible"], "sentences": ["The elusive particle was predicted in 1964 and photographed, so to speak, in 2012.", "Happiness is elusive mostly because people keep checking whether they have it."]},
- "elysian": {"pos": "adjective", "definition": "blissful and delightful", "synonyms": ["idyllic", "heavenly", "blissful"], "antonyms": ["hellish", "wretched"], "sentences": ["Two weeks of elysian weather ended the moment the tourists arrived.", "The Elysian Fields were the Greek afterlife for heroes, which sets a high bar for a holiday."]},
- "emaciate": {"pos": "verb", "definition": "to make abnormally thin and weak", "synonyms": ["waste", "wither", "enfeeble"], "antonyms": ["nourish", "fatten"], "sentences": ["Drought emaciated the herds within a single season.", "Endless cuts emaciated a service that had been envied across Europe."]},
- "embellish": {"pos": "verb", "definition": "to decorate or add invented details", "synonyms": ["adorn", "elaborate", "exaggerate"], "antonyms": ["simplify", "understate"], "sentences": ["He embellished the story with a bear that had not, on the day, existed.", "The manuscript is embellished with gold leaf and one very rude marginal drawing."]},
- "emblazon": {"pos": "verb", "definition": "to display conspicuously", "synonyms": ["inscribe", "adorn", "proclaim"], "antonyms": ["conceal"], "sentences": ["The slogan was emblazoned on the bus and quietly removed after the audit.", "Her name is emblazoned above a door she was never allowed to enter."]},
- "emboss": {"pos": "verb", "definition": "to decorate with a raised design", "synonyms": ["stamp", "engrave", "imprint"], "antonyms": ["engrave", "flatten"], "sentences": ["The invitation was embossed, which added forty pounds and no information.", "Braille is embossed writing, which makes it the most useful decoration ever invented."]},
- "embroil": {"pos": "verb", "definition": "to involve deeply in conflict", "synonyms": ["entangle", "implicate", "enmesh"], "antonyms": ["extricate", "disentangle"], "sentences": ["A single email embroiled him in a dispute between two departments he had never visited.", "Do not embroil yourself in an argument whose stakes you cannot name."]},
- "embroiled": {"pos": "adjective", "definition": "deeply involved in conflict", "synonyms": ["entangled", "implicated", "mired"], "antonyms": ["uninvolved", "detached"], "sentences": ["Embroiled in litigation for six years, the company forgot what it originally made.", "He was embroiled in the scandal by proximity rather than participation."]},
- "embryonic": {"pos": "adjective", "definition": "in an early, undeveloped stage", "synonyms": ["nascent", "rudimentary", "incipient"], "antonyms": ["mature", "developed"], "sentences": ["The plan was embryonic: two names, one date, and a great deal of confidence.", "In its embryonic form the internet connected four computers and nobody's grandmother."]},
- "emend": {"pos": "verb", "definition": "to correct a text", "synonyms": ["revise", "amend", "rectify"], "antonyms": ["corrupt"], "sentences": ["The editor emended a line that had been printed wrong since 1623.", "Emend fixes a text; amend fixes a law or a habit."]},
- "emetic": {"pos": "noun", "definition": "a substance that induces vomiting", "synonyms": ["purgative"], "antonyms": ["antiemetic"], "sentences": ["Ipecac was the household emetic until doctors decided it did more harm than good.", "He described the advertisement as an emetic, which the agency framed."]},
- "eminent": {"pos": "adjective", "definition": "distinguished and respected", "synonyms": ["distinguished", "illustrious", "renowned"], "antonyms": ["obscure", "unknown"], "sentences": ["Four eminent scholars signed the letter and none of them had read the book.", "Eminent means standing out; imminent means about to arrive. Both can be alarming."]},
- "emissary": {"pos": "noun", "definition": "someone sent on a mission as a representative", "synonyms": ["envoy", "delegate", "agent"], "antonyms": [], "sentences": ["An emissary arrived with a proposal and a strict instruction not to negotiate.", "The emissary was chosen for patience, which the assignment consumed entirely."]},
- "emollient": {"pos": "adjective", "definition": "soothing; softening", "synonyms": ["mollifying", "soothing", "placating"], "antonyms": ["irritating", "abrasive"], "sentences": ["An emollient statement from the chair calmed a meeting that had begun shouting.", "The cream is emollient; the apology was not."]},
- "emolument": {"pos": "noun", "definition": "payment received for holding office", "synonyms": ["remuneration", "salary", "compensation"], "antonyms": [], "sentences": ["The emoluments clause exists so that officials are paid by their country and nobody else.", "His emoluments were modest; his expenses were architecture."]},
- "empathetic": {"pos": "adjective", "definition": "able to share another's feelings", "synonyms": ["compassionate", "understanding", "sensitive"], "antonyms": ["callous", "unfeeling"], "sentences": ["An empathetic doctor explains the same diagnosis in a way the patient can carry home.", "Empathetic listening takes longer and saves the entire conversation."]},
- "empirical": {"pos": "adjective", "definition": "based on observation rather than theory", "synonyms": ["observed", "experimental", "factual"], "antonyms": ["theoretical", "speculative"], "sentences": ["The empirical evidence contradicted a model that was too elegant to abandon.", "Empirical means somebody actually went and looked."]},
- "empiricism": {"pos": "noun", "definition": "the view that knowledge comes from experience", "synonyms": ["experientialism"], "antonyms": ["rationalism"], "sentences": ["British empiricism insisted the mind begins as a blank sheet, which is charming and probably wrong.", "Empiricism made the thermometer more important than the philosopher."]},
- "emulate": {"pos": "verb", "definition": "to imitate in order to match or surpass", "synonyms": ["imitate", "mimic", "rival"], "antonyms": ["ignore"], "sentences": ["Younger writers emulated his sentences and inherited none of his patience.", "The software emulates a machine that stopped being manufactured in 1987."]},
- "enamor": {"pos": "verb", "definition": "to fill with love or fascination", "synonyms": ["captivate", "charm", "enthrall"], "antonyms": ["repel", "disenchant"], "sentences": ["He was enamored of the idea and considerably less fond of the work it required.", "Nobody is enamored with a spreadsheet, though several people have claimed to be."]},
- "enchant": {"pos": "verb", "definition": "to delight or bewitch", "synonyms": ["captivate", "bewitch", "charm"], "antonyms": ["repel", "bore"], "sentences": ["The exhibition enchanted children and quietly devastated the adults who remembered.", "Enchant contains \"chant\": the magic was originally sung."]},
- "enclave": {"pos": "noun", "definition": "a distinct area enclosed within a larger one", "synonyms": ["pocket", "island", "quarter"], "antonyms": [], "sentences": ["The village remained a linguistic enclave for four centuries and two border changes.", "Every campus has an enclave where the coffee is good and the conversation is unbearable."]},
- "encomium": {"pos": "noun", "definition": "formal, warm praise", "synonyms": ["tribute", "eulogy", "panegyric"], "antonyms": ["criticism", "diatribe"], "sentences": ["The encomium ran twenty minutes and mentioned the honoree's work twice.", "An encomium at a retirement is a eulogy the subject gets to hear."]},
- "encroach": {"pos": "verb", "definition": "to intrude gradually on another's territory", "synonyms": ["intrude", "trespass", "infringe"], "antonyms": ["retreat", "withdraw"], "sentences": ["The hedge encroached six inches a year and started a lawsuit in the eleventh.", "Work encroached on the weekend so gradually that nobody could name the day it won."]},
- "encroachment": {"pos": "noun", "definition": "gradual intrusion on rights or territory", "synonyms": ["intrusion", "infringement", "trespass"], "antonyms": ["withdrawal", "retreat"], "sentences": ["Each encroachment was small, and after ten years the beach was private.", "Liberties are rarely seized; they are lost to encroachment."]},
- "encumber": {"pos": "verb", "definition": "to burden or hinder", "synonyms": ["burden", "hamper", "saddle"], "antonyms": ["relieve", "unburden"], "sentences": ["The estate was encumbered by debts older than the current owner.", "Encumbered with four bags and a map, he missed the train twice."]},
- "encyclopedic": {"pos": "adjective", "definition": "comprehensive in knowledge or coverage", "synonyms": ["comprehensive", "exhaustive", "wide-ranging"], "antonyms": ["superficial", "narrow"], "sentences": ["His encyclopedic memory for statistics made him unbeatable and unbearable at quizzes.", "An encyclopedic footnote in a slim book is a small act of aggression."]},
- "endemic": {"pos": "adjective", "definition": "regularly found in a place or group", "synonyms": ["native", "prevalent", "indigenous"], "antonyms": ["foreign", "eradicated"], "sentences": ["The bird is endemic to one valley and has no idea how precarious that is.", "Corruption was endemic, which meant nobody could remember it being otherwise."]},
- "endow": {"pos": "verb", "definition": "to provide with a quality or a fund", "synonyms": ["bestow", "furnish", "fund"], "antonyms": ["divest", "deprive"], "sentences": ["The chair was endowed by an alumnus who had failed the subject twice.", "She was endowed with perfect pitch and no patience for people who lacked it."]},
- "endue": {"pos": "verb", "definition": "to invest with a quality", "synonyms": ["endow", "invest", "imbue"], "antonyms": ["strip", "divest"], "sentences": ["Office endued him with a gravity his friends found frankly hilarious.", "Endue is endow's older, more ceremonial cousin."]},
- "enduring": {"pos": "adjective", "definition": "lasting over a long time", "synonyms": ["lasting", "abiding", "durable"], "antonyms": ["fleeting", "ephemeral"], "sentences": ["The enduring appeal of the design is that nothing about it was fashionable.", "Their enduring friendship survived four countries and one disastrous business."]},
- "enervate": {"pos": "verb", "definition": "to drain of energy", "synonyms": ["exhaust", "debilitate", "sap"], "antonyms": ["invigorate", "energize"], "sentences": ["The heat enervated the entire crew by noon.", "Enervate sounds like energize and means the exact opposite, which has ruined many essays."]},
- "enervated": {"pos": "adjective", "definition": "drained of energy and vitality", "synonyms": ["exhausted", "listless", "debilitated"], "antonyms": ["invigorated", "vital"], "sentences": ["Enervated by three days of meetings, the team produced its best work on the fourth.", "An enervated economy does not collapse; it just stops answering."]},
- "engage": {"pos": "verb", "definition": "to occupy, involve, or enter into conflict with", "synonyms": ["involve", "occupy", "confront"], "antonyms": ["disengage", "ignore"], "sentences": ["He refused to engage with the criticism and answered a friendlier question instead.", "The fleet engaged at dawn and disengaged, badly damaged, by noon."]},
- "engender": {"pos": "verb", "definition": "to give rise to; to cause", "synonyms": ["generate", "produce", "provoke"], "antonyms": ["prevent", "stifle"], "sentences": ["Secrecy engenders exactly the suspicion it was meant to avoid.", "Small courtesies engender loyalty that salaries cannot buy."]},
- "enhance": {"pos": "verb", "definition": "to improve or increase the quality of", "synonyms": ["augment", "improve", "heighten"], "antonyms": ["diminish", "impair"], "sentences": ["Nothing enhanced the room like removing three quarters of what was in it.", "The photograph was enhanced until it stopped being evidence."]},
- "enigma": {"pos": "noun", "definition": "a puzzling person or thing", "synonyms": ["mystery", "riddle", "conundrum"], "antonyms": [], "sentences": ["He remained an enigma to colleagues who had shared an office with him for years.", "Churchill called Russia a riddle wrapped in a mystery inside an enigma, and left it there."]},
- "enigmatic": {"pos": "adjective", "definition": "mysterious and hard to interpret", "synonyms": ["cryptic", "inscrutable", "puzzling"], "antonyms": ["transparent", "obvious"], "sentences": ["Her enigmatic reply could be read as approval or a threat, which was the point.", "The enigmatic smile has sold more postcards than any other expression in art."]},
- "enjoin": {"pos": "verb", "definition": "to order someone to do or stop something", "synonyms": ["command", "prohibit", "direct"], "antonyms": ["permit", "allow"], "sentences": ["The court enjoined the company from selling the product pending review.", "Enjoin is one of those words that can command an act or forbid it entirely."]},
- "enmity": {"pos": "noun", "definition": "deep-seated hostility", "synonyms": ["animosity", "antagonism", "hatred"], "antonyms": ["friendship", "amity"], "sentences": ["The enmity between the two villages was founded on a bridge and maintained by habit.", "Enmity requires memory, which is why forgetting is sometimes strategic."]},
- "ennui": {"pos": "noun", "definition": "listless boredom and dissatisfaction", "synonyms": ["boredom", "tedium", "listlessness"], "antonyms": ["excitement", "engagement"], "sentences": ["A summer of ennui produced three abandoned novels and one very good garden.", "Ennui is boredom with a French passport and better clothes."]},
- "enormity": {"pos": "noun", "definition": "extreme wickedness or a monstrous act", "synonyms": ["atrocity", "outrage", "heinousness"], "antonyms": [], "sentences": ["The enormity of the crime was matched by the banality of its planning.", "Purists insist enormity means wickedness, not size, and lose that battle daily."]},
- "enrapture": {"pos": "verb", "definition": "to fill with delight", "synonyms": ["enthrall", "captivate", "transport"], "antonyms": ["bore", "repel"], "sentences": ["The final movement enraptured an audience that had spent the first half coughing.", "He was enraptured by the machine and indifferent to what it produced."]},
- "ensconce": {"pos": "verb", "definition": "to settle comfortably and securely", "synonyms": ["settle", "install", "nestle"], "antonyms": ["dislodge", "evict"], "sentences": ["Ensconced in the corner armchair with a blanket, he refused all further requests.", "She was ensconced in the department for thirty years and outlasted six restructurings."]},
- "ensue": {"pos": "verb", "definition": "to follow as a consequence", "synonyms": ["follow", "result", "proceed"], "antonyms": ["precede"], "sentences": ["Chaos ensued, as it generally does when four people share one microphone.", "A silence ensued that was longer than the question deserved."]},
- "entertain": {"pos": "verb", "definition": "to consider an idea; to amuse", "synonyms": ["consider", "contemplate", "amuse"], "antonyms": ["reject", "dismiss"], "sentences": ["He would not entertain the possibility that the fault lay in his own code.", "Aristotle praised the mind that can entertain a thought without accepting it."]},
- "enthrall": {"pos": "verb", "definition": "to capture the complete attention of", "synonyms": ["captivate", "mesmerize", "spellbind"], "antonyms": ["bore", "repel"], "sentences": ["The storyteller enthralled two hundred children for fifty minutes without a single prop.", "Enthrall once meant to enslave, which is a dark origin for a compliment."]},
- "entice": {"pos": "verb", "definition": "to tempt by offering something appealing", "synonyms": ["lure", "tempt", "allure"], "antonyms": ["repel", "deter"], "sentences": ["Free coffee enticed forty people to a seminar that eleven found useful.", "The trap was baited with something enticing and, unusually, nutritious."]},
- "entitled": {"pos": "adjective", "definition": "believing oneself deserving of privilege", "synonyms": ["presumptuous", "privileged", "self-important"], "antonyms": ["humble", "unassuming"], "sentences": ["The entitled complaint about a delayed flight lasted longer than the delay.", "Legally entitled and behaving entitled are very different things."]},
- "entitlement": {"pos": "noun", "definition": "a right to something; a sense of deserving it", "synonyms": ["right", "claim", "privilege"], "antonyms": [], "sentences": ["The entitlement is written in the contract; the attitude was acquired elsewhere.", "Reforming entitlements is popular in the abstract and lethal in a specific district."]},
- "entomology": {"pos": "noun", "definition": "the study of insects", "synonyms": ["insect science"], "antonyms": [], "sentences": ["Entomology studies insects; etymology studies words. Confusing them creates memorable errors.", "A lifetime in entomology left him with sixty thousand specimens and no dinner invitations."]},
- "entreat": {"pos": "verb", "definition": "to ask earnestly and humbly", "synonyms": ["implore", "beseech", "plead"], "antonyms": ["demand", "order"], "sentences": ["She entreated the committee for one more week and was granted three days.", "He entreated, argued, and finally simply waited, which worked."]},
- "entrenched": {"pos": "adjective", "definition": "firmly established and hard to change", "synonyms": ["ingrained", "rooted", "established"], "antonyms": ["superficial", "transient"], "sentences": ["Entrenched habits survive every reorganization, which is why reorganizations keep happening.", "The advantage is entrenched: the leader writes the rules of the next round."]},
- "enumerate": {"pos": "verb", "definition": "to list items one by one", "synonyms": ["list", "itemize", "specify"], "antonyms": ["summarize"], "sentences": ["He enumerated his objections in nine parts, and the room aged visibly.", "To enumerate the problems took an hour; to solve one took a week."]},
- "ephemeral": {"pos": "adjective", "definition": "lasting a very short time", "synonyms": ["transitory", "fleeting", "evanescent"], "antonyms": ["enduring", "permanent"], "sentences": ["Mayflies are ephemeral by name and by fact: one day, no mouth, no time to eat.", "Internet fame is ephemeral, which is the only mercy in the whole arrangement."]},
- "epicure": {"pos": "noun", "definition": "a person with refined taste in food and drink", "synonyms": ["gourmet", "connoisseur", "gastronome"], "antonyms": ["glutton"], "sentences": ["The epicure sent back the wine, the fish, and eventually himself.", "Epicurus actually recommended bread, cheese, and friends, which the epicures forgot."]},
- "epigram": {"pos": "noun", "definition": "a short, witty saying", "synonyms": ["aphorism", "quip", "maxim"], "antonyms": [], "sentences": ["Wilde's epigrams have outlasted the plays that carried them.", "An epigram is a whole argument compressed until it sparkles."]},
- "epiphany": {"pos": "noun", "definition": "a sudden striking realization", "synonyms": ["revelation", "insight", "realization"], "antonyms": [], "sentences": ["Her epiphany arrived on a bus, as most epiphanies do, uninvited.", "Joyce borrowed the religious word for the moment an ordinary thing turns luminous."]},
- "episodic": {"pos": "adjective", "definition": "occurring irregularly; made of loose episodes", "synonyms": ["sporadic", "intermittent", "disjointed"], "antonyms": ["continuous", "sustained"], "sentences": ["The novel is episodic: nine excellent chapters and no discernible spine.", "His interest was episodic, arriving each spring and departing each autumn."]},
- "epistolary": {"pos": "adjective", "definition": "written in the form of letters", "synonyms": ["written", "correspondent"], "antonyms": [], "sentences": ["Dracula is an epistolary novel, assembled from letters, diaries, and one ship's log.", "Their epistolary friendship survived forty years and one disastrous meeting."]},
- "epitome": {"pos": "noun", "definition": "a perfect example of something", "synonyms": ["embodiment", "quintessence", "archetype"], "antonyms": ["antithesis"], "sentences": ["The building is the epitome of a style everyone claims to dislike.", "He is the epitome of the competent bore, and the department could not run without him."]},
- "eponym": {"pos": "noun", "definition": "a person after whom something is named", "synonyms": ["namesake"], "antonyms": [], "sentences": ["Sandwich, boycott, and diesel are all people who became things.", "The disease's eponym described it in 1817 and never treated a single case successfully."]},
- "equable": {"pos": "adjective", "definition": "calm and even-tempered; unvarying", "synonyms": ["even-tempered", "placid", "steady"], "antonyms": ["volatile", "temperamental"], "sentences": ["His equable temper survived four hours of hostile questioning and one broken microphone.", "The island's equable climate ruins its inhabitants for anywhere else."]},
- "equanimity": {"pos": "noun", "definition": "calmness under strain", "synonyms": ["composure", "poise", "serenity"], "antonyms": ["agitation", "panic"], "sentences": ["She received the diagnosis with an equanimity that frightened her family.", "Equanimity in a crisis is mostly deciding in advance what you will not do."]},
- "equitable": {"pos": "adjective", "definition": "fair and impartial to all", "synonyms": ["fair", "just", "evenhanded"], "antonyms": ["unfair", "partial"], "sentences": ["An equitable split is not always an equal one, which is where the arguing starts.", "The settlement was equitable, which meant everyone left mildly dissatisfied."]},
- "equivocal": {"pos": "adjective", "definition": "ambiguous; open to two interpretations", "synonyms": ["ambiguous", "vague", "noncommittal"], "antonyms": ["unequivocal", "definite"], "sentences": ["The test results were equivocal, so they ran it again with the same outcome.", "His equivocal endorsement helped neither candidate and offended both."]},
- "equivocate": {"pos": "verb", "definition": "to speak ambiguously to avoid commitment", "synonyms": ["prevaricate", "hedge", "waffle"], "antonyms": ["commit", "specify"], "sentences": ["Asked a yes-or-no question, he equivocated for six paragraphs.", "Politicians equivocate; witnesses who equivocate are usually asked to sit back down."]},
- "eradicate": {"pos": "verb", "definition": "to destroy completely", "synonyms": ["eliminate", "exterminate", "extirpate"], "antonyms": ["establish", "propagate"], "sentences": ["Smallpox is the one human disease we have actually eradicated, and it took two centuries.", "The Latin root is pulling up by the roots, which is the standard for the word."]},
- "erode": {"pos": "verb", "definition": "to wear away gradually", "synonyms": ["wear", "corrode", "undermine"], "antonyms": ["build", "reinforce"], "sentences": ["Each small dishonesty eroded a reputation that had taken decades to build.", "The cliff erodes a meter a year, and the houses on it are still for sale."]},
- "err": {"pos": "verb", "definition": "to make a mistake", "synonyms": ["blunder", "misjudge", "slip"], "antonyms": [], "sentences": ["Err on the side of caution, said the sign, unhelpfully, at the top of the cliff.", "To err is human; to blame the intern is management."]},
- "errant": {"pos": "adjective", "definition": "straying from the proper course", "synonyms": ["wayward", "stray", "aberrant"], "antonyms": ["dutiful", "obedient"], "sentences": ["An errant comma changed the meaning of a contract by four million pounds.", "The errant knight wandered in search of trouble, which is the job description."]},
- "erratic": {"pos": "adjective", "definition": "unpredictable and inconsistent", "synonyms": ["inconsistent", "volatile", "capricious"], "antonyms": ["steady", "consistent"], "sentences": ["His erratic attendance made him impossible to schedule and impossible to replace.", "The engine ran erratically for a week and then, considerately, failed at the depot."]},
- "erroneous": {"pos": "adjective", "definition": "incorrect; based on error", "synonyms": ["mistaken", "false", "fallacious"], "antonyms": ["accurate", "correct"], "sentences": ["The erroneous figure was repeated in nine articles before anyone checked the source.", "An erroneous assumption at the start makes every later calculation beautifully wrong."]},
- "ersatz": {"pos": "adjective", "definition": "an inferior artificial substitute", "synonyms": ["artificial", "imitation", "synthetic"], "antonyms": ["genuine", "authentic"], "sentences": ["Wartime ersatz coffee was made from acorns and grim determination.", "The apology was ersatz: the shape of the thing without the substance."]},
- "erstwhile": {"pos": "adjective", "definition": "former", "synonyms": ["former", "previous", "onetime"], "antonyms": ["current", "present"], "sentences": ["His erstwhile allies testified first and at length.", "The erstwhile factory is now nine apartments and a coffee shop."]},
- "erudite": {"pos": "adjective", "definition": "having deep, wide learning", "synonyms": ["scholarly", "learned", "well-read"], "antonyms": ["ignorant", "unschooled"], "sentences": ["His erudite footnotes were longer, and better, than the chapters above them.", "Erudite conversation is delightful for exactly as long as you can keep up."]},
- "erudition": {"pos": "noun", "definition": "extensive scholarly knowledge", "synonyms": ["learning", "scholarship", "knowledge"], "antonyms": ["ignorance"], "sentences": ["Her erudition was worn lightly, which made it twice as impressive.", "Erudition without judgment produces very well-informed nonsense."]},
- "escalate": {"pos": "verb", "definition": "to increase rapidly in intensity", "synonyms": ["intensify", "heighten", "mount"], "antonyms": ["de-escalate", "diminish"], "sentences": ["A dispute about parking escalated into a case that reached the high court.", "Costs escalated quietly until the total appeared on one very memorable slide."]},
- "eschew": {"pos": "verb", "definition": "to deliberately avoid", "synonyms": ["shun", "forgo", "abstain from"], "antonyms": ["embrace", "seek"], "sentences": ["She eschewed publicity so thoroughly that two obituaries used the wrong photograph.", "He eschews adjectives, which makes his praise worth something."]},
- "esoteric": {"pos": "adjective", "definition": "understood by only a small group", "synonyms": ["arcane", "abstruse", "recondite"], "antonyms": ["accessible", "mainstream"], "sentences": ["The dispute was esoteric enough that only nine people on earth could take a side.", "Esoteric knowledge becomes valuable the moment somebody needs it urgently."]},
- "espouse": {"pos": "verb", "definition": "to adopt or support a cause", "synonyms": ["adopt", "embrace", "champion"], "antonyms": ["reject", "renounce"], "sentences": ["He espoused free trade in public and lobbied for tariffs in private.", "The word once meant to marry, which explains its air of commitment."]},
- "establish": {"pos": "verb", "definition": "to set up firmly; to prove", "synonyms": ["found", "institute", "demonstrate"], "antonyms": ["abolish", "disprove"], "sentences": ["The study established a link that four earlier studies had merely suggested.", "The firm was established in 1892 and has moved premises eleven times since."]},
- "esteem": {"pos": "noun", "definition": "respect and admiration", "synonyms": ["regard", "respect", "admiration"], "antonyms": ["contempt", "disdain"], "sentences": ["He was held in high esteem by colleagues and in open suspicion by auditors.", "Esteem earned slowly can be spent alarmingly fast."]},
- "estimable": {"pos": "adjective", "definition": "deserving respect", "synonyms": ["admirable", "worthy", "commendable"], "antonyms": ["contemptible", "unworthy"], "sentences": ["An estimable career ended in a dispute over a parking space.", "The estimable qualities of the plan did not include being affordable."]},
- "estrange": {"pos": "verb", "definition": "to cause to become hostile or distant", "synonyms": ["alienate", "distance", "separate"], "antonyms": ["reconcile", "unite"], "sentences": ["An argument about a will estranged the brothers for twenty-two years.", "Success estranged him from everyone who had known him before it."]},
- "estranged": {"pos": "adjective", "definition": "no longer close or on good terms", "synonyms": ["alienated", "separated", "distant"], "antonyms": ["reconciled", "close"], "sentences": ["His estranged sister arrived at the funeral and sat, deliberately, at the back.", "Estranged colleagues can still produce excellent work, silently, in shifts."]},
- "ethereal": {"pos": "adjective", "definition": "delicate and light, seemingly not of this world", "synonyms": ["airy", "celestial", "gossamer"], "antonyms": ["earthy", "solid"], "sentences": ["Her ethereal soprano carried over an orchestra that should have drowned it.", "The ethereal light in those paintings comes from a pigment that cost more than gold."]},
- "ethos": {"pos": "noun", "definition": "the characteristic spirit of a group", "synonyms": ["character", "spirit", "culture"], "antonyms": [], "sentences": ["The company's ethos was printed on the wall and contradicted in the parking lot.", "A newsroom's ethos is set by whoever is willing to stay latest."]},
- "eugenic": {"pos": "adjective", "definition": "relating to improving inherited traits", "synonyms": ["hereditarian"], "antonyms": ["dysgenic"], "sentences": ["Eugenic policies were mainstream science in 1920 and a global disgrace by 1950.", "The eugenic argument confused what is heritable with what is desirable."]},
- "eulogy": {"pos": "noun", "definition": "a speech of high praise, especially for the dead", "synonyms": ["tribute", "encomium", "panegyric"], "antonyms": ["diatribe", "denunciation"], "sentences": ["The eulogy was funny for four minutes and unbearable for the fifth.", "A eulogy is the one speech nobody rehearses enough and everyone remembers."]},
- "euphemism": {"pos": "noun", "definition": "a mild word substituted for a harsh one", "synonyms": ["substitution", "understatement"], "antonyms": ["dysphemism"], "sentences": ["\"Restructuring\" is the euphemism; the letters go out on Friday.", "Every profession invents euphemisms for the part of the job it dislikes explaining."]},
- "euphony": {"pos": "noun", "definition": "pleasing sound", "synonyms": ["melody", "harmony", "mellifluousness"], "antonyms": ["cacophony", "discord"], "sentences": ["\"Cellar door\" is often cited as the euphony champion of English.", "The poem sacrifices sense for euphony and gets away with it entirely."]},
- "euphoria": {"pos": "noun", "definition": "intense elation", "synonyms": ["elation", "rapture", "exhilaration"], "antonyms": ["despair", "dysphoria"], "sentences": ["The euphoria lasted three days and the paperwork lasted three months.", "Post-victory euphoria is famously bad for making decisions."]},
- "euphoric": {"pos": "adjective", "definition": "intensely happy and excited", "synonyms": ["elated", "exultant", "rapturous"], "antonyms": ["despondent", "miserable"], "sentences": ["Euphoric at the finish line, she promised never to do it again and entered twice more.", "The market was euphoric for a quarter and educational for a year."]},
- "evade": {"pos": "verb", "definition": "to avoid or escape by cleverness", "synonyms": ["dodge", "sidestep", "elude"], "antonyms": ["confront", "face"], "sentences": ["He evaded the question by answering the one before it, at length.", "Avoiding tax is legal; evading it is a different chapter of the same book."]},
- "evanescent": {"pos": "adjective", "definition": "quickly fading away", "synonyms": ["fleeting", "ephemeral", "transient"], "antonyms": ["permanent", "enduring"], "sentences": ["The scent of rain on hot stone is evanescent and impossible to bottle honestly.", "His fame was evanescent: two seasons, one catchphrase, then nothing."]},
- "evasive": {"pos": "adjective", "definition": "deliberately avoiding directness", "synonyms": ["shifty", "elusive", "equivocal"], "antonyms": ["direct", "forthright"], "sentences": ["The evasive answers were more damaging than any admission would have been.", "Evasive action saved the ship and cost eleven hours."]},
- "evenhanded": {"pos": "adjective", "definition": "fair and impartial", "synonyms": ["impartial", "equitable", "fair"], "antonyms": ["biased", "partial"], "sentences": ["An evenhanded account satisfied neither camp, which is the usual sign of one.", "She was evenhanded with praise and blame, and both landed harder for it."]},
- "evident": {"pos": "adjective", "definition": "plainly obvious", "synonyms": ["apparent", "manifest", "conspicuous"], "antonyms": ["obscure", "hidden"], "sentences": ["It was evident from the second paragraph that the author had not visited the country.", "The strain was evident to everyone except the person under it."]},
- "evoke": {"pos": "verb", "definition": "to bring a feeling or memory to mind", "synonyms": ["conjure", "elicit", "summon"], "antonyms": ["suppress"], "sentences": ["Three notes on a piano evoked an entire summer he had not thought about in years.", "The painting evokes a place that never existed, convincingly."]},
- "exacerbate": {"pos": "verb", "definition": "to make a problem worse", "synonyms": ["aggravate", "worsen", "inflame"], "antonyms": ["alleviate", "soothe"], "sentences": ["The statement exacerbated a crisis it was written to calm.", "Sleeping badly exacerbates everything, including the reason you slept badly."]},
- "exacting": {"pos": "adjective", "definition": "demanding great care or effort", "synonyms": ["demanding", "rigorous", "stringent"], "antonyms": ["lenient", "undemanding"], "sentences": ["An exacting editor is the cheapest improvement any writer can buy.", "The exacting standards were met once, in 1974, and are still displayed."]},
- "exalt": {"pos": "verb", "definition": "to praise highly or raise in rank", "synonyms": ["glorify", "extol", "elevate"], "antonyms": ["denigrate", "debase"], "sentences": ["The obituary exalted a man his employees had described in very different terms.", "To exalt one colleague publicly is to demote everyone else quietly."]},
- "exasperate": {"pos": "verb", "definition": "to irritate intensely", "synonyms": ["infuriate", "vex", "irk"], "antonyms": ["soothe", "placate"], "sentences": ["The automated menu exasperated callers into hanging up, which reduced complaints beautifully.", "Nothing exasperates a specialist like confident amateur advice."]},
- "exasperated": {"pos": "adjective", "definition": "intensely irritated", "synonyms": ["infuriated", "vexed", "aggravated"], "antonyms": ["patient", "calm"], "sentences": ["Exasperated after the fourth transfer, she wrote a letter instead and got results.", "His exasperated sigh was audible in the next room and quoted for years."]},
- "excise": {"pos": "verb", "definition": "to cut out or remove", "synonyms": ["remove", "delete", "expunge"], "antonyms": ["insert", "add"], "sentences": ["The editor excised the entire third act and the play improved immeasurably.", "Two paragraphs were excised for legal reasons and everyone noticed the gap."]},
- "excoriate": {"pos": "verb", "definition": "to criticize severely", "synonyms": ["denounce", "castigate", "flay"], "antonyms": ["praise", "commend"], "sentences": ["The report excoriated the board in language usually reserved for war crimes.", "To excoriate is literally to strip the skin, which reviewers occasionally forget."]},
- "excruciating": {"pos": "adjective", "definition": "intensely painful", "synonyms": ["agonizing", "unbearable", "harrowing"], "antonyms": ["mild", "painless"], "sentences": ["The pain was excruciating; the wait for a diagnosis was worse.", "An excruciating silence followed the joke about the host's cooking."]},
- "exculpate": {"pos": "verb", "definition": "to clear from blame", "synonyms": ["exonerate", "absolve", "acquit"], "antonyms": ["incriminate", "convict"], "sentences": ["The timestamp exculpated him in a single line after two years of suspicion.", "Exculpatory evidence must be disclosed, which is the whole point of the rule."]},
- "execrable": {"pos": "adjective", "definition": "extremely bad; detestable", "synonyms": ["abominable", "atrocious", "deplorable"], "antonyms": ["admirable", "excellent"], "sentences": ["The execrable coffee was the only thing everyone in the building agreed on.", "His execrable handwriting cost a patient the correct dose."]},
- "execrate": {"pos": "verb", "definition": "to detest and denounce", "synonyms": ["loathe", "abhor", "denounce"], "antonyms": ["adore", "extol"], "sentences": ["The policy was execrated by everyone and repealed by nobody.", "He was execrated in his lifetime and has a statue now, which is the usual sequence."]},
- "exegesis": {"pos": "noun", "definition": "a detailed critical interpretation of a text", "synonyms": ["interpretation", "analysis", "commentary"], "antonyms": [], "sentences": ["A twelve-page exegesis of a four-line poem is either devotion or a career.", "Exegesis draws meaning out; eisegesis pushes your meaning in."]},
- "exemplar": {"pos": "noun", "definition": "a model or typical example", "synonyms": ["model", "paragon", "archetype"], "antonyms": [], "sentences": ["The chapel is the exemplar every architecture student is made to draw.", "She became an exemplar of the method mainly by surviving its early failures."]},
- "exemplify": {"pos": "verb", "definition": "to be a typical example of", "synonyms": ["illustrate", "typify", "embody"], "antonyms": [], "sentences": ["The episode exemplifies everything wrong and everything right with the process.", "He exemplified the profession's virtues and, on Thursdays, its vices."]},
- "exert": {"pos": "verb", "definition": "to apply effort, force, or influence", "synonyms": ["apply", "wield", "exercise"], "antonyms": ["withhold", "relax"], "sentences": ["The committee exerted pressure so gently that nobody could later identify it.", "He exerted himself once, spectacularly, and rested on it for a decade."]},
- "exertion": {"pos": "noun", "definition": "great physical or mental effort", "synonyms": ["effort", "labor", "strain"], "antonyms": ["rest", "idleness"], "sentences": ["After that exertion the team slept through a fire alarm.", "The exertion of pretending to listen is underestimated by everyone who talks."]},
- "exhaustive": {"pos": "adjective", "definition": "complete and thorough", "synonyms": ["comprehensive", "thorough", "all-encompassing"], "antonyms": ["cursory", "partial"], "sentences": ["An exhaustive search of the attic produced one glove and a great deal of dust.", "The list is exhaustive, exhausting, and, in three places, wrong."]},
- "exhilarating": {"pos": "adjective", "definition": "thrilling and invigorating", "synonyms": ["thrilling", "invigorating", "electrifying"], "antonyms": ["dull", "depressing"], "sentences": ["The first ten minutes were exhilarating and the next four hours were paperwork.", "There is something exhilarating about a plan that has no chance of working."]},
- "exhort": {"pos": "verb", "definition": "to strongly urge someone to act", "synonyms": ["urge", "implore", "enjoin"], "antonyms": ["discourage", "dissuade"], "sentences": ["The coach exhorted them for ten minutes and then let the silence do the work.", "Editorials exhort; budgets decide."]},
- "exigency": {"pos": "noun", "definition": "an urgent need or demand", "synonyms": ["urgency", "emergency", "necessity"], "antonyms": [], "sentences": ["The exigencies of the moment excused a decision that looked terrible in the report.", "Every constitution has a clause for exigencies, and every exigency finds it."]},
- "exigent": {"pos": "adjective", "definition": "urgent; demanding immediate attention", "synonyms": ["pressing", "urgent", "critical"], "antonyms": ["trivial", "deferrable"], "sentences": ["Exigent circumstances allowed entry without a warrant, and the court later disagreed.", "The exigent problem crowded out the important one, as it always does."]},
- "exiguity": {"pos": "noun", "definition": "extreme scantiness or smallness", "synonyms": ["meagerness", "scantiness", "paucity"], "antonyms": ["abundance", "plenty"], "sentences": ["The exiguity of the evidence did not slow the confident conclusion.", "Given the exiguity of the budget, the result was frankly miraculous."]},
- "exonerate": {"pos": "verb", "definition": "to clear of blame or accusation", "synonyms": ["absolve", "acquit", "vindicate"], "antonyms": ["incriminate", "convict"], "sentences": ["He was exonerated after eleven years, and the apology took another three.", "The inquiry exonerated everyone senior and blamed a process nobody had designed."]},
- "exorbitant": {"pos": "adjective", "definition": "unreasonably high, especially in price", "synonyms": ["excessive", "extortionate", "inordinate"], "antonyms": ["reasonable", "modest"], "sentences": ["The exorbitant rent explained why the shop sold nothing but very small jewelry.", "Exorbitant means out of orbit: the price has left the ordinary path."]},
- "exorcise": {"pos": "verb", "definition": "to drive out an evil spirit or bad memory", "synonyms": ["expel", "banish", "purge"], "antonyms": ["summon", "invite"], "sentences": ["He wrote the book to exorcise a decade he could not otherwise put down.", "The new management exorcised the old logo and kept every old problem."]},
- "exotic": {"pos": "adjective", "definition": "strikingly unusual, from a distant place", "synonyms": ["foreign", "outlandish", "unfamiliar"], "antonyms": ["native", "commonplace"], "sentences": ["The exotic fruit at the market was an ordinary vegetable two thousand miles away.", "Exotic is a description of the describer's location, not the thing described."]},
- "expansive": {"pos": "adjective", "definition": "wide-ranging; open and communicative", "synonyms": ["extensive", "effusive", "broad"], "antonyms": ["restricted", "reserved"], "sentences": ["He grew expansive after the second course and revealed the merger by dessert.", "The expansive view from the office made the small decisions feel worse."]},
- "expatiate": {"pos": "verb", "definition": "to speak or write at length", "synonyms": ["elaborate", "expound", "dilate"], "antonyms": ["summarize", "abridge"], "sentences": ["He expatiated on the history of the roof until the tour lost half its members.", "Given an opening she would expatiate, brilliantly, for as long as anyone stayed."]},
- "expatriate": {"pos": "noun", "definition": "a person living outside their native country", "synonyms": ["émigré", "exile"], "antonyms": ["native", "repatriate"], "sentences": ["The expatriate community met weekly to complain about a country none intended to leave.", "Expatriate or immigrant often depends on which passport and which salary."]},
- "expedient": {"pos": "adjective", "definition": "convenient and practical, though possibly improper", "synonyms": ["convenient", "advantageous", "politic"], "antonyms": ["inexpedient", "principled"], "sentences": ["It was expedient to blame the software, which could not resign or testify.", "The expedient solution buys a year and charges interest afterward."]},
- "expedite": {"pos": "verb", "definition": "to speed up a process", "synonyms": ["hasten", "accelerate", "facilitate"], "antonyms": ["delay", "hinder"], "sentences": ["A single phone call expedited a permit that had waited eight months.", "Expedited shipping costs triple and arrives, reliably, on the same Thursday."]},
- "expel": {"pos": "verb", "definition": "to force out or drive away", "synonyms": ["eject", "banish", "oust"], "antonyms": ["admit", "welcome"], "sentences": ["He was expelled for an essay that the school now includes in its prospectus.", "The engine expels heat, noise, and, occasionally, its own components."]},
- "expiate": {"pos": "verb", "definition": "to make amends for wrongdoing", "synonyms": ["atone", "redress", "make amends"], "antonyms": [], "sentences": ["He spent thirty years trying to expiate one afternoon.", "Fines expiate nothing; they merely price the offense."]},
- "explicable": {"pos": "adjective", "definition": "able to be explained", "synonyms": ["understandable", "accountable", "intelligible"], "antonyms": ["inexplicable", "baffling"], "sentences": ["The anomaly was explicable, though the explanation was duller than the mystery.", "Everything is explicable afterward, which is the trouble with history."]},
- "explicate": {"pos": "verb", "definition": "to analyze and explain in detail", "synonyms": ["elucidate", "expound", "interpret"], "antonyms": ["obscure"], "sentences": ["She explicated the poem line by line and left it more alive than she found it.", "To explicate a joke is to conduct an autopsy on it."]},
- "explicit": {"pos": "adjective", "definition": "stated clearly and in detail", "synonyms": ["unambiguous", "express", "categorical"], "antonyms": ["implicit", "vague"], "sentences": ["The instructions were explicit and were ignored explicitly.", "Make the assumption explicit and half the disagreement disappears."]},
- "exploit": {"pos": "verb", "definition": "to use unfairly for one's own advantage", "synonyms": ["abuse", "manipulate", "capitalize on"], "antonyms": ["protect"], "sentences": ["The scheme exploited a loophole that had been left open deliberately.", "As a noun it means a heroic deed; as a verb, something rather less admirable."]},
- "exploitation": {"pos": "noun", "definition": "unfair use of someone or something for gain", "synonyms": ["abuse", "misuse", "manipulation"], "antonyms": ["protection", "fair dealing"], "sentences": ["The report documented exploitation that four inspections had somehow missed.", "Exploitation of the resource funded a museum about the people it displaced."]},
- "exploitative": {"pos": "adjective", "definition": "taking unfair advantage", "synonyms": ["abusive", "predatory", "extortionate"], "antonyms": ["fair", "equitable"], "sentences": ["The contract was exploitative in six clauses and illegal in one.", "Exploitative pricing during a flood is remembered longer than any flood."]},
- "exponent": {"pos": "noun", "definition": "an advocate or leading practitioner", "synonyms": ["advocate", "proponent", "champion"], "antonyms": ["opponent", "critic"], "sentences": ["She was the leading exponent of a technique she had once dismissed in print.", "An exponent of plain speech should probably avoid the word exponent."]},
- "exposition": {"pos": "noun", "definition": "a clear explanation; a large public display", "synonyms": ["explanation", "account", "exhibition"], "antonyms": [], "sentences": ["The exposition of the theory takes forty pages and rewards every one of them.", "Clumsy exposition is why characters explain to each other what both already know."]},
- "expostulation": {"pos": "noun", "definition": "earnest protest or remonstrance", "synonyms": ["protest", "remonstrance", "objection"], "antonyms": ["assent"], "sentences": ["His expostulations were noted in the minutes and ignored in the decision.", "After much expostulation, the fee was reduced by eleven pounds."]},
- "expound": {"pos": "verb", "definition": "to explain in detail", "synonyms": ["elaborate", "explicate", "detail"], "antonyms": ["summarize"], "sentences": ["He expounded his theory to anyone who paused near the coffee machine.", "Asked a simple question, she expounded for forty minutes and answered it beautifully."]},
- "expunge": {"pos": "verb", "definition": "to erase completely", "synonyms": ["delete", "obliterate", "efface"], "antonyms": ["record", "preserve"], "sentences": ["The conviction was expunged, though the internet declined to cooperate.", "Two names were expunged from the register, which drew more attention than leaving them."]},
- "expurgate": {"pos": "verb", "definition": "to remove objectionable material from a text", "synonyms": ["censor", "bowdlerize", "sanitize"], "antonyms": ["restore"], "sentences": ["The expurgated edition removed eleven pages and every reason to read it.", "Expurgated letters make dull history and comfortable descendants."]},
- "extant": {"pos": "adjective", "definition": "still in existence", "synonyms": ["surviving", "existing", "remaining"], "antonyms": ["extinct", "lost"], "sentences": ["Only three copies are extant, and two of them are in private hands.", "Extant means still here; extinct means the opposite and sounds worryingly similar."]},
- "extemporaneous": {"pos": "adjective", "definition": "spoken or done without preparation", "synonyms": ["impromptu", "improvised", "unrehearsed"], "antonyms": ["prepared", "scripted"], "sentences": ["His extemporaneous remarks were better than the speech he had spent a week writing.", "Extemporaneous brilliance usually turns out to have been rehearsed in the car."]},
- "extemporize": {"pos": "verb", "definition": "to improvise", "synonyms": ["improvise", "ad-lib", "wing it"], "antonyms": ["rehearse", "prepare"], "sentences": ["When the slides failed she extemporized for thirty minutes and got a standing ovation.", "Jazz is extemporizing with rules everyone has agreed not to mention."]},
- "extend": {"pos": "verb", "definition": "to make longer or wider; to offer", "synonyms": ["prolong", "expand", "proffer"], "antonyms": ["curtail", "retract"], "sentences": ["The deadline was extended twice and met, as always, at the last hour.", "He extended a hand and an apology, in that order."]},
- "extenuate": {"pos": "verb", "definition": "to make an offense seem less serious", "synonyms": ["mitigate", "excuse", "palliate"], "antonyms": ["aggravate", "worsen"], "sentences": ["Nothing extenuated the delay except that the alternative would have been worse.", "The lawyer sought to extenuate rather than deny, which the jury noticed."]},
- "extenuating": {"pos": "adjective", "definition": "making an offense less serious", "synonyms": ["mitigating", "justifying", "palliating"], "antonyms": ["aggravating"], "sentences": ["Extenuating circumstances reduced the sentence and none of the damage.", "Everyone believes their own circumstances are extenuating, which is what makes judges necessary."]},
- "extol": {"pos": "verb", "definition": "to praise enthusiastically", "synonyms": ["laud", "exalt", "acclaim"], "antonyms": ["disparage", "criticize"], "sentences": ["He extolled the virtues of a system he had never personally had to use.", "The brochure extols the view and omits the motorway."]},
- "extort": {"pos": "verb", "definition": "to obtain by force or threats", "synonyms": ["blackmail", "coerce", "wring"], "antonyms": [], "sentences": ["They extorted payments for four years by threatening to reveal nothing in particular.", "The fee felt extorted rather than charged."]},
- "extraneous": {"pos": "adjective", "definition": "irrelevant; not belonging", "synonyms": ["irrelevant", "superfluous", "immaterial"], "antonyms": ["relevant", "pertinent"], "sentences": ["Strip the extraneous detail and the argument fits on a postcard.", "Extraneous noise in the recording turned out to be the most important evidence."]},
- "extrapolate": {"pos": "verb", "definition": "to extend a conclusion to unknown cases", "synonyms": ["infer", "project", "generalize"], "antonyms": ["interpolate"], "sentences": ["He extrapolated from three months of data and predicted a decade, confidently and wrongly.", "Extrapolating a straight line far enough always predicts something absurd."]},
- "extrapolation": {"pos": "noun", "definition": "an estimate extended beyond known data", "synonyms": ["projection", "inference", "prediction"], "antonyms": ["interpolation"], "sentences": ["The forecast was an extrapolation dressed as a measurement.", "Every extrapolation carries an unwritten clause: if nothing changes."]},
- "extravagant": {"pos": "adjective", "definition": "excessive in spending or expression", "synonyms": ["lavish", "profligate", "immoderate"], "antonyms": ["frugal", "restrained"], "sentences": ["The extravagant claims in the advertisement drew regulators before customers.", "One extravagant gesture is remembered; consistent generosity is not."]},
- "exuberant": {"pos": "adjective", "definition": "full of lively energy and enthusiasm", "synonyms": ["ebullient", "effervescent", "vivacious"], "antonyms": ["subdued", "listless"], "sentences": ["Exuberant applause greeted a speech nobody could later summarize.", "\"Irrational exuberance\" described a market that then rose for four more years."]},
- "fabricate": {"pos": "verb", "definition": "to invent falsely; to manufacture", "synonyms": ["invent", "concoct", "manufacture"], "antonyms": ["verify", "authenticate"], "sentences": ["He fabricated the data and the apology, and only one of them was detected quickly.", "The part was fabricated overnight from a photograph and a guess."]},
- "facetious": {"pos": "adjective", "definition": "joking inappropriately about serious matters", "synonyms": ["flippant", "glib", "tongue-in-cheek"], "antonyms": ["earnest", "solemn"], "sentences": ["His facetious remark at the memorial cost him three friendships.", "The word holds all five vowels in order, which is more than its jokes usually manage."]},
- "facile": {"pos": "adjective", "definition": "superficially easy or shallow", "synonyms": ["glib", "simplistic", "shallow"], "antonyms": ["profound", "considered"], "sentences": ["The facile explanation fit on a slide and left every hard question untouched.", "Facile can mean effortless, but on the GRE it almost always means too easy to be true."]},
- "facilitate": {"pos": "verb", "definition": "to make easier", "synonyms": ["ease", "assist", "expedite"], "antonyms": ["hinder", "obstruct"], "sentences": ["A single shared calendar facilitated what four meetings had failed to arrange.", "To facilitate a meeting is to keep three people from talking at once."]},
- "faction": {"pos": "noun", "definition": "a small dissenting group within a larger one", "synonyms": ["bloc", "clique", "splinter group"], "antonyms": [], "sentences": ["Two factions formed over a font choice and did not speak for a year.", "A faction becomes a party the moment it wins something."]}
+ "dovetail": {
+  "pos": "verb",
+  "definition": "to fit together neatly",
+  "synonyms": [
+   "interlock",
+   "mesh",
+   "coincide"
+  ],
+  "antonyms": [
+   "clash",
+   "conflict"
+  ],
+  "sentences": [
+   "Her findings dovetailed with his so precisely that reviewers suspected collaboration.",
+   "The joint is named for a bird's tail, and it holds without a single nail."
+  ]
+ },
+ "dowdy": {
+  "pos": "adjective",
+  "definition": "dull and unfashionable in appearance",
+  "synonyms": [
+   "frumpy",
+   "drab",
+   "unstylish"
+  ],
+  "antonyms": [
+   "chic",
+   "elegant"
+  ],
+  "sentences": [
+   "She dressed dowdy on purpose, having learned what being noticed cost her.",
+   "The dowdy little building housed the most expensive art in the county."
+  ]
+ },
+ "draconian": {
+  "pos": "adjective",
+  "definition": "excessively harsh and severe",
+  "synonyms": [
+   "punitive",
+   "stringent",
+   "oppressive"
+  ],
+  "antonyms": [
+   "lenient",
+   "lax"
+  ],
+  "sentences": [
+   "The draconian penalties for late returns emptied the library rather than filled it.",
+   "Draco's Athenian code punished stealing a cabbage with death, and lent his name to every harsh law since."
+  ]
+ },
+ "dregs": {
+  "pos": "noun",
+  "definition": "the worthless remainder; sediment",
+  "synonyms": [
+   "residue",
+   "sediment",
+   "remnants"
+  ],
+  "antonyms": [
+   "cream",
+   "elite"
+  ],
+  "sentences": [
+   "By midnight only the dregs of the conference remained, arguing about fonts.",
+   "He drank the dregs and pretended, loudly, to enjoy them."
+  ]
+ },
+ "droll": {
+  "pos": "adjective",
+  "definition": "amusing in an odd, dry way",
+  "synonyms": [
+   "wry",
+   "whimsical",
+   "waggish"
+  ],
+  "antonyms": [
+   "earnest",
+   "humorless"
+  ],
+  "sentences": [
+   "His droll account of the disaster made everyone laugh and nobody feel better.",
+   "A droll remark delivered without a smile is the most efficient joke available."
+  ]
+ },
+ "dubious": {
+  "pos": "adjective",
+  "definition": "doubtful or of questionable value",
+  "synonyms": [
+   "questionable",
+   "suspect",
+   "skeptical"
+  ],
+  "antonyms": [
+   "certain",
+   "trustworthy"
+  ],
+  "sentences": [
+   "He earned the dubious honor of being cited most often as a warning.",
+   "The dubious expression on her face preceded the objection by a full minute."
+  ]
+ },
+ "dulcet": {
+  "pos": "adjective",
+  "definition": "sweet and soothing in sound",
+  "synonyms": [
+   "mellifluous",
+   "melodious",
+   "honeyed"
+  ],
+  "antonyms": [
+   "harsh",
+   "grating"
+  ],
+  "sentences": [
+   "The dulcet tones of the announcer failed to make the delay any shorter.",
+   "Dulcet shares a root with \"dolce\": it is sugar for the ear."
+  ]
+ },
+ "dupe": {
+  "pos": "verb",
+  "definition": "to deceive or trick",
+  "synonyms": [
+   "swindle",
+   "hoodwink",
+   "gull"
+  ],
+  "antonyms": [
+   "undeceive",
+   "enlighten"
+  ],
+  "sentences": [
+   "Two museums were duped by the same forger using the same catalogue trick.",
+   "He was duped by a website whose only flaw was a missing letter in the address."
+  ]
+ },
+ "duplicitous": {
+  "pos": "adjective",
+  "definition": "deliberately deceptive; two-faced",
+  "synonyms": [
+   "deceitful",
+   "double-dealing",
+   "treacherous"
+  ],
+  "antonyms": [
+   "honest",
+   "straightforward"
+  ],
+  "sentences": [
+   "The duplicitous memo praised the team it was quietly recommending be dissolved.",
+   "Duplicitous behavior needs a good memory, which is why most of it fails."
+  ]
+ },
+ "duplicity": {
+  "pos": "noun",
+  "definition": "deceitfulness; double-dealing",
+  "synonyms": [
+   "deceit",
+   "guile",
+   "double-dealing"
+  ],
+  "antonyms": [
+   "honesty",
+   "candor"
+  ],
+  "sentences": [
+   "The duplicity was not in what he said but in what he let everyone assume.",
+   "Duplicity means twofold: one face for you and one for the room next door."
+  ]
+ },
+ "duress": {
+  "pos": "noun",
+  "definition": "coercion by threat or force",
+  "synonyms": [
+   "coercion",
+   "compulsion",
+   "constraint"
+  ],
+  "antonyms": [
+   "free will",
+   "consent"
+  ],
+  "sentences": [
+   "A confession signed under duress is worth precisely nothing in court.",
+   "He claimed duress; the emails suggested enthusiasm."
+  ]
+ },
+ "dutiful": {
+  "pos": "adjective",
+  "definition": "conscientiously fulfilling obligations",
+  "synonyms": [
+   "conscientious",
+   "obedient",
+   "devoted"
+  ],
+  "antonyms": [
+   "negligent",
+   "remiss"
+  ],
+  "sentences": [
+   "A dutiful phone call every Sunday for thirty years, never once a minute late.",
+   "Dutiful applause is distinguishable from real applause by its punctuality."
+  ]
+ },
+ "dwell": {
+  "pos": "verb",
+  "definition": "to linger on a subject; to reside",
+  "synonyms": [
+   "linger",
+   "brood",
+   "reside"
+  ],
+  "antonyms": [
+   "ignore",
+   "dismiss"
+  ],
+  "sentences": [
+   "Do not dwell on the error, said the man who had dwelt on it for nine years.",
+   "They dwelt in one room and told the story as if it had been an adventure."
+  ]
+ },
+ "dwindling": {
+  "pos": "adjective",
+  "definition": "steadily decreasing",
+  "synonyms": [
+   "diminishing",
+   "waning",
+   "shrinking"
+  ],
+  "antonyms": [
+   "growing",
+   "burgeoning"
+  ],
+  "sentences": [
+   "A dwindling audience is quieter than an angry one and much worse.",
+   "Dwindling reserves forced a decision three governments had deferred."
+  ]
+ },
+ "dynamo": {
+  "pos": "noun",
+  "definition": "an extremely energetic person",
+  "synonyms": [
+   "powerhouse",
+   "livewire"
+  ],
+  "antonyms": [
+   "sluggard"
+  ],
+  "sentences": [
+   "The office dynamo organized two conferences and one wedding in a single quarter.",
+   "The word borrowed from generators, which is fair: both convert motion into output."
+  ]
+ },
+ "dyspeptic": {
+  "pos": "adjective",
+  "definition": "irritable and gloomy",
+  "synonyms": [
+   "irascible",
+   "morose",
+   "peevish"
+  ],
+  "antonyms": [
+   "genial",
+   "sunny"
+  ],
+  "sentences": [
+   "His dyspeptic reviews were feared, quoted, and secretly enjoyed by their victims.",
+   "Dyspeptic literally means bad digestion, which explains a great deal of criticism."
+  ]
+ },
+ "earnest": {
+  "pos": "adjective",
+  "definition": "sincere and serious in intention",
+  "synonyms": [
+   "sincere",
+   "fervent",
+   "solemn"
+  ],
+  "antonyms": [
+   "flippant",
+   "insincere"
+  ],
+  "sentences": [
+   "His earnest defense of the project was more persuasive than any of its data.",
+   "Earnest students ask questions; brilliant ones ask the same question twice."
+  ]
+ },
+ "ebb": {
+  "pos": "verb",
+  "definition": "to decline or recede",
+  "synonyms": [
+   "recede",
+   "wane",
+   "subside"
+  ],
+  "antonyms": [
+   "flow",
+   "surge"
+  ],
+  "sentences": [
+   "Support ebbed quietly over two years and vanished in a single vote.",
+   "The tide ebbs whether or not the argument on the beach has finished."
+  ]
+ },
+ "ebullient": {
+  "pos": "adjective",
+  "definition": "cheerful and full of energy",
+  "synonyms": [
+   "exuberant",
+   "buoyant",
+   "effervescent"
+  ],
+  "antonyms": [
+   "morose",
+   "subdued"
+  ],
+  "sentences": [
+   "Ebullient after the result, he offered to buy dinner for forty people.",
+   "The word means boiling over, which is exactly what such moods do to a room."
+  ]
+ },
+ "eccentric": {
+  "pos": "adjective",
+  "definition": "unconventional and slightly strange",
+  "synonyms": [
+   "idiosyncratic",
+   "quirky",
+   "unorthodox"
+  ],
+  "antonyms": [
+   "conventional",
+   "ordinary"
+  ],
+  "sentences": [
+   "An eccentric millionaire left his fortune to a cat and his letters to a university.",
+   "Eccentric means off-center; the rich get called eccentric and the poor get called something else."
+  ]
+ },
+ "echelon": {
+  "pos": "noun",
+  "definition": "a level or rank within an organization",
+  "synonyms": [
+   "tier",
+   "rank",
+   "stratum"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Decisions made in the upper echelons arrived downstairs as weather.",
+   "She reached the highest echelon and found the view mostly of meetings."
+  ]
+ },
+ "eclectic": {
+  "pos": "adjective",
+  "definition": "drawing from a wide variety of sources",
+  "synonyms": [
+   "varied",
+   "wide-ranging",
+   "catholic"
+  ],
+  "antonyms": [
+   "narrow",
+   "uniform"
+  ],
+  "sentences": [
+   "His eclectic library held medieval theology beside a manual for outboard motors.",
+   "An eclectic playlist is either sophisticated or unfinished, depending on the guests."
+  ]
+ },
+ "eclipse": {
+  "pos": "verb",
+  "definition": "to surpass or overshadow",
+  "synonyms": [
+   "outshine",
+   "overshadow",
+   "surpass"
+  ],
+  "antonyms": [
+   "trail",
+   "lag"
+  ],
+  "sentences": [
+   "Her second novel eclipsed the first so thoroughly that reprints changed the cover.",
+   "The scandal eclipsed a genuinely important reform announced the same morning."
+  ]
+ },
+ "economical": {
+  "pos": "adjective",
+  "definition": "thrifty; avoiding waste",
+  "synonyms": [
+   "frugal",
+   "sparing",
+   "efficient"
+  ],
+  "antonyms": [
+   "wasteful",
+   "extravagant"
+  ],
+  "sentences": [
+   "His prose is economical: no sentence carries a passenger.",
+   "He was economical with the truth, which is the polite phrase for lying."
+  ]
+ },
+ "economy": {
+  "pos": "noun",
+  "definition": "efficient use of resources; a financial system",
+  "synonyms": [
+   "thrift",
+   "frugality",
+   "system"
+  ],
+  "antonyms": [
+   "waste",
+   "extravagance"
+  ],
+  "sentences": [
+   "The film's economy is astonishing: ninety minutes, four sets, one idea.",
+   "False economy is saving eleven pounds now and spending nine hundred in March."
+  ]
+ },
+ "edict": {
+  "pos": "noun",
+  "definition": "an official order issued by authority",
+  "synonyms": [
+   "decree",
+   "proclamation",
+   "ordinance"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The edict banned the practice on Monday and was quietly unenforced by Thursday.",
+   "One edict from the head office ended twenty years of local custom."
+  ]
+ },
+ "edifice": {
+  "pos": "noun",
+  "definition": "a large imposing building or system",
+  "synonyms": [
+   "structure",
+   "building",
+   "framework"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The whole legal edifice rests on a statute nobody has read since 1961.",
+   "The edifice took forty years to build and eleven seconds to fall."
+  ]
+ },
+ "edify": {
+  "pos": "verb",
+  "definition": "to instruct morally or intellectually",
+  "synonyms": [
+   "enlighten",
+   "instruct",
+   "improve"
+  ],
+  "antonyms": [
+   "corrupt",
+   "mislead"
+  ],
+  "sentences": [
+   "The lecture was designed to edify and succeeded mainly in emptying the room.",
+   "Edify shares a root with edifice: it is building, but for the mind."
+  ]
+ },
+ "edifying": {
+  "pos": "adjective",
+  "definition": "instructive and morally improving",
+  "synonyms": [
+   "instructive",
+   "enlightening",
+   "uplifting"
+  ],
+  "antonyms": [
+   "corrupting",
+   "degrading"
+  ],
+  "sentences": [
+   "The scandal was not edifying, though everyone found it educational.",
+   "An edifying book and an enjoyable one occasionally arrive in the same volume."
+  ]
+ },
+ "effacing": {
+  "pos": "adjective",
+  "definition": "erasing or keeping oneself unnoticed",
+  "synonyms": [
+   "self-effacing",
+   "modest",
+   "retiring"
+  ],
+  "antonyms": [
+   "boastful",
+   "assertive"
+  ],
+  "sentences": [
+   "Her self-effacing introduction understated a career of considerable brilliance.",
+   "Time is effacing the inscription faster than the conservators can read it."
+  ]
+ },
+ "effervescence": {
+  "pos": "noun",
+  "definition": "lively enthusiasm; bubbling",
+  "synonyms": [
+   "vivacity",
+   "exuberance",
+   "fizz"
+  ],
+  "antonyms": [
+   "flatness",
+   "lethargy"
+  ],
+  "sentences": [
+   "Her effervescence survived a nine-hour flight and two cancelled connections.",
+   "The wine lost its effervescence, and the party its point, at roughly the same hour."
+  ]
+ },
+ "effervescent": {
+  "pos": "adjective",
+  "definition": "lively and enthusiastic; bubbly",
+  "synonyms": [
+   "vivacious",
+   "ebullient",
+   "sparkling"
+  ],
+  "antonyms": [
+   "flat",
+   "listless"
+  ],
+  "sentences": [
+   "The effervescent host kept a difficult table talking for four hours.",
+   "Effervescent charm is exhausting to sustain and instantly missed when it stops."
+  ]
+ },
+ "effete": {
+  "pos": "adjective",
+  "definition": "weak and worn out; over-refined",
+  "synonyms": [
+   "decadent",
+   "enfeebled",
+   "exhausted"
+  ],
+  "antonyms": [
+   "vigorous",
+   "robust"
+  ],
+  "sentences": [
+   "He dismissed the whole department as effete, having failed twice to join it.",
+   "An effete aristocracy is the standard villain of every revolution's pamphlets."
+  ]
+ },
+ "efficacious": {
+  "pos": "adjective",
+  "definition": "producing the desired effect",
+  "synonyms": [
+   "effective",
+   "potent",
+   "productive"
+  ],
+  "antonyms": [
+   "ineffectual",
+   "useless"
+  ],
+  "sentences": [
+   "The treatment proved efficacious in trials and unaffordable in practice.",
+   "A short, efficacious rule beats a long, admirable one."
+  ]
+ },
+ "efficacy": {
+  "pos": "noun",
+  "definition": "the power to produce a desired result",
+  "synonyms": [
+   "effectiveness",
+   "potency",
+   "capability"
+  ],
+  "antonyms": [
+   "inefficacy",
+   "impotence"
+  ],
+  "sentences": [
+   "Efficacy is what a drug does in the trial; effectiveness is what it does in the world.",
+   "The policy's efficacy was assumed rather than measured for eleven years."
+  ]
+ },
+ "effigy": {
+  "pos": "noun",
+  "definition": "a crude likeness used for mockery",
+  "synonyms": [
+   "likeness",
+   "figure",
+   "dummy"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "He was burned in effigy in three towns and re-elected in all of them.",
+   "The effigy on the tomb shows him younger, thinner, and considerably kinder."
+  ]
+ },
+ "effluvium": {
+  "pos": "noun",
+  "definition": "an unpleasant smell or discharge",
+  "synonyms": [
+   "stench",
+   "miasma",
+   "emanation"
+  ],
+  "antonyms": [
+   "fragrance"
+  ],
+  "sentences": [
+   "An effluvium from the drains ended the garden party twenty minutes early.",
+   "Victorians blamed disease on effluvium and were wrong about the mechanism, right about the drains."
+  ]
+ },
+ "effrontery": {
+  "pos": "noun",
+  "definition": "shameless boldness",
+  "synonyms": [
+   "audacity",
+   "impudence",
+   "gall"
+  ],
+  "antonyms": [
+   "diffidence",
+   "meekness"
+  ],
+  "sentences": [
+   "He had the effrontery to ask for a reference from the man he had sued.",
+   "Effrontery is nerve with the shame removed."
+  ]
+ },
+ "effulgence": {
+  "pos": "noun",
+  "definition": "radiant brightness",
+  "synonyms": [
+   "radiance",
+   "brilliance",
+   "luster"
+  ],
+  "antonyms": [
+   "dimness",
+   "gloom"
+  ],
+  "sentences": [
+   "The effulgence of the stained glass at four o'clock is the reason people still visit.",
+   "Her reputation's effulgence dimmed the moment the archives opened."
+  ]
+ },
+ "effusive": {
+  "pos": "adjective",
+  "definition": "expressing feelings excessively",
+  "synonyms": [
+   "gushing",
+   "unrestrained",
+   "demonstrative"
+  ],
+  "antonyms": [
+   "reserved",
+   "restrained"
+  ],
+  "sentences": [
+   "The effusive praise in the introduction made the review that followed even crueler.",
+   "Effusive thanks for a small favor usually signals a larger one coming."
+  ]
+ },
+ "egalitarian": {
+  "pos": "adjective",
+  "definition": "believing in equality for all",
+  "synonyms": [
+   "equitable",
+   "democratic",
+   "level"
+  ],
+  "antonyms": [
+   "elitist",
+   "hierarchical"
+  ],
+  "sentences": [
+   "The egalitarian seating plan lasted until the seniority question arose over dessert.",
+   "Egalitarian in principle and hierarchical in practice describes most institutions."
+  ]
+ },
+ "egotist": {
+  "pos": "noun",
+  "definition": "a self-absorbed, boastful person",
+  "synonyms": [
+   "braggart",
+   "narcissist"
+  ],
+  "antonyms": [
+   "altruist"
+  ],
+  "sentences": [
+   "The egotist listened just long enough to find a way back to himself.",
+   "An egoist believes in self-interest; an egotist merely talks about himself."
+  ]
+ },
+ "egregious": {
+  "pos": "adjective",
+  "definition": "outstandingly bad",
+  "synonyms": [
+   "flagrant",
+   "glaring",
+   "blatant"
+  ],
+  "antonyms": [
+   "minor",
+   "excusable"
+  ],
+  "sentences": [
+   "An egregious error on page one survived four rounds of proofreading.",
+   "The word once meant outstandingly good, which shows how quickly praise can sour."
+  ]
+ },
+ "egress": {
+  "pos": "noun",
+  "definition": "a way out; the act of leaving",
+  "synonyms": [
+   "exit",
+   "outlet",
+   "departure"
+  ],
+  "antonyms": [
+   "ingress",
+   "entrance"
+  ],
+  "sentences": [
+   "Barnum labeled a door \"This Way to the Egress,\" and crowds paid to leave.",
+   "The building has one egress for four hundred people, which the inspector underlined."
+  ]
+ },
+ "elaborate": {
+  "pos": "adjective",
+  "definition": "detailed and complicated in design",
+  "synonyms": [
+   "intricate",
+   "ornate",
+   "complex"
+  ],
+  "antonyms": [
+   "simple",
+   "plain"
+  ],
+  "sentences": [
+   "The elaborate seating plan took a week and was abandoned on the night.",
+   "An elaborate excuse is less believable than a short one, and takes longer."
+  ]
+ },
+ "elated": {
+  "pos": "adjective",
+  "definition": "very happy and excited",
+  "synonyms": [
+   "jubilant",
+   "exultant",
+   "overjoyed"
+  ],
+  "antonyms": [
+   "dejected",
+   "crestfallen"
+  ],
+  "sentences": [
+   "Elated by the acceptance, she reread the email eleven times looking for a catch.",
+   "The team was elated for four days and back in training on the fifth."
+  ]
+ },
+ "elegiac": {
+  "pos": "adjective",
+  "definition": "mournful; expressing sorrow for something lost",
+  "synonyms": [
+   "mournful",
+   "plaintive",
+   "wistful"
+  ],
+  "antonyms": [
+   "celebratory",
+   "joyful"
+  ],
+  "sentences": [
+   "The film's elegiac tone mourns a town that is still, technically, inhabited.",
+   "His elegiac final chapter reads like a goodbye to a discipline, not a subject."
+  ]
+ },
+ "elegy": {
+  "pos": "noun",
+  "definition": "a mournful poem, especially for the dead",
+  "synonyms": [
+   "lament",
+   "dirge",
+   "requiem"
+  ],
+  "antonyms": [
+   "ode",
+   "paean"
+  ],
+  "sentences": [
+   "Gray's Elegy took seven years to write and about seven minutes to read.",
+   "The article was less a report than an elegy for a shuttered factory."
+  ]
+ },
+ "elementary": {
+  "pos": "adjective",
+  "definition": "basic and fundamental",
+  "synonyms": [
+   "rudimentary",
+   "basic",
+   "primary"
+  ],
+  "antonyms": [
+   "advanced",
+   "complex"
+  ],
+  "sentences": [
+   "An elementary mistake in the second line invalidated forty pages of algebra.",
+   "Holmes never actually said \"elementary, my dear Watson,\" which is elementary trivia."
+  ]
+ },
+ "elevate": {
+  "pos": "verb",
+  "definition": "to raise in rank, quality, or position",
+  "synonyms": [
+   "promote",
+   "uplift",
+   "exalt"
+  ],
+  "antonyms": [
+   "demote",
+   "lower"
+  ],
+  "sentences": [
+   "A single essay elevated her from contributor to the person everyone quoted.",
+   "Good lighting elevates a mediocre room the way an accent elevates a mediocre argument."
+  ]
+ },
+ "elicit": {
+  "pos": "verb",
+  "definition": "to draw out a response or information",
+  "synonyms": [
+   "evoke",
+   "extract",
+   "provoke"
+  ],
+  "antonyms": [
+   "suppress",
+   "repress"
+  ],
+  "sentences": [
+   "The question elicited a longer silence than any answer would have filled.",
+   "Elicit draws out; illicit is illegal. One letter separates the interview from the crime."
+  ]
+ },
+ "elitist": {
+  "pos": "adjective",
+  "definition": "favoring a privileged few",
+  "synonyms": [
+   "exclusive",
+   "snobbish",
+   "select"
+  ],
+  "antonyms": [
+   "egalitarian",
+   "inclusive"
+  ],
+  "sentences": [
+   "The complaint that the museum was elitist was made in a members-only lounge.",
+   "Elitist standards and open doors are not actually incompatible, whatever both sides claim."
+  ]
+ },
+ "ellipsis": {
+  "pos": "noun",
+  "definition": "the omission of words; the three-dot mark",
+  "synonyms": [
+   "omission",
+   "gap"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The quotation used an ellipsis to remove the word \"not,\" which changed everything.",
+   "Ellipsis in speech is why \"coming?\" is a complete sentence."
+  ]
+ },
+ "eloquence": {
+  "pos": "noun",
+  "definition": "persuasive and fluent expression",
+  "synonyms": [
+   "articulacy",
+   "rhetoric",
+   "fluency"
+  ],
+  "antonyms": [
+   "inarticulacy"
+  ],
+  "sentences": [
+   "His eloquence won the debate and cost him the friendship it was aimed at.",
+   "There is an eloquence in a well-timed silence that no speech matches."
+  ]
+ },
+ "eloquent": {
+  "pos": "adjective",
+  "definition": "fluent and persuasive in expression",
+  "synonyms": [
+   "articulate",
+   "expressive",
+   "silver-tongued"
+  ],
+  "antonyms": [
+   "inarticulate",
+   "tongue-tied"
+  ],
+  "sentences": [
+   "Her eloquent two minutes changed a vote that four reports had not moved.",
+   "The empty chair at the table was eloquent enough without anybody explaining it."
+  ]
+ },
+ "elucidate": {
+  "pos": "verb",
+  "definition": "to make clear; to explain",
+  "synonyms": [
+   "clarify",
+   "illuminate",
+   "explicate"
+  ],
+  "antonyms": [
+   "obscure",
+   "confuse"
+  ],
+  "sentences": [
+   "One diagram elucidated what three pages of prose had thoroughly hidden.",
+   "He was asked to elucidate and produced a second, longer mystery."
+  ]
+ },
+ "elude": {
+  "pos": "verb",
+  "definition": "to escape or evade, physically or mentally",
+  "synonyms": [
+   "evade",
+   "dodge",
+   "escape"
+  ],
+  "antonyms": [
+   "confront",
+   "face"
+  ],
+  "sentences": [
+   "The name eluded her for two days and arrived, unbidden, in the shower.",
+   "He eluded capture for nine years by being extremely boring."
+  ]
+ },
+ "elusive": {
+  "pos": "adjective",
+  "definition": "hard to find, catch, or define",
+  "synonyms": [
+   "evasive",
+   "fleeting",
+   "intangible"
+  ],
+  "antonyms": [
+   "obvious",
+   "accessible"
+  ],
+  "sentences": [
+   "The elusive particle was predicted in 1964 and photographed, so to speak, in 2012.",
+   "Happiness is elusive mostly because people keep checking whether they have it."
+  ]
+ },
+ "elysian": {
+  "pos": "adjective",
+  "definition": "blissful and delightful",
+  "synonyms": [
+   "idyllic",
+   "heavenly",
+   "blissful"
+  ],
+  "antonyms": [
+   "hellish",
+   "wretched"
+  ],
+  "sentences": [
+   "Two weeks of elysian weather ended the moment the tourists arrived.",
+   "The Elysian Fields were the Greek afterlife for heroes, which sets a high bar for a holiday."
+  ]
+ },
+ "emaciate": {
+  "pos": "verb",
+  "definition": "to make abnormally thin and weak",
+  "synonyms": [
+   "waste",
+   "wither",
+   "enfeeble"
+  ],
+  "antonyms": [
+   "nourish",
+   "fatten"
+  ],
+  "sentences": [
+   "Drought emaciated the herds within a single season.",
+   "Endless cuts emaciated a service that had been envied across Europe."
+  ]
+ },
+ "embellish": {
+  "pos": "verb",
+  "definition": "to decorate or add invented details",
+  "synonyms": [
+   "adorn",
+   "elaborate",
+   "exaggerate"
+  ],
+  "antonyms": [
+   "simplify",
+   "understate"
+  ],
+  "sentences": [
+   "He embellished the story with a bear that had not, on the day, existed.",
+   "The manuscript is embellished with gold leaf and one very rude marginal drawing."
+  ]
+ },
+ "emblazon": {
+  "pos": "verb",
+  "definition": "to display conspicuously",
+  "synonyms": [
+   "inscribe",
+   "adorn",
+   "proclaim"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "sentences": [
+   "The slogan was emblazoned on the bus and quietly removed after the audit.",
+   "Her name is emblazoned above a door she was never allowed to enter."
+  ]
+ },
+ "emboss": {
+  "pos": "verb",
+  "definition": "to decorate with a raised design",
+  "synonyms": [
+   "stamp",
+   "engrave",
+   "imprint"
+  ],
+  "antonyms": [
+   "engrave",
+   "flatten"
+  ],
+  "sentences": [
+   "The invitation was embossed, which added forty pounds and no information.",
+   "Braille is embossed writing, which makes it the most useful decoration ever invented."
+  ]
+ },
+ "embroil": {
+  "pos": "verb",
+  "definition": "to involve deeply in conflict",
+  "synonyms": [
+   "entangle",
+   "implicate",
+   "enmesh"
+  ],
+  "antonyms": [
+   "extricate",
+   "disentangle"
+  ],
+  "sentences": [
+   "A single email embroiled him in a dispute between two departments he had never visited.",
+   "Do not embroil yourself in an argument whose stakes you cannot name."
+  ]
+ },
+ "embroiled": {
+  "pos": "adjective",
+  "definition": "deeply involved in conflict",
+  "synonyms": [
+   "entangled",
+   "implicated",
+   "mired"
+  ],
+  "antonyms": [
+   "uninvolved",
+   "detached"
+  ],
+  "sentences": [
+   "Embroiled in litigation for six years, the company forgot what it originally made.",
+   "He was embroiled in the scandal by proximity rather than participation."
+  ]
+ },
+ "embryonic": {
+  "pos": "adjective",
+  "definition": "in an early, undeveloped stage",
+  "synonyms": [
+   "nascent",
+   "rudimentary",
+   "incipient"
+  ],
+  "antonyms": [
+   "mature",
+   "developed"
+  ],
+  "sentences": [
+   "The plan was embryonic: two names, one date, and a great deal of confidence.",
+   "In its embryonic form the internet connected four computers and nobody's grandmother."
+  ]
+ },
+ "emend": {
+  "pos": "verb",
+  "definition": "to correct a text",
+  "synonyms": [
+   "revise",
+   "amend",
+   "rectify"
+  ],
+  "antonyms": [
+   "corrupt"
+  ],
+  "sentences": [
+   "The editor emended a line that had been printed wrong since 1623.",
+   "Emend fixes a text; amend fixes a law or a habit."
+  ]
+ },
+ "emetic": {
+  "pos": "noun",
+  "definition": "a substance that induces vomiting",
+  "synonyms": [
+   "purgative"
+  ],
+  "antonyms": [
+   "antiemetic"
+  ],
+  "sentences": [
+   "Ipecac was the household emetic until doctors decided it did more harm than good.",
+   "He described the advertisement as an emetic, which the agency framed."
+  ]
+ },
+ "eminent": {
+  "pos": "adjective",
+  "definition": "distinguished and respected",
+  "synonyms": [
+   "distinguished",
+   "illustrious",
+   "renowned"
+  ],
+  "antonyms": [
+   "obscure",
+   "unknown"
+  ],
+  "sentences": [
+   "Four eminent scholars signed the letter and none of them had read the book.",
+   "Eminent means standing out; imminent means about to arrive. Both can be alarming."
+  ]
+ },
+ "emissary": {
+  "pos": "noun",
+  "definition": "someone sent on a mission as a representative",
+  "synonyms": [
+   "envoy",
+   "delegate",
+   "agent"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "An emissary arrived with a proposal and a strict instruction not to negotiate.",
+   "The emissary was chosen for patience, which the assignment consumed entirely."
+  ]
+ },
+ "emollient": {
+  "pos": "adjective",
+  "definition": "soothing; softening",
+  "synonyms": [
+   "mollifying",
+   "soothing",
+   "placating"
+  ],
+  "antonyms": [
+   "irritating",
+   "abrasive"
+  ],
+  "sentences": [
+   "An emollient statement from the chair calmed a meeting that had begun shouting.",
+   "The cream is emollient; the apology was not."
+  ]
+ },
+ "emolument": {
+  "pos": "noun",
+  "definition": "payment received for holding office",
+  "synonyms": [
+   "remuneration",
+   "salary",
+   "compensation"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The emoluments clause exists so that officials are paid by their country and nobody else.",
+   "His emoluments were modest; his expenses were architecture."
+  ]
+ },
+ "empathetic": {
+  "pos": "adjective",
+  "definition": "able to share another's feelings",
+  "synonyms": [
+   "compassionate",
+   "understanding",
+   "sensitive"
+  ],
+  "antonyms": [
+   "callous",
+   "unfeeling"
+  ],
+  "sentences": [
+   "An empathetic doctor explains the same diagnosis in a way the patient can carry home.",
+   "Empathetic listening takes longer and saves the entire conversation."
+  ]
+ },
+ "empirical": {
+  "pos": "adjective",
+  "definition": "based on observation rather than theory",
+  "synonyms": [
+   "observed",
+   "experimental",
+   "factual"
+  ],
+  "antonyms": [
+   "theoretical",
+   "speculative"
+  ],
+  "sentences": [
+   "The empirical evidence contradicted a model that was too elegant to abandon.",
+   "Empirical means somebody actually went and looked."
+  ]
+ },
+ "empiricism": {
+  "pos": "noun",
+  "definition": "the view that knowledge comes from experience",
+  "synonyms": [
+   "experientialism"
+  ],
+  "antonyms": [
+   "rationalism"
+  ],
+  "sentences": [
+   "British empiricism insisted the mind begins as a blank sheet, which is charming and probably wrong.",
+   "Empiricism made the thermometer more important than the philosopher."
+  ]
+ },
+ "emulate": {
+  "pos": "verb",
+  "definition": "to imitate in order to match or surpass",
+  "synonyms": [
+   "imitate",
+   "mimic",
+   "rival"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "sentences": [
+   "Younger writers emulated his sentences and inherited none of his patience.",
+   "The software emulates a machine that stopped being manufactured in 1987."
+  ]
+ },
+ "enamor": {
+  "pos": "verb",
+  "definition": "to fill with love or fascination",
+  "synonyms": [
+   "captivate",
+   "charm",
+   "enthrall"
+  ],
+  "antonyms": [
+   "repel",
+   "disenchant"
+  ],
+  "sentences": [
+   "He was enamored of the idea and considerably less fond of the work it required.",
+   "Nobody is enamored with a spreadsheet, though several people have claimed to be."
+  ]
+ },
+ "enchant": {
+  "pos": "verb",
+  "definition": "to delight or bewitch",
+  "synonyms": [
+   "captivate",
+   "bewitch",
+   "charm"
+  ],
+  "antonyms": [
+   "repel",
+   "bore"
+  ],
+  "sentences": [
+   "The exhibition enchanted children and quietly devastated the adults who remembered.",
+   "Enchant contains \"chant\": the magic was originally sung."
+  ]
+ },
+ "enclave": {
+  "pos": "noun",
+  "definition": "a distinct area enclosed within a larger one",
+  "synonyms": [
+   "pocket",
+   "island",
+   "quarter"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The village remained a linguistic enclave for four centuries and two border changes.",
+   "Every campus has an enclave where the coffee is good and the conversation is unbearable."
+  ]
+ },
+ "encomium": {
+  "pos": "noun",
+  "definition": "formal, warm praise",
+  "synonyms": [
+   "tribute",
+   "eulogy",
+   "panegyric"
+  ],
+  "antonyms": [
+   "criticism",
+   "diatribe"
+  ],
+  "sentences": [
+   "The encomium ran twenty minutes and mentioned the honoree's work twice.",
+   "An encomium at a retirement is a eulogy the subject gets to hear."
+  ]
+ },
+ "encroach": {
+  "pos": "verb",
+  "definition": "to intrude gradually on another's territory",
+  "synonyms": [
+   "intrude",
+   "trespass",
+   "infringe"
+  ],
+  "antonyms": [
+   "retreat",
+   "withdraw"
+  ],
+  "sentences": [
+   "The hedge encroached six inches a year and started a lawsuit in the eleventh.",
+   "Work encroached on the weekend so gradually that nobody could name the day it won."
+  ]
+ },
+ "encroachment": {
+  "pos": "noun",
+  "definition": "gradual intrusion on rights or territory",
+  "synonyms": [
+   "intrusion",
+   "infringement",
+   "trespass"
+  ],
+  "antonyms": [
+   "withdrawal",
+   "retreat"
+  ],
+  "sentences": [
+   "Each encroachment was small, and after ten years the beach was private.",
+   "Liberties are rarely seized; they are lost to encroachment."
+  ]
+ },
+ "encumber": {
+  "pos": "verb",
+  "definition": "to burden or hinder",
+  "synonyms": [
+   "burden",
+   "hamper",
+   "saddle"
+  ],
+  "antonyms": [
+   "relieve",
+   "unburden"
+  ],
+  "sentences": [
+   "The estate was encumbered by debts older than the current owner.",
+   "Encumbered with four bags and a map, he missed the train twice."
+  ]
+ },
+ "encyclopedic": {
+  "pos": "adjective",
+  "definition": "comprehensive in knowledge or coverage",
+  "synonyms": [
+   "comprehensive",
+   "exhaustive",
+   "wide-ranging"
+  ],
+  "antonyms": [
+   "superficial",
+   "narrow"
+  ],
+  "sentences": [
+   "His encyclopedic memory for statistics made him unbeatable and unbearable at quizzes.",
+   "An encyclopedic footnote in a slim book is a small act of aggression."
+  ]
+ },
+ "endemic": {
+  "pos": "adjective",
+  "definition": "regularly found in a place or group",
+  "synonyms": [
+   "native",
+   "prevalent",
+   "indigenous"
+  ],
+  "antonyms": [
+   "foreign",
+   "eradicated"
+  ],
+  "sentences": [
+   "The bird is endemic to one valley and has no idea how precarious that is.",
+   "Corruption was endemic, which meant nobody could remember it being otherwise."
+  ]
+ },
+ "endow": {
+  "pos": "verb",
+  "definition": "to provide with a quality or a fund",
+  "synonyms": [
+   "bestow",
+   "furnish",
+   "fund"
+  ],
+  "antonyms": [
+   "divest",
+   "deprive"
+  ],
+  "sentences": [
+   "The chair was endowed by an alumnus who had failed the subject twice.",
+   "She was endowed with perfect pitch and no patience for people who lacked it."
+  ]
+ },
+ "endue": {
+  "pos": "verb",
+  "definition": "to invest with a quality",
+  "synonyms": [
+   "endow",
+   "invest",
+   "imbue"
+  ],
+  "antonyms": [
+   "strip",
+   "divest"
+  ],
+  "sentences": [
+   "Office endued him with a gravity his friends found frankly hilarious.",
+   "Endue is endow's older, more ceremonial cousin."
+  ]
+ },
+ "enduring": {
+  "pos": "adjective",
+  "definition": "lasting over a long time",
+  "synonyms": [
+   "lasting",
+   "abiding",
+   "durable"
+  ],
+  "antonyms": [
+   "fleeting",
+   "ephemeral"
+  ],
+  "sentences": [
+   "The enduring appeal of the design is that nothing about it was fashionable.",
+   "Their enduring friendship survived four countries and one disastrous business."
+  ]
+ },
+ "enervate": {
+  "pos": "verb",
+  "definition": "to drain of energy",
+  "synonyms": [
+   "exhaust",
+   "debilitate",
+   "sap"
+  ],
+  "antonyms": [
+   "invigorate",
+   "energize"
+  ],
+  "sentences": [
+   "The heat enervated the entire crew by noon.",
+   "Enervate sounds like energize and means the exact opposite, which has ruined many essays."
+  ]
+ },
+ "enervated": {
+  "pos": "adjective",
+  "definition": "drained of energy and vitality",
+  "synonyms": [
+   "exhausted",
+   "listless",
+   "debilitated"
+  ],
+  "antonyms": [
+   "invigorated",
+   "vital"
+  ],
+  "sentences": [
+   "Enervated by three days of meetings, the team produced its best work on the fourth.",
+   "An enervated economy does not collapse; it just stops answering."
+  ]
+ },
+ "engage": {
+  "pos": "verb",
+  "definition": "to occupy, involve, or enter into conflict with",
+  "synonyms": [
+   "involve",
+   "occupy",
+   "confront"
+  ],
+  "antonyms": [
+   "disengage",
+   "ignore"
+  ],
+  "sentences": [
+   "He refused to engage with the criticism and answered a friendlier question instead.",
+   "The fleet engaged at dawn and disengaged, badly damaged, by noon."
+  ]
+ },
+ "engender": {
+  "pos": "verb",
+  "definition": "to give rise to; to cause",
+  "synonyms": [
+   "generate",
+   "produce",
+   "provoke"
+  ],
+  "antonyms": [
+   "prevent",
+   "stifle"
+  ],
+  "sentences": [
+   "Secrecy engenders exactly the suspicion it was meant to avoid.",
+   "Small courtesies engender loyalty that salaries cannot buy."
+  ]
+ },
+ "enhance": {
+  "pos": "verb",
+  "definition": "to improve or increase the quality of",
+  "synonyms": [
+   "augment",
+   "improve",
+   "heighten"
+  ],
+  "antonyms": [
+   "diminish",
+   "impair"
+  ],
+  "sentences": [
+   "Nothing enhanced the room like removing three quarters of what was in it.",
+   "The photograph was enhanced until it stopped being evidence."
+  ]
+ },
+ "enigma": {
+  "pos": "noun",
+  "definition": "a puzzling person or thing",
+  "synonyms": [
+   "mystery",
+   "riddle",
+   "conundrum"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "He remained an enigma to colleagues who had shared an office with him for years.",
+   "Churchill called Russia a riddle wrapped in a mystery inside an enigma, and left it there."
+  ]
+ },
+ "enigmatic": {
+  "pos": "adjective",
+  "definition": "mysterious and hard to interpret",
+  "synonyms": [
+   "cryptic",
+   "inscrutable",
+   "puzzling"
+  ],
+  "antonyms": [
+   "transparent",
+   "obvious"
+  ],
+  "sentences": [
+   "Her enigmatic reply could be read as approval or a threat, which was the point.",
+   "The enigmatic smile has sold more postcards than any other expression in art."
+  ]
+ },
+ "enjoin": {
+  "pos": "verb",
+  "definition": "to order someone to do or stop something",
+  "synonyms": [
+   "command",
+   "prohibit",
+   "direct"
+  ],
+  "antonyms": [
+   "permit",
+   "allow"
+  ],
+  "sentences": [
+   "The court enjoined the company from selling the product pending review.",
+   "Enjoin is one of those words that can command an act or forbid it entirely."
+  ]
+ },
+ "enmity": {
+  "pos": "noun",
+  "definition": "deep-seated hostility",
+  "synonyms": [
+   "animosity",
+   "antagonism",
+   "hatred"
+  ],
+  "antonyms": [
+   "friendship",
+   "amity"
+  ],
+  "sentences": [
+   "The enmity between the two villages was founded on a bridge and maintained by habit.",
+   "Enmity requires memory, which is why forgetting is sometimes strategic."
+  ]
+ },
+ "ennui": {
+  "pos": "noun",
+  "definition": "listless boredom and dissatisfaction",
+  "synonyms": [
+   "boredom",
+   "tedium",
+   "listlessness"
+  ],
+  "antonyms": [
+   "excitement",
+   "engagement"
+  ],
+  "sentences": [
+   "A summer of ennui produced three abandoned novels and one very good garden.",
+   "Ennui is boredom with a French passport and better clothes."
+  ]
+ },
+ "enormity": {
+  "pos": "noun",
+  "definition": "extreme wickedness or a monstrous act",
+  "synonyms": [
+   "atrocity",
+   "outrage",
+   "heinousness"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The enormity of the crime was matched by the banality of its planning.",
+   "Purists insist enormity means wickedness, not size, and lose that battle daily."
+  ]
+ },
+ "enrapture": {
+  "pos": "verb",
+  "definition": "to fill with delight",
+  "synonyms": [
+   "enthrall",
+   "captivate",
+   "transport"
+  ],
+  "antonyms": [
+   "bore",
+   "repel"
+  ],
+  "sentences": [
+   "The final movement enraptured an audience that had spent the first half coughing.",
+   "He was enraptured by the machine and indifferent to what it produced."
+  ]
+ },
+ "ensconce": {
+  "pos": "verb",
+  "definition": "to settle comfortably and securely",
+  "synonyms": [
+   "settle",
+   "install",
+   "nestle"
+  ],
+  "antonyms": [
+   "dislodge",
+   "evict"
+  ],
+  "sentences": [
+   "Ensconced in the corner armchair with a blanket, he refused all further requests.",
+   "She was ensconced in the department for thirty years and outlasted six restructurings."
+  ]
+ },
+ "ensue": {
+  "pos": "verb",
+  "definition": "to follow as a consequence",
+  "synonyms": [
+   "follow",
+   "result",
+   "proceed"
+  ],
+  "antonyms": [
+   "precede"
+  ],
+  "sentences": [
+   "Chaos ensued, as it generally does when four people share one microphone.",
+   "A silence ensued that was longer than the question deserved."
+  ]
+ },
+ "entertain": {
+  "pos": "verb",
+  "definition": "to consider an idea; to amuse",
+  "synonyms": [
+   "consider",
+   "contemplate",
+   "amuse"
+  ],
+  "antonyms": [
+   "reject",
+   "dismiss"
+  ],
+  "sentences": [
+   "He would not entertain the possibility that the fault lay in his own code.",
+   "Aristotle praised the mind that can entertain a thought without accepting it."
+  ]
+ },
+ "enthrall": {
+  "pos": "verb",
+  "definition": "to capture the complete attention of",
+  "synonyms": [
+   "captivate",
+   "mesmerize",
+   "spellbind"
+  ],
+  "antonyms": [
+   "bore",
+   "repel"
+  ],
+  "sentences": [
+   "The storyteller enthralled two hundred children for fifty minutes without a single prop.",
+   "Enthrall once meant to enslave, which is a dark origin for a compliment."
+  ]
+ },
+ "entice": {
+  "pos": "verb",
+  "definition": "to tempt by offering something appealing",
+  "synonyms": [
+   "lure",
+   "tempt",
+   "allure"
+  ],
+  "antonyms": [
+   "repel",
+   "deter"
+  ],
+  "sentences": [
+   "Free coffee enticed forty people to a seminar that eleven found useful.",
+   "The trap was baited with something enticing and, unusually, nutritious."
+  ]
+ },
+ "entitled": {
+  "pos": "adjective",
+  "definition": "believing oneself deserving of privilege",
+  "synonyms": [
+   "presumptuous",
+   "privileged",
+   "self-important"
+  ],
+  "antonyms": [
+   "humble",
+   "unassuming"
+  ],
+  "sentences": [
+   "The entitled complaint about a delayed flight lasted longer than the delay.",
+   "Legally entitled and behaving entitled are very different things."
+  ]
+ },
+ "entitlement": {
+  "pos": "noun",
+  "definition": "a right to something; a sense of deserving it",
+  "synonyms": [
+   "right",
+   "claim",
+   "privilege"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The entitlement is written in the contract; the attitude was acquired elsewhere.",
+   "Reforming entitlements is popular in the abstract and lethal in a specific district."
+  ]
+ },
+ "entomology": {
+  "pos": "noun",
+  "definition": "the study of insects",
+  "synonyms": [
+   "insect science"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Entomology studies insects; etymology studies words. Confusing them creates memorable errors.",
+   "A lifetime in entomology left him with sixty thousand specimens and no dinner invitations."
+  ]
+ },
+ "entreat": {
+  "pos": "verb",
+  "definition": "to ask earnestly and humbly",
+  "synonyms": [
+   "implore",
+   "beseech",
+   "plead"
+  ],
+  "antonyms": [
+   "demand",
+   "order"
+  ],
+  "sentences": [
+   "She entreated the committee for one more week and was granted three days.",
+   "He entreated, argued, and finally simply waited, which worked."
+  ]
+ },
+ "entrenched": {
+  "pos": "adjective",
+  "definition": "firmly established and hard to change",
+  "synonyms": [
+   "ingrained",
+   "rooted",
+   "established"
+  ],
+  "antonyms": [
+   "superficial",
+   "transient"
+  ],
+  "sentences": [
+   "Entrenched habits survive every reorganization, which is why reorganizations keep happening.",
+   "The advantage is entrenched: the leader writes the rules of the next round."
+  ]
+ },
+ "enumerate": {
+  "pos": "verb",
+  "definition": "to list items one by one",
+  "synonyms": [
+   "list",
+   "itemize",
+   "specify"
+  ],
+  "antonyms": [
+   "summarize"
+  ],
+  "sentences": [
+   "He enumerated his objections in nine parts, and the room aged visibly.",
+   "To enumerate the problems took an hour; to solve one took a week."
+  ]
+ },
+ "ephemeral": {
+  "pos": "adjective",
+  "definition": "lasting a very short time",
+  "synonyms": [
+   "transitory",
+   "fleeting",
+   "evanescent"
+  ],
+  "antonyms": [
+   "enduring",
+   "permanent"
+  ],
+  "sentences": [
+   "Mayflies are ephemeral by name and by fact: one day, no mouth, no time to eat.",
+   "Internet fame is ephemeral, which is the only mercy in the whole arrangement."
+  ]
+ },
+ "epicure": {
+  "pos": "noun",
+  "definition": "a person with refined taste in food and drink",
+  "synonyms": [
+   "gourmet",
+   "connoisseur",
+   "gastronome"
+  ],
+  "antonyms": [
+   "glutton"
+  ],
+  "sentences": [
+   "The epicure sent back the wine, the fish, and eventually himself.",
+   "Epicurus actually recommended bread, cheese, and friends, which the epicures forgot."
+  ]
+ },
+ "epigram": {
+  "pos": "noun",
+  "definition": "a short, witty saying",
+  "synonyms": [
+   "aphorism",
+   "quip",
+   "maxim"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Wilde's epigrams have outlasted the plays that carried them.",
+   "An epigram is a whole argument compressed until it sparkles."
+  ]
+ },
+ "epiphany": {
+  "pos": "noun",
+  "definition": "a sudden striking realization",
+  "synonyms": [
+   "revelation",
+   "insight",
+   "realization"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Her epiphany arrived on a bus, as most epiphanies do, uninvited.",
+   "Joyce borrowed the religious word for the moment an ordinary thing turns luminous."
+  ]
+ },
+ "episodic": {
+  "pos": "adjective",
+  "definition": "occurring irregularly; made of loose episodes",
+  "synonyms": [
+   "sporadic",
+   "intermittent",
+   "disjointed"
+  ],
+  "antonyms": [
+   "continuous",
+   "sustained"
+  ],
+  "sentences": [
+   "The novel is episodic: nine excellent chapters and no discernible spine.",
+   "His interest was episodic, arriving each spring and departing each autumn."
+  ]
+ },
+ "epistolary": {
+  "pos": "adjective",
+  "definition": "written in the form of letters",
+  "synonyms": [
+   "written",
+   "correspondent"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Dracula is an epistolary novel, assembled from letters, diaries, and one ship's log.",
+   "Their epistolary friendship survived forty years and one disastrous meeting."
+  ]
+ },
+ "epitome": {
+  "pos": "noun",
+  "definition": "a perfect example of something",
+  "synonyms": [
+   "embodiment",
+   "quintessence",
+   "archetype"
+  ],
+  "antonyms": [
+   "antithesis"
+  ],
+  "sentences": [
+   "The building is the epitome of a style everyone claims to dislike.",
+   "He is the epitome of the competent bore, and the department could not run without him."
+  ]
+ },
+ "eponym": {
+  "pos": "noun",
+  "definition": "a person after whom something is named",
+  "synonyms": [
+   "namesake"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Sandwich, boycott, and diesel are all people who became things.",
+   "The disease's eponym described it in 1817 and never treated a single case successfully."
+  ]
+ },
+ "equable": {
+  "pos": "adjective",
+  "definition": "calm and even-tempered; unvarying",
+  "synonyms": [
+   "even-tempered",
+   "placid",
+   "steady"
+  ],
+  "antonyms": [
+   "volatile",
+   "temperamental"
+  ],
+  "sentences": [
+   "His equable temper survived four hours of hostile questioning and one broken microphone.",
+   "The island's equable climate ruins its inhabitants for anywhere else."
+  ]
+ },
+ "equanimity": {
+  "pos": "noun",
+  "definition": "calmness under strain",
+  "synonyms": [
+   "composure",
+   "poise",
+   "serenity"
+  ],
+  "antonyms": [
+   "agitation",
+   "panic"
+  ],
+  "sentences": [
+   "She received the diagnosis with an equanimity that frightened her family.",
+   "Equanimity in a crisis is mostly deciding in advance what you will not do."
+  ]
+ },
+ "equitable": {
+  "pos": "adjective",
+  "definition": "fair and impartial to all",
+  "synonyms": [
+   "fair",
+   "just",
+   "evenhanded"
+  ],
+  "antonyms": [
+   "unfair",
+   "partial"
+  ],
+  "sentences": [
+   "An equitable split is not always an equal one, which is where the arguing starts.",
+   "The settlement was equitable, which meant everyone left mildly dissatisfied."
+  ]
+ },
+ "equivocal": {
+  "pos": "adjective",
+  "definition": "ambiguous; open to two interpretations",
+  "synonyms": [
+   "ambiguous",
+   "vague",
+   "noncommittal"
+  ],
+  "antonyms": [
+   "unequivocal",
+   "definite"
+  ],
+  "sentences": [
+   "The test results were equivocal, so they ran it again with the same outcome.",
+   "His equivocal endorsement helped neither candidate and offended both."
+  ]
+ },
+ "equivocate": {
+  "pos": "verb",
+  "definition": "to speak ambiguously to avoid commitment",
+  "synonyms": [
+   "prevaricate",
+   "hedge",
+   "waffle"
+  ],
+  "antonyms": [
+   "commit",
+   "specify"
+  ],
+  "sentences": [
+   "Asked a yes-or-no question, he equivocated for six paragraphs.",
+   "Politicians equivocate; witnesses who equivocate are usually asked to sit back down."
+  ]
+ },
+ "eradicate": {
+  "pos": "verb",
+  "definition": "to destroy completely",
+  "synonyms": [
+   "eliminate",
+   "exterminate",
+   "extirpate"
+  ],
+  "antonyms": [
+   "establish",
+   "propagate"
+  ],
+  "sentences": [
+   "Smallpox is the one human disease we have actually eradicated, and it took two centuries.",
+   "The Latin root is pulling up by the roots, which is the standard for the word."
+  ]
+ },
+ "erode": {
+  "pos": "verb",
+  "definition": "to wear away gradually",
+  "synonyms": [
+   "wear",
+   "corrode",
+   "undermine"
+  ],
+  "antonyms": [
+   "build",
+   "reinforce"
+  ],
+  "sentences": [
+   "Each small dishonesty eroded a reputation that had taken decades to build.",
+   "The cliff erodes a meter a year, and the houses on it are still for sale."
+  ]
+ },
+ "err": {
+  "pos": "verb",
+  "definition": "to make a mistake",
+  "synonyms": [
+   "blunder",
+   "misjudge",
+   "slip"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Err on the side of caution, said the sign, unhelpfully, at the top of the cliff.",
+   "To err is human; to blame the intern is management."
+  ]
+ },
+ "errant": {
+  "pos": "adjective",
+  "definition": "straying from the proper course",
+  "synonyms": [
+   "wayward",
+   "stray",
+   "aberrant"
+  ],
+  "antonyms": [
+   "dutiful",
+   "obedient"
+  ],
+  "sentences": [
+   "An errant comma changed the meaning of a contract by four million pounds.",
+   "The errant knight wandered in search of trouble, which is the job description."
+  ]
+ },
+ "erratic": {
+  "pos": "adjective",
+  "definition": "unpredictable and inconsistent",
+  "synonyms": [
+   "inconsistent",
+   "volatile",
+   "capricious"
+  ],
+  "antonyms": [
+   "steady",
+   "consistent"
+  ],
+  "sentences": [
+   "His erratic attendance made him impossible to schedule and impossible to replace.",
+   "The engine ran erratically for a week and then, considerately, failed at the depot."
+  ]
+ },
+ "erroneous": {
+  "pos": "adjective",
+  "definition": "incorrect; based on error",
+  "synonyms": [
+   "mistaken",
+   "false",
+   "fallacious"
+  ],
+  "antonyms": [
+   "accurate",
+   "correct"
+  ],
+  "sentences": [
+   "The erroneous figure was repeated in nine articles before anyone checked the source.",
+   "An erroneous assumption at the start makes every later calculation beautifully wrong."
+  ]
+ },
+ "ersatz": {
+  "pos": "adjective",
+  "definition": "an inferior artificial substitute",
+  "synonyms": [
+   "artificial",
+   "imitation",
+   "synthetic"
+  ],
+  "antonyms": [
+   "genuine",
+   "authentic"
+  ],
+  "sentences": [
+   "Wartime ersatz coffee was made from acorns and grim determination.",
+   "The apology was ersatz: the shape of the thing without the substance."
+  ]
+ },
+ "erstwhile": {
+  "pos": "adjective",
+  "definition": "former",
+  "synonyms": [
+   "former",
+   "previous",
+   "onetime"
+  ],
+  "antonyms": [
+   "current",
+   "present"
+  ],
+  "sentences": [
+   "His erstwhile allies testified first and at length.",
+   "The erstwhile factory is now nine apartments and a coffee shop."
+  ]
+ },
+ "erudite": {
+  "pos": "adjective",
+  "definition": "having deep, wide learning",
+  "synonyms": [
+   "scholarly",
+   "learned",
+   "well-read"
+  ],
+  "antonyms": [
+   "ignorant",
+   "unschooled"
+  ],
+  "sentences": [
+   "His erudite footnotes were longer, and better, than the chapters above them.",
+   "Erudite conversation is delightful for exactly as long as you can keep up."
+  ]
+ },
+ "erudition": {
+  "pos": "noun",
+  "definition": "extensive scholarly knowledge",
+  "synonyms": [
+   "learning",
+   "scholarship",
+   "knowledge"
+  ],
+  "antonyms": [
+   "ignorance"
+  ],
+  "sentences": [
+   "Her erudition was worn lightly, which made it twice as impressive.",
+   "Erudition without judgment produces very well-informed nonsense."
+  ]
+ },
+ "escalate": {
+  "pos": "verb",
+  "definition": "to increase rapidly in intensity",
+  "synonyms": [
+   "intensify",
+   "heighten",
+   "mount"
+  ],
+  "antonyms": [
+   "de-escalate",
+   "diminish"
+  ],
+  "sentences": [
+   "A dispute about parking escalated into a case that reached the high court.",
+   "Costs escalated quietly until the total appeared on one very memorable slide."
+  ]
+ },
+ "eschew": {
+  "pos": "verb",
+  "definition": "to deliberately avoid",
+  "synonyms": [
+   "shun",
+   "forgo",
+   "abstain from"
+  ],
+  "antonyms": [
+   "embrace",
+   "seek"
+  ],
+  "sentences": [
+   "She eschewed publicity so thoroughly that two obituaries used the wrong photograph.",
+   "He eschews adjectives, which makes his praise worth something."
+  ]
+ },
+ "esoteric": {
+  "pos": "adjective",
+  "definition": "understood by only a small group",
+  "synonyms": [
+   "arcane",
+   "abstruse",
+   "recondite"
+  ],
+  "antonyms": [
+   "accessible",
+   "mainstream"
+  ],
+  "sentences": [
+   "The dispute was esoteric enough that only nine people on earth could take a side.",
+   "Esoteric knowledge becomes valuable the moment somebody needs it urgently."
+  ]
+ },
+ "espouse": {
+  "pos": "verb",
+  "definition": "to adopt or support a cause",
+  "synonyms": [
+   "adopt",
+   "embrace",
+   "champion"
+  ],
+  "antonyms": [
+   "reject",
+   "renounce"
+  ],
+  "sentences": [
+   "He espoused free trade in public and lobbied for tariffs in private.",
+   "The word once meant to marry, which explains its air of commitment."
+  ]
+ },
+ "establish": {
+  "pos": "verb",
+  "definition": "to set up firmly; to prove",
+  "synonyms": [
+   "found",
+   "institute",
+   "demonstrate"
+  ],
+  "antonyms": [
+   "abolish",
+   "disprove"
+  ],
+  "sentences": [
+   "The study established a link that four earlier studies had merely suggested.",
+   "The firm was established in 1892 and has moved premises eleven times since."
+  ]
+ },
+ "esteem": {
+  "pos": "noun",
+  "definition": "respect and admiration",
+  "synonyms": [
+   "regard",
+   "respect",
+   "admiration"
+  ],
+  "antonyms": [
+   "contempt",
+   "disdain"
+  ],
+  "sentences": [
+   "He was held in high esteem by colleagues and in open suspicion by auditors.",
+   "Esteem earned slowly can be spent alarmingly fast."
+  ]
+ },
+ "estimable": {
+  "pos": "adjective",
+  "definition": "deserving respect",
+  "synonyms": [
+   "admirable",
+   "worthy",
+   "commendable"
+  ],
+  "antonyms": [
+   "contemptible",
+   "unworthy"
+  ],
+  "sentences": [
+   "An estimable career ended in a dispute over a parking space.",
+   "The estimable qualities of the plan did not include being affordable."
+  ]
+ },
+ "estrange": {
+  "pos": "verb",
+  "definition": "to cause to become hostile or distant",
+  "synonyms": [
+   "alienate",
+   "distance",
+   "separate"
+  ],
+  "antonyms": [
+   "reconcile",
+   "unite"
+  ],
+  "sentences": [
+   "An argument about a will estranged the brothers for twenty-two years.",
+   "Success estranged him from everyone who had known him before it."
+  ]
+ },
+ "estranged": {
+  "pos": "adjective",
+  "definition": "no longer close or on good terms",
+  "synonyms": [
+   "alienated",
+   "separated",
+   "distant"
+  ],
+  "antonyms": [
+   "reconciled",
+   "close"
+  ],
+  "sentences": [
+   "His estranged sister arrived at the funeral and sat, deliberately, at the back.",
+   "Estranged colleagues can still produce excellent work, silently, in shifts."
+  ]
+ },
+ "ethereal": {
+  "pos": "adjective",
+  "definition": "delicate and light, seemingly not of this world",
+  "synonyms": [
+   "airy",
+   "celestial",
+   "gossamer"
+  ],
+  "antonyms": [
+   "earthy",
+   "solid"
+  ],
+  "sentences": [
+   "Her ethereal soprano carried over an orchestra that should have drowned it.",
+   "The ethereal light in those paintings comes from a pigment that cost more than gold."
+  ]
+ },
+ "ethos": {
+  "pos": "noun",
+  "definition": "the characteristic spirit of a group",
+  "synonyms": [
+   "character",
+   "spirit",
+   "culture"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The company's ethos was printed on the wall and contradicted in the parking lot.",
+   "A newsroom's ethos is set by whoever is willing to stay latest."
+  ]
+ },
+ "eugenic": {
+  "pos": "adjective",
+  "definition": "relating to improving inherited traits",
+  "synonyms": [
+   "hereditarian"
+  ],
+  "antonyms": [
+   "dysgenic"
+  ],
+  "sentences": [
+   "Eugenic policies were mainstream science in 1920 and a global disgrace by 1950.",
+   "The eugenic argument confused what is heritable with what is desirable."
+  ]
+ },
+ "eulogy": {
+  "pos": "noun",
+  "definition": "a speech of high praise, especially for the dead",
+  "synonyms": [
+   "tribute",
+   "encomium",
+   "panegyric"
+  ],
+  "antonyms": [
+   "diatribe",
+   "denunciation"
+  ],
+  "sentences": [
+   "The eulogy was funny for four minutes and unbearable for the fifth.",
+   "A eulogy is the one speech nobody rehearses enough and everyone remembers."
+  ]
+ },
+ "euphemism": {
+  "pos": "noun",
+  "definition": "a mild word substituted for a harsh one",
+  "synonyms": [
+   "substitution",
+   "understatement"
+  ],
+  "antonyms": [
+   "dysphemism"
+  ],
+  "sentences": [
+   "\"Restructuring\" is the euphemism; the letters go out on Friday.",
+   "Every profession invents euphemisms for the part of the job it dislikes explaining."
+  ]
+ },
+ "euphony": {
+  "pos": "noun",
+  "definition": "pleasing sound",
+  "synonyms": [
+   "melody",
+   "harmony",
+   "mellifluousness"
+  ],
+  "antonyms": [
+   "cacophony",
+   "discord"
+  ],
+  "sentences": [
+   "\"Cellar door\" is often cited as the euphony champion of English.",
+   "The poem sacrifices sense for euphony and gets away with it entirely."
+  ]
+ },
+ "euphoria": {
+  "pos": "noun",
+  "definition": "intense elation",
+  "synonyms": [
+   "elation",
+   "rapture",
+   "exhilaration"
+  ],
+  "antonyms": [
+   "despair",
+   "dysphoria"
+  ],
+  "sentences": [
+   "The euphoria lasted three days and the paperwork lasted three months.",
+   "Post-victory euphoria is famously bad for making decisions."
+  ]
+ },
+ "euphoric": {
+  "pos": "adjective",
+  "definition": "intensely happy and excited",
+  "synonyms": [
+   "elated",
+   "exultant",
+   "rapturous"
+  ],
+  "antonyms": [
+   "despondent",
+   "miserable"
+  ],
+  "sentences": [
+   "Euphoric at the finish line, she promised never to do it again and entered twice more.",
+   "The market was euphoric for a quarter and educational for a year."
+  ]
+ },
+ "evade": {
+  "pos": "verb",
+  "definition": "to avoid or escape by cleverness",
+  "synonyms": [
+   "dodge",
+   "sidestep",
+   "elude"
+  ],
+  "antonyms": [
+   "confront",
+   "face"
+  ],
+  "sentences": [
+   "He evaded the question by answering the one before it, at length.",
+   "Avoiding tax is legal; evading it is a different chapter of the same book."
+  ]
+ },
+ "evanescent": {
+  "pos": "adjective",
+  "definition": "quickly fading away",
+  "synonyms": [
+   "fleeting",
+   "ephemeral",
+   "transient"
+  ],
+  "antonyms": [
+   "permanent",
+   "enduring"
+  ],
+  "sentences": [
+   "The scent of rain on hot stone is evanescent and impossible to bottle honestly.",
+   "His fame was evanescent: two seasons, one catchphrase, then nothing."
+  ]
+ },
+ "evasive": {
+  "pos": "adjective",
+  "definition": "deliberately avoiding directness",
+  "synonyms": [
+   "shifty",
+   "elusive",
+   "equivocal"
+  ],
+  "antonyms": [
+   "direct",
+   "forthright"
+  ],
+  "sentences": [
+   "The evasive answers were more damaging than any admission would have been.",
+   "Evasive action saved the ship and cost eleven hours."
+  ]
+ },
+ "evenhanded": {
+  "pos": "adjective",
+  "definition": "fair and impartial",
+  "synonyms": [
+   "impartial",
+   "equitable",
+   "fair"
+  ],
+  "antonyms": [
+   "biased",
+   "partial"
+  ],
+  "sentences": [
+   "An evenhanded account satisfied neither camp, which is the usual sign of one.",
+   "She was evenhanded with praise and blame, and both landed harder for it."
+  ]
+ },
+ "evident": {
+  "pos": "adjective",
+  "definition": "plainly obvious",
+  "synonyms": [
+   "apparent",
+   "manifest",
+   "conspicuous"
+  ],
+  "antonyms": [
+   "obscure",
+   "hidden"
+  ],
+  "sentences": [
+   "It was evident from the second paragraph that the author had not visited the country.",
+   "The strain was evident to everyone except the person under it."
+  ]
+ },
+ "evoke": {
+  "pos": "verb",
+  "definition": "to bring a feeling or memory to mind",
+  "synonyms": [
+   "conjure",
+   "elicit",
+   "summon"
+  ],
+  "antonyms": [
+   "suppress"
+  ],
+  "sentences": [
+   "Three notes on a piano evoked an entire summer he had not thought about in years.",
+   "The painting evokes a place that never existed, convincingly."
+  ]
+ },
+ "exacerbate": {
+  "pos": "verb",
+  "definition": "to make a problem worse",
+  "synonyms": [
+   "aggravate",
+   "worsen",
+   "inflame"
+  ],
+  "antonyms": [
+   "alleviate",
+   "soothe"
+  ],
+  "sentences": [
+   "The statement exacerbated a crisis it was written to calm.",
+   "Sleeping badly exacerbates everything, including the reason you slept badly."
+  ]
+ },
+ "exacting": {
+  "pos": "adjective",
+  "definition": "demanding great care or effort",
+  "synonyms": [
+   "demanding",
+   "rigorous",
+   "stringent"
+  ],
+  "antonyms": [
+   "lenient",
+   "undemanding"
+  ],
+  "sentences": [
+   "An exacting editor is the cheapest improvement any writer can buy.",
+   "The exacting standards were met once, in 1974, and are still displayed."
+  ]
+ },
+ "exalt": {
+  "pos": "verb",
+  "definition": "to praise highly or raise in rank",
+  "synonyms": [
+   "glorify",
+   "extol",
+   "elevate"
+  ],
+  "antonyms": [
+   "denigrate",
+   "debase"
+  ],
+  "sentences": [
+   "The obituary exalted a man his employees had described in very different terms.",
+   "To exalt one colleague publicly is to demote everyone else quietly."
+  ]
+ },
+ "exasperate": {
+  "pos": "verb",
+  "definition": "to irritate intensely",
+  "synonyms": [
+   "infuriate",
+   "vex",
+   "irk"
+  ],
+  "antonyms": [
+   "soothe",
+   "placate"
+  ],
+  "sentences": [
+   "The automated menu exasperated callers into hanging up, which reduced complaints beautifully.",
+   "Nothing exasperates a specialist like confident amateur advice."
+  ]
+ },
+ "exasperated": {
+  "pos": "adjective",
+  "definition": "intensely irritated",
+  "synonyms": [
+   "infuriated",
+   "vexed",
+   "aggravated"
+  ],
+  "antonyms": [
+   "patient",
+   "calm"
+  ],
+  "sentences": [
+   "Exasperated after the fourth transfer, she wrote a letter instead and got results.",
+   "His exasperated sigh was audible in the next room and quoted for years."
+  ]
+ },
+ "excise": {
+  "pos": "verb",
+  "definition": "to cut out or remove",
+  "synonyms": [
+   "remove",
+   "delete",
+   "expunge"
+  ],
+  "antonyms": [
+   "insert",
+   "add"
+  ],
+  "sentences": [
+   "The editor excised the entire third act and the play improved immeasurably.",
+   "Two paragraphs were excised for legal reasons and everyone noticed the gap."
+  ]
+ },
+ "excoriate": {
+  "pos": "verb",
+  "definition": "to criticize severely",
+  "synonyms": [
+   "denounce",
+   "castigate",
+   "flay"
+  ],
+  "antonyms": [
+   "praise",
+   "commend"
+  ],
+  "sentences": [
+   "The report excoriated the board in language usually reserved for war crimes.",
+   "To excoriate is literally to strip the skin, which reviewers occasionally forget."
+  ]
+ },
+ "excruciating": {
+  "pos": "adjective",
+  "definition": "intensely painful",
+  "synonyms": [
+   "agonizing",
+   "unbearable",
+   "harrowing"
+  ],
+  "antonyms": [
+   "mild",
+   "painless"
+  ],
+  "sentences": [
+   "The pain was excruciating; the wait for a diagnosis was worse.",
+   "An excruciating silence followed the joke about the host's cooking."
+  ]
+ },
+ "exculpate": {
+  "pos": "verb",
+  "definition": "to clear from blame",
+  "synonyms": [
+   "exonerate",
+   "absolve",
+   "acquit"
+  ],
+  "antonyms": [
+   "incriminate",
+   "convict"
+  ],
+  "sentences": [
+   "The timestamp exculpated him in a single line after two years of suspicion.",
+   "Exculpatory evidence must be disclosed, which is the whole point of the rule."
+  ]
+ },
+ "execrable": {
+  "pos": "adjective",
+  "definition": "extremely bad; detestable",
+  "synonyms": [
+   "abominable",
+   "atrocious",
+   "deplorable"
+  ],
+  "antonyms": [
+   "admirable",
+   "excellent"
+  ],
+  "sentences": [
+   "The execrable coffee was the only thing everyone in the building agreed on.",
+   "His execrable handwriting cost a patient the correct dose."
+  ]
+ },
+ "execrate": {
+  "pos": "verb",
+  "definition": "to detest and denounce",
+  "synonyms": [
+   "loathe",
+   "abhor",
+   "denounce"
+  ],
+  "antonyms": [
+   "adore",
+   "extol"
+  ],
+  "sentences": [
+   "The policy was execrated by everyone and repealed by nobody.",
+   "He was execrated in his lifetime and has a statue now, which is the usual sequence."
+  ]
+ },
+ "exegesis": {
+  "pos": "noun",
+  "definition": "a detailed critical interpretation of a text",
+  "synonyms": [
+   "interpretation",
+   "analysis",
+   "commentary"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "A twelve-page exegesis of a four-line poem is either devotion or a career.",
+   "Exegesis draws meaning out; eisegesis pushes your meaning in."
+  ]
+ },
+ "exemplar": {
+  "pos": "noun",
+  "definition": "a model or typical example",
+  "synonyms": [
+   "model",
+   "paragon",
+   "archetype"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The chapel is the exemplar every architecture student is made to draw.",
+   "She became an exemplar of the method mainly by surviving its early failures."
+  ]
+ },
+ "exemplify": {
+  "pos": "verb",
+  "definition": "to be a typical example of",
+  "synonyms": [
+   "illustrate",
+   "typify",
+   "embody"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The episode exemplifies everything wrong and everything right with the process.",
+   "He exemplified the profession's virtues and, on Thursdays, its vices."
+  ]
+ },
+ "exert": {
+  "pos": "verb",
+  "definition": "to apply effort, force, or influence",
+  "synonyms": [
+   "apply",
+   "wield",
+   "exercise"
+  ],
+  "antonyms": [
+   "withhold",
+   "relax"
+  ],
+  "sentences": [
+   "The committee exerted pressure so gently that nobody could later identify it.",
+   "He exerted himself once, spectacularly, and rested on it for a decade."
+  ]
+ },
+ "exertion": {
+  "pos": "noun",
+  "definition": "great physical or mental effort",
+  "synonyms": [
+   "effort",
+   "labor",
+   "strain"
+  ],
+  "antonyms": [
+   "rest",
+   "idleness"
+  ],
+  "sentences": [
+   "After that exertion the team slept through a fire alarm.",
+   "The exertion of pretending to listen is underestimated by everyone who talks."
+  ]
+ },
+ "exhaustive": {
+  "pos": "adjective",
+  "definition": "complete and thorough",
+  "synonyms": [
+   "comprehensive",
+   "thorough",
+   "all-encompassing"
+  ],
+  "antonyms": [
+   "cursory",
+   "partial"
+  ],
+  "sentences": [
+   "An exhaustive search of the attic produced one glove and a great deal of dust.",
+   "The list is exhaustive, exhausting, and, in three places, wrong."
+  ]
+ },
+ "exhilarating": {
+  "pos": "adjective",
+  "definition": "thrilling and invigorating",
+  "synonyms": [
+   "thrilling",
+   "invigorating",
+   "electrifying"
+  ],
+  "antonyms": [
+   "dull",
+   "depressing"
+  ],
+  "sentences": [
+   "The first ten minutes were exhilarating and the next four hours were paperwork.",
+   "There is something exhilarating about a plan that has no chance of working."
+  ]
+ },
+ "exhort": {
+  "pos": "verb",
+  "definition": "to strongly urge someone to act",
+  "synonyms": [
+   "urge",
+   "implore",
+   "enjoin"
+  ],
+  "antonyms": [
+   "discourage",
+   "dissuade"
+  ],
+  "sentences": [
+   "The coach exhorted them for ten minutes and then let the silence do the work.",
+   "Editorials exhort; budgets decide."
+  ]
+ },
+ "exigency": {
+  "pos": "noun",
+  "definition": "an urgent need or demand",
+  "synonyms": [
+   "urgency",
+   "emergency",
+   "necessity"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The exigencies of the moment excused a decision that looked terrible in the report.",
+   "Every constitution has a clause for exigencies, and every exigency finds it."
+  ]
+ },
+ "exigent": {
+  "pos": "adjective",
+  "definition": "urgent; demanding immediate attention",
+  "synonyms": [
+   "pressing",
+   "urgent",
+   "critical"
+  ],
+  "antonyms": [
+   "trivial",
+   "deferrable"
+  ],
+  "sentences": [
+   "Exigent circumstances allowed entry without a warrant, and the court later disagreed.",
+   "The exigent problem crowded out the important one, as it always does."
+  ]
+ },
+ "exiguity": {
+  "pos": "noun",
+  "definition": "extreme scantiness or smallness",
+  "synonyms": [
+   "meagerness",
+   "scantiness",
+   "paucity"
+  ],
+  "antonyms": [
+   "abundance",
+   "plenty"
+  ],
+  "sentences": [
+   "The exiguity of the evidence did not slow the confident conclusion.",
+   "Given the exiguity of the budget, the result was frankly miraculous."
+  ]
+ },
+ "exonerate": {
+  "pos": "verb",
+  "definition": "to clear of blame or accusation",
+  "synonyms": [
+   "absolve",
+   "acquit",
+   "vindicate"
+  ],
+  "antonyms": [
+   "incriminate",
+   "convict"
+  ],
+  "sentences": [
+   "He was exonerated after eleven years, and the apology took another three.",
+   "The inquiry exonerated everyone senior and blamed a process nobody had designed."
+  ]
+ },
+ "exorbitant": {
+  "pos": "adjective",
+  "definition": "unreasonably high, especially in price",
+  "synonyms": [
+   "excessive",
+   "extortionate",
+   "inordinate"
+  ],
+  "antonyms": [
+   "reasonable",
+   "modest"
+  ],
+  "sentences": [
+   "The exorbitant rent explained why the shop sold nothing but very small jewelry.",
+   "Exorbitant means out of orbit: the price has left the ordinary path."
+  ]
+ },
+ "exorcise": {
+  "pos": "verb",
+  "definition": "to drive out an evil spirit or bad memory",
+  "synonyms": [
+   "expel",
+   "banish",
+   "purge"
+  ],
+  "antonyms": [
+   "summon",
+   "invite"
+  ],
+  "sentences": [
+   "He wrote the book to exorcise a decade he could not otherwise put down.",
+   "The new management exorcised the old logo and kept every old problem."
+  ]
+ },
+ "exotic": {
+  "pos": "adjective",
+  "definition": "strikingly unusual, from a distant place",
+  "synonyms": [
+   "foreign",
+   "outlandish",
+   "unfamiliar"
+  ],
+  "antonyms": [
+   "native",
+   "commonplace"
+  ],
+  "sentences": [
+   "The exotic fruit at the market was an ordinary vegetable two thousand miles away.",
+   "Exotic is a description of the describer's location, not the thing described."
+  ]
+ },
+ "expansive": {
+  "pos": "adjective",
+  "definition": "wide-ranging; open and communicative",
+  "synonyms": [
+   "extensive",
+   "effusive",
+   "broad"
+  ],
+  "antonyms": [
+   "restricted",
+   "reserved"
+  ],
+  "sentences": [
+   "He grew expansive after the second course and revealed the merger by dessert.",
+   "The expansive view from the office made the small decisions feel worse."
+  ]
+ },
+ "expatiate": {
+  "pos": "verb",
+  "definition": "to speak or write at length",
+  "synonyms": [
+   "elaborate",
+   "expound",
+   "dilate"
+  ],
+  "antonyms": [
+   "summarize",
+   "abridge"
+  ],
+  "sentences": [
+   "He expatiated on the history of the roof until the tour lost half its members.",
+   "Given an opening she would expatiate, brilliantly, for as long as anyone stayed."
+  ]
+ },
+ "expatriate": {
+  "pos": "noun",
+  "definition": "a person living outside their native country",
+  "synonyms": [
+   "émigré",
+   "exile"
+  ],
+  "antonyms": [
+   "native",
+   "repatriate"
+  ],
+  "sentences": [
+   "The expatriate community met weekly to complain about a country none intended to leave.",
+   "Expatriate or immigrant often depends on which passport and which salary."
+  ]
+ },
+ "expedient": {
+  "pos": "adjective",
+  "definition": "convenient and practical, though possibly improper",
+  "synonyms": [
+   "convenient",
+   "advantageous",
+   "politic"
+  ],
+  "antonyms": [
+   "inexpedient",
+   "principled"
+  ],
+  "sentences": [
+   "It was expedient to blame the software, which could not resign or testify.",
+   "The expedient solution buys a year and charges interest afterward."
+  ]
+ },
+ "expedite": {
+  "pos": "verb",
+  "definition": "to speed up a process",
+  "synonyms": [
+   "hasten",
+   "accelerate",
+   "facilitate"
+  ],
+  "antonyms": [
+   "delay",
+   "hinder"
+  ],
+  "sentences": [
+   "A single phone call expedited a permit that had waited eight months.",
+   "Expedited shipping costs triple and arrives, reliably, on the same Thursday."
+  ]
+ },
+ "expel": {
+  "pos": "verb",
+  "definition": "to force out or drive away",
+  "synonyms": [
+   "eject",
+   "banish",
+   "oust"
+  ],
+  "antonyms": [
+   "admit",
+   "welcome"
+  ],
+  "sentences": [
+   "He was expelled for an essay that the school now includes in its prospectus.",
+   "The engine expels heat, noise, and, occasionally, its own components."
+  ]
+ },
+ "expiate": {
+  "pos": "verb",
+  "definition": "to make amends for wrongdoing",
+  "synonyms": [
+   "atone",
+   "redress",
+   "make amends"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "He spent thirty years trying to expiate one afternoon.",
+   "Fines expiate nothing; they merely price the offense."
+  ]
+ },
+ "explicable": {
+  "pos": "adjective",
+  "definition": "able to be explained",
+  "synonyms": [
+   "understandable",
+   "accountable",
+   "intelligible"
+  ],
+  "antonyms": [
+   "inexplicable",
+   "baffling"
+  ],
+  "sentences": [
+   "The anomaly was explicable, though the explanation was duller than the mystery.",
+   "Everything is explicable afterward, which is the trouble with history."
+  ]
+ },
+ "explicate": {
+  "pos": "verb",
+  "definition": "to analyze and explain in detail",
+  "synonyms": [
+   "elucidate",
+   "expound",
+   "interpret"
+  ],
+  "antonyms": [
+   "obscure"
+  ],
+  "sentences": [
+   "She explicated the poem line by line and left it more alive than she found it.",
+   "To explicate a joke is to conduct an autopsy on it."
+  ]
+ },
+ "explicit": {
+  "pos": "adjective",
+  "definition": "stated clearly and in detail",
+  "synonyms": [
+   "unambiguous",
+   "express",
+   "categorical"
+  ],
+  "antonyms": [
+   "implicit",
+   "vague"
+  ],
+  "sentences": [
+   "The instructions were explicit and were ignored explicitly.",
+   "Make the assumption explicit and half the disagreement disappears."
+  ]
+ },
+ "exploit": {
+  "pos": "verb",
+  "definition": "to use unfairly for one's own advantage",
+  "synonyms": [
+   "abuse",
+   "manipulate",
+   "capitalize on"
+  ],
+  "antonyms": [
+   "protect"
+  ],
+  "sentences": [
+   "The scheme exploited a loophole that had been left open deliberately.",
+   "As a noun it means a heroic deed; as a verb, something rather less admirable."
+  ]
+ },
+ "exploitation": {
+  "pos": "noun",
+  "definition": "unfair use of someone or something for gain",
+  "synonyms": [
+   "abuse",
+   "misuse",
+   "manipulation"
+  ],
+  "antonyms": [
+   "protection",
+   "fair dealing"
+  ],
+  "sentences": [
+   "The report documented exploitation that four inspections had somehow missed.",
+   "Exploitation of the resource funded a museum about the people it displaced."
+  ]
+ },
+ "exploitative": {
+  "pos": "adjective",
+  "definition": "taking unfair advantage",
+  "synonyms": [
+   "abusive",
+   "predatory",
+   "extortionate"
+  ],
+  "antonyms": [
+   "fair",
+   "equitable"
+  ],
+  "sentences": [
+   "The contract was exploitative in six clauses and illegal in one.",
+   "Exploitative pricing during a flood is remembered longer than any flood."
+  ]
+ },
+ "exponent": {
+  "pos": "noun",
+  "definition": "an advocate or leading practitioner",
+  "synonyms": [
+   "advocate",
+   "proponent",
+   "champion"
+  ],
+  "antonyms": [
+   "opponent",
+   "critic"
+  ],
+  "sentences": [
+   "She was the leading exponent of a technique she had once dismissed in print.",
+   "An exponent of plain speech should probably avoid the word exponent."
+  ]
+ },
+ "exposition": {
+  "pos": "noun",
+  "definition": "a clear explanation; a large public display",
+  "synonyms": [
+   "explanation",
+   "account",
+   "exhibition"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The exposition of the theory takes forty pages and rewards every one of them.",
+   "Clumsy exposition is why characters explain to each other what both already know."
+  ]
+ },
+ "expostulation": {
+  "pos": "noun",
+  "definition": "earnest protest or remonstrance",
+  "synonyms": [
+   "protest",
+   "remonstrance",
+   "objection"
+  ],
+  "antonyms": [
+   "assent"
+  ],
+  "sentences": [
+   "His expostulations were noted in the minutes and ignored in the decision.",
+   "After much expostulation, the fee was reduced by eleven pounds."
+  ]
+ },
+ "expound": {
+  "pos": "verb",
+  "definition": "to explain in detail",
+  "synonyms": [
+   "elaborate",
+   "explicate",
+   "detail"
+  ],
+  "antonyms": [
+   "summarize"
+  ],
+  "sentences": [
+   "He expounded his theory to anyone who paused near the coffee machine.",
+   "Asked a simple question, she expounded for forty minutes and answered it beautifully."
+  ]
+ },
+ "expunge": {
+  "pos": "verb",
+  "definition": "to erase completely",
+  "synonyms": [
+   "delete",
+   "obliterate",
+   "efface"
+  ],
+  "antonyms": [
+   "record",
+   "preserve"
+  ],
+  "sentences": [
+   "The conviction was expunged, though the internet declined to cooperate.",
+   "Two names were expunged from the register, which drew more attention than leaving them."
+  ]
+ },
+ "expurgate": {
+  "pos": "verb",
+  "definition": "to remove objectionable material from a text",
+  "synonyms": [
+   "censor",
+   "bowdlerize",
+   "sanitize"
+  ],
+  "antonyms": [
+   "restore"
+  ],
+  "sentences": [
+   "The expurgated edition removed eleven pages and every reason to read it.",
+   "Expurgated letters make dull history and comfortable descendants."
+  ]
+ },
+ "extant": {
+  "pos": "adjective",
+  "definition": "still in existence",
+  "synonyms": [
+   "surviving",
+   "existing",
+   "remaining"
+  ],
+  "antonyms": [
+   "extinct",
+   "lost"
+  ],
+  "sentences": [
+   "Only three copies are extant, and two of them are in private hands.",
+   "Extant means still here; extinct means the opposite and sounds worryingly similar."
+  ]
+ },
+ "extemporaneous": {
+  "pos": "adjective",
+  "definition": "spoken or done without preparation",
+  "synonyms": [
+   "impromptu",
+   "improvised",
+   "unrehearsed"
+  ],
+  "antonyms": [
+   "prepared",
+   "scripted"
+  ],
+  "sentences": [
+   "His extemporaneous remarks were better than the speech he had spent a week writing.",
+   "Extemporaneous brilliance usually turns out to have been rehearsed in the car."
+  ]
+ },
+ "extemporize": {
+  "pos": "verb",
+  "definition": "to improvise",
+  "synonyms": [
+   "improvise",
+   "ad-lib",
+   "wing it"
+  ],
+  "antonyms": [
+   "rehearse",
+   "prepare"
+  ],
+  "sentences": [
+   "When the slides failed she extemporized for thirty minutes and got a standing ovation.",
+   "Jazz is extemporizing with rules everyone has agreed not to mention."
+  ]
+ },
+ "extend": {
+  "pos": "verb",
+  "definition": "to make longer or wider; to offer",
+  "synonyms": [
+   "prolong",
+   "expand",
+   "proffer"
+  ],
+  "antonyms": [
+   "curtail",
+   "retract"
+  ],
+  "sentences": [
+   "The deadline was extended twice and met, as always, at the last hour.",
+   "He extended a hand and an apology, in that order."
+  ]
+ },
+ "extenuate": {
+  "pos": "verb",
+  "definition": "to make an offense seem less serious",
+  "synonyms": [
+   "mitigate",
+   "excuse",
+   "palliate"
+  ],
+  "antonyms": [
+   "aggravate",
+   "worsen"
+  ],
+  "sentences": [
+   "Nothing extenuated the delay except that the alternative would have been worse.",
+   "The lawyer sought to extenuate rather than deny, which the jury noticed."
+  ]
+ },
+ "extenuating": {
+  "pos": "adjective",
+  "definition": "making an offense less serious",
+  "synonyms": [
+   "mitigating",
+   "justifying",
+   "palliating"
+  ],
+  "antonyms": [
+   "aggravating"
+  ],
+  "sentences": [
+   "Extenuating circumstances reduced the sentence and none of the damage.",
+   "Everyone believes their own circumstances are extenuating, which is what makes judges necessary."
+  ]
+ },
+ "extol": {
+  "pos": "verb",
+  "definition": "to praise enthusiastically",
+  "synonyms": [
+   "laud",
+   "exalt",
+   "acclaim"
+  ],
+  "antonyms": [
+   "disparage",
+   "criticize"
+  ],
+  "sentences": [
+   "He extolled the virtues of a system he had never personally had to use.",
+   "The brochure extols the view and omits the motorway."
+  ]
+ },
+ "extort": {
+  "pos": "verb",
+  "definition": "to obtain by force or threats",
+  "synonyms": [
+   "blackmail",
+   "coerce",
+   "wring"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "They extorted payments for four years by threatening to reveal nothing in particular.",
+   "The fee felt extorted rather than charged."
+  ]
+ },
+ "extraneous": {
+  "pos": "adjective",
+  "definition": "irrelevant; not belonging",
+  "synonyms": [
+   "irrelevant",
+   "superfluous",
+   "immaterial"
+  ],
+  "antonyms": [
+   "relevant",
+   "pertinent"
+  ],
+  "sentences": [
+   "Strip the extraneous detail and the argument fits on a postcard.",
+   "Extraneous noise in the recording turned out to be the most important evidence."
+  ]
+ },
+ "extrapolate": {
+  "pos": "verb",
+  "definition": "to extend a conclusion to unknown cases",
+  "synonyms": [
+   "infer",
+   "project",
+   "generalize"
+  ],
+  "antonyms": [
+   "interpolate"
+  ],
+  "sentences": [
+   "He extrapolated from three months of data and predicted a decade, confidently and wrongly.",
+   "Extrapolating a straight line far enough always predicts something absurd."
+  ]
+ },
+ "extrapolation": {
+  "pos": "noun",
+  "definition": "an estimate extended beyond known data",
+  "synonyms": [
+   "projection",
+   "inference",
+   "prediction"
+  ],
+  "antonyms": [
+   "interpolation"
+  ],
+  "sentences": [
+   "The forecast was an extrapolation dressed as a measurement.",
+   "Every extrapolation carries an unwritten clause: if nothing changes."
+  ]
+ },
+ "extravagant": {
+  "pos": "adjective",
+  "definition": "excessive in spending or expression",
+  "synonyms": [
+   "lavish",
+   "profligate",
+   "immoderate"
+  ],
+  "antonyms": [
+   "frugal",
+   "restrained"
+  ],
+  "sentences": [
+   "The extravagant claims in the advertisement drew regulators before customers.",
+   "One extravagant gesture is remembered; consistent generosity is not."
+  ]
+ },
+ "exuberant": {
+  "pos": "adjective",
+  "definition": "full of lively energy and enthusiasm",
+  "synonyms": [
+   "ebullient",
+   "effervescent",
+   "vivacious"
+  ],
+  "antonyms": [
+   "subdued",
+   "listless"
+  ],
+  "sentences": [
+   "Exuberant applause greeted a speech nobody could later summarize.",
+   "\"Irrational exuberance\" described a market that then rose for four more years."
+  ]
+ },
+ "fabricate": {
+  "pos": "verb",
+  "definition": "to invent falsely; to manufacture",
+  "synonyms": [
+   "invent",
+   "concoct",
+   "manufacture"
+  ],
+  "antonyms": [
+   "verify",
+   "authenticate"
+  ],
+  "sentences": [
+   "He fabricated the data and the apology, and only one of them was detected quickly.",
+   "The part was fabricated overnight from a photograph and a guess."
+  ]
+ },
+ "facetious": {
+  "pos": "adjective",
+  "definition": "joking inappropriately about serious matters",
+  "synonyms": [
+   "flippant",
+   "glib",
+   "tongue-in-cheek"
+  ],
+  "antonyms": [
+   "earnest",
+   "solemn"
+  ],
+  "sentences": [
+   "His facetious remark at the memorial cost him three friendships.",
+   "The word holds all five vowels in order, which is more than its jokes usually manage."
+  ]
+ },
+ "facile": {
+  "pos": "adjective",
+  "definition": "superficially easy or shallow",
+  "synonyms": [
+   "glib",
+   "simplistic",
+   "shallow"
+  ],
+  "antonyms": [
+   "profound",
+   "considered"
+  ],
+  "sentences": [
+   "The facile explanation fit on a slide and left every hard question untouched.",
+   "Facile can mean effortless, but on the GRE it almost always means too easy to be true."
+  ]
+ },
+ "facilitate": {
+  "pos": "verb",
+  "definition": "to make easier",
+  "synonyms": [
+   "ease",
+   "assist",
+   "expedite"
+  ],
+  "antonyms": [
+   "hinder",
+   "obstruct"
+  ],
+  "sentences": [
+   "A single shared calendar facilitated what four meetings had failed to arrange.",
+   "To facilitate a meeting is to keep three people from talking at once."
+  ]
+ },
+ "faction": {
+  "pos": "noun",
+  "definition": "a small dissenting group within a larger one",
+  "synonyms": [
+   "bloc",
+   "clique",
+   "splinter group"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Two factions formed over a font choice and did not speak for a year.",
+   "A faction becomes a party the moment it wins something."
+  ]
+ }
 }

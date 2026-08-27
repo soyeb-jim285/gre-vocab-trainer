@@ -50,6 +50,13 @@ import Testing
         }
     }
 
+    @Test func magooshLevelsAreSaneWhereTheyExist() {
+        let banded = Self.catalog.words.compactMap(\.magoosh)
+        #expect(banded.count > 900, "expected Magoosh levels for most of their 991 words")
+        #expect(banded.allSatisfy { ["basic", "common", "advanced"].contains($0.band) })
+        #expect(banded.allSatisfy { (1...10).contains($0.level) })
+    }
+
     @Test func synonymsAvoidRepeatingTheWordItself() {
         for word in Self.catalog.words {
             guard let gre = word.gre else { continue }

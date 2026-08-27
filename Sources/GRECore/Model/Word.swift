@@ -77,6 +77,17 @@ public struct GRESense: Codable, Hashable, Sendable {
     public let sentences: [String]
 }
 
+/// Where a word sits in Magoosh's own teaching order: which band, and which
+/// level within it. Present for the 991 words their vocabulary app covers.
+///
+/// Only the ordering is taken -- their sentences and answer options are theirs.
+public struct MagooshLevel: Codable, Hashable, Sendable {
+    /// "basic", "common", or "advanced".
+    public let band: String
+    /// 1-based level within the band.
+    public let level: Int
+}
+
 /// A vocabulary entry as shipped in `words.json`.
 public struct Word: Codable, Identifiable, Hashable, Sendable {
     public let id: String
@@ -93,6 +104,8 @@ public struct Word: Codable, Identifiable, Hashable, Sendable {
     /// Present for every word in the shipped dataset; optional so a
     /// hand-built ``Word`` in a test or preview need not supply one.
     public let gre: GRESense?
+    /// Nil for words outside Magoosh's 991.
+    public let magoosh: MagooshLevel?
 
     /// WordNet orders senses by frequency, so the first one is the sense a
     /// learner is most likely to meet.

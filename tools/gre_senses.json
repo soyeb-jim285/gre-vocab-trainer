@@ -14852,19 +14852,19 @@
  },
  "elaborate": {
   "antonyms": [
-   "summarize",
-   "abbreviate"
+   "simple",
+   "plain"
   ],
-  "definition": "to explain in greater detail",
-  "pos": "verb",
+  "definition": "detailed and complicated in design",
+  "pos": "adjective",
   "sentences": [
-   "Asked to elaborate, he repeated the sentence more slowly.",
-   "She elaborated for an hour and clarified nothing anyone had asked."
+   "The elaborate seating plan took a week and was abandoned on the night.",
+   "An elaborate excuse is less believable than a short one, and takes longer."
   ],
   "synonyms": [
-   "expand",
-   "expound",
-   "amplify"
+   "intricate",
+   "ornate",
+   "complex"
   ]
  },
  "elated": {

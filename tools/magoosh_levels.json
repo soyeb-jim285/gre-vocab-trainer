@@ -1,0 +1,3966 @@
+{
+ "aberrant": {
+  "band": "basic",
+  "level": 7
+ },
+ "aberration": {
+  "band": "advanced",
+  "level": 5
+ },
+ "abjure": {
+  "band": "common",
+  "level": 6
+ },
+ "aboveboard": {
+  "band": "advanced",
+  "level": 2
+ },
+ "abrogate": {
+  "band": "advanced",
+  "level": 1
+ },
+ "abstain": {
+  "band": "basic",
+  "level": 4
+ },
+ "abstruse": {
+  "band": "advanced",
+  "level": 5
+ },
+ "abysmal": {
+  "band": "basic",
+  "level": 5
+ },
+ "accolade": {
+  "band": "basic",
+  "level": 6
+ },
+ "acerbic": {
+  "band": "advanced",
+  "level": 4
+ },
+ "acme": {
+  "band": "common",
+  "level": 8
+ },
+ "acrimony": {
+  "band": "advanced",
+  "level": 8
+ },
+ "adamant": {
+  "band": "basic",
+  "level": 4
+ },
+ "adjudicate": {
+  "band": "common",
+  "level": 4
+ },
+ "admonish": {
+  "band": "common",
+  "level": 3
+ },
+ "admonitory": {
+  "band": "advanced",
+  "level": 6
+ },
+ "advocate": {
+  "band": "basic",
+  "level": 1
+ },
+ "aesthete": {
+  "band": "advanced",
+  "level": 2
+ },
+ "aesthetic": {
+  "band": "basic",
+  "level": 5
+ },
+ "affable": {
+  "band": "common",
+  "level": 5
+ },
+ "affluent": {
+  "band": "basic",
+  "level": 6
+ },
+ "afford": {
+  "band": "basic",
+  "level": 7
+ },
+ "alacrity": {
+  "band": "common",
+  "level": 7
+ },
+ "altruism": {
+  "band": "basic",
+  "level": 5
+ },
+ "amalgam": {
+  "band": "common",
+  "level": 8
+ },
+ "ambiguous": {
+  "band": "basic",
+  "level": 4
+ },
+ "ambivalent": {
+  "band": "advanced",
+  "level": 5
+ },
+ "ameliorate": {
+  "band": "common",
+  "level": 7
+ },
+ "amenable": {
+  "band": "advanced",
+  "level": 8
+ },
+ "amiable": {
+  "band": "basic",
+  "level": 3
+ },
+ "amok": {
+  "band": "common",
+  "level": 8
+ },
+ "amorphous": {
+  "band": "common",
+  "level": 8
+ },
+ "amply": {
+  "band": "basic",
+  "level": 6
+ },
+ "anachronism": {
+  "band": "basic",
+  "level": 3
+ },
+ "analogous": {
+  "band": "basic",
+  "level": 2
+ },
+ "anathema": {
+  "band": "advanced",
+  "level": 5
+ },
+ "anemic": {
+  "band": "common",
+  "level": 5
+ },
+ "animosity": {
+  "band": "basic",
+  "level": 6
+ },
+ "anodyne": {
+  "band": "common",
+  "level": 8
+ },
+ "anomalous": {
+  "band": "common",
+  "level": 8
+ },
+ "anomaly": {
+  "band": "basic",
+  "level": 1
+ },
+ "antedate": {
+  "band": "common",
+  "level": 4
+ },
+ "antic": {
+  "band": "common",
+  "level": 3
+ },
+ "antipathy": {
+  "band": "common",
+  "level": 3
+ },
+ "antiquated": {
+  "band": "basic",
+  "level": 5
+ },
+ "antithetical": {
+  "band": "advanced",
+  "level": 6
+ },
+ "apathetic": {
+  "band": "common",
+  "level": 4
+ },
+ "apathy": {
+  "band": "basic",
+  "level": 5
+ },
+ "apex": {
+  "band": "basic",
+  "level": 3
+ },
+ "aphorism": {
+  "band": "basic",
+  "level": 7
+ },
+ "aphoristic": {
+  "band": "advanced",
+  "level": 7
+ },
+ "aplomb": {
+  "band": "common",
+  "level": 7
+ },
+ "apocryphal": {
+  "band": "advanced",
+  "level": 8
+ },
+ "apogee": {
+  "band": "common",
+  "level": 1
+ },
+ "apostate": {
+  "band": "advanced",
+  "level": 5
+ },
+ "apothegm": {
+  "band": "common",
+  "level": 5
+ },
+ "apotheosis": {
+  "band": "advanced",
+  "level": 3
+ },
+ "appease": {
+  "band": "basic",
+  "level": 4
+ },
+ "apposite": {
+  "band": "advanced",
+  "level": 2
+ },
+ "appreciable": {
+  "band": "basic",
+  "level": 5
+ },
+ "apprehension": {
+  "band": "common",
+  "level": 4
+ },
+ "approbatory": {
+  "band": "common",
+  "level": 7
+ },
+ "appropriate": {
+  "band": "common",
+  "level": 1
+ },
+ "appurtenant": {
+  "band": "advanced",
+  "level": 6
+ },
+ "arbitrary": {
+  "band": "basic",
+  "level": 4
+ },
+ "arcane": {
+  "band": "advanced",
+  "level": 3
+ },
+ "arch": {
+  "band": "advanced",
+  "level": 7
+ },
+ "archaic": {
+  "band": "basic",
+  "level": 3
+ },
+ "arduous": {
+  "band": "basic",
+  "level": 7
+ },
+ "arrant": {
+  "band": "advanced",
+  "level": 7
+ },
+ "arriviste": {
+  "band": "advanced",
+  "level": 5
+ },
+ "arrogate": {
+  "band": "advanced",
+  "level": 4
+ },
+ "artful": {
+  "band": "basic",
+  "level": 4
+ },
+ "artifice": {
+  "band": "common",
+  "level": 3
+ },
+ "artless": {
+  "band": "common",
+  "level": 4
+ },
+ "artlessness": {
+  "band": "basic",
+  "level": 7
+ },
+ "ascendancy": {
+  "band": "common",
+  "level": 8
+ },
+ "ascetic": {
+  "band": "advanced",
+  "level": 6
+ },
+ "ascribe": {
+  "band": "common",
+  "level": 6
+ },
+ "askance": {
+  "band": "advanced",
+  "level": 8
+ },
+ "asperity": {
+  "band": "common",
+  "level": 7
+ },
+ "assail": {
+  "band": "common",
+  "level": 7
+ },
+ "assiduously": {
+  "band": "basic",
+  "level": 7
+ },
+ "assuage": {
+  "band": "common",
+  "level": 6
+ },
+ "atavism": {
+  "band": "advanced",
+  "level": 3
+ },
+ "attenuate": {
+  "band": "basic",
+  "level": 7
+ },
+ "audacious": {
+  "band": "common",
+  "level": 5
+ },
+ "audacity": {
+  "band": "basic",
+  "level": 3
+ },
+ "augment": {
+  "band": "basic",
+  "level": 5
+ },
+ "auspicious": {
+  "band": "advanced",
+  "level": 6
+ },
+ "austere": {
+  "band": "common",
+  "level": 7
+ },
+ "autocratic": {
+  "band": "basic",
+  "level": 4
+ },
+ "autonomous": {
+  "band": "basic",
+  "level": 2
+ },
+ "avarice": {
+  "band": "common",
+  "level": 3
+ },
+ "avaricious": {
+  "band": "advanced",
+  "level": 6
+ },
+ "avert": {
+  "band": "basic",
+  "level": 4
+ },
+ "avid": {
+  "band": "basic",
+  "level": 6
+ },
+ "badger": {
+  "band": "basic",
+  "level": 6
+ },
+ "baleful": {
+  "band": "common",
+  "level": 6
+ },
+ "balk": {
+  "band": "advanced",
+  "level": 4
+ },
+ "banal": {
+  "band": "advanced",
+  "level": 6
+ },
+ "banality": {
+  "band": "basic",
+  "level": 6
+ },
+ "banish": {
+  "band": "basic",
+  "level": 3
+ },
+ "base": {
+  "band": "basic",
+  "level": 7
+ },
+ "bastardization": {
+  "band": "common",
+  "level": 3
+ },
+ "beatific": {
+  "band": "advanced",
+  "level": 6
+ },
+ "becoming": {
+  "band": "common",
+  "level": 4
+ },
+ "begrudge": {
+  "band": "advanced",
+  "level": 3
+ },
+ "behoove": {
+  "band": "advanced",
+  "level": 2
+ },
+ "belie": {
+  "band": "advanced",
+  "level": 8
+ },
+ "belittle": {
+  "band": "basic",
+  "level": 2
+ },
+ "bellicose": {
+  "band": "common",
+  "level": 7
+ },
+ "belligerent": {
+  "band": "common",
+  "level": 5
+ },
+ "bemoan": {
+  "band": "basic",
+  "level": 7
+ },
+ "benighted": {
+  "band": "advanced",
+  "level": 7
+ },
+ "benign": {
+  "band": "basic",
+  "level": 6
+ },
+ "bereft": {
+  "band": "common",
+  "level": 7
+ },
+ "besiege": {
+  "band": "advanced",
+  "level": 3
+ },
+ "besmirch": {
+  "band": "advanced",
+  "level": 3
+ },
+ "besotted": {
+  "band": "common",
+  "level": 8
+ },
+ "betray": {
+  "band": "basic",
+  "level": 7
+ },
+ "bilious": {
+  "band": "advanced",
+  "level": 3
+ },
+ "bleak": {
+  "band": "common",
+  "level": 1
+ },
+ "blinkered": {
+  "band": "advanced",
+  "level": 7
+ },
+ "bolster": {
+  "band": "basic",
+  "level": 4
+ },
+ "boon": {
+  "band": "common",
+  "level": 6
+ },
+ "boorish": {
+  "band": "common",
+  "level": 7
+ },
+ "bowdlerize": {
+  "band": "advanced",
+  "level": 7
+ },
+ "brazen": {
+  "band": "advanced",
+  "level": 5
+ },
+ "bridle": {
+  "band": "advanced",
+  "level": 2
+ },
+ "bristle": {
+  "band": "common",
+  "level": 7
+ },
+ "broadside": {
+  "band": "advanced",
+  "level": 4
+ },
+ "bromide": {
+  "band": "common",
+  "level": 7
+ },
+ "brook": {
+  "band": "common",
+  "level": 8
+ },
+ "browbeat": {
+  "band": "common",
+  "level": 7
+ },
+ "brusquely": {
+  "band": "common",
+  "level": 8
+ },
+ "buck": {
+  "band": "advanced",
+  "level": 4
+ },
+ "bucolic": {
+  "band": "advanced",
+  "level": 8
+ },
+ "bumbling": {
+  "band": "advanced",
+  "level": 5
+ },
+ "burgeon": {
+  "band": "common",
+  "level": 8
+ },
+ "buttress": {
+  "band": "common",
+  "level": 3
+ },
+ "byzantine": {
+  "band": "common",
+  "level": 8
+ },
+ "cadaverous": {
+  "band": "advanced",
+  "level": 3
+ },
+ "callow": {
+  "band": "common",
+  "level": 8
+ },
+ "calumny": {
+  "band": "advanced",
+  "level": 8
+ },
+ "canard": {
+  "band": "advanced",
+  "level": 6
+ },
+ "candid": {
+  "band": "basic",
+  "level": 4
+ },
+ "capitulate": {
+  "band": "common",
+  "level": 4
+ },
+ "capricious": {
+  "band": "common",
+  "level": 8
+ },
+ "cardinal": {
+  "band": "basic",
+  "level": 7
+ },
+ "carping": {
+  "band": "advanced",
+  "level": 7
+ },
+ "castigate": {
+  "band": "advanced",
+  "level": 7
+ },
+ "cataclysm": {
+  "band": "basic",
+  "level": 7
+ },
+ "catalyst": {
+  "band": "basic",
+  "level": 1
+ },
+ "catholic": {
+  "band": "common",
+  "level": 5
+ },
+ "cavalier": {
+  "band": "advanced",
+  "level": 6
+ },
+ "cede": {
+  "band": "basic",
+  "level": 7
+ },
+ "celerity": {
+  "band": "common",
+  "level": 4
+ },
+ "censor": {
+  "band": "basic",
+  "level": 2
+ },
+ "censure": {
+  "band": "advanced",
+  "level": 8
+ },
+ "cerebral": {
+  "band": "basic",
+  "level": 6
+ },
+ "chagrin": {
+  "band": "common",
+  "level": 3
+ },
+ "champion": {
+  "band": "basic",
+  "level": 4
+ },
+ "charlatan": {
+  "band": "common",
+  "level": 4
+ },
+ "chary": {
+  "band": "advanced",
+  "level": 7
+ },
+ "chastise": {
+  "band": "common",
+  "level": 6
+ },
+ "chauvinism": {
+  "band": "basic",
+  "level": 2
+ },
+ "chauvinist": {
+  "band": "basic",
+  "level": 6
+ },
+ "check": {
+  "band": "basic",
+  "level": 4
+ },
+ "checkered": {
+  "band": "advanced",
+  "level": 4
+ },
+ "chimera": {
+  "band": "common",
+  "level": 5
+ },
+ "chivalrous": {
+  "band": "basic",
+  "level": 4
+ },
+ "choleric": {
+  "band": "advanced",
+  "level": 4
+ },
+ "chortle": {
+  "band": "advanced",
+  "level": 6
+ },
+ "churlish": {
+  "band": "advanced",
+  "level": 5
+ },
+ "circumscribe": {
+  "band": "advanced",
+  "level": 2
+ },
+ "circumvent": {
+  "band": "common",
+  "level": 8
+ },
+ "clemency": {
+  "band": "common",
+  "level": 4
+ },
+ "coalesce": {
+  "band": "basic",
+  "level": 7
+ },
+ "cogent": {
+  "band": "advanced",
+  "level": 4
+ },
+ "cohesive": {
+  "band": "basic",
+  "level": 2
+ },
+ "collusion": {
+  "band": "common",
+  "level": 7
+ },
+ "colossal": {
+  "band": "basic",
+  "level": 4
+ },
+ "commendable": {
+  "band": "basic",
+  "level": 4
+ },
+ "commensurate": {
+  "band": "advanced",
+  "level": 8
+ },
+ "complacent": {
+  "band": "common",
+  "level": 6
+ },
+ "complaisant": {
+  "band": "common",
+  "level": 2
+ },
+ "complementary": {
+  "band": "basic",
+  "level": 2
+ },
+ "complicit": {
+  "band": "common",
+  "level": 7
+ },
+ "compound": {
+  "band": "basic",
+  "level": 7
+ },
+ "concede": {
+  "band": "common",
+  "level": 5
+ },
+ "conciliate": {
+  "band": "common",
+  "level": 3
+ },
+ "concomitant": {
+  "band": "common",
+  "level": 8
+ },
+ "conducive": {
+  "band": "common",
+  "level": 2
+ },
+ "conflagration": {
+  "band": "common",
+  "level": 5
+ },
+ "conflate": {
+  "band": "advanced",
+  "level": 3
+ },
+ "confound": {
+  "band": "common",
+  "level": 7
+ },
+ "conniving": {
+  "band": "common",
+  "level": 6
+ },
+ "consecrate": {
+  "band": "common",
+  "level": 4
+ },
+ "conspicuous": {
+  "band": "advanced",
+  "level": 3
+ },
+ "constraint": {
+  "band": "basic",
+  "level": 1
+ },
+ "construe": {
+  "band": "advanced",
+  "level": 3
+ },
+ "consummate": {
+  "band": "common",
+  "level": 7
+ },
+ "contemptuous": {
+  "band": "basic",
+  "level": 7
+ },
+ "contentious": {
+  "band": "common",
+  "level": 1
+ },
+ "contingent": {
+  "band": "advanced",
+  "level": 5
+ },
+ "contrite": {
+  "band": "common",
+  "level": 7
+ },
+ "contrition": {
+  "band": "advanced",
+  "level": 4
+ },
+ "contrive": {
+  "band": "advanced",
+  "level": 7
+ },
+ "conundrum": {
+  "band": "basic",
+  "level": 5
+ },
+ "convivial": {
+  "band": "advanced",
+  "level": 2
+ },
+ "convoluted": {
+  "band": "basic",
+  "level": 5
+ },
+ "copious": {
+  "band": "basic",
+  "level": 7
+ },
+ "cornucopia": {
+  "band": "basic",
+  "level": 7
+ },
+ "corollary": {
+  "band": "common",
+  "level": 3
+ },
+ "corroborate": {
+  "band": "basic",
+  "level": 6
+ },
+ "cosmopolitan": {
+  "band": "basic",
+  "level": 4
+ },
+ "cosseted": {
+  "band": "common",
+  "level": 7
+ },
+ "coterminous": {
+  "band": "advanced",
+  "level": 5
+ },
+ "countermand": {
+  "band": "common",
+  "level": 5
+ },
+ "cow": {
+  "band": "common",
+  "level": 7
+ },
+ "craven": {
+  "band": "advanced",
+  "level": 5
+ },
+ "credence": {
+  "band": "common",
+  "level": 7
+ },
+ "creditable": {
+  "band": "basic",
+  "level": 7
+ },
+ "credulity": {
+  "band": "basic",
+  "level": 7
+ },
+ "crestfallen": {
+  "band": "basic",
+  "level": 4
+ },
+ "cryptic": {
+  "band": "common",
+  "level": 4
+ },
+ "crystallize": {
+  "band": "basic",
+  "level": 3
+ },
+ "culminate": {
+  "band": "common",
+  "level": 8
+ },
+ "culpability": {
+  "band": "advanced",
+  "level": 5
+ },
+ "cumbersome": {
+  "band": "basic",
+  "level": 6
+ },
+ "cupidity": {
+  "band": "common",
+  "level": 8
+ },
+ "curmudgeon": {
+  "band": "common",
+  "level": 7
+ },
+ "dearth": {
+  "band": "common",
+  "level": 7
+ },
+ "debase": {
+  "band": "common",
+  "level": 3
+ },
+ "debonair": {
+  "band": "basic",
+  "level": 7
+ },
+ "debunk": {
+  "band": "common",
+  "level": 3
+ },
+ "decimation": {
+  "band": "basic",
+  "level": 6
+ },
+ "decorous": {
+  "band": "advanced",
+  "level": 7
+ },
+ "decorum": {
+  "band": "basic",
+  "level": 6
+ },
+ "decry": {
+  "band": "common",
+  "level": 1
+ },
+ "deferential": {
+  "band": "advanced",
+  "level": 8
+ },
+ "defray": {
+  "band": "advanced",
+  "level": 6
+ },
+ "degrade": {
+  "band": "basic",
+  "level": 1
+ },
+ "deign": {
+  "band": "advanced",
+  "level": 3
+ },
+ "delegate": {
+  "band": "basic",
+  "level": 3
+ },
+ "deleterious": {
+  "band": "common",
+  "level": 7
+ },
+ "deliberate": {
+  "band": "basic",
+  "level": 4
+ },
+ "delineate": {
+  "band": "advanced",
+  "level": 6
+ },
+ "demean": {
+  "band": "basic",
+  "level": 6
+ },
+ "demur": {
+  "band": "advanced",
+  "level": 8
+ },
+ "demure": {
+  "band": "advanced",
+  "level": 5
+ },
+ "denigrate": {
+  "band": "advanced",
+  "level": 8
+ },
+ "denote": {
+  "band": "basic",
+  "level": 5
+ },
+ "denouement": {
+  "band": "common",
+  "level": 5
+ },
+ "derelict": {
+  "band": "advanced",
+  "level": 5
+ },
+ "deride": {
+  "band": "common",
+  "level": 5
+ },
+ "derisive": {
+  "band": "advanced",
+  "level": 7
+ },
+ "derivative": {
+  "band": "basic",
+  "level": 5
+ },
+ "derive": {
+  "band": "basic",
+  "level": 3
+ },
+ "derogative": {
+  "band": "common",
+  "level": 2
+ },
+ "desecrate": {
+  "band": "common",
+  "level": 2
+ },
+ "desiccated": {
+  "band": "advanced",
+  "level": 2
+ },
+ "desideratum": {
+  "band": "advanced",
+  "level": 6
+ },
+ "despot": {
+  "band": "common",
+  "level": 2
+ },
+ "destitute": {
+  "band": "common",
+  "level": 4
+ },
+ "detrimental": {
+  "band": "basic",
+  "level": 4
+ },
+ "devolve": {
+  "band": "advanced",
+  "level": 6
+ },
+ "diabolical": {
+  "band": "common",
+  "level": 4
+ },
+ "diatribe": {
+  "band": "common",
+  "level": 3
+ },
+ "dictatorial": {
+  "band": "basic",
+  "level": 6
+ },
+ "didactic": {
+  "band": "advanced",
+  "level": 7
+ },
+ "differentiate": {
+  "band": "basic",
+  "level": 1
+ },
+ "diffident": {
+  "band": "advanced",
+  "level": 8
+ },
+ "dilapidated": {
+  "band": "common",
+  "level": 5
+ },
+ "dilatory": {
+  "band": "advanced",
+  "level": 7
+ },
+ "dilettante": {
+  "band": "advanced",
+  "level": 4
+ },
+ "diligent": {
+  "band": "basic",
+  "level": 3
+ },
+ "diminutive": {
+  "band": "basic",
+  "level": 5
+ },
+ "disabuse": {
+  "band": "common",
+  "level": 7
+ },
+ "disaffected": {
+  "band": "advanced",
+  "level": 8
+ },
+ "discord": {
+  "band": "basic",
+  "level": 6
+ },
+ "discreet": {
+  "band": "basic",
+  "level": 4
+ },
+ "discrete": {
+  "band": "basic",
+  "level": 7
+ },
+ "discriminate": {
+  "band": "basic",
+  "level": 2
+ },
+ "discursive": {
+  "band": "common",
+  "level": 8
+ },
+ "disenfranchise": {
+  "band": "common",
+  "level": 5
+ },
+ "disheartened": {
+  "band": "basic",
+  "level": 3
+ },
+ "disingenuous": {
+  "band": "basic",
+  "level": 6
+ },
+ "disinterested": {
+  "band": "common",
+  "level": 4
+ },
+ "disparate": {
+  "band": "common",
+  "level": 5
+ },
+ "dispassionate": {
+  "band": "basic",
+  "level": 7
+ },
+ "dispatch": {
+  "band": "common",
+  "level": 5
+ },
+ "dispensation": {
+  "band": "advanced",
+  "level": 3
+ },
+ "dissemble": {
+  "band": "advanced",
+  "level": 5
+ },
+ "disseminate": {
+  "band": "common",
+  "level": 6
+ },
+ "dissipate": {
+  "band": "basic",
+  "level": 5
+ },
+ "dissolution": {
+  "band": "advanced",
+  "level": 7
+ },
+ "docile": {
+  "band": "basic",
+  "level": 6
+ },
+ "dog": {
+  "band": "common",
+  "level": 3
+ },
+ "dogmatic": {
+  "band": "advanced",
+  "level": 3
+ },
+ "doleful": {
+  "band": "basic",
+  "level": 6
+ },
+ "dolorous": {
+  "band": "common",
+  "level": 5
+ },
+ "doughty": {
+  "band": "advanced",
+  "level": 6
+ },
+ "dovetail": {
+  "band": "common",
+  "level": 5
+ },
+ "dupe": {
+  "band": "basic",
+  "level": 6
+ },
+ "duplicity": {
+  "band": "basic",
+  "level": 6
+ },
+ "duress": {
+  "band": "advanced",
+  "level": 5
+ },
+ "ebullient": {
+  "band": "common",
+  "level": 3
+ },
+ "eccentric": {
+  "band": "basic",
+  "level": 4
+ },
+ "eclectic": {
+  "band": "common",
+  "level": 6
+ },
+ "economical": {
+  "band": "basic",
+  "level": 1
+ },
+ "edifying": {
+  "band": "advanced",
+  "level": 6
+ },
+ "effervescent": {
+  "band": "basic",
+  "level": 7
+ },
+ "efficacious": {
+  "band": "common",
+  "level": 8
+ },
+ "effrontery": {
+  "band": "common",
+  "level": 7
+ },
+ "egotist": {
+  "band": "basic",
+  "level": 2
+ },
+ "egregious": {
+  "band": "advanced",
+  "level": 8
+ },
+ "eke": {
+  "band": "advanced",
+  "level": 7
+ },
+ "elaborate": {
+  "band": "basic",
+  "level": 1
+ },
+ "elegiac": {
+  "band": "common",
+  "level": 8
+ },
+ "elicit": {
+  "band": "basic",
+  "level": 7
+ },
+ "elucidate": {
+  "band": "common",
+  "level": 7
+ },
+ "elude": {
+  "band": "basic",
+  "level": 7
+ },
+ "elusive": {
+  "band": "basic",
+  "level": 7
+ },
+ "embellish": {
+  "band": "basic",
+  "level": 3
+ },
+ "embroiled": {
+  "band": "advanced",
+  "level": 5
+ },
+ "embryonic": {
+  "band": "basic",
+  "level": 2
+ },
+ "eminent": {
+  "band": "common",
+  "level": 6
+ },
+ "empathetic": {
+  "band": "basic",
+  "level": 3
+ },
+ "empiricism": {
+  "band": "basic",
+  "level": 5
+ },
+ "emulate": {
+  "band": "basic",
+  "level": 7
+ },
+ "enamored": {
+  "band": "basic",
+  "level": 5
+ },
+ "encumber": {
+  "band": "common",
+  "level": 6
+ },
+ "endemic": {
+  "band": "common",
+  "level": 4
+ },
+ "enervate": {
+  "band": "advanced",
+  "level": 8
+ },
+ "engender": {
+  "band": "advanced",
+  "level": 7
+ },
+ "enjoin": {
+  "band": "advanced",
+  "level": 7
+ },
+ "enmity": {
+  "band": "common",
+  "level": 4
+ },
+ "enormity": {
+  "band": "common",
+  "level": 7
+ },
+ "enthrall": {
+  "band": "basic",
+  "level": 4
+ },
+ "entice": {
+  "band": "basic",
+  "level": 7
+ },
+ "entrenched": {
+  "band": "advanced",
+  "level": 6
+ },
+ "enumerate": {
+  "band": "basic",
+  "level": 5
+ },
+ "ephemeral": {
+  "band": "common",
+  "level": 8
+ },
+ "epigram": {
+  "band": "common",
+  "level": 4
+ },
+ "epiphany": {
+  "band": "common",
+  "level": 4
+ },
+ "eponym": {
+  "band": "advanced",
+  "level": 1
+ },
+ "equitable": {
+  "band": "basic",
+  "level": 4
+ },
+ "equivocal": {
+  "band": "advanced",
+  "level": 8
+ },
+ "equivocate": {
+  "band": "basic",
+  "level": 6
+ },
+ "eradicate": {
+  "band": "basic",
+  "level": 3
+ },
+ "err": {
+  "band": "basic",
+  "level": 4
+ },
+ "errant": {
+  "band": "advanced",
+  "level": 4
+ },
+ "erratic": {
+  "band": "basic",
+  "level": 5
+ },
+ "ersatz": {
+  "band": "advanced",
+  "level": 4
+ },
+ "erudite": {
+  "band": "common",
+  "level": 4
+ },
+ "eschew": {
+  "band": "advanced",
+  "level": 8
+ },
+ "esoteric": {
+  "band": "common",
+  "level": 7
+ },
+ "espouse": {
+  "band": "advanced",
+  "level": 5
+ },
+ "estimable": {
+  "band": "basic",
+  "level": 7
+ },
+ "ethereal": {
+  "band": "common",
+  "level": 6
+ },
+ "euphoria": {
+  "band": "basic",
+  "level": 4
+ },
+ "evanescent": {
+  "band": "common",
+  "level": 2
+ },
+ "evasive": {
+  "band": "basic",
+  "level": 5
+ },
+ "evenhanded": {
+  "band": "basic",
+  "level": 5
+ },
+ "exacerbate": {
+  "band": "common",
+  "level": 6
+ },
+ "exacting": {
+  "band": "common",
+  "level": 4
+ },
+ "exalt": {
+  "band": "common",
+  "level": 6
+ },
+ "exasperate": {
+  "band": "common",
+  "level": 6
+ },
+ "excoriate": {
+  "band": "advanced",
+  "level": 3
+ },
+ "excruciating": {
+  "band": "basic",
+  "level": 5
+ },
+ "execrate": {
+  "band": "advanced",
+  "level": 8
+ },
+ "exegesis": {
+  "band": "advanced",
+  "level": 7
+ },
+ "exemplar": {
+  "band": "basic",
+  "level": 4
+ },
+ "exhort": {
+  "band": "advanced",
+  "level": 4
+ },
+ "exiguity": {
+  "band": "advanced",
+  "level": 8
+ },
+ "exonerate": {
+  "band": "common",
+  "level": 6
+ },
+ "exorbitant": {
+  "band": "basic",
+  "level": 5
+ },
+ "expansive": {
+  "band": "advanced",
+  "level": 6
+ },
+ "expound": {
+  "band": "advanced",
+  "level": 7
+ },
+ "expunge": {
+  "band": "common",
+  "level": 2
+ },
+ "expurgate": {
+  "band": "common",
+  "level": 8
+ },
+ "extant": {
+  "band": "advanced",
+  "level": 8
+ },
+ "extenuating": {
+  "band": "advanced",
+  "level": 7
+ },
+ "extrapolate": {
+  "band": "basic",
+  "level": 3
+ },
+ "facetious": {
+  "band": "advanced",
+  "level": 1
+ },
+ "facile": {
+  "band": "common",
+  "level": 8
+ },
+ "factious": {
+  "band": "advanced",
+  "level": 7
+ },
+ "factitious": {
+  "band": "advanced",
+  "level": 2
+ },
+ "fallacious": {
+  "band": "common",
+  "level": 7
+ },
+ "fastidious": {
+  "band": "advanced",
+  "level": 2
+ },
+ "fawn": {
+  "band": "common",
+  "level": 5
+ },
+ "feckless": {
+  "band": "advanced",
+  "level": 6
+ },
+ "fecund": {
+  "band": "common",
+  "level": 7
+ },
+ "fell": {
+  "band": "common",
+  "level": 8
+ },
+ "ferret": {
+  "band": "advanced",
+  "level": 7
+ },
+ "fete": {
+  "band": "advanced",
+  "level": 6
+ },
+ "fickle": {
+  "band": "basic",
+  "level": 7
+ },
+ "finagle": {
+  "band": "advanced",
+  "level": 5
+ },
+ "firebrand": {
+  "band": "common",
+  "level": 6
+ },
+ "flag": {
+  "band": "common",
+  "level": 4
+ },
+ "fledgling": {
+  "band": "common",
+  "level": 6
+ },
+ "fleece": {
+  "band": "advanced",
+  "level": 6
+ },
+ "flippant": {
+  "band": "basic",
+  "level": 7
+ },
+ "flounder": {
+  "band": "common",
+  "level": 8
+ },
+ "flummox": {
+  "band": "advanced",
+  "level": 6
+ },
+ "flush": {
+  "band": "common",
+  "level": 6
+ },
+ "flux": {
+  "band": "advanced",
+  "level": 4
+ },
+ "foible": {
+  "band": "advanced",
+  "level": 7
+ },
+ "foment": {
+  "band": "advanced",
+  "level": 7
+ },
+ "foolhardy": {
+  "band": "common",
+  "level": 7
+ },
+ "forlorn": {
+  "band": "advanced",
+  "level": 7
+ },
+ "forthcoming": {
+  "band": "common",
+  "level": 7
+ },
+ "forthright": {
+  "band": "basic",
+  "level": 7
+ },
+ "fortuitous": {
+  "band": "advanced",
+  "level": 5
+ },
+ "fractious": {
+  "band": "advanced",
+  "level": 5
+ },
+ "frivolous": {
+  "band": "advanced",
+  "level": 5
+ },
+ "frugal": {
+  "band": "basic",
+  "level": 5
+ },
+ "frustrate": {
+  "band": "common",
+  "level": 5
+ },
+ "furtive": {
+  "band": "advanced",
+  "level": 6
+ },
+ "futile": {
+  "band": "basic",
+  "level": 4
+ },
+ "gaffe": {
+  "band": "common",
+  "level": 6
+ },
+ "gainsay": {
+  "band": "advanced",
+  "level": 8
+ },
+ "gall": {
+  "band": "advanced",
+  "level": 8
+ },
+ "galvanize": {
+  "band": "advanced",
+  "level": 8
+ },
+ "gambit": {
+  "band": "common",
+  "level": 3
+ },
+ "garrulous": {
+  "band": "common",
+  "level": 8
+ },
+ "gauche": {
+  "band": "advanced",
+  "level": 7
+ },
+ "genial": {
+  "band": "common",
+  "level": 7
+ },
+ "genteel": {
+  "band": "common",
+  "level": 8
+ },
+ "germane": {
+  "band": "advanced",
+  "level": 8
+ },
+ "gerrymander": {
+  "band": "common",
+  "level": 8
+ },
+ "glean": {
+  "band": "advanced",
+  "level": 1
+ },
+ "glib": {
+  "band": "advanced",
+  "level": 5
+ },
+ "glut": {
+  "band": "advanced",
+  "level": 5
+ },
+ "goad": {
+  "band": "advanced",
+  "level": 2
+ },
+ "gossamer": {
+  "band": "advanced",
+  "level": 8
+ },
+ "graft": {
+  "band": "advanced",
+  "level": 4
+ },
+ "grandiloquent": {
+  "band": "common",
+  "level": 4
+ },
+ "gregarious": {
+  "band": "advanced",
+  "level": 4
+ },
+ "grovel": {
+  "band": "advanced",
+  "level": 5
+ },
+ "guffaw": {
+  "band": "advanced",
+  "level": 3
+ },
+ "guileless": {
+  "band": "advanced",
+  "level": 5
+ },
+ "gumption": {
+  "band": "advanced",
+  "level": 4
+ },
+ "hackneyed": {
+  "band": "advanced",
+  "level": 4
+ },
+ "hagiographic": {
+  "band": "advanced",
+  "level": 7
+ },
+ "hail": {
+  "band": "basic",
+  "level": 6
+ },
+ "halcyon": {
+  "band": "common",
+  "level": 5
+ },
+ "hamper": {
+  "band": "basic",
+  "level": 6
+ },
+ "hamstrung": {
+  "band": "advanced",
+  "level": 7
+ },
+ "haphazard": {
+  "band": "basic",
+  "level": 6
+ },
+ "harangue": {
+  "band": "advanced",
+  "level": 8
+ },
+ "harried": {
+  "band": "advanced",
+  "level": 7
+ },
+ "haughty": {
+  "band": "common",
+  "level": 8
+ },
+ "hauteur": {
+  "band": "common",
+  "level": 6
+ },
+ "hector": {
+  "band": "advanced",
+  "level": 5
+ },
+ "hedge": {
+  "band": "common",
+  "level": 8
+ },
+ "hegemony": {
+  "band": "advanced",
+  "level": 4
+ },
+ "heretic": {
+  "band": "advanced",
+  "level": 5
+ },
+ "heyday": {
+  "band": "basic",
+  "level": 7
+ },
+ "histrionic": {
+  "band": "common",
+  "level": 3
+ },
+ "hoary": {
+  "band": "common",
+  "level": 8
+ },
+ "hobble": {
+  "band": "common",
+  "level": 7
+ },
+ "hodgepodge": {
+  "band": "basic",
+  "level": 7
+ },
+ "hoodwink": {
+  "band": "basic",
+  "level": 5
+ },
+ "hound": {
+  "band": "basic",
+  "level": 7
+ },
+ "hubris": {
+  "band": "common",
+  "level": 4
+ },
+ "humdrum": {
+  "band": "common",
+  "level": 7
+ },
+ "iconoclast": {
+  "band": "advanced",
+  "level": 8
+ },
+ "iconoclastic": {
+  "band": "basic",
+  "level": 5
+ },
+ "idiosyncrasy": {
+  "band": "common",
+  "level": 6
+ },
+ "ignoble": {
+  "band": "advanced",
+  "level": 2
+ },
+ "ignominious": {
+  "band": "advanced",
+  "level": 8
+ },
+ "illustrious": {
+  "band": "common",
+  "level": 4
+ },
+ "imbibe": {
+  "band": "basic",
+  "level": 6
+ },
+ "imbroglio": {
+  "band": "common",
+  "level": 8
+ },
+ "immaterial": {
+  "band": "basic",
+  "level": 7
+ },
+ "immure": {
+  "band": "advanced",
+  "level": 3
+ },
+ "immutable": {
+  "band": "common",
+  "level": 8
+ },
+ "impartial": {
+  "band": "basic",
+  "level": 2
+ },
+ "impeccable": {
+  "band": "basic",
+  "level": 4
+ },
+ "impecunious": {
+  "band": "common",
+  "level": 6
+ },
+ "impede": {
+  "band": "basic",
+  "level": 5
+ },
+ "impending": {
+  "band": "basic",
+  "level": 6
+ },
+ "imperious": {
+  "band": "common",
+  "level": 6
+ },
+ "impermeable": {
+  "band": "basic",
+  "level": 2
+ },
+ "impertinent": {
+  "band": "advanced",
+  "level": 8
+ },
+ "impervious": {
+  "band": "basic",
+  "level": 5
+ },
+ "impetuous": {
+  "band": "common",
+  "level": 7
+ },
+ "implacable": {
+  "band": "advanced",
+  "level": 2
+ },
+ "implausible": {
+  "band": "basic",
+  "level": 6
+ },
+ "implicate": {
+  "band": "basic",
+  "level": 5
+ },
+ "imponderable": {
+  "band": "common",
+  "level": 6
+ },
+ "importuned": {
+  "band": "advanced",
+  "level": 7
+ },
+ "impregnable": {
+  "band": "common",
+  "level": 4
+ },
+ "improvident": {
+  "band": "basic",
+  "level": 7
+ },
+ "imprudent": {
+  "band": "common",
+  "level": 7
+ },
+ "impudent": {
+  "band": "advanced",
+  "level": 8
+ },
+ "impugn": {
+  "band": "common",
+  "level": 8
+ },
+ "impute": {
+  "band": "advanced",
+  "level": 6
+ },
+ "inadvertent": {
+  "band": "common",
+  "level": 7
+ },
+ "inanity": {
+  "band": "common",
+  "level": 8
+ },
+ "inarticulate": {
+  "band": "basic",
+  "level": 5
+ },
+ "incense": {
+  "band": "common",
+  "level": 8
+ },
+ "incessant": {
+  "band": "common",
+  "level": 5
+ },
+ "inchoate": {
+  "band": "common",
+  "level": 3
+ },
+ "incisive": {
+  "band": "advanced",
+  "level": 8
+ },
+ "inclement": {
+  "band": "common",
+  "level": 8
+ },
+ "incongruous": {
+  "band": "common",
+  "level": 8
+ },
+ "incontrovertible": {
+  "band": "common",
+  "level": 2
+ },
+ "incorrigible": {
+  "band": "advanced",
+  "level": 6
+ },
+ "incumbent": {
+  "band": "advanced",
+  "level": 5
+ },
+ "indecorous": {
+  "band": "basic",
+  "level": 6
+ },
+ "indict": {
+  "band": "common",
+  "level": 7
+ },
+ "indifference": {
+  "band": "basic",
+  "level": 4
+ },
+ "indigent": {
+  "band": "common",
+  "level": 8
+ },
+ "indignant": {
+  "band": "advanced",
+  "level": 7
+ },
+ "industrious": {
+  "band": "basic",
+  "level": 4
+ },
+ "ineffable": {
+  "band": "common",
+  "level": 8
+ },
+ "ineluctable": {
+  "band": "advanced",
+  "level": 5
+ },
+ "inequity": {
+  "band": "common",
+  "level": 2
+ },
+ "inexorable": {
+  "band": "advanced",
+  "level": 8
+ },
+ "infelicitous": {
+  "band": "advanced",
+  "level": 6
+ },
+ "inflammatory": {
+  "band": "common",
+  "level": 6
+ },
+ "ingenuity": {
+  "band": "common",
+  "level": 4
+ },
+ "ingenuous": {
+  "band": "advanced",
+  "level": 8
+ },
+ "ingratiate": {
+  "band": "advanced",
+  "level": 8
+ },
+ "inimical": {
+  "band": "advanced",
+  "level": 7
+ },
+ "inimitable": {
+  "band": "basic",
+  "level": 7
+ },
+ "inkling": {
+  "band": "common",
+  "level": 7
+ },
+ "innocuous": {
+  "band": "advanced",
+  "level": 7
+ },
+ "inscrutable": {
+  "band": "advanced",
+  "level": 7
+ },
+ "insidious": {
+  "band": "advanced",
+  "level": 7
+ },
+ "insipid": {
+  "band": "common",
+  "level": 7
+ },
+ "insolent": {
+  "band": "common",
+  "level": 8
+ },
+ "insolvent": {
+  "band": "advanced",
+  "level": 7
+ },
+ "insouciance": {
+  "band": "advanced",
+  "level": 7
+ },
+ "insufferable": {
+  "band": "basic",
+  "level": 5
+ },
+ "intermittent": {
+  "band": "basic",
+  "level": 5
+ },
+ "internecine": {
+  "band": "advanced",
+  "level": 4
+ },
+ "intimate": {
+  "band": "advanced",
+  "level": 6
+ },
+ "intimation": {
+  "band": "basic",
+  "level": 5
+ },
+ "intransigent": {
+  "band": "advanced",
+  "level": 7
+ },
+ "intrepid": {
+  "band": "advanced",
+  "level": 3
+ },
+ "inundate": {
+  "band": "common",
+  "level": 6
+ },
+ "inure": {
+  "band": "common",
+  "level": 5
+ },
+ "invective": {
+  "band": "advanced",
+  "level": 4
+ },
+ "inveterate": {
+  "band": "advanced",
+  "level": 8
+ },
+ "invidious": {
+  "band": "advanced",
+  "level": 6
+ },
+ "inviolable": {
+  "band": "common",
+  "level": 2
+ },
+ "inviolate": {
+  "band": "common",
+  "level": 6
+ },
+ "involved": {
+  "band": "common",
+  "level": 6
+ },
+ "irascible": {
+  "band": "common",
+  "level": 6
+ },
+ "irk": {
+  "band": "basic",
+  "level": 6
+ },
+ "irrefutable": {
+  "band": "basic",
+  "level": 1
+ },
+ "irresolute": {
+  "band": "common",
+  "level": 7
+ },
+ "irrevocable": {
+  "band": "basic",
+  "level": 5
+ },
+ "itinerant": {
+  "band": "advanced",
+  "level": 7
+ },
+ "jargon": {
+  "band": "basic",
+  "level": 4
+ },
+ "jaundice": {
+  "band": "advanced",
+  "level": 3
+ },
+ "jejune": {
+  "band": "advanced",
+  "level": 4
+ },
+ "jingoism": {
+  "band": "advanced",
+  "level": 7
+ },
+ "jingoist": {
+  "band": "common",
+  "level": 4
+ },
+ "jocular": {
+  "band": "basic",
+  "level": 6
+ },
+ "jovial": {
+  "band": "basic",
+  "level": 3
+ },
+ "jubilant": {
+  "band": "basic",
+  "level": 6
+ },
+ "juggernaut": {
+  "band": "basic",
+  "level": 7
+ },
+ "junta": {
+  "band": "advanced",
+  "level": 3
+ },
+ "juxtapose": {
+  "band": "common",
+  "level": 6
+ },
+ "kowtow": {
+  "band": "common",
+  "level": 8
+ },
+ "laborious": {
+  "band": "basic",
+  "level": 1
+ },
+ "lacerate": {
+  "band": "common",
+  "level": 5
+ },
+ "lachrymose": {
+  "band": "common",
+  "level": 3
+ },
+ "laconic": {
+  "band": "advanced",
+  "level": 8
+ },
+ "lambast": {
+  "band": "advanced",
+  "level": 7
+ },
+ "lampoon": {
+  "band": "common",
+  "level": 8
+ },
+ "languid": {
+  "band": "advanced",
+  "level": 7
+ },
+ "languish": {
+  "band": "basic",
+  "level": 7
+ },
+ "largess": {
+  "band": "advanced",
+  "level": 6
+ },
+ "lascivious": {
+  "band": "common",
+  "level": 8
+ },
+ "laudable": {
+  "band": "basic",
+  "level": 6
+ },
+ "leery": {
+  "band": "advanced",
+  "level": 6
+ },
+ "lethargic": {
+  "band": "basic",
+  "level": 2
+ },
+ "limpid": {
+  "band": "advanced",
+  "level": 6
+ },
+ "lionize": {
+  "band": "advanced",
+  "level": 2
+ },
+ "litany": {
+  "band": "advanced",
+  "level": 5
+ },
+ "loath": {
+  "band": "common",
+  "level": 2
+ },
+ "lucid": {
+  "band": "basic",
+  "level": 3
+ },
+ "lugubrious": {
+  "band": "advanced",
+  "level": 4
+ },
+ "macabre": {
+  "band": "advanced",
+  "level": 5
+ },
+ "machinate": {
+  "band": "common",
+  "level": 5
+ },
+ "magisterial": {
+  "band": "common",
+  "level": 7
+ },
+ "magnanimous": {
+  "band": "advanced",
+  "level": 3
+ },
+ "maintain": {
+  "band": "basic",
+  "level": 6
+ },
+ "maladroit": {
+  "band": "advanced",
+  "level": 1
+ },
+ "malady": {
+  "band": "common",
+  "level": 8
+ },
+ "malapropism": {
+  "band": "advanced",
+  "level": 1
+ },
+ "malevolent": {
+  "band": "basic",
+  "level": 5
+ },
+ "malfeasance": {
+  "band": "common",
+  "level": 6
+ },
+ "malinger": {
+  "band": "common",
+  "level": 4
+ },
+ "malleable": {
+  "band": "basic",
+  "level": 3
+ },
+ "malodorous": {
+  "band": "common",
+  "level": 5
+ },
+ "martial": {
+  "band": "basic",
+  "level": 5
+ },
+ "martinet": {
+  "band": "common",
+  "level": 7
+ },
+ "maudlin": {
+  "band": "common",
+  "level": 8
+ },
+ "maunder": {
+  "band": "advanced",
+  "level": 5
+ },
+ "maverick": {
+  "band": "common",
+  "level": 2
+ },
+ "mawkish": {
+  "band": "advanced",
+  "level": 8
+ },
+ "maxim": {
+  "band": "common",
+  "level": 6
+ },
+ "meander": {
+  "band": "common",
+  "level": 1
+ },
+ "melancholy": {
+  "band": "basic",
+  "level": 3
+ },
+ "melee": {
+  "band": "common",
+  "level": 8
+ },
+ "mellifluous": {
+  "band": "common",
+  "level": 6
+ },
+ "mendacity": {
+  "band": "advanced",
+  "level": 7
+ },
+ "mendicant": {
+  "band": "common",
+  "level": 8
+ },
+ "mercurial": {
+  "band": "advanced",
+  "level": 8
+ },
+ "mesmerize": {
+  "band": "basic",
+  "level": 2
+ },
+ "meteoric": {
+  "band": "basic",
+  "level": 4
+ },
+ "meticulous": {
+  "band": "basic",
+  "level": 6
+ },
+ "mettlesome": {
+  "band": "common",
+  "level": 7
+ },
+ "misanthrope": {
+  "band": "basic",
+  "level": 7
+ },
+ "misattribute": {
+  "band": "basic",
+  "level": 3
+ },
+ "misconstrue": {
+  "band": "basic",
+  "level": 4
+ },
+ "miscreant": {
+  "band": "common",
+  "level": 6
+ },
+ "miser": {
+  "band": "basic",
+  "level": 6
+ },
+ "misogynist": {
+  "band": "basic",
+  "level": 5
+ },
+ "mitigate": {
+  "band": "common",
+  "level": 5
+ },
+ "modicum": {
+  "band": "common",
+  "level": 1
+ },
+ "mollify": {
+  "band": "advanced",
+  "level": 3
+ },
+ "moment": {
+  "band": "common",
+  "level": 4
+ },
+ "moot": {
+  "band": "advanced",
+  "level": 2
+ },
+ "mordant": {
+  "band": "advanced",
+  "level": 8
+ },
+ "moribund": {
+  "band": "common",
+  "level": 6
+ },
+ "morose": {
+  "band": "common",
+  "level": 2
+ },
+ "morph": {
+  "band": "basic",
+  "level": 7
+ },
+ "mulct": {
+  "band": "advanced",
+  "level": 8
+ },
+ "mundane": {
+  "band": "basic",
+  "level": 3
+ },
+ "munificent": {
+  "band": "advanced",
+  "level": 6
+ },
+ "muted": {
+  "band": "basic",
+  "level": 6
+ },
+ "myopic": {
+  "band": "common",
+  "level": 8
+ },
+ "myriad": {
+  "band": "common",
+  "level": 2
+ },
+ "nadir": {
+  "band": "common",
+  "level": 5
+ },
+ "negligible": {
+  "band": "basic",
+  "level": 3
+ },
+ "nettlesome": {
+  "band": "common",
+  "level": 3
+ },
+ "noisome": {
+  "band": "common",
+  "level": 5
+ },
+ "nonchalant": {
+  "band": "basic",
+  "level": 5
+ },
+ "nonplussed": {
+  "band": "advanced",
+  "level": 7
+ },
+ "nuance": {
+  "band": "common",
+  "level": 3
+ },
+ "obdurate": {
+  "band": "advanced",
+  "level": 4
+ },
+ "objurgate": {
+  "band": "advanced",
+  "level": 4
+ },
+ "obliging": {
+  "band": "basic",
+  "level": 7
+ },
+ "oblique": {
+  "band": "basic",
+  "level": 4
+ },
+ "obscure": {
+  "band": "common",
+  "level": 1
+ },
+ "obsequious": {
+  "band": "advanced",
+  "level": 6
+ },
+ "obstinate": {
+  "band": "common",
+  "level": 2
+ },
+ "obstreperous": {
+  "band": "common",
+  "level": 6
+ },
+ "obtain": {
+  "band": "common",
+  "level": 8
+ },
+ "obtuse": {
+  "band": "basic",
+  "level": 6
+ },
+ "officious": {
+  "band": "common",
+  "level": 6
+ },
+ "opaque": {
+  "band": "basic",
+  "level": 6
+ },
+ "opulence": {
+  "band": "common",
+  "level": 4
+ },
+ "ornate": {
+  "band": "basic",
+  "level": 5
+ },
+ "ossify": {
+  "band": "common",
+  "level": 2
+ },
+ "ostentatious": {
+  "band": "common",
+  "level": 8
+ },
+ "ostracize": {
+  "band": "common",
+  "level": 5
+ },
+ "overweening": {
+  "band": "advanced",
+  "level": 7
+ },
+ "palatable": {
+  "band": "basic",
+  "level": 5
+ },
+ "palaver": {
+  "band": "advanced",
+  "level": 8
+ },
+ "palimpsest": {
+  "band": "advanced",
+  "level": 7
+ },
+ "panacea": {
+  "band": "basic",
+  "level": 7
+ },
+ "panache": {
+  "band": "advanced",
+  "level": 5
+ },
+ "panegyric": {
+  "band": "advanced",
+  "level": 4
+ },
+ "paradoxical": {
+  "band": "basic",
+  "level": 4
+ },
+ "paragon": {
+  "band": "basic",
+  "level": 3
+ },
+ "pariah": {
+  "band": "common",
+  "level": 3
+ },
+ "parochial": {
+  "band": "advanced",
+  "level": 8
+ },
+ "parsimonious": {
+  "band": "advanced",
+  "level": 8
+ },
+ "parvenu": {
+  "band": "advanced",
+  "level": 5
+ },
+ "pastoral": {
+  "band": "common",
+  "level": 1
+ },
+ "patent": {
+  "band": "common",
+  "level": 6
+ },
+ "patronize": {
+  "band": "basic",
+  "level": 7
+ },
+ "paucity": {
+  "band": "advanced",
+  "level": 5
+ },
+ "pecuniary": {
+  "band": "common",
+  "level": 6
+ },
+ "pedantic": {
+  "band": "advanced",
+  "level": 8
+ },
+ "pedestrian": {
+  "band": "common",
+  "level": 8
+ },
+ "peevish": {
+  "band": "advanced",
+  "level": 1
+ },
+ "pejorative": {
+  "band": "advanced",
+  "level": 8
+ },
+ "pellucid": {
+  "band": "basic",
+  "level": 5
+ },
+ "penurious": {
+  "band": "common",
+  "level": 7
+ },
+ "percipient": {
+  "band": "common",
+  "level": 6
+ },
+ "peremptory": {
+  "band": "advanced",
+  "level": 7
+ },
+ "perennial": {
+  "band": "basic",
+  "level": 6
+ },
+ "perfidy": {
+  "band": "advanced",
+  "level": 8
+ },
+ "perfunctory": {
+  "band": "common",
+  "level": 5
+ },
+ "peripatetic": {
+  "band": "common",
+  "level": 7
+ },
+ "pernicious": {
+  "band": "advanced",
+  "level": 7
+ },
+ "perpetuate": {
+  "band": "common",
+  "level": 4
+ },
+ "perquisite": {
+  "band": "advanced",
+  "level": 7
+ },
+ "perspicacious": {
+  "band": "advanced",
+  "level": 3
+ },
+ "pertinent": {
+  "band": "common",
+  "level": 3
+ },
+ "perturb": {
+  "band": "basic",
+  "level": 6
+ },
+ "peruse": {
+  "band": "common",
+  "level": 8
+ },
+ "petulant": {
+  "band": "advanced",
+  "level": 8
+ },
+ "phantasmagorical": {
+  "band": "common",
+  "level": 8
+ },
+ "philistine": {
+  "band": "common",
+  "level": 7
+ },
+ "phlegmatic": {
+  "band": "common",
+  "level": 7
+ },
+ "picayune": {
+  "band": "advanced",
+  "level": 7
+ },
+ "pillory": {
+  "band": "advanced",
+  "level": 6
+ },
+ "pine": {
+  "band": "common",
+  "level": 7
+ },
+ "pinnacle": {
+  "band": "basic",
+  "level": 2
+ },
+ "piquant": {
+  "band": "advanced",
+  "level": 5
+ },
+ "pith": {
+  "band": "basic",
+  "level": 6
+ },
+ "pithy": {
+  "band": "advanced",
+  "level": 4
+ },
+ "pittance": {
+  "band": "common",
+  "level": 8
+ },
+ "placate": {
+  "band": "basic",
+  "level": 6
+ },
+ "placid": {
+  "band": "common",
+  "level": 2
+ },
+ "platitude": {
+  "band": "advanced",
+  "level": 8
+ },
+ "plodding": {
+  "band": "advanced",
+  "level": 4
+ },
+ "ploy": {
+  "band": "basic",
+  "level": 6
+ },
+ "plucky": {
+  "band": "common",
+  "level": 8
+ },
+ "poignant": {
+  "band": "advanced",
+  "level": 4
+ },
+ "polemic": {
+  "band": "advanced",
+  "level": 6
+ },
+ "pollyannaish": {
+  "band": "advanced",
+  "level": 4
+ },
+ "ponderous": {
+  "band": "common",
+  "level": 8
+ },
+ "pontificate": {
+  "band": "advanced",
+  "level": 3
+ },
+ "portentous": {
+  "band": "advanced",
+  "level": 7
+ },
+ "posit": {
+  "band": "advanced",
+  "level": 6
+ },
+ "pragmatic": {
+  "band": "basic",
+  "level": 6
+ },
+ "precarious": {
+  "band": "common",
+  "level": 5
+ },
+ "precedent": {
+  "band": "basic",
+  "level": 6
+ },
+ "precipitate": {
+  "band": "common",
+  "level": 5
+ },
+ "precipitous": {
+  "band": "advanced",
+  "level": 8
+ },
+ "preclude": {
+  "band": "advanced",
+  "level": 8
+ },
+ "precocious": {
+  "band": "advanced",
+  "level": 6
+ },
+ "predilection": {
+  "band": "advanced",
+  "level": 8
+ },
+ "preempt": {
+  "band": "basic",
+  "level": 7
+ },
+ "preemptive": {
+  "band": "basic",
+  "level": 7
+ },
+ "prescience": {
+  "band": "advanced",
+  "level": 7
+ },
+ "presentiment": {
+  "band": "common",
+  "level": 7
+ },
+ "presumption": {
+  "band": "basic",
+  "level": 5
+ },
+ "presumptuous": {
+  "band": "basic",
+  "level": 7
+ },
+ "prevail": {
+  "band": "basic",
+  "level": 4
+ },
+ "prevaricate": {
+  "band": "advanced",
+  "level": 8
+ },
+ "primacy": {
+  "band": "basic",
+  "level": 7
+ },
+ "pristine": {
+  "band": "basic",
+  "level": 4
+ },
+ "probity": {
+  "band": "advanced",
+  "level": 3
+ },
+ "prodigal": {
+  "band": "advanced",
+  "level": 8
+ },
+ "prodigious": {
+  "band": "advanced",
+  "level": 6
+ },
+ "profligate": {
+  "band": "advanced",
+  "level": 8
+ },
+ "profuse": {
+  "band": "common",
+  "level": 1
+ },
+ "profusion": {
+  "band": "basic",
+  "level": 7
+ },
+ "prognostication": {
+  "band": "advanced",
+  "level": 4
+ },
+ "prolific": {
+  "band": "common",
+  "level": 6
+ },
+ "prolixity": {
+  "band": "advanced",
+  "level": 7
+ },
+ "promulgate": {
+  "band": "advanced",
+  "level": 2
+ },
+ "propitiate": {
+  "band": "advanced",
+  "level": 7
+ },
+ "propitious": {
+  "band": "advanced",
+  "level": 8
+ },
+ "proponent": {
+  "band": "common",
+  "level": 2
+ },
+ "prosaic": {
+  "band": "common",
+  "level": 6
+ },
+ "proscribe": {
+  "band": "common",
+  "level": 6
+ },
+ "proselytize": {
+  "band": "advanced",
+  "level": 3
+ },
+ "protean": {
+  "band": "common",
+  "level": 8
+ },
+ "provident": {
+  "band": "common",
+  "level": 6
+ },
+ "provincial": {
+  "band": "advanced",
+  "level": 5
+ },
+ "provisional": {
+  "band": "basic",
+  "level": 7
+ },
+ "puerile": {
+  "band": "common",
+  "level": 2
+ },
+ "pugnacious": {
+  "band": "advanced",
+  "level": 3
+ },
+ "puissant": {
+  "band": "common",
+  "level": 5
+ },
+ "punctilious": {
+  "band": "common",
+  "level": 6
+ },
+ "pundit": {
+  "band": "common",
+  "level": 6
+ },
+ "pyrrhic": {
+  "band": "advanced",
+  "level": 6
+ },
+ "quail": {
+  "band": "advanced",
+  "level": 5
+ },
+ "qualify": {
+  "band": "basic",
+  "level": 3
+ },
+ "qualm": {
+  "band": "advanced",
+  "level": 5
+ },
+ "quandary": {
+  "band": "common",
+  "level": 7
+ },
+ "querulous": {
+  "band": "advanced",
+  "level": 8
+ },
+ "quip": {
+  "band": "advanced",
+  "level": 2
+ },
+ "quisling": {
+  "band": "advanced",
+  "level": 6
+ },
+ "quixotic": {
+  "band": "common",
+  "level": 7
+ },
+ "quotidian": {
+  "band": "advanced",
+  "level": 8
+ },
+ "raconteur": {
+  "band": "advanced",
+  "level": 3
+ },
+ "raffish": {
+  "band": "advanced",
+  "level": 8
+ },
+ "raft": {
+  "band": "advanced",
+  "level": 7
+ },
+ "raillery": {
+  "band": "advanced",
+  "level": 6
+ },
+ "rakish": {
+  "band": "advanced",
+  "level": 7
+ },
+ "rankle": {
+  "band": "advanced",
+  "level": 8
+ },
+ "rapprochement": {
+  "band": "common",
+  "level": 8
+ },
+ "rarefied": {
+  "band": "common",
+  "level": 8
+ },
+ "rash": {
+  "band": "basic",
+  "level": 5
+ },
+ "ravenous": {
+  "band": "common",
+  "level": 3
+ },
+ "rebuke": {
+  "band": "common",
+  "level": 5
+ },
+ "recapitulation": {
+  "band": "basic",
+  "level": 6
+ },
+ "reconcile": {
+  "band": "basic",
+  "level": 7
+ },
+ "recondite": {
+  "band": "advanced",
+  "level": 8
+ },
+ "recrimination": {
+  "band": "common",
+  "level": 8
+ },
+ "recrudesce": {
+  "band": "advanced",
+  "level": 5
+ },
+ "redoubtable": {
+  "band": "advanced",
+  "level": 6
+ },
+ "redress": {
+  "band": "advanced",
+  "level": 1
+ },
+ "refractory": {
+  "band": "advanced",
+  "level": 8
+ },
+ "refute": {
+  "band": "basic",
+  "level": 7
+ },
+ "relegate": {
+  "band": "common",
+  "level": 4
+ },
+ "remiss": {
+  "band": "advanced",
+  "level": 7
+ },
+ "remonstrate": {
+  "band": "advanced",
+  "level": 6
+ },
+ "renege": {
+  "band": "advanced",
+  "level": 6
+ },
+ "replete": {
+  "band": "common",
+  "level": 7
+ },
+ "reprisal": {
+  "band": "common",
+  "level": 6
+ },
+ "reproach": {
+  "band": "common",
+  "level": 4
+ },
+ "reprobate": {
+  "band": "advanced",
+  "level": 8
+ },
+ "repudiate": {
+  "band": "advanced",
+  "level": 7
+ },
+ "rescind": {
+  "band": "common",
+  "level": 7
+ },
+ "reservation": {
+  "band": "basic",
+  "level": 5
+ },
+ "resignation": {
+  "band": "common",
+  "level": 4
+ },
+ "resolve": {
+  "band": "basic",
+  "level": 2
+ },
+ "respite": {
+  "band": "common",
+  "level": 8
+ },
+ "restive": {
+  "band": "advanced",
+  "level": 8
+ },
+ "resurgent": {
+  "band": "common",
+  "level": 4
+ },
+ "reticent": {
+  "band": "advanced",
+  "level": 8
+ },
+ "retiring": {
+  "band": "common",
+  "level": 6
+ },
+ "retract": {
+  "band": "basic",
+  "level": 3
+ },
+ "reverent": {
+  "band": "basic",
+  "level": 7
+ },
+ "ribald": {
+  "band": "common",
+  "level": 7
+ },
+ "rile": {
+  "band": "common",
+  "level": 8
+ },
+ "robust": {
+  "band": "basic",
+  "level": 3
+ },
+ "row": {
+  "band": "basic",
+  "level": 6
+ },
+ "rudimentary": {
+  "band": "basic",
+  "level": 7
+ },
+ "rustic": {
+  "band": "common",
+  "level": 5
+ },
+ "sagacious": {
+  "band": "common",
+  "level": 5
+ },
+ "sanctimonious": {
+  "band": "common",
+  "level": 8
+ },
+ "sanction": {
+  "band": "basic",
+  "level": 5
+ },
+ "sangfroid": {
+  "band": "advanced",
+  "level": 6
+ },
+ "sanguine": {
+  "band": "common",
+  "level": 8
+ },
+ "sardonic": {
+  "band": "common",
+  "level": 5
+ },
+ "sartorial": {
+  "band": "common",
+  "level": 8
+ },
+ "saturnine": {
+  "band": "advanced",
+  "level": 5
+ },
+ "savvy": {
+  "band": "basic",
+  "level": 7
+ },
+ "schadenfreude": {
+  "band": "advanced",
+  "level": 1
+ },
+ "scintillating": {
+  "band": "common",
+  "level": 8
+ },
+ "screed": {
+  "band": "advanced",
+  "level": 8
+ },
+ "scrupulous": {
+  "band": "basic",
+  "level": 7
+ },
+ "sedulous": {
+  "band": "advanced",
+  "level": 6
+ },
+ "self-effacing": {
+  "band": "common",
+  "level": 7
+ },
+ "semblance": {
+  "band": "advanced",
+  "level": 4
+ },
+ "sententious": {
+  "band": "advanced",
+  "level": 8
+ },
+ "sentimental": {
+  "band": "basic",
+  "level": 2
+ },
+ "serendipity": {
+  "band": "common",
+  "level": 6
+ },
+ "serene": {
+  "band": "basic",
+  "level": 2
+ },
+ "simulacrum": {
+  "band": "advanced",
+  "level": 6
+ },
+ "sinecure": {
+  "band": "advanced",
+  "level": 7
+ },
+ "slapdash": {
+  "band": "advanced",
+  "level": 7
+ },
+ "smattering": {
+  "band": "advanced",
+  "level": 6
+ },
+ "smug": {
+  "band": "common",
+  "level": 5
+ },
+ "snide": {
+  "band": "common",
+  "level": 8
+ },
+ "snub": {
+  "band": "common",
+  "level": 8
+ },
+ "solecism": {
+  "band": "advanced",
+  "level": 8
+ },
+ "solicitous": {
+  "band": "common",
+  "level": 4
+ },
+ "solicitude": {
+  "band": "common",
+  "level": 5
+ },
+ "soporific": {
+  "band": "advanced",
+  "level": 6
+ },
+ "sordid": {
+  "band": "advanced",
+  "level": 6
+ },
+ "spartan": {
+  "band": "basic",
+  "level": 6
+ },
+ "specious": {
+  "band": "advanced",
+  "level": 7
+ },
+ "spendthrift": {
+  "band": "common",
+  "level": 5
+ },
+ "splenetic": {
+  "band": "advanced",
+  "level": 7
+ },
+ "sporadic": {
+  "band": "basic",
+  "level": 5
+ },
+ "spurious": {
+  "band": "advanced",
+  "level": 8
+ },
+ "spurn": {
+  "band": "advanced",
+  "level": 7
+ },
+ "squander": {
+  "band": "common",
+  "level": 3
+ },
+ "squelch": {
+  "band": "basic",
+  "level": 7
+ },
+ "staid": {
+  "band": "advanced",
+  "level": 8
+ },
+ "stalwart": {
+  "band": "common",
+  "level": 6
+ },
+ "start": {
+  "band": "basic",
+  "level": 5
+ },
+ "staunch": {
+  "band": "advanced",
+  "level": 4
+ },
+ "steadfast": {
+  "band": "basic",
+  "level": 6
+ },
+ "stem": {
+  "band": "common",
+  "level": 8
+ },
+ "stipend": {
+  "band": "basic",
+  "level": 3
+ },
+ "stolid": {
+  "band": "advanced",
+  "level": 6
+ },
+ "stringent": {
+  "band": "basic",
+  "level": 7
+ },
+ "stultify": {
+  "band": "advanced",
+  "level": 6
+ },
+ "stymie": {
+  "band": "common",
+  "level": 7
+ },
+ "subsume": {
+  "band": "advanced",
+  "level": 8
+ },
+ "subterfuge": {
+  "band": "common",
+  "level": 6
+ },
+ "subversive": {
+  "band": "advanced",
+  "level": 7
+ },
+ "sullen": {
+  "band": "common",
+  "level": 7
+ },
+ "summit": {
+  "band": "basic",
+  "level": 2
+ },
+ "supercilious": {
+  "band": "advanced",
+  "level": 3
+ },
+ "superfluous": {
+  "band": "advanced",
+  "level": 4
+ },
+ "supplant": {
+  "band": "advanced",
+  "level": 5
+ },
+ "surfeit": {
+  "band": "common",
+  "level": 7
+ },
+ "surly": {
+  "band": "advanced",
+  "level": 6
+ },
+ "surreptitious": {
+  "band": "common",
+  "level": 5
+ },
+ "sybarite": {
+  "band": "advanced",
+  "level": 5
+ },
+ "sycophant": {
+  "band": "common",
+  "level": 8
+ },
+ "taciturn": {
+  "band": "common",
+  "level": 7
+ },
+ "tact": {
+  "band": "common",
+  "level": 3
+ },
+ "tantamount": {
+  "band": "advanced",
+  "level": 6
+ },
+ "tarnish": {
+  "band": "basic",
+  "level": 3
+ },
+ "tawdry": {
+  "band": "common",
+  "level": 8
+ },
+ "taxing": {
+  "band": "basic",
+  "level": 7
+ },
+ "telling": {
+  "band": "basic",
+  "level": 4
+ },
+ "telltale": {
+  "band": "common",
+  "level": 3
+ },
+ "temerity": {
+  "band": "advanced",
+  "level": 4
+ },
+ "temperance": {
+  "band": "advanced",
+  "level": 7
+ },
+ "tempered": {
+  "band": "common",
+  "level": 6
+ },
+ "tempestuous": {
+  "band": "common",
+  "level": 5
+ },
+ "tenacious": {
+  "band": "advanced",
+  "level": 5
+ },
+ "tendentious": {
+  "band": "advanced",
+  "level": 6
+ },
+ "tender": {
+  "band": "common",
+  "level": 7
+ },
+ "thoroughgoing": {
+  "band": "basic",
+  "level": 6
+ },
+ "thrifty": {
+  "band": "basic",
+  "level": 5
+ },
+ "thwart": {
+  "band": "basic",
+  "level": 6
+ },
+ "timorous": {
+  "band": "common",
+  "level": 8
+ },
+ "tirade": {
+  "band": "basic",
+  "level": 7
+ },
+ "torpor": {
+  "band": "advanced",
+  "level": 8
+ },
+ "tortuous": {
+  "band": "advanced",
+  "level": 6
+ },
+ "tout": {
+  "band": "common",
+  "level": 7
+ },
+ "tractable": {
+  "band": "advanced",
+  "level": 4
+ },
+ "transient": {
+  "band": "basic",
+  "level": 6
+ },
+ "transitory": {
+  "band": "basic",
+  "level": 4
+ },
+ "transmute": {
+  "band": "common",
+  "level": 5
+ },
+ "travail": {
+  "band": "advanced",
+  "level": 7
+ },
+ "travesty": {
+  "band": "advanced",
+  "level": 8
+ },
+ "treacherous": {
+  "band": "common",
+  "level": 3
+ },
+ "trenchant": {
+  "band": "advanced",
+  "level": 4
+ },
+ "tribulation": {
+  "band": "common",
+  "level": 5
+ },
+ "trite": {
+  "band": "common",
+  "level": 5
+ },
+ "truculence": {
+  "band": "common",
+  "level": 4
+ },
+ "truculent": {
+  "band": "advanced",
+  "level": 6
+ },
+ "truncate": {
+  "band": "basic",
+  "level": 6
+ },
+ "tumult": {
+  "band": "common",
+  "level": 7
+ },
+ "turgid": {
+  "band": "advanced",
+  "level": 5
+ },
+ "turpitude": {
+  "band": "advanced",
+  "level": 8
+ },
+ "tyro": {
+  "band": "common",
+  "level": 2
+ },
+ "umbrage": {
+  "band": "advanced",
+  "level": 4
+ },
+ "unassailable": {
+  "band": "basic",
+  "level": 6
+ },
+ "uncanny": {
+  "band": "common",
+  "level": 5
+ },
+ "uncompromising": {
+  "band": "basic",
+  "level": 2
+ },
+ "unconscionable": {
+  "band": "advanced",
+  "level": 2
+ },
+ "undermine": {
+  "band": "basic",
+  "level": 6
+ },
+ "underscore": {
+  "band": "common",
+  "level": 5
+ },
+ "underwrite": {
+  "band": "advanced",
+  "level": 6
+ },
+ "unequivocal": {
+  "band": "basic",
+  "level": 7
+ },
+ "unflappable": {
+  "band": "common",
+  "level": 6
+ },
+ "unforthcoming": {
+  "band": "basic",
+  "level": 7
+ },
+ "unimpeachable": {
+  "band": "common",
+  "level": 5
+ },
+ "unnerve": {
+  "band": "common",
+  "level": 3
+ },
+ "unprecedented": {
+  "band": "basic",
+  "level": 3
+ },
+ "unprepossessing": {
+  "band": "advanced",
+  "level": 1
+ },
+ "unpropitious": {
+  "band": "common",
+  "level": 5
+ },
+ "unruly": {
+  "band": "basic",
+  "level": 6
+ },
+ "unscrupulous": {
+  "band": "common",
+  "level": 8
+ },
+ "unseemly": {
+  "band": "common",
+  "level": 3
+ },
+ "unstinting": {
+  "band": "advanced",
+  "level": 3
+ },
+ "untenable": {
+  "band": "common",
+  "level": 6
+ },
+ "untoward": {
+  "band": "advanced",
+  "level": 5
+ },
+ "untrammeled": {
+  "band": "advanced",
+  "level": 5
+ },
+ "unviable": {
+  "band": "basic",
+  "level": 5
+ },
+ "upbraid": {
+  "band": "advanced",
+  "level": 8
+ },
+ "urbane": {
+  "band": "common",
+  "level": 7
+ },
+ "vacillate": {
+  "band": "common",
+  "level": 6
+ },
+ "vacuous": {
+  "band": "common",
+  "level": 8
+ },
+ "vanquish": {
+  "band": "common",
+  "level": 8
+ },
+ "variance": {
+  "band": "basic",
+  "level": 3
+ },
+ "vaunted": {
+  "band": "advanced",
+  "level": 2
+ },
+ "vehement": {
+  "band": "common",
+  "level": 7
+ },
+ "venality": {
+  "band": "advanced",
+  "level": 8
+ },
+ "veneer": {
+  "band": "common",
+  "level": 8
+ },
+ "venerate": {
+  "band": "advanced",
+  "level": 8
+ },
+ "venial": {
+  "band": "advanced",
+  "level": 7
+ },
+ "veracious": {
+  "band": "advanced",
+  "level": 8
+ },
+ "verisimilitude": {
+  "band": "common",
+  "level": 6
+ },
+ "veritable": {
+  "band": "basic",
+  "level": 6
+ },
+ "vicarious": {
+  "band": "common",
+  "level": 8
+ },
+ "vicissitude": {
+  "band": "advanced",
+  "level": 7
+ },
+ "vie": {
+  "band": "common",
+  "level": 7
+ },
+ "vilify": {
+  "band": "advanced",
+  "level": 4
+ },
+ "vindicate": {
+  "band": "advanced",
+  "level": 5
+ },
+ "vindictive": {
+  "band": "common",
+  "level": 4
+ },
+ "virago": {
+  "band": "advanced",
+  "level": 7
+ },
+ "vitriol": {
+  "band": "basic",
+  "level": 7
+ },
+ "vitriolic": {
+  "band": "common",
+  "level": 6
+ },
+ "vituperate": {
+  "band": "common",
+  "level": 7
+ },
+ "vociferous": {
+  "band": "advanced",
+  "level": 8
+ },
+ "volubility": {
+  "band": "advanced",
+  "level": 8
+ },
+ "voracious": {
+  "band": "common",
+  "level": 6
+ },
+ "wanting": {
+  "band": "common",
+  "level": 7
+ },
+ "wanton": {
+  "band": "advanced",
+  "level": 4
+ },
+ "wax": {
+  "band": "common",
+  "level": 8
+ },
+ "whimsical": {
+  "band": "basic",
+  "level": 6
+ },
+ "winsome": {
+  "band": "advanced",
+  "level": 6
+ },
+ "zeitgeist": {
+  "band": "advanced",
+  "level": 2
+ },
+ "zenith": {
+  "band": "basic",
+  "level": 5
+ }
+}

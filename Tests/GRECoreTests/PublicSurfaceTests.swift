@@ -46,6 +46,7 @@ import Testing
         _ = (word.zipf, word.difficulty)
         _ = catalog.words(withDifficulty: .familiar)
         _ = (word.primarySense, word.primaryPartOfSpeech, word.teachingDefinition)
+        if let level = word.magoosh { _ = (level.band, level.level) }
         if let gre = word.gre {
             _ = (gre.pos, gre.definition, gre.synonyms, gre.antonyms, gre.sentences)
         }
