@@ -13,12 +13,17 @@ stop wasting your time.
 | Mode | What you do | Graded by |
 |---|---|---|
 | Multiple choice | Meet a new word, pick its definition | locally, free |
+| In context | A real sentence with the word blanked out; pick what fits | locally, free |
+| Which meaning | A common word used in its uncommon tested sense; pick the meaning | locally, free |
 | Reverse recall | Definition shown, name the word | locally, free |
 | Spelling | Hear it in your chosen accent, type it | locally, free |
 | Define & use | Write a definition and a sentence | a model, via OpenRouter |
 
-Modes climb as a word's memory gets stronger: recognise it, recall it, spell it,
-then write with it. **Without an API key the first three work fully** — only the
+Modes climb as a word's memory gets stronger: recognise it, use it in a sentence,
+recall it, spell it, then write with it. "Which meaning" is not part of that
+ladder — it fires on the second outing of the ~400 **trap words**, common forms
+whose tested sense is not their everyday one, where the wrong answers offered are
+exactly the meanings you already believe. **Without an API key the first three work fully** — only the
 graded mode is locked.
 
 ## Pace and decks
@@ -82,7 +87,7 @@ need a Mac. CI builds the app on `macos-26`.
 
 ```sh
 tools/setup-linux-toolchain.sh   # Swift + the libraries Arch names differently
-. ./env.sh && swift test         # 158 tests
+. ./env.sh && swift test         # 174 tests
 python3 tools/build_dataset.py   # regenerate the word dataset
 ```
 

@@ -127,6 +127,86 @@ private struct AnswerEditor: View {
 
 // MARK: - Feedback
 
+/// A sentence with a gap, and four words that might fill it.
+///
+/// The sentence carries the weight here: the learner meets the word doing its
+/// job rather than sitting beside a definition.
+struct ClozeAnswer: View {
+    let sentence: String
+    let options: [Word]
+    let choose: (Word) -> Void
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 18) {
+            Text(sentence)
+                .font(Theme.definition)
+                .foregroundStyle(Theme.primaryText)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .cardSurface()
+
+            VStack(spacing: 10) {
+                ForEach(options) { option in
+                    Button {
+                        choose(option)
+                    } label: {
+                        Text(option.word)
+                            .font(Theme.headword(19))
+                            .foregroundStyle(Theme.primaryText)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.vertical, 14)
+                            .padding(.horizontal, 16)
+                    }
+                    .buttonStyle(.plain)
+                    .background(Theme.raised, in: RoundedRectangle(cornerRadius: 14))
+                }
+            }
+        }
+    }
+}
+
+/// A common word used in its uncommon tested sense, and the meanings it gets
+/// confused with. The wrong answers are the everyday senses on purpose.
+struct SenseAnswer: View {
+    let word: Word
+    let sentence: String
+    let options: [String]
+    let choose: (String) -> Void
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 18) {
+            VStack(alignment: .leading, spacing: 10) {
+                Text("Which meaning is used here?")
+                    .font(Theme.label)
+                    .foregroundStyle(Theme.tertiaryText)
+                    .textCase(.uppercase)
+                Text(sentence)
+                    .font(Theme.definition)
+                    .foregroundStyle(Theme.primaryText)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .cardSurface()
+
+            VStack(spacing: 10) {
+                ForEach(options, id: \.self) { option in
+                    Button {
+                        choose(option)
+                    } label: {
+                        Text(option)
+                            .font(Theme.body)
+                            .foregroundStyle(Theme.primaryText)
+                            .multilineTextAlignment(.leading)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.vertical, 14)
+                            .padding(.horizontal, 16)
+                    }
+                    .buttonStyle(.plain)
+                    .background(Theme.raised, in: RoundedRectangle(cornerRadius: 14))
+                }
+            }
+        }
+    }
+}
+
 struct FeedbackCard: View {
     let feedback: AnswerFeedback
     let item: SessionItem

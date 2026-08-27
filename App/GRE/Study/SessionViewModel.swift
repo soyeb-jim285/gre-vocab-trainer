@@ -160,6 +160,74 @@ final class SessionViewModel {
         }
     }
 
+    /// Four words for a fill-in-the-blank, ordered as the plain multiple-choice
+    /// options are so position never gives the answer away.
+    func clozeOptions(for item: SessionItem) -> [Word] {
+        let distractors = DistractorPicker.clozeDistractors(for: item.word, from: catalog, count: 3)
+        return (distractors + [item.word]).sorted {
+            stableSortKey($0.id, salt: "cloze-" + item.word.id)
+                < stableSortKey($1.id, salt: "cloze-" + item.word.id)
+        }
+    }
+
+    /// The tested meaning plus the everyday ones it is confused with.
+    func senseOptions(for item: SessionItem) -> [String] {
+        let wrong = DistractorPicker.senseDistractors(for: item.word, from: catalog, count: 3)
+        return (wrong + [item.word.teachingDefinition]).sorted {
+            stableSortKey($0, salt: "sense-" + item.word.id)
+                < stableSortKey($1, salt: "sense-" + item.word.id)
+        }
+    }
+
+    /// One blanked sentence, chosen per card so a word met twice is not asked
+    /// with the same sentence both times.
+    func clozeSentence(for item: SessionItem) -> String {
+        let options = item.word.gre?.cloze ?? []
+        guard !options.isEmpty else { return "" }
+        return options[item.card.reviewCount % options.count]
+    }
+
+    /// The sentence a "which meaning" question is asked about. Unblanked: the
+    /// word is exactly what the learner has to interpret.
+    func senseSentence(for item: SessionItem) -> String {
+        let options = item.word.gre?.sentences ?? []
+        guard !options.isEmpty else { return "" }
+        return options[item.card.reviewCount % options.count]
+    }
+
+    func submitCloze(_ chosen: Word) {
+        guard let item = current else { return }
+        chosenOptionID = chosen.id
+        let correct = chosen.id == item.word.id
+        finish(
+            grade: Grade(score: correct ? 100 : 0),
+            feedback: AnswerFeedback(
+                score: correct ? 100 : 0,
+                rating: Grade(score: correct ? 100 : 0).rating(strictness: settings.strictness),
+                headline: correct ? "That fits" : "Not that one",
+                detail: item.word.teachingDefinition,
+                // Getting it wrong in context is the moment the full entry helps.
+                showsReference: !correct
+            )
+        )
+    }
+
+    func submitSense(_ chosen: String) {
+        guard let item = current else { return }
+        chosenOptionID = chosen
+        let correct = chosen == item.word.teachingDefinition
+        finish(
+            grade: Grade(score: correct ? 100 : 0),
+            feedback: AnswerFeedback(
+                score: correct ? 100 : 0,
+                rating: Grade(score: correct ? 100 : 0).rating(strictness: settings.strictness),
+                headline: correct ? "Right meaning" : "That is the everyday meaning",
+                detail: item.word.teachingDefinition,
+                showsReference: true
+            )
+        )
+    }
+
     func submitMultipleChoice(_ chosen: Word) {
         guard let item = current else { return }
         chosenOptionID = chosen.id

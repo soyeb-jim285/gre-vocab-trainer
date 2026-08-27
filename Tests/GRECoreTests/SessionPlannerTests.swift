@@ -180,8 +180,16 @@ import Testing
 
     // MARK: - Mode ladder
 
-    private func mode(_ card: StudyCard, ai: Bool = true, writingAfter: Int = 3) -> StudyMode {
-        SessionPlanner.mode(for: card, settings: SessionSettings(aiEnabled: ai, writingModeAfterReviews: writingAfter))
+    /// Defaults to a non-trap word, so the ladder rather than the trap drill is
+    /// what these assertions are looking at.
+    private func mode(
+        _ card: StudyCard, ai: Bool = true, writingAfter: Int = 3, wordID: String = "laconic"
+    ) -> StudyMode {
+        let word = Self.catalog[wordID]!
+        return SessionPlanner.mode(
+            for: card, word: word,
+            settings: SessionSettings(aiEnabled: ai, writingModeAfterReviews: writingAfter)
+        )
     }
 
     @Test func aBrandNewWordStartsWithMultipleChoice() {
@@ -190,10 +198,30 @@ import Testing
 
     @Test func modesFollowMemoryStrength() {
         #expect(mode(seen("abate", dueIn: 0, reviews: 1, stability: 2), ai: false) == .multipleChoice)
-        #expect(mode(seen("abate", dueIn: 0, reviews: 1, stability: 10), ai: false) == .reverseRecall)
-        #expect(mode(seen("abate", dueIn: 0, reviews: 2, stability: 10), ai: false) == .spelling)
-        #expect(mode(seen("abate", dueIn: 0, reviews: 3, stability: 10), ai: false) == .reverseRecall)
+        // Then the ladder: use it in context, produce it, spell it.
+        #expect(mode(seen("abate", dueIn: 0, reviews: 3, stability: 10), ai: false) == .contextCloze)
+        #expect(mode(seen("abate", dueIn: 0, reviews: 4, stability: 10), ai: false) == .reverseRecall)
+        #expect(mode(seen("abate", dueIn: 0, reviews: 5, stability: 10), ai: false) == .spelling)
         #expect(mode(seen("abate", dueIn: 0, reviews: 3, stability: 10)) == .defineAndUse)
+    }
+
+    @Test func aTrapWordIsChallengedOnItsSecondOuting() throws {
+        let flag = try #require(Self.catalog["flag"])
+        #expect(flag.isTrap)
+        let card = seen("flag", dueIn: 0, reviews: 1, stability: 10)
+        #expect(SessionPlanner.mode(for: card, word: flag, settings: SessionSettings(aiEnabled: false))
+                == .senseInContext)
+    }
+
+    @Test func anOrdinaryWordIsNeverAskedWhichMeaning() throws {
+        let laconic = try #require(Self.catalog["laconic"])
+        #expect(laconic.isTrap == false)
+        for reviews in 0..<12 {
+            let card = seen("laconic", dueIn: 0, reviews: reviews, stability: 10)
+            let m = SessionPlanner.mode(for: card, word: laconic,
+                                        settings: SessionSettings(aiEnabled: false))
+            #expect(m != .senseInContext, "asked which meaning about a single-sense word")
+        }
     }
 
     @Test func aLapsedWordDropsBackToMultipleChoice() {
@@ -226,9 +254,11 @@ import Testing
         )
     }
 
+    private static let catalog = try! WordCatalog.bundled()
+
     private func mode(reviews: Int, writingAfter: Int, ai: Bool = true) -> StudyMode {
         SessionPlanner.mode(
-            for: card(reviews: reviews),
+            for: card(reviews: reviews), word: Self.catalog["laconic"]!,
             settings: SessionSettings(aiEnabled: ai, writingModeAfterReviews: writingAfter)
         )
     }

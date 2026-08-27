@@ -44,7 +44,9 @@ import Testing
         let cards = deck.wordIDs.map { studied($0) }
         let items = QuizPlanner.deckTest(deck: deck, cards: cards, catalog: Self.catalog, seed: 3)
         #expect(items.allSatisfy { StudyMode.locallyGraded.contains($0.mode) })
-        #expect(Set(items.map(\.mode)).count == 3)
+        #expect(Set(items.map(\.mode)).count == 4)
+        // "Which meaning" needs a trap word, so a test never asks it.
+        #expect(items.allSatisfy { $0.mode != .senseInContext })
     }
 
     @Test func theSameSeedGivesTheSameOrderAndADifferentSeedShufflesIt() {

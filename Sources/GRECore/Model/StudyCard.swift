@@ -4,6 +4,11 @@ import Foundation
 public enum StudyMode: String, Codable, Sendable, CaseIterable {
     /// Meet the word: pick its definition from four options.
     case multipleChoice
+    /// A real sentence with the word blanked out; pick the word that fits.
+    case contextCloze
+    /// A common word in a sentence using its uncommon tested sense; pick which
+    /// meaning applies. Only ever offered for ``Word/isTrap`` words.
+    case senseInContext
     /// Definition shown, recall the word.
     case reverseRecall
     /// Hear the word, type its spelling.
@@ -12,7 +17,18 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     case defineAndUse
 
     /// The modes that work with no API key.
-    public static let locallyGraded: [StudyMode] = [.multipleChoice, .reverseRecall, .spelling]
+    public static let locallyGraded: [StudyMode] = [
+        .multipleChoice, .contextCloze, .senseInContext, .reverseRecall, .spelling,
+    ]
+
+    /// Answered by tapping one of four options rather than by typing.
+    public var isTapToAnswer: Bool {
+        self == .multipleChoice || self == .contextCloze || self == .senseInContext
+    }
+
+    /// Only meaningful for a word whose everyday sense competes with the tested
+    /// one; asking "which meaning?" about `laconic` has a single answer.
+    public var needsTrapWord: Bool { self == .senseInContext }
 
     public var needsAI: Bool { self == .defineAndUse }
 
@@ -20,6 +36,8 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     public var label: String {
         switch self {
         case .multipleChoice: "Multiple choice"
+        case .contextCloze: "In context"
+        case .senseInContext: "Which meaning"
         case .reverseRecall: "Recall"
         case .spelling: "Spelling"
         case .defineAndUse: "Writing"
@@ -29,6 +47,8 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     public var systemImage: String {
         switch self {
         case .multipleChoice: "checklist"
+        case .contextCloze: "text.insert"
+        case .senseInContext: "arrow.triangle.branch"
         case .reverseRecall: "arrow.uturn.backward"
         case .spelling: "ear"
         case .defineAndUse: "square.and.pencil"

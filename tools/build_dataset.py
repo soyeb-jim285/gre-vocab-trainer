@@ -60,6 +60,15 @@ GRE_SENSES = ROOT / "tools" / "gre_senses.json"
 GRE_DIFFICULTY = ROOT / "tools" / "gre_difficulty.json"
 # 1-5 to the four bands the app already displays.
 RATING_BANDS = {1: "familiar", 2: "familiar", 3: "moderate", 4: "hard", 5: "rare"}
+# Irregular forms the suffix rules below cannot reach. Only the ones that
+# actually occur in the example sentences; there is no value in a general
+# conjugator here.
+IRREGULAR = {
+    "forswear": ["forswore", "forsworn"],
+    "underwrite": ["underwrote", "underwritten"],
+    "waylay": ["waylaid"],
+    "passe": ["passé"],
+}
 POS_LETTER = {"noun": "n", "verb": "v", "adjective": "a", "adverb": "r"}
 
 # Zipf frequency bands, from wordfreq. Higher zipf means the word turns up more
@@ -201,10 +210,62 @@ def load_gre_senses() -> dict[str, dict]:
     return json.loads(GRE_SENSES.read_text(encoding="utf-8"))
 
 
+def surface_forms(word: str) -> list[str]:
+    """Inflections of `word` that might appear in a sentence, longest first.
+
+    Longest-first matters: "abated" must be tried before "abate", or the blank
+    swallows the stem and leaves a stray "d" behind.
+    """
+    stem = word.rstrip("e") if len(word) > 3 else word
+    forms = {word, word + "s", word + "es", word + "d", word + "ing", word + "ly",
+             stem + "ing", stem + "ed", stem + "es", stem + "e",
+             stem + "ied", stem + "ies", stem + "ying"}
+    if word.endswith("y"):
+        forms |= {word[:-1] + "ies", word[:-1] + "ied"}
+    if not (len(word) > 3 and word[-1] == word[-2]):
+        forms |= {stem + word[-1] + "ing", stem + word[-1] + "ed"}
+    forms |= set(IRREGULAR.get(word, []))
+    return sorted(forms, key=len, reverse=True)
+
+
+def to_cloze(word: str, sentence: str) -> str | None:
+    """The sentence with the word blanked out, or None if it does not appear.
+
+    Some example sentences are about the word rather than uses of it ("the word
+    means looking around"), and those make no sense as a fill-in-the-blank.
+    """
+    blanked = sentence
+    found = False
+    for form in surface_forms(word):
+        # Every occurrence, not just the first: "a king may abdicate a throne;
+        # a parent cannot abdicate a child" would otherwise print the answer.
+        blanked, count = re.subn(rf"\b{re.escape(form)}\b", "____", blanked, flags=re.IGNORECASE)
+        found = found or count > 0
+    return blanked if found else None
+
+
 def load_difficulty() -> dict[str, int]:
     if not GRE_DIFFICULTY.exists():
         return {}
     return json.loads(GRE_DIFFICULTY.read_text(encoding="utf-8"))
+
+
+def is_trap(wordnet, word: str, gre: dict | None) -> bool:
+    """True when the tested sense is not the word's everyday one.
+
+    WordNet orders senses by how often they are used, so if the part of speech
+    the exam tests is not what leads, this is a common word wearing a rare
+    meaning -- "flag" the verb, "august" the adjective. Those need to be taught
+    as the trap they are, not filed with the easy words.
+    """
+    if not gre:
+        return False
+    want = POS_LETTER.get(gre["pos"])
+    if not want:
+        return False
+    wanted = {"a", "s"} if want == "a" else {want}
+    synsets = [s for s in wordnet.synsets(word) if not s.get_related("instance_hypernym")]
+    return bool(synsets) and synsets[0].pos not in wanted
 
 
 def senses_for(wordnet, word: str, gre: dict | None = None) -> list[dict]:
@@ -216,10 +277,17 @@ def senses_for(wordnet, word: str, gre: dict | None = None) -> list[dict]:
     # OEWN lists nouns first whatever the word, so "arch" leads with the
     # architecture and "cow" with the animal. The hand-written part of speech
     # says which sense the exam tests; sort that one to the front.
+    keep = common[:MAX_SENSES]
     if gre and (letter := POS_LETTER.get(gre["pos"])):
         want = {"a", "s"} if letter == "a" else {letter}
+        dominant = common[0] if common else None
         common.sort(key=lambda ss: ss.pos not in want)
-    for ss in common[:MAX_SENSES]:
+        keep = common[:MAX_SENSES]
+        # For a trap word the everyday sense is the whole point: it is what the
+        # learner will wrongly choose, so it has to survive the truncation.
+        if dominant is not None and dominant.pos not in want and dominant not in keep:
+            keep = keep[:MAX_SENSES - 1] + [dominant]
+    for ss in keep:
         lemmas = [l for l in ss.lemmas() if l.lower() != word]
         antonyms = []
         for sense in ss.senses():
@@ -270,6 +338,10 @@ def build() -> tuple[list[dict], list[str]]:
     entries, missing = [], []
     for word in sorted(sources):
         gre = gre_senses.get(word)
+        if gre:
+            gre = dict(gre)
+            gre["cloze"] = [c for s in gre["sentences"] if (c := to_cloze(word, s))]
+        trap = is_trap(wordnet, word, gre)
         senses = senses_for(wordnet, word, gre)
         if not senses:
             missing.append(word)
@@ -287,6 +359,7 @@ def build() -> tuple[list[dict], list[str]]:
             "zipf": zipf,
             "difficulty": RATING_BANDS[ratings.get(word, 3)],
             "rating": ratings.get(word, 3),
+            "isTrap": trap,
             **({"gre": gre} if gre else {}),
         })
     return entries, missing
@@ -305,10 +378,16 @@ def verify(entries: list[dict]) -> None:
     for e in entries:
         assert e["senses"], f"{e['id']}: no senses"
         assert 1 <= e["rating"] <= 5, f"{e['id']}: bad rating"
+        assert isinstance(e["isTrap"], bool), f"{e['id']}: bad trap flag"
+        # A trap needs a competing everyday sense to offer as a wrong answer.
+        if e["isTrap"]:
+            assert len(e["senses"]) >= 1, f"{e['id']}: trap with no alternative sense"
         assert e["difficulty"] == RATING_BANDS[e["rating"]], f"{e['id']}: band/rating disagree"
         if g := e.get("gre"):
             assert g["pos"] in POS_LETTER, f"{e['id']}: bad gre pos"
-            assert g["definition"] and len(g["sentences"]) >= 1, f"{e['id']}: thin gre sense"
+            assert g["definition"] and len(g["sentences"]) >= 2, f"{e['id']}: thin gre sense"
+            assert g["cloze"], f"{e['id']}: no sentence usable as fill-in-the-blank"
+            assert all("____" in c for c in g["cloze"]), f"{e['id']}: cloze without a blank"
         assert all(s["definition"] for s in e["senses"]), f"{e['id']}: blank definition"
         assert e["tier"] in ("core", "common", "extended"), f"{e['id']}: bad tier"
         assert e["listCount"] == len(e["sourceLists"]), f"{e['id']}: listCount mismatch"

@@ -9,14 +9,63 @@ public enum DistractorPicker {
     public static func distractors(
         for word: Word, from catalog: WordCatalog, count: Int = 3
     ) -> [Word] {
-        let pool = catalog.words(withPartOfSpeech: word.primaryPartOfSpeech)
+        pick(count, from: catalog.words(withPartOfSpeech: word.primaryPartOfSpeech)
+                .filter { $0.id != word.id },
+             seed: stableHash(word.id))
+    }
+
+    /// Wrong words for a fill-in-the-blank.
+    ///
+    /// Same part of speech *and* a similar difficulty, so the answer cannot be
+    /// found by spotting the one word the learner recognises. Widens the band
+    /// rather than returning short if the narrow pool is too small.
+    public static func clozeDistractors(
+        for word: Word, from catalog: WordCatalog, count: Int = 3
+    ) -> [Word] {
+        let sameKind = catalog.words(withPartOfSpeech: word.primaryPartOfSpeech)
             .filter { $0.id != word.id }
+        for tolerance in 0...4 {
+            let pool = sameKind.filter { abs($0.rating - word.rating) <= tolerance }
+            if pool.count >= count {
+                return pick(count, from: pool, seed: stableHash("cloze-" + word.id))
+            }
+        }
+        return pick(count, from: sameKind, seed: stableHash("cloze-" + word.id))
+    }
+
+    /// Wrong meanings for "which sense is used here?".
+    ///
+    /// Drawn from the word's *own* other WordNet senses, which is what makes
+    /// the question worth asking: the distractors are the everyday meanings the
+    /// learner already knows and the exam is counting on them to choose.
+    public static func senseDistractors(
+        for word: Word, from catalog: WordCatalog, count: Int = 3
+    ) -> [String] {
+        let tested = word.teachingDefinition.lowercased()
+        var options = word.senses
+            .map(\.definition)
+            .filter { $0.lowercased() != tested }
+
+        // A trap with only one WordNet sense borrows definitions from unrelated
+        // words rather than dropping to a two-option question.
+        if options.count < count {
+            let filler = pick(count - options.count,
+                              from: catalog.words.filter { $0.id != word.id },
+                              seed: stableHash("sense-" + word.id))
+            options += filler.map(\.teachingDefinition)
+        }
+        return Array(options.prefix(count))
+    }
+
+    private static func pick(
+        _ count: Int, from pool: [Word], seed: UInt64
+    ) -> [Word] {
         guard !pool.isEmpty else { return [] }
 
         // Deterministic per word, so the same question always offers the same
         // options -- a learner who sees a question twice should not be able to
         // tell the answer apart by the company it keeps.
-        var rng = SeededGenerator(seed: stableHash(word.id))
+        var rng = SeededGenerator(seed: seed)
         var picked: [Word] = []
         var seen = Set<String>()
         var attempts = 0

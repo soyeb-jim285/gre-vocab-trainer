@@ -41,9 +41,11 @@ public enum QuizPlanner {
     private static func items(from cards: [StudyCard], catalog: WordCatalog, seed: UInt64) -> [SessionItem] {
         guard cards.count >= minimumWords else { return [] }
         var rng = SeededGenerator(seed: seed)
-        let local = StudyMode.locallyGraded
+        // "Which meaning" needs a trap word, so it is not part of the rotation;
+        // a test should ask every word the same kind of question.
+        let modes: [StudyMode] = [.multipleChoice, .contextCloze, .reverseRecall, .spelling]
         return cards.shuffled(using: &rng).enumerated().compactMap { n, card in
-            catalog[card.wordID].map { SessionItem(card: card, word: $0, mode: local[n % local.count]) }
+            catalog[card.wordID].map { SessionItem(card: card, word: $0, mode: modes[n % modes.count]) }
         }
     }
 }

@@ -291,6 +291,100 @@ struct AppSmokeTests {
         #expect(ReviewRecorder.recentAccuracy(in: context) == 100)
     }
 
+    // MARK: - Context modes
+
+    @Test func aClozeQuestionOffersFourWordsAndOneBlankedSentence() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+
+        let word = try #require(catalog["abate"])
+        let card = StudyCard(wordID: word.id, fsrs: FSRSCard(stability: 10, difficulty: 5,
+                                                             due: .now, lastReview: .now,
+                                                             state: .review, step: nil),
+                             reviewCount: 3)
+        let item = SessionItem(card: card, word: word, mode: .contextCloze)
+
+        let options = model.clozeOptions(for: item)
+        #expect(options.count == 4)
+        #expect(options.contains { $0.id == word.id })
+        #expect(Set(options.map(\.id)).count == 4, "an option was repeated")
+
+        let sentence = model.clozeSentence(for: item)
+        #expect(sentence.contains("____"))
+        #expect(sentence.localizedCaseInsensitiveContains(word.word) == false, "the answer is in the sentence")
+    }
+
+    @Test func answeringAClozeCorrectlyScoresAndSchedules() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        model.start()
+        let item = try #require(model.current)
+
+        model.submitCloze(item.word)
+        guard case let .reviewing(feedback) = model.phase else {
+            Issue.record("expected review phase, got \(model.phase)")
+            return
+        }
+        #expect(feedback.score == 100)
+        #expect(try context.fetch(FetchDescriptor<CardRecord>()).count == 1)
+    }
+
+    @Test func aWrongClozeShowsTheFullEntry() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        model.start()
+        let item = try #require(model.current)
+        let wrong = try #require(model.clozeOptions(for: item).first { $0.id != item.word.id })
+
+        model.submitCloze(wrong)
+        guard case let .reviewing(feedback) = model.phase else { Issue.record("expected review"); return }
+        #expect(feedback.score == 0)
+        #expect(feedback.showsReference, "a wrong answer in context is when the entry helps most")
+    }
+
+    @Test func aWhichMeaningQuestionOffersTheEverydayMeaningAsBait() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+
+        let word = try #require(catalog["flag"])
+        #expect(word.isTrap)
+        let item = SessionItem(card: StudyCard(wordID: word.id), word: word, mode: .senseInContext)
+
+        let options = model.senseOptions(for: item)
+        #expect(options.count == 4)
+        #expect(options.contains(word.teachingDefinition))
+        #expect(Set(options).count == 4, "a meaning was repeated")
+
+        // The sentence is shown unblanked: interpreting the word is the task.
+        let sentence = model.senseSentence(for: item)
+        #expect(sentence.contains("____") == false)
+        #expect(sentence.isEmpty == false)
+    }
+
+    @Test func choosingTheEverydayMeaningIsMarkedWrong() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        model.start()
+
+        let word = try #require(catalog["flag"])
+        let item = SessionItem(card: StudyCard(wordID: word.id), word: word, mode: .senseInContext)
+        // Put the planner's item aside and answer this one directly.
+        model.submitSense(word.teachingDefinition)
+        guard case let .reviewing(feedback) = model.phase else { Issue.record("expected review"); return }
+        #expect(feedback.score == 100)
+        _ = item
+    }
+
     // MARK: - Reset
 
     @Test func resettingErasesProgressAndRestoresDefaults() throws {

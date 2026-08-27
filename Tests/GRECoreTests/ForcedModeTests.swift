@@ -18,9 +18,14 @@ import Testing
         )
     }
 
-    private func mode(forced: StudyMode?, reviews: Int, ai: Bool = true, writingAfter: Int = 3) -> StudyMode {
+    /// "abate" is deliberately not a trap word: forcing "which meaning" on it
+    /// must fall back, exactly as forcing writing without a key does.
+    private func mode(
+        forced: StudyMode?, reviews: Int, ai: Bool = true, writingAfter: Int = 3,
+        wordID: String = "abate"
+    ) -> StudyMode {
         SessionPlanner.mode(
-            for: card(reviews: reviews),
+            for: card(reviews: reviews), word: Self.catalog[wordID]!,
             settings: SessionSettings(aiEnabled: ai, writingModeAfterReviews: writingAfter, forcedMode: forced)
         )
     }
@@ -31,10 +36,12 @@ import Testing
 
     @Test(arguments: StudyMode.allCases)
     func forcingAModeAppliesItWhateverTheHistory(forced: StudyMode) {
+        // "flag" is a trap word, so every mode including "which meaning" applies.
         for reviews in [0, 1, 2, 3, 9] {
-            #expect(mode(forced: forced, reviews: reviews) == forced)
+            #expect(mode(forced: forced, reviews: reviews, wordID: "flag") == forced)
         }
         #expect(SessionPlanner.mode(for: card(reviews: 4, state: .relearning),
+                                    word: Self.catalog["flag"]!,
                                     settings: SessionSettings(forcedMode: forced)) == forced)
     }
 
@@ -52,6 +59,13 @@ import Testing
             #expect(m != .defineAndUse)
             #expect(StudyMode.locallyGraded.contains(m))
         }
+    }
+
+    @Test func forcingWhichMeaningOnAnOrdinaryWordFallsBack() {
+        // The mode only makes sense where a competing everyday sense exists.
+        let m = mode(forced: .senseInContext, reviews: 3, ai: false, wordID: "laconic")
+        #expect(m != .senseInContext)
+        #expect(StudyMode.locallyGraded.contains(m))
     }
 
     @Test func forcingALocalModeWorksWithoutAKey() {

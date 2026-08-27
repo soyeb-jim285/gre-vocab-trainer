@@ -129,6 +129,17 @@ struct SessionView: View {
             MultipleChoiceAnswer(options: model.multipleChoiceOptions(for: item)) {
                 model.submitMultipleChoice($0)
             }
+        case .contextCloze:
+            ClozeAnswer(
+                sentence: model.clozeSentence(for: item),
+                options: model.clozeOptions(for: item)
+            ) { model.submitCloze($0) }
+        case .senseInContext:
+            SenseAnswer(
+                word: item.word,
+                sentence: model.senseSentence(for: item),
+                options: model.senseOptions(for: item)
+            ) { model.submitSense($0) }
         case .spelling:
             SpellingAnswer(typed: $model.typedAnswer)
         case .reverseRecall:
@@ -155,13 +166,13 @@ struct SessionView: View {
                             .buttonStyle(.glass)
                             .foregroundStyle(Theme.secondaryText)
 
-                        if item.mode != .multipleChoice {
+                        if item.mode.isTapToAnswer == false {
                             Button("Check") {
                                 switch item.mode {
                                 case .spelling: model.submitSpelling()
                                 case .reverseRecall: model.submitRecall()
                                 case .defineAndUse: Task { await model.submitDefineAndUse() }
-                                case .multipleChoice: break
+                                case .multipleChoice, .contextCloze, .senseInContext: break
                                 }
                             }
                             .buttonStyle(.glassProminent)
@@ -186,7 +197,7 @@ struct SessionView: View {
         case .defineAndUse:
             !model.definitionDraft.trimmingCharacters(in: .whitespaces).isEmpty
                 && !model.sentenceDraft.trimmingCharacters(in: .whitespaces).isEmpty
-        case .multipleChoice:
+        case .multipleChoice, .contextCloze, .senseInContext:
             true
         default:
             !model.typedAnswer.trimmingCharacters(in: .whitespaces).isEmpty
@@ -240,7 +251,13 @@ private struct PromptCard: View {
                     .font(Theme.definition)
                     .foregroundStyle(Theme.primaryText)
 
-            case .multipleChoice, .defineAndUse:
+            case .contextCloze:
+                // The blank is the question; showing the word would answer it.
+                Text("Which word fits?")
+                    .font(Theme.headword(26))
+                    .foregroundStyle(Theme.primaryText)
+
+            case .senseInContext, .multipleChoice, .defineAndUse:
                 HStack(alignment: .firstTextBaseline, spacing: 12) {
                     Text(item.word.word)
                         .font(Theme.headword())
@@ -270,6 +287,8 @@ private struct PromptCard: View {
     private var promptLabel: String {
         switch item.mode {
         case .multipleChoice: "Which definition fits?"
+        case .contextCloze: "Fill the gap"
+        case .senseInContext: "The same word, an unfamiliar meaning"
         case .spelling: "Listen and spell"
         case .reverseRecall: "Which word means this?"
         case .defineAndUse: "Define it, then use it"

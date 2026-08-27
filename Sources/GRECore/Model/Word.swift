@@ -73,8 +73,12 @@ public struct GRESense: Codable, Hashable, Sendable {
     public let definition: String
     public let synonyms: [String]
     public let antonyms: [String]
-    /// One or two; the first is the plainer of them.
+    /// Two per word; the first is the plainer of them.
     public let sentences: [String]
+    /// Those sentences with the word blanked out, for fill-in-the-blank.
+    /// Usually two; occasionally one, where the other sentence is about the
+    /// word rather than a use of it.
+    public let cloze: [String]
 }
 
 /// A vocabulary entry as shipped in `words.json`.
@@ -94,6 +98,10 @@ public struct Word: Codable, Identifiable, Hashable, Sendable {
     /// Present for every word in the shipped dataset; optional so a
     /// hand-built ``Word`` in a test or preview need not supply one.
     public let gre: GRESense?
+    /// True when the everyday meaning of this word form is *not* the one the
+    /// exam tests -- "flag" the verb, "august" the adjective. These are the
+    /// words that look easy and are not.
+    public let isTrap: Bool
     /// How hard this word is in the sense the exam tests, 1 (everyday) to
     /// 5 (obscure). Assigned by hand, because frequency measures the word form
     /// rather than the tested meaning: "august" is a common word and a hard one.

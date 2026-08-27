@@ -26,7 +26,9 @@ public enum SessionPlanner {
         let fresh = known.filter { !recent.contains($0.wordID) }
 
         func item(_ card: StudyCard) -> SessionItem? {
-            catalog[card.wordID].map { SessionItem(card: card, word: $0, mode: mode(for: card, settings: settings)) }
+            catalog[card.wordID].map {
+                SessionItem(card: card, word: $0, mode: mode(for: card, word: $0, settings: settings))
+            }
         }
 
         // 1. Due now, most likely forgotten first.
@@ -109,19 +111,31 @@ public enum SessionPlanner {
     /// Writing is the exercise the app exists for, so how soon a word reaches it
     /// is a setting rather than a constant -- the default eases in, zero starts
     /// there. A lapsed word drops back to recognition whatever the setting.
-    static func mode(for card: StudyCard, settings: SessionSettings) -> StudyMode {
+    static func mode(for card: StudyCard, word: Word, settings: SessionSettings) -> StudyMode {
         // A forced mode drills one skill and overrides the ladder entirely --
         // except that it cannot conjure an API key, so writing without one
-        // still falls back rather than stranding the learner on a locked mode.
-        if let forced = settings.forcedMode, !forced.needsAI || settings.aiEnabled {
+        // still falls back rather than stranding the learner on a locked mode,
+        // and "which meaning" only exists for words that have two.
+        if let forced = settings.forcedMode,
+           !forced.needsAI || settings.aiEnabled,
+           !forced.needsTrapWord || word.isTrap {
             return forced
         }
         if card.fsrs.state == .relearning { return .multipleChoice }
+
+        // A trap word's whole difficulty is that the familiar meaning is the
+        // wrong one, so meet it head on the second time the word comes round --
+        // early enough to correct the assumption before it sets.
+        if word.isTrap, card.reviewCount == 1 { return .senseInContext }
+
         if settings.aiEnabled, card.reviewCount >= settings.writingModeAfterReviews {
             return .defineAndUse
         }
         if card.fsrs.state != .review || Mastery(card: card) <= .learning { return .multipleChoice }
-        return card.reviewCount % 2 == 1 ? .reverseRecall : .spelling
+
+        // Recognise it, then use it in a sentence, then produce it, then spell it.
+        let ladder: [StudyMode] = [.contextCloze, .reverseRecall, .spelling]
+        return ladder[card.reviewCount % ladder.count]
     }
     // ponytail: FSRS parameters stay at the defaults. Fitting them to the
     // learner's own review log needs an optimiser and ~1000 reviews; add when
