@@ -9,7 +9,7 @@ struct MultipleChoiceAnswer: View {
         VStack(spacing: 12) {
             ForEach(options) { option in
                 Button { choose(option) } label: {
-                    Text(option.primarySense.definition)
+                    Text(option.teachingDefinition)
                         .font(Theme.definition)
                         .foregroundStyle(Theme.primaryText)
                         .multilineTextAlignment(.leading)
@@ -221,8 +221,38 @@ private struct ReferenceBlock: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
+            if let gre = word.gre {
+                // The sense the exam tests, in plain English. WordNet's own
+                // wording follows below for anyone who wants the detail.
+                VStack(alignment: .leading, spacing: 10) {
+                    Text(gre.pos.rawValue)
+                        .font(.caption2)
+                        .foregroundStyle(Theme.accent.opacity(0.8))
+                        .textCase(.uppercase)
+                    Text(gre.definition)
+                        .font(Theme.definition)
+                        .foregroundStyle(Theme.primaryText)
+                    ForEach(gre.sentences, id: \.self) { sentence in
+                        Text(sentence)
+                            .font(Theme.body.italic())
+                            .foregroundStyle(Theme.secondaryText)
+                    }
+                    if !gre.synonyms.isEmpty || !gre.antonyms.isEmpty {
+                        HStack(alignment: .top, spacing: 18) {
+                            if !gre.synonyms.isEmpty {
+                                LabelledList(title: "Same", words: gre.synonyms, tint: Theme.positive)
+                            }
+                            if !gre.antonyms.isEmpty {
+                                LabelledList(title: "Opposite", words: gre.antonyms, tint: Theme.negative)
+                            }
+                        }
+                    }
+                }
+                Divider().overlay(Theme.hairline)
+            }
+
             VStack(alignment: .leading, spacing: 12) {
-                Text(word.senses.count > 1 ? "What it means" : "The definition")
+                Text(word.senses.count > 1 ? "Other senses" : "In the dictionary")
                     .font(Theme.label)
                     .foregroundStyle(Theme.tertiaryText)
                     .textCase(.uppercase)
@@ -265,6 +295,27 @@ private struct ReferenceBlock: View {
                 }
             }
         }
+    }
+}
+
+/// Synonyms and antonyms side by side, tinted so the two are distinguishable
+/// at a glance rather than by reading the headings.
+private struct LabelledList: View {
+    let title: String
+    let words: [String]
+    let tint: Color
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(title)
+                .font(Theme.label)
+                .foregroundStyle(Theme.tertiaryText)
+                .textCase(.uppercase)
+            Text(words.joined(separator: ", "))
+                .font(.footnote)
+                .foregroundStyle(tint)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 

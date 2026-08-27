@@ -52,8 +52,8 @@ SOURCE_LISTS = {
 }
 
 MAX_SENSES = 3
-# ponytail: hand list; grow it when another noun-first oddity turns up.
-PRIMARY_POS = {"buck": "v", "revere": "v", "ravel": "v", "dowdy": "a", "divine": "a"}
+GRE_SENSES = ROOT / "tools" / "gre_senses.json"
+POS_LETTER = {"noun": "n", "verb": "v", "adjective": "a", "adverb": "r"}
 
 # Zipf frequency bands, from wordfreq. Higher zipf means the word turns up more
 # often in ordinary English, which is a far better proxy for "easy" than how many
@@ -182,16 +182,30 @@ def to_ipa(phones: list[str]) -> str:
     return "".join(marks.get(i, "") + s for i, s in enumerate(syms))
 
 
-def senses_for(wordnet, word: str) -> list[dict]:
+def load_gre_senses() -> dict[str, dict]:
+    """The hand-written GRE sense for each word: which meaning the exam tests,
+    in plain English, with synonyms and two example sentences.
+
+    WordNet supplies the extra senses and the lexicographic detail; this supplies
+    the sense a learner actually needs and the part of speech to order by.
+    """
+    if not GRE_SENSES.exists():
+        return {}
+    return json.loads(GRE_SENSES.read_text(encoding="utf-8"))
+
+
+def senses_for(wordnet, word: str, gre: dict | None = None) -> list[dict]:
     out = []
     # Instances are proper nouns (Margaret Court the tennis player, Ravel the
     # composer, Zephyr the god) and OEWN lists them first. Nobody is revising
     # "court" for the GRE to learn about a tennis player.
     common = [ss for ss in wordnet.synsets(word) if not ss.get_related("instance_hypernym")]
-    # OEWN lists nouns first whatever the word; for these the noun is a
-    # curiosity and the GRE tests the other part of speech.
-    if pos := PRIMARY_POS.get(word):
-        common.sort(key=lambda ss: ss.pos not in ({"a", "s"} if pos == "a" else {pos}))
+    # OEWN lists nouns first whatever the word, so "arch" leads with the
+    # architecture and "cow" with the animal. The hand-written part of speech
+    # says which sense the exam tests; sort that one to the front.
+    if gre and (letter := POS_LETTER.get(gre["pos"])):
+        want = {"a", "s"} if letter == "a" else {letter}
+        common.sort(key=lambda ss: ss.pos not in want)
     for ss in common[:MAX_SENSES]:
         lemmas = [l for l in ss.lemmas() if l.lower() != word]
         antonyms = []
@@ -240,14 +254,16 @@ def build() -> tuple[list[dict], list[str]]:
     print(f"  {len(sources)} unique words")
     from wordfreq import zipf_frequency
 
-    print("Attaching WordNet senses...")
+    gre_senses = load_gre_senses()
+    print(f"Attaching WordNet senses ({len(gre_senses)} hand-written GRE senses)...")
     # Morphy falls back to lemmatization only when the surface form misses, so
     # inflected entries resolve while list typos still drop out.
     wordnet = wn.Wordnet("oewn:2024", lemmatizer=wn.morphy.Morphy())
 
     entries, missing = [], []
     for word in sorted(sources):
-        senses = senses_for(wordnet, word)
+        gre = gre_senses.get(word)
+        senses = senses_for(wordnet, word, gre)
         if not senses:
             missing.append(word)
             continue
@@ -263,6 +279,7 @@ def build() -> tuple[list[dict], list[str]]:
             "tier": tier_for(len(src)),
             "zipf": zipf,
             "difficulty": difficulty_for(zipf),
+            **({"gre": gre} if gre else {}),
         })
     return entries, missing
 
@@ -279,6 +296,9 @@ def verify(entries: list[dict]) -> None:
 
     for e in entries:
         assert e["senses"], f"{e['id']}: no senses"
+        if g := e.get("gre"):
+            assert g["pos"] in POS_LETTER, f"{e['id']}: bad gre pos"
+            assert g["definition"] and len(g["sentences"]) >= 1, f"{e['id']}: thin gre sense"
         assert all(s["definition"] for s in e["senses"]), f"{e['id']}: blank definition"
         assert e["tier"] in ("core", "common", "extended"), f"{e['id']}: bad tier"
         assert e["listCount"] == len(e["sourceLists"]), f"{e['id']}: listCount mismatch"

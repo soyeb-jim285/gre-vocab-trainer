@@ -54,8 +54,8 @@ public struct WordCatalog: Sendable {
 
     public subscript(id: String) -> Word? { byID[id] }
 
-    /// Words whose *primary* sense has this part of speech -- the grouping
-    /// multiple-choice distractors are drawn from.
+    /// Words tested as this part of speech -- the grouping multiple-choice
+    /// distractors are drawn from, so the four options read alike.
     public func words(withPartOfSpeech pos: PartOfSpeech) -> [Word] {
         byPartOfSpeech[pos] ?? []
     }

@@ -45,7 +45,10 @@ import Testing
         _ = (word.id, word.word, word.ipa, word.tier, word.listCount, word.sourceLists, word.senses)
         _ = (word.zipf, word.difficulty)
         _ = catalog.words(withDifficulty: .familiar)
-        _ = (word.primarySense, word.primaryPartOfSpeech)
+        _ = (word.primarySense, word.primaryPartOfSpeech, word.teachingDefinition)
+        if let gre = word.gre {
+            _ = (gre.pos, gre.definition, gre.synonyms, gre.antonyms, gre.sentences)
+        }
         let sense = word.primarySense
         _ = (sense.pos.rawValue, sense.definition, sense.examples, sense.synonyms, sense.antonyms)
 

@@ -170,7 +170,7 @@ final class SessionViewModel {
                 score: correct ? 100 : 0,
                 rating: Grade(score: correct ? 100 : 0).rating(strictness: settings.strictness),
                 headline: correct ? "Correct" : "Not quite",
-                detail: item.word.primarySense.definition
+                detail: item.word.teachingDefinition
             )
         )
     }
@@ -185,7 +185,7 @@ final class SessionViewModel {
                 rating: result.grade.rating(strictness: settings.strictness),
                 headline: result.isExact ? "Spelled correctly" : "Spelling is off",
                 detail: result.isExact
-                    ? item.word.primarySense.definition
+                    ? item.word.teachingDefinition
                     : "You wrote \"\(typedAnswer.trimmingCharacters(in: .whitespaces))\" — it's \"\(item.word.word)\"."
             )
         )
@@ -216,8 +216,8 @@ final class SessionViewModel {
         do {
             let (result, cost) = try await settings.client().gradeWithCost(
                 word: item.word.word,
-                referenceDefinition: item.word.primarySense.definition,
-                partOfSpeech: item.word.primarySense.pos.rawValue,
+                referenceDefinition: item.word.teachingDefinition,
+                partOfSpeech: item.word.primaryPartOfSpeech.rawValue,
                 learnerDefinition: definitionDraft,
                 learnerSentence: sentenceDraft,
                 model: settings.gradingModel
@@ -265,6 +265,7 @@ final class SessionViewModel {
                 detail: item.mode == .reverseRecall || item.mode == .spelling
                     ? item.word.word
                     : "",
+                // Nothing was produced, so the full entry is the whole lesson.
                 showsReference: true
             )
         )

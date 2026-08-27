@@ -52,7 +52,7 @@ struct DecksView: View {
                         DifficultyBadge(difficulty: word.difficulty)
                         MasteryDot(level: Mastery(card: cards[word.id]))
                     }
-                    Text(word.primarySense.definition)
+                    Text(word.teachingDefinition)
                         .font(.footnote).foregroundStyle(Theme.tertiaryText).lineLimit(1)
                 }
             }

@@ -1,222 +1,3575 @@
 {
- "meticulous": {"pos": "adjective", "definition": "extremely careful about detail", "synonyms": ["scrupulous", "punctilious", "fastidious"], "antonyms": ["careless", "slapdash"], "sentences": ["Meticulous record-keeping saved the department when the inquiry finally arrived.", "He was meticulous about the footnotes and vague about the argument."]},
- "mettle": {"pos": "noun", "definition": "courage and strength of character", "synonyms": ["fortitude", "grit", "spirit"], "antonyms": ["cowardice", "timidity"], "sentences": ["The third day tested everyone's mettle and revealed two natural leaders.", "Mettle and metal were once the same word, which the metaphor still remembers."]},
- "mettlesome": {"pos": "adjective", "definition": "spirited and courageous", "synonyms": ["plucky", "gallant", "high-spirited"], "antonyms": ["spiritless", "timid"], "sentences": ["The mettlesome young lawyer took the case nobody senior would touch.", "A mettlesome horse is admired by everyone except the person riding it."]},
- "microcosm": {"pos": "noun", "definition": "a small world representing a larger one", "synonyms": ["miniature", "epitome", "small-scale model"], "antonyms": ["macrocosm"], "sentences": ["The village was a microcosm of the country's argument about itself.", "A departmental meeting is a microcosm of every political system ever devised."]},
- "mien": {"pos": "noun", "definition": "a person's manner or bearing", "synonyms": ["demeanor", "bearing", "aspect"], "antonyms": [], "sentences": ["His grave mien at the door told them the news before he spoke.", "She kept a cheerful mien through a week that deserved none."]},
- "milieu": {"pos": "noun", "definition": "a social or cultural environment", "synonyms": ["setting", "environment", "sphere"], "antonyms": [], "sentences": ["Transplanted from his milieu, the charm stopped working entirely.", "The novel captures a literary milieu that lasted about four years."]},
- "militate": {"pos": "verb", "definition": "to work against or in favor of something", "synonyms": ["weigh", "count", "argue"], "antonyms": [], "sentences": ["Everything about the timetable militated against actually finishing the work.", "Militate against is to argue against; mitigate is to soften. They are not the same verb."]},
- "milk": {"pos": "verb", "definition": "to exploit for all it is worth", "synonyms": ["exploit", "drain", "capitalize on"], "antonyms": [], "sentences": ["He milked the anecdote for three minutes past its natural life.", "The franchise was milked until audiences finally stopped turning up."]},
- "mimic": {"pos": "verb", "definition": "to imitate closely", "synonyms": ["imitate", "ape", "impersonate"], "antonyms": [], "sentences": ["The harmless snake mimics a venomous one and is left alone by everything.", "He mimicked the accent so well that nobody noticed until he laughed."]},
- "mincing": {"pos": "adjective", "definition": "affectedly dainty", "synonyms": ["affected", "prissy", "genteel"], "antonyms": ["natural", "blunt"], "sentences": ["His mincing delivery made a plain instruction sound like an insult.", "She used no mincing words and none were needed."]},
- "minute": {"pos": "adjective", "definition": "extremely small or detailed", "synonyms": ["tiny", "infinitesimal", "detailed"], "antonyms": ["huge", "cursory"], "sentences": ["The minute differences between the samples turned out to be the whole finding.", "He gave a minute account of a journey that had taken twelve minutes."]},
- "mired": {"pos": "adjective", "definition": "stuck and unable to progress", "synonyms": ["bogged down", "entangled", "stuck"], "antonyms": ["free", "advancing"], "sentences": ["The project was mired in approvals for so long that the technology changed.", "Mired in detail, the committee lost sight of what it had been asked."]},
- "mirth": {"pos": "noun", "definition": "amusement and laughter", "synonyms": ["merriment", "hilarity", "glee"], "antonyms": ["gloom", "solemnity"], "sentences": ["The typo caused general mirth and one very quiet resignation.", "There was no mirth in the room, only the sound of people waiting."]},
- "misanthrope": {"pos": "noun", "definition": "someone who dislikes people generally", "synonyms": ["cynic", "recluse", "hater of mankind"], "antonyms": ["philanthropist"], "sentences": ["The misanthrope volunteered at the animal shelter and got on famously.", "A misanthrope in a small village is a tourist attraction."]},
- "misanthropic": {"pos": "adjective", "definition": "disliking humankind", "synonyms": ["cynical", "antisocial", "unsociable"], "antonyms": ["philanthropic", "sociable"], "sentences": ["His misanthropic column ran for twenty years and was widely loved.", "Misanthropic on Monday and cheerful by Thursday is just a normal week."]},
- "misappropriate": {"pos": "verb", "definition": "to take dishonestly for one's own use", "synonyms": ["embezzle", "pilfer", "divert"], "antonyms": ["restore"], "sentences": ["Funds were misappropriated over eleven years in amounts too small to flag.", "He misappropriated the phrase and the credit in a single paragraph."]},
- "misconstrue": {"pos": "verb", "definition": "to interpret wrongly", "synonyms": ["misinterpret", "misread", "misunderstand"], "antonyms": ["understand", "construe"], "sentences": ["A single sentence was misconstrued and cost two weeks of clarification.", "Do not misconstrue silence as agreement; it is usually exhaustion."]},
- "miscreant": {"pos": "noun", "definition": "a wrongdoer", "synonyms": ["offender", "villain", "reprobate"], "antonyms": [], "sentences": ["The miscreants were identified from a photograph and a very distinctive coat.", "Miscreant once meant unbeliever, and drifted into general wrongdoing."]},
- "miser": {"pos": "noun", "definition": "one who hoards money and hates spending", "synonyms": ["skinflint", "hoarder", "penny-pincher"], "antonyms": ["spendthrift", "philanthropist"], "sentences": ["The miser left three million pounds and a house with no working heating.", "Miser shares a root with miserable, which is an ancient piece of moralizing."]},
- "miserly": {"pos": "adjective", "definition": "extremely stingy", "synonyms": ["stingy", "parsimonious", "niggardly"], "antonyms": ["generous", "lavish"], "sentences": ["The miserly budget for the project produced miserly results, to universal surprise.", "He was miserly with praise and lavish with corrections."]},
- "misnomer": {"pos": "noun", "definition": "an inaccurate name", "synonyms": ["misnaming", "wrong name"], "antonyms": [], "sentences": ["\"Rush hour\" is a misnomer for something that lasts three hours and involves no rushing.", "Calling it a working group was a misnomer on both counts."]},
- "misogynist": {"pos": "noun", "definition": "one who hates or despises women", "synonyms": ["woman-hater", "sexist"], "antonyms": [], "sentences": ["The misogynist's memoir accidentally documented his own career decline.", "Misogynist is from Greek roots meaning hatred of women, and the word carries no ambiguity."]},
- "missive": {"pos": "noun", "definition": "a letter, especially a formal one", "synonyms": ["letter", "dispatch", "communication"], "antonyms": [], "sentences": ["A four-page missive from head office announced a policy in one sentence.", "The missive arrived by courier, which told everyone how serious it was."]},
- "mite": {"pos": "noun", "definition": "a very small amount or creature", "synonyms": ["bit", "particle", "speck"], "antonyms": [], "sentences": ["He was a mite optimistic about the timeline, by roughly a year.", "The widow's mite was tiny and, the parable insists, the largest gift given."]},
- "mitigate": {"pos": "verb", "definition": "to make less severe", "synonyms": ["alleviate", "lessen", "temper"], "antonyms": ["aggravate", "intensify"], "sentences": ["Planting the embankment mitigated the flooding without preventing it.", "Mitigate softens a bad thing; militate argues against one."]},
- "mode": {"pos": "noun", "definition": "a way or manner of doing something", "synonyms": ["method", "manner", "fashion"], "antonyms": [], "sentences": ["The department switched into crisis mode, which mainly meant longer meetings.", "Mode of transport, mode of address, mode in statistics — one word, three careers."]},
- "modest": {"pos": "adjective", "definition": "unassuming; moderate in size", "synonyms": ["unassuming", "humble", "moderate"], "antonyms": ["boastful", "extravagant"], "sentences": ["A modest proposal, in Swift's hands, was neither.", "The modest raise was accompanied by an immodest description of it."]},
- "modicum": {"pos": "noun", "definition": "a small amount", "synonyms": ["scrap", "trace", "smidgen"], "antonyms": ["abundance"], "sentences": ["A modicum of preparation would have prevented the entire disaster.", "He asked for a modicum of respect and received the minimum viable amount."]},
- "modish": {"pos": "adjective", "definition": "fashionable, often superficially", "synonyms": ["stylish", "trendy", "chic"], "antonyms": ["outdated", "unfashionable"], "sentences": ["The modish jargon of the report dates it precisely to 2014.", "Modish theories arrive with conferences and leave without obituaries."]},
- "mollify": {"pos": "verb", "definition": "to soothe anger", "synonyms": ["appease", "placate", "pacify"], "antonyms": ["provoke", "enrage"], "sentences": ["Nothing mollified the residents except an actual apology, which took two years.", "He tried to mollify her with flowers and made an excellent situation worse."]},
- "molt": {"pos": "verb", "definition": "to shed feathers, skin, or shell", "synonyms": ["shed", "slough", "cast off"], "antonyms": [], "sentences": ["The crab molts its shell and hides for a week while the new one hardens.", "The company molted three names in five years and kept the same problems."]},
- "moment": {"pos": "noun", "definition": "importance; a brief instant", "synonyms": ["significance", "consequence", "instant"], "antonyms": ["triviality"], "sentences": ["A decision of great moment was taken by four people on a Friday afternoon.", "The moment passed and nobody moved to reclaim it."]},
- "momentary": {"pos": "adjective", "definition": "lasting only a moment", "synonyms": ["brief", "fleeting", "transient"], "antonyms": ["lasting", "permanent"], "sentences": ["A momentary lapse in attention put the wrong figure into the final table.", "The relief was momentary and the paperwork was not."]},
- "monastic": {"pos": "adjective", "definition": "severely simple and secluded", "synonyms": ["ascetic", "cloistered", "austere"], "antonyms": ["worldly", "indulgent"], "sentences": ["He kept a monastic routine: one desk, one meal, no telephone.", "The monastic silence of the reading room ended when the café opened downstairs."]},
- "monetary": {"pos": "adjective", "definition": "relating to money or currency", "synonyms": ["financial", "fiscal", "pecuniary"], "antonyms": [], "sentences": ["Monetary policy moved slowly and the prices did not.", "The monetary cost was manageable; the reputational one was not."]},
- "monotonous": {"pos": "adjective", "definition": "dull through lack of variety", "synonyms": ["repetitive", "tedious", "unvarying"], "antonyms": ["varied", "lively"], "sentences": ["The monotonous drone of the presentation put three people visibly to sleep.", "Monotonous work is bearable with company and unbearable alone."]},
- "monotony": {"pos": "noun", "definition": "tedious sameness", "synonyms": ["tedium", "sameness", "routine"], "antonyms": ["variety", "diversity"], "sentences": ["The monotony of the coastline was broken once, by a lighthouse and a sheep.", "Monotony is what makes a five-hour flight longer than a five-hour hike."]},
- "moot": {"pos": "adjective", "definition": "debatable, or no longer relevant", "synonyms": ["debatable", "academic", "arguable"], "antonyms": ["settled", "decisive"], "sentences": ["The question became moot when the building was sold in March.", "Whether it was moot or crucial depended entirely on which side you were on."]},
- "morass": {"pos": "noun", "definition": "a confusing, entangling situation", "synonyms": ["quagmire", "swamp", "tangle"], "antonyms": ["clarity"], "sentences": ["The contract dragged them into a morass of subclauses and cross-references.", "A morass is a swamp, and the metaphor keeps every bit of the mud."]},
- "moratorium": {"pos": "noun", "definition": "an official temporary suspension", "synonyms": ["suspension", "freeze", "halt"], "antonyms": ["resumption"], "sentences": ["A moratorium on new hires lasted eleven months and cost two departments their best candidates.", "The moratorium on drilling expired quietly on a bank holiday."]},
- "morbid": {"pos": "adjective", "definition": "unhealthily preoccupied with death or gloom", "synonyms": ["ghoulish", "macabre", "gloomy"], "antonyms": ["wholesome", "cheerful"], "sentences": ["He took a morbid interest in the accident statistics of his own commute.", "Morbid curiosity is why the crash makes the front page and the recovery does not."]},
- "mordant": {"pos": "adjective", "definition": "bitingly sarcastic", "synonyms": ["caustic", "trenchant", "acerbic"], "antonyms": ["gentle", "bland"], "sentences": ["Her mordant wit made the obituary the most-read piece of the year.", "Mordant comes from biting, which is exactly how the humor lands."]},
- "moreover": {"pos": "adverb", "definition": "in addition; furthermore", "synonyms": ["furthermore", "besides", "additionally"], "antonyms": [], "sentences": ["The plan was late; moreover, it was based on figures from a previous decade.", "\"Moreover\" in a letter usually signals the paragraph that actually matters."]},
- "mores": {"pos": "noun", "definition": "the accepted customs of a community", "synonyms": ["customs", "conventions", "norms"], "antonyms": [], "sentences": ["The mores of the office were never written down and were enforced ruthlessly.", "Changing laws is easier than changing mores, which is why one lags the other."]},
- "moribund": {"pos": "adjective", "definition": "in decline and near death", "synonyms": ["dying", "declining", "stagnant"], "antonyms": ["thriving", "flourishing"], "sentences": ["The moribund industry was revived by a technology it had spent a decade dismissing.", "A moribund committee still meets; that is how you tell it is moribund and not dead."]},
- "morose": {"pos": "adjective", "definition": "gloomy and sullen", "synonyms": ["sullen", "glum", "saturnine"], "antonyms": ["cheerful", "genial"], "sentences": ["He grew morose after the verdict and cheerful the day the appeal was filed.", "The morose waiter delivered excellent food with visible regret."]},
- "morph": {"pos": "verb", "definition": "to change gradually into something else", "synonyms": ["transform", "shift", "evolve"], "antonyms": ["stay"], "sentences": ["The support group morphed into a lobbying organization over four years.", "The complaint morphed, with each retelling, into a much better story."]},
- "mortify": {"pos": "verb", "definition": "to humiliate deeply", "synonyms": ["humiliate", "embarrass", "shame"], "antonyms": ["honor", "flatter"], "sentences": ["It mortified him to be corrected by someone he had taught.", "Mortify literally means to make dead, which is roughly how embarrassment feels."]},
- "mote": {"pos": "noun", "definition": "a tiny particle", "synonyms": ["speck", "particle", "fleck"], "antonyms": [], "sentences": ["Motes of dust hung in the projector beam like a small weather system.", "The parable warns about the mote in your brother's eye and the beam in your own."]},
- "mountebank": {"pos": "noun", "definition": "a charlatan who sells false remedies", "synonyms": ["charlatan", "quack", "swindler"], "antonyms": ["expert"], "sentences": ["The mountebank sold a tonic containing sugar, alcohol, and confident phrasing.", "Mountebanks mounted a bench to draw a crowd, which is where the word comes from."]},
- "mulct": {"pos": "verb", "definition": "to fine or swindle out of money", "synonyms": ["fine", "defraud", "penalize"], "antonyms": [], "sentences": ["Investors were mulcted of their savings by a fund with excellent stationery.", "The court mulcted him a sum that was, for him, a rounding error."]},
- "multifaceted": {"pos": "adjective", "definition": "having many aspects", "synonyms": ["many-sided", "complex", "versatile"], "antonyms": ["simple", "one-dimensional"], "sentences": ["The problem is multifaceted, which is the polite way to say nobody knows where to start.", "A multifaceted career sounds better in a eulogy than it feels at the time."]},
- "multifarious": {"pos": "adjective", "definition": "of many varied kinds", "synonyms": ["diverse", "manifold", "varied"], "antonyms": ["uniform", "homogeneous"], "sentences": ["His multifarious interests filled a house and emptied a bank account.", "The multifarious duties of the role were listed on four pages and performed by one person."]},
- "multitude": {"pos": "noun", "definition": "a very large number", "synonyms": ["host", "throng", "myriad"], "antonyms": ["handful"], "sentences": ["A multitude of small errors produced one large and entirely predictable failure.", "Charity, says the proverb, covers a multitude of sins."]},
- "mundane": {"pos": "adjective", "definition": "ordinary and unexciting", "synonyms": ["banal", "commonplace", "prosaic"], "antonyms": ["extraordinary", "exotic"], "sentences": ["The mundane detail of the timetable turned out to be the key to the whole case.", "Mundane means \"of the world,\" which is either an insult or a description."]},
- "munificent": {"pos": "adjective", "definition": "extremely generous", "synonyms": ["lavish", "bountiful", "magnanimous"], "antonyms": ["miserly", "stingy"], "sentences": ["A munificent bequest funded the wing and a decade of arguments about its name.", "Munificent giving in public is sometimes matched by private meanness."]},
- "muse": {"pos": "verb", "definition": "to reflect or ponder", "synonyms": ["ponder", "contemplate", "reflect"], "antonyms": [], "sentences": ["He mused aloud about resigning and was taken seriously by the wrong person.", "She mused for a week and acted in a morning."]},
- "muster": {"pos": "verb", "definition": "to gather or summon up", "synonyms": ["assemble", "rally", "summon"], "antonyms": ["disperse"], "sentences": ["She mustered enough support to force a vote and lost it by two.", "He could not muster the enthusiasm to finish a sentence about it."]},
- "muted": {"pos": "adjective", "definition": "subdued in sound, color, or reaction", "synonyms": ["subdued", "restrained", "understated"], "antonyms": ["loud", "vivid"], "sentences": ["The muted response to the announcement was itself the story.", "A muted palette makes a small room feel considerably larger."]},
- "mutiny": {"pos": "noun", "definition": "open rebellion against authority", "synonyms": ["revolt", "insurrection", "uprising"], "antonyms": ["obedience", "loyalty"], "sentences": ["The mutiny began over food and ended with a change of management.", "Most mutinies are about conditions; the flags come later."]},
- "myopic": {"pos": "adjective", "definition": "shortsighted in thinking", "synonyms": ["shortsighted", "narrow", "blinkered"], "antonyms": ["farsighted", "visionary"], "sentences": ["The myopic focus on this quarter cost the company the next decade.", "Myopic is literally nearsighted, which is exactly the metaphor intended."]},
- "myriad": {"pos": "adjective", "definition": "countless; extremely numerous", "synonyms": ["innumerable", "countless", "manifold"], "antonyms": ["few", "limited"], "sentences": ["The myriad small kindnesses of that week are what she actually remembers.", "Myriad was originally exactly ten thousand, which is disappointingly specific."]},
- "nadir": {"pos": "noun", "definition": "the lowest point", "synonyms": ["rock bottom", "low point", "trough"], "antonyms": ["zenith", "apex"], "sentences": ["The nadir came in March, when even the optimists stopped forecasting.", "Nadir is the point directly beneath you; zenith is directly above."]},
- "naive": {"pos": "adjective", "definition": "lacking experience or judgment", "synonyms": ["ingenuous", "credulous", "unsophisticated"], "antonyms": ["worldly", "shrewd"], "sentences": ["It was naive to assume the deadline meant the same thing to both parties.", "Naive questions from a newcomer are the most valuable thing in any meeting."]},
- "narcissist": {"pos": "noun", "definition": "someone excessively self-absorbed", "synonyms": ["egotist", "egomaniac"], "antonyms": ["altruist"], "sentences": ["The narcissist described the disaster mostly in terms of how it had affected him.", "Narcissus fell in love with a reflection and gave psychology a permanent word."]},
- "nascent": {"pos": "adjective", "definition": "just coming into existence", "synonyms": ["emerging", "incipient", "budding"], "antonyms": ["mature", "established"], "sentences": ["The nascent industry had four companies and one very optimistic trade association.", "A nascent friendship survives disagreement better than an established one sometimes does."]},
- "natty": {"pos": "adjective", "definition": "smartly dressed", "synonyms": ["dapper", "spruce", "sharp"], "antonyms": ["scruffy", "shabby"], "sentences": ["A natty bow tie made him identifiable in every photograph for forty years.", "He arrived natty and left, after the storm, considerably less so."]},
- "nebulous": {"pos": "adjective", "definition": "vague and ill-defined", "synonyms": ["vague", "hazy", "amorphous"], "antonyms": ["definite", "precise"], "sentences": ["The strategy was nebulous enough that every department read it as approval.", "A nebulous complaint is impossible to answer and impossible to dismiss."]},
- "nefarious": {"pos": "adjective", "definition": "wicked and criminal", "synonyms": ["villainous", "iniquitous", "heinous"], "antonyms": ["virtuous", "benign"], "sentences": ["The nefarious scheme required nine accomplices and collapsed under its own logistics.", "Nefarious purposes are usually simpler and duller than the word suggests."]},
- "negate": {"pos": "verb", "definition": "to nullify or contradict", "synonyms": ["nullify", "invalidate", "cancel"], "antonyms": ["confirm", "affirm"], "sentences": ["One line in the appendix negated the entire conclusion.", "The gains were negated by an exchange rate nobody had modeled."]},
- "neglect": {"pos": "noun", "definition": "failure to give proper care", "synonyms": ["disregard", "inattention", "dereliction"], "antonyms": ["care", "attention"], "sentences": ["The garden flourished under benign neglect and died under enthusiastic attention.", "Neglect ruins buildings more thoroughly and more cheaply than vandalism."]},
- "negligent": {"pos": "adjective", "definition": "failing to take proper care", "synonyms": ["careless", "remiss", "derelict"], "antonyms": ["careful", "conscientious"], "sentences": ["The court found the operator negligent in a way that four inspections had not.", "Negligent is careless with legal consequences attached."]},
- "negligible": {"pos": "adjective", "definition": "too small to matter", "synonyms": ["insignificant", "trifling", "minimal"], "antonyms": ["significant", "considerable"], "sentences": ["The risk was described as negligible by people who would not bear it.", "A negligible daily cost becomes a substantial annual one."]},
- "neologism": {"pos": "noun", "definition": "a newly coined word", "synonyms": ["coinage", "new term"], "antonyms": ["archaism"], "sentences": ["Every generation's neologisms are the next generation's plain English.", "The neologism was mocked for a decade and printed in the dictionary in the eleventh year."]},
- "neophyte": {"pos": "noun", "definition": "a beginner", "synonyms": ["novice", "tyro", "initiate"], "antonyms": ["veteran", "expert"], "sentences": ["The neophyte asked the question the veterans had stopped noticing.", "Neophyte means newly planted, which is a gentler image than beginner."]},
- "net": {"pos": "verb", "definition": "to obtain or gain as clear profit", "synonyms": ["gain", "clear", "secure"], "antonyms": ["lose"], "sentences": ["The sale netted less than the auction fees, which the family discovered afterward.", "Six months of negotiation netted a single sentence of agreement."]},
- "nettle": {"pos": "verb", "definition": "to irritate or provoke", "synonyms": ["irritate", "annoy", "provoke"], "antonyms": ["soothe", "please"], "sentences": ["The comparison to his predecessor visibly nettled him.", "The plant stings and the verb has kept every bit of the sensation."]},
- "nettlesome": {"pos": "adjective", "definition": "causing irritation or difficulty", "synonyms": ["irksome", "vexing", "troublesome"], "antonyms": ["soothing", "easy"], "sentences": ["The nettlesome question of who pays was deferred to a subcommittee.", "A nettlesome detail in the contract delayed everything by three weeks."]},
- "neutralize": {"pos": "verb", "definition": "to counteract or make ineffective", "synonyms": ["counteract", "nullify", "offset"], "antonyms": ["reinforce", "amplify"], "sentences": ["The acid was neutralized before anyone noticed the spill.", "Their best striker was neutralized by a defender who simply never left him."]},
- "nevertheless": {"pos": "adverb", "definition": "in spite of that", "synonyms": ["nonetheless", "however", "still"], "antonyms": ["therefore"], "sentences": ["The evidence was thin; nevertheless, the policy went ahead.", "Nevertheless is the hinge on which most academic paragraphs turn."]},
- "nexus": {"pos": "noun", "definition": "a central connection or link", "synonyms": ["link", "hub", "junction"], "antonyms": [], "sentences": ["The city was the nexus of three trade routes and one very profitable tax.", "The nexus between funding and findings is exactly what disclosure rules exist for."]},
- "nicety": {"pos": "noun", "definition": "a fine detail or subtle distinction", "synonyms": ["subtlety", "refinement", "detail"], "antonyms": ["crudeness"], "sentences": ["The niceties of protocol delayed a rescue by forty minutes.", "He observed every nicety of etiquette and none of the deadlines."]},
- "nihilism": {"pos": "noun", "definition": "the belief that nothing has meaning or value", "synonyms": ["skepticism", "negativism"], "antonyms": ["idealism", "faith"], "sentences": ["The novel's nihilism is undercut by how carefully it is written.", "Cheerful nihilism is more common than the philosophical kind and much easier to live with."]},
- "nihilist": {"pos": "noun", "definition": "one who rejects all values and meaning", "synonyms": ["skeptic", "cynic"], "antonyms": ["idealist"], "sentences": ["The self-described nihilist showed up on time to every single meeting.", "Nineteenth-century nihilists in Russia were revolutionaries first and philosophers second."]},
- "nimble": {"pos": "adjective", "definition": "quick and light in movement or thought", "synonyms": ["agile", "deft", "sprightly"], "antonyms": ["clumsy", "sluggish"], "sentences": ["A nimble competitor took the market while the incumbent held a strategy retreat.", "Nimble fingers and a nimble mind rarely arrive in the same person."]},
- "noble": {"pos": "adjective", "definition": "morally admirable; high-born", "synonyms": ["honorable", "virtuous", "aristocratic"], "antonyms": ["base", "ignoble"], "sentences": ["It was a noble gesture and a catastrophic financial decision.", "Noble gases refuse to react with anything, which is either aloofness or good taste."]},
- "noisome": {"pos": "adjective", "definition": "offensive, especially in smell", "synonyms": ["fetid", "malodorous", "noxious"], "antonyms": ["fragrant", "pleasant"], "sentences": ["The noisome bins outside the window ended the summer of open windows.", "Noisome has nothing to do with noise, which trips up nearly everyone."]},
- "nominal": {"pos": "adjective", "definition": "in name only; very small in amount", "synonyms": ["token", "titular", "minimal"], "antonyms": ["actual", "substantial"], "sentences": ["He was the nominal head of a department that a deputy actually ran.", "A nominal fee of one pound made the transfer legally a sale."]},
- "nonchalant": {"pos": "adjective", "definition": "casually unconcerned", "synonyms": ["insouciant", "unruffled", "offhand"], "antonyms": ["anxious", "concerned"], "sentences": ["He was nonchalant about the deadline in a way that alarmed everyone else.", "Nonchalant means literally not heating up, which is a nice image for cool."]},
- "nonentity": {"pos": "noun", "definition": "an unimportant person", "synonyms": ["nobody", "cipher"], "antonyms": ["luminary", "somebody"], "sentences": ["He was dismissed as a nonentity by people who worked for him within a decade.", "The committee was chaired by a nonentity, which suited everybody with real interests."]},
- "nonplus": {"pos": "verb", "definition": "to leave utterly perplexed", "synonyms": ["baffle", "confound", "stump"], "antonyms": ["clarify"], "sentences": ["The question nonplussed a speaker who had answered forty harder ones.", "Nonplus is Latin for \"no more,\" as in nothing further can be said."]},
- "nonplused": {"pos": "adjective", "definition": "completely perplexed", "synonyms": ["baffled", "bewildered", "flummoxed"], "antonyms": ["unfazed", "clear"], "sentences": ["He looked nonplused for a second and then answered perfectly.", "American usage has begun to make nonplused mean unbothered, which is the opposite."]},
- "nonplussed": {"pos": "adjective", "definition": "utterly perplexed", "synonyms": ["bewildered", "puzzled", "stumped"], "antonyms": ["composed", "unruffled"], "sentences": ["The audience was nonplussed by an ending nobody could reconcile with the beginning.", "Being nonplussed is a state in which no reply presents itself."]},
- "normative": {"pos": "adjective", "definition": "concerning what ought to be, not what is", "synonyms": ["prescriptive", "evaluative"], "antonyms": ["descriptive"], "sentences": ["The paper slid from a descriptive claim to a normative one without warning.", "Normative grammar tells you what to say; descriptive grammar records what people do."]},
- "nostrum": {"pos": "noun", "definition": "a dubious cure-all remedy", "synonyms": ["panacea", "quack remedy", "cure-all"], "antonyms": [], "sentences": ["The conference offered nostrums for a problem nobody had diagnosed.", "Every economic crisis produces a fresh supply of confident nostrums."]},
- "notion": {"pos": "noun", "definition": "an idea or belief, often vague", "synonyms": ["idea", "concept", "inkling"], "antonyms": [], "sentences": ["He had a notion that the archive held something, and he was right after eleven months.", "The notion that meetings improve decisions has survived remarkably little evidence."]},
- "notoriety": {"pos": "noun", "definition": "fame for something bad", "synonyms": ["infamy", "disrepute", "ill fame"], "antonyms": ["esteem", "obscurity"], "sentences": ["The book's notoriety did more for sales than any of its actual merits.", "Notoriety is fame that arrives with a warning label."]},
- "notwithstanding": {"pos": "preposition", "definition": "in spite of", "synonyms": ["despite", "regardless of"], "antonyms": ["because of"], "sentences": ["Notwithstanding the objections, the plan proceeded on schedule.", "The clause begins \"notwithstanding anything to the contrary,\" which lawyers use to win in advance."]},
- "novel": {"pos": "adjective", "definition": "new and original", "synonyms": ["innovative", "fresh", "unprecedented"], "antonyms": ["familiar", "conventional"], "sentences": ["The approach was novel in 1962 and is standard practice now.", "A novel solution to an old problem usually means somebody read outside the field."]},
- "noxious": {"pos": "adjective", "definition": "harmful or poisonous", "synonyms": ["toxic", "harmful", "pernicious"], "antonyms": ["harmless", "benign"], "sentences": ["Noxious fumes closed the road for a day and the factory for a decade.", "The noxious atmosphere in the department outlasted three managers."]},
- "nuance": {"pos": "noun", "definition": "a subtle difference in meaning", "synonyms": ["subtlety", "shade", "distinction"], "antonyms": ["crudeness"], "sentences": ["The nuance was lost in translation and started an international incident.", "Argument on the internet is the systematic destruction of nuance."]},
- "nullify": {"pos": "verb", "definition": "to make legally void or ineffective", "synonyms": ["invalidate", "annul", "void"], "antonyms": ["validate", "ratify"], "sentences": ["A procedural error nullified two years of proceedings.", "The gains were nullified by a change nobody had bothered to read."]},
- "numinous": {"pos": "adjective", "definition": "suggesting the presence of the divine", "synonyms": ["spiritual", "transcendent", "awe-inspiring"], "antonyms": ["mundane", "secular"], "sentences": ["The cathedral at dusk has a numinous quality no photograph has captured.", "Numinous describes the feeling that something larger is present, whatever you believe it is."]},
- "obdurate": {"pos": "adjective", "definition": "stubbornly refusing to change", "synonyms": ["obstinate", "unyielding", "intransigent"], "antonyms": ["yielding", "tractable"], "sentences": ["The landlord was obdurate about the rent and vague about the boiler.", "Obdurate means hardened, which is what happens to a position defended too long."]},
- "obeisance": {"pos": "noun", "definition": "deferential respect or a bow", "synonyms": ["homage", "deference", "submission"], "antonyms": ["defiance"], "sentences": ["The ritual obeisance to the founder opened every annual meeting.", "Obeisance is deference performed where others can see it."]},
- "obfuscate": {"pos": "verb", "definition": "to deliberately make unclear", "synonyms": ["obscure", "muddy", "confuse"], "antonyms": ["clarify", "elucidate"], "sentences": ["The report obfuscated a simple overspend across nine pages of tables.", "To obfuscate is to darken, which is exactly the intent."]},
- "objective": {"pos": "adjective", "definition": "based on facts, not personal feelings", "synonyms": ["impartial", "unbiased", "detached"], "antonyms": ["subjective", "biased"], "sentences": ["The objective account pleased nobody and has aged the best.", "Being objective about your own work is a skill nobody fully acquires."]},
- "objurgate": {"pos": "verb", "definition": "to rebuke severely", "synonyms": ["berate", "castigate", "upbraid"], "antonyms": ["praise", "commend"], "sentences": ["The editor objurgated the whole newsroom for an error one person had made.", "Objurgate is scolding that has put on a very formal coat."]},
- "obliging": {"pos": "adjective", "definition": "eager to help", "synonyms": ["accommodating", "helpful", "amenable"], "antonyms": ["unhelpful", "obstructive"], "sentences": ["The obliging librarian found in four minutes what the catalogue had hidden for years.", "An obliging colleague ends up doing everyone's least favorite task."]},
- "oblique": {"pos": "adjective", "definition": "indirect or evasive", "synonyms": ["indirect", "slanting", "roundabout"], "antonyms": ["direct", "straightforward"], "sentences": ["An oblique reference in the preface was the only acknowledgment she ever received.", "He gave an oblique answer that was, on the fourth reading, a refusal."]},
- "oblivious": {"pos": "adjective", "definition": "completely unaware", "synonyms": ["unaware", "heedless", "insensible"], "antonyms": ["aware", "conscious"], "sentences": ["He walked through the argument entirely oblivious that it concerned him.", "Oblivious to the time, she worked until the cleaners arrived."]},
- "obloquy": {"pos": "noun", "definition": "strong public condemnation", "synonyms": ["vilification", "opprobrium", "disgrace"], "antonyms": ["praise", "acclaim"], "sentences": ["The obloquy that followed the verdict lasted longer than the sentence did.", "Obloquy is being spoken against, loudly and in public."]},
- "obscure": {"pos": "verb", "definition": "to make unclear or hide", "synonyms": ["conceal", "cloud", "veil"], "antonyms": ["reveal", "clarify"], "sentences": ["The summary obscured a finding that the raw data made obvious.", "Fog obscured the runway and the entire schedule with it."]},
- "obsequious": {"pos": "adjective", "definition": "excessively eager to please", "synonyms": ["servile", "fawning", "sycophantic"], "antonyms": ["assertive", "insolent"], "sentences": ["The obsequious manner he used with superiors vanished the moment he faced staff.", "Obsequious praise tells you about the speaker's fear, not your merit."]},
- "obsolete": {"pos": "adjective", "definition": "no longer in use or useful", "synonyms": ["outdated", "antiquated", "superseded"], "antonyms": ["current", "modern"], "sentences": ["The format was obsolete within four years and the archive was on it.", "Nothing is obsolete until the last person who can repair it retires."]},
- "obstinate": {"pos": "adjective", "definition": "stubbornly refusing to change course", "synonyms": ["stubborn", "headstrong", "obdurate"], "antonyms": ["flexible", "compliant"], "sentences": ["The obstinate stain outlasted four cleaners and one carpet.", "Obstinate about the wrong thing costs more than being wrong about it briefly."]},
- "obstreperous": {"pos": "adjective", "definition": "noisily and stubbornly unruly", "synonyms": ["unruly", "boisterous", "rowdy"], "antonyms": ["docile", "quiet"], "sentences": ["An obstreperous minority delayed the vote by two hours and lost it anyway.", "The obstreperous toddler on the flight was, in fairness, the most honest passenger."]},
- "obstructionist": {"pos": "noun", "definition": "one who deliberately blocks progress", "synonyms": ["blocker", "saboteur"], "antonyms": ["facilitator"], "sentences": ["The obstructionists on the committee never voted no; they simply requested more information.", "Every obstructionist describes themselves as prudent."]},
- "obtain": {"pos": "verb", "definition": "to acquire; to be in force", "synonyms": ["acquire", "procure", "prevail"], "antonyms": ["lose", "forfeit"], "sentences": ["The same rules obtain in both jurisdictions, which is unusual and convenient.", "He obtained a copy from an archive that officially had none."]},
- "obtrude": {"pos": "verb", "definition": "to impose oneself unwelcomely", "synonyms": ["intrude", "impose", "encroach"], "antonyms": ["withdraw", "retire"], "sentences": ["He obtruded his opinion into a conversation that had been going well.", "The scaffolding obtrudes on a view the guidebook still prints."]},
- "obtuse": {"pos": "adjective", "definition": "slow to understand; insensitive", "synonyms": ["dense", "slow-witted", "insensitive"], "antonyms": ["astute", "perceptive"], "sentences": ["He was being deliberately obtuse, which is more irritating than being genuinely slow.", "An obtuse angle is blunt, and so is the insult."]},
- "obviate": {"pos": "verb", "definition": "to remove the need for", "synonyms": ["preclude", "avert", "forestall"], "antonyms": ["necessitate"], "sentences": ["A single sentence in the contract obviated three years of potential litigation.", "Good design obviates the instruction manual."]},
- "occlude": {"pos": "verb", "definition": "to block or obstruct", "synonyms": ["block", "obstruct", "close"], "antonyms": ["open", "clear"], "sentences": ["The artery was partially occluded, which explained everything the patient had ignored.", "Cloud occluded the eclipse for everyone except one field in Cornwall."]},
- "occult": {"pos": "adjective", "definition": "hidden and mysterious", "synonyms": ["esoteric", "arcane", "hidden"], "antonyms": ["obvious", "manifest"], "sentences": ["The occult meaning of the poem was invented entirely by its critics.", "In medicine, occult blood is simply blood you cannot see."]},
- "odious": {"pos": "adjective", "definition": "extremely unpleasant; repulsive", "synonyms": ["detestable", "abhorrent", "loathsome"], "antonyms": ["delightful", "agreeable"], "sentences": ["Comparisons are odious, says the proverb, usually quoted by whoever came second.", "The odious task of firing the team fell to the one person who had defended it."]},
- "odium": {"pos": "noun", "definition": "widespread hatred or disgust", "synonyms": ["opprobrium", "revulsion", "disgrace"], "antonyms": ["esteem", "approval"], "sentences": ["The odium attached to the decision outlived everyone who had made it.", "He accepted the odium of the unpopular reform and the credit for none of its benefits."]},
- "offhand": {"pos": "adjective", "definition": "casual and without preparation", "synonyms": ["impromptu", "casual", "curt"], "antonyms": ["considered", "deliberate"], "sentences": ["An offhand remark in the corridor became the department's policy for six years.", "His offhand manner made people think he had not prepared, which he had, obsessively."]},
- "officious": {"pos": "adjective", "definition": "annoyingly eager to give orders", "synonyms": ["meddlesome", "interfering", "bossy"], "antonyms": ["unobtrusive", "helpful"], "sentences": ["An officious steward moved four people who were in exactly the right seats.", "Officious is not official: one is meddling, the other is authorized."]},
- "offset": {"pos": "verb", "definition": "to counterbalance", "synonyms": ["counterbalance", "compensate", "counteract"], "antonyms": ["compound", "aggravate"], "sentences": ["The savings were offset entirely by the cost of achieving them.", "Planting trees to offset a flight is arithmetic that works better on paper."]},
- "olfactory": {"pos": "adjective", "definition": "relating to the sense of smell", "synonyms": ["nasal", "scent-related"], "antonyms": [], "sentences": ["Olfactory memory bypasses reason entirely, which is why one smell can undo a decade.", "The olfactory bulb sits closer to the memory centers than any other sense's wiring."]},
- "ominous": {"pos": "adjective", "definition": "suggesting something bad is coming", "synonyms": ["foreboding", "portentous", "menacing"], "antonyms": ["auspicious", "promising"], "sentences": ["The ominous silence from the supplier lasted three days and then explained itself.", "An ominous sky over a cricket match is the most English form of suspense."]},
- "omnipresent": {"pos": "adjective", "definition": "present everywhere at once", "synonyms": ["ubiquitous", "pervasive", "universal"], "antonyms": ["scarce", "absent"], "sentences": ["The advertisement was omnipresent for a month and forgotten by the next one.", "Dust in that workshop was omnipresent and, the owner insisted, structural."]},
- "omniscience": {"pos": "noun", "definition": "the state of knowing everything", "synonyms": ["all-knowingness"], "antonyms": ["ignorance"], "sentences": ["The narrator's omniscience is what lets the novel see four rooms at once.", "Committee members occasionally mistake seniority for omniscience."]},
- "omniscient": {"pos": "adjective", "definition": "knowing everything", "synonyms": ["all-knowing", "all-seeing"], "antonyms": ["ignorant", "limited"], "sentences": ["The omniscient narrator tells you what the dog is thinking, which is the whole appeal.", "Nobody is omniscient, though the tone of certain emails suggests otherwise."]},
- "onerous": {"pos": "adjective", "definition": "involving a heavy burden", "synonyms": ["burdensome", "arduous", "taxing"], "antonyms": ["easy", "light"], "sentences": ["The onerous reporting requirements consumed more time than the work being reported.", "An onerous clause is one that only becomes visible when invoked."]},
- "onset": {"pos": "noun", "definition": "the beginning of something, often unpleasant", "synonyms": ["start", "commencement", "outbreak"], "antonyms": ["end", "conclusion"], "sentences": ["The onset of symptoms was gradual enough that nobody dated it correctly.", "At the onset of winter the pipes announced their opinions."]},
- "opaque": {"pos": "adjective", "definition": "not transparent; hard to understand", "synonyms": ["impenetrable", "obscure", "murky"], "antonyms": ["transparent", "lucid"], "sentences": ["The pricing structure was deliberately opaque and profitable for exactly that reason.", "His motives remained opaque to colleagues who had known him for twenty years."]},
- "opine": {"pos": "verb", "definition": "to state an opinion", "synonyms": ["declare", "pronounce", "remark"], "antonyms": [], "sentences": ["He opined at length on a subject he had encountered that morning.", "The columnist opines; the reporter reports. Readers rarely distinguish them."]},
- "opportunism": {"pos": "noun", "definition": "exploiting chances without regard to principle", "synonyms": ["expediency", "self-interest"], "antonyms": ["principle", "integrity"], "sentences": ["The sudden conversion to the cause was opportunism with excellent timing.", "Opportunism is called agility when it succeeds."]},
- "oppress": {"pos": "verb", "definition": "to keep down by unjust force", "synonyms": ["subjugate", "repress", "tyrannize"], "antonyms": ["liberate", "free"], "sentences": ["The regime oppressed a minority for forty years and denied it for fifty.", "The heat oppressed the whole city until the storm on Thursday."]},
- "opprobrium": {"pos": "noun", "definition": "harsh public disgrace and criticism", "synonyms": ["disgrace", "obloquy", "condemnation"], "antonyms": ["praise", "honor"], "sentences": ["The opprobrium heaped on the decision made reversing it impossible.", "Opprobrium in the press lasts a week; opprobrium in a small town lasts generations."]},
- "optimal": {"pos": "adjective", "definition": "best possible under the circumstances", "synonyms": ["ideal", "best", "optimum"], "antonyms": ["suboptimal", "worst"], "sentences": ["The optimal route existed only in a model with no traffic and no weather.", "Optimal is not the same as good; it is merely the best available."]},
- "optimum": {"pos": "noun", "definition": "the most favorable condition or amount", "synonyms": ["best", "peak", "ideal"], "antonyms": ["worst"], "sentences": ["The optimum for growth turned out to be three degrees cooler than assumed.", "Somewhere between too little and too much lies an optimum nobody has measured."]},
- "opulence": {"pos": "noun", "definition": "great wealth and luxury", "synonyms": ["luxury", "affluence", "splendor"], "antonyms": ["poverty", "austerity"], "sentences": ["The opulence of the lobby was funded by the austerity of every other floor.", "Opulence photographs beautifully and is exhausting to live in."]},
- "opulent": {"pos": "adjective", "definition": "luxurious and richly appointed", "synonyms": ["sumptuous", "lavish", "palatial"], "antonyms": ["spartan", "plain"], "sentences": ["The opulent dining room seated forty and was used twice a year.", "Opulent taste on a modest budget produces something worse than either."]},
- "oration": {"pos": "noun", "definition": "a formal speech", "synonyms": ["address", "speech", "discourse"], "antonyms": [], "sentences": ["The funeral oration lasted forty minutes and mentioned the deceased for six.", "A great oration changes a room; a good memo changes a policy."]},
- "oratorio": {"pos": "noun", "definition": "a large sacred musical work for voices and orchestra", "synonyms": ["cantata", "sacred work"], "antonyms": [], "sentences": ["The oratorio requires two hundred performers and is staged, therefore, at Christmas.", "An oratorio is an opera that stands still, which suits its subject matter."]},
- "ordain": {"pos": "verb", "definition": "to decree officially; to confer holy orders", "synonyms": ["decree", "prescribe", "consecrate"], "antonyms": ["revoke"], "sentences": ["The charter ordained that the fund could never be spent, only its interest.", "She was ordained in a chapel that had opposed ordaining women for a century."]},
- "ornate": {"pos": "adjective", "definition": "elaborately decorated", "synonyms": ["elaborate", "baroque", "florid"], "antonyms": ["plain", "austere"], "sentences": ["The ornate ceiling distracted from a room that was otherwise badly proportioned.", "His ornate prose takes three clauses to admit it does not know."]},
- "ornery": {"pos": "adjective", "definition": "bad-tempered and uncooperative", "synonyms": ["cantankerous", "irascible", "stubborn"], "antonyms": ["amiable", "cooperative"], "sentences": ["The ornery old boiler worked perfectly whenever the engineer was in the room.", "Ornery is a worn-down pronunciation of \"ordinary,\" which is a strange journey for a word."]},
- "orotund": {"pos": "adjective", "definition": "pompous and full-sounding", "synonyms": ["grandiloquent", "bombastic", "sonorous"], "antonyms": ["plainspoken", "thin"], "sentences": ["His orotund delivery made a weather forecast sound like a state funeral.", "Orotund means round-mouthed, which is exactly what the voice is doing."]},
- "orthodox": {"pos": "adjective", "definition": "conforming to established belief", "synonyms": ["conventional", "traditional", "accepted"], "antonyms": ["heterodox", "unorthodox"], "sentences": ["The orthodox treatment worked for most patients and nobody investigated the rest.", "Today's orthodox position was somebody's heresy within living memory."]},
- "oscillate": {"pos": "verb", "definition": "to swing back and forth; to waver", "synonyms": ["fluctuate", "vacillate", "swing"], "antonyms": ["settle", "stabilize"], "sentences": ["Policy oscillated between two positions for four years and arrived at neither.", "He oscillated between confidence and panic on roughly a nine-day cycle."]},
- "ossify": {"pos": "verb", "definition": "to become rigid and unchangeable", "synonyms": ["harden", "fossilize", "stagnate"], "antonyms": ["adapt", "evolve"], "sentences": ["The guidelines ossified into rules that nobody could remember the reason for.", "Cartilage ossifies into bone, and so, apparently, do committees."]},
- "ostensible": {"pos": "adjective", "definition": "apparent but perhaps not genuine", "synonyms": ["apparent", "purported", "supposed"], "antonyms": ["actual", "genuine"], "sentences": ["The ostensible reason was cost; the actual reason was in an email from March.", "The ostensible leader was chairing the meeting; the real one was taking notes."]},
- "ostensive": {"pos": "adjective", "definition": "directly demonstrating by pointing", "synonyms": ["demonstrative", "indicative"], "antonyms": [], "sentences": ["Children learn nouns ostensively: someone points and says the word.", "An ostensive definition works for \"red\" and fails badly for \"justice.\""]},
- "ostentatious": {"pos": "adjective", "definition": "showy in an attempt to impress", "synonyms": ["flashy", "pretentious", "flamboyant"], "antonyms": ["understated", "modest"], "sentences": ["The ostentatious watch told everyone the time and one other thing.", "Ostentatious modesty is the most expensive kind of showing off."]},
- "ostracism": {"pos": "noun", "definition": "exclusion from a group", "synonyms": ["exclusion", "banishment", "shunning"], "antonyms": ["acceptance", "inclusion"], "sentences": ["Ostracism in Athens was voted on with broken pottery and lasted ten years.", "Social ostracism does the work that formal punishment cannot."]},
- "ostracize": {"pos": "verb", "definition": "to exclude from a group", "synonyms": ["shun", "exclude", "blackball"], "antonyms": ["welcome", "embrace"], "sentences": ["He was ostracized for reporting the fraud and vindicated four years later.", "To ostracize someone slowly is crueler than doing it at once."]},
- "oust": {"pos": "verb", "definition": "to force out of a position", "synonyms": ["expel", "depose", "unseat"], "antonyms": ["install", "appoint"], "sentences": ["The founder was ousted by a board he had personally chosen.", "Ousting a leader is easy; deciding on the next one is where it fails."]},
- "outlandish": {"pos": "adjective", "definition": "bizarre and unconventional", "synonyms": ["bizarre", "eccentric", "preposterous"], "antonyms": ["ordinary", "conventional"], "sentences": ["The outlandish claim turned out to be true, which is the worst outcome for a skeptic.", "Outlandish once meant simply foreign, which says a good deal about history."]},
- "outskirts": {"pos": "noun", "definition": "the outer edges of a town", "synonyms": ["periphery", "fringes", "suburbs"], "antonyms": ["center", "core"], "sentences": ["The factory was built on the outskirts and the town grew around it within a generation.", "Everything interesting in that city happens on the outskirts."]},
- "outstrip": {"pos": "verb", "definition": "to surpass or exceed", "synonyms": ["exceed", "surpass", "eclipse"], "antonyms": ["lag", "trail"], "sentences": ["Demand outstripped supply within a week and the price tripled.", "Her ambition outstripped the job, which everyone but the employer noticed."]},
- "overbearing": {"pos": "adjective", "definition": "domineering and arrogant", "synonyms": ["domineering", "imperious", "high-handed"], "antonyms": ["deferential", "meek"], "sentences": ["An overbearing chair turns a committee into an audience.", "He was overbearing in meetings and, oddly, courteous in writing."]},
- "overshadow": {"pos": "verb", "definition": "to make seem less important", "synonyms": ["eclipse", "outshine", "dwarf"], "antonyms": ["highlight", "showcase"], "sentences": ["The scandal overshadowed a budget that was, for once, genuinely interesting.", "Her older brother's record overshadowed a career that was, on the numbers, better."]},
- "overt": {"pos": "adjective", "definition": "done openly; not hidden", "synonyms": ["open", "manifest", "undisguised"], "antonyms": ["covert", "hidden"], "sentences": ["There was no overt threat, which is what made the letter so effective.", "Overt discrimination is rarer and easier to prove than the other kind."]},
- "overweening": {"pos": "adjective", "definition": "arrogantly excessive", "synonyms": ["arrogant", "presumptuous", "immoderate"], "antonyms": ["modest", "restrained"], "sentences": ["His overweening confidence survived four failures and did not survive the fifth.", "Overweening ambition is the standard diagnosis for anyone who tried and missed."]},
- "overwrought": {"pos": "adjective", "definition": "agitated; or overly elaborate", "synonyms": ["frantic", "overexcited", "ornate"], "antonyms": ["calm", "restrained"], "sentences": ["The overwrought prose in the final chapter undoes the restraint of the first ten.", "She was overwrought by midnight and entirely composed by the hearing."]},
- "pacifist": {"pos": "noun", "definition": "one opposed to war and violence", "synonyms": ["peacemaker", "conscientious objector"], "antonyms": ["militarist", "hawk"], "sentences": ["The pacifist served four years driving ambulances under fire.", "Being a pacifist in wartime requires a different courage, and usually a prison sentence."]},
- "pacify": {"pos": "verb", "definition": "to calm or subdue", "synonyms": ["placate", "appease", "quell"], "antonyms": ["provoke", "agitate"], "sentences": ["A biscuit pacified the toddler and postponed the argument by nine minutes.", "The region was pacified, which is a word armies use for something else entirely."]},
- "paean": {"pos": "noun", "definition": "a song or expression of praise", "synonyms": ["hymn", "tribute", "eulogy"], "antonyms": ["diatribe", "dirge"], "sentences": ["The review was less criticism than paean, which made readers suspicious.", "The book is a paean to a landscape that has since been built on."]},
- "painstaking": {"pos": "adjective", "definition": "done with great care and effort", "synonyms": ["meticulous", "thorough", "assiduous"], "antonyms": ["careless", "slapdash"], "sentences": ["Painstaking reconstruction of the wreck took nine years and answered the question in one paragraph.", "Painstaking work looks effortless, which is why it is so poorly rewarded."]},
- "palatable": {"pos": "adjective", "definition": "acceptable in taste or to the mind", "synonyms": ["agreeable", "acceptable", "tasty"], "antonyms": ["unpalatable", "objectionable"], "sentences": ["The truth was made palatable by being delivered in the third person.", "Hospital food is designed to be palatable and manages, at best, to be warm."]},
- "palatial": {"pos": "adjective", "definition": "spacious and splendid like a palace", "synonyms": ["grand", "opulent", "magnificent"], "antonyms": ["cramped", "modest"], "sentences": ["After the shared office, a room with a door felt palatial.", "The palatial headquarters were completed a year before the layoffs began."]},
- "palaver": {"pos": "noun", "definition": "prolonged idle discussion or fuss", "synonyms": ["fuss", "prattle", "rigmarole"], "antonyms": ["conciseness"], "sentences": ["After all the palaver about the venue, the meeting was held online.", "The palaver of the visa process took longer than the trip itself."]},
- "palimpsest": {"pos": "noun", "definition": "something reused with traces of what came before", "synonyms": ["overwriting", "layered manuscript"], "antonyms": [], "sentences": ["The city is a palimpsest: Roman road, medieval lane, Victorian sewer, modern cycle path.", "Archimedes' lost treatise survived because a monk scraped the parchment and wrote prayers over it."]},
- "pall": {"pos": "noun", "definition": "an atmosphere of gloom", "synonyms": ["gloom", "shadow", "cloud"], "antonyms": ["cheer"], "sentences": ["The news cast a pall over a celebration that had been planned for a year.", "A pall is the cloth over a coffin, which is where the gloom comes from."]},
- "palliate": {"pos": "verb", "definition": "to relieve symptoms without curing", "synonyms": ["alleviate", "mitigate", "ease"], "antonyms": ["cure", "aggravate"], "sentences": ["The grant palliated the crisis and left every underlying cause untouched.", "Palliative care treats the person when the disease can no longer be treated."]},
- "pallid": {"pos": "adjective", "definition": "pale; lacking vitality", "synonyms": ["wan", "ashen", "insipid"], "antonyms": ["ruddy", "vibrant"], "sentences": ["The pallid imitation made everyone appreciate the original.", "He looked pallid under the strip lighting, as everybody does."]},
- "palpable": {"pos": "adjective", "definition": "so intense as to seem touchable", "synonyms": ["tangible", "perceptible", "unmistakable"], "antonyms": ["imperceptible", "intangible"], "sentences": ["The relief in the room was palpable and lasted about four minutes.", "Palpable means literally able to be felt by hand, which doctors still use it for."]},
- "palpitate": {"pos": "verb", "definition": "to beat rapidly and irregularly", "synonyms": ["throb", "flutter", "pound"], "antonyms": [], "sentences": ["His heart palpitated at the sight of the envelope, which contained a leaflet.", "The word is used mainly by hearts and by people describing hearts."]},
- "panacea": {"pos": "noun", "definition": "a supposed cure for all problems", "synonyms": ["cure-all", "nostrum", "remedy"], "antonyms": [], "sentences": ["Technology was offered as a panacea and delivered a slightly faster version of the same problem.", "Panacea was the Greek goddess of universal remedy, and business is still invoking her."]},
- "panache": {"pos": "noun", "definition": "flamboyant confidence and style", "synonyms": ["flair", "verve", "dash"], "antonyms": ["dullness", "timidity"], "sentences": ["She handled the collapse with a panache that made the story bearable.", "Panache was originally a plume on a helmet, worn to be seen."]},
- "panegyric": {"pos": "noun", "definition": "elaborate formal praise", "synonyms": ["eulogy", "encomium", "tribute"], "antonyms": ["diatribe", "criticism"], "sentences": ["The introduction was a panegyric so long the speaker had to shorten his talk.", "A panegyric tells you more about the occasion than about its subject."]},
- "panoply": {"pos": "noun", "definition": "a complete and impressive array", "synonyms": ["array", "display", "spectrum"], "antonyms": [], "sentences": ["The full panoply of state ceremony was deployed for a visit lasting ninety minutes.", "A panoply was originally a complete suit of armor."]},
- "parable": {"pos": "noun", "definition": "a short story with a moral lesson", "synonyms": ["allegory", "fable", "moral tale"], "antonyms": [], "sentences": ["The whole affair became a parable about what happens when nobody reads the contract.", "A parable teaches by indirection, which is why the lesson sticks."]},
- "paradigm": {"pos": "noun", "definition": "a model or typical framework", "synonyms": ["model", "framework", "exemplar"], "antonyms": [], "sentences": ["The old paradigm explained everything except the results that mattered.", "A paradigm shift is announced far more often than it occurs."]},
- "paradigmatic": {"pos": "adjective", "definition": "serving as a typical example", "synonyms": ["exemplary", "typical", "archetypal"], "antonyms": ["atypical", "anomalous"], "sentences": ["The case is paradigmatic: good intentions, no budget, and one very tired coordinator.", "A paradigmatic example is the one that teaches the pattern."]},
- "paradox": {"pos": "noun", "definition": "a seemingly contradictory truth", "synonyms": ["contradiction", "puzzle", "anomaly"], "antonyms": [], "sentences": ["The paradox of the plan was that success would make it unnecessary and unfundable.", "A paradox is a truth standing on its head to get attention."]},
- "paradoxical": {"pos": "adjective", "definition": "seemingly contradictory yet true", "synonyms": ["contradictory", "incongruous", "self-contradictory"], "antonyms": ["consistent", "straightforward"], "sentences": ["It is paradoxical that adding a lane to the motorway lengthens the journey.", "The paradoxical result held up under three replications and one furious rebuttal."]},
- "paragon": {"pos": "noun", "definition": "a perfect example of a quality", "synonyms": ["exemplar", "model", "epitome"], "antonyms": ["failure"], "sentences": ["He was held up as a paragon of prudence right until the audit.", "Nobody wants to work beside a paragon."]},
- "paraphernalia": {"pos": "noun", "definition": "miscellaneous equipment and belongings", "synonyms": ["equipment", "gear", "trappings"], "antonyms": [], "sentences": ["The paraphernalia of the hobby filled a garage and cost more than the car.", "All the paraphernalia of office arrived before the actual authority did."]},
- "pare": {"pos": "verb", "definition": "to trim or reduce gradually", "synonyms": ["trim", "whittle", "curtail"], "antonyms": ["expand", "augment"], "sentences": ["The budget was pared until only the parts nobody could defend remained.", "He pared the essay to half its length and doubled its force."]},
- "parenthetical": {"pos": "adjective", "definition": "inserted as an aside", "synonyms": ["incidental", "aside", "digressive"], "antonyms": ["central", "essential"], "sentences": ["The parenthetical remark was the only honest sentence in the report.", "His parenthetical asides ran longer than the main clause they interrupted."]},
- "pariah": {"pos": "noun", "definition": "a social outcast", "synonyms": ["outcast", "untouchable", "leper"], "antonyms": ["favorite", "insider"], "sentences": ["He became a pariah in the industry and a hero in one small town.", "The company was a pariah for two years and an acquisition target in the third."]},
- "parity": {"pos": "noun", "definition": "equality in status or amount", "synonyms": ["equality", "equivalence", "par"], "antonyms": ["disparity", "inequality"], "sentences": ["Pay parity was promised in 2009 and audited, for the first time, in 2021.", "The currency reached parity with the dollar and the headlines reached hysteria."]},
- "parley": {"pos": "noun", "definition": "a discussion between opponents", "synonyms": ["negotiation", "talks", "conference"], "antonyms": [], "sentences": ["A parley was arranged on a bridge that belonged to neither side.", "The parley lasted an hour and the ceasefire lasted three days."]},
- "parochial": {"pos": "adjective", "definition": "narrow in outlook; local", "synonyms": ["provincial", "insular", "narrow-minded"], "antonyms": ["cosmopolitan", "broad-minded"], "sentences": ["The debate was parochial: four streets arguing while the region emptied.", "Parochial means of the parish, which is precisely the scale of the concern."]},
- "parody": {"pos": "noun", "definition": "a humorous imitation", "synonyms": ["spoof", "burlesque", "send-up"], "antonyms": [], "sentences": ["The parody was funnier than the original and, unfortunately, indistinguishable from it.", "By the fourth season the show had become a parody of itself."]},
- "parry": {"pos": "verb", "definition": "to deflect or evade", "synonyms": ["deflect", "fend off", "sidestep"], "antonyms": ["confront", "absorb"], "sentences": ["She parried the question with another question and the interview moved on.", "He parried three attacks and lost to the fourth, which was a chair."]},
- "parsimonious": {"pos": "adjective", "definition": "extremely unwilling to spend", "synonyms": ["stingy", "miserly", "frugal"], "antonyms": ["generous", "lavish"], "sentences": ["The parsimonious grant covered travel to the archive and not the return trip.", "In science, a parsimonious explanation is a compliment: fewest assumptions wins."]},
- "partial": {"pos": "adjective", "definition": "biased; or incomplete", "synonyms": ["biased", "prejudiced", "incomplete"], "antonyms": ["impartial", "complete"], "sentences": ["A partial account of a partial recording produced a completely wrong conclusion.", "He was partial to strong coffee and partial in every judgment involving his own department."]},
- "partiality": {"pos": "noun", "definition": "bias, or a special fondness", "synonyms": ["bias", "favoritism", "fondness"], "antonyms": ["impartiality", "aversion"], "sentences": ["His partiality for one supplier survived three procurement reviews.", "She admitted a partiality for old maps and bought four more."]},
- "partisan": {"pos": "adjective", "definition": "strongly biased toward one side", "synonyms": ["biased", "factional", "one-sided"], "antonyms": ["nonpartisan", "impartial"], "sentences": ["The partisan coverage described two different events happening in the same room.", "Partisan also names an armed resistance fighter, which is a rather different loyalty."]},
- "parvenu": {"pos": "noun", "definition": "a newly rich social climber", "synonyms": ["upstart", "arriviste", "nouveau riche"], "antonyms": ["patrician"], "sentences": ["The old guard called him a parvenu, which meant he had earned it rather than inherited it.", "Every parvenu becomes an establishment figure in about one generation."]},
- "passage": {"pos": "noun", "definition": "a section of text; the act of moving through", "synonyms": ["excerpt", "section", "transit"], "antonyms": [], "sentences": ["One passage in the letter was quoted so often that the rest disappeared.", "The passage of the bill took four years and one very persuasive amendment."]},
- "passe": {"pos": "adjective", "definition": "out of fashion", "synonyms": ["outdated", "outmoded", "dated"], "antonyms": ["fashionable", "current"], "sentences": ["The technique was declared passé in 1998 and revived, triumphantly, in 2016.", "Calling something passé is a claim about the speaker's timing, not the thing."]},
- "pastiche": {"pos": "noun", "definition": "a work imitating another's style", "synonyms": ["imitation", "medley", "homage"], "antonyms": ["original"], "sentences": ["The building is a pastiche of four centuries and belongs to none of them.", "A pastiche done well is affectionate; done badly it is merely derivative."]},
- "pastoral": {"pos": "adjective", "definition": "relating to idealized rural life", "synonyms": ["rural", "bucolic", "rustic"], "antonyms": ["urban", "industrial"], "sentences": ["The pastoral scene in the painting was composed entirely in a London studio.", "Pastoral poetry is written by people who have never had to milk anything."]},
- "patent": {"pos": "adjective", "definition": "obvious and unconcealed", "synonyms": ["evident", "manifest", "blatant"], "antonyms": ["hidden", "obscure"], "sentences": ["The claim was patent nonsense and was repeated in three broadsheets.", "It was patent to everyone that the deadline would be missed."]},
- "pathogenic": {"pos": "adjective", "definition": "capable of causing disease", "synonyms": ["disease-causing", "infectious", "virulent"], "antonyms": ["harmless", "benign"], "sentences": ["Most bacteria are not pathogenic, which the public health messaging never quite conveys.", "The pathogenic strain differed from the harmless one by a handful of genes."]},
- "pathological": {"pos": "adjective", "definition": "compulsive and unhealthy", "synonyms": ["compulsive", "obsessive", "morbid"], "antonyms": ["healthy", "normal"], "sentences": ["His pathological need to win small arguments cost him large ones.", "Pathological in medicine means diseased; in conversation it means you cannot stop."]},
- "patriarch": {"pos": "noun", "definition": "the male head of a family or group", "synonyms": ["elder", "paterfamilias"], "antonyms": ["matriarch"], "sentences": ["The patriarch ruled the business until ninety-one and left no succession plan.", "Every family photograph has a patriarch and four people trying to leave."]},
- "patrician": {"pos": "adjective", "definition": "aristocratic and refined", "synonyms": ["aristocratic", "highborn", "genteel"], "antonyms": ["plebeian", "common"], "sentences": ["His patrician manner concealed a childhood in a two-room flat.", "The patrician families of Rome kept the priesthoods and, therefore, the calendar."]},
- "patronize": {"pos": "verb", "definition": "to treat condescendingly; to support financially", "synonyms": ["condescend to", "talk down to", "sponsor"], "antonyms": ["respect", "boycott"], "sentences": ["Do not patronize the audience; they read the same news you did.", "He patronized the arts generously and the artists insufferably."]},
- "patronizing": {"pos": "adjective", "definition": "condescending", "synonyms": ["condescending", "supercilious", "superior"], "antonyms": ["respectful", "deferential"], "sentences": ["The patronizing explanation of her own research was the last straw.", "Nothing is more patronizing than being told to calm down."]},
- "paucity": {"pos": "noun", "definition": "a shortage or scarcity", "synonyms": ["dearth", "scarcity", "insufficiency"], "antonyms": ["abundance", "plenty"], "sentences": ["There was a paucity of evidence and a surplus of confidence.", "The paucity of women in the archive says more about the archivists than the era."]},
- "peccadillo": {"pos": "noun", "definition": "a minor fault or offense", "synonyms": ["misdemeanor", "lapse", "indiscretion"], "antonyms": ["felony", "crime"], "sentences": ["The press treated a peccadillo as a scandal and the scandal as a technicality.", "A peccadillo in one culture is a resignation in another."]},
- "peculiar": {"pos": "adjective", "definition": "strange; or belonging exclusively to", "synonyms": ["odd", "curious", "distinctive"], "antonyms": ["ordinary", "universal"], "sentences": ["The smell was peculiar to that corridor and no one ever traced it.", "It struck her as peculiar that four people had the same alibi."]},
- "pecuniary": {"pos": "adjective", "definition": "relating to money", "synonyms": ["financial", "monetary", "fiscal"], "antonyms": [], "sentences": ["He had no pecuniary interest in the outcome and every other kind.", "Pecuniary comes from the Latin for cattle, which is what wealth used to be."]}
+ "meticulous": {
+  "pos": "adjective",
+  "definition": "extremely careful about detail",
+  "synonyms": [
+   "scrupulous",
+   "punctilious",
+   "fastidious"
+  ],
+  "antonyms": [
+   "careless",
+   "slapdash"
+  ],
+  "sentences": [
+   "Meticulous record-keeping saved the department when the inquiry finally arrived.",
+   "He was meticulous about the footnotes and vague about the argument."
+  ]
+ },
+ "mettle": {
+  "pos": "noun",
+  "definition": "courage and strength of character",
+  "synonyms": [
+   "fortitude",
+   "grit",
+   "spirit"
+  ],
+  "antonyms": [
+   "cowardice",
+   "timidity"
+  ],
+  "sentences": [
+   "The third day tested everyone's mettle and revealed two natural leaders.",
+   "Mettle and metal were once the same word, which the metaphor still remembers."
+  ]
+ },
+ "mettlesome": {
+  "pos": "adjective",
+  "definition": "spirited and courageous",
+  "synonyms": [
+   "plucky",
+   "gallant",
+   "high-spirited"
+  ],
+  "antonyms": [
+   "spiritless",
+   "timid"
+  ],
+  "sentences": [
+   "The mettlesome young lawyer took the case nobody senior would touch.",
+   "A mettlesome horse is admired by everyone except the person riding it."
+  ]
+ },
+ "microcosm": {
+  "pos": "noun",
+  "definition": "a small world representing a larger one",
+  "synonyms": [
+   "miniature",
+   "epitome",
+   "small-scale model"
+  ],
+  "antonyms": [
+   "macrocosm"
+  ],
+  "sentences": [
+   "The village was a microcosm of the country's argument about itself.",
+   "A departmental meeting is a microcosm of every political system ever devised."
+  ]
+ },
+ "mien": {
+  "pos": "noun",
+  "definition": "a person's manner or bearing",
+  "synonyms": [
+   "demeanor",
+   "bearing",
+   "aspect"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "His grave mien at the door told them the news before he spoke.",
+   "She kept a cheerful mien through a week that deserved none."
+  ]
+ },
+ "milieu": {
+  "pos": "noun",
+  "definition": "a social or cultural environment",
+  "synonyms": [
+   "setting",
+   "environment",
+   "sphere"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Transplanted from his milieu, the charm stopped working entirely.",
+   "The novel captures a literary milieu that lasted about four years."
+  ]
+ },
+ "militate": {
+  "pos": "verb",
+  "definition": "to work against or in favor of something",
+  "synonyms": [
+   "weigh",
+   "count",
+   "argue"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Everything about the timetable militated against actually finishing the work.",
+   "Militate against is to argue against; mitigate is to soften. They are not the same verb."
+  ]
+ },
+ "milk": {
+  "pos": "verb",
+  "definition": "to exploit for all it is worth",
+  "synonyms": [
+   "exploit",
+   "drain",
+   "capitalize on"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "He milked the anecdote for three minutes past its natural life.",
+   "The franchise was milked until audiences finally stopped turning up."
+  ]
+ },
+ "mimic": {
+  "pos": "verb",
+  "definition": "to imitate closely",
+  "synonyms": [
+   "imitate",
+   "ape",
+   "impersonate"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The harmless snake mimics a venomous one and is left alone by everything.",
+   "He mimicked the accent so well that nobody noticed until he laughed."
+  ]
+ },
+ "mincing": {
+  "pos": "adjective",
+  "definition": "affectedly dainty",
+  "synonyms": [
+   "affected",
+   "prissy",
+   "genteel"
+  ],
+  "antonyms": [
+   "natural",
+   "blunt"
+  ],
+  "sentences": [
+   "His mincing delivery made a plain instruction sound like an insult.",
+   "She used no mincing words and none were needed."
+  ]
+ },
+ "minute": {
+  "pos": "adjective",
+  "definition": "extremely small or detailed",
+  "synonyms": [
+   "tiny",
+   "infinitesimal",
+   "detailed"
+  ],
+  "antonyms": [
+   "huge",
+   "cursory"
+  ],
+  "sentences": [
+   "The minute differences between the samples turned out to be the whole finding.",
+   "He gave a minute account of a journey that had taken twelve minutes."
+  ]
+ },
+ "mired": {
+  "pos": "adjective",
+  "definition": "stuck and unable to progress",
+  "synonyms": [
+   "bogged down",
+   "entangled",
+   "stuck"
+  ],
+  "antonyms": [
+   "free",
+   "advancing"
+  ],
+  "sentences": [
+   "The project was mired in approvals for so long that the technology changed.",
+   "Mired in detail, the committee lost sight of what it had been asked."
+  ]
+ },
+ "mirth": {
+  "pos": "noun",
+  "definition": "amusement and laughter",
+  "synonyms": [
+   "merriment",
+   "hilarity",
+   "glee"
+  ],
+  "antonyms": [
+   "gloom",
+   "solemnity"
+  ],
+  "sentences": [
+   "The typo caused general mirth and one very quiet resignation.",
+   "There was no mirth in the room, only the sound of people waiting."
+  ]
+ },
+ "misanthrope": {
+  "pos": "noun",
+  "definition": "someone who dislikes people generally",
+  "synonyms": [
+   "cynic",
+   "recluse",
+   "hater of mankind"
+  ],
+  "antonyms": [
+   "philanthropist"
+  ],
+  "sentences": [
+   "The misanthrope volunteered at the animal shelter and got on famously.",
+   "A misanthrope in a small village is a tourist attraction."
+  ]
+ },
+ "misanthropic": {
+  "pos": "adjective",
+  "definition": "disliking humankind",
+  "synonyms": [
+   "cynical",
+   "antisocial",
+   "unsociable"
+  ],
+  "antonyms": [
+   "philanthropic",
+   "sociable"
+  ],
+  "sentences": [
+   "His misanthropic column ran for twenty years and was widely loved.",
+   "Misanthropic on Monday and cheerful by Thursday is just a normal week."
+  ]
+ },
+ "misappropriate": {
+  "pos": "verb",
+  "definition": "to take dishonestly for one's own use",
+  "synonyms": [
+   "embezzle",
+   "pilfer",
+   "divert"
+  ],
+  "antonyms": [
+   "restore"
+  ],
+  "sentences": [
+   "Funds were misappropriated over eleven years in amounts too small to flag.",
+   "He misappropriated the phrase and the credit in a single paragraph."
+  ]
+ },
+ "misconstrue": {
+  "pos": "verb",
+  "definition": "to interpret wrongly",
+  "synonyms": [
+   "misinterpret",
+   "misread",
+   "misunderstand"
+  ],
+  "antonyms": [
+   "understand",
+   "construe"
+  ],
+  "sentences": [
+   "A single sentence was misconstrued and cost two weeks of clarification.",
+   "Do not misconstrue silence as agreement; it is usually exhaustion."
+  ]
+ },
+ "miscreant": {
+  "pos": "noun",
+  "definition": "a wrongdoer",
+  "synonyms": [
+   "offender",
+   "villain",
+   "reprobate"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The miscreants were identified from a photograph and a very distinctive coat.",
+   "Miscreant once meant unbeliever, and drifted into general wrongdoing."
+  ]
+ },
+ "miser": {
+  "pos": "noun",
+  "definition": "one who hoards money and hates spending",
+  "synonyms": [
+   "skinflint",
+   "hoarder",
+   "penny-pincher"
+  ],
+  "antonyms": [
+   "spendthrift",
+   "philanthropist"
+  ],
+  "sentences": [
+   "The miser left three million pounds and a house with no working heating.",
+   "Miser shares a root with miserable, which is an ancient piece of moralizing."
+  ]
+ },
+ "miserly": {
+  "pos": "adjective",
+  "definition": "extremely stingy",
+  "synonyms": [
+   "stingy",
+   "parsimonious",
+   "niggardly"
+  ],
+  "antonyms": [
+   "generous",
+   "lavish"
+  ],
+  "sentences": [
+   "The miserly budget for the project produced miserly results, to universal surprise.",
+   "He was miserly with praise and lavish with corrections."
+  ]
+ },
+ "misnomer": {
+  "pos": "noun",
+  "definition": "an inaccurate name",
+  "synonyms": [
+   "misnaming",
+   "wrong name"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "\"Rush hour\" is a misnomer for something that lasts three hours and involves no rushing.",
+   "Calling it a working group was a misnomer on both counts."
+  ]
+ },
+ "misogynist": {
+  "pos": "noun",
+  "definition": "one who hates or despises women",
+  "synonyms": [
+   "woman-hater",
+   "sexist"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The misogynist's memoir accidentally documented his own career decline.",
+   "Misogynist is from Greek roots meaning hatred of women, and the word carries no ambiguity."
+  ]
+ },
+ "missive": {
+  "pos": "noun",
+  "definition": "a letter, especially a formal one",
+  "synonyms": [
+   "letter",
+   "dispatch",
+   "communication"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "A four-page missive from head office announced a policy in one sentence.",
+   "The missive arrived by courier, which told everyone how serious it was."
+  ]
+ },
+ "mite": {
+  "pos": "noun",
+  "definition": "a very small amount or creature",
+  "synonyms": [
+   "bit",
+   "particle",
+   "speck"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "He was a mite optimistic about the timeline, by roughly a year.",
+   "The widow's mite was tiny and, the parable insists, the largest gift given."
+  ]
+ },
+ "mitigate": {
+  "pos": "verb",
+  "definition": "to make less severe",
+  "synonyms": [
+   "alleviate",
+   "lessen",
+   "temper"
+  ],
+  "antonyms": [
+   "aggravate",
+   "intensify"
+  ],
+  "sentences": [
+   "Planting the embankment mitigated the flooding without preventing it.",
+   "Mitigate softens a bad thing; militate argues against one."
+  ]
+ },
+ "mode": {
+  "pos": "noun",
+  "definition": "a way or manner of doing something",
+  "synonyms": [
+   "method",
+   "manner",
+   "fashion"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The department switched into crisis mode, which mainly meant longer meetings.",
+   "Mode of transport, mode of address, mode in statistics — one word, three careers."
+  ]
+ },
+ "modest": {
+  "pos": "adjective",
+  "definition": "unassuming; moderate in size",
+  "synonyms": [
+   "unassuming",
+   "humble",
+   "moderate"
+  ],
+  "antonyms": [
+   "boastful",
+   "extravagant"
+  ],
+  "sentences": [
+   "A modest proposal, in Swift's hands, was neither.",
+   "The modest raise was accompanied by an immodest description of it."
+  ]
+ },
+ "modicum": {
+  "pos": "noun",
+  "definition": "a small amount",
+  "synonyms": [
+   "scrap",
+   "trace",
+   "smidgen"
+  ],
+  "antonyms": [
+   "abundance"
+  ],
+  "sentences": [
+   "A modicum of preparation would have prevented the entire disaster.",
+   "He asked for a modicum of respect and received the minimum viable amount."
+  ]
+ },
+ "modish": {
+  "pos": "adjective",
+  "definition": "fashionable, often superficially",
+  "synonyms": [
+   "stylish",
+   "trendy",
+   "chic"
+  ],
+  "antonyms": [
+   "outdated",
+   "unfashionable"
+  ],
+  "sentences": [
+   "The modish jargon of the report dates it precisely to 2014.",
+   "Modish theories arrive with conferences and leave without obituaries."
+  ]
+ },
+ "mollify": {
+  "pos": "verb",
+  "definition": "to soothe anger",
+  "synonyms": [
+   "appease",
+   "placate",
+   "pacify"
+  ],
+  "antonyms": [
+   "provoke",
+   "enrage"
+  ],
+  "sentences": [
+   "Nothing mollified the residents except an actual apology, which took two years.",
+   "He tried to mollify her with flowers and made an excellent situation worse."
+  ]
+ },
+ "molt": {
+  "pos": "verb",
+  "definition": "to shed feathers, skin, or shell",
+  "synonyms": [
+   "shed",
+   "slough",
+   "cast off"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The crab molts its shell and hides for a week while the new one hardens.",
+   "The company molted three names in five years and kept the same problems."
+  ]
+ },
+ "moment": {
+  "pos": "noun",
+  "definition": "importance; a brief instant",
+  "synonyms": [
+   "significance",
+   "consequence",
+   "instant"
+  ],
+  "antonyms": [
+   "triviality"
+  ],
+  "sentences": [
+   "A decision of great moment was taken by four people on a Friday afternoon.",
+   "The moment passed and nobody moved to reclaim it."
+  ]
+ },
+ "momentary": {
+  "pos": "adjective",
+  "definition": "lasting only a moment",
+  "synonyms": [
+   "brief",
+   "fleeting",
+   "transient"
+  ],
+  "antonyms": [
+   "lasting",
+   "permanent"
+  ],
+  "sentences": [
+   "A momentary lapse in attention put the wrong figure into the final table.",
+   "The relief was momentary and the paperwork was not."
+  ]
+ },
+ "monastic": {
+  "pos": "adjective",
+  "definition": "severely simple and secluded",
+  "synonyms": [
+   "ascetic",
+   "cloistered",
+   "austere"
+  ],
+  "antonyms": [
+   "worldly",
+   "indulgent"
+  ],
+  "sentences": [
+   "He kept a monastic routine: one desk, one meal, no telephone.",
+   "The monastic silence of the reading room ended when the café opened downstairs."
+  ]
+ },
+ "monetary": {
+  "pos": "adjective",
+  "definition": "relating to money or currency",
+  "synonyms": [
+   "financial",
+   "fiscal",
+   "pecuniary"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Monetary policy moved slowly and the prices did not.",
+   "The monetary cost was manageable; the reputational one was not."
+  ]
+ },
+ "monotonous": {
+  "pos": "adjective",
+  "definition": "dull through lack of variety",
+  "synonyms": [
+   "repetitive",
+   "tedious",
+   "unvarying"
+  ],
+  "antonyms": [
+   "varied",
+   "lively"
+  ],
+  "sentences": [
+   "The monotonous drone of the presentation put three people visibly to sleep.",
+   "Monotonous work is bearable with company and unbearable alone."
+  ]
+ },
+ "monotony": {
+  "pos": "noun",
+  "definition": "tedious sameness",
+  "synonyms": [
+   "tedium",
+   "sameness",
+   "routine"
+  ],
+  "antonyms": [
+   "variety",
+   "diversity"
+  ],
+  "sentences": [
+   "The monotony of the coastline was broken once, by a lighthouse and a sheep.",
+   "Monotony is what makes a five-hour flight longer than a five-hour hike."
+  ]
+ },
+ "moot": {
+  "pos": "adjective",
+  "definition": "debatable, or no longer relevant",
+  "synonyms": [
+   "debatable",
+   "academic",
+   "arguable"
+  ],
+  "antonyms": [
+   "settled",
+   "decisive"
+  ],
+  "sentences": [
+   "The question became moot when the building was sold in March.",
+   "Whether it was moot or crucial depended entirely on which side you were on."
+  ]
+ },
+ "morass": {
+  "pos": "noun",
+  "definition": "a confusing, entangling situation",
+  "synonyms": [
+   "quagmire",
+   "swamp",
+   "tangle"
+  ],
+  "antonyms": [
+   "clarity"
+  ],
+  "sentences": [
+   "The contract dragged them into a morass of subclauses and cross-references.",
+   "A morass is a swamp, and the metaphor keeps every bit of the mud."
+  ]
+ },
+ "moratorium": {
+  "pos": "noun",
+  "definition": "an official temporary suspension",
+  "synonyms": [
+   "suspension",
+   "freeze",
+   "halt"
+  ],
+  "antonyms": [
+   "resumption"
+  ],
+  "sentences": [
+   "A moratorium on new hires lasted eleven months and cost two departments their best candidates.",
+   "The moratorium on drilling expired quietly on a bank holiday."
+  ]
+ },
+ "morbid": {
+  "pos": "adjective",
+  "definition": "unhealthily preoccupied with death or gloom",
+  "synonyms": [
+   "ghoulish",
+   "macabre",
+   "gloomy"
+  ],
+  "antonyms": [
+   "wholesome",
+   "cheerful"
+  ],
+  "sentences": [
+   "He took a morbid interest in the accident statistics of his own commute.",
+   "Morbid curiosity is why the crash makes the front page and the recovery does not."
+  ]
+ },
+ "mordant": {
+  "pos": "adjective",
+  "definition": "bitingly sarcastic",
+  "synonyms": [
+   "caustic",
+   "trenchant",
+   "acerbic"
+  ],
+  "antonyms": [
+   "gentle",
+   "bland"
+  ],
+  "sentences": [
+   "Her mordant wit made the obituary the most-read piece of the year.",
+   "Mordant comes from biting, which is exactly how the humor lands."
+  ]
+ },
+ "moreover": {
+  "pos": "adverb",
+  "definition": "in addition; furthermore",
+  "synonyms": [
+   "furthermore",
+   "besides",
+   "additionally"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The plan was late; moreover, it was based on figures from a previous decade.",
+   "\"Moreover\" in a letter usually signals the paragraph that actually matters."
+  ]
+ },
+ "mores": {
+  "pos": "noun",
+  "definition": "the accepted customs of a community",
+  "synonyms": [
+   "customs",
+   "conventions",
+   "norms"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The mores of the office were never written down and were enforced ruthlessly.",
+   "Changing laws is easier than changing mores, which is why one lags the other."
+  ]
+ },
+ "moribund": {
+  "pos": "adjective",
+  "definition": "in decline and near death",
+  "synonyms": [
+   "dying",
+   "declining",
+   "stagnant"
+  ],
+  "antonyms": [
+   "thriving",
+   "flourishing"
+  ],
+  "sentences": [
+   "The moribund industry was revived by a technology it had spent a decade dismissing.",
+   "A moribund committee still meets; that is how you tell it is moribund and not dead."
+  ]
+ },
+ "morose": {
+  "pos": "adjective",
+  "definition": "gloomy and sullen",
+  "synonyms": [
+   "sullen",
+   "glum",
+   "saturnine"
+  ],
+  "antonyms": [
+   "cheerful",
+   "genial"
+  ],
+  "sentences": [
+   "He grew morose after the verdict and cheerful the day the appeal was filed.",
+   "The morose waiter delivered excellent food with visible regret."
+  ]
+ },
+ "morph": {
+  "pos": "verb",
+  "definition": "to change gradually into something else",
+  "synonyms": [
+   "transform",
+   "shift",
+   "evolve"
+  ],
+  "antonyms": [
+   "stay"
+  ],
+  "sentences": [
+   "The support group morphed into a lobbying organization over four years.",
+   "The complaint morphed, with each retelling, into a much better story."
+  ]
+ },
+ "mortify": {
+  "pos": "verb",
+  "definition": "to humiliate deeply",
+  "synonyms": [
+   "humiliate",
+   "embarrass",
+   "shame"
+  ],
+  "antonyms": [
+   "honor",
+   "flatter"
+  ],
+  "sentences": [
+   "It mortified him to be corrected by someone he had taught.",
+   "Mortify literally means to make dead, which is roughly how embarrassment feels."
+  ]
+ },
+ "mote": {
+  "pos": "noun",
+  "definition": "a tiny particle",
+  "synonyms": [
+   "speck",
+   "particle",
+   "fleck"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Motes of dust hung in the projector beam like a small weather system.",
+   "The parable warns about the mote in your brother's eye and the beam in your own."
+  ]
+ },
+ "mountebank": {
+  "pos": "noun",
+  "definition": "a charlatan who sells false remedies",
+  "synonyms": [
+   "charlatan",
+   "quack",
+   "swindler"
+  ],
+  "antonyms": [
+   "expert"
+  ],
+  "sentences": [
+   "The mountebank sold a tonic containing sugar, alcohol, and confident phrasing.",
+   "Mountebanks mounted a bench to draw a crowd, which is where the word comes from."
+  ]
+ },
+ "mulct": {
+  "pos": "verb",
+  "definition": "to fine or swindle out of money",
+  "synonyms": [
+   "fine",
+   "defraud",
+   "penalize"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Investors were mulcted of their savings by a fund with excellent stationery.",
+   "The court mulcted him a sum that was, for him, a rounding error."
+  ]
+ },
+ "multifaceted": {
+  "pos": "adjective",
+  "definition": "having many aspects",
+  "synonyms": [
+   "many-sided",
+   "complex",
+   "versatile"
+  ],
+  "antonyms": [
+   "simple",
+   "one-dimensional"
+  ],
+  "sentences": [
+   "The problem is multifaceted, which is the polite way to say nobody knows where to start.",
+   "A multifaceted career sounds better in a eulogy than it feels at the time."
+  ]
+ },
+ "multifarious": {
+  "pos": "adjective",
+  "definition": "of many varied kinds",
+  "synonyms": [
+   "diverse",
+   "manifold",
+   "varied"
+  ],
+  "antonyms": [
+   "uniform",
+   "homogeneous"
+  ],
+  "sentences": [
+   "His multifarious interests filled a house and emptied a bank account.",
+   "The multifarious duties of the role were listed on four pages and performed by one person."
+  ]
+ },
+ "multitude": {
+  "pos": "noun",
+  "definition": "a very large number",
+  "synonyms": [
+   "host",
+   "throng",
+   "myriad"
+  ],
+  "antonyms": [
+   "handful"
+  ],
+  "sentences": [
+   "A multitude of small errors produced one large and entirely predictable failure.",
+   "Charity, says the proverb, covers a multitude of sins."
+  ]
+ },
+ "mundane": {
+  "pos": "adjective",
+  "definition": "ordinary and unexciting",
+  "synonyms": [
+   "banal",
+   "commonplace",
+   "prosaic"
+  ],
+  "antonyms": [
+   "extraordinary",
+   "exotic"
+  ],
+  "sentences": [
+   "The mundane detail of the timetable turned out to be the key to the whole case.",
+   "Mundane means \"of the world,\" which is either an insult or a description."
+  ]
+ },
+ "munificent": {
+  "pos": "adjective",
+  "definition": "extremely generous",
+  "synonyms": [
+   "lavish",
+   "bountiful",
+   "magnanimous"
+  ],
+  "antonyms": [
+   "miserly",
+   "stingy"
+  ],
+  "sentences": [
+   "A munificent bequest funded the wing and a decade of arguments about its name.",
+   "Munificent giving in public is sometimes matched by private meanness."
+  ]
+ },
+ "muse": {
+  "pos": "verb",
+  "definition": "to reflect or ponder",
+  "synonyms": [
+   "ponder",
+   "contemplate",
+   "reflect"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "He mused aloud about resigning and was taken seriously by the wrong person.",
+   "She mused for a week and acted in a morning."
+  ]
+ },
+ "muster": {
+  "pos": "verb",
+  "definition": "to gather or summon up",
+  "synonyms": [
+   "assemble",
+   "rally",
+   "summon"
+  ],
+  "antonyms": [
+   "disperse"
+  ],
+  "sentences": [
+   "She mustered enough support to force a vote and lost it by two.",
+   "He could not muster the enthusiasm to finish a sentence about it."
+  ]
+ },
+ "muted": {
+  "pos": "adjective",
+  "definition": "subdued in sound, color, or reaction",
+  "synonyms": [
+   "subdued",
+   "restrained",
+   "understated"
+  ],
+  "antonyms": [
+   "loud",
+   "vivid"
+  ],
+  "sentences": [
+   "The muted response to the announcement was itself the story.",
+   "A muted palette makes a small room feel considerably larger."
+  ]
+ },
+ "mutiny": {
+  "pos": "noun",
+  "definition": "open rebellion against authority",
+  "synonyms": [
+   "revolt",
+   "insurrection",
+   "uprising"
+  ],
+  "antonyms": [
+   "obedience",
+   "loyalty"
+  ],
+  "sentences": [
+   "The mutiny began over food and ended with a change of management.",
+   "Most mutinies are about conditions; the flags come later."
+  ]
+ },
+ "myopic": {
+  "pos": "adjective",
+  "definition": "shortsighted in thinking",
+  "synonyms": [
+   "shortsighted",
+   "narrow",
+   "blinkered"
+  ],
+  "antonyms": [
+   "farsighted",
+   "visionary"
+  ],
+  "sentences": [
+   "The myopic focus on this quarter cost the company the next decade.",
+   "Myopic is literally nearsighted, which is exactly the metaphor intended."
+  ]
+ },
+ "myriad": {
+  "pos": "adjective",
+  "definition": "countless; extremely numerous",
+  "synonyms": [
+   "innumerable",
+   "countless",
+   "manifold"
+  ],
+  "antonyms": [
+   "few",
+   "limited"
+  ],
+  "sentences": [
+   "The myriad small kindnesses of that week are what she actually remembers.",
+   "Myriad was originally exactly ten thousand, which is disappointingly specific."
+  ]
+ },
+ "nadir": {
+  "pos": "noun",
+  "definition": "the lowest point",
+  "synonyms": [
+   "rock bottom",
+   "low point",
+   "trough"
+  ],
+  "antonyms": [
+   "zenith",
+   "apex"
+  ],
+  "sentences": [
+   "The nadir came in March, when even the optimists stopped forecasting.",
+   "Nadir is the point directly beneath you; zenith is directly above."
+  ]
+ },
+ "naive": {
+  "pos": "adjective",
+  "definition": "lacking experience or judgment",
+  "synonyms": [
+   "ingenuous",
+   "credulous",
+   "unsophisticated"
+  ],
+  "antonyms": [
+   "worldly",
+   "shrewd"
+  ],
+  "sentences": [
+   "It was naive to assume the deadline meant the same thing to both parties.",
+   "Naive questions from a newcomer are the most valuable thing in any meeting."
+  ]
+ },
+ "narcissist": {
+  "pos": "noun",
+  "definition": "someone excessively self-absorbed",
+  "synonyms": [
+   "egotist",
+   "egomaniac"
+  ],
+  "antonyms": [
+   "altruist"
+  ],
+  "sentences": [
+   "The narcissist described the disaster mostly in terms of how it had affected him.",
+   "Narcissus fell in love with a reflection and gave psychology a permanent word."
+  ]
+ },
+ "nascent": {
+  "pos": "adjective",
+  "definition": "just coming into existence",
+  "synonyms": [
+   "emerging",
+   "incipient",
+   "budding"
+  ],
+  "antonyms": [
+   "mature",
+   "established"
+  ],
+  "sentences": [
+   "The nascent industry had four companies and one very optimistic trade association.",
+   "A nascent friendship survives disagreement better than an established one sometimes does."
+  ]
+ },
+ "natty": {
+  "pos": "adjective",
+  "definition": "smartly dressed",
+  "synonyms": [
+   "dapper",
+   "spruce",
+   "sharp"
+  ],
+  "antonyms": [
+   "scruffy",
+   "shabby"
+  ],
+  "sentences": [
+   "A natty bow tie made him identifiable in every photograph for forty years.",
+   "He arrived natty and left, after the storm, considerably less so."
+  ]
+ },
+ "nebulous": {
+  "pos": "adjective",
+  "definition": "vague and ill-defined",
+  "synonyms": [
+   "vague",
+   "hazy",
+   "amorphous"
+  ],
+  "antonyms": [
+   "definite",
+   "precise"
+  ],
+  "sentences": [
+   "The strategy was nebulous enough that every department read it as approval.",
+   "A nebulous complaint is impossible to answer and impossible to dismiss."
+  ]
+ },
+ "nefarious": {
+  "pos": "adjective",
+  "definition": "wicked and criminal",
+  "synonyms": [
+   "villainous",
+   "iniquitous",
+   "heinous"
+  ],
+  "antonyms": [
+   "virtuous",
+   "benign"
+  ],
+  "sentences": [
+   "The nefarious scheme required nine accomplices and collapsed under its own logistics.",
+   "Nefarious purposes are usually simpler and duller than the word suggests."
+  ]
+ },
+ "negate": {
+  "pos": "verb",
+  "definition": "to nullify or contradict",
+  "synonyms": [
+   "nullify",
+   "invalidate",
+   "cancel"
+  ],
+  "antonyms": [
+   "confirm",
+   "affirm"
+  ],
+  "sentences": [
+   "One line in the appendix negated the entire conclusion.",
+   "The gains were negated by an exchange rate nobody had modeled."
+  ]
+ },
+ "neglect": {
+  "pos": "noun",
+  "definition": "failure to give proper care",
+  "synonyms": [
+   "disregard",
+   "inattention",
+   "dereliction"
+  ],
+  "antonyms": [
+   "care",
+   "attention"
+  ],
+  "sentences": [
+   "The garden flourished under benign neglect and died under enthusiastic attention.",
+   "Neglect ruins buildings more thoroughly and more cheaply than vandalism."
+  ]
+ },
+ "negligent": {
+  "pos": "adjective",
+  "definition": "failing to take proper care",
+  "synonyms": [
+   "careless",
+   "remiss",
+   "derelict"
+  ],
+  "antonyms": [
+   "careful",
+   "conscientious"
+  ],
+  "sentences": [
+   "The court found the operator negligent in a way that four inspections had not.",
+   "Negligent is careless with legal consequences attached."
+  ]
+ },
+ "negligible": {
+  "pos": "adjective",
+  "definition": "too small to matter",
+  "synonyms": [
+   "insignificant",
+   "trifling",
+   "minimal"
+  ],
+  "antonyms": [
+   "significant",
+   "considerable"
+  ],
+  "sentences": [
+   "The risk was described as negligible by people who would not bear it.",
+   "A negligible daily cost becomes a substantial annual one."
+  ]
+ },
+ "neologism": {
+  "pos": "noun",
+  "definition": "a newly coined word",
+  "synonyms": [
+   "coinage",
+   "new term"
+  ],
+  "antonyms": [
+   "archaism"
+  ],
+  "sentences": [
+   "Every generation's neologisms are the next generation's plain English.",
+   "The neologism was mocked for a decade and printed in the dictionary in the eleventh year."
+  ]
+ },
+ "neophyte": {
+  "pos": "noun",
+  "definition": "a beginner",
+  "synonyms": [
+   "novice",
+   "tyro",
+   "initiate"
+  ],
+  "antonyms": [
+   "veteran",
+   "expert"
+  ],
+  "sentences": [
+   "The neophyte asked the question the veterans had stopped noticing.",
+   "Neophyte means newly planted, which is a gentler image than beginner."
+  ]
+ },
+ "net": {
+  "pos": "verb",
+  "definition": "to obtain or gain as clear profit",
+  "synonyms": [
+   "gain",
+   "clear",
+   "secure"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "sentences": [
+   "The sale netted less than the auction fees, which the family discovered afterward.",
+   "Six months of negotiation netted a single sentence of agreement."
+  ]
+ },
+ "nettle": {
+  "pos": "verb",
+  "definition": "to irritate or provoke",
+  "synonyms": [
+   "irritate",
+   "annoy",
+   "provoke"
+  ],
+  "antonyms": [
+   "soothe",
+   "please"
+  ],
+  "sentences": [
+   "The comparison to his predecessor visibly nettled him.",
+   "The plant stings and the verb has kept every bit of the sensation."
+  ]
+ },
+ "nettlesome": {
+  "pos": "adjective",
+  "definition": "causing irritation or difficulty",
+  "synonyms": [
+   "irksome",
+   "vexing",
+   "troublesome"
+  ],
+  "antonyms": [
+   "soothing",
+   "easy"
+  ],
+  "sentences": [
+   "The nettlesome question of who pays was deferred to a subcommittee.",
+   "A nettlesome detail in the contract delayed everything by three weeks."
+  ]
+ },
+ "neutralize": {
+  "pos": "verb",
+  "definition": "to counteract or make ineffective",
+  "synonyms": [
+   "counteract",
+   "nullify",
+   "offset"
+  ],
+  "antonyms": [
+   "reinforce",
+   "amplify"
+  ],
+  "sentences": [
+   "The acid was neutralized before anyone noticed the spill.",
+   "Their best striker was neutralized by a defender who simply never left him."
+  ]
+ },
+ "nevertheless": {
+  "pos": "adverb",
+  "definition": "in spite of that",
+  "synonyms": [
+   "nonetheless",
+   "however",
+   "still"
+  ],
+  "antonyms": [
+   "therefore"
+  ],
+  "sentences": [
+   "The evidence was thin; nevertheless, the policy went ahead.",
+   "Nevertheless is the hinge on which most academic paragraphs turn."
+  ]
+ },
+ "nexus": {
+  "pos": "noun",
+  "definition": "a central connection or link",
+  "synonyms": [
+   "link",
+   "hub",
+   "junction"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The city was the nexus of three trade routes and one very profitable tax.",
+   "The nexus between funding and findings is exactly what disclosure rules exist for."
+  ]
+ },
+ "nicety": {
+  "pos": "noun",
+  "definition": "a fine detail or subtle distinction",
+  "synonyms": [
+   "subtlety",
+   "refinement",
+   "detail"
+  ],
+  "antonyms": [
+   "crudeness"
+  ],
+  "sentences": [
+   "The niceties of protocol delayed a rescue by forty minutes.",
+   "He observed every nicety of etiquette and none of the deadlines."
+  ]
+ },
+ "nihilism": {
+  "pos": "noun",
+  "definition": "the belief that nothing has meaning or value",
+  "synonyms": [
+   "skepticism",
+   "negativism"
+  ],
+  "antonyms": [
+   "idealism",
+   "faith"
+  ],
+  "sentences": [
+   "The novel's nihilism is undercut by how carefully it is written.",
+   "Cheerful nihilism is more common than the philosophical kind and much easier to live with."
+  ]
+ },
+ "nihilist": {
+  "pos": "noun",
+  "definition": "one who rejects all values and meaning",
+  "synonyms": [
+   "skeptic",
+   "cynic"
+  ],
+  "antonyms": [
+   "idealist"
+  ],
+  "sentences": [
+   "The self-described nihilist showed up on time to every single meeting.",
+   "Nineteenth-century nihilists in Russia were revolutionaries first and philosophers second."
+  ]
+ },
+ "nimble": {
+  "pos": "adjective",
+  "definition": "quick and light in movement or thought",
+  "synonyms": [
+   "agile",
+   "deft",
+   "sprightly"
+  ],
+  "antonyms": [
+   "clumsy",
+   "sluggish"
+  ],
+  "sentences": [
+   "A nimble competitor took the market while the incumbent held a strategy retreat.",
+   "Nimble fingers and a nimble mind rarely arrive in the same person."
+  ]
+ },
+ "noble": {
+  "pos": "adjective",
+  "definition": "morally admirable; high-born",
+  "synonyms": [
+   "honorable",
+   "virtuous",
+   "aristocratic"
+  ],
+  "antonyms": [
+   "base",
+   "ignoble"
+  ],
+  "sentences": [
+   "It was a noble gesture and a catastrophic financial decision.",
+   "Noble gases refuse to react with anything, which is either aloofness or good taste."
+  ]
+ },
+ "noisome": {
+  "pos": "adjective",
+  "definition": "offensive, especially in smell",
+  "synonyms": [
+   "fetid",
+   "malodorous",
+   "noxious"
+  ],
+  "antonyms": [
+   "fragrant",
+   "pleasant"
+  ],
+  "sentences": [
+   "The noisome bins outside the window ended the summer of open windows.",
+   "Noisome has nothing to do with noise, which trips up nearly everyone."
+  ]
+ },
+ "nominal": {
+  "pos": "adjective",
+  "definition": "in name only; very small in amount",
+  "synonyms": [
+   "token",
+   "titular",
+   "minimal"
+  ],
+  "antonyms": [
+   "actual",
+   "substantial"
+  ],
+  "sentences": [
+   "He was the nominal head of a department that a deputy actually ran.",
+   "A nominal fee of one pound made the transfer legally a sale."
+  ]
+ },
+ "nonchalant": {
+  "pos": "adjective",
+  "definition": "casually unconcerned",
+  "synonyms": [
+   "insouciant",
+   "unruffled",
+   "offhand"
+  ],
+  "antonyms": [
+   "anxious",
+   "concerned"
+  ],
+  "sentences": [
+   "He was nonchalant about the deadline in a way that alarmed everyone else.",
+   "Nonchalant means literally not heating up, which is a nice image for cool."
+  ]
+ },
+ "nonentity": {
+  "pos": "noun",
+  "definition": "an unimportant person",
+  "synonyms": [
+   "nobody",
+   "cipher"
+  ],
+  "antonyms": [
+   "luminary",
+   "somebody"
+  ],
+  "sentences": [
+   "He was dismissed as a nonentity by people who worked for him within a decade.",
+   "The committee was chaired by a nonentity, which suited everybody with real interests."
+  ]
+ },
+ "nonplus": {
+  "pos": "verb",
+  "definition": "to leave utterly perplexed",
+  "synonyms": [
+   "baffle",
+   "confound",
+   "stump"
+  ],
+  "antonyms": [
+   "clarify"
+  ],
+  "sentences": [
+   "The question nonplussed a speaker who had answered forty harder ones.",
+   "Nonplus is Latin for \"no more,\" as in nothing further can be said."
+  ]
+ },
+ "nonplused": {
+  "pos": "adjective",
+  "definition": "completely perplexed",
+  "synonyms": [
+   "baffled",
+   "bewildered",
+   "flummoxed"
+  ],
+  "antonyms": [
+   "unfazed",
+   "clear"
+  ],
+  "sentences": [
+   "He looked nonplused for a second and then answered perfectly.",
+   "American usage has begun to make nonplused mean unbothered, which is the opposite."
+  ]
+ },
+ "nonplussed": {
+  "pos": "adjective",
+  "definition": "utterly perplexed",
+  "synonyms": [
+   "bewildered",
+   "puzzled",
+   "stumped"
+  ],
+  "antonyms": [
+   "composed",
+   "unruffled"
+  ],
+  "sentences": [
+   "The audience was nonplussed by an ending nobody could reconcile with the beginning.",
+   "Being nonplussed is a state in which no reply presents itself."
+  ]
+ },
+ "normative": {
+  "pos": "adjective",
+  "definition": "concerning what ought to be, not what is",
+  "synonyms": [
+   "prescriptive",
+   "evaluative"
+  ],
+  "antonyms": [
+   "descriptive"
+  ],
+  "sentences": [
+   "The paper slid from a descriptive claim to a normative one without warning.",
+   "Normative grammar tells you what to say; descriptive grammar records what people do."
+  ]
+ },
+ "nostrum": {
+  "pos": "noun",
+  "definition": "a dubious cure-all remedy",
+  "synonyms": [
+   "panacea",
+   "quack remedy",
+   "cure-all"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The conference offered nostrums for a problem nobody had diagnosed.",
+   "Every economic crisis produces a fresh supply of confident nostrums."
+  ]
+ },
+ "notion": {
+  "pos": "noun",
+  "definition": "an idea or belief, often vague",
+  "synonyms": [
+   "idea",
+   "concept",
+   "inkling"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "He had a notion that the archive held something, and he was right after eleven months.",
+   "The notion that meetings improve decisions has survived remarkably little evidence."
+  ]
+ },
+ "notoriety": {
+  "pos": "noun",
+  "definition": "fame for something bad",
+  "synonyms": [
+   "infamy",
+   "disrepute",
+   "ill fame"
+  ],
+  "antonyms": [
+   "esteem",
+   "obscurity"
+  ],
+  "sentences": [
+   "The book's notoriety did more for sales than any of its actual merits.",
+   "Notoriety is fame that arrives with a warning label."
+  ]
+ },
+ "notwithstanding": {
+  "pos": "adverb",
+  "definition": "in spite of",
+  "synonyms": [
+   "despite",
+   "regardless of"
+  ],
+  "antonyms": [
+   "because of"
+  ],
+  "sentences": [
+   "Notwithstanding the objections, the plan proceeded on schedule.",
+   "The clause begins \"notwithstanding anything to the contrary,\" which lawyers use to win in advance."
+  ]
+ },
+ "novel": {
+  "pos": "adjective",
+  "definition": "new and original",
+  "synonyms": [
+   "innovative",
+   "fresh",
+   "unprecedented"
+  ],
+  "antonyms": [
+   "familiar",
+   "conventional"
+  ],
+  "sentences": [
+   "The approach was novel in 1962 and is standard practice now.",
+   "A novel solution to an old problem usually means somebody read outside the field."
+  ]
+ },
+ "noxious": {
+  "pos": "adjective",
+  "definition": "harmful or poisonous",
+  "synonyms": [
+   "toxic",
+   "harmful",
+   "pernicious"
+  ],
+  "antonyms": [
+   "harmless",
+   "benign"
+  ],
+  "sentences": [
+   "Noxious fumes closed the road for a day and the factory for a decade.",
+   "The noxious atmosphere in the department outlasted three managers."
+  ]
+ },
+ "nuance": {
+  "pos": "noun",
+  "definition": "a subtle difference in meaning",
+  "synonyms": [
+   "subtlety",
+   "shade",
+   "distinction"
+  ],
+  "antonyms": [
+   "crudeness"
+  ],
+  "sentences": [
+   "The nuance was lost in translation and started an international incident.",
+   "Argument on the internet is the systematic destruction of nuance."
+  ]
+ },
+ "nullify": {
+  "pos": "verb",
+  "definition": "to make legally void or ineffective",
+  "synonyms": [
+   "invalidate",
+   "annul",
+   "void"
+  ],
+  "antonyms": [
+   "validate",
+   "ratify"
+  ],
+  "sentences": [
+   "A procedural error nullified two years of proceedings.",
+   "The gains were nullified by a change nobody had bothered to read."
+  ]
+ },
+ "numinous": {
+  "pos": "adjective",
+  "definition": "suggesting the presence of the divine",
+  "synonyms": [
+   "spiritual",
+   "transcendent",
+   "awe-inspiring"
+  ],
+  "antonyms": [
+   "mundane",
+   "secular"
+  ],
+  "sentences": [
+   "The cathedral at dusk has a numinous quality no photograph has captured.",
+   "Numinous describes the feeling that something larger is present, whatever you believe it is."
+  ]
+ },
+ "obdurate": {
+  "pos": "adjective",
+  "definition": "stubbornly refusing to change",
+  "synonyms": [
+   "obstinate",
+   "unyielding",
+   "intransigent"
+  ],
+  "antonyms": [
+   "yielding",
+   "tractable"
+  ],
+  "sentences": [
+   "The landlord was obdurate about the rent and vague about the boiler.",
+   "Obdurate means hardened, which is what happens to a position defended too long."
+  ]
+ },
+ "obeisance": {
+  "pos": "noun",
+  "definition": "deferential respect or a bow",
+  "synonyms": [
+   "homage",
+   "deference",
+   "submission"
+  ],
+  "antonyms": [
+   "defiance"
+  ],
+  "sentences": [
+   "The ritual obeisance to the founder opened every annual meeting.",
+   "Obeisance is deference performed where others can see it."
+  ]
+ },
+ "obfuscate": {
+  "pos": "verb",
+  "definition": "to deliberately make unclear",
+  "synonyms": [
+   "obscure",
+   "muddy",
+   "confuse"
+  ],
+  "antonyms": [
+   "clarify",
+   "elucidate"
+  ],
+  "sentences": [
+   "The report obfuscated a simple overspend across nine pages of tables.",
+   "To obfuscate is to darken, which is exactly the intent."
+  ]
+ },
+ "objective": {
+  "pos": "adjective",
+  "definition": "based on facts, not personal feelings",
+  "synonyms": [
+   "impartial",
+   "unbiased",
+   "detached"
+  ],
+  "antonyms": [
+   "subjective",
+   "biased"
+  ],
+  "sentences": [
+   "The objective account pleased nobody and has aged the best.",
+   "Being objective about your own work is a skill nobody fully acquires."
+  ]
+ },
+ "objurgate": {
+  "pos": "verb",
+  "definition": "to rebuke severely",
+  "synonyms": [
+   "berate",
+   "castigate",
+   "upbraid"
+  ],
+  "antonyms": [
+   "praise",
+   "commend"
+  ],
+  "sentences": [
+   "The editor objurgated the whole newsroom for an error one person had made.",
+   "Objurgate is scolding that has put on a very formal coat."
+  ]
+ },
+ "obliging": {
+  "pos": "adjective",
+  "definition": "eager to help",
+  "synonyms": [
+   "accommodating",
+   "helpful",
+   "amenable"
+  ],
+  "antonyms": [
+   "unhelpful",
+   "obstructive"
+  ],
+  "sentences": [
+   "The obliging librarian found in four minutes what the catalogue had hidden for years.",
+   "An obliging colleague ends up doing everyone's least favorite task."
+  ]
+ },
+ "oblique": {
+  "pos": "adjective",
+  "definition": "indirect or evasive",
+  "synonyms": [
+   "indirect",
+   "slanting",
+   "roundabout"
+  ],
+  "antonyms": [
+   "direct",
+   "straightforward"
+  ],
+  "sentences": [
+   "An oblique reference in the preface was the only acknowledgment she ever received.",
+   "He gave an oblique answer that was, on the fourth reading, a refusal."
+  ]
+ },
+ "oblivious": {
+  "pos": "adjective",
+  "definition": "completely unaware",
+  "synonyms": [
+   "unaware",
+   "heedless",
+   "insensible"
+  ],
+  "antonyms": [
+   "aware",
+   "conscious"
+  ],
+  "sentences": [
+   "He walked through the argument entirely oblivious that it concerned him.",
+   "Oblivious to the time, she worked until the cleaners arrived."
+  ]
+ },
+ "obloquy": {
+  "pos": "noun",
+  "definition": "strong public condemnation",
+  "synonyms": [
+   "vilification",
+   "opprobrium",
+   "disgrace"
+  ],
+  "antonyms": [
+   "praise",
+   "acclaim"
+  ],
+  "sentences": [
+   "The obloquy that followed the verdict lasted longer than the sentence did.",
+   "Obloquy is being spoken against, loudly and in public."
+  ]
+ },
+ "obscure": {
+  "pos": "verb",
+  "definition": "to make unclear or hide",
+  "synonyms": [
+   "conceal",
+   "cloud",
+   "veil"
+  ],
+  "antonyms": [
+   "reveal",
+   "clarify"
+  ],
+  "sentences": [
+   "The summary obscured a finding that the raw data made obvious.",
+   "Fog obscured the runway and the entire schedule with it."
+  ]
+ },
+ "obsequious": {
+  "pos": "adjective",
+  "definition": "excessively eager to please",
+  "synonyms": [
+   "servile",
+   "fawning",
+   "sycophantic"
+  ],
+  "antonyms": [
+   "assertive",
+   "insolent"
+  ],
+  "sentences": [
+   "The obsequious manner he used with superiors vanished the moment he faced staff.",
+   "Obsequious praise tells you about the speaker's fear, not your merit."
+  ]
+ },
+ "obsolete": {
+  "pos": "adjective",
+  "definition": "no longer in use or useful",
+  "synonyms": [
+   "outdated",
+   "antiquated",
+   "superseded"
+  ],
+  "antonyms": [
+   "current",
+   "modern"
+  ],
+  "sentences": [
+   "The format was obsolete within four years and the archive was on it.",
+   "Nothing is obsolete until the last person who can repair it retires."
+  ]
+ },
+ "obstinate": {
+  "pos": "adjective",
+  "definition": "stubbornly refusing to change course",
+  "synonyms": [
+   "stubborn",
+   "headstrong",
+   "obdurate"
+  ],
+  "antonyms": [
+   "flexible",
+   "compliant"
+  ],
+  "sentences": [
+   "The obstinate stain outlasted four cleaners and one carpet.",
+   "Obstinate about the wrong thing costs more than being wrong about it briefly."
+  ]
+ },
+ "obstreperous": {
+  "pos": "adjective",
+  "definition": "noisily and stubbornly unruly",
+  "synonyms": [
+   "unruly",
+   "boisterous",
+   "rowdy"
+  ],
+  "antonyms": [
+   "docile",
+   "quiet"
+  ],
+  "sentences": [
+   "An obstreperous minority delayed the vote by two hours and lost it anyway.",
+   "The obstreperous toddler on the flight was, in fairness, the most honest passenger."
+  ]
+ },
+ "obstructionist": {
+  "pos": "noun",
+  "definition": "one who deliberately blocks progress",
+  "synonyms": [
+   "blocker",
+   "saboteur"
+  ],
+  "antonyms": [
+   "facilitator"
+  ],
+  "sentences": [
+   "The obstructionists on the committee never voted no; they simply requested more information.",
+   "Every obstructionist describes themselves as prudent."
+  ]
+ },
+ "obtain": {
+  "pos": "verb",
+  "definition": "to acquire; to be in force",
+  "synonyms": [
+   "acquire",
+   "procure",
+   "prevail"
+  ],
+  "antonyms": [
+   "lose",
+   "forfeit"
+  ],
+  "sentences": [
+   "The same rules obtain in both jurisdictions, which is unusual and convenient.",
+   "He obtained a copy from an archive that officially had none."
+  ]
+ },
+ "obtrude": {
+  "pos": "verb",
+  "definition": "to impose oneself unwelcomely",
+  "synonyms": [
+   "intrude",
+   "impose",
+   "encroach"
+  ],
+  "antonyms": [
+   "withdraw",
+   "retire"
+  ],
+  "sentences": [
+   "He obtruded his opinion into a conversation that had been going well.",
+   "The scaffolding obtrudes on a view the guidebook still prints."
+  ]
+ },
+ "obtuse": {
+  "pos": "adjective",
+  "definition": "slow to understand; insensitive",
+  "synonyms": [
+   "dense",
+   "slow-witted",
+   "insensitive"
+  ],
+  "antonyms": [
+   "astute",
+   "perceptive"
+  ],
+  "sentences": [
+   "He was being deliberately obtuse, which is more irritating than being genuinely slow.",
+   "An obtuse angle is blunt, and so is the insult."
+  ]
+ },
+ "obviate": {
+  "pos": "verb",
+  "definition": "to remove the need for",
+  "synonyms": [
+   "preclude",
+   "avert",
+   "forestall"
+  ],
+  "antonyms": [
+   "necessitate"
+  ],
+  "sentences": [
+   "A single sentence in the contract obviated three years of potential litigation.",
+   "Good design obviates the instruction manual."
+  ]
+ },
+ "occlude": {
+  "pos": "verb",
+  "definition": "to block or obstruct",
+  "synonyms": [
+   "block",
+   "obstruct",
+   "close"
+  ],
+  "antonyms": [
+   "open",
+   "clear"
+  ],
+  "sentences": [
+   "The artery was partially occluded, which explained everything the patient had ignored.",
+   "Cloud occluded the eclipse for everyone except one field in Cornwall."
+  ]
+ },
+ "occult": {
+  "pos": "adjective",
+  "definition": "hidden and mysterious",
+  "synonyms": [
+   "esoteric",
+   "arcane",
+   "hidden"
+  ],
+  "antonyms": [
+   "obvious",
+   "manifest"
+  ],
+  "sentences": [
+   "The occult meaning of the poem was invented entirely by its critics.",
+   "In medicine, occult blood is simply blood you cannot see."
+  ]
+ },
+ "odious": {
+  "pos": "adjective",
+  "definition": "extremely unpleasant; repulsive",
+  "synonyms": [
+   "detestable",
+   "abhorrent",
+   "loathsome"
+  ],
+  "antonyms": [
+   "delightful",
+   "agreeable"
+  ],
+  "sentences": [
+   "Comparisons are odious, says the proverb, usually quoted by whoever came second.",
+   "The odious task of firing the team fell to the one person who had defended it."
+  ]
+ },
+ "odium": {
+  "pos": "noun",
+  "definition": "widespread hatred or disgust",
+  "synonyms": [
+   "opprobrium",
+   "revulsion",
+   "disgrace"
+  ],
+  "antonyms": [
+   "esteem",
+   "approval"
+  ],
+  "sentences": [
+   "The odium attached to the decision outlived everyone who had made it.",
+   "He accepted the odium of the unpopular reform and the credit for none of its benefits."
+  ]
+ },
+ "offhand": {
+  "pos": "adjective",
+  "definition": "casual and without preparation",
+  "synonyms": [
+   "impromptu",
+   "casual",
+   "curt"
+  ],
+  "antonyms": [
+   "considered",
+   "deliberate"
+  ],
+  "sentences": [
+   "An offhand remark in the corridor became the department's policy for six years.",
+   "His offhand manner made people think he had not prepared, which he had, obsessively."
+  ]
+ },
+ "officious": {
+  "pos": "adjective",
+  "definition": "annoyingly eager to give orders",
+  "synonyms": [
+   "meddlesome",
+   "interfering",
+   "bossy"
+  ],
+  "antonyms": [
+   "unobtrusive",
+   "helpful"
+  ],
+  "sentences": [
+   "An officious steward moved four people who were in exactly the right seats.",
+   "Officious is not official: one is meddling, the other is authorized."
+  ]
+ },
+ "offset": {
+  "pos": "verb",
+  "definition": "to counterbalance",
+  "synonyms": [
+   "counterbalance",
+   "compensate",
+   "counteract"
+  ],
+  "antonyms": [
+   "compound",
+   "aggravate"
+  ],
+  "sentences": [
+   "The savings were offset entirely by the cost of achieving them.",
+   "Planting trees to offset a flight is arithmetic that works better on paper."
+  ]
+ },
+ "olfactory": {
+  "pos": "adjective",
+  "definition": "relating to the sense of smell",
+  "synonyms": [
+   "nasal",
+   "scent-related"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Olfactory memory bypasses reason entirely, which is why one smell can undo a decade.",
+   "The olfactory bulb sits closer to the memory centers than any other sense's wiring."
+  ]
+ },
+ "ominous": {
+  "pos": "adjective",
+  "definition": "suggesting something bad is coming",
+  "synonyms": [
+   "foreboding",
+   "portentous",
+   "menacing"
+  ],
+  "antonyms": [
+   "auspicious",
+   "promising"
+  ],
+  "sentences": [
+   "The ominous silence from the supplier lasted three days and then explained itself.",
+   "An ominous sky over a cricket match is the most English form of suspense."
+  ]
+ },
+ "omnipresent": {
+  "pos": "adjective",
+  "definition": "present everywhere at once",
+  "synonyms": [
+   "ubiquitous",
+   "pervasive",
+   "universal"
+  ],
+  "antonyms": [
+   "scarce",
+   "absent"
+  ],
+  "sentences": [
+   "The advertisement was omnipresent for a month and forgotten by the next one.",
+   "Dust in that workshop was omnipresent and, the owner insisted, structural."
+  ]
+ },
+ "omniscience": {
+  "pos": "noun",
+  "definition": "the state of knowing everything",
+  "synonyms": [
+   "all-knowingness"
+  ],
+  "antonyms": [
+   "ignorance"
+  ],
+  "sentences": [
+   "The narrator's omniscience is what lets the novel see four rooms at once.",
+   "Committee members occasionally mistake seniority for omniscience."
+  ]
+ },
+ "omniscient": {
+  "pos": "adjective",
+  "definition": "knowing everything",
+  "synonyms": [
+   "all-knowing",
+   "all-seeing"
+  ],
+  "antonyms": [
+   "ignorant",
+   "limited"
+  ],
+  "sentences": [
+   "The omniscient narrator tells you what the dog is thinking, which is the whole appeal.",
+   "Nobody is omniscient, though the tone of certain emails suggests otherwise."
+  ]
+ },
+ "onerous": {
+  "pos": "adjective",
+  "definition": "involving a heavy burden",
+  "synonyms": [
+   "burdensome",
+   "arduous",
+   "taxing"
+  ],
+  "antonyms": [
+   "easy",
+   "light"
+  ],
+  "sentences": [
+   "The onerous reporting requirements consumed more time than the work being reported.",
+   "An onerous clause is one that only becomes visible when invoked."
+  ]
+ },
+ "onset": {
+  "pos": "noun",
+  "definition": "the beginning of something, often unpleasant",
+  "synonyms": [
+   "start",
+   "commencement",
+   "outbreak"
+  ],
+  "antonyms": [
+   "end",
+   "conclusion"
+  ],
+  "sentences": [
+   "The onset of symptoms was gradual enough that nobody dated it correctly.",
+   "At the onset of winter the pipes announced their opinions."
+  ]
+ },
+ "opaque": {
+  "pos": "adjective",
+  "definition": "not transparent; hard to understand",
+  "synonyms": [
+   "impenetrable",
+   "obscure",
+   "murky"
+  ],
+  "antonyms": [
+   "transparent",
+   "lucid"
+  ],
+  "sentences": [
+   "The pricing structure was deliberately opaque and profitable for exactly that reason.",
+   "His motives remained opaque to colleagues who had known him for twenty years."
+  ]
+ },
+ "opine": {
+  "pos": "verb",
+  "definition": "to state an opinion",
+  "synonyms": [
+   "declare",
+   "pronounce",
+   "remark"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "He opined at length on a subject he had encountered that morning.",
+   "The columnist opines; the reporter reports. Readers rarely distinguish them."
+  ]
+ },
+ "opportunism": {
+  "pos": "noun",
+  "definition": "exploiting chances without regard to principle",
+  "synonyms": [
+   "expediency",
+   "self-interest"
+  ],
+  "antonyms": [
+   "principle",
+   "integrity"
+  ],
+  "sentences": [
+   "The sudden conversion to the cause was opportunism with excellent timing.",
+   "Opportunism is called agility when it succeeds."
+  ]
+ },
+ "oppress": {
+  "pos": "verb",
+  "definition": "to keep down by unjust force",
+  "synonyms": [
+   "subjugate",
+   "repress",
+   "tyrannize"
+  ],
+  "antonyms": [
+   "liberate",
+   "free"
+  ],
+  "sentences": [
+   "The regime oppressed a minority for forty years and denied it for fifty.",
+   "The heat oppressed the whole city until the storm on Thursday."
+  ]
+ },
+ "opprobrium": {
+  "pos": "noun",
+  "definition": "harsh public disgrace and criticism",
+  "synonyms": [
+   "disgrace",
+   "obloquy",
+   "condemnation"
+  ],
+  "antonyms": [
+   "praise",
+   "honor"
+  ],
+  "sentences": [
+   "The opprobrium heaped on the decision made reversing it impossible.",
+   "Opprobrium in the press lasts a week; opprobrium in a small town lasts generations."
+  ]
+ },
+ "optimal": {
+  "pos": "adjective",
+  "definition": "best possible under the circumstances",
+  "synonyms": [
+   "ideal",
+   "best",
+   "optimum"
+  ],
+  "antonyms": [
+   "suboptimal",
+   "worst"
+  ],
+  "sentences": [
+   "The optimal route existed only in a model with no traffic and no weather.",
+   "Optimal is not the same as good; it is merely the best available."
+  ]
+ },
+ "optimum": {
+  "pos": "noun",
+  "definition": "the most favorable condition or amount",
+  "synonyms": [
+   "best",
+   "peak",
+   "ideal"
+  ],
+  "antonyms": [
+   "worst"
+  ],
+  "sentences": [
+   "The optimum for growth turned out to be three degrees cooler than assumed.",
+   "Somewhere between too little and too much lies an optimum nobody has measured."
+  ]
+ },
+ "opulence": {
+  "pos": "noun",
+  "definition": "great wealth and luxury",
+  "synonyms": [
+   "luxury",
+   "affluence",
+   "splendor"
+  ],
+  "antonyms": [
+   "poverty",
+   "austerity"
+  ],
+  "sentences": [
+   "The opulence of the lobby was funded by the austerity of every other floor.",
+   "Opulence photographs beautifully and is exhausting to live in."
+  ]
+ },
+ "opulent": {
+  "pos": "adjective",
+  "definition": "luxurious and richly appointed",
+  "synonyms": [
+   "sumptuous",
+   "lavish",
+   "palatial"
+  ],
+  "antonyms": [
+   "spartan",
+   "plain"
+  ],
+  "sentences": [
+   "The opulent dining room seated forty and was used twice a year.",
+   "Opulent taste on a modest budget produces something worse than either."
+  ]
+ },
+ "oration": {
+  "pos": "noun",
+  "definition": "a formal speech",
+  "synonyms": [
+   "address",
+   "speech",
+   "discourse"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The funeral oration lasted forty minutes and mentioned the deceased for six.",
+   "A great oration changes a room; a good memo changes a policy."
+  ]
+ },
+ "oratorio": {
+  "pos": "noun",
+  "definition": "a large sacred musical work for voices and orchestra",
+  "synonyms": [
+   "cantata",
+   "sacred work"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The oratorio requires two hundred performers and is staged, therefore, at Christmas.",
+   "An oratorio is an opera that stands still, which suits its subject matter."
+  ]
+ },
+ "ordain": {
+  "pos": "verb",
+  "definition": "to decree officially; to confer holy orders",
+  "synonyms": [
+   "decree",
+   "prescribe",
+   "consecrate"
+  ],
+  "antonyms": [
+   "revoke"
+  ],
+  "sentences": [
+   "The charter ordained that the fund could never be spent, only its interest.",
+   "She was ordained in a chapel that had opposed ordaining women for a century."
+  ]
+ },
+ "ornate": {
+  "pos": "adjective",
+  "definition": "elaborately decorated",
+  "synonyms": [
+   "elaborate",
+   "baroque",
+   "florid"
+  ],
+  "antonyms": [
+   "plain",
+   "austere"
+  ],
+  "sentences": [
+   "The ornate ceiling distracted from a room that was otherwise badly proportioned.",
+   "His ornate prose takes three clauses to admit it does not know."
+  ]
+ },
+ "ornery": {
+  "pos": "adjective",
+  "definition": "bad-tempered and uncooperative",
+  "synonyms": [
+   "cantankerous",
+   "irascible",
+   "stubborn"
+  ],
+  "antonyms": [
+   "amiable",
+   "cooperative"
+  ],
+  "sentences": [
+   "The ornery old boiler worked perfectly whenever the engineer was in the room.",
+   "Ornery is a worn-down pronunciation of \"ordinary,\" which is a strange journey for a word."
+  ]
+ },
+ "orotund": {
+  "pos": "adjective",
+  "definition": "pompous and full-sounding",
+  "synonyms": [
+   "grandiloquent",
+   "bombastic",
+   "sonorous"
+  ],
+  "antonyms": [
+   "plainspoken",
+   "thin"
+  ],
+  "sentences": [
+   "His orotund delivery made a weather forecast sound like a state funeral.",
+   "Orotund means round-mouthed, which is exactly what the voice is doing."
+  ]
+ },
+ "orthodox": {
+  "pos": "adjective",
+  "definition": "conforming to established belief",
+  "synonyms": [
+   "conventional",
+   "traditional",
+   "accepted"
+  ],
+  "antonyms": [
+   "heterodox",
+   "unorthodox"
+  ],
+  "sentences": [
+   "The orthodox treatment worked for most patients and nobody investigated the rest.",
+   "Today's orthodox position was somebody's heresy within living memory."
+  ]
+ },
+ "oscillate": {
+  "pos": "verb",
+  "definition": "to swing back and forth; to waver",
+  "synonyms": [
+   "fluctuate",
+   "vacillate",
+   "swing"
+  ],
+  "antonyms": [
+   "settle",
+   "stabilize"
+  ],
+  "sentences": [
+   "Policy oscillated between two positions for four years and arrived at neither.",
+   "He oscillated between confidence and panic on roughly a nine-day cycle."
+  ]
+ },
+ "ossify": {
+  "pos": "verb",
+  "definition": "to become rigid and unchangeable",
+  "synonyms": [
+   "harden",
+   "fossilize",
+   "stagnate"
+  ],
+  "antonyms": [
+   "adapt",
+   "evolve"
+  ],
+  "sentences": [
+   "The guidelines ossified into rules that nobody could remember the reason for.",
+   "Cartilage ossifies into bone, and so, apparently, do committees."
+  ]
+ },
+ "ostensible": {
+  "pos": "adjective",
+  "definition": "apparent but perhaps not genuine",
+  "synonyms": [
+   "apparent",
+   "purported",
+   "supposed"
+  ],
+  "antonyms": [
+   "actual",
+   "genuine"
+  ],
+  "sentences": [
+   "The ostensible reason was cost; the actual reason was in an email from March.",
+   "The ostensible leader was chairing the meeting; the real one was taking notes."
+  ]
+ },
+ "ostensive": {
+  "pos": "adjective",
+  "definition": "directly demonstrating by pointing",
+  "synonyms": [
+   "demonstrative",
+   "indicative"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Children learn nouns ostensively: someone points and says the word.",
+   "An ostensive definition works for \"red\" and fails badly for \"justice.\""
+  ]
+ },
+ "ostentatious": {
+  "pos": "adjective",
+  "definition": "showy in an attempt to impress",
+  "synonyms": [
+   "flashy",
+   "pretentious",
+   "flamboyant"
+  ],
+  "antonyms": [
+   "understated",
+   "modest"
+  ],
+  "sentences": [
+   "The ostentatious watch told everyone the time and one other thing.",
+   "Ostentatious modesty is the most expensive kind of showing off."
+  ]
+ },
+ "ostracism": {
+  "pos": "noun",
+  "definition": "exclusion from a group",
+  "synonyms": [
+   "exclusion",
+   "banishment",
+   "shunning"
+  ],
+  "antonyms": [
+   "acceptance",
+   "inclusion"
+  ],
+  "sentences": [
+   "Ostracism in Athens was voted on with broken pottery and lasted ten years.",
+   "Social ostracism does the work that formal punishment cannot."
+  ]
+ },
+ "ostracize": {
+  "pos": "verb",
+  "definition": "to exclude from a group",
+  "synonyms": [
+   "shun",
+   "exclude",
+   "blackball"
+  ],
+  "antonyms": [
+   "welcome",
+   "embrace"
+  ],
+  "sentences": [
+   "He was ostracized for reporting the fraud and vindicated four years later.",
+   "To ostracize someone slowly is crueler than doing it at once."
+  ]
+ },
+ "oust": {
+  "pos": "verb",
+  "definition": "to force out of a position",
+  "synonyms": [
+   "expel",
+   "depose",
+   "unseat"
+  ],
+  "antonyms": [
+   "install",
+   "appoint"
+  ],
+  "sentences": [
+   "The founder was ousted by a board he had personally chosen.",
+   "Ousting a leader is easy; deciding on the next one is where it fails."
+  ]
+ },
+ "outlandish": {
+  "pos": "adjective",
+  "definition": "bizarre and unconventional",
+  "synonyms": [
+   "bizarre",
+   "eccentric",
+   "preposterous"
+  ],
+  "antonyms": [
+   "ordinary",
+   "conventional"
+  ],
+  "sentences": [
+   "The outlandish claim turned out to be true, which is the worst outcome for a skeptic.",
+   "Outlandish once meant simply foreign, which says a good deal about history."
+  ]
+ },
+ "outskirts": {
+  "pos": "noun",
+  "definition": "the outer edges of a town",
+  "synonyms": [
+   "periphery",
+   "fringes",
+   "suburbs"
+  ],
+  "antonyms": [
+   "center",
+   "core"
+  ],
+  "sentences": [
+   "The factory was built on the outskirts and the town grew around it within a generation.",
+   "Everything interesting in that city happens on the outskirts."
+  ]
+ },
+ "outstrip": {
+  "pos": "verb",
+  "definition": "to surpass or exceed",
+  "synonyms": [
+   "exceed",
+   "surpass",
+   "eclipse"
+  ],
+  "antonyms": [
+   "lag",
+   "trail"
+  ],
+  "sentences": [
+   "Demand outstripped supply within a week and the price tripled.",
+   "Her ambition outstripped the job, which everyone but the employer noticed."
+  ]
+ },
+ "overbearing": {
+  "pos": "adjective",
+  "definition": "domineering and arrogant",
+  "synonyms": [
+   "domineering",
+   "imperious",
+   "high-handed"
+  ],
+  "antonyms": [
+   "deferential",
+   "meek"
+  ],
+  "sentences": [
+   "An overbearing chair turns a committee into an audience.",
+   "He was overbearing in meetings and, oddly, courteous in writing."
+  ]
+ },
+ "overshadow": {
+  "pos": "verb",
+  "definition": "to make seem less important",
+  "synonyms": [
+   "eclipse",
+   "outshine",
+   "dwarf"
+  ],
+  "antonyms": [
+   "highlight",
+   "showcase"
+  ],
+  "sentences": [
+   "The scandal overshadowed a budget that was, for once, genuinely interesting.",
+   "Her older brother's record overshadowed a career that was, on the numbers, better."
+  ]
+ },
+ "overt": {
+  "pos": "adjective",
+  "definition": "done openly; not hidden",
+  "synonyms": [
+   "open",
+   "manifest",
+   "undisguised"
+  ],
+  "antonyms": [
+   "covert",
+   "hidden"
+  ],
+  "sentences": [
+   "There was no overt threat, which is what made the letter so effective.",
+   "Overt discrimination is rarer and easier to prove than the other kind."
+  ]
+ },
+ "overweening": {
+  "pos": "adjective",
+  "definition": "arrogantly excessive",
+  "synonyms": [
+   "arrogant",
+   "presumptuous",
+   "immoderate"
+  ],
+  "antonyms": [
+   "modest",
+   "restrained"
+  ],
+  "sentences": [
+   "His overweening confidence survived four failures and did not survive the fifth.",
+   "Overweening ambition is the standard diagnosis for anyone who tried and missed."
+  ]
+ },
+ "overwrought": {
+  "pos": "adjective",
+  "definition": "agitated; or overly elaborate",
+  "synonyms": [
+   "frantic",
+   "overexcited",
+   "ornate"
+  ],
+  "antonyms": [
+   "calm",
+   "restrained"
+  ],
+  "sentences": [
+   "The overwrought prose in the final chapter undoes the restraint of the first ten.",
+   "She was overwrought by midnight and entirely composed by the hearing."
+  ]
+ },
+ "pacifist": {
+  "pos": "noun",
+  "definition": "one opposed to war and violence",
+  "synonyms": [
+   "peacemaker",
+   "conscientious objector"
+  ],
+  "antonyms": [
+   "militarist",
+   "hawk"
+  ],
+  "sentences": [
+   "The pacifist served four years driving ambulances under fire.",
+   "Being a pacifist in wartime requires a different courage, and usually a prison sentence."
+  ]
+ },
+ "pacify": {
+  "pos": "verb",
+  "definition": "to calm or subdue",
+  "synonyms": [
+   "placate",
+   "appease",
+   "quell"
+  ],
+  "antonyms": [
+   "provoke",
+   "agitate"
+  ],
+  "sentences": [
+   "A biscuit pacified the toddler and postponed the argument by nine minutes.",
+   "The region was pacified, which is a word armies use for something else entirely."
+  ]
+ },
+ "paean": {
+  "pos": "noun",
+  "definition": "a song or expression of praise",
+  "synonyms": [
+   "hymn",
+   "tribute",
+   "eulogy"
+  ],
+  "antonyms": [
+   "diatribe",
+   "dirge"
+  ],
+  "sentences": [
+   "The review was less criticism than paean, which made readers suspicious.",
+   "The book is a paean to a landscape that has since been built on."
+  ]
+ },
+ "painstaking": {
+  "pos": "adjective",
+  "definition": "done with great care and effort",
+  "synonyms": [
+   "meticulous",
+   "thorough",
+   "assiduous"
+  ],
+  "antonyms": [
+   "careless",
+   "slapdash"
+  ],
+  "sentences": [
+   "Painstaking reconstruction of the wreck took nine years and answered the question in one paragraph.",
+   "Painstaking work looks effortless, which is why it is so poorly rewarded."
+  ]
+ },
+ "palatable": {
+  "pos": "adjective",
+  "definition": "acceptable in taste or to the mind",
+  "synonyms": [
+   "agreeable",
+   "acceptable",
+   "tasty"
+  ],
+  "antonyms": [
+   "unpalatable",
+   "objectionable"
+  ],
+  "sentences": [
+   "The truth was made palatable by being delivered in the third person.",
+   "Hospital food is designed to be palatable and manages, at best, to be warm."
+  ]
+ },
+ "palatial": {
+  "pos": "adjective",
+  "definition": "spacious and splendid like a palace",
+  "synonyms": [
+   "grand",
+   "opulent",
+   "magnificent"
+  ],
+  "antonyms": [
+   "cramped",
+   "modest"
+  ],
+  "sentences": [
+   "After the shared office, a room with a door felt palatial.",
+   "The palatial headquarters were completed a year before the layoffs began."
+  ]
+ },
+ "palaver": {
+  "pos": "noun",
+  "definition": "prolonged idle discussion or fuss",
+  "synonyms": [
+   "fuss",
+   "prattle",
+   "rigmarole"
+  ],
+  "antonyms": [
+   "conciseness"
+  ],
+  "sentences": [
+   "After all the palaver about the venue, the meeting was held online.",
+   "The palaver of the visa process took longer than the trip itself."
+  ]
+ },
+ "palimpsest": {
+  "pos": "noun",
+  "definition": "something reused with traces of what came before",
+  "synonyms": [
+   "overwriting",
+   "layered manuscript"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The city is a palimpsest: Roman road, medieval lane, Victorian sewer, modern cycle path.",
+   "Archimedes' lost treatise survived because a monk scraped the parchment and wrote prayers over it."
+  ]
+ },
+ "pall": {
+  "pos": "noun",
+  "definition": "an atmosphere of gloom",
+  "synonyms": [
+   "gloom",
+   "shadow",
+   "cloud"
+  ],
+  "antonyms": [
+   "cheer"
+  ],
+  "sentences": [
+   "The news cast a pall over a celebration that had been planned for a year.",
+   "A pall is the cloth over a coffin, which is where the gloom comes from."
+  ]
+ },
+ "palliate": {
+  "pos": "verb",
+  "definition": "to relieve symptoms without curing",
+  "synonyms": [
+   "alleviate",
+   "mitigate",
+   "ease"
+  ],
+  "antonyms": [
+   "cure",
+   "aggravate"
+  ],
+  "sentences": [
+   "The grant palliated the crisis and left every underlying cause untouched.",
+   "Palliative care treats the person when the disease can no longer be treated."
+  ]
+ },
+ "pallid": {
+  "pos": "adjective",
+  "definition": "pale; lacking vitality",
+  "synonyms": [
+   "wan",
+   "ashen",
+   "insipid"
+  ],
+  "antonyms": [
+   "ruddy",
+   "vibrant"
+  ],
+  "sentences": [
+   "The pallid imitation made everyone appreciate the original.",
+   "He looked pallid under the strip lighting, as everybody does."
+  ]
+ },
+ "palpable": {
+  "pos": "adjective",
+  "definition": "so intense as to seem touchable",
+  "synonyms": [
+   "tangible",
+   "perceptible",
+   "unmistakable"
+  ],
+  "antonyms": [
+   "imperceptible",
+   "intangible"
+  ],
+  "sentences": [
+   "The relief in the room was palpable and lasted about four minutes.",
+   "Palpable means literally able to be felt by hand, which doctors still use it for."
+  ]
+ },
+ "palpitate": {
+  "pos": "verb",
+  "definition": "to beat rapidly and irregularly",
+  "synonyms": [
+   "throb",
+   "flutter",
+   "pound"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "His heart palpitated at the sight of the envelope, which contained a leaflet.",
+   "The word is used mainly by hearts and by people describing hearts."
+  ]
+ },
+ "panacea": {
+  "pos": "noun",
+  "definition": "a supposed cure for all problems",
+  "synonyms": [
+   "cure-all",
+   "nostrum",
+   "remedy"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "Technology was offered as a panacea and delivered a slightly faster version of the same problem.",
+   "Panacea was the Greek goddess of universal remedy, and business is still invoking her."
+  ]
+ },
+ "panache": {
+  "pos": "noun",
+  "definition": "flamboyant confidence and style",
+  "synonyms": [
+   "flair",
+   "verve",
+   "dash"
+  ],
+  "antonyms": [
+   "dullness",
+   "timidity"
+  ],
+  "sentences": [
+   "She handled the collapse with a panache that made the story bearable.",
+   "Panache was originally a plume on a helmet, worn to be seen."
+  ]
+ },
+ "panegyric": {
+  "pos": "noun",
+  "definition": "elaborate formal praise",
+  "synonyms": [
+   "eulogy",
+   "encomium",
+   "tribute"
+  ],
+  "antonyms": [
+   "diatribe",
+   "criticism"
+  ],
+  "sentences": [
+   "The introduction was a panegyric so long the speaker had to shorten his talk.",
+   "A panegyric tells you more about the occasion than about its subject."
+  ]
+ },
+ "panoply": {
+  "pos": "noun",
+  "definition": "a complete and impressive array",
+  "synonyms": [
+   "array",
+   "display",
+   "spectrum"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The full panoply of state ceremony was deployed for a visit lasting ninety minutes.",
+   "A panoply was originally a complete suit of armor."
+  ]
+ },
+ "parable": {
+  "pos": "noun",
+  "definition": "a short story with a moral lesson",
+  "synonyms": [
+   "allegory",
+   "fable",
+   "moral tale"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The whole affair became a parable about what happens when nobody reads the contract.",
+   "A parable teaches by indirection, which is why the lesson sticks."
+  ]
+ },
+ "paradigm": {
+  "pos": "noun",
+  "definition": "a model or typical framework",
+  "synonyms": [
+   "model",
+   "framework",
+   "exemplar"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The old paradigm explained everything except the results that mattered.",
+   "A paradigm shift is announced far more often than it occurs."
+  ]
+ },
+ "paradigmatic": {
+  "pos": "adjective",
+  "definition": "serving as a typical example",
+  "synonyms": [
+   "exemplary",
+   "typical",
+   "archetypal"
+  ],
+  "antonyms": [
+   "atypical",
+   "anomalous"
+  ],
+  "sentences": [
+   "The case is paradigmatic: good intentions, no budget, and one very tired coordinator.",
+   "A paradigmatic example is the one that teaches the pattern."
+  ]
+ },
+ "paradox": {
+  "pos": "noun",
+  "definition": "a seemingly contradictory truth",
+  "synonyms": [
+   "contradiction",
+   "puzzle",
+   "anomaly"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The paradox of the plan was that success would make it unnecessary and unfundable.",
+   "A paradox is a truth standing on its head to get attention."
+  ]
+ },
+ "paradoxical": {
+  "pos": "adjective",
+  "definition": "seemingly contradictory yet true",
+  "synonyms": [
+   "contradictory",
+   "incongruous",
+   "self-contradictory"
+  ],
+  "antonyms": [
+   "consistent",
+   "straightforward"
+  ],
+  "sentences": [
+   "It is paradoxical that adding a lane to the motorway lengthens the journey.",
+   "The paradoxical result held up under three replications and one furious rebuttal."
+  ]
+ },
+ "paragon": {
+  "pos": "noun",
+  "definition": "a perfect example of a quality",
+  "synonyms": [
+   "exemplar",
+   "model",
+   "epitome"
+  ],
+  "antonyms": [
+   "failure"
+  ],
+  "sentences": [
+   "He was held up as a paragon of prudence right until the audit.",
+   "Nobody wants to work beside a paragon."
+  ]
+ },
+ "paraphernalia": {
+  "pos": "noun",
+  "definition": "miscellaneous equipment and belongings",
+  "synonyms": [
+   "equipment",
+   "gear",
+   "trappings"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The paraphernalia of the hobby filled a garage and cost more than the car.",
+   "All the paraphernalia of office arrived before the actual authority did."
+  ]
+ },
+ "pare": {
+  "pos": "verb",
+  "definition": "to trim or reduce gradually",
+  "synonyms": [
+   "trim",
+   "whittle",
+   "curtail"
+  ],
+  "antonyms": [
+   "expand",
+   "augment"
+  ],
+  "sentences": [
+   "The budget was pared until only the parts nobody could defend remained.",
+   "He pared the essay to half its length and doubled its force."
+  ]
+ },
+ "parenthetical": {
+  "pos": "adjective",
+  "definition": "inserted as an aside",
+  "synonyms": [
+   "incidental",
+   "aside",
+   "digressive"
+  ],
+  "antonyms": [
+   "central",
+   "essential"
+  ],
+  "sentences": [
+   "The parenthetical remark was the only honest sentence in the report.",
+   "His parenthetical asides ran longer than the main clause they interrupted."
+  ]
+ },
+ "pariah": {
+  "pos": "noun",
+  "definition": "a social outcast",
+  "synonyms": [
+   "outcast",
+   "untouchable",
+   "leper"
+  ],
+  "antonyms": [
+   "favorite",
+   "insider"
+  ],
+  "sentences": [
+   "He became a pariah in the industry and a hero in one small town.",
+   "The company was a pariah for two years and an acquisition target in the third."
+  ]
+ },
+ "parity": {
+  "pos": "noun",
+  "definition": "equality in status or amount",
+  "synonyms": [
+   "equality",
+   "equivalence",
+   "par"
+  ],
+  "antonyms": [
+   "disparity",
+   "inequality"
+  ],
+  "sentences": [
+   "Pay parity was promised in 2009 and audited, for the first time, in 2021.",
+   "The currency reached parity with the dollar and the headlines reached hysteria."
+  ]
+ },
+ "parley": {
+  "pos": "noun",
+  "definition": "a discussion between opponents",
+  "synonyms": [
+   "negotiation",
+   "talks",
+   "conference"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "A parley was arranged on a bridge that belonged to neither side.",
+   "The parley lasted an hour and the ceasefire lasted three days."
+  ]
+ },
+ "parochial": {
+  "pos": "adjective",
+  "definition": "narrow in outlook; local",
+  "synonyms": [
+   "provincial",
+   "insular",
+   "narrow-minded"
+  ],
+  "antonyms": [
+   "cosmopolitan",
+   "broad-minded"
+  ],
+  "sentences": [
+   "The debate was parochial: four streets arguing while the region emptied.",
+   "Parochial means of the parish, which is precisely the scale of the concern."
+  ]
+ },
+ "parody": {
+  "pos": "noun",
+  "definition": "a humorous imitation",
+  "synonyms": [
+   "spoof",
+   "burlesque",
+   "send-up"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "The parody was funnier than the original and, unfortunately, indistinguishable from it.",
+   "By the fourth season the show had become a parody of itself."
+  ]
+ },
+ "parry": {
+  "pos": "verb",
+  "definition": "to deflect or evade",
+  "synonyms": [
+   "deflect",
+   "fend off",
+   "sidestep"
+  ],
+  "antonyms": [
+   "confront",
+   "absorb"
+  ],
+  "sentences": [
+   "She parried the question with another question and the interview moved on.",
+   "He parried three attacks and lost to the fourth, which was a chair."
+  ]
+ },
+ "parsimonious": {
+  "pos": "adjective",
+  "definition": "extremely unwilling to spend",
+  "synonyms": [
+   "stingy",
+   "miserly",
+   "frugal"
+  ],
+  "antonyms": [
+   "generous",
+   "lavish"
+  ],
+  "sentences": [
+   "The parsimonious grant covered travel to the archive and not the return trip.",
+   "In science, a parsimonious explanation is a compliment: fewest assumptions wins."
+  ]
+ },
+ "partial": {
+  "pos": "adjective",
+  "definition": "biased; or incomplete",
+  "synonyms": [
+   "biased",
+   "prejudiced",
+   "incomplete"
+  ],
+  "antonyms": [
+   "impartial",
+   "complete"
+  ],
+  "sentences": [
+   "A partial account of a partial recording produced a completely wrong conclusion.",
+   "He was partial to strong coffee and partial in every judgment involving his own department."
+  ]
+ },
+ "partiality": {
+  "pos": "noun",
+  "definition": "bias, or a special fondness",
+  "synonyms": [
+   "bias",
+   "favoritism",
+   "fondness"
+  ],
+  "antonyms": [
+   "impartiality",
+   "aversion"
+  ],
+  "sentences": [
+   "His partiality for one supplier survived three procurement reviews.",
+   "She admitted a partiality for old maps and bought four more."
+  ]
+ },
+ "partisan": {
+  "pos": "adjective",
+  "definition": "strongly biased toward one side",
+  "synonyms": [
+   "biased",
+   "factional",
+   "one-sided"
+  ],
+  "antonyms": [
+   "nonpartisan",
+   "impartial"
+  ],
+  "sentences": [
+   "The partisan coverage described two different events happening in the same room.",
+   "Partisan also names an armed resistance fighter, which is a rather different loyalty."
+  ]
+ },
+ "parvenu": {
+  "pos": "noun",
+  "definition": "a newly rich social climber",
+  "synonyms": [
+   "upstart",
+   "arriviste",
+   "nouveau riche"
+  ],
+  "antonyms": [
+   "patrician"
+  ],
+  "sentences": [
+   "The old guard called him a parvenu, which meant he had earned it rather than inherited it.",
+   "Every parvenu becomes an establishment figure in about one generation."
+  ]
+ },
+ "passage": {
+  "pos": "noun",
+  "definition": "a section of text; the act of moving through",
+  "synonyms": [
+   "excerpt",
+   "section",
+   "transit"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "One passage in the letter was quoted so often that the rest disappeared.",
+   "The passage of the bill took four years and one very persuasive amendment."
+  ]
+ },
+ "passe": {
+  "pos": "adjective",
+  "definition": "out of fashion",
+  "synonyms": [
+   "outdated",
+   "outmoded",
+   "dated"
+  ],
+  "antonyms": [
+   "fashionable",
+   "current"
+  ],
+  "sentences": [
+   "The technique was declared passé in 1998 and revived, triumphantly, in 2016.",
+   "Calling something passé is a claim about the speaker's timing, not the thing."
+  ]
+ },
+ "pastiche": {
+  "pos": "noun",
+  "definition": "a work imitating another's style",
+  "synonyms": [
+   "imitation",
+   "medley",
+   "homage"
+  ],
+  "antonyms": [
+   "original"
+  ],
+  "sentences": [
+   "The building is a pastiche of four centuries and belongs to none of them.",
+   "A pastiche done well is affectionate; done badly it is merely derivative."
+  ]
+ },
+ "pastoral": {
+  "pos": "adjective",
+  "definition": "relating to idealized rural life",
+  "synonyms": [
+   "rural",
+   "bucolic",
+   "rustic"
+  ],
+  "antonyms": [
+   "urban",
+   "industrial"
+  ],
+  "sentences": [
+   "The pastoral scene in the painting was composed entirely in a London studio.",
+   "Pastoral poetry is written by people who have never had to milk anything."
+  ]
+ },
+ "patent": {
+  "pos": "adjective",
+  "definition": "obvious and unconcealed",
+  "synonyms": [
+   "evident",
+   "manifest",
+   "blatant"
+  ],
+  "antonyms": [
+   "hidden",
+   "obscure"
+  ],
+  "sentences": [
+   "The claim was patent nonsense and was repeated in three broadsheets.",
+   "It was patent to everyone that the deadline would be missed."
+  ]
+ },
+ "pathogenic": {
+  "pos": "adjective",
+  "definition": "capable of causing disease",
+  "synonyms": [
+   "disease-causing",
+   "infectious",
+   "virulent"
+  ],
+  "antonyms": [
+   "harmless",
+   "benign"
+  ],
+  "sentences": [
+   "Most bacteria are not pathogenic, which the public health messaging never quite conveys.",
+   "The pathogenic strain differed from the harmless one by a handful of genes."
+  ]
+ },
+ "pathological": {
+  "pos": "adjective",
+  "definition": "compulsive and unhealthy",
+  "synonyms": [
+   "compulsive",
+   "obsessive",
+   "morbid"
+  ],
+  "antonyms": [
+   "healthy",
+   "normal"
+  ],
+  "sentences": [
+   "His pathological need to win small arguments cost him large ones.",
+   "Pathological in medicine means diseased; in conversation it means you cannot stop."
+  ]
+ },
+ "patriarch": {
+  "pos": "noun",
+  "definition": "the male head of a family or group",
+  "synonyms": [
+   "elder",
+   "paterfamilias"
+  ],
+  "antonyms": [
+   "matriarch"
+  ],
+  "sentences": [
+   "The patriarch ruled the business until ninety-one and left no succession plan.",
+   "Every family photograph has a patriarch and four people trying to leave."
+  ]
+ },
+ "patrician": {
+  "pos": "adjective",
+  "definition": "aristocratic and refined",
+  "synonyms": [
+   "aristocratic",
+   "highborn",
+   "genteel"
+  ],
+  "antonyms": [
+   "plebeian",
+   "common"
+  ],
+  "sentences": [
+   "His patrician manner concealed a childhood in a two-room flat.",
+   "The patrician families of Rome kept the priesthoods and, therefore, the calendar."
+  ]
+ },
+ "patronize": {
+  "pos": "verb",
+  "definition": "to treat condescendingly; to support financially",
+  "synonyms": [
+   "condescend to",
+   "talk down to",
+   "sponsor"
+  ],
+  "antonyms": [
+   "respect",
+   "boycott"
+  ],
+  "sentences": [
+   "Do not patronize the audience; they read the same news you did.",
+   "He patronized the arts generously and the artists insufferably."
+  ]
+ },
+ "patronizing": {
+  "pos": "adjective",
+  "definition": "condescending",
+  "synonyms": [
+   "condescending",
+   "supercilious",
+   "superior"
+  ],
+  "antonyms": [
+   "respectful",
+   "deferential"
+  ],
+  "sentences": [
+   "The patronizing explanation of her own research was the last straw.",
+   "Nothing is more patronizing than being told to calm down."
+  ]
+ },
+ "paucity": {
+  "pos": "noun",
+  "definition": "a shortage or scarcity",
+  "synonyms": [
+   "dearth",
+   "scarcity",
+   "insufficiency"
+  ],
+  "antonyms": [
+   "abundance",
+   "plenty"
+  ],
+  "sentences": [
+   "There was a paucity of evidence and a surplus of confidence.",
+   "The paucity of women in the archive says more about the archivists than the era."
+  ]
+ },
+ "peccadillo": {
+  "pos": "noun",
+  "definition": "a minor fault or offense",
+  "synonyms": [
+   "misdemeanor",
+   "lapse",
+   "indiscretion"
+  ],
+  "antonyms": [
+   "felony",
+   "crime"
+  ],
+  "sentences": [
+   "The press treated a peccadillo as a scandal and the scandal as a technicality.",
+   "A peccadillo in one culture is a resignation in another."
+  ]
+ },
+ "peculiar": {
+  "pos": "adjective",
+  "definition": "strange; or belonging exclusively to",
+  "synonyms": [
+   "odd",
+   "curious",
+   "distinctive"
+  ],
+  "antonyms": [
+   "ordinary",
+   "universal"
+  ],
+  "sentences": [
+   "The smell was peculiar to that corridor and no one ever traced it.",
+   "It struck her as peculiar that four people had the same alibi."
+  ]
+ },
+ "pecuniary": {
+  "pos": "adjective",
+  "definition": "relating to money",
+  "synonyms": [
+   "financial",
+   "monetary",
+   "fiscal"
+  ],
+  "antonyms": [],
+  "sentences": [
+   "He had no pecuniary interest in the outcome and every other kind.",
+   "Pecuniary comes from the Latin for cattle, which is what wealth used to be."
+  ]
+ }
 }

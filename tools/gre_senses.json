@@ -21035,7 +21035,7 @@
   "synonyms": [
    "trademark",
    "signature",
-   "hallmark"
+   "distinguishing feature"
   ]
  },
  "halting": {
@@ -30116,7 +30116,7 @@
    "because of"
   ],
   "definition": "in spite of",
-  "pos": "preposition",
+  "pos": "adverb",
   "sentences": [
    "Notwithstanding the objections, the plan proceeded on schedule.",
    "The clause begins \"notwithstanding anything to the contrary,\" which lawyers use to win in advance."

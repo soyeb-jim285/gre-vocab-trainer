@@ -90,7 +90,7 @@ struct WritingPracticeView: View {
             if !word.ipa.isEmpty {
                 Text(word.ipa).font(Theme.mono).foregroundStyle(Theme.tertiaryText)
             }
-            Text(word.primarySense.pos.rawValue)
+            Text(word.primaryPartOfSpeech.rawValue)
                 .font(Theme.label)
                 .foregroundStyle(Theme.tertiaryText)
                 .textCase(.uppercase)
@@ -105,8 +105,8 @@ struct WritingPracticeView: View {
         do {
             let (graded, spent) = try await settings.client().gradeWithCost(
                 word: word.word,
-                referenceDefinition: word.primarySense.definition,
-                partOfSpeech: word.primarySense.pos.rawValue,
+                referenceDefinition: word.teachingDefinition,
+                partOfSpeech: word.primaryPartOfSpeech.rawValue,
                 learnerDefinition: definition,
                 learnerSentence: sentence,
                 model: settings.gradingModel

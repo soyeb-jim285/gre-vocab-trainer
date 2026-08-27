@@ -51,6 +51,7 @@ struct WordDetailView: View {
             VStack(alignment: .leading, spacing: 24) {
                 header
                 practiceButton
+                if let gre = word.gre { GRESenseBlock(gre: gre) }
                 ForEach(Array(word.senses.enumerated()), id: \.offset) { _, sense in
                     SenseBlock(sense: sense)
                 }
@@ -157,7 +158,7 @@ struct WordDetailView: View {
             defer { loading = false }
             do {
                 let result = try await settings.client().deepDive(
-                    word: word.word, definition: word.primarySense.definition,
+                    word: word.word, definition: word.teachingDefinition,
                     model: settings.deepDiveModel
                 )
                 // Cached so a word is only ever paid for once.
@@ -168,6 +169,40 @@ struct WordDetailView: View {
                 self.error = (error as? OpenRouterError)?.description ?? error.localizedDescription
             }
         }
+    }
+}
+
+/// The exam sense, shown above WordNet's fuller entry.
+struct GRESenseBlock: View {
+    let gre: GRESense
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(gre.pos.rawValue)
+                .font(.caption2)
+                .foregroundStyle(Theme.accent.opacity(0.8))
+                .textCase(.uppercase)
+            Text(gre.definition)
+                .font(Theme.definition)
+                .foregroundStyle(Theme.primaryText)
+            ForEach(gre.sentences, id: \.self) { sentence in
+                Text(sentence)
+                    .font(Theme.body.italic())
+                    .foregroundStyle(Theme.secondaryText)
+            }
+            if !gre.synonyms.isEmpty {
+                Text("Same: " + gre.synonyms.joined(separator: ", "))
+                    .font(.footnote)
+                    .foregroundStyle(Theme.positive)
+            }
+            if !gre.antonyms.isEmpty {
+                Text("Opposite: " + gre.antonyms.joined(separator: ", "))
+                    .font(.footnote)
+                    .foregroundStyle(Theme.negative)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .cardSurface()
     }
 }
 

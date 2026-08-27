@@ -233,7 +233,7 @@ private struct PromptCard: View {
                 .buttonStyle(.plain)
 
             case .reverseRecall:
-                Text(item.word.primarySense.definition)
+                Text(item.word.teachingDefinition)
                     .font(Theme.definition)
                     .foregroundStyle(Theme.primaryText)
 
@@ -255,7 +255,7 @@ private struct PromptCard: View {
                         .font(Theme.mono)
                         .foregroundStyle(Theme.tertiaryText)
                 }
-                Text(item.word.primarySense.pos.rawValue)
+                Text(item.word.primaryPartOfSpeech.rawValue)
                     .font(Theme.label)
                     .foregroundStyle(Theme.tertiaryText)
             }

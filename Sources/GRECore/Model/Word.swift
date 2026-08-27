@@ -61,6 +61,22 @@ public struct Sense: Codable, Hashable, Sendable {
     public let antonyms: [String]
 }
 
+/// The sense the GRE actually tests, written for a learner rather than a
+/// lexicographer: plain-English definition, exam-register synonyms, and two
+/// example sentences built to stick.
+///
+/// WordNet supplies ``Word/senses`` -- accurate, exhaustive, and ordered for
+/// lexicographers, which is how "court" led with a tennis player. This is the
+/// one meaning worth learning first.
+public struct GRESense: Codable, Hashable, Sendable {
+    public let pos: PartOfSpeech
+    public let definition: String
+    public let synonyms: [String]
+    public let antonyms: [String]
+    /// One or two; the first is the plainer of them.
+    public let sentences: [String]
+}
+
 /// A vocabulary entry as shipped in `words.json`.
 public struct Word: Codable, Identifiable, Hashable, Sendable {
     public let id: String
@@ -74,9 +90,16 @@ public struct Word: Codable, Identifiable, Hashable, Sendable {
     /// Zipf frequency in ordinary English; higher means more familiar.
     public let zipf: Double
     public let difficulty: WordDifficulty
+    /// Present for every word in the shipped dataset; optional so a
+    /// hand-built ``Word`` in a test or preview need not supply one.
+    public let gre: GRESense?
 
     /// WordNet orders senses by frequency, so the first one is the sense a
     /// learner is most likely to meet.
     public var primarySense: Sense { senses[0] }
-    public var primaryPartOfSpeech: PartOfSpeech { primarySense.pos }
+
+    /// What to teach, grade, and show: the GRE sense where there is one,
+    /// WordNet otherwise.
+    public var teachingDefinition: String { gre?.definition ?? primarySense.definition }
+    public var primaryPartOfSpeech: PartOfSpeech { gre?.pos ?? primarySense.pos }
 }

@@ -35,7 +35,7 @@ struct DeckDetailView: View {
                             MasteryDot(level: level)
                             VStack(alignment: .leading, spacing: 2) {
                                 Text(word.word).font(Theme.headword(18)).foregroundStyle(Theme.primaryText)
-                                Text(word.primarySense.definition)
+                                Text(word.teachingDefinition)
                                     .font(.footnote).foregroundStyle(Theme.tertiaryText).lineLimit(1)
                             }
                             Spacer()
