@@ -42,9 +42,18 @@ most likely to have forgotten.
 Barron's, PrepScholar, Powerscore, Greenlight, Vocabulary.com), deduplicated and
 tiered by how many lists carry each word — words on three or more are taught first.
 
-Definitions come from [Open English WordNet](https://en-word.net/) (CC BY 4.0),
-never from the prep books the lists are named after. Pronunciation is
-`AVSpeechSynthesizer` in four accents, with IPA derived from CMUdict.
+Every word carries a hand-written **GRE sense**: the meaning the exam actually
+tests, in plain English, with synonyms, antonyms, and two example sentences
+written to stick. This exists because WordNet's sense order is written for
+lexicographers — it leads `court` with an Australian tennis player, `acumen`
+with "a tapering point", and `zephyr` with a Greek god. Checked against
+Magoosh's vocabulary ebook on the 201 words they overlap, the hand-written
+parts of speech agree everywhere; WordNet's first sense disagrees on 28 of them.
+
+The fuller entries still come from [Open English WordNet](https://en-word.net/)
+(CC BY 4.0) — extra senses, examples, and lexical detail — never from the prep
+books the lists are named after. Pronunciation is `AVSpeechSynthesizer` in four
+accents, with IPA derived from CMUdict.
 
 ## Layout
 
@@ -52,7 +61,8 @@ never from the prep books the lists are named after. Pronunciation is
 |---|---|---|
 | `Sources/GRECore` | FSRS-6, graders, session planner, OpenRouter client. Foundation only. | Linux + macOS |
 | `App/` | SwiftUI app. `project.yml` → Xcode project via XcodeGen. | macOS only |
-| `tools/build_dataset.py` | Word lists + WordNet + CMUdict → `words.json` | Linux |
+| `tools/build_dataset.py` | Word lists + WordNet + CMUdict + GRE senses → `words.json` | Linux |
+| `tools/gre_senses/` | The hand-written GRE senses, 13 files, merged to `gre_senses.json` | — |
 
 The split is deliberate: development happens on Linux, where there is no Xcode.
 Everything with logic in it lives in `GRECore` and is tested locally; only views
@@ -62,7 +72,7 @@ need a Mac. CI builds the app on `macos-26`.
 
 ```sh
 tools/setup-linux-toolchain.sh   # Swift + the libraries Arch names differently
-. ./env.sh && swift test         # 147 tests
+. ./env.sh && swift test         # 153 tests
 python3 tools/build_dataset.py   # regenerate the word dataset
 ```
 
