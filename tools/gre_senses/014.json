@@ -1,0 +1,4 @@
+{
+ "abstract": {"pos": "adjective", "definition": "existing as an idea rather than a physical thing", "synonyms": ["theoretical", "conceptual", "intangible"], "antonyms": ["concrete", "tangible"], "sentences": ["In the abstract everyone supports the reform; in the budget nobody does.", "Justice is abstract until it arrives as a specific person in a specific room."]},
+ "appeal": {"pos": "verb", "definition": "to make an earnest request; to be attractive", "synonyms": ["entreat", "plead", "attract"], "antonyms": ["repel", "refuse"], "sentences": ["She appealed for volunteers and forty people arrived on a wet Saturday.", "The design appeals to everyone under thirty and baffles the committee approving it."]}
+}
