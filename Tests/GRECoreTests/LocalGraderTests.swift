@@ -87,39 +87,51 @@ import Testing
 
     @Test func returnsTheRequestedNumberOfDistractors() throws {
         let abate = try #require(Self.catalog["abate"])
-        let options = DistractorPicker.distractors(for: abate, from: Self.catalog, count: 3)
+        let options = DistractorPicker.definitionDistractors(for: abate, from: Self.catalog, count: 3)
         #expect(options.count == 3)
     }
 
     @Test func neverIncludesTheAnswerItself() throws {
         for id in ["abate", "laconic", "obsequious", "ephemeral"] {
             let word = try #require(Self.catalog[id])
-            let options = DistractorPicker.distractors(for: word, from: Self.catalog, count: 3)
-            #expect(options.contains { $0.id == word.id } == false, "\(id) was offered as its own distractor")
-            #expect(Set(options.map(\.id)).count == options.count, "\(id) got duplicate distractors")
+            let options = DistractorPicker.definitionDistractors(for: word, from: Self.catalog, count: 3)
+            #expect(options.contains(word.teachingDefinition) == false,
+                    "\(id) was offered its own definition as a distractor")
+            #expect(Set(options).count == options.count, "\(id) got duplicate distractors")
         }
     }
 
-    @Test func drawsDistractorsSharingThePartOfSpeechSoTheyStayPlausible() throws {
-        for id in ["abate", "laconic", "acumen"] {
+    @Test func usesTheWordsOwnHandWrittenNearMisses() throws {
+        // Not three other words' definitions: those are eliminable without
+        // knowing the word, which is the whole problem with generated options.
+        for id in ["abate", "laconic", "flag"] {
             let word = try #require(Self.catalog[id])
-            let options = DistractorPicker.distractors(for: word, from: Self.catalog, count: 3)
-            #expect(options.allSatisfy { $0.primaryPartOfSpeech == word.primaryPartOfSpeech },
-                    "\(id) drew a distractor with a different part of speech")
+            let written = try #require(word.gre?.distractors)
+            let options = DistractorPicker.definitionDistractors(for: word, from: Self.catalog, count: 3)
+            #expect(options == written, "\(id) fell back to borrowed definitions")
         }
+    }
+
+    @Test func everyWordCanBuildAFullFourOptionQuestion() {
+        let short = Self.catalog.words.filter {
+            DistractorPicker.definitionDistractors(for: $0, from: Self.catalog).count < 3
+        }
+        #expect(short.isEmpty, "not enough options for \(short.prefix(5).map(\.id))")
+    }
+
+    @Test func noWordIsOfferedADistractorMatchingItsOwnDefinition() {
+        let leaks = Self.catalog.words.filter { word in
+            DistractorPicker.definitionDistractors(for: word, from: Self.catalog)
+                .contains { $0.caseInsensitiveCompare(word.teachingDefinition) == .orderedSame }
+        }
+        #expect(leaks.isEmpty, "two right answers for \(leaks.prefix(5).map(\.id))")
     }
 
     @Test func isStableAcrossCallsSoTheSameQuestionLooksTheSameTwice() throws {
         let word = try #require(Self.catalog["laconic"])
-        let first = DistractorPicker.distractors(for: word, from: Self.catalog, count: 3)
-        let second = DistractorPicker.distractors(for: word, from: Self.catalog, count: 3)
-        #expect(first.map(\.id) == second.map(\.id))
-    }
-
-    @Test func differentWordsGetDifferentDistractorSets() throws {
-        let a = DistractorPicker.distractors(for: try #require(Self.catalog["abate"]), from: Self.catalog, count: 3)
-        let b = DistractorPicker.distractors(for: try #require(Self.catalog["abet"]), from: Self.catalog, count: 3)
-        #expect(a.map(\.id) != b.map(\.id))
+        let first = DistractorPicker.definitionDistractors(for: word, from: Self.catalog, count: 3)
+        let second = DistractorPicker.definitionDistractors(for: word, from: Self.catalog, count: 3)
+        #expect(first == second)
     }
 
     @Test func stableHashDoesNotDependOnTheProcessSeed() {

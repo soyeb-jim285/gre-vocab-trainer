@@ -49,6 +49,7 @@ import Testing
         _ = word.rating
         if let gre = word.gre {
             _ = (gre.pos, gre.definition, gre.synonyms, gre.antonyms, gre.sentences)
+            _ = (gre.cloze, gre.distractors)
         }
         let sense = word.primarySense
         _ = (sense.pos.rawValue, sense.definition, sense.examples, sense.synonyms, sense.antonyms)
@@ -57,7 +58,7 @@ import Testing
         _ = catalog.words
         _ = catalog.words(inTier: .core)
         _ = catalog.words(withPartOfSpeech: .verb)
-        _ = DistractorPicker.distractors(for: word, from: catalog, count: 3)
+        _ = DistractorPicker.definitionDistractors(for: word, from: catalog, count: 3)
 
         // Scheduling round trip, as the view model does it
         let card = StudyCard(wordID: word.id)

@@ -7,14 +7,15 @@ using the word, a model grades both, and the grade drives an FSRS-6 scheduler.
 Words you actually fail come back within minutes. Words you own get out of the way.
 
 2,898 words, each with a hand-written definition of the sense the GRE tests, two
-example sentences, synonyms, antonyms, and a difficulty rating I assigned by hand.
-None of it is scraped from a prep book.
+example sentences, synonyms, antonyms, three wrong definitions written to be hard
+to rule out, and a difficulty rating I assigned by hand. None of it is scraped
+from a prep book.
 
 ## Study modes
 
 | Mode | What you do | Graded by |
 |---|---|---|
-| Multiple choice | Meet a new word, pick its definition | locally, free |
+| Multiple choice | Meet a new word, pick its definition from four close ones | locally, free |
 | In context | A sentence with the word blanked out; pick what fits | locally, free |
 | Which meaning | A common word in its uncommon tested sense; pick the meaning | locally, free |
 | Reverse recall | Definition shown, name the word | locally, free |
@@ -121,6 +122,17 @@ memorable rather than merely grammatical.
 }
 ```
 
+The multiple-choice wrong answers are hand-written too, for the same reason the
+definitions are. Filling the other three slots with other words' definitions
+makes the question answerable without knowing the word: only one of the four is
+about the right kind of thing at all, and the learner picks it by elimination.
+So every word ships three near misses instead, wrong on the one point that
+matters.
+
+```json
+"abate": ["to postpone deliberately", "to spread outward", "to grow steadily worse"]
+```
+
 Those 5,796 sentences do double duty. Blanking the word out of them generates the
 fill-in-the-blank mode, which is why that mode needed no new data. The 125 that read as
 etymology notes rather than uses of the word are skipped, leaving 5,671 usable
@@ -145,6 +157,7 @@ sentence. WordNet's first sense disagrees on 28.
 | `tools/build_dataset.py` | Word lists, WordNet, CMUdict and the hand-written data into `words.json` | Linux |
 | `tools/gre_senses/` | The hand-written senses, merged into `gre_senses.json` | |
 | `tools/gre_difficulty/` | The 1 to 5 ratings, merged into `gre_difficulty.json` | |
+| `tools/gre_options/` | The near-miss wrong answers, merged into `gre_options.json` | |
 
 The split is deliberate. This was written on Linux, where there is no Xcode, so
 everything with logic in it lives in `GRECore` and is tested locally. Only views
@@ -163,8 +176,8 @@ python3 tools/build_dataset.py --verify-only   # check the committed one
 The app target needs Xcode 26 and iOS 26.
 
 `build_dataset.py` is strict on purpose. It refuses to write a dataset where a
-word has no cloze-able sentence, where a rating and its band disagree, where IPA
-coverage drops below 80%, or where a trap word has lost the everyday sense its
+word has no cloze-able sentence, where a word has fewer than three distinct wrong
+answers, where a rating and its band disagree, where IPA coverage drops below 80%, or where a trap word has lost the everyday sense its
 drill depends on. Corrupt vocabulary data is not obvious when you read it, and a
 learner would just quietly learn the wrong thing.
 

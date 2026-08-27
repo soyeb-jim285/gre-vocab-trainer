@@ -58,6 +58,10 @@ GRE_SENSES = ROOT / "tools" / "gre_senses.json"
 # whose everyday meanings are not the tested ones, so wordfreq calls them easy
 # and a test-taker does not.
 GRE_DIFFICULTY = ROOT / "tools" / "gre_difficulty.json"
+# Three hand-written near-miss definitions per word. Multiple choice built from
+# three other words' definitions is trivial: the wrong answers are about
+# unrelated things, so the right one stands out without knowing the word.
+GRE_OPTIONS = ROOT / "tools" / "gre_options.json"
 # 1-5 to the four bands the app already displays.
 RATING_BANDS = {1: "familiar", 2: "familiar", 3: "moderate", 4: "hard", 5: "rare"}
 # Irregular forms the suffix rules below cannot reach. Only the ones that
@@ -244,6 +248,12 @@ def to_cloze(word: str, sentence: str) -> str | None:
     return blanked if found else None
 
 
+def load_options() -> dict[str, list[str]]:
+    if not GRE_OPTIONS.exists():
+        return {}
+    return json.loads(GRE_OPTIONS.read_text(encoding="utf-8"))
+
+
 def load_difficulty() -> dict[str, int]:
     if not GRE_DIFFICULTY.exists():
         return {}
@@ -330,6 +340,7 @@ def build() -> tuple[list[dict], list[str]]:
 
     gre_senses = load_gre_senses()
     ratings = load_difficulty()
+    options = load_options()
     print(f"Attaching WordNet senses ({len(gre_senses)} hand-written GRE senses)...")
     # Morphy falls back to lemmatization only when the surface form misses, so
     # inflected entries resolve while list typos still drop out.
@@ -341,6 +352,8 @@ def build() -> tuple[list[dict], list[str]]:
         if gre:
             gre = dict(gre)
             gre["cloze"] = [c for s in gre["sentences"] if (c := to_cloze(word, s))]
+            if word in options:
+                gre["distractors"] = options[word]
         trap = is_trap(wordnet, word, gre)
         senses = senses_for(wordnet, word, gre)
         if not senses:
@@ -388,6 +401,9 @@ def verify(entries: list[dict]) -> None:
             assert g["definition"] and len(g["sentences"]) >= 2, f"{e['id']}: thin gre sense"
             assert g["cloze"], f"{e['id']}: no sentence usable as fill-in-the-blank"
             assert all("____" in c for c in g["cloze"]), f"{e['id']}: cloze without a blank"
+            d = g["distractors"]
+            assert len(d) == 3 and len(set(d)) == 3, f"{e['id']}: needs 3 distinct distractors"
+            assert g["definition"] not in d, f"{e['id']}: distractor repeats the answer"
         assert all(s["definition"] for s in e["senses"]), f"{e['id']}: blank definition"
         assert e["tier"] in ("core", "common", "extended"), f"{e['id']}: bad tier"
         assert e["listCount"] == len(e["sourceLists"]), f"{e['id']}: listCount mismatch"

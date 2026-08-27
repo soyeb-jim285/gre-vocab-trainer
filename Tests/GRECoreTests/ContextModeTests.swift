@@ -77,14 +77,6 @@ import Testing
         #expect(first == second)
     }
 
-    @Test func clozeOptionsDifferFromTheMultipleChoiceOnes() throws {
-        // Otherwise the second question is the first one with a blank in it.
-        let word = try #require(Self.catalog["abate"])
-        let plain = Set(DistractorPicker.distractors(for: word, from: Self.catalog).map(\.id))
-        let cloze = Set(DistractorPicker.clozeDistractors(for: word, from: Self.catalog).map(\.id))
-        #expect(plain != cloze)
-    }
-
     @Test func everyWordCanBuildAFullClozeQuestion() {
         // Four options for all 2,898, or some learner meets a two-option question.
         let short = Self.catalog.words.filter {

@@ -6,12 +6,22 @@ import Foundation
 /// drawn from the catalog are plausible enough for a warmup, and cost nothing.
 public enum DistractorPicker {
 
-    public static func distractors(
+    /// Wrong definitions for the multiple-choice mode.
+    ///
+    /// The word ships its own: hand-written near misses in the same register,
+    /// wrong on the one point that matters. Borrowing three other words'
+    /// definitions makes the question answerable without knowing the word,
+    /// since the odd one out is the only definition that fits the prompt at all.
+    public static func definitionDistractors(
         for word: Word, from catalog: WordCatalog, count: Int = 3
-    ) -> [Word] {
-        pick(count, from: catalog.words(withPartOfSpeech: word.primaryPartOfSpeech)
-                .filter { $0.id != word.id },
-             seed: stableHash(word.id))
+    ) -> [String] {
+        let written = word.gre?.distractors ?? []
+        if written.count >= count { return Array(written.prefix(count)) }
+        let filler = pick(count - written.count,
+                          from: catalog.words(withPartOfSpeech: word.primaryPartOfSpeech)
+                              .filter { $0.id != word.id },
+                          seed: stableHash("definition-" + word.id))
+        return written + filler.map(\.teachingDefinition)
     }
 
     /// Wrong words for a fill-in-the-blank.

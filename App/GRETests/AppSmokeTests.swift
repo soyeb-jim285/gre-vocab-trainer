@@ -48,7 +48,7 @@ struct AppSmokeTests {
         let first = try #require(model.current)
         #expect(first.mode == .multipleChoice)
 
-        model.submitMultipleChoice(first.word)
+        model.submitMultipleChoice(first.word.teachingDefinition)
         guard case let .reviewing(feedback) = model.phase else {
             Issue.record("expected review phase, got \(model.phase)")
             return
@@ -70,7 +70,8 @@ struct AppSmokeTests {
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
         model.start()
         let item = try #require(model.current)
-        let wrong = try #require(model.multipleChoiceOptions(for: item).first { $0.id != item.word.id })
+        let wrong = try #require(model.multipleChoiceOptions(for: item)
+            .first { $0 != item.word.teachingDefinition })
 
         model.submitMultipleChoice(wrong)
         guard case let .reviewing(feedback) = model.phase else {
@@ -92,8 +93,9 @@ struct AppSmokeTests {
             let item = try #require(model.current)
             let options = model.multipleChoiceOptions(for: item)
             #expect(options.count == 4, "\(item.word.id) offered \(options.count) options")
-            #expect(options.contains { $0.id == item.word.id }, "\(item.word.id) was not among its own options")
-            model.submitMultipleChoice(item.word)
+            #expect(options.contains(item.word.teachingDefinition),
+                    "\(item.word.id) was not among its own options")
+            model.submitMultipleChoice(item.word.teachingDefinition)
             model.advance()
         }
     }
@@ -247,7 +249,7 @@ struct AppSmokeTests {
         for _ in 0..<6 {
             guard let item = model.current else { break }
             seen.append(item.word.id)
-            model.submitMultipleChoice(item.word)
+            model.submitMultipleChoice(item.word.teachingDefinition)
             model.advance()
         }
         #expect(seen.contains(missed.word.id) == false, "the same word should not repeat back-to-back")
@@ -267,7 +269,7 @@ struct AppSmokeTests {
         model.start()
         #expect(model.progress == 0)
         while let item = model.current {
-            model.submitMultipleChoice(item.word)
+            model.submitMultipleChoice(item.word.teachingDefinition)
             model.advance()
         }
         guard case let .finished(summary) = model.phase else { Issue.record("expected finished"); return }
@@ -479,7 +481,7 @@ struct AppSmokeTests {
         model.start()
         for _ in 0..<4 {
             guard let item = model.current else { break }
-            model.submitMultipleChoice(item.word)
+            model.submitMultipleChoice(item.word.teachingDefinition)
             model.advance()
         }
         #expect(try context.fetch(FetchDescriptor<CardRecord>()).isEmpty == false)

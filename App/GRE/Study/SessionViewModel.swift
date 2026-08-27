@@ -151,12 +151,14 @@ final class SessionViewModel {
 
     // MARK: - Answering
 
-    func multipleChoiceOptions(for item: SessionItem) -> [Word] {
-        let distractors = DistractorPicker.distractors(for: item.word, from: catalog, count: 3)
+    /// Four definitions: the real one and the word's three hand-written near
+    /// misses.
+    func multipleChoiceOptions(for item: SessionItem) -> [String] {
+        let wrong = DistractorPicker.definitionDistractors(for: item.word, from: catalog, count: 3)
         // Sorted by a stable hash rather than shuffled, so the right answer does
         // not sit in the same slot every time and cannot be guessed positionally.
-        return (distractors + [item.word]).sorted {
-            stableSortKey($0.id, salt: item.word.id) < stableSortKey($1.id, salt: item.word.id)
+        return (wrong + [item.word.teachingDefinition]).sorted {
+            stableSortKey($0, salt: item.word.id) < stableSortKey($1, salt: item.word.id)
         }
     }
 
@@ -228,10 +230,10 @@ final class SessionViewModel {
         )
     }
 
-    func submitMultipleChoice(_ chosen: Word) {
+    func submitMultipleChoice(_ chosen: String) {
         guard let item = current else { return }
-        chosenOptionID = chosen.id
-        let correct = chosen.id == item.word.id
+        chosenOptionID = chosen
+        let correct = chosen == item.word.teachingDefinition
         finish(
             grade: Grade(score: correct ? 100 : 0),
             feedback: AnswerFeedback(

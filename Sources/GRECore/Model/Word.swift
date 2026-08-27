@@ -79,6 +79,12 @@ public struct GRESense: Codable, Hashable, Sendable {
     /// Usually two; occasionally one, where the other sentence is about the
     /// word rather than a use of it.
     public let cloze: [String]
+    /// Three hand-written wrong definitions for the multiple-choice mode.
+    ///
+    /// Near misses, not other words' meanings: "to postpone deliberately" for
+    /// *abate*, not "a large sea mammal". Three unrelated definitions can be
+    /// eliminated without knowing the word, which is the wrong lesson.
+    public let distractors: [String]
 }
 
 /// A vocabulary entry as shipped in `words.json`.

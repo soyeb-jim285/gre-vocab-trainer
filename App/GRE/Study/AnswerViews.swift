@@ -2,14 +2,14 @@ import GRECore
 import SwiftUI
 
 struct MultipleChoiceAnswer: View {
-    let options: [Word]
-    let choose: (Word) -> Void
+    let options: [String]
+    let choose: (String) -> Void
 
     var body: some View {
         VStack(spacing: 12) {
-            ForEach(options) { option in
+            ForEach(options, id: \.self) { option in
                 Button { choose(option) } label: {
-                    Text(option.teachingDefinition)
+                    Text(option)
                         .font(Theme.definition)
                         .foregroundStyle(Theme.primaryText)
                         .multilineTextAlignment(.leading)
