@@ -43,6 +43,9 @@ struct SessionView: View {
         // Changing what you're drilling has to rebuild the queue, so the change
         // takes effect on the very next card rather than the next session.
         .onChange(of: settings.forcedMode) { _, _ in if quiz == nil { model?.start() } }
+        // A reset deleted the records this session was built from; rebuild
+        // rather than grade cards that no longer exist.
+        .onChange(of: settings.resetToken) { _, _ in model?.start() }
     }
 
     private func isAnswerable(_ model: SessionViewModel) -> Bool {

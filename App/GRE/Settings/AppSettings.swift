@@ -54,13 +54,17 @@ final class AppSettings {
     /// Mirrors the Keychain so views can react; the Keychain stays the source of truth.
     var hasAPIKey: Bool
 
+    /// Bumped by ``resetToDefaults()``. A session in progress holds cards in
+    /// memory, so it has to be told to rebuild -- otherwise it would go on
+    /// grading words whose records were just deleted. Not persisted: it only
+    /// has to outlive a screen, not a launch.
+    private(set) var resetToken = 0
+
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
-        // A cheap, widely-available model that does structured outputs.
-        let fallbackModel = "google/gemini-3.7-flash"
-        gradingModel = defaults.string(forKey: Key.gradingModel) ?? fallbackModel
-        deepDiveModel = defaults.string(forKey: Key.deepDiveModel) ?? fallbackModel
-        coachModel = defaults.string(forKey: Key.coachModel) ?? fallbackModel
+        gradingModel = defaults.string(forKey: Key.gradingModel) ?? Self.fallbackModel
+        deepDiveModel = defaults.string(forKey: Key.deepDiveModel) ?? Self.fallbackModel
+        coachModel = defaults.string(forKey: Key.coachModel) ?? Self.fallbackModel
         accent = SpeechAccent(rawValue: defaults.string(forKey: Key.accent) ?? "") ?? .american
         voiceIdentifier = defaults.string(forKey: Key.voiceIdentifier)
         writingModeAfterReviews = defaults.object(forKey: Key.writingAfter) as? Int ?? 3
@@ -69,6 +73,29 @@ final class AppSettings {
         desiredRetention = defaults.object(forKey: Key.desiredRetention) as? Double ?? 0.9
         currentDeckID = defaults.string(forKey: Key.currentDeckID)
         hasAPIKey = KeychainStore.hasKey
+    }
+
+    /// A cheap, widely-available model that does structured outputs.
+    private static let fallbackModel = "google/gemini-3.7-flash"
+
+    /// Put every preference back where a fresh install would have it.
+    ///
+    /// Deliberately leaves the Keychain alone: wiping progress should not also
+    /// lock the learner out of the graded mode and make them find their key again.
+    /// Assigning through the properties means each `didSet` writes to
+    /// UserDefaults, so nothing stale survives.
+    func resetToDefaults() {
+        resetToken += 1
+        gradingModel = Self.fallbackModel
+        deepDiveModel = Self.fallbackModel
+        coachModel = Self.fallbackModel
+        accent = .american
+        voiceIdentifier = nil
+        writingModeAfterReviews = 3
+        forcedMode = nil
+        strictness = .standard
+        desiredRetention = 0.9
+        currentDeckID = nil
     }
 
     func setAPIKey(_ key: String?) {

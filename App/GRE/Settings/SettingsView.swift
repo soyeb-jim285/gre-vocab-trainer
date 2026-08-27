@@ -1,4 +1,5 @@
 import GRECore
+import SwiftData
 import SwiftUI
 
 struct SettingsView: View {
@@ -122,10 +123,43 @@ struct SettingsView: View {
             } footer: {
                 Text("How much you want to remember at review time. Higher means more reviews for the same words.")
             }
+
+            Section {
+                Button("Reset everything", role: .destructive) { confirmingReset = true }
+            } header: {
+                Text("Reset")
+            } footer: {
+                Text(resetError ?? "Deletes every word you have studied, your review history, test scores and cached deep dives, and puts these settings back to their defaults. Your API key is kept. This cannot be undone.")
+                    .foregroundStyle(resetError == nil ? Theme.secondaryText : Theme.negative)
+            }
+        }
+        .confirmationDialog(
+            "Reset everything?", isPresented: $confirmingReset, titleVisibility: .visible
+        ) {
+            Button("Delete my progress", role: .destructive) { reset() }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("Every studied word, review, test score and setting goes. Your API key stays. There is no undo.")
         }
         .scrollContentBackground(.hidden)
         .screenBackground()
         .tint(Theme.accent)
+    }
+
+    @Environment(\.modelContext) private var context
+    @State private var confirmingReset = false
+    @State private var resetError: String?
+
+    /// Progress first, then preferences: if the delete throws, the settings are
+    /// left alone and the learner is told, rather than half-reset.
+    private func reset() {
+        do {
+            try ReviewRecorder.eraseAllProgress(in: context)
+            settings.resetToDefaults()
+            resetError = nil
+        } catch {
+            resetError = "Could not reset: \(error.localizedDescription)"
+        }
     }
 
     @Environment(\.catalog) private var catalog

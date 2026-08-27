@@ -291,6 +291,105 @@ struct AppSmokeTests {
         #expect(ReviewRecorder.recentAccuracy(in: context) == 100)
     }
 
+    // MARK: - Reset
+
+    @Test func resettingErasesProgressAndRestoresDefaults() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let scheduler = FSRS(enableFuzzing: false)
+
+        // Something of every kind that a reset must remove.
+        let deck = catalog.decks[0]
+        for id in deck.wordIDs.prefix(6) {
+            ReviewRecorder.record(wordID: id, mode: .multipleChoice, grade: Grade(score: 100),
+                                  rating: .good, scheduler: scheduler, in: context)
+        }
+        context.insert(QuizRecord(deckID: deck.id, score: 80, wordCount: 6, takenAt: .now))
+        context.insert(DeepDiveRecord(
+            wordID: "abate",
+            dive: WordDeepDive(etymology: "e", mnemonic: "m", nuance: "n", confusableWith: []),
+            fetchedAt: .now
+        ))
+        try context.save()
+
+        settings.strictness = .strict
+        settings.desiredRetention = 0.8
+        settings.currentDeckID = deck.id
+        settings.forcedMode = .spelling
+        settings.writingModeAfterReviews = 0
+
+        try ReviewRecorder.eraseAllProgress(in: context)
+        settings.resetToDefaults()
+
+        #expect(try context.fetch(FetchDescriptor<CardRecord>()).isEmpty)
+        #expect(try context.fetch(FetchDescriptor<ReviewRecord>()).isEmpty)
+        #expect(try context.fetch(FetchDescriptor<QuizRecord>()).isEmpty)
+        #expect(try context.fetch(FetchDescriptor<DeepDiveRecord>()).isEmpty)
+
+        #expect(settings.strictness == .standard)
+        #expect(settings.desiredRetention == 0.9)
+        #expect(settings.currentDeckID == nil)
+        #expect(settings.forcedMode == nil)
+        #expect(settings.writingModeAfterReviews == 3)
+    }
+
+    @Test func resettingSurvivesARelaunch() throws {
+        // The defaults must be written through, not just held in memory.
+        let suite = "test-\(UUID().uuidString)"
+        let settings = AppSettings(defaults: UserDefaults(suiteName: suite)!)
+        settings.strictness = .strict
+        settings.currentDeckID = "core-9"
+        settings.resetToDefaults()
+
+        let relaunched = AppSettings(defaults: UserDefaults(suiteName: suite)!)
+        #expect(relaunched.strictness == .standard)
+        #expect(relaunched.currentDeckID == nil)
+    }
+
+    @Test func resettingKeepsTheApiKey() throws {
+        // Wiping progress must not lock the learner out of the graded mode.
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        settings.setAPIKey("sk-test-key")
+        #expect(settings.hasAPIKey)
+
+        settings.resetToDefaults()
+        #expect(settings.hasAPIKey, "the key was removed by a reset")
+        #expect(KeychainStore.apiKey == "sk-test-key")
+
+        settings.setAPIKey(nil)   // leave the test Keychain as we found it
+    }
+
+    @Test func aSessionAfterResetStartsFromTheFirstDeckAgain() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        model.start()
+        for _ in 0..<4 {
+            guard let item = model.current else { break }
+            model.submitMultipleChoice(item.word)
+            model.advance()
+        }
+        #expect(try context.fetch(FetchDescriptor<CardRecord>()).isEmpty == false)
+
+        try ReviewRecorder.eraseAllProgress(in: context)
+        settings.resetToDefaults()
+
+        let fresh = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        fresh.start()
+        #expect(fresh.current?.word.id == catalog.decks[0].wordIDs[0])
+        #expect(fresh.current?.card.reviewCount == 0)
+    }
+
+    @Test func resetTokenChangesSoALiveSessionRebuilds() throws {
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let before = settings.resetToken
+        settings.resetToDefaults()
+        #expect(settings.resetToken != before, "a live session would keep its deleted cards")
+    }
+
     @Test func gradingCostIsStoredAndTotalled() throws {
         let context = try inMemoryContext()
         let scheduler = FSRS(enableFuzzing: false)

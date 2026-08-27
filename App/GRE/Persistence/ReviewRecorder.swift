@@ -61,6 +61,18 @@ enum ReviewRecorder {
         return all.compactMap(\.costUSD).reduce(0, +)
     }
 
+    /// Delete every trace of study: schedules, answered reviews, test scores,
+    /// and the paid-for deep dives. Listed explicitly rather than looped over
+    /// the container so a new @Model added later fails review here rather than
+    /// silently surviving a reset.
+    static func eraseAllProgress(in context: ModelContext) throws {
+        try context.delete(model: CardRecord.self)
+        try context.delete(model: ReviewRecord.self)
+        try context.delete(model: QuizRecord.self)
+        try context.delete(model: DeepDiveRecord.self)
+        try context.save()
+    }
+
     static func existing(_ wordID: String, in context: ModelContext) -> CardRecord? {
         var descriptor = FetchDescriptor<CardRecord>(predicate: #Predicate { $0.wordID == wordID })
         descriptor.fetchLimit = 1
