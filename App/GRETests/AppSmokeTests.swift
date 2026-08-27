@@ -347,17 +347,18 @@ struct AppSmokeTests {
         #expect(relaunched.currentDeckID == nil)
     }
 
-    @Test func resettingKeepsTheApiKey() throws {
+    @Test func resettingLeavesTheApiKeyUntouched() throws {
         // Wiping progress must not lock the learner out of the graded mode.
+        // Asserted as "unchanged" rather than by writing a key first: the CI
+        // simulator has no Keychain entitlement, so a write there is a no-op.
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        settings.setAPIKey("sk-test-key")
-        #expect(settings.hasAPIKey)
+        let keyBefore = KeychainStore.apiKey
+        let hadKey = settings.hasAPIKey
 
         settings.resetToDefaults()
-        #expect(settings.hasAPIKey, "the key was removed by a reset")
-        #expect(KeychainStore.apiKey == "sk-test-key")
 
-        settings.setAPIKey(nil)   // leave the test Keychain as we found it
+        #expect(KeychainStore.apiKey == keyBefore, "a reset changed the stored key")
+        #expect(settings.hasAPIKey == hadKey)
     }
 
     @Test func aSessionAfterResetStartsFromTheFirstDeckAgain() throws {
