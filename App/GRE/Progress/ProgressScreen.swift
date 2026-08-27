@@ -17,7 +17,7 @@ struct ProgressScreen: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 26) {
                 StatRow(cards: cards, catalog: catalog, reviews: reviews)
-                LevelCard(reviews: reviews, order: settings.newWordOrder)
+                LevelCard(reviews: reviews)
                 if !reviews.isEmpty {
                     AccuracyChart(reviews: reviews)
                     UpcomingChart(cards: cards)
@@ -65,23 +65,36 @@ private struct StatRow: View {
     let catalog: WordCatalog
     let reviews: [ReviewRecord]
 
+    private var byID: [String: StudyCard] {
+        Dictionary(cards.map { ($0.wordID, $0.studyCard) }, uniquingKeysWith: { a, _ in a })
+    }
     private var due: Int { cards.filter { $0.due <= .now }.count }
-    private var mature: Int { cards.filter { ($0.stability ?? 0) >= 21 }.count }
 
     var body: some View {
-        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-            Stat(value: "\(cards.count)", label: "Started", of: "\(catalog.words.count) words")
-            Stat(value: "\(due)", label: "Due now", of: due == 0 ? "all caught up" : "ready to review")
-            Stat(value: "\(mature)", label: "Solid", of: "3+ weeks' recall")
-            Stat(value: "\(reviews.count)", label: "Reviews", of: "all time")
+        let byID = byID
+        let levels = Dictionary(catalog.words.map { (Mastery(card: byID[$0.id]), 1) }, uniquingKeysWith: +)
+        let decksDone = catalog.decks.filter { DeckProgress(deck: $0, cards: byID).isComplete }.count
+        VStack(spacing: 12) {
+            VStack(alignment: .leading, spacing: 12) {
+                Text("Mastery").font(Theme.label).foregroundStyle(Theme.tertiaryText).textCase(.uppercase)
+                MasteryBar(counts: levels, total: catalog.words.count)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .cardSurface()
+            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
+                Stat(value: "\(decksDone)", label: "Decks done", of: "of \(catalog.decks.count)")
+                Stat(value: "\(due)", label: "Due now", of: due == 0 ? "all caught up" : "ready to review")
+                Stat(value: "\((levels[.known] ?? 0) + (levels[.mastered] ?? 0))", label: "Known",
+                     of: "3+ weeks' recall")
+                Stat(value: "\(reviews.count)", label: "Reviews", of: "all time")
+            }
         }
     }
 }
 
-/// Where the adaptive order currently has the ceiling, and what grading has cost.
+/// Recent accuracy, which sets the learning load, and what grading has cost.
 private struct LevelCard: View {
     let reviews: [ReviewRecord]
-    let order: NewWordOrder
 
     private var accuracy: Double? {
         let recent = reviews.prefix(40)
@@ -106,20 +119,14 @@ private struct LevelCard: View {
             }
 
             if let accuracy {
-                let ceiling = SessionSettings.difficultyCeiling(forAccuracy: accuracy)
-                HStack(spacing: 10) {
-                    Text("\(Int(accuracy))%")
-                        .font(Theme.headword(28))
-                        .foregroundStyle(Theme.tint(forScore: Int(accuracy)))
-                    DifficultyBadge(difficulty: ceiling)
-                }
-                Text(order == .adaptive
-                     ? "Recent accuracy. New words reach up to \(ceiling.rawValue) at this rate."
-                     : "Recent accuracy over your last \(min(reviews.count, 40)) answers.")
+                Text("\(Int(accuracy))%")
+                    .font(Theme.headword(28))
+                    .foregroundStyle(Theme.tint(forScore: Int(accuracy)))
+                Text("Recent accuracy over your last \(min(reviews.count, 40)) answers. Above 85% and new words come faster; below 60% and reviews take priority.")
                     .font(.footnote)
                     .foregroundStyle(Theme.secondaryText)
             } else {
-                Text("Answer a few more and this will show your recent accuracy and how hard the new words are getting.")
+                Text("Answer a few more and this will show your recent accuracy, which sets how many new words you juggle at once.")
                     .font(Theme.body)
                     .foregroundStyle(Theme.secondaryText)
             }
