@@ -52,6 +52,8 @@ SOURCE_LISTS = {
 }
 
 MAX_SENSES = 3
+# ponytail: hand list; grow it when another noun-first oddity turns up.
+PRIMARY_POS = {"buck": "v", "revere": "v", "ravel": "v", "dowdy": "a", "divine": "a"}
 
 # Zipf frequency bands, from wordfreq. Higher zipf means the word turns up more
 # often in ordinary English, which is a far better proxy for "easy" than how many
@@ -182,7 +184,15 @@ def to_ipa(phones: list[str]) -> str:
 
 def senses_for(wordnet, word: str) -> list[dict]:
     out = []
-    for ss in wordnet.synsets(word)[:MAX_SENSES]:
+    # Instances are proper nouns (Margaret Court the tennis player, Ravel the
+    # composer, Zephyr the god) and OEWN lists them first. Nobody is revising
+    # "court" for the GRE to learn about a tennis player.
+    common = [ss for ss in wordnet.synsets(word) if not ss.get_related("instance_hypernym")]
+    # OEWN lists nouns first whatever the word; for these the noun is a
+    # curiosity and the GRE tests the other part of speech.
+    if pos := PRIMARY_POS.get(word):
+        common.sort(key=lambda ss: ss.pos not in ({"a", "s"} if pos == "a" else {pos}))
+    for ss in common[:MAX_SENSES]:
         lemmas = [l for l in ss.lemmas() if l.lower() != word]
         antonyms = []
         for sense in ss.senses():
