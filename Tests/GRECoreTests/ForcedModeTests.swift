@@ -9,70 +9,57 @@ import Testing
     private static let catalog = try! WordCatalog.bundled()
     private let now = Date(timeIntervalSince1970: 1_800_000_000)
 
-    private func card(_ id: String, reviews: Int) -> StudyCard {
+    private func card(reviews: Int, state: FSRSState = .review) -> StudyCard {
         StudyCard(
-            wordID: id,
+            wordID: "abate",
             fsrs: FSRSCard(stability: 10, difficulty: 5, due: now.addingTimeInterval(-86_400),
-                           lastReview: now.addingTimeInterval(-172_800), state: .review, step: nil),
+                           lastReview: now.addingTimeInterval(-172_800), state: state, step: nil),
             reviewCount: reviews
         )
     }
 
-    private func plan(
-        forced: StudyMode?, reviews: [Int], ai: Bool = true, newLimit: Int = 0
-    ) -> [SessionItem] {
-        let cards = reviews.enumerated().map { card(Self.catalog.words[$0.offset].id, reviews: $0.element) }
-        return SessionPlanner.plan(
-            cards: cards, catalog: Self.catalog,
-            settings: SessionSettings(dailyNewWordLimit: newLimit, aiEnabled: ai, forcedMode: forced),
-            now: now
+    private func mode(forced: StudyMode?, reviews: Int, ai: Bool = true, writingAfter: Int = 3) -> StudyMode {
+        SessionPlanner.mode(
+            for: card(reviews: reviews),
+            settings: SessionSettings(aiEnabled: ai, writingModeAfterReviews: writingAfter, forcedMode: forced)
         )
     }
 
-    @Test func autoIsTheDefaultAndKeepsTheLadder() {
+    @Test func autoIsTheDefault() {
         #expect(SessionSettings().forcedMode == nil)
-        let modes = plan(forced: nil, reviews: [0, 1, 2, 3]).map(\.mode)
-        #expect(modes == [.multipleChoice, .reverseRecall, .spelling, .defineAndUse])
     }
 
     @Test(arguments: StudyMode.allCases)
-    func forcingAModeAppliesItToEveryCardWhateverItsHistory(mode: StudyMode) {
-        let modes = plan(forced: mode, reviews: [0, 1, 2, 3, 9]).map(\.mode)
-        #expect(modes.allSatisfy { $0 == mode }, "got \(Set(modes)) instead of all \(mode)")
+    func forcingAModeAppliesItWhateverTheHistory(forced: StudyMode) {
+        for reviews in [0, 1, 2, 3, 9] {
+            #expect(mode(forced: forced, reviews: reviews) == forced)
+        }
+        #expect(SessionPlanner.mode(for: card(reviews: 4, state: .relearning),
+                                    settings: SessionSettings(forcedMode: forced)) == forced)
     }
 
     @Test func forcingAModeAlsoAppliesToBrandNewWords() {
-        let modes = plan(forced: .spelling, reviews: [], newLimit: 4).map(\.mode)
-        #expect(modes.count == 4)
-        #expect(modes.allSatisfy { $0 == .spelling })
+        let item = SessionPlanner.next(
+            cards: [], catalog: Self.catalog, settings: SessionSettings(aiEnabled: false, forcedMode: .spelling),
+            scheduler: FSRS(), recentAccuracy: nil, recentWordIDs: [], now: now
+        )
+        #expect(item?.mode == .spelling)
     }
 
     @Test func forcingWritingWithoutAKeyFallsBackToLocalModes() {
-        // The picker should not be able to strand the learner on a locked mode.
-        let modes = plan(forced: .defineAndUse, reviews: [0, 1, 2, 5], ai: false).map(\.mode)
-        #expect(modes.contains(.defineAndUse) == false)
-        #expect(modes.allSatisfy { StudyMode.locallyGraded.contains($0) })
+        for reviews in [0, 1, 2, 5] {
+            let m = mode(forced: .defineAndUse, reviews: reviews, ai: false)
+            #expect(m != .defineAndUse)
+            #expect(StudyMode.locallyGraded.contains(m))
+        }
     }
 
     @Test func forcingALocalModeWorksWithoutAKey() {
-        let modes = plan(forced: .spelling, reviews: [0, 4], ai: false).map(\.mode)
-        #expect(modes.allSatisfy { $0 == .spelling })
-    }
-
-    @Test func aForcedModeDoesNotChangeWhichCardsAreDue() {
-        // Only how they're tested changes, never the selection or its order.
-        let auto = plan(forced: nil, reviews: [0, 1, 2, 3]).map(\.card.wordID)
-        let forced = plan(forced: .spelling, reviews: [0, 1, 2, 3]).map(\.card.wordID)
-        #expect(auto == forced)
+        #expect(mode(forced: .spelling, reviews: 0, ai: false) == .spelling)
+        #expect(mode(forced: .spelling, reviews: 4, ai: false) == .spelling)
     }
 
     @Test func theWritingThresholdIsIgnoredWhileAModeIsForced() {
-        let cards = [card("abate", reviews: 0)]
-        let settings = SessionSettings(
-            dailyNewWordLimit: 0, aiEnabled: true,
-            writingModeAfterReviews: 99, forcedMode: .defineAndUse
-        )
-        let plan = SessionPlanner.plan(cards: cards, catalog: Self.catalog, settings: settings, now: now)
-        #expect(plan[0].mode == .defineAndUse)
+        #expect(mode(forced: .defineAndUse, reviews: 0, writingAfter: 99) == .defineAndUse)
     }
 }

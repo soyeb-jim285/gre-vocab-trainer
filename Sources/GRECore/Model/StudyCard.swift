@@ -50,19 +50,7 @@ public struct StudyCard: Equatable, Sendable {
     }
 }
 
-/// How fresh words are chosen.
-public enum NewWordOrder: String, Codable, Sendable, CaseIterable {
-    /// Most common in ordinary English first -- the gentlest on-ramp.
-    case easiestFirst
-    /// Most prep lists first. Highest exam value, but not the easiest words.
-    case mostTested
-    /// Easiest first, with a difficulty ceiling that follows recent accuracy.
-    case adaptive
-}
-
 public struct SessionSettings: Equatable, Sendable {
-    public var dailyNewWordLimit: Int
-    public var sessionLength: Int
     public var strictness: GradingStrictness
     /// False when no API key is configured, which locks the graded mode.
     public var aiEnabled: Bool
@@ -71,38 +59,19 @@ public struct SessionSettings: Equatable, Sendable {
     public var writingModeAfterReviews: Int
     /// Drills one mode for the whole session. Nil follows the automatic ladder.
     public var forcedMode: StudyMode?
-    public var newWordOrder: NewWordOrder
+    /// Deck new words are drawn from. Nil means the first deck.
+    public var currentDeckID: String?
 
     public init(
-        dailyNewWordLimit: Int = 10, sessionLength: Int = 20,
         strictness: GradingStrictness = .standard, aiEnabled: Bool = true,
         writingModeAfterReviews: Int = 3, forcedMode: StudyMode? = nil,
-        newWordOrder: NewWordOrder = .adaptive
+        currentDeckID: String? = nil
     ) {
-        self.dailyNewWordLimit = dailyNewWordLimit
-        self.sessionLength = sessionLength
         self.strictness = strictness
         self.aiEnabled = aiEnabled
         self.writingModeAfterReviews = writingModeAfterReviews
         self.forcedMode = forcedMode
-        self.newWordOrder = newWordOrder
-    }
-}
-
-extension SessionSettings {
-    /// Hardest band to introduce, given how the learner has been scoring.
-    ///
-    /// Deliberately conservative with no history: someone who has answered
-    /// nothing yet gets the most familiar words, not a random sample.
-    public static func difficultyCeiling(forAccuracy accuracy: Double?) -> WordDifficulty {
-        guard let accuracy else { return .familiar }
-        let ceiling: WordDifficulty = switch accuracy {
-        case 85...: .rare
-        case 70..<85: .hard
-        case 55..<70: .moderate
-        default: .familiar
-        }
-        return ceiling
+        self.currentDeckID = currentDeckID
     }
 }
 

@@ -14,7 +14,7 @@ import Testing
         _ = FSRSCard(stability: 1, difficulty: 5, due: .now, lastReview: nil, state: .review, step: nil)
         _ = FSRS(desiredRetention: 0.9)
         _ = StudyCard(wordID: "abate", fsrs: FSRSCard(), reviewCount: 0)
-        _ = SessionSettings(dailyNewWordLimit: 10, sessionLength: 20, strictness: .standard, aiEnabled: false)
+        _ = SessionSettings(strictness: .standard, aiEnabled: false)
         _ = Grade(score: 50)
         _ = WordCatalog.empty
         _ = OpenRouterClient(apiKey: "")
@@ -57,10 +57,25 @@ import Testing
 
         // Scheduling round trip, as the view model does it
         let card = StudyCard(wordID: word.id)
-        let settings = SessionSettings(aiEnabled: false)
-        let plan = SessionPlanner.plan(cards: [card], catalog: catalog, settings: settings,
-                                       recentAccuracy: 72, now: .now)
-        for item in plan { _ = (item.card, item.word, item.mode) }
+        let settings = SessionSettings(aiEnabled: false, currentDeckID: catalog.decks.first?.id)
+        let item = SessionPlanner.next(
+            cards: [card], catalog: catalog, settings: settings, scheduler: FSRS(),
+            recentAccuracy: 72, recentWordIDs: [], allowEarly: false, now: .now
+        )
+        if let item { _ = (item.card, item.word, item.mode) }
+        _ = SessionPlanner.nextDue(cards: [card], now: .now)
+        _ = SessionPlanner.learningLoadCap(forAccuracy: 72)
+        // Decks and mastery, as the Decks tab and Progress read them
+        _ = catalog.decks.map { ($0.id, $0.title, $0.tier, $0.index, $0.wordIDs) }
+        _ = catalog.decks(inTier: .core)
+        _ = catalog.deck(id: "core-1")
+        _ = catalog.deck(containing: word.id)
+        _ = WordTier.core.label
+        _ = Mastery(card: card).label
+        _ = Mastery(stability: 5)
+        _ = Mastery.allCases.map(\.rawValue)
+        let progress = DeckProgress(deck: catalog.decks[0], cards: [word.id: card])
+        _ = (progress.counts, progress.total, progress.fraction, progress.isComplete, progress.count(atLeast: .known))
         let scheduled = FSRS().review(card.fsrs, rating: .good, at: .now)
         _ = (scheduled.stability, scheduled.difficulty, scheduled.due,
              scheduled.lastReview, scheduled.state, scheduled.step)
@@ -77,11 +92,8 @@ import Testing
         _ = StudyMode.allCases.map(\.rawValue)
         _ = StudyMode.allCases.map(\.label)
         _ = StudyMode.allCases.map(\.systemImage)
-        _ = SessionSettings(aiEnabled: true, writingModeAfterReviews: 0,
-                            forcedMode: .spelling, newWordOrder: .easiestFirst)
-        _ = NewWordOrder.allCases.map(\.rawValue)
+        _ = SessionSettings(aiEnabled: true, writingModeAfterReviews: 0, forcedMode: .spelling)
         _ = WordDifficulty.allCases.sorted()
-        _ = SessionSettings.difficultyCeiling(forAccuracy: 80)
         _ = CallCost(promptTokens: 1, completionTokens: 2, usd: 0.001).displayCost
         _ = CallCost(promptTokens: 1, completionTokens: 2, usd: nil).totalTokens
         _ = StudyMode.locallyGraded

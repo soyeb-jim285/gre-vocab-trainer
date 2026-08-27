@@ -6,179 +6,215 @@ import Testing
 
     private static let catalog = try! WordCatalog.bundled()
     private let now = Date(timeIntervalSince1970: 1_800_000_000)
+    private let fsrs = FSRS(enableFuzzing: false)
 
-    private func seen(_ id: String, dueIn days: Double, reviews: Int = 3) -> StudyCard {
+    private func seen(
+        _ id: String, dueIn days: Double, reviews: Int = 3, stability: Double = 10,
+        lastReviewDaysAgo: Double = 1, state: FSRSState = .review
+    ) -> StudyCard {
         StudyCard(
             wordID: id,
-            fsrs: FSRSCard(stability: 10, difficulty: 5,
+            fsrs: FSRSCard(stability: stability, difficulty: 5,
                            due: now.addingTimeInterval(days * 86_400),
-                           lastReview: now.addingTimeInterval(-86_400), state: .review, step: nil),
+                           lastReview: now.addingTimeInterval(-lastReviewDaysAgo * 86_400),
+                           state: state, step: state == .review ? nil : 0),
             reviewCount: reviews
         )
     }
 
-    private func settings(
-        newLimit: Int = 10, length: Int = 20, ai: Bool = true, writingAfter: Int = 3
-    ) -> SessionSettings {
-        SessionSettings(dailyNewWordLimit: newLimit, sessionLength: length,
-                        aiEnabled: ai, writingModeAfterReviews: writingAfter)
-    }
-
-    // MARK: - What goes in the queue
-
-    @Test func emptyInputsProduceAnEmptySession() {
-        let plan = SessionPlanner.plan(cards: [], catalog: Self.catalog,
-                                       settings: settings(newLimit: 0), now: now)
-        #expect(plan.isEmpty)
-    }
-
-    @Test func cardsNotYetDueAreLeftOut() {
-        let plan = SessionPlanner.plan(cards: [seen("abate", dueIn: 5)], catalog: Self.catalog,
-                                       settings: settings(newLimit: 0), now: now)
-        #expect(plan.isEmpty)
-    }
-
-    @Test func dueCardsAreIncluded() {
-        let plan = SessionPlanner.plan(cards: [seen("abate", dueIn: -1)], catalog: Self.catalog,
-                                       settings: settings(newLimit: 0), now: now)
-        #expect(plan.map(\.card.wordID) == ["abate"])
-    }
-
-    @Test func aCardDueAtThisExactMomentIsIncluded() {
-        let card = StudyCard(
-            wordID: "abate",
-            fsrs: FSRSCard(stability: 10, difficulty: 5, due: now,
-                           lastReview: now.addingTimeInterval(-86_400), state: .review, step: nil),
-            reviewCount: 3
+    /// A card still inside the learning steps, due `minutes` from now.
+    private func learning(_ id: String, dueInMinutes minutes: Double) -> StudyCard {
+        StudyCard(
+            wordID: id,
+            fsrs: FSRSCard(stability: 1, difficulty: 5, due: now.addingTimeInterval(minutes * 60),
+                           lastReview: now.addingTimeInterval(-60), state: .learning, step: 1),
+            reviewCount: 1
         )
-        let plan = SessionPlanner.plan(cards: [card], catalog: Self.catalog,
-                                       settings: settings(newLimit: 0), now: now)
-        #expect(plan.map(\.card.wordID) == ["abate"])
     }
 
-    @Test func theMostOverdueCardComesFirst() {
-        let cards = [seen("abate", dueIn: -1), seen("laconic", dueIn: -9), seen("acumen", dueIn: -4)]
-        let plan = SessionPlanner.plan(cards: cards, catalog: Self.catalog,
-                                       settings: settings(newLimit: 0), now: now)
-        #expect(plan.map(\.card.wordID) == ["laconic", "acumen", "abate"])
+    private func next(
+        _ cards: [StudyCard], settings: SessionSettings = SessionSettings(aiEnabled: false),
+        accuracy: Double? = nil, recent: [String] = [], early: Bool = false
+    ) -> SessionItem? {
+        SessionPlanner.next(
+            cards: cards, catalog: Self.catalog, settings: settings, scheduler: fsrs,
+            recentAccuracy: accuracy, recentWordIDs: recent, allowEarly: early, now: now
+        )
     }
 
-    @Test func reviewsComeBeforeNewWords() {
-        let plan = SessionPlanner.plan(cards: [seen("abate", dueIn: -1)], catalog: Self.catalog,
-                                       settings: settings(newLimit: 5), now: now)
-        #expect(plan.first?.card.wordID == "abate")
-        #expect(plan.count > 1, "new words should follow the review")
-        // Everything after the review must be a word with no history.
-        #expect(plan.dropFirst().allSatisfy { $0.card.reviewCount == 0 })
+    // MARK: - Due reviews first
+
+    @Test func aDueCardBeatsANewWord() {
+        #expect(next([seen("abate", dueIn: -1)])?.card.wordID == "abate")
     }
 
-    // MARK: - Introducing new words
-
-    @Test func newWordsAreCappedByTheDailyLimit() {
-        let plan = SessionPlanner.plan(cards: [], catalog: Self.catalog,
-                                       settings: settings(newLimit: 4, length: 50), now: now)
-        #expect(plan.count == 4)
+    @Test func aCardDueAtThisExactMomentIsDue() {
+        #expect(next([seen("abate", dueIn: 0)])?.card.wordID == "abate")
     }
 
-    @Test func mostTestedOrderIntroducesTheCoreTierFirst() {
-        var s = settings(newLimit: 8)
-        s.newWordOrder = .mostTested
-        let plan = SessionPlanner.plan(cards: [], catalog: Self.catalog, settings: s, now: now)
-        let tiers = plan.compactMap { Self.catalog[$0.card.wordID]?.tier }
-        #expect(tiers.allSatisfy { $0 == .core }, "got \(Set(tiers))")
+    @Test func theMostLikelyForgottenCardComesFirst() {
+        // Same overdue-ness; the weaker memory (lower stability, older review) is at more risk.
+        let strong = seen("abate", dueIn: -1, stability: 60, lastReviewDaysAgo: 30)
+        let weak = seen("laconic", dueIn: -1, stability: 5, lastReviewDaysAgo: 30)
+        #expect(next([strong, weak])?.card.wordID == "laconic")
     }
 
-    @Test func theDefaultOrderIsAdaptiveSoBeginnersMeetFamiliarWordsFirst() {
-        // Changed deliberately: tier is exam value, not ease, and the two run
-        // opposite ways -- ordering by tier hands a beginner the obscure words.
-        #expect(SessionSettings().newWordOrder == .adaptive)
-        let plan = SessionPlanner.plan(cards: [], catalog: Self.catalog,
-                                       settings: settings(newLimit: 8), now: now)
-        let difficulties = plan.compactMap { Self.catalog[$0.card.wordID]?.difficulty }
-        #expect(difficulties.allSatisfy { $0 == .familiar }, "got \(Set(difficulties))")
-    }
-
-    @Test func wordsAlreadyBeingStudiedAreNotIntroducedAgain() {
-        // Take whichever core words the planner would pick, then feed them back
-        // as already-known and check it moves on to different ones.
-        let first = SessionPlanner.plan(cards: [], catalog: Self.catalog,
-                                        settings: settings(newLimit: 5), now: now)
-        let known = first.map { seen($0.card.wordID, dueIn: 5) }
-        let second = SessionPlanner.plan(cards: known, catalog: Self.catalog,
-                                         settings: settings(newLimit: 5), now: now)
-        #expect(Set(second.map(\.card.wordID)).isDisjoint(with: Set(first.map(\.card.wordID))))
-    }
-
-    @Test func introductionOrderIsStableAcrossCalls() {
-        let a = SessionPlanner.plan(cards: [], catalog: Self.catalog, settings: settings(newLimit: 6), now: now)
-        let b = SessionPlanner.plan(cards: [], catalog: Self.catalog, settings: settings(newLimit: 6), now: now)
-        #expect(a.map(\.card.wordID) == b.map(\.card.wordID))
-    }
-
-    // MARK: - Length
-
-    @Test func theSessionIsCappedAtItsConfiguredLength() {
-        let cards = (0..<40).map { seen(Self.catalog.words[$0].id, dueIn: -Double($0) - 1) }
-        let plan = SessionPlanner.plan(cards: cards, catalog: Self.catalog,
-                                       settings: settings(newLimit: 10, length: 12), now: now)
-        #expect(plan.count == 12)
-    }
-
-    @Test func reviewsAreNeverDroppedToMakeRoomForNewWords() {
-        let cards = (0..<15).map { seen(Self.catalog.words[$0].id, dueIn: -Double($0) - 1) }
-        let plan = SessionPlanner.plan(cards: cards, catalog: Self.catalog,
-                                       settings: settings(newLimit: 10, length: 15), now: now)
-        #expect(plan.count == 15)
-        #expect(plan.allSatisfy { $0.card.reviewCount > 0 }, "new words crowded out due reviews")
-    }
-
-    // MARK: - Mode assignment
-
-    @Test func aBrandNewWordStartsWithMultipleChoice() {
-        let plan = SessionPlanner.plan(cards: [], catalog: Self.catalog,
-                                       settings: settings(newLimit: 3), now: now)
-        #expect(plan.allSatisfy { $0.mode == .multipleChoice })
-    }
-
-    @Test func modesGetHarderAsAWordIsSeenMoreOften() {
-        func mode(afterReviews n: Int) -> StudyMode {
-            SessionPlanner.plan(cards: [seen("abate", dueIn: -1, reviews: n)], catalog: Self.catalog,
-                                settings: settings(newLimit: 0), now: now)[0].mode
-        }
-        #expect(mode(afterReviews: 0) == .multipleChoice)
-        #expect(mode(afterReviews: 1) == .reverseRecall)
-        #expect(mode(afterReviews: 2) == .spelling)
-        #expect(mode(afterReviews: 3) == .defineAndUse)
-        #expect(mode(afterReviews: 12) == .defineAndUse)
-    }
-
-    @Test func withoutAnApiKeyTheAiModeIsNeverScheduled() {
-        let cards = (0..<12).map { seen(Self.catalog.words[$0].id, dueIn: -1, reviews: $0) }
-        let plan = SessionPlanner.plan(cards: cards, catalog: Self.catalog,
-                                       settings: settings(newLimit: 0, ai: false), now: now)
-        #expect(plan.isEmpty == false)
-        #expect(plan.allSatisfy { $0.mode != .defineAndUse })
-    }
-
-    @Test func withoutAnApiKeyMatureWordsStillRotateThroughTheLocalModes() {
-        let cards = (0..<12).map { seen(Self.catalog.words[$0].id, dueIn: -1, reviews: 5 + $0) }
-        let plan = SessionPlanner.plan(cards: cards, catalog: Self.catalog,
-                                       settings: settings(newLimit: 0, ai: false), now: now)
-        // All three local modes should appear rather than everything collapsing to one.
-        #expect(Set(plan.map(\.mode)).count >= 2)
+    @Test func relearningBreaksTiesAheadOfReview() {
+        let review = seen("abate", dueIn: -1, stability: 5, lastReviewDaysAgo: 3)
+        let lapsed = seen("laconic", dueIn: -1, stability: 5, lastReviewDaysAgo: 3, state: .relearning)
+        #expect(next([review, lapsed])?.card.wordID == "laconic")
     }
 
     @Test func aWordMissingFromTheCatalogIsSkippedRatherThanCrashing() {
-        let plan = SessionPlanner.plan(cards: [seen("thiswordwasremoved", dueIn: -1)],
-                                       catalog: Self.catalog, settings: settings(newLimit: 0), now: now)
-        #expect(plan.isEmpty)
+        let item = next([seen("thiswordwasremoved", dueIn: -1), seen("abate", dueIn: -1)])
+        #expect(item?.card.wordID == "abate")
+    }
+
+    // MARK: - Anti-repeat
+
+    @Test func aJustShownWordIsNotShownAgainWhileOthersWait() {
+        let cards = [seen("abate", dueIn: -2), seen("laconic", dueIn: -1)]
+        #expect(next(cards, recent: ["abate"])?.card.wordID == "laconic")
+    }
+
+    @Test func aJustShownWordComesBackWhenNothingElseQualifies() {
+        // Rated Again a minute ago, and nothing else is due: better to repeat than to stall.
+        let cards = [learning("abate", dueInMinutes: 0)]
+        let item = next(cards, recent: ["abate"])
+        // A new word from the deck is still preferred over repeating...
+        #expect(item?.card.reviewCount == 0)
+        // ...but with the whole catalog studied, the repeat wins over nothing.
+        let everything = Self.catalog.words.filter { $0.id != "abate" }.map { seen($0.id, dueIn: 5) } + cards
+        #expect(next(everything, recent: ["abate"])?.card.wordID == "abate")
+    }
+
+    // MARK: - Learning-load cap
+
+    @Test func theCapFollowsRecentAccuracy() {
+        #expect(SessionPlanner.learningLoadCap(forAccuracy: nil) == 8)
+        #expect(SessionPlanner.learningLoadCap(forAccuracy: 59) == 4)
+        #expect(SessionPlanner.learningLoadCap(forAccuracy: 60) == 8)
+        #expect(SessionPlanner.learningLoadCap(forAccuracy: 84.9) == 8)
+        #expect(SessionPlanner.learningLoadCap(forAccuracy: 85) == 12)
+    }
+
+    @Test func atTheCapAnUpcomingLearningCardIsServedEarlyInsteadOfANewWord() {
+        let inFlight = (0..<8).map { learning(Self.catalog.words[$0].id, dueInMinutes: Double($0) + 2) }
+        let item = next(inFlight)
+        #expect(item?.card.reviewCount == 1)
+        #expect(item?.card.wordID == Self.catalog.words[0].id, "soonest due should be served")
+    }
+
+    @Test func belowTheCapANewWordIsIntroduced() {
+        let inFlight = (0..<7).map { learning(Self.catalog.words[$0].id, dueInMinutes: Double($0) + 2) }
+        #expect(next(inFlight)?.card.reviewCount == 0)
+    }
+
+    @Test func aStrugglingLearnerHitsTheCapSooner() {
+        let inFlight = (0..<4).map { learning(Self.catalog.words[$0].id, dueInMinutes: Double($0) + 2) }
+        #expect(next(inFlight, accuracy: 40)?.card.reviewCount == 1)
+        #expect(next(inFlight, accuracy: 90)?.card.reviewCount == 0)
+    }
+
+    @Test func learningCardsDueBeyondTheWindowDoNotCountTowardTheCap() {
+        let later = (0..<12).map { learning(Self.catalog.words[$0].id, dueInMinutes: 30) }
+        #expect(next(later)?.card.reviewCount == 0)
+    }
+
+    // MARK: - New words from the current deck
+
+    @Test func withNoDeckChosenNewWordsComeFromTheFirstDeck() throws {
+        let item = try #require(next([]))
+        #expect(item.card.reviewCount == 0)
+        #expect(item.card.wordID == Self.catalog.decks[0].wordIDs[0])
+        #expect(item.mode == .multipleChoice)
+    }
+
+    @Test func newWordsComeFromTheChosenDeckInOrder() throws {
+        let deck = try #require(Self.catalog.deck(id: "common-3"))
+        let settings = SessionSettings(aiEnabled: false, currentDeckID: deck.id)
+        #expect(next([], settings: settings)?.card.wordID == deck.wordIDs[0])
+        let studied = deck.wordIDs.prefix(2).map { seen($0, dueIn: 5) }
+        #expect(next(studied, settings: settings)?.card.wordID == deck.wordIDs[2])
+    }
+
+    @Test func anExhaustedDeckAdvancesToTheNextOne() throws {
+        let deck = try #require(Self.catalog.deck(id: "core-1"))
+        let nextDeck = try #require(Self.catalog.deck(id: "core-2"))
+        let studied = deck.wordIDs.map { seen($0, dueIn: 5) }
+        let item = next(studied, settings: SessionSettings(aiEnabled: false, currentDeckID: deck.id))
+        #expect(item?.card.wordID == nextDeck.wordIDs[0])
+    }
+
+    @Test func theLastDeckWrapsAroundToUnstudiedEarlierDecks() throws {
+        let last = try #require(Self.catalog.decks.last)
+        let studied = last.wordIDs.map { seen($0, dueIn: 5) }
+        let item = next(studied, settings: SessionSettings(aiEnabled: false, currentDeckID: last.id))
+        #expect(item?.card.wordID == Self.catalog.decks[0].wordIDs[0])
+    }
+
+    @Test func anUnknownDeckIDFallsBackToTheFirstDeck() {
+        let item = next([], settings: SessionSettings(aiEnabled: false, currentDeckID: "gone-7"))
+        #expect(item?.card.wordID == Self.catalog.decks[0].wordIDs[0])
+    }
+
+    // MARK: - Caught up
+
+    @Test func nothingDueAndNothingNewReturnsNil() {
+        let everything = Self.catalog.words.map { seen($0.id, dueIn: 5) }
+        #expect(next(everything) == nil)
+    }
+
+    @Test func allowEarlyServesTheWeakestMemoryWhenCaughtUp() {
+        var everything = Self.catalog.words.map { seen($0.id, dueIn: 5, stability: 100) }
+        everything[7] = seen(everything[7].wordID, dueIn: 5, stability: 3, lastReviewDaysAgo: 2)
+        let item = next(everything, early: true)
+        #expect(item?.card.wordID == everything[7].wordID)
+    }
+
+    @Test func nextDueIsTheSoonestFutureDueDate() {
+        let cards = [seen("abate", dueIn: 3), seen("laconic", dueIn: 1), seen("acumen", dueIn: -1)]
+        #expect(SessionPlanner.nextDue(cards: cards, now: now) == now.addingTimeInterval(86_400))
+        #expect(SessionPlanner.nextDue(cards: [], now: now) == nil)
+    }
+
+    // MARK: - Mode ladder
+
+    private func mode(_ card: StudyCard, ai: Bool = true, writingAfter: Int = 3) -> StudyMode {
+        SessionPlanner.mode(for: card, settings: SessionSettings(aiEnabled: ai, writingModeAfterReviews: writingAfter))
+    }
+
+    @Test func aBrandNewWordStartsWithMultipleChoice() {
+        #expect(mode(StudyCard(wordID: "abate")) == .multipleChoice)
+    }
+
+    @Test func modesFollowMemoryStrength() {
+        #expect(mode(seen("abate", dueIn: 0, reviews: 1, stability: 2), ai: false) == .multipleChoice)
+        #expect(mode(seen("abate", dueIn: 0, reviews: 1, stability: 10), ai: false) == .reverseRecall)
+        #expect(mode(seen("abate", dueIn: 0, reviews: 2, stability: 10), ai: false) == .spelling)
+        #expect(mode(seen("abate", dueIn: 0, reviews: 3, stability: 10), ai: false) == .reverseRecall)
+        #expect(mode(seen("abate", dueIn: 0, reviews: 3, stability: 10)) == .defineAndUse)
+    }
+
+    @Test func aLapsedWordDropsBackToMultipleChoice() {
+        let lapsed = seen("abate", dueIn: 0, reviews: 9, stability: 30, state: .relearning)
+        #expect(mode(lapsed) == .multipleChoice)
+        #expect(mode(lapsed, writingAfter: 0) == .multipleChoice)
+    }
+
+    @Test func aCardStillInLearningStepsStaysOnMultipleChoice() {
+        #expect(mode(learning("abate", dueInMinutes: 0), ai: false) == .multipleChoice)
+    }
+
+    @Test func withoutAnApiKeyTheAiModeIsNeverScheduled() {
+        for reviews in 0..<12 {
+            #expect(mode(seen("abate", dueIn: 0, reviews: reviews), ai: false) != .defineAndUse)
+        }
     }
 }
 
-
 @Suite struct WritingModeThresholdTests {
 
-    private static let catalog = try! WordCatalog.bundled()
     private let now = Date(timeIntervalSince1970: 1_800_000_000)
 
     private func card(reviews: Int) -> StudyCard {
@@ -191,25 +227,20 @@ import Testing
     }
 
     private func mode(reviews: Int, writingAfter: Int, ai: Bool = true) -> StudyMode {
-        SessionPlanner.plan(
-            cards: [card(reviews: reviews)], catalog: Self.catalog,
-            settings: SessionSettings(dailyNewWordLimit: 0, aiEnabled: ai,
-                                      writingModeAfterReviews: writingAfter),
-            now: now
-        )[0].mode
+        SessionPlanner.mode(
+            for: card(reviews: reviews),
+            settings: SessionSettings(aiEnabled: ai, writingModeAfterReviews: writingAfter)
+        )
     }
 
     @Test func theDefaultThresholdKeepsTheExistingLadder() {
-        let settings = SessionSettings()
-        #expect(settings.writingModeAfterReviews == 3)
-        #expect(mode(reviews: 0, writingAfter: 3) == .multipleChoice)
+        #expect(SessionSettings().writingModeAfterReviews == 3)
         #expect(mode(reviews: 1, writingAfter: 3) == .reverseRecall)
         #expect(mode(reviews: 2, writingAfter: 3) == .spelling)
         #expect(mode(reviews: 3, writingAfter: 3) == .defineAndUse)
     }
 
     @Test func aThresholdOfZeroGoesStraightToWriting() {
-        // For someone who wants the real exercise from the very first word.
         #expect(mode(reviews: 0, writingAfter: 0) == .defineAndUse)
         #expect(mode(reviews: 7, writingAfter: 0) == .defineAndUse)
     }
@@ -225,7 +256,6 @@ import Testing
     }
 
     @Test func noApiKeyOverridesEvenAZeroThreshold() {
-        // The threshold is a preference; having no key is a hard constraint.
         #expect(mode(reviews: 0, writingAfter: 0, ai: false) != .defineAndUse)
         #expect(mode(reviews: 9, writingAfter: 0, ai: false) != .defineAndUse)
     }
@@ -234,6 +264,5 @@ import Testing
     func belowTheThresholdEveryModeIsLocallyGraded(reviews: Int) {
         let mode = mode(reviews: reviews, writingAfter: 99)
         #expect(StudyMode.locallyGraded.contains(mode))
-        #expect(mode.needsAI == false)
     }
 }

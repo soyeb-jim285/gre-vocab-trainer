@@ -1,83 +1,114 @@
 import Foundation
 
-/// Builds the study queue: what to show, in what order, tested which way.
+/// Picks the next thing to study. Called after every answer with fresh card
+/// state, so a word rated Again a minute ago is back in the queue immediately.
 public enum SessionPlanner {
 
-    /// - Parameter recentAccuracy: mean score (0...100) over the learner's recent
-    ///   answers, used only by ``NewWordOrder/adaptive``. Nil means no history.
-    public static func plan(
+    /// How far ahead a learning card counts as "in flight".
+    static let loadWindow: TimeInterval = 15 * 60
+    /// How many just-shown words to keep out of the way.
+    public static let repeatWindow = 3
+
+    /// The next item, or nil when nothing is due and there are no new words
+    /// left (pass `allowEarly` to review the weakest memory ahead of time).
+    ///
+    /// - Parameters:
+    ///   - recentAccuracy: mean score (0...100) over the learner's recent answers;
+    ///     drives how many new words they can juggle at once. Nil means no history.
+    ///   - recentWordIDs: words just shown, newest last. Avoided unless nothing else qualifies.
+    public static func next(
         cards: [StudyCard], catalog: WordCatalog, settings: SessionSettings,
-        recentAccuracy: Double? = nil, now: Date
-    ) -> [SessionItem] {
-        let studied = Set(cards.map(\.wordID))
+        scheduler: FSRS, recentAccuracy: Double?, recentWordIDs: [String],
+        allowEarly: Bool = false, now: Date
+    ) -> SessionItem? {
+        let recent = Set(recentWordIDs.suffix(repeatWindow))
+        let known = cards.filter { catalog[$0.wordID] != nil }
+        let fresh = known.filter { !recent.contains($0.wordID) }
 
-        // Due reviews first, most overdue leading -- forgetting is the thing
-        // worth spending the session on.
-        let due = cards
-            .filter { $0.fsrs.due <= now }
-            .sorted { $0.fsrs.due < $1.fsrs.due }
-            .compactMap { card in
-                catalog[card.wordID].map { SessionItem(card: card, word: $0, mode: mode(for: card, settings: settings)) }
-            }
-
-        let newItems = introductions(
-            catalog: catalog, excluding: studied,
-            limit: settings.dailyNewWordLimit, settings: settings,
-            recentAccuracy: recentAccuracy
-        )
-
-        // Reviews lead, so truncating here can only ever drop new words --
-        // falling behind on words you already half-know is the worse failure.
-        return Array((due + newItems).prefix(settings.sessionLength))
-    }
-
-    /// Fresh words, in whichever order the learner asked for, stable across calls.
-    private static func introductions(
-        catalog: WordCatalog, excluding studied: Set<String>, limit: Int,
-        settings: SessionSettings, recentAccuracy: Double?
-    ) -> [SessionItem] {
-        guard limit > 0 else { return [] }
-
-        let candidates: [Word]
-        switch settings.newWordOrder {
-        case .mostTested:
-            // Tier first, which is exam value rather than ease.
-            candidates = catalog.words.sorted {
-                $0.tier != $1.tier ? $0.tier < $1.tier : $0.id < $1.id
-            }
-        case .easiestFirst:
-            candidates = byRisingDifficulty(catalog.words)
-        case .adaptive:
-            // Still easiest-first; the ceiling only decides how far up to reach.
-            let ceiling = SessionSettings.difficultyCeiling(forAccuracy: recentAccuracy)
-            candidates = byRisingDifficulty(catalog.words.filter { $0.difficulty <= ceiling })
+        func item(_ card: StudyCard) -> SessionItem? {
+            catalog[card.wordID].map { SessionItem(card: card, word: $0, mode: mode(for: card, settings: settings)) }
         }
 
-        return candidates
-            .lazy
-            .filter { !studied.contains($0.id) }
-            .prefix(limit)
-            .map { word in
-                let card = StudyCard(wordID: word.id, fsrs: FSRSCard(), reviewCount: 0)
-                return SessionItem(card: card, word: word, mode: mode(for: card, settings: settings))
+        // 1. Due now, most likely forgotten first.
+        if let due = mostAtRisk(fresh.filter { $0.fsrs.due <= now }, scheduler: scheduler, now: now) {
+            return item(due)
+        }
+
+        // 2. Too many words half-learned: serve the soonest of them early rather
+        //    than piling on another. The cap follows how the learner is doing.
+        let inFlight = fresh.filter {
+            $0.fsrs.state != .review && $0.fsrs.due <= now.addingTimeInterval(loadWindow)
+        }
+        if inFlight.count >= learningLoadCap(forAccuracy: recentAccuracy),
+           let soonest = inFlight.min(by: { $0.fsrs.due < $1.fsrs.due }) {
+            return item(soonest)
+        }
+
+        // 3. A new word from the current deck, then the decks after it.
+        let studied = Set(known.map(\.wordID))
+        if let word = nextNewWord(catalog: catalog, from: settings.currentDeckID, excluding: studied) {
+            return item(StudyCard(wordID: word.id))
+        }
+
+        // 4. Only the just-shown words are due: repeating beats stalling.
+        if let due = mostAtRisk(known.filter { $0.fsrs.due <= now }, scheduler: scheduler, now: now) {
+            return item(due)
+        }
+
+        // 5. Caught up. Early review only on request.
+        guard allowEarly else { return nil }
+        let pool = fresh.isEmpty ? known : fresh
+        return mostAtRisk(pool, scheduler: scheduler, now: now).flatMap(item)
+    }
+
+    /// When the next card falls due, for the caught-up screen.
+    public static func nextDue(cards: [StudyCard], now: Date) -> Date? {
+        cards.map(\.fsrs.due).filter { $0 > now }.min()
+    }
+
+    /// How many learning/relearning cards may be in flight before new words pause.
+    public static func learningLoadCap(forAccuracy accuracy: Double?) -> Int {
+        switch accuracy {
+        case .some(..<60): 4
+        case .some(85...): 12
+        default: 8
+        }
+    }
+
+    /// Lowest retrievability first; relearning, then earlier due, break ties.
+    private static func mostAtRisk(_ cards: [StudyCard], scheduler: FSRS, now: Date) -> StudyCard? {
+        cards.min { a, b in
+            let ra = scheduler.retrievability(a.fsrs, at: now)
+            let rb = scheduler.retrievability(b.fsrs, at: now)
+            if ra != rb { return ra < rb }
+            if (a.fsrs.state == .relearning) != (b.fsrs.state == .relearning) {
+                return a.fsrs.state == .relearning
             }
+            return a.fsrs.due < b.fsrs.due
+        }
     }
 
-    /// Most common in ordinary English first; id breaks ties so the order is stable.
-    private static func byRisingDifficulty(_ words: [Word]) -> [Word] {
-        words.sorted { $0.zipf != $1.zipf ? $0.zipf > $1.zipf : $0.id < $1.id }
+    /// First unstudied word from the chosen deck onward, wrapping round so a
+    /// learner who jumped ahead still gets the decks they skipped.
+    private static func nextNewWord(catalog: WordCatalog, from deckID: String?, excluding studied: Set<String>) -> Word? {
+        let decks = catalog.decks
+        guard !decks.isEmpty else { return nil }
+        let start = decks.firstIndex { $0.id == deckID } ?? 0
+        for offset in 0..<decks.count {
+            let deck = decks[(start + offset) % decks.count]
+            if let id = deck.wordIDs.first(where: { !studied.contains($0) }) {
+                return catalog[id]
+            }
+        }
+        return nil
     }
 
-    /// Modes get harder as a word becomes familiar: recognise it, recall it,
+    /// Modes get harder as the memory gets stronger: recognise it, recall it,
     /// spell it, then actually use it.
     ///
     /// Writing is the exercise the app exists for, so how soon a word reaches it
     /// is a setting rather than a constant -- the default eases in, zero starts
-    /// there. Below the threshold (or with no API key, which is a hard
-    /// constraint rather than a preference) words cycle through the local modes.
-    ///
-    /// ponytail: progression keys off review count alone. If lapsed words turn
-    /// out to need an easier re-entry, branch on `fsrs.state == .relearning` here.
+    /// there. A lapsed word drops back to recognition whatever the setting.
     static func mode(for card: StudyCard, settings: SessionSettings) -> StudyMode {
         // A forced mode drills one skill and overrides the ladder entirely --
         // except that it cannot conjure an API key, so writing without one
@@ -85,11 +116,14 @@ public enum SessionPlanner {
         if let forced = settings.forcedMode, !forced.needsAI || settings.aiEnabled {
             return forced
         }
-        if settings.forcedMode == nil,
-           settings.aiEnabled, card.reviewCount >= settings.writingModeAfterReviews {
+        if card.fsrs.state == .relearning { return .multipleChoice }
+        if settings.aiEnabled, card.reviewCount >= settings.writingModeAfterReviews {
             return .defineAndUse
         }
-        let local = StudyMode.locallyGraded
-        return local[card.reviewCount % local.count]
+        if card.fsrs.state != .review || Mastery(card: card) <= .learning { return .multipleChoice }
+        return card.reviewCount % 2 == 1 ? .reverseRecall : .spelling
     }
+    // ponytail: FSRS parameters stay at the defaults. Fitting them to the
+    // learner's own review log needs an optimiser and ~1000 reviews; add when
+    // someone has that many.
 }
