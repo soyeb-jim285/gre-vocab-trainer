@@ -22,6 +22,23 @@ struct AnswerFeedback: Equatable {
     var showsReference = false
 }
 
+/// What kind of fixed test to run instead of the open-ended study queue.
+enum QuizSpec: Equatable {
+    case deck(Deck)
+    case everything
+
+    var deckID: String? {
+        if case let .deck(deck) = self { return deck.id }
+        return nil
+    }
+}
+
+struct SessionSummary: Equatable {
+    var answered: Int
+    var meanScore: Int
+    var isQuiz: Bool
+}
+
 @Observable
 @MainActor
 final class SessionViewModel {
@@ -31,17 +48,27 @@ final class SessionViewModel {
         case answering
         case grading
         case reviewing(AnswerFeedback)
-        case finished
+        /// Study only: nothing due and no new words left.
+        case caughtUp(nextDue: Date?)
+        case finished(SessionSummary)
         case failed(String)
     }
 
-    private(set) var items: [SessionItem] = []
-    private(set) var index = 0
+    private(set) var current: SessionItem?
     private(set) var phase: Phase = .loading
     /// Mean score over recent answers; nil until there is enough history.
     private(set) var recentAccuracy: Double?
     /// What this session has cost so far.
     private(set) var sessionSpend: Double = 0
+    private(set) var answeredCount = 0
+    /// Scores this session, for the summary and the quiz record.
+    private var scores: [Int] = []
+    /// Newest last; the planner keeps these out of the way.
+    private var recentWordIDs: [String] = []
+    /// Quiz only: the fixed list and where we are in it.
+    private var queue: [SessionItem] = []
+    private var queueIndex = 0
+    let quiz: QuizSpec?
 
     /// Kept so a failed API call can be retried with the same answer.
     var definitionDraft = ""
@@ -53,35 +80,66 @@ final class SessionViewModel {
     private let catalog: WordCatalog
     private let settings: AppSettings
 
-    var current: SessionItem? { index < items.count ? items[index] : nil }
-    var progress: Double { items.isEmpty ? 0 : Double(index) / Double(items.count) }
-    var answeredCount: Int { index }
+    /// Quiz: fraction done. Study is open-ended, so nil hides the bar.
+    var progress: Double? {
+        guard quiz != nil, !queue.isEmpty else { return nil }
+        return Double(queueIndex) / Double(queue.count)
+    }
 
-    init(context: ModelContext, catalog: WordCatalog, settings: AppSettings) {
+    init(context: ModelContext, catalog: WordCatalog, settings: AppSettings, quiz: QuizSpec? = nil) {
         self.context = context
         self.catalog = catalog
         self.settings = settings
+        self.quiz = quiz
     }
 
     // MARK: - Lifecycle
 
     func start(now: Date = .now) {
         phase = .loading
-        do {
-            let records = try context.fetch(FetchDescriptor<CardRecord>())
-            // The adaptive order reads this to decide how hard the new words
-            // should be, so it has to be recomputed each session.
-            recentAccuracy = ReviewRecorder.recentAccuracy(in: context)
-            items = SessionPlanner.plan(
-                cards: records.map(\.studyCard), catalog: catalog,
-                settings: settings.sessionSettings, recentAccuracy: recentAccuracy, now: now
-            )
-            index = 0
-            resetDrafts()
-            phase = items.isEmpty ? .finished : .answering
-        } catch {
-            phase = .failed("Could not load your cards: \(error.localizedDescription)")
+        answeredCount = 0
+        scores = []
+        recentWordIDs = []
+        sessionSpend = 0
+        resetDrafts()
+        if let quiz {
+            let cards = Array(ReviewRecorder.cardsByID(in: context).values)
+            let seed = UInt64(now.timeIntervalSince1970)
+            queue = switch quiz {
+            case let .deck(deck):
+                QuizPlanner.deckTest(deck: deck, cards: cards, catalog: catalog, seed: seed)
+            case .everything:
+                QuizPlanner.globalTest(cards: cards, catalog: catalog, scheduler: settings.scheduler,
+                                       seed: seed, now: now)
+            }
+            queueIndex = 0
+            current = queue.first
+            phase = current == nil ? .finished(summary()) : .answering
+        } else {
+            loadNext(now: now)
         }
+    }
+
+    /// Study: ask the planner for one more card against the freshest state.
+    private func loadNext(allowEarly: Bool = false, now: Date = .now) {
+        let cards = Array(ReviewRecorder.cardsByID(in: context).values)
+        recentAccuracy = ReviewRecorder.recentAccuracy(in: context)
+        let item = SessionPlanner.next(
+            cards: cards, catalog: catalog, settings: settings.sessionSettings,
+            scheduler: settings.scheduler, recentAccuracy: recentAccuracy,
+            recentWordIDs: recentWordIDs, allowEarly: allowEarly, now: now
+        )
+        current = item
+        guard let item else {
+            phase = .caughtUp(nextDue: SessionPlanner.nextDue(cards: cards, now: now))
+            return
+        }
+        // A new word moves the deck pointer, so the Decks tab and the next
+        // launch pick up where this one left off.
+        if item.card.reviewCount == 0, let deck = catalog.deck(containing: item.word.id) {
+            settings.currentDeckID = deck.id
+        }
+        phase = .answering
     }
 
     private func resetDrafts() {
@@ -230,13 +288,47 @@ final class SessionViewModel {
             wordID: item.card.wordID, mode: item.mode, grade: grade, rating: rating,
             scheduler: settings.scheduler, in: context, cost: cost
         )
+        answeredCount += 1
+        scores.append(grade.score)
+        recentWordIDs.append(item.card.wordID)
         phase = .reviewing(feedback)
     }
 
     func advance() {
-        index += 1
         resetDrafts()
-        phase = index < items.count ? .answering : .finished
+        if quiz != nil {
+            queueIndex += 1
+            current = queueIndex < queue.count ? queue[queueIndex] : nil
+            if current == nil { finishQuiz() } else { phase = .answering }
+        } else {
+            loadNext()
+        }
+    }
+
+    /// Study: wrap up with a summary.
+    func stop() {
+        current = nil
+        phase = .finished(summary())
+    }
+
+    /// Caught up but not done: review the weakest memories ahead of time.
+    func keepGoing() {
+        loadNext(allowEarly: true)
+    }
+
+    private func summary() -> SessionSummary {
+        let mean = scores.isEmpty ? 0 : scores.reduce(0, +) / scores.count
+        return SessionSummary(answered: answeredCount, meanScore: mean, isQuiz: quiz != nil)
+    }
+
+    private func finishQuiz() {
+        let result = summary()
+        if result.answered >= QuizPlanner.minimumWords {
+            context.insert(QuizRecord(deckID: quiz?.deckID, score: result.meanScore,
+                                      wordCount: result.answered, takenAt: .now))
+            try? context.save()
+        }
+        phase = .finished(result)
     }
 
     private func headline(for score: Int) -> String {

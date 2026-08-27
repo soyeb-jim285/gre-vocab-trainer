@@ -3,6 +3,11 @@ import SwiftData
 import SwiftUI
 
 struct SessionView: View {
+    /// A fixed test instead of the open-ended queue.
+    var quiz: QuizSpec? = nil
+    /// Start drawing new words from this deck.
+    var deck: Deck? = nil
+
     @Environment(\.modelContext) private var context
     @Environment(AppSettings.self) private var settings
     @Environment(\.catalog) private var catalog
@@ -19,17 +24,32 @@ struct SessionView: View {
         }
         .screenBackground()
         .toolbar {
-            ToolbarItem(placement: .topBarTrailing) { modePicker }
+            if quiz == nil {
+                ToolbarItem(placement: .topBarLeading) {
+                    if let model, model.answeredCount > 0, isAnswerable(model) {
+                        Button("Done") { model.stop() }.font(Theme.label)
+                    }
+                }
+                ToolbarItem(placement: .topBarTrailing) { modePicker }
+            }
         }
         .task {
             guard model == nil else { return }
-            let created = SessionViewModel(context: context, catalog: catalog, settings: settings)
+            if let deck { settings.currentDeckID = deck.id }
+            let created = SessionViewModel(context: context, catalog: catalog, settings: settings, quiz: quiz)
             created.start()
             model = created
         }
         // Changing what you're drilling has to rebuild the queue, so the change
         // takes effect on the very next card rather than the next session.
-        .onChange(of: settings.forcedMode) { _, _ in model?.start() }
+        .onChange(of: settings.forcedMode) { _, _ in if quiz == nil { model?.start() } }
+    }
+
+    private func isAnswerable(_ model: SessionViewModel) -> Bool {
+        switch model.phase {
+        case .answering, .reviewing: true
+        default: false
+        }
     }
 
     /// Auto follows the ladder: recognise, recall, spell, use. Picking a mode
@@ -63,8 +83,11 @@ struct SessionView: View {
         case .loading:
             ProgressView().tint(Theme.accent)
 
-        case .finished:
-            SessionCompleteView(answered: model.answeredCount) { model.start() }
+        case let .finished(summary):
+            SessionCompleteView(summary: summary, again: { model.start() }, showTestEverything: quiz == nil)
+
+        case let .caughtUp(nextDue):
+            CaughtUpView(nextDue: nextDue, keepGoing: { model.keepGoing() })
 
         case let .failed(message):
             SessionErrorView(message: message) { model.retryAfterFailure() }
@@ -75,7 +98,9 @@ struct SessionView: View {
         case .answering, .reviewing:
             if let item = model.current {
                 VStack(spacing: 0) {
-                    SessionProgressBar(progress: model.progress)
+                    if let progress = model.progress {
+                        SessionProgressBar(progress: progress)
+                    }
                     ScrollView {
                         VStack(alignment: .leading, spacing: 28) {
                             PromptCard(item: item, accent: settings.accent, voiceIdentifier: settings.voiceIdentifier)
@@ -287,26 +312,59 @@ private struct SessionErrorView: View {
 }
 
 private struct SessionCompleteView: View {
-    let answered: Int
+    let summary: SessionSummary
     let again: () -> Void
+    let showTestEverything: Bool
 
     var body: some View {
         VStack(spacing: 18) {
-            Image(systemName: "checkmark.seal")
+            Image(systemName: summary.isQuiz ? "rosette" : "checkmark.seal")
                 .font(.system(size: 44))
                 .foregroundStyle(Theme.accent)
-            Text(answered == 0 ? "Nothing due" : "Session complete")
-                .font(Theme.headword(30))
-                .foregroundStyle(Theme.primaryText)
-            Text(answered == 0
-                 ? "You're caught up. Come back when cards fall due."
-                 : "\(answered) \(answered == 1 ? "word" : "words") reviewed.")
+            Text(summary.isQuiz ? "\(summary.meanScore)%" : "Nice work")
+                .font(Theme.headword(summary.isQuiz ? 44 : 30))
+                .foregroundStyle(summary.isQuiz ? Theme.tint(forScore: summary.meanScore) : Theme.primaryText)
+            Text(summary.answered == 0
+                 ? (summary.isQuiz ? "Study at least \(QuizPlanner.minimumWords) words first." : "Nothing answered yet.")
+                 : "\(summary.answered) \(summary.answered == 1 ? "word" : "words") · \(summary.meanScore)% average")
                 .font(Theme.body)
                 .foregroundStyle(Theme.secondaryText)
                 .multilineTextAlignment(.center)
-            Button("Start another", action: again)
+            Button(summary.isQuiz ? "Test again" : "Keep studying", action: again)
                 .buttonStyle(.glassProminent)
                 .padding(.top, 8)
+            if showTestEverything {
+                NavigationLink("Test everything I know") { SessionView(quiz: .everything).navigationTitle("Test") }
+                    .buttonStyle(.glass)
+            }
+        }
+        .padding(Theme.gutter * 1.5)
+    }
+}
+
+private struct CaughtUpView: View {
+    let nextDue: Date?
+    let keepGoing: () -> Void
+
+    var body: some View {
+        VStack(spacing: 18) {
+            Image(systemName: "moon.stars")
+                .font(.system(size: 44))
+                .foregroundStyle(Theme.accent)
+            Text("All caught up")
+                .font(Theme.headword(30))
+                .foregroundStyle(Theme.primaryText)
+            Text(nextDue.map { "Next review \($0.formatted(.relative(presentation: .named)))." }
+                 ?? "Every word in the list has been studied.")
+                .font(Theme.body)
+                .foregroundStyle(Theme.secondaryText)
+                .multilineTextAlignment(.center)
+            // Reviewing early is a little wasteful and a lot better than stopping
+            // someone who wants to keep going.
+            Button("Keep going anyway", action: keepGoing)
+                .buttonStyle(.glassProminent)
+            NavigationLink("Test everything I know") { SessionView(quiz: .everything).navigationTitle("Test") }
+                .buttonStyle(.glass)
         }
         .padding(Theme.gutter * 1.5)
     }
