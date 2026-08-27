@@ -16,9 +16,18 @@ public struct Deck: Identifiable, Hashable, Sendable {
 
     /// Split a tier's words into decks of 23–25: `ceil(n/25)` decks, sizes as
     /// even as they can be, so the last deck is never a runt.
+    ///
+    /// Ordered by ``Word/rating`` -- how hard the word is *in the sense the exam
+    /// tests* -- so deck 1 holds words a learner can actually start on. Ordering
+    /// by frequency alone put "august" and "flag" in the first deck, because the
+    /// month and the flag are common and the tested meanings are not.
     static func chunk(_ words: [Word], tier: WordTier, targetSize: Int = 25) -> [Deck] {
         guard !words.isEmpty else { return [] }
-        let sorted = words.sorted { $0.zipf != $1.zipf ? $0.zipf > $1.zipf : $0.id < $1.id }
+        let sorted = words.sorted {
+            if $0.rating != $1.rating { return $0.rating < $1.rating }
+            if $0.zipf != $1.zipf { return $0.zipf > $1.zipf }
+            return $0.id < $1.id
+        }
         let count = (sorted.count + targetSize - 1) / targetSize
         let base = sorted.count / count
         let extra = sorted.count % count   // the first `extra` decks take one more

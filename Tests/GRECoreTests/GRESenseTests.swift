@@ -50,11 +50,24 @@ import Testing
         }
     }
 
-    @Test func magooshLevelsAreSaneWhereTheyExist() {
-        let banded = Self.catalog.words.compactMap(\.magoosh)
-        #expect(banded.count > 900, "expected Magoosh levels for most of their 991 words")
-        #expect(banded.allSatisfy { ["basic", "common", "advanced"].contains($0.band) })
-        #expect(banded.allSatisfy { (1...10).contains($0.level) })
+    @Test func everyWordHasAHandAssignedDifficulty() {
+        #expect(Self.catalog.words.allSatisfy { (1...5).contains($0.rating) })
+        // All five levels must be used, or ordering by rating does nothing.
+        #expect(Set(Self.catalog.words.map(\.rating)) == [1, 2, 3, 4, 5])
+    }
+
+    @Test func trapWordsAreNotRatedEasy() {
+        // Common word forms whose tested sense is rare. Frequency called these
+        // the easiest words in the list; they are among the hardest.
+        for id in ["august", "flag", "pine", "base", "catholic", "plastic", "wax", "retiring"] {
+            let word = try! #require(Self.catalog[id])
+            #expect(word.rating >= 4, "\(id) is rated \(word.rating), which puts it in an early deck")
+        }
+    }
+
+    @Test func everyWordHasTwoExampleSentences() {
+        let thin = Self.catalog.words.filter { ($0.gre?.sentences.count ?? 0) < 2 }
+        #expect(thin.isEmpty, "only one sentence for \(thin.prefix(5).map(\.id))")
     }
 
     @Test func synonymsAvoidRepeatingTheWordItself() {

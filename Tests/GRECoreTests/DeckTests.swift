@@ -33,12 +33,20 @@ import Testing
     }
 
     @Test func wordsInsideATierRunEasiestFirst() {
+        // Ordered by the hand-assigned rating, not by frequency: the whole point
+        // is that "august" is a common word and a hard one.
         for tier in WordTier.allCases {
-            let zipfs = Self.catalog.decks(inTier: tier)
+            let ratings = Self.catalog.decks(inTier: tier)
                 .flatMap(\.wordIDs)
-                .compactMap { Self.catalog[$0]?.zipf }
-            #expect(zipfs == zipfs.sorted(by: >), "\(tier) is not easiest-first")
+                .compactMap { Self.catalog[$0]?.rating }
+            #expect(ratings == ratings.sorted(), "\(tier) is not easiest-first")
         }
+    }
+
+    @Test func theFirstDeckHoldsOnlyGenuinelyEasyWords() {
+        let first = Self.catalog.decks[0].wordIDs.compactMap { Self.catalog[$0] }
+        let tooHard = first.filter { $0.rating > 2 }.map(\.id)
+        #expect(tooHard.isEmpty, "hard words in deck 1: \(tooHard)")
     }
 
     @Test func aDeckOnlyHoldsWordsOfItsTier() {

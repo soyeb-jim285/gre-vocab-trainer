@@ -20,18 +20,27 @@ import Testing
         }
     }
 
-    @Test func familiarWordsAreActuallyMoreCommonThanRareOnes() throws {
+    @Test func theBandsSeparateOnTheHandAssignedRating() throws {
+        // They no longer separate on frequency, deliberately: a band is a claim
+        // about the tested sense, and frequency measures the word form.
         let familiar = Self.catalog.words(withDifficulty: .familiar)
         let rare = Self.catalog.words(withDifficulty: .rare)
         #expect(familiar.isEmpty == false)
         #expect(rare.isEmpty == false)
-        // The bands must separate on the underlying number, not just by label.
-        #expect(familiar.map(\.zipf).min()! > rare.map(\.zipf).max()!)
+        #expect(familiar.map(\.rating).max()! < rare.map(\.rating).min()!)
     }
 
-    @Test func knownEasyWordsLandInEasyBands() throws {
+    @Test func aCommonWordWithARareTestedSenseIsNotCalledEasy() throws {
+        // "start" is one of the most frequent words in English; the sense the
+        // exam tests -- to jump in surprise -- is not.
         let start = try #require(Self.catalog["start"])
+        #expect(start.zipf > 5.0, "expected a very common word form")
+        #expect(start.difficulty >= .hard, "frequency is deciding the band again")
+    }
+
+    @Test func genuinelyEasyWordsStillLandInEasyBands() throws {
+        let modest = try #require(Self.catalog["modest"])
         let cajole = try #require(Self.catalog["cajole"])
-        #expect(start.difficulty < cajole.difficulty)
+        #expect(modest.difficulty < cajole.difficulty)
     }
 }
