@@ -9,3 +9,8 @@ __pycache__/
 .DS_Store
 tools/cache/
 dist/
+
+# Reference material used to cross-check the word senses, not ours to ship.
+words_full.json
+words.csv
+maggosh-words-pdf-copy-text.md
