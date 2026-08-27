@@ -6,8 +6,8 @@ struct RootView: View {
             Tab("Study", systemImage: "brain.head.profile") {
                 NavigationStack { SessionView().navigationTitle("Study") }
             }
-            Tab("Words", systemImage: "text.book.closed") {
-                NavigationStack { WordListView().navigationTitle("Words") }
+            Tab("Decks", systemImage: "square.stack.3d.up") {
+                NavigationStack { DecksView().navigationTitle("Decks") }
             }
             Tab("Progress", systemImage: "chart.line.uptrend.xyaxis") {
                 NavigationStack { ProgressScreen().navigationTitle("Progress") }
