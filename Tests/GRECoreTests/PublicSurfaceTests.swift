@@ -27,6 +27,48 @@ import Testing
         _ = CoachSummary(summary: "", focusAreas: [], encouragement: "")
     }
 
+    @Test func theNewPlanningTypesAreConstructibleAndReadableFromOutside() throws {
+        let profile = LearnerProfile(
+            testDate: .now, dailyMinutes: 20, newWordsPerDayCap: 15,
+            desiredRetention: 0.9, strictness: .standard,
+            confidence: ConfidenceSettings(isEnabled: false, scale: 1),
+            budget: AIBudget(dailyUSD: 0.5, lifetimeUSD: nil)
+        )
+        _ = profile.budget.allows(spentToday: 0, spentLifetime: 0)
+
+        let advice = Pacing.advise(remaining: 100, profile: profile)
+        _ = (advice.required, advice.allowed, advice.completion,
+             advice.wordsRemaining, advice.isOnTrack, advice.newWordsToday)
+        _ = Pacing.studyDaysRemaining(from: .now, to: .now)
+        _ = Pacing.newWordsPerDay(remaining: 10, testDate: .now)
+        _ = Pacing.completionDate(remaining: 10, newWordsPerDay: 2)
+
+        let competence = CardCompetence([ReviewEvidence(
+            mode: .multipleChoice, score: 100, latency: .seconds(3), at: .now
+        )])
+        _ = (competence.totalAttempts, competence[.multipleChoice].attempts,
+             competence[.multipleChoice].passes, competence[.multipleChoice].accuracy,
+             competence[.multipleChoice].lastSeen)
+        _ = competence.weakest(among: StudyMode.locallyGraded)
+
+        _ = Confidence.band(for: .multipleChoice)
+        _ = Confidence.adjust(.good, mode: .multipleChoice, latency: .seconds(3),
+                              settings: profile.confidence)
+
+        let catalog = try WordCatalog.bundled()
+        let word = try #require(catalog["abate"])
+        let item = SessionItem(card: StudyCard(wordID: word.id), word: word, mode: .multipleChoice)
+        _ = AnswerJudge.correctChoice(for: item)
+        let judgement = try #require(AnswerJudge.judge(
+            .choice("x"), item: item, strictness: .standard,
+            latency: .seconds(3), confidence: profile.confidence
+        ))
+        _ = (judgement.grade, judgement.rating, judgement.headline,
+             judgement.detail, judgement.showsReference)
+        #expect(AnswerJudge.judge(.written(definition: "", sentence: ""), item: item) == nil)
+        _ = AnswerDraft.typed("x") == AnswerDraft.gaveUp
+    }
+
     @Test func sessionItemCanBeBuiltByHandForPracticeOutsideASession() throws {
         // Writing practice reuses the session's feedback view for a single word,
         // so it builds a SessionItem itself rather than getting one from the planner.
