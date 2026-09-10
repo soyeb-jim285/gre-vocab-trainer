@@ -11,6 +11,18 @@ example sentences, synonyms, antonyms, three wrong definitions written to be har
 to rule out, and a difficulty rating I assigned by hand. None of it is scraped
 from a prep book.
 
+## Meeting a word
+
+A word you have never seen is taught, not tested. You get the word, how it sounds,
+the sense the exam actually uses, a sentence with it doing its job, and — if you
+have an API key — a hook to hang it on. Nothing is graded and nothing is scheduled.
+Then the very next card is a real question about the word you just read.
+
+That last part matters more than it looks. FSRS sets a card's starting difficulty
+from the first rating it ever gets, so an app that opens with a graded question
+about an unseen word is not measuring your memory. It is measuring a coin flip,
+and then building a schedule on the result.
+
 ## Study modes
 
 | Mode | What you do | Graded by |
@@ -25,9 +37,20 @@ from a prep book.
 Five of the six work with no API key and no network. Only the writing mode needs
 one, because grading a free-text answer is the one thing a phone cannot do alone.
 
-The modes climb as your memory of a word gets stronger: recognise it, use it in a
-sentence, recall it cold, spell it, then write with it. How soon a word reaches
-the writing mode is a setting. Set it to zero and every word starts there.
+While a word is still shaky you get recognition. Once it holds, the app asks
+whichever question you have the least evidence for: a mode you have never been
+asked wins outright, then the one you are worst at. It used to rotate the modes by
+review count, which meant someone who nailed recall and failed spelling got
+spelling one time in three — the opposite of what their own history was asking
+for. How soon a word reaches the writing mode is still a setting; set it to zero
+and every word goes there straight after being introduced.
+
+Multiple choice, in context and which meaning score right or wrong and nothing in
+between, so the scheduler cannot tell a word recalled instantly from one dredged
+up after twenty seconds of staring. There is an optional setting that reads answer
+speed and lets a slow correct answer count for less. It can only ever shorten an
+interval, never lengthen one, and it ships switched off until there are real
+answer times to calibrate it against.
 
 ## Trap words
 
@@ -60,17 +83,30 @@ The drill fires on a trap word's second outing, early enough to correct the
 assumption before it sets. It never fires for an ordinary word, since asking
 which meaning of `laconic` is being used has only one answer.
 
-## Pace and decks
+## The day
 
-There is no daily quota and no fixed session length. A session runs until you
-stop. It serves due reviews first, ordered by which ones you are most likely to
-have forgotten rather than by which are most overdue, then introduces new words
-from your current deck.
+Setup asks three things once: when the test is, how many new words a day you are
+willing to meet, and optionally an API key. Those two numbers are what turn 2,898
+words into today's work.
 
-How many new words you get depends on how you are doing. The planner counts the
-words currently half-learned and stops introducing new ones past a cap: four if
-your recent accuracy is under 60%, twelve if it is over 85%, eight otherwise. A
-bad day slows the intake instead of burying you.
+Today is the home screen. It shows what is due, how many new words the day still
+has room for, roughly how long that will take, your streak, and whether the test
+date is still reachable. When it is not, it says so and tells you what the date
+would actually need. Falling behind quietly is the one thing a deadline is
+supposed to prevent, so the app will not do it politely.
+
+The day rolls over at 4am rather than midnight. Finishing at half past midnight
+should complete the day you think you are in, not start a new one and break a
+streak you were in the middle of earning.
+
+Within a session, due reviews come first, ordered by which ones you are most
+likely to have forgotten rather than by which are most overdue. New words come
+after, from your current deck, up to what the day allows. On top of that the app
+counts the words currently half-learned and stops introducing more past a cap:
+four if your recent accuracy is under 60%, twelve if it is over 85%, eight
+otherwise. A bad day slows the intake instead of burying you.
+
+## Decks
 
 The words are split into 117 decks of 23 to 25. Three tiers by exam value first,
 since a word on eight prep lists is likelier to appear than one on a single list:
@@ -152,7 +188,7 @@ sentence. WordNet's first sense disagrees on 28.
 
 | Path | What | Builds where |
 |---|---|---|
-| `Sources/GRECore` | FSRS-6, planners, graders, OpenRouter client. Foundation only. | Linux and macOS |
+| `Sources/GRECore` | FSRS-6, the day plan, the curriculum, the queue, graders, OpenRouter client. Foundation only. | Linux and macOS |
 | `App/` | SwiftUI app. `project.yml` becomes an Xcode project via XcodeGen. | macOS only |
 | `tools/build_dataset.py` | Word lists, WordNet, CMUdict and the hand-written data into `words.json` | Linux |
 | `tools/gre_senses/` | The hand-written senses, merged into `gre_senses.json` | |
@@ -197,20 +233,38 @@ parent cannot abdicate a child"* printed its own answer. They caught `hallmark`
 listing itself as a synonym. They caught trap words losing the everyday sense that
 makes their drill work.
 
+The answer-speed adjustment has a guard of its own. If its thresholds ran loose,
+every quick answer would rate Easy, intervals would stretch across the whole deck,
+and nobody would find out until a month before the exam. So a test simulates
+ninety days of daily reviews and asserts two things: someone who answers quickly
+schedules bit-identically to before the feature existed, and hesitation can only
+ever shorten an interval. A second test walks every mode, rating and answer time
+and asserts the rating is never raised.
+
 A live suite exercises a real OpenRouter call, gated behind
 `OPENROUTER_API_KEY=sk-… swift test`.
 
 ## Design
 
-Dark, typographic, one warm accent. Liquid Glass is confined to the floating
-action bar. Apple's rule is that glass sits above content rather than becoming it,
-and glass cannot sample glass, so the card under study is a solid surface.
+Typographic, one warm accent, and honest in both appearances. Surfaces and text
+come from the system's semantic colours so they follow light, dark and the
+contrast setting; only the four brand colours are stated by hand, and each states
+both halves, because a colour defined once for dark is invisible in daylight.
+Type is set in text styles rather than point sizes, so the whole app scales with
+the reader's setting. Liquid Glass is confined to the floating action bar: Apple's
+rule is that glass sits above content rather than becoming it, and glass cannot
+sample glass, so the card under study is a solid surface.
 
 ## Privacy
 
 The OpenRouter key lives in the Keychain as `WhenUnlockedThisDeviceOnly`. It is a
 bearer credential that can spend money, so it should not ride along in a backup.
 Your answers go to whichever model you pick. Nothing else leaves the device.
+
+Every model call — grading, a mnemonic, a deep dive, the coach — is counted in one
+ledger and checked against a spending limit *before* the call is made. Refusing
+after the money is gone is not a limit. Settings shows what has been spent today
+and in total.
 
 Settings has a reset that deletes every studied word, review, test score and
 cached lookup, and puts the preferences back to defaults. It leaves the API key
