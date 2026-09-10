@@ -4,8 +4,16 @@ import SwiftUI
 
 struct SettingsView: View {
     @Environment(AppSettings.self) private var settings
+    @Environment(\.modelContext) private var context
+    @Environment(\.catalog) private var catalog
+    @Environment(MasteryIndex.self) private var mastery
+
     @State private var keyDraft = ""
     @State private var showingKey = false
+    @State private var confirmingReset = false
+    @State private var resetError: String?
+    @State private var spentToday: Double = 0
+    @State private var spentEver: Double = 0
 
     var body: some View {
         @Bindable var settings = settings
@@ -92,6 +100,58 @@ struct SettingsView: View {
             }
 
             Section {
+                DatePicker(
+                    "Test date",
+                    selection: Binding(
+                        get: { settings.testDate ?? Date.now },
+                        set: { settings.testDate = $0 }
+                    ),
+                    displayedComponents: .date
+                )
+                .disabled(settings.testDate == nil)
+                Toggle("Studying for a date", isOn: Binding(
+                    get: { settings.testDate != nil },
+                    set: { settings.testDate = $0 ? Date.now.addingTimeInterval(60 * 86_400) : nil }
+                ))
+                Stepper("New words a day: \(settings.newWordsPerDayCap)",
+                        value: $settings.newWordsPerDayCap, in: 0...60)
+                    .monospacedDigit()
+                Picker("Day starts at", selection: $settings.dayStartHour) {
+                    Text("Midnight").tag(0)
+                    Text("2am").tag(2)
+                    Text("4am").tag(4)
+                    Text("6am").tag(6)
+                }
+            } header: {
+                Text("Goal")
+            } footer: {
+                Text(goalFooter)
+            }
+
+            Section {
+                Picker("Daily limit", selection: $settings.dailyBudgetUSD) {
+                    Text("No limit").tag(-1.0)
+                    Text("10¢").tag(0.10)
+                    Text("25¢").tag(0.25)
+                    Text("50¢").tag(0.50)
+                    Text("$1").tag(1.0)
+                    Text("$2").tag(2.0)
+                }
+                Picker("Total limit", selection: $settings.lifetimeBudgetUSD) {
+                    Text("No limit").tag(-1.0)
+                    Text("$5").tag(5.0)
+                    Text("$10").tag(10.0)
+                    Text("$25").tag(25.0)
+                }
+                LabeledContent("Spent today", value: money(spentToday))
+                LabeledContent("Spent in total", value: money(spentEver))
+            } header: {
+                Text("Spending")
+            } footer: {
+                Text("Every model call counts against these: grading, deep dives and the coach. A call that would go over the limit is refused before it is made, not after.")
+            }
+
+            Section {
                 Picker("Grading", selection: $settings.strictness) {
                     ForEach(GradingStrictness.allCases, id: \.self) {
                         Text($0.rawValue.capitalized).tag($0)
@@ -125,6 +185,20 @@ struct SettingsView: View {
             }
 
             Section {
+                Toggle("Read answer speed", isOn: $settings.confidenceEnabled)
+                if settings.confidenceEnabled {
+                    VStack(alignment: .leading) {
+                        Text("Patience: \(String(format: "%.1f", settings.confidenceScale))×")
+                        Slider(value: $settings.confidenceScale, in: 0.5...3, step: 0.1)
+                    }
+                }
+            } header: {
+                Text("Advanced")
+            } footer: {
+                Text("Multiple choice, in-context and which-meaning score right or wrong and nothing in between, so the scheduler cannot tell an instant answer from a twenty-second one. Switch this on and a slow correct answer counts for less. It can only ever shorten an interval, never lengthen one. Raise the patience if it feels impatient.")
+            }
+
+            Section {
                 Button("Reset everything", role: .destructive) { confirmingReset = true }
             } header: {
                 Text("Reset")
@@ -144,12 +218,37 @@ struct SettingsView: View {
         .scrollContentBackground(.hidden)
         .screenBackground()
         .tint(Theme.accent)
+        .task { refreshSpend() }
     }
 
-    @Environment(\.modelContext) private var context
-    @Environment(MasteryIndex.self) private var mastery
-    @State private var confirmingReset = false
-    @State private var resetError: String?
+    private func refreshSpend() {
+        spentToday = AILedger.spentToday(in: context, since: settings.dayStart())
+        spentEver = AILedger.spentLifetime(in: context)
+    }
+
+    private func money(_ usd: Double) -> String {
+        // Plain currency formatting shows every call as $0.00.
+        usd > 0 && usd < 0.01
+            ? String(format: "%.2f¢", usd * 100)
+            : String(format: "$%.2f", usd)
+    }
+
+    private var goalFooter: String {
+        let met = mastery.cards.values.filter { $0.reviewCount > 0 }.count
+        let advice = Pacing.advise(
+            remaining: max(0, catalog.words.count - met), profile: settings.profile
+        )
+        if let required = advice.required {
+            return advice.isOnTrack
+                ? "Your date needs \(required) new words a day, which your limit covers."
+                : "Your date needs \(required) new words a day and your limit is \(advice.allowed). You will not cover the whole list by then."
+        }
+        guard let done = advice.completion else {
+            return "At no new words a day the list will never finish."
+        }
+        return "At \(advice.allowed) a day you will have met every word by \(done.formatted(date: .abbreviated, time: .omitted))."
+    }
+
 
     /// Progress first, then preferences: if the delete throws, the settings are
     /// left alone and the learner is told, rather than half-reset.
@@ -157,13 +256,13 @@ struct SettingsView: View {
         do {
             try ReviewRecorder.eraseAllProgress(in: context, index: mastery)
             settings.resetToDefaults()
+            refreshSpend()
             resetError = nil
         } catch {
             resetError = "Could not reset: \(error.localizedDescription)"
         }
     }
 
-    @Environment(\.catalog) private var catalog
     private var sampleWord: Word? { catalog["abate"] ?? catalog.words.first }
 
     private var currentVoiceLabel: String {

@@ -51,7 +51,9 @@ public enum DayPlanner {
     ) -> DayPlan {
         // A card for a word the dataset no longer carries is history, not work.
         let known = cards.filter { catalog[$0.wordID] != nil }
-        let met = known.filter { $0.reviewCount > 0 }
+        // Met, not answered: a word taught a minute ago is no longer waiting to
+        // be introduced, so it must not count toward the backlog.
+        let met = known.filter(\.isIntroduced)
 
         let pacing = Pacing.advise(
             remaining: max(0, catalog.words.count - met.count),

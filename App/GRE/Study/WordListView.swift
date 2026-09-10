@@ -152,10 +152,7 @@ struct WordDetailView: View {
     }
 
     private func cached() -> WordDeepDive? {
-        let id = word.id
-        var descriptor = FetchDescriptor<DeepDiveRecord>(predicate: #Predicate { $0.wordID == id })
-        descriptor.fetchLimit = 1
-        guard let record = try? context.fetch(descriptor).first else { return nil }
+        guard let record = ReviewRecorder.deepDive(for: word.id, in: context) else { return nil }
         return WordDeepDive(
             etymology: record.etymology, mnemonic: record.mnemonic,
             nuance: record.nuance, confusableWith: record.confusableWith

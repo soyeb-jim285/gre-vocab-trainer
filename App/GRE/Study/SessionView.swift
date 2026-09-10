@@ -126,8 +126,28 @@ struct SessionView: View {
         case .grading:
             GradingView(word: model.current?.word.word ?? "")
 
+        case .introducing:
+            if case let .introduce(word, _) = model.current {
+                VStack(spacing: 0) {
+                    ScrollView {
+                        IntroduceCard(word: word, accent: settings.accent,
+                                      voiceIdentifier: settings.voiceIdentifier)
+                            .padding(Theme.gutter)
+                    }
+                }
+                .safeAreaInset(edge: .bottom) {
+                    GlassEffectContainer(spacing: 16) {
+                        Button("Got it") { model.finishIntroduction() }
+                            .buttonStyle(.glassProminent)
+                            .font(.headline)
+                            .padding(.horizontal, Theme.gutter)
+                            .padding(.bottom, 12)
+                    }
+                }
+            }
+
         case .answering, .reviewing:
-            if let item = model.current {
+            if let item = model.current?.item {
                 VStack(spacing: 0) {
                     if let progress = model.progress {
                         SessionProgressBar(progress: progress)

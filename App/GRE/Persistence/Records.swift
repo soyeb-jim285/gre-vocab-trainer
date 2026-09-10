@@ -48,7 +48,8 @@ final class CardRecord {
     }
 
     var studyCard: StudyCard {
-        StudyCard(wordID: wordID, fsrs: fsrs, reviewCount: reviewCount)
+        StudyCard(wordID: wordID, fsrs: fsrs, reviewCount: reviewCount,
+                  isIntroduced: introducedAt != nil)
     }
 }
 

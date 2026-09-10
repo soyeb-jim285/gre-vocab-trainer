@@ -53,6 +53,34 @@ enum SessionShape: Equatable {
     }
 }
 
+/// What the session is showing right now: a word being taught, or a question.
+///
+/// An enum rather than an optional pair, so "introducing" cannot coexist with
+/// "asking" and every screen has to handle both.
+enum SessionCard: Equatable {
+    case introduce(word: Word, card: StudyCard)
+    case drill(SessionItem)
+
+    var word: Word {
+        switch self {
+        case let .introduce(word, _): word
+        case let .drill(item): item.word
+        }
+    }
+
+    var card: StudyCard {
+        switch self {
+        case let .introduce(_, card): card
+        case let .drill(item): item.card
+        }
+    }
+
+    var item: SessionItem? {
+        if case let .drill(item) = self { return item }
+        return nil
+    }
+}
+
 struct SessionSummary: Equatable {
     var answered: Int
     var meanScore: Int
@@ -65,6 +93,8 @@ final class SessionViewModel {
 
     enum Phase: Equatable {
         case loading
+        /// Meeting a word for the first time. Nothing to grade.
+        case introducing
         case answering
         case grading
         case reviewing(AnswerFeedback)
@@ -73,7 +103,10 @@ final class SessionViewModel {
         case finished(SessionSummary)
     }
 
-    private(set) var current: SessionItem?
+    private(set) var current: SessionCard?
+    /// The day's shape, recomputed whenever a card is served so the countdown on
+    /// screen is never behind the work.
+    private(set) var day: DayPlan?
     private(set) var phase: Phase = .loading
     /// Mean score over recent answers; nil until there is enough history.
     private(set) var recentAccuracy: Double?
@@ -85,7 +118,7 @@ final class SessionViewModel {
     /// Newest last; the planner keeps these out of the way.
     private var recentWordIDs: [String] = []
     /// Quiz only: the fixed list and where we are in it.
-    private var queue: [SessionItem] = []
+    private var queue: [SessionCard] = []
     private var queueIndex = 0
     let quiz: SessionShape?
 
@@ -137,17 +170,18 @@ final class SessionViewModel {
             queue = switch quiz {
             case let .deck(deck):
                 QuizPlanner.deckTest(deck: deck, cards: cards, catalog: catalog, seed: seed)
+                    .map(SessionCard.drill)
             case .everything:
                 QuizPlanner.globalTest(cards: cards, catalog: catalog, scheduler: settings.scheduler,
-                                       seed: seed, now: now)
+                                       seed: seed, now: now).map(SessionCard.drill)
             case let .practise(word, mode):
                 // The word's real card, so practice moves the same schedule a
                 // session would rather than scheduling a card nobody owns.
-                [SessionItem(
+                [.drill(SessionItem(
                     card: ReviewRecorder.existing(word.id, in: context)?.studyCard
                         ?? StudyCard(wordID: word.id),
                     word: word, mode: mode
-                )]
+                ))]
             }
             queueIndex = 0
             current = queue.first
@@ -157,26 +191,63 @@ final class SessionViewModel {
         }
     }
 
-    /// Study: ask the planner for one more card against the freshest state.
+    /// Study: one more card, against freshly read state.
+    ///
+    /// Three decisions, each in its own place: the day says how many new words
+    /// are still allowed, the queue picks which word, and the curriculum picks
+    /// which question. None of them used to be separable.
     private func loadNext(allowEarly: Bool = false, now: Date = .now) {
         let cards = Array(ReviewRecorder.cardsByID(in: context).values)
         recentAccuracy = ReviewRecorder.recentAccuracy(in: context)
-        let item = SessionPlanner.next(
-            cards: cards, catalog: catalog, settings: settings.sessionSettings,
+
+        let today = ReviewRecorder.todaysWork(in: context, since: settings.dayStart(at: now))
+        let plan = DayPlanner.plan(
+            cards: cards, catalog: catalog, profile: settings.profile,
+            introducedToday: today.introduced, answeredToday: today.answered, now: now
+        )
+        day = plan
+
+        let picked = SessionQueue.nextCard(
+            cards: cards, catalog: catalog, currentDeckID: settings.currentDeckID,
+            // Early review is the learner asking to keep going past the day's
+            // plan, so the allowance stops applying.
+            newWordsAllowed: allowEarly ? .max : plan.newWordsRemaining,
             scheduler: settings.scheduler, recentAccuracy: recentAccuracy,
             recentWordIDs: recentWordIDs, allowEarly: allowEarly, now: now
         )
-        current = item
-        guard let item else {
-            phase = .caughtUp(nextDue: SessionPlanner.nextDue(cards: cards, now: now))
+
+        guard let picked, let word = catalog[picked.wordID] else {
+            current = nil
+            phase = .caughtUp(nextDue: SessionQueue.nextDue(cards: cards, now: now))
             return
         }
-        // A new word moves the deck pointer, so the Decks tab and the next
-        // launch pick up where this one left off.
-        if item.card.reviewCount == 0, let deck = catalog.deck(containing: item.word.id) {
+
+        // A new word moves the deck pointer, so the Library and the next launch
+        // pick up where this one left off.
+        if !picked.isIntroduced, let deck = catalog.deck(containing: word.id) {
             settings.currentDeckID = deck.id
         }
-        beginAnswering()
+
+        switch Curriculum.step(
+            for: picked, word: word,
+            competence: ReviewRecorder.competence(for: word.id, in: context),
+            settings: settings.sessionSettings
+        ) {
+        case .introduce:
+            current = .introduce(word: word, card: picked)
+            phase = .introducing
+        case let .drill(mode):
+            current = .drill(SessionItem(card: picked, word: word, mode: mode))
+            beginAnswering()
+        }
+    }
+
+    /// Done reading. Nothing is graded, and nothing is scheduled: the card stays
+    /// due, so the very next thing is a real question about the word just met.
+    func finishIntroduction() {
+        guard case let .introduce(word, _) = current else { return }
+        ReviewRecorder.introduce(wordID: word.id, in: context, index: index)
+        loadNext()
     }
 
     /// Called wherever a card becomes answerable, which is the only honest place
@@ -245,7 +316,7 @@ final class SessionViewModel {
     /// the learner reads are decided together instead of being re-decided six
     /// times in the view layer.
     func submit(_ draft: AnswerDraft) async {
-        guard let item = current, phase == .answering else { return }
+        guard let item = current?.item, phase == .answering else { return }
         let latency = clock.stop()
         lastError = nil
         if case let .choice(chosen) = draft { chosenOptionID = chosen }
@@ -330,7 +401,7 @@ final class SessionViewModel {
         _ judgement: Judgement, latency: Duration,
         cost: CallCost? = nil, extras: AnswerFeedback.Extras = .init()
     ) {
-        guard let item = current else { return }
+        guard let item = current?.item else { return }
         ReviewRecorder.record(
             wordID: item.card.wordID, mode: item.mode, grade: judgement.grade,
             rating: judgement.rating, scheduler: settings.scheduler, in: context, index: index,

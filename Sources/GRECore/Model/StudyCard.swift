@@ -100,13 +100,25 @@ public enum PromptSubject: Equatable, Sendable {
 public struct StudyCard: Equatable, Sendable {
     public let wordID: String
     public var fsrs: FSRSCard
-    /// Completed reviews, which is what drives mode progression.
+    /// Completed reviews.
     public var reviewCount: Int
+    /// Whether the word has been taught.
+    ///
+    /// Separate from `reviewCount` on purpose. Teaching must not consume the
+    /// card's first FSRS rating: initial stability is set by the first rating a
+    /// card ever gets, so recording a meeting as a review would fix every word's
+    /// starting difficulty on something the learner was never asked.
+    public var isIntroduced: Bool
 
-    public init(wordID: String, fsrs: FSRSCard = FSRSCard(), reviewCount: Int = 0) {
+    public init(
+        wordID: String, fsrs: FSRSCard = FSRSCard(), reviewCount: Int = 0,
+        isIntroduced: Bool = false
+    ) {
         self.wordID = wordID
         self.fsrs = fsrs
         self.reviewCount = reviewCount
+        // Anything already answered has plainly been met, whatever the store says.
+        self.isIntroduced = isIntroduced || reviewCount > 0
     }
 }
 

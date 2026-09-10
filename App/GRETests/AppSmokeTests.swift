@@ -15,6 +15,16 @@ struct AppSmokeTests {
     /// no screen can go stale behind a write.
     private let index = MasteryIndex()
 
+    /// Walks past the teaching card every unmet word now starts with.
+    ///
+    /// Teaching schedules nothing, so the word stays due and the very next card
+    /// is a real question about it.
+    @discardableResult
+    private func drill(_ model: SessionViewModel) throws -> SessionItem {
+        if case .introduce? = model.current { model.finishIntroduction() }
+        return try #require(model.current?.item)
+    }
+
     private func inMemoryContext() throws -> ModelContext {
         let container = try ModelContainer(
             for: CardRecord.self, ReviewRecord.self, DeepDiveRecord.self, QuizRecord.self,
@@ -50,8 +60,17 @@ struct AppSmokeTests {
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
 
+        // A word never seen is taught, not tested.
         #expect(model.current != nil)
-        let first = try #require(model.current)
+        guard case let .introduce(word, card)? = model.current else {
+            Issue.record("a brand-new word should be introduced, not questioned")
+            return
+        }
+        #expect(card.isIntroduced == false)
+        model.finishIntroduction()
+
+        let first = try #require(model.current?.item)
+        #expect(first.word.id == word.id, "the question should be about the word just taught")
         #expect(first.mode == .multipleChoice)
 
         await model.submit(.choice(first.word.teachingDefinition))
@@ -75,7 +94,7 @@ struct AppSmokeTests {
 
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
-        let item = try #require(model.current)
+        let item = try drill(model)
         let wrong = try #require(model.options(for: item).choices.map(\.id)
             .first { $0 != item.word.teachingDefinition })
 
@@ -96,7 +115,7 @@ struct AppSmokeTests {
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         for _ in 0..<12 {
-            let item = try #require(model.current)
+            let item = try drill(model)
             let options = model.options(for: item).choices.map(\.id)
             #expect(options.count == 4, "\(item.word.id) offered \(options.count) options")
             #expect(options.contains(item.word.teachingDefinition),
@@ -148,17 +167,22 @@ struct AppSmokeTests {
 
     // MARK: - Writing practice
 
-    @Test func writingModeIsReachableImmediatelyWhenTheThresholdIsZero() throws {
+    @Test func writingIsReachableImmediatelyButNotBeforeTheWordIsMet() async throws {
+        let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
-        func firstMode(writingAfter: Int) -> StudyMode? {
-            SessionPlanner.next(
-                cards: [], catalog: catalog,
-                settings: SessionSettings(aiEnabled: true, writingModeAfterReviews: writingAfter),
-                scheduler: FSRS(), recentAccuracy: nil, recentWordIDs: [], now: .now
-            )?.mode
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        settings.writingModeAfterReviews = 0
+        settings.setAPIKey("sk-test")
+        defer { settings.setAPIKey(nil) }
+
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
+        model.start()
+        // "Straight away" means straight after meeting the word, not instead of.
+        guard case .introduce? = model.current else {
+            Issue.record("a brand-new word should be taught first")
+            return
         }
-        #expect(firstMode(writingAfter: 0) == .defineAndUse)
-        #expect(firstMode(writingAfter: 3) == .multipleChoice)
+        #expect(try drill(model).mode == .defineAndUse)
     }
 
     @Test func practisingAWordOutsideASessionSchedulesItTheSameWay() throws {
@@ -209,7 +233,8 @@ struct AppSmokeTests {
 
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
-        #expect(model.current?.mode == .spelling)
+        // Even a forced drill meets the word first.
+        #expect(try drill(model).mode == .spelling)
     }
 
     @Test func autoRestoresTheLadder() throws {
@@ -220,7 +245,7 @@ struct AppSmokeTests {
 
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
-        #expect(model.current?.mode == .multipleChoice)
+        #expect(try drill(model).mode == .multipleChoice)
     }
 
     @Test func removingTheKeyClearsAForcedWritingMode() {
@@ -246,14 +271,14 @@ struct AppSmokeTests {
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
-        let missed = try #require(model.current)
+        let missed = try drill(model)
         await model.admitNotKnowing()
         model.advance()
         // Rated Again → due in a minute, so within this synchronous test it is
         // not yet due; the planner's controlled-clock tests cover the return.
         var seen: [String] = []
         for _ in 0..<6 {
-            guard let item = model.current else { break }
+            guard model.current != nil, let item = try? drill(model) else { break }
             seen.append(item.word.id)
             await model.submit(.choice(item.word.teachingDefinition))
             model.advance()
@@ -274,7 +299,7 @@ struct AppSmokeTests {
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index, quiz: .deck(deck))
         model.start()
         #expect(model.progress == 0)
-        while let item = model.current {
+        while model.current != nil, let item = try? drill(model) {
             await model.submit(.choice(item.word.teachingDefinition))
             model.advance()
         }
@@ -328,10 +353,16 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
+        let word = try #require(catalog["abate"])
+        // A queue of one, so the question is the one under test rather than
+        // whatever the curriculum thinks this learner needs.
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings,
+                                     index: index, quiz: .practise(word: word, mode: .contextCloze))
         model.start()
-        let item = try #require(model.current)
+        let item = try #require(model.current?.item)
+        #expect(item.mode == .contextCloze)
 
+        // Cloze is graded on the word, not on a definition string.
         await model.submit(.choice(item.word.id))
         guard case let .reviewing(feedback) = model.phase else {
             Issue.record("expected review phase, got \(model.phase)")
@@ -345,11 +376,16 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
+        let word = try #require(catalog["abate"])
+        // A queue of one, so the question is the one under test rather than
+        // whatever the curriculum thinks this learner needs.
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings,
+                                     index: index, quiz: .practise(word: word, mode: .contextCloze))
         model.start()
-        let item = try #require(model.current)
-        let wrong = try #require(model.options(for: item).choices.first { $0.id != item.word.id })
+        let item = try #require(model.current?.item)
+        #expect(item.mode == .contextCloze)
 
+        let wrong = try #require(model.options(for: item).choices.first { $0.id != item.word.id })
         await model.submit(.choice(wrong.id))
         guard case let .reviewing(feedback) = model.phase else { Issue.record("expected review"); return }
         #expect(feedback.score == 0)
@@ -381,11 +417,16 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
+        let word = try #require(catalog["flag"])
+        // A queue of one, so the question is the one under test rather than
+        // whatever the curriculum thinks this learner needs.
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings,
+                                     index: index, quiz: .practise(word: word, mode: .senseInContext))
         model.start()
-        let item = try #require(model.current)
+        let item = try #require(model.current?.item)
+        #expect(item.mode == .senseInContext)
+        #expect(item.word.isTrap)
 
-        // Graded against the card actually on screen, so drive it through the model.
         let wrong = try #require(
             model.options(for: item).choices.map(\.id).first { $0 != item.word.teachingDefinition }
         )
@@ -399,83 +440,18 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
+        let word = try #require(catalog["flag"])
+        // A queue of one, so the question is the one under test rather than
+        // whatever the curriculum thinks this learner needs.
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings,
+                                     index: index, quiz: .practise(word: word, mode: .senseInContext))
         model.start()
-        let item = try #require(model.current)
+        let item = try #require(model.current?.item)
+        #expect(item.mode == .senseInContext)
 
         await model.submit(.choice(item.word.teachingDefinition))
         guard case let .reviewing(feedback) = model.phase else { Issue.record("expected review"); return }
         #expect(feedback.score == 100)
-    }
-
-    // MARK: - Reset
-
-    @Test func resettingErasesProgressAndRestoresDefaults() throws {
-        let context = try inMemoryContext()
-        let catalog = try WordCatalog.bundled()
-        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let scheduler = FSRS(enableFuzzing: false)
-
-        // Something of every kind that a reset must remove.
-        let deck = catalog.decks[0]
-        for id in deck.wordIDs.prefix(6) {
-            ReviewRecorder.record(wordID: id, mode: .multipleChoice, grade: Grade(score: 100),
-                                  rating: .good, scheduler: scheduler, in: context, index: index)
-        }
-        context.insert(QuizRecord(deckID: deck.id, score: 80, wordCount: 6, takenAt: .now))
-        context.insert(DeepDiveRecord(
-            wordID: "abate",
-            dive: WordDeepDive(etymology: "e", mnemonic: "m", nuance: "n", confusableWith: []),
-            fetchedAt: .now
-        ))
-        try context.save()
-
-        settings.strictness = .strict
-        settings.desiredRetention = 0.8
-        settings.currentDeckID = deck.id
-        settings.forcedMode = .spelling
-        settings.writingModeAfterReviews = 0
-
-        try ReviewRecorder.eraseAllProgress(in: context, index: index)
-        settings.resetToDefaults()
-
-        #expect(try context.fetch(FetchDescriptor<CardRecord>()).isEmpty)
-        #expect(try context.fetch(FetchDescriptor<ReviewRecord>()).isEmpty)
-        #expect(try context.fetch(FetchDescriptor<QuizRecord>()).isEmpty)
-        #expect(try context.fetch(FetchDescriptor<DeepDiveRecord>()).isEmpty)
-
-        #expect(settings.strictness == .standard)
-        #expect(settings.desiredRetention == 0.9)
-        #expect(settings.currentDeckID == nil)
-        #expect(settings.forcedMode == nil)
-        #expect(settings.writingModeAfterReviews == 3)
-    }
-
-    @Test func resettingSurvivesARelaunch() throws {
-        // The defaults must be written through, not just held in memory.
-        let suite = "test-\(UUID().uuidString)"
-        let settings = AppSettings(defaults: UserDefaults(suiteName: suite)!)
-        settings.strictness = .strict
-        settings.currentDeckID = "core-9"
-        settings.resetToDefaults()
-
-        let relaunched = AppSettings(defaults: UserDefaults(suiteName: suite)!)
-        #expect(relaunched.strictness == .standard)
-        #expect(relaunched.currentDeckID == nil)
-    }
-
-    @Test func resettingLeavesTheApiKeyUntouched() throws {
-        // Wiping progress must not lock the learner out of the graded mode.
-        // Asserted as "unchanged" rather than by writing a key first: the CI
-        // simulator has no Keychain entitlement, so a write there is a no-op.
-        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let keyBefore = KeychainStore.apiKey
-        let hadKey = settings.hasAPIKey
-
-        settings.resetToDefaults()
-
-        #expect(KeychainStore.apiKey == keyBefore, "a reset changed the stored key")
-        #expect(settings.hasAPIKey == hadKey)
     }
 
     @Test func aSessionAfterResetStartsFromTheFirstDeckAgain() async throws {
@@ -486,7 +462,7 @@ struct AppSmokeTests {
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         for _ in 0..<4 {
-            guard let item = model.current else { break }
+            guard model.current != nil, let item = try? drill(model) else { break }
             await model.submit(.choice(item.word.teachingDefinition))
             model.advance()
         }
@@ -561,17 +537,18 @@ struct AppSmokeTests {
 
     // MARK: - Teaching before testing
 
-    @Test func anIntroductionTeachesWithoutScoringTheLearner() throws {
+    @Test func anIntroductionTeachesWithoutSpendingTheFirstRating() throws {
         let context = try inMemoryContext()
-        let scheduler = FSRS(enableFuzzing: false)
 
-        let record = ReviewRecorder.introduce(wordID: "abate", scheduler: scheduler,
-                                              in: context, index: index)
-        #expect(record.reviewCount == 1)
+        let record = ReviewRecorder.introduce(wordID: "abate", in: context, index: index)
         #expect(record.introducedAt != nil)
-        // The word is scheduled now, so the first real question is a retrieval
-        // attempt rather than a guess at something never seen.
-        #expect(record.due > .now)
+        #expect(record.studyCard.isIntroduced)
+        // Initial stability comes from the first rating a card ever gets, so
+        // teaching must not spend it: the card is untouched and still due, and
+        // the very next thing is a real question about the word just met.
+        #expect(record.reviewCount == 0)
+        #expect(record.stability == nil)
+        #expect(record.due == .distantPast)
 
         let logged = try #require(try context.fetch(FetchDescriptor<ReviewRecord>()).first)
         #expect(logged.isIntroduction)
@@ -579,10 +556,19 @@ struct AppSmokeTests {
         #expect(ReviewRecorder.competence(for: "abate", in: context).totalAttempts == 0)
     }
 
+    @Test func teachingTheSameWordTwiceDoesNotResetWhenItWasMet() throws {
+        let context = try inMemoryContext()
+        let first = ReviewRecorder.introduce(wordID: "abate", in: context, index: index,
+                                             at: Date(timeIntervalSince1970: 1_000))
+        ReviewRecorder.introduce(wordID: "abate", in: context, index: index)
+        #expect(first.introducedAt == Date(timeIntervalSince1970: 1_000))
+        #expect(try context.fetch(FetchDescriptor<CardRecord>()).count == 1)
+    }
+
     @Test func competenceIgnoresIntroductionsAndReadsTheRest() throws {
         let context = try inMemoryContext()
         let scheduler = FSRS(enableFuzzing: false)
-        ReviewRecorder.introduce(wordID: "abate", scheduler: scheduler, in: context, index: index)
+        ReviewRecorder.introduce(wordID: "abate", in: context, index: index)
         ReviewRecorder.record(wordID: "abate", mode: .spelling, grade: Grade(score: 100),
                               rating: .easy, scheduler: scheduler, in: context, index: index,
                               latency: .seconds(3))

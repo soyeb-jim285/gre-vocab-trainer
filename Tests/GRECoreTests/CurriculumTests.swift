@@ -16,8 +16,15 @@ import Testing
             fsrs: FSRSCard(stability: stability, difficulty: 5, due: now,
                            lastReview: now.addingTimeInterval(-86_400),
                            state: state, step: state == .review ? nil : 0),
-            reviewCount: reviews
+            reviewCount: reviews,
+            isIntroduced: true
         )
+    }
+
+    /// Met but not yet asked about anything: the state a word is in for the one
+    /// question between the teaching card and its first review.
+    private func justMet(_ id: String = "laconic") -> StudyCard {
+        StudyCard(wordID: id, reviewCount: 0, isIntroduced: true)
     }
 
     private func step(
@@ -51,10 +58,23 @@ import Testing
     }
 
     @Test func introducingHappensOnceAndOnlyOnce() {
-        #expect(step(card(reviews: 1)) != .introduce)
+        // Teaching does not count as a review, so being met is what stops it
+        // happening again -- not having answered something.
+        #expect(step(justMet()) != .introduce)
         for reviews in 1..<20 {
             #expect(step(card(reviews: reviews)) != .introduce, "reintroduced at \(reviews)")
         }
+    }
+
+    @Test func aWordAlreadyAnsweredIsNeverTreatedAsUnmet() {
+        // Progress from before the teaching card existed must not be re-taught.
+        let legacy = StudyCard(wordID: "laconic", reviewCount: 4)
+        #expect(legacy.isIntroduced)
+        #expect(step(legacy) != .introduce)
+    }
+
+    @Test func theQuestionRightAfterTeachingIsRecognition() {
+        #expect(step(justMet()) == .drill(.multipleChoice))
     }
 
     // MARK: - Falling back to recognition
@@ -120,7 +140,7 @@ import Testing
         // Zero used to mean "write about it immediately", including on first
         // contact. Introducing takes that slot now.
         #expect(step(StudyCard(wordID: "laconic"), ai: true, writingAfter: 0) == .introduce)
-        #expect(step(card(reviews: 1), ai: true, writingAfter: 0) == .drill(.defineAndUse))
+        #expect(step(justMet(), ai: true, writingAfter: 0) == .drill(.defineAndUse))
     }
 
     // MARK: - Forced modes

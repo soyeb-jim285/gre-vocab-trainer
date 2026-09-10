@@ -55,6 +55,19 @@ struct ProgressScreen: View {
         }
     }
 
+    /// What the coach needs to say something about the plan rather than only
+    /// about the words.
+    private var paceSummary: String? {
+        let met = mastery.cards.values.filter(\.isIntroduced).count
+        let advice = Pacing.advise(
+            remaining: max(0, catalog.words.count - met), profile: settings.profile
+        )
+        guard let required = advice.required else { return nil }
+        return advice.isOnTrack
+            ? "on track; the test date needs \(required) new words a day and their limit is \(advice.allowed)"
+            : "behind; the test date needs \(required) new words a day and their limit is \(advice.allowed), so the list will not be covered"
+    }
+
     private func runCoach() {
         guard !loadingCoach else { return }
         loadingCoach = true
@@ -76,7 +89,7 @@ struct ProgressScreen: View {
                 ) {
                     try await settings.client().weeklyCoachWithCost(
                         recentMisses: Array(misses), recentWins: Array(wins),
-                        model: settings.coachModel
+                        pace: paceSummary, model: settings.coachModel
                     )
                 }
                 spend = AILedger.spentLifetime(in: context)

@@ -121,13 +121,14 @@ import Testing
         // Scheduling round trip, as the view model does it
         let card = StudyCard(wordID: word.id)
         let settings = SessionSettings(aiEnabled: false, currentDeckID: catalog.decks.first?.id)
-        let item = SessionPlanner.next(
-            cards: [card], catalog: catalog, settings: settings, scheduler: FSRS(),
-            recentAccuracy: 72, recentWordIDs: [], allowEarly: false, now: .now
+        let picked = SessionQueue.nextCard(
+            cards: [card], catalog: catalog, currentDeckID: settings.currentDeckID,
+            newWordsAllowed: 5, scheduler: FSRS(), recentAccuracy: 72,
+            recentWordIDs: [], allowEarly: false, now: .now
         )
-        if let item { _ = (item.card, item.word, item.mode) }
-        _ = SessionPlanner.nextDue(cards: [card], now: .now)
-        _ = SessionPlanner.learningLoadCap(forAccuracy: 72)
+        if let picked { _ = (picked.wordID, picked.reviewCount, picked.fsrs, picked.isIntroduced) }
+        _ = SessionQueue.learningLoadCap(forAccuracy: 72)
+        _ = SessionQueue.nextDue(cards: [card], now: .now)
         // Decks and mastery, as the Decks tab and Progress read them
         _ = catalog.decks.map { ($0.id, $0.title, $0.tier, $0.index, $0.wordIDs) }
         _ = catalog.decks(inTier: .core)

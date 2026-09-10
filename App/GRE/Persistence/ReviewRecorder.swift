@@ -42,21 +42,32 @@ enum ReviewRecorder {
 
     /// Teach a word rather than test it.
     ///
-    /// Rated Good, which walks the card onto the next learning step and puts the
-    /// first real question about ten minutes out. That is the point: meet the
-    /// word, then be asked about it while it is still warm. Recorded as an
-    /// introduction so it never counts toward accuracy or competence -- being
-    /// shown a word is not evidence you can do anything with it.
+    /// Deliberately not an FSRS review. Initial stability is set by the first
+    /// rating a card ever receives, so spending that rating on a card nobody was
+    /// asked about would fix every word's starting difficulty on a non-event.
+    /// The card is left due, so the first real question follows immediately:
+    /// meet the word, then be asked about it while it is still warm.
+    ///
+    /// Logged as an introduction so it never counts toward accuracy or
+    /// competence either -- being shown a word is not evidence that you can do
+    /// anything with it.
     @discardableResult
     static func introduce(
-        wordID: String, scheduler: FSRS, in context: ModelContext, index: MasteryIndex,
-        at date: Date = .now
+        wordID: String, in context: ModelContext, index: MasteryIndex, at date: Date = .now
     ) -> CardRecord {
-        record(
-            wordID: wordID, mode: .multipleChoice, grade: Grade(score: 0), rating: .good,
-            scheduler: scheduler, in: context, index: index, latencyTainted: true,
-            isIntroduction: true, at: date
-        )
+        let record = existing(wordID, in: context) ?? {
+            let fresh = CardRecord(wordID: wordID)
+            context.insert(fresh)
+            return fresh
+        }()
+        record.introducedAt = record.introducedAt ?? date
+        context.insert(ReviewRecord(
+            wordID: wordID, reviewedAt: date, mode: .multipleChoice, score: 0,
+            rating: .good, latencyTainted: true, isIntroduction: true
+        ))
+        try? context.save()
+        index.reload(from: context)
+        return record
     }
 
     /// Mean score over the learner's most recent graded answers. Nil until there
@@ -92,10 +103,54 @@ enum ReviewRecorder {
         return (today.count, today.filter(\.isIntroduction).count)
     }
 
+    /// Consecutive study days ending today, counting back.
+    ///
+    /// A day counts if anything was answered in it. Today not yet started does
+    /// not break the streak -- it is only midday.
+    static func streak(in context: ModelContext, profile: LearnerProfile, now: Date = .now) -> Int {
+        var descriptor = FetchDescriptor<ReviewRecord>(
+            sortBy: [SortDescriptor(\.reviewedAt, order: .reverse)]
+        )
+        // A year of daily study is far more than enough to find the first gap.
+        descriptor.fetchLimit = 5_000
+        let reviews = (try? context.fetch(descriptor)) ?? []
+        guard !reviews.isEmpty else { return 0 }
+
+        let days = Set(reviews.map {
+            Pacing.dayStart(containing: $0.reviewedAt, hour: profile.dayStartHour)
+        })
+        // Stepping by calendar days, not by 86,400 seconds: an hour of drift at
+        // a daylight-saving boundary would miss the day and end the streak.
+        let calendar = Calendar.current
+        func previous(_ day: Date) -> Date {
+            calendar.date(byAdding: .day, value: -1, to: day) ?? day.addingTimeInterval(-86_400)
+        }
+
+        var day = Pacing.dayStart(containing: now, hour: profile.dayStartHour)
+        // Nothing answered yet today is not a broken streak, just an unstarted day.
+        if !days.contains(day) { day = previous(day) }
+        var count = 0
+        while days.contains(day) {
+            count += 1
+            day = previous(day)
+        }
+        return count
+    }
+
     /// Every card keyed by word, which is how decks and the planner read them.
     static func cardsByID(in context: ModelContext) -> [String: StudyCard] {
         let records = (try? context.fetch(FetchDescriptor<CardRecord>())) ?? []
         return Dictionary(records.map { ($0.wordID, $0.studyCard) }, uniquingKeysWith: { a, _ in a })
+    }
+
+    /// A word is paid for once. An empty etymology marks a row fetched for its
+    /// mnemonic alone, so the full deep dive still knows to fetch.
+    static func deepDive(for wordID: String, in context: ModelContext) -> DeepDiveRecord? {
+        var descriptor = FetchDescriptor<DeepDiveRecord>(
+            predicate: #Predicate { $0.wordID == wordID }
+        )
+        descriptor.fetchLimit = 1
+        return try? context.fetch(descriptor).first
     }
 
     static func bestQuizScore(deckID: String?, in context: ModelContext) -> Int? {

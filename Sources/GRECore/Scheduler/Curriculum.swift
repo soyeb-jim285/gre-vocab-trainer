@@ -46,7 +46,7 @@ public enum Curriculum {
         // than about the learner. This outranks a forced mode: forcing a drill
         // says which skill to practise, not that an unseen word should be
         // guessed at.
-        if card.reviewCount == 0 { return .introduce }
+        if !card.isIntroduced { return .introduce }
 
         // A forced mode drills one skill and overrides the rest -- except that it
         // cannot conjure an API key, so writing without one still falls back

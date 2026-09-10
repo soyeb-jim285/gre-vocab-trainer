@@ -118,19 +118,19 @@ public struct OpenRouterClient: Sendable {
     }
 
     public func weeklyCoachWithCost(
-        recentMisses: [String], recentWins: [String], model: String
+        recentMisses: [String], recentWins: [String], pace: String? = nil, model: String
     ) async throws -> (CoachSummary, CallCost?) {
         try await complete(
-            messages: Prompts.coach(recentMisses: recentMisses, recentWins: recentWins),
+            messages: Prompts.coach(recentMisses: recentMisses, recentWins: recentWins, pace: pace),
             schemaName: "weekly_coach", schema: Schemas.coach, model: model
         )
     }
 
     public func weeklyCoach(
-        recentMisses: [String], recentWins: [String], model: String
+        recentMisses: [String], recentWins: [String], pace: String? = nil, model: String
     ) async throws -> CoachSummary {
         try await weeklyCoachWithCost(
-            recentMisses: recentMisses, recentWins: recentWins, model: model
+            recentMisses: recentMisses, recentWins: recentWins, pace: pace, model: model
         ).0
     }
 

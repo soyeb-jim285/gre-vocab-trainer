@@ -41,10 +41,16 @@ struct GREApp: App {
                     RootView()
                         .environment(\.catalog, catalog)
                 } else if let loadError {
-                    Text(loadError)
-                        .font(Theme.body)
-                        .foregroundStyle(Theme.negative)
-                        .padding()
+                    // Previously a dead end: unstyled red text with no way out.
+                    VStack(spacing: 16) {
+                        Text(loadError)
+                            .font(Theme.body)
+                            .foregroundStyle(Theme.negative)
+                            .multilineTextAlignment(.center)
+                        Button("Try again") { self.loadError = nil }
+                            .buttonStyle(.glassProminent)
+                    }
+                    .padding(Theme.gutter)
                 } else {
                     ProgressView().tint(Theme.accent)
                 }
@@ -52,7 +58,7 @@ struct GREApp: App {
             .environment(settings)
             .environment(mastery)
             .screenBackground()
-            .task {
+            .task(id: loadError == nil) {
                 guard catalog == nil else { return }
                 mastery.reload(from: container.mainContext)
                 do { catalog = try WordCatalog.bundled() }

@@ -55,7 +55,12 @@ enum Prompts {
         ]
     }
 
-    static func coach(recentMisses: [String], recentWins: [String]) -> [[String: String]] {
+    /// - Parameter pace: one line on whether the learner is on track for their
+    ///   test date, when they have one. Without it the coach can only talk about
+    ///   words, which is half the question someone with a deadline is asking.
+    static func coach(
+        recentMisses: [String], recentWins: [String], pace: String? = nil
+    ) -> [[String: String]] {
         [
             [
                 "role": "system",
@@ -63,7 +68,8 @@ enum Prompts {
                 You review a GRE learner's recent vocabulary practice. Name the \
                 patterns in what they get wrong -- word families, registers, shades \
                 of meaning -- rather than listing the words back. Two or three focus \
-                areas, no more.
+                areas, no more. If you are told about their pace, say plainly \
+                whether it is working and what to change; do not soften it.
                 """,
             ],
             [
@@ -71,6 +77,7 @@ enum Prompts {
                 "content": """
                 Recently missed: \(recentMisses.joined(separator: ", "))
                 Recently solid: \(recentWins.joined(separator: ", "))
+                \(pace.map { "Pace: " + $0 } ?? "")
                 """,
             ],
         ]
