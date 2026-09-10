@@ -90,6 +90,40 @@ import Testing
                        settings: ConfidenceSettings(isEnabled: true, scale: 3)) == .good)
     }
 
+    // MARK: - What it does to the schedule over a long history
+
+    /// Ninety days of daily reviews, all correct, with a fixed answer time.
+    private func stabilityAfterNinetyDays(latency: Duration?, settings: ConfidenceSettings) -> Double {
+        let fsrs = FSRS(enableFuzzing: false)
+        var card = FSRSCard()
+        var date = Date(timeIntervalSince1970: 1_800_000_000)
+        for _ in 0..<90 {
+            let rating = Confidence.adjust(.easy, mode: .multipleChoice,
+                                           latency: latency, settings: settings)
+            card = fsrs.review(card, rating: rating, at: date)
+            date = max(card.due, date.addingTimeInterval(86_400))
+        }
+        return card.stability ?? 0
+    }
+
+    @Test func aQuickLearnerSchedulesExactlyAsTheyDidBefore() {
+        // The upgrade path for anyone already answering fast has to be a no-op,
+        // or switching this on silently reschedules their whole deck.
+        let baseline = stabilityAfterNinetyDays(latency: nil, settings: ConfidenceSettings())
+        #expect(stabilityAfterNinetyDays(latency: .seconds(2), settings: on) == baseline)
+    }
+
+    @Test func hesitationShortensIntervalsRatherThanLengtheningThem() {
+        // The failure that would go unnoticed for weeks is intervals inflating.
+        // Assert the direction over a long history, not just one review.
+        let baseline = stabilityAfterNinetyDays(latency: nil, settings: ConfidenceSettings())
+        for seconds in [8, 15, 30, 120] {
+            let adjusted = stabilityAfterNinetyDays(latency: .seconds(seconds), settings: on)
+            #expect(adjusted <= baseline,
+                    "answering in \(seconds)s stretched stability to \(adjusted) over \(baseline)")
+        }
+    }
+
     @Test func everyModeHasABandAndTheFastEdgeComesFirst() {
         for mode in StudyMode.allCases {
             let band = Confidence.band(for: mode)

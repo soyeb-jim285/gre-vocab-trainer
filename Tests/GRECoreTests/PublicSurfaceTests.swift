@@ -69,6 +69,30 @@ import Testing
         _ = AnswerDraft.typed("x") == AnswerDraft.gaveUp
     }
 
+    @Test func thePlannerTypesTheAppDrivesAreVisibleFromOutside() throws {
+        let catalog = try WordCatalog.bundled()
+        let word = try #require(catalog["abate"])
+        let profile = LearnerProfile()
+
+        let step = Curriculum.step(
+            for: StudyCard(wordID: word.id), word: word,
+            competence: CardCompetence([]), settings: SessionSettings(aiEnabled: false)
+        )
+        _ = step.mode
+        #expect(step == .introduce)
+        _ = Curriculum.candidates(for: word)
+
+        let plan = DayPlanner.plan(
+            cards: [StudyCard(wordID: word.id)], catalog: catalog, profile: profile,
+            introducedToday: 0, answeredToday: 0
+        )
+        _ = (plan.dueNow, plan.newWordsRemaining, plan.answeredToday, plan.nextDue,
+             plan.pacing, plan.remainingAnswers, plan.isComplete,
+             plan.estimatedMinutes, plan.progress)
+        _ = DayPlanner.secondsPerAnswer
+        _ = Pacing.dayStart(containing: .now, hour: profile.dayStartHour)
+    }
+
     @Test func sessionItemCanBeBuiltByHandForPracticeOutsideASession() throws {
         // Writing practice reuses the session's feedback view for a single word,
         // so it builds a SessionItem itself rather than getting one from the planner.

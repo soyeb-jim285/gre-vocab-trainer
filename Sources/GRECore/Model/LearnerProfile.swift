@@ -32,6 +32,10 @@ public struct LearnerProfile: Codable, Equatable, Sendable {
     /// A ceiling on new words a day, independent of what the deadline demands.
     /// Meeting forty new words in a day is how someone quits on day three.
     public var newWordsPerDayCap: Int
+    /// When a study day rolls over. Studying at half past midnight should finish
+    /// the day the learner thinks they are in, not start a new one and break a
+    /// streak they are in the middle of earning.
+    public var dayStartHour: Int
     public var desiredRetention: Double
     public var strictness: GradingStrictness
     public var confidence: ConfidenceSettings
@@ -41,6 +45,7 @@ public struct LearnerProfile: Codable, Equatable, Sendable {
         testDate: Date? = nil,
         dailyMinutes: Int = 20,
         newWordsPerDayCap: Int = 15,
+        dayStartHour: Int = 4,
         desiredRetention: Double = 0.9,
         strictness: GradingStrictness = .standard,
         confidence: ConfidenceSettings = ConfidenceSettings(),
@@ -49,6 +54,7 @@ public struct LearnerProfile: Codable, Equatable, Sendable {
         self.testDate = testDate
         self.dailyMinutes = max(1, dailyMinutes)
         self.newWordsPerDayCap = max(0, newWordsPerDayCap)
+        self.dayStartHour = min(max(dayStartHour, 0), 23)
         // Outside this range FSRS either schedules everything tomorrow or lets
         // words rot for years; neither is a setting worth offering.
         self.desiredRetention = min(max(desiredRetention, 0.7), 0.97)

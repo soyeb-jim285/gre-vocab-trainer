@@ -31,6 +31,19 @@ public enum Pacing {
 
     /// Days left to study on, counting today and stopping the day before the
     /// test. The morning of the exam is not a study day worth planning around.
+    /// The start of the study day `date` falls in.
+    ///
+    /// Before the rollover hour, that is yesterday's day: an answer at 01:00 on
+    /// Tuesday belongs to Monday's work.
+    public static func dayStart(
+        containing date: Date, hour: Int, calendar: Calendar = .current
+    ) -> Date {
+        let midnight = calendar.startOfDay(for: date)
+        let boundary = calendar.date(byAdding: .hour, value: hour, to: midnight) ?? midnight
+        guard date < boundary else { return boundary }
+        return calendar.date(byAdding: .day, value: -1, to: boundary) ?? midnight
+    }
+
     public static func studyDaysRemaining(
         from now: Date, to testDate: Date, calendar: Calendar = .current
     ) -> Int {
