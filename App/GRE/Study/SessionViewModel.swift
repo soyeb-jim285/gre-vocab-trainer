@@ -245,7 +245,7 @@ final class SessionViewModel {
     /// Done reading. Nothing is graded, and nothing is scheduled: the card stays
     /// due, so the very next thing is a real question about the word just met.
     func finishIntroduction() {
-        guard case let .introduce(word, _) = current else { return }
+        guard case let .introduce(word, _)? = current else { return }
         ReviewRecorder.introduce(wordID: word.id, in: context, index: index)
         loadNext()
     }

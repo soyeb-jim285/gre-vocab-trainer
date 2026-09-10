@@ -100,19 +100,17 @@ struct SettingsView: View {
             }
 
             Section {
-                DatePicker(
-                    "Test date",
-                    selection: Binding(
-                        get: { settings.testDate ?? Date.now },
-                        set: { settings.testDate = $0 }
-                    ),
-                    displayedComponents: .date
-                )
-                .disabled(settings.testDate == nil)
                 Toggle("Studying for a date", isOn: Binding(
                     get: { settings.testDate != nil },
                     set: { settings.testDate = $0 ? Date.now.addingTimeInterval(60 * 86_400) : nil }
                 ))
+                if let date = settings.testDate {
+                    DatePicker(
+                        "Test date",
+                        selection: Binding(get: { date }, set: { settings.testDate = $0 }),
+                        displayedComponents: .date
+                    )
+                }
                 Stepper("New words a day: \(settings.newWordsPerDayCap)",
                         value: $settings.newWordsPerDayCap, in: 0...60)
                     .monospacedDigit()

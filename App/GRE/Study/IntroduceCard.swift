@@ -111,28 +111,33 @@ private struct MnemonicCard: View {
     @State private var loading = false
 
     var body: some View {
-        if let mnemonic = dive?.mnemonic, !mnemonic.isEmpty {
-            VStack(alignment: .leading, spacing: 10) {
-                Text("A way to remember it")
-                    .font(Theme.label)
-                    .foregroundStyle(Theme.tertiaryText)
-                    .textCase(.uppercase)
-                Text(mnemonic)
-                    .font(Theme.body)
-                    .foregroundStyle(Theme.primaryText)
-            }
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .cardSurface()
-        } else if loading {
-            ProgressView()
-                .tint(Theme.accent)
+        // The task hangs off the Group, not off a branch. Setting `loading`
+        // swaps the branch, and a task attached to a branch would be cancelled
+        // by its own side effect before the call it started could return.
+        Group {
+            if let mnemonic = dive?.mnemonic, !mnemonic.isEmpty {
+                VStack(alignment: .leading, spacing: 10) {
+                    Text("A way to remember it")
+                        .font(Theme.label)
+                        .foregroundStyle(Theme.tertiaryText)
+                        .textCase(.uppercase)
+                    Text(mnemonic)
+                        .font(Theme.body)
+                        .foregroundStyle(Theme.primaryText)
+                }
                 .frame(maxWidth: .infinity, alignment: .leading)
-                // Never blocks: the word, its definition and its sentence are
-                // already readable above this.
-                .task { await load() }
-        } else {
-            Color.clear.frame(height: 0).task { await load() }
+                .cardSurface()
+            } else if loading {
+                ProgressView()
+                    .tint(Theme.accent)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            } else {
+                Color.clear.frame(height: 0)
+            }
         }
+        // Never blocks: the word, its definition and its sentence are already
+        // readable above this.
+        .task { await load() }
     }
 
     private func load() async {

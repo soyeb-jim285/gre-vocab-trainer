@@ -81,7 +81,9 @@ struct SessionView: View {
 
     private func isAnswerable(_ model: SessionViewModel) -> Bool {
         switch model.phase {
-        case .answering, .reviewing: true
+        // Including the teaching card: someone who has answered a few and then
+        // meets a new word should still be able to stop.
+        case .answering, .reviewing, .introducing: true
         default: false
         }
     }
@@ -127,7 +129,7 @@ struct SessionView: View {
             GradingView(word: model.current?.word.word ?? "")
 
         case .introducing:
-            if case let .introduce(word, _) = model.current {
+            if case let .introduce(word, _)? = model.current {
                 VStack(spacing: 0) {
                     ScrollView {
                         IntroduceCard(word: word, accent: settings.accent,
