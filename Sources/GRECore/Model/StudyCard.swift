@@ -44,6 +44,34 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         }
     }
 
+    /// What the learner is being asked, in one line.
+    ///
+    /// Here rather than in the view because it was previously written twice for
+    /// the same question: the prompt card and the answer area each had their own
+    /// wording, and they drifted.
+    public var question: String {
+        switch self {
+        case .multipleChoice: "Which definition fits?"
+        case .contextCloze: "Fill the gap"
+        case .senseInContext: "Which meaning is used here?"
+        case .reverseRecall: "Which word means this?"
+        case .spelling: "Listen and spell"
+        case .defineAndUse: "Define it, then use it"
+        }
+    }
+
+    /// What the prompt shows above the question.
+    public var promptSubject: PromptSubject {
+        switch self {
+        case .spelling: .audio
+        case .reverseRecall: .definition
+        // The gap is the question, and it lives with the options. A headword
+        // here would answer it.
+        case .contextCloze: .nothing
+        case .multipleChoice, .senseInContext, .defineAndUse: .word
+        }
+    }
+
     public var systemImage: String {
         switch self {
         case .multipleChoice: "checklist"
@@ -57,6 +85,18 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
 }
 
 /// One word's scheduling state. The app persists this; GRECore only reads it.
+/// What a question shows before the learner answers it.
+public enum PromptSubject: Equatable, Sendable {
+    /// The headword, its pronunciation and its part of speech.
+    case word
+    /// A definition, to recall the word from.
+    case definition
+    /// Sound only.
+    case audio
+    /// Nothing: showing anything would give it away.
+    case nothing
+}
+
 public struct StudyCard: Equatable, Sendable {
     public let wordID: String
     public var fsrs: FSRSCard

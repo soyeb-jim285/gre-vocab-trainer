@@ -10,6 +10,22 @@ public enum AnswerDraft: Equatable, Sendable {
     case written(definition: String, sentence: String)
     /// Gave up without answering.
     case gaveUp
+
+    /// Whether this is worth submitting.
+    ///
+    /// Here rather than in the view so the rule is stated once for every mode
+    /// instead of once per mode at the call site.
+    public var isSubmittable: Bool {
+        switch self {
+        case let .typed(text):
+            !text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        case let .written(definition, sentence):
+            !definition.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+                && !sentence.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        case .choice, .gaveUp:
+            true
+        }
+    }
 }
 
 /// The verdict on one answer: what it scored, what the scheduler is told, and

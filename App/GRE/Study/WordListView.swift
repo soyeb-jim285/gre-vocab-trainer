@@ -63,7 +63,18 @@ struct WordDetailView: View {
         .navigationTitle(word.word)
         .navigationBarTitleDisplayMode(.inline)
         .task { dive = cached() }
-        .sheet(isPresented: $practising) { WritingPracticeView(word: word) }
+        .sheet(isPresented: $practising) {
+            NavigationStack {
+                SessionView(quiz: .practise(word: word, mode: .defineAndUse))
+                    .navigationTitle(word.word)
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbar {
+                        ToolbarItem(placement: .topBarLeading) {
+                            Button("Close") { practising = false }
+                        }
+                    }
+            }
+        }
     }
 
     /// Direct route to the mode the app is built around, without waiting for the

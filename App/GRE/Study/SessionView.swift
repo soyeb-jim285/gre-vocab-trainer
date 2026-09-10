@@ -3,8 +3,8 @@ import SwiftData
 import SwiftUI
 
 struct SessionView: View {
-    /// A fixed test instead of the open-ended queue.
-    var quiz: QuizSpec? = nil
+    /// A fixed queue instead of the open-ended session.
+    var quiz: SessionShape? = nil
     /// Start drawing new words from this deck.
     var deck: Deck? = nil
 
@@ -14,6 +14,16 @@ struct SessionView: View {
     @Environment(\.catalog) private var catalog
 
     @State private var model: SessionViewModel?
+
+    /// The learner's typing lives here, not in the view model and not inside the
+    /// answer surface. A failed grading call used to replace the whole screen,
+    /// which unmounted whatever held the drafts; keeping them on the one view
+    /// that is never torn down means an answer survives a dropped connection.
+    @State private var typed = ""
+    @State private var definitionDraft = ""
+    @State private var sentenceDraft = ""
+    @AccessibilityFocusState private var feedbackFocused: Bool
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
         Group {
@@ -48,6 +58,25 @@ struct SessionView: View {
         // A reset deleted the records this session was built from; rebuild
         // rather than grade cards that no longer exist.
         .onChange(of: settings.resetToken) { _, _ in model?.start() }
+        // The clock keeps running while the app is merely backgrounded on a
+        // device that is awake, which is someone answering the door, not
+        // hesitating.
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active { model?.resumeTimer() } else { model?.pauseTimer() }
+        }
+    }
+
+    private func clearDrafts() {
+        typed = ""
+        definitionDraft = ""
+        sentenceDraft = ""
+    }
+
+    /// What the learner has entered, in the shape the judge reads.
+    private func draft(for item: SessionItem) -> AnswerDraft {
+        item.mode == .defineAndUse
+            ? .written(definition: definitionDraft, sentence: sentenceDraft)
+            : .typed(typed)
     }
 
     private func isAnswerable(_ model: SessionViewModel) -> Bool {
@@ -94,9 +123,6 @@ struct SessionView: View {
         case let .caughtUp(nextDue):
             CaughtUpView(nextDue: nextDue, keepGoing: { model.keepGoing() })
 
-        case let .failed(message):
-            SessionErrorView(message: message) { model.retryAfterFailure() }
-
         case .grading:
             GradingView(word: model.current?.word.word ?? "")
 
@@ -108,84 +134,75 @@ struct SessionView: View {
                     }
                     ScrollView {
                         VStack(alignment: .leading, spacing: 28) {
-                            PromptCard(item: item, accent: settings.accent, voiceIdentifier: settings.voiceIdentifier)
+                            PromptCard(
+                                item: item, accent: settings.accent,
+                                voiceIdentifier: settings.voiceIdentifier,
+                                didPlayAudio: { model.noteAudioPlayed() }
+                            )
                             if case let .reviewing(feedback) = model.phase {
-                                FeedbackCard(feedback: feedback, item: item)
+                                FeedbackCard(feedback: feedback, item: item,
+                                             chosen: model.chosenOptionID)
+                                    .accessibilityFocused($feedbackFocused)
                             } else {
-                                answerArea(model, item)
+                                if let message = model.lastError {
+                                    ErrorBanner(message: message)
+                                }
+                                AnswerSurface(
+                                    item: item, options: model.options(for: item),
+                                    typed: $typed, definition: $definitionDraft,
+                                    sentence: $sentenceDraft
+                                ) { chosen in
+                                    Task { await model.submit(.choice(chosen)) }
+                                }
                             }
                         }
                         .padding(Theme.gutter)
                     }
                 }
-                .safeAreaInset(edge: .bottom) { actionBar(model) }
+                .safeAreaInset(edge: .bottom) { actionBar(model, item) }
+                .onChange(of: model.phase) { _, phase in
+                    if case .reviewing = phase {
+                        // VoiceOver was on an option that no longer exists.
+                        feedbackFocused = true
+                    }
+                }
             }
-        }
-    }
-
-    @ViewBuilder
-    private func answerArea(_ model: SessionViewModel, _ item: SessionItem) -> some View {
-        @Bindable var model = model
-        switch item.mode {
-        case .multipleChoice:
-            MultipleChoiceAnswer(options: model.multipleChoiceOptions(for: item)) {
-                model.submitMultipleChoice($0)
-            }
-        case .contextCloze:
-            ClozeAnswer(
-                sentence: model.clozeSentence(for: item),
-                options: model.clozeOptions(for: item)
-            ) { model.submitCloze($0) }
-        case .senseInContext:
-            SenseAnswer(
-                word: item.word,
-                sentence: model.senseSentence(for: item),
-                options: model.senseOptions(for: item)
-            ) { model.submitSense($0) }
-        case .spelling:
-            SpellingAnswer(typed: $model.typedAnswer)
-        case .reverseRecall:
-            RecallAnswer(typed: $model.typedAnswer)
-        case .defineAndUse:
-            DefineAndUseAnswer(definition: $model.definitionDraft, sentence: $model.sentenceDraft)
         }
     }
 
     /// The one place Liquid Glass belongs: a floating control layer over content.
-    @ViewBuilder
-    private func actionBar(_ model: SessionViewModel) -> some View {
-        if let item = model.current {
-            GlassEffectContainer(spacing: 16) {
-                HStack(spacing: 16) {
-                    if isReviewing(model) {
-                        Button("Next") { model.advance() }
-                            .buttonStyle(.glassProminent)
-                    } else {
-                        // Available in every mode, including multiple choice --
-                        // guessing at random teaches nothing and pollutes the
-                        // schedule with answers that were never really known.
-                        Button("I don't know") { model.admitNotKnowing() }
-                            .buttonStyle(.glass)
-                            .foregroundStyle(Theme.secondaryText)
+    private func actionBar(_ model: SessionViewModel, _ item: SessionItem) -> some View {
+        GlassEffectContainer(spacing: 16) {
+            HStack(spacing: 16) {
+                if isReviewing(model) {
+                    Button("Next") {
+                        clearDrafts()
+                        model.advance()
+                    }
+                    .buttonStyle(.glassProminent)
+                } else {
+                    // Available in every mode, including multiple choice --
+                    // guessing at random teaches nothing and pollutes the
+                    // schedule with answers that were never really known.
+                    Button("I don't know") {
+                        Task { await model.admitNotKnowing() }
+                    }
+                    .buttonStyle(.glass)
+                    .foregroundStyle(Theme.secondaryText)
 
-                        if item.mode.isTapToAnswer == false {
-                            Button("Check") {
-                                switch item.mode {
-                                case .spelling: model.submitSpelling()
-                                case .reverseRecall: model.submitRecall()
-                                case .defineAndUse: Task { await model.submitDefineAndUse() }
-                                case .multipleChoice, .contextCloze, .senseInContext: break
-                                }
-                            }
+                    if !item.mode.isTapToAnswer {
+                        let draft = draft(for: item)
+                        Button("Check") { Task { await model.submit(draft) } }
                             .buttonStyle(.glassProminent)
-                            .disabled(!canSubmit(model, item))
-                        }
+                            // The rule for what counts as an answer is stated
+                            // once, on the draft, for every mode at once.
+                            .disabled(!draft.isSubmittable)
                     }
                 }
-                .font(.headline)
-                .padding(.horizontal, Theme.gutter)
-                .padding(.bottom, 12)
             }
+            .font(.headline)
+            .padding(.horizontal, Theme.gutter)
+            .padding(.bottom, 12)
         }
     }
 
@@ -193,17 +210,30 @@ struct SessionView: View {
         if case .reviewing = model.phase { return true }
         return false
     }
+}
 
-    private func canSubmit(_ model: SessionViewModel, _ item: SessionItem) -> Bool {
-        switch item.mode {
-        case .defineAndUse:
-            !model.definitionDraft.trimmingCharacters(in: .whitespaces).isEmpty
-                && !model.sentenceDraft.trimmingCharacters(in: .whitespaces).isEmpty
-        case .multipleChoice, .contextCloze, .senseInContext:
-            true
-        default:
-            !model.typedAnswer.trimmingCharacters(in: .whitespaces).isEmpty
+/// A failed call, above the answer rather than instead of it.
+private struct ErrorBanner: View {
+    let message: String
+
+    var body: some View {
+        HStack(alignment: .firstTextBaseline, spacing: 10) {
+            Image(systemName: "exclamationmark.triangle.fill")
+                .foregroundStyle(Theme.negative)
+                .accessibilityHidden(true)
+            VStack(alignment: .leading, spacing: 4) {
+                Text(message)
+                    .font(Theme.body)
+                    .foregroundStyle(Theme.primaryText)
+                // Nothing was scheduled, so the answer is still there to resubmit.
+                Text("Nothing was recorded. Your answer is still here.")
+                    .font(.footnote)
+                    .foregroundStyle(Theme.tertiaryText)
+            }
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(16)
+        .background(Theme.negative.opacity(0.12), in: .rect(cornerRadius: 14))
     }
 }
 
@@ -225,48 +255,43 @@ private struct SessionProgressBar: View {
 }
 
 /// The card under study. Solid, not glass -- glass is for the layer above.
+///
+/// The question and what to show above it are both properties of the mode now.
+/// They used to be written here and again in the answer view, in slightly
+/// different words.
 private struct PromptCard: View {
     let item: SessionItem
     let accent: SpeechAccent
     let voiceIdentifier: String?
+    let didPlayAudio: () -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
-            Text(promptLabel)
+            Text(item.mode.question)
                 .font(Theme.label)
                 .foregroundStyle(Theme.tertiaryText)
                 .textCase(.uppercase)
 
-            switch item.mode {
-            case .spelling:
-                Button {
-                    Speaker.shared.say(item.word, accent: accent, voiceIdentifier: voiceIdentifier)
-                } label: {
+            switch item.mode.promptSubject {
+            case .audio:
+                Button(action: play) {
                     Label("Play the word", systemImage: "speaker.wave.3.fill")
                         .font(Theme.headword(.title))
                         .foregroundStyle(Theme.accent)
                 }
                 .buttonStyle(.plain)
 
-            case .reverseRecall:
+            case .definition:
                 Text(item.word.teachingDefinition)
                     .font(Theme.definition)
                     .foregroundStyle(Theme.primaryText)
 
-            case .contextCloze:
-                // The blank is the question; showing the word would answer it.
-                Text("Which word fits?")
-                    .font(Theme.headword(.title))
-                    .foregroundStyle(Theme.primaryText)
-
-            case .senseInContext, .multipleChoice, .defineAndUse:
+            case .word:
                 HStack(alignment: .firstTextBaseline, spacing: 12) {
                     Text(item.word.word)
                         .font(Theme.headword())
                         .foregroundStyle(Theme.primaryText)
-                    Button {
-                        Speaker.shared.say(item.word, accent: accent, voiceIdentifier: voiceIdentifier)
-                    } label: {
+                    Button(action: play) {
                         Image(systemName: "speaker.wave.2")
                             .foregroundStyle(Theme.secondaryText)
                     }
@@ -281,21 +306,18 @@ private struct PromptCard: View {
                 Text(item.word.primaryPartOfSpeech.rawValue)
                     .font(Theme.label)
                     .foregroundStyle(Theme.tertiaryText)
+
+            case .nothing:
+                EmptyView()
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .cardSurface()
     }
 
-    private var promptLabel: String {
-        switch item.mode {
-        case .multipleChoice: "Which definition fits?"
-        case .contextCloze: "Fill the gap"
-        case .senseInContext: "The same word, an unfamiliar meaning"
-        case .spelling: "Listen and spell"
-        case .reverseRecall: "Which word means this?"
-        case .defineAndUse: "Define it, then use it"
-        }
+    private func play() {
+        Speaker.shared.say(item.word, accent: accent, voiceIdentifier: voiceIdentifier)
+        didPlayAudio()
     }
 }
 
@@ -309,31 +331,6 @@ private struct GradingView: View {
                 .font(Theme.body)
                 .foregroundStyle(Theme.secondaryText)
         }
-    }
-}
-
-private struct SessionErrorView: View {
-    let message: String
-    let retry: () -> Void
-
-    var body: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "exclamationmark.triangle")
-                .font(.largeTitle)
-                .foregroundStyle(Theme.negative)
-                .accessibilityHidden(true)
-            Text(message)
-                .font(Theme.body)
-                .foregroundStyle(Theme.secondaryText)
-                .multilineTextAlignment(.center)
-            // Nothing was scheduled, so the answer is still there to resubmit.
-            Text("Your answer was kept and nothing was recorded.")
-                .font(.footnote)
-                .foregroundStyle(Theme.tertiaryText)
-            Button("Try again", action: retry)
-                .buttonStyle(.glassProminent)
-        }
-        .padding(Theme.gutter * 1.5)
     }
 }
 

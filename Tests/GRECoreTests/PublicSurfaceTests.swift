@@ -67,6 +67,8 @@ import Testing
              judgement.detail, judgement.showsReference)
         #expect(AnswerJudge.judge(.written(definition: "", sentence: ""), item: item) == nil)
         _ = AnswerDraft.typed("x") == AnswerDraft.gaveUp
+        _ = AnswerDraft.typed("x").isSubmittable
+        _ = (StudyMode.spelling.question, StudyMode.spelling.promptSubject)
     }
 
     @Test func thePlannerTypesTheAppDrivesAreVisibleFromOutside() throws {
@@ -91,16 +93,6 @@ import Testing
              plan.estimatedMinutes, plan.progress)
         _ = DayPlanner.secondsPerAnswer
         _ = Pacing.dayStart(containing: .now, hour: profile.dayStartHour)
-    }
-
-    @Test func sessionItemCanBeBuiltByHandForPracticeOutsideASession() throws {
-        // Writing practice reuses the session's feedback view for a single word,
-        // so it builds a SessionItem itself rather than getting one from the planner.
-        let catalog = try WordCatalog.bundled()
-        let word = try #require(catalog["abate"])
-        let item = SessionItem(card: StudyCard(wordID: word.id), word: word, mode: .defineAndUse)
-        #expect(item.mode == .defineAndUse)
-        #expect(item.word.id == "abate")
     }
 
     @Test func everyPropertyTheAppReadsIsPubliclyReadable() throws {

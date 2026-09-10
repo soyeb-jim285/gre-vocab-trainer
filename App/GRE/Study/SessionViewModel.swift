@@ -4,28 +4,48 @@ import Observation
 import SwiftData
 
 /// What the learner sees after answering.
+///
+/// Wraps the judgement rather than copying its fields out, so there is no second
+/// place for the score and the rating to disagree.
 struct AnswerFeedback: Equatable {
-    var score: Int
-    var rating: FSRSRating
-    var headline: String
-    var detail: String
-    /// Only the graded mode fills these in.
-    var sentenceFeedback: String?
-    var correctedSentence: String?
-    var missedNuances: [String] = []
-    var memorableSentence: String?
+    /// The parts only a graded answer has.
+    struct Extras: Equatable {
+        var sentenceFeedback: String?
+        var correctedSentence: String?
+        var missedNuances: [String] = []
+        var memorableSentence: String?
+    }
+
+    var judgement: Judgement
     /// What this grade cost, when a model was involved.
     var cost: CallCost?
-    /// Whether to print the dictionary entry underneath. Worth it after writing,
-    /// where the learner produced the meaning themselves and needs to check it;
-    /// noise after multiple choice, which already showed the definition.
-    var showsReference = false
+    var extras = Extras()
+
+    var score: Int { judgement.grade.score }
+    var rating: FSRSRating { judgement.rating }
+    var headline: String { judgement.headline }
+    var detail: String { judgement.detail }
+    /// Worth printing the dictionary entry after writing, where the learner
+    /// produced the meaning themselves; noise after multiple choice, which
+    /// already showed the definition.
+    var showsReference: Bool { judgement.showsReference }
 }
 
-/// What kind of fixed test to run instead of the open-ended study queue.
-enum QuizSpec: Equatable {
+/// A fixed queue instead of the open-ended study session.
+enum SessionShape: Equatable {
     case deck(Deck)
     case everything
+    /// One word, one mode, on request. Practising a word outside a session used
+    /// to be a second screen with its own grading call, its own submit gating
+    /// and a fabricated card invented to satisfy the feedback view. It is a
+    /// queue of one.
+    case practise(word: Word, mode: StudyMode)
+
+    /// Only a real test is worth scoring and recording as one.
+    var isTest: Bool {
+        if case .practise = self { return false }
+        return true
+    }
 
     var deckID: String? {
         if case let .deck(deck) = self { return deck.id }
@@ -51,7 +71,6 @@ final class SessionViewModel {
         /// Study only: nothing due and no new words left.
         case caughtUp(nextDue: Date?)
         case finished(SessionSummary)
-        case failed(String)
     }
 
     private(set) var current: SessionItem?
@@ -68,13 +87,17 @@ final class SessionViewModel {
     /// Quiz only: the fixed list and where we are in it.
     private var queue: [SessionItem] = []
     private var queueIndex = 0
-    let quiz: QuizSpec?
+    let quiz: SessionShape?
 
-    /// Kept so a failed API call can be retried with the same answer.
-    var definitionDraft = ""
-    var sentenceDraft = ""
-    var typedAnswer = ""
+    /// A failed call, shown above the answer rather than instead of it, so the
+    /// learner's typing is still on screen to resubmit.
+    private(set) var lastError: String?
+    /// What was picked, so the feedback can show it beside the right answer.
     private(set) var chosenOptionID: String?
+
+    /// A suspending clock, not a date: a clock change or an NTP correction would
+    /// otherwise land in the middle of an answer and read as hesitation.
+    private var clock = AnswerClock()
 
     private let context: ModelContext
     private let catalog: WordCatalog
@@ -89,7 +112,7 @@ final class SessionViewModel {
 
     init(
         context: ModelContext, catalog: WordCatalog, settings: AppSettings,
-        index: MasteryIndex, quiz: QuizSpec? = nil
+        index: MasteryIndex, quiz: SessionShape? = nil
     ) {
         self.context = context
         self.catalog = catalog
@@ -106,7 +129,8 @@ final class SessionViewModel {
         scores = []
         recentWordIDs = []
         sessionSpend = 0
-        resetDrafts()
+        chosenOptionID = nil
+        lastError = nil
         if let quiz {
             let cards = Array(ReviewRecorder.cardsByID(in: context).values)
             let seed = UInt64(now.timeIntervalSince1970)
@@ -116,10 +140,18 @@ final class SessionViewModel {
             case .everything:
                 QuizPlanner.globalTest(cards: cards, catalog: catalog, scheduler: settings.scheduler,
                                        seed: seed, now: now)
+            case let .practise(word, mode):
+                // The word's real card, so practice moves the same schedule a
+                // session would rather than scheduling a card nobody owns.
+                [SessionItem(
+                    card: ReviewRecorder.existing(word.id, in: context)?.studyCard
+                        ?? StudyCard(wordID: word.id),
+                    word: word, mode: mode
+                )]
             }
             queueIndex = 0
             current = queue.first
-            phase = current == nil ? .finished(summary()) : .answering
+            if current == nil { phase = .finished(summary()) } else { beginAnswering() }
         } else {
             loadNext(now: now)
         }
@@ -144,147 +176,108 @@ final class SessionViewModel {
         if item.card.reviewCount == 0, let deck = catalog.deck(containing: item.word.id) {
             settings.currentDeckID = deck.id
         }
-        phase = .answering
+        beginAnswering()
     }
 
-    private func resetDrafts() {
-        definitionDraft = ""
-        sentenceDraft = ""
-        typedAnswer = ""
-        chosenOptionID = nil
+    /// Called wherever a card becomes answerable, which is the only honest place
+    /// to start counting: not in `body`, which runs whenever SwiftUI likes.
+    private func beginAnswering() {
+        clock.start()
+        phase = .answering
     }
 
     // MARK: - Answering
 
-    /// Four definitions: the real one and the word's three hand-written near
-    /// misses.
-    func multipleChoiceOptions(for item: SessionItem) -> [String] {
-        let wrong = DistractorPicker.definitionDistractors(for: item.word, from: catalog, count: 3)
-        // Sorted by a stable hash rather than shuffled, so the right answer does
-        // not sit in the same slot every time and cannot be guessed positionally.
-        return (wrong + [item.word.teachingDefinition]).sorted {
-            stableSortKey($0, salt: item.word.id) < stableSortKey($1, salt: item.word.id)
+    /// Everything the question needs, built once when the card is served.
+    ///
+    /// Options are sorted by a stable hash rather than shuffled, so the right
+    /// answer neither sits in the same slot every time nor moves between
+    /// launches: position can never be the tell, and it can never be a memory
+    /// aid either.
+    func options(for item: SessionItem) -> AnswerOptions {
+        switch item.mode {
+        case .multipleChoice:
+            let wrong = DistractorPicker.definitionDistractors(for: item.word, from: catalog, count: 3)
+            return AnswerOptions(
+                choices: ordered(wrong + [item.word.teachingDefinition],
+                                 salt: item.word.id).map(AnswerOption.init)
+            )
+
+        case .contextCloze:
+            let wrong = DistractorPicker.clozeDistractors(for: item.word, from: catalog, count: 3)
+            let words = (wrong + [item.word]).sorted {
+                stableSortKey($0.id, salt: "cloze-" + item.word.id)
+                    < stableSortKey($1.id, salt: "cloze-" + item.word.id)
+            }
+            return AnswerOptions(
+                choices: words.map(AnswerOption.init),
+                sentence: pick(item.word.gre?.cloze ?? [], for: item),
+                choicesAreWords: true
+            )
+
+        case .senseInContext:
+            let wrong = DistractorPicker.senseDistractors(for: item.word, from: catalog, count: 3)
+            return AnswerOptions(
+                choices: ordered(wrong + [item.word.teachingDefinition],
+                                 salt: "sense-" + item.word.id).map(AnswerOption.init),
+                sentence: pick(item.word.gre?.sentences ?? [], for: item)
+            )
+
+        case .reverseRecall, .spelling, .defineAndUse:
+            return AnswerOptions()
         }
     }
 
-    /// Four words for a fill-in-the-blank, ordered as the plain multiple-choice
-    /// options are so position never gives the answer away.
-    func clozeOptions(for item: SessionItem) -> [Word] {
-        let distractors = DistractorPicker.clozeDistractors(for: item.word, from: catalog, count: 3)
-        return (distractors + [item.word]).sorted {
-            stableSortKey($0.id, salt: "cloze-" + item.word.id)
-                < stableSortKey($1.id, salt: "cloze-" + item.word.id)
-        }
+    private func ordered(_ options: [String], salt: String) -> [String] {
+        options.sorted { stableSortKey($0, salt: salt) < stableSortKey($1, salt: salt) }
     }
 
-    /// The tested meaning plus the everyday ones it is confused with.
-    func senseOptions(for item: SessionItem) -> [String] {
-        let wrong = DistractorPicker.senseDistractors(for: item.word, from: catalog, count: 3)
-        return (wrong + [item.word.teachingDefinition]).sorted {
-            stableSortKey($0, salt: "sense-" + item.word.id)
-                < stableSortKey($1, salt: "sense-" + item.word.id)
-        }
-    }
-
-    /// One blanked sentence, chosen per card so a word met twice is not asked
-    /// with the same sentence both times.
-    func clozeSentence(for item: SessionItem) -> String {
-        let options = item.word.gre?.cloze ?? []
+    /// Chosen per card, so a word met twice is not asked with the same sentence
+    /// both times.
+    private func pick(_ options: [String], for item: SessionItem) -> String {
         guard !options.isEmpty else { return "" }
         return options[item.card.reviewCount % options.count]
     }
 
-    /// The sentence a "which meaning" question is asked about. Unblanked: the
-    /// word is exactly what the learner has to interpret.
-    func senseSentence(for item: SessionItem) -> String {
-        let options = item.word.gre?.sentences ?? []
-        guard !options.isEmpty else { return "" }
-        return options[item.card.reviewCount % options.count]
+    /// The one way an answer is submitted, whatever asked for it.
+    ///
+    /// Every mode reaches the same judge, so the score, the rating and the words
+    /// the learner reads are decided together instead of being re-decided six
+    /// times in the view layer.
+    func submit(_ draft: AnswerDraft) async {
+        guard let item = current, phase == .answering else { return }
+        let latency = clock.stop()
+        lastError = nil
+        if case let .choice(chosen) = draft { chosenOptionID = chosen }
+
+        if let judgement = AnswerJudge.judge(
+            draft, item: item, strictness: settings.strictness,
+            latency: clock.isTainted ? nil : latency,
+            confidence: settings.profile.confidence
+        ) {
+            finish(judgement, latency: latency)
+            return
+        }
+        await gradeRemotely(draft, item: item, latency: latency)
     }
 
-    func submitCloze(_ chosen: Word) {
-        guard let item = current else { return }
-        chosenOptionID = chosen.id
-        let correct = chosen.id == item.word.id
-        finish(
-            grade: Grade(score: correct ? 100 : 0),
-            feedback: AnswerFeedback(
-                score: correct ? 100 : 0,
-                rating: Grade(score: correct ? 100 : 0).rating(strictness: settings.strictness),
-                headline: correct ? "That fits" : "Not that one",
-                detail: item.word.teachingDefinition,
-                // Getting it wrong in context is the moment the full entry helps.
-                showsReference: !correct
-            )
-        )
+    /// Give up on the current card.
+    func admitNotKnowing() async {
+        await submit(.gaveUp)
     }
 
-    func submitSense(_ chosen: String) {
-        guard let item = current else { return }
-        chosenOptionID = chosen
-        let correct = chosen == item.word.teachingDefinition
-        finish(
-            grade: Grade(score: correct ? 100 : 0),
-            feedback: AnswerFeedback(
-                score: correct ? 100 : 0,
-                rating: Grade(score: correct ? 100 : 0).rating(strictness: settings.strictness),
-                headline: correct ? "Right meaning" : "That is the everyday meaning",
-                detail: item.word.teachingDefinition,
-                showsReference: true
-            )
-        )
+    /// Audio played, so the time on the clock is reading time, not recall time.
+    func noteAudioPlayed() {
+        clock.taint()
     }
 
-    func submitMultipleChoice(_ chosen: String) {
-        guard let item = current else { return }
-        chosenOptionID = chosen
-        let correct = chosen == item.word.teachingDefinition
-        finish(
-            grade: Grade(score: correct ? 100 : 0),
-            feedback: AnswerFeedback(
-                score: correct ? 100 : 0,
-                rating: Grade(score: correct ? 100 : 0).rating(strictness: settings.strictness),
-                headline: correct ? "Correct" : "Not quite",
-                detail: item.word.teachingDefinition
-            )
-        )
-    }
+    func pauseTimer() { clock.pause() }
+    func resumeTimer() { clock.resume() }
 
-    func submitSpelling() {
-        guard let item = current else { return }
-        let result = LocalGrader.gradeSpelling(typed: typedAnswer, expected: item.word.word)
-        finish(
-            grade: result.grade,
-            feedback: AnswerFeedback(
-                score: result.grade.score,
-                rating: result.grade.rating(strictness: settings.strictness),
-                headline: result.isExact ? "Spelled correctly" : "Spelling is off",
-                detail: result.isExact
-                    ? item.word.teachingDefinition
-                    : "You wrote \"\(typedAnswer.trimmingCharacters(in: .whitespaces))\" — it's \"\(item.word.word)\"."
-            )
-        )
-    }
-
-    func submitRecall() {
-        guard let item = current else { return }
-        let grade = LocalGrader.gradeRecall(typed: typedAnswer, expected: item.word.word)
-        finish(
-            grade: grade,
-            feedback: AnswerFeedback(
-                score: grade.score,
-                rating: grade.rating(strictness: settings.strictness),
-                headline: grade.score == 100 ? "Got it" : (grade.score > 0 ? "Close" : "The word was"),
-                detail: item.word.word,
-                showsReference: true
-            )
-        )
-    }
-
-    func submitDefineAndUse() async {
-        guard let item = current else { return }
+    private func gradeRemotely(_ draft: AnswerDraft, item: SessionItem, latency: Duration) async {
+        guard case let .written(definition, sentence) = draft else { return }
         guard settings.hasAPIKey else {
-            phase = .failed(OpenRouterError.missingAPIKey.description)
+            lastError = OpenRouterError.missingAPIKey.description
             return
         }
         phase = .grading
@@ -297,90 +290,65 @@ final class SessionViewModel {
                     word: item.word.word,
                     referenceDefinition: item.word.teachingDefinition,
                     partOfSpeech: item.word.primaryPartOfSpeech.rawValue,
-                    learnerDefinition: definitionDraft,
-                    learnerSentence: sentenceDraft,
+                    learnerDefinition: definition,
+                    learnerSentence: sentence,
                     model: settings.gradingModel
                 )
             }
             sessionSpend += cost?.usd ?? 0
             finish(
-                grade: Grade(score: result.combinedScore),
-                rating: result.rating,
-                cost: cost,
-                feedback: AnswerFeedback(
-                    score: result.combinedScore,
+                Judgement(
+                    grade: Grade(score: result.combinedScore),
+                    // The model rated the answer itself; that beats mapping a
+                    // number it also produced.
                     rating: result.rating,
-                    headline: headline(for: result.combinedScore),
+                    headline: Self.headline(for: result.combinedScore),
                     detail: result.definitionFeedback,
+                    showsReference: true
+                ),
+                latency: latency,
+                cost: cost,
+                extras: AnswerFeedback.Extras(
                     sentenceFeedback: result.sentenceFeedback,
                     correctedSentence: result.correctedSentence,
                     missedNuances: result.missedNuances,
-                    memorableSentence: result.memorableSentence,
-                    cost: cost,
-                    showsReference: true
+                    memorableSentence: result.memorableSentence
                 )
             )
         } catch {
-            // Deliberately not scheduled: a network failure is not evidence about
-            // the learner's memory, and recording it would poison the scheduler.
-            let message = (error as? OpenRouterError)?.description ?? error.localizedDescription
-            phase = .failed(message)
+            // Deliberately not scheduled: a network failure is not evidence
+            // about the learner's memory, and recording it would poison the
+            // scheduler. The answer stays on screen.
+            lastError = (error as? OpenRouterError)?.description ?? error.localizedDescription
+            phase = .answering
         }
-    }
-
-    /// Give up on the current card.
-    ///
-    /// Scored zero and rated Again, so the word comes back almost immediately.
-    /// No model call: there is nothing to grade, and paying to be told an empty
-    /// answer is wrong would be absurd.
-    func admitNotKnowing() {
-        guard let item = current else { return }
-        finish(
-            grade: Grade(score: 0),
-            rating: .again,
-            feedback: AnswerFeedback(
-                score: 0,
-                rating: .again,
-                headline: "Let's learn it",
-                detail: item.mode == .reverseRecall || item.mode == .spelling
-                    ? item.word.word
-                    : "",
-                // Nothing was produced, so the full entry is the whole lesson.
-                showsReference: true
-            )
-        )
-    }
-
-    /// Return to the answer screen with the drafts intact after a failed call.
-    func retryAfterFailure() {
-        phase = .answering
     }
 
     // MARK: - Scheduling
 
-    /// The model's own rating wins when it gave one; otherwise the score maps.
     private func finish(
-        grade: Grade, rating: FSRSRating? = nil, cost: CallCost? = nil, feedback: AnswerFeedback
+        _ judgement: Judgement, latency: Duration,
+        cost: CallCost? = nil, extras: AnswerFeedback.Extras = .init()
     ) {
         guard let item = current else { return }
-        let rating = rating ?? grade.rating(strictness: settings.strictness)
-
         ReviewRecorder.record(
-            wordID: item.card.wordID, mode: item.mode, grade: grade, rating: rating,
-            scheduler: settings.scheduler, in: context, index: index
+            wordID: item.card.wordID, mode: item.mode, grade: judgement.grade,
+            rating: judgement.rating, scheduler: settings.scheduler, in: context, index: index,
+            latency: latency, latencyTainted: clock.isTainted
         )
         answeredCount += 1
-        scores.append(grade.score)
+        scores.append(judgement.grade.score)
         recentWordIDs.append(item.card.wordID)
-        phase = .reviewing(feedback)
+        phase = .reviewing(AnswerFeedback(judgement: judgement, cost: cost, extras: extras))
     }
 
     func advance() {
-        resetDrafts()
+        chosenOptionID = nil
+        lastError = nil
         if quiz != nil {
             queueIndex += 1
             current = queueIndex < queue.count ? queue[queueIndex] : nil
-            if current == nil { finishQuiz() } else { phase = .answering }
+            if current == nil { finishQuiz() } else { beginAnswering() }
         } else {
             loadNext()
         }
@@ -399,12 +367,13 @@ final class SessionViewModel {
 
     private func summary() -> SessionSummary {
         let mean = scores.isEmpty ? 0 : scores.reduce(0, +) / scores.count
-        return SessionSummary(answered: answeredCount, meanScore: mean, isQuiz: quiz != nil)
+        return SessionSummary(answered: answeredCount, meanScore: mean,
+                              isQuiz: quiz?.isTest ?? false)
     }
 
     private func finishQuiz() {
         let result = summary()
-        if result.answered >= QuizPlanner.minimumWords {
+        if quiz?.isTest == true, result.answered >= QuizPlanner.minimumWords {
             context.insert(QuizRecord(deckID: quiz?.deckID, score: result.meanScore,
                                       wordCount: result.answered, takenAt: .now))
             try? context.save()
@@ -412,7 +381,7 @@ final class SessionViewModel {
         phase = .finished(result)
     }
 
-    private func headline(for score: Int) -> String {
+    static func headline(for score: Int) -> String {
         switch score {
         case 90...: "Excellent"
         case 70..<90: "Good"
@@ -430,4 +399,45 @@ private func stableSortKey(_ id: String, salt: String) -> UInt64 {
         hash &*= 1_099_511_628_211
     }
     return hash
+}
+
+/// How long an answer took.
+///
+/// A suspending clock rather than dates: a manual clock change or an NTP
+/// correction landing mid-card would otherwise be recorded as hesitation. It
+/// also stops while the device is asleep, and `pause` covers the other half --
+/// the app in the background on a device that is awake.
+struct AnswerClock {
+    private var started: SuspendingClock.Instant?
+    private var accumulated: Duration = .zero
+    /// Whatever is on the clock is not evidence about recall.
+    private(set) var isTainted = false
+
+    mutating func start() {
+        started = SuspendingClock.now
+        accumulated = .zero
+        isTainted = false
+    }
+
+    mutating func pause() {
+        guard let started else { return }
+        accumulated += SuspendingClock.now - started
+        self.started = nil
+    }
+
+    mutating func resume() {
+        guard started == nil else { return }
+        started = SuspendingClock.now
+    }
+
+    /// Reading the sentence aloud is reading time, not recall time.
+    mutating func taint() { isTainted = true }
+
+    mutating func stop() -> Duration {
+        pause()
+        // Nobody deliberates for a minute; they put the phone down. Recording it
+        // as hesitation would drag the word's schedule for no reason.
+        if accumulated > .seconds(60) { isTainted = true }
+        return accumulated
+    }
 }

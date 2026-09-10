@@ -147,4 +147,37 @@ import Testing
         let subject = SessionItem(card: StudyCard(wordID: "flag"), word: flag, mode: .senseInContext)
         #expect(AnswerJudge.judge(.choice(flag.teachingDefinition), item: subject)?.grade.score == 100)
     }
+
+    // MARK: - Rules that used to live in the view layer
+
+    @Test func whatCountsAsAnAnswerIsStatedOncePerDraftNotOncePerMode() {
+        #expect(AnswerDraft.typed("abate").isSubmittable)
+        #expect(AnswerDraft.typed("").isSubmittable == false)
+        #expect(AnswerDraft.typed("   \n ").isSubmittable == false)
+
+        #expect(AnswerDraft.written(definition: "to lessen", sentence: "It abated.").isSubmittable)
+        // Both halves or neither: half a written answer cannot be graded.
+        #expect(AnswerDraft.written(definition: "to lessen", sentence: " ").isSubmittable == false)
+        #expect(AnswerDraft.written(definition: "", sentence: "It abated.").isSubmittable == false)
+
+        // A tap and a surrender are always ready.
+        #expect(AnswerDraft.choice("anything").isSubmittable)
+        #expect(AnswerDraft.gaveUp.isSubmittable)
+    }
+
+    @Test func everyModeAsksItsQuestionExactlyOnceAndSaysWhatToShow() {
+        var questions = Set<String>()
+        for mode in StudyMode.allCases {
+            #expect(!mode.question.isEmpty, "\(mode) asks nothing")
+            #expect(questions.insert(mode.question).inserted, "\(mode) reuses another mode's question")
+        }
+        // The gap is the question and it lives with the options; a headword in
+        // the prompt would answer it.
+        #expect(StudyMode.contextCloze.promptSubject == .nothing)
+        #expect(StudyMode.spelling.promptSubject == .audio)
+        #expect(StudyMode.reverseRecall.promptSubject == .definition)
+        for mode in [StudyMode.multipleChoice, .senseInContext, .defineAndUse] {
+            #expect(mode.promptSubject == .word)
+        }
+    }
 }

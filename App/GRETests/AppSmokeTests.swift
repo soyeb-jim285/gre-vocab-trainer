@@ -42,7 +42,7 @@ struct AppSmokeTests {
         #expect(record.stateRaw == scheduled.state.rawValue)
     }
 
-    @Test func aSessionPlansAndSchedulesTheFirstCard() throws {
+    @Test func aSessionPlansAndSchedulesTheFirstCard() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
@@ -54,7 +54,7 @@ struct AppSmokeTests {
         let first = try #require(model.current)
         #expect(first.mode == .multipleChoice)
 
-        model.submitMultipleChoice(first.word.teachingDefinition)
+        await model.submit(.choice(first.word.teachingDefinition))
         guard case let .reviewing(feedback) = model.phase else {
             Issue.record("expected review phase, got \(model.phase)")
             return
@@ -68,7 +68,7 @@ struct AppSmokeTests {
         #expect(saved[0].due > Date(timeIntervalSince1970: 1))
     }
 
-    @Test func aWrongMultipleChoiceAnswerSchedulesTheCardToReturn() throws {
+    @Test func aWrongMultipleChoiceAnswerSchedulesTheCardToReturn() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
@@ -76,10 +76,10 @@ struct AppSmokeTests {
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         let item = try #require(model.current)
-        let wrong = try #require(model.multipleChoiceOptions(for: item)
+        let wrong = try #require(model.options(for: item).choices.map(\.id)
             .first { $0 != item.word.teachingDefinition })
 
-        model.submitMultipleChoice(wrong)
+        await model.submit(.choice(wrong))
         guard case let .reviewing(feedback) = model.phase else {
             Issue.record("expected review phase")
             return
@@ -88,7 +88,7 @@ struct AppSmokeTests {
         #expect(feedback.rating == .again)
     }
 
-    @Test func multipleChoiceAlwaysOffersTheRightAnswerAmongFour() throws {
+    @Test func multipleChoiceAlwaysOffersTheRightAnswerAmongFour() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
@@ -97,11 +97,11 @@ struct AppSmokeTests {
         model.start()
         for _ in 0..<12 {
             let item = try #require(model.current)
-            let options = model.multipleChoiceOptions(for: item)
+            let options = model.options(for: item).choices.map(\.id)
             #expect(options.count == 4, "\(item.word.id) offered \(options.count) options")
             #expect(options.contains(item.word.teachingDefinition),
                     "\(item.word.id) was not among its own options")
-            model.submitMultipleChoice(item.word.teachingDefinition)
+            await model.submit(.choice(item.word.teachingDefinition))
             model.advance()
         }
     }
@@ -240,14 +240,14 @@ struct AppSmokeTests {
 
     // MARK: - Difficulty and cost
 
-    @Test func aMissedWordDoesNotRepeatBackToBackAndTheDeckPointerMoves() throws {
+    @Test func aMissedWordDoesNotRepeatBackToBackAndTheDeckPointerMoves() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         let missed = try #require(model.current)
-        model.admitNotKnowing()
+        await model.admitNotKnowing()
         model.advance()
         // Rated Again → due in a minute, so within this synchronous test it is
         // not yet due; the planner's controlled-clock tests cover the return.
@@ -255,14 +255,14 @@ struct AppSmokeTests {
         for _ in 0..<6 {
             guard let item = model.current else { break }
             seen.append(item.word.id)
-            model.submitMultipleChoice(item.word.teachingDefinition)
+            await model.submit(.choice(item.word.teachingDefinition))
             model.advance()
         }
         #expect(seen.contains(missed.word.id) == false, "the same word should not repeat back-to-back")
         #expect(settings.currentDeckID == catalog.decks[0].id)
     }
 
-    @Test func aDeckTestRecordsItsScore() throws {
+    @Test func aDeckTestRecordsItsScore() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
@@ -275,7 +275,7 @@ struct AppSmokeTests {
         model.start()
         #expect(model.progress == 0)
         while let item = model.current {
-            model.submitMultipleChoice(item.word.teachingDefinition)
+            await model.submit(.choice(item.word.teachingDefinition))
             model.advance()
         }
         guard case let .finished(summary) = model.phase else { Issue.record("expected finished"); return }
@@ -314,17 +314,17 @@ struct AppSmokeTests {
                              reviewCount: 3)
         let item = SessionItem(card: card, word: word, mode: .contextCloze)
 
-        let options = model.clozeOptions(for: item)
+        let options = model.options(for: item).choices
         #expect(options.count == 4)
         #expect(options.contains { $0.id == word.id })
         #expect(Set(options.map(\.id)).count == 4, "an option was repeated")
 
-        let sentence = model.clozeSentence(for: item)
+        let sentence = model.options(for: item).sentence
         #expect(sentence.contains("____"))
         #expect(sentence.localizedCaseInsensitiveContains(word.word) == false, "the answer is in the sentence")
     }
 
-    @Test func answeringAClozeCorrectlyScoresAndSchedules() throws {
+    @Test func answeringAClozeCorrectlyScoresAndSchedules() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
@@ -332,7 +332,7 @@ struct AppSmokeTests {
         model.start()
         let item = try #require(model.current)
 
-        model.submitCloze(item.word)
+        await model.submit(.choice(item.word.id))
         guard case let .reviewing(feedback) = model.phase else {
             Issue.record("expected review phase, got \(model.phase)")
             return
@@ -341,16 +341,16 @@ struct AppSmokeTests {
         #expect(try context.fetch(FetchDescriptor<CardRecord>()).count == 1)
     }
 
-    @Test func aWrongClozeShowsTheFullEntry() throws {
+    @Test func aWrongClozeShowsTheFullEntry() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         let item = try #require(model.current)
-        let wrong = try #require(model.clozeOptions(for: item).first { $0.id != item.word.id })
+        let wrong = try #require(model.options(for: item).choices.first { $0.id != item.word.id })
 
-        model.submitCloze(wrong)
+        await model.submit(.choice(wrong.id))
         guard case let .reviewing(feedback) = model.phase else { Issue.record("expected review"); return }
         #expect(feedback.score == 0)
         #expect(feedback.showsReference, "a wrong answer in context is when the entry helps most")
@@ -366,18 +366,18 @@ struct AppSmokeTests {
         #expect(word.isTrap)
         let item = SessionItem(card: StudyCard(wordID: word.id), word: word, mode: .senseInContext)
 
-        let options = model.senseOptions(for: item)
+        let options = model.options(for: item).choices.map(\.id)
         #expect(options.count == 4)
         #expect(options.contains(word.teachingDefinition))
         #expect(Set(options).count == 4, "a meaning was repeated")
 
         // The sentence is shown unblanked: interpreting the word is the task.
-        let sentence = model.senseSentence(for: item)
+        let sentence = model.options(for: item).sentence
         #expect(sentence.contains("____") == false)
         #expect(sentence.isEmpty == false)
     }
 
-    @Test func choosingTheWrongMeaningIsMarkedWrong() throws {
+    @Test func choosingTheWrongMeaningIsMarkedWrong() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
@@ -387,15 +387,15 @@ struct AppSmokeTests {
 
         // Graded against the card actually on screen, so drive it through the model.
         let wrong = try #require(
-            model.senseOptions(for: item).first { $0 != item.word.teachingDefinition }
+            model.options(for: item).choices.map(\.id).first { $0 != item.word.teachingDefinition }
         )
-        model.submitSense(wrong)
+        await model.submit(.choice(wrong))
         guard case let .reviewing(feedback) = model.phase else { Issue.record("expected review"); return }
         #expect(feedback.score == 0)
         #expect(feedback.showsReference, "the whole point is to show the tested meaning")
     }
 
-    @Test func choosingTheTestedMeaningScoresFull() throws {
+    @Test func choosingTheTestedMeaningScoresFull() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
@@ -403,7 +403,7 @@ struct AppSmokeTests {
         model.start()
         let item = try #require(model.current)
 
-        model.submitSense(item.word.teachingDefinition)
+        await model.submit(.choice(item.word.teachingDefinition))
         guard case let .reviewing(feedback) = model.phase else { Issue.record("expected review"); return }
         #expect(feedback.score == 100)
     }
@@ -478,7 +478,7 @@ struct AppSmokeTests {
         #expect(settings.hasAPIKey == hadKey)
     }
 
-    @Test func aSessionAfterResetStartsFromTheFirstDeckAgain() throws {
+    @Test func aSessionAfterResetStartsFromTheFirstDeckAgain() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
@@ -487,7 +487,7 @@ struct AppSmokeTests {
         model.start()
         for _ in 0..<4 {
             guard let item = model.current else { break }
-            model.submitMultipleChoice(item.word.teachingDefinition)
+            await model.submit(.choice(item.word.teachingDefinition))
             model.advance()
         }
         #expect(try context.fetch(FetchDescriptor<CardRecord>()).isEmpty == false)
