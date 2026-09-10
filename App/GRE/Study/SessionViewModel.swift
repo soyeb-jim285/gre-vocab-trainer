@@ -79,6 +79,7 @@ final class SessionViewModel {
     private let context: ModelContext
     private let catalog: WordCatalog
     private let settings: AppSettings
+    private let index: MasteryIndex
 
     /// Quiz: fraction done. Study is open-ended, so nil hides the bar.
     var progress: Double? {
@@ -86,10 +87,14 @@ final class SessionViewModel {
         return Double(queueIndex) / Double(queue.count)
     }
 
-    init(context: ModelContext, catalog: WordCatalog, settings: AppSettings, quiz: QuizSpec? = nil) {
+    init(
+        context: ModelContext, catalog: WordCatalog, settings: AppSettings,
+        index: MasteryIndex, quiz: QuizSpec? = nil
+    ) {
         self.context = context
         self.catalog = catalog
         self.settings = settings
+        self.index = index
         self.quiz = quiz
     }
 
@@ -284,14 +289,19 @@ final class SessionViewModel {
         }
         phase = .grading
         do {
-            let (result, cost) = try await settings.client().gradeWithCost(
-                word: item.word.word,
-                referenceDefinition: item.word.teachingDefinition,
-                partOfSpeech: item.word.primaryPartOfSpeech.rawValue,
-                learnerDefinition: definitionDraft,
-                learnerSentence: sentenceDraft,
-                model: settings.gradingModel
-            )
+            let (result, cost) = try await AILedger.spend(
+                .grading, budget: settings.profile.budget,
+                dayStart: settings.dayStart(), in: context
+            ) {
+                try await settings.client().gradeWithCost(
+                    word: item.word.word,
+                    referenceDefinition: item.word.teachingDefinition,
+                    partOfSpeech: item.word.primaryPartOfSpeech.rawValue,
+                    learnerDefinition: definitionDraft,
+                    learnerSentence: sentenceDraft,
+                    model: settings.gradingModel
+                )
+            }
             sessionSpend += cost?.usd ?? 0
             finish(
                 grade: Grade(score: result.combinedScore),
@@ -357,7 +367,7 @@ final class SessionViewModel {
 
         ReviewRecorder.record(
             wordID: item.card.wordID, mode: item.mode, grade: grade, rating: rating,
-            scheduler: settings.scheduler, in: context, cost: cost
+            scheduler: settings.scheduler, in: context, index: index
         )
         answeredCount += 1
         scores.append(grade.score)

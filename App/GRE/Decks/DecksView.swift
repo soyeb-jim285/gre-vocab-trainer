@@ -1,17 +1,12 @@
 import GRECore
-import SwiftData
 import SwiftUI
 
 /// Tiers → decks of ~25, each with a mastery ring. Search flattens to words.
 struct DecksView: View {
     @Environment(\.catalog) private var catalog
     @Environment(AppSettings.self) private var settings
-    @Query private var records: [CardRecord]
+    @Environment(MasteryIndex.self) private var mastery
     @State private var search = ""
-
-    private var cards: [String: StudyCard] {
-        Dictionary(records.map { ($0.wordID, $0.studyCard) }, uniquingKeysWith: { a, _ in a })
-    }
 
     private var matches: [Word] {
         catalog.words
@@ -48,12 +43,12 @@ struct DecksView: View {
             } label: {
                 VStack(alignment: .leading, spacing: 3) {
                     HStack(spacing: 8) {
-                        Text(word.word).font(Theme.headword(19)).foregroundStyle(Theme.primaryText)
+                        Text(word.word).font(Theme.headword(.title3)).foregroundStyle(Theme.primaryText)
                         DifficultyBadge(difficulty: word.difficulty)
-                        MasteryDot(level: Mastery(card: cards[word.id]))
+                        MasteryDot(level: Mastery(card: mastery[word.id]))
                     }
                     Text(word.teachingDefinition)
-                        .font(.footnote).foregroundStyle(Theme.tertiaryText).lineLimit(1)
+                        .font(.footnote).foregroundStyle(Theme.tertiaryText).lineLimit(2)
                 }
             }
         }
@@ -74,7 +69,7 @@ private struct TierSection: View {
         let fraction = progress.isEmpty ? 0 : progress.map(\.fraction).reduce(0, +) / Double(progress.count)
         VStack(alignment: .leading, spacing: 14) {
             HStack(alignment: .firstTextBaseline) {
-                Text(tier.label).font(Theme.headword(24)).foregroundStyle(Theme.primaryText)
+                Text(tier.label).font(Theme.headword(.title2)).foregroundStyle(Theme.primaryText)
                 Spacer()
                 Text("\(progress.filter(\.isComplete).count)/\(decks.count) decks · \(Int(fraction * 100))%")
                     .font(Theme.label).foregroundStyle(Theme.tertiaryText).monospacedDigit()
@@ -120,7 +115,7 @@ private struct DeckTile: View {
                     .font(Theme.label).foregroundStyle(Theme.secondaryText).monospacedDigit()
             }
             .frame(width: 52, height: 52)
-            Text("\(deck.index)").font(Theme.headword(18)).foregroundStyle(Theme.primaryText)
+            Text("\(deck.index)").font(Theme.headword(.body)).foregroundStyle(Theme.primaryText)
             Text("\(progress.count(atLeast: .known))/\(progress.total) known")
                 .font(.caption2).foregroundStyle(Theme.tertiaryText)
         }

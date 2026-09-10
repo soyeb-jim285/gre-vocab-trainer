@@ -10,9 +10,15 @@ import Testing
 @Suite @MainActor
 struct AppSmokeTests {
 
+    /// A throwaway mastery cache. These tests are about scheduling, not about
+    /// what the rings show, but the recorder now insists on being handed one so
+    /// no screen can go stale behind a write.
+    private let index = MasteryIndex()
+
     private func inMemoryContext() throws -> ModelContext {
         let container = try ModelContainer(
             for: CardRecord.self, ReviewRecord.self, DeepDiveRecord.self, QuizRecord.self,
+            AICall.self,
             configurations: ModelConfiguration(isStoredInMemoryOnly: true)
         )
         return ModelContext(container)
@@ -41,7 +47,7 @@ struct AppSmokeTests {
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
 
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
 
         #expect(model.current != nil)
@@ -67,7 +73,7 @@ struct AppSmokeTests {
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
 
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         let item = try #require(model.current)
         let wrong = try #require(model.multipleChoiceOptions(for: item)
@@ -87,7 +93,7 @@ struct AppSmokeTests {
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
 
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         for _ in 0..<12 {
             let item = try #require(model.current)
@@ -161,7 +167,7 @@ struct AppSmokeTests {
 
         let record = ReviewRecorder.record(
             wordID: "abate", mode: .defineAndUse, grade: Grade(score: 95),
-            rating: .easy, scheduler: scheduler, in: context
+            rating: .easy, scheduler: scheduler, in: context, index: index
         )
         #expect(record.reviewCount == 1)
         #expect(record.due > .now)
@@ -170,7 +176,7 @@ struct AppSmokeTests {
         let firstDue = record.due
         let again = ReviewRecorder.record(
             wordID: "abate", mode: .defineAndUse, grade: Grade(score: 95),
-            rating: .easy, scheduler: scheduler, in: context
+            rating: .easy, scheduler: scheduler, in: context, index: index
         )
         #expect(again.reviewCount == 2)
         #expect(again.due > firstDue)
@@ -183,13 +189,13 @@ struct AppSmokeTests {
         let scheduler = FSRS(enableFuzzing: false)
         for _ in 0..<4 {
             ReviewRecorder.record(wordID: "laconic", mode: .defineAndUse, grade: Grade(score: 95),
-                                  rating: .easy, scheduler: scheduler, in: context)
+                                  rating: .easy, scheduler: scheduler, in: context, index: index)
         }
         let graduated = try #require(ReviewRecorder.existing("laconic", in: context))
         #expect(graduated.fsrs.state == .review)
 
         let lapsed = ReviewRecorder.record(wordID: "laconic", mode: .defineAndUse, grade: Grade(score: 10),
-                                           rating: .again, scheduler: scheduler, in: context)
+                                           rating: .again, scheduler: scheduler, in: context, index: index)
         #expect(lapsed.lapses == 1)
     }
 
@@ -201,7 +207,7 @@ struct AppSmokeTests {
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
         settings.forcedMode = .spelling
 
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         #expect(model.current?.mode == .spelling)
     }
@@ -212,7 +218,7 @@ struct AppSmokeTests {
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
         settings.forcedMode = nil
 
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         #expect(model.current?.mode == .multipleChoice)
     }
@@ -238,7 +244,7 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         let missed = try #require(model.current)
         model.admitNotKnowing()
@@ -263,9 +269,9 @@ struct AppSmokeTests {
         let deck = catalog.decks[0]
         for id in deck.wordIDs.prefix(5) {
             ReviewRecorder.record(wordID: id, mode: .multipleChoice, grade: Grade(score: 100),
-                                  rating: .good, scheduler: FSRS(), in: context)
+                                  rating: .good, scheduler: FSRS(), in: context, index: index)
         }
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, quiz: .deck(deck))
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index, quiz: .deck(deck))
         model.start()
         #expect(model.progress == 0)
         while let item = model.current {
@@ -284,12 +290,12 @@ struct AppSmokeTests {
 
         for i in 0..<4 {
             ReviewRecorder.record(wordID: "w\(i)", mode: .spelling, grade: Grade(score: 100),
-                                  rating: .easy, scheduler: scheduler, in: context)
+                                  rating: .easy, scheduler: scheduler, in: context, index: index)
         }
         #expect(ReviewRecorder.recentAccuracy(in: context) == nil, "four answers is not enough to judge by")
 
         ReviewRecorder.record(wordID: "w5", mode: .spelling, grade: Grade(score: 100),
-                              rating: .easy, scheduler: scheduler, in: context)
+                              rating: .easy, scheduler: scheduler, in: context, index: index)
         #expect(ReviewRecorder.recentAccuracy(in: context) == 100)
     }
 
@@ -299,7 +305,7 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
 
         let word = try #require(catalog["abate"])
         let card = StudyCard(wordID: word.id, fsrs: FSRSCard(stability: 10, difficulty: 5,
@@ -322,7 +328,7 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         let item = try #require(model.current)
 
@@ -339,7 +345,7 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         let item = try #require(model.current)
         let wrong = try #require(model.clozeOptions(for: item).first { $0.id != item.word.id })
@@ -354,7 +360,7 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
 
         let word = try #require(catalog["flag"])
         #expect(word.isTrap)
@@ -375,7 +381,7 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         let item = try #require(model.current)
 
@@ -393,7 +399,7 @@ struct AppSmokeTests {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         let item = try #require(model.current)
 
@@ -414,7 +420,7 @@ struct AppSmokeTests {
         let deck = catalog.decks[0]
         for id in deck.wordIDs.prefix(6) {
             ReviewRecorder.record(wordID: id, mode: .multipleChoice, grade: Grade(score: 100),
-                                  rating: .good, scheduler: scheduler, in: context)
+                                  rating: .good, scheduler: scheduler, in: context, index: index)
         }
         context.insert(QuizRecord(deckID: deck.id, score: 80, wordCount: 6, takenAt: .now))
         context.insert(DeepDiveRecord(
@@ -430,7 +436,7 @@ struct AppSmokeTests {
         settings.forcedMode = .spelling
         settings.writingModeAfterReviews = 0
 
-        try ReviewRecorder.eraseAllProgress(in: context)
+        try ReviewRecorder.eraseAllProgress(in: context, index: index)
         settings.resetToDefaults()
 
         #expect(try context.fetch(FetchDescriptor<CardRecord>()).isEmpty)
@@ -477,7 +483,7 @@ struct AppSmokeTests {
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
 
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
         for _ in 0..<4 {
             guard let item = model.current else { break }
@@ -486,10 +492,10 @@ struct AppSmokeTests {
         }
         #expect(try context.fetch(FetchDescriptor<CardRecord>()).isEmpty == false)
 
-        try ReviewRecorder.eraseAllProgress(in: context)
+        try ReviewRecorder.eraseAllProgress(in: context, index: index)
         settings.resetToDefaults()
 
-        let fresh = SessionViewModel(context: context, catalog: catalog, settings: settings)
+        let fresh = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         fresh.start()
         #expect(fresh.current?.word.id == catalog.decks[0].wordIDs[0])
         #expect(fresh.current?.card.reviewCount == 0)
@@ -502,25 +508,127 @@ struct AppSmokeTests {
         #expect(settings.resetToken != before, "a live session would keep its deleted cards")
     }
 
-    @Test func gradingCostIsStoredAndTotalled() throws {
+    // MARK: - Spending
+
+    @Test func everyKindOfCallIsCountedNotJustGrading() async throws {
+        let context = try inMemoryContext()
+        let dayStart = Date.now.addingTimeInterval(-3600)
+        let unlimited = AIBudget(dailyUSD: nil, lifetimeUSD: nil)
+        #expect(AILedger.spentLifetime(in: context) == 0)
+
+        for (kind, usd) in [(AICallKind.grading, 0.0003), (.deepDive, 0.0002), (.coach, 0.0001)] {
+            _ = try await AILedger.spend(kind, budget: unlimited, dayStart: dayStart, in: context) {
+                ("done", CallCost(promptTokens: 400, completionTokens: 90, usd: usd))
+            }
+        }
+        // Deep dives and coaching used to spend money the total never saw.
+        #expect(abs(AILedger.spentLifetime(in: context) - 0.0006) < 1e-9)
+        #expect(abs(AILedger.spentToday(in: context, since: dayStart) - 0.0006) < 1e-9)
+    }
+
+    @Test func theCapRefusesBeforeTheCallRatherThanAfter() async throws {
+        let context = try inMemoryContext()
+        let dayStart = Date.now.addingTimeInterval(-3600)
+        let budget = AIBudget(dailyUSD: 0.001, lifetimeUSD: nil)
+
+        _ = try await AILedger.spend(.grading, budget: budget, dayStart: dayStart, in: context) {
+            ("first", CallCost(promptTokens: 1, completionTokens: 1, usd: 0.002))
+        }
+
+        var reached = false
+        await #expect(throws: AIBudgetError.self) {
+            _ = try await AILedger.spend(.grading, budget: budget, dayStart: dayStart, in: context) {
+                reached = true
+                return ("second", nil)
+            }
+        }
+        #expect(reached == false, "the money was spent before the limit was checked")
+        #expect(try context.fetchCount(FetchDescriptor<AICall>()) == 1)
+    }
+
+    @Test func spendOutsideTheDayDoesNotCountAgainstIt() async throws {
+        let context = try inMemoryContext()
+        let unlimited = AIBudget(dailyUSD: nil, lifetimeUSD: nil)
+        _ = try await AILedger.spend(.coach, budget: unlimited,
+                                     dayStart: .now.addingTimeInterval(-86_400), in: context) {
+            ("old", CallCost(promptTokens: 1, completionTokens: 1, usd: 0.5))
+        }
+        // The row was written now, so a day starting later excludes it.
+        let later = Date.now.addingTimeInterval(3600)
+        #expect(AILedger.spentToday(in: context, since: later) == 0)
+        #expect(AILedger.spentLifetime(in: context) == 0.5)
+    }
+
+    // MARK: - Teaching before testing
+
+    @Test func anIntroductionTeachesWithoutScoringTheLearner() throws {
         let context = try inMemoryContext()
         let scheduler = FSRS(enableFuzzing: false)
-        #expect(ReviewRecorder.totalSpend(in: context) == 0)
 
-        ReviewRecorder.record(
-            wordID: "abate", mode: .defineAndUse, grade: Grade(score: 80), rating: .good,
-            scheduler: scheduler, in: context,
-            cost: CallCost(promptTokens: 400, completionTokens: 90, usd: 0.0003)
-        )
-        ReviewRecorder.record(
-            wordID: "laconic", mode: .defineAndUse, grade: Grade(score: 80), rating: .good,
-            scheduler: scheduler, in: context,
-            cost: CallCost(promptTokens: 400, completionTokens: 90, usd: 0.0002)
-        )
-        // A locally-graded answer costs nothing and must not inflate the total.
-        ReviewRecorder.record(wordID: "acumen", mode: .spelling, grade: Grade(score: 100),
-                              rating: .easy, scheduler: scheduler, in: context)
+        let record = ReviewRecorder.introduce(wordID: "abate", scheduler: scheduler,
+                                              in: context, index: index)
+        #expect(record.reviewCount == 1)
+        #expect(record.introducedAt != nil)
+        // The word is scheduled now, so the first real question is a retrieval
+        // attempt rather than a guess at something never seen.
+        #expect(record.due > .now)
 
-        #expect(abs(ReviewRecorder.totalSpend(in: context) - 0.0005) < 1e-9)
+        let logged = try #require(try context.fetch(FetchDescriptor<ReviewRecord>()).first)
+        #expect(logged.isIntroduction)
+        #expect(logged.latency == nil, "a taught card has no answer time to read")
+        #expect(ReviewRecorder.competence(for: "abate", in: context).totalAttempts == 0)
+    }
+
+    @Test func competenceIgnoresIntroductionsAndReadsTheRest() throws {
+        let context = try inMemoryContext()
+        let scheduler = FSRS(enableFuzzing: false)
+        ReviewRecorder.introduce(wordID: "abate", scheduler: scheduler, in: context, index: index)
+        ReviewRecorder.record(wordID: "abate", mode: .spelling, grade: Grade(score: 100),
+                              rating: .easy, scheduler: scheduler, in: context, index: index,
+                              latency: .seconds(3))
+        ReviewRecorder.record(wordID: "abate", mode: .spelling, grade: Grade(score: 0),
+                              rating: .again, scheduler: scheduler, in: context, index: index)
+
+        let competence = ReviewRecorder.competence(for: "abate", in: context)
+        #expect(competence.totalAttempts == 2)
+        #expect(competence[.spelling].accuracy == 0.5)
+        #expect(competence[.contextCloze].attempts == 0)
+    }
+
+    @Test func anAnswerTimeSurvivesTheRoundTripToDisk() throws {
+        let context = try inMemoryContext()
+        ReviewRecorder.record(wordID: "abate", mode: .multipleChoice, grade: Grade(score: 100),
+                              rating: .easy, scheduler: FSRS(enableFuzzing: false),
+                              in: context, index: index, latency: .milliseconds(2400))
+        let logged = try #require(try context.fetch(FetchDescriptor<ReviewRecord>()).first)
+        // Truncating to whole seconds would round every quick tap down to nothing.
+        #expect(logged.latencyMS == 2400)
+        #expect(logged.latency == .milliseconds(2400))
+    }
+
+    @Test func aTaintedTimeIsKeptButNotOffered() throws {
+        let context = try inMemoryContext()
+        ReviewRecorder.record(wordID: "abate", mode: .multipleChoice, grade: Grade(score: 100),
+                              rating: .easy, scheduler: FSRS(enableFuzzing: false),
+                              in: context, index: index,
+                              latency: .milliseconds(9000), latencyTainted: true)
+        let logged = try #require(try context.fetch(FetchDescriptor<ReviewRecord>()).first)
+        // Kept so the bands can be retuned later against real times.
+        #expect(logged.latencyMS == 9000)
+        #expect(logged.latency == nil)
+    }
+
+    // MARK: - The shared mastery cache
+
+    @Test func aWriteRefreshesTheSharedMasteryIndex() throws {
+        let context = try inMemoryContext()
+        #expect(index.cards["abate"] == nil)
+        ReviewRecorder.record(wordID: "abate", mode: .spelling, grade: Grade(score: 100),
+                              rating: .easy, scheduler: FSRS(enableFuzzing: false),
+                              in: context, index: index)
+        #expect(index.cards["abate"]?.reviewCount == 1)
+
+        try ReviewRecorder.eraseAllProgress(in: context, index: index)
+        #expect(index.cards.isEmpty, "the rings would still show deleted progress")
     }
 }

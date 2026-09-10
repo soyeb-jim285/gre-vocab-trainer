@@ -9,10 +9,21 @@ struct DeckDetailView: View {
     @Query private var records: [CardRecord]
     @Query private var quizzes: [QuizRecord]
 
+    /// Scoped rather than fetching the whole store to render twenty-five rows.
+    init(deck: Deck) {
+        self.deck = deck
+        let wordIDs = deck.wordIDs
+        let deckID: String? = deck.id
+        _records = Query(filter: #Predicate<CardRecord> { wordIDs.contains($0.wordID) },
+                         sort: \CardRecord.wordID)
+        _quizzes = Query(filter: #Predicate<QuizRecord> { $0.deckID == deckID },
+                         sort: \QuizRecord.takenAt, order: .reverse)
+    }
+
     private var cards: [String: StudyCard] {
         Dictionary(records.map { ($0.wordID, $0.studyCard) }, uniquingKeysWith: { a, _ in a })
     }
-    private var bestScore: Int? { quizzes.filter { $0.deckID == deck.id }.map(\.score).max() }
+    private var bestScore: Int? { quizzes.map(\.score).max() }
 
     var body: some View {
         let cards = cards
@@ -34,9 +45,9 @@ struct DeckDetailView: View {
                         HStack(spacing: 10) {
                             MasteryDot(level: level)
                             VStack(alignment: .leading, spacing: 2) {
-                                Text(word.word).font(Theme.headword(18)).foregroundStyle(Theme.primaryText)
+                                Text(word.word).font(Theme.headword(.body)).foregroundStyle(Theme.primaryText)
                                 Text(word.teachingDefinition)
-                                    .font(.footnote).foregroundStyle(Theme.tertiaryText).lineLimit(1)
+                                    .font(.footnote).foregroundStyle(Theme.tertiaryText).lineLimit(2)
                             }
                             Spacer()
                             Text(level.label).font(.caption2).foregroundStyle(Theme.tertiaryText)
@@ -109,6 +120,11 @@ struct MasteryBar: View {
             }
             .frame(height: 8)
             .clipShape(Capsule())
+            // The bar carries its meaning entirely in colour and segment width,
+            // so it says nothing at all without this.
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Mastery")
+            .accessibilityValue(spokenBreakdown)
             HStack(spacing: 12) {
                 ForEach(Mastery.allCases, id: \.self) { level in
                     HStack(spacing: 4) {
@@ -118,6 +134,16 @@ struct MasteryBar: View {
                     }
                 }
             }
+            .accessibilityHidden(true)
         }
+    }
+
+    private var spokenBreakdown: String {
+        Mastery.allCases
+            .compactMap { level in
+                let n = counts[level] ?? 0
+                return n > 0 ? "\(n) \(level.label.lowercased())" : nil
+            }
+            .joined(separator: ", ")
     }
 }

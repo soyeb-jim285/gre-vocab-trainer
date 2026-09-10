@@ -101,19 +101,36 @@ public struct OpenRouterClient: Sendable {
         ).0
     }
 
-    public func deepDive(word: String, definition: String, model: String) async throws -> WordDeepDive {
+    /// These two used to discard the cost the provider had already reported, so
+    /// the app charged the learner for deep dives and coaching without ever
+    /// counting them. A spending cap over a partial total is not a cap.
+    public func deepDiveWithCost(
+        word: String, definition: String, model: String
+    ) async throws -> (WordDeepDive, CallCost?) {
         try await complete(
             messages: Prompts.deepDive(word: word, definition: definition),
             schemaName: "word_deep_dive", schema: Schemas.deepDive, model: model
-        ).0
+        )
+    }
+
+    public func deepDive(word: String, definition: String, model: String) async throws -> WordDeepDive {
+        try await deepDiveWithCost(word: word, definition: definition, model: model).0
+    }
+
+    public func weeklyCoachWithCost(
+        recentMisses: [String], recentWins: [String], model: String
+    ) async throws -> (CoachSummary, CallCost?) {
+        try await complete(
+            messages: Prompts.coach(recentMisses: recentMisses, recentWins: recentWins),
+            schemaName: "weekly_coach", schema: Schemas.coach, model: model
+        )
     }
 
     public func weeklyCoach(
         recentMisses: [String], recentWins: [String], model: String
     ) async throws -> CoachSummary {
-        try await complete(
-            messages: Prompts.coach(recentMisses: recentMisses, recentWins: recentWins),
-            schemaName: "weekly_coach", schema: Schemas.coach, model: model
+        try await weeklyCoachWithCost(
+            recentMisses: recentMisses, recentWins: recentWins, model: model
         ).0
     }
 

@@ -80,7 +80,7 @@ private struct AnswerField: View {
                 .foregroundStyle(Theme.tertiaryText)
                 .textCase(.uppercase)
             TextField(prompt, text: $text)
-                .font(Theme.headword(26))
+                .font(Theme.headword(.title))
                 .foregroundStyle(Theme.primaryText)
                 .textInputAutocapitalization(.never)
                 .autocorrectionDisabled(!autocorrect)
@@ -150,7 +150,7 @@ struct ClozeAnswer: View {
                         choose(option)
                     } label: {
                         Text(option.word)
-                            .font(Theme.headword(19))
+                            .font(Theme.headword(.title3))
                             .foregroundStyle(Theme.primaryText)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.vertical, 14)
@@ -215,7 +215,7 @@ struct FeedbackCard: View {
         VStack(alignment: .leading, spacing: 18) {
             HStack(alignment: .firstTextBaseline) {
                 Text(feedback.headline)
-                    .font(Theme.headword(26))
+                    .font(Theme.headword(.title))
                     .foregroundStyle(Theme.tint(forScore: feedback.score))
                 Spacer()
                 Text("\(feedback.score)")
@@ -440,10 +440,23 @@ private struct NextReviewNote: View {
 private struct BulletLabelStyle: LabelStyle {
     func makeBody(configuration: Configuration) -> some View {
         HStack(alignment: .firstTextBaseline, spacing: 10) {
-            configuration.icon
-                .font(.system(size: 5))
-                .foregroundStyle(Theme.accent)
+            BulletDot(icon: configuration.icon)
             configuration.title
         }
+    }
+}
+
+/// A view of its own rather than a `@ScaledMetric` on the style: the scaling
+/// wrappers only track the environment inside a View or ViewModifier. A dot
+/// pinned at 5pt beside body text scaled to 50pt reads as a rendering fault.
+private struct BulletDot<Icon: View>: View {
+    let icon: Icon
+    @ScaledMetric(relativeTo: .body) private var size: CGFloat = 5
+
+    var body: some View {
+        icon
+            .font(.system(size: size))
+            .foregroundStyle(Theme.accent)
+            .accessibilityHidden(true)
     }
 }

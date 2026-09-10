@@ -1,3 +1,4 @@
+import Foundation
 import GRECore
 import SwiftData
 import SwiftUI
@@ -6,13 +7,30 @@ import SwiftUI
 struct GREApp: App {
     @State private var settings = AppSettings()
     @State private var catalog: WordCatalog?
+    @State private var mastery = MasteryIndex()
     @State private var loadError: String?
 
     private let container: ModelContainer = {
+        let schema = Schema([
+            CardRecord.self, ReviewRecord.self, DeepDiveRecord.self,
+            QuizRecord.self, AICall.self,
+        ])
         do {
-            return try ModelContainer(for: CardRecord.self, ReviewRecord.self, DeepDiveRecord.self, QuizRecord.self)
+            return try ModelContainer(for: schema)
         } catch {
-            fatalError("Could not open the local store: \(error)")
+            // A store written by an older schema cannot be opened, and CI only
+            // ever launches on a clean simulator, so this never shows up before
+            // a device does. Progress is rebuildable and the alternative is a
+            // crash loop the learner can only escape by reinstalling.
+            let url = URL.applicationSupportDirectory.appending(path: "default.store")
+            for path in [url, url.appendingPathExtension("shm"), url.appendingPathExtension("wal")] {
+                try? FileManager.default.removeItem(at: path)
+            }
+            do {
+                return try ModelContainer(for: schema)
+            } catch {
+                fatalError("Could not open the local store after resetting it: \(error)")
+            }
         }
     }()
 
@@ -32,10 +50,11 @@ struct GREApp: App {
                 }
             }
             .environment(settings)
-            .preferredColorScheme(.dark)
+            .environment(mastery)
             .screenBackground()
             .task {
                 guard catalog == nil else { return }
+                mastery.reload(from: container.mainContext)
                 do { catalog = try WordCatalog.bundled() }
                 catch { loadError = "Could not load the word list: \(error)" }
             }

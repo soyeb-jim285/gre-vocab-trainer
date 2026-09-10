@@ -59,7 +59,7 @@ public enum DayPlanner {
         )
 
         return DayPlan(
-            dueNow: met.count { $0.fsrs.due <= now },
+            dueNow: met.filter { $0.fsrs.due <= now }.count,
             newWordsRemaining: max(0, pacing.newWordsToday - introducedToday),
             answeredToday: answeredToday,
             nextDue: known.map(\.fsrs.due).filter { $0 > now }.min(),

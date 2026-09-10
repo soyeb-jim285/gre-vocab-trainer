@@ -12,6 +12,7 @@ struct WritingPracticeView: View {
     let word: Word
 
     @Environment(\.modelContext) private var context
+    @Environment(MasteryIndex.self) private var mastery
     @Environment(AppSettings.self) private var settings
     @Environment(\.dismiss) private var dismiss
 
@@ -85,7 +86,7 @@ struct WritingPracticeView: View {
     private var header: some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(word.word)
-                .font(Theme.headword(34))
+                .font(Theme.headword(.largeTitle))
                 .foregroundStyle(Theme.primaryText)
             if !word.ipa.isEmpty {
                 Text(word.ipa).font(Theme.mono).foregroundStyle(Theme.tertiaryText)
@@ -103,19 +104,24 @@ struct WritingPracticeView: View {
         error = nil
         defer { grading = false }
         do {
-            let (graded, spent) = try await settings.client().gradeWithCost(
-                word: word.word,
-                referenceDefinition: word.teachingDefinition,
-                partOfSpeech: word.primaryPartOfSpeech.rawValue,
-                learnerDefinition: definition,
-                learnerSentence: sentence,
-                model: settings.gradingModel
-            )
+            let (graded, spent) = try await AILedger.spend(
+                .grading, budget: settings.profile.budget,
+                dayStart: settings.dayStart(), in: context
+            ) {
+                try await settings.client().gradeWithCost(
+                    word: word.word,
+                    referenceDefinition: word.teachingDefinition,
+                    partOfSpeech: word.primaryPartOfSpeech.rawValue,
+                    learnerDefinition: definition,
+                    learnerSentence: sentence,
+                    model: settings.gradingModel
+                )
+            }
             cost = spent
             ReviewRecorder.record(
                 wordID: word.id, mode: .defineAndUse,
                 grade: Grade(score: graded.combinedScore), rating: graded.rating,
-                scheduler: settings.scheduler, in: context, cost: spent
+                scheduler: settings.scheduler, in: context, index: mastery
             )
             result = graded
         } catch {

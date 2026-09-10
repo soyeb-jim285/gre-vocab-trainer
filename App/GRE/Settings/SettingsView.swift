@@ -147,6 +147,7 @@ struct SettingsView: View {
     }
 
     @Environment(\.modelContext) private var context
+    @Environment(MasteryIndex.self) private var mastery
     @State private var confirmingReset = false
     @State private var resetError: String?
 
@@ -154,7 +155,7 @@ struct SettingsView: View {
     /// left alone and the learner is told, rather than half-reset.
     private func reset() {
         do {
-            try ReviewRecorder.eraseAllProgress(in: context)
+            try ReviewRecorder.eraseAllProgress(in: context, index: mastery)
             settings.resetToDefaults()
             resetError = nil
         } catch {

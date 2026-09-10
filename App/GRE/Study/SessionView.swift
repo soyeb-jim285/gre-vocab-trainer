@@ -9,6 +9,7 @@ struct SessionView: View {
     var deck: Deck? = nil
 
     @Environment(\.modelContext) private var context
+    @Environment(MasteryIndex.self) private var mastery
     @Environment(AppSettings.self) private var settings
     @Environment(\.catalog) private var catalog
 
@@ -36,7 +37,8 @@ struct SessionView: View {
         .task {
             guard model == nil else { return }
             if let deck { settings.currentDeckID = deck.id }
-            let created = SessionViewModel(context: context, catalog: catalog, settings: settings, quiz: quiz)
+            let created = SessionViewModel(context: context, catalog: catalog, settings: settings,
+                                          index: mastery, quiz: quiz)
             created.start()
             model = created
         }
@@ -241,7 +243,7 @@ private struct PromptCard: View {
                     Speaker.shared.say(item.word, accent: accent, voiceIdentifier: voiceIdentifier)
                 } label: {
                     Label("Play the word", systemImage: "speaker.wave.3.fill")
-                        .font(Theme.headword(28))
+                        .font(Theme.headword(.title))
                         .foregroundStyle(Theme.accent)
                 }
                 .buttonStyle(.plain)
@@ -254,7 +256,7 @@ private struct PromptCard: View {
             case .contextCloze:
                 // The blank is the question; showing the word would answer it.
                 Text("Which word fits?")
-                    .font(Theme.headword(26))
+                    .font(Theme.headword(.title))
                     .foregroundStyle(Theme.primaryText)
 
             case .senseInContext, .multipleChoice, .defineAndUse:
@@ -268,6 +270,7 @@ private struct PromptCard: View {
                         Image(systemName: "speaker.wave.2")
                             .foregroundStyle(Theme.secondaryText)
                     }
+                    .accessibilityLabel("Hear \(item.word.word) pronounced")
                     .buttonStyle(.plain)
                 }
                 if !item.word.ipa.isEmpty {
@@ -316,8 +319,9 @@ private struct SessionErrorView: View {
     var body: some View {
         VStack(spacing: 20) {
             Image(systemName: "exclamationmark.triangle")
-                .font(.system(size: 34))
+                .font(.largeTitle)
                 .foregroundStyle(Theme.negative)
+                .accessibilityHidden(true)
             Text(message)
                 .font(Theme.body)
                 .foregroundStyle(Theme.secondaryText)
@@ -341,10 +345,11 @@ private struct SessionCompleteView: View {
     var body: some View {
         VStack(spacing: 18) {
             Image(systemName: summary.isQuiz ? "rosette" : "checkmark.seal")
-                .font(.system(size: 44))
+                .font(.largeTitle)
                 .foregroundStyle(Theme.accent)
+                .accessibilityHidden(true)
             Text(summary.isQuiz ? "\(summary.meanScore)%" : "Nice work")
-                .font(Theme.headword(summary.isQuiz ? 44 : 30))
+                .font(Theme.headword(summary.isQuiz ? .largeTitle : .title))
                 .foregroundStyle(summary.isQuiz ? Theme.tint(forScore: summary.meanScore) : Theme.primaryText)
             Text(summary.answered == 0
                  ? (summary.isQuiz ? "Study at least \(QuizPlanner.minimumWords) words first." : "Nothing answered yet.")
@@ -371,10 +376,11 @@ private struct CaughtUpView: View {
     var body: some View {
         VStack(spacing: 18) {
             Image(systemName: "moon.stars")
-                .font(.system(size: 44))
+                .font(.largeTitle)
                 .foregroundStyle(Theme.accent)
+                .accessibilityHidden(true)
             Text("All caught up")
-                .font(Theme.headword(30))
+                .font(Theme.headword(.title))
                 .foregroundStyle(Theme.primaryText)
             Text(nextDue.map { "Next review \($0.formatted(.relative(presentation: .named)))." }
                  ?? "Every word in the list has been studied.")
