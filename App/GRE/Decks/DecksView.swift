@@ -23,7 +23,7 @@ struct DecksView: View {
     }
 
     private var deckGrid: some View {
-        let cards = cards
+        let cards = mastery.cards
         return ScrollView {
             VStack(alignment: .leading, spacing: 30) {
                 ForEach(WordTier.allCases.sorted(), id: \.self) { tier in
@@ -36,8 +36,7 @@ struct DecksView: View {
     }
 
     private var searchResults: some View {
-        let cards = cards
-        return List(matches) { word in
+        List(matches) { word in
             NavigationLink {
                 WordDetailView(word: word)
             } label: {
