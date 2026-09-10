@@ -25,6 +25,17 @@ struct AppSmokeTests {
         return try #require(model.current?.item)
     }
 
+    /// The right answer for whatever mode a card happens to be in.
+    ///
+    /// A quiz rotates modes, and they disagree about what an answer even is:
+    /// cloze is graded on the word, the other tap modes on the definition text,
+    /// and two modes want it typed.
+    private func correctDraft(for item: SessionItem) -> AnswerDraft {
+        item.mode.isTapToAnswer
+            ? .choice(AnswerJudge.correctChoice(for: item))
+            : .typed(item.word.word)
+    }
+
     private func inMemoryContext() throws -> ModelContext {
         let container = try ModelContainer(
             for: CardRecord.self, ReviewRecord.self, DeepDiveRecord.self, QuizRecord.self,
@@ -167,22 +178,25 @@ struct AppSmokeTests {
 
     // MARK: - Writing practice
 
-    @Test func writingIsReachableImmediatelyButNotBeforeTheWordIsMet() async throws {
+    @Test func aBrandNewWordIsTaughtBeforeAnythingIsAsked() throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        // Even set to write straight away: "straight away" means straight after
+        // meeting the word, not instead of meeting it. Which threshold applies
+        // once it has been met is Curriculum's business and is tested there,
+        // without needing a Keychain a simulator test bundle cannot write to.
         settings.writingModeAfterReviews = 0
-        settings.setAPIKey("sk-test")
-        defer { settings.setAPIKey(nil) }
 
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
-        // "Straight away" means straight after meeting the word, not instead of.
         guard case .introduce? = model.current else {
-            Issue.record("a brand-new word should be taught first")
+            Issue.record("a brand-new word should be taught first, got \(String(describing: model.current))")
             return
         }
-        #expect(try drill(model).mode == .defineAndUse)
+        // And teaching it schedules nothing, so the question follows immediately.
+        model.finishIntroduction()
+        #expect(model.current?.item?.word != nil)
     }
 
     @Test func practisingAWordOutsideASessionSchedulesItTheSameWay() throws {
@@ -280,7 +294,7 @@ struct AppSmokeTests {
         for _ in 0..<6 {
             guard model.current != nil, let item = try? drill(model) else { break }
             seen.append(item.word.id)
-            await model.submit(.choice(item.word.teachingDefinition))
+            await model.submit(correctDraft(for: item))
             model.advance()
         }
         #expect(seen.contains(missed.word.id) == false, "the same word should not repeat back-to-back")
@@ -300,7 +314,7 @@ struct AppSmokeTests {
         model.start()
         #expect(model.progress == 0)
         while model.current != nil, let item = try? drill(model) {
-            await model.submit(.choice(item.word.teachingDefinition))
+            await model.submit(correctDraft(for: item))
             model.advance()
         }
         guard case let .finished(summary) = model.phase else { Issue.record("expected finished"); return }
@@ -463,7 +477,7 @@ struct AppSmokeTests {
         model.start()
         for _ in 0..<4 {
             guard model.current != nil, let item = try? drill(model) else { break }
-            await model.submit(.choice(item.word.teachingDefinition))
+            await model.submit(correctDraft(for: item))
             model.advance()
         }
         #expect(try context.fetch(FetchDescriptor<CardRecord>()).isEmpty == false)
