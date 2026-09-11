@@ -1,0 +1,49 @@
+{
+  "se-laconic-1": {
+    "answers": [
+      "laconic",
+      "terse"
+    ],
+    "explanation": "The reporters waiting for a second sentence fixes the sense on brevity, and laconic and terse both leave the reply short in the same way.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "laconic",
+      "terse",
+      "garrulous",
+      "loquacious",
+      "candid",
+      "verbose"
+    ],
+    "stem": "Asked to summarise nine months of negotiation, the diplomat gave a reply so _____ that the reporters waited for a second sentence that never came."
+  },
+  "tc-burgeon-1": {
+    "answers": [
+      "burgeon"
+    ],
+    "explanation": "A stall becoming a two-continent chain in three years is rapid growth, which is what burgeon says; flourish and proliferate say thriving and multiplying, neither of which the sentence measures.",
+    "kind": "textCompletion",
+    "options": [
+      "burgeon",
+      "wane",
+      "languish",
+      "abate",
+      "flag"
+    ],
+    "stem": "Three years of cheap credit let a stall at a weekend market _____ into a chain with warehouses on two continents."
+  },
+  "tc-cogent-1": {
+    "answers": [
+      "cogent"
+    ],
+    "explanation": "One anecdote and shifting terms is a failure of logic rather than of style or originality, so the missing quality is the clear, convincing reasoning that cogent names.",
+    "kind": "textCompletion",
+    "options": [
+      "cogent",
+      "specious",
+      "verbose",
+      "banal",
+      "tenuous"
+    ],
+    "stem": "The argument was hardly _____: it leaned on a single anecdote and changed its own terms halfway through."
+  }
+}

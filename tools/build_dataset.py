@@ -64,6 +64,8 @@ GRE_DIFFICULTY = ROOT / "tools" / "gre_difficulty.json"
 GRE_OPTIONS = ROOT / "tools" / "gre_options.json"
 GRE_GROUNDING = ROOT / "tools" / "gre_grounding"
 GRE_CONFUSION = ROOT / "tools" / "gre_confusion"
+GRE_ITEMS = ROOT / "tools" / "gre_items"
+ITEMS_OUT = ROOT / "Sources" / "GRECore" / "Resources" / "items.json"
 # 1-5 to the four bands the app already displays.
 RATING_BANDS = {1: "familiar", 2: "familiar", 3: "moderate", 4: "hard", 5: "rare"}
 # Irregular forms the suffix rules below cannot reach. Only the ones that
@@ -504,6 +506,38 @@ def write_report(entries: list[dict], missing: list[str]) -> None:
     REPORT.write_text("\n".join(lines))
 
 
+def build_items(known: set[str]) -> list[dict]:
+    """The GRE questions, flattened out of their shards into the shipped array.
+
+    Written by `tools/items.py`, which is also what verifies them: shape, one
+    blank, real words, and an explanation that names its answer. Repeated here
+    only as the last gate before they ship, in the same spirit as `verify()`.
+    """
+    items: list[dict] = []
+    for path in sorted(GRE_ITEMS.glob("*.json")):
+        for item_id, item in json.loads(path.read_text()).items():
+            assert item["kind"] in ("textCompletion", "sentenceEquivalence"), item_id
+            assert item["stem"].count("_____") == 1, f"{item_id}: needs one blank"
+            assert len(set(item["options"])) == len(item["options"]), f"{item_id}: repeated option"
+            assert set(item["answers"]) <= set(item["options"]), f"{item_id}: stray answer"
+            assert set(item["options"]) <= known, f"{item_id}: option outside the dataset"
+            expected = 1 if item["kind"] == "textCompletion" else 2
+            assert len(item["answers"]) == expected, f"{item_id}: wrong answer count"
+            assert len(item["options"]) == expected + 4, f"{item_id}: wrong option count"
+            assert item["explanation"].strip(), f"{item_id}: no explanation"
+            items.append({
+                "id": item_id,
+                "kind": item["kind"],
+                "stem": item["stem"],
+                "options": item["options"],
+                "answers": item["answers"],
+                "explanation": item["explanation"],
+            })
+    ids = [i["id"] for i in items]
+    assert len(set(ids)) == len(ids), "duplicate question id"
+    return sorted(items, key=lambda i: i["id"])
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--verify-only", action="store_true",
@@ -511,7 +545,9 @@ def main() -> int:
     args = ap.parse_args()
 
     if args.verify_only:
-        verify(json.loads(OUT.read_text()))
+        entries = json.loads(OUT.read_text())
+        verify(entries)
+        build_items({e["id"] for e in entries})
         print(f"OK: {OUT.relative_to(ROOT)} passes checks")
         return 0
 
@@ -522,6 +558,11 @@ def main() -> int:
     OUT.write_text(json.dumps(entries, ensure_ascii=False, sort_keys=True,
                               separators=(",", ":")))
     write_report(entries, missing)
+
+    items = build_items({e["id"] for e in entries})
+    ITEMS_OUT.write_text(json.dumps(items, ensure_ascii=False, sort_keys=True,
+                                    separators=(",", ":")))
+    print(f"Wrote {len(items)} GRE questions to {ITEMS_OUT.relative_to(ROOT)}")
 
     print(f"\nWrote {len(entries)} words to {OUT.relative_to(ROOT)} "
           f"({OUT.stat().st_size // 1024} KB)")
