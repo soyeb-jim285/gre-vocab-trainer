@@ -1,4 +1,444 @@
 {
+  "sate": {
+    "accepted_concepts": [
+      "fill someone to the full",
+      "gratify an appetite completely",
+      "glut with more than enough",
+      "quench a desire entirely",
+      "feed until nothing more is wanted"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to deprive",
+        "misconception": "inverts filling to the full into withholding"
+      },
+      {
+        "answer": "a tiny trace of something",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "filling an appetite until it is gone",
+    "mental_hook": "Fed, and wanting nothing more.",
+    "semantic_hint": "What a very large meal does to hunger."
+  },
+  "satiate": {
+    "accepted_concepts": [
+      "fill beyond what is wanted",
+      "glut with excess",
+      "surfeit someone",
+      "supply past the point of pleasure",
+      "cloy by giving too much"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to starve",
+        "misconception": "inverts overfilling into depriving"
+      },
+      {
+        "answer": "to fill just enough",
+        "misconception": "loses the excess that separates it from merely satisfying"
+      }
+    ],
+    "required_nuance": "filling past the point of pleasure",
+    "mental_hook": "Past full. Well past.",
+    "semantic_hint": "What a fourth helping of pudding does to an appetite."
+  },
+  "satire": {
+    "accepted_concepts": [
+      "humour used to expose folly",
+      "ridicule aimed at vice",
+      "mockery with a moral purpose",
+      "comic attack on human failings",
+      "irony deployed against a target"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a speech of praise",
+        "misconception": "inverts mockery into eulogy"
+      },
+      {
+        "answer": "humour with no target at all",
+        "misconception": "loses the exposure of folly that defines it"
+      }
+    ],
+    "required_nuance": "humour aimed at exposing folly or vice",
+    "mental_hook": "Funny, and aiming at something.",
+    "semantic_hint": "What Swift wrote when he proposed eating Irish children."
+  },
+  "satirical": {
+    "accepted_concepts": [
+      "using humour to ridicule",
+      "mocking through comedy",
+      "ironic at a target's expense",
+      "sardonic in its comic attack",
+      "written to expose by laughter"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "earnest and reverent",
+        "misconception": "inverts comic ridicule into solemn respect"
+      },
+      {
+        "answer": "humour used to expose folly, as a thing",
+        "misconception": "confuses the adjective with the related noun"
+      }
+    ],
+    "required_nuance": "ridiculing by humour, as an adjective",
+    "mental_hook": "Funny, and it has a target.",
+    "semantic_hint": "The word for a magazine that mocks the government every fortnight."
+  },
+  "saturate": {
+    "accepted_concepts": [
+      "soak completely",
+      "drench through and through",
+      "fill to capacity",
+      "permeate every part",
+      "supply until no more can be taken in"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to dry out",
+        "misconception": "inverts soaking into drying"
+      },
+      {
+        "answer": "to touch only the surface",
+        "misconception": "loses the through-and-through filling"
+      }
+    ],
+    "required_nuance": "filling or soaking until nothing more can go in",
+    "mental_hook": "Full through, not just wet on top.",
+    "semantic_hint": "What a week of rain does to the ground, and advertising to a market."
+  },
+  "saturnine": {
+    "accepted_concepts": [
+      "gloomy in temperament",
+      "sullen and sardonic",
+      "darkly morose",
+      "given to grim silence",
+      "heavy and unsmiling by nature"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "jovial",
+        "misconception": "inverts gloom into good cheer"
+      },
+      {
+        "answer": "relating to a planet's rings",
+        "misconception": "takes the astronomical root literally"
+      }
+    ],
+    "required_nuance": "settled gloom, often with a mocking edge",
+    "mental_hook": "Named for a slow cold planet, and it shows.",
+    "semantic_hint": "The word for a face that has not smiled in the whole meeting."
+  },
+  "savant": {
+    "accepted_concepts": [
+      "a person of deep learning",
+      "a scholar of great attainment",
+      "someone with an extraordinary gift",
+      "a learned authority",
+      "one whose knowledge is remarkable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an ignoramus",
+        "misconception": "inverts deep learning into ignorance"
+      },
+      {
+        "answer": "shrewdly practical",
+        "misconception": "confuses the noun with the near-twin adjective about street wisdom"
+      }
+    ],
+    "required_nuance": "remarkable knowledge, or one remarkable gift",
+    "mental_hook": "Knows a great deal, or one thing astonishingly.",
+    "semantic_hint": "The word for someone who can name the weekday of any date in history."
+  },
+  "savor": {
+    "accepted_concepts": [
+      "enjoy slowly and fully",
+      "relish every moment of",
+      "take one's time over a pleasure",
+      "appreciate at leisure",
+      "draw out an enjoyment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to gulp down without noticing",
+        "misconception": "inverts slow enjoyment into haste"
+      },
+      {
+        "answer": "shrewdly practical",
+        "misconception": "confuses the verb with the near-twin adjective"
+      }
+    ],
+    "required_nuance": "enjoying slowly, drawing it out",
+    "mental_hook": "Takes their time over it.",
+    "semantic_hint": "What someone does with the last mouthful of a very good meal."
+  },
+  "savvy": {
+    "accepted_concepts": [
+      "shrewdly practical",
+      "well-informed about how things work",
+      "canny in dealing with the world",
+      "knowing in a practical way",
+      "astute about the realities"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "naive",
+        "misconception": "inverts practical shrewdness into innocence"
+      },
+      {
+        "answer": "deeply learned in books",
+        "misconception": "confuses practical knowingness with scholarship"
+      }
+    ],
+    "required_nuance": "practical shrewdness, not book learning",
+    "mental_hook": "Knows how it actually works.",
+    "semantic_hint": "The word for someone who never gets caught out by a contract."
+  },
+  "scabbard": {
+    "accepted_concepts": [
+      "a sheath for a blade",
+      "the case a sword is kept in",
+      "a protective covering for a weapon",
+      "the holder a dagger slides into",
+      "a rigid case for a blade"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the blade itself",
+        "misconception": "confuses the case with what it holds"
+      },
+      {
+        "answer": "a crust over a healing wound",
+        "misconception": "hears the sound-alike about a scab"
+      }
+    ],
+    "required_nuance": "the case, not the blade",
+    "mental_hook": "Holds the sword. Is not the sword.",
+    "semantic_hint": "What a knight's sword slides into at his hip."
+  },
+  "scale": {
+    "accepted_concepts": [
+      "climb a height",
+      "ascend a steep face",
+      "adjust in proportion",
+      "increase or reduce by a set ratio",
+      "measure against a standard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to descend",
+        "misconception": "inverts climbing into going down"
+      },
+      {
+        "answer": "to weigh an object",
+        "misconception": "takes the weighing-machine noun for the tested verb"
+      }
+    ],
+    "required_nuance": "climbing, or adjusting by proportion",
+    "mental_hook": "Climbs it, or sizes it.",
+    "semantic_hint": "What a climber does to a wall, and an engineer does to a drawing."
+  },
+  "scant": {
+    "accepted_concepts": [
+      "barely sufficient",
+      "meagre in amount",
+      "not quite enough",
+      "thin in supply",
+      "only just covering the need"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ample",
+        "misconception": "inverts a bare sufficiency into plenty"
+      },
+      {
+        "answer": "in short supply generally",
+        "misconception": "confuses a barely adequate amount with the near-twin about rarity"
+      }
+    ],
+    "required_nuance": "barely enough, rather than simply rare",
+    "mental_hook": "Just about enough, and no more.",
+    "semantic_hint": "The word for a report given barely a page of attention."
+  },
+  "scarce": {
+    "accepted_concepts": [
+      "in short supply",
+      "hard to obtain",
+      "rare in availability",
+      "thin on the ground",
+      "not to be had easily"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plentiful",
+        "misconception": "inverts short supply into abundance"
+      },
+      {
+        "answer": "barely sufficient in amount",
+        "misconception": "confuses rarity with the near-twin about a bare sufficiency"
+      }
+    ],
+    "required_nuance": "hard to come by, rather than barely adequate",
+    "mental_hook": "Hard to find at all.",
+    "semantic_hint": "The word for skilled welders when every shipyard wants them."
+  },
+  "scathing": {
+    "accepted_concepts": [
+      "severely critical",
+      "withering in its attack",
+      "caustic in judgement",
+      "excoriating in tone",
+      "critical enough to sting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complimentary",
+        "misconception": "inverts harsh criticism into praise"
+      },
+      {
+        "answer": "gentle in correction",
+        "misconception": "inverts severity into mildness"
+      }
+    ],
+    "required_nuance": "criticism severe enough to wound",
+    "mental_hook": "It burns on the way past.",
+    "semantic_hint": "The word for a review that ends a play's run in one night."
+  },
+  "schadenfreude": {
+    "accepted_concepts": [
+      "pleasure at another's misfortune",
+      "quiet delight when a rival fails",
+      "malicious enjoyment of a downfall",
+      "gloating at someone's bad luck",
+      "satisfaction in another's trouble"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "compassion for another's trouble",
+        "misconception": "inverts enjoyment of misfortune into sympathy"
+      },
+      {
+        "answer": "pleasure in one's own success",
+        "misconception": "misplaces the pleasure onto one's own fortune"
+      }
+    ],
+    "required_nuance": "the pleasure is in someone else's misfortune",
+    "mental_hook": "Their disaster. Your good mood.",
+    "semantic_hint": "The German word for enjoying a rival's public humiliation."
+  },
+  "scheme": {
+    "accepted_concepts": [
+      "a systematic plan",
+      "an organised arrangement",
+      "a plot with a hidden purpose",
+      "a design worked out in advance",
+      "a stratagem"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an improvised reaction",
+        "misconception": "inverts a worked-out design into spontaneity"
+      },
+      {
+        "answer": "a split within a group",
+        "misconception": "confuses a plan with the near-twin about a division"
+      }
+    ],
+    "required_nuance": "a worked-out plan, often with a devious edge",
+    "mental_hook": "A plan, and often not an honest one.",
+    "semantic_hint": "The word for a pension arrangement, and for a plot to defraud one."
+  },
+  "schism": {
+    "accepted_concepts": [
+      "a split within a group",
+      "a formal division of a church",
+      "a break into opposed factions",
+      "a rupture separating one body",
+      "a division over doctrine"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a reunification",
+        "misconception": "inverts a split into a coming together"
+      },
+      {
+        "answer": "a systematic plan",
+        "misconception": "confuses a division with the near-twin about a plot"
+      }
+    ],
+    "required_nuance": "a split inside one body, often over doctrine",
+    "mental_hook": "One church, then two.",
+    "semantic_hint": "The word for the break between the eastern and western churches."
+  },
+  "scintilla": {
+    "accepted_concepts": [
+      "a tiny trace",
+      "the smallest particle of something",
+      "an iota",
+      "a barely detectable amount",
+      "the least hint of a thing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an abundance",
+        "misconception": "inverts the smallest trace into plenty"
+      },
+      {
+        "answer": "brilliantly clever and lively",
+        "misconception": "confuses the noun with the near-twin adjective"
+      }
+    ],
+    "required_nuance": "the smallest possible amount, usually of evidence",
+    "mental_hook": "The smallest possible amount of it.",
+    "semantic_hint": "The word in the phrase about not a shred of evidence."
+  },
+  "scintillating": {
+    "accepted_concepts": [
+      "brilliantly clever and lively",
+      "sparkling with wit",
+      "dazzling in conversation",
+      "vivaciously brilliant",
+      "flashing with cleverness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "insipid",
+        "misconception": "inverts sparkling wit into dullness"
+      },
+      {
+        "answer": "a tiny trace of something",
+        "misconception": "confuses the adjective with the near-twin noun"
+      }
+    ],
+    "required_nuance": "brilliance of wit, not of light alone",
+    "mental_hook": "Sparkles, and it is the talk that sparkles.",
+    "semantic_hint": "The word for conversation at a table nobody wants to leave."
+  },
+  "scoff": {
+    "accepted_concepts": [
+      "speak derisively",
+      "mock with contempt",
+      "sneer at a claim",
+      "deride openly",
+      "treat with contemptuous disregard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "inverts derision into commendation"
+      },
+      {
+        "answer": "to take seriously",
+        "misconception": "inverts contemptuous dismissal into respect"
+      }
+    ],
+    "required_nuance": "dismissing with open contempt",
+    "mental_hook": "Laughs, and means it as contempt.",
+    "semantic_hint": "What sceptics did to the first reports of stones falling from the sky."
+  },
   "scorn": {
     "accepted_concepts": [
       "contempt for what is worthless",
