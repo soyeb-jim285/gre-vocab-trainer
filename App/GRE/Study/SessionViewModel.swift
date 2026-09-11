@@ -128,6 +128,10 @@ final class SessionViewModel {
     /// A failed call, shown above the answer rather than instead of it, so the
     /// learner's typing is still on screen to resubmit.
     private(set) var lastError: String?
+    /// Set when a pretest went badly enough to teach. Read once, when the
+    /// learner leaves the feedback, so the correction is read before the card
+    /// that explains it appears.
+    private var teachAfterFeedback = false
     /// What was picked, so the feedback can show it beside the right answer.
     private(set) var chosenOptionID: String?
 
@@ -161,6 +165,7 @@ final class SessionViewModel {
 
     func start(now: Date = .now) {
         phase = .loading
+        teachAfterFeedback = false
         answeredCount = 0
         cardsSeen = 0
         scores = []
@@ -240,6 +245,12 @@ final class SessionViewModel {
         case .introduce:
             current = .introduce(word: word, card: picked)
             phase = .introducing
+        case .pretest:
+            // Same surface as any drill: the pretest is a question, and treating
+            // it as its own screen is how the app ends up with two answer paths
+            // that drift.
+            current = .drill(SessionItem(card: picked, word: word, mode: .typeMeaning))
+            beginAnswering()
         case let .drill(mode):
             current = .drill(SessionItem(card: picked, word: word, mode: mode))
             beginAnswering()
@@ -306,7 +317,7 @@ final class SessionViewModel {
                 sentence: pick(item.word.gre?.sentences ?? [], for: item)
             )
 
-        case .reverseRecall, .spelling, .defineAndUse:
+        case .reverseRecall, .spelling, .defineAndUse, .typeMeaning:
             return AnswerOptions()
         }
     }
@@ -358,6 +369,10 @@ final class SessionViewModel {
     func resumeTimer() { clock.resume() }
 
     private func gradeRemotely(_ draft: AnswerDraft, item: SessionItem, latency: Duration) async {
+        if case let .meaning(answer) = draft {
+            await gradeMeaningRemotely(answer, item: item, latency: latency)
+            return
+        }
         guard case let .written(definition, sentence) = draft else { return }
         guard settings.hasAPIKey else {
             lastError = OpenRouterError.missingAPIKey.description
@@ -407,6 +422,78 @@ final class SessionViewModel {
         }
     }
 
+    /// Grade a typed meaning against the word's grounding, then teach if it went
+    /// badly.
+    ///
+    /// The teaching card is queued rather than shown at once: the learner reads
+    /// the correction first, and the card follows when they move on. Showing it
+    /// immediately would bury the feedback under the answer they had just failed
+    /// to give.
+    private func gradeMeaningRemotely(
+        _ answer: String, item: SessionItem, latency: Duration
+    ) async {
+        guard let grounding = item.word.grounding else {
+            // No grounding means nothing to grade against, and grading against
+            // the model's own memory of the word is the thing this replaces.
+            lastError = "This word has no grading data yet."
+            phase = .answering
+            return
+        }
+        guard settings.hasAPIKey else {
+            lastError = OpenRouterError.missingAPIKey.description
+            return
+        }
+        phase = .grading
+        do {
+            let (result, cost) = try await AILedger.spend(
+                .grading, budget: settings.profile.budget,
+                dayStart: settings.dayStart(), in: context
+            ) {
+                try await settings.client().gradeMeaningWithCost(
+                    word: item.word.word,
+                    partOfSpeech: item.word.primaryPartOfSpeech.rawValue,
+                    grounding: grounding,
+                    learnerAnswer: answer,
+                    model: settings.gradingModel
+                )
+            }
+            sessionSpend += cost?.usd ?? 0
+            teachAfterFeedback = Curriculum.teaches(afterMeaningScore: result.score)
+            finish(
+                Judgement(
+                    grade: Grade(score: result.percentage),
+                    rating: Self.rating(forMeaningScore: result.score),
+                    headline: Self.headline(for: result.percentage),
+                    detail: result.feedback,
+                    // A learner who scored well does not need the dictionary
+                    // entry; one who did not is about to get the teaching card.
+                    showsReference: result.score == 3
+                ),
+                latency: latency,
+                cost: cost,
+                extras: AnswerFeedback.Extras(missedNuances: result.matchedMisconception.isEmpty
+                                              ? [] : [result.matchedMisconception])
+            )
+        } catch {
+            lastError = (error as? OpenRouterError)?.description ?? error.localizedDescription
+            phase = .answering
+        }
+    }
+
+    /// A meaning score becomes a scheduler rating.
+    ///
+    /// Confidently wrong is rated Again rather than Hard: a wrong memory
+    /// competes with the right one, so it needs to come back sooner than a word
+    /// that was merely forgotten.
+    private static func rating(forMeaningScore score: Int) -> FSRSRating {
+        switch score {
+        case 4: .easy
+        case 3: .good
+        case 2: .hard
+        default: .again
+        }
+    }
+
     // MARK: - Scheduling
 
     private func finish(
@@ -429,6 +516,15 @@ final class SessionViewModel {
     func advance() {
         chosenOptionID = nil
         lastError = nil
+        // A weak pretest earns the teaching card, on the same word, now. The
+        // scheduler has already been told what the answer was worth, so this is
+        // purely the lesson the learner turned out to need.
+        if teachAfterFeedback, let card = current {
+            teachAfterFeedback = false
+            current = .introduce(word: card.word, card: card.card)
+            phase = .introducing
+            return
+        }
         if quiz != nil {
             queueIndex += 1
             current = queueIndex < queue.count ? queue[queueIndex] : nil

@@ -68,6 +68,10 @@ import Testing
         #expect(AnswerJudge.judge(.written(definition: "", sentence: ""), item: item) == nil)
         _ = AnswerDraft.typed("x") == AnswerDraft.gaveUp
         _ = AnswerDraft.typed("x").isSubmittable
+        _ = AnswerDraft.meaning("x").isSubmittable
+        _ = MeaningResult(score: 3, matchedMisconception: "", feedback: "")
+            .isConfidentlyWrong
+        _ = MeaningResult(score: 3, matchedMisconception: "", feedback: "").percentage
         _ = (StudyMode.spelling.question, StudyMode.spelling.promptSubject)
     }
 
@@ -83,6 +87,7 @@ import Testing
         _ = step.mode
         #expect(step == .introduce)
         _ = Curriculum.candidates(for: word)
+        _ = Curriculum.teaches(afterMeaningScore: 2)
 
         let plan = DayPlanner.plan(
             cards: [StudyCard(wordID: word.id)], catalog: catalog, profile: profile,

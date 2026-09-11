@@ -34,6 +34,10 @@ public enum Confidence {
         case .senseInContext: (.seconds(7), .seconds(20))
         case .contextCloze: (.seconds(8), .seconds(22))
         case .reverseRecall, .spelling, .defineAndUse: (.seconds(6), .seconds(18))
+        // Typing a meaning is composition, not recognition: the learner has to
+        // find the words as well as the sense, so the same clock would call
+        // every honest answer hesitant.
+        case .typeMeaning: (.seconds(8), .seconds(25))
         }
     }
 

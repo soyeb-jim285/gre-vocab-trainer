@@ -6,8 +6,12 @@ public enum AnswerDraft: Equatable, Sendable {
     case choice(String)
     /// Typed a single word: spelling and recall.
     case typed(String)
-    /// Wrote both halves of the graded mode. Only this one needs a model.
+    /// Wrote both halves of the graded mode. Needs a model.
     case written(definition: String, sentence: String)
+    /// Typed what the word means, in the learner's own words. Needs a model,
+    /// and a different one: this is graded against the word's grounding rather
+    /// than against a single reference line.
+    case meaning(String)
     /// Gave up without answering.
     case gaveUp
 
@@ -22,6 +26,8 @@ public enum AnswerDraft: Equatable, Sendable {
         case let .written(definition, sentence):
             !definition.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
                 && !sentence.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        case let .meaning(text):
+            !text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
         case .choice, .gaveUp:
             true
         }
@@ -76,7 +82,7 @@ public enum AnswerJudge {
         confidence: ConfidenceSettings = ConfidenceSettings()
     ) -> Judgement? {
         switch draft {
-        case .written:
+        case .written, .meaning:
             return nil
 
         case .gaveUp:

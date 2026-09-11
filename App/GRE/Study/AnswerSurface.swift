@@ -60,6 +60,14 @@ struct AnswerSurface: View {
         case .reverseRecall:
             AnswerField(title: "The word", prompt: "Type the word", text: $typed)
 
+        case .typeMeaning:
+            // One field, no options, nothing revealed. This is the pretest and
+            // the meaning drill both: the learner says what the word means and
+            // the grader judges it against the word's grounding.
+            AnswerEditor(title: "What it means",
+                         prompt: "Your own words are fine. A guess is better than nothing.",
+                         text: $definition)
+
         case .defineAndUse:
             VStack(alignment: .leading, spacing: 22) {
                 AnswerEditor(title: "Your definition",

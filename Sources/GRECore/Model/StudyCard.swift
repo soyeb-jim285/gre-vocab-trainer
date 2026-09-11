@@ -15,6 +15,13 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     case spelling
     /// Write a definition and a sentence; graded by a model.
     case defineAndUse
+    /// Type what the word means, in your own words; graded by a model against
+    /// the word's ``Grounding``.
+    ///
+    /// This is the pretest question and the backbone of the model: a free answer
+    /// says how well a word is actually held, where a tap says only that four
+    /// options were distinguishable.
+    case typeMeaning
 
     /// The modes that work with no API key.
     public static let locallyGraded: [StudyMode] = [
@@ -30,7 +37,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     /// one; asking "which meaning?" about `laconic` has a single answer.
     public var needsTrapWord: Bool { self == .senseInContext }
 
-    public var needsAI: Bool { self == .defineAndUse }
+    public var needsAI: Bool { self == .defineAndUse || self == .typeMeaning }
 
     /// Shown in the session's mode picker.
     public var label: String {
@@ -41,6 +48,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .reverseRecall: "Recall"
         case .spelling: "Spelling"
         case .defineAndUse: "Writing"
+        case .typeMeaning: "Meaning"
         }
     }
 
@@ -57,6 +65,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .reverseRecall: "Which word means this?"
         case .spelling: "Listen and spell"
         case .defineAndUse: "Define it, then use it"
+        case .typeMeaning: "What does this mean?"
         }
     }
 
@@ -68,7 +77,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         // The gap is the question, and it lives with the options. A headword
         // here would answer it.
         case .contextCloze: .nothing
-        case .multipleChoice, .senseInContext, .defineAndUse: .word
+        case .multipleChoice, .senseInContext, .defineAndUse, .typeMeaning: .word
         }
     }
 
@@ -80,6 +89,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .reverseRecall: "arrow.uturn.backward"
         case .spelling: "ear"
         case .defineAndUse: "square.and.pencil"
+        case .typeMeaning: "text.cursor"
         }
     }
 }

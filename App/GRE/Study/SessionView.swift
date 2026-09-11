@@ -73,10 +73,19 @@ struct SessionView: View {
     }
 
     /// What the learner has entered, in the shape the judge reads.
+    ///
+    /// Both written modes fill `definitionDraft`; only `defineAndUse` asks for a
+    /// sentence too, and the pretest is its own draft case because it is graded
+    /// against the word's grounding rather than one reference line.
     private func draft(for item: SessionItem) -> AnswerDraft {
-        item.mode == .defineAndUse
-            ? .written(definition: definitionDraft, sentence: sentenceDraft)
-            : .typed(typed)
+        switch item.mode {
+        case .defineAndUse:
+            .written(definition: definitionDraft, sentence: sentenceDraft)
+        case .typeMeaning:
+            .meaning(definitionDraft)
+        default:
+            .typed(typed)
+        }
     }
 
     private func isAnswerable(_ model: SessionViewModel) -> Bool {

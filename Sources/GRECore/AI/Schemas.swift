@@ -40,6 +40,15 @@ enum Schemas {
         "memorable_sentence": string,
     ]) }
 
+    static var meaning: [String: Any] { object([
+        "score": ["type": "integer", "enum": [0, 1, 2, 3, 4]],
+        // Empty string rather than null when nothing matched: strict mode wants
+        // every property present, and an absent string is easier to get wrong
+        // across providers than an empty one.
+        "matched_misconception": string,
+        "feedback": string,
+    ]) }
+
     static var deepDive: [String: Any] { object([
         "etymology": string,
         "mnemonic": string,

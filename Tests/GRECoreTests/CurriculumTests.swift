@@ -49,12 +49,35 @@ import Testing
         #expect(step(StudyCard(wordID: "laconic")) == .introduce)
     }
 
-    @Test func introducingOutranksAForcedMode() {
+    @Test func firstContactOutranksAForcedMode() {
         // Forcing a drill says which skill to practise, not that a word the
-        // learner has never seen should be guessed at.
+        // learner has never seen should be guessed at in some other mode.
         for mode in StudyMode.allCases {
-            #expect(step(StudyCard(wordID: "laconic"), ai: true, forced: mode) == .introduce)
+            #expect(step(StudyCard(wordID: "laconic"), ai: true, forced: mode) == .pretest)
+            #expect(step(StudyCard(wordID: "laconic"), ai: false, forced: mode) == .introduce)
         }
+    }
+
+    @Test func firstContactWithAKeyAsksBeforeItTeaches() {
+        // The pretest is what separates a word the learner already owns from one
+        // they have never seen, and teaching first destroys that evidence.
+        #expect(step(StudyCard(wordID: "laconic"), ai: true) == .pretest)
+        #expect(step(StudyCard(wordID: "laconic"), ai: true).mode == .typeMeaning)
+    }
+
+    @Test func withoutAKeyFirstContactFallsBackToTeaching() {
+        // Nothing can grade a written answer offline, so asking for one would
+        // leave the answer unjudged and the learner unhelped.
+        #expect(step(StudyCard(wordID: "laconic"), ai: false) == .introduce)
+    }
+
+    @Test func onlyAWeakPretestSendsTheLearnerToTheTeachingCard() {
+        // Three is the right idea held hazily; the corrective feedback covers
+        // that without stopping the session to teach.
+        #expect(Curriculum.teaches(afterMeaningScore: 0))
+        #expect(Curriculum.teaches(afterMeaningScore: 2))
+        #expect(!Curriculum.teaches(afterMeaningScore: 3))
+        #expect(!Curriculum.teaches(afterMeaningScore: 4))
     }
 
     @Test func introducingHappensOnceAndOnlyOnce() {
@@ -138,8 +161,8 @@ import Testing
 
     @Test func aZeroThresholdStillMeetsTheWordFirst() {
         // Zero used to mean "write about it immediately", including on first
-        // contact. Introducing takes that slot now.
-        #expect(step(StudyCard(wordID: "laconic"), ai: true, writingAfter: 0) == .introduce)
+        // contact. First contact takes that slot now.
+        #expect(step(StudyCard(wordID: "laconic"), ai: true, writingAfter: 0) == .pretest)
         #expect(step(justMet(), ai: true, writingAfter: 0) == .drill(.defineAndUse))
     }
 

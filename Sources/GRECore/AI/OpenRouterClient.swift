@@ -101,6 +101,36 @@ public struct OpenRouterClient: Sendable {
         ).0
     }
 
+    /// Grades a typed meaning against the word's grounding.
+    ///
+    /// Separate from ``gradeWithCost(word:referenceDefinition:partOfSpeech:learnerDefinition:learnerSentence:model:)``
+    /// because it is a different question with a different contract: one answer
+    /// rather than two, judged against the dataset rather than a single
+    /// reference line, and returning the misconception it matched so the app can
+    /// say what went wrong instead of that something did.
+    public func gradeMeaningWithCost(
+        word: String, partOfSpeech: String, grounding: Grounding,
+        learnerAnswer: String, model: String
+    ) async throws -> (MeaningResult, CallCost?) {
+        try await complete(
+            messages: Prompts.meaning(
+                word: word, partOfSpeech: partOfSpeech,
+                grounding: grounding, learnerAnswer: learnerAnswer
+            ),
+            schemaName: "gre_meaning", schema: Schemas.meaning, model: model
+        )
+    }
+
+    public func gradeMeaning(
+        word: String, partOfSpeech: String, grounding: Grounding,
+        learnerAnswer: String, model: String
+    ) async throws -> MeaningResult {
+        try await gradeMeaningWithCost(
+            word: word, partOfSpeech: partOfSpeech, grounding: grounding,
+            learnerAnswer: learnerAnswer, model: model
+        ).0
+    }
+
     /// These two used to discard the cost the provider had already reported, so
     /// the app charged the learner for deep dives and coaching without ever
     /// counting them. A spending cap over a partial total is not a cap.

@@ -41,6 +41,66 @@ enum Prompts {
         ]
     }
 
+    /// Grade a typed meaning against the word's own grounding.
+    ///
+    /// Every list handed over here exists to take a judgement away from the
+    /// model's memory and give it to the dataset: the accepted concepts fix what
+    /// counts as right however it is worded, the incorrect associations let a
+    /// wrong answer be named rather than merely marked, and the required nuance
+    /// fixes the one boundary a grader would otherwise slide around.
+    static func meaning(
+        word: String, partOfSpeech: String, grounding: Grounding, learnerAnswer: String
+    ) -> [[String: String]] {
+        let accepted = grounding.acceptedConcepts.map { "- \($0)" }.joined(separator: "\n")
+        let wrong = grounding.incorrectAssociations
+            .map { "- \($0.answer) => \($0.misconception)" }
+            .joined(separator: "\n")
+        return [
+            [
+                "role": "system",
+                "content": """
+                You grade one answer to the question "what does this word mean?". \
+                Judge it only against the material supplied below, never against \
+                your own impression of the word.
+
+                Score 0 to 4:
+                4  the meaning is right and includes the required nuance
+                3  the meaning is right but the nuance is missing or blurred
+                2  partly right, or right about a different sense of the word
+                1  wrong, but showing some contact with the word
+                0  nothing usable, or blank
+
+                Be strict about meaning and indifferent about wording: a correct \
+                paraphrase in the learner's own words scores as well as a polished \
+                one. Spelling and grammar are not being graded.
+
+                If the answer matches one of the listed wrong answers, copy that \
+                line's misconception verbatim into matched_misconception. Otherwise \
+                leave it an empty string. Do not invent a misconception.
+
+                Write one or two sentences of feedback addressed to the learner, \
+                naming what they missed. Correct them rather than marking them.
+                """,
+            ],
+            [
+                "role": "user",
+                "content": """
+                Word: \(word) (\(partOfSpeech))
+
+                Answers that score full marks:
+                \(accepted)
+
+                Required nuance for a 4: \(grounding.requiredNuance)
+
+                Known wrong answers and what each reveals:
+                \(wrong)
+
+                Learner's answer: \(learnerAnswer)
+                """,
+            ],
+        ]
+    }
+
     static func deepDive(word: String, definition: String) -> [[String: String]] {
         [
             [
