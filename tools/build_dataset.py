@@ -62,6 +62,8 @@ GRE_DIFFICULTY = ROOT / "tools" / "gre_difficulty.json"
 # three other words' definitions is trivial: the wrong answers are about
 # unrelated things, so the right one stands out without knowing the word.
 GRE_OPTIONS = ROOT / "tools" / "gre_options.json"
+GRE_GROUNDING = ROOT / "tools" / "gre_grounding"
+GRE_CONFUSION = ROOT / "tools" / "gre_confusion"
 # 1-5 to the four bands the app already displays.
 RATING_BANDS = {1: "familiar", 2: "familiar", 3: "moderate", 4: "hard", 5: "rare"}
 # Irregular forms the suffix rules below cannot reach. Only the ones that
@@ -248,6 +250,38 @@ def to_cloze(word: str, sentence: str) -> str | None:
     return blanked if found else None
 
 
+def load_grounding() -> dict[str, dict]:
+    """The grading block for each word: what a right answer may say, what wrong
+    answers learners actually give, the nuance that separates a 2 from a 3, one
+    memorable hook and the first rung of the hint ladder.
+
+    Written by hand into shards, which is why it is merged here rather than read
+    from one file. `tools/grounding_verify.py` checks the prose; this only puts
+    it where the app can read it.
+    """
+    out: dict[str, dict] = {}
+    for path in sorted(GRE_GROUNDING.glob("*.json")):
+        out.update(json.loads(path.read_text(encoding="utf-8")))
+    return out
+
+
+def load_confusion() -> dict[str, list[dict]]:
+    """Which words each word is mixed up with, and the line that tells them apart.
+
+    Stored per pair, attached per word: both halves of `imminent|eminent` need to
+    carry the discrimination, because either one can be the word on screen.
+    """
+    out: dict[str, list[dict]] = {}
+    for path in sorted(GRE_CONFUSION.glob("*.json")):
+        for key, entry in json.loads(path.read_text(encoding="utf-8")).items():
+            a, b = key.split("|")
+            out.setdefault(a, []).append({"with": b, "distinction": entry["distinction"]})
+            out.setdefault(b, []).append({"with": a, "distinction": entry["distinction"]})
+    for pairs in out.values():
+        pairs.sort(key=lambda p: p["with"])
+    return out
+
+
 def load_options() -> dict[str, list[str]]:
     if not GRE_OPTIONS.exists():
         return {}
@@ -341,6 +375,8 @@ def build() -> tuple[list[dict], list[str]]:
     gre_senses = load_gre_senses()
     ratings = load_difficulty()
     options = load_options()
+    grounding = load_grounding()
+    confusion = load_confusion()
     print(f"Attaching WordNet senses ({len(gre_senses)} hand-written GRE senses)...")
     # Morphy falls back to lemmatization only when the surface form misses, so
     # inflected entries resolve while list typos still drop out.
@@ -374,6 +410,8 @@ def build() -> tuple[list[dict], list[str]]:
             "rating": ratings.get(word, 3),
             "isTrap": trap,
             **({"gre": gre} if gre else {}),
+            **({"grounding": grounding[word]} if word in grounding else {}),
+            **({"confusion": confusion[word]} if word in confusion else {}),
         })
     return entries, missing
 
@@ -385,6 +423,7 @@ def verify(entries: list[dict]) -> None:
     assert entries, "dataset is empty"
 
     ids = [e["id"] for e in entries]
+    known = set(ids)
     dupes = [w for w, n in Counter(ids).items() if n > 1]
     assert not dupes, f"duplicate ids: {dupes[:5]}"
 
@@ -404,6 +443,26 @@ def verify(entries: list[dict]) -> None:
             d = g["distractors"]
             assert len(d) == 3 and len(set(d)) == 3, f"{e['id']}: needs 3 distinct distractors"
             assert g["definition"] not in d, f"{e['id']}: distractor repeats the answer"
+        # The grading block. `tools/grounding_verify.py` judges the prose, which
+        # is a different job from this: here we only refuse to ship a block the
+        # app would crash on or grade badly from. A missing block is worse than
+        # a clumsy one, because the grader falls back to the model's own memory.
+        g = e.get("grounding")
+        assert g, f"{e['id']}: no grounding block"
+        assert len(g["accepted_concepts"]) >= 4, f"{e['id']}: under four accepted concepts"
+        assert len(set(g["accepted_concepts"])) == len(g["accepted_concepts"]), \
+            f"{e['id']}: duplicate accepted concept"
+        assert len(g["incorrect_associations"]) >= 2, \
+            f"{e['id']}: under two incorrect associations"
+        assert all(a["answer"] and a["misconception"] for a in g["incorrect_associations"]), \
+            f"{e['id']}: incorrect association with no answer or no misconception"
+        assert g["required_nuance"] and g["mental_hook"] and g["semantic_hint"], \
+            f"{e['id']}: grounding block missing nuance, hook or hint"
+        # A confusion entry must name a word that is actually in the dataset, or
+        # the drill it generates has nothing to put on the other side.
+        for pair in e.get("confusion", []):
+            assert pair["with"] in known, f"{e['id']}: confused with unknown word {pair['with']}"
+            assert pair["distinction"], f"{e['id']}: confusion pair with no distinction"
         assert all(s["definition"] for s in e["senses"]), f"{e['id']}: blank definition"
         assert e["tier"] in ("core", "common", "extended"), f"{e['id']}: bad tier"
         assert e["listCount"] == len(e["sourceLists"]), f"{e['id']}: listCount mismatch"
