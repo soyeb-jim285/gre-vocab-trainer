@@ -438,5 +438,1325 @@
     "required_nuance": "thin from hardship, and it shows in the face",
     "mental_hook": "Thin, and it looks like suffering.",
     "semantic_hint": "The word for a face hollowed out by months of illness."
+  },
+  "gawk": {
+    "accepted_concepts": [
+      "stare stupidly",
+      "gape open-mouthed",
+      "goggle at something",
+      "look on with slack amazement",
+      "stare rudely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to glance briefly",
+        "misconception": "understates a prolonged stupid stare into a quick look"
+      },
+      {
+        "answer": "to squawk",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "staring, and looking foolish doing it",
+    "mental_hook": "Mouth open, eyes fixed.",
+    "semantic_hint": "What a crowd does at the scene of a crash."
+  },
+  "gawky": {
+    "accepted_concepts": [
+      "awkward and ungainly",
+      "clumsy in movement",
+      "lanky and uncoordinated",
+      "graceless in the body",
+      "all elbows and knees"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "graceful and poised",
+        "misconception": "inverts clumsiness into grace"
+      },
+      {
+        "answer": "socially tactless",
+        "misconception": "confuses bodily awkwardness with social awkwardness"
+      }
+    ],
+    "required_nuance": "physical awkwardness, usually from sudden growth",
+    "mental_hook": "Grown too fast for the body to keep up.",
+    "semantic_hint": "The word for a teenager who has not yet grown into their own limbs."
+  },
+  "generate": {
+    "accepted_concepts": [
+      "produce",
+      "bring into existence",
+      "cause to come about",
+      "create",
+      "give rise to"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to consume",
+        "misconception": "inverts producing into using up"
+      },
+      {
+        "answer": "a family age group",
+        "misconception": "hears the related noun about a cohort"
+      }
+    ],
+    "required_nuance": "bringing something into being",
+    "mental_hook": "Makes it exist.",
+    "semantic_hint": "What a turbine does with electricity, and what a rumour does with anxiety."
+  },
+  "genesis": {
+    "accepted_concepts": [
+      "the origin of something",
+      "the beginning",
+      "the point at which it started",
+      "inception",
+      "the coming into being"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the conclusion",
+        "misconception": "inverts a beginning into an end"
+      },
+      {
+        "answer": "a family lineage",
+        "misconception": "hears the related word about descent"
+      }
+    ],
+    "required_nuance": "the origin, the very start",
+    "mental_hook": "The start of it, and the first book is named for that.",
+    "semantic_hint": "The word for where an idea or a movement first began."
+  },
+  "genial": {
+    "accepted_concepts": [
+      "friendly and cheerful",
+      "warm in manner",
+      "affable",
+      "pleasantly good-humoured",
+      "cordial"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "surly",
+        "misconception": "inverts warmth into unfriendliness"
+      },
+      {
+        "answer": "exceptionally clever",
+        "misconception": "hears the sound-alike about a person of genius"
+      }
+    ],
+    "required_nuance": "warm friendliness, not brilliance",
+    "mental_hook": "Warm, not brilliant.",
+    "semantic_hint": "The word for a host who makes everyone feel welcome at once."
+  },
+  "genteel": {
+    "accepted_concepts": [
+      "refined in manner",
+      "polite in a studied way",
+      "well-bred",
+      "affectedly respectable",
+      "carefully mannerly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "coarse and vulgar",
+        "misconception": "inverts refinement into crudeness"
+      },
+      {
+        "answer": "kind and mild",
+        "misconception": "hears the sound-alike 'gentle'"
+      }
+    ],
+    "required_nuance": "refined, often with a hint of affectation",
+    "mental_hook": "Refined, and slightly trying too hard.",
+    "semantic_hint": "The word for a shabby household keeping up appearances with great care."
+  },
+  "gentility": {
+    "accepted_concepts": [
+      "refinement in manners",
+      "good breeding",
+      "decorum of a polished class",
+      "social polish",
+      "cultivated propriety"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "vulgarity",
+        "misconception": "inverts refinement into coarseness"
+      },
+      {
+        "answer": "mildness of temper",
+        "misconception": "hears the sound-alike about being gentle"
+      }
+    ],
+    "required_nuance": "the refinement of manners belonging to a class",
+    "mental_hook": "Manners, and the class that taught them.",
+    "semantic_hint": "The word for the careful manners of a family clinging to its former standing."
+  },
+  "gentry": {
+    "accepted_concepts": [
+      "people of high social class below the nobility",
+      "the landed class beneath the peerage",
+      "well-born families without titles",
+      "the country upper class",
+      "people of good birth and estate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the common people",
+        "misconception": "inverts a high class into the ordinary population"
+      },
+      {
+        "answer": "the titled nobility",
+        "misconception": "confuses the class below with the peerage above it"
+      }
+    ],
+    "required_nuance": "high born but below the titled nobility",
+    "mental_hook": "Land and standing, no title.",
+    "semantic_hint": "The class of landowning families in a Jane Austen novel."
+  },
+  "germane": {
+    "accepted_concepts": [
+      "relevant to the matter",
+      "bearing directly on the point",
+      "pertinent",
+      "fitly related to the subject",
+      "apposite"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "irrelevant",
+        "misconception": "inverts relevance into having no bearing"
+      },
+      {
+        "answer": "relating to Germany",
+        "misconception": "hears the sound-alike national adjective"
+      }
+    ],
+    "required_nuance": "relevant to this particular question",
+    "mental_hook": "Bears on the point. Nothing else matters.",
+    "semantic_hint": "The word for evidence that actually bears on the question before the court."
+  },
+  "gerrymander": {
+    "accepted_concepts": [
+      "redraw boundaries for political advantage",
+      "rig electoral districts",
+      "manipulate constituency lines to win",
+      "carve up a map to favour one party",
+      "distort boundaries unfairly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to draw boundaries impartially",
+        "misconception": "inverts rigging into fair division"
+      },
+      {
+        "answer": "to wander aimlessly",
+        "misconception": "hears the second half of the word as 'meander'"
+      }
+    ],
+    "required_nuance": "boundaries drawn to fix the result",
+    "mental_hook": "Named for a governor and a salamander-shaped district.",
+    "semantic_hint": "What a party does by drawing district lines it knows it will win."
+  },
+  "gestate": {
+    "accepted_concepts": [
+      "develop slowly before emerging",
+      "incubate",
+      "let an idea mature unseen",
+      "carry through a period of development",
+      "brew over time"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to appear at once",
+        "misconception": "loses the slow hidden development"
+      },
+      {
+        "answer": "to make a hand movement",
+        "misconception": "hears the sound-alike 'gesture'"
+      }
+    ],
+    "required_nuance": "slow development before anything shows",
+    "mental_hook": "Growing where you cannot see it yet.",
+    "semantic_hint": "What a novel does in a writer's mind for five years before a word is written."
+  },
+  "gestation": {
+    "accepted_concepts": [
+      "a period of development before emergence",
+      "the time an idea takes to mature",
+      "incubation",
+      "the carrying period before birth",
+      "slow unseen formation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the moment of appearing",
+        "misconception": "confuses the long development with the emergence"
+      },
+      {
+        "answer": "a hand signal",
+        "misconception": "hears the sound-alike 'gesture'"
+      }
+    ],
+    "required_nuance": "the period, not the event that ends it",
+    "mental_hook": "The waiting time before it shows.",
+    "semantic_hint": "The word for the long quiet period in which a project takes shape."
+  },
+  "gibe": {
+    "accepted_concepts": [
+      "a mocking remark",
+      "a taunt",
+      "a jeer",
+      "a sneering comment",
+      "a cutting jibe at someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a compliment",
+        "misconception": "inverts mockery into praise"
+      },
+      {
+        "answer": "to agree with",
+        "misconception": "confuses a taunt with the near-twin about being consistent"
+      }
+    ],
+    "required_nuance": "a remark meant to mock",
+    "mental_hook": "A jab, made of words.",
+    "semantic_hint": "The word for a mocking remark shouted from a crowd."
+  },
+  "gird": {
+    "accepted_concepts": [
+      "prepare oneself for difficulty",
+      "brace for what is coming",
+      "steel oneself",
+      "make ready for a struggle",
+      "belt oneself for action"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to relax",
+        "misconception": "inverts bracing into letting go"
+      },
+      {
+        "answer": "a metal beam",
+        "misconception": "hears the sound-alike 'girder'"
+      }
+    ],
+    "required_nuance": "preparing for something hard, in an old register",
+    "mental_hook": "Belt on, before the fight.",
+    "semantic_hint": "What the old phrase says to do with your loins before a trial."
+  },
+  "gist": {
+    "accepted_concepts": [
+      "the essential meaning",
+      "the main point",
+      "the substance stripped of detail",
+      "the kernel of what was said",
+      "the core sense"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the full detail",
+        "misconception": "inverts the essence into everything said"
+      },
+      {
+        "answer": "a guest",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "the core meaning, without the detail",
+    "mental_hook": "What it boils down to.",
+    "semantic_hint": "What you give when you summarise an argument in one sentence."
+  },
+  "glacial": {
+    "accepted_concepts": [
+      "extremely slow",
+      "icily cold",
+      "frigid in manner",
+      "moving at a crawl",
+      "coldly unwelcoming"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "rapid",
+        "misconception": "inverts extreme slowness into speed"
+      },
+      {
+        "answer": "warmly welcoming",
+        "misconception": "inverts icy coldness into warmth"
+      }
+    ],
+    "required_nuance": "ice slow, or ice cold in manner",
+    "mental_hook": "Ice moves. Just very, very slowly.",
+    "semantic_hint": "The word for progress at the pace of ice, or for a very cold stare."
+  },
+  "glean": {
+    "accepted_concepts": [
+      "gather bit by bit",
+      "pick up scraps of information",
+      "collect slowly from scattered sources",
+      "extract little by little",
+      "harvest what is left over"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to scatter",
+        "misconception": "inverts gathering into dispersing"
+      },
+      {
+        "answer": "to clean thoroughly",
+        "misconception": "hears the sound-alike 'clean'"
+      }
+    ],
+    "required_nuance": "gathering in small amounts from what is left",
+    "mental_hook": "Picking up what the harvest left.",
+    "semantic_hint": "What you do to facts by piecing them together from scattered remarks."
+  },
+  "glib": {
+    "accepted_concepts": [
+      "fluent but insincere",
+      "slick and shallow",
+      "too easy in speech to be trusted",
+      "superficially persuasive",
+      "smooth without substance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "thoughtful and sincere",
+        "misconception": "inverts slickness into depth"
+      },
+      {
+        "answer": "hesitant in speech",
+        "misconception": "inverts fluency into stumbling"
+      }
+    ],
+    "required_nuance": "fluency that betrays shallowness",
+    "mental_hook": "Smooth, and that is the complaint.",
+    "semantic_hint": "The word for an answer that comes too smoothly to be honest."
+  },
+  "glower": {
+    "accepted_concepts": [
+      "stare angrily",
+      "scowl at someone",
+      "glare in sullen anger",
+      "look with a fixed frown",
+      "fix someone with a black look"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to beam",
+        "misconception": "inverts an angry stare into a smile"
+      },
+      {
+        "answer": "to shine faintly",
+        "misconception": "hears the word 'glow'"
+      }
+    ],
+    "required_nuance": "an angry fixed stare",
+    "mental_hook": "Anger, held in the eyes.",
+    "semantic_hint": "What someone does across a table when they will not say what is wrong."
+  },
+  "glum": {
+    "accepted_concepts": [
+      "gloomy and dejected",
+      "sullenly low in spirits",
+      "morose",
+      "downcast",
+      "despondent and silent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "buoyant and cheerful",
+        "misconception": "inverts gloom into good spirits"
+      },
+      {
+        "answer": "sticky",
+        "misconception": "hears the sound-alike 'gum'"
+      }
+    ],
+    "required_nuance": "gloom that shows in the face",
+    "mental_hook": "The face says it before the mouth does.",
+    "semantic_hint": "How a team looks in the dressing room after a heavy defeat."
+  },
+  "glut": {
+    "accepted_concepts": [
+      "an excessive supply",
+      "a surplus beyond demand",
+      "an oversupply",
+      "a surfeit on the market",
+      "far more than is wanted"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a shortage",
+        "misconception": "inverts oversupply into scarcity"
+      },
+      {
+        "answer": "greed in eating",
+        "misconception": "confuses an oversupply with the appetite word beside it"
+      }
+    ],
+    "required_nuance": "supply so far beyond demand that value falls",
+    "mental_hook": "Too much of it, and the price knows.",
+    "semantic_hint": "What a bumper harvest everywhere does to the price of wheat."
+  },
+  "goad": {
+    "accepted_concepts": [
+      "provoke into action",
+      "prod someone into doing something",
+      "spur on by irritation",
+      "needle until they react",
+      "drive forward with pressure"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to restrain",
+        "misconception": "inverts driving on into holding back"
+      },
+      {
+        "answer": "to persuade gently",
+        "misconception": "loses the prodding irritation that defines it"
+      }
+    ],
+    "required_nuance": "driving someone to act by irritating them",
+    "mental_hook": "The pointed stick, turned into a verb.",
+    "semantic_hint": "What a taunting rival does to make someone lose their temper."
+  },
+  "goosebumps": {
+    "accepted_concepts": [
+      "bumps on the skin from cold or emotion",
+      "the prickling of skin in a chill or a thrill",
+      "raised skin from fright or awe",
+      "gooseflesh",
+      "the shivery reaction on the arms"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a rash from illness",
+        "misconception": "confuses a momentary reaction with a medical condition"
+      },
+      {
+        "answer": "a bird's markings",
+        "misconception": "reads the first half of the compound literally"
+      }
+    ],
+    "required_nuance": "a momentary skin reaction to cold or strong feeling",
+    "mental_hook": "The arms react before the mind does.",
+    "semantic_hint": "What a piece of music raises on your arms."
+  },
+  "gossamer": {
+    "accepted_concepts": [
+      "extremely light and delicate",
+      "thin enough to see through",
+      "filmy",
+      "wispy and fine",
+      "diaphanous"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "heavy and coarse",
+        "misconception": "inverts fineness into weight"
+      },
+      {
+        "answer": "a rumour",
+        "misconception": "hears the sound-alike 'gossip'"
+      }
+    ],
+    "required_nuance": "so fine and light it barely seems there",
+    "mental_hook": "Named for spider silk on autumn grass.",
+    "semantic_hint": "The word for a fabric or a web so fine it is almost invisible."
+  },
+  "gouge": {
+    "accepted_concepts": [
+      "overcharge grossly",
+      "cut or scoop out roughly",
+      "extract money by coercion",
+      "dig out a hollow",
+      "fleece with a price"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to charge fairly",
+        "misconception": "inverts overcharging into fair dealing"
+      },
+      {
+        "answer": "to measure thickness",
+        "misconception": "hears the sound-alike 'gauge'"
+      }
+    ],
+    "required_nuance": "digging out, whether flesh or a customer's money",
+    "mental_hook": "Scoops it out, or scoops out your wallet.",
+    "semantic_hint": "What a seller does by tripling prices in an emergency."
+  },
+  "gradation": {
+    "accepted_concepts": [
+      "a gradual step between stages",
+      "a fine shading from one degree to the next",
+      "an increment in a scale",
+      "a subtle degree of difference",
+      "a stage in a smooth progression"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an abrupt jump",
+        "misconception": "inverts a smooth shading into a sudden leap"
+      },
+      {
+        "answer": "a ceremony for leaving school",
+        "misconception": "hears the sound-alike 'graduation'"
+      }
+    ],
+    "required_nuance": "a step in a smooth scale, not a jump",
+    "mental_hook": "One shade, in a whole scale of them.",
+    "semantic_hint": "The word for each tiny step in a smooth scale of colour."
+  },
+  "graft": {
+    "accepted_concepts": [
+      "corruption for personal gain",
+      "bribery in public office",
+      "the abuse of position for money",
+      "a tissue transplant",
+      "a shoot joined onto another plant"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "honest public service",
+        "misconception": "inverts corruption into integrity"
+      },
+      {
+        "answer": "a drawing or chart",
+        "misconception": "hears the sound-alike 'graph'"
+      }
+    ],
+    "required_nuance": "the tested sense is corruption in office",
+    "mental_hook": "Money taken because of the office held.",
+    "semantic_hint": "The word for a city official taking bribes for contracts."
+  },
+  "granary": {
+    "accepted_concepts": [
+      "a storehouse for grain",
+      "a building where corn is kept",
+      "a silo for harvested crops",
+      "a region that supplies much grain",
+      "a store of threshed corn"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a place where grain is grown",
+        "misconception": "confuses the store with the field"
+      },
+      {
+        "answer": "a home for elderly relatives",
+        "misconception": "hears the sound-alike about a grandmother"
+      }
+    ],
+    "required_nuance": "the place grain is stored, not grown",
+    "mental_hook": "Where the harvest is kept.",
+    "semantic_hint": "The building where a harvest of wheat is stored."
+  },
+  "grandiloquent": {
+    "accepted_concepts": [
+      "pompous in language",
+      "inflated in style",
+      "using grand words to little purpose",
+      "bombastic",
+      "magniloquent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plainspoken",
+        "misconception": "inverts inflation into simplicity"
+      },
+      {
+        "answer": "genuinely magnificent",
+        "misconception": "takes the grandeur at face value and loses the pomposity"
+      }
+    ],
+    "required_nuance": "big words, and the criticism is in the word",
+    "mental_hook": "Big words, small point.",
+    "semantic_hint": "The word for a speech full of swelling phrases and no content."
+  },
+  "grandstand": {
+    "accepted_concepts": [
+      "behave showily to impress onlookers",
+      "play to the crowd",
+      "showboat",
+      "posture for an audience",
+      "perform for effect rather than purpose"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to act quietly and sincerely",
+        "misconception": "inverts performing for effect into genuine action"
+      },
+      {
+        "answer": "a large building",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "acting for the audience rather than the purpose",
+    "mental_hook": "Playing to the seats.",
+    "semantic_hint": "What a politician does with a question they know the cameras are watching."
+  },
+  "grant": {
+    "accepted_concepts": [
+      "concede a point",
+      "allow that something is true",
+      "bestow formally",
+      "give as of right or merit",
+      "accord permission for"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to deny",
+        "misconception": "inverts conceding into refusing"
+      },
+      {
+        "answer": "to ask for",
+        "misconception": "inverts giving into requesting"
+      }
+    ],
+    "required_nuance": "giving or conceding, from a position to do so",
+    "mental_hook": "Gives it, or admits it.",
+    "semantic_hint": "What someone does in conceding a point they had been arguing against."
+  },
+  "grapple": {
+    "accepted_concepts": [
+      "struggle with a problem",
+      "wrestle with an opponent",
+      "tackle something difficult head on",
+      "contend with",
+      "take hold and fight"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to avoid",
+        "misconception": "inverts engaging into evading"
+      },
+      {
+        "answer": "a small fruit",
+        "misconception": "hears the sound-alike 'apple'"
+      }
+    ],
+    "required_nuance": "taking hold of something hard and struggling with it",
+    "mental_hook": "Gets hold of it, and it is not easy.",
+    "semantic_hint": "What a philosopher does with a problem that will not resolve."
+  },
+  "gratify": {
+    "accepted_concepts": [
+      "please",
+      "satisfy a desire",
+      "give pleasure to",
+      "indulge a wish",
+      "afford satisfaction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to disappoint",
+        "misconception": "inverts pleasing into frustrating"
+      },
+      {
+        "answer": "to thank someone",
+        "misconception": "confuses giving pleasure with expressing thanks"
+      }
+    ],
+    "required_nuance": "giving pleasure or satisfying a wish",
+    "mental_hook": "Gives them what pleases them.",
+    "semantic_hint": "What good news does to the person who had been hoping for it."
+  },
+  "grating": {
+    "accepted_concepts": [
+      "harsh and irritating",
+      "jarring to hear",
+      "abrasive in sound or manner",
+      "strident",
+      "unpleasantly rasping"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "soothing",
+        "misconception": "inverts harshness into comfort"
+      },
+      {
+        "answer": "excellent",
+        "misconception": "hears the sound-alike about high quality"
+      }
+    ],
+    "required_nuance": "harshness that rasps on the nerves",
+    "mental_hook": "It rasps, and you feel it in the teeth.",
+    "semantic_hint": "The word for a voice that scrapes on the ear like metal on stone."
+  },
+  "gratis": {
+    "accepted_concepts": [
+      "free of charge",
+      "costing nothing",
+      "without payment",
+      "at no cost to the receiver",
+      "given for nothing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "expensive",
+        "misconception": "inverts free into costly"
+      },
+      {
+        "answer": "unnecessary and unwarranted",
+        "misconception": "confuses being free with the near-twin about something uncalled for"
+      }
+    ],
+    "required_nuance": "no payment is asked, and that is the whole sense",
+    "mental_hook": "No charge. Nothing more implied.",
+    "semantic_hint": "The Latin word on a bill showing nothing is owed."
+  },
+  "gratitude": {
+    "accepted_concepts": [
+      "thankful appreciation",
+      "the feeling of being thankful",
+      "warm acknowledgement of a kindness",
+      "thankfulness for what was given",
+      "appreciation felt and shown"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "resentment",
+        "misconception": "inverts thankfulness into ill feeling"
+      },
+      {
+        "answer": "a payment for services",
+        "misconception": "confuses a feeling with a tip"
+      }
+    ],
+    "required_nuance": "the feeling of thanks for a kindness received",
+    "mental_hook": "Thankfulness, held as a feeling.",
+    "semantic_hint": "What someone feels toward the stranger who stopped to help them."
+  },
+  "gratuitous": {
+    "accepted_concepts": [
+      "unnecessary and unwarranted",
+      "uncalled for",
+      "done without good reason",
+      "needless",
+      "given without cause"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "clearly justified",
+        "misconception": "inverts the uncalled for into the warranted"
+      },
+      {
+        "answer": "free of charge",
+        "misconception": "takes the older sense and misses the tested criticism"
+      }
+    ],
+    "required_nuance": "unnecessary, and the word carries the objection",
+    "mental_hook": "Nobody asked for it, and it did no good.",
+    "semantic_hint": "The word for violence in a film that serves no purpose in the story."
+  },
+  "gravity": {
+    "accepted_concepts": [
+      "seriousness",
+      "solemnity of manner",
+      "importance demanding care",
+      "weightiness of a matter",
+      "grave significance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "levity",
+        "misconception": "inverts seriousness into lightness"
+      },
+      {
+        "answer": "the force pulling objects down",
+        "misconception": "takes the physical sense for the tested one"
+      }
+    ],
+    "required_nuance": "seriousness, not the physical force",
+    "mental_hook": "Weight, but the moral kind.",
+    "semantic_hint": "The quality of a moment nobody in the room treats lightly."
+  },
+  "gregarious": {
+    "accepted_concepts": [
+      "sociable",
+      "fond of company",
+      "outgoing",
+      "enjoying being among people",
+      "convivial"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "reclusive",
+        "misconception": "inverts sociability into solitude"
+      },
+      {
+        "answer": "outstandingly bad",
+        "misconception": "hears the sound-alike about a glaring fault"
+      }
+    ],
+    "required_nuance": "liking company, and seeking it",
+    "mental_hook": "Herds, flocks, and cheerful people.",
+    "semantic_hint": "The word for someone who is unhappy spending an evening alone."
+  },
+  "grievance": {
+    "accepted_concepts": [
+      "a cause for complaint",
+      "a wrong felt to have been suffered",
+      "a formal complaint",
+      "a standing resentment",
+      "a matter one feels aggrieved about"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "satisfaction",
+        "misconception": "inverts complaint into contentment"
+      },
+      {
+        "answer": "deep sorrow at a death",
+        "misconception": "hears the sound-alike about mourning"
+      }
+    ],
+    "required_nuance": "a complaint held, whether or not it is justified",
+    "mental_hook": "The complaint, carried around.",
+    "semantic_hint": "The word for a formal complaint an employee lodges with their union."
+  },
+  "grievous": {
+    "accepted_concepts": [
+      "very severe",
+      "gravely serious",
+      "causing great harm",
+      "dire in consequence",
+      "grave and painful"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "trivial",
+        "misconception": "inverts severity into slightness"
+      },
+      {
+        "answer": "sorrowful",
+        "misconception": "confuses causing grave harm with feeling sorrow"
+      }
+    ],
+    "required_nuance": "severe in harm, not merely sad",
+    "mental_hook": "Serious enough to do real damage.",
+    "semantic_hint": "The legal word for bodily harm of the most serious kind."
+  },
+  "gripe": {
+    "accepted_concepts": [
+      "complain persistently",
+      "grumble",
+      "moan about something",
+      "carp on",
+      "voice a nagging discontent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "inverts complaint into commendation"
+      },
+      {
+        "answer": "to hold tightly",
+        "misconception": "hears the near-identical word for a firm hold"
+      }
+    ],
+    "required_nuance": "small persistent complaining",
+    "mental_hook": "Complains, quietly and forever.",
+    "semantic_hint": "What a colleague does about the coffee every single morning."
+  },
+  "grisly": {
+    "accepted_concepts": [
+      "horrifying",
+      "gruesome",
+      "causing shuddering horror",
+      "ghastly to see",
+      "macabre"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pleasant",
+        "misconception": "inverts horror into charm"
+      },
+      {
+        "answer": "a large brown bear",
+        "misconception": "hears the sound-alike name of the animal"
+      }
+    ],
+    "required_nuance": "horror at the sight of blood or death",
+    "mental_hook": "The kind of scene you look away from.",
+    "semantic_hint": "The word for details of a killing too horrible to print."
+  },
+  "grouse": {
+    "accepted_concepts": [
+      "grumble",
+      "complain sourly",
+      "carp about something",
+      "moan persistently",
+      "voice discontent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "inverts complaint into commendation"
+      },
+      {
+        "answer": "a game bird",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "complaining, and in a low grumbling way",
+    "mental_hook": "The bird, and the grumble, share a word.",
+    "semantic_hint": "What soldiers are famously said to do about the food."
+  },
+  "grove": {
+    "accepted_concepts": [
+      "a small group of trees",
+      "a copse",
+      "a stand of trees",
+      "a little wood",
+      "an orchard of planted trees"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a vast forest",
+        "misconception": "overstates a small stand into a whole forest"
+      },
+      {
+        "answer": "a channel cut in a surface",
+        "misconception": "hears the sound-alike 'groove'"
+      }
+    ],
+    "required_nuance": "a small stand of trees, often planted",
+    "mental_hook": "A few trees, together.",
+    "semantic_hint": "The word for a small cluster of olive trees on a hillside."
+  },
+  "grovel": {
+    "accepted_concepts": [
+      "behave with abject servility",
+      "cringe before someone",
+      "humble oneself shamefully",
+      "kowtow",
+      "abase oneself to win favour"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to stand up to someone",
+        "misconception": "inverts cringing into defiance"
+      },
+      {
+        "answer": "to dig in soil",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "self-abasement, and it looks degrading",
+    "mental_hook": "Face to the floor.",
+    "semantic_hint": "What someone does apologising abjectly to keep their job."
+  },
+  "grudging": {
+    "accepted_concepts": [
+      "given reluctantly",
+      "yielded without goodwill",
+      "conceded unwillingly",
+      "offered with visible resentment",
+      "granted against one's inclination"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "wholehearted",
+        "misconception": "inverts reluctance into willingness"
+      },
+      {
+        "answer": "entirely withheld",
+        "misconception": "loses that the thing is in fact given"
+      }
+    ],
+    "required_nuance": "it is given, and given unwillingly",
+    "mental_hook": "Gives it. Hates giving it.",
+    "semantic_hint": "The word for the kind of respect an opponent concedes unwillingly."
+  },
+  "gruel": {
+    "accepted_concepts": [
+      "a thin watery porridge",
+      "a meagre boiled cereal dish",
+      "a poor person's thin food",
+      "watery oatmeal",
+      "a scant sloppy meal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a rich stew",
+        "misconception": "inverts thin poor fare into hearty food"
+      },
+      {
+        "answer": "harsh cruelty",
+        "misconception": "hears the sound-alike 'cruel'"
+      }
+    ],
+    "required_nuance": "thin cereal food, associated with want",
+    "mental_hook": "The workhouse bowl.",
+    "semantic_hint": "What Oliver Twist asked for more of."
+  },
+  "guffaw": {
+    "accepted_concepts": [
+      "a loud hearty laugh",
+      "a belly laugh",
+      "a burst of unrestrained laughter",
+      "a roar of amusement",
+      "a boisterous laugh"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a quiet titter",
+        "misconception": "understates a loud roar into a small giggle"
+      },
+      {
+        "answer": "a social blunder",
+        "misconception": "hears the sound-alike about an embarrassing slip"
+      }
+    ],
+    "required_nuance": "laughter, loud and unrestrained",
+    "mental_hook": "Heard three rooms away.",
+    "semantic_hint": "The word for the laugh that carries across a whole restaurant."
+  },
+  "guile": {
+    "accepted_concepts": [
+      "cunning deceit",
+      "sly craftiness",
+      "artful trickery",
+      "duplicity in getting one's way",
+      "shrewd deception"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "candour",
+        "misconception": "inverts craftiness into openness"
+      },
+      {
+        "answer": "remorse for wrongdoing",
+        "misconception": "hears the sound-alike about feeling responsible for a fault"
+      }
+    ],
+    "required_nuance": "cleverness bent to deceiving",
+    "mental_hook": "Clever, and dishonest with it.",
+    "semantic_hint": "The quality of a trickster who wins by cunning rather than force."
+  },
+  "guileless": {
+    "accepted_concepts": [
+      "innocent and without deceit",
+      "artless",
+      "ingenuous",
+      "open and unsuspecting",
+      "candid by nature"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "devious",
+        "misconception": "inverts innocence into cunning"
+      },
+      {
+        "answer": "feeling no remorse",
+        "misconception": "hears the sound-alike about being free of responsibility for a fault"
+      }
+    ],
+    "required_nuance": "no cunning in them, and none suspected in others",
+    "mental_hook": "No cunning at all, and none expected.",
+    "semantic_hint": "The word for a person so open they never suspect a trick."
+  },
+  "gullible": {
+    "accepted_concepts": [
+      "easily deceived",
+      "too ready to believe",
+      "credulous",
+      "taken in without difficulty",
+      "trusting beyond sense"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "shrewd and sceptical",
+        "misconception": "inverts credulity into suspicion"
+      },
+      {
+        "answer": "easily swallowed",
+        "misconception": "reads the root about gulping down literally"
+      }
+    ],
+    "required_nuance": "believing too readily, and so easily fooled",
+    "mental_hook": "Swallows it whole.",
+    "semantic_hint": "The word for someone who believes every message asking for their bank details."
+  },
+  "gumption": {
+    "accepted_concepts": [
+      "resourcefulness and initiative",
+      "practical nerve",
+      "the sense and drive to get on with it",
+      "enterprise in acting",
+      "shrewd common-sense courage"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "timidity",
+        "misconception": "inverts initiative into hanging back"
+      },
+      {
+        "answer": "an assumption",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "initiative joined to practical sense",
+    "mental_hook": "Sense, plus the nerve to use it.",
+    "semantic_hint": "The quality of someone who sees what needs doing and simply does it."
+  },
+  "gustatory": {
+    "accepted_concepts": [
+      "relating to taste",
+      "concerning the sense of taste",
+      "to do with tasting",
+      "of the palate",
+      "involving flavour"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to smell",
+        "misconception": "confuses taste with the neighbouring sense"
+      },
+      {
+        "answer": "blowing in sudden bursts",
+        "misconception": "confuses it with the near-twin about wind"
+      }
+    ],
+    "required_nuance": "the sense of taste specifically",
+    "mental_hook": "The tongue's sense, in one adjective.",
+    "semantic_hint": "The adjective for pleasures belonging to the tongue."
+  },
+  "gusto": {
+    "accepted_concepts": [
+      "vigorous enjoyment",
+      "hearty relish",
+      "zest in doing something",
+      "eager appetite for it",
+      "enthusiasm in the doing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "distaste",
+        "misconception": "inverts relish into aversion"
+      },
+      {
+        "answer": "a strong wind",
+        "misconception": "hears the sound-alike about a sudden blow"
+      }
+    ],
+    "required_nuance": "enjoyment that shows in the vigour of the doing",
+    "mental_hook": "Enjoys it, and it shows.",
+    "semantic_hint": "The word for the way a hungry person attacks a good meal."
+  },
+  "gusty": {
+    "accepted_concepts": [
+      "blowing in sudden bursts",
+      "blustery",
+      "marked by squalls of wind",
+      "windy in irregular blasts",
+      "coming in strong puffs"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "still and calm",
+        "misconception": "inverts blustery wind into stillness"
+      },
+      {
+        "answer": "full of hearty enjoyment",
+        "misconception": "confuses the wind with the near-twin about relish"
+      }
+    ],
+    "required_nuance": "wind in bursts rather than steady",
+    "mental_hook": "Blows hard, stops, blows again.",
+    "semantic_hint": "The word for a day when the wind keeps arriving in sudden blasts."
+  },
+  "hackneyed": {
+    "accepted_concepts": [
+      "overused and unoriginal",
+      "worn out by repetition",
+      "trite",
+      "stale from constant use",
+      "banal through familiarity"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fresh and original",
+        "misconception": "inverts the worn out into the novel"
+      },
+      {
+        "answer": "cut roughly",
+        "misconception": "hears the verb about chopping"
+      }
+    ],
+    "required_nuance": "worn out by too much use",
+    "mental_hook": "Said so often it means nothing.",
+    "semantic_hint": "The word for a phrase like the one about thinking outside the box."
+  },
+  "haggle": {
+    "accepted_concepts": [
+      "bargain persistently over price",
+      "dispute the terms at length",
+      "barter back and forth",
+      "wrangle over what to pay",
+      "dicker"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to accept the first price",
+        "misconception": "inverts bargaining into agreeing at once"
+      },
+      {
+        "answer": "to look gaunt and worn",
+        "misconception": "hears the sound-alike about a drawn face"
+      }
+    ],
+    "required_nuance": "prolonged bargaining over terms",
+    "mental_hook": "Nobody accepts the first number.",
+    "semantic_hint": "What buyer and seller do over a price in a market."
+  },
+  "hail": {
+    "accepted_concepts": [
+      "greet enthusiastically",
+      "acclaim publicly",
+      "salute with praise",
+      "declare someone to be something great",
+      "call out to in welcome"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to condemn",
+        "misconception": "inverts acclaim into denunciation"
+      },
+      {
+        "answer": "frozen pellets from the sky",
+        "misconception": "takes the weather noun for the tested verb"
+      }
+    ],
+    "required_nuance": "greeting or acclaiming, loudly and publicly",
+    "mental_hook": "Called out, in welcome or in praise.",
+    "semantic_hint": "What critics do when they declare a new film a masterpiece."
+  },
+  "halcyon": {
+    "accepted_concepts": [
+      "peaceful and prosperous",
+      "idyllically calm",
+      "golden and untroubled",
+      "tranquil in memory",
+      "happily serene"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "turbulent",
+        "misconception": "inverts calm prosperity into trouble"
+      },
+      {
+        "answer": "a chemical compound",
+        "misconception": "guesses from an unfamiliar shape"
+      }
+    ],
+    "required_nuance": "calm and prosperous, usually looked back on",
+    "mental_hook": "Named for a bird said to calm the sea.",
+    "semantic_hint": "The word for the golden untroubled days people remember afterwards."
   }
 }
