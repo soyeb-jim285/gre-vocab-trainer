@@ -59,7 +59,7 @@ The most interesting problem in the dataset turned out to be words like `august`
 
 Every one of those is a common English word. Measure difficulty by how often the
 word appears in ordinary text, which is what I did at first, and they come out as
-the easiest words in the entire list. They landed in deck one. But the exam does
+the easiest words in the entire list. They came out first in the running order. But the exam does
 not test the month, the piece of cloth, or the tree. It tests *majestic*, *to
 weaken*, *to yearn*, *contemptible*, *to increase*, *malleable*. Those are among
 the hardest things on the paper.
@@ -69,8 +69,8 @@ words the two come apart, and those are exactly the words that cost people point
 because you read the sentence, recognise the word, and never notice you got it wrong.
 
 Two things follow from that. Difficulty is rated by hand on the tested sense, so
-`august` is a 4 and `modest` is a 1, and decks are ordered by that rating rather
-than by frequency. And the 401 get their own drill: the sentence appears with the
+`august` is a 4 and `modest` is a 1, and the running order follows that rating
+rather than frequency. And the 401 get their own drill: the sentence appears with the
 word intact, and you pick which of four meanings applies. The wrong answers are
 that word's own everyday senses, pulled from WordNet, so the bait is the meaning
 you already believe.
@@ -89,7 +89,7 @@ Setup asks three things once: when the test is, how many new words a day you are
 willing to meet, and optionally an API key. Those two numbers are what turn 2,898
 words into today's work.
 
-Today is the home screen. It shows what is due, how many new words the day still
+Learn is the home screen. It shows what is due, how many new words the day still
 has room for, roughly how long that will take, your streak, and whether the test
 date is still reachable. When it is not, it says so and tells you what the date
 would actually need. Falling behind quietly is the one thing a deadline is
@@ -101,28 +101,34 @@ streak you were in the middle of earning.
 
 Within a session, due reviews come first, ordered by which ones you are most
 likely to have forgotten rather than by which are most overdue. New words come
-after, from your current deck, up to what the day allows. On top of that the app
+after, in exam-value order, up to what the day allows. On top of that the app
 counts the words currently half-learned and stops introducing more past a cap:
 four if your recent accuracy is under 60%, twelve if it is over 85%, eight
 otherwise. A bad day slows the intake instead of burying you.
 
-## Decks
+## Order, mastery, and the other two screens
 
-The words are split into 117 decks of 23 to 25. Three tiers by exam value first,
-since a word on eight prep lists is likelier to appear than one on a single list:
-Core (on three or more lists, 915 words), Common (two, 697), Extended (one, 1,286).
-Inside each tier the order is easiest first by the hand-assigned rating, so Core 1
-opens with `subtle`, `modest`, `elaborate`, `profound`.
+The words are ordered by exam value first, since a word on eight prep lists is
+likelier to appear than one on a single list: Core (on three or more lists, 915
+words), Common (two, 697), Extended (one, 1,286). Inside each tier the order is
+easiest first by the hand-assigned rating, so the app opens with `subtle`,
+`modest`, `elaborate`, `profound`. There is no deck grid. The schedule decides
+what comes next, and numbered tiles only invited second-guessing it.
 
 Each word carries a mastery level read off its FSRS stability: new, learning,
 familiar at three days, known at three weeks, mastered at three months. A lapse
 collapses stability, so the level drops on its own without any separate
-bookkeeping. Decks show a ring of the average.
+bookkeeping.
 
-Once you have studied five words in a deck you can test it. There is also a test
-over everything you know, which samples the words you are most likely to have
-forgotten rather than sampling evenly. Test answers feed the scheduler like any
-other review, because they are evidence about your memory.
+Challenge is twenty questions over words you have already met, seeded from the
+day so it is the same set however often you open it and a new one tomorrow. It
+needs no API key.
+
+Drill is the exam's own shapes: 324 hand-written Text Completion and Sentence
+Equivalence questions over 408 words. Questions are chosen by the shakiest word
+they contain rather than on a schedule of their own, because the same sentence
+asked twice tests the sentence. Both screens feed the scheduler like any other
+review, because they are evidence about your memory.
 
 ## Where the words come from
 
@@ -234,7 +240,7 @@ listing itself as a synonym. They caught trap words losing the everyday sense th
 makes their drill work.
 
 The answer-speed adjustment has a guard of its own. If its thresholds ran loose,
-every quick answer would rate Easy, intervals would stretch across the whole deck,
+every quick answer would rate Easy, intervals would stretch across every word,
 and nobody would find out until a month before the exam. So a test simulates
 ninety days of daily reviews and asserts two things: someone who answers quickly
 schedules bit-identically to before the feature existed, and hesitation can only
