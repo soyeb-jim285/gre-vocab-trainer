@@ -46,6 +46,55 @@ struct WordsView: View {
     }
 }
 
+/// The whole catalog's mastery as one bar. Lives here with the dot it is built
+/// from, rather than back in the deck screen that used to own both.
+struct MasteryBar: View {
+    let counts: [Mastery: Int]
+    let total: Int
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            GeometryReader { geo in
+                HStack(spacing: 2) {
+                    ForEach(Mastery.allCases, id: \.self) { level in
+                        let n = counts[level] ?? 0
+                        if n > 0 {
+                            MasteryDot.color(level)
+                                .frame(width: max(2, geo.size.width * Double(n) / Double(max(total, 1))))
+                        }
+                    }
+                }
+            }
+            .frame(height: 8)
+            .clipShape(Capsule())
+            // The bar carries its meaning entirely in colour and segment width,
+            // so it says nothing at all without this.
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Mastery")
+            .accessibilityValue(spokenBreakdown)
+            HStack(spacing: 12) {
+                ForEach(Mastery.allCases, id: \.self) { level in
+                    HStack(spacing: 4) {
+                        MasteryDot(level: level)
+                        Text("\(counts[level] ?? 0) \(level.label.lowercased())")
+                            .font(.caption2).foregroundStyle(Theme.tertiaryText)
+                    }
+                }
+            }
+            .accessibilityHidden(true)
+        }
+    }
+
+    private var spokenBreakdown: String {
+        Mastery.allCases
+            .compactMap { level in
+                let n = counts[level] ?? 0
+                return n > 0 ? "\(n) \(level.label.lowercased())" : nil
+            }
+            .joined(separator: ", ")
+    }
+}
+
 /// One small dot per mastery level.
 struct MasteryDot: View {
     let level: Mastery

@@ -68,6 +68,12 @@ struct AnswerSurface: View {
                          prompt: "Your own words are fine. A guess is better than nothing.",
                          text: $definition)
 
+        case .greItem:
+            // Exam questions have their own screen: a stem, five or six options
+            // and sometimes two answers, none of which this surface carries. A
+            // session never serves one, so there is nothing to draw.
+            EmptyView()
+
         case .defineAndUse:
             VStack(alignment: .leading, spacing: 22) {
                 AnswerEditor(title: "Your definition",
