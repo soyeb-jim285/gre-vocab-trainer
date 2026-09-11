@@ -1,0 +1,882 @@
+{
+  "denote": {
+    "accepted_concepts": [
+      "indicate",
+      "mean literally",
+      "signify directly",
+      "stand for",
+      "designate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to imply",
+        "misconception": "confuses stating with suggesting, which is connote"
+      },
+      {
+        "answer": "to refuse to admit",
+        "misconception": "hears the shared opening of 'deny'"
+      }
+    ],
+    "required_nuance": "the literal meaning, never the suggestion",
+    "mental_hook": "What the word actually says, not what it hints.",
+    "semantic_hint": "What a red light does with respect to stopping."
+  },
+  "denouement": {
+    "accepted_concepts": [
+      "the final resolution of a plot",
+      "the unravelling at the end",
+      "the closing explanation",
+      "the outcome that ties it up",
+      "the final act"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the climax",
+        "misconception": "confuses the resolution with the peak that precedes it"
+      },
+      {
+        "answer": "a public condemnation",
+        "misconception": "hears the sound-alike 'denounce'"
+      }
+    ],
+    "required_nuance": "what follows the climax and ties it up",
+    "mental_hook": "After the climax, when everything is explained.",
+    "semantic_hint": "The last part of a story where all the loose ends get tied up."
+  },
+  "denounce": {
+    "accepted_concepts": [
+      "publicly condemn",
+      "speak out against",
+      "decry openly",
+      "accuse publicly",
+      "censure in public"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make public",
+        "misconception": "hears the sound-alike 'announce' and loses the condemnation"
+      },
+      {
+        "answer": "to praise",
+        "misconception": "inverts condemnation into commendation"
+      }
+    ],
+    "required_nuance": "condemning in public, often naming names",
+    "mental_hook": "Not private disapproval. Named, in public.",
+    "semantic_hint": "What a leader does when they publicly condemn an ally by name."
+  },
+  "dense": {
+    "accepted_concepts": [
+      "thick and compact",
+      "closely packed",
+      "hard to get through",
+      "impenetrable in style",
+      "slow to understand"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "sparse",
+        "misconception": "inverts packed into thinly spread"
+      },
+      {
+        "answer": "clear",
+        "misconception": "inverts impenetrable into lucid"
+      }
+    ],
+    "required_nuance": "packed tightly, or hard to penetrate",
+    "mental_hook": "A forest, a paragraph, or a person.",
+    "semantic_hint": "What a forest is when the trees are packed together, and a text nobody can follow."
+  },
+  "deportment": {
+    "accepted_concepts": [
+      "the way someone carries themselves",
+      "bearing",
+      "demeanour",
+      "manner of conduct",
+      "how one holds oneself"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "expulsion from a country",
+        "misconception": "hears the sound-alike 'deportation'"
+      },
+      {
+        "answer": "a division of an organisation",
+        "misconception": "hears the sound-alike 'department'"
+      }
+    ],
+    "required_nuance": "bearing and conduct, especially posture and manner",
+    "mental_hook": "How you hold yourself, and how you behave.",
+    "semantic_hint": "What a finishing school teaches along with table manners."
+  },
+  "depose": {
+    "accepted_concepts": [
+      "remove from office",
+      "oust a ruler",
+      "dethrone",
+      "testify under oath",
+      "give sworn evidence"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to throw away",
+        "misconception": "hears the sound-alike 'dispose'"
+      },
+      {
+        "answer": "to install",
+        "misconception": "inverts removing into appointing"
+      }
+    ],
+    "required_nuance": "removing from power, or swearing evidence",
+    "mental_hook": "A king is deposed; a witness is deposed. Different things.",
+    "semantic_hint": "What a coup does to a president, and what a witness does before trial."
+  },
+  "deprave": {
+    "accepted_concepts": [
+      "corrupt morally",
+      "debauch",
+      "lead into vice",
+      "pervert the character of",
+      "make morally rotten"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to take away from",
+        "misconception": "hears the sound-alike 'deprive'"
+      },
+      {
+        "answer": "to reform",
+        "misconception": "inverts corrupting into improving"
+      }
+    ],
+    "required_nuance": "corrupting the character itself",
+    "mental_hook": "Corruption of the person, not of the payment.",
+    "semantic_hint": "What Victorians feared cheap novels would do to young readers."
+  },
+  "depravity": {
+    "accepted_concepts": [
+      "moral corruption",
+      "wickedness",
+      "degeneracy",
+      "utter moral rottenness",
+      "turpitude"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "poverty",
+        "misconception": "hears the sound-alike 'deprivation'"
+      },
+      {
+        "answer": "virtue",
+        "misconception": "inverts corruption into goodness"
+      }
+    ],
+    "required_nuance": "corruption of character, at its worst",
+    "mental_hook": "Not a lapse. A condition.",
+    "semantic_hint": "The word for wickedness so deep it has become a person's nature."
+  },
+  "deprecate": {
+    "accepted_concepts": [
+      "express disapproval of",
+      "belittle",
+      "deplore",
+      "speak slightingly of",
+      "play down in value"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to fall in value",
+        "misconception": "hears the sound-alike 'depreciate'"
+      },
+      {
+        "answer": "to approve",
+        "misconception": "inverts disapproval into endorsement"
+      }
+    ],
+    "required_nuance": "disapproving in words, not losing worth",
+    "mental_hook": "One letter from depreciate, and this one disapproves.",
+    "semantic_hint": "What someone does to their own achievements when they play them down."
+  },
+  "depredation": {
+    "accepted_concepts": [
+      "an act of plundering",
+      "a raid that destroys",
+      "pillaging",
+      "ravaging by force",
+      "destructive looting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a low mood",
+        "misconception": "hears the sound-alike 'depression'"
+      },
+      {
+        "answer": "protection",
+        "misconception": "inverts plundering into guarding"
+      }
+    ],
+    "required_nuance": "destruction carried out by plundering",
+    "mental_hook": "The damage raiders leave behind.",
+    "semantic_hint": "The word for the destruction raiders leave behind them."
+  },
+  "derelict": {
+    "accepted_concepts": [
+      "abandoned and run-down",
+      "dilapidated through neglect",
+      "left to fall apart",
+      "negligent in duty",
+      "remiss"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "newly built",
+        "misconception": "inverts decay into freshness"
+      },
+      {
+        "answer": "an abandoned ship and nothing else",
+        "misconception": "narrows it to one application"
+      }
+    ],
+    "required_nuance": "abandoned, or failing in a duty",
+    "mental_hook": "A building, or a person's duty.",
+    "semantic_hint": "What a warehouse is when nobody has used or repaired it for twenty years."
+  },
+  "deride": {
+    "accepted_concepts": [
+      "mock scornfully",
+      "ridicule",
+      "jeer at",
+      "treat with contempt",
+      "scoff at"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to split",
+        "misconception": "hears the sound-alike 'divide'"
+      },
+      {
+        "answer": "to praise",
+        "misconception": "inverts mockery into commendation"
+      }
+    ],
+    "required_nuance": "mockery with scorn in it",
+    "mental_hook": "Not teasing. Contempt.",
+    "semantic_hint": "What critics did to the idea before it turned out to work."
+  },
+  "derision": {
+    "accepted_concepts": [
+      "contemptuous mockery",
+      "ridicule",
+      "scorn expressed openly",
+      "jeering",
+      "a laughing dismissal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a choice made",
+        "misconception": "hears the sound-alike 'decision'"
+      },
+      {
+        "answer": "admiration",
+        "misconception": "inverts scorn into esteem"
+      }
+    ],
+    "required_nuance": "mockery that expresses contempt",
+    "mental_hook": "Laughter with contempt in it.",
+    "semantic_hint": "The scornful laughter that greets an idea nobody takes seriously."
+  },
+  "derisive": {
+    "accepted_concepts": [
+      "mocking",
+      "scornful",
+      "sneering",
+      "expressing ridicule",
+      "contemptuous in tone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "settling a matter",
+        "misconception": "hears the sound-alike 'decisive'"
+      },
+      {
+        "answer": "respectful",
+        "misconception": "inverts scorn into esteem"
+      }
+    ],
+    "required_nuance": "the tone itself carries contempt",
+    "mental_hook": "The snort, put into an adjective.",
+    "semantic_hint": "The adjective for the laugh that greets a plainly hopeless suggestion."
+  },
+  "derivative": {
+    "accepted_concepts": [
+      "unoriginal",
+      "copied from something else",
+      "imitative",
+      "borrowed from an earlier work",
+      "second-hand in style"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "original",
+        "misconception": "inverts imitation into invention"
+      },
+      {
+        "answer": "a financial instrument",
+        "misconception": "takes another noun sense"
+      }
+    ],
+    "required_nuance": "borrowed, and a criticism for being so",
+    "mental_hook": "Not new. Borrowed, and it shows.",
+    "semantic_hint": "The word for a novel that reads exactly like a better one."
+  },
+  "derive": {
+    "accepted_concepts": [
+      "obtain from a source",
+      "trace back to an origin",
+      "get something from",
+      "extract from",
+      "take from elsewhere"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to steer a vehicle",
+        "misconception": "hears the sound-alike 'drive'"
+      },
+      {
+        "answer": "to originate independently",
+        "misconception": "inverts taking from a source into inventing"
+      }
+    ],
+    "required_nuance": "coming from a source, never from nothing",
+    "mental_hook": "It came from somewhere, and you can say where.",
+    "semantic_hint": "What English does with most of its long words from Latin."
+  },
+  "derived": {
+    "accepted_concepts": [
+      "obtained from another source",
+      "taken from something else",
+      "secondary rather than original",
+      "extracted from",
+      "traced back to an origin"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "original",
+        "misconception": "inverts secondary into first-hand"
+      },
+      {
+        "answer": "propelled",
+        "misconception": "hears the sound-alike 'driven'"
+      }
+    ],
+    "required_nuance": "came from something else, said of the result",
+    "mental_hook": "Came from somewhere else, and shows its parentage.",
+    "semantic_hint": "How a word is described when it comes from an older one in another language."
+  },
+  "derogative": {
+    "accepted_concepts": [
+      "belittling",
+      "disparaging",
+      "expressing a low opinion",
+      "insulting in implication",
+      "pejorative"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complimentary",
+        "misconception": "inverts belittling into praise"
+      },
+      {
+        "answer": "an exclusive right",
+        "misconception": "hears the sound-alike 'prerogative'"
+      }
+    ],
+    "required_nuance": "the words themselves do the belittling",
+    "mental_hook": "The term that puts someone down.",
+    "semantic_hint": "The adjective for a term chosen to insult the group it names."
+  },
+  "descry": {
+    "accepted_concepts": [
+      "catch sight of",
+      "make out at a distance",
+      "discern",
+      "spot something far off",
+      "glimpse"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to denounce",
+        "misconception": "hears the sound-alike 'decry'"
+      },
+      {
+        "answer": "to hide",
+        "misconception": "inverts seeing into concealing"
+      }
+    ],
+    "required_nuance": "seeing something far off, and with effort",
+    "mental_hook": "One letter from decry, and this one is about the eyes.",
+    "semantic_hint": "What a lookout does with a sail on the horizon."
+  },
+  "desecrate": {
+    "accepted_concepts": [
+      "treat something sacred with disrespect",
+      "profane",
+      "violate a holy place",
+      "defile what is revered",
+      "dishonour what is sacred"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make sacred",
+        "misconception": "inverts violation into consecration"
+      },
+      {
+        "answer": "to decorate",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "violating what is held sacred",
+    "mental_hook": "The exact opposite of consecrate.",
+    "semantic_hint": "What vandals do to a graveyard."
+  },
+  "desiccate": {
+    "accepted_concepts": [
+      "dry out completely",
+      "dehydrate",
+      "parch",
+      "remove all moisture from",
+      "dry until nothing is left"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to cut open for study",
+        "misconception": "hears the sound-alike 'dissect'"
+      },
+      {
+        "answer": "to soak",
+        "misconception": "inverts drying into wetting"
+      }
+    ],
+    "required_nuance": "drying completely, not merely drying",
+    "mental_hook": "All the water out, not merely most.",
+    "semantic_hint": "What a preserving process does to coconut before it goes in a packet."
+  },
+  "desiccated": {
+    "accepted_concepts": [
+      "thoroughly dried",
+      "parched",
+      "shrivelled from lack of moisture",
+      "arid",
+      "drained of all life"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cut open for study",
+        "misconception": "hears the sound-alike 'dissected'"
+      },
+      {
+        "answer": "sodden",
+        "misconception": "inverts dryness into wetness"
+      }
+    ],
+    "required_nuance": "dried out, and lifeless with it",
+    "mental_hook": "Dried to the point of lifeless.",
+    "semantic_hint": "How a body found in a desert cave is described."
+  },
+  "desideratum": {
+    "accepted_concepts": [
+      "something needed and wanted",
+      "a requirement",
+      "a thing felt to be lacking",
+      "a prerequisite",
+      "something greatly desired"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "something unwanted",
+        "misconception": "inverts desired into rejected"
+      },
+      {
+        "answer": "an arid region",
+        "misconception": "hears the shared opening of 'desert'"
+      }
+    ],
+    "required_nuance": "both wanted and needed at once",
+    "mental_hook": "The thing everyone agrees is missing.",
+    "semantic_hint": "The formal word for the one thing a field agrees it still needs."
+  },
+  "despair": {
+    "accepted_concepts": [
+      "complete loss of hope",
+      "hopelessness",
+      "the absence of any expectation of good",
+      "desolation of spirit",
+      "giving up entirely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a spare part",
+        "misconception": "hears the sound-alike 'spare'"
+      },
+      {
+        "answer": "optimism",
+        "misconception": "inverts hopelessness into hope"
+      }
+    ],
+    "required_nuance": "hope gone entirely, not merely low",
+    "mental_hook": "Not discouraged. Out of hope.",
+    "semantic_hint": "What is left when someone has stopped expecting anything to improve."
+  },
+  "despite": {
+    "accepted_concepts": [
+      "contempt",
+      "scorn",
+      "spite",
+      "malice toward someone",
+      "an act done out of malice"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "in spite of",
+        "misconception": "takes the common preposition and misses this noun"
+      },
+      {
+        "answer": "kindness",
+        "misconception": "inverts malice into goodwill"
+      }
+    ],
+    "required_nuance": "as a noun it means contempt, never \"although\"",
+    "mental_hook": "As a noun it means contempt, not \"although\".",
+    "semantic_hint": "The old noun meaning scorn, which survives in the phrase \"in spite of\"."
+  },
+  "despoil": {
+    "accepted_concepts": [
+      "plunder",
+      "strip of possessions",
+      "loot",
+      "ravage and carry off",
+      "rob a place bare"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to indulge a child",
+        "misconception": "hears 'spoil' in its indulgent sense"
+      },
+      {
+        "answer": "to restore",
+        "misconception": "inverts plundering into returning"
+      }
+    ],
+    "required_nuance": "robbing a place of everything of value",
+    "mental_hook": "Stripped, not merely damaged.",
+    "semantic_hint": "What an invading army does to a captured city."
+  },
+  "despoiler": {
+    "accepted_concepts": [
+      "a plunderer",
+      "a looter",
+      "a marauder",
+      "one who strips a place of its wealth",
+      "a raider who carries off"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a protector",
+        "misconception": "inverts the plunderer into a guardian"
+      },
+      {
+        "answer": "one who indulges a child",
+        "misconception": "hears 'spoil' in its indulgent sense"
+      }
+    ],
+    "required_nuance": "the person doing the plundering",
+    "mental_hook": "The one carrying it away.",
+    "semantic_hint": "The word for the invader who strips a country of its treasures."
+  },
+  "despot": {
+    "accepted_concepts": [
+      "a tyrant",
+      "a ruler with absolute power",
+      "an oppressive autocrat",
+      "a dictator",
+      "one who rules without check"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an elected leader",
+        "misconception": "inverts unchecked rule into accountable office"
+      },
+      {
+        "answer": "a particular place",
+        "misconception": "hears the sound-alike 'spot'"
+      }
+    ],
+    "required_nuance": "absolute power, and used oppressively",
+    "mental_hook": "Absolute power, and no scruples about it.",
+    "semantic_hint": "The word for a ruler who answers to nobody and oppresses everybody."
+  },
+  "despotic": {
+    "accepted_concepts": [
+      "tyrannical",
+      "ruling with unchecked power",
+      "oppressive in authority",
+      "autocratic",
+      "dictatorial"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "answerable to voters",
+        "misconception": "inverts unchecked rule into accountable government"
+      },
+      {
+        "answer": "disorganised",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "power absolute, and used to oppress",
+    "mental_hook": "Rules absolutely, and harshly.",
+    "semantic_hint": "The adjective for a regime that answers to nobody and represses everybody."
+  },
+  "destitute": {
+    "accepted_concepts": [
+      "extremely poor",
+      "penniless",
+      "without any means",
+      "lacking the necessities of life",
+      "entirely without something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "wealthy",
+        "misconception": "inverts poverty into riches"
+      },
+      {
+        "answer": "a replacement",
+        "misconception": "hears the sound-alike ending of 'substitute'"
+      }
+    ],
+    "required_nuance": "poverty so complete that nothing is left",
+    "mental_hook": "Not poor. Nothing at all.",
+    "semantic_hint": "The word for someone who has lost everything and has no means left."
+  },
+  "desultory": {
+    "accepted_concepts": [
+      "aimless",
+      "unmethodical",
+      "done without a plan",
+      "jumping from one thing to another",
+      "half-hearted and random"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "offensive",
+        "misconception": "hears the sound-alike 'insulting'"
+      },
+      {
+        "answer": "methodical",
+        "misconception": "inverts randomness into system"
+      }
+    ],
+    "required_nuance": "lacking method, and lacking commitment",
+    "mental_hook": "Starts things, finishes nothing, in no order.",
+    "semantic_hint": "The word for a conversation that wanders with no point and no direction."
+  },
+  "detached": {
+    "accepted_concepts": [
+      "emotionally uninvolved",
+      "dispassionate",
+      "standing apart from",
+      "impartial",
+      "separated from the rest"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deeply involved",
+        "misconception": "inverts distance into engagement"
+      },
+      {
+        "answer": "assaulted",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "uninvolved, whether physically or in feeling",
+    "mental_hook": "Apart from it, and not caught up in it.",
+    "semantic_hint": "How a good judge regards a case they have no stake in."
+  },
+  "detachment": {
+    "accepted_concepts": [
+      "emotional distance",
+      "impartiality",
+      "standing apart from feeling",
+      "objectivity",
+      "aloofness from what is happening"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deep involvement",
+        "misconception": "inverts distance into engagement"
+      },
+      {
+        "answer": "a close bond",
+        "misconception": "inverts separation into connection"
+      }
+    ],
+    "required_nuance": "distance of feeling, a virtue or a coldness depending",
+    "mental_hook": "A virtue in a judge, a fault in a friend.",
+    "semantic_hint": "The quality that lets a surgeon operate on a stranger without flinching."
+  },
+  "detente": {
+    "accepted_concepts": [
+      "an easing of hostility",
+      "a thaw between rivals",
+      "a relaxing of tension",
+      "a rapprochement",
+      "a warming of relations"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "being held after school",
+        "misconception": "hears the sound-alike 'detention'"
+      },
+      {
+        "answer": "an escalation",
+        "misconception": "inverts easing into worsening"
+      }
+    ],
+    "required_nuance": "tension relaxed, not friendship achieved",
+    "mental_hook": "Less hostile. Not yet friendly.",
+    "semantic_hint": "The word for the thaw between two superpowers who still do not trust each other."
+  },
+  "deter": {
+    "accepted_concepts": [
+      "discourage from acting",
+      "put someone off",
+      "dissuade",
+      "inhibit by threat of consequence",
+      "prevent by discouraging"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to encourage",
+        "misconception": "inverts discouragement into urging on"
+      },
+      {
+        "answer": "to settle or decide",
+        "misconception": "hears the shared opening of 'determine'"
+      }
+    ],
+    "required_nuance": "preventing by making someone unwilling",
+    "mental_hook": "Stops them by making them not want to.",
+    "semantic_hint": "What a heavy fine is meant to do to would-be offenders."
+  },
+  "determinant": {
+    "accepted_concepts": [
+      "a decisive factor",
+      "what settles the outcome",
+      "the thing that decides it",
+      "a governing cause",
+      "the influence that fixes the result"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "something that discourages",
+        "misconception": "confuses it with deterrent"
+      },
+      {
+        "answer": "an irrelevance",
+        "misconception": "inverts decisive into immaterial"
+      }
+    ],
+    "required_nuance": "the factor that decides, not one that discourages",
+    "mental_hook": "One letter from deterrent, and this one decides rather than discourages.",
+    "semantic_hint": "The single factor that most decides how a thing turns out."
+  },
+  "deterrent": {
+    "accepted_concepts": [
+      "something that discourages",
+      "a disincentive",
+      "a threat that prevents action",
+      "a check on behaviour",
+      "what puts people off"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a decisive factor",
+        "misconception": "confuses it with determinant"
+      },
+      {
+        "answer": "an encouragement",
+        "misconception": "inverts discouragement into incentive"
+      }
+    ],
+    "required_nuance": "discourages by threat, never physically prevents",
+    "mental_hook": "Stops it by making it not worth doing.",
+    "semantic_hint": "What a visible security camera is meant to be to a burglar."
+  },
+  "detraction": {
+    "accepted_concepts": [
+      "belittling",
+      "disparagement",
+      "taking away from a reputation",
+      "denigration",
+      "speaking slightingly of someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "something that diverts attention",
+        "misconception": "hears the sound-alike 'distraction'"
+      },
+      {
+        "answer": "praise",
+        "misconception": "inverts disparagement into commendation"
+      }
+    ],
+    "required_nuance": "taking away from reputation or worth",
+    "mental_hook": "Takes something away from a reputation.",
+    "semantic_hint": "What constant small criticisms do to a person's standing."
+  },
+  "detrimental": {
+    "accepted_concepts": [
+      "causing harm",
+      "damaging",
+      "injurious",
+      "working to the disadvantage of",
+      "having a bad effect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "beneficial",
+        "misconception": "inverts harm into good"
+      },
+      {
+        "answer": "mawkish",
+        "misconception": "guesses from a vaguely similar ending"
+      }
+    ],
+    "required_nuance": "harmful in its effect",
+    "mental_hook": "Does damage, whether or not anyone meant it to.",
+    "semantic_hint": "The word for an effect that clearly works against someone's interests."
+  },
+  "deviance": {
+    "accepted_concepts": [
+      "departure from accepted standards",
+      "nonconformity to a norm",
+      "abnormality in behaviour",
+      "straying from what is usual",
+      "a breach of convention"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "conformity",
+        "misconception": "inverts departure into compliance"
+      },
+      {
+        "answer": "a piece of equipment",
+        "misconception": "hears the shared opening of 'device'"
+      }
+    ],
+    "required_nuance": "departing from the norm, and judged for it",
+    "mental_hook": "Outside the norm, and noticed for it.",
+    "semantic_hint": "What sociologists call behaviour that breaks a society's accepted rules."
+  }
+}

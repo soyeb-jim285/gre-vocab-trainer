@@ -1758,5 +1758,445 @@
     "required_nuance": "lowering quality, status or dignity",
     "mental_hook": "Worth, rank or dignity, all reduced.",
     "semantic_hint": "What repeated copying does to the quality of an image."
+  },
+  "deify": {
+    "accepted_concepts": [
+      "treat as a god",
+      "worship as divine",
+      "exalt to divine status",
+      "idolise utterly",
+      "venerate as more than human"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to openly resist",
+        "misconception": "hears the sound-alike 'defy'"
+      },
+      {
+        "answer": "to belittle",
+        "misconception": "inverts exaltation into disparagement"
+      }
+    ],
+    "required_nuance": "raising someone to divine status",
+    "mental_hook": "Making a god of someone.",
+    "semantic_hint": "What Rome did to its emperors after they died."
+  },
+  "deign": {
+    "accepted_concepts": [
+      "condescend to do",
+      "stoop to something",
+      "do it as a favour from on high",
+      "lower oneself to",
+      "grudgingly consent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to refuse",
+        "misconception": "inverts condescending to do into declining"
+      },
+      {
+        "answer": "to plan out",
+        "misconception": "hears the sound-alike 'design'"
+      }
+    ],
+    "required_nuance": "doing it while making the condescension felt",
+    "mental_hook": "Does it, and wants you to know it was a favour.",
+    "semantic_hint": "What a haughty person does when they finally reply to your letter."
+  },
+  "deject": {
+    "accepted_concepts": [
+      "lower someone's spirits",
+      "dishearten",
+      "dispirit",
+      "cast down",
+      "demoralise"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to throw out",
+        "misconception": "hears the sound-alike 'eject'"
+      },
+      {
+        "answer": "to cheer",
+        "misconception": "inverts lowering into lifting"
+      }
+    ],
+    "required_nuance": "pushing another's spirits down",
+    "mental_hook": "Casts the spirits down.",
+    "semantic_hint": "What repeated bad news does to a team's spirits."
+  },
+  "delegate": {
+    "accepted_concepts": [
+      "entrust a task to another",
+      "hand a duty to someone else",
+      "assign responsibility",
+      "devolve work",
+      "give someone authority to act"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a representative",
+        "misconception": "takes the noun sense for the verb"
+      },
+      {
+        "answer": "to do it oneself",
+        "misconception": "inverts handing over into keeping"
+      }
+    ],
+    "required_nuance": "passing the task and the authority together",
+    "mental_hook": "Hands over the job, and the power to do it.",
+    "semantic_hint": "What a manager does by giving a task and the authority to a junior."
+  },
+  "deleterious": {
+    "accepted_concepts": [
+      "harmful",
+      "damaging over time",
+      "injurious",
+      "having a bad effect",
+      "noxious"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "done on purpose",
+        "misconception": "hears the sound-alike opening of 'deliberate'"
+      },
+      {
+        "answer": "beneficial",
+        "misconception": "inverts harm into good"
+      }
+    ],
+    "required_nuance": "harm that works gradually",
+    "mental_hook": "Damage that accumulates.",
+    "semantic_hint": "The word for an effect that damages your health over years."
+  },
+  "deliberate": {
+    "accepted_concepts": [
+      "consider carefully",
+      "weigh up before deciding",
+      "ponder",
+      "take counsel together",
+      "think it through"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "done on purpose",
+        "misconception": "takes the adjective sense for the tested verb"
+      },
+      {
+        "answer": "to decide instantly",
+        "misconception": "inverts weighing up into snap judgement"
+      }
+    ],
+    "required_nuance": "the tested sense is the weighing, not the intent",
+    "mental_hook": "The verb weighs. The adjective means on purpose.",
+    "semantic_hint": "What a jury does behind a closed door before returning."
+  },
+  "delicacy": {
+    "accepted_concepts": [
+      "fineness of feeling",
+      "tact in handling something",
+      "refinement",
+      "a choice food",
+      "something rare and good to eat"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "clumsiness",
+        "misconception": "inverts fineness into coarseness"
+      },
+      {
+        "answer": "weakness",
+        "misconception": "confuses fineness with frailty"
+      }
+    ],
+    "required_nuance": "fine judgement, or a fine food",
+    "mental_hook": "A quality of touch, or a thing on a plate.",
+    "semantic_hint": "What a diplomat handles a difficult subject with."
+  },
+  "delimit": {
+    "accepted_concepts": [
+      "set the boundaries of",
+      "mark the limits",
+      "define the extent of",
+      "fix the edges",
+      "bound"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to remove limits",
+        "misconception": "reads the 'de-' as undoing"
+      },
+      {
+        "answer": "to erase",
+        "misconception": "hears the shared opening of 'delete'"
+      }
+    ],
+    "required_nuance": "fixing where something ends",
+    "mental_hook": "Drawing the edge, not removing it.",
+    "semantic_hint": "What a treaty does to the border between two states."
+  },
+  "delineate": {
+    "accepted_concepts": [
+      "describe precisely",
+      "outline in detail",
+      "set out clearly",
+      "depict the shape of",
+      "define sharply"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to erase",
+        "misconception": "reads the 'de-' as undoing"
+      },
+      {
+        "answer": "to sketch vaguely",
+        "misconception": "loses the precision that defines it"
+      }
+    ],
+    "required_nuance": "outlining with precision",
+    "mental_hook": "Draws the line exactly where it goes.",
+    "semantic_hint": "What a good report does with the responsibilities of each role."
+  },
+  "delusion": {
+    "accepted_concepts": [
+      "a persistent false belief",
+      "a fixed mistaken conviction",
+      "a misconception held firmly",
+      "a false idea one cannot shake",
+      "a fallacy believed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a trick of the eye",
+        "misconception": "confuses it with an illusion"
+      },
+      {
+        "answer": "a fact",
+        "misconception": "inverts falsehood into truth"
+      }
+    ],
+    "required_nuance": "false, and firmly held by the believer",
+    "mental_hook": "An illusion fools the eye. This one is believed.",
+    "semantic_hint": "The false belief someone holds on to even when shown the evidence."
+  },
+  "delve": {
+    "accepted_concepts": [
+      "research deeply",
+      "dig into a subject",
+      "probe thoroughly",
+      "investigate below the surface",
+      "burrow into"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to skim",
+        "misconception": "inverts depth into superficiality"
+      },
+      {
+        "answer": "a number",
+        "misconception": "hears the sound-alike 'twelve'"
+      }
+    ],
+    "required_nuance": "going deep, not merely looking",
+    "mental_hook": "Digging, in a library rather than a garden.",
+    "semantic_hint": "What a historian does in an archive for months."
+  },
+  "demagogue": {
+    "accepted_concepts": [
+      "a leader who exploits popular fear",
+      "a rabble-rouser",
+      "one who stirs crowds by prejudice",
+      "an agitator playing on emotion",
+      "a firebrand appealing to resentment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a statesman",
+        "misconception": "inverts the manipulator into the honest leader"
+      },
+      {
+        "answer": "a teacher",
+        "misconception": "takes the Greek root for leading and misses the crowd"
+      }
+    ],
+    "required_nuance": "leads by playing on fear, never by argument",
+    "mental_hook": "Leads the crowd by its fears.",
+    "semantic_hint": "The word for a politician who wins by stirring up resentment."
+  },
+  "demarcate": {
+    "accepted_concepts": [
+      "mark boundaries",
+      "set a clear dividing line",
+      "separate clearly",
+      "define the limits between",
+      "distinguish sharply"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to merge",
+        "misconception": "inverts separating into combining"
+      },
+      {
+        "answer": "to make a mark on",
+        "misconception": "loses the boundary sense"
+      }
+    ],
+    "required_nuance": "marking where one thing ends and another begins",
+    "mental_hook": "The line on the ground between two things.",
+    "semantic_hint": "What a survey does to the line between two properties."
+  },
+  "demean": {
+    "accepted_concepts": [
+      "lower in dignity",
+      "degrade",
+      "humiliate",
+      "belittle someone",
+      "reduce another's standing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to behave in a certain way",
+        "misconception": "confuses it with 'demeanour'"
+      },
+      {
+        "answer": "to honour",
+        "misconception": "inverts degradation into exaltation"
+      }
+    ],
+    "required_nuance": "lowering dignity, another's or one's own",
+    "mental_hook": "Takes dignity away.",
+    "semantic_hint": "What a humiliating task does to the person made to do it."
+  },
+  "demonstrable": {
+    "accepted_concepts": [
+      "able to be proven",
+      "provable",
+      "verifiable",
+      "capable of being shown",
+      "susceptible of proof"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "openly emotional",
+        "misconception": "confuses it with demonstrative"
+      },
+      {
+        "answer": "unprovable",
+        "misconception": "inverts provability into doubt"
+      }
+    ],
+    "required_nuance": "can be shown to be true",
+    "mental_hook": "Can be proved, whether or not anyone has.",
+    "semantic_hint": "The word for a benefit you can actually show evidence for."
+  },
+  "demonstrative": {
+    "accepted_concepts": [
+      "openly showing feelings",
+      "effusive",
+      "unreserved in affection",
+      "expressive of emotion",
+      "wearing feelings visibly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "able to be proven",
+        "misconception": "confuses it with demonstrable"
+      },
+      {
+        "answer": "reserved",
+        "misconception": "inverts openness into restraint"
+      }
+    ],
+    "required_nuance": "shows feeling openly, said of a person",
+    "mental_hook": "One letter apart from demonstrable, and about feelings.",
+    "semantic_hint": "The word for someone who hugs everyone at an airport."
+  },
+  "demoralize": {
+    "accepted_concepts": [
+      "destroy confidence",
+      "sap morale",
+      "dishearten thoroughly",
+      "undermine the will to continue",
+      "break the spirit of"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make immoral",
+        "misconception": "reads 'moral' and takes the ethical sense"
+      },
+      {
+        "answer": "to encourage",
+        "misconception": "inverts undermining into strengthening"
+      }
+    ],
+    "required_nuance": "destroying the will, never the ethics",
+    "mental_hook": "Nothing to do with morals. It breaks morale.",
+    "semantic_hint": "What a run of heavy defeats does to a team's will to compete."
+  },
+  "demur": {
+    "accepted_concepts": [
+      "object politely",
+      "raise a mild objection",
+      "hesitate to agree",
+      "balk at a suggestion",
+      "express reluctance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "modest and reserved",
+        "misconception": "confuses it with the adjective it sounds exactly like"
+      },
+      {
+        "answer": "to agree readily",
+        "misconception": "inverts objecting into consenting"
+      }
+    ],
+    "required_nuance": "a polite objection, not a flat refusal",
+    "mental_hook": "One letter from demure, and this one objects.",
+    "semantic_hint": "What you do when you politely decline to go along with a plan."
+  },
+  "demure": {
+    "accepted_concepts": [
+      "modest and reserved",
+      "quietly proper",
+      "affectedly shy",
+      "reticent in manner",
+      "coy in a decorous way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to object",
+        "misconception": "confuses it with the verb it sounds exactly like"
+      },
+      {
+        "answer": "brash",
+        "misconception": "inverts reserve into boldness"
+      }
+    ],
+    "required_nuance": "reserve in manner, often put on",
+    "mental_hook": "One letter from demur, and this one says nothing at all.",
+    "semantic_hint": "The word for a quiet, modest manner that may or may not be genuine."
+  },
+  "denigrate": {
+    "accepted_concepts": [
+      "criticise unfairly",
+      "blacken a reputation",
+      "disparage",
+      "belittle systematically",
+      "run someone down"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "inverts disparagement into commendation"
+      },
+      {
+        "answer": "to refuse to admit",
+        "misconception": "hears the shared opening of 'deny'"
+      }
+    ],
+    "required_nuance": "unfair criticism, aimed at a reputation",
+    "mental_hook": "Blackening, which is what the Latin meant.",
+    "semantic_hint": "What a rival does by constantly running down your work."
   }
 }
