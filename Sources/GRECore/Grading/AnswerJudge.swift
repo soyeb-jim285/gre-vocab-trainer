@@ -79,7 +79,11 @@ public enum AnswerJudge {
         item: SessionItem,
         strictness: GradingStrictness = .standard,
         latency: Duration? = nil,
-        confidence: ConfidenceSettings = ConfidenceSettings()
+        confidence: ConfidenceSettings = ConfidenceSettings(),
+        /// What the learner said before the answer was revealed, when asked.
+        selfReport: SelfReport? = nil,
+        /// How much help they took getting there.
+        hints: HintLevel = .none
     ) -> Judgement? {
         switch draft {
         case .written, .meaning:
@@ -114,7 +118,8 @@ public enum AnswerJudge {
             return Judgement(
                 grade: grade,
                 rating: rate(grade, item: item, strictness: strictness,
-                             latency: latency, confidence: confidence),
+                             latency: latency, confidence: confidence,
+                             selfReport: selfReport, hints: hints),
                 headline: headline,
                 detail: item.word.teachingDefinition,
                 showsReference: showsReference
@@ -126,7 +131,8 @@ public enum AnswerJudge {
                 return Judgement(
                     grade: result.grade,
                     rating: rate(result.grade, item: item, strictness: strictness,
-                                 latency: latency, confidence: confidence),
+                                 latency: latency, confidence: confidence,
+                                 selfReport: selfReport, hints: hints),
                     headline: result.isExact ? "Spelled correctly" : "Spelling is off",
                     detail: result.isExact
                         ? item.word.teachingDefinition
@@ -137,7 +143,8 @@ public enum AnswerJudge {
             return Judgement(
                 grade: grade,
                 rating: rate(grade, item: item, strictness: strictness,
-                             latency: latency, confidence: confidence),
+                             latency: latency, confidence: confidence,
+                             selfReport: selfReport, hints: hints),
                 headline: grade.score == 100 ? "Got it" : (grade.score > 0 ? "Close" : "The word was"),
                 detail: item.word.word,
                 showsReference: true
@@ -147,11 +154,12 @@ public enum AnswerJudge {
 
     private static func rate(
         _ grade: Grade, item: SessionItem, strictness: GradingStrictness,
-        latency: Duration?, confidence: ConfidenceSettings
+        latency: Duration?, confidence: ConfidenceSettings,
+        selfReport: SelfReport? = nil, hints: HintLevel = .none
     ) -> FSRSRating {
-        Confidence.adjust(
-            grade.rating(strictness: strictness),
-            mode: item.mode, latency: latency, settings: confidence
+        AnswerAppraisal.rate(
+            grade: grade, selfReport: selfReport, hints: hints, mode: item.mode,
+            latency: latency, strictness: strictness, settings: confidence
         )
     }
 }

@@ -2,15 +2,35 @@ import Foundation
 import Testing
 @testable import GRECore
 
+/// Latency as a rating input.
+///
+/// These were written against the standalone confidence adjuster. That type is
+/// gone: latency is now one of four inputs to ``AnswerAppraisal``, so the tests
+/// drive it through the appraisal instead. The behaviour they pin down is
+/// unchanged, which is the point of keeping them.
 @Suite struct ConfidenceTests {
 
     private let on = ConfidenceSettings(isEnabled: true)
+
+    /// The lowest score that still earns each rating at standard strictness,
+    /// so "start from Good and see what latency does to it" stays expressible.
+    private func score(earning rating: FSRSRating) -> Int {
+        switch rating {
+        case .again: 0
+        case .hard: 55
+        case .good: 75
+        case .easy: 95
+        }
+    }
 
     private func adjust(
         _ rating: FSRSRating, _ mode: StudyMode, _ latency: Duration?,
         settings: ConfidenceSettings? = nil
     ) -> FSRSRating {
-        Confidence.adjust(rating, mode: mode, latency: latency, settings: settings ?? on)
+        AnswerAppraisal.rate(
+            grade: Grade(score: score(earning: rating)), mode: mode,
+            latency: latency, settings: settings ?? on
+        )
     }
 
     // MARK: - The invariant everything else depends on
@@ -60,8 +80,8 @@ import Testing
 
     @Test func itIsOffByDefault() {
         #expect(ConfidenceSettings().isEnabled == false)
-        #expect(Confidence.adjust(.easy, mode: .multipleChoice, latency: .seconds(60),
-                                  settings: ConfidenceSettings()) == .easy)
+        #expect(adjust(.easy, .multipleChoice, .seconds(60),
+                       settings: ConfidenceSettings()) == .easy)
     }
 
     @Test func theTypedAndWrittenModesAreLeftAlone() {
@@ -98,8 +118,10 @@ import Testing
         var card = FSRSCard()
         var date = Date(timeIntervalSince1970: 1_800_000_000)
         for _ in 0..<90 {
-            let rating = Confidence.adjust(.easy, mode: .multipleChoice,
-                                           latency: latency, settings: settings)
+            let rating = AnswerAppraisal.rate(
+                grade: Grade(score: 95), mode: .multipleChoice,
+                latency: latency, settings: settings
+            )
             card = fsrs.review(card, rating: rating, at: date)
             date = max(card.due, date.addingTimeInterval(86_400))
         }
@@ -126,7 +148,7 @@ import Testing
 
     @Test func everyModeHasABandAndTheFastEdgeComesFirst() {
         for mode in StudyMode.allCases {
-            let band = Confidence.band(for: mode)
+            let band = AnswerAppraisal.band(for: mode)
             #expect(band.fast < band.slow, "\(mode) has an inverted band")
             #expect(band.fast > .zero)
         }

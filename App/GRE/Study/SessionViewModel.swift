@@ -132,6 +132,12 @@ final class SessionViewModel {
     /// learner leaves the feedback, so the correction is read before the card
     /// that explains it appears.
     private var teachAfterFeedback = false
+    /// How sure the learner said they were, before anything was revealed. Nil
+    /// until they say, and nil again on the next card.
+    private(set) var selfReport: SelfReport?
+    /// How far up the hint ladder this card went. Both of these are per card,
+    /// not per session: they describe one answer.
+    private(set) var hintsTaken: HintLevel = .none
     /// What was picked, so the feedback can show it beside the right answer.
     private(set) var chosenOptionID: String?
 
@@ -276,8 +282,48 @@ final class SessionViewModel {
     /// Called wherever a card becomes answerable, which is the only honest place
     /// to start counting: not in `body`, which runs whenever SwiftUI likes.
     private func beginAnswering() {
+        selfReport = nil
+        hintsTaken = .none
         clock.start()
         phase = .answering
+    }
+
+    /// Record how sure the learner is, before the answer is revealed.
+    ///
+    /// Afterwards this is not a report but a reaction to being told, which is
+    /// why the button disappears the moment an answer is submitted.
+    func note(_ report: SelfReport) {
+        guard phase == .answering else { return }
+        selfReport = report
+    }
+
+    /// Climb one rung of the hint ladder.
+    ///
+    /// Taking help lowers the best rating this answer can earn, which is what
+    /// makes an unlimited ladder safe to offer: the learner can always get
+    /// unstuck, and the schedule still knows what the recall was worth.
+    @discardableResult
+    func takeHint() -> String? {
+        guard phase == .answering, let word = current?.word,
+              let next = HintLadder.next(after: hintsTaken, for: word)
+        else { return nil }
+        hintsTaken = next
+        return HintLadder.hint(next, for: word)
+    }
+
+    /// Whether there is still a nudge to offer before the answer itself.
+    var canHint: Bool {
+        guard let word = current?.word else { return false }
+        guard let next = HintLadder.next(after: hintsTaken, for: word) else { return false }
+        return next != .reveal
+    }
+
+    /// What the learner has been shown so far on this card.
+    var hintsShown: [String] {
+        guard let word = current?.word, hintsTaken > .none else { return [] }
+        return HintLadder.available(for: word)
+            .filter { $0 <= hintsTaken }
+            .compactMap { HintLadder.hint($0, for: word) }
     }
 
     // MARK: - Answering
@@ -347,7 +393,8 @@ final class SessionViewModel {
         if let judgement = AnswerJudge.judge(
             draft, item: item, strictness: settings.strictness,
             latency: clock.isTainted ? nil : latency,
-            confidence: settings.profile.confidence
+            confidence: settings.profile.confidence,
+            selfReport: selfReport, hints: hintsTaken
         ) {
             finish(judgement, latency: latency)
             return
@@ -462,7 +509,12 @@ final class SessionViewModel {
             finish(
                 Judgement(
                     grade: Grade(score: result.percentage),
-                    rating: Self.rating(forMeaningScore: result.score),
+                    rating: AnswerAppraisal.rate(
+                        grade: Grade(score: result.percentage),
+                        selfReport: selfReport, hints: hintsTaken,
+                        mode: item.mode, strictness: settings.strictness,
+                        settings: settings.profile.confidence
+                    ),
                     headline: Self.headline(for: result.percentage),
                     detail: result.feedback,
                     // A learner who scored well does not need the dictionary
@@ -477,20 +529,6 @@ final class SessionViewModel {
         } catch {
             lastError = (error as? OpenRouterError)?.description ?? error.localizedDescription
             phase = .answering
-        }
-    }
-
-    /// A meaning score becomes a scheduler rating.
-    ///
-    /// Confidently wrong is rated Again rather than Hard: a wrong memory
-    /// competes with the right one, so it needs to come back sooner than a word
-    /// that was merely forgotten.
-    private static func rating(forMeaningScore score: Int) -> FSRSRating {
-        switch score {
-        case 4: .easy
-        case 3: .good
-        case 2: .hard
-        default: .again
         }
     }
 

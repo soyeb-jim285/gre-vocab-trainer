@@ -185,6 +185,13 @@ struct SessionView: View {
                                 ) { chosen in
                                     Task { await model.submit(.choice(chosen)) }
                                 }
+                                if !model.hintsShown.isEmpty {
+                                    HintList(hints: model.hintsShown)
+                                }
+                                // Asked before the reveal, never after: once the
+                                // answer is on screen this stops being a report
+                                // and becomes a reaction to being told.
+                                ConfidenceRow(selected: model.selfReport) { model.note($0) }
                             }
                         }
                         .padding(Theme.gutter)
@@ -215,11 +222,19 @@ struct SessionView: View {
                     // Available in every mode, including multiple choice --
                     // guessing at random teaches nothing and pollutes the
                     // schedule with answers that were never really known.
-                    Button("I don't know") {
-                        Task { await model.admitNotKnowing() }
+                    // Stuck has two branches, and only one of them teaches. A
+                    // nudge first, the answer only when the nudges run out.
+                    if model.canHint {
+                        Button("Hint") { model.takeHint() }
+                            .buttonStyle(.glass)
+                            .foregroundStyle(Theme.secondaryText)
+                    } else {
+                        Button("I don't know") {
+                            Task { await model.admitNotKnowing() }
+                        }
+                        .buttonStyle(.glass)
+                        .foregroundStyle(Theme.secondaryText)
                     }
-                    .buttonStyle(.glass)
-                    .foregroundStyle(Theme.secondaryText)
 
                     if !item.mode.isTapToAnswer {
                         let draft = draft(for: item)
@@ -240,6 +255,63 @@ struct SessionView: View {
     private func isReviewing(_ model: SessionViewModel) -> Bool {
         if case .reviewing = model.phase { return true }
         return false
+    }
+}
+
+/// How sure the learner is, asked before anything is revealed.
+///
+/// Three buttons rather than a slider: the distinction that matters is guess
+/// versus shaky versus sure, and a continuous control invites the learner to
+/// think about calibration instead of about the word.
+private struct ConfidenceRow: View {
+    let selected: SelfReport?
+    let choose: (SelfReport) -> Void
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("How sure are you?")
+                .font(.footnote)
+                .foregroundStyle(Theme.tertiaryText)
+            HStack(spacing: 8) {
+                ForEach(SelfReport.allCases, id: \.self) { report in
+                    Button(label(report)) { choose(report) }
+                        .buttonStyle(.glass)
+                        .font(Theme.label)
+                        .foregroundStyle(report == selected ? Theme.accent : Theme.secondaryText)
+                        .accessibilityAddTraits(report == selected ? [.isSelected] : [])
+                }
+            }
+        }
+    }
+
+    private func label(_ report: SelfReport) -> String {
+        switch report {
+        case .guess: "Guessing"
+        case .unsure: "Not sure"
+        case .confident: "Confident"
+        }
+    }
+}
+
+/// The rungs of the ladder the learner has taken, kept on screen so a hint read
+/// three seconds ago is still there when they start typing.
+private struct HintList: View {
+    let hints: [String]
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            ForEach(Array(hints.enumerated()), id: \.offset) { _, hint in
+                HStack(alignment: .firstTextBaseline, spacing: 10) {
+                    Image(systemName: "lightbulb")
+                        .foregroundStyle(Theme.accent)
+                        .accessibilityHidden(true)
+                    Text(hint)
+                        .font(Theme.body)
+                        .foregroundStyle(Theme.primaryText)
+                }
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 

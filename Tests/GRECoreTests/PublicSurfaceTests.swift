@@ -51,9 +51,12 @@ import Testing
              competence[.multipleChoice].lastSeen)
         _ = competence.weakest(among: StudyMode.locallyGraded)
 
-        _ = Confidence.band(for: .multipleChoice)
-        _ = Confidence.adjust(.good, mode: .multipleChoice, latency: .seconds(3),
-                              settings: profile.confidence)
+        _ = AnswerAppraisal.band(for: .multipleChoice)
+        _ = AnswerAppraisal.rate(
+            grade: Grade(score: 80), selfReport: .confident, hints: .semantic,
+            mode: .multipleChoice, latency: .seconds(3), settings: profile.confidence
+        )
+        _ = (SelfReport.allCases, HintLevel.allCases)
 
         let catalog = try WordCatalog.bundled()
         let word = try #require(catalog["abate"])
@@ -69,6 +72,9 @@ import Testing
         _ = AnswerDraft.typed("x") == AnswerDraft.gaveUp
         _ = AnswerDraft.typed("x").isSubmittable
         _ = AnswerDraft.meaning("x").isSubmittable
+        _ = HintLadder.available(for: word)
+        _ = HintLadder.next(after: .none, for: word)
+        _ = HintLadder.hint(.semantic, for: word)
         _ = MeaningResult(score: 3, matchedMisconception: "", feedback: "")
             .isConfidentlyWrong
         _ = MeaningResult(score: 3, matchedMisconception: "", feedback: "").percentage
