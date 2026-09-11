@@ -22,6 +22,7 @@ Writing rules, learned the hard way:
 
     python3 tools/items.py targets [N]     words worth writing a question for
     python3 tools/items.py next [N]        targets still without one, with material
+    python3 tools/items.py check FILE      validate a batch without merging it
     python3 tools/items.py merge FILE      fold a written batch into shards
     python3 tools/items.py verify          check every question written so far
 """
@@ -200,6 +201,21 @@ def check_equivalence(item_id: str, answers: list[str], words: dict[str, dict]) 
             "so the pair probably does not preserve the meaning"]
 
 
+def cmd_check(path: Path) -> None:
+    """Same checks as merge, without writing anything. What a batch writer runs
+    before handing the file over."""
+    batch = json.loads(path.read_text())
+    words = load_words()
+    problems: list[str] = []
+    for item_id, item in sorted(batch.items()):
+        problems += check(item_id, item, words)
+    for p in problems:
+        print(p)
+    if problems:
+        sys.exit(f"\n{len(problems)} problem(s) across {len(batch)} questions")
+    print(f"{len(batch)} questions, all clean")
+
+
 def cmd_merge(path: Path) -> None:
     batch = json.loads(path.read_text())
     words = load_words()
@@ -252,6 +268,8 @@ def main() -> None:
         cmd_targets(int(sys.argv[2]) if len(sys.argv) > 2 else 50)
     elif command == "next":
         cmd_next(int(sys.argv[2]) if len(sys.argv) > 2 else 10)
+    elif command == "check":
+        cmd_check(Path(sys.argv[2]))
     elif command == "merge":
         cmd_merge(Path(sys.argv[2]))
     elif command == "verify":

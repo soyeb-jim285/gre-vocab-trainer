@@ -97,3 +97,127 @@ import Testing
         _ = try ItemCatalog.bundled()
     }
 }
+
+/// Exam questions as a study mode: evidence about a word, on their own screen.
+@Suite struct GREItemModeTests {
+
+    private static let catalog = try! WordCatalog.bundled()
+
+    @Test func theExamQuestionIsNeverChosenForAWord() throws {
+        // It is picked by the learner opening the drill, not by a word's
+        // evidence, and a word session has no stem to show.
+        let word = try #require(Self.catalog["abate"])
+        #expect(!Curriculum.candidates(for: word, aiEnabled: true).contains(.greItem))
+        #expect(!StudyMode.forceable.contains(.greItem))
+    }
+
+    @Test func pinningASessionToItFallsBackRatherThanStranding() throws {
+        let word = try #require(Self.catalog["abate"])
+        let card = StudyCard(wordID: word.id, reviewCount: 3, isIntroduced: true)
+        let step = Curriculum.step(
+            for: card, word: word, competence: CardCompetence([]),
+            settings: SessionSettings(aiEnabled: false, forcedMode: .greItem)
+        )
+        #expect(step != .drill(.greItem))
+    }
+
+    @Test func answeringOneStillCountsAsEvidence() {
+        // The point of it being a mode at all: the schedule hears about it.
+        #expect(StudyMode.locallyGraded.contains(.greItem))
+        #expect(StudyMode.greItem.isTapToAnswer)
+        #expect(!StudyMode.greItem.needsAI)
+        #expect(StudyMode.greItem.promptSubject == .nothing)
+    }
+}
+
+/// Choosing which exam questions to serve.
+@Suite struct DrillPlannerTests {
+
+    private static let catalog = try! WordCatalog.bundled()
+    private let fsrs = FSRS(enableFuzzing: false)
+    private let now = Date(timeIntervalSince1970: 1_800_000_000)
+
+    private func item(_ id: String, answer: String, options: [String]) -> GREItem {
+        GREItem(id: id, kind: .textCompletion,
+                stem: "A sentence with a \(GREItem.blank) in the middle of it.",
+                options: options, answers: [answer],
+                explanation: String(repeating: "explanation ", count: 6))
+    }
+
+    private var items: ItemCatalog {
+        ItemCatalog(items: [
+            item("a", answer: "abate", options: ["abate", "wane", "flag", "languish", "ebb"]),
+            item("b", answer: "laconic", options: ["laconic", "terse", "verbose", "florid", "candid"]),
+            item("c", answer: "cogent", options: ["cogent", "specious", "banal", "tenuous", "trenchant"]),
+        ])
+    }
+
+    private func met(_ id: String, stability: Double = 10) -> StudyCard {
+        StudyCard(
+            wordID: id,
+            fsrs: FSRSCard(stability: stability, difficulty: 5,
+                           due: now.addingTimeInterval(86_400),
+                           lastReview: now.addingTimeInterval(-86_400), state: .review, step: nil),
+            reviewCount: 2, isIntroduced: true
+        )
+    }
+
+    @Test func onlyQuestionsWhoseAnswersHaveBeenMetAreServed() {
+        let served = DrillPlanner.session(
+            from: items, cards: [met("abate")], scheduler: fsrs, seed: 1, now: now
+        )
+        #expect(served.map(\.id) == ["a"])
+    }
+
+    @Test func anUnstartedLearnerGetsNothingRatherThanAGuessingGame() {
+        #expect(DrillPlanner.session(from: items, cards: [], scheduler: fsrs, seed: 1, now: now).isEmpty)
+    }
+
+    @Test func unmetWordsCanBeOpenedInDeliberately() {
+        let served = DrillPlanner.session(
+            from: items, cards: [], scheduler: fsrs, allowUnmet: true, seed: 1, now: now
+        )
+        #expect(served.count == 3)
+    }
+
+    @Test func theShakiestWordsAreAskedAbout() {
+        // Two solid words and one nearly forgotten; over repeated draws the
+        // shaky one should come up far more often.
+        let cards = [met("abate", stability: 400), met("laconic", stability: 400),
+                     met("cogent", stability: 0.4)]
+        let counts = (0..<40).map { seed in
+            DrillPlanner.session(from: items, cards: cards, scheduler: fsrs,
+                                 count: 1, seed: UInt64(seed), now: now).first?.id
+        }
+        #expect(counts.filter { $0 == "c" }.count > counts.filter { $0 == "a" }.count)
+    }
+
+    @Test func theSameSeedServesTheSameQuestions() {
+        let cards = ["abate", "laconic", "cogent"].map { met($0) }
+        func run(_ seed: UInt64) -> [String] {
+            DrillPlanner.session(from: items, cards: cards, scheduler: fsrs,
+                                 count: 2, seed: seed, now: now).map(\.id)
+        }
+        #expect(run(9) == run(9))
+        #expect(run(9).count == 2)
+    }
+
+    @Test func aQuestionJustAnsweredGoesToTheBack() {
+        // The sentence is remembered even when the word is not, so asking it
+        // again straight away tests the wrong thing.
+        let cards = ["abate", "laconic", "cogent"].map { met($0) }
+        let served = DrillPlanner.session(
+            from: items, cards: cards, scheduler: fsrs, count: 2,
+            recentItemIDs: ["a"], seed: 3, now: now
+        )
+        #expect(!served.contains { $0.id == "a" })
+    }
+
+    @Test func askingForMoreThanExistsReturnsWhatThereIs() {
+        let cards = ["abate", "laconic", "cogent"].map { met($0) }
+        let served = DrillPlanner.session(from: items, cards: cards, scheduler: fsrs,
+                                          count: 50, seed: 1, now: now)
+        #expect(served.count == 3)
+        #expect(Set(served.map(\.id)).count == 3, "a question served twice in one run")
+    }
+}

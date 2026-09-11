@@ -114,6 +114,7 @@ public enum Curriculum {
         // rather than stranding the learner on a locked mode, and "which
         // meaning" only exists for words that have two.
         if let forced = settings.forcedMode,
+           forced != .greItem,
            !forced.needsAI || settings.aiEnabled,
            !forced.needsTrapWord || word.isTrap {
             return .drill(forced)

@@ -30,17 +30,31 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     /// tests and the thing a four-option question hides: three unrelated
     /// distractors let a vague sense of the word carry the answer.
     case discriminate
+    /// A real exam question: a sentence with a blank and five or six options.
+    ///
+    /// Not part of the rotation. The other modes are chosen for a word by its
+    /// evidence; this one is chosen by the learner, on its own screen, and the
+    /// word it happens to test is a consequence rather than the point. It is
+    /// here so that answering one still counts as evidence about that word.
+    case greItem
 
     /// The modes that work with no API key.
     public static let locallyGraded: [StudyMode] = [
         .multipleChoice, .contextCloze, .senseInContext, .reverseRecall, .spelling,
-        .discriminate,
+        .discriminate, .greItem,
     ]
+
+    /// Modes a session can be pinned to.
+    ///
+    /// Exam questions are left out: they live on their own screen, are chosen
+    /// by the learner rather than by a word's evidence, and a word session has
+    /// nothing to serve one with.
+    public static var forceable: [StudyMode] { allCases.filter { $0 != .greItem } }
 
     /// Answered by tapping one of four options rather than by typing.
     public var isTapToAnswer: Bool {
         self == .multipleChoice || self == .contextCloze || self == .senseInContext
-            || self == .discriminate
+            || self == .discriminate || self == .greItem
     }
 
     /// Only meaningful for a word whose everyday sense competes with the tested
@@ -58,6 +72,9 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     public var friction: Int {
         switch self {
         case .multipleChoice, .contextCloze, .senseInContext, .discriminate: 1
+        // Reading the stem is most of the work, and a pair has to be found
+        // rather than a single option.
+        case .greItem: 2
         case .reverseRecall, .spelling: 2
         case .typeMeaning, .defineAndUse: 3
         }
@@ -74,6 +91,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .defineAndUse: "Writing"
         case .typeMeaning: "Meaning"
         case .discriminate: "Tell apart"
+        case .greItem: "Exam question"
         }
     }
 
@@ -92,6 +110,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .defineAndUse: "Define it, then use it"
         case .typeMeaning: "What does this mean?"
         case .discriminate: "Which of these two means this?"
+        case .greItem: "Complete the sentence"
         }
     }
 
@@ -104,7 +123,9 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .reverseRecall, .discriminate: .definition
         // The gap is the question, and it lives with the options. A headword
         // here would answer it.
-        case .contextCloze: .nothing
+        // The stem is the question and it carries the blank, exactly as cloze
+        // does.
+        case .contextCloze, .greItem: .nothing
         case .multipleChoice, .senseInContext, .defineAndUse, .typeMeaning: .word
         }
     }
@@ -119,6 +140,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .defineAndUse: "square.and.pencil"
         case .typeMeaning: "text.cursor"
         case .discriminate: "arrow.left.and.right"
+        case .greItem: "doc.text"
         }
     }
 }

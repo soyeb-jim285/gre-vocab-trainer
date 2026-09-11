@@ -103,7 +103,7 @@ struct SessionView: View {
                 Divider()
                 // Writing is left out entirely without a key rather than shown
                 // selected while the planner quietly substitutes something else.
-                ForEach(StudyMode.allCases.filter { settings.hasAPIKey || !$0.needsAI }, id: \.self) { mode in
+                ForEach(StudyMode.forceable.filter { settings.hasAPIKey || !$0.needsAI }, id: \.self) { mode in
                     Label(mode.label, systemImage: mode.systemImage)
                         .tag(StudyMode?.some(mode))
                 }

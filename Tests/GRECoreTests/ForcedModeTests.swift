@@ -38,7 +38,7 @@ import Testing
         #expect(SessionSettings().forcedMode == nil)
     }
 
-    @Test(arguments: StudyMode.allCases)
+    @Test(arguments: StudyMode.forceable)
     func forcingAModeAppliesItWhateverTheHistory(forced: StudyMode) {
         // "flag" is a trap word, so every mode including "which meaning" applies.
         for reviews in [1, 2, 3, 9] {

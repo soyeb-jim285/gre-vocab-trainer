@@ -148,6 +148,9 @@ public enum AnswerAppraisal {
         // Two options, but the whole question is the hesitation between them:
         // an instant answer means the pair is genuinely separate in memory.
         case .discriminate: (.seconds(5), .seconds(15))
+        // An exam question is read before it is answered, and the real test
+        // allows about a minute and a half each.
+        case .greItem: (.seconds(20), .seconds(75))
         case .senseInContext: (.seconds(7), .seconds(20))
         case .contextCloze: (.seconds(8), .seconds(22))
         case .reverseRecall, .spelling, .defineAndUse: (.seconds(6), .seconds(18))
