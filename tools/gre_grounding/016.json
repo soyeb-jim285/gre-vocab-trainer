@@ -1758,5 +1758,445 @@
     "required_nuance": "patriotism turned aggressive toward others",
     "mental_hook": "Patriotism, with the fists up.",
     "semantic_hint": "The word for newspaper patriotism that demands war."
+  },
+  "jingoist": {
+    "accepted_concepts": [
+      "an aggressive nationalist",
+      "a belligerent patriot",
+      "a chauvinist about their own country",
+      "someone whose patriotism demands war",
+      "a flag-waver of the warlike kind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an internationalist",
+        "misconception": "inverts aggressive nationalism into openness to other nations"
+      },
+      {
+        "answer": "a quiet patriot",
+        "misconception": "loses the aggression that defines the word"
+      }
+    ],
+    "required_nuance": "the person, and their patriotism is aggressive",
+    "mental_hook": "The patriot who wants the war.",
+    "semantic_hint": "The word for a columnist who demands a war every week."
+  },
+  "jocular": {
+    "accepted_concepts": [
+      "humorous and playful",
+      "given to joking",
+      "waggish",
+      "said in fun",
+      "light-heartedly amusing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "solemn",
+        "misconception": "inverts joking into gravity"
+      },
+      {
+        "answer": "relating to the eye",
+        "misconception": "hears the sound-alike about eye sockets"
+      }
+    ],
+    "required_nuance": "joking, and good-humouredly so",
+    "mental_hook": "Fond of a joke, and not unkind about it.",
+    "semantic_hint": "The word for a manner that turns everything into a joke."
+  },
+  "jocund": {
+    "accepted_concepts": [
+      "cheerful and light-hearted",
+      "merry",
+      "blithe in spirit",
+      "gay in an old sense",
+      "happily buoyant"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "morose",
+        "misconception": "inverts cheerfulness into gloom"
+      },
+      {
+        "answer": "second in sequence",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "cheerfulness, in a literary register",
+    "mental_hook": "Merry, in the poets' word.",
+    "semantic_hint": "The word Wordsworth uses for the company of daffodils."
+  },
+  "jovial": {
+    "accepted_concepts": [
+      "cheerful and friendly",
+      "genially good-humoured",
+      "jolly in company",
+      "convivial",
+      "hearty and warm"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dour",
+        "misconception": "inverts good humour into grimness"
+      },
+      {
+        "answer": "relating to a journey",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "cheerful in a hearty sociable way",
+    "mental_hook": "Named for Jupiter, and it means jolly.",
+    "semantic_hint": "The word for a host who laughs loudly and refills every glass."
+  },
+  "jubilant": {
+    "accepted_concepts": [
+      "triumphantly joyful",
+      "exultant at a victory",
+      "rejoicing openly",
+      "elated in celebration",
+      "full of triumphant happiness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "despondent",
+        "misconception": "inverts triumph into dejection"
+      },
+      {
+        "answer": "quietly content",
+        "misconception": "understates open triumph into mild satisfaction"
+      }
+    ],
+    "required_nuance": "joy at a triumph, and shown openly",
+    "mental_hook": "Joy, with a victory behind it.",
+    "semantic_hint": "How a crowd is described pouring onto the pitch after a win."
+  },
+  "judicious": {
+    "accepted_concepts": [
+      "showing good judgement",
+      "prudent in decision",
+      "sensible and well considered",
+      "discerning in choice",
+      "wisely measured"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "rash",
+        "misconception": "inverts good judgement into recklessness"
+      },
+      {
+        "answer": "relating to courts of law",
+        "misconception": "hears the sound-alike about the judiciary"
+      }
+    ],
+    "required_nuance": "wise in judgement, not legal in nature",
+    "mental_hook": "Good judgement. Not the courts.",
+    "semantic_hint": "The word for a decision everyone later agrees was the wise one."
+  },
+  "juggernaut": {
+    "accepted_concepts": [
+      "an unstoppable crushing force",
+      "something that flattens everything in its path",
+      "an overwhelming power that cannot be halted",
+      "a relentless advancing force",
+      "a behemoth that crushes opposition"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "something easily stopped",
+        "misconception": "inverts the unstoppable into the fragile"
+      },
+      {
+        "answer": "a clumsy oaf",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "unstoppable, and it crushes what it meets",
+    "mental_hook": "Named for a cart nothing could stop.",
+    "semantic_hint": "The word for a company that flattens every competitor in a market."
+  },
+  "juncture": {
+    "accepted_concepts": [
+      "a critical point in time",
+      "a decisive moment",
+      "a stage at which things could go either way",
+      "a crossroads in events",
+      "a particular point in a sequence"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a long stretch of time",
+        "misconception": "inverts a single point into a whole period"
+      },
+      {
+        "answer": "a joint in a pipe",
+        "misconception": "takes the literal joining sense for the tested one"
+      }
+    ],
+    "required_nuance": "a specific and usually critical moment",
+    "mental_hook": "The moment it could go either way.",
+    "semantic_hint": "The word for the point in a crisis where the next choice decides everything."
+  },
+  "junket": {
+    "accepted_concepts": [
+      "a trip at someone else's expense",
+      "an official excursion with little purpose",
+      "a pleasure trip paid for by others",
+      "a boondoggle",
+      "a jaunt funded by public or company money"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a journey paid for by the traveller",
+        "misconception": "loses that someone else foots the bill"
+      },
+      {
+        "answer": "a piece of unwanted post",
+        "misconception": "hears the sound-alike about rubbish"
+      }
+    ],
+    "required_nuance": "someone else pays, and the purpose is thin",
+    "mental_hook": "A trip, and somebody else is paying.",
+    "semantic_hint": "The word for an official's fact-finding trip that is really a holiday."
+  },
+  "junta": {
+    "accepted_concepts": [
+      "a military group ruling after a coup",
+      "a clique that has seized power",
+      "a governing council of officers",
+      "a regime installed by force",
+      "a small group ruling a country after taking it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an elected parliament",
+        "misconception": "inverts a seized government into an elected one"
+      },
+      {
+        "answer": "a single dictator",
+        "misconception": "confuses a ruling group with one individual"
+      }
+    ],
+    "required_nuance": "a group, usually military, ruling after seizing power",
+    "mental_hook": "The generals, in charge.",
+    "semantic_hint": "The word for the officers who run a country after a coup."
+  },
+  "justify": {
+    "accepted_concepts": [
+      "show to be right",
+      "give good reason for",
+      "vindicate a course of action",
+      "warrant",
+      "defend as reasonable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to condemn",
+        "misconception": "inverts defending into denouncing"
+      },
+      {
+        "answer": "to make exactly true",
+        "misconception": "confuses showing something reasonable with proving it factually"
+      }
+    ],
+    "required_nuance": "showing something to be reasonable or right",
+    "mental_hook": "Gives the reason that makes it all right.",
+    "semantic_hint": "What a minister must do for an unpopular decision before a committee."
+  },
+  "juxtapose": {
+    "accepted_concepts": [
+      "place side by side",
+      "set two things together for contrast",
+      "put next to each other to compare",
+      "pair for the sake of the difference",
+      "arrange adjacent so the contrast shows"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to separate widely",
+        "misconception": "inverts placing side by side into keeping apart"
+      },
+      {
+        "answer": "to blend into one",
+        "misconception": "confuses placing next to with merging"
+      }
+    ],
+    "required_nuance": "side by side, so the contrast is visible",
+    "mental_hook": "Side by side, so you see the difference.",
+    "semantic_hint": "What an exhibition does by hanging two very different paintings together."
+  },
+  "keen": {
+    "accepted_concepts": [
+      "sharp in perception",
+      "intensely eager",
+      "acute in judgement",
+      "penetrating",
+      "enthusiastically interested"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dull",
+        "misconception": "inverts sharpness into bluntness"
+      },
+      {
+        "answer": "indifferent",
+        "misconception": "inverts eagerness into unconcern"
+      }
+    ],
+    "required_nuance": "sharp, in a mind or in an appetite for something",
+    "mental_hook": "Sharp mind, or sharp appetite.",
+    "semantic_hint": "The word for an eye that misses nothing, and for eagerness to start."
+  },
+  "kindle": {
+    "accepted_concepts": [
+      "start a fire",
+      "set alight",
+      "arouse a feeling",
+      "spark into being",
+      "ignite interest or passion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to extinguish",
+        "misconception": "inverts lighting into putting out"
+      },
+      {
+        "answer": "to be related by blood",
+        "misconception": "hears the sound-alike about kinship"
+      }
+    ],
+    "required_nuance": "starting it, whether a flame or a feeling",
+    "mental_hook": "Gets the fire going, or the feeling.",
+    "semantic_hint": "What dry twigs do for a fire, and what a good teacher does for curiosity."
+  },
+  "kinetic": {
+    "accepted_concepts": [
+      "relating to motion",
+      "energetic in movement",
+      "dynamic",
+      "characterised by activity",
+      "having to do with things in motion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "static",
+        "misconception": "inverts motion into stillness"
+      },
+      {
+        "answer": "relating to family",
+        "misconception": "hears the sound-alike about kin"
+      }
+    ],
+    "required_nuance": "motion and the energy of motion",
+    "mental_hook": "It is moving, and that is the point.",
+    "semantic_hint": "The word for energy a body has because it is moving."
+  },
+  "knack": {
+    "accepted_concepts": [
+      "a natural skill",
+      "an easy aptitude for something",
+      "a clever trick of doing it",
+      "a talent that comes without effort",
+      "the trick of getting it right"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complete ineptitude",
+        "misconception": "inverts a natural skill into clumsiness"
+      },
+      {
+        "answer": "a sharp blow",
+        "misconception": "hears the sound-alike about a knock"
+      }
+    ],
+    "required_nuance": "an easy natural facility for something particular",
+    "mental_hook": "Some people just have it.",
+    "semantic_hint": "The word for the trick of always parking first time."
+  },
+  "knell": {
+    "accepted_concepts": [
+      "a sound signalling the end of something",
+      "a slow solemn bell",
+      "a toll marking a death",
+      "an omen of an ending",
+      "the sound that announces something is over"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a joyful peal",
+        "misconception": "inverts a funeral toll into celebration"
+      },
+      {
+        "answer": "to go down on one knee",
+        "misconception": "hears the sound-alike about kneeling"
+      }
+    ],
+    "required_nuance": "a sound, and it marks an ending",
+    "mental_hook": "The bell that says it is over.",
+    "semantic_hint": "What one bad quarter is called for a struggling business."
+  },
+  "knight": {
+    "accepted_concepts": [
+      "confer an honorary title on",
+      "dub someone with a sword",
+      "raise to an honorary rank",
+      "honour formally with a title",
+      "bestow this dignity on"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to strip of a title",
+        "misconception": "inverts conferring an honour into removing it"
+      },
+      {
+        "answer": "the hours of darkness",
+        "misconception": "hears the sound-alike about night"
+      }
+    ],
+    "required_nuance": "the tested sense is the verb: conferring the honour",
+    "mental_hook": "Sword on the shoulder, and a new title.",
+    "semantic_hint": "What a monarch does with a sword on someone's shoulder."
+  },
+  "knoll": {
+    "accepted_concepts": [
+      "a small rounded hill",
+      "a low mound",
+      "a hillock",
+      "a gentle rise in ground",
+      "a small elevation in a field"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a deep hollow",
+        "misconception": "inverts a rise into a dip"
+      },
+      {
+        "answer": "a funeral bell",
+        "misconception": "hears the sound-alike about a solemn toll"
+      }
+    ],
+    "required_nuance": "a small rounded rise in the ground",
+    "mental_hook": "A little rounded hill.",
+    "semantic_hint": "The word for the grassy rise famous from the Kennedy assassination."
+  },
+  "kowtow": {
+    "accepted_concepts": [
+      "behave with excessive deference",
+      "grovel before authority",
+      "defer abjectly",
+      "abase oneself to a superior",
+      "bow and scrape"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to stand up to someone",
+        "misconception": "inverts abject deference into defiance"
+      },
+      {
+        "answer": "to pull along",
+        "misconception": "hears the sound-alike about towing"
+      }
+    ],
+    "required_nuance": "deference so great it abases the person showing it",
+    "mental_hook": "Forehead to the floor, which was the original.",
+    "semantic_hint": "What a company is accused of doing by yielding to every demand from a regime."
   }
 }
