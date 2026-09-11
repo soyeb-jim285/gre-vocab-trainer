@@ -438,5 +438,1325 @@
     "required_nuance": "thinness from starvation or illness",
     "mental_hook": "Thin because something took the flesh away.",
     "semantic_hint": "What long famine does to a body."
+  },
+  "embellish": {
+    "accepted_concepts": [
+      "decorate",
+      "add invented details to",
+      "adorn with ornament",
+      "improve a story with things that did not happen",
+      "dress up"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to strip bare",
+        "misconception": "inverts adding ornament into removing it"
+      },
+      {
+        "answer": "to report exactly",
+        "misconception": "loses the invented detail"
+      }
+    ],
+    "required_nuance": "adding ornament, and in stories that ornament is invented",
+    "mental_hook": "Adds ornament, and in a story the ornament is false.",
+    "semantic_hint": "What someone does to an anecdote by adding details that never happened."
+  },
+  "emblazon": {
+    "accepted_concepts": [
+      "display conspicuously",
+      "inscribe in bold showy fashion",
+      "adorn with a badge or motto",
+      "proclaim by showing",
+      "mark prominently"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to conceal",
+        "misconception": "inverts conspicuous display into hiding"
+      },
+      {
+        "answer": "to set alight",
+        "misconception": "hears the word 'blaze'"
+      }
+    ],
+    "required_nuance": "displayed boldly and where all can see",
+    "mental_hook": "Put on the shield, for everyone to see.",
+    "semantic_hint": "What a team does with its crest across the front of a shirt."
+  },
+  "emboss": {
+    "accepted_concepts": [
+      "decorate with a raised design",
+      "stamp so the pattern stands proud",
+      "press a design outward",
+      "imprint in relief",
+      "raise a pattern on a surface"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to cut a design into the surface",
+        "misconception": "inverts raised relief into an incised groove"
+      },
+      {
+        "answer": "to give orders",
+        "misconception": "hears the word 'boss'"
+      }
+    ],
+    "required_nuance": "the design stands up from the surface",
+    "mental_hook": "The pattern stands up, it does not sink in.",
+    "semantic_hint": "What gives a letterhead a crest you can feel with a fingertip."
+  },
+  "embroil": {
+    "accepted_concepts": [
+      "involve deeply in conflict",
+      "entangle in a quarrel",
+      "draw into a dispute",
+      "enmesh in trouble",
+      "implicate in a mess"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to extricate",
+        "misconception": "inverts entangling into freeing"
+      },
+      {
+        "answer": "to cook over heat",
+        "misconception": "hears the word 'broil'"
+      }
+    ],
+    "required_nuance": "dragged into conflict, usually not by choice",
+    "mental_hook": "Dragged into the quarrel.",
+    "semantic_hint": "What a border dispute does to a neighbouring country."
+  },
+  "embroiled": {
+    "accepted_concepts": [
+      "deeply caught up in a conflict",
+      "entangled in a dispute",
+      "mired in a quarrel",
+      "implicated in a mess",
+      "unable to get clear of a fight"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "detached and uninvolved",
+        "misconception": "inverts entanglement into distance"
+      },
+      {
+        "answer": "cooked under heat",
+        "misconception": "hears the word 'broil'"
+      }
+    ],
+    "required_nuance": "already deep in a conflict and hard to leave",
+    "mental_hook": "In the quarrel, and not getting out.",
+    "semantic_hint": "How a firm is described when it is stuck in years of litigation."
+  },
+  "embryonic": {
+    "accepted_concepts": [
+      "in an early undeveloped stage",
+      "just beginning",
+      "rudimentary",
+      "nascent",
+      "not yet formed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fully mature",
+        "misconception": "inverts the undeveloped into the finished"
+      },
+      {
+        "answer": "relating to biology only",
+        "misconception": "narrows the figurative use to the literal"
+      }
+    ],
+    "required_nuance": "so early it is not yet recognisable as the finished thing",
+    "mental_hook": "Too early to see what it will become.",
+    "semantic_hint": "The word for a plan that exists only as a first rough idea."
+  },
+  "emend": {
+    "accepted_concepts": [
+      "correct a text",
+      "revise for accuracy",
+      "make editorial corrections to",
+      "rectify errors in writing",
+      "improve by correcting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to introduce errors",
+        "misconception": "inverts correcting into corrupting"
+      },
+      {
+        "answer": "to change a law or motion",
+        "misconception": "confuses textual correction with the parliamentary sense of a near-identical word"
+      }
+    ],
+    "required_nuance": "correcting a text, never altering a law",
+    "mental_hook": "Corrects the text. The near-twin with an a changes laws.",
+    "semantic_hint": "What a scholar does to a corrupt passage in an old manuscript."
+  },
+  "emetic": {
+    "accepted_concepts": [
+      "a substance that induces vomiting",
+      "something that makes one sick up",
+      "a purgative for the stomach",
+      "an agent causing vomiting",
+      "a medicine given to empty the stomach"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "something that stops sickness",
+        "misconception": "inverts inducing into preventing"
+      },
+      {
+        "answer": "relating to genes",
+        "misconception": "hears the sound-alike 'genetic'"
+      }
+    ],
+    "required_nuance": "it causes vomiting rather than stopping it",
+    "mental_hook": "Given to bring it back up.",
+    "semantic_hint": "What a doctor once gave to make a poisoning victim sick."
+  },
+  "eminent": {
+    "accepted_concepts": [
+      "distinguished and respected",
+      "renowned in a field",
+      "illustrious",
+      "standing out by reputation",
+      "of high standing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "about to happen",
+        "misconception": "hears the sound-alike 'imminent'"
+      },
+      {
+        "answer": "obscure",
+        "misconception": "inverts renown into anonymity"
+      }
+    ],
+    "required_nuance": "high standing by reputation, never nearness in time",
+    "mental_hook": "Famous, not about to happen.",
+    "semantic_hint": "The word for a scholar every colleague in the field respects."
+  },
+  "emissary": {
+    "accepted_concepts": [
+      "someone sent on a mission",
+      "an envoy representing another",
+      "a delegate carrying a message",
+      "an agent sent to negotiate",
+      "a representative dispatched abroad"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a gas released into the air",
+        "misconception": "hears the sound-alike 'emission'"
+      },
+      {
+        "answer": "the person who sent them",
+        "misconception": "confuses the messenger with the principal"
+      }
+    ],
+    "required_nuance": "sent by someone else, and speaking for them",
+    "mental_hook": "Sent by someone, speaking for someone.",
+    "semantic_hint": "The word for a person a government sends to negotiate on its behalf."
+  },
+  "emollient": {
+    "accepted_concepts": [
+      "soothing",
+      "softening",
+      "mollifying",
+      "calming what is irritated",
+      "placating in effect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "abrasive",
+        "misconception": "inverts soothing into irritating"
+      },
+      {
+        "answer": "very rich",
+        "misconception": "hears the sound-alike 'affluent'"
+      }
+    ],
+    "required_nuance": "softening, whether skin or a quarrel",
+    "mental_hook": "Softens the skin, or softens the argument.",
+    "semantic_hint": "The word for a cream that soothes and softens dry skin."
+  },
+  "emolument": {
+    "accepted_concepts": [
+      "payment for holding office",
+      "remuneration",
+      "salary from a post",
+      "compensation for service",
+      "the profit attached to a position"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a soothing cream",
+        "misconception": "hears the near-twin adjective for skin"
+      },
+      {
+        "answer": "a fine",
+        "misconception": "inverts payment received into payment owed"
+      }
+    ],
+    "required_nuance": "the pay that comes with holding a post",
+    "mental_hook": "The pay that comes with the post.",
+    "semantic_hint": "The formal word for the salary attached to a public office."
+  },
+  "empathetic": {
+    "accepted_concepts": [
+      "able to share another's feelings",
+      "understanding what another feels",
+      "compassionately attuned",
+      "sensitive to others' emotions",
+      "feeling with someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "callous",
+        "misconception": "inverts fellow feeling into indifference"
+      },
+      {
+        "answer": "forceful and insistent",
+        "misconception": "hears the sound-alike 'emphatic'"
+      }
+    ],
+    "required_nuance": "feeling with someone, not merely sorry for them",
+    "mental_hook": "Feels with them, not just for them.",
+    "semantic_hint": "The word for a listener who genuinely feels what you are feeling."
+  },
+  "empirical": {
+    "accepted_concepts": [
+      "based on observation",
+      "grounded in evidence rather than theory",
+      "drawn from experiment",
+      "founded on what is actually measured",
+      "factual rather than speculative"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "purely theoretical",
+        "misconception": "inverts observation into abstraction"
+      },
+      {
+        "answer": "relating to an emperor",
+        "misconception": "hears the sound-alike 'imperial'"
+      }
+    ],
+    "required_nuance": "evidence from observation, not reasoning alone",
+    "mental_hook": "Measured, not deduced.",
+    "semantic_hint": "The word for a claim backed by measurements rather than argument."
+  },
+  "empiricism": {
+    "accepted_concepts": [
+      "the view that knowledge comes from experience",
+      "the doctrine that observation is the source of knowing",
+      "reliance on evidence over pure reason",
+      "the philosophy grounding knowledge in the senses",
+      "experience-based epistemology"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the view that reason alone yields knowledge",
+        "misconception": "inverts it into rationalism"
+      },
+      {
+        "answer": "rule by an emperor",
+        "misconception": "hears the sound-alike 'imperialism'"
+      }
+    ],
+    "required_nuance": "knowledge comes through the senses, not from reason alone",
+    "mental_hook": "Know it by seeing it.",
+    "semantic_hint": "The philosophical doctrine that all knowledge begins with the senses."
+  },
+  "emulate": {
+    "accepted_concepts": [
+      "imitate in order to match or beat",
+      "copy someone admired",
+      "strive to equal",
+      "model oneself on",
+      "rival by imitation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to ignore entirely",
+        "misconception": "inverts modelling oneself on into disregard"
+      },
+      {
+        "answer": "to copy mechanically with no aim",
+        "misconception": "loses the ambition to match or surpass"
+      }
+    ],
+    "required_nuance": "copying with the aim of equalling or bettering",
+    "mental_hook": "Copies in order to beat.",
+    "semantic_hint": "What a young player does by modelling their game on a great one."
+  },
+  "enamor": {
+    "accepted_concepts": [
+      "fill with love",
+      "captivate",
+      "charm deeply",
+      "make fond of",
+      "enthral with affection"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to repel",
+        "misconception": "inverts charming into driving away"
+      },
+      {
+        "answer": "to cover with a glossy coat",
+        "misconception": "hears the sound-alike 'enamel'"
+      }
+    ],
+    "required_nuance": "filled with fondness, usually stated as being so",
+    "mental_hook": "Love, which is the French inside it.",
+    "semantic_hint": "What a city does to a visitor who falls in love with it."
+  },
+  "enchant": {
+    "accepted_concepts": [
+      "delight greatly",
+      "charm",
+      "bewitch",
+      "cast a spell over",
+      "captivate utterly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to bore",
+        "misconception": "inverts delight into tedium"
+      },
+      {
+        "answer": "to sing in unison",
+        "misconception": "hears the word 'chant'"
+      }
+    ],
+    "required_nuance": "delight strong enough to seem like magic",
+    "mental_hook": "Delight, described as a spell.",
+    "semantic_hint": "What a beautiful performance does to an audience."
+  },
+  "enclave": {
+    "accepted_concepts": [
+      "a distinct area enclosed within a larger one",
+      "a pocket of one group inside another's territory",
+      "an enclosed district",
+      "a small territory surrounded by foreign land",
+      "a quarter set apart"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a cave",
+        "misconception": "hears the ending and reads it literally"
+      },
+      {
+        "answer": "a wide open region",
+        "misconception": "inverts the enclosed into the sprawling"
+      }
+    ],
+    "required_nuance": "small, distinct, and surrounded by something different",
+    "mental_hook": "An island of one thing inside another.",
+    "semantic_hint": "The word for a small district of one nationality inside another country."
+  },
+  "encomium": {
+    "accepted_concepts": [
+      "formal warm praise",
+      "a tribute in speech or writing",
+      "a eulogy",
+      "a panegyric",
+      "high praise publicly delivered"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "harsh criticism",
+        "misconception": "inverts praise into attack"
+      },
+      {
+        "answer": "an assembly hall",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "praise, formal and public",
+    "mental_hook": "Praise, delivered formally and out loud.",
+    "semantic_hint": "The formal speech of praise given at a retirement dinner."
+  },
+  "encroach": {
+    "accepted_concepts": [
+      "intrude gradually",
+      "trespass bit by bit",
+      "advance on another's territory",
+      "infringe on a right",
+      "creep past the proper limit"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to retreat",
+        "misconception": "inverts advancing into withdrawing"
+      },
+      {
+        "answer": "to seize all at once",
+        "misconception": "loses the gradualness that defines it"
+      }
+    ],
+    "required_nuance": "gradual, which is what makes it hard to resist",
+    "mental_hook": "Not an invasion. A creeping.",
+    "semantic_hint": "What a hedge does to a neighbour's garden over ten years."
+  },
+  "encroachment": {
+    "accepted_concepts": [
+      "a gradual intrusion",
+      "a creeping infringement of rights",
+      "a slow trespass onto territory",
+      "an advance past the proper limit",
+      "the act of taking ground bit by bit"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a withdrawal",
+        "misconception": "inverts advancing into retreating"
+      },
+      {
+        "answer": "a sudden seizure",
+        "misconception": "loses the gradualness that defines it"
+      }
+    ],
+    "required_nuance": "the gradual taking is the point",
+    "mental_hook": "Ground lost slowly, never all at once.",
+    "semantic_hint": "The word for a slow erosion of a freedom, one small rule at a time."
+  },
+  "encumber": {
+    "accepted_concepts": [
+      "burden",
+      "weigh down",
+      "hamper with a load",
+      "saddle with an obligation",
+      "impede by adding weight"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to relieve",
+        "misconception": "inverts burdening into unloading"
+      },
+      {
+        "answer": "a garden vegetable",
+        "misconception": "hears the sound-alike 'cucumber'"
+      }
+    ],
+    "required_nuance": "a load that hinders",
+    "mental_hook": "Loaded down, and slowed by it.",
+    "semantic_hint": "What a heavy mortgage does to a property."
+  },
+  "encyclopedic": {
+    "accepted_concepts": [
+      "comprehensive in knowledge",
+      "covering an entire field",
+      "exhaustive in range",
+      "wide-ranging and complete",
+      "knowing everything about a subject"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "superficial",
+        "misconception": "inverts thoroughness into a passing glance"
+      },
+      {
+        "answer": "arranged alphabetically",
+        "misconception": "takes an incidental feature of the reference book for the meaning"
+      }
+    ],
+    "required_nuance": "breadth and completeness of knowledge",
+    "mental_hook": "Knows the whole field, not one corner.",
+    "semantic_hint": "The word for a memory that seems to hold every fact about a subject."
+  },
+  "endemic": {
+    "accepted_concepts": [
+      "regularly found in a place",
+      "native to a region",
+      "habitually present in a group",
+      "prevalent in a particular area",
+      "built into a population"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a sudden widespread outbreak",
+        "misconception": "confuses the permanently present with the sound-alike 'epidemic'"
+      },
+      {
+        "answer": "wiped out",
+        "misconception": "inverts always present into eradicated"
+      }
+    ],
+    "required_nuance": "always there, rather than suddenly arriving",
+    "mental_hook": "Always there. Not a sudden outbreak.",
+    "semantic_hint": "The word for a disease permanently present in one region."
+  },
+  "endow": {
+    "accepted_concepts": [
+      "provide with a quality",
+      "give a fund to",
+      "furnish with something valuable",
+      "bestow a gift or income on",
+      "equip with a natural gift"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to strip away",
+        "misconception": "inverts giving into taking"
+      },
+      {
+        "answer": "to finish",
+        "misconception": "hears the word 'end'"
+      }
+    ],
+    "required_nuance": "giving, whether money or a natural quality",
+    "mental_hook": "Gives it money, or gives it a gift.",
+    "semantic_hint": "What a benefactor does for a university chair with a large gift."
+  },
+  "endue": {
+    "accepted_concepts": [
+      "invest with a quality",
+      "imbue",
+      "furnish with a power",
+      "clothe in an attribute",
+      "give a characteristic to"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to strip of a quality",
+        "misconception": "inverts investing into divesting"
+      },
+      {
+        "answer": "to owe money",
+        "misconception": "hears the word 'due'"
+      }
+    ],
+    "required_nuance": "granting a quality, in an old and formal register",
+    "mental_hook": "Clothed in a quality, in an older English.",
+    "semantic_hint": "The archaic word for granting someone a power or attribute."
+  },
+  "enduring": {
+    "accepted_concepts": [
+      "lasting a long time",
+      "abiding",
+      "persisting over years",
+      "durable",
+      "continuing without fading"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fleeting",
+        "misconception": "inverts lasting into momentary"
+      },
+      {
+        "answer": "suffering patiently",
+        "misconception": "takes the act of bearing pain for the quality of lasting"
+      }
+    ],
+    "required_nuance": "continuing over long time",
+    "mental_hook": "Still there, years later.",
+    "semantic_hint": "The word for a friendship that has lasted forty years."
+  },
+  "enervate": {
+    "accepted_concepts": [
+      "drain of energy",
+      "weaken",
+      "sap the strength of",
+      "debilitate",
+      "leave without vigour"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to energise",
+        "misconception": "inverts draining into invigorating, which the shape invites"
+      },
+      {
+        "answer": "to make anxious",
+        "misconception": "hears the word 'nerve' and takes the wrong sense"
+      }
+    ],
+    "required_nuance": "taking energy away, despite how the word sounds",
+    "mental_hook": "Sounds like energise. Means the opposite.",
+    "semantic_hint": "What a week of tropical heat does to a visitor's strength."
+  },
+  "enervated": {
+    "accepted_concepts": [
+      "drained of energy",
+      "left without vigour",
+      "listless and weak",
+      "sapped of strength",
+      "debilitated"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "full of vigour",
+        "misconception": "inverts exhaustion into vitality, which the shape invites"
+      },
+      {
+        "answer": "made anxious",
+        "misconception": "hears the word 'nerve' and takes the wrong sense"
+      }
+    ],
+    "required_nuance": "already drained, despite sounding energetic",
+    "mental_hook": "Sounds energetic. Is the opposite.",
+    "semantic_hint": "How someone feels after three days of fever."
+  },
+  "engage": {
+    "accepted_concepts": [
+      "occupy attention",
+      "involve oneself in",
+      "enter into conflict with",
+      "take part actively",
+      "confront directly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to ignore",
+        "misconception": "inverts involvement into avoidance"
+      },
+      {
+        "answer": "to promise marriage only",
+        "misconception": "narrows it to one social sense"
+      }
+    ],
+    "required_nuance": "taking part rather than standing off",
+    "mental_hook": "Takes part, whether in a task or a fight.",
+    "semantic_hint": "What an army does when it meets the enemy rather than avoiding them."
+  },
+  "engender": {
+    "accepted_concepts": [
+      "give rise to",
+      "cause to come into being",
+      "produce",
+      "provoke into existence",
+      "bring about"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to prevent",
+        "misconception": "inverts causing into stifling"
+      },
+      {
+        "answer": "relating to being male or female",
+        "misconception": "hears the word 'gender'"
+      }
+    ],
+    "required_nuance": "causing something to come into being",
+    "mental_hook": "Brings it into being.",
+    "semantic_hint": "What a badly handled decision does to resentment in a team."
+  },
+  "enhance": {
+    "accepted_concepts": [
+      "improve the quality of",
+      "increase the value of",
+      "heighten",
+      "augment what is already there",
+      "make better"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to diminish",
+        "misconception": "inverts improving into impairing"
+      },
+      {
+        "answer": "to create from nothing",
+        "misconception": "loses that it improves something already present"
+      }
+    ],
+    "required_nuance": "improving something that already exists",
+    "mental_hook": "Makes the existing thing better.",
+    "semantic_hint": "What good lighting does to a photograph already taken."
+  },
+  "enigma": {
+    "accepted_concepts": [
+      "a puzzling person or thing",
+      "a mystery",
+      "a riddle",
+      "something hard to understand",
+      "a conundrum"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "something obvious",
+        "misconception": "inverts mystery into clarity"
+      },
+      {
+        "answer": "a stigma",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "puzzling and resistant to explanation",
+    "mental_hook": "A puzzle, and a person can be one.",
+    "semantic_hint": "The word for a colleague nobody has ever managed to figure out."
+  },
+  "enigmatic": {
+    "accepted_concepts": [
+      "mysterious and hard to interpret",
+      "cryptic",
+      "inscrutable",
+      "puzzling in meaning",
+      "difficult to read"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "transparent",
+        "misconception": "inverts inscrutability into openness"
+      },
+      {
+        "answer": "energetic",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "puzzling, and resisting interpretation",
+    "mental_hook": "You cannot read it, and that is the point.",
+    "semantic_hint": "The word for the smile in the most famous portrait in the Louvre."
+  },
+  "enjoin": {
+    "accepted_concepts": [
+      "order someone to do something",
+      "command",
+      "direct authoritatively",
+      "forbid by legal order",
+      "instruct with authority"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to permit freely",
+        "misconception": "inverts a command into permission"
+      },
+      {
+        "answer": "to take pleasure in",
+        "misconception": "hears the sound-alike 'enjoy'"
+      }
+    ],
+    "required_nuance": "an authoritative order, which can be to do or to stop",
+    "mental_hook": "Orders it done, or orders it stopped.",
+    "semantic_hint": "What a court order does when it commands a company to stop."
+  },
+  "enmity": {
+    "accepted_concepts": [
+      "deep-seated hostility",
+      "settled hatred between parties",
+      "animosity",
+      "active ill will",
+      "antagonism that lasts"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "friendship",
+        "misconception": "inverts hostility into goodwill"
+      },
+      {
+        "answer": "a numerical quantity",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "hostility settled in, not a passing anger",
+    "mental_hook": "Not a quarrel. A standing hatred.",
+    "semantic_hint": "The word for the lasting hatred between two feuding families."
+  },
+  "ennui": {
+    "accepted_concepts": [
+      "listless boredom",
+      "weariness from having nothing that interests one",
+      "dissatisfied tedium",
+      "world-weariness",
+      "a jaded lack of interest"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "eager excitement",
+        "misconception": "inverts weariness into enthusiasm"
+      },
+      {
+        "answer": "a grievance held",
+        "misconception": "guesses from an unfamiliar French shape"
+      }
+    ],
+    "required_nuance": "boredom that carries dissatisfaction with it",
+    "mental_hook": "Bored, and vaguely dissatisfied with everything.",
+    "semantic_hint": "The French word for a weary boredom with life itself."
+  },
+  "enormity": {
+    "accepted_concepts": [
+      "extreme wickedness",
+      "a monstrously evil act",
+      "an atrocity",
+      "outrageous wrongness",
+      "heinousness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "great size",
+        "misconception": "confuses moral monstrousness with physical hugeness"
+      },
+      {
+        "answer": "a minor lapse",
+        "misconception": "understates a monstrous act into a small fault"
+      }
+    ],
+    "required_nuance": "moral monstrousness, not sheer size",
+    "mental_hook": "Not how big. How wicked.",
+    "semantic_hint": "The word for the sheer wickedness of a war crime."
+  },
+  "enrapture": {
+    "accepted_concepts": [
+      "fill with delight",
+      "carry away with joy",
+      "enthral",
+      "transport with pleasure",
+      "captivate utterly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to bore",
+        "misconception": "inverts delight into tedium"
+      },
+      {
+        "answer": "to tear open",
+        "misconception": "hears the sound-alike 'rupture'"
+      }
+    ],
+    "required_nuance": "delight strong enough to carry one away",
+    "mental_hook": "Carried away, by joy.",
+    "semantic_hint": "What a first hearing of a great symphony does to a listener."
+  },
+  "ensconce": {
+    "accepted_concepts": [
+      "settle comfortably and securely",
+      "install snugly",
+      "establish in a safe place",
+      "nestle into position",
+      "settle in and stay"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to evict",
+        "misconception": "inverts settling in into dislodging"
+      },
+      {
+        "answer": "to hide from shame",
+        "misconception": "loses the comfort and security that define it"
+      }
+    ],
+    "required_nuance": "settled comfortably and not easily shifted",
+    "mental_hook": "Settled in, snugly, and staying.",
+    "semantic_hint": "What someone does by settling into a favourite armchair for the evening."
+  },
+  "ensue": {
+    "accepted_concepts": [
+      "follow as a consequence",
+      "result from",
+      "come afterward as an effect",
+      "happen in consequence",
+      "follow on"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to come before",
+        "misconception": "inverts following into preceding"
+      },
+      {
+        "answer": "to take to court",
+        "misconception": "hears the word 'sue'"
+      }
+    ],
+    "required_nuance": "following as a result, not merely afterwards",
+    "mental_hook": "Comes after, because of what came before.",
+    "semantic_hint": "What chaos does after an announcement nobody expected."
+  },
+  "entertain": {
+    "accepted_concepts": [
+      "consider an idea",
+      "hold a thought open for consideration",
+      "give a hearing to a possibility",
+      "amuse",
+      "keep guests occupied"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to reject out of hand",
+        "misconception": "inverts considering into dismissing"
+      },
+      {
+        "answer": "only to amuse",
+        "misconception": "misses the tested sense of considering an idea"
+      }
+    ],
+    "required_nuance": "the tested sense is giving an idea a hearing",
+    "mental_hook": "You can entertain guests, or entertain a doubt.",
+    "semantic_hint": "What a judge does by agreeing to consider a motion."
+  },
+  "enthrall": {
+    "accepted_concepts": [
+      "capture someone's complete attention",
+      "spellbind",
+      "hold fascinated",
+      "mesmerise",
+      "captivate entirely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to bore",
+        "misconception": "inverts fascination into tedium"
+      },
+      {
+        "answer": "to throw",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "attention captured completely, as if held captive",
+    "mental_hook": "Held captive, which is the old sense of the root.",
+    "semantic_hint": "What a gripping storyteller does to a room of children."
+  },
+  "entice": {
+    "accepted_concepts": [
+      "tempt with something appealing",
+      "lure",
+      "draw on by offering a reward",
+      "allure",
+      "coax by attraction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to deter",
+        "misconception": "inverts tempting into driving away"
+      },
+      {
+        "answer": "to force",
+        "misconception": "confuses attraction with compulsion"
+      }
+    ],
+    "required_nuance": "drawing someone by attraction, never by force",
+    "mental_hook": "Pulled by the offer, not pushed.",
+    "semantic_hint": "What a discount does to a customer who was not going to buy."
+  },
+  "entitled": {
+    "accepted_concepts": [
+      "believing oneself deserving of privilege",
+      "presuming a right to special treatment",
+      "self-important about what one is owed",
+      "expecting privilege as a due",
+      "having a right to something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "humble",
+        "misconception": "inverts presumption into modesty"
+      },
+      {
+        "answer": "given a name",
+        "misconception": "takes the sense of a book's title"
+      }
+    ],
+    "required_nuance": "expecting privilege as though owed it",
+    "mental_hook": "Thinks it is owed to them.",
+    "semantic_hint": "The word for a customer who demands a refund as though it were a birthright."
+  },
+  "entitlement": {
+    "accepted_concepts": [
+      "a right to something",
+      "a claim one may properly make",
+      "a benefit one is owed",
+      "the belief that one deserves privilege",
+      "an assumed due"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a gift freely given",
+        "misconception": "loses the claim of right that defines it"
+      },
+      {
+        "answer": "a book's name",
+        "misconception": "takes the sense of a title"
+      }
+    ],
+    "required_nuance": "a claim of right, real or merely assumed",
+    "mental_hook": "A right claimed, whether or not it exists.",
+    "semantic_hint": "The word for a benefit someone believes they are owed by right."
+  },
+  "entomology": {
+    "accepted_concepts": [
+      "the study of insects",
+      "the science dealing with insects",
+      "the branch of zoology covering insects",
+      "insect science",
+      "the systematic study of bugs"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the study of word origins",
+        "misconception": "confuses it with the near-twin about word history"
+      },
+      {
+        "answer": "the study of tombs",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "insects, not word origins",
+    "mental_hook": "Insects. The near-twin studies words.",
+    "semantic_hint": "The science of beetles, ants and moths."
+  },
+  "entreat": {
+    "accepted_concepts": [
+      "ask earnestly and humbly",
+      "implore",
+      "beseech",
+      "plead with",
+      "beg in a pressing way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to demand",
+        "misconception": "inverts humble pleading into command"
+      },
+      {
+        "answer": "to give a gift",
+        "misconception": "hears the word 'treat'"
+      }
+    ],
+    "required_nuance": "asking humbly and urgently, never ordering",
+    "mental_hook": "Begging, in polite clothes.",
+    "semantic_hint": "What someone does when they beg a judge for mercy."
+  },
+  "entrenched": {
+    "accepted_concepts": [
+      "firmly established",
+      "so settled it is hard to change",
+      "deeply rooted",
+      "dug in",
+      "fixed by long practice"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "easily changed",
+        "misconception": "inverts fixity into flexibility"
+      },
+      {
+        "answer": "recently begun",
+        "misconception": "loses the long establishment that defines it"
+      }
+    ],
+    "required_nuance": "established so firmly it resists change",
+    "mental_hook": "Dug in, and hard to shift.",
+    "semantic_hint": "The word for a habit or interest too deeply rooted to remove."
+  },
+  "enumerate": {
+    "accepted_concepts": [
+      "list items one by one",
+      "itemise",
+      "name each in turn",
+      "count off",
+      "set out separately"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to summarise",
+        "misconception": "inverts listing each into condensing all"
+      },
+      {
+        "answer": "to pay someone",
+        "misconception": "hears the sound-alike 'remunerate'"
+      }
+    ],
+    "required_nuance": "naming each item separately",
+    "mental_hook": "One, two, three, and so on.",
+    "semantic_hint": "What a report does when it lists every objection in turn."
+  },
+  "ephemeral": {
+    "accepted_concepts": [
+      "lasting a very short time",
+      "fleeting",
+      "transitory",
+      "short-lived",
+      "gone almost at once"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "permanent",
+        "misconception": "inverts brevity into lasting"
+      },
+      {
+        "answer": "insubstantial but lasting",
+        "misconception": "confuses shortness of life with thinness of substance"
+      }
+    ],
+    "required_nuance": "short-lived, which is about time and nothing else",
+    "mental_hook": "Named for an insect that lives a day.",
+    "semantic_hint": "The word for a mayfly's life, or for internet fame."
+  },
+  "epicure": {
+    "accepted_concepts": [
+      "a person of refined taste in food",
+      "a connoisseur of eating and drinking",
+      "a gourmet",
+      "one who appreciates fine cuisine",
+      "a discerning diner"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a greedy eater",
+        "misconception": "confuses refined taste with mere appetite"
+      },
+      {
+        "answer": "a medical remedy",
+        "misconception": "hears the word 'cure'"
+      }
+    ],
+    "required_nuance": "refined discrimination, not mere appetite",
+    "mental_hook": "Eats well. Not eats much.",
+    "semantic_hint": "The word for someone who knows exactly which wine belongs with the dish."
+  },
+  "epigram": {
+    "accepted_concepts": [
+      "a short witty saying",
+      "a terse clever remark",
+      "a pointed aphorism",
+      "a concise saying with a sting",
+      "a brief witticism"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a long poem",
+        "misconception": "inverts brevity into length"
+      },
+      {
+        "answer": "a unit of weight",
+        "misconception": "hears the word 'gram'"
+      }
+    ],
+    "required_nuance": "short, and its point is the wit",
+    "mental_hook": "Short, sharp, and quotable.",
+    "semantic_hint": "The kind of one-line witticism Oscar Wilde was famous for."
+  },
+  "epiphany": {
+    "accepted_concepts": [
+      "a sudden striking realisation",
+      "a flash of understanding",
+      "a moment of revelation",
+      "a sudden insight",
+      "seeing it all at once"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a slow dawning over years",
+        "misconception": "loses the suddenness that defines it"
+      },
+      {
+        "answer": "a fantasy",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "sudden, and it changes how you see the thing",
+    "mental_hook": "The penny drops, all at once.",
+    "semantic_hint": "The word for a sudden flash in which everything makes sense."
+  },
+  "episodic": {
+    "accepted_concepts": [
+      "occurring irregularly",
+      "happening in separate bursts",
+      "made of loosely joined parts",
+      "intermittent",
+      "sporadic rather than continuous"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "continuous and sustained",
+        "misconception": "inverts intermittence into an unbroken flow"
+      },
+      {
+        "answer": "relating to television only",
+        "misconception": "narrows it to one medium"
+      }
+    ],
+    "required_nuance": "in separate pieces rather than continuously",
+    "mental_hook": "In bursts, with gaps between.",
+    "semantic_hint": "The word for a novel made of loosely connected incidents."
+  },
+  "epistolary": {
+    "accepted_concepts": [
+      "written in the form of letters",
+      "consisting of correspondence",
+      "carried on by letter",
+      "made up of exchanged letters",
+      "relating to letter writing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to firearms",
+        "misconception": "hears the sound-alike 'pistol'"
+      },
+      {
+        "answer": "spoken aloud",
+        "misconception": "inverts written correspondence into speech"
+      }
+    ],
+    "required_nuance": "the form is letters",
+    "mental_hook": "Told entirely in letters.",
+    "semantic_hint": "The word for a novel told wholly through the characters' correspondence."
+  },
+  "epitome": {
+    "accepted_concepts": [
+      "a perfect example",
+      "the embodiment of a quality",
+      "the purest instance of a type",
+      "a quintessence",
+      "the archetype of something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the opposite of a type",
+        "misconception": "inverts the perfect example into its antithesis"
+      },
+      {
+        "answer": "a rare exception",
+        "misconception": "confuses the typical case with the outlier"
+      }
+    ],
+    "required_nuance": "the clearest and most complete instance",
+    "mental_hook": "If you needed one example, this one.",
+    "semantic_hint": "The word for the single clearest example of a whole type."
+  },
+  "eponym": {
+    "accepted_concepts": [
+      "a person something is named after",
+      "the namesake of a thing",
+      "the individual who gives their name to something",
+      "the source of a name",
+      "one whose name a thing bears"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a word with the same meaning as another",
+        "misconception": "hears the shared ending of 'synonym'"
+      },
+      {
+        "answer": "an assumed false name",
+        "misconception": "hears the shared ending of 'pseudonym'"
+      }
+    ],
+    "required_nuance": "a real person whose name a thing carries",
+    "mental_hook": "The person the thing is named after.",
+    "semantic_hint": "What Louis Braille is to the reading system for the blind."
+  },
+  "equable": {
+    "accepted_concepts": [
+      "calm and even-tempered",
+      "steady in mood",
+      "not given to extremes",
+      "placid",
+      "unvarying and moderate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "volatile",
+        "misconception": "inverts steadiness into temperamental swings"
+      },
+      {
+        "answer": "fair and impartial",
+        "misconception": "confuses evenness of temper with the near-twin about justice"
+      }
+    ],
+    "required_nuance": "evenness of temper or climate, not fairness",
+    "mental_hook": "Even temper. The near-twin means fair.",
+    "semantic_hint": "The word for a temperament that never swings high or low."
   }
 }
