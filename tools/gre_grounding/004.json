@@ -1758,5 +1758,445 @@
     "required_nuance": "what is officially accepted or authoritative",
     "mental_hook": "One 'n' is the list. Two 'n's is the gun.",
     "semantic_hint": "The accepted list of works a subject treats as essential."
+  },
+  "canonical": {
+    "accepted_concepts": [
+      "accepted as authoritative",
+      "standard and orthodox",
+      "officially recognised",
+      "the definitive version",
+      "treated as the standard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to a large gun",
+        "misconception": "hears the sound-alike 'cannon'"
+      },
+      {
+        "answer": "unorthodox",
+        "misconception": "inverts accepted into rejected"
+      }
+    ],
+    "required_nuance": "officially accepted as the standard",
+    "mental_hook": "The version everyone agrees to argue from.",
+    "semantic_hint": "The word for the text a field treats as the definitive one."
+  },
+  "canonize": {
+    "accepted_concepts": [
+      "declare a saint",
+      "formally sanctify",
+      "elevate to official status",
+      "treat as beyond question",
+      "enshrine as authoritative"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to fire artillery",
+        "misconception": "hears the sound-alike 'cannon'"
+      },
+      {
+        "answer": "to condemn",
+        "misconception": "inverts elevation into denunciation"
+      }
+    ],
+    "required_nuance": "raising to official, unquestionable status",
+    "mental_hook": "What the Church does, and what critics do to a favourite novel.",
+    "semantic_hint": "What the Church does to a person it declares a saint."
+  },
+  "cant": {
+    "accepted_concepts": [
+      "insincere pious talk",
+      "hypocritical moralising",
+      "sanctimonious speech",
+      "humbug",
+      "the private jargon of a set"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "being unable to",
+        "misconception": "hears the contraction 'can't'"
+      },
+      {
+        "answer": "sincere belief",
+        "misconception": "inverts insincerity into conviction"
+      }
+    ],
+    "required_nuance": "piety that is entirely put on",
+    "mental_hook": "Piety with nothing behind it.",
+    "semantic_hint": "The moralising talk of someone who does not mean a word of it."
+  },
+  "cantankerous": {
+    "accepted_concepts": [
+      "bad-tempered",
+      "argumentative",
+      "irascible",
+      "quarrelsome and difficult",
+      "crotchety"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cheerful",
+        "misconception": "inverts bad temper into good humour"
+      },
+      {
+        "answer": "unable to be moved",
+        "misconception": "hears 'cannot' and guesses"
+      }
+    ],
+    "required_nuance": "bad temper that goes looking for arguments",
+    "mental_hook": "Difficult on purpose.",
+    "semantic_hint": "The word for an old man who argues with everyone about everything."
+  },
+  "canto": {
+    "accepted_concepts": [
+      "a division of a long poem",
+      "a section of an epic",
+      "a book within a poem",
+      "one part of a verse narrative",
+      "a poetic chapter"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a song",
+        "misconception": "takes the Italian root literally"
+      },
+      {
+        "answer": "a whole poem",
+        "misconception": "confuses a part with the whole"
+      }
+    ],
+    "required_nuance": "a part of a poem, as a chapter is of a novel",
+    "mental_hook": "What a chapter is to a novel.",
+    "semantic_hint": "What each numbered section of Dante's epic is called."
+  },
+  "capacity": {
+    "accepted_concepts": [
+      "the maximum amount possible",
+      "the ability to do something",
+      "the volume something holds",
+      "capability",
+      "the role in which someone acts"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a lid",
+        "misconception": "hears the word 'cap'"
+      },
+      {
+        "answer": "emptiness",
+        "misconception": "inverts holding into being empty"
+      }
+    ],
+    "required_nuance": "how much it holds, or what one is able to do",
+    "mental_hook": "How much it holds, or what you are able to do.",
+    "semantic_hint": "What a stadium has when it says it holds sixty thousand."
+  },
+  "capitulate": {
+    "accepted_concepts": [
+      "surrender",
+      "give in",
+      "yield to demands",
+      "submit after resistance",
+      "stop fighting and accept terms"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to summarise",
+        "misconception": "hears the sound-alike 'recapitulate'"
+      },
+      {
+        "answer": "to resist",
+        "misconception": "inverts surrender into defiance"
+      }
+    ],
+    "required_nuance": "surrender after holding out",
+    "mental_hook": "Gave in, after a fight.",
+    "semantic_hint": "What a besieged city finally does when it can hold out no longer."
+  },
+  "caprice": {
+    "accepted_concepts": [
+      "a sudden whim",
+      "an unpredictable change of mind",
+      "a passing fancy",
+      "an impulsive turn",
+      "a vagary"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a settled plan",
+        "misconception": "inverts impulse into deliberation"
+      },
+      {
+        "answer": "a cost",
+        "misconception": "hears the word 'price' inside it"
+      }
+    ],
+    "required_nuance": "a sudden change with no reason behind it",
+    "mental_hook": "The reason was: they felt like it.",
+    "semantic_hint": "The sudden change of mind that has no reason behind it."
+  },
+  "capricious": {
+    "accepted_concepts": [
+      "given to sudden changes",
+      "fickle",
+      "unpredictable in mood",
+      "mercurial",
+      "changeable without reason"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "steady and reliable",
+        "misconception": "inverts changeability into constancy"
+      },
+      {
+        "answer": "greedy",
+        "misconception": "guesses from an unfamiliar sound"
+      }
+    ],
+    "required_nuance": "changes without reason, not merely often",
+    "mental_hook": "Changes its mind, and never says why.",
+    "semantic_hint": "The word for weather or a ruler that changes without warning or reason."
+  },
+  "captious": {
+    "accepted_concepts": [
+      "eager to find fault",
+      "hypercritical over trifles",
+      "nitpicking",
+      "always objecting to small things",
+      "faultfinding"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fascinating",
+        "misconception": "hears the shared opening of 'captivating'"
+      },
+      {
+        "answer": "generous in judgement",
+        "misconception": "inverts faultfinding into charity"
+      }
+    ],
+    "required_nuance": "fault-finding over things that do not matter",
+    "mental_hook": "Always finds the one small thing wrong.",
+    "semantic_hint": "The word for a reviewer who objects only to trivia."
+  },
+  "cardinal": {
+    "accepted_concepts": [
+      "of the greatest importance",
+      "fundamental",
+      "principal",
+      "chief among others",
+      "paramount"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a red bird",
+        "misconception": "takes another noun sense for this adjective"
+      },
+      {
+        "answer": "trivial",
+        "misconception": "inverts importance into insignificance"
+      }
+    ],
+    "required_nuance": "the most important, the one others hinge on",
+    "mental_hook": "The hinge everything turns on, which is what the Latin meant.",
+    "semantic_hint": "The adjective for the one rule that matters more than all the others."
+  },
+  "careen": {
+    "accepted_concepts": [
+      "lurch while moving fast",
+      "swerve wildly",
+      "hurtle out of control",
+      "veer from side to side",
+      "rush along unsteadily"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a working life",
+        "misconception": "hears the sound-alike 'career'"
+      },
+      {
+        "answer": "to move steadily",
+        "misconception": "inverts lurching into smoothness"
+      }
+    ],
+    "required_nuance": "fast movement that is out of control",
+    "mental_hook": "Fast, and not in a straight line.",
+    "semantic_hint": "What a runaway truck does down a hill."
+  },
+  "caricature": {
+    "accepted_concepts": [
+      "an exaggerated portrayal",
+      "a comic distortion",
+      "a parody of someone's features",
+      "a lampoon",
+      "a portrait that overstates"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an accurate portrait",
+        "misconception": "inverts exaggeration into fidelity"
+      },
+      {
+        "answer": "a person in a story",
+        "misconception": "hears the shared opening of 'character'"
+      }
+    ],
+    "required_nuance": "exaggeration specifically for comic effect",
+    "mental_hook": "The nose, three times too big, and instantly recognisable.",
+    "semantic_hint": "The drawing that makes a politician's nose three times too big."
+  },
+  "carping": {
+    "accepted_concepts": [
+      "constantly complaining",
+      "nitpicking",
+      "always finding small faults",
+      "querulous",
+      "forever objecting to trifles"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a freshwater fish",
+        "misconception": "takes the noun and misses the verb"
+      },
+      {
+        "answer": "praising",
+        "misconception": "inverts complaint into approval"
+      }
+    ],
+    "required_nuance": "constant complaint about small things",
+    "mental_hook": "Never a big objection. Always a small one, again.",
+    "semantic_hint": "The word for criticism that never stops and never matters."
+  },
+  "carrion": {
+    "accepted_concepts": [
+      "the decaying flesh of dead animals",
+      "a rotting carcass",
+      "dead meat left in the open",
+      "the remains scavengers feed on",
+      "putrefying flesh"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to continue",
+        "misconception": "hears the sound-alike phrase 'carry on'"
+      },
+      {
+        "answer": "living prey",
+        "misconception": "inverts dead into alive"
+      }
+    ],
+    "required_nuance": "flesh already dead and rotting",
+    "mental_hook": "What the vulture waits for.",
+    "semantic_hint": "What vultures circle over and eat."
+  },
+  "cartographer": {
+    "accepted_concepts": [
+      "a map maker",
+      "one who draws maps",
+      "a person who charts territory",
+      "a surveyor who produces maps",
+      "a maker of charts"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "one who takes pictures",
+        "misconception": "hears the shared ending of 'photographer'"
+      },
+      {
+        "answer": "one who studies places",
+        "misconception": "confuses drawing maps with studying regions"
+      }
+    ],
+    "required_nuance": "the person who makes maps",
+    "mental_hook": "Draws the map. Does not study the land.",
+    "semantic_hint": "The person whose job is drawing accurate maps."
+  },
+  "cartography": {
+    "accepted_concepts": [
+      "map making",
+      "the drawing of maps",
+      "the science of charting",
+      "the craft of representing territory",
+      "chart making"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "picture taking",
+        "misconception": "hears the shared ending of 'photography'"
+      },
+      {
+        "answer": "the study of the earth",
+        "misconception": "confuses making maps with studying regions"
+      }
+    ],
+    "required_nuance": "the making of maps, as a craft",
+    "mental_hook": "The craft, not the person.",
+    "semantic_hint": "The science and craft of making accurate maps."
+  },
+  "castigate": {
+    "accepted_concepts": [
+      "criticise severely",
+      "rebuke harshly",
+      "excoriate",
+      "punish with words",
+      "upbraid fiercely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "inverts rebuke into commendation"
+      },
+      {
+        "answer": "to investigate",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "severe criticism, never mild reproof",
+    "mental_hook": "Not a telling off. A flaying.",
+    "semantic_hint": "What a judge does to a defendant in a sentencing speech."
+  },
+  "castigation": {
+    "accepted_concepts": [
+      "severe criticism",
+      "a harsh rebuke",
+      "fierce reproof",
+      "a public dressing down",
+      "stern censure"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "praise",
+        "misconception": "inverts rebuke into commendation"
+      },
+      {
+        "answer": "an inquiry",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "criticism delivered severely",
+    "mental_hook": "The rebuke, named as a thing.",
+    "semantic_hint": "The severe public rebuke handed down from the bench."
+  },
+  "cataclysm": {
+    "accepted_concepts": [
+      "a violent upheaval",
+      "a catastrophe",
+      "a disaster on a vast scale",
+      "a calamitous event",
+      "a sudden ruinous change"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small problem",
+        "misconception": "loses the scale entirely"
+      },
+      {
+        "answer": "a set of religious questions",
+        "misconception": "hears the sound-alike 'catechism'"
+      }
+    ],
+    "required_nuance": "violent, sudden and vast all at once",
+    "mental_hook": "Not a setback. A flood.",
+    "semantic_hint": "The word for an upheaval violent enough to change everything."
   }
 }

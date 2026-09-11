@@ -1,0 +1,882 @@
+{
+  "cataclysmic": {
+    "accepted_concepts": [
+      "violently destructive",
+      "catastrophic",
+      "devastating on a huge scale",
+      "calamitous",
+      "ruinous and sudden"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "minor",
+        "misconception": "loses the scale entirely"
+      },
+      {
+        "answer": "gradual",
+        "misconception": "inverts suddenness into slowness"
+      }
+    ],
+    "required_nuance": "destruction both vast and sudden",
+    "mental_hook": "The scale of a flood, not of a leak.",
+    "semantic_hint": "The adjective for a collapse so total nothing is left standing."
+  },
+  "catalyst": {
+    "accepted_concepts": [
+      "something that precipitates change",
+      "a trigger",
+      "the spur that starts things",
+      "an agent of change",
+      "what sets events in motion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a hurling machine",
+        "misconception": "hears the shared opening of 'catapult'"
+      },
+      {
+        "answer": "an obstacle",
+        "misconception": "inverts starting into blocking"
+      }
+    ],
+    "required_nuance": "starts the change without being consumed by it",
+    "mental_hook": "Starts the reaction. Is not changed by it.",
+    "semantic_hint": "The one event that sets a whole chain of consequences going."
+  },
+  "categorical": {
+    "accepted_concepts": [
+      "unqualified",
+      "absolute",
+      "admitting no exceptions",
+      "stated without reservation",
+      "flatly definite"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "sorted into groups",
+        "misconception": "hears 'category' and takes the classifying sense"
+      },
+      {
+        "answer": "hedged",
+        "misconception": "inverts absoluteness into qualification"
+      }
+    ],
+    "required_nuance": "absolute, with no conditions attached",
+    "mental_hook": "No exceptions, no conditions, no maybe.",
+    "semantic_hint": "The word for a denial with no qualification of any kind."
+  },
+  "cathartic": {
+    "accepted_concepts": [
+      "providing emotional release",
+      "purging pent-up feeling",
+      "cleansing emotionally",
+      "relieving through expression",
+      "purifying the emotions"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a laxative and nothing else",
+        "misconception": "keeps the medical sense where emotion is meant"
+      },
+      {
+        "answer": "bottling up",
+        "misconception": "inverts release into suppression"
+      }
+    ],
+    "required_nuance": "release of emotion, never of anything physical",
+    "mental_hook": "A good cry, named by Aristotle.",
+    "semantic_hint": "What a good cry at a sad film is said to be."
+  },
+  "catholic": {
+    "accepted_concepts": [
+      "broad in taste",
+      "wide-ranging",
+      "universal in scope",
+      "eclectic in interests",
+      "embracing many kinds"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "belonging to a particular church",
+        "misconception": "takes the proper noun for the adjective"
+      },
+      {
+        "answer": "narrow",
+        "misconception": "inverts breadth into restriction"
+      }
+    ],
+    "required_nuance": "breadth of taste, with nothing to do with religion",
+    "mental_hook": "Lower case, and about taste rather than faith.",
+    "semantic_hint": "The word for a taste in music that takes in absolutely everything."
+  },
+  "caucus": {
+    "accepted_concepts": [
+      "a closed meeting of a faction",
+      "a private party gathering",
+      "a bloc meeting to decide strategy",
+      "a conclave of members",
+      "an internal group meeting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a travelling show",
+        "misconception": "hears the sound-alike 'circus'"
+      },
+      {
+        "answer": "an open public vote",
+        "misconception": "inverts closed into public"
+      }
+    ],
+    "required_nuance": "closed, and of one faction",
+    "mental_hook": "The meeting behind the closed door.",
+    "semantic_hint": "The closed party meeting where a faction settles its line."
+  },
+  "caustic": {
+    "accepted_concepts": [
+      "bitingly sarcastic",
+      "scathing in remark",
+      "cutting",
+      "corrosive",
+      "mordant in wit"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "careful",
+        "misconception": "hears the sound-alike 'cautious'"
+      },
+      {
+        "answer": "gentle",
+        "misconception": "inverts biting into soothing"
+      }
+    ],
+    "required_nuance": "burns, whether chemically or verbally",
+    "mental_hook": "Burns skin, or burns the person addressed.",
+    "semantic_hint": "The word for a remark that burns, and for a chemical that does the same."
+  },
+  "cavalier": {
+    "accepted_concepts": [
+      "dismissive of what matters",
+      "offhand about serious things",
+      "flippant",
+      "high-handed",
+      "carelessly casual"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a horseman",
+        "misconception": "takes the historical noun for the adjective"
+      },
+      {
+        "answer": "conscientious",
+        "misconception": "inverts carelessness into diligence"
+      }
+    ],
+    "required_nuance": "casual about what deserves care",
+    "mental_hook": "Airy about things that deserve better.",
+    "semantic_hint": "The word for an attitude that treats serious risks as if they were nothing."
+  },
+  "cease": {
+    "accepted_concepts": [
+      "stop",
+      "bring to an end",
+      "halt",
+      "discontinue",
+      "desist from"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to grab hold of",
+        "misconception": "hears the sound-alike 'seize'"
+      },
+      {
+        "answer": "to begin",
+        "misconception": "inverts stopping into starting"
+      }
+    ],
+    "required_nuance": "stopping entirely",
+    "mental_hook": "Two letters from seize, and the opposite of grabbing.",
+    "semantic_hint": "What fighting does when a truce is agreed."
+  },
+  "cede": {
+    "accepted_concepts": [
+      "give up formally",
+      "surrender territory",
+      "hand over by agreement",
+      "relinquish a claim",
+      "yield possession"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a plant germ",
+        "misconception": "hears the sound-alike 'seed'"
+      },
+      {
+        "answer": "to seize",
+        "misconception": "inverts giving up into taking"
+      }
+    ],
+    "required_nuance": "formal handing over, usually of territory or rights",
+    "mental_hook": "Handed over by treaty, not lost in battle.",
+    "semantic_hint": "What a country does with territory under the terms of a treaty."
+  },
+  "celerity": {
+    "accepted_concepts": [
+      "swiftness",
+      "speed of action",
+      "rapidity",
+      "quickness in doing",
+      "promptness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a famous person",
+        "misconception": "hears the sound-alike 'celebrity'"
+      },
+      {
+        "answer": "slowness",
+        "misconception": "inverts speed into delay"
+      }
+    ],
+    "required_nuance": "speed in acting",
+    "mental_hook": "One letter from celebrity, and about speed.",
+    "semantic_hint": "The formal word for how quickly an army moves."
+  },
+  "censor": {
+    "accepted_concepts": [
+      "suppress objectionable parts",
+      "cut out what is forbidden",
+      "redact",
+      "examine and remove passages",
+      "black out material"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "formal disapproval",
+        "misconception": "confuses it with censure"
+      },
+      {
+        "answer": "a detecting device",
+        "misconception": "hears the sound-alike 'sensor'"
+      }
+    ],
+    "required_nuance": "suppressing material, never expressing disapproval",
+    "mental_hook": "One letter from censure, and this one cuts things out.",
+    "semantic_hint": "What a wartime official does to a soldier's letters home."
+  },
+  "censure": {
+    "accepted_concepts": [
+      "formal disapproval",
+      "official condemnation",
+      "a stern rebuke",
+      "a formal reproof",
+      "strong criticism placed on the record"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to cut material out",
+        "misconception": "confuses it with censor"
+      },
+      {
+        "answer": "approval",
+        "misconception": "inverts disapproval into endorsement"
+      }
+    ],
+    "required_nuance": "disapproval, formally expressed",
+    "mental_hook": "One letter from censor, and this one disapproves.",
+    "semantic_hint": "The formal vote of disapproval a parliament passes against a minister."
+  },
+  "centrifuge": {
+    "accepted_concepts": [
+      "a machine that spins to separate substances",
+      "a spinning separator",
+      "a device using spin to divide a mixture",
+      "a rotating separator",
+      "a spin separator"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a cooling appliance",
+        "misconception": "hears the sound-alike ending of 'refrigerator'"
+      },
+      {
+        "answer": "a mixer",
+        "misconception": "inverts separating into combining"
+      }
+    ],
+    "required_nuance": "separates by spinning",
+    "mental_hook": "Spins things apart rather than together.",
+    "semantic_hint": "The laboratory machine that spins a sample until it separates into layers."
+  },
+  "cerebral": {
+    "accepted_concepts": [
+      "intellectual",
+      "appealing to the mind",
+      "analytical rather than emotional",
+      "highbrow",
+      "thoughtful rather than visceral"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to breakfast grain",
+        "misconception": "hears the sound-alike 'cereal'"
+      },
+      {
+        "answer": "emotional",
+        "misconception": "inverts intellect into feeling"
+      }
+    ],
+    "required_nuance": "of the intellect, as against the feelings",
+    "mental_hook": "Head, not heart.",
+    "semantic_hint": "The word for a film that engages the head and leaves the heart alone."
+  },
+  "chaff": {
+    "accepted_concepts": [
+      "worthless material",
+      "the husks left after threshing",
+      "refuse",
+      "what is discarded as useless",
+      "dross"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to rub sore",
+        "misconception": "hears the sound-alike 'chafe'"
+      },
+      {
+        "answer": "the valuable part",
+        "misconception": "inverts waste into worth"
+      }
+    ],
+    "required_nuance": "the worthless part, separated from the valuable",
+    "mental_hook": "Separate the wheat from it.",
+    "semantic_hint": "What you separate from the wheat and throw away."
+  },
+  "chagrin": {
+    "accepted_concepts": [
+      "distress from humiliation",
+      "mortification",
+      "vexation at being embarrassed",
+      "annoyance at a failure",
+      "shamed disappointment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a broad smile",
+        "misconception": "hears the word 'grin' inside it"
+      },
+      {
+        "answer": "delight",
+        "misconception": "inverts mortification into pleasure"
+      }
+    ],
+    "required_nuance": "annoyance mixed with humiliation",
+    "mental_hook": "Embarrassment, with irritation in it.",
+    "semantic_hint": "The sting you feel when you are proved wrong in public."
+  },
+  "chamber": {
+    "accepted_concepts": [
+      "an enclosed space",
+      "a room",
+      "a hall",
+      "a legislative body",
+      "one house of a parliament"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a household servant",
+        "misconception": "hears 'chambermaid' and takes the person"
+      },
+      {
+        "answer": "the open air",
+        "misconception": "inverts enclosed into open"
+      }
+    ],
+    "required_nuance": "an enclosed room, or the body that meets in one",
+    "mental_hook": "The room, and the assembly that sits in it.",
+    "semantic_hint": "What each of the two houses of a parliament is called."
+  },
+  "champion": {
+    "accepted_concepts": [
+      "support vigorously",
+      "defend a cause",
+      "fight for something publicly",
+      "advocate strongly",
+      "stand up for"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a winner",
+        "misconception": "takes the noun sense for the verb"
+      },
+      {
+        "answer": "to oppose",
+        "misconception": "inverts defence into attack"
+      }
+    ],
+    "required_nuance": "actively fighting for a cause",
+    "mental_hook": "The tested sense is the verb: to fight for something.",
+    "semantic_hint": "What a campaigner does for a cause nobody else will defend."
+  },
+  "charlatan": {
+    "accepted_concepts": [
+      "a fraud claiming expertise",
+      "a quack",
+      "an impostor pretending skill",
+      "a mountebank",
+      "someone faking knowledge"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a genuine expert",
+        "misconception": "inverts fraud into competence"
+      },
+      {
+        "answer": "a charming person",
+        "misconception": "hears 'charm' in the opening"
+      }
+    ],
+    "required_nuance": "pretends to knowledge they do not have",
+    "mental_hook": "Claims the expertise. Has none.",
+    "semantic_hint": "The word for a doctor with no medical training at all."
+  },
+  "chary": {
+    "accepted_concepts": [
+      "cautiously reluctant",
+      "wary",
+      "guarded about committing",
+      "sparing in giving",
+      "hesitant out of caution"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cheerful",
+        "misconception": "hears the sound-alike 'cheery'"
+      },
+      {
+        "answer": "reckless",
+        "misconception": "inverts caution into rashness"
+      }
+    ],
+    "required_nuance": "reluctance born of caution",
+    "mental_hook": "Careful about giving, or about committing.",
+    "semantic_hint": "How someone is with praise when they give it very sparingly."
+  },
+  "chastise": {
+    "accepted_concepts": [
+      "rebuke severely",
+      "punish",
+      "scold harshly",
+      "reprimand sternly",
+      "take to task"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make pure",
+        "misconception": "reads the opening as 'chaste'"
+      },
+      {
+        "answer": "to praise",
+        "misconception": "inverts rebuke into commendation"
+      }
+    ],
+    "required_nuance": "severe rebuke, sometimes with punishment",
+    "mental_hook": "A telling off with teeth.",
+    "semantic_hint": "What a headteacher does to a pupil who has gone much too far."
+  },
+  "chauvinism": {
+    "accepted_concepts": [
+      "excessive loyalty to one's own group",
+      "aggressive partisanship",
+      "jingoism",
+      "blind devotion to one's side",
+      "prejudiced group pride"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ordinary patriotism",
+        "misconception": "misses the excess that makes it a fault"
+      },
+      {
+        "answer": "self-doubt",
+        "misconception": "inverts group pride into insecurity"
+      }
+    ],
+    "required_nuance": "loyalty pushed until it becomes prejudice",
+    "mental_hook": "Named for a soldier too devoted to Napoleon.",
+    "semantic_hint": "The excessive pride in one's own group that shades into contempt for others."
+  },
+  "chauvinist": {
+    "accepted_concepts": [
+      "someone convinced their own group is superior",
+      "a bigot about their own side",
+      "a jingoist",
+      "a blindly partisan person",
+      "one who scorns other groups"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a patriot",
+        "misconception": "misses the excess that makes it a fault"
+      },
+      {
+        "answer": "a diplomat",
+        "misconception": "inverts partisanship into even-handedness"
+      }
+    ],
+    "required_nuance": "believes their group superior, and says so",
+    "mental_hook": "Convinced their side is simply better.",
+    "semantic_hint": "The word for someone convinced their own nation or sex is plainly superior."
+  },
+  "chauvinistic": {
+    "accepted_concepts": [
+      "aggressively convinced of one's group's superiority",
+      "jingoistic",
+      "blindly partisan",
+      "prejudiced in favour of one's own",
+      "contemptuous of outsiders"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "patriotic",
+        "misconception": "misses the excess and the aggression"
+      },
+      {
+        "answer": "open-minded",
+        "misconception": "inverts prejudice into openness"
+      }
+    ],
+    "required_nuance": "superiority asserted aggressively",
+    "mental_hook": "Not proud. Contemptuous of everyone else.",
+    "semantic_hint": "The adjective for rhetoric insisting one's own country is simply better than all others."
+  },
+  "check": {
+    "accepted_concepts": [
+      "restrain",
+      "halt the progress of",
+      "curb",
+      "hold in",
+      "stop something advancing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to examine",
+        "misconception": "takes the everyday sense rather than the tested one"
+      },
+      {
+        "answer": "to encourage",
+        "misconception": "inverts restraint into promotion"
+      }
+    ],
+    "required_nuance": "restraining, never inspecting",
+    "mental_hook": "The tested sense holds something back.",
+    "semantic_hint": "What a dam does to a river, and a rule does to a power."
+  },
+  "checkered": {
+    "accepted_concepts": [
+      "marked by both successes and failures",
+      "varied in fortune",
+      "mixed in record",
+      "alternating good and bad",
+      "uneven in history"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "patterned in squares",
+        "misconception": "keeps the literal pattern where a record is meant"
+      },
+      {
+        "answer": "consistently good",
+        "misconception": "inverts mixed into uniform"
+      }
+    ],
+    "required_nuance": "a record with dark squares as well as light",
+    "mental_hook": "Light squares and dark ones, in a career.",
+    "semantic_hint": "The adjective for a career with as many disgraces as triumphs."
+  },
+  "cherish": {
+    "accepted_concepts": [
+      "hold dear",
+      "treasure",
+      "protect something loved",
+      "prize highly",
+      "care for tenderly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to die or decay",
+        "misconception": "hears the sound-alike ending of 'perish'"
+      },
+      {
+        "answer": "to neglect",
+        "misconception": "inverts care into disregard"
+      }
+    ],
+    "required_nuance": "loving and protecting together",
+    "mental_hook": "Loved, and looked after.",
+    "semantic_hint": "What you do with a memory you keep and protect."
+  },
+  "chicanery": {
+    "accepted_concepts": [
+      "clever deception",
+      "trickery",
+      "underhand manoeuvring",
+      "subterfuge",
+      "sharp practice"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "poultry farming",
+        "misconception": "hears the opening and guesses"
+      },
+      {
+        "answer": "honest dealing",
+        "misconception": "inverts trickery into straightness"
+      }
+    ],
+    "required_nuance": "deception by clever manoeuvre, often legalistic",
+    "mental_hook": "Trickery with paperwork.",
+    "semantic_hint": "The clever legal trickery used to get round a rule."
+  },
+  "chide": {
+    "accepted_concepts": [
+      "scold mildly",
+      "reprove gently",
+      "tell off lightly",
+      "rebuke without harshness",
+      "admonish"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to conceal",
+        "misconception": "hears the sound-alike 'hide'"
+      },
+      {
+        "answer": "to praise",
+        "misconception": "inverts reproof into commendation"
+      }
+    ],
+    "required_nuance": "mild scolding, never severe",
+    "mental_hook": "A gentle telling off.",
+    "semantic_hint": "What a parent does with a mild word rather than a punishment."
+  },
+  "chimera": {
+    "accepted_concepts": [
+      "an illusion",
+      "an impossible hope",
+      "a fantasy that cannot be realised",
+      "a pipe dream",
+      "something imagined but unattainable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a picture-taking device",
+        "misconception": "hears the sound-alike 'camera'"
+      },
+      {
+        "answer": "a realistic plan",
+        "misconception": "inverts impossibility into feasibility"
+      }
+    ],
+    "required_nuance": "a hope that cannot possibly be fulfilled",
+    "mental_hook": "Named for a monster made of mismatched parts.",
+    "semantic_hint": "The impossible hope that keeps someone chasing something unattainable."
+  },
+  "chivalrous": {
+    "accepted_concepts": [
+      "courteous and honourable",
+      "gallant",
+      "courtly in manner",
+      "showing old-fashioned honour",
+      "considerate toward others"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "shivering with cold",
+        "misconception": "hears the sound-alike opening"
+      },
+      {
+        "answer": "rude",
+        "misconception": "inverts courtesy into discourtesy"
+      }
+    ],
+    "required_nuance": "courtesy with honour behind it",
+    "mental_hook": "The knight's code, applied to manners.",
+    "semantic_hint": "The adjective for the old-fashioned courtesy of a knight's code."
+  },
+  "choleric": {
+    "accepted_concepts": [
+      "easily angered",
+      "hot-tempered",
+      "irascible",
+      "quick to fury",
+      "testy"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "suffering a water-borne disease",
+        "misconception": "hears the sound-alike 'cholera'"
+      },
+      {
+        "answer": "placid",
+        "misconception": "inverts anger into calm"
+      }
+    ],
+    "required_nuance": "anger that comes very quickly",
+    "mental_hook": "One of the four humours, and the angry one.",
+    "semantic_hint": "The word for a temper that flares at the smallest provocation."
+  },
+  "chortle": {
+    "accepted_concepts": [
+      "laugh gleefully",
+      "chuckle with delight",
+      "snort with amusement",
+      "guffaw happily",
+      "laugh in a snorting way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to choke",
+        "misconception": "hears the shared opening"
+      },
+      {
+        "answer": "to weep",
+        "misconception": "inverts laughter into tears"
+      }
+    ],
+    "required_nuance": "a gleeful laugh with a snort in it",
+    "mental_hook": "Invented by Lewis Carroll, from chuckle and snort.",
+    "semantic_hint": "What Lewis Carroll coined from chuckle and snort."
+  },
+  "chronological": {
+    "accepted_concepts": [
+      "arranged in order of time",
+      "in time sequence",
+      "ordered by date",
+      "following the order events happened",
+      "sequential in time"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "long-lasting",
+        "misconception": "hears 'chronic' and takes duration instead of order"
+      },
+      {
+        "answer": "in random order",
+        "misconception": "inverts sequence into disorder"
+      }
+    ],
+    "required_nuance": "ordered by when things happened",
+    "mental_hook": "Earliest first, latest last.",
+    "semantic_hint": "How a list is ordered when the earliest event comes first."
+  },
+  "churlish": {
+    "accepted_concepts": [
+      "rude",
+      "mean-spirited",
+      "surly",
+      "ungracious",
+      "meanly ill-tempered"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "immature",
+        "misconception": "hears the sound-alike 'childish'"
+      },
+      {
+        "answer": "gracious",
+        "misconception": "inverts rudeness into courtesy"
+      }
+    ],
+    "required_nuance": "rudeness with meanness in it",
+    "mental_hook": "\"It would be churlish to refuse\" means it would be mean-spirited.",
+    "semantic_hint": "The word for refusing a kind offer in an ungracious way."
+  },
+  "circumlocution": {
+    "accepted_concepts": [
+      "roundabout speech",
+      "talking around a subject",
+      "evasive wordiness",
+      "saying in many words what needs few",
+      "periphrasis"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the distance around a circle",
+        "misconception": "hears the sound-alike 'circumference'"
+      },
+      {
+        "answer": "plain speech",
+        "misconception": "inverts roundaboutness into directness"
+      }
+    ],
+    "required_nuance": "going round the point rather than at it",
+    "mental_hook": "Talking round the thing, never at it.",
+    "semantic_hint": "The long way round a subject that a plain sentence would settle."
+  },
+  "circumscribe": {
+    "accepted_concepts": [
+      "restrict within limits",
+      "confine",
+      "set bounds to",
+      "limit the scope of",
+      "hem in"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to draw a circle",
+        "misconception": "reads the Latin halves literally"
+      },
+      {
+        "answer": "to expand",
+        "misconception": "inverts restriction into widening"
+      }
+    ],
+    "required_nuance": "limits drawn deliberately around something",
+    "mental_hook": "A line drawn round it, and nothing outside allowed.",
+    "semantic_hint": "What a constitution does to the powers of a president."
+  },
+  "circumscribed": {
+    "accepted_concepts": [
+      "restricted within limits",
+      "confined",
+      "bounded",
+      "narrowly limited",
+      "hemmed in"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "drawn round in a circle",
+        "misconception": "reads the Latin halves literally"
+      },
+      {
+        "answer": "unlimited",
+        "misconception": "inverts restriction into freedom"
+      }
+    ],
+    "required_nuance": "bounded, with the limits set deliberately",
+    "mental_hook": "The boundary is already drawn.",
+    "semantic_hint": "How a role is described when its powers have been deliberately limited."
+  },
+  "circumspect": {
+    "accepted_concepts": [
+      "cautious",
+      "careful about consequences",
+      "prudent",
+      "wary before acting",
+      "considering every side"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "suspicious of others",
+        "misconception": "hears 'suspect' and reverses who is being wary"
+      },
+      {
+        "answer": "reckless",
+        "misconception": "inverts caution into rashness"
+      }
+    ],
+    "required_nuance": "looking all around before acting",
+    "mental_hook": "Looks all around before stepping.",
+    "semantic_hint": "How you behave when you weigh every consequence before speaking."
+  }
+}
