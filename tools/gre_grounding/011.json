@@ -878,5 +878,1325 @@
     "required_nuance": "shown not to have done it, rather than forgiven for doing it",
     "mental_hook": "The burden lifted off, which is the Latin.",
     "semantic_hint": "What a court does when it finds the accused was never guilty at all."
+  },
+  "exorbitant": {
+    "accepted_concepts": [
+      "unreasonably high in price",
+      "far beyond what is reasonable",
+      "extortionate",
+      "excessive in amount charged",
+      "immoderately steep"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "modest and reasonable",
+        "misconception": "inverts excess into fairness"
+      },
+      {
+        "answer": "relating to a planet's path",
+        "misconception": "hears the word 'orbit' inside it"
+      }
+    ],
+    "required_nuance": "excess, and almost always about cost",
+    "mental_hook": "Out of orbit, which is the Latin, and usually about price.",
+    "semantic_hint": "The word for a price far beyond anything the thing is worth."
+  },
+  "exorcise": {
+    "accepted_concepts": [
+      "drive out an evil spirit",
+      "banish something haunting",
+      "purge a troubling memory",
+      "expel by ritual",
+      "rid a place of what possesses it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to summon",
+        "misconception": "inverts driving out into calling up"
+      },
+      {
+        "answer": "physical training",
+        "misconception": "hears the sound-alike 'exercise'"
+      }
+    ],
+    "required_nuance": "driving out something that has taken hold",
+    "mental_hook": "Drives the spirit out, or the memory.",
+    "semantic_hint": "What a priest does to a haunted house in the old stories."
+  },
+  "exotic": {
+    "accepted_concepts": [
+      "strikingly unusual",
+      "from a distant place",
+      "foreign and unfamiliar",
+      "strange in an alluring way",
+      "not native to here"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "commonplace",
+        "misconception": "inverts the unfamiliar into the everyday"
+      },
+      {
+        "answer": "poisonous",
+        "misconception": "hears the sound-alike 'toxic'"
+      }
+    ],
+    "required_nuance": "unfamiliar because it comes from far away",
+    "mental_hook": "From far off, and it shows.",
+    "semantic_hint": "The word for a fruit nobody in the market has seen before."
+  },
+  "expansive": {
+    "accepted_concepts": [
+      "wide-ranging",
+      "broad in scope",
+      "open and communicative",
+      "unreserved in manner",
+      "sweeping in extent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "reserved and closed off",
+        "misconception": "inverts openness into reticence"
+      },
+      {
+        "answer": "costly",
+        "misconception": "hears the sound-alike 'expensive'"
+      }
+    ],
+    "required_nuance": "broad, in area or in manner",
+    "mental_hook": "Wide, whether a view or a mood.",
+    "semantic_hint": "The word for a host who talks freely and at length after dinner."
+  },
+  "expatiate": {
+    "accepted_concepts": [
+      "speak or write at length",
+      "elaborate at large",
+      "dwell on a subject in detail",
+      "expound copiously",
+      "go on about something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to summarise briefly",
+        "misconception": "inverts length into brevity"
+      },
+      {
+        "answer": "to live abroad",
+        "misconception": "confuses it with the near-twin about leaving one's country"
+      }
+    ],
+    "required_nuance": "going on at length about a subject",
+    "mental_hook": "At length, and then some more.",
+    "semantic_hint": "What a speaker does by dwelling on one point for twenty minutes."
+  },
+  "expatriate": {
+    "accepted_concepts": [
+      "a person living outside their native country",
+      "someone settled abroad",
+      "an emigrant living in another land",
+      "one who has left their homeland",
+      "a foreign resident"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to speak at length",
+        "misconception": "confuses it with the near-twin about elaborating"
+      },
+      {
+        "answer": "a patriot",
+        "misconception": "hears the word inside it and drops the leaving"
+      }
+    ],
+    "required_nuance": "living away from the country one belongs to",
+    "mental_hook": "Out of the fatherland, which is the Latin.",
+    "semantic_hint": "The word for a British engineer who has lived in Dubai for ten years."
+  },
+  "expedient": {
+    "accepted_concepts": [
+      "convenient and practical",
+      "useful for the purpose at hand",
+      "advantageous though perhaps not right",
+      "politic",
+      "serving the immediate need"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "principled",
+        "misconception": "inverts practical convenience into moral rightness"
+      },
+      {
+        "answer": "very fast",
+        "misconception": "confuses it with the near-twin about hurrying a process"
+      }
+    ],
+    "required_nuance": "convenient, and that is a different question from right",
+    "mental_hook": "Useful now. Right is a separate question.",
+    "semantic_hint": "The word for a solution chosen because it is convenient, not because it is just."
+  },
+  "expedite": {
+    "accepted_concepts": [
+      "speed up a process",
+      "hasten",
+      "make happen sooner",
+      "accelerate the handling of",
+      "clear the way for"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to delay",
+        "misconception": "inverts hastening into holding up"
+      },
+      {
+        "answer": "convenient though improper",
+        "misconception": "confuses it with the near-twin about practical convenience"
+      }
+    ],
+    "required_nuance": "making a process go faster",
+    "mental_hook": "Pushes it through, quicker.",
+    "semantic_hint": "What paying a fee does to a passport application."
+  },
+  "expel": {
+    "accepted_concepts": [
+      "force out",
+      "drive away",
+      "eject from a place",
+      "banish",
+      "remove by authority"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to admit",
+        "misconception": "inverts driving out into letting in"
+      },
+      {
+        "answer": "to spell out",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "forced out, not leaving by choice",
+    "mental_hook": "Out, and not by their own decision.",
+    "semantic_hint": "What a school does to a pupil who will not be allowed back."
+  },
+  "expiate": {
+    "accepted_concepts": [
+      "make amends for wrongdoing",
+      "atone",
+      "pay for a fault by suffering or service",
+      "redress a wrong done",
+      "work off guilt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to run out of validity",
+        "misconception": "hears the sound-alike 'expire'"
+      },
+      {
+        "answer": "to deny the wrong",
+        "misconception": "inverts making amends into refusing responsibility"
+      }
+    ],
+    "required_nuance": "paying for a wrong, not merely regretting it",
+    "mental_hook": "Sorry is not enough. This is paying.",
+    "semantic_hint": "What years of public service might do for one old disgrace."
+  },
+  "explicable": {
+    "accepted_concepts": [
+      "able to be explained",
+      "accountable by some reason",
+      "intelligible once set out",
+      "not mysterious",
+      "capable of being accounted for"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "baffling",
+        "misconception": "inverts the accountable into the mysterious"
+      },
+      {
+        "answer": "stated in plain detail",
+        "misconception": "confuses being explainable with being clearly stated"
+      }
+    ],
+    "required_nuance": "an explanation is available, whether or not one has been given",
+    "mental_hook": "There is a reason, once you look.",
+    "semantic_hint": "The word for a strange result that turns out to have an ordinary cause."
+  },
+  "explicate": {
+    "accepted_concepts": [
+      "analyse and explain in detail",
+      "unfold the meaning of",
+      "set out point by point",
+      "interpret closely",
+      "expound"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to obscure",
+        "misconception": "inverts explaining into confusing"
+      },
+      {
+        "answer": "to state plainly and in detail",
+        "misconception": "confuses the act of analysing with the near-twin adjective about clear statement"
+      }
+    ],
+    "required_nuance": "explaining by unfolding the parts",
+    "mental_hook": "Unfolds it, which is the Latin.",
+    "semantic_hint": "What a critic does to a difficult poem, line by line."
+  },
+  "explicit": {
+    "accepted_concepts": [
+      "stated clearly and in detail",
+      "leaving nothing to be inferred",
+      "unambiguous",
+      "spelled out",
+      "expressly said"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "implied but unstated",
+        "misconception": "inverts the spelled out into the merely suggested"
+      },
+      {
+        "answer": "able to be explained",
+        "misconception": "confuses being stated clearly with the near-twin about having an explanation"
+      }
+    ],
+    "required_nuance": "said outright rather than implied",
+    "mental_hook": "Said out loud, not left to be guessed.",
+    "semantic_hint": "The word for an instruction that leaves nothing to be inferred."
+  },
+  "exploit": {
+    "accepted_concepts": [
+      "use unfairly for one's own gain",
+      "take advantage of someone",
+      "turn a person or resource to profit unjustly",
+      "make selfish use of",
+      "a notable feat"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to protect",
+        "misconception": "inverts taking advantage into safeguarding"
+      },
+      {
+        "answer": "to explore",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "using for gain, and the tested sense is unfair",
+    "mental_hook": "Uses them. The noun means a daring feat.",
+    "semantic_hint": "What an unscrupulous employer does to workers with no other options."
+  },
+  "exploitation": {
+    "accepted_concepts": [
+      "unfair use of someone for gain",
+      "taking advantage of people or resources",
+      "the act of using others selfishly",
+      "abuse for profit",
+      "turning someone's weakness to one's own benefit"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fair dealing",
+        "misconception": "inverts abuse into equitable treatment"
+      },
+      {
+        "answer": "exploration of new ground",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "use that is unfair to the one used",
+    "mental_hook": "Somebody profits, and it is not them.",
+    "semantic_hint": "The word for profiting from workers who have no power to refuse."
+  },
+  "exploitative": {
+    "accepted_concepts": [
+      "taking unfair advantage",
+      "predatory in dealing with people",
+      "profiting at another's expense",
+      "abusive of those with less power",
+      "extortionate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fair and equitable",
+        "misconception": "inverts predation into fairness"
+      },
+      {
+        "answer": "adventurous",
+        "misconception": "hears the sense of a daring feat"
+      }
+    ],
+    "required_nuance": "the advantage is taken unfairly",
+    "mental_hook": "Gains from them, and gives nothing back.",
+    "semantic_hint": "The word for a loan whose terms are designed to trap the borrower."
+  },
+  "exponent": {
+    "accepted_concepts": [
+      "an advocate of a doctrine",
+      "a leading practitioner of a style",
+      "a champion of a cause",
+      "someone who represents an approach",
+      "a proponent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an opponent",
+        "misconception": "inverts advocacy into opposition"
+      },
+      {
+        "answer": "a small raised number in mathematics",
+        "misconception": "takes the arithmetic sense for the tested one"
+      }
+    ],
+    "required_nuance": "one who advocates or best represents something",
+    "mental_hook": "Stands for it, and stands out doing it.",
+    "semantic_hint": "The word for the foremost champion of a school of thought."
+  },
+  "exposition": {
+    "accepted_concepts": [
+      "a clear explanation",
+      "a systematic setting out of a subject",
+      "an explanatory account",
+      "a large public display",
+      "an exhibition"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a concealment",
+        "misconception": "inverts setting out into hiding"
+      },
+      {
+        "answer": "a strong protest",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "setting something out plainly, or a public showing",
+    "mental_hook": "Sets it out, whether an argument or a fair.",
+    "semantic_hint": "The part of a lecture that lays out the subject plainly."
+  },
+  "expostulation": {
+    "accepted_concepts": [
+      "earnest protest",
+      "a remonstrance",
+      "a reasoned objection urged on someone",
+      "an appeal against a course of action",
+      "strong disagreement voiced"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "willing assent",
+        "misconception": "inverts protest into agreement"
+      },
+      {
+        "answer": "a clear explanation",
+        "misconception": "confuses protesting with setting a subject out"
+      }
+    ],
+    "required_nuance": "protest urged earnestly and by reasoning",
+    "mental_hook": "Argues against it, and means it.",
+    "semantic_hint": "The word for a friend's earnest protest against a foolish plan."
+  },
+  "expound": {
+    "accepted_concepts": [
+      "explain in detail",
+      "set out at length",
+      "elaborate on a subject",
+      "present systematically",
+      "unfold an argument fully"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to summarise",
+        "misconception": "inverts detail into compression"
+      },
+      {
+        "answer": "to strike repeatedly",
+        "misconception": "hears the word 'pound'"
+      }
+    ],
+    "required_nuance": "explaining fully and systematically",
+    "mental_hook": "Lays the whole thing out.",
+    "semantic_hint": "What a teacher does when they set out a theory in full."
+  },
+  "expunge": {
+    "accepted_concepts": [
+      "erase completely",
+      "wipe from the record",
+      "obliterate",
+      "delete so no trace remains",
+      "strike out entirely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to preserve",
+        "misconception": "inverts erasing into recording"
+      },
+      {
+        "answer": "to soak up liquid",
+        "misconception": "hears the word 'sponge'"
+      }
+    ],
+    "required_nuance": "erased so completely no trace is left",
+    "mental_hook": "Gone from the record, as if never written.",
+    "semantic_hint": "What a court does to a conviction it wipes from someone's record."
+  },
+  "expurgate": {
+    "accepted_concepts": [
+      "remove objectionable material from a text",
+      "censor a book's offending passages",
+      "clean up a work for publication",
+      "bowdlerise",
+      "cut out what is thought improper"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to restore what was cut",
+        "misconception": "inverts removing into putting back"
+      },
+      {
+        "answer": "to erase completely",
+        "misconception": "confuses cutting parts with destroying the whole"
+      }
+    ],
+    "required_nuance": "removing the offensive parts, leaving the rest",
+    "mental_hook": "Cleans it up for polite readers.",
+    "semantic_hint": "What a publisher did to a classic novel to make it fit for schools."
+  },
+  "extant": {
+    "accepted_concepts": [
+      "still in existence",
+      "surviving to the present",
+      "not lost or destroyed",
+      "remaining in being",
+      "still to be found"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "extinct",
+        "misconception": "inverts surviving into vanished"
+      },
+      {
+        "answer": "outside of something",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "surviving now, against the odds of time",
+    "mental_hook": "Still here, after all this time.",
+    "semantic_hint": "The word for the handful of manuscripts that survived the fire."
+  },
+  "extemporaneous": {
+    "accepted_concepts": [
+      "done without preparation",
+      "spoken on the spot",
+      "impromptu",
+      "unrehearsed",
+      "made up as one goes"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "carefully scripted",
+        "misconception": "inverts the unprepared into the rehearsed"
+      },
+      {
+        "answer": "lasting only a short time",
+        "misconception": "hears the word 'temporary'"
+      }
+    ],
+    "required_nuance": "without preparation, not without lasting",
+    "mental_hook": "No script. Straight out of the moment.",
+    "semantic_hint": "The word for remarks made with no notes and no warning."
+  },
+  "extemporize": {
+    "accepted_concepts": [
+      "improvise",
+      "make it up as one goes",
+      "speak without preparation",
+      "ad-lib",
+      "invent on the spot"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to rehearse thoroughly",
+        "misconception": "inverts improvising into preparing"
+      },
+      {
+        "answer": "to make something temporary",
+        "misconception": "hears the word 'temporary'"
+      }
+    ],
+    "required_nuance": "composing it in the moment",
+    "mental_hook": "Invents it while doing it.",
+    "semantic_hint": "What a jazz soloist does over the chord changes."
+  },
+  "extend": {
+    "accepted_concepts": [
+      "make longer or wider",
+      "prolong in time",
+      "stretch out",
+      "offer formally",
+      "hold out to someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to curtail",
+        "misconception": "inverts lengthening into cutting short"
+      },
+      {
+        "answer": "to swell from inside",
+        "misconception": "confuses stretching outward with the near-twin about bloating"
+      }
+    ],
+    "required_nuance": "reaching further out, in space, time or offer",
+    "mental_hook": "Reaches further, or holds it out to you.",
+    "semantic_hint": "What a host does with an invitation, and what a deadline does when moved."
+  },
+  "extenuate": {
+    "accepted_concepts": [
+      "make an offence seem less serious",
+      "mitigate blame",
+      "excuse partly by circumstance",
+      "palliate a fault",
+      "lessen the apparent gravity of"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make worse",
+        "misconception": "inverts lessening blame into aggravating it"
+      },
+      {
+        "answer": "to prove innocence",
+        "misconception": "confuses reducing blame with removing it entirely"
+      }
+    ],
+    "required_nuance": "reducing the blame, never erasing it",
+    "mental_hook": "Less bad. Not innocent.",
+    "semantic_hint": "What a hard upbringing might do to how a court views an offence."
+  },
+  "extenuating": {
+    "accepted_concepts": [
+      "making an offence less serious",
+      "mitigating the blame",
+      "partly excusing by circumstance",
+      "reducing the gravity of a fault",
+      "lessening culpability"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "aggravating the offence",
+        "misconception": "inverts mitigation into worsening"
+      },
+      {
+        "answer": "proving innocence outright",
+        "misconception": "confuses reducing blame with removing it"
+      }
+    ],
+    "required_nuance": "lessening blame, not removing it",
+    "mental_hook": "Explains it. Does not excuse it entirely.",
+    "semantic_hint": "The word for circumstances that make a court treat an offence more leniently."
+  },
+  "extol": {
+    "accepted_concepts": [
+      "praise enthusiastically",
+      "laud",
+      "acclaim in the highest terms",
+      "sing the praises of",
+      "commend warmly and publicly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to disparage",
+        "misconception": "inverts praise into belittling"
+      },
+      {
+        "answer": "to obtain by threat",
+        "misconception": "hears the sound-alike about getting something by force"
+      }
+    ],
+    "required_nuance": "praise, warm and public",
+    "mental_hook": "Praise, loudly.",
+    "semantic_hint": "What a grateful speech does to the virtues of a departing colleague."
+  },
+  "extort": {
+    "accepted_concepts": [
+      "obtain by force or threats",
+      "wring something out of someone",
+      "blackmail into giving",
+      "coerce a payment from",
+      "take by intimidation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to give freely",
+        "misconception": "inverts coercion into generosity"
+      },
+      {
+        "answer": "to praise highly",
+        "misconception": "hears the sound-alike about warm praise"
+      }
+    ],
+    "required_nuance": "getting it by threat, never by asking",
+    "mental_hook": "Twisted out of them.",
+    "semantic_hint": "What a racketeer does to a shopkeeper for protection money."
+  },
+  "extraneous": {
+    "accepted_concepts": [
+      "irrelevant",
+      "not belonging to the matter",
+      "superfluous to the point",
+      "coming from outside and adding nothing",
+      "immaterial"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "essential to the point",
+        "misconception": "inverts irrelevance into necessity"
+      },
+      {
+        "answer": "extremely unusual",
+        "misconception": "hears the shared opening of 'extraordinary'"
+      }
+    ],
+    "required_nuance": "outside the matter, and adding nothing to it",
+    "mental_hook": "From outside, and it does not belong.",
+    "semantic_hint": "The word for detail in an essay that has nothing to do with the argument."
+  },
+  "extrapolate": {
+    "accepted_concepts": [
+      "extend a conclusion to unknown cases",
+      "project a trend beyond the data",
+      "infer beyond what is observed",
+      "generalise from what is known",
+      "carry a pattern forward"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to estimate between known points",
+        "misconception": "confuses reaching beyond the data with filling in within it"
+      },
+      {
+        "answer": "to measure directly",
+        "misconception": "loses the inference and replaces it with observation"
+      }
+    ],
+    "required_nuance": "reaching beyond the data, not filling in between",
+    "mental_hook": "Past the edge of the data.",
+    "semantic_hint": "What a forecast does when it carries last year's trend into next year."
+  },
+  "extrapolation": {
+    "accepted_concepts": [
+      "an estimate extended beyond known data",
+      "a projection past the observed range",
+      "an inference carrying a trend forward",
+      "a generalisation beyond the evidence",
+      "reaching past the measurements"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an estimate between known points",
+        "misconception": "confuses reaching beyond with filling in between"
+      },
+      {
+        "answer": "a direct measurement",
+        "misconception": "loses that it is inferred rather than observed"
+      }
+    ],
+    "required_nuance": "an estimate beyond the range actually measured",
+    "mental_hook": "A guess, but a disciplined one, past the data.",
+    "semantic_hint": "The word for a population estimate for a year nobody has counted."
+  },
+  "extravagant": {
+    "accepted_concepts": [
+      "excessive in spending",
+      "lavish beyond reason",
+      "immoderate in expression",
+      "profligate",
+      "spending far more than needed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "frugal",
+        "misconception": "inverts lavishness into thrift"
+      },
+      {
+        "answer": "very unusual",
+        "misconception": "hears the shared opening of 'extraordinary'"
+      }
+    ],
+    "required_nuance": "excess, in spending or in expression",
+    "mental_hook": "Too much, and it shows.",
+    "semantic_hint": "The word for a wedding that costs three times what anyone could afford."
+  },
+  "exuberant": {
+    "accepted_concepts": [
+      "full of lively energy",
+      "overflowing with enthusiasm",
+      "high-spirited",
+      "abundantly cheerful",
+      "growing or feeling in profusion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "subdued",
+        "misconception": "inverts overflowing spirits into flatness"
+      },
+      {
+        "answer": "wealthy",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "energy and spirits in abundance",
+    "mental_hook": "Overflowing, with energy or with growth.",
+    "semantic_hint": "How a team celebrates in the minute after winning a final."
+  },
+  "fabricate": {
+    "accepted_concepts": [
+      "invent falsely",
+      "make up a story",
+      "concoct evidence",
+      "manufacture",
+      "construct from parts"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to verify",
+        "misconception": "inverts inventing into checking"
+      },
+      {
+        "answer": "to weave cloth",
+        "misconception": "hears the word 'fabric'"
+      }
+    ],
+    "required_nuance": "making it, and the tested sense is making it up",
+    "mental_hook": "Builds it, and often out of nothing.",
+    "semantic_hint": "What someone does to an alibi that never happened."
+  },
+  "facetious": {
+    "accepted_concepts": [
+      "joking about something serious",
+      "flippant when gravity is called for",
+      "treating a grave matter lightly",
+      "tongue in cheek",
+      "glibly humorous at the wrong moment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "solemn and earnest",
+        "misconception": "inverts flippancy into gravity"
+      },
+      {
+        "answer": "genuinely witty and apt",
+        "misconception": "loses the inappropriateness that defines it"
+      }
+    ],
+    "required_nuance": "humour in a place where it does not belong",
+    "mental_hook": "Funny, at the wrong moment.",
+    "semantic_hint": "The word for a joke made during someone else's genuine crisis."
+  },
+  "facile": {
+    "accepted_concepts": [
+      "superficially easy",
+      "shallow and too simple",
+      "glib",
+      "achieved without real effort or thought",
+      "simplistic"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "profound and considered",
+        "misconception": "inverts shallowness into depth"
+      },
+      {
+        "answer": "genuinely skilful",
+        "misconception": "takes the neutral sense of easy and loses the criticism"
+      }
+    ],
+    "required_nuance": "easy in a way that betrays shallowness",
+    "mental_hook": "Easy, and that is the complaint.",
+    "semantic_hint": "The word for an answer that comes too readily and explains nothing."
+  },
+  "facilitate": {
+    "accepted_concepts": [
+      "make easier",
+      "smooth the way for",
+      "help a process along",
+      "assist something to happen",
+      "remove the obstacles to"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to obstruct",
+        "misconception": "inverts easing into hindering"
+      },
+      {
+        "answer": "to do it oneself",
+        "misconception": "confuses helping others act with acting in their place"
+      }
+    ],
+    "required_nuance": "making it easier for something else to happen",
+    "mental_hook": "Makes it easy for someone else to do.",
+    "semantic_hint": "What a good chairperson does for a difficult discussion."
+  },
+  "faction": {
+    "accepted_concepts": [
+      "a small dissenting group within a larger one",
+      "a splinter bloc",
+      "a clique pursuing its own line",
+      "an internal party at odds with the rest",
+      "a self-interested subgroup"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the united whole",
+        "misconception": "inverts a breakaway part into the entire body"
+      },
+      {
+        "answer": "something known to be true",
+        "misconception": "hears the word 'fact'"
+      }
+    ],
+    "required_nuance": "a group inside a group, and at odds with it",
+    "mental_hook": "A party inside the party.",
+    "semantic_hint": "The word for a breakaway group quarrelling inside a political party."
+  },
+  "factious": {
+    "accepted_concepts": [
+      "given to internal conflict",
+      "prone to splitting into quarrelling groups",
+      "divisive",
+      "marked by dissension",
+      "quarrelsome within a body"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "harmonious and united",
+        "misconception": "inverts division into unity"
+      },
+      {
+        "answer": "artificially contrived",
+        "misconception": "confuses internal quarrelling with the near-twin about being manufactured"
+      }
+    ],
+    "required_nuance": "quarrelling that splits a group from within",
+    "mental_hook": "The splitting, not the faking.",
+    "semantic_hint": "The word for a party permanently at war with itself."
+  },
+  "factitious": {
+    "accepted_concepts": [
+      "artificially created",
+      "manufactured rather than genuine",
+      "contrived",
+      "produced deliberately to seem real",
+      "sham"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "genuine and spontaneous",
+        "misconception": "inverts the contrived into the natural"
+      },
+      {
+        "answer": "given to internal quarrelling",
+        "misconception": "confuses being manufactured with the near-twin about division"
+      }
+    ],
+    "required_nuance": "made up on purpose, not arising naturally",
+    "mental_hook": "Manufactured. The near-twin means quarrelsome.",
+    "semantic_hint": "The word for a demand created entirely by advertising."
+  },
+  "fad": {
+    "accepted_concepts": [
+      "a short-lived enthusiasm",
+      "a craze that passes",
+      "a brief vogue",
+      "a fashion with no staying power",
+      "a passing trend"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a lasting tradition",
+        "misconception": "inverts the short-lived into the permanent"
+      },
+      {
+        "answer": "to grow dim",
+        "misconception": "hears the sound-alike 'fade'"
+      }
+    ],
+    "required_nuance": "popular, and briefly",
+    "mental_hook": "Everyone, for a month.",
+    "semantic_hint": "The word for a toy every child wants for one summer and then forgets."
+  },
+  "fallacious": {
+    "accepted_concepts": [
+      "based on faulty reasoning",
+      "unsound as an argument",
+      "specious",
+      "logically flawed",
+      "wrong because the reasoning fails"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "logically valid",
+        "misconception": "inverts unsound reasoning into sound"
+      },
+      {
+        "answer": "simply untrue in fact",
+        "misconception": "confuses a broken argument with a false statement"
+      }
+    ],
+    "required_nuance": "the reasoning is broken, not merely the conclusion",
+    "mental_hook": "The argument is broken, whatever the conclusion.",
+    "semantic_hint": "The word for an argument whose logic does not hold even if the conclusion happens to be right."
+  },
+  "fallacy": {
+    "accepted_concepts": [
+      "a flawed argument",
+      "a mistaken belief widely held",
+      "an error in reasoning",
+      "a misconception",
+      "a piece of unsound logic"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a proven truth",
+        "misconception": "inverts an error into a fact"
+      },
+      {
+        "answer": "a deliberate lie",
+        "misconception": "confuses faulty reasoning with intentional deception"
+      }
+    ],
+    "required_nuance": "an error in reasoning or belief, not a deliberate lie",
+    "mental_hook": "Wrong, but not a lie.",
+    "semantic_hint": "The word for the common but mistaken belief that lightning never strikes twice."
+  },
+  "fallible": {
+    "accepted_concepts": [
+      "capable of making mistakes",
+      "liable to be wrong",
+      "not perfect in judgement",
+      "prone to error",
+      "able to fail"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "incapable of error",
+        "misconception": "inverts liability to mistakes into perfection"
+      },
+      {
+        "answer": "easily broken",
+        "misconception": "confuses being liable to err with being physically fragile"
+      }
+    ],
+    "required_nuance": "capable of being wrong, not certain to be",
+    "mental_hook": "Can be wrong. Not always is.",
+    "semantic_hint": "The word for a memory or a judge that can get things wrong."
+  },
+  "fallow": {
+    "accepted_concepts": [
+      "left unplanted for a season",
+      "temporarily inactive",
+      "uncultivated but capable",
+      "resting between uses",
+      "lying idle to recover"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "actively productive",
+        "misconception": "inverts resting into yielding"
+      },
+      {
+        "answer": "permanently barren",
+        "misconception": "confuses a deliberate rest with lasting infertility"
+      }
+    ],
+    "required_nuance": "resting on purpose, not ruined",
+    "mental_hook": "Resting, and it will produce again.",
+    "semantic_hint": "What a field is when a farmer leaves it unplanted for a year."
+  },
+  "falter": {
+    "accepted_concepts": [
+      "lose strength or resolve",
+      "hesitate in speech or step",
+      "waver",
+      "stumble in going on",
+      "begin to give way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to persevere steadily",
+        "misconception": "inverts wavering into holding firm"
+      },
+      {
+        "answer": "to change something",
+        "misconception": "hears the sound-alike 'alter'"
+      }
+    ],
+    "required_nuance": "wavering, but not yet stopping",
+    "mental_hook": "Wobbles. Has not fallen yet.",
+    "semantic_hint": "What a voice does mid-sentence when someone loses their nerve."
+  },
+  "fanatical": {
+    "accepted_concepts": [
+      "filled with extreme uncritical zeal",
+      "obsessively devoted to a cause",
+      "immoderate in belief",
+      "rabid in enthusiasm",
+      "unreasoning in commitment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "moderate",
+        "misconception": "inverts extreme zeal into balance"
+      },
+      {
+        "answer": "merely enthusiastic",
+        "misconception": "understates unreasoning zeal into ordinary keenness"
+      }
+    ],
+    "required_nuance": "zeal past the point where reason reaches it",
+    "mental_hook": "Past enthusiasm. Past argument.",
+    "semantic_hint": "The word for a devotion no evidence could ever shake."
+  },
+  "fanciful": {
+    "accepted_concepts": [
+      "imaginative and unrealistic",
+      "far-fetched",
+      "existing only in imagination",
+      "whimsically invented",
+      "not grounded in fact"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "sober and realistic",
+        "misconception": "inverts imagination into hard fact"
+      },
+      {
+        "answer": "ornately decorated",
+        "misconception": "takes the sense of elaborate decoration"
+      }
+    ],
+    "required_nuance": "imagined, and unlikely to be true",
+    "mental_hook": "A lovely idea, and not a real one.",
+    "semantic_hint": "The word for a theory that is charming and has no evidence behind it."
+  },
+  "fancy": {
+    "accepted_concepts": [
+      "imagine",
+      "suppose without evidence",
+      "take a liking to",
+      "have a desire for",
+      "picture in the mind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to dislike",
+        "misconception": "inverts being drawn to into aversion"
+      },
+      {
+        "answer": "decorated and elaborate",
+        "misconception": "takes the adjective sense for the tested verb"
+      }
+    ],
+    "required_nuance": "the tested sense is imagining or being drawn to",
+    "mental_hook": "Imagines it, or wants it.",
+    "semantic_hint": "What someone does when they picture something, or when they are drawn to it."
+  },
+  "fanfare": {
+    "accepted_concepts": [
+      "a showy public display",
+      "a ceremonious flourish",
+      "loud publicity around an event",
+      "an ostentatious announcement",
+      "a blast of trumpets marking an arrival"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a quiet understated entrance",
+        "misconception": "inverts loud display into silence"
+      },
+      {
+        "answer": "a devoted follower",
+        "misconception": "hears the word 'fan'"
+      }
+    ],
+    "required_nuance": "showy noise marking an occasion",
+    "mental_hook": "Trumpets, and everyone looks.",
+    "semantic_hint": "The showy publicity around a product launch."
+  },
+  "fare": {
+    "accepted_concepts": [
+      "get along in a given way",
+      "turn out well or badly",
+      "manage in circumstances",
+      "proceed as things go",
+      "come off in the event"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a price paid to travel",
+        "misconception": "takes the common noun sense for the tested verb"
+      },
+      {
+        "answer": "just and impartial",
+        "misconception": "hears the sound-alike about even treatment"
+      }
+    ],
+    "required_nuance": "how someone or something turns out",
+    "mental_hook": "How did it go? That is the verb.",
+    "semantic_hint": "The verb in the question of how a candidate did in the election."
+  },
+  "fastidious": {
+    "accepted_concepts": [
+      "very attentive to detail",
+      "hard to please",
+      "meticulous about small things",
+      "punctilious",
+      "particular to the point of fussiness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "careless and slovenly",
+        "misconception": "inverts meticulousness into sloppiness"
+      },
+      {
+        "answer": "very quick",
+        "misconception": "hears the word 'fast'"
+      }
+    ],
+    "required_nuance": "attention to detail that shades into fussiness",
+    "mental_hook": "Notices the detail, and minds about it.",
+    "semantic_hint": "The word for someone who straightens every picture in the room."
+  },
+  "fathom": {
+    "accepted_concepts": [
+      "understand deeply",
+      "get to the bottom of",
+      "comprehend something puzzling",
+      "penetrate to the meaning",
+      "work out fully"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to misunderstand",
+        "misconception": "inverts grasping into missing"
+      },
+      {
+        "answer": "a parent",
+        "misconception": "hears the word 'father'"
+      }
+    ],
+    "required_nuance": "understanding by getting to the bottom of it",
+    "mental_hook": "A measure of depth, turned into understanding.",
+    "semantic_hint": "What you cannot do to a motive that makes no sense at all."
+  },
+  "fatuous": {
+    "accepted_concepts": [
+      "silly and self-satisfied",
+      "inane",
+      "foolish without knowing it",
+      "vacuous",
+      "complacently stupid"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "astute",
+        "misconception": "inverts foolishness into shrewdness"
+      },
+      {
+        "answer": "overweight",
+        "misconception": "hears the word 'fat'"
+      }
+    ],
+    "required_nuance": "foolish, and pleased with itself",
+    "mental_hook": "Silly, and quite happy about it.",
+    "semantic_hint": "The word for a smug remark that is also completely empty."
+  },
+  "fawn": {
+    "accepted_concepts": [
+      "flatter servilely",
+      "grovel for favour",
+      "curry favour by cringing",
+      "toady",
+      "show exaggerated affection to win approval"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to defy",
+        "misconception": "inverts grovelling into opposition"
+      },
+      {
+        "answer": "a young deer",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "flattery with a cringe in it",
+    "mental_hook": "Flatters, from below.",
+    "semantic_hint": "What a courtier does around a powerful patron."
+  },
+  "fawning": {
+    "accepted_concepts": [
+      "flattering in a servile way",
+      "obsequious",
+      "grovelling for favour",
+      "sycophantic",
+      "cringingly attentive"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "blunt and critical",
+        "misconception": "inverts servile flattery into plain speaking"
+      },
+      {
+        "answer": "giving birth to a deer",
+        "misconception": "takes the literal animal sense"
+      }
+    ],
+    "required_nuance": "flattery that abases the flatterer",
+    "mental_hook": "Praise, delivered on the knees.",
+    "semantic_hint": "The word for a profile so admiring it embarrasses the reader."
+  },
+  "feasible": {
+    "accepted_concepts": [
+      "possible to do",
+      "practical to carry out",
+      "workable",
+      "able to be achieved",
+      "viable in practice"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "impossible",
+        "misconception": "inverts the workable into the unachievable"
+      },
+      {
+        "answer": "likely to be true",
+        "misconception": "confuses being doable with being probable"
+      }
+    ],
+    "required_nuance": "it can be done, not that it will be",
+    "mental_hook": "Can be done. Whether it should be is another matter.",
+    "semantic_hint": "The word for a plan that could actually be carried out."
+  },
+  "feckless": {
+    "accepted_concepts": [
+      "irresponsible and ineffective",
+      "lacking purpose or competence",
+      "shiftless",
+      "unable to be relied on",
+      "useless through carelessness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "capable and responsible",
+        "misconception": "inverts uselessness into competence"
+      },
+      {
+        "answer": "fearless",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "both useless and not much bothered about it",
+    "mental_hook": "No effect, and no sense of duty either.",
+    "semantic_hint": "The word for someone who is both unreliable and unconcerned about it."
   }
 }
