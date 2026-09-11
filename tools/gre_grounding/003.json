@@ -1318,5 +1318,885 @@
     "required_nuance": "passed back and forth casually",
     "mental_hook": "Names get bandied about. Rarely carefully.",
     "semantic_hint": "What people do with a rumour when they pass it casually around."
+  },
+  "bane": {
+    "accepted_concepts": [
+      "a cause of ruin",
+      "a persistent source of misery",
+      "a scourge",
+      "a curse on someone",
+      "the thing that spoils everything"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a benefit",
+        "misconception": "inverts ruin into blessing"
+      },
+      {
+        "answer": "a prohibition",
+        "misconception": "hears the sound-alike 'ban'"
+      }
+    ],
+    "required_nuance": "the source of ruin, not the ruin itself",
+    "mental_hook": "\"The bane of my existence.\"",
+    "semantic_hint": "The thing someone calls the ruin of their whole existence."
+  },
+  "banish": {
+    "accepted_concepts": [
+      "send away permanently",
+      "exile",
+      "drive out for good",
+      "expel from a place",
+      "get rid of entirely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to punish generally",
+        "misconception": "confuses expulsion with penalty of any kind"
+      },
+      {
+        "answer": "to disappear",
+        "misconception": "hears the sound-alike 'vanish'"
+      }
+    ],
+    "required_nuance": "sent away and kept away",
+    "mental_hook": "Not sent out. Sent away, for good.",
+    "semantic_hint": "What a king does to a subject he never wants to see again."
+  },
+  "banter": {
+    "accepted_concepts": [
+      "playful teasing talk",
+      "a light-hearted exchange",
+      "witty back-and-forth",
+      "good-humoured joking",
+      "repartee"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a serious debate",
+        "misconception": "inverts playfulness into earnestness"
+      },
+      {
+        "answer": "an insult",
+        "misconception": "misses that it is friendly"
+      }
+    ],
+    "required_nuance": "teasing that is friendly, never hostile",
+    "mental_hook": "Teasing between people who like each other.",
+    "semantic_hint": "The friendly joking between teammates in a changing room."
+  },
+  "baroque": {
+    "accepted_concepts": [
+      "extravagantly ornate",
+      "elaborately decorated",
+      "florid",
+      "overloaded with detail",
+      "richly complex"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "broken",
+        "misconception": "hears the sound-alike 'broke'"
+      },
+      {
+        "answer": "plain",
+        "misconception": "inverts ornament into simplicity"
+      }
+    ],
+    "required_nuance": "ornament so abundant it becomes the style",
+    "mental_hook": "More curls, more gold, more everything.",
+    "semantic_hint": "The style of a church where every surface is carved and gilded."
+  },
+  "barrage": {
+    "accepted_concepts": [
+      "an overwhelming outpouring",
+      "a rapid bombardment",
+      "a flood of things at once",
+      "a sustained onslaught",
+      "a torrent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a place for cars",
+        "misconception": "hears the sound-alike ending of 'garage'"
+      },
+      {
+        "answer": "a trickle",
+        "misconception": "inverts the volume"
+      }
+    ],
+    "required_nuance": "many things at once, relentlessly",
+    "mental_hook": "Questions, shells or complaints. All at once.",
+    "semantic_hint": "What a press pack fires at a politician leaving court."
+  },
+  "barren": {
+    "accepted_concepts": [
+      "unable to produce",
+      "infertile",
+      "bleak and empty",
+      "yielding nothing",
+      "desolate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a nobleman",
+        "misconception": "hears the sound-alike 'baron'"
+      },
+      {
+        "answer": "fertile",
+        "misconception": "inverts productivity into abundance"
+      }
+    ],
+    "required_nuance": "producing nothing, whether land or effort",
+    "mental_hook": "Land, and also a discussion that yields nothing.",
+    "semantic_hint": "What land is when nothing at all will grow on it."
+  },
+  "base": {
+    "accepted_concepts": [
+      "morally low",
+      "contemptible",
+      "ignoble",
+      "sordid in motive",
+      "lacking all decency"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the bottom of something",
+        "misconception": "takes the noun sense for the adjective"
+      },
+      {
+        "answer": "fundamental",
+        "misconception": "hears 'basic' and misses the moral judgement"
+      }
+    ],
+    "required_nuance": "moral lowness, never physical position",
+    "mental_hook": "The tested sense is about character, not position.",
+    "semantic_hint": "The adjective for a motive so low it shames the person who had it."
+  },
+  "bastardization": {
+    "accepted_concepts": [
+      "a corrupted version",
+      "a debased form of something",
+      "a perversion of the original",
+      "a degraded imitation",
+      "a spoiled adaptation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an insult",
+        "misconception": "takes the rude noun and misses the corrupting"
+      },
+      {
+        "answer": "a faithful copy",
+        "misconception": "inverts corruption into fidelity"
+      }
+    ],
+    "required_nuance": "the original debased, not merely changed",
+    "mental_hook": "Recognisably the thing, and spoiled.",
+    "semantic_hint": "What a bad film adaptation does to a good novel."
+  },
+  "bate": {
+    "accepted_concepts": [
+      "lessen",
+      "hold back",
+      "restrain",
+      "moderate",
+      "reduce in force"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to lure or entice",
+        "misconception": "hears the sound-alike 'bait'"
+      },
+      {
+        "answer": "to increase",
+        "misconception": "inverts lessening into swelling"
+      }
+    ],
+    "required_nuance": "held back or lessened",
+    "mental_hook": "Almost only survives in \"with bated breath\".",
+    "semantic_hint": "What you do to your breath when you wait in suspense."
+  },
+  "bauble": {
+    "accepted_concepts": [
+      "a showy trinket",
+      "a cheap ornament",
+      "a worthless bit of finery",
+      "a trifle",
+      "a glittering thing of no value"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a sphere of soap and air",
+        "misconception": "hears the sound-alike 'bubble'"
+      },
+      {
+        "answer": "a treasure",
+        "misconception": "inverts worthlessness into value"
+      }
+    ],
+    "required_nuance": "showy and worth nothing",
+    "mental_hook": "Sparkles. Worth nothing.",
+    "semantic_hint": "The glittering ornament on a tree, worth almost nothing."
+  },
+  "bawdy": {
+    "accepted_concepts": [
+      "humorously indecent",
+      "coarsely funny",
+      "ribald",
+      "rude in a comic way",
+      "risqué"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to the body",
+        "misconception": "hears the sound-alike 'bodily'"
+      },
+      {
+        "answer": "solemn",
+        "misconception": "inverts comic indecency into gravity"
+      }
+    ],
+    "required_nuance": "indecent, but comic with it",
+    "mental_hook": "Rude, and laughing about it.",
+    "semantic_hint": "The word for a song too rude for polite company but clearly meant as a joke."
+  },
+  "baying": {
+    "accepted_concepts": [
+      "howling",
+      "clamouring loudly",
+      "crying out like hounds",
+      "bellowing in a pack",
+      "yelping insistently"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a curve of coastline",
+        "misconception": "hears the noun 'bay'"
+      },
+      {
+        "answer": "whispering",
+        "misconception": "inverts loudness into quiet"
+      }
+    ],
+    "required_nuance": "loud and insistent, usually from a pack or a crowd",
+    "mental_hook": "The hounds, and the mob that sounds like them.",
+    "semantic_hint": "What hounds do on the scent, and what a mob does for blood."
+  },
+  "beatific": {
+    "accepted_concepts": [
+      "radiantly blissful",
+      "serenely joyful",
+      "showing heavenly calm",
+      "blessedly peaceful",
+      "shining with contentment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "beautiful",
+        "misconception": "hears the shared opening"
+      },
+      {
+        "answer": "tormented",
+        "misconception": "inverts bliss into anguish"
+      }
+    ],
+    "required_nuance": "bliss with a holy or serene quality",
+    "mental_hook": "The smile in a stained-glass window.",
+    "semantic_hint": "The word for a smile of perfect, almost holy, calm."
+  },
+  "becoming": {
+    "accepted_concepts": [
+      "flattering to the wearer",
+      "suitable to the person",
+      "seemly",
+      "fitting for the occasion",
+      "showing someone at their best"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "turning into something",
+        "misconception": "takes the ordinary verb for this adjective"
+      },
+      {
+        "answer": "unflattering",
+        "misconception": "inverts suitability into awkwardness"
+      }
+    ],
+    "required_nuance": "suits the person, in looks or in conduct",
+    "mental_hook": "A dress can be this, and so can behaviour.",
+    "semantic_hint": "The old-fashioned word for a dress that suits its wearer."
+  },
+  "bedlam": {
+    "accepted_concepts": [
+      "noisy confusion",
+      "uproar",
+      "pandemonium",
+      "a chaotic scene",
+      "wild disorder"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a sleeping room",
+        "misconception": "hears the word 'bed'"
+      },
+      {
+        "answer": "silence",
+        "misconception": "inverts uproar into quiet"
+      }
+    ],
+    "required_nuance": "confusion with noise in it",
+    "mental_hook": "Named after a London asylum.",
+    "semantic_hint": "What a classroom becomes the moment the teacher leaves."
+  },
+  "befuddled": {
+    "accepted_concepts": [
+      "confused",
+      "unable to think clearly",
+      "muddled",
+      "bewildered",
+      "hazy in the head"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "angry",
+        "misconception": "confuses confusion with temper"
+      },
+      {
+        "answer": "clear-headed",
+        "misconception": "inverts confusion into clarity"
+      }
+    ],
+    "required_nuance": "thinking clouded, not merely puzzled",
+    "mental_hook": "The mind in a fog.",
+    "semantic_hint": "How someone thinks after too little sleep and too much wine."
+  },
+  "beg": {
+    "accepted_concepts": [
+      "ask earnestly",
+      "plead",
+      "implore",
+      "entreat",
+      "or to sidestep a question by assuming its answer"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to demand",
+        "misconception": "inverts pleading into commanding"
+      },
+      {
+        "answer": "to offer",
+        "misconception": "inverts asking into giving"
+      }
+    ],
+    "required_nuance": "asking humbly, or assuming what was to be proved",
+    "mental_hook": "One sense pleads. The other dodges the question.",
+    "semantic_hint": "What you do when you ask humbly for something you cannot claim."
+  },
+  "begrudge": {
+    "accepted_concepts": [
+      "resent what someone has",
+      "envy another's success",
+      "give unwillingly",
+      "grudge someone their good fortune",
+      "feel bitter about another's gain"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to forgive",
+        "misconception": "inverts resentment into pardon"
+      },
+      {
+        "answer": "to praise",
+        "misconception": "inverts resentment into admiration"
+      }
+    ],
+    "required_nuance": "resentment at what another person has",
+    "mental_hook": "Cannot be happy for them.",
+    "semantic_hint": "What you do when you cannot be pleased for a friend's good luck."
+  },
+  "beguile": {
+    "accepted_concepts": [
+      "charm",
+      "enchant",
+      "win over by charm",
+      "lead astray pleasantly",
+      "captivate with a hint of deceit"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to bore",
+        "misconception": "inverts charm into tedium"
+      },
+      {
+        "answer": "to guide honestly",
+        "misconception": "loses the deceit that colours it"
+      }
+    ],
+    "required_nuance": "charm with deception somewhere in it",
+    "mental_hook": "Charm, with a catch.",
+    "semantic_hint": "What a smooth talker does to someone they intend to mislead."
+  },
+  "behoove": {
+    "accepted_concepts": [
+      "be proper for someone",
+      "be necessary for",
+      "be incumbent upon",
+      "be fitting that one should",
+      "be advisable for"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to conduct oneself",
+        "misconception": "hears the shared opening of 'behave'"
+      },
+      {
+        "answer": "to forbid",
+        "misconception": "inverts obligation into prohibition"
+      }
+    ],
+    "required_nuance": "an obligation of propriety or prudence",
+    "mental_hook": "Almost always \"it would behoove you to\".",
+    "semantic_hint": "What it does to you to read the contract before signing it."
+  },
+  "behooves": {
+    "accepted_concepts": [
+      "is proper for someone",
+      "is necessary for",
+      "is incumbent upon",
+      "is fitting that one should",
+      "is advisable for"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "conducts oneself",
+        "misconception": "hears the sound-alike 'behaves'"
+      },
+      {
+        "answer": "forbids",
+        "misconception": "inverts obligation into prohibition"
+      }
+    ],
+    "required_nuance": "states an obligation of propriety or prudence",
+    "mental_hook": "The form you actually meet: \"it behooves us to\".",
+    "semantic_hint": "What the phrase says when it tells you that you really ought to."
+  },
+  "belabor": {
+    "accepted_concepts": [
+      "go on about at excessive length",
+      "harp on",
+      "dwell on far too long",
+      "overemphasise",
+      "attack at tedious length"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to work hard",
+        "misconception": "hears 'labour' and misses the excess"
+      },
+      {
+        "answer": "to summarise",
+        "misconception": "inverts length into brevity"
+      }
+    ],
+    "required_nuance": "the excess is the whole point",
+    "mental_hook": "The set phrase is to do it to a point.",
+    "semantic_hint": "What you do to a point when you make it four times over."
+  },
+  "beleaguer": {
+    "accepted_concepts": [
+      "besiege",
+      "harass persistently",
+      "beset on all sides",
+      "hem in with troubles",
+      "press hard upon"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a sporting competition",
+        "misconception": "hears the word 'league'"
+      },
+      {
+        "answer": "to relieve",
+        "misconception": "inverts pressure into rescue"
+      }
+    ],
+    "required_nuance": "surrounded and pressed, by armies or by troubles",
+    "mental_hook": "Usually \"beleaguered\": under pressure from every side.",
+    "semantic_hint": "What debts and deadlines do to someone from every direction at once."
+  },
+  "belfry": {
+    "accepted_concepts": [
+      "a bell tower",
+      "the part of a tower housing bells",
+      "a campanile",
+      "the chamber where bells hang",
+      "a steeple's bell room"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a cellar",
+        "misconception": "guesses at some other part of a building"
+      },
+      {
+        "answer": "a bakery",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "specifically the place the bells are",
+    "mental_hook": "Where the bats are, proverbially.",
+    "semantic_hint": "The part of a church tower where the bells hang."
+  },
+  "belie": {
+    "accepted_concepts": [
+      "contradict",
+      "give a false impression of",
+      "misrepresent",
+      "disguise the truth about",
+      "show to be untrue"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to recline",
+        "misconception": "hears 'lie' in the wrong sense"
+      },
+      {
+        "answer": "to confirm",
+        "misconception": "inverts contradiction into support"
+      }
+    ],
+    "required_nuance": "appearance contradicting reality",
+    "mental_hook": "His steady voice belied his panic. Appearance against fact.",
+    "semantic_hint": "What a calm face does to the panic underneath it."
+  },
+  "belittle": {
+    "accepted_concepts": [
+      "make seem unimportant",
+      "disparage",
+      "talk down",
+      "minimise someone's achievement",
+      "put down"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make physically smaller",
+        "misconception": "reads 'little' literally"
+      },
+      {
+        "answer": "to praise",
+        "misconception": "inverts disparagement into compliment"
+      }
+    ],
+    "required_nuance": "diminishing in esteem, never in size",
+    "mental_hook": "Making a person smaller, not a thing.",
+    "semantic_hint": "What a bad manager does to a junior's good idea."
+  },
+  "bellicose": {
+    "accepted_concepts": [
+      "eager to fight",
+      "aggressive in temper",
+      "warlike",
+      "spoiling for a quarrel",
+      "combative"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "beautiful",
+        "misconception": "hears the sound-alike 'belle'"
+      },
+      {
+        "answer": "peaceable",
+        "misconception": "inverts aggression into calm"
+      }
+    ],
+    "required_nuance": "eagerness for conflict, not merely bad temper",
+    "mental_hook": "Looking for a fight, not merely ready for one.",
+    "semantic_hint": "The word for a country whose speeches all sound like war is coming."
+  },
+  "belligerent": {
+    "accepted_concepts": [
+      "hostile and aggressive",
+      "itching for a fight",
+      "truculent",
+      "openly combative",
+      "pugnacious"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a nation at war",
+        "misconception": "takes the noun sense and misses the adjective's temper"
+      },
+      {
+        "answer": "conciliatory",
+        "misconception": "inverts hostility into peacemaking"
+      }
+    ],
+    "required_nuance": "the manner is hostile, not merely the situation",
+    "mental_hook": "Describes a drunk in a bar as readily as a nation.",
+    "semantic_hint": "How someone behaves when they answer every question as if it were an attack."
+  },
+  "bemoan": {
+    "accepted_concepts": [
+      "lament",
+      "express regret about",
+      "complain sorrowfully of",
+      "deplore",
+      "bewail"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to celebrate",
+        "misconception": "inverts lament into praise"
+      },
+      {
+        "answer": "to groan physically",
+        "misconception": "takes the sound literally"
+      }
+    ],
+    "required_nuance": "regret expressed aloud",
+    "mental_hook": "Complaining, with sorrow rather than anger.",
+    "semantic_hint": "What older generations do about the state of the young."
+  },
+  "bemuse": {
+    "accepted_concepts": [
+      "bewilder",
+      "puzzle",
+      "confuse thoroughly",
+      "leave at a loss",
+      "baffle"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to entertain",
+        "misconception": "hears 'amuse' and swaps confusion for enjoyment"
+      },
+      {
+        "answer": "to clarify",
+        "misconception": "inverts confusion into clarity"
+      }
+    ],
+    "required_nuance": "confusion, never entertainment",
+    "mental_hook": "One letter from amuse, and nothing funny about it.",
+    "semantic_hint": "What a set of contradictory instructions does to the reader."
+  },
+  "bemused": {
+    "accepted_concepts": [
+      "puzzled",
+      "mildly bewildered",
+      "at a loss",
+      "nonplussed",
+      "unable to make sense of it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "mildly entertained",
+        "misconception": "hears 'amused' and swaps confusion for pleasure"
+      },
+      {
+        "answer": "certain",
+        "misconception": "inverts puzzlement into confidence"
+      }
+    ],
+    "required_nuance": "puzzled, never entertained",
+    "mental_hook": "Widely misused to mean amused. It means baffled.",
+    "semantic_hint": "The expression of someone who cannot work out what just happened."
+  },
+  "beneficent": {
+    "accepted_concepts": [
+      "doing good",
+      "generous in effect",
+      "charitable in action",
+      "producing benefit",
+      "kindly in what it brings about"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "benefiting oneself",
+        "misconception": "reverses who receives the good"
+      },
+      {
+        "answer": "harmful",
+        "misconception": "inverts good into harm"
+      }
+    ],
+    "required_nuance": "does good, as opposed to merely wishing it",
+    "mental_hook": "Benevolent wishes well. This one actually does good.",
+    "semantic_hint": "The word for a foundation whose money actually does good in the world."
+  },
+  "benevolent": {
+    "accepted_concepts": [
+      "kind",
+      "well-meaning",
+      "wishing others well",
+      "generous in spirit",
+      "charitable in intention"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "violent",
+        "misconception": "hears the sound-alike ending"
+      },
+      {
+        "answer": "malicious",
+        "misconception": "inverts goodwill into ill will"
+      }
+    ],
+    "required_nuance": "goodwill in intention",
+    "mental_hook": "Wishes you well, whether or not it acts.",
+    "semantic_hint": "The word for an employer who genuinely wishes their staff well."
+  },
+  "benighted": {
+    "accepted_concepts": [
+      "ignorant",
+      "unenlightened",
+      "in intellectual darkness",
+      "backward in understanding",
+      "kept from knowledge"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "made a knight",
+        "misconception": "hears the word 'knight'"
+      },
+      {
+        "answer": "enlightened",
+        "misconception": "inverts darkness into light"
+      }
+    ],
+    "required_nuance": "ignorance pictured as darkness",
+    "mental_hook": "Caught in the dark, intellectually.",
+    "semantic_hint": "The word for an age described as lost in intellectual darkness."
+  },
+  "benign": {
+    "accepted_concepts": [
+      "harmless",
+      "gentle",
+      "kindly in effect",
+      "not dangerous",
+      "mild"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cancerous and spreading",
+        "misconception": "inverts harmless into malignant"
+      },
+      {
+        "answer": "to start",
+        "misconception": "hears the sound-alike 'begin'"
+      }
+    ],
+    "required_nuance": "harmless, whether a growth or a person",
+    "mental_hook": "The word the doctor wants to be able to say.",
+    "semantic_hint": "The word a doctor uses about a growth that will not hurt you."
+  },
+  "bent": {
+    "accepted_concepts": [
+      "a natural inclination",
+      "a talent for something",
+      "a leaning toward",
+      "a propensity",
+      "a turn of mind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "curved out of shape",
+        "misconception": "takes the past participle for this noun"
+      },
+      {
+        "answer": "a dislike",
+        "misconception": "inverts inclination into aversion"
+      }
+    ],
+    "required_nuance": "a natural leaning, often amounting to a talent",
+    "mental_hook": "A leaning you were born with.",
+    "semantic_hint": "The natural turn of mind that draws someone to a particular kind of work."
+  },
+  "bequeath": {
+    "accepted_concepts": [
+      "leave in a will",
+      "hand down to an heir",
+      "pass on as a legacy",
+      "will to someone",
+      "leave behind for another"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to request",
+        "misconception": "confuses leaving something with asking for it"
+      },
+      {
+        "answer": "to inherit",
+        "misconception": "reverses the direction of the giving"
+      }
+    ],
+    "required_nuance": "giving by will, and it is the giver's act",
+    "mental_hook": "The one writing the will does it. Not the one receiving.",
+    "semantic_hint": "What someone does in a will to leave a house to a child."
+  },
+  "berate": {
+    "accepted_concepts": [
+      "scold angrily",
+      "tell off at length",
+      "upbraid",
+      "castigate",
+      "dress down harshly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to grade or assess",
+        "misconception": "hears the word 'rate'"
+      },
+      {
+        "answer": "to praise",
+        "misconception": "inverts scolding into commendation"
+      }
+    ],
+    "required_nuance": "angry scolding, and at length",
+    "mental_hook": "Not a word. A speech.",
+    "semantic_hint": "What a furious coach does to a team at half time."
+  },
+  "bereave": {
+    "accepted_concepts": [
+      "deprive of someone",
+      "take away by death",
+      "rob of a loved one",
+      "leave without",
+      "dispossess"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to grieve",
+        "misconception": "confuses being deprived with the grief that follows"
+      },
+      {
+        "answer": "to comfort",
+        "misconception": "inverts loss into consolation"
+      }
+    ],
+    "required_nuance": "the deprivation itself, usually by death",
+    "mental_hook": "What death does to those left behind.",
+    "semantic_hint": "What a death does to the family left behind."
+  },
+  "bereft": {
+    "accepted_concepts": [
+      "deprived of something",
+      "left without",
+      "stripped of",
+      "desolate from loss",
+      "wanting entirely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "mourning a death only",
+        "misconception": "narrows it to death when it covers any loss"
+      },
+      {
+        "answer": "well supplied",
+        "misconception": "inverts deprivation into abundance"
+      }
+    ],
+    "required_nuance": "deprived, and often desolate with it",
+    "mental_hook": "Bereft of ideas, not only of people.",
+    "semantic_hint": "How you are left when something you had is entirely gone."
   }
 }

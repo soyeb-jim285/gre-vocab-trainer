@@ -1,0 +1,442 @@
+{
+  "beseech": {
+    "accepted_concepts": [
+      "beg urgently",
+      "implore",
+      "entreat",
+      "plead earnestly with",
+      "supplicate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to look for",
+        "misconception": "hears the sound-alike ending 'search'"
+      },
+      {
+        "answer": "to command",
+        "misconception": "inverts pleading into ordering"
+      }
+    ],
+    "required_nuance": "urgent pleading, from a position of weakness",
+    "mental_hook": "Begging, in its most formal clothes.",
+    "semantic_hint": "What a prisoner does to a judge for mercy."
+  },
+  "besiege": {
+    "accepted_concepts": [
+      "surround and press hard",
+      "lay siege to",
+      "hem in",
+      "overwhelm with demands",
+      "encircle"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to grab hold of",
+        "misconception": "hears 'seize' and swaps surrounding for taking"
+      },
+      {
+        "answer": "to abandon",
+        "misconception": "inverts pressing into withdrawing"
+      }
+    ],
+    "required_nuance": "surrounding so as to force submission",
+    "mental_hook": "Armies do it to cities. Letters do it to ministers.",
+    "semantic_hint": "What an army does to a walled city it cannot enter."
+  },
+  "besmirch": {
+    "accepted_concepts": [
+      "damage a reputation",
+      "tarnish someone's name",
+      "sully",
+      "blacken a character",
+      "defame"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to smear with dirt",
+        "misconception": "keeps the literal dirt where reputation is meant"
+      },
+      {
+        "answer": "to clear a name",
+        "misconception": "inverts damage into vindication"
+      }
+    ],
+    "required_nuance": "staining a reputation, never a surface",
+    "mental_hook": "The dirt goes on a name, not a coat.",
+    "semantic_hint": "What a rumour does to a good name."
+  },
+  "besotted": {
+    "accepted_concepts": [
+      "foolishly infatuated",
+      "helplessly smitten",
+      "love-struck to the point of silliness",
+      "obsessed with someone",
+      "doting stupidly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "drunk and nothing more",
+        "misconception": "keeps the older sense and misses the infatuation"
+      },
+      {
+        "answer": "indifferent",
+        "misconception": "inverts infatuation into coolness"
+      }
+    ],
+    "required_nuance": "infatuation that has made someone foolish",
+    "mental_hook": "In love, and not thinking straight.",
+    "semantic_hint": "The word for someone so in love they have stopped making sense."
+  },
+  "bestow": {
+    "accepted_concepts": [
+      "confer",
+      "grant formally",
+      "give as an honour",
+      "present to someone",
+      "award"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to pack away",
+        "misconception": "hears the word 'stow'"
+      },
+      {
+        "answer": "to take",
+        "misconception": "inverts giving into receiving"
+      }
+    ],
+    "required_nuance": "giving from a position of authority",
+    "mental_hook": "Granted from above, usually with ceremony.",
+    "semantic_hint": "What a monarch does with a title."
+  },
+  "betoken": {
+    "accepted_concepts": [
+      "be a sign of",
+      "indicate",
+      "signify",
+      "point to what is coming",
+      "presage"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small gift",
+        "misconception": "hears the word 'token'"
+      },
+      {
+        "answer": "to conceal",
+        "misconception": "inverts indicating into hiding"
+      }
+    ],
+    "required_nuance": "serving as a sign, often of what is to come",
+    "mental_hook": "The thing that tells you what is coming.",
+    "semantic_hint": "What dark clouds do with respect to a storm."
+  },
+  "betray": {
+    "accepted_concepts": [
+      "be disloyal to",
+      "hand over treacherously",
+      "break faith with",
+      "let a feeling show unintentionally",
+      "give away a secret"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to depict",
+        "misconception": "hears the sound-alike 'portray'"
+      },
+      {
+        "answer": "to protect",
+        "misconception": "inverts disloyalty into loyalty"
+      }
+    ],
+    "required_nuance": "disloyalty, or an unintended revealing",
+    "mental_hook": "You can betray a friend, and your face can betray you.",
+    "semantic_hint": "What a trembling hand does to the calm someone is pretending."
+  },
+  "betrothed": {
+    "accepted_concepts": [
+      "the person one is engaged to",
+      "a fiancé",
+      "a fiancée",
+      "one's intended",
+      "the promised partner"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a husband or wife",
+        "misconception": "confuses the engagement with the marriage"
+      },
+      {
+        "answer": "a truthful person",
+        "misconception": "hears 'troth' as truth and misses the promise"
+      }
+    ],
+    "required_nuance": "promised in marriage, not yet married",
+    "mental_hook": "Promised, not yet wed.",
+    "semantic_hint": "The old word for the person someone is engaged to marry."
+  },
+  "bevy": {
+    "accepted_concepts": [
+      "a large group",
+      "a cluster of people or things",
+      "a throng",
+      "an assemblage",
+      "a whole crowd of them"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a drink",
+        "misconception": "hears the sound-alike opening of 'beverage'"
+      },
+      {
+        "answer": "a single one",
+        "misconception": "inverts a group into an individual"
+      }
+    ],
+    "required_nuance": "a group, usually all of one kind",
+    "mental_hook": "A bevy of swans, or of consultants.",
+    "semantic_hint": "The collective word for a whole group of swans arriving at once."
+  },
+  "biased": {
+    "accepted_concepts": [
+      "unfairly favouring one side",
+      "partial",
+      "prejudiced",
+      "slanted in one direction",
+      "not impartial"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "founded on something",
+        "misconception": "hears the sound-alike 'based'"
+      },
+      {
+        "answer": "neutral",
+        "misconception": "inverts partiality into impartiality"
+      }
+    ],
+    "required_nuance": "leaning unfairly, not merely holding a view",
+    "mental_hook": "Not having an opinion. Tilting the scales.",
+    "semantic_hint": "What a report is when it quietly tilts toward one side."
+  },
+  "bifurcate": {
+    "accepted_concepts": [
+      "divide into two branches",
+      "fork",
+      "split in two",
+      "separate into a pair of paths",
+      "diverge into two"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to divide into many",
+        "misconception": "loses the specifically two"
+      },
+      {
+        "answer": "to join",
+        "misconception": "inverts splitting into merging"
+      }
+    ],
+    "required_nuance": "two branches specifically, never several",
+    "mental_hook": "Two, never three.",
+    "semantic_hint": "What a road does when it forks into exactly two."
+  },
+  "bilious": {
+    "accepted_concepts": [
+      "irritable",
+      "bad-tempered",
+      "peevish",
+      "sour in temper",
+      "easily angered"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "involving huge sums",
+        "misconception": "hears the word 'billion'"
+      },
+      {
+        "answer": "cheerful",
+        "misconception": "inverts irritability into good humour"
+      }
+    ],
+    "required_nuance": "a sour, liverish temper",
+    "mental_hook": "The old medicine blamed the liver. The word stuck.",
+    "semantic_hint": "The word for a temper so sour it was once blamed on the liver."
+  },
+  "bilk": {
+    "accepted_concepts": [
+      "cheat out of money",
+      "swindle",
+      "defraud",
+      "fleece",
+      "con someone out of what they are owed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a dairy drink",
+        "misconception": "hears the sound-alike 'milk'"
+      },
+      {
+        "answer": "to repay",
+        "misconception": "inverts cheating into settling"
+      }
+    ],
+    "required_nuance": "cheating specifically out of money owed",
+    "mental_hook": "Taking what was owed to someone else.",
+    "semantic_hint": "What a conman does to investors who never see their money again."
+  },
+  "blanch": {
+    "accepted_concepts": [
+      "turn pale",
+      "go white with shock",
+      "lose colour",
+      "briefly scald food",
+      "whiten"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a limb of a tree",
+        "misconception": "hears the sound-alike 'branch'"
+      },
+      {
+        "answer": "to redden",
+        "misconception": "inverts paling into flushing"
+      }
+    ],
+    "required_nuance": "going white, whether a face or a vegetable",
+    "mental_hook": "Faces do it in fear. Almonds do it in water.",
+    "semantic_hint": "What a face does at very bad news, and what a cook does to almonds."
+  },
+  "bland": {
+    "accepted_concepts": [
+      "lacking flavour",
+      "dull and uninteresting",
+      "insipid",
+      "without strong character",
+      "unexciting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a mixture",
+        "misconception": "hears the sound-alike 'blend'"
+      },
+      {
+        "answer": "strongly flavoured",
+        "misconception": "inverts insipidity into intensity"
+      }
+    ],
+    "required_nuance": "lacking character, in taste or in style",
+    "mental_hook": "Not unpleasant. Just nothing.",
+    "semantic_hint": "The word for hospital food, and for a speech that says nothing."
+  },
+  "blatant": {
+    "accepted_concepts": [
+      "done openly without shame",
+      "glaring",
+      "flagrant",
+      "unashamedly obvious",
+      "brazen"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "quiet and concealed",
+        "misconception": "inverts openness into concealment"
+      },
+      {
+        "answer": "carefree",
+        "misconception": "hears a vaguely similar word and guesses"
+      }
+    ],
+    "required_nuance": "obvious, and shameless with it",
+    "mental_hook": "Not hidden. Not even slightly.",
+    "semantic_hint": "The word for a lie told so openly that nobody even pretends otherwise."
+  },
+  "bleak": {
+    "accepted_concepts": [
+      "offering little hope",
+      "dismal",
+      "grim in outlook",
+      "desolate",
+      "cheerless"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "feeble",
+        "misconception": "hears the sound-alike 'weak'"
+      },
+      {
+        "answer": "promising",
+        "misconception": "inverts hopelessness into optimism"
+      }
+    ],
+    "required_nuance": "hopelessness in a scene or a prospect",
+    "mental_hook": "A grey moor, or a grey forecast.",
+    "semantic_hint": "The word for a moor in winter, and for a forecast with no good news in it."
+  },
+  "blight": {
+    "accepted_concepts": [
+      "something that spoils",
+      "a destructive influence",
+      "a scourge",
+      "a disease that ruins a crop",
+      "an affliction that wrecks"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a source of illumination",
+        "misconception": "hears the sound-alike 'light'"
+      },
+      {
+        "answer": "a benefit",
+        "misconception": "inverts ruin into good"
+      }
+    ],
+    "required_nuance": "the thing that ruins, whether disease or influence",
+    "mental_hook": "It killed the potatoes, and now it kills city streets.",
+    "semantic_hint": "What ruined the Irish potato crop, and what ruins a neighbourhood."
+  },
+  "blighted": {
+    "accepted_concepts": [
+      "ruined",
+      "spoiled",
+      "withered by disease",
+      "frustrated and marred",
+      "wrecked in prospect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "overjoyed",
+        "misconception": "hears the sound-alike ending of 'delighted'"
+      },
+      {
+        "answer": "flourishing",
+        "misconception": "inverts ruin into thriving"
+      }
+    ],
+    "required_nuance": "ruined by something that attacked it",
+    "mental_hook": "Crops, streets and hopes all suffer the same way.",
+    "semantic_hint": "How hopes are described when something has ruined them entirely."
+  },
+  "blinkered": {
+    "accepted_concepts": [
+      "narrow in outlook",
+      "unable to see the wider picture",
+      "insular in view",
+      "closed to other perspectives",
+      "seeing only straight ahead"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "flashing on and off",
+        "misconception": "hears the word 'blink'"
+      },
+      {
+        "answer": "broad-minded",
+        "misconception": "inverts narrowness into openness"
+      }
+    ],
+    "required_nuance": "narrowness of view, taken from a horse's harness",
+    "mental_hook": "Named for what is strapped beside a horse's eyes.",
+    "semantic_hint": "What a horse wears to stop it seeing sideways, turned into an outlook."
+  }
+}
