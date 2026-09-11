@@ -7,11 +7,19 @@ public enum QuizPlanner {
     /// Fewer than this and a percentage is noise.
     public static let minimumWords = 5
 
-    /// Every studied word in the deck, shuffled, local modes only.
-    public static func deckTest(deck: Deck, cards: [StudyCard], catalog: WordCatalog, seed: UInt64) -> [SessionItem] {
-        let inDeck = Set(deck.wordIDs)
-        let studied = cards.filter { $0.reviewCount > 0 && inDeck.contains($0.wordID) }
-        return items(from: studied, catalog: catalog, seed: seed)
+    /// The day's fixed challenge: the same set however many times it is opened,
+    /// a new one tomorrow.
+    ///
+    /// Seeded from the day rather than the clock so the challenge is a thing you
+    /// either did or did not do today, which is what makes it worth coming back
+    /// to. Re-rolling it on every open would make it just another session.
+    public static func dailyChallenge(
+        cards: [StudyCard], catalog: WordCatalog, scheduler: FSRS,
+        dayStart: Date, count: Int = 20, now: Date
+    ) -> [SessionItem] {
+        globalTest(cards: cards, catalog: catalog, scheduler: scheduler, count: count,
+                   seed: UInt64(bitPattern: Int64(dayStart.timeIntervalSince1970.rounded())),
+                   now: now)
     }
 
     /// `count` studied words, weighted toward the ones most likely forgotten.

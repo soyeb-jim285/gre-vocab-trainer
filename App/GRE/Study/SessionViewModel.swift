@@ -33,8 +33,8 @@ struct AnswerFeedback: Equatable {
 
 /// A fixed queue instead of the open-ended study session.
 enum SessionShape: Equatable {
-    case deck(Deck)
-    case everything
+    /// The day's fixed set, the same one until tomorrow.
+    case dailyChallenge
     /// One word, one mode, on request. Practising a word outside a session used
     /// to be a second screen with its own grading call, its own submit gating
     /// and a fabricated card invented to satisfy the feedback view. It is a
@@ -47,10 +47,6 @@ enum SessionShape: Equatable {
         return true
     }
 
-    var deckID: String? {
-        if case let .deck(deck) = self { return deck.id }
-        return nil
-    }
 }
 
 /// What the session is showing right now: a word being taught, or a question.
@@ -186,12 +182,11 @@ final class SessionViewModel {
             let cards = Array(ReviewRecorder.cardsByID(in: context).values)
             let seed = UInt64(now.timeIntervalSince1970)
             queue = switch quiz {
-            case let .deck(deck):
-                QuizPlanner.deckTest(deck: deck, cards: cards, catalog: catalog, seed: seed)
-                    .map(SessionCard.drill)
-            case .everything:
-                QuizPlanner.globalTest(cards: cards, catalog: catalog, scheduler: settings.scheduler,
-                                       seed: seed, now: now).map(SessionCard.drill)
+            case .dailyChallenge:
+                QuizPlanner.dailyChallenge(
+                    cards: cards, catalog: catalog, scheduler: settings.scheduler,
+                    dayStart: settings.dayStart(at: now), now: now
+                ).map(SessionCard.drill)
             case let .practise(word, mode):
                 // The word's real card, so practice moves the same schedule a
                 // session would rather than scheduling a card nobody owns.
@@ -649,7 +644,7 @@ final class SessionViewModel {
     private func finishQuiz() {
         let result = summary()
         if quiz?.isTest == true, result.answered >= QuizPlanner.minimumWords {
-            context.insert(QuizRecord(deckID: quiz?.deckID, score: result.meanScore,
+            context.insert(QuizRecord(score: result.meanScore,
                                       wordCount: result.answered, takenAt: .now))
             try? context.save()
         }

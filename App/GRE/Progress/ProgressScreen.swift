@@ -24,6 +24,9 @@ struct ProgressScreen: View {
     @Query(recentGradedReviews) private var reviews: [ReviewRecord]
 
     @State private var totalReviews = 0
+    /// Words with at least one wrong idea on record. Separate from accuracy:
+    /// this is what is being confused rather than what is being forgotten.
+    @State private var mixedUp = 0
     @State private var spend: Double = 0
     @State private var coach: CoachSummary?
     @State private var coachError: String?
@@ -32,7 +35,8 @@ struct ProgressScreen: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 26) {
-                StatRow(cards: mastery.cards, catalog: catalog, totalReviews: totalReviews)
+                StatRow(cards: mastery.cards, catalog: catalog, totalReviews: totalReviews,
+                        alreadyKnown: mastery.alreadyKnownIDs.count, mixedUp: mixedUp)
                 LevelCard(reviews: reviews, spend: spend)
                 if !reviews.isEmpty {
                     AccuracyChart(reviews: reviews)
@@ -52,6 +56,9 @@ struct ProgressScreen: View {
                 FetchDescriptor<ReviewRecord>(predicate: #Predicate { !$0.isIntroduction })
             )) ?? 0
             spend = AILedger.spentLifetime(in: context)
+            mixedUp = Set(
+                ((try? context.fetch(FetchDescriptor<MisconceptionRecord>())) ?? []).map(\.wordID)
+            ).count
         }
     }
 
@@ -106,13 +113,15 @@ private struct StatRow: View {
     let cards: [String: StudyCard]
     let catalog: WordCatalog
     let totalReviews: Int
+    /// Proved on first contact, never taught.
+    let alreadyKnown: Int
+    let mixedUp: Int
 
     private var due: Int { cards.values.filter { $0.fsrs.due <= .now }.count }
 
     var body: some View {
         let byID = cards
         let levels = Dictionary(catalog.words.map { (Mastery(card: byID[$0.id]), 1) }, uniquingKeysWith: +)
-        let decksDone = catalog.decks.filter { DeckProgress(deck: $0, cards: byID).isComplete }.count
         VStack(spacing: 12) {
             VStack(alignment: .leading, spacing: 12) {
                 Text("Mastery").font(Theme.label).foregroundStyle(Theme.tertiaryText).textCase(.uppercase)
@@ -121,10 +130,14 @@ private struct StatRow: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .cardSurface()
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-                Stat(value: "\(decksDone)", label: "Decks done", of: "of \(catalog.decks.count)")
-                Stat(value: "\(due)", label: "Due now", of: due == 0 ? "all caught up" : "ready to review")
                 Stat(value: "\((levels[.known] ?? 0) + (levels[.mastered] ?? 0))", label: "Known",
                      of: "3+ weeks' recall")
+                Stat(value: "\(due)", label: "Due now", of: due == 0 ? "all caught up" : "ready to review")
+                // The two halves of the model that are not a review count: what
+                // the learner turned out to own already, and what they are still
+                // getting wrong on purpose rather than by forgetting.
+                Stat(value: "\(alreadyKnown)", label: "Already knew", of: "never taught")
+                Stat(value: "\(mixedUp)", label: "Mixed up", of: mixedUp == 0 ? "nothing tangled" : "words to untangle")
                 Stat(value: "\(totalReviews)", label: "Reviews", of: "all time")
             }
         }

@@ -15,13 +15,13 @@ struct RootView: View {
 
     private var tabs: some View {
         TabView {
-            // Today leads: the session is what you do, but the day is what you
-            // came to find out about.
-            Tab("Today", systemImage: "sun.horizon") {
+            // Learning leads: the session is what you do, but the day is what
+            // you came to find out about.
+            Tab("Learn", systemImage: "sun.horizon") {
                 NavigationStack { TodayView() }
             }
-            Tab("Library", systemImage: "square.stack.3d.up") {
-                NavigationStack { DecksView().navigationTitle("Library") }
+            Tab("Challenge", systemImage: "target") {
+                NavigationStack { ChallengeView() }
             }
             Tab("Progress", systemImage: "chart.line.uptrend.xyaxis") {
                 NavigationStack { ProgressScreen().navigationTitle("Progress") }

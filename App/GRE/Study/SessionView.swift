@@ -5,9 +5,6 @@ import SwiftUI
 struct SessionView: View {
     /// A fixed queue instead of the open-ended session.
     var quiz: SessionShape? = nil
-    /// Start drawing new words from this deck.
-    var deck: Deck? = nil
-
     @Environment(\.modelContext) private var context
     @Environment(MasteryIndex.self) private var mastery
     @Environment(AppSettings.self) private var settings
@@ -46,7 +43,6 @@ struct SessionView: View {
         }
         .task {
             guard model == nil else { return }
-            if let deck { settings.currentDeckID = deck.id }
             let created = SessionViewModel(context: context, catalog: catalog, settings: settings,
                                           index: mastery, quiz: quiz)
             created.start()
@@ -461,7 +457,7 @@ private struct SessionCompleteView: View {
                 .buttonStyle(.glassProminent)
                 .padding(.top, 8)
             if showTestEverything {
-                NavigationLink("Test everything I know") { SessionView(quiz: .everything).navigationTitle("Test") }
+                NavigationLink("Take today's challenge") { SessionView(quiz: .dailyChallenge).navigationTitle("Challenge") }
                     .buttonStyle(.glass)
             }
         }
@@ -491,7 +487,7 @@ private struct CaughtUpView: View {
             // someone who wants to keep going.
             Button("Keep going anyway", action: keepGoing)
                 .buttonStyle(.glassProminent)
-            NavigationLink("Test everything I know") { SessionView(quiz: .everything).navigationTitle("Test") }
+            NavigationLink("Take today's challenge") { SessionView(quiz: .dailyChallenge).navigationTitle("Challenge") }
                 .buttonStyle(.glass)
         }
         .padding(Theme.gutter * 1.5)

@@ -23,11 +23,6 @@ struct TodayView: View {
                     DayCard(plan: plan, streak: streak)
                     PaceCard(plan: plan, testDate: settings.testDate)
                     startButton(plan)
-                    NavigationLink("Test everything I know") {
-                        SessionView(quiz: .everything).navigationTitle("Test")
-                    }
-                    .buttonStyle(.glass)
-                    .frame(maxWidth: .infinity)
                 } else {
                     ProgressView().tint(Theme.accent).frame(maxWidth: .infinity)
                 }
@@ -36,6 +31,13 @@ struct TodayView: View {
         }
         .screenBackground()
         .navigationTitle("Today")
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                NavigationLink { WordsView() } label: {
+                    Label("Words", systemImage: "magnifyingglass")
+                }
+            }
+        }
         // Recomputed on every appearance rather than held: coming back from a
         // session, the numbers have moved.
         .task { refresh() }

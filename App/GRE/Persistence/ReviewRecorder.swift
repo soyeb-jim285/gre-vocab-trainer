@@ -167,9 +167,8 @@ enum ReviewRecorder {
         return try? context.fetch(descriptor).first
     }
 
-    static func bestQuizScore(deckID: String?, in context: ModelContext) -> Int? {
-        let all = (try? context.fetch(FetchDescriptor<QuizRecord>())) ?? []
-        return all.filter { $0.deckID == deckID }.map(\.score).max()
+    static func bestChallengeScore(in context: ModelContext) -> Int? {
+        ((try? context.fetch(FetchDescriptor<QuizRecord>())) ?? []).map(\.score).max()
     }
 
     /// Delete every trace of study: schedules, answered reviews, test scores,
@@ -180,6 +179,7 @@ enum ReviewRecorder {
         try context.delete(model: CardRecord.self)
         try context.delete(model: ReviewRecord.self)
         try context.delete(model: QuizRecord.self)
+        try context.delete(model: MisconceptionRecord.self)
         try context.delete(model: DeepDiveRecord.self)
         try context.delete(model: AICall.self)
         try context.save()

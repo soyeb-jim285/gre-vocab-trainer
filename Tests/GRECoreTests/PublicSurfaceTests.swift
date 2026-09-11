@@ -171,7 +171,8 @@ import Testing
         _ = Mastery.allCases.map(\.rawValue)
         let progress = DeckProgress(deck: catalog.decks[0], cards: [word.id: card])
         _ = (progress.counts, progress.total, progress.fraction, progress.isComplete, progress.count(atLeast: .known))
-        _ = QuizPlanner.deckTest(deck: catalog.decks[0], cards: [card], catalog: catalog, seed: 1)
+        _ = QuizPlanner.dailyChallenge(cards: [card], catalog: catalog, scheduler: FSRS(),
+                                       dayStart: .now, now: .now)
         _ = QuizPlanner.globalTest(cards: [card], catalog: catalog, scheduler: FSRS(), seed: 1, now: .now)
         _ = QuizPlanner.minimumWords
         let scheduled = FSRS().review(card.fsrs, rating: .good, at: .now)

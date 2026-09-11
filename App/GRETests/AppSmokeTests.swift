@@ -44,7 +44,7 @@ struct AppSmokeTests {
     private func inMemoryContext() throws -> ModelContext {
         let container = try ModelContainer(
             for: CardRecord.self, ReviewRecord.self, DeepDiveRecord.self, QuizRecord.self,
-            AICall.self,
+            AICall.self, MisconceptionRecord.self,
             configurations: ModelConfiguration(isStoredInMemoryOnly: true)
         )
         return ModelContext(container)
@@ -352,16 +352,16 @@ struct AppSmokeTests {
         #expect(settings.currentDeckID == catalog.decks[0].id)
     }
 
-    @Test func aDeckTestRecordsItsScore() async throws {
+    @Test func theDailyChallengeRecordsItsScore() async throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
         let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
-        let deck = catalog.decks[0]
-        for id in deck.wordIDs.prefix(5) {
+        for id in catalog.decks[0].wordIDs.prefix(8) {
             ReviewRecorder.record(wordID: id, mode: .multipleChoice, grade: Grade(score: 100),
                                   rating: .good, scheduler: FSRS(), in: context, index: index)
         }
-        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index, quiz: .deck(deck))
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings,
+                                     index: index, quiz: .dailyChallenge)
         model.start()
         #expect(model.progress == 0)
         while model.current != nil, let item = try? drill(model) {
@@ -369,8 +369,8 @@ struct AppSmokeTests {
             model.advance()
         }
         guard case let .finished(summary) = model.phase else { Issue.record("expected finished"); return }
-        #expect(summary.answered == 5 && summary.meanScore == 100 && summary.isQuiz)
-        #expect(ReviewRecorder.bestQuizScore(deckID: deck.id, in: context) == 100)
+        #expect(summary.answered == 8 && summary.meanScore == 100 && summary.isQuiz)
+        #expect(ReviewRecorder.bestChallengeScore(in: context) == 100)
     }
 
     @Test func recentAccuracyNeedsSomeHistoryBeforeItReportsAnything() throws {

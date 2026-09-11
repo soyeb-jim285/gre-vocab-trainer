@@ -211,17 +211,15 @@ enum MisconceptionKind: String, Codable, CaseIterable {
     case confusion
 }
 
-/// One finished test, for the deck's best score.
+/// One finished daily challenge, kept so the score has something to be compared
+/// against tomorrow.
 @Model
 final class QuizRecord {
-    /// Nil for a test over everything studied.
-    var deckID: String?
     var score: Int = 0
     var wordCount: Int = 0
     var takenAt: Date = Date.distantPast
 
-    init(deckID: String?, score: Int, wordCount: Int, takenAt: Date) {
-        self.deckID = deckID
+    init(score: Int, wordCount: Int, takenAt: Date) {
         self.score = score
         self.wordCount = wordCount
         self.takenAt = takenAt
