@@ -1,0 +1,1322 @@
+{
+  "importuned": {
+    "accepted_concepts": [
+      "asked persistently and annoyingly",
+      "pestered with requests",
+      "badgered for something",
+      "beseeched again and again",
+      "pressed repeatedly for a favour"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ignored entirely",
+        "misconception": "inverts persistent asking into no asking at all"
+      },
+      {
+        "answer": "made important",
+        "misconception": "hears the sound-alike about mattering"
+      }
+    ],
+    "required_nuance": "asked so often it became a nuisance",
+    "mental_hook": "Asked, and asked, until it grated.",
+    "semantic_hint": "What beggars in a crowded street do to passers-by."
+  },
+  "imposed": {
+    "accepted_concepts": [
+      "forced on someone by authority",
+      "levied without consent",
+      "inflicted from above",
+      "enforced on an unwilling party",
+      "laid on as an obligation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "freely chosen",
+        "misconception": "inverts something forced on one into a voluntary act"
+      },
+      {
+        "answer": "grand in appearance",
+        "misconception": "confuses being forced on someone with the near-twin about impressive scale"
+      }
+    ],
+    "required_nuance": "put on someone by authority, not accepted willingly",
+    "mental_hook": "Put on them, whether they liked it or not.",
+    "semantic_hint": "How a curfew is described when a government simply declares it."
+  },
+  "imposing": {
+    "accepted_concepts": [
+      "impressive in scale",
+      "grand in appearance",
+      "commanding respect by size or manner",
+      "stately",
+      "striking enough to give pause"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "modest and unremarkable",
+        "misconception": "inverts grandeur into modesty"
+      },
+      {
+        "answer": "forced on someone unwillingly",
+        "misconception": "confuses impressive scale with the near-twin about something inflicted"
+      }
+    ],
+    "required_nuance": "impressive by scale or bearing",
+    "mental_hook": "Big enough to make you pause.",
+    "semantic_hint": "The word for a building that dominates the square it stands in."
+  },
+  "imposition": {
+    "accepted_concepts": [
+      "an unfair or unwelcome demand",
+      "a burden placed on someone",
+      "an intrusion on another's time",
+      "an encumbrance laid on a person",
+      "a charge levied without welcome"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a favour done gladly",
+        "misconception": "inverts an unwelcome burden into a kindness"
+      },
+      {
+        "answer": "an impressive appearance",
+        "misconception": "confuses an unwelcome demand with the near-twin about grandeur"
+      }
+    ],
+    "required_nuance": "a demand that burdens the person it falls on",
+    "mental_hook": "A burden, and nobody asked for it.",
+    "semantic_hint": "What staying an extra week at a friend's house becomes."
+  },
+  "imposture": {
+    "accepted_concepts": [
+      "deceiving by pretending to be someone else",
+      "a masquerade under a false identity",
+      "fraudulent pretence of being another",
+      "passing oneself off as someone",
+      "a deception of identity"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "genuine identity",
+        "misconception": "inverts a false persona into an authentic one"
+      },
+      {
+        "answer": "the way one stands",
+        "misconception": "hears the sound-alike about bodily bearing"
+      }
+    ],
+    "required_nuance": "pretending to be a particular person one is not",
+    "mental_hook": "Wearing someone else's name.",
+    "semantic_hint": "What a conman commits by claiming to be a doctor."
+  },
+  "imprecation": {
+    "accepted_concepts": [
+      "a spoken curse",
+      "a malediction",
+      "an invocation of harm on someone",
+      "a curse uttered aloud",
+      "a wish for evil spoken against a person"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a blessing",
+        "misconception": "inverts a curse into a benediction"
+      },
+      {
+        "answer": "a lack of exactness",
+        "misconception": "hears the sound-alike about being imprecise"
+      }
+    ],
+    "required_nuance": "a curse called down on someone",
+    "mental_hook": "A curse, said out loud.",
+    "semantic_hint": "The word for the curses an old woman calls down on an enemy in a folk tale."
+  },
+  "impregnable": {
+    "accepted_concepts": [
+      "unable to be captured",
+      "not to be broken into",
+      "unassailable",
+      "secure against any attack",
+      "invulnerable to assault"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "easily overrun",
+        "misconception": "inverts being unassailable into being exposed"
+      },
+      {
+        "answer": "able to bear young",
+        "misconception": "hears the sound-alike about conception"
+      }
+    ],
+    "required_nuance": "cannot be taken by force",
+    "mental_hook": "No way in, and no way to take it.",
+    "semantic_hint": "The word for a fortress no army has ever taken."
+  },
+  "improbable": {
+    "accepted_concepts": [
+      "unlikely to be true",
+      "not probable",
+      "doubtful as an outcome",
+      "far-fetched",
+      "hard to expect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "highly likely",
+        "misconception": "inverts unlikelihood into probability"
+      },
+      {
+        "answer": "impossible",
+        "misconception": "overstates unlikely into ruled out entirely"
+      }
+    ],
+    "required_nuance": "unlikely, but not ruled out",
+    "mental_hook": "Unlikely. Not impossible.",
+    "semantic_hint": "The word for an outcome with a one-in-a-thousand chance."
+  },
+  "improvident": {
+    "accepted_concepts": [
+      "failing to plan for the future",
+      "spending with no thought for later",
+      "shortsighted about what is coming",
+      "careless of future need",
+      "wasteful of what should be saved"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "thrifty and prudent",
+        "misconception": "inverts recklessness about the future into foresight"
+      },
+      {
+        "answer": "unable to be proved",
+        "misconception": "hears the sound-alike about proof"
+      }
+    ],
+    "required_nuance": "no provision made for the future",
+    "mental_hook": "Nothing put by for later.",
+    "semantic_hint": "The word for spending every wage packet the day it arrives."
+  },
+  "improvise": {
+    "accepted_concepts": [
+      "create without preparation",
+      "make it up as one goes",
+      "extemporise",
+      "invent on the spot",
+      "devise something from what is at hand"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to rehearse carefully",
+        "misconception": "inverts spontaneity into preparation"
+      },
+      {
+        "answer": "to make better",
+        "misconception": "hears the sound-alike 'improve'"
+      }
+    ],
+    "required_nuance": "made in the moment, with no plan",
+    "mental_hook": "No plan, no script, still works.",
+    "semantic_hint": "What a cook does when half the ingredients are missing."
+  },
+  "imprudence": {
+    "accepted_concepts": [
+      "lack of good judgement",
+      "recklessness in action",
+      "folly in taking a risk",
+      "rashness",
+      "want of due caution"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "careful caution",
+        "misconception": "inverts recklessness into prudence"
+      },
+      {
+        "answer": "bold disrespect",
+        "misconception": "confuses poor judgement with the near-twin about insolence"
+      }
+    ],
+    "required_nuance": "bad judgement, not bad manners",
+    "mental_hook": "Unwise. The near-twin is rude.",
+    "semantic_hint": "The word for the folly of signing a contract nobody read."
+  },
+  "imprudent": {
+    "accepted_concepts": [
+      "unwise",
+      "rash in judgement",
+      "reckless of consequences",
+      "injudicious",
+      "lacking due caution"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cautious",
+        "misconception": "inverts rashness into care"
+      },
+      {
+        "answer": "boldly disrespectful",
+        "misconception": "confuses bad judgement with the near-twin about insolence"
+      }
+    ],
+    "required_nuance": "unwise, and about judgement not manners",
+    "mental_hook": "Unwise. The near-twin means cheeky.",
+    "semantic_hint": "The word for lending a large sum to a stranger."
+  },
+  "impudent": {
+    "accepted_concepts": [
+      "boldly disrespectful",
+      "insolent",
+      "cheeky beyond what is acceptable",
+      "brazen toward a superior",
+      "impertinent in manner"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deferential",
+        "misconception": "inverts insolence into respect"
+      },
+      {
+        "answer": "unwise",
+        "misconception": "confuses rudeness with the near-twin about bad judgement"
+      }
+    ],
+    "required_nuance": "disrespect shown boldly, not mere folly",
+    "mental_hook": "Rude. The near-twin is merely unwise.",
+    "semantic_hint": "The word for a servant answering back to a master in a period novel."
+  },
+  "impugn": {
+    "accepted_concepts": [
+      "attack as false",
+      "call into question",
+      "dispute the truth of",
+      "challenge someone's honesty",
+      "cast doubt on"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to endorse",
+        "misconception": "inverts attacking into backing"
+      },
+      {
+        "answer": "to punish",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "attacking the truth or honesty of something",
+    "mental_hook": "Attacks the claim, or the person's honesty.",
+    "semantic_hint": "What a barrister does to a witness's integrity in cross-examination."
+  },
+  "impunity": {
+    "accepted_concepts": [
+      "freedom from punishment",
+      "exemption from consequences",
+      "acting without fear of penalty",
+      "immunity from being called to account",
+      "licence to do it unpunished"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "full accountability",
+        "misconception": "inverts escaping punishment into facing it"
+      },
+      {
+        "answer": "purity",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "no punishment follows, whatever is done",
+    "mental_hook": "Does it, and nothing happens to them.",
+    "semantic_hint": "What allows a powerful figure to break rules without consequence."
+  },
+  "impute": {
+    "accepted_concepts": [
+      "attribute a fault to someone",
+      "ascribe a quality or motive",
+      "assign responsibility for",
+      "lay something at a person's door",
+      "credit an action to a person"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to absolve of all blame",
+        "misconception": "inverts attributing into clearing"
+      },
+      {
+        "answer": "to argue against",
+        "misconception": "hears the sound-alike about disputing"
+      }
+    ],
+    "required_nuance": "attributing, usually a fault or a motive",
+    "mental_hook": "Lays it at their door.",
+    "semantic_hint": "What a critic does by assigning a motive the author never stated."
+  },
+  "inadvertent": {
+    "accepted_concepts": [
+      "unintentional",
+      "done by accident",
+      "unwitting",
+      "occurring without intent",
+      "not meant to happen"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deliberate",
+        "misconception": "inverts accident into intention"
+      },
+      {
+        "answer": "unnoticed by anyone",
+        "misconception": "confuses being unintended with going undetected"
+      }
+    ],
+    "required_nuance": "without intention, whether or not anyone noticed",
+    "mental_hook": "Not meant. That is the whole point.",
+    "semantic_hint": "The word for a disclosure someone made without meaning to."
+  },
+  "inanity": {
+    "accepted_concepts": [
+      "silliness",
+      "emptiness of content",
+      "vacuity",
+      "a remark with nothing in it",
+      "foolish lack of substance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "profundity",
+        "misconception": "inverts emptiness into depth"
+      },
+      {
+        "answer": "insanity",
+        "misconception": "hears the sound-alike about madness"
+      }
+    ],
+    "required_nuance": "empty and silly, not mad",
+    "mental_hook": "Nothing in it, and silly with it.",
+    "semantic_hint": "The word for chat-show talk that says nothing at great length."
+  },
+  "inarticulate": {
+    "accepted_concepts": [
+      "unable to express oneself clearly",
+      "tongue-tied",
+      "incoherent in speech",
+      "struggling to find words",
+      "unable to put it into words"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "eloquent",
+        "misconception": "inverts struggling for words into fluency"
+      },
+      {
+        "answer": "silent by choice",
+        "misconception": "confuses being unable to express with choosing not to"
+      }
+    ],
+    "required_nuance": "unable to put it clearly into words",
+    "mental_hook": "Feels it. Cannot say it.",
+    "semantic_hint": "The word for grief that leaves someone unable to speak at all."
+  },
+  "inborn": {
+    "accepted_concepts": [
+      "present from birth",
+      "natural rather than learned",
+      "innate",
+      "congenital",
+      "possessed from the start"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "learned later in life",
+        "misconception": "inverts what one is born with into what is acquired"
+      },
+      {
+        "answer": "born indoors",
+        "misconception": "reads the two halves of the compound literally"
+      }
+    ],
+    "required_nuance": "there from birth, not acquired",
+    "mental_hook": "Arrived with them.",
+    "semantic_hint": "The word for an aptitude a child appears to have had from the start."
+  },
+  "incandescent": {
+    "accepted_concepts": [
+      "glowing with heat",
+      "brilliantly bright",
+      "radiant with light",
+      "intensely luminous",
+      "blazing with brilliance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dim",
+        "misconception": "inverts brilliance into dullness"
+      },
+      {
+        "answer": "fading away quickly",
+        "misconception": "hears the sound-alike about vanishing"
+      }
+    ],
+    "required_nuance": "brightness from heat, literal or figurative",
+    "mental_hook": "Glowing, because it is that hot.",
+    "semantic_hint": "The word for an old filament bulb, and for a performance of blazing intensity."
+  },
+  "incarnadine": {
+    "accepted_concepts": [
+      "blood-red in colour",
+      "crimson",
+      "scarlet",
+      "stained deep red",
+      "the colour of blood"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pale white",
+        "misconception": "inverts deep red into colourlessness"
+      },
+      {
+        "answer": "relating to a flower",
+        "misconception": "hears the sound-alike 'carnation' and takes the plant"
+      }
+    ],
+    "required_nuance": "the specific red of blood",
+    "mental_hook": "Macbeth's seas, turned red.",
+    "semantic_hint": "The word Shakespeare uses for seas turned the colour of blood."
+  },
+  "incendiary": {
+    "accepted_concepts": [
+      "designed to provoke",
+      "inflammatory in effect",
+      "calculated to stir up violence",
+      "seditious",
+      "setting feelings alight"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "calming and conciliatory",
+        "misconception": "inverts inflaming into soothing"
+      },
+      {
+        "answer": "accidental",
+        "misconception": "loses the deliberate provocation that defines it"
+      }
+    ],
+    "required_nuance": "meant to set something alight, literally or in feeling",
+    "mental_hook": "Made to start a fire, or a riot.",
+    "semantic_hint": "The word for a speech designed to push a crowd into violence."
+  },
+  "incense": {
+    "accepted_concepts": [
+      "make very angry",
+      "enrage",
+      "infuriate",
+      "provoke to fury",
+      "outrage someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to soothe",
+        "misconception": "inverts enraging into calming"
+      },
+      {
+        "answer": "fragrant smoke burned in a temple",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "the tested sense is the verb: to enrage",
+    "mental_hook": "The verb sets people alight, not sticks.",
+    "semantic_hint": "What a casual insult does to someone's temper."
+  },
+  "incentive": {
+    "accepted_concepts": [
+      "something that motivates action",
+      "an inducement to act",
+      "a reward that spurs effort",
+      "a motivation offered",
+      "a spur to doing something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a deterrent",
+        "misconception": "inverts encouragement into discouragement"
+      },
+      {
+        "answer": "an intention",
+        "misconception": "confuses the external inducement with the internal aim"
+      }
+    ],
+    "required_nuance": "something offered to prompt action",
+    "mental_hook": "The carrot, not the stick.",
+    "semantic_hint": "What a bonus scheme is meant to be for a sales team."
+  },
+  "incessant": {
+    "accepted_concepts": [
+      "continuing without pause",
+      "unceasing",
+      "going on and on without a break",
+      "constant and unrelenting",
+      "never stopping"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "occurring now and then",
+        "misconception": "inverts the unbroken into the intermittent"
+      },
+      {
+        "answer": "necessary",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "without any break at all",
+    "mental_hook": "It never once stops.",
+    "semantic_hint": "The word for rain that has not paused for three days."
+  },
+  "inchoate": {
+    "accepted_concepts": [
+      "just begun and not fully formed",
+      "rudimentary",
+      "not yet taking shape",
+      "at the earliest stage",
+      "still shapeless"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fully developed",
+        "misconception": "inverts the barely begun into the mature"
+      },
+      {
+        "answer": "incoherent in speech",
+        "misconception": "hears the sound-alike about being unable to express oneself"
+      }
+    ],
+    "required_nuance": "begun, but with no shape yet",
+    "mental_hook": "Started, but still without shape.",
+    "semantic_hint": "The word for a feeling you cannot yet name or describe."
+  },
+  "incidental": {
+    "accepted_concepts": [
+      "minor and accompanying something else",
+      "of secondary importance",
+      "occurring as a by-product",
+      "peripheral to the main thing",
+      "ancillary"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "central and essential",
+        "misconception": "inverts the secondary into the main point"
+      },
+      {
+        "answer": "happening by chance alone",
+        "misconception": "loses that it accompanies something else"
+      }
+    ],
+    "required_nuance": "attached to something else, and minor beside it",
+    "mental_hook": "Comes with the main thing, and matters less.",
+    "semantic_hint": "The word for small extra costs that come with a trip."
+  },
+  "incipient": {
+    "accepted_concepts": [
+      "beginning to develop",
+      "in its first stage",
+      "nascent",
+      "just starting to appear",
+      "emerging but not yet established"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fully established",
+        "misconception": "inverts the just-beginning into the mature"
+      },
+      {
+        "answer": "unable to be felt",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "just beginning, and detectable",
+    "mental_hook": "The first sign of it.",
+    "semantic_hint": "The word for a rebellion still in its earliest stirrings."
+  },
+  "incisive": {
+    "accepted_concepts": [
+      "sharply clear and direct",
+      "penetrating in analysis",
+      "cutting to the heart of a matter",
+      "trenchant",
+      "acute in judgement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "vague and woolly",
+        "misconception": "inverts sharpness into imprecision"
+      },
+      {
+        "answer": "physically sharp",
+        "misconception": "takes the cutting metaphor literally"
+      }
+    ],
+    "required_nuance": "mentally sharp, cutting to the point",
+    "mental_hook": "Cuts straight to it.",
+    "semantic_hint": "The word for a question that exposes the flaw in one sentence."
+  },
+  "inclement": {
+    "accepted_concepts": [
+      "unpleasantly severe weather",
+      "stormy",
+      "harsh and cold",
+      "foul in conditions",
+      "rough and wintry"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "mild and fair",
+        "misconception": "inverts harsh weather into gentle"
+      },
+      {
+        "answer": "merciless toward people",
+        "misconception": "takes the older sense about mercy rather than weather"
+      }
+    ],
+    "required_nuance": "harsh weather, in the tested sense",
+    "mental_hook": "The weather word for unkind.",
+    "semantic_hint": "The word on a notice cancelling a match because of the weather."
+  },
+  "inclined": {
+    "accepted_concepts": [
+      "having a tendency toward",
+      "disposed to do something",
+      "apt to feel a certain way",
+      "leaning toward a view",
+      "prone to a course"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "averse",
+        "misconception": "inverts a leaning toward into a leaning away"
+      },
+      {
+        "answer": "enclosed",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "a leaning or tendency, not a firm decision",
+    "mental_hook": "Leaning that way, not committed.",
+    "semantic_hint": "How you describe yourself when you half agree with a proposal."
+  },
+  "inclusive": {
+    "accepted_concepts": [
+      "including everything or everyone",
+      "taking in all cases",
+      "comprehensive in scope",
+      "leaving nobody out",
+      "all-embracing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "restricted to a few",
+        "misconception": "inverts taking all in into shutting most out"
+      },
+      {
+        "answer": "leading nowhere definite",
+        "misconception": "confuses it with the near-twin about reaching no result"
+      }
+    ],
+    "required_nuance": "taking everything or everyone in",
+    "mental_hook": "Everyone in, nobody left out.",
+    "semantic_hint": "The word for a price that already covers every extra."
+  },
+  "inconclusive": {
+    "accepted_concepts": [
+      "not leading to a definite result",
+      "settling nothing",
+      "leaving the question open",
+      "indecisive as evidence",
+      "unresolved"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "decisive and final",
+        "misconception": "inverts settling nothing into settling it"
+      },
+      {
+        "answer": "including everyone",
+        "misconception": "confuses it with the near-twin about taking all in"
+      }
+    ],
+    "required_nuance": "it decides nothing either way",
+    "mental_hook": "Proves neither one thing nor the other.",
+    "semantic_hint": "The word for a test result that settles nothing."
+  },
+  "incongruity": {
+    "accepted_concepts": [
+      "a lack of fit",
+      "a mismatch between things",
+      "a discrepancy that jars",
+      "disharmony between parts",
+      "a jarring disparity"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfect harmony",
+        "misconception": "inverts mismatch into fit"
+      },
+      {
+        "answer": "an impossibility",
+        "misconception": "overstates a poor fit into something that cannot be"
+      }
+    ],
+    "required_nuance": "parts that do not fit together",
+    "mental_hook": "Two things that do not belong together.",
+    "semantic_hint": "The word for the mismatch of a dinner jacket worn with muddy boots."
+  },
+  "incongruous": {
+    "accepted_concepts": [
+      "out of place",
+      "not fitting the surroundings",
+      "jarringly inappropriate",
+      "discordant with what is around it",
+      "at odds with its context"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly fitting",
+        "misconception": "inverts being out of place into belonging"
+      },
+      {
+        "answer": "impossible",
+        "misconception": "overstates a poor fit into something that cannot exist"
+      }
+    ],
+    "required_nuance": "not fitting its setting",
+    "mental_hook": "It does not belong here.",
+    "semantic_hint": "The word for a glass tower in the middle of a mediaeval square."
+  },
+  "inconsequential": {
+    "accepted_concepts": [
+      "unimportant",
+      "of no real significance",
+      "trivial",
+      "not affecting the outcome",
+      "negligible"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "highly significant",
+        "misconception": "inverts triviality into importance"
+      },
+      {
+        "answer": "not following logically",
+        "misconception": "takes a narrow logical sense for the tested one"
+      }
+    ],
+    "required_nuance": "too small to matter to the outcome",
+    "mental_hook": "Changes nothing.",
+    "semantic_hint": "The word for a detail that makes no difference to the result."
+  },
+  "inconstancy": {
+    "accepted_concepts": [
+      "frequent change",
+      "unreliability of affection",
+      "fickleness",
+      "failure to stay the same",
+      "unfaithfulness over time"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "steadfastness",
+        "misconception": "inverts changeability into loyalty"
+      },
+      {
+        "answer": "a sudden single change",
+        "misconception": "loses the repeated changing that defines it"
+      }
+    ],
+    "required_nuance": "changing repeatedly, in loyalty or in state",
+    "mental_hook": "Never the same for long.",
+    "semantic_hint": "The word for a lover whose affections change every season."
+  },
+  "incontrovertible": {
+    "accepted_concepts": [
+      "impossible to deny",
+      "not open to dispute",
+      "irrefutable",
+      "beyond argument",
+      "established past challenge"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "debatable",
+        "misconception": "inverts the undeniable into the arguable"
+      },
+      {
+        "answer": "unable to be reformed",
+        "misconception": "confuses being beyond dispute with the near-twin about incurable habits"
+      }
+    ],
+    "required_nuance": "no argument against it is possible",
+    "mental_hook": "No arguing with it.",
+    "semantic_hint": "The word for evidence so strong that nobody attempts to dispute it."
+  },
+  "incorporate": {
+    "accepted_concepts": [
+      "include as part of a whole",
+      "take in and absorb",
+      "integrate into a larger body",
+      "assimilate into the structure",
+      "make part of something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to exclude",
+        "misconception": "inverts taking in into leaving out"
+      },
+      {
+        "answer": "to form a business only",
+        "misconception": "narrows it to the legal sense"
+      }
+    ],
+    "required_nuance": "bringing in so it becomes part of the whole",
+    "mental_hook": "Taken in, and now part of it.",
+    "semantic_hint": "What a final draft does with the suggestions from a review."
+  },
+  "incorrigible": {
+    "accepted_concepts": [
+      "incapable of being reformed",
+      "beyond correction",
+      "hopelessly set in a habit",
+      "inveterate in a fault",
+      "not to be improved"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "easily reformed",
+        "misconception": "inverts the unreformable into the correctable"
+      },
+      {
+        "answer": "impossible to dispute",
+        "misconception": "confuses being unreformable with the near-twin about undeniable facts"
+      }
+    ],
+    "required_nuance": "cannot be reformed, however one tries",
+    "mental_hook": "Beyond correcting. They have tried.",
+    "semantic_hint": "The word for a habit nobody has ever managed to break someone of."
+  },
+  "incredulous": {
+    "accepted_concepts": [
+      "unwilling to believe",
+      "disbelieving what is said",
+      "sceptical of a claim",
+      "refusing to credit it",
+      "showing disbelief"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "believing too readily",
+        "misconception": "inverts disbelief into credulity"
+      },
+      {
+        "answer": "hard to believe in itself",
+        "misconception": "confuses the doubting person with the doubtful claim"
+      }
+    ],
+    "required_nuance": "the person doubting, not the thing doubted",
+    "mental_hook": "The listener doubts. The claim is another word.",
+    "semantic_hint": "The word for the look on a face hearing an outrageous excuse."
+  },
+  "incubation": {
+    "accepted_concepts": [
+      "a period of development before emergence",
+      "the time something takes to mature unseen",
+      "the interval before an infection shows",
+      "quiet development before appearing",
+      "the maturing period"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the moment of emergence",
+        "misconception": "confuses the waiting period with what ends it"
+      },
+      {
+        "answer": "a rapid appearance",
+        "misconception": "loses the period of waiting that defines it"
+      }
+    ],
+    "required_nuance": "the period before anything shows",
+    "mental_hook": "The waiting, before it shows.",
+    "semantic_hint": "The days between catching an infection and the first symptom."
+  },
+  "inculcate": {
+    "accepted_concepts": [
+      "instil by persistent repetition",
+      "implant a belief by drumming it in",
+      "teach by constant insistence",
+      "fix an idea through repetition",
+      "indoctrinate patiently"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to eradicate",
+        "misconception": "inverts instilling into rooting out"
+      },
+      {
+        "answer": "to cut out",
+        "misconception": "hears the sound-alike about surgical removal"
+      }
+    ],
+    "required_nuance": "instilling by repeating until it sticks",
+    "mental_hook": "Repeated until it stuck.",
+    "semantic_hint": "What a school does to habits by drilling them daily for years."
+  },
+  "incumbent": {
+    "accepted_concepts": [
+      "currently holding office",
+      "the present holder of a post",
+      "obligatory as a duty",
+      "morally binding on someone",
+      "resting on a person as a responsibility"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a challenger for the post",
+        "misconception": "inverts the sitting holder into the contender"
+      },
+      {
+        "answer": "optional",
+        "misconception": "inverts a binding duty into a free choice"
+      }
+    ],
+    "required_nuance": "holding the post now, or binding as a duty",
+    "mental_hook": "Sitting in the seat, or sitting on your conscience.",
+    "semantic_hint": "The word for the sitting member defending a seat at an election."
+  },
+  "indebted": {
+    "accepted_concepts": [
+      "owing money",
+      "owing gratitude",
+      "beholden to someone",
+      "under an obligation to repay",
+      "obliged by a kindness received"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "owed money by others",
+        "misconception": "inverts owing into being owed"
+      },
+      {
+        "answer": "free of obligation",
+        "misconception": "inverts being obliged into being unencumbered"
+      }
+    ],
+    "required_nuance": "owing, whether money or thanks",
+    "mental_hook": "Owes them, in cash or in thanks.",
+    "semantic_hint": "How someone describes themselves to a person who saved their life."
+  },
+  "indecorous": {
+    "accepted_concepts": [
+      "improper",
+      "in poor taste",
+      "unseemly for the occasion",
+      "unbecoming in conduct",
+      "offending against propriety"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly seemly",
+        "misconception": "inverts impropriety into good form"
+      },
+      {
+        "answer": "plainly decorated",
+        "misconception": "hears the word about ornament"
+      }
+    ],
+    "required_nuance": "against the propriety of the occasion",
+    "mental_hook": "Not done. Not here, anyway.",
+    "semantic_hint": "The word for laughing loudly during a funeral service."
+  },
+  "indefatigable": {
+    "accepted_concepts": [
+      "tireless",
+      "never giving up",
+      "unflagging in effort",
+      "persisting without weariness",
+      "inexhaustible in energy"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "easily worn out",
+        "misconception": "inverts tirelessness into fatigue"
+      },
+      {
+        "answer": "unable to be defeated",
+        "misconception": "confuses never tiring with never losing"
+      }
+    ],
+    "required_nuance": "never tiring, whatever the outcome",
+    "mental_hook": "Never tires. Winning is another question.",
+    "semantic_hint": "The word for a campaigner who has worked at it for thirty years."
+  },
+  "indemnify": {
+    "accepted_concepts": [
+      "compensate for a loss",
+      "make good someone's damage",
+      "protect from liability",
+      "reimburse for harm suffered",
+      "insure against a cost"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to cause a loss",
+        "misconception": "inverts making good into inflicting harm"
+      },
+      {
+        "answer": "to identify",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "making the loss good, or promising to",
+    "mental_hook": "Covers the loss, or promises to.",
+    "semantic_hint": "What an insurance clause does for a company's legal costs."
+  },
+  "indeterminate": {
+    "accepted_concepts": [
+      "not precisely fixed",
+      "left undefined",
+      "of no settled extent or value",
+      "vague in specification",
+      "not determined either way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "exactly fixed",
+        "misconception": "inverts the unsettled into the precise"
+      },
+      {
+        "answer": "impossible to know",
+        "misconception": "overstates the unfixed into the unknowable"
+      }
+    ],
+    "required_nuance": "not fixed, rather than unknowable",
+    "mental_hook": "Not settled. Not necessarily unknowable.",
+    "semantic_hint": "The word for a prison sentence with no fixed end date."
+  },
+  "indication": {
+    "accepted_concepts": [
+      "a sign",
+      "a piece of evidence pointing somewhere",
+      "a hint of what is the case",
+      "a signal of something",
+      "a mark suggesting a conclusion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "conclusive proof",
+        "misconception": "overstates a sign into settled proof"
+      },
+      {
+        "answer": "a formal criminal charge",
+        "misconception": "hears the sound-alike about being charged with a crime"
+      }
+    ],
+    "required_nuance": "a sign pointing toward something, short of proof",
+    "mental_hook": "Points at it. Does not prove it.",
+    "semantic_hint": "The word for an early sign that a policy may be working."
+  },
+  "indict": {
+    "accepted_concepts": [
+      "formally charge with a crime",
+      "bring a criminal charge against",
+      "arraign",
+      "accuse in due legal form",
+      "put someone formally on a charge"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to acquit",
+        "misconception": "inverts charging into clearing"
+      },
+      {
+        "answer": "to point out",
+        "misconception": "hears the sound-alike about a sign or hint"
+      }
+    ],
+    "required_nuance": "a formal criminal charge, not a conviction",
+    "mental_hook": "Charged. Not yet convicted.",
+    "semantic_hint": "What a grand jury does before a criminal trial begins."
+  },
+  "indictment": {
+    "accepted_concepts": [
+      "a formal criminal charge",
+      "a damning criticism",
+      "an accusation in legal form",
+      "a condemnation of a whole system",
+      "a charge that stands as a verdict on something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an endorsement",
+        "misconception": "inverts a condemnation into approval"
+      },
+      {
+        "answer": "a piece of evidence pointing somewhere",
+        "misconception": "hears the sound-alike about a sign"
+      }
+    ],
+    "required_nuance": "a formal charge, or a damning verdict on something",
+    "mental_hook": "The charge sheet, or the verdict on a system.",
+    "semantic_hint": "What high child poverty figures are called about a wealthy country."
+  },
+  "indifference": {
+    "accepted_concepts": [
+      "lack of interest",
+      "unconcern about an outcome",
+      "apathy",
+      "detachment from what happens",
+      "not caring either way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "keen concern",
+        "misconception": "inverts unconcern into interest"
+      },
+      {
+        "answer": "impartiality",
+        "misconception": "confuses not caring with judging fairly"
+      }
+    ],
+    "required_nuance": "not caring, rather than judging evenly",
+    "mental_hook": "Does not care. Not the same as being fair.",
+    "semantic_hint": "The word for a public reaction of complete unconcern."
+  },
+  "indifferent": {
+    "accepted_concepts": [
+      "unconcerned",
+      "apathetic about the outcome",
+      "not caring either way",
+      "mediocre in quality",
+      "no better than middling"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "keenly interested",
+        "misconception": "inverts unconcern into engagement"
+      },
+      {
+        "answer": "excellent",
+        "misconception": "inverts middling quality into high"
+      }
+    ],
+    "required_nuance": "not caring, or merely middling",
+    "mental_hook": "Does not care, or is not very good.",
+    "semantic_hint": "The word for a shrug at a result, and for a distinctly average meal."
+  },
+  "indigence": {
+    "accepted_concepts": [
+      "extreme poverty",
+      "destitution",
+      "want of the means to live",
+      "penury",
+      "the condition of having nothing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "affluence",
+        "misconception": "inverts destitution into wealth"
+      },
+      {
+        "answer": "anger at injustice",
+        "misconception": "hears the sound-alike about outrage"
+      }
+    ],
+    "required_nuance": "poverty at its most severe",
+    "mental_hook": "Poverty, at the bottom of it.",
+    "semantic_hint": "The word for poverty so deep there is nothing at all to live on."
+  },
+  "indigenous": {
+    "accepted_concepts": [
+      "originating naturally in a place",
+      "native to a region",
+      "belonging there from the beginning",
+      "aboriginal to the land",
+      "not brought from elsewhere"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "brought in from outside",
+        "misconception": "inverts native into introduced"
+      },
+      {
+        "answer": "extremely poor",
+        "misconception": "confuses it with the near-twin about destitution"
+      }
+    ],
+    "required_nuance": "arising there naturally, not introduced",
+    "mental_hook": "From there originally. Not brought.",
+    "semantic_hint": "The word for a plant that grew in a region before anyone planted it."
+  },
+  "indigent": {
+    "accepted_concepts": [
+      "extremely poor",
+      "destitute",
+      "without means",
+      "impoverished",
+      "needy to the point of having nothing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "prosperous",
+        "misconception": "inverts poverty into wealth"
+      },
+      {
+        "answer": "native to a place",
+        "misconception": "confuses it with the near-twin about originating in a region"
+      }
+    ],
+    "required_nuance": "poor, and nothing about where one is from",
+    "mental_hook": "Poor. The near-twin means native.",
+    "semantic_hint": "The legal word for a defendant too poor to pay for a lawyer."
+  },
+  "indignant": {
+    "accepted_concepts": [
+      "angry at unfair treatment",
+      "outraged by injustice",
+      "affronted by something wrong",
+      "resentful at being wronged",
+      "incensed on principle"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pleased and content",
+        "misconception": "inverts outrage into satisfaction"
+      },
+      {
+        "answer": "extremely poor",
+        "misconception": "hears the sound-alike about destitution"
+      }
+    ],
+    "required_nuance": "anger specifically at unfairness",
+    "mental_hook": "Angry, because it was unjust.",
+    "semantic_hint": "How someone reacts to being accused of something they did not do."
+  },
+  "indignation": {
+    "accepted_concepts": [
+      "anger at perceived injustice",
+      "outrage at unfair treatment",
+      "resentment at a wrong",
+      "righteous anger",
+      "affronted feeling at unfairness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complacency",
+        "misconception": "inverts outrage into untroubled acceptance"
+      },
+      {
+        "answer": "extreme poverty",
+        "misconception": "hears the sound-alike about destitution"
+      }
+    ],
+    "required_nuance": "anger grounded in a sense of injustice",
+    "mental_hook": "Anger, with a grievance behind it.",
+    "semantic_hint": "The word for public anger at a scandal of unfair treatment."
+  }
+}
