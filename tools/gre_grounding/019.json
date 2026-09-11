@@ -1758,5 +1758,445 @@
     "required_nuance": "holding down by unjust power",
     "mental_hook": "Held down, by those with the power.",
     "semantic_hint": "What a regime does to a minority it denies rights to."
+  },
+  "opprobrium": {
+    "accepted_concepts": [
+      "harsh public disgrace",
+      "severe condemnation from all sides",
+      "the shame of being publicly denounced",
+      "widespread censure",
+      "public scorn heaped on someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "public honour",
+        "misconception": "inverts disgrace into acclaim"
+      },
+      {
+        "answer": "a private reproach",
+        "misconception": "loses the public character that defines it"
+      }
+    ],
+    "required_nuance": "condemnation, and public with it",
+    "mental_hook": "Condemned, and everyone joining in.",
+    "semantic_hint": "What falls on a scientist caught faking results."
+  },
+  "optimal": {
+    "accepted_concepts": [
+      "best possible in the circumstances",
+      "giving the most favourable result",
+      "ideal for the purpose",
+      "at the most advantageous setting",
+      "the best that conditions allow"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the worst available",
+        "misconception": "inverts the best into the poorest"
+      },
+      {
+        "answer": "merely acceptable",
+        "misconception": "understates the best possible into the adequate"
+      }
+    ],
+    "required_nuance": "best achievable given the constraints",
+    "mental_hook": "The best available, not the best imaginable.",
+    "semantic_hint": "The word for the temperature at which a reaction works best."
+  },
+  "optimum": {
+    "accepted_concepts": [
+      "the most favourable condition",
+      "the point at which results are best",
+      "the ideal amount",
+      "the peak of effectiveness",
+      "the best available level"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the least favourable point",
+        "misconception": "inverts the best into the worst"
+      },
+      {
+        "answer": "hopefulness about the future",
+        "misconception": "hears the sound-alike about expecting good outcomes"
+      }
+    ],
+    "required_nuance": "the best point or amount, as a thing",
+    "mental_hook": "The sweet spot, named.",
+    "semantic_hint": "The word for the exact amount of fertiliser that gives the highest yield."
+  },
+  "opulence": {
+    "accepted_concepts": [
+      "great wealth and luxury",
+      "rich and showy abundance",
+      "splendour of surroundings",
+      "affluence on display",
+      "luxurious plenty"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "austerity",
+        "misconception": "inverts luxury into bareness"
+      },
+      {
+        "answer": "modest comfort",
+        "misconception": "understates lavish splendour into ordinary ease"
+      }
+    ],
+    "required_nuance": "wealth, and visibly luxurious with it",
+    "mental_hook": "Wealth, and you can see every penny of it.",
+    "semantic_hint": "The word for gilded ceilings and marble in every room."
+  },
+  "opulent": {
+    "accepted_concepts": [
+      "luxurious and richly appointed",
+      "sumptuous",
+      "lavishly furnished",
+      "palatial in style",
+      "showing great wealth"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "spartan",
+        "misconception": "inverts luxury into bare simplicity"
+      },
+      {
+        "answer": "swollen",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "rich and luxurious in appearance",
+    "mental_hook": "Rich, and it shows in every fitting.",
+    "semantic_hint": "The word for a hotel suite with silk walls and gold taps."
+  },
+  "oration": {
+    "accepted_concepts": [
+      "a formal speech",
+      "a public address delivered with ceremony",
+      "a set speech before an audience",
+      "a formal discourse",
+      "a prepared public speech"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a casual conversation",
+        "misconception": "inverts formal public speech into private chat"
+      },
+      {
+        "answer": "a prayer",
+        "misconception": "hears the sound-alike about praying"
+      }
+    ],
+    "required_nuance": "formal and delivered to an audience",
+    "mental_hook": "A speech, and a formal one.",
+    "semantic_hint": "The word for the formal address given at a state funeral."
+  },
+  "oratorio": {
+    "accepted_concepts": [
+      "a large sacred musical work",
+      "a choral work on a religious subject",
+      "a concert piece for voices and orchestra without staging",
+      "a sacred work sung without costume or scenery",
+      "a major religious choral composition"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a staged opera with costumes",
+        "misconception": "confuses an unstaged sacred work with a theatrical one"
+      },
+      {
+        "answer": "a formal spoken speech",
+        "misconception": "confuses a musical work with the near-twin about public speaking"
+      }
+    ],
+    "required_nuance": "a sacred choral work, and unstaged",
+    "mental_hook": "An opera with no costumes, and a sacred subject.",
+    "semantic_hint": "The kind of work Handel's Messiah is."
+  },
+  "ordain": {
+    "accepted_concepts": [
+      "decree officially",
+      "lay down by authority",
+      "confer holy orders on",
+      "prescribe as a rule",
+      "appoint by formal act"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to revoke",
+        "misconception": "inverts decreeing into cancelling"
+      },
+      {
+        "answer": "to put in order",
+        "misconception": "hears the root about arrangement"
+      }
+    ],
+    "required_nuance": "decreeing by authority, or admitting to the priesthood",
+    "mental_hook": "Laid down by authority, in law or in church.",
+    "semantic_hint": "What a bishop does to a new priest."
+  },
+  "ornate": {
+    "accepted_concepts": [
+      "elaborately decorated",
+      "heavily ornamented",
+      "florid in style",
+      "richly carved or written",
+      "decorated far beyond the plain"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plain and austere",
+        "misconception": "inverts elaborate decoration into bareness"
+      },
+      {
+        "answer": "bad-tempered",
+        "misconception": "confuses decoration with the near-twin about a cross disposition"
+      }
+    ],
+    "required_nuance": "heavy decoration, in object or in prose",
+    "mental_hook": "Decorated, and then decorated again.",
+    "semantic_hint": "The word for a ceiling with carved fruit in every corner."
+  },
+  "ornery": {
+    "accepted_concepts": [
+      "bad-tempered and uncooperative",
+      "cantankerous",
+      "stubbornly awkward",
+      "irritable and hard to deal with",
+      "contrary by nature"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "amiable",
+        "misconception": "inverts a cross nature into good temper"
+      },
+      {
+        "answer": "elaborately decorated",
+        "misconception": "confuses bad temper with the near-twin about ornament"
+      }
+    ],
+    "required_nuance": "bad temper joined to stubbornness",
+    "mental_hook": "Cross, and awkward with it.",
+    "semantic_hint": "The word for an old mule that will not be led anywhere."
+  },
+  "orotund": {
+    "accepted_concepts": [
+      "pompous and full-sounding",
+      "grandly sonorous",
+      "bombastic in delivery",
+      "inflated in speech",
+      "rich and self-important in tone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plainspoken",
+        "misconception": "inverts inflated grandeur into simplicity"
+      },
+      {
+        "answer": "round in shape",
+        "misconception": "reads the root about roundness literally"
+      }
+    ],
+    "required_nuance": "full-toned, and pompously so",
+    "mental_hook": "A round full voice, and rather pleased with itself.",
+    "semantic_hint": "The word for a voice that booms magnificently and says little."
+  },
+  "orthodox": {
+    "accepted_concepts": [
+      "conforming to established belief",
+      "accepted as standard doctrine",
+      "traditional in view",
+      "following the approved teaching",
+      "conventional"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unorthodox",
+        "misconception": "inverts conformity into dissent"
+      },
+      {
+        "answer": "relating to teeth",
+        "misconception": "hears the sound-alike about straightening teeth"
+      }
+    ],
+    "required_nuance": "following the established doctrine",
+    "mental_hook": "The approved version.",
+    "semantic_hint": "The word for the economic view a whole profession accepts."
+  },
+  "oscillate": {
+    "accepted_concepts": [
+      "swing back and forth",
+      "waver between positions",
+      "fluctuate regularly",
+      "move to and fro",
+      "alternate between two states"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to settle firmly",
+        "misconception": "inverts swinging into stabilising"
+      },
+      {
+        "answer": "to breathe out",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "regular movement back and forth, literal or in opinion",
+    "mental_hook": "Back, forth, back again.",
+    "semantic_hint": "What a pendulum does, and what an undecided voter does."
+  },
+  "ossify": {
+    "accepted_concepts": [
+      "become rigid and unchangeable",
+      "harden into fixed form",
+      "fossilise as an institution",
+      "stagnate into inflexibility",
+      "turn to bone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to stay adaptable",
+        "misconception": "inverts hardening into flexibility"
+      },
+      {
+        "answer": "to make official",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "hardening until change is no longer possible",
+    "mental_hook": "Turned to bone, which is the Latin.",
+    "semantic_hint": "What happens to an institution whose rules have not changed in a century."
+  },
+  "ostensible": {
+    "accepted_concepts": [
+      "apparent but perhaps not genuine",
+      "stated as the reason while another lies behind",
+      "purported",
+      "supposed rather than proven",
+      "given out as the case"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the actual underlying reason",
+        "misconception": "inverts the stated pretext into the real motive"
+      },
+      {
+        "answer": "showy and flashy",
+        "misconception": "confuses a stated pretext with the near-twin about display"
+      }
+    ],
+    "required_nuance": "what is stated, with the real reason implied elsewhere",
+    "mental_hook": "The reason given. Not necessarily the reason.",
+    "semantic_hint": "The word for a stated purpose that hides the real one."
+  },
+  "ostensive": {
+    "accepted_concepts": [
+      "demonstrating by pointing",
+      "showing directly rather than describing",
+      "defining by indicating an example",
+      "indicative by direct display",
+      "teaching by showing the thing itself"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "explaining in words alone",
+        "misconception": "inverts showing into describing"
+      },
+      {
+        "answer": "apparent but not genuine",
+        "misconception": "confuses direct showing with the near-twin about a stated pretext"
+      }
+    ],
+    "required_nuance": "defining by pointing at the thing",
+    "mental_hook": "Points at it instead of describing it.",
+    "semantic_hint": "The word for teaching a colour by holding up something of that colour."
+  },
+  "ostentatious": {
+    "accepted_concepts": [
+      "showy to impress others",
+      "flashy in display",
+      "pretentious in its excess",
+      "making a point of being noticed",
+      "flamboyant for effect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "understated",
+        "misconception": "inverts display into restraint"
+      },
+      {
+        "answer": "apparent but not genuine",
+        "misconception": "confuses showiness with the near-twin about a stated pretext"
+      }
+    ],
+    "required_nuance": "display designed to impress",
+    "mental_hook": "Meant to be noticed, and it is.",
+    "semantic_hint": "The word for a watch worn chiefly so people will see its price."
+  },
+  "ostracism": {
+    "accepted_concepts": [
+      "exclusion from a group",
+      "being shunned by a community",
+      "banishment by common consent",
+      "systematic shutting out",
+      "social exile"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "warm acceptance",
+        "misconception": "inverts exclusion into welcome"
+      },
+      {
+        "answer": "the act of excluding someone",
+        "misconception": "confuses the condition with the verb naming the act"
+      }
+    ],
+    "required_nuance": "exclusion, as a state or practice",
+    "mental_hook": "Shut out, by everyone.",
+    "semantic_hint": "What a whistleblower often suffers from former colleagues."
+  },
+  "ostracize": {
+    "accepted_concepts": [
+      "exclude from a group",
+      "shun deliberately",
+      "cut someone off socially",
+      "blackball",
+      "shut out from company"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to welcome",
+        "misconception": "inverts shutting out into embracing"
+      },
+      {
+        "answer": "the state of being excluded",
+        "misconception": "confuses the act with the condition"
+      }
+    ],
+    "required_nuance": "the act of excluding, as a verb",
+    "mental_hook": "The verb: they shut them out.",
+    "semantic_hint": "What a village does to a family after a public scandal."
+  },
+  "oust": {
+    "accepted_concepts": [
+      "force out of a position",
+      "depose from office",
+      "unseat",
+      "drive out and replace",
+      "remove from a post by pressure"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to install in office",
+        "misconception": "inverts removal into appointment"
+      },
+      {
+        "answer": "to shout loudly",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "removal from a position, against the holder's will",
+    "mental_hook": "Out, and not by choice.",
+    "semantic_hint": "What a board does to a chief executive it has lost faith in."
   }
 }

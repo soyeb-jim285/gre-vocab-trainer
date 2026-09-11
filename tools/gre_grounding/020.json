@@ -1,0 +1,882 @@
+{
+  "outlandish": {
+    "accepted_concepts": [
+      "bizarre",
+      "strikingly unconventional",
+      "preposterous in appearance or claim",
+      "eccentric to the point of absurdity",
+      "wildly out of the ordinary"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly ordinary",
+        "misconception": "inverts the bizarre into the commonplace"
+      },
+      {
+        "answer": "rural",
+        "misconception": "reads the compound as being about the countryside"
+      }
+    ],
+    "required_nuance": "strange enough to seem absurd",
+    "mental_hook": "Strange enough that people stare.",
+    "semantic_hint": "The word for a hat so extraordinary it stops traffic."
+  },
+  "outskirts": {
+    "accepted_concepts": [
+      "the outer edges of a town",
+      "the fringes of a settlement",
+      "the periphery of an urban area",
+      "the districts furthest from the centre",
+      "where the town gives way to countryside"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the city centre",
+        "misconception": "inverts the outer edge into the middle"
+      },
+      {
+        "answer": "a piece of clothing",
+        "misconception": "hears the word inside it literally"
+      }
+    ],
+    "required_nuance": "the outer edge of a town, as a place",
+    "mental_hook": "Where the town stops being a town.",
+    "semantic_hint": "The word for the ring of housing at the far edge of a city."
+  },
+  "outstrip": {
+    "accepted_concepts": [
+      "surpass",
+      "exceed by a clear margin",
+      "leave behind in a race",
+      "overtake and go further",
+      "outdo"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to lag behind",
+        "misconception": "inverts surpassing into trailing"
+      },
+      {
+        "answer": "to remove clothing",
+        "misconception": "reads the second half of the compound literally"
+      }
+    ],
+    "required_nuance": "going beyond, by a clear margin",
+    "mental_hook": "Passes it, and keeps going.",
+    "semantic_hint": "What demand does to supply when a product suddenly becomes popular."
+  },
+  "overbearing": {
+    "accepted_concepts": [
+      "domineering",
+      "arrogantly imposing one's will",
+      "high-handed with others",
+      "imperious in manner",
+      "overpowering in how one deals with people"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deferential",
+        "misconception": "inverts domineering into meekness"
+      },
+      {
+        "answer": "carrying too much weight",
+        "misconception": "reads the compound literally"
+      }
+    ],
+    "required_nuance": "imposing one's will arrogantly on others",
+    "mental_hook": "Bears down on everyone.",
+    "semantic_hint": "The word for a manager who overrides every decision anyone else makes."
+  },
+  "overshadow": {
+    "accepted_concepts": [
+      "make seem less important",
+      "eclipse by comparison",
+      "dominate so that the other is forgotten",
+      "dwarf in significance",
+      "cast a gloom over"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to highlight",
+        "misconception": "inverts obscuring into showcasing"
+      },
+      {
+        "answer": "to provide shade",
+        "misconception": "reads the compound literally"
+      }
+    ],
+    "required_nuance": "reducing something's importance by comparison",
+    "mental_hook": "One thing puts the other in the shade.",
+    "semantic_hint": "What a scandal does to the rest of a politician's record."
+  },
+  "overt": {
+    "accepted_concepts": [
+      "done openly",
+      "not concealed in any way",
+      "carried out in plain view",
+      "undisguised",
+      "openly acknowledged"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "covert",
+        "misconception": "inverts the open into the hidden"
+      },
+      {
+        "answer": "excessive",
+        "misconception": "hears the prefix as meaning too much"
+      }
+    ],
+    "required_nuance": "open, with nothing hidden about it",
+    "mental_hook": "Out in the open, deliberately.",
+    "semantic_hint": "The word for discrimination practised openly rather than in secret."
+  },
+  "overweening": {
+    "accepted_concepts": [
+      "arrogantly excessive",
+      "presumptuous beyond bounds",
+      "immoderate in self-confidence",
+      "overbearing in pride",
+      "far too sure of oneself"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "modest and restrained",
+        "misconception": "inverts arrogance into humility"
+      },
+      {
+        "answer": "worn out from effort",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "excess, usually of pride or confidence",
+    "mental_hook": "Too much of itself, whatever it is.",
+    "semantic_hint": "The word for an ambition so great it destroys the person holding it."
+  },
+  "overwrought": {
+    "accepted_concepts": [
+      "agitated past composure",
+      "in a state of nervous excitement",
+      "worked up to breaking point",
+      "overly elaborate in style",
+      "strained through excess of feeling or ornament"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "calm and restrained",
+        "misconception": "inverts agitation into composure"
+      },
+      {
+        "answer": "worn out from work",
+        "misconception": "confuses nervous excitement with tiredness"
+      }
+    ],
+    "required_nuance": "worked up too far, in nerves or in ornament",
+    "mental_hook": "Worked up too far.",
+    "semantic_hint": "The word for a prose style with three adjectives on every noun."
+  },
+  "pacifist": {
+    "accepted_concepts": [
+      "one opposed to war and violence",
+      "someone who refuses to fight on principle",
+      "a person committed to peaceful means",
+      "a conscientious objector",
+      "one who rejects all violence"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a militarist",
+        "misconception": "inverts opposition to war into enthusiasm for it"
+      },
+      {
+        "answer": "someone merely calm",
+        "misconception": "confuses a principled stand with a quiet temperament"
+      }
+    ],
+    "required_nuance": "opposition to war as a principle held",
+    "mental_hook": "Will not fight, as a matter of principle.",
+    "semantic_hint": "The word for someone who refused conscription on moral grounds."
+  },
+  "pacify": {
+    "accepted_concepts": [
+      "calm someone down",
+      "quieten anger",
+      "subdue a restive region",
+      "placate",
+      "restore peace to a situation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to provoke",
+        "misconception": "inverts calming into stirring up"
+      },
+      {
+        "answer": "to pack something",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "restoring calm, to a person or a place",
+    "mental_hook": "Makes it peaceful again.",
+    "semantic_hint": "What a distraction does to a screaming toddler."
+  },
+  "paean": {
+    "accepted_concepts": [
+      "a song of praise",
+      "an expression of triumphant thanks",
+      "a hymn celebrating something",
+      "a tribute in exalted terms",
+      "a joyful celebration in words"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a lament for the dead",
+        "misconception": "inverts a song of praise into a mourning song"
+      },
+      {
+        "answer": "a farm worker",
+        "misconception": "hears the sound-alike about a labourer"
+      }
+    ],
+    "required_nuance": "praise, and usually exultant",
+    "mental_hook": "Praise, sung at full volume.",
+    "semantic_hint": "The word for an article that is one long celebration of its subject."
+  },
+  "painstaking": {
+    "accepted_concepts": [
+      "done with great care",
+      "thorough to the last detail",
+      "meticulous in execution",
+      "taking trouble over every part",
+      "assiduously careful"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "slapdash",
+        "misconception": "inverts thoroughness into carelessness"
+      },
+      {
+        "answer": "physically painful",
+        "misconception": "reads the compound as being about suffering"
+      }
+    ],
+    "required_nuance": "care taken over every detail, at cost of effort",
+    "mental_hook": "Takes pains, and it shows.",
+    "semantic_hint": "The word for a restoration that took nine years and a magnifying glass."
+  },
+  "palatable": {
+    "accepted_concepts": [
+      "acceptable in taste",
+      "pleasant enough to eat",
+      "acceptable to the mind",
+      "easy to accept",
+      "not objectionable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "objectionable",
+        "misconception": "inverts the acceptable into the unbearable"
+      },
+      {
+        "answer": "grand like a royal residence",
+        "misconception": "confuses acceptability with the near-twin about splendour"
+      }
+    ],
+    "required_nuance": "acceptable, in food or in ideas",
+    "mental_hook": "You can swallow it, food or argument.",
+    "semantic_hint": "The word for a compromise both sides can just about accept."
+  },
+  "palatial": {
+    "accepted_concepts": [
+      "spacious and splendid",
+      "grand like a royal residence",
+      "magnificent in scale",
+      "opulently large",
+      "built on a princely scale"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cramped and modest",
+        "misconception": "inverts grandeur into smallness"
+      },
+      {
+        "answer": "acceptable in taste",
+        "misconception": "confuses grandeur with the near-twin about acceptability"
+      }
+    ],
+    "required_nuance": "grand and large, like a palace",
+    "mental_hook": "Big enough for a prince.",
+    "semantic_hint": "The word for a home with forty rooms and a ballroom."
+  },
+  "palaver": {
+    "accepted_concepts": [
+      "prolonged idle discussion",
+      "a great deal of fuss",
+      "unnecessary talk and bother",
+      "rigmarole",
+      "a tedious business made of something simple"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "concise directness",
+        "misconception": "inverts endless fuss into brevity"
+      },
+      {
+        "answer": "a serious negotiation",
+        "misconception": "loses the idleness and fuss that define it"
+      }
+    ],
+    "required_nuance": "talk and fuss out of proportion to the matter",
+    "mental_hook": "A great deal of talk, and very little done.",
+    "semantic_hint": "The word for the fuss involved in changing a booking by phone."
+  },
+  "palimpsest": {
+    "accepted_concepts": [
+      "something reused with traces of the earlier version showing",
+      "a manuscript written over an older text",
+      "a surface bearing marks of what came before",
+      "a thing layered with earlier versions",
+      "a record showing its own overwriting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a blank unused page",
+        "misconception": "inverts a layered overwritten surface into an empty one"
+      },
+      {
+        "answer": "a cheap imitation",
+        "misconception": "confuses layered reuse with forgery"
+      }
+    ],
+    "required_nuance": "reused, with the earlier layer still visible",
+    "mental_hook": "Written over, and the old writing still shows.",
+    "semantic_hint": "The word for a mediaeval parchment scraped and written over, with the first text still faintly visible."
+  },
+  "pall": {
+    "accepted_concepts": [
+      "an atmosphere of gloom",
+      "a cloud cast over an occasion",
+      "a shadow of depression over events",
+      "a dampening gloom",
+      "a heavy covering of smoke or gloom"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an atmosphere of cheer",
+        "misconception": "inverts gloom into good spirits"
+      },
+      {
+        "answer": "a close friend",
+        "misconception": "hears the sound-alike about a companion"
+      }
+    ],
+    "required_nuance": "a gloom settling over an occasion",
+    "mental_hook": "A cloth over the coffin, widened into gloom.",
+    "semantic_hint": "What bad news casts over a celebration."
+  },
+  "palliate": {
+    "accepted_concepts": [
+      "relieve symptoms without curing",
+      "ease the worst of something",
+      "mitigate suffering",
+      "make more bearable without removing the cause",
+      "alleviate temporarily"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to cure completely",
+        "misconception": "inverts easing symptoms into removing the disease"
+      },
+      {
+        "answer": "to make worse",
+        "misconception": "inverts relief into aggravation"
+      }
+    ],
+    "required_nuance": "easing the effect, not removing the cause",
+    "mental_hook": "Eases it. Does not cure it.",
+    "semantic_hint": "What medicine does when it eases pain without treating the disease."
+  },
+  "pallid": {
+    "accepted_concepts": [
+      "pale in complexion",
+      "lacking colour",
+      "wan",
+      "drained of vitality",
+      "insipid and lifeless"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ruddy and vigorous",
+        "misconception": "inverts paleness into healthy colour"
+      },
+      {
+        "answer": "acceptable in taste",
+        "misconception": "confuses paleness with the near-twin about acceptability"
+      }
+    ],
+    "required_nuance": "pale, and usually lifeless with it",
+    "mental_hook": "Pale, and drained with it.",
+    "semantic_hint": "The word for a face after a long illness, and for a weak imitation."
+  },
+  "palpable": {
+    "accepted_concepts": [
+      "so intense as to seem touchable",
+      "unmistakable in the air",
+      "perceptible almost physically",
+      "tangible in effect",
+      "plainly felt by everyone present"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "imperceptible",
+        "misconception": "inverts the strongly felt into the undetectable"
+      },
+      {
+        "answer": "acceptable to taste",
+        "misconception": "confuses being strongly felt with the near-twin about acceptability"
+      }
+    ],
+    "required_nuance": "so strong it seems almost physical",
+    "mental_hook": "You could almost touch it.",
+    "semantic_hint": "The word for tension in a room you can feel on entering."
+  },
+  "palpitate": {
+    "accepted_concepts": [
+      "beat rapidly and irregularly",
+      "throb hard",
+      "flutter as a heart does under stress",
+      "pound in the chest",
+      "beat fast with fear or excitement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to beat slowly and steadily",
+        "misconception": "inverts rapid irregular beating into a calm rhythm"
+      },
+      {
+        "answer": "to feel with the hands",
+        "misconception": "confuses beating with examining by touch"
+      }
+    ],
+    "required_nuance": "rapid irregular beating, usually of the heart",
+    "mental_hook": "The heart, going too fast.",
+    "semantic_hint": "What a heart does in the seconds before bad news is delivered."
+  },
+  "panacea": {
+    "accepted_concepts": [
+      "a supposed cure for all problems",
+      "a remedy claimed to fix everything",
+      "a universal solution",
+      "a cure-all",
+      "a single answer offered for every ill"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a treatment for one specific illness",
+        "misconception": "narrows a claimed universal remedy to a targeted one"
+      },
+      {
+        "answer": "a plague",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "claimed to cure everything, and usually fails to",
+    "mental_hook": "Fixes everything. Nothing does.",
+    "semantic_hint": "The word for a single policy offered as the answer to every social problem."
+  },
+  "panache": {
+    "accepted_concepts": [
+      "flamboyant confidence",
+      "stylish flair in doing something",
+      "dash and verve",
+      "showy self-assurance",
+      "a confident sense of style"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dull timidity",
+        "misconception": "inverts flair into flatness"
+      },
+      {
+        "answer": "a cure for everything",
+        "misconception": "confuses stylish flair with the near-twin about a universal remedy"
+      }
+    ],
+    "required_nuance": "confidence carried with style",
+    "mental_hook": "Does it well, and makes it look easy.",
+    "semantic_hint": "The word for a goal scored with a flick nobody expected."
+  },
+  "panegyric": {
+    "accepted_concepts": [
+      "elaborate formal praise",
+      "a public speech of high praise",
+      "an extended tribute",
+      "an encomium",
+      "praise delivered at length"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a bitter attack",
+        "misconception": "inverts praise into denunciation"
+      },
+      {
+        "answer": "a general remedy",
+        "misconception": "confuses formal praise with the near-twin about a cure-all"
+      }
+    ],
+    "required_nuance": "formal and elaborate praise",
+    "mental_hook": "Praise, and plenty of it, formally delivered.",
+    "semantic_hint": "The word for a speech that praises someone for twenty uninterrupted minutes."
+  },
+  "panoply": {
+    "accepted_concepts": [
+      "a complete and impressive array",
+      "the full range of something on display",
+      "a splendid collection shown together",
+      "the whole apparatus of something",
+      "an impressive full spread"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a meagre selection",
+        "misconception": "inverts a full impressive array into a sparse one"
+      },
+      {
+        "answer": "a universal remedy",
+        "misconception": "confuses an array with the near-twin about a cure-all"
+      }
+    ],
+    "required_nuance": "the complete array, and impressive with it",
+    "mental_hook": "The whole splendid set of it.",
+    "semantic_hint": "The word for the full display of ceremony at a coronation."
+  },
+  "parable": {
+    "accepted_concepts": [
+      "a short story with a moral lesson",
+      "a tale told to teach a point",
+      "an illustrative moral story",
+      "a fable with a message",
+      "a story standing for a truth"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a factual historical account",
+        "misconception": "confuses a teaching story with a record of events"
+      },
+      {
+        "answer": "a curve in geometry",
+        "misconception": "hears the sound-alike about a mathematical curve"
+      }
+    ],
+    "required_nuance": "a short story told to teach something",
+    "mental_hook": "A story, told to make a point.",
+    "semantic_hint": "What the story of the Good Samaritan is."
+  },
+  "paradigm": {
+    "accepted_concepts": [
+      "a model or framework",
+      "the pattern a field works within",
+      "a typical example serving as a template",
+      "an accepted way of seeing a subject",
+      "a governing model"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single odd exception",
+        "misconception": "inverts the governing pattern into the outlier"
+      },
+      {
+        "answer": "a contradictory truth",
+        "misconception": "confuses a model with the near-twin about apparent contradiction"
+      }
+    ],
+    "required_nuance": "the framework or model, not an exception",
+    "mental_hook": "The pattern everything else is fitted to.",
+    "semantic_hint": "What Newtonian physics was before relativity replaced it."
+  },
+  "paradigmatic": {
+    "accepted_concepts": [
+      "serving as a typical example",
+      "archetypal of its kind",
+      "exemplary of the pattern",
+      "standing as the model case",
+      "typical enough to define the type"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "anomalous",
+        "misconception": "inverts the defining case into the exception"
+      },
+      {
+        "answer": "seemingly self-contradictory",
+        "misconception": "confuses being typical with the near-twin about contradiction"
+      }
+    ],
+    "required_nuance": "typical enough to stand as the model",
+    "mental_hook": "The case everyone points to.",
+    "semantic_hint": "The word for the one study every textbook uses to illustrate the method."
+  },
+  "paradox": {
+    "accepted_concepts": [
+      "a seemingly contradictory truth",
+      "a statement that contradicts itself yet holds",
+      "an apparent contradiction that turns out true",
+      "a puzzle of self-contradiction",
+      "something that should not be possible but is"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a plain consistency",
+        "misconception": "inverts apparent contradiction into straightforward agreement"
+      },
+      {
+        "answer": "a model or framework",
+        "misconception": "confuses a contradiction with the near-twin about a governing pattern"
+      }
+    ],
+    "required_nuance": "seems to contradict itself, and yet holds",
+    "mental_hook": "Cannot both be true. Both are.",
+    "semantic_hint": "The word for the statement that less is more."
+  },
+  "paradoxical": {
+    "accepted_concepts": [
+      "seemingly contradictory yet true",
+      "self-contradictory on the surface",
+      "incongruous but valid",
+      "against expectation while holding good",
+      "puzzling in its apparent contradiction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "entirely consistent",
+        "misconception": "inverts apparent contradiction into plain agreement"
+      },
+      {
+        "answer": "simply false",
+        "misconception": "loses that it turns out to be true"
+      }
+    ],
+    "required_nuance": "contradictory in appearance, true in fact",
+    "mental_hook": "Sounds impossible. Is true.",
+    "semantic_hint": "The word for a result where spending more saved money."
+  },
+  "paragon": {
+    "accepted_concepts": [
+      "a perfect example of a quality",
+      "a model of excellence",
+      "the standard others are measured against",
+      "an exemplar of virtue",
+      "the epitome of a quality"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a complete failure",
+        "misconception": "inverts a model of excellence into its opposite"
+      },
+      {
+        "answer": "a short moral story",
+        "misconception": "confuses a model person with the near-twin about a teaching tale"
+      }
+    ],
+    "required_nuance": "a perfect instance, usually of a virtue",
+    "mental_hook": "The perfect example, and a person.",
+    "semantic_hint": "The phrase describing someone as a perfect model of virtue."
+  },
+  "paraphernalia": {
+    "accepted_concepts": [
+      "miscellaneous equipment",
+      "the assorted gear for an activity",
+      "belongings and trappings collected together",
+      "the odds and ends an occupation requires",
+      "assorted apparatus"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single essential tool",
+        "misconception": "narrows an assortment to one item"
+      },
+      {
+        "answer": "a written record",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "the assorted gear, usually more than needed",
+    "mental_hook": "All the stuff that goes with it.",
+    "semantic_hint": "The word for everything a fisherman carries besides the rod."
+  },
+  "pare": {
+    "accepted_concepts": [
+      "trim",
+      "cut back gradually",
+      "whittle down",
+      "reduce by small cuts",
+      "shave off the outer layer"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to expand",
+        "misconception": "inverts cutting back into enlarging"
+      },
+      {
+        "answer": "to join in twos",
+        "misconception": "hears the sound-alike about a couple"
+      }
+    ],
+    "required_nuance": "reducing by trimming, often bit by bit",
+    "mental_hook": "Trimmed down, a little at a time.",
+    "semantic_hint": "What a budget cut does to a list of projects."
+  },
+  "parenthetical": {
+    "accepted_concepts": [
+      "inserted as an aside",
+      "digressive from the main point",
+      "qualifying and set apart",
+      "incidental to the argument",
+      "put in as an explanatory insertion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "central to the argument",
+        "misconception": "inverts a side remark into the main point"
+      },
+      {
+        "answer": "relating to one's mother and father",
+        "misconception": "hears the sound-alike about parents"
+      }
+    ],
+    "required_nuance": "an aside, set off from the main line",
+    "mental_hook": "An aside, between the brackets.",
+    "semantic_hint": "The word for a remark dropped in mid-sentence that the sentence could do without."
+  },
+  "pariah": {
+    "accepted_concepts": [
+      "a social outcast",
+      "someone shunned by everyone",
+      "a person nobody will associate with",
+      "an untouchable in society",
+      "one excluded from all company"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a favoured insider",
+        "misconception": "inverts the outcast into the welcomed"
+      },
+      {
+        "answer": "a church district",
+        "misconception": "hears the sound-alike about a parish"
+      }
+    ],
+    "required_nuance": "a person universally shunned",
+    "mental_hook": "Nobody will be seen with them.",
+    "semantic_hint": "The word for a state no other country will trade with."
+  },
+  "parity": {
+    "accepted_concepts": [
+      "equality in status",
+      "being on the same level",
+      "equivalence in amount",
+      "par between two things",
+      "the state of being equal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "marked inequality",
+        "misconception": "inverts equality into disparity"
+      },
+      {
+        "answer": "a discussion between opponents",
+        "misconception": "confuses equality with the near-twin about talks"
+      }
+    ],
+    "required_nuance": "equality of level or value",
+    "mental_hook": "Level with each other.",
+    "semantic_hint": "What a pay campaign demands between two groups doing the same work."
+  },
+  "parley": {
+    "accepted_concepts": [
+      "a discussion between opponents",
+      "talks held between enemies",
+      "a negotiation across a divide",
+      "a conference to settle terms",
+      "a meeting to discuss terms"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a refusal to talk at all",
+        "misconception": "inverts a negotiation into silence"
+      },
+      {
+        "answer": "equality of status",
+        "misconception": "confuses talks with the near-twin about being level"
+      }
+    ],
+    "required_nuance": "talks specifically between opposing sides",
+    "mental_hook": "Enemies, talking.",
+    "semantic_hint": "The word for talks between two commanders under a flag of truce."
+  },
+  "parochial": {
+    "accepted_concepts": [
+      "narrow in outlook",
+      "concerned only with local matters",
+      "provincial in view",
+      "insular in interests",
+      "unable to see beyond one's own circle"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cosmopolitan",
+        "misconception": "inverts narrowness into breadth"
+      },
+      {
+        "answer": "relating to a royal court",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "narrow because bounded by the local",
+    "mental_hook": "Cannot see past the parish boundary.",
+    "semantic_hint": "The word for a debate that treats a national issue as purely a local one."
+  },
+  "parody": {
+    "accepted_concepts": [
+      "a humorous imitation",
+      "a send-up of a style",
+      "a spoof exaggerating the original",
+      "a burlesque version",
+      "a mocking imitation for comic effect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a sincere tribute",
+        "misconception": "inverts mocking imitation into earnest homage"
+      },
+      {
+        "answer": "equality of status",
+        "misconception": "hears the sound-alike about being level"
+      }
+    ],
+    "required_nuance": "imitation exaggerated for comic effect",
+    "mental_hook": "Copies it, to make it ridiculous.",
+    "semantic_hint": "The word for a sketch that exaggerates a famous film's style for laughs."
+  },
+  "parry": {
+    "accepted_concepts": [
+      "deflect a blow",
+      "turn aside an attack",
+      "fend off a question",
+      "sidestep what is aimed at you",
+      "block and divert"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to take the blow head on",
+        "misconception": "inverts deflecting into absorbing"
+      },
+      {
+        "answer": "to talk with an opponent",
+        "misconception": "confuses deflecting with the near-twin about negotiation"
+      }
+    ],
+    "required_nuance": "turning aside an attack rather than meeting it",
+    "mental_hook": "Turns it aside, blade or question.",
+    "semantic_hint": "What a fencer does with a blade, and a minister with a hostile question."
+  }
+}
