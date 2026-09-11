@@ -1,4 +1,444 @@
 {
+  "tread": {
+    "accepted_concepts": [
+      "walk or step",
+      "set the foot down",
+      "step carefully over ground",
+      "walk over a surface",
+      "move on foot across something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to leap clear of the ground",
+        "misconception": "inverts stepping into jumping"
+      },
+      {
+        "answer": "a length of fibre",
+        "misconception": "hears the sound-alike about thread"
+      }
+    ],
+    "required_nuance": "stepping, often with care implied",
+    "mental_hook": "Where you put your feet.",
+    "semantic_hint": "What the proverb warns fools do where angels will not."
+  },
+  "treatise": {
+    "accepted_concepts": [
+      "a formal systematic written work",
+      "a long methodical study of a subject",
+      "a dissertation on a topic",
+      "a monograph setting out a field",
+      "an extended scholarly exposition"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a brief casual note",
+        "misconception": "loses the length and formality that define it"
+      },
+      {
+        "answer": "an agreement between states",
+        "misconception": "hears the sound-alike about a formal pact"
+      }
+    ],
+    "required_nuance": "long, formal, and systematic",
+    "mental_hook": "The whole subject, set out methodically.",
+    "semantic_hint": "The word for a book that lays out an entire field in order."
+  },
+  "trenchant": {
+    "accepted_concepts": [
+      "sharply incisive",
+      "cutting straight to the point",
+      "penetrating in criticism",
+      "vigorous and effective in expression",
+      "keen enough to bite"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "vague and woolly",
+        "misconception": "inverts sharp incisiveness into imprecision"
+      },
+      {
+        "answer": "bitter in tone",
+        "misconception": "confuses being sharp and effective with mere sourness"
+      }
+    ],
+    "required_nuance": "sharp and effective, not merely bitter",
+    "mental_hook": "Cuts. And it lands.",
+    "semantic_hint": "The word for a criticism that exposes the flaw in one stroke."
+  },
+  "trepidation": {
+    "accepted_concepts": [
+      "fearful anxiety about what may come",
+      "apprehension before an ordeal",
+      "nervous dread",
+      "unease at what is about to happen",
+      "anxious foreboding"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "calm confidence",
+        "misconception": "inverts anxious dread into composure"
+      },
+      {
+        "answer": "great trouble already suffered",
+        "misconception": "confuses fear of what is coming with the near-twin about present hardship"
+      }
+    ],
+    "required_nuance": "fear about what is still to come",
+    "mental_hook": "Fear, before the thing happens.",
+    "semantic_hint": "What someone feels waiting outside a room for a verdict."
+  },
+  "tribulation": {
+    "accepted_concepts": [
+      "great trouble or suffering",
+      "an ordeal endured",
+      "affliction over a period",
+      "severe hardship",
+      "distress borne over time"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "comfort and ease",
+        "misconception": "inverts suffering into comfort"
+      },
+      {
+        "answer": "anxiety about what is coming",
+        "misconception": "confuses present suffering with the near-twin about dread beforehand"
+      }
+    ],
+    "required_nuance": "suffering actually undergone, not anticipated",
+    "mental_hook": "The suffering itself, not the fear of it.",
+    "semantic_hint": "The word paired with trials in the phrase about hardships endured."
+  },
+  "tribunal": {
+    "accepted_concepts": [
+      "a body appointed to judge disputes",
+      "a panel with power to decide cases",
+      "a court of a specialised kind",
+      "a board hearing evidence and ruling",
+      "an official judging body"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single private mediator",
+        "misconception": "confuses an official judging body with an informal go-between"
+      },
+      {
+        "answer": "a group of three rulers",
+        "misconception": "confuses a judging body with the near-twin about a ruling trio"
+      }
+    ],
+    "required_nuance": "an official body with power to decide",
+    "mental_hook": "A body that hears and rules.",
+    "semantic_hint": "The word for the panel that hears an unfair dismissal case."
+  },
+  "trifling": {
+    "accepted_concepts": [
+      "unimportant and small",
+      "not worth considering",
+      "petty in scale",
+      "negligible in consequence",
+      "slight enough to dismiss"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "weighty and significant",
+        "misconception": "inverts insignificance into importance"
+      },
+      {
+        "answer": "overused and stale",
+        "misconception": "confuses being unimportant with the near-twin about being hackneyed"
+      }
+    ],
+    "required_nuance": "too small to matter, not stale",
+    "mental_hook": "Too small to bother with.",
+    "semantic_hint": "The word for a sum so small the bank does not chase it."
+  },
+  "trite": {
+    "accepted_concepts": [
+      "overused and lacking freshness",
+      "hackneyed through repetition",
+      "banal from constant use",
+      "stale as an expression",
+      "worn out by being said too often"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "original and fresh",
+        "misconception": "inverts the stale into the novel"
+      },
+      {
+        "answer": "unimportant in scale",
+        "misconception": "confuses staleness with the near-twin about insignificance"
+      }
+    ],
+    "required_nuance": "stale through overuse, not merely small",
+    "mental_hook": "Heard it. A thousand times.",
+    "semantic_hint": "The word for a condolence card phrase that has lost all meaning."
+  },
+  "triumvirate": {
+    "accepted_concepts": [
+      "a ruling group of three",
+      "three people sharing power",
+      "a governing trio",
+      "an alliance of three leaders",
+      "a body of three in control"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "rule by one person",
+        "misconception": "inverts shared rule by three into a single ruler"
+      },
+      {
+        "answer": "a judging panel",
+        "misconception": "confuses a ruling trio with the near-twin about a court"
+      }
+    ],
+    "required_nuance": "three, and they rule together",
+    "mental_hook": "Three at the top, sharing it.",
+    "semantic_hint": "What Caesar, Pompey and Crassus formed in Rome."
+  },
+  "trivial": {
+    "accepted_concepts": [
+      "of little importance",
+      "insignificant in effect",
+      "petty and not worth attention",
+      "negligible as a concern",
+      "too slight to matter"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "significant",
+        "misconception": "inverts unimportance into weight"
+      },
+      {
+        "answer": "overused and stale",
+        "misconception": "confuses unimportance with the near-twin about being hackneyed"
+      }
+    ],
+    "required_nuance": "unimportant, whatever its novelty",
+    "mental_hook": "It does not matter.",
+    "semantic_hint": "The word for an objection about the font on a legal filing."
+  },
+  "troth": {
+    "accepted_concepts": [
+      "a solemn pledge of faithfulness",
+      "a vow of loyalty given",
+      "a promise of fidelity",
+      "one's word solemnly pledged",
+      "a binding undertaking of faith"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a betrayal of one's word",
+        "misconception": "inverts a pledge of faith into breaking it"
+      },
+      {
+        "answer": "a channel cut in the ground",
+        "misconception": "hears the sound-alike about a trough"
+      }
+    ],
+    "required_nuance": "a solemn pledge, usually of fidelity",
+    "mental_hook": "The word you plight at an altar.",
+    "semantic_hint": "What an archaic wedding vow says the couple plight to each other."
+  },
+  "truculence": {
+    "accepted_concepts": [
+      "aggressive defiance",
+      "belligerence as a state",
+      "hostility ready to fight",
+      "an aggressive readiness to quarrel",
+      "combative ill temper"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "meekness",
+        "misconception": "inverts aggression into submission"
+      },
+      {
+        "answer": "aggressively defiant as a description",
+        "misconception": "confuses the noun with the near-twin adjective"
+      }
+    ],
+    "required_nuance": "the aggressive defiance itself, named",
+    "mental_hook": "The aggression, as a thing. The near-twin describes it.",
+    "semantic_hint": "The word for the hostility a negotiator meets across the table."
+  },
+  "truculent": {
+    "accepted_concepts": [
+      "aggressively defiant",
+      "belligerent in manner",
+      "spoiling for a quarrel",
+      "combative and hostile",
+      "ready to fight over anything"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "conciliatory",
+        "misconception": "inverts belligerence into peacemaking"
+      },
+      {
+        "answer": "aggressive defiance as a quality",
+        "misconception": "confuses the adjective with the near-twin noun"
+      }
+    ],
+    "required_nuance": "belligerent in manner, as an adjective",
+    "mental_hook": "Looking for a fight, and saying so.",
+    "semantic_hint": "The word for a witness who answers every question as a challenge."
+  },
+  "truncate": {
+    "accepted_concepts": [
+      "shorten by cutting off an end",
+      "cut short before completion",
+      "curtail by removing the end",
+      "abbreviate by lopping off",
+      "end abruptly by cutting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to extend",
+        "misconception": "inverts cutting short into lengthening"
+      },
+      {
+        "answer": "shortened already",
+        "misconception": "confuses the verb with the related adjective"
+      }
+    ],
+    "required_nuance": "the verb: cutting an end off",
+    "mental_hook": "The verb: cuts the end off.",
+    "semantic_hint": "What a character limit does to a long message."
+  },
+  "truncated": {
+    "accepted_concepts": [
+      "shortened by having an end cut off",
+      "curtailed before it finished",
+      "abbreviated by loss of the end",
+      "cut short in form",
+      "left incomplete at the end"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complete and full length",
+        "misconception": "inverts being cut short into being whole"
+      },
+      {
+        "answer": "to cut short",
+        "misconception": "confuses the adjective with the related verb"
+      }
+    ],
+    "required_nuance": "already cut short, as a state",
+    "mental_hook": "The end is missing.",
+    "semantic_hint": "The word for a season cut from twenty games to eight."
+  },
+  "tumult": {
+    "accepted_concepts": [
+      "loud confusion and disorder",
+      "an uproar of many voices",
+      "a commotion of noise and movement",
+      "violent disturbance",
+      "turmoil in a crowd"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "calm order",
+        "misconception": "inverts noisy disorder into quiet"
+      },
+      {
+        "answer": "loud and disorderly as a description",
+        "misconception": "confuses the noun with the related adjective"
+      }
+    ],
+    "required_nuance": "the noisy disorder itself, named",
+    "mental_hook": "The uproar, as a thing.",
+    "semantic_hint": "The word for the noise and chaos of a chamber during a crisis vote."
+  },
+  "tumultuous": {
+    "accepted_concepts": [
+      "loud confused and disorderly",
+      "riotous in noise",
+      "turbulent with commotion",
+      "chaotic and clamorous",
+      "stormy in its disorder"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "peaceful and orderly",
+        "misconception": "inverts noisy disorder into calm"
+      },
+      {
+        "answer": "loud confusion as a thing",
+        "misconception": "confuses the adjective with the related noun"
+      }
+    ],
+    "required_nuance": "noisy and disorderly, as an adjective",
+    "mental_hook": "Describes the uproar. The noun is the uproar.",
+    "semantic_hint": "The word for applause that goes on and shakes the room."
+  },
+  "turbid": {
+    "accepted_concepts": [
+      "cloudy with suspended matter",
+      "muddy and not clear",
+      "murky to look through",
+      "opaque with sediment",
+      "confused and unclear in thought"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "limpid and clear",
+        "misconception": "inverts muddiness into transparency"
+      },
+      {
+        "answer": "violently disordered",
+        "misconception": "confuses cloudiness with the near-twin about violent disorder"
+      }
+    ],
+    "required_nuance": "cloudy, not violent",
+    "mental_hook": "Muddy. The near-twin is violent.",
+    "semantic_hint": "The word for river water after heavy rain upstream."
+  },
+  "turbulent": {
+    "accepted_concepts": [
+      "violently disordered",
+      "marked by unrest and upheaval",
+      "stormy and unstable",
+      "agitated by conflict",
+      "restless and disorderly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "calm and stable",
+        "misconception": "inverts violent disorder into stillness"
+      },
+      {
+        "answer": "cloudy and muddy",
+        "misconception": "confuses violent disorder with the near-twin about murkiness"
+      }
+    ],
+    "required_nuance": "violent disorder, not cloudiness",
+    "mental_hook": "Violent. The near-twin is merely muddy.",
+    "semantic_hint": "The word for a decade of coups and uprisings in a country."
+  },
+  "tureen": {
+    "accepted_concepts": [
+      "a deep covered dish for soup",
+      "a large serving bowl with a lid",
+      "a vessel soup is brought to table in",
+      "a covered bowl for ladling from",
+      "a deep dish for serving liquid food"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small individual bowl",
+        "misconception": "inverts a large serving vessel into a personal dish"
+      },
+      {
+        "answer": "a young woman",
+        "misconception": "hears the sound-alike about a teenager"
+      }
+    ],
+    "required_nuance": "a large lidded dish for serving soup",
+    "mental_hook": "The big lidded bowl the soup arrives in.",
+    "semantic_hint": "The covered dish a waiter ladles soup from at the table."
+  },
   "turgid": {
     "accepted_concepts": [
       "pompously overblown in style",

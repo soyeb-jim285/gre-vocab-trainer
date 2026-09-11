@@ -1318,5 +1318,885 @@
     "required_nuance": "of the earth or the land, not water or sky",
     "mental_hook": "Of the ground, not the sea or the stars.",
     "semantic_hint": "The word for an animal that lives on land rather than in the sea."
+  },
+  "territory": {
+    "accepted_concepts": [
+      "an area of land under control",
+      "a region belonging to a state",
+      "a sphere of activity one claims",
+      "a domain within which someone operates",
+      "ground held as one's own"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an area belonging to nobody",
+        "misconception": "loses the claim or control that defines it"
+      },
+      {
+        "answer": "a frightening experience",
+        "misconception": "hears the sound-alike about terror"
+      }
+    ],
+    "required_nuance": "land or a field of activity held as one's own",
+    "mental_hook": "Ground someone claims, on a map or at work.",
+    "semantic_hint": "The word for the patch of land an animal defends, and for a salesman's patch."
+  },
+  "terse": {
+    "accepted_concepts": [
+      "brief and to the point",
+      "using very few words",
+      "succinct to the edge of rudeness",
+      "curt in reply",
+      "compressed in expression"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "verbose",
+        "misconception": "inverts brevity into wordiness"
+      },
+      {
+        "answer": "tense with worry",
+        "misconception": "hears the sound-alike about strain"
+      }
+    ],
+    "required_nuance": "brief, and sometimes brusque with it",
+    "mental_hook": "Short. Possibly too short to be polite.",
+    "semantic_hint": "The word for a two-word answer that closes the subject."
+  },
+  "testator": {
+    "accepted_concepts": [
+      "a person who has made a will",
+      "the one whose will is being read",
+      "someone leaving property by will",
+      "the maker of a legal bequest",
+      "the deceased who left instructions"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the person who inherits",
+        "misconception": "inverts the one who leaves property into the one who receives it"
+      },
+      {
+        "answer": "a witness at a trial",
+        "misconception": "hears the root about testimony"
+      }
+    ],
+    "required_nuance": "the one who made the will, not the heir",
+    "mental_hook": "Wrote the will. Did not inherit under it.",
+    "semantic_hint": "The legal word for the dead person whose wishes a will records."
+  },
+  "theory": {
+    "accepted_concepts": [
+      "a tested explanation of observed facts",
+      "a framework accounting for evidence",
+      "an explanation supported by testing",
+      "a systematic account of how something works",
+      "an established scientific explanation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an untested guess",
+        "misconception": "confuses a tested explanation with a bare hunch"
+      },
+      {
+        "answer": "what is actually done in practice",
+        "misconception": "inverts the explanatory framework into the practice it explains"
+      }
+    ],
+    "required_nuance": "tested and supported, not a mere guess",
+    "mental_hook": "Not a hunch. A tested explanation.",
+    "semantic_hint": "What evolution is, in the scientific rather than the casual sense."
+  },
+  "thorough": {
+    "accepted_concepts": [
+      "complete and careful in every detail",
+      "leaving nothing unexamined",
+      "exhaustive in attention",
+      "done with full care",
+      "meticulous across the whole"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cursory",
+        "misconception": "inverts full care into a quick glance"
+      },
+      {
+        "answer": "complete and absolute in degree",
+        "misconception": "confuses careful completeness with the near-twin about utterness"
+      }
+    ],
+    "required_nuance": "careful completeness, not sheer degree",
+    "mental_hook": "Every corner checked.",
+    "semantic_hint": "The word for a search that covers every room and every drawer."
+  },
+  "thoroughgoing": {
+    "accepted_concepts": [
+      "complete and absolute",
+      "utter in degree",
+      "unqualified in extent",
+      "through and through",
+      "total without reservation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "halfhearted",
+        "misconception": "inverts absoluteness into partial commitment"
+      },
+      {
+        "answer": "careful in every detail",
+        "misconception": "confuses degree with the near-twin about painstaking care"
+      }
+    ],
+    "required_nuance": "absolute in degree, not careful in method",
+    "mental_hook": "Not careful. Total.",
+    "semantic_hint": "The word for a reform that changes a system root and branch."
+  },
+  "thrall": {
+    "accepted_concepts": [
+      "a state of being controlled",
+      "bondage to a person or influence",
+      "servitude",
+      "the grip something has over one",
+      "subjection to a power"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complete freedom",
+        "misconception": "inverts subjection into liberty"
+      },
+      {
+        "answer": "a thrill of excitement",
+        "misconception": "hears the sound-alike about a rush of feeling"
+      }
+    ],
+    "required_nuance": "held in another's power, literally or figuratively",
+    "mental_hook": "In its grip, and not getting out.",
+    "semantic_hint": "The word for being wholly under the power of an addiction."
+  },
+  "threadbare": {
+    "accepted_concepts": [
+      "worn until the fabric is thin",
+      "shabby from long use",
+      "overused to the point of staleness",
+      "hackneyed through repetition",
+      "shabbily worn out"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pristine and new",
+        "misconception": "inverts the worn out into the fresh"
+      },
+      {
+        "answer": "sparsely furnished",
+        "misconception": "confuses being worn with being bare of contents"
+      }
+    ],
+    "required_nuance": "worn out, in cloth or in an argument",
+    "mental_hook": "You can see through it, coat or excuse.",
+    "semantic_hint": "The word for a coat, and for an excuse offered once too often."
+  },
+  "thrifty": {
+    "accepted_concepts": [
+      "careful with money",
+      "economical in spending",
+      "frugal by habit",
+      "prudent about waste",
+      "spending no more than needed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "extravagant",
+        "misconception": "inverts careful spending into waste"
+      },
+      {
+        "answer": "mean to the point of hoarding",
+        "misconception": "overstates sensible economy into miserliness"
+      }
+    ],
+    "required_nuance": "sensible economy, not meanness",
+    "mental_hook": "Careful, and not mean about it.",
+    "semantic_hint": "The word for someone who repairs a coat rather than replacing it."
+  },
+  "throng": {
+    "accepted_concepts": [
+      "a large crowd",
+      "a dense mass of people",
+      "a multitude pressed together",
+      "a host filling a space",
+      "a great many people at once"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a handful",
+        "misconception": "inverts a great crowd into a few"
+      },
+      {
+        "answer": "a narrow passage",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "a crowd, and a dense one",
+    "mental_hook": "Too many people, pressed together.",
+    "semantic_hint": "The word for the crowd filling a square for an announcement."
+  },
+  "thwart": {
+    "accepted_concepts": [
+      "prevent from succeeding",
+      "foil a plan",
+      "block an attempt",
+      "frustrate someone's design",
+      "stop something going through"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to facilitate",
+        "misconception": "inverts blocking into helping"
+      },
+      {
+        "answer": "a seat in a boat",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "stopping a plan before it succeeds",
+    "mental_hook": "The plan was good. It did not happen.",
+    "semantic_hint": "What an alert guard does to an escape attempt."
+  },
+  "tide": {
+    "accepted_concepts": [
+      "a powerful trend",
+      "a current running one way",
+      "the flow of opinion in a direction",
+      "a sweeping movement of events",
+      "a rising or falling current"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a still and unmoving state",
+        "misconception": "inverts a powerful current into stillness"
+      },
+      {
+        "answer": "a neat arrangement",
+        "misconception": "hears the sound-alike about neatness"
+      }
+    ],
+    "required_nuance": "a large sweeping current, in water or in events",
+    "mental_hook": "It carries everything with it.",
+    "semantic_hint": "The word for a sweeping current, and for public opinion turning."
+  },
+  "timely": {
+    "accepted_concepts": [
+      "happening at a suitable moment",
+      "opportune in its arrival",
+      "well judged in when it came",
+      "prompt enough to be useful",
+      "arriving just when needed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "belated",
+        "misconception": "inverts arriving at the right moment into arriving too late"
+      },
+      {
+        "answer": "lasting only briefly",
+        "misconception": "confuses being well judged with short duration"
+      }
+    ],
+    "required_nuance": "arriving at the right moment, not lasting long",
+    "mental_hook": "Right moment. Nothing about duration.",
+    "semantic_hint": "The word for a warning that arrives just before it is needed."
+  },
+  "timorous": {
+    "accepted_concepts": [
+      "nervous and lacking confidence",
+      "easily frightened",
+      "apprehensive by nature",
+      "shrinking from what must be faced",
+      "fearfully hesitant"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "intrepid",
+        "misconception": "inverts nervousness into fearlessness"
+      },
+      {
+        "answer": "relating to a growth in the body",
+        "misconception": "hears the sound-alike about a tumour"
+      }
+    ],
+    "required_nuance": "habitual nervousness, not a single fright",
+    "mental_hook": "Frightened, as a standing disposition.",
+    "semantic_hint": "The word for a knock at the door so faint nobody answers."
+  },
+  "tirade": {
+    "accepted_concepts": [
+      "a long angry speech",
+      "a sustained verbal attack",
+      "a rant delivered at length",
+      "a diatribe against someone",
+      "an outpouring of abuse"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a speech of praise",
+        "misconception": "inverts an angry attack into a eulogy"
+      },
+      {
+        "answer": "a brief sharp remark",
+        "misconception": "loses the length that defines it"
+      }
+    ],
+    "required_nuance": "angry, and it goes on at length",
+    "mental_hook": "Angry, and it does not stop.",
+    "semantic_hint": "The word for a twenty-minute shouted complaint at a meeting."
+  },
+  "toady": {
+    "accepted_concepts": [
+      "a servile flatterer",
+      "someone who fawns on the powerful",
+      "a sycophant",
+      "a lackey who agrees with everything",
+      "a person who curries favour by flattery"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an honest critic",
+        "misconception": "inverts a flatterer into someone who speaks plainly"
+      },
+      {
+        "answer": "a small amphibian",
+        "misconception": "hears the animal inside the word"
+      }
+    ],
+    "required_nuance": "flattery offered from below, for advantage",
+    "mental_hook": "Agrees with the boss. Always.",
+    "semantic_hint": "The word for an aide who has never once disagreed with their chief."
+  },
+  "toil": {
+    "accepted_concepts": [
+      "hard exhausting work",
+      "drudgery sustained over time",
+      "heavy labour",
+      "a long slog of effort",
+      "grinding physical work"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "leisure",
+        "misconception": "inverts hard work into rest"
+      },
+      {
+        "answer": "a light easy task",
+        "misconception": "loses the exhausting effort that defines it"
+      }
+    ],
+    "required_nuance": "work that exhausts, usually prolonged",
+    "mental_hook": "Hard work, and it grinds.",
+    "semantic_hint": "The word for a day breaking rocks in the sun."
+  },
+  "token": {
+    "accepted_concepts": [
+      "done minimally as a gesture",
+      "nominal rather than real",
+      "symbolic without substance",
+      "perfunctory in extent",
+      "small enough to be a formality only"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "substantial and genuine",
+        "misconception": "inverts a mere gesture into real action"
+      },
+      {
+        "answer": "a coin used in a machine",
+        "misconception": "takes the noun sense for the tested adjective"
+      }
+    ],
+    "required_nuance": "a gesture made for form, not for effect",
+    "mental_hook": "Just enough to say something was done.",
+    "semantic_hint": "The word for a one-percent cut announced as a response to a crisis."
+  },
+  "tome": {
+    "accepted_concepts": [
+      "a large heavy book",
+      "a weighty volume",
+      "a substantial scholarly work",
+      "a thick book of some seriousness",
+      "a big bound volume"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a slim pamphlet",
+        "misconception": "inverts a heavy volume into a thin one"
+      },
+      {
+        "answer": "a burial chamber",
+        "misconception": "hears the sound-alike about a grave"
+      }
+    ],
+    "required_nuance": "a book, and a large heavy one",
+    "mental_hook": "A book you could stun someone with.",
+    "semantic_hint": "The word for a nine-hundred-page history nobody finishes."
+  },
+  "torpid": {
+    "accepted_concepts": [
+      "sluggish and inactive",
+      "slow through lack of energy",
+      "dormant and unmoving",
+      "lethargic in state",
+      "barely stirring"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "energetic",
+        "misconception": "inverts sluggishness into vigour"
+      },
+      {
+        "answer": "a state of inactivity as a condition",
+        "misconception": "confuses the adjective with the near-twin noun"
+      }
+    ],
+    "required_nuance": "sluggish, as an adjective describing something",
+    "mental_hook": "Sluggish. The near-twin noun is the sluggishness.",
+    "semantic_hint": "The word for an animal barely moving through a cold winter."
+  },
+  "torpor": {
+    "accepted_concepts": [
+      "a state of inactivity",
+      "lethargy as a condition",
+      "sluggish inertia",
+      "a dormant unmoving state",
+      "the absence of all vigour"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "vigorous activity",
+        "misconception": "inverts inertia into energy"
+      },
+      {
+        "answer": "sluggish as a description",
+        "misconception": "confuses the noun with the near-twin adjective"
+      }
+    ],
+    "required_nuance": "the sluggish state itself, named",
+    "mental_hook": "The sluggishness itself. The near-twin describes it.",
+    "semantic_hint": "The word for the heavy stillness of a hot afternoon in an office."
+  },
+  "torque": {
+    "accepted_concepts": [
+      "a twisting force",
+      "rotational force applied",
+      "the turning effect of a force",
+      "force that makes something rotate",
+      "twist applied about an axis"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a straight pushing force",
+        "misconception": "inverts a twisting force into a linear one"
+      },
+      {
+        "answer": "intensely hot",
+        "misconception": "confuses rotational force with the near-twin about heat"
+      }
+    ],
+    "required_nuance": "force that turns rather than pushes",
+    "mental_hook": "Force that turns, not pushes.",
+    "semantic_hint": "What an engine specification measures alongside horsepower."
+  },
+  "torrid": {
+    "accepted_concepts": [
+      "intensely hot",
+      "scorching in temperature",
+      "sweltering",
+      "passionate to the point of heat",
+      "burning in intensity"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "frigid",
+        "misconception": "inverts scorching heat into cold"
+      },
+      {
+        "answer": "full of twists",
+        "misconception": "confuses heat with the near-twin about winding complexity"
+      }
+    ],
+    "required_nuance": "heat, of climate or of passion",
+    "mental_hook": "Burning. Weather or romance.",
+    "semantic_hint": "The word for the belt of the globe either side of the equator."
+  },
+  "tortuous": {
+    "accepted_concepts": [
+      "full of twists and turns",
+      "winding in its course",
+      "convoluted in reasoning",
+      "circuitous rather than direct",
+      "excessively complex in its path"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "direct and straightforward",
+        "misconception": "inverts a winding course into a straight one"
+      },
+      {
+        "answer": "causing severe pain",
+        "misconception": "hears the near-identical word about inflicting agony"
+      }
+    ],
+    "required_nuance": "winding, not painful",
+    "mental_hook": "Twisting. The near-twin with an r inflicts pain.",
+    "semantic_hint": "The word for a mountain road with forty hairpin bends."
+  },
+  "tour": {
+    "accepted_concepts": [
+      "a journey visiting several places",
+      "a circuit of a region",
+      "a trip taking in a number of stops",
+      "an organised excursion",
+      "a round of visits"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single stay in one place",
+        "misconception": "loses the several stops that define it"
+      },
+      {
+        "answer": "a tall structure",
+        "misconception": "hears the sound-alike about a tower"
+      }
+    ],
+    "required_nuance": "several places visited in one journey",
+    "mental_hook": "Several stops, one journey.",
+    "semantic_hint": "The word for a band playing twelve cities in three weeks."
+  },
+  "tout": {
+    "accepted_concepts": [
+      "promote aggressively",
+      "advertise in strongly positive terms",
+      "push something hard on others",
+      "praise loudly to sell",
+      "peddle with insistence"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to disparage",
+        "misconception": "inverts loud promotion into running down"
+      },
+      {
+        "answer": "to pull sharply",
+        "misconception": "hears the sound-alike about tugging"
+      }
+    ],
+    "required_nuance": "promotion, loud and insistent",
+    "mental_hook": "Sells it, loudly.",
+    "semantic_hint": "What a firm does by pushing a product as the answer to everything."
+  },
+  "tract": {
+    "accepted_concepts": [
+      "a pamphlet on a serious subject",
+      "a short treatise arguing a case",
+      "a stretch of land",
+      "an expanse of country",
+      "a written piece urging a view"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a long formal book",
+        "misconception": "inverts a short pamphlet into a full volume"
+      },
+      {
+        "answer": "easily managed",
+        "misconception": "confuses the noun with the near-twin adjective about being manageable"
+      }
+    ],
+    "required_nuance": "a short polemical pamphlet, or an area of land",
+    "mental_hook": "A pamphlet, or a stretch of ground.",
+    "semantic_hint": "The word for a religious pamphlet pressed into your hand in the street."
+  },
+  "tractable": {
+    "accepted_concepts": [
+      "easily managed",
+      "amenable to handling",
+      "docile under direction",
+      "readily solved",
+      "yielding to treatment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unruly and resistant",
+        "misconception": "inverts being manageable into being intractable"
+      },
+      {
+        "answer": "a short pamphlet",
+        "misconception": "confuses the adjective with the near-twin noun about a treatise"
+      }
+    ],
+    "required_nuance": "easily handled or solved",
+    "mental_hook": "Handles easily, problem or horse.",
+    "semantic_hint": "The word for a problem that finally yields to the right method."
+  },
+  "traduce": {
+    "accepted_concepts": [
+      "speak badly of falsely",
+      "defame someone's character",
+      "slander with untruths",
+      "malign a reputation",
+      "misrepresent in order to damage"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to defend someone's name",
+        "misconception": "inverts defamation into defence"
+      },
+      {
+        "answer": "to render into another language",
+        "misconception": "hears the sound-alike about translating"
+      }
+    ],
+    "required_nuance": "damaging a reputation by falsehood",
+    "mental_hook": "Says false things, to do damage.",
+    "semantic_hint": "What a smear campaign does to an opponent's good name."
+  },
+  "tranquil": {
+    "accepted_concepts": [
+      "calm and peaceful",
+      "serene and undisturbed",
+      "placid in atmosphere",
+      "restful and still",
+      "free from agitation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "turbulent",
+        "misconception": "inverts calm into violent disorder"
+      },
+      {
+        "answer": "clear and transparent",
+        "misconception": "confuses calm with the near-twin about clarity"
+      }
+    ],
+    "required_nuance": "calm, in place or in mind",
+    "mental_hook": "Nothing disturbing it.",
+    "semantic_hint": "The word for a lake at dawn with nobody on it."
+  },
+  "transcend": {
+    "accepted_concepts": [
+      "go beyond the limits of",
+      "rise above a category",
+      "surpass what normally constrains",
+      "exceed the ordinary bounds",
+      "pass beyond a boundary"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to fall short of",
+        "misconception": "inverts going beyond into failing to reach"
+      },
+      {
+        "answer": "to change into another form",
+        "misconception": "confuses going beyond with the near-twin about transformation"
+      }
+    ],
+    "required_nuance": "going beyond a limit, not changing form",
+    "mental_hook": "Climbs past the boundary.",
+    "semantic_hint": "What a great piece of music is said to do to its own genre."
+  },
+  "transgression": {
+    "accepted_concepts": [
+      "a violation of a rule",
+      "an offence against a law",
+      "a breach of what is permitted",
+      "a misdeed",
+      "a step beyond what is allowed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "obedient compliance",
+        "misconception": "inverts a breach into keeping the rule"
+      },
+      {
+        "answer": "a change of form",
+        "misconception": "confuses breaking a rule with the near-twin about transformation"
+      }
+    ],
+    "required_nuance": "crossing a line that was set",
+    "mental_hook": "Crossed the line that was drawn.",
+    "semantic_hint": "The word for a breach of a code that brings a penalty."
+  },
+  "transient": {
+    "accepted_concepts": [
+      "lasting only a short time",
+      "passing quickly",
+      "fleeting in duration",
+      "staying only briefly",
+      "not settled or permanent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "permanent",
+        "misconception": "inverts brevity into lasting"
+      },
+      {
+        "answer": "not permanent as a quality of things in general",
+        "misconception": "confuses a short stay with the near-twin about impermanence"
+      }
+    ],
+    "required_nuance": "brief in stay, often said of people passing through",
+    "mental_hook": "Here briefly, then gone.",
+    "semantic_hint": "The word for a guest staying one night, and for a fault that clears itself."
+  },
+  "transitory": {
+    "accepted_concepts": [
+      "not permanent",
+      "passing away in time",
+      "impermanent by nature",
+      "destined not to last",
+      "temporary in the scheme of things"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "lasting forever",
+        "misconception": "inverts impermanence into permanence"
+      },
+      {
+        "answer": "staying only a short while in a place",
+        "misconception": "confuses general impermanence with the near-twin about a brief stay"
+      }
+    ],
+    "required_nuance": "impermanent by nature, not merely brief",
+    "mental_hook": "Nothing lasts. That is the word.",
+    "semantic_hint": "The word for worldly glory in a sermon about what does not last."
+  },
+  "transmute": {
+    "accepted_concepts": [
+      "change into a different form",
+      "convert into something else",
+      "transform the nature of",
+      "turn one substance into another",
+      "alter into a new kind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to leave unchanged",
+        "misconception": "inverts transformation into preservation"
+      },
+      {
+        "answer": "to go beyond a limit",
+        "misconception": "confuses changing form with the near-twin about surpassing"
+      }
+    ],
+    "required_nuance": "changing into a different kind of thing",
+    "mental_hook": "Lead into gold, in one word.",
+    "semantic_hint": "What alchemists claimed to do to base metal."
+  },
+  "trappings": {
+    "accepted_concepts": [
+      "the outward signs of status",
+      "the visible accessories of a role",
+      "regalia marking rank",
+      "the outward show that goes with a position",
+      "accoutrements signalling importance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the substance of the office itself",
+        "misconception": "confuses the outward signs with the real power"
+      },
+      {
+        "answer": "devices for catching animals",
+        "misconception": "hears the word for a snare inside it"
+      }
+    ],
+    "required_nuance": "the outward show, not the substance",
+    "mental_hook": "The car and the office. Not the power.",
+    "semantic_hint": "The word for the limousine and the title that come with a post."
+  },
+  "travail": {
+    "accepted_concepts": [
+      "painful laborious effort",
+      "an ordeal of hard work",
+      "toil bringing suffering",
+      "hardship endured in labour",
+      "a period of anguish and effort"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ease and leisure",
+        "misconception": "inverts painful effort into rest"
+      },
+      {
+        "answer": "a grotesque distortion",
+        "misconception": "confuses painful labour with the near-twin about a mockery"
+      }
+    ],
+    "required_nuance": "labour, and it costs suffering",
+    "mental_hook": "Work, and it hurts.",
+    "semantic_hint": "The word for the long painful effort behind a hard-won reform."
+  },
+  "travesty": {
+    "accepted_concepts": [
+      "a grotesque distortion of something",
+      "a mockery of what it claims to be",
+      "a debased imitation",
+      "a perversion of a proper thing",
+      "a ludicrous misrepresentation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a faithful representation",
+        "misconception": "inverts a distortion into an accurate account"
+      },
+      {
+        "answer": "painful laborious effort",
+        "misconception": "confuses a mockery with the near-twin about hardship"
+      }
+    ],
+    "required_nuance": "a distortion so bad it mocks the original",
+    "mental_hook": "Calls itself the thing. Mocks it instead.",
+    "semantic_hint": "What a rigged hearing is called in relation to justice."
+  },
+  "treacherous": {
+    "accepted_concepts": [
+      "disloyal to those who trusted",
+      "betraying a confidence",
+      "dangerously unreliable underfoot",
+      "hazardous in a hidden way",
+      "perfidious"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "loyal and safe",
+        "misconception": "inverts betrayal and hidden danger into faithfulness"
+      },
+      {
+        "answer": "cloyingly sentimental",
+        "misconception": "confuses betrayal with the near-twin about sickly sweetness"
+      }
+    ],
+    "required_nuance": "betrayal, or hidden danger",
+    "mental_hook": "Betrays you, or gives way under you.",
+    "semantic_hint": "The word for an ally who informs on you, and for ice on a slope."
+  },
+  "treacly": {
+    "accepted_concepts": [
+      "cloyingly sentimental",
+      "sickly sweet in tone",
+      "saccharine to the point of nausea",
+      "mawkish in its emotion",
+      "thick with unearned feeling"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "astringent and restrained",
+        "misconception": "inverts sickly sweetness into dryness"
+      },
+      {
+        "answer": "dangerously disloyal",
+        "misconception": "confuses sentimentality with the near-twin about betrayal"
+      }
+    ],
+    "required_nuance": "sentimental to the point of being sickly",
+    "mental_hook": "Sweet, and it sticks to everything.",
+    "semantic_hint": "The word for a film ending so sugary it embarrasses the audience."
   }
 }
