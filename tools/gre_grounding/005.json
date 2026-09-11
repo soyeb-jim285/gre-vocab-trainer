@@ -878,5 +878,1325 @@
     "required_nuance": "looking all around before acting",
     "mental_hook": "Looks all around before stepping.",
     "semantic_hint": "How you behave when you weigh every consequence before speaking."
+  },
+  "circumstances": {
+    "accepted_concepts": [
+      "the conditions surrounding an event",
+      "the situation around something",
+      "the attendant conditions",
+      "the context of an event",
+      "the surrounding facts"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the distance around a shape",
+        "misconception": "hears the sound-alike 'circumference'"
+      },
+      {
+        "answer": "a single fact",
+        "misconception": "confuses the whole context with one detail"
+      }
+    ],
+    "required_nuance": "everything around the event, never the event itself",
+    "mental_hook": "Not the thing. Everything around it.",
+    "semantic_hint": "The surrounding conditions a judge considers before passing sentence."
+  },
+  "circumvent": {
+    "accepted_concepts": [
+      "get around a rule",
+      "bypass an obstacle cleverly",
+      "evade by going round",
+      "sidestep a restriction",
+      "find a way past"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to break a rule openly",
+        "misconception": "confuses going round with going through"
+      },
+      {
+        "answer": "an opening for air",
+        "misconception": "hears the word 'vent'"
+      }
+    ],
+    "required_nuance": "going round, never breaking through",
+    "mental_hook": "Never breaks the rule. Goes round it.",
+    "semantic_hint": "What a clever accountant does to a tax rule without breaking it."
+  },
+  "cite": {
+    "accepted_concepts": [
+      "quote as evidence",
+      "refer to a source",
+      "adduce in support",
+      "name as an authority",
+      "point to in support of a claim"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a place or location",
+        "misconception": "hears the sound-alike 'site'"
+      },
+      {
+        "answer": "vision",
+        "misconception": "hears the sound-alike 'sight'"
+      }
+    ],
+    "required_nuance": "naming a source in support of a claim",
+    "mental_hook": "Three sound-alikes, and this is the one with a source.",
+    "semantic_hint": "What a scholar does with a source to back up a claim."
+  },
+  "clad": {
+    "accepted_concepts": [
+      "clothed",
+      "dressed in",
+      "covered with",
+      "sheathed",
+      "wearing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pleased",
+        "misconception": "hears the sound-alike 'glad'"
+      },
+      {
+        "answer": "bare",
+        "misconception": "inverts covered into uncovered"
+      }
+    ],
+    "required_nuance": "covered or dressed, usually in a compound",
+    "mental_hook": "Iron-clad, ivy-clad, scantily clad.",
+    "semantic_hint": "How a building is described when it is covered in ivy."
+  },
+  "clamber": {
+    "accepted_concepts": [
+      "climb awkwardly",
+      "scramble up using hands and feet",
+      "scrabble over",
+      "haul oneself up clumsily",
+      "struggle upward"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a gripping device",
+        "misconception": "hears the sound-alike 'clamp'"
+      },
+      {
+        "answer": "to climb gracefully",
+        "misconception": "loses the awkwardness that defines it"
+      }
+    ],
+    "required_nuance": "climbing awkwardly, with hands as well as feet",
+    "mental_hook": "Climbing, and not elegantly.",
+    "semantic_hint": "How you get over a high wall when there are no steps."
+  },
+  "clamor": {
+    "accepted_concepts": [
+      "loud noise",
+      "a vehement public demand",
+      "an outcry",
+      "a din of voices",
+      "an insistent public cry"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "quiet",
+        "misconception": "inverts noise into silence"
+      },
+      {
+        "answer": "a gripping device",
+        "misconception": "hears the sound-alike 'clamp'"
+      }
+    ],
+    "required_nuance": "the noise, or the demand the noise expresses",
+    "mental_hook": "The noise, and also what the noise is asking for.",
+    "semantic_hint": "The loud public outcry demanding that something be done."
+  },
+  "clamorous": {
+    "accepted_concepts": [
+      "noisily insistent",
+      "loudly demanding",
+      "vociferous",
+      "strident in demand",
+      "raucously persistent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "stylish and alluring",
+        "misconception": "hears the sound-alike 'glamorous'"
+      },
+      {
+        "answer": "silent",
+        "misconception": "inverts noise into quiet"
+      }
+    ],
+    "required_nuance": "loud, and demanding something with it",
+    "mental_hook": "Loud, and wants something.",
+    "semantic_hint": "The adjective for a crowd that will not stop shouting for an answer."
+  },
+  "clandestine": {
+    "accepted_concepts": [
+      "kept secret",
+      "covert",
+      "done in secrecy",
+      "furtive",
+      "surreptitious"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a family grouping",
+        "misconception": "hears the word 'clan'"
+      },
+      {
+        "answer": "open and public",
+        "misconception": "inverts secrecy into openness"
+      }
+    ],
+    "required_nuance": "secret because it would not be permitted",
+    "mental_hook": "Secret because it has to be.",
+    "semantic_hint": "The word for a meeting held in secret because it would be forbidden."
+  },
+  "clangor": {
+    "accepted_concepts": [
+      "a loud clanging noise",
+      "a resonant din",
+      "a metallic racket",
+      "a ringing clamour",
+      "a peal of harsh sound"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "listlessness",
+        "misconception": "hears the sound-alike 'languor'"
+      },
+      {
+        "answer": "silence",
+        "misconception": "inverts noise into quiet"
+      }
+    ],
+    "required_nuance": "loud, metallic and resonant",
+    "mental_hook": "Bells and hammers, not voices.",
+    "semantic_hint": "The ringing metallic din of a blacksmith's shop."
+  },
+  "clarion": {
+    "accepted_concepts": [
+      "loud and clear",
+      "ringing out",
+      "unmistakably stirring",
+      "resonantly clear",
+      "sounding like a trumpet"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a woodwind instrument",
+        "misconception": "hears the shared opening of 'clarinet'"
+      },
+      {
+        "answer": "muffled",
+        "misconception": "inverts clarity into indistinctness"
+      }
+    ],
+    "required_nuance": "clear and stirring, like a trumpet call",
+    "mental_hook": "Almost always a \"clarion call\".",
+    "semantic_hint": "The adjective for a call to action that rings out unmistakably."
+  },
+  "cleave": {
+    "accepted_concepts": [
+      "split apart",
+      "sever",
+      "cut in two",
+      "cling to",
+      "adhere closely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "only to split",
+        "misconception": "misses that the word also means its own opposite"
+      },
+      {
+        "answer": "to wash",
+        "misconception": "hears the sound-alike 'clean'"
+      }
+    ],
+    "required_nuance": "one word carrying two opposite senses",
+    "mental_hook": "The rare word that means itself and its opposite.",
+    "semantic_hint": "The strange word that means both to split apart and to stick fast."
+  },
+  "clemency": {
+    "accepted_concepts": [
+      "mercy in punishment",
+      "leniency toward an offender",
+      "forbearance in sentencing",
+      "mildness in judgement",
+      "a merciful reprieve"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "harshness",
+        "misconception": "inverts mercy into severity"
+      },
+      {
+        "answer": "cleanliness",
+        "misconception": "hears the shared opening"
+      }
+    ],
+    "required_nuance": "mercy shown by someone with the power to punish",
+    "mental_hook": "The power to punish, not used.",
+    "semantic_hint": "What a governor grants when they spare a condemned prisoner."
+  },
+  "clinch": {
+    "accepted_concepts": [
+      "settle decisively",
+      "secure finally",
+      "seal an agreement",
+      "put beyond doubt",
+      "nail down"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to grip in boxing",
+        "misconception": "keeps one literal sense and misses the decisive settling"
+      },
+      {
+        "answer": "to leave open",
+        "misconception": "inverts settling into leaving undecided"
+      }
+    ],
+    "required_nuance": "settling something beyond further doubt",
+    "mental_hook": "The argument that ends the argument.",
+    "semantic_hint": "What one final piece of evidence does to a case."
+  },
+  "cloak": {
+    "accepted_concepts": [
+      "hide",
+      "disguise",
+      "conceal from view",
+      "veil something",
+      "mask the truth of"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an outer garment",
+        "misconception": "takes the noun sense for the verb"
+      },
+      {
+        "answer": "to reveal",
+        "misconception": "inverts concealment into disclosure"
+      }
+    ],
+    "required_nuance": "concealing, as a garment covers",
+    "mental_hook": "The garment became the verb.",
+    "semantic_hint": "What official language does to an unpleasant decision."
+  },
+  "cloying": {
+    "accepted_concepts": [
+      "excessively sweet",
+      "sickly sentimental",
+      "so sweet it repels",
+      "saccharine",
+      "mawkish"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pleasantly sweet",
+        "misconception": "misses the excess that makes it unpleasant"
+      },
+      {
+        "answer": "bitter",
+        "misconception": "inverts sweetness into sourness"
+      }
+    ],
+    "required_nuance": "sweetness that has gone past pleasant",
+    "mental_hook": "Sweet, past the point of pleasant.",
+    "semantic_hint": "The word for a film so sentimental it makes you feel slightly ill."
+  },
+  "coagulate": {
+    "accepted_concepts": [
+      "thicken into a semisolid mass",
+      "clot",
+      "curdle",
+      "congeal",
+      "set into a soft solid"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to dissolve",
+        "misconception": "inverts thickening into liquefying"
+      },
+      {
+        "answer": "to work jointly",
+        "misconception": "hears the sound-alike opening of 'collaborate'"
+      }
+    ],
+    "required_nuance": "liquid becoming semisolid",
+    "mental_hook": "Blood does it. So does milk gone wrong.",
+    "semantic_hint": "What blood does when it stops flowing and sets."
+  },
+  "coalesce": {
+    "accepted_concepts": [
+      "come together into one",
+      "merge",
+      "fuse into a whole",
+      "unite gradually",
+      "combine into a single body"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to separate",
+        "misconception": "inverts merging into splitting"
+      },
+      {
+        "answer": "a black fuel",
+        "misconception": "hears the word 'coal'"
+      }
+    ],
+    "required_nuance": "separate things becoming one",
+    "mental_hook": "Droplets running together.",
+    "semantic_hint": "What separate protest groups do when they become one movement."
+  },
+  "coast": {
+    "accepted_concepts": [
+      "proceed with little effort",
+      "drift along",
+      "freewheel",
+      "glide without working",
+      "get by without trying"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the edge of the land",
+        "misconception": "takes the noun sense for the verb"
+      },
+      {
+        "answer": "to strive",
+        "misconception": "inverts effortlessness into exertion"
+      }
+    ],
+    "required_nuance": "moving without effort, usually on momentum",
+    "mental_hook": "Engine off, still rolling.",
+    "semantic_hint": "What a student does in their final year when the grades are already secured."
+  },
+  "coax": {
+    "accepted_concepts": [
+      "persuade gently",
+      "talk round patiently",
+      "wheedle",
+      "cajole",
+      "gradually win over"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to force",
+        "misconception": "inverts gentleness into compulsion"
+      },
+      {
+        "answer": "a kind of cable",
+        "misconception": "hears the sound-alike 'coaxial'"
+      }
+    ],
+    "required_nuance": "patient, gentle persuasion",
+    "mental_hook": "Patience, not pressure.",
+    "semantic_hint": "What you do to get a frightened cat out from under a bed."
+  },
+  "coda": {
+    "accepted_concepts": [
+      "a concluding section",
+      "a final passage",
+      "an epilogue",
+      "a closing addition",
+      "a postscript to a work"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a system of signals",
+        "misconception": "hears the sound-alike 'code'"
+      },
+      {
+        "answer": "an opening",
+        "misconception": "inverts ending into beginning"
+      }
+    ],
+    "required_nuance": "an ending added on, rounding the whole off",
+    "mental_hook": "The tail of the piece, which is what the Italian means.",
+    "semantic_hint": "The closing passage tacked onto the end of a symphony."
+  },
+  "coddle": {
+    "accepted_concepts": [
+      "treat with excessive care",
+      "pamper",
+      "indulge too much",
+      "mollycoddle",
+      "protect from every difficulty"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to hug",
+        "misconception": "hears the sound-alike 'cuddle'"
+      },
+      {
+        "answer": "to neglect",
+        "misconception": "inverts overcare into disregard"
+      }
+    ],
+    "required_nuance": "care so great that it does harm",
+    "mental_hook": "Care that does the person no good.",
+    "semantic_hint": "What a parent does when they shield a child from every difficulty."
+  },
+  "codicil": {
+    "accepted_concepts": [
+      "an addition to a will",
+      "a supplement to a legal document",
+      "an amendment appended to a will",
+      "an addendum",
+      "a rider"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a secret cipher",
+        "misconception": "hears the word 'code'"
+      },
+      {
+        "answer": "the whole will",
+        "misconception": "confuses an addition with the document itself"
+      }
+    ],
+    "required_nuance": "an addition, never a replacement",
+    "mental_hook": "The afterthought, legally attached.",
+    "semantic_hint": "The document someone adds to a will rather than rewriting it."
+  },
+  "coercion": {
+    "accepted_concepts": [
+      "the use of force to compel",
+      "compulsion by threat",
+      "duress",
+      "intimidation into compliance",
+      "forcing someone's hand"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "persuasion",
+        "misconception": "misses that force rather than argument is involved"
+      },
+      {
+        "answer": "working together",
+        "misconception": "hears the shared opening of 'cooperation'"
+      }
+    ],
+    "required_nuance": "compliance obtained by force or threat",
+    "mental_hook": "Agreement, obtained at gunpoint.",
+    "semantic_hint": "What makes a confession worthless because it was forced."
+  },
+  "coercive": {
+    "accepted_concepts": [
+      "using force to compel",
+      "relying on threat",
+      "compelling by intimidation",
+      "forcing compliance",
+      "applying pressure by threat"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "persuasive",
+        "misconception": "misses that force rather than argument is used"
+      },
+      {
+        "answer": "cooperative",
+        "misconception": "hears the shared opening and inverts the sense"
+      }
+    ],
+    "required_nuance": "works by force, never by persuasion",
+    "mental_hook": "Gets agreement without changing any minds.",
+    "semantic_hint": "The adjective for tactics that get compliance by threat rather than argument."
+  },
+  "coffer": {
+    "accepted_concepts": [
+      "a strongbox for valuables",
+      "a treasury",
+      "financial reserves",
+      "a chest holding money",
+      "the funds an institution holds"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a sharp expulsion of breath",
+        "misconception": "hears the sound-alike 'cough'"
+      },
+      {
+        "answer": "a debt",
+        "misconception": "inverts reserves into liabilities"
+      }
+    ],
+    "required_nuance": "the box, or the money held in it",
+    "mental_hook": "Usually plural, and usually empty in a budget speech.",
+    "semantic_hint": "What a chancellor says is empty when there is no money left."
+  },
+  "cogent": {
+    "accepted_concepts": [
+      "clear and convincing",
+      "logically compelling",
+      "persuasive through reason",
+      "well argued",
+      "forceful in argument"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a toothed wheel",
+        "misconception": "hears the word 'cog'"
+      },
+      {
+        "answer": "unconvincing",
+        "misconception": "inverts persuasiveness into weakness"
+      }
+    ],
+    "required_nuance": "convincing through logic, never through force",
+    "mental_hook": "Convincing because it is right, not because it is loud.",
+    "semantic_hint": "The word for an argument so logically tight you cannot answer it."
+  },
+  "cogitate": {
+    "accepted_concepts": [
+      "think deeply",
+      "ponder",
+      "ruminate on",
+      "turn something over in the mind",
+      "deliberate carefully"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to stir up",
+        "misconception": "hears the sound-alike ending of 'agitate'"
+      },
+      {
+        "answer": "to act without thinking",
+        "misconception": "inverts reflection into impulse"
+      }
+    ],
+    "required_nuance": "sustained, deliberate thought",
+    "mental_hook": "Thinking, at length and on purpose.",
+    "semantic_hint": "What you do when you sit and turn a problem over for an hour."
+  },
+  "cognate": {
+    "accepted_concepts": [
+      "related in origin",
+      "sharing a common root",
+      "descended from the same source",
+      "kindred in derivation",
+      "akin by ancestry"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "knowing or aware",
+        "misconception": "hears the shared Latin root and takes the wrong sense"
+      },
+      {
+        "answer": "unrelated",
+        "misconception": "inverts kinship into independence"
+      }
+    ],
+    "required_nuance": "shared origin, usually between words",
+    "mental_hook": "English \"mother\" and German \"Mutter\".",
+    "semantic_hint": "What English \"mother\" and German \"Mutter\" are to each other."
+  },
+  "cognizant": {
+    "accepted_concepts": [
+      "aware of something",
+      "conscious of",
+      "apprised of",
+      "having knowledge of",
+      "alive to a fact"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ignorant",
+        "misconception": "inverts awareness into unawareness"
+      },
+      {
+        "answer": "related by origin",
+        "misconception": "confuses it with cognate"
+      }
+    ],
+    "required_nuance": "aware, usually of something one ought to know",
+    "mental_hook": "The formal word for knowing about it.",
+    "semantic_hint": "The formal word for being aware of a risk you should have noticed."
+  },
+  "cohere": {
+    "accepted_concepts": [
+      "hold together",
+      "stick together",
+      "form a consistent whole",
+      "hang together logically",
+      "be unified"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to force",
+        "misconception": "hears the sound-alike 'coerce'"
+      },
+      {
+        "answer": "to fall apart",
+        "misconception": "inverts holding together into disintegrating"
+      }
+    ],
+    "required_nuance": "holding together, physically or logically",
+    "mental_hook": "An argument does it as much as a substance.",
+    "semantic_hint": "What the parts of a good argument do with each other."
+  },
+  "cohesive": {
+    "accepted_concepts": [
+      "sticking together",
+      "well unified",
+      "holding as one",
+      "integrated",
+      "forming a consistent whole"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "using force",
+        "misconception": "hears the sound-alike 'coercive'"
+      },
+      {
+        "answer": "fragmented",
+        "misconception": "inverts unity into disunity"
+      }
+    ],
+    "required_nuance": "the parts hold together as one",
+    "mental_hook": "A team, or a paragraph, with no loose parts.",
+    "semantic_hint": "The adjective for a team whose parts work as a single unit."
+  },
+  "cohort": {
+    "accepted_concepts": [
+      "a group sharing a characteristic",
+      "a contingent",
+      "a set of people from the same period",
+      "a band or company",
+      "a generation studied together"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single companion",
+        "misconception": "confuses the group with one of its members"
+      },
+      {
+        "answer": "a courtyard",
+        "misconception": "hears the sound-alike 'court'"
+      }
+    ],
+    "required_nuance": "a group defined by something they share",
+    "mental_hook": "A Roman unit, now a group in a study.",
+    "semantic_hint": "The word for everyone who started university in the same year."
+  },
+  "coiffure": {
+    "accepted_concepts": [
+      "a hairstyle",
+      "an arrangement of the hair",
+      "a hairdo",
+      "the way hair is dressed",
+      "a styled head of hair"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a coffee house",
+        "misconception": "hears the sound-alike opening"
+      },
+      {
+        "answer": "a hat",
+        "misconception": "confuses the hair with what covers it"
+      }
+    ],
+    "required_nuance": "the arrangement of the hair itself",
+    "mental_hook": "The French word, and rather grander than \"haircut\".",
+    "semantic_hint": "The grand French word for the way someone's hair is arranged."
+  },
+  "coin": {
+    "accepted_concepts": [
+      "invent a new word",
+      "devise a phrase",
+      "mint a new expression",
+      "be the first to use a term",
+      "create a new usage"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a piece of money",
+        "misconception": "takes the noun sense for the verb"
+      },
+      {
+        "answer": "to borrow a phrase",
+        "misconception": "inverts inventing into taking"
+      }
+    ],
+    "required_nuance": "inventing an expression, not making money",
+    "mental_hook": "Words are minted like money, and the verb stuck.",
+    "semantic_hint": "What Lewis Carroll did with the word \"chortle\"."
+  },
+  "collaborate": {
+    "accepted_concepts": [
+      "work jointly",
+      "cooperate on a project",
+      "join forces",
+      "cooperate with an occupying enemy",
+      "work with the other side"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to work alone",
+        "misconception": "inverts joint work into solitary work"
+      },
+      {
+        "answer": "to explain at length",
+        "misconception": "hears the sound-alike 'elaborate'"
+      }
+    ],
+    "required_nuance": "working together, and in wartime a betrayal",
+    "mental_hook": "A virtue in the studio, a crime under occupation.",
+    "semantic_hint": "What two authors do on one book, and what a traitor does with an occupier."
+  },
+  "collation": {
+    "accepted_concepts": [
+      "the collecting and comparing of texts",
+      "a compilation",
+      "the assembling of versions for comparison",
+      "a gathering together of sources",
+      "a comparison of copies"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a crash",
+        "misconception": "hears the sound-alike 'collision'"
+      },
+      {
+        "answer": "a single text",
+        "misconception": "confuses the gathering with one item in it"
+      }
+    ],
+    "required_nuance": "gathering and comparing, not merely gathering",
+    "mental_hook": "Not just collected. Compared.",
+    "semantic_hint": "What an editor does when they set several manuscripts side by side."
+  },
+  "collude": {
+    "accepted_concepts": [
+      "conspire secretly",
+      "cooperate for a wrongful end",
+      "connive with another",
+      "plot together",
+      "act in secret concert"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to crash into",
+        "misconception": "hears the sound-alike 'collide'"
+      },
+      {
+        "answer": "to compete",
+        "misconception": "inverts secret cooperation into rivalry"
+      }
+    ],
+    "required_nuance": "secret cooperation, and wrongful with it",
+    "mental_hook": "Cooperation, in the dark, for the wrong reason.",
+    "semantic_hint": "What two bidders do when they secretly agree not to undercut each other."
+  },
+  "collusion": {
+    "accepted_concepts": [
+      "secret cooperation for a dishonest end",
+      "a conspiracy",
+      "connivance",
+      "complicity in a plot",
+      "a secret understanding to deceive"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a crash",
+        "misconception": "hears the sound-alike 'collision'"
+      },
+      {
+        "answer": "open competition",
+        "misconception": "inverts secret agreement into rivalry"
+      }
+    ],
+    "required_nuance": "secret agreement made in order to deceive others",
+    "mental_hook": "An agreement nobody is meant to know about.",
+    "semantic_hint": "The secret agreement between two firms to keep prices high."
+  },
+  "color": {
+    "accepted_concepts": [
+      "influence perception",
+      "distort how something is seen",
+      "bias a judgement",
+      "tinge an account",
+      "shade someone's view"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a hue",
+        "misconception": "takes the noun sense for the verb"
+      },
+      {
+        "answer": "to report neutrally",
+        "misconception": "inverts distortion into impartiality"
+      }
+    ],
+    "required_nuance": "influencing how something is perceived",
+    "mental_hook": "The tested sense tints a judgement, not a wall.",
+    "semantic_hint": "What prior experience does to the way someone reads new evidence."
+  },
+  "colossal": {
+    "accepted_concepts": [
+      "extremely large",
+      "immense",
+      "enormous in scale",
+      "gigantic",
+      "vast"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "tiny",
+        "misconception": "inverts size entirely"
+      },
+      {
+        "answer": "a preserved remnant",
+        "misconception": "hears a vaguely similar shape and guesses"
+      }
+    ],
+    "required_nuance": "size on a scale that impresses",
+    "mental_hook": "Named for the Colossus of Rhodes.",
+    "semantic_hint": "The word for a statue so large it was one of the wonders of the world."
+  },
+  "comity": {
+    "accepted_concepts": [
+      "courteous mutual respect",
+      "civility between parties",
+      "harmonious good manners",
+      "mutual consideration",
+      "friendly regard between groups"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a body of appointed members",
+        "misconception": "hears the sound-alike 'committee'"
+      },
+      {
+        "answer": "a humorous play",
+        "misconception": "hears the sound-alike 'comedy'"
+      }
+    ],
+    "required_nuance": "mutual courtesy, usually between institutions",
+    "mental_hook": "Courtesy between nations, not between friends.",
+    "semantic_hint": "The mutual courtesy nations extend to one another's courts."
+  },
+  "commence": {
+    "accepted_concepts": [
+      "begin",
+      "start",
+      "initiate",
+      "set in motion",
+      "embark on"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "hears the sound-alike 'commend'"
+      },
+      {
+        "answer": "to end",
+        "misconception": "inverts beginning into finishing"
+      }
+    ],
+    "required_nuance": "beginning, in a formal register",
+    "mental_hook": "The formal word for start.",
+    "semantic_hint": "The formal word a chairman uses for beginning a meeting."
+  },
+  "commendable": {
+    "accepted_concepts": [
+      "deserving praise",
+      "praiseworthy",
+      "admirable",
+      "worthy of approval",
+      "laudable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "worth recommending",
+        "misconception": "hears the sound-alike and swaps praise for advice"
+      },
+      {
+        "answer": "blameworthy",
+        "misconception": "inverts praise into censure"
+      }
+    ],
+    "required_nuance": "deserves praise, whether or not it receives any",
+    "mental_hook": "Worth praising, not necessarily praised.",
+    "semantic_hint": "The word for an effort that deserves praise even if it failed."
+  },
+  "commensurate": {
+    "accepted_concepts": [
+      "proportionate to",
+      "corresponding in size",
+      "matching in degree",
+      "in proportion with",
+      "equivalent in scale"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to begin",
+        "misconception": "hears the sound-alike 'commence'"
+      },
+      {
+        "answer": "disproportionate",
+        "misconception": "inverts proportion into mismatch"
+      }
+    ],
+    "required_nuance": "matching in scale, not merely related",
+    "mental_hook": "In proportion, measured against something else.",
+    "semantic_hint": "The word for a salary that matches the level of experience."
+  },
+  "commiserate": {
+    "accepted_concepts": [
+      "express sympathy",
+      "condole with",
+      "share another's sorrow",
+      "offer fellow feeling",
+      "sympathise over a misfortune"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to congratulate",
+        "misconception": "inverts sympathy into celebration"
+      },
+      {
+        "answer": "to be miserable oneself",
+        "misconception": "confuses sharing sorrow with merely feeling it"
+      }
+    ],
+    "required_nuance": "sympathy expressed to the person who suffered",
+    "mental_hook": "Sharing the misery, out loud.",
+    "semantic_hint": "What you do with a friend whose team has just lost."
+  },
+  "commission": {
+    "accepted_concepts": [
+      "formally order work",
+      "authorise a piece of work",
+      "engage someone to produce something",
+      "appoint to a task",
+      "put in hand officially"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a percentage of a sale",
+        "misconception": "takes another noun sense for this verb"
+      },
+      {
+        "answer": "to cancel",
+        "misconception": "inverts ordering into stopping"
+      }
+    ],
+    "required_nuance": "formally ordering something to be made",
+    "mental_hook": "The patron orders the painting.",
+    "semantic_hint": "What a patron does when they pay an artist to make a specific work."
+  },
+  "commit": {
+    "accepted_concepts": [
+      "pledge oneself",
+      "bind oneself to a course",
+      "dedicate to something",
+      "carry out an act",
+      "perpetrate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a body of appointed members",
+        "misconception": "hears the shared opening of 'committee'"
+      },
+      {
+        "answer": "to withdraw",
+        "misconception": "inverts pledging into retreating"
+      }
+    ],
+    "required_nuance": "binding oneself, or performing a deed",
+    "mental_hook": "You commit to a cause, and commit a crime.",
+    "semantic_hint": "What you do to a promise, and what a criminal does to an offence."
+  },
+  "compel": {
+    "accepted_concepts": [
+      "force",
+      "oblige",
+      "drive someone to act",
+      "constrain",
+      "make someone do it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to persuade",
+        "misconception": "misses that force rather than argument is used"
+      },
+      {
+        "answer": "to contend against",
+        "misconception": "hears the shared opening of 'compete'"
+      }
+    ],
+    "required_nuance": "forcing, leaving no real choice",
+    "mental_hook": "No choice left in it.",
+    "semantic_hint": "What a law does when it leaves you no choice in the matter."
+  },
+  "compelling": {
+    "accepted_concepts": [
+      "powerfully convincing",
+      "gripping",
+      "impossible to look away from",
+      "persuasive beyond argument",
+      "riveting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "forced",
+        "misconception": "takes the verb's compulsion and misses the persuasion"
+      },
+      {
+        "answer": "dull",
+        "misconception": "inverts gripping into tedious"
+      }
+    ],
+    "required_nuance": "so convincing or gripping it cannot be resisted",
+    "mental_hook": "You cannot put it down, or argue with it.",
+    "semantic_hint": "The word for evidence so strong the jury could not resist it."
+  },
+  "compendium": {
+    "accepted_concepts": [
+      "a concise comprehensive collection",
+      "a digest of a subject",
+      "a summary covering the whole field",
+      "an abstract of many works",
+      "a gathered summary"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single essay",
+        "misconception": "confuses a collection with one piece"
+      },
+      {
+        "answer": "a swinging weight",
+        "misconception": "hears the sound-alike ending of 'pendulum'"
+      }
+    ],
+    "required_nuance": "comprehensive, and yet concise",
+    "mental_hook": "Everything, briefly.",
+    "semantic_hint": "The single volume that summarises an entire field."
+  },
+  "competent": {
+    "accepted_concepts": [
+      "adequately skilled",
+      "capable of the task",
+      "qualified",
+      "able to do the job",
+      "proficient enough"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "outstanding",
+        "misconception": "overstates adequacy into excellence"
+      },
+      {
+        "answer": "rivalrous",
+        "misconception": "hears the shared opening of 'competitive'"
+      }
+    ],
+    "required_nuance": "good enough, and no more than that",
+    "mental_hook": "Does the job. Does not dazzle.",
+    "semantic_hint": "The word for someone who does the job properly without ever impressing anyone."
+  },
+  "complacent": {
+    "accepted_concepts": [
+      "smugly satisfied",
+      "self-satisfied and unaware",
+      "pleased with oneself while danger approaches",
+      "unconcerned through overconfidence",
+      "resting on past success"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "eager to please",
+        "misconception": "confuses it with complaisant"
+      },
+      {
+        "answer": "anxious",
+        "misconception": "inverts satisfaction into worry"
+      }
+    ],
+    "required_nuance": "satisfaction that blinds someone to risk",
+    "mental_hook": "One letter from complaisant, and a very different failing.",
+    "semantic_hint": "The word for a champion who stops training because they cannot imagine losing."
+  },
+  "complaisance": {
+    "accepted_concepts": [
+      "eagerness to please",
+      "obliging deference",
+      "willingness to accommodate",
+      "amiable compliance",
+      "readiness to fall in with others"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "smug satisfaction",
+        "misconception": "confuses it with complacency"
+      },
+      {
+        "answer": "stubbornness",
+        "misconception": "inverts obligingness into obstinacy"
+      }
+    ],
+    "required_nuance": "wanting to please others, never oneself",
+    "mental_hook": "About pleasing others. Complacency is about pleasing yourself.",
+    "semantic_hint": "The quality of someone who always falls in with what others want."
+  },
+  "complaisant": {
+    "accepted_concepts": [
+      "willing to please",
+      "obliging",
+      "accommodating",
+      "deferential to others' wishes",
+      "agreeable and yielding"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "smugly self-satisfied",
+        "misconception": "confuses it with complacent"
+      },
+      {
+        "answer": "obstinate",
+        "misconception": "inverts obligingness into stubbornness"
+      }
+    ],
+    "required_nuance": "obliging toward others, never pleased with oneself",
+    "mental_hook": "One letter from complacent, and this one looks outward.",
+    "semantic_hint": "The word for a host who agrees to every single thing a guest suggests."
+  },
+  "complement": {
+    "accepted_concepts": [
+      "complete by adding",
+      "enhance by going with",
+      "round out",
+      "make whole",
+      "supplement in a way that improves"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "confuses it with compliment"
+      },
+      {
+        "answer": "to detract from",
+        "misconception": "inverts enhancing into diminishing"
+      }
+    ],
+    "required_nuance": "completes the other thing rather than praising it",
+    "mental_hook": "With an 'e' it completes. With an 'i' it praises.",
+    "semantic_hint": "What the right wine does for a dish."
+  },
+  "complementary": {
+    "accepted_concepts": [
+      "combining well to form a whole",
+      "fitting together",
+      "mutually completing",
+      "matching in a way that completes",
+      "reciprocal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "free of charge",
+        "misconception": "hears the sound-alike 'complimentary'"
+      },
+      {
+        "answer": "clashing",
+        "misconception": "inverts fitting together into conflict"
+      }
+    ],
+    "required_nuance": "the two together make a whole",
+    "mental_hook": "With an 'e' they fit together. With an 'i' it is free.",
+    "semantic_hint": "The word for two skills that fit together to cover everything."
+  },
+  "compliant": {
+    "accepted_concepts": [
+      "readily obeying",
+      "conforming without resistance",
+      "acquiescent",
+      "docile",
+      "going along with the rules"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "given to grumbling",
+        "misconception": "hears a vaguely similar shape and inverts the sense"
+      },
+      {
+        "answer": "defiant",
+        "misconception": "inverts obedience into resistance"
+      }
+    ],
+    "required_nuance": "obeying readily, without pushing back",
+    "mental_hook": "Does what it is told, and does not argue.",
+    "semantic_hint": "The word for a workforce that never questions an instruction."
+  },
+  "complicit": {
+    "accepted_concepts": [
+      "involved in wrongdoing with others",
+      "implicated in a wrong",
+      "party to something bad",
+      "sharing the guilt",
+      "knowingly going along with it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complicated",
+        "misconception": "hears the shared opening"
+      },
+      {
+        "answer": "innocent",
+        "misconception": "inverts guilt into blamelessness"
+      }
+    ],
+    "required_nuance": "shares the guilt, even without acting",
+    "mental_hook": "Did not do it. Is still guilty.",
+    "semantic_hint": "What silence makes you when you knew what was happening."
+  },
+  "comply": {
+    "accepted_concepts": [
+      "obey a rule",
+      "act in accordance with a request",
+      "conform to a requirement",
+      "do as instructed",
+      "follow the terms"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to grumble",
+        "misconception": "hears a vaguely similar shape and inverts the sense"
+      },
+      {
+        "answer": "to defy",
+        "misconception": "inverts obedience into resistance"
+      }
+    ],
+    "required_nuance": "doing exactly what is required",
+    "mental_hook": "Doing what was asked, to the letter.",
+    "semantic_hint": "What a firm does when it meets every requirement of a new regulation."
+  },
+  "comport": {
+    "accepted_concepts": [
+      "behave in a certain way",
+      "conduct oneself",
+      "carry oneself",
+      "be consistent with",
+      "accord with"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to carry goods",
+        "misconception": "hears the 'port' and takes the transport sense"
+      },
+      {
+        "answer": "to console",
+        "misconception": "hears the sound-alike 'comfort'"
+      }
+    ],
+    "required_nuance": "conducting oneself, or being consistent with something",
+    "mental_hook": "How you carry yourself, or how a fact fits a theory.",
+    "semantic_hint": "What you do with yourself at a formal dinner, and what evidence does with a theory."
   }
 }
