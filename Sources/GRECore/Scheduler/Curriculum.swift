@@ -51,6 +51,10 @@ public enum Curriculum {
         // Only a word whose everyday sense competes with the tested one has two
         // meanings to tell apart.
         if word.isTrap { modes.append(.senseInContext) }
+        // A neighbour close enough to be mixed up is the exam's favourite trap,
+        // and a word held only well enough to beat three unrelated distractors
+        // fails here.
+        if !(word.confusion?.isEmpty ?? true) { modes.append(.discriminate) }
         return modes
     }
 

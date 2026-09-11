@@ -142,6 +142,12 @@ import Testing
         _ = catalog.words(inTier: .core)
         _ = catalog.words(withPartOfSpeech: .verb)
         _ = DistractorPicker.definitionDistractors(for: word, from: catalog, count: 3)
+        _ = ConfusionDrill.isAvailable(for: word, in: catalog)
+        if let question = ConfusionDrill.question(
+            for: word, from: catalog, preferring: [], attempt: 0
+        ) {
+            _ = (question.word, question.partner, question.distinction, question.options)
+        }
 
         // Scheduling round trip, as the view model does it
         let card = StudyCard(wordID: word.id)

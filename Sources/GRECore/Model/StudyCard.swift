@@ -22,15 +22,25 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     /// says how well a word is actually held, where a tap says only that four
     /// options were distinguishable.
     case typeMeaning
+    /// Two words that are easy to mix up, and one definition. Pick the one that
+    /// fits.
+    ///
+    /// The other modes ask whether a word is known. This asks whether it is
+    /// known apart from its neighbour, which is the thing the exam actually
+    /// tests and the thing a four-option question hides: three unrelated
+    /// distractors let a vague sense of the word carry the answer.
+    case discriminate
 
     /// The modes that work with no API key.
     public static let locallyGraded: [StudyMode] = [
         .multipleChoice, .contextCloze, .senseInContext, .reverseRecall, .spelling,
+        .discriminate,
     ]
 
     /// Answered by tapping one of four options rather than by typing.
     public var isTapToAnswer: Bool {
         self == .multipleChoice || self == .contextCloze || self == .senseInContext
+            || self == .discriminate
     }
 
     /// Only meaningful for a word whose everyday sense competes with the tested
@@ -47,7 +57,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     /// however well chosen each one is.
     public var friction: Int {
         switch self {
-        case .multipleChoice, .contextCloze, .senseInContext: 1
+        case .multipleChoice, .contextCloze, .senseInContext, .discriminate: 1
         case .reverseRecall, .spelling: 2
         case .typeMeaning, .defineAndUse: 3
         }
@@ -63,6 +73,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .spelling: "Spelling"
         case .defineAndUse: "Writing"
         case .typeMeaning: "Meaning"
+        case .discriminate: "Tell apart"
         }
     }
 
@@ -80,6 +91,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .spelling: "Listen and spell"
         case .defineAndUse: "Define it, then use it"
         case .typeMeaning: "What does this mean?"
+        case .discriminate: "Which of these two means this?"
         }
     }
 
@@ -87,7 +99,9 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     public var promptSubject: PromptSubject {
         switch self {
         case .spelling: .audio
-        case .reverseRecall: .definition
+        // Showing the headword would answer the question: the definition is
+        // the prompt and the two words are the options.
+        case .reverseRecall, .discriminate: .definition
         // The gap is the question, and it lives with the options. A headword
         // here would answer it.
         case .contextCloze: .nothing
@@ -104,6 +118,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .spelling: "ear"
         case .defineAndUse: "square.and.pencil"
         case .typeMeaning: "text.cursor"
+        case .discriminate: "arrow.left.and.right"
         }
     }
 }
@@ -175,10 +190,20 @@ public struct SessionItem: Equatable, Sendable {
     public let card: StudyCard
     public let word: Word
     public let mode: StudyMode
+    /// The neighbour this question is asking the word apart from, for
+    /// ``StudyMode/discriminate``. Nil for every other mode.
+    ///
+    /// Carried on the item rather than looked up at grading time because a
+    /// right answer does not say which pair was asked, and the line the learner
+    /// needs to read afterwards belongs to the pair.
+    public let confusedWith: String?
 
-    public init(card: StudyCard, word: Word, mode: StudyMode) {
+    public init(
+        card: StudyCard, word: Word, mode: StudyMode, confusedWith: String? = nil
+    ) {
         self.card = card
         self.word = word
         self.mode = mode
+        self.confusedWith = confusedWith
     }
 }

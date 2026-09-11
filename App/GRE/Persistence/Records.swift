@@ -175,6 +175,42 @@ final class DeepDiveRecord {
     }
 }
 
+/// A wrong idea this learner actually held, kept so it can be drilled rather
+/// than merely corrected once.
+///
+/// Corrective feedback disappears the moment the card advances. A learner who
+/// thinks `enervate` means "energise" will think it again next week unless
+/// something remembers that they did, which is what this is for: the confusion
+/// drill asks about the pairs that have gone wrong before, and Progress can
+/// show what is still being mixed up.
+@Model
+final class MisconceptionRecord {
+    #Index<MisconceptionRecord>([\.wordID])
+
+    var wordID: String = ""
+    var kindRaw: String = MisconceptionKind.meaning.rawValue
+    /// The misconception line for a graded meaning, or the id of the word
+    /// chosen instead for a confusion drill.
+    var text: String = ""
+    var at: Date = Date.distantPast
+
+    init(wordID: String, kind: MisconceptionKind, text: String, at: Date) {
+        self.wordID = wordID
+        self.kindRaw = kind.rawValue
+        self.text = text
+        self.at = at
+    }
+
+    var kind: MisconceptionKind { MisconceptionKind(rawValue: kindRaw) ?? .meaning }
+}
+
+enum MisconceptionKind: String, Codable, CaseIterable {
+    /// The grader matched one of the word's known wrong associations.
+    case meaning
+    /// A confusion drill was answered with the neighbour.
+    case confusion
+}
+
 /// One finished test, for the deck's best score.
 @Model
 final class QuizRecord {

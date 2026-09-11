@@ -13,7 +13,7 @@ struct GREApp: App {
     private let container: ModelContainer = {
         let schema = Schema([
             CardRecord.self, ReviewRecord.self, DeepDiveRecord.self,
-            QuizRecord.self, AICall.self,
+            QuizRecord.self, AICall.self, MisconceptionRecord.self,
         ])
         do {
             return try ModelContainer(for: schema)

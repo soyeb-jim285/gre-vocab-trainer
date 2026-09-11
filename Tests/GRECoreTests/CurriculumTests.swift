@@ -186,13 +186,15 @@ import Testing
         // Perfect at recall and cloze, hopeless at spelling. A rotation would
         // offer spelling one time in three.
         let history = CardCompetence((0..<4).flatMap { _ in
-            [evidence(.reverseRecall, 100), evidence(.contextCloze, 100), evidence(.spelling, 0)]
+            [evidence(.reverseRecall, 100), evidence(.contextCloze, 100),
+             evidence(.discriminate, 100), evidence(.spelling, 0)]
         })
         #expect(step(card(reviews: 12), competence: history) == .drill(.spelling))
     }
 
     @Test func aModeNeverAskedIsReachedBeforeAnyIsRepeated() {
-        let history = CardCompetence([evidence(.contextCloze, 100), evidence(.reverseRecall, 100)])
+        let history = CardCompetence([evidence(.contextCloze, 100), evidence(.reverseRecall, 100),
+                                      evidence(.discriminate, 100)])
         #expect(step(card(reviews: 5), competence: history) == .drill(.spelling))
     }
 

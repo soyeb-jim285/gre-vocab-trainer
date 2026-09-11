@@ -67,7 +67,7 @@ public enum AnswerJudge {
     /// offer definitions.
     public static func correctChoice(for item: SessionItem) -> String {
         switch item.mode {
-        case .contextCloze: item.word.id
+        case .contextCloze, .discriminate: item.word.id
         default: item.word.teachingDefinition
         }
     }
@@ -111,6 +111,11 @@ public enum AnswerJudge {
                 (correct ? "That fits" : "Not that one", !correct)
             case .senseInContext:
                 (correct ? "Right meaning" : "That is the everyday meaning", true)
+            case .discriminate:
+                // The distinction is the whole answer here, right or wrong: a
+                // learner who guessed correctly still has not been told what
+                // separates the two.
+                (correct ? "Told apart" : "That is the other one", false)
             default:
                 // Multiple choice already showed the definition among the options.
                 (correct ? "Correct" : "Not quite", false)
@@ -121,7 +126,9 @@ public enum AnswerJudge {
                              latency: latency, confidence: confidence,
                              selfReport: selfReport, hints: hints),
                 headline: headline,
-                detail: item.word.teachingDefinition,
+                detail: item.mode == .discriminate
+                    ? ConfusionDrill.distinction(for: item) ?? item.word.teachingDefinition
+                    : item.word.teachingDefinition,
                 showsReference: showsReference
             )
 

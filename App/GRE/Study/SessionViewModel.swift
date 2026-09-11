@@ -262,10 +262,26 @@ final class SessionViewModel {
             recentModes.append(.typeMeaning)
             beginAnswering()
         case let .drill(mode):
-            current = .drill(SessionItem(card: picked, word: word, mode: mode))
+            current = .drill(SessionItem(
+                card: picked, word: word, mode: mode,
+                confusedWith: mode == .discriminate ? partner(for: word, card: picked) : nil
+            ))
             recentModes.append(mode)
             beginAnswering()
         }
+    }
+
+    /// Which neighbour this word is being told apart from this time.
+    ///
+    /// Pairs the learner has already mixed up come first; otherwise the review
+    /// count walks through the word's neighbours, so a word with three of them
+    /// is not always drilled against the same one.
+    private func partner(for word: Word, card: StudyCard) -> String? {
+        ConfusionDrill.question(
+            for: word, from: catalog,
+            preferring: Misconceptions.confusedPartners(for: word.id, in: context),
+            attempt: card.reviewCount
+        )?.partner.id
     }
 
     /// Done reading. Nothing is graded and nothing is scheduled.
@@ -366,6 +382,20 @@ final class SessionViewModel {
                 choices: ordered(wrong + [item.word.teachingDefinition],
                                  salt: "sense-" + item.word.id).map(AnswerOption.init),
                 sentence: pick(item.word.gre?.sentences ?? [], for: item)
+            )
+
+        case .discriminate:
+            // Two words, one definition. The distinction line is deliberately
+            // not shown until afterwards: it names both words, so it would hand
+            // over the answer.
+            guard let with = item.confusedWith,
+                  let question = ConfusionDrill.question(
+                      for: item.word, from: catalog, preferring: [with]
+                  )
+            else { return AnswerOptions() }
+            return AnswerOptions(
+                choices: question.options.map(AnswerOption.init),
+                choicesAreWords: true
             )
 
         case .reverseRecall, .spelling, .defineAndUse, .typeMeaning:
@@ -511,6 +541,10 @@ final class SessionViewModel {
             }
             sessionSpend += cost?.usd ?? 0
             teachAfterFeedback = Curriculum.teaches(afterMeaningScore: result.score)
+            Misconceptions.record(
+                wordID: item.card.wordID, kind: .meaning,
+                text: result.matchedMisconception, in: context
+            )
             finish(
                 Judgement(
                     grade: Grade(score: result.percentage),
@@ -552,6 +586,15 @@ final class SessionViewModel {
             mode: item.mode, latency: clock.isTainted ? nil : latency,
             strictness: settings.strictness
         )
+        // A wrong pick in a discrimination drill is the clearest evidence there
+        // is that two words are tangled, so the pair goes on record and the
+        // drill returns to it rather than moving on to an untested neighbour.
+        if item.mode == .discriminate, judgement.grade.score == 0,
+           let with = item.confusedWith {
+            Misconceptions.record(
+                wordID: item.card.wordID, kind: .confusion, text: with, in: context
+            )
+        }
         ReviewRecorder.record(
             wordID: item.card.wordID, mode: item.mode, grade: judgement.grade,
             rating: judgement.rating, scheduler: settings.scheduler, in: context, index: index,

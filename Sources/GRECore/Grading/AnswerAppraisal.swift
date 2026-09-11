@@ -145,6 +145,9 @@ public enum AnswerAppraisal {
     public static func band(for mode: StudyMode) -> (fast: Duration, slow: Duration) {
         switch mode {
         case .multipleChoice: (.seconds(4), .seconds(12))
+        // Two options, but the whole question is the hesitation between them:
+        // an instant answer means the pair is genuinely separate in memory.
+        case .discriminate: (.seconds(5), .seconds(15))
         case .senseInContext: (.seconds(7), .seconds(20))
         case .contextCloze: (.seconds(8), .seconds(22))
         case .reverseRecall, .spelling, .defineAndUse: (.seconds(6), .seconds(18))

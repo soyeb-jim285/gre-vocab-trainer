@@ -45,7 +45,7 @@ struct AnswerSurface: View {
 
     var body: some View {
         switch item.mode {
-        case .multipleChoice:
+        case .multipleChoice, .discriminate:
             OptionList(options: options, choose: choose)
 
         case .contextCloze, .senseInContext:
