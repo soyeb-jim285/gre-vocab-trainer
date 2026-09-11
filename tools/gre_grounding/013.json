@@ -1758,5 +1758,445 @@
     "required_nuance": "calm and prosperous, usually looked back on",
     "mental_hook": "Named for a bird said to calm the sea.",
     "semantic_hint": "The word for the golden untroubled days people remember afterwards."
+  },
+  "hale": {
+    "accepted_concepts": [
+      "healthy and robust",
+      "vigorous despite age",
+      "hearty in constitution",
+      "sound in body",
+      "in fine physical condition"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "frail and sickly",
+        "misconception": "inverts robust health into weakness"
+      },
+      {
+        "answer": "to greet with praise",
+        "misconception": "confuses it with the near-twin verb about acclaiming"
+      }
+    ],
+    "required_nuance": "healthy, and usually said of the old",
+    "mental_hook": "Eighty, and still strong.",
+    "semantic_hint": "The word paired with hearty for a vigorous old person."
+  },
+  "hallmark": {
+    "accepted_concepts": [
+      "a distinctive characteristic",
+      "a defining feature",
+      "a signature quality",
+      "the mark that identifies something as genuine",
+      "a telltale trait"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a common feature shared by all",
+        "misconception": "loses the distinctiveness that defines it"
+      },
+      {
+        "answer": "a greetings card",
+        "misconception": "hears a brand name"
+      }
+    ],
+    "required_nuance": "the feature that identifies it as itself",
+    "mental_hook": "The stamp on the silver that proves what it is.",
+    "semantic_hint": "The word for the trait by which you always recognise one author's work."
+  },
+  "halting": {
+    "accepted_concepts": [
+      "hesitant",
+      "faltering in delivery",
+      "stumbling in speech",
+      "broken by pauses",
+      "uncertain and stopping"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fluent and smooth",
+        "misconception": "inverts hesitation into fluency"
+      },
+      {
+        "answer": "coming to a complete stop",
+        "misconception": "confuses hesitating with stopping altogether"
+      }
+    ],
+    "required_nuance": "going on, but in hesitant broken steps",
+    "mental_hook": "Keeps going, in pieces.",
+    "semantic_hint": "The word for speech in a language you barely know."
+  },
+  "hamper": {
+    "accepted_concepts": [
+      "hinder",
+      "impede progress",
+      "obstruct",
+      "get in the way of",
+      "encumber so movement is harder"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to assist",
+        "misconception": "inverts obstruction into help"
+      },
+      {
+        "answer": "a picnic basket",
+        "misconception": "takes an unrelated noun sense"
+      }
+    ],
+    "required_nuance": "making something harder, not stopping it outright",
+    "mental_hook": "Slows it down, does not stop it.",
+    "semantic_hint": "What thick fog does to a search party."
+  },
+  "hamstrung": {
+    "accepted_concepts": [
+      "severely restricted in ability to act",
+      "crippled in effectiveness",
+      "hobbled",
+      "unable to act for lack of means",
+      "rendered powerless"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fully empowered",
+        "misconception": "inverts crippling into freedom to act"
+      },
+      {
+        "answer": "physically exhausted",
+        "misconception": "confuses being disabled from acting with tiredness"
+      }
+    ],
+    "required_nuance": "disabled from acting, not merely slowed",
+    "mental_hook": "The tendon cut. Nothing moves.",
+    "semantic_hint": "How an agency is described when budget cuts leave it unable to function."
+  },
+  "hankering": {
+    "accepted_concepts": [
+      "a persistent longing",
+      "a craving that will not go away",
+      "a yearning for something",
+      "a nagging desire",
+      "a wish that keeps returning"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an aversion",
+        "misconception": "inverts longing into distaste"
+      },
+      {
+        "answer": "a brief passing whim",
+        "misconception": "loses the persistence that defines it"
+      }
+    ],
+    "required_nuance": "a longing that keeps coming back",
+    "mental_hook": "The wish that will not go away.",
+    "semantic_hint": "The word for a long-standing wish to go back and live by the sea."
+  },
+  "haphazard": {
+    "accepted_concepts": [
+      "lacking order or plan",
+      "done at random",
+      "slapdash",
+      "disorganised",
+      "left to chance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "systematic",
+        "misconception": "inverts randomness into method"
+      },
+      {
+        "answer": "dangerous",
+        "misconception": "hears the second half of the word as a risk"
+      }
+    ],
+    "required_nuance": "without plan or system",
+    "mental_hook": "No plan. Whatever happens, happens.",
+    "semantic_hint": "The word for filing done by dropping papers wherever there is room."
+  },
+  "hapless": {
+    "accepted_concepts": [
+      "unlucky and pitiable",
+      "unfortunate through no fault of their own",
+      "luckless",
+      "wretched in fortune",
+      "ill-fated"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fortunate",
+        "misconception": "inverts misfortune into luck"
+      },
+      {
+        "answer": "incompetent",
+        "misconception": "confuses bad luck with lack of ability"
+      }
+    ],
+    "required_nuance": "unlucky, and usually deserving pity for it",
+    "mental_hook": "Not their fault. Still went wrong.",
+    "semantic_hint": "The word for a victim whose only mistake was being there."
+  },
+  "harangue": {
+    "accepted_concepts": [
+      "a long aggressive lecture",
+      "a tirade",
+      "a ranting address",
+      "a scolding delivered at length",
+      "a diatribe aimed at an audience"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a gentle word of advice",
+        "misconception": "understates a long aggressive tirade into a quiet suggestion"
+      },
+      {
+        "answer": "a musical arrangement",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "long, loud, and aimed at someone",
+    "mental_hook": "A lecture, at volume, and it does not end.",
+    "semantic_hint": "The word for a forty-minute shouted lecture from a soapbox."
+  },
+  "harbinger": {
+    "accepted_concepts": [
+      "a sign of something to come",
+      "a forerunner",
+      "a herald of what follows",
+      "an early indication of a coming event",
+      "a portent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a consequence that follows after",
+        "misconception": "inverts a sign coming first into an effect coming last"
+      },
+      {
+        "answer": "a sheltered port",
+        "misconception": "hears the sound-alike 'harbour'"
+      }
+    ],
+    "required_nuance": "it comes first and announces what follows",
+    "mental_hook": "Arrives before, to announce.",
+    "semantic_hint": "What the first crocus is said to be of spring."
+  },
+  "hardy": {
+    "accepted_concepts": [
+      "tough and able to endure",
+      "resilient in harsh conditions",
+      "sturdy",
+      "capable of surviving hardship",
+      "robust against cold or strain"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "delicate",
+        "misconception": "inverts toughness into fragility"
+      },
+      {
+        "answer": "brave to the point of folly",
+        "misconception": "confuses endurance with reckless daring"
+      }
+    ],
+    "required_nuance": "enduring hardship, not braving danger",
+    "mental_hook": "Survives the winter.",
+    "semantic_hint": "The word for a plant that survives frost outdoors."
+  },
+  "harried": {
+    "accepted_concepts": [
+      "harassed and under pressure",
+      "beleaguered by demands",
+      "hassled from all sides",
+      "worn down by constant pressure",
+      "frazzled"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relaxed and unhurried",
+        "misconception": "inverts pressure into calm"
+      },
+      {
+        "answer": "hurried once",
+        "misconception": "loses that the pressure is constant"
+      }
+    ],
+    "required_nuance": "under pressure that keeps coming",
+    "mental_hook": "Pressed on every side, all day.",
+    "semantic_hint": "How a parent looks on a school morning with three children late."
+  },
+  "harrow": {
+    "accepted_concepts": [
+      "distress greatly",
+      "torment the mind",
+      "cause acute anguish",
+      "agonise",
+      "tear at the feelings"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to comfort",
+        "misconception": "inverts tormenting into soothing"
+      },
+      {
+        "answer": "a wheeled cart",
+        "misconception": "hears the sound-alike 'barrow'"
+      }
+    ],
+    "required_nuance": "distressing deeply, as if raking the feelings",
+    "mental_hook": "The farm rake, turned on the mind.",
+    "semantic_hint": "What witnessing a disaster does to the people who saw it."
+  },
+  "harrowing": {
+    "accepted_concepts": [
+      "acutely distressing",
+      "deeply traumatic to undergo",
+      "agonising to experience or hear",
+      "painful in the extreme",
+      "leaving one shaken"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "soothing",
+        "misconception": "inverts anguish into comfort"
+      },
+      {
+        "answer": "merely tiring",
+        "misconception": "understates acute distress into fatigue"
+      }
+    ],
+    "required_nuance": "distressing enough to leave a mark",
+    "mental_hook": "You do not recover from it that evening.",
+    "semantic_hint": "The word for an account of a rescue too painful to listen to calmly."
+  },
+  "harry": {
+    "accepted_concepts": [
+      "harass persistently",
+      "hound someone",
+      "pester without letting up",
+      "badger",
+      "keep attacking or troubling"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to leave in peace",
+        "misconception": "inverts persistent harassment into being left alone"
+      },
+      {
+        "answer": "to move quickly",
+        "misconception": "hears the sound-alike 'hurry'"
+      }
+    ],
+    "required_nuance": "persistent troubling, military or personal",
+    "mental_hook": "Never leaves them alone.",
+    "semantic_hint": "What raiders did to a countryside, and what reporters do to a suspect."
+  },
+  "haughty": {
+    "accepted_concepts": [
+      "arrogantly superior",
+      "disdainful of others",
+      "supercilious",
+      "proud and looking down",
+      "loftily contemptuous"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "humble",
+        "misconception": "inverts arrogance into modesty"
+      },
+      {
+        "answer": "very warm",
+        "misconception": "hears the sound-alike about temperature"
+      }
+    ],
+    "required_nuance": "pride shown as contempt for others",
+    "mental_hook": "Looks down, and lets you see it.",
+    "semantic_hint": "The word for a manner that treats everyone else as beneath notice."
+  },
+  "hauteur": {
+    "accepted_concepts": [
+      "haughty manner",
+      "arrogant pride",
+      "superciliousness",
+      "disdainful loftiness",
+      "a proud contempt in bearing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "humility",
+        "misconception": "inverts arrogance into modesty"
+      },
+      {
+        "answer": "great height",
+        "misconception": "takes the literal French root without the manner"
+      }
+    ],
+    "required_nuance": "arrogance as a manner, not an act",
+    "mental_hook": "Height, in the French, and it means looking down.",
+    "semantic_hint": "The word for the cold proud bearing of a duchess in a novel."
+  },
+  "haven": {
+    "accepted_concepts": [
+      "a place of safety",
+      "a refuge",
+      "a sanctuary from danger",
+      "a sheltered place",
+      "somewhere one is secure"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a trap",
+        "misconception": "inverts safety into danger"
+      },
+      {
+        "answer": "the number seven",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "a place, and its point is safety",
+    "mental_hook": "The harbour, widened into any refuge.",
+    "semantic_hint": "The word for a country that takes in people fleeing persecution."
+  },
+  "headlong": {
+    "accepted_concepts": [
+      "recklessly and without thought",
+      "rushing without pausing to consider",
+      "impetuously",
+      "in a rash headfirst manner",
+      "precipitately"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cautiously",
+        "misconception": "inverts recklessness into care"
+      },
+      {
+        "answer": "taking a long time",
+        "misconception": "reads the second half as duration"
+      }
+    ],
+    "required_nuance": "rushing forward with no thought first",
+    "mental_hook": "Head first, thinking later.",
+    "semantic_hint": "How someone rushes into a decision without a moment's thought."
+  },
+  "headstrong": {
+    "accepted_concepts": [
+      "stubbornly determined to have one's way",
+      "wilful",
+      "obstinate against advice",
+      "self-willed",
+      "refusing to be guided"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "compliant",
+        "misconception": "inverts wilfulness into obedience"
+      },
+      {
+        "answer": "intellectually powerful",
+        "misconception": "reads the two halves of the word as meaning clever"
+      }
+    ],
+    "required_nuance": "determined to have one's own way regardless",
+    "mental_hook": "Will not be told.",
+    "semantic_hint": "The word for a teenager who will do it their way whatever anyone says."
   }
 }

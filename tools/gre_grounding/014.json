@@ -1,0 +1,882 @@
+{
+  "heady": {
+    "accepted_concepts": [
+      "intoxicating",
+      "exhilarating",
+      "going to one's head",
+      "potent in effect",
+      "thrilling enough to unsettle judgement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "sobering",
+        "misconception": "inverts intoxication into sobriety"
+      },
+      {
+        "answer": "clever",
+        "misconception": "reads the root as meaning intellectual"
+      }
+    ],
+    "mental_hook": "Goes straight to the head.",
+    "required_nuance": "exciting enough to affect judgement",
+    "semantic_hint": "The word for the first weeks of a sudden and dizzying success."
+  },
+  "hearken": {
+    "accepted_concepts": [
+      "listen attentively",
+      "give ear to",
+      "attend closely to what is said",
+      "take notice of",
+      "pay careful attention"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to ignore",
+        "misconception": "inverts attentive listening into disregard"
+      },
+      {
+        "answer": "to harden",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "mental_hook": "Listen, in an older English.",
+    "required_nuance": "attentive listening, in an archaic register",
+    "semantic_hint": "The archaic verb a herald uses to call for attention."
+  },
+  "hector": {
+    "accepted_concepts": [
+      "bully with words",
+      "browbeat",
+      "badger into compliance",
+      "intimidate by loud insistent talk",
+      "harass verbally from above"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to encourage",
+        "misconception": "inverts bullying into support"
+      },
+      {
+        "answer": "to lecture kindly",
+        "misconception": "loses the bullying that defines it"
+      }
+    ],
+    "mental_hook": "Named for a Trojan, and it means to bully.",
+    "required_nuance": "bullying by talk, from a position of power",
+    "semantic_hint": "What an aggressive barrister does to a nervous witness."
+  },
+  "hedge": {
+    "accepted_concepts": [
+      "avoid committing",
+      "qualify a statement to leave room",
+      "limit one's risk",
+      "equivocate",
+      "protect against a loss by covering both sides"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to commit fully",
+        "misconception": "inverts qualifying into a plain commitment"
+      },
+      {
+        "answer": "to gamble everything",
+        "misconception": "inverts limiting risk into taking it all"
+      }
+    ],
+    "mental_hook": "Never quite says it, and never quite loses.",
+    "required_nuance": "refusing to be pinned down, or covering the downside",
+    "semantic_hint": "What an investor does by betting against their own position."
+  },
+  "hedonism": {
+    "accepted_concepts": [
+      "devotion to pleasure as the highest good",
+      "the pursuit of pleasure as a principle",
+      "the doctrine that pleasure is what matters",
+      "indulgence held as a philosophy",
+      "living for enjoyment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "self-denial as a discipline",
+        "misconception": "inverts the pursuit of pleasure into asceticism"
+      },
+      {
+        "answer": "one person who lives for pleasure",
+        "misconception": "confuses the doctrine with the individual holding it"
+      }
+    ],
+    "mental_hook": "Pleasure, raised to a principle.",
+    "required_nuance": "pleasure treated as the highest good",
+    "semantic_hint": "The doctrine that pleasure is the only thing worth pursuing."
+  },
+  "hedonist": {
+    "accepted_concepts": [
+      "one devoted to pleasure",
+      "a pleasure-seeker by principle",
+      "a sensualist",
+      "someone living for enjoyment",
+      "a sybarite"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an ascetic",
+        "misconception": "inverts the pleasure-seeker into the self-denier"
+      },
+      {
+        "answer": "the doctrine itself",
+        "misconception": "confuses the person with the philosophy"
+      }
+    ],
+    "mental_hook": "The person, not the philosophy.",
+    "required_nuance": "the person, not the doctrine",
+    "semantic_hint": "The word for someone who organises their whole life around enjoyment."
+  },
+  "heed": {
+    "accepted_concepts": [
+      "pay careful attention to",
+      "take notice of and act on",
+      "mind what is said",
+      "give weight to a warning",
+      "attend closely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to disregard",
+        "misconception": "inverts attending into ignoring"
+      },
+      {
+        "answer": "to require",
+        "misconception": "hears the sound-alike 'need'"
+      }
+    ],
+    "mental_hook": "Listened, and acted on it.",
+    "required_nuance": "attending to it, usually a warning",
+    "semantic_hint": "What sailors should do to a storm warning."
+  },
+  "hegemony": {
+    "accepted_concepts": [
+      "dominance of one group over others",
+      "leadership that others must accept",
+      "predominant influence of one power",
+      "supremacy in a system",
+      "ascendancy over rivals"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "equality among all parties",
+        "misconception": "inverts one power's dominance into parity"
+      },
+      {
+        "answer": "government by a monarch",
+        "misconception": "confuses the dominance of a state or group with a form of rule"
+      }
+    ],
+    "mental_hook": "One state, setting the terms for all of them.",
+    "required_nuance": "one power dominating the rest",
+    "semantic_hint": "The word for one nation's dominance over a whole region."
+  },
+  "herculean": {
+    "accepted_concepts": [
+      "requiring enormous strength",
+      "demanding prodigious effort",
+      "monumental in difficulty",
+      "arduous beyond the ordinary",
+      "of immense scale"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "effortless",
+        "misconception": "inverts enormous difficulty into ease"
+      },
+      {
+        "answer": "relating to medicine",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "mental_hook": "Named for the hero and his twelve labours.",
+    "required_nuance": "the scale of effort is the point",
+    "semantic_hint": "The word for a task that would take the strength of a demigod."
+  },
+  "heretic": {
+    "accepted_concepts": [
+      "one who dissents from accepted belief",
+      "a person holding an unorthodox doctrine",
+      "a dissenter from established teaching",
+      "an apostate from the received view",
+      "someone rejecting orthodoxy"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an orthodox believer",
+        "misconception": "inverts the dissenter into the conformist"
+      },
+      {
+        "answer": "someone with no beliefs at all",
+        "misconception": "confuses holding the wrong doctrine with holding none"
+      }
+    ],
+    "mental_hook": "Believes something. Just not the approved thing.",
+    "required_nuance": "holding a belief, and the wrong one by the orthodox standard",
+    "semantic_hint": "The word for someone the Church condemned for wrong doctrine."
+  },
+  "heretical": {
+    "accepted_concepts": [
+      "contrary to accepted doctrine",
+      "unorthodox in belief",
+      "dissenting from the received view",
+      "against established teaching",
+      "departing from orthodoxy"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "orthodox",
+        "misconception": "inverts dissent into conformity"
+      },
+      {
+        "answer": "inherited",
+        "misconception": "hears the sound-alike 'hereditary'"
+      }
+    ],
+    "mental_hook": "Against the doctrine, and known to be.",
+    "required_nuance": "against the accepted doctrine, not merely unusual",
+    "semantic_hint": "The word for an economic view the whole profession rejects."
+  },
+  "hermetic": {
+    "accepted_concepts": [
+      "airtight",
+      "sealed off from outside influence",
+      "impervious to what is outside",
+      "closed to outsiders",
+      "insulated completely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "open and porous",
+        "misconception": "inverts a sealed system into an open one"
+      },
+      {
+        "answer": "living alone in seclusion",
+        "misconception": "hears the sound-alike about a solitary dweller"
+      }
+    ],
+    "mental_hook": "Nothing gets in, nothing gets out.",
+    "required_nuance": "sealed, whether a jar or a closed circle",
+    "semantic_hint": "The word for a seal that lets no air through at all."
+  },
+  "hermitage": {
+    "accepted_concepts": [
+      "a secluded dwelling",
+      "a retreat for solitary living",
+      "the home of someone living apart",
+      "a refuge away from the world",
+      "a place of withdrawal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a crowded city house",
+        "misconception": "inverts seclusion into company"
+      },
+      {
+        "answer": "an airtight seal",
+        "misconception": "confuses it with the near-twin about being sealed"
+      }
+    ],
+    "mental_hook": "Where the solitary lives.",
+    "required_nuance": "a dwelling, and its point is seclusion",
+    "semantic_hint": "The word for a hut where someone lives apart from everyone."
+  },
+  "heterodox": {
+    "accepted_concepts": [
+      "not conforming to accepted standards",
+      "unorthodox in opinion",
+      "dissenting from the established view",
+      "holding a different doctrine",
+      "outside the accepted teaching"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "orthodox",
+        "misconception": "inverts dissent into conformity"
+      },
+      {
+        "answer": "made of varied parts",
+        "misconception": "confuses different opinion with the near-twin about mixed composition"
+      }
+    ],
+    "mental_hook": "Other opinion, which is the Greek.",
+    "required_nuance": "different in doctrine, not in composition",
+    "semantic_hint": "The word for a scholar whose views sit outside their field's consensus."
+  },
+  "heterogeneous": {
+    "accepted_concepts": [
+      "made of diverse unlike parts",
+      "varied in composition",
+      "mixed in kind",
+      "consisting of different sorts",
+      "not uniform throughout"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "uniform throughout",
+        "misconception": "inverts variety into sameness"
+      },
+      {
+        "answer": "holding an unorthodox opinion",
+        "misconception": "confuses mixed composition with the near-twin about doctrine"
+      }
+    ],
+    "mental_hook": "Different kinds, mixed together.",
+    "required_nuance": "varied in what it is made of",
+    "semantic_hint": "The word for a population drawn from many different backgrounds."
+  },
+  "hew": {
+    "accepted_concepts": [
+      "cut with blows",
+      "chop with an axe",
+      "carve out of a solid",
+      "adhere closely to a line",
+      "conform strictly to a standard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to deviate",
+        "misconception": "inverts sticking to a line into departing from it"
+      },
+      {
+        "answer": "a shade of colour",
+        "misconception": "hears the sound-alike 'hue'"
+      }
+    ],
+    "mental_hook": "Cuts with an axe, or sticks to the line.",
+    "required_nuance": "cutting, or sticking closely to a line",
+    "semantic_hint": "What a woodsman does to a log, and what a purist does to a rule."
+  },
+  "heyday": {
+    "accepted_concepts": [
+      "the period of greatest success",
+      "the prime of something",
+      "its golden age",
+      "the height of its powers",
+      "the time when it flourished most"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the period of decline",
+        "misconception": "inverts the peak into the falling away"
+      },
+      {
+        "answer": "a single holiday",
+        "misconception": "reads the second half as one day"
+      }
+    ],
+    "mental_hook": "When it was at its best, and that was then.",
+    "required_nuance": "the peak period, and usually past",
+    "semantic_hint": "The word for the years when a music hall was at its peak."
+  },
+  "hierarchical": {
+    "accepted_concepts": [
+      "arranged in ranks of authority",
+      "ordered by level of seniority",
+      "stratified into grades",
+      "structured with each rank above another",
+      "organised top to bottom"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "flat and egalitarian",
+        "misconception": "inverts ranked structure into equality"
+      },
+      {
+        "answer": "relating to sacred writing",
+        "misconception": "hears the sound-alike 'hieroglyphic'"
+      }
+    ],
+    "mental_hook": "Everyone above or below someone.",
+    "required_nuance": "ordered by rank, with authority flowing down",
+    "semantic_hint": "The word for an organisation where every level answers to the one above."
+  },
+  "hierarchy": {
+    "accepted_concepts": [
+      "a system of ranked levels",
+      "a chain of command",
+      "an order of authority",
+      "a pecking order",
+      "a structure of graded ranks"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a group of equals",
+        "misconception": "inverts ranked levels into equality"
+      },
+      {
+        "answer": "ancient picture writing",
+        "misconception": "hears the sound-alike 'hieroglyphs'"
+      }
+    ],
+    "mental_hook": "Ranks, stacked.",
+    "required_nuance": "levels ranked one above another",
+    "semantic_hint": "The word for an army's ladder of ranks from private to general."
+  },
+  "hinder": {
+    "accepted_concepts": [
+      "obstruct",
+      "delay progress",
+      "get in the way of",
+      "impede",
+      "make something harder to accomplish"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to expedite",
+        "misconception": "inverts obstruction into speeding up"
+      },
+      {
+        "answer": "at the rear",
+        "misconception": "takes the positional adjective sense"
+      }
+    ],
+    "mental_hook": "In the way.",
+    "required_nuance": "slowing or blocking progress",
+    "semantic_hint": "What heavy snow does to a rescue effort."
+  },
+  "hireling": {
+    "accepted_concepts": [
+      "someone who works purely for pay",
+      "a person serving only for money",
+      "a mercenary without loyalty",
+      "a paid drudge",
+      "one whose service is bought"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a volunteer",
+        "misconception": "inverts serving for money into serving for nothing"
+      },
+      {
+        "answer": "an employer",
+        "misconception": "confuses the one hired with the one hiring"
+      }
+    ],
+    "mental_hook": "Paid to be there. Nothing more.",
+    "required_nuance": "serving for money and nothing else, said with contempt",
+    "semantic_hint": "The contemptuous word for a soldier fighting only for wages."
+  },
+  "histrionic": {
+    "accepted_concepts": [
+      "overly theatrical",
+      "melodramatic in manner",
+      "exaggerated for effect",
+      "overwrought in display",
+      "staged rather than felt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "restrained and understated",
+        "misconception": "inverts theatricality into reserve"
+      },
+      {
+        "answer": "relating to the past",
+        "misconception": "hears the sound-alike 'historic'"
+      }
+    ],
+    "mental_hook": "Acting it, not feeling it.",
+    "required_nuance": "emotion performed rather than felt",
+    "semantic_hint": "The word for grief performed loudly for an audience."
+  },
+  "hoary": {
+    "accepted_concepts": [
+      "old and stale",
+      "grey with age",
+      "ancient and tired",
+      "worn out by long use",
+      "venerable but tediously familiar"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fresh and novel",
+        "misconception": "inverts the tiredly old into the new"
+      },
+      {
+        "answer": "loud and rough",
+        "misconception": "hears the sound-alike 'hoarse'"
+      }
+    ],
+    "mental_hook": "Grey, and heard it all before.",
+    "required_nuance": "old, and stale with it",
+    "semantic_hint": "The word for a joke everyone has known since childhood."
+  },
+  "hobble": {
+    "accepted_concepts": [
+      "hamper the movement of",
+      "restrict someone's ability to act",
+      "walk lamely",
+      "limp along",
+      "tie the legs so movement is limited"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to set free",
+        "misconception": "inverts restricting into releasing"
+      },
+      {
+        "answer": "a pastime",
+        "misconception": "hears the sound-alike 'hobby'"
+      }
+    ],
+    "mental_hook": "Legs tied, or a limp.",
+    "required_nuance": "restricted movement, literal or figurative",
+    "semantic_hint": "What a strap round the legs does to a horse, and what debt does to a company."
+  },
+  "hodgepodge": {
+    "accepted_concepts": [
+      "a confused mixture",
+      "a jumble of unrelated things",
+      "a mishmash",
+      "an assortment thrown together",
+      "a medley without order"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an orderly arrangement",
+        "misconception": "inverts a jumble into a system"
+      },
+      {
+        "answer": "a single pure thing",
+        "misconception": "inverts a mixture into one uniform item"
+      }
+    ],
+    "mental_hook": "Everything in, nothing arranged.",
+    "required_nuance": "a mixture with no order to it",
+    "semantic_hint": "The word for a policy assembled from bits of five different plans."
+  },
+  "homage": {
+    "accepted_concepts": [
+      "public respect",
+      "a tribute paid to someone",
+      "honour shown openly",
+      "reverence expressed",
+      "an acknowledgement of another's worth"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "scorn",
+        "misconception": "inverts respect into contempt"
+      },
+      {
+        "answer": "a residence",
+        "misconception": "hears the word 'home'"
+      }
+    ],
+    "mental_hook": "Respect, paid in public.",
+    "required_nuance": "respect paid openly, as a tribute",
+    "semantic_hint": "What a film pays to an earlier director by copying a famous shot."
+  },
+  "homespun": {
+    "accepted_concepts": [
+      "plain and unsophisticated",
+      "simple in a rustic way",
+      "folksy",
+      "unpretentious and homely",
+      "lacking polish by nature"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "sophisticated and polished",
+        "misconception": "inverts rustic plainness into refinement"
+      },
+      {
+        "answer": "made in a factory",
+        "misconception": "inverts the home-made into the manufactured"
+      }
+    ],
+    "mental_hook": "Woven at home, and it shows.",
+    "required_nuance": "plain and rustic, and not apologising for it",
+    "semantic_hint": "The word for plain country wisdom delivered without any polish."
+  },
+  "homily": {
+    "accepted_concepts": [
+      "a moralising lecture",
+      "a sermon",
+      "a tedious lesson in conduct",
+      "a discourse on right behaviour",
+      "a preachy address"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a witty epigram",
+        "misconception": "inverts a long moralising talk into a short sharp saying"
+      },
+      {
+        "answer": "a residence",
+        "misconception": "hears the word 'home'"
+      }
+    ],
+    "mental_hook": "A sermon, and it can come from anyone.",
+    "required_nuance": "moralising, whether from a pulpit or not",
+    "semantic_hint": "The word for a short sermon, or a relative's lecture on how to live."
+  },
+  "homogeneous": {
+    "accepted_concepts": [
+      "uniform in composition",
+      "the same throughout",
+      "consistent in make-up",
+      "unvaried in its parts",
+      "all of one kind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "made of unlike parts",
+        "misconception": "inverts uniformity into variety"
+      },
+      {
+        "answer": "arranged in ranks",
+        "misconception": "confuses uniform composition with ordered levels"
+      }
+    ],
+    "mental_hook": "Same kind, all the way through.",
+    "required_nuance": "the same all the way through",
+    "semantic_hint": "The word for milk treated so the cream never separates."
+  },
+  "homogenous": {
+    "accepted_concepts": [
+      "of the same kind throughout",
+      "alike in nature",
+      "uniform",
+      "similar in every part",
+      "all of one sort"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "diverse",
+        "misconception": "inverts sameness into variety"
+      },
+      {
+        "answer": "of the same sex",
+        "misconception": "hears a different prefix and guesses"
+      }
+    ],
+    "mental_hook": "One kind, everywhere in it.",
+    "required_nuance": "sameness of kind throughout",
+    "semantic_hint": "The word for a group whose members are all much the same."
+  },
+  "hoodwink": {
+    "accepted_concepts": [
+      "deceive by trickery",
+      "dupe",
+      "fool by a ruse",
+      "bamboozle",
+      "mislead someone who trusted you"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to enlighten",
+        "misconception": "inverts deceiving into informing"
+      },
+      {
+        "answer": "to blink",
+        "misconception": "reads the second half of the compound literally"
+      }
+    ],
+    "mental_hook": "A hood over the eyes, and then the trick.",
+    "required_nuance": "deceiving by a trick that blinds them to the truth",
+    "semantic_hint": "What a fraudster does to a trusting investor."
+  },
+  "horde": {
+    "accepted_concepts": [
+      "a large disorderly crowd",
+      "a swarm of people",
+      "a throng pressing forward",
+      "a multitude in confusion",
+      "a mass of people arriving together"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small handful",
+        "misconception": "inverts a multitude into a few"
+      },
+      {
+        "answer": "a store of treasure",
+        "misconception": "hears the sound-alike about a stored cache"
+      }
+    ],
+    "mental_hook": "Crowd, and not an orderly one.",
+    "required_nuance": "a crowd, large and disorderly",
+    "semantic_hint": "The word for the mass of shoppers arriving when the doors open on sale day."
+  },
+  "hotly": {
+    "accepted_concepts": [
+      "with intense feeling",
+      "vehemently",
+      "fiercely in argument",
+      "passionately",
+      "with heat of emotion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "calmly",
+        "misconception": "inverts vehemence into composure"
+      },
+      {
+        "answer": "at a high temperature",
+        "misconception": "takes the physical sense for the tested figurative one"
+      }
+    ],
+    "mental_hook": "Feeling, not weather.",
+    "required_nuance": "intensity of feeling, not of temperature",
+    "semantic_hint": "How an accusation is denied when the denial is fierce."
+  },
+  "hound": {
+    "accepted_concepts": [
+      "pursue relentlessly",
+      "harass without stopping",
+      "chase and never let up",
+      "badger continually",
+      "harry someone persistently"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to leave alone",
+        "misconception": "inverts relentless pursuit into letting be"
+      },
+      {
+        "answer": "a hunting dog",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "mental_hook": "The dog that never gives up the scent.",
+    "required_nuance": "pursuit that does not stop",
+    "semantic_hint": "What the press does to a public figure in a scandal."
+  },
+  "hubbub": {
+    "accepted_concepts": [
+      "a loud confused noise",
+      "an uproar",
+      "a commotion of many voices",
+      "a din",
+      "noisy disorder"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "quiet",
+        "misconception": "inverts noise into silence"
+      },
+      {
+        "answer": "a central meeting point",
+        "misconception": "hears the word 'hub'"
+      }
+    ],
+    "mental_hook": "Everyone talking, nobody heard.",
+    "required_nuance": "confused noise, usually from a crowd",
+    "semantic_hint": "The noise of a crowded market at midday."
+  },
+  "hubris": {
+    "accepted_concepts": [
+      "excessive pride that invites downfall",
+      "arrogance that overreaches",
+      "presumption before the gods",
+      "overweening self-confidence",
+      "the pride that brings the fall"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "humility",
+        "misconception": "inverts overweening pride into modesty"
+      },
+      {
+        "answer": "justified confidence",
+        "misconception": "loses the overreaching that makes it fatal"
+      }
+    ],
+    "mental_hook": "The pride that comes before the fall.",
+    "required_nuance": "pride that overreaches and brings punishment",
+    "semantic_hint": "The flaw that destroys the hero in a Greek tragedy."
+  },
+  "humble": {
+    "accepted_concepts": [
+      "lower in pride or status",
+      "bring down someone's self-importance",
+      "chasten",
+      "abase",
+      "make someone feel less exalted"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to exalt",
+        "misconception": "inverts bringing low into raising up"
+      },
+      {
+        "answer": "modest in manner",
+        "misconception": "takes the adjective sense for the tested verb"
+      }
+    ],
+    "mental_hook": "Brings them down a peg.",
+    "required_nuance": "the tested sense is the verb: to bring low",
+    "semantic_hint": "What a heavy defeat does to a champion's self-regard."
+  },
+  "humdrum": {
+    "accepted_concepts": [
+      "dull and routine",
+      "monotonous",
+      "tediously the same day after day",
+      "lacking any variety",
+      "mundane"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "varied and exciting",
+        "misconception": "inverts monotony into stimulation"
+      },
+      {
+        "answer": "noisy",
+        "misconception": "reads the two halves of the compound as sounds"
+      }
+    ],
+    "mental_hook": "Same thing. Every day.",
+    "required_nuance": "dull through unvarying repetition",
+    "semantic_hint": "The word for a job that is exactly the same every single morning."
+  },
+  "humiliate": {
+    "accepted_concepts": [
+      "make someone feel ashamed",
+      "mortify in front of others",
+      "shame publicly",
+      "abase someone's dignity",
+      "degrade in the eyes of others"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to honour",
+        "misconception": "inverts shaming into dignifying"
+      },
+      {
+        "answer": "to make damp",
+        "misconception": "hears the sound-alike 'humid'"
+      }
+    ],
+    "mental_hook": "Shamed, and in front of people.",
+    "required_nuance": "shame inflicted, usually before others",
+    "semantic_hint": "What being corrected in front of the whole class does to a child."
+  },
+  "hummock": {
+    "accepted_concepts": [
+      "a small hill",
+      "a mound in the ground",
+      "a knoll",
+      "a low rise in the land",
+      "a hillock"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a deep valley",
+        "misconception": "inverts a rise into a hollow"
+      },
+      {
+        "answer": "a hanging bed",
+        "misconception": "hears the sound-alike 'hammock'"
+      }
+    ],
+    "mental_hook": "A bump in the field.",
+    "required_nuance": "a small rise, not a proper hill",
+    "semantic_hint": "The word for a low grassy mound in a field."
+  }
+}
