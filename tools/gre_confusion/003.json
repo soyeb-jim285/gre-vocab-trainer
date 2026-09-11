@@ -1,6 +1,186 @@
 {
+  "corporeal|somatic": {
+    "distinction": "Corporeal means having a physical body at all, while somatic means relating to that body as opposed to the mind."
+  },
+  "corroborate|substantiate": {
+    "distinction": "Corroborate adds a second source confirming an account, while substantiate supplies the evidence that establishes a claim."
+  },
+  "cosmopolitan|universal": {
+    "distinction": "Cosmopolitan means at home among many cultures, while universal means applying to every case without exception."
+  },
+  "countenance|sanction": {
+    "distinction": "Countenance tolerates or approves something, while sanction can either authorise it or punish it, depending on the sentence."
+  },
+  "countermand|repeal": {
+    "distinction": "Countermand cancels an order already given, while repeal strikes a law off the books."
+  },
+  "countermand|rescind": {
+    "distinction": "Countermand reverses a specific order, while rescind cancels a decision or grant more generally."
+  },
+  "cower|fawn": {
+    "distinction": "Cower crouches away in fear, while fawn crawls toward someone with flattery."
+  },
+  "cower|grovel": {
+    "distinction": "Cower shrinks back from a threat, while grovel abases itself to win favour."
+  },
+  "cower|quail": {
+    "distinction": "Cower is the body crouching away from danger, while quail is the heart failing before it."
+  },
+  "coy|demure": {
+    "distinction": "Coy is shyness put on to intrigue, while demure is genuine modesty of manner, though it too can be affected."
+  },
+  "crafty|cunning": {
+    "distinction": "Crafty and cunning both mean skilled at deception; cunning is the sharper intelligence, crafty the readier trickery."
+  },
+  "crafty|wily": {
+    "distinction": "Crafty is skilled at trickery, while wily is always a move ahead and hard to catch."
+  },
+  "crevice|fissure": {
+    "distinction": "A crevice is a narrow crack you could put a finger in, while a fissure is a split that can run through rock or a party."
+  },
+  "cryptic|inscrutable": {
+    "distinction": "Cryptic hides a meaning that could be decoded, while inscrutable gives nothing away to decode at all."
+  },
+  "crystallize|elucidate": {
+    "distinction": "Crystallize is a vague idea taking definite form, while elucidate is making an existing idea clear to someone else."
+  },
+  "cultured|genteel": {
+    "distinction": "Cultured means genuinely refined by education and taste, while genteel suggests refinement kept up for show."
+  },
+  "cumbersome|inept": {
+    "distinction": "Cumbersome describes a thing too bulky to handle, while inept describes a person too clumsy to handle it."
+  },
+  "cunning|guile": {
+    "distinction": "Cunning is the adjective for the clever deceiver, while guile is the noun for the deceit itself."
+  },
+  "cunning|wily": {
+    "distinction": "Cunning and wily both mean cleverly deceptive; wily stresses the knack of always staying a step ahead."
+  },
+  "cursory|perfunctory": {
+    "distinction": "Cursory means done too quickly to be thorough, while perfunctory means done only because it had to be done at all."
+  },
+  "dais|podium": {
+    "distinction": "A dais is the raised platform a whole table or seat of honour stands on, while a podium is the small stand one speaker occupies."
+  },
+  "dapper|natty": {
+    "distinction": "Dapper and natty both describe neat stylish dress; dapper suits the whole trim figure, natty the sharpness of the clothes."
+  },
+  "dapper|raffish": {
+    "distinction": "Dapper is neat and correct in dress, while raffish is stylish in a slightly disreputable way."
+  },
+  "dapper|rakish": {
+    "distinction": "Dapper is trim and impeccable, while rakish wears the same clothes at a careless angle and looks faintly scandalous."
+  },
+  "debase|demoralize": {
+    "distinction": "Debase lowers the quality or worth of something, while demoralize destroys the confidence of a person."
+  },
+  "debase|deprave": {
+    "distinction": "Debase reduces value or dignity, while deprave corrupts morals outright."
+  },
+  "decimate|eradicate": {
+    "distinction": "Decimate destroys a large part of something, while eradicate leaves nothing of it at all."
+  },
+  "decorous|seemly": {
+    "distinction": "Decorous and seemly both mean fitting and proper; decorous stresses dignity, seemly stresses what the occasion allows."
+  },
+  "decorum|propriety": {
+    "distinction": "Decorum is dignified conduct suited to an occasion, while propriety is conformity to the accepted standards generally."
+  },
+  "decree|edict": {
+    "distinction": "A decree is any authoritative order with legal force, while an edict is one proclaimed by a ruler or sovereign body."
+  },
+  "decry|excoriate": {
+    "distinction": "Decry denounces something publicly, while excoriate attacks it so harshly the criticism draws blood."
+  },
+  "decry|objurgate": {
+    "distinction": "Decry condemns a practice in public, while objurgate scolds a particular person to their face."
+  },
+  "deduce|derive": {
+    "distinction": "Deduce reaches a conclusion by reasoning, while derive traces something back to the source it came from."
+  },
+  "deduce|infer": {
+    "distinction": "Deduce follows necessarily from the premises, while infer draws a likely conclusion from evidence that could point elsewhere."
+  },
+  "deflect|parry": {
+    "distinction": "Deflect turns something aside in any way, while parry is the trained blocking motion of a fencer or a politician."
+  },
+  "degrade|demean": {
+    "distinction": "Degrade lowers the quality or rank of something, while demean lowers a person in dignity."
+  },
+  "deject|demoralize": {
+    "distinction": "Deject lowers someone's spirits for a time, while demoralize destroys their will to keep going."
+  },
+  "delimit|delineate": {
+    "distinction": "Delimit sets the boundaries of something, while delineate draws out what lies inside them in detail."
+  },
+  "demoralize|deprave": {
+    "distinction": "Demoralize breaks a person's confidence, while deprave corrupts their morals."
+  },
+  "denigrate|slander": {
+    "distinction": "Denigrate blackens a reputation by unfair criticism, while slander is the spoken falsehood that a court can act on."
+  },
+  "denounce|stigmatize": {
+    "distinction": "Denounce attacks someone publicly on one occasion, while stigmatize attaches a lasting mark of disgrace."
+  },
+  "derelict|dilapidated": {
+    "distinction": "Derelict means abandoned, and of a person negligent in duty, while dilapidated describes the physical disrepair itself."
+  },
+  "derive|infer": {
+    "distinction": "Derive traces something back to its source, while infer reasons forward from evidence to a conclusion."
+  },
+  "despite|disdain": {
+    "distinction": "Despite is the older noun for contempt and spite, while disdain is the haughty scorn that refuses to stoop."
+  },
+  "despite|scorn": {
+    "distinction": "Despite survives chiefly in set phrases, while scorn is the everyday word for contempt openly shown."
+  },
+  "despoil|pillage": {
+    "distinction": "Despoil strips a place of what made it valuable, while pillage is the violent looting of it, usually in war."
+  },
+  "despotic|dictatorial": {
+    "distinction": "Despotic describes absolute oppressive power held, while dictatorial describes the domineering manner of someone wielding it."
+  },
+  "destitute|indigent": {
+    "distinction": "Destitute and indigent both mean desperately poor; destitute stresses having nothing left, indigent the settled condition of want."
+  },
+  "detachment|insularity": {
+    "distinction": "Detachment is standing back to judge impartially, while insularity is being cut off and unable to see beyond one's own circle."
+  },
+  "detente|rapprochement": {
+    "distinction": "Detente is the easing of hostility between rivals, while rapprochement is the friendly relations actually restored."
+  },
+  "deviate|digress": {
+    "distinction": "Deviate departs from an established course, while digress wanders off the subject and usually comes back."
+  },
+  "diaphanous|gossamer": {
+    "distinction": "Diaphanous stresses that light passes through the fabric, while gossamer stresses how impossibly fine and light it is."
+  },
+  "dictatorial|overbearing": {
+    "distinction": "Dictatorial is authority exercised absolutely, while overbearing is a manner that crushes others whether or not the authority exists."
+  },
+  "differentiate|discriminate": {
+    "distinction": "Differentiate tells two things apart neutrally, while discriminate can also mean treating one of them unfairly."
+  },
+  "dilate|elaborate": {
+    "distinction": "Dilate widens something, and in speech means to go on at length, while elaborate describes intricate detailed design."
+  },
+  "dilate|expatiate": {
+    "distinction": "Dilate on a subject and expatiate on it both mean speaking at length; dilate also keeps its physical sense of widening."
+  },
+  "dilate|expound": {
+    "distinction": "Dilate on a topic is to dwell on it at length, while expound is to set it out and explain it systematically."
+  },
+  "dilatory|laggard": {
+    "distinction": "Dilatory describes the habit of delaying, while a laggard is the person who has fallen behind the rest."
+  },
+  "diligent|industrious": {
+    "distinction": "Diligent is careful steady attention to the work, while industrious is the sheer quantity of work done."
+  },
   "dingy|disconsolate": {
     "distinction": "A dingy room is dirty and depressing to look at, while a disconsolate person is the one sitting in it beyond comforting."
+  },
+  "din|tumult": {
+    "distinction": "A din is loud continuous noise, while a tumult is noisy disorder with confusion and movement in it."
   },
   "dirge|elegy": {
     "distinction": "A dirge is sung at the graveside, an elegy is written and read; the dirge is music, the elegy is verse."

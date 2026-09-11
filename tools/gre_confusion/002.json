@@ -1,0 +1,302 @@
+{
+  "bland|politic": {
+    "distinction": "Bland means without flavour or edge, while politic means shrewdly judged for the circumstances, which is praise rather than complaint."
+  },
+  "bland|vapid": {
+    "distinction": "Bland is inoffensively flat, while vapid adds emptiness of mind to the flatness."
+  },
+  "blatant|clamorous": {
+    "distinction": "Blatant is wrongdoing done openly and without shame, while clamorous is loud insistent noise."
+  },
+  "blatant|flagrant": {
+    "distinction": "Blatant stresses that no attempt was made to hide it, while flagrant stresses how badly the rule was broken."
+  },
+  "blatant|vociferous": {
+    "distinction": "Blatant describes shameless openness, while vociferous describes sheer volume in expressing a view."
+  },
+  "bogus|phony": {
+    "distinction": "Bogus and phony both mean fake; bogus attaches to the counterfeit article, phony more often to the insincere person."
+  },
+  "boisterous|unruly": {
+    "distinction": "Boisterous is cheerful noisy energy, while unruly is a refusal to be controlled."
+  },
+  "bombastic|orotund": {
+    "distinction": "Bombastic is inflated language with nothing behind it, while orotund is the rounded booming delivery of it."
+  },
+  "bombastic|turgid": {
+    "distinction": "Bombastic swells the language to impress, while turgid swells it until the sense is lost in the heaviness."
+  },
+  "bowdlerize|expurgate": {
+    "distinction": "Bowdlerize and expurgate both cut the offending passages; bowdlerize names the prudish editor who did it to Shakespeare."
+  },
+  "bridle|bristle": {
+    "distinction": "Bridle is drawing oneself up in offence, while bristle is the sudden prickling anger of an animal raising its hair."
+  },
+  "broach|brooch": {
+    "distinction": "Broach opens a subject for discussion, while a brooch is an ornamental pin, and only the spelling separates them."
+  },
+  "broadside|tirade": {
+    "distinction": "A broadside is one heavy attack delivered at once, while a tirade is a long angry speech that keeps going."
+  },
+  "bromide|platitude": {
+    "distinction": "A bromide is a stale remark offered to soothe, while a platitude is any worn truism passed off as wisdom."
+  },
+  "browbeat|hector": {
+    "distinction": "Browbeat bullies by intimidation and threat, while hector bullies by nagging insistent talk."
+  },
+  "bucolic|pastoral": {
+    "distinction": "Bucolic and pastoral both paint country life as pleasant; pastoral also covers shepherds and the poems written about them."
+  },
+  "byzantine|convoluted": {
+    "distinction": "Byzantine complexity is devious and full of intrigue, while convoluted complexity is merely tangled."
+  },
+  "byzantine|tortuous": {
+    "distinction": "Byzantine suggests scheming behind the complexity, while tortuous is the twisting winding path itself."
+  },
+  "cabal|conjure": {
+    "distinction": "A cabal is a small group plotting in secret, while conjure summons something up as if by magic."
+  },
+  "cabal|conspire": {
+    "distinction": "A cabal is the group of plotters, while conspire is the act of plotting that such a group carries on."
+  },
+  "cabal|faction": {
+    "distinction": "A cabal plots in secret, while a faction is an open dissenting group inside a larger body."
+  },
+  "cabal|machinate": {
+    "distinction": "A cabal is the secret group itself, while machinate is the scheming that group spends its time on."
+  },
+  "cacophony|clamor": {
+    "distinction": "Cacophony is harsh clashing sound, while clamor is loud noise that carries a demand in it."
+  },
+  "cacophony|din": {
+    "distinction": "Cacophony is discordant and grating, while a din is simply loud and continuous."
+  },
+  "cadaverous|gaunt": {
+    "distinction": "Gaunt is thin and hollowed by hardship, while cadaverous goes further and makes the person look like a corpse."
+  },
+  "cajole|coax": {
+    "distinction": "Cajole works by flattery and persistence, while coax works by gentle patience and can be entirely honest."
+  },
+  "cajole|inveigle": {
+    "distinction": "Cajole flatters someone into agreeing, while inveigle adds deceit and lures them somewhere they would not have gone."
+  },
+  "cajole|wheedle": {
+    "distinction": "Cajole and wheedle both flatter someone into yielding; wheedle is the softer, more childlike coaxing of the two."
+  },
+  "calumny|obloquy": {
+    "distinction": "Calumny is the false accusation itself, while obloquy is the public condemnation that lands on the person afterwards."
+  },
+  "calumny|slander": {
+    "distinction": "Calumny is the malicious falsehood in general, while slander is the spoken form of it and an actionable wrong."
+  },
+  "candidness|candor": {
+    "distinction": "Candidness and candor name the same honesty; candor is the usual form in formal writing and candidness the rarer one."
+  },
+  "candid|forthright": {
+    "distinction": "Candid is honesty about what one really thinks, while forthright is directness in saying it without evasion."
+  },
+  "cantankerous|ornery": {
+    "distinction": "Cantankerous is quarrelsome bad temper, while ornery adds a stubborn refusal to cooperate."
+  },
+  "cant|jargon": {
+    "distinction": "Cant is insincere moralising talk, while jargon is the technical vocabulary of a trade that outsiders cannot follow."
+  },
+  "capricious|erratic": {
+    "distinction": "Capricious changes come from whim, while erratic ones follow no pattern at all and need no motive."
+  },
+  "capricious|fickle": {
+    "distinction": "Capricious is sudden change of any kind, while fickle is specifically change of loyalty or affection."
+  },
+  "castigate|chastise": {
+    "distinction": "Castigate and chastise both rebuke severely; chastise can extend to actual punishment, castigate stays in words."
+  },
+  "castigate|objurgate": {
+    "distinction": "Castigate is the common word for severe rebuke, while objurgate is its rarer and more formal twin."
+  },
+  "caustic|mordant": {
+    "distinction": "Caustic wit burns whoever it lands on, while mordant wit bites with a dry ironic edge."
+  },
+  "caustic|vitriolic": {
+    "distinction": "Caustic is sharp and corrosive in tone, while vitriolic is savage enough to be meant as an attack."
+  },
+  "cede|concede": {
+    "distinction": "Cede hands over territory or power formally, while concede admits a point or gives up a contest."
+  },
+  "cede|relinquish": {
+    "distinction": "Cede is the formal transfer of territory or right, while relinquish is any letting go of what one held."
+  },
+  "chagrin|humble": {
+    "distinction": "Chagrin is the distress felt at being humiliated, while humble is the act of bringing someone's pride down."
+  },
+  "chagrin|humiliate": {
+    "distinction": "Chagrin is what the victim feels, while humiliate is what somebody else does to produce it."
+  },
+  "chagrin|mortify": {
+    "distinction": "Chagrin is the vexed disappointment felt, while mortify is the deeper shame inflicted from outside."
+  },
+  "chastise|objurgate": {
+    "distinction": "Chastise can mean punish as well as scold, while objurgate stays entirely in the realm of stinging words."
+  },
+  "chauvinism|jingoism": {
+    "distinction": "Chauvinism is blind loyalty to one's own group of any kind, while jingoism is that loyalty turned warlike toward other nations."
+  },
+  "chauvinist|jingoist": {
+    "distinction": "A chauvinist believes their own group superior, while a jingoist wants the nation to prove it by force."
+  },
+  "chicanery|guile": {
+    "distinction": "Chicanery is trickery in the details of a scheme, while guile is the cunning in the person who runs it."
+  },
+  "choleric|irascible": {
+    "distinction": "Choleric and irascible both name a quick temper; choleric comes from the old humours and suggests a hot constitution."
+  },
+  "circumvent|elude": {
+    "distinction": "Circumvent gets round a rule or obstacle by cleverness, while elude slips out of a grasp that was closing on you."
+  },
+  "circumvent|evade": {
+    "distinction": "Circumvent finds a way round the obstacle, while evade dodges the thing coming at you."
+  },
+  "circumvent|hedge": {
+    "distinction": "Circumvent gets round a requirement entirely, while hedge simply avoids committing so the risk stays limited."
+  },
+  "clamorous|vociferous": {
+    "distinction": "Clamorous is the noise of a crowd insisting, while vociferous is one voice raised loudly to be heard."
+  },
+  "clamor|din": {
+    "distinction": "Clamor is loud noise with a demand inside it, while a din is noise and nothing more."
+  },
+  "clandestine|surreptitious": {
+    "distinction": "Clandestine describes an operation planned in secrecy, while surreptitious describes an act done stealthily in the moment."
+  },
+  "cleave|cohere": {
+    "distinction": "Cleave means both to split and to cling, while cohere only holds things together, which is why cleave is the trap."
+  },
+  "cloying|treacly": {
+    "distinction": "Cloying is sweetness that sickens by excess, while treacly names the thick sticky sentimentality doing it."
+  },
+  "coalesce|conflate": {
+    "distinction": "Coalesce is separate things growing into one whole, while conflate is confusing two distinct things that should have stayed apart."
+  },
+  "coax|inveigle": {
+    "distinction": "Coax persuades gently and openly, while inveigle persuades by flattery and deceit."
+  },
+  "coax|wheedle": {
+    "distinction": "Coax is patient gentle persuasion, while wheedle lays on the flattery to get its way."
+  },
+  "coddle|cosset": {
+    "distinction": "Coddle and cosset both mean pampering; coddle carries more suggestion that the care is making the person soft."
+  },
+  "codicil|rider": {
+    "distinction": "A codicil is an addition to a will, while a rider is a clause attached to a contract or a bill."
+  },
+  "colossal|prodigious": {
+    "distinction": "Colossal is sheer physical size, while prodigious is scale impressive enough to astonish."
+  },
+  "commence|start": {
+    "distinction": "Commence means to begin, while the tested sense of start is to jump in surprise, which is the trap in the pair."
+  },
+  "commendable|laudable": {
+    "distinction": "Commendable and laudable both mean deserving praise; laudable more often praises the intention where commendable praises the act."
+  },
+  "commit|consecrate": {
+    "distinction": "Commit pledges oneself or carries out an act, while consecrate sets something apart as sacred."
+  },
+  "complaisance|deference": {
+    "distinction": "Complaisance is eagerness to please anyone, while deference is submission to someone's authority or judgement."
+  },
+  "complaisant|obliging": {
+    "distinction": "Complaisant yields to others to keep them happy, while obliging goes out of its way to help them."
+  },
+  "conciliate|mollify": {
+    "distinction": "Conciliate wins an opponent round to agreement, while mollify only takes the heat out of their anger."
+  },
+  "conciliate|pacify": {
+    "distinction": "Conciliate brings an opponent round to agreement, while pacify only quiets them down, sometimes by force."
+  },
+  "conciliate|placate": {
+    "distinction": "Conciliate aims at genuine reconciliation, while placate just buys off the anger with a concession."
+  },
+  "conciliate|reconcile": {
+    "distinction": "Conciliate is the effort to win someone over, while reconcile is the restored agreement that effort is aiming at."
+  },
+  "concomitant|incidental": {
+    "distinction": "Concomitant runs alongside the main thing as a companion, while incidental attaches to it as a minor by-product."
+  },
+  "condemn|decry": {
+    "distinction": "Condemn passes judgement, sometimes a formal sentence, while decry loudly denounces something in public."
+  },
+  "condemn|denounce": {
+    "distinction": "Condemn declares something wrong, while denounce names and attacks it publicly."
+  },
+  "condemn|excoriate": {
+    "distinction": "Condemn states the judgement, while excoriate delivers it savagely enough to strip the skin."
+  },
+  "condemn|objurgate": {
+    "distinction": "Condemn is the verdict on the thing, while objurgate is the furious scolding aimed at a person."
+  },
+  "conduct|deportment": {
+    "distinction": "Conduct is what a person does, while deportment is how they carry and present themselves while doing it."
+  },
+  "conjure|conspire": {
+    "distinction": "Conjure summons something up as if by magic, while conspire plots secretly with others."
+  },
+  "conjure|entreat": {
+    "distinction": "Conjure calls something into being, while entreat asks a person earnestly and humbly for something."
+  },
+  "conjure|evoke": {
+    "distinction": "Conjure produces something as if from nothing, while evoke calls up a feeling or memory already there."
+  },
+  "conjure|invoke": {
+    "distinction": "Conjure summons a thing into existence, while invoke calls on an authority or power for support."
+  },
+  "conjure|machinate": {
+    "distinction": "Conjure produces something as if by magic, while machinate works out a scheme in secret."
+  },
+  "consecrate|ordain": {
+    "distinction": "Consecrate sets a thing or person apart as sacred, while ordain confers an office or lays down a decree."
+  },
+  "conspire|machinate": {
+    "distinction": "Conspire is plotting together with others, while machinate is the scheming itself and needs no accomplice."
+  },
+  "constant|incessant": {
+    "distinction": "Constant means unchanging and can be a virtue, while incessant means it never pauses and is usually a complaint."
+  },
+  "constant|perpetual": {
+    "distinction": "Constant is steady and unvarying, while perpetual is endless in time."
+  },
+  "constant|unremitting": {
+    "distinction": "Constant describes something steady, while unremitting describes pressure that never once lets up."
+  },
+  "constrict|contract": {
+    "distinction": "Constrict narrows something by squeezing it, while contract shrinks it overall, and can also mean catching an illness."
+  },
+  "consummate|virtuoso": {
+    "distinction": "Consummate describes skill that is complete in every part, while a virtuoso is the person whose technique dazzles."
+  },
+  "contempt|despite": {
+    "distinction": "Contempt is the scorn felt, while despite is its older form and now survives mainly in the phrase in despite of."
+  },
+  "contempt|disdain": {
+    "distinction": "Contempt is scorn for what is beneath notice, while disdain is the haughty refusal to stoop to it."
+  },
+  "contempt|scorn": {
+    "distinction": "Contempt is the settled low opinion, while scorn is that opinion expressed openly and with heat."
+  },
+  "contrite|penitent": {
+    "distinction": "Contrite is the crushed feeling of regret, while penitent adds the intention to atone for what was done."
+  },
+  "contrived|stilted": {
+    "distinction": "Contrived means artificially forced into being, while stilted means stiff and unnatural in how it comes out."
+  },
+  "conundrum|enigma": {
+    "distinction": "A conundrum is a problem that puzzles the reason, while an enigma is a person or thing that resists being understood at all."
+  },
+  "convoluted|tortuous": {
+    "distinction": "Convoluted is folded in on itself and hard to follow, while tortuous twists and turns along its whole length."
+  },
+  "cordial|genial": {
+    "distinction": "Cordial is warmth shown to someone, while genial is a cheerful good humour in the person themselves."
+  },
+  "cornucopia|profusion": {
+    "distinction": "A cornucopia is the overflowing abundance pictured as a horn of plenty, while profusion is simply a great quantity poured out."
+  }
+}
