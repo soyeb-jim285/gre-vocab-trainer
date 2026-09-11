@@ -1318,5 +1318,885 @@
     "required_nuance": "fondness so great it stops being sensible",
     "mental_hook": "Loves them past all judgement.",
     "semantic_hint": "What grandparents do to a first grandchild."
+  },
+  "dovetail": {
+    "accepted_concepts": [
+      "fit together neatly",
+      "interlock",
+      "mesh without friction",
+      "combine so the parts match",
+      "coincide well"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to clash",
+        "misconception": "inverts fitting together into conflict"
+      },
+      {
+        "answer": "a bird's feathers",
+        "misconception": "reads the two nouns literally"
+      }
+    ],
+    "required_nuance": "fitting together as though made for each other",
+    "mental_hook": "Named for the carpenter's joint that needs no nail.",
+    "semantic_hint": "What two schedules do when they happen to fit together perfectly."
+  },
+  "dowdy": {
+    "accepted_concepts": [
+      "dull and unfashionable",
+      "drab in appearance",
+      "frumpy",
+      "shabbily old-fashioned",
+      "lacking any style"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "elegant",
+        "misconception": "inverts drabness into chic"
+      },
+      {
+        "answer": "a baked pudding",
+        "misconception": "takes an obscure dessert sense for the tested one"
+      }
+    ],
+    "required_nuance": "dull and out of fashion, in dress or look",
+    "mental_hook": "Not poor. Just charmless and out of date.",
+    "semantic_hint": "The word for clothes that are drab and years out of fashion."
+  },
+  "draconian": {
+    "accepted_concepts": [
+      "excessively harsh",
+      "severe out of all proportion",
+      "punitively strict",
+      "oppressively stringent",
+      "cruelly rigorous"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "lenient",
+        "misconception": "inverts severity into mildness"
+      },
+      {
+        "answer": "relating to dragons",
+        "misconception": "hears the sound-alike 'dragon'"
+      }
+    ],
+    "required_nuance": "harshness far beyond what the offence warrants",
+    "mental_hook": "Named for a lawgiver whose penalty was usually death.",
+    "semantic_hint": "The word for a punishment far harsher than the offence deserves."
+  },
+  "dregs": {
+    "accepted_concepts": [
+      "the worthless remainder",
+      "sediment at the bottom",
+      "the last and least valuable part",
+      "residue",
+      "the leavings"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the finest part",
+        "misconception": "inverts the worthless leavings into the cream"
+      },
+      {
+        "answer": "a heavy load",
+        "misconception": "hears the sound-alike 'drags'"
+      }
+    ],
+    "required_nuance": "what settles at the bottom and is not worth having",
+    "mental_hook": "The bottom of the cup, and nobody wants it.",
+    "semantic_hint": "What is left at the bottom of a wine bottle."
+  },
+  "droll": {
+    "accepted_concepts": [
+      "amusing in a dry odd way",
+      "wryly funny",
+      "comically strange",
+      "whimsically humorous",
+      "quaintly amusing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "tediously serious",
+        "misconception": "inverts amusement into humourlessness"
+      },
+      {
+        "answer": "to recite tediously",
+        "misconception": "hears the sound-alike 'drone'"
+      }
+    ],
+    "required_nuance": "funny by oddness and dryness, never by broad joking",
+    "mental_hook": "Funny without ever raising its voice.",
+    "semantic_hint": "The word for humour that is dry, odd, and delivered deadpan."
+  },
+  "dubious": {
+    "accepted_concepts": [
+      "doubtful",
+      "of questionable worth",
+      "suspect",
+      "open to doubt",
+      "uncertain about something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "certain",
+        "misconception": "inverts doubt into confidence"
+      },
+      {
+        "answer": "a pleasing sound",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "doubt, either felt by someone or deserved by the thing",
+    "mental_hook": "Either you doubt it, or it deserves doubting.",
+    "semantic_hint": "The word for a claim that does not quite deserve to be believed."
+  },
+  "dulcet": {
+    "accepted_concepts": [
+      "sweet and soothing in sound",
+      "melodious",
+      "pleasing to the ear",
+      "honeyed in tone",
+      "softly musical"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "harsh and grating",
+        "misconception": "inverts sweetness into discord"
+      },
+      {
+        "answer": "slow-witted",
+        "misconception": "hears the sound-alike 'dull'"
+      }
+    ],
+    "required_nuance": "sweetness of sound above all",
+    "mental_hook": "Sweet to the ear, and only to the ear.",
+    "semantic_hint": "The word for a voice that is sweet and soothing to hear."
+  },
+  "dupe": {
+    "accepted_concepts": [
+      "deceive",
+      "trick",
+      "hoodwink",
+      "take in by a trick",
+      "swindle"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a copy",
+        "misconception": "hears the shortened form of 'duplicate'"
+      },
+      {
+        "answer": "to undeceive",
+        "misconception": "inverts tricking into enlightening"
+      }
+    ],
+    "required_nuance": "tricking someone who believes it",
+    "mental_hook": "The verb and the victim share one word.",
+    "semantic_hint": "What a con artist does to a trusting mark."
+  },
+  "duplicitous": {
+    "accepted_concepts": [
+      "deliberately deceptive",
+      "two-faced",
+      "double-dealing",
+      "saying one thing and meaning another",
+      "treacherously false"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "honest",
+        "misconception": "inverts deceit into candour"
+      },
+      {
+        "answer": "made in copies",
+        "misconception": "hears the shared root of 'duplicate'"
+      }
+    ],
+    "required_nuance": "deception by playing two parts at once",
+    "mental_hook": "Two faces, and both of them lying.",
+    "semantic_hint": "The word for someone who promises one thing to each of two sides."
+  },
+  "duplicity": {
+    "accepted_concepts": [
+      "deceitfulness",
+      "double-dealing",
+      "saying one thing while doing another",
+      "guile",
+      "two-faced conduct"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "candour",
+        "misconception": "inverts deceit into honesty"
+      },
+      {
+        "answer": "making copies",
+        "misconception": "hears the shared root of 'duplicate'"
+      }
+    ],
+    "required_nuance": "deceit by maintaining two faces",
+    "mental_hook": "Two faces, kept up at once.",
+    "semantic_hint": "The vice of a spy who serves both sides at the same time."
+  },
+  "duress": {
+    "accepted_concepts": [
+      "coercion by threat",
+      "compulsion by force",
+      "constraint against one's will",
+      "pressure that removes choice",
+      "being forced into something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "free consent",
+        "misconception": "inverts coercion into willingness"
+      },
+      {
+        "answer": "sorrow",
+        "misconception": "hears the sound-alike 'distress'"
+      }
+    ],
+    "required_nuance": "force or threat removing free choice",
+    "mental_hook": "Signed, but not freely.",
+    "semantic_hint": "What makes a confession worthless because it was forced."
+  },
+  "dutiful": {
+    "accepted_concepts": [
+      "conscientiously fulfilling obligations",
+      "obedient from a sense of duty",
+      "faithful in one's tasks",
+      "diligent in what is owed",
+      "properly obedient"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "negligent",
+        "misconception": "inverts diligence into neglect"
+      },
+      {
+        "answer": "joyfully eager",
+        "misconception": "confuses doing what is owed with wanting to"
+      }
+    ],
+    "required_nuance": "acting from obligation, not from enthusiasm",
+    "mental_hook": "Does what is owed, whether or not they want to.",
+    "semantic_hint": "The word for a child who visits every Sunday because they should."
+  },
+  "dwell": {
+    "accepted_concepts": [
+      "linger on a subject",
+      "keep returning to a thought",
+      "brood over",
+      "reside somewhere",
+      "live in a place"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to move on quickly",
+        "misconception": "inverts lingering into leaving"
+      },
+      {
+        "answer": "a water shaft",
+        "misconception": "hears the word 'well'"
+      }
+    ],
+    "required_nuance": "staying, in place or in thought",
+    "mental_hook": "Stays put, in a house or in a thought.",
+    "semantic_hint": "What someone does to a painful memory by refusing to move past it."
+  },
+  "dwindling": {
+    "accepted_concepts": [
+      "steadily decreasing",
+      "shrinking away",
+      "diminishing bit by bit",
+      "waning",
+      "growing less until little remains"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "growing",
+        "misconception": "inverts decrease into increase"
+      },
+      {
+        "answer": "spinning thread",
+        "misconception": "hears the sound-alike 'twining'"
+      }
+    ],
+    "required_nuance": "decreasing gradually toward nothing",
+    "mental_hook": "Getting smaller, and not stopping.",
+    "semantic_hint": "How savings are described when they shrink month after month."
+  },
+  "dynamo": {
+    "accepted_concepts": [
+      "an extremely energetic person",
+      "a tireless worker",
+      "a powerhouse of a person",
+      "someone with endless drive",
+      "a livewire"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a lazy person",
+        "misconception": "inverts energy into sloth"
+      },
+      {
+        "answer": "an explosive",
+        "misconception": "hears the sound-alike 'dynamite'"
+      }
+    ],
+    "required_nuance": "a person, and their energy is the point",
+    "mental_hook": "A generator, applied to a person.",
+    "semantic_hint": "The word for a colleague who never seems to run out of energy."
+  },
+  "dyspeptic": {
+    "accepted_concepts": [
+      "irritable and gloomy",
+      "sourly bad-tempered",
+      "peevish",
+      "morose and snappish",
+      "ill-humoured"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cheerful",
+        "misconception": "inverts sourness into good humour"
+      },
+      {
+        "answer": "a germ-killing liquid",
+        "misconception": "hears the sound-alike 'antiseptic'"
+      }
+    ],
+    "required_nuance": "sour temper, named from a sour stomach",
+    "mental_hook": "A bad stomach became a bad mood.",
+    "semantic_hint": "The word for a critic whose reviews are permanently sour."
+  },
+  "earnest": {
+    "accepted_concepts": [
+      "sincere and serious in intention",
+      "deeply meaning it",
+      "fervently committed",
+      "solemnly genuine",
+      "grave and heartfelt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "flippant",
+        "misconception": "inverts seriousness into levity"
+      },
+      {
+        "answer": "money one has made",
+        "misconception": "hears the sound-alike 'earnings'"
+      }
+    ],
+    "required_nuance": "serious sincerity, sometimes to the point of humourlessness",
+    "mental_hook": "Means it, and means it entirely.",
+    "semantic_hint": "The word for a plea made with complete, humourless sincerity."
+  },
+  "ebb": {
+    "accepted_concepts": [
+      "recede",
+      "decline gradually",
+      "wane",
+      "fall back like a tide",
+      "subside"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to surge",
+        "misconception": "inverts receding into flowing in"
+      },
+      {
+        "answer": "to bubble",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "going out or down, like the tide",
+    "mental_hook": "The tide going out, applied to anything.",
+    "semantic_hint": "What the tide does between high water and low water."
+  },
+  "ebullient": {
+    "accepted_concepts": [
+      "cheerful and full of energy",
+      "exuberant",
+      "bubbling with high spirits",
+      "buoyantly enthusiastic",
+      "irrepressibly lively"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "subdued",
+        "misconception": "inverts high spirits into gloom"
+      },
+      {
+        "answer": "swollen",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "high spirits bubbling over",
+    "mental_hook": "Boiling over, but with cheerfulness.",
+    "semantic_hint": "The word for someone bubbling over with cheerful energy."
+  },
+  "eccentric": {
+    "accepted_concepts": [
+      "unconventional and odd",
+      "quirky in behaviour",
+      "not following the usual pattern",
+      "idiosyncratic",
+      "strange in a harmless way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "conventional",
+        "misconception": "inverts oddness into ordinariness"
+      },
+      {
+        "answer": "dangerously mad",
+        "misconception": "overstates harmless oddity into illness"
+      }
+    ],
+    "required_nuance": "odd, and usually harmlessly so",
+    "mental_hook": "Off centre, which is what the Greek meant.",
+    "semantic_hint": "The word for a harmlessly odd neighbour with unusual habits."
+  },
+  "echelon": {
+    "accepted_concepts": [
+      "a level within an organisation",
+      "a rank in a hierarchy",
+      "a tier of authority",
+      "a stratum of command",
+      "a grade of seniority"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a returning sound",
+        "misconception": "hears the shared opening of 'echo'"
+      },
+      {
+        "answer": "a single individual",
+        "misconception": "confuses a whole level with one person in it"
+      }
+    ],
+    "required_nuance": "a whole level in a hierarchy",
+    "mental_hook": "A rung, and everyone standing on it.",
+    "semantic_hint": "The word for a whole level of a military or corporate hierarchy."
+  },
+  "eclectic": {
+    "accepted_concepts": [
+      "drawing from many sources",
+      "wide-ranging in taste",
+      "selecting from varied styles",
+      "broadly assorted",
+      "mixed from several traditions"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "narrow and uniform",
+        "misconception": "inverts breadth into a single source"
+      },
+      {
+        "answer": "relating to current and voltage",
+        "misconception": "hears the sound-alike 'electric'"
+      }
+    ],
+    "required_nuance": "choosing the best from many different sources",
+    "mental_hook": "Takes from everywhere, belongs to nowhere.",
+    "semantic_hint": "The word for a record collection spanning opera, punk and jazz."
+  },
+  "eclipse": {
+    "accepted_concepts": [
+      "surpass",
+      "overshadow",
+      "outshine",
+      "make seem small by comparison",
+      "exceed in significance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to lag behind",
+        "misconception": "inverts surpassing into trailing"
+      },
+      {
+        "answer": "a shadow on the moon only",
+        "misconception": "narrows it to the astronomical noun"
+      }
+    ],
+    "required_nuance": "outdoing something so far it is no longer noticed",
+    "mental_hook": "One thing blots out the other.",
+    "semantic_hint": "What a younger star's success does to an older one's reputation."
+  },
+  "economical": {
+    "accepted_concepts": [
+      "thrifty",
+      "avoiding waste",
+      "sparing in use",
+      "efficient with resources",
+      "getting much from little"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "extravagant",
+        "misconception": "inverts thrift into waste"
+      },
+      {
+        "answer": "relating to national finances",
+        "misconception": "confuses being thrifty with the field of study"
+      }
+    ],
+    "required_nuance": "sparing use, whether of money, words or effort",
+    "mental_hook": "Uses little, whether money or words.",
+    "semantic_hint": "The word for prose that wastes not a single syllable."
+  },
+  "economy": {
+    "accepted_concepts": [
+      "thrift",
+      "sparing use of resources",
+      "efficiency in expenditure",
+      "frugality",
+      "the financial system of a place"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "waste",
+        "misconception": "inverts thrift into extravagance"
+      },
+      {
+        "answer": "a cheap ticket class only",
+        "misconception": "narrows it to one commercial use"
+      }
+    ],
+    "required_nuance": "the sparing use, or the whole system",
+    "mental_hook": "Doing more with less, or the system that does it.",
+    "semantic_hint": "The quality of a sentence that says everything in ten words."
+  },
+  "edict": {
+    "accepted_concepts": [
+      "an official order",
+      "a decree from authority",
+      "a proclamation with force of law",
+      "an authoritative command",
+      "an ordinance issued from above"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a request",
+        "misconception": "softens a command into an appeal"
+      },
+      {
+        "answer": "to correct text",
+        "misconception": "hears the sound-alike 'edit'"
+      }
+    ],
+    "required_nuance": "issued by authority, and not up for debate",
+    "mental_hook": "Handed down, not proposed.",
+    "semantic_hint": "The word for a command issued by a ruler with the force of law."
+  },
+  "edifice": {
+    "accepted_concepts": [
+      "a large imposing building",
+      "an imposing structure",
+      "a grand construction",
+      "a complex system built up",
+      "an elaborate framework of ideas"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small hut",
+        "misconception": "loses the imposing scale"
+      },
+      {
+        "answer": "a mechanical device",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "large and imposing, in stone or in argument",
+    "mental_hook": "A big building, or a big argument built like one.",
+    "semantic_hint": "The word for a grand and imposing building, or a theory built like one."
+  },
+  "edify": {
+    "accepted_concepts": [
+      "instruct morally",
+      "improve someone's mind",
+      "enlighten",
+      "uplift through teaching",
+      "build up in understanding"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to corrupt",
+        "misconception": "inverts moral improvement into debasement"
+      },
+      {
+        "answer": "to revise a text",
+        "misconception": "hears the sound-alike 'edit'"
+      }
+    ],
+    "required_nuance": "teaching that improves morally or intellectually",
+    "mental_hook": "Builds the person, which is the Latin sense.",
+    "semantic_hint": "What a moral tale is meant to do to the person hearing it."
+  },
+  "edifying": {
+    "accepted_concepts": [
+      "instructive and improving",
+      "morally uplifting",
+      "enlightening to the mind",
+      "teaching something worth knowing",
+      "good for the character"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "degrading",
+        "misconception": "inverts uplift into debasement"
+      },
+      {
+        "answer": "merely entertaining",
+        "misconception": "loses the moral improvement"
+      }
+    ],
+    "required_nuance": "improving, not merely informative",
+    "mental_hook": "Not just interesting. Improving.",
+    "semantic_hint": "The word for a lecture that leaves you a better person."
+  },
+  "effacing": {
+    "accepted_concepts": [
+      "keeping oneself unnoticed",
+      "modestly retiring",
+      "rubbing out",
+      "erasing from notice",
+      "making inconspicuous"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "boastful",
+        "misconception": "inverts modesty into self-display"
+      },
+      {
+        "answer": "confronting directly",
+        "misconception": "hears the word 'face' and reverses the sense"
+      }
+    ],
+    "required_nuance": "erasing, most often oneself from notice",
+    "mental_hook": "Rubs it out, and usually that means themselves.",
+    "semantic_hint": "The word for a modesty that keeps deflecting credit onto others."
+  },
+  "effervescence": {
+    "accepted_concepts": [
+      "lively enthusiasm",
+      "bubbling high spirits",
+      "vivacity",
+      "fizzing liveliness",
+      "exuberance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "lethargy",
+        "misconception": "inverts liveliness into flatness"
+      },
+      {
+        "answer": "a strong smell",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "liveliness that bubbles visibly",
+    "mental_hook": "Fizzing, in a glass or in a person.",
+    "semantic_hint": "What champagne does in the glass, and what a lively guest does at a party."
+  },
+  "effervescent": {
+    "accepted_concepts": [
+      "lively and enthusiastic",
+      "bubbly in manner",
+      "vivacious",
+      "sparkling with high spirits",
+      "fizzing with liveliness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "flat and listless",
+        "misconception": "inverts liveliness into dullness"
+      },
+      {
+        "answer": "strongly scented",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "liveliness that bubbles up and shows",
+    "mental_hook": "Fizzy, said of a person.",
+    "semantic_hint": "The word for a host whose liveliness bubbles through the whole evening."
+  },
+  "effete": {
+    "accepted_concepts": [
+      "weak and worn out",
+      "exhausted of vigour",
+      "decadently over-refined",
+      "enfeebled by soft living",
+      "spent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "robust",
+        "misconception": "inverts feebleness into vigour"
+      },
+      {
+        "answer": "a great achievement",
+        "misconception": "hears the sound-alike 'feat'"
+      }
+    ],
+    "required_nuance": "weak through over-refinement or exhaustion",
+    "mental_hook": "Once strong. Refined into weakness.",
+    "semantic_hint": "The word for an aristocracy grown weak and over-refined."
+  },
+  "efficacious": {
+    "accepted_concepts": [
+      "producing the desired effect",
+      "effective",
+      "working as intended",
+      "potent in result",
+      "capable of the intended outcome"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "useless",
+        "misconception": "inverts effectiveness into failure"
+      },
+      {
+        "answer": "done quickly with little waste",
+        "misconception": "confuses working at all with working economically"
+      }
+    ],
+    "required_nuance": "it produces the result, whatever it costs",
+    "mental_hook": "It works. Whether it works cheaply is another word.",
+    "semantic_hint": "The word for a treatment that reliably produces the intended cure."
+  },
+  "efficacy": {
+    "accepted_concepts": [
+      "the power to produce a desired result",
+      "effectiveness",
+      "the capacity to work",
+      "potency",
+      "how well something achieves its aim"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "doing it with little waste",
+        "misconception": "confuses producing the result with producing it cheaply"
+      },
+      {
+        "answer": "powerlessness",
+        "misconception": "inverts effectiveness into impotence"
+      }
+    ],
+    "required_nuance": "whether it works, not how cheaply",
+    "mental_hook": "Does it work? Not: does it work cheaply?",
+    "semantic_hint": "What a clinical trial measures about a new drug."
+  },
+  "effigy": {
+    "accepted_concepts": [
+      "a crude likeness of a person",
+      "a dummy made to represent someone",
+      "a figure used for mockery",
+      "a model of a person, often burned",
+      "a sculpted likeness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the real person",
+        "misconception": "confuses the likeness with the person"
+      },
+      {
+        "answer": "a rude gesture",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "a made likeness standing in for a person",
+    "mental_hook": "The crowd burns the model, not the man.",
+    "semantic_hint": "The crude dummy of a politician that protesters set alight."
+  },
+  "effluvium": {
+    "accepted_concepts": [
+      "an unpleasant smell",
+      "a foul emanation",
+      "a noxious discharge",
+      "a stench given off",
+      "an unwholesome vapour"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a pleasant fragrance",
+        "misconception": "inverts foulness into sweetness"
+      },
+      {
+        "answer": "great wealth",
+        "misconception": "hears the sound-alike 'affluence'"
+      }
+    ],
+    "required_nuance": "something unpleasant given off, usually a smell",
+    "mental_hook": "What comes off it, and it is never nice.",
+    "semantic_hint": "The word for the foul vapour rising off a stagnant marsh."
+  },
+  "effrontery": {
+    "accepted_concepts": [
+      "shameless boldness",
+      "audacity beyond all decency",
+      "impudence",
+      "nerve in doing something outrageous",
+      "brazen cheek"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "meekness",
+        "misconception": "inverts brazenness into diffidence"
+      },
+      {
+        "answer": "an insult given",
+        "misconception": "hears the sound-alike 'affront' and takes the act for the quality"
+      }
+    ],
+    "required_nuance": "boldness with no shame attached",
+    "mental_hook": "The sheer nerve of it.",
+    "semantic_hint": "The quality of someone who asks for a raise the week after being caught stealing."
+  },
+  "effulgence": {
+    "accepted_concepts": [
+      "radiant brightness",
+      "brilliance of light",
+      "shining splendour",
+      "dazzling radiance",
+      "a streaming forth of light"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dimness",
+        "misconception": "inverts brilliance into gloom"
+      },
+      {
+        "answer": "a swelling",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "light so strong it streams out",
+    "mental_hook": "Light pouring out of it.",
+    "semantic_hint": "The literary word for the streaming brilliance of the noon sun."
+  },
+  "effusive": {
+    "accepted_concepts": [
+      "expressing feeling excessively",
+      "gushing",
+      "unrestrained in praise",
+      "overflowing with emotion",
+      "demonstrative past the point of taste"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "reserved",
+        "misconception": "inverts overflow into restraint"
+      },
+      {
+        "answer": "sharply critical",
+        "misconception": "confuses overflowing warmth with attack"
+      }
+    ],
+    "required_nuance": "feeling poured out past what is appropriate",
+    "mental_hook": "Pouring out, and too much of it.",
+    "semantic_hint": "The word for thanks so extravagant they become embarrassing."
   }
 }

@@ -1,0 +1,442 @@
+{
+  "egalitarian": {
+    "accepted_concepts": [
+      "believing in equality for all",
+      "favouring equal rights",
+      "democratic in spirit",
+      "treating everyone as equal",
+      "opposed to privilege"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "favouring a privileged few",
+        "misconception": "inverts equality into hierarchy"
+      },
+      {
+        "answer": "a bird of prey",
+        "misconception": "hears the sound-alike 'eagle'"
+      }
+    ],
+    "required_nuance": "equality as a principle held",
+    "mental_hook": "Everyone level, as a matter of principle.",
+    "semantic_hint": "The word for a society organised on the principle that all are equal."
+  },
+  "egotist": {
+    "accepted_concepts": [
+      "a self-absorbed person",
+      "someone obsessed with themselves",
+      "a boaster about their own worth",
+      "a narcissist",
+      "one who talks only of themselves"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a selfless giver",
+        "misconception": "inverts self-absorption into altruism"
+      },
+      {
+        "answer": "a way out",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "self-absorption, usually spoken aloud",
+    "mental_hook": "Their favourite subject is themselves.",
+    "semantic_hint": "The word for a dinner guest who talks about nothing but himself."
+  },
+  "egregious": {
+    "accepted_concepts": [
+      "outstandingly bad",
+      "conspicuously awful",
+      "flagrant",
+      "glaringly wrong",
+      "blatantly objectionable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "excellent",
+        "misconception": "takes the obsolete positive sense of standing out"
+      },
+      {
+        "answer": "sociable",
+        "misconception": "hears the sound-alike 'gregarious'"
+      }
+    ],
+    "required_nuance": "bad enough to stand out",
+    "mental_hook": "Stands out, and not in a good way any more.",
+    "semantic_hint": "The word for an error so bad it is impossible to overlook."
+  },
+  "egress": {
+    "accepted_concepts": [
+      "a way out",
+      "an exit",
+      "the act of going out",
+      "a means of departure",
+      "an outlet"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an entrance",
+        "misconception": "inverts going out into coming in"
+      },
+      {
+        "answer": "too much of something",
+        "misconception": "hears the sound-alike 'excess'"
+      }
+    ],
+    "required_nuance": "going out, or the way out",
+    "mental_hook": "The way out, and the going out.",
+    "semantic_hint": "The formal word on a building plan for the way out."
+  },
+  "elaborate": {
+    "accepted_concepts": [
+      "detailed and complicated",
+      "worked out in fine detail",
+      "intricate in design",
+      "ornate",
+      "carefully complex"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plain and simple",
+        "misconception": "inverts intricacy into bareness"
+      },
+      {
+        "answer": "hardworking",
+        "misconception": "hears the word 'labour' inside it"
+      }
+    ],
+    "required_nuance": "complexity from careful working out",
+    "mental_hook": "Worked out, in every detail.",
+    "semantic_hint": "The word for a plan with a dozen carefully worked-out stages."
+  },
+  "elated": {
+    "accepted_concepts": [
+      "very happy and excited",
+      "jubilant",
+      "overjoyed",
+      "in high spirits from success",
+      "exultant"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dejected",
+        "misconception": "inverts joy into gloom"
+      },
+      {
+        "answer": "arriving after the hour",
+        "misconception": "hears the word 'late'"
+      }
+    ],
+    "required_nuance": "joy raised high, usually by good news",
+    "mental_hook": "Lifted up, by good news.",
+    "semantic_hint": "How someone feels the moment they hear they got in."
+  },
+  "elegiac": {
+    "accepted_concepts": [
+      "mournful in tone",
+      "expressing sorrow for what is lost",
+      "plaintive",
+      "wistfully sad",
+      "lamenting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "celebratory",
+        "misconception": "inverts mourning into rejoicing"
+      },
+      {
+        "answer": "graceful and stylish",
+        "misconception": "hears the sound-alike 'elegant'"
+      }
+    ],
+    "required_nuance": "sorrow for something gone",
+    "mental_hook": "Sad for what is gone, not for what hurts now.",
+    "semantic_hint": "The word for a tone of mourning for a vanished way of life."
+  },
+  "elegy": {
+    "accepted_concepts": [
+      "a mournful poem",
+      "a lament for the dead",
+      "a dirge",
+      "a poem of sorrow",
+      "a requiem in verse"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a poem of praise",
+        "misconception": "confuses a lament with an ode"
+      },
+      {
+        "answer": "stylishness",
+        "misconception": "hears the sound-alike 'elegance'"
+      }
+    ],
+    "required_nuance": "a poem, and its subject is loss",
+    "mental_hook": "A poem for the dead.",
+    "semantic_hint": "The kind of poem written for someone who has died."
+  },
+  "elementary": {
+    "accepted_concepts": [
+      "basic",
+      "fundamental",
+      "at the simplest level",
+      "introductory",
+      "rudimentary"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "advanced",
+        "misconception": "inverts the basic into the complex"
+      },
+      {
+        "answer": "relating to chemical substances",
+        "misconception": "takes a narrow scientific sense"
+      }
+    ],
+    "required_nuance": "the simplest and first level",
+    "mental_hook": "First principles, and nothing past them.",
+    "semantic_hint": "The word for the most basic level of a subject."
+  },
+  "elevate": {
+    "accepted_concepts": [
+      "raise in rank or quality",
+      "lift up",
+      "promote",
+      "improve the standing of",
+      "exalt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to demote",
+        "misconception": "inverts raising into lowering"
+      },
+      {
+        "answer": "a moving room in a building",
+        "misconception": "takes the related machine for the verb"
+      }
+    ],
+    "required_nuance": "raising, in height, rank or quality",
+    "mental_hook": "Lifts it, physically or in rank.",
+    "semantic_hint": "What a promotion does to someone's position."
+  },
+  "elicit": {
+    "accepted_concepts": [
+      "draw out a response",
+      "evoke",
+      "get someone to reveal something",
+      "provoke a reaction",
+      "extract information"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unlawful",
+        "misconception": "hears the sound-alike 'illicit'"
+      },
+      {
+        "answer": "to suppress",
+        "misconception": "inverts drawing out into holding back"
+      }
+    ],
+    "required_nuance": "drawing something out of someone or something",
+    "mental_hook": "Gets it out of them.",
+    "semantic_hint": "What a skilled interviewer does to a reluctant answer."
+  },
+  "elitist": {
+    "accepted_concepts": [
+      "favouring a privileged few",
+      "believing in rule by the select",
+      "snobbishly exclusive",
+      "treating some as inherently superior",
+      "restricting to the chosen"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "believing in equality for all",
+        "misconception": "inverts privilege into equality"
+      },
+      {
+        "answer": "a list of names",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "the few should have it, as a principle held",
+    "mental_hook": "The chosen few, on purpose.",
+    "semantic_hint": "The word for a policy that reserves power for a select group."
+  },
+  "ellipsis": {
+    "accepted_concepts": [
+      "the omission of words",
+      "leaving words out",
+      "a gap in a quoted passage",
+      "the three-dot mark",
+      "a deliberate omission understood from context"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an oval curve",
+        "misconception": "hears the sound-alike 'ellipse'"
+      },
+      {
+        "answer": "an addition",
+        "misconception": "inverts omission into insertion"
+      }
+    ],
+    "required_nuance": "words left out, and the mark that shows it",
+    "mental_hook": "The three dots, and what they stand for.",
+    "semantic_hint": "The three dots that show words have been left out of a quotation."
+  },
+  "eloquence": {
+    "accepted_concepts": [
+      "persuasive and fluent speech",
+      "command of expression",
+      "moving skill with words",
+      "rhetorical power",
+      "fluency that convinces"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "tongue-tied hesitation",
+        "misconception": "inverts fluency into inarticulacy"
+      },
+      {
+        "answer": "stylishness of dress",
+        "misconception": "hears the sound-alike 'elegance'"
+      }
+    ],
+    "required_nuance": "fluency that also persuades and moves",
+    "mental_hook": "Not just fluent. Moving.",
+    "semantic_hint": "The quality of a speech that both flows and persuades."
+  },
+  "eloquent": {
+    "accepted_concepts": [
+      "fluent and persuasive",
+      "articulate and moving",
+      "expressive with real power",
+      "well-spoken and convincing",
+      "speaking with force and grace"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "inarticulate",
+        "misconception": "inverts fluency into stumbling"
+      },
+      {
+        "answer": "tastefully stylish",
+        "misconception": "hears the sound-alike 'elegant'"
+      }
+    ],
+    "required_nuance": "fluent and moving together",
+    "mental_hook": "Says it well, and it lands.",
+    "semantic_hint": "The word for a speaker whose words flow and also persuade."
+  },
+  "elucidate": {
+    "accepted_concepts": [
+      "make clear",
+      "explain in detail",
+      "clarify what was obscure",
+      "shed light on",
+      "spell out the meaning of"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to obscure",
+        "misconception": "inverts clarifying into confusing"
+      },
+      {
+        "answer": "to avoid capture",
+        "misconception": "hears the sound-alike beginning of 'elude'"
+      }
+    ],
+    "required_nuance": "making something obscure clear",
+    "mental_hook": "Shines light on it, which is the Latin.",
+    "semantic_hint": "What a good explanation does to an obscure passage."
+  },
+  "elude": {
+    "accepted_concepts": [
+      "escape by cunning",
+      "evade capture",
+      "slip away from",
+      "avoid being caught",
+      "escape someone's understanding"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to confront",
+        "misconception": "inverts evasion into meeting head on"
+      },
+      {
+        "answer": "to make clear",
+        "misconception": "hears the sound-alike 'elucidate'"
+      }
+    ],
+    "required_nuance": "escaping grasp, physical or mental",
+    "mental_hook": "Slips away, from hands or from the mind.",
+    "semantic_hint": "What a name does when it sits on the tip of your tongue."
+  },
+  "elusive": {
+    "accepted_concepts": [
+      "hard to catch",
+      "difficult to find",
+      "slipping away from grasp",
+      "hard to define",
+      "fleeting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "easy to find",
+        "misconception": "inverts difficulty into obviousness"
+      },
+      {
+        "answer": "imaginary",
+        "misconception": "hears the sound-alike 'illusive'"
+      }
+    ],
+    "required_nuance": "hard to grasp, in hand or in thought",
+    "mental_hook": "Always just out of reach.",
+    "semantic_hint": "The word for a concept you can never quite pin down."
+  },
+  "elysian": {
+    "accepted_concepts": [
+      "blissful",
+      "delightfully peaceful",
+      "heavenly",
+      "idyllic",
+      "perfectly happy"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "wretched",
+        "misconception": "inverts bliss into misery"
+      },
+      {
+        "answer": "a mythical place of torment",
+        "misconception": "confuses the fields of the blessed with the place of punishment"
+      }
+    ],
+    "required_nuance": "bliss, named for the fields of the blessed",
+    "mental_hook": "Named for the fields where the blessed went.",
+    "semantic_hint": "The word for a meadow so peaceful it seems out of a myth of paradise."
+  },
+  "emaciate": {
+    "accepted_concepts": [
+      "make abnormally thin",
+      "waste away in flesh",
+      "reduce to skin and bone",
+      "enfeeble by starvation",
+      "cause to waste"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to fatten",
+        "misconception": "inverts wasting into nourishing"
+      },
+      {
+        "answer": "to free from bondage",
+        "misconception": "hears the sound-alike 'emancipate'"
+      }
+    ],
+    "required_nuance": "thinness from starvation or illness",
+    "mental_hook": "Thin because something took the flesh away.",
+    "semantic_hint": "What long famine does to a body."
+  }
+}
