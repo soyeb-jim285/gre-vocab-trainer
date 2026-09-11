@@ -113,6 +113,9 @@ final class SessionViewModel {
     /// What this session has cost so far.
     private(set) var sessionSpend: Double = 0
     private(set) var answeredCount = 0
+    /// Answers plus words met. Drives whether there is anything to stop, which
+    /// reading a teaching card counts toward even though it scores nothing.
+    private(set) var cardsSeen = 0
     /// Scores this session, for the summary and the quiz record.
     private var scores: [Int] = []
     /// Newest last; the planner keeps these out of the way.
@@ -159,6 +162,7 @@ final class SessionViewModel {
     func start(now: Date = .now) {
         phase = .loading
         answeredCount = 0
+        cardsSeen = 0
         scores = []
         recentWordIDs = []
         sessionSpend = 0
@@ -242,11 +246,19 @@ final class SessionViewModel {
         }
     }
 
-    /// Done reading. Nothing is graded, and nothing is scheduled: the card stays
-    /// due, so the very next thing is a real question about the word just met.
+    /// Done reading. Nothing is graded and nothing is scheduled.
+    ///
+    /// The word does go on the recently-shown list, which is the whole point.
+    /// Asking "which definition fits?" three seconds after showing the
+    /// definition tests nothing but short-term memory, and the answer it
+    /// produces is not evidence the scheduler should act on. The recent window
+    /// pushes it behind the next few cards instead, so a small batch of words is
+    /// met and then questioned -- by which time recalling one is actually recall.
     func finishIntroduction() {
         guard case let .introduce(word, _)? = current else { return }
         ReviewRecorder.introduce(wordID: word.id, in: context, index: index)
+        cardsSeen += 1
+        recentWordIDs.append(word.id)
         loadNext()
     }
 
@@ -408,6 +420,7 @@ final class SessionViewModel {
             latency: latency, latencyTainted: clock.isTainted
         )
         answeredCount += 1
+        cardsSeen += 1
         scores.append(judgement.grade.score)
         recentWordIDs.append(item.card.wordID)
         phase = .reviewing(AnswerFeedback(judgement: judgement, cost: cost, extras: extras))

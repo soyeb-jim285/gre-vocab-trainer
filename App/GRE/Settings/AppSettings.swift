@@ -114,7 +114,7 @@ final class AppSettings {
     }
 
     /// A cheap, widely-available model that does structured outputs.
-    private static let fallbackModel = "google/gemini-3.7-flash"
+    private static let fallbackModel = "openai/gpt-5.6-luna"
 
     /// Put every preference back where a fresh install would have it.
     ///

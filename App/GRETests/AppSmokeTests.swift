@@ -178,6 +178,41 @@ struct AppSmokeTests {
 
     // MARK: - Writing practice
 
+    @Test func aWordIsNotQuestionedSecondsAfterItsAnswerWasOnScreen() throws {
+        let context = try inMemoryContext()
+        let catalog = try WordCatalog.bundled()
+        let settings = AppSettings(defaults: UserDefaults(suiteName: "test-\(UUID().uuidString)")!)
+        let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
+        model.start()
+
+        guard case let .introduce(taught, _)? = model.current else {
+            Issue.record("expected a teaching card")
+            return
+        }
+        model.finishIntroduction()
+
+        // Asking "which definition fits?" three seconds after showing the
+        // definition tests short-term memory and teaches the scheduler nothing.
+        #expect(model.current?.word.id != taught.id,
+                "the word was questioned immediately after its answer was shown")
+
+        // It still has to come back soon, not be lost behind the whole catalog.
+        var gap = 0
+        var met: [String] = []
+        while gap < 8 {
+            guard let card = model.current else { break }
+            if card.word.id == taught.id { break }
+            met.append(card.word.id)
+            model.finishIntroduction()
+            gap += 1
+        }
+        #expect(model.current?.word.id == taught.id,
+                "the taught word never came back; met \(met) instead")
+        #expect(model.current?.item?.mode == .multipleChoice,
+                "it should come back as a question, not as another teaching card")
+        #expect(gap >= 1 && gap <= 5, "a batch of \(gap) words before the first question")
+    }
+
     @Test func aBrandNewWordIsTaughtBeforeAnythingIsAsked() throws {
         let context = try inMemoryContext()
         let catalog = try WordCatalog.bundled()
@@ -194,9 +229,11 @@ struct AppSmokeTests {
             Issue.record("a brand-new word should be taught first, got \(String(describing: model.current))")
             return
         }
-        // And teaching it schedules nothing, so the question follows immediately.
+        // Teaching schedules nothing, so the card is still due; it is the
+        // recently-shown window, not the scheduler, that holds it back.
         model.finishIntroduction()
-        #expect(model.current?.item?.word != nil)
+        #expect(model.current != nil)
+        #expect(model.cardsSeen == 1, "reading a teaching card is something to stop after")
     }
 
     @Test func practisingAWordOutsideASessionSchedulesItTheSameWay() throws {

@@ -37,7 +37,7 @@ struct SessionView: View {
         .toolbar {
             if quiz == nil {
                 ToolbarItem(placement: .topBarLeading) {
-                    if let model, model.answeredCount > 0, isAnswerable(model) {
+                    if let model, model.cardsSeen > 0, isAnswerable(model) {
                         Button("Done") { model.stop() }.font(Theme.label)
                     }
                 }
