@@ -1,0 +1,362 @@
+{
+  "tc-gauche-1": {
+    "answers": [
+      "gauche"
+    ],
+    "explanation": "The sentence grades one social offence as worse than another, so the blank is a stronger word for tactlessness, which gauche supplies; urbane and decorous say the opposite.",
+    "kind": "textCompletion",
+    "options": [
+      "gauche",
+      "urbane",
+      "decorous",
+      "taciturn",
+      "phlegmatic"
+    ],
+    "stem": "Praising the catering at a funeral is merely clumsy; asking the widow what the house is now worth is _____ in a way that no apology quite repairs."
+  },
+  "tc-hegemony-1": {
+    "answers": [
+      "hegemony"
+    ],
+    "explanation": "One studio deciding what the public can see is dominance over the others, which hegemony names; autonomy and parity describe independence and equality instead.",
+    "kind": "textCompletion",
+    "options": [
+      "hegemony",
+      "autonomy",
+      "parity",
+      "apathy",
+      "animosity"
+    ],
+    "stem": "For half a century one studio's _____ over distribution meant that a film it declined to carry effectively did not exist outside the city it was shot in."
+  },
+  "tc-impugn-1": {
+    "answers": [
+      "impugn"
+    ],
+    "explanation": "Attacking the accountant instead of the figures means casting doubt on him, which impugn says; corroborate, exonerate and vindicate would all support him.",
+    "kind": "textCompletion",
+    "options": [
+      "impugn",
+      "corroborate",
+      "exonerate",
+      "elucidate",
+      "vindicate"
+    ],
+    "stem": "Rather than answer the audit line by line, the chairman chose to _____ the motives of the accountant who had ordered it in the first place."
+  },
+  "tc-ingratiate-1": {
+    "answers": [
+      "ingratiate"
+    ],
+    "explanation": "Birthdays, flowers and reflexive agreement are calculated to win the trustees over, which is what ingratiate means; the other four would drive them away.",
+    "kind": "textCompletion",
+    "options": [
+      "ingratiate",
+      "alienate",
+      "antagonize",
+      "embroil",
+      "estrange"
+    ],
+    "stem": "Every gesture of that first month was designed to _____ him with the trustees: remembered birthdays, agreement with whoever had spoken last, flowers after each meeting."
+  },
+  "tc-invective-1": {
+    "answers": [
+      "invective"
+    ],
+    "explanation": "The letter degenerates from reasoned complaint into an attack on people, which is invective; panegyric is praise and the others describe faulty or evasive wording.",
+    "kind": "textCompletion",
+    "options": [
+      "invective",
+      "panegyric",
+      "sophistry",
+      "platitude",
+      "euphemism"
+    ],
+    "stem": "The first page is a reasoned complaint about the schedule; by the third the letter has collapsed into _____ aimed at everyone who ever approved the project."
+  },
+  "tc-lampoon-1": {
+    "answers": [
+      "lampoon"
+    ],
+    "explanation": "Readers only complain when their own side is the target, so the cartoon must be mocking its subjects, which lampoon says; venerate and extol are praise.",
+    "kind": "textCompletion",
+    "options": [
+      "lampoon",
+      "venerate",
+      "extol",
+      "emulate",
+      "vindicate"
+    ],
+    "stem": "The weekly cartoon exists to _____ whoever happens to be in office, and its readers complain only when it turns on a politician they had voted for."
+  },
+  "tc-levity-1": {
+    "answers": [
+      "levity"
+    ],
+    "explanation": "What the fine punishes is the joke, so the banned thing is humour, which levity names; decorum and deference are what the judge is insisting on instead.",
+    "kind": "textCompletion",
+    "options": [
+      "levity",
+      "decorum",
+      "candor",
+      "rancor",
+      "deference"
+    ],
+    "stem": "The judge allowed no _____ in her courtroom: a barrister who made a joke about the exhibit was fined before he had finished the sentence."
+  },
+  "tc-mendacity-1": {
+    "answers": [
+      "mendacity"
+    ],
+    "explanation": "Set against honest error, a rehearsed and impossible account is deliberate lying, which mendacity names; probity, veracity and candor are all forms of honesty.",
+    "kind": "textCompletion",
+    "options": [
+      "mendacity",
+      "probity",
+      "veracity",
+      "candor",
+      "temerity"
+    ],
+    "stem": "What sank the testimony was not error but _____: the witness had rehearsed a version of the evening that could not possibly have happened."
+  },
+  "tc-miscreant-1": {
+    "answers": [
+      "miscreant"
+    ],
+    "explanation": "The blank names whoever broke the windows and was caught for it, which is a miscreant; a pariah is merely shunned and the rest describe manner rather than wrongdoing.",
+    "kind": "textCompletion",
+    "options": [
+      "miscreant",
+      "pariah",
+      "curmudgeon",
+      "sycophant",
+      "dilettante"
+    ],
+    "stem": "Every window along the terrace was broken that night, and the one _____ responsible was caught within a day by a doorbell camera nobody had noticed."
+  },
+  "tc-nadir-1": {
+    "answers": [
+      "nadir"
+    ],
+    "explanation": "Clients leaving and the founder going silent make March the worst moment, which nadir names; zenith, acme, apogee and pinnacle all point to the top instead.",
+    "kind": "textCompletion",
+    "options": [
+      "nadir",
+      "zenith",
+      "acme",
+      "apogee",
+      "pinnacle"
+    ],
+    "stem": "March was the _____ of the whole affair: two clients left in a week, the lease ran out, and the founder stopped answering email altogether."
+  },
+  "tc-occlude-1": {
+    "answers": [
+      "occlude"
+    ],
+    "explanation": "The pumps run dry because nothing gets through, so the silt has blocked the pipes, which occlude means; inundate and saturate would fill them with water instead.",
+    "kind": "textCompletion",
+    "options": [
+      "occlude",
+      "inundate",
+      "saturate",
+      "permeate",
+      "erode"
+    ],
+    "stem": "Silt carried down by the spring floods can _____ the intake pipes so completely that the pumps at the treatment works run dry before June."
+  },
+  "tc-ossify-1": {
+    "answers": [
+      "ossify"
+    ],
+    "explanation": "Temporary clauses left in place for sixty years harden into permanent ones, which ossify says; dissipate, fluctuate and erode would all have them fade or move.",
+    "kind": "textCompletion",
+    "options": [
+      "ossify",
+      "dissipate",
+      "fluctuate",
+      "replenish",
+      "erode"
+    ],
+    "stem": "A charter meant to be rewritten every decade has gone sixty years untouched, long enough for clauses adopted as temporary measures to _____ completely."
+  },
+  "tc-pedestrian-1": {
+    "answers": [
+      "pedestrian"
+    ],
+    "explanation": "A book cited rather than read, set against original research, has dull prose, which pedestrian names; lucid, meticulous and ebullient would all invite reading.",
+    "kind": "textCompletion",
+    "options": [
+      "pedestrian",
+      "lucid",
+      "meticulous",
+      "laconic",
+      "ebullient"
+    ],
+    "stem": "The research is genuinely original and the writing that carries it is _____, which is why the book is cited far more often than it is actually read."
+  },
+  "tc-philistine-1": {
+    "answers": [
+      "philistine"
+    ],
+    "explanation": "The insult lands on someone who would trade art for plumbing, which is what philistine means; a connoisseur is the opposite and the rest describe temperament.",
+    "kind": "textCompletion",
+    "options": [
+      "philistine",
+      "connoisseur",
+      "curmudgeon",
+      "sycophant",
+      "pundit"
+    ],
+    "stem": "Anyone who suggested selling two paintings to repair the roof was denounced as a _____, which ended the discussion without ever answering the question about the roof."
+  },
+  "tc-polemical-1": {
+    "answers": [
+      "polemical"
+    ],
+    "explanation": "Written to provoke a fight, and set against the hedged early work, the late papers are polemical; conciliatory, tentative and anodyne all avoid the argument.",
+    "kind": "textCompletion",
+    "options": [
+      "polemical",
+      "conciliatory",
+      "tentative",
+      "anodyne",
+      "equivocal"
+    ],
+    "stem": "Her early papers are careful and heavily hedged; the late ones are _____, written to provoke the field into a fight rather than to persuade it."
+  },
+  "tc-predilection-1": {
+    "answers": [
+      "predilection"
+    ],
+    "explanation": "She sought the difficult sources out and spent four years on them, so the blank is a liking, which predilection names; the other four are dislike or disregard.",
+    "kind": "textCompletion",
+    "options": [
+      "predilection",
+      "aversion",
+      "antipathy",
+      "indifference",
+      "apathy"
+    ],
+    "stem": "Her _____ for difficult sources turned what was commissioned as a short article into four years of work in provincial archives nobody else had opened."
+  },
+  "tc-proclivity-1": {
+    "answers": [
+      "proclivity"
+    ],
+    "explanation": "Bred to dig and doing it by instinct is a natural tendency, which proclivity names; aversion and apathy would mean the dog avoided or ignored the activity.",
+    "kind": "textCompletion",
+    "options": [
+      "proclivity",
+      "aversion",
+      "apathy",
+      "animosity",
+      "temerity"
+    ],
+    "stem": "The breed's _____ for digging is not a training failure but the thing it was bred to do, and no fence buried shallowly will survive a wet spring."
+  },
+  "tc-propitious-1": {
+    "answers": [
+      "propitious"
+    ],
+    "explanation": "Cheap money and a desperate landlord are conditions that favour the venture, which propitious names; precarious, arduous and untenable would all warn against it.",
+    "kind": "textCompletion",
+    "options": [
+      "propitious",
+      "precarious",
+      "arduous",
+      "untenable",
+      "onerous"
+    ],
+    "stem": "Cheap credit, an empty high street and a landlord desperate for any tenant at all made that spring unusually _____ for opening a shop."
+  },
+  "tc-prosaic-1": {
+    "answers": [
+      "prosaic"
+    ],
+    "explanation": "An earlier train is an ordinary explanation, and disappointingly signals the letdown after elaborate theories, which is what prosaic captures; byzantine and arcane say the reverse.",
+    "kind": "textCompletion",
+    "options": [
+      "prosaic",
+      "byzantine",
+      "arcane",
+      "implausible",
+      "equivocal"
+    ],
+    "stem": "The disappearance invited every kind of theory for a fortnight, and the answer turned out to be disappointingly _____: she had taken an earlier train and told nobody."
+  },
+  "tc-puerile-1": {
+    "answers": [
+      "puerile"
+    ],
+    "explanation": "Grown politicians squabbling over who said a word first is childish, which puerile names; erudite, decorous and urbane would all describe the opposite behaviour.",
+    "kind": "textCompletion",
+    "options": [
+      "puerile",
+      "erudite",
+      "decorous",
+      "urbane",
+      "austere"
+    ],
+    "stem": "The debate reached a point so _____ that two elected members spent a full minute arguing about which of them had used the word first."
+  },
+  "tc-pugnacious-1": {
+    "answers": [
+      "pugnacious"
+    ],
+    "explanation": "Four legal fights, one of them started from a hospital bed, describe someone eager to fight, which pugnacious names; phlegmatic, diffident and placid all say she would not.",
+    "kind": "textCompletion",
+    "options": [
+      "pugnacious",
+      "phlegmatic",
+      "diffident",
+      "timorous",
+      "placid"
+    ],
+    "stem": "Small, elderly and entirely _____, she had already sued three newspapers and was drafting a fourth complaint from her hospital bed."
+  },
+  "tc-quixotic-1": {
+    "answers": [
+      "quixotic"
+    ],
+    "explanation": "A fine aim needing more money than the town could ever raise is idealistic and unworkable, which quixotic names; pragmatic, prudent and expedient all imply it could work.",
+    "kind": "textCompletion",
+    "options": [
+      "quixotic",
+      "pragmatic",
+      "prudent",
+      "venal",
+      "expedient"
+    ],
+    "stem": "The plan to rebuild the pier by public subscription was _____ from the first meeting: the sum required was more than the town had raised in a century."
+  },
+  "tc-rarefied-1": {
+    "answers": [
+      "rarefied"
+    ],
+    "explanation": "Forty buyers worldwide and no link to the ordinary economy make the market exclusive and remote, which rarefied names; volatile and nascent describe movement and youth instead.",
+    "kind": "textCompletion",
+    "options": [
+      "rarefied",
+      "volatile",
+      "nascent",
+      "moribund",
+      "precarious"
+    ],
+    "stem": "Prices in that _____ corner of the market answer to perhaps forty buyers worldwide and have not tracked the wider economy in thirty years."
+  },
+  "tc-restive-1": {
+    "answers": [
+      "restive"
+    ],
+    "explanation": "Held in place with no explanation until the crew hid, the passengers are restless and impatient under restraint, which restive names; somnolent and placid say they settled.",
+    "kind": "textCompletion",
+    "options": [
+      "restive",
+      "somnolent",
+      "placid",
+      "phlegmatic",
+      "contrite"
+    ],
+    "stem": "Kept on the tarmac for three hours with no explanation and no water, the passengers grew _____ enough that the crew stopped making announcements altogether."
+  }
+}

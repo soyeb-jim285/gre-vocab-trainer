@@ -3,12 +3,31 @@ import GRECore
 import SwiftData
 import SwiftUI
 
+/// Newest first, graded only, and bounded. Unbounded this materialised every
+/// review ever answered each time the tab appeared, and introductions would drag
+/// the average down with zeroes for questions never asked.
+private let recentGradedReviews: FetchDescriptor<ReviewRecord> = {
+    var descriptor = FetchDescriptor<ReviewRecord>(
+        predicate: #Predicate { !$0.isIntroduction },
+        sortBy: [SortDescriptor(\.reviewedAt, order: .reverse)]
+    )
+    descriptor.fetchLimit = 400
+    return descriptor
+}()
+
 struct ProgressScreen: View {
     @Environment(\.catalog) private var catalog
     @Environment(AppSettings.self) private var settings
-    @Query private var cards: [CardRecord]
-    @Query(sort: \ReviewRecord.reviewedAt, order: .reverse) private var reviews: [ReviewRecord]
+    @Environment(MasteryIndex.self) private var mastery
+    @Environment(\.modelContext) private var context
 
+    @Query(recentGradedReviews) private var reviews: [ReviewRecord]
+
+    @State private var totalReviews = 0
+    /// Words with at least one wrong idea on record. Separate from accuracy:
+    /// this is what is being confused rather than what is being forgotten.
+    @State private var mixedUp = 0
+    @State private var spend: Double = 0
     @State private var coach: CoachSummary?
     @State private var coachError: String?
     @State private var loadingCoach = false
@@ -16,11 +35,12 @@ struct ProgressScreen: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 26) {
-                StatRow(cards: cards, catalog: catalog, reviews: reviews)
-                LevelCard(reviews: reviews)
+                StatRow(cards: mastery.cards, catalog: catalog, totalReviews: totalReviews,
+                        alreadyKnown: mastery.alreadyKnownIDs.count, mixedUp: mixedUp)
+                LevelCard(reviews: reviews, spend: spend)
                 if !reviews.isEmpty {
                     AccuracyChart(reviews: reviews)
-                    UpcomingChart(cards: cards)
+                    UpcomingChart(cards: mastery.cards)
                 }
                 CoachCard(
                     coach: coach, error: coachError, loading: loadingCoach,
@@ -30,6 +50,29 @@ struct ProgressScreen: View {
             .padding(Theme.gutter)
         }
         .screenBackground()
+        .task {
+            // Counted, not fetched: the all-time total does not need the rows.
+            totalReviews = (try? context.fetchCount(
+                FetchDescriptor<ReviewRecord>(predicate: #Predicate { !$0.isIntroduction })
+            )) ?? 0
+            spend = AILedger.spentLifetime(in: context)
+            mixedUp = Set(
+                ((try? context.fetch(FetchDescriptor<MisconceptionRecord>())) ?? []).map(\.wordID)
+            ).count
+        }
+    }
+
+    /// What the coach needs to say something about the plan rather than only
+    /// about the words.
+    private var paceSummary: String? {
+        let met = mastery.cards.values.filter(\.isIntroduced).count
+        let advice = Pacing.advise(
+            remaining: max(0, catalog.words.count - met), profile: settings.profile
+        )
+        guard let required = advice.required else { return nil }
+        return advice.isOnTrack
+            ? "on track; the test date needs \(required) new words a day and their limit is \(advice.allowed)"
+            : "behind; the test date needs \(required) new words a day and their limit is \(advice.allowed), so the list will not be covered"
     }
 
     private func runCoach() {
@@ -47,10 +90,16 @@ struct ProgressScreen: View {
                 return
             }
             do {
-                coach = try await settings.client().weeklyCoach(
-                    recentMisses: Array(misses), recentWins: Array(wins),
-                    model: settings.coachModel
-                )
+                (coach, _) = try await AILedger.spend(
+                    .coach, budget: settings.profile.budget,
+                    dayStart: settings.dayStart(), in: context
+                ) {
+                    try await settings.client().weeklyCoachWithCost(
+                        recentMisses: Array(misses), recentWins: Array(wins),
+                        pace: paceSummary, model: settings.coachModel
+                    )
+                }
+                spend = AILedger.spentLifetime(in: context)
             } catch {
                 coachError = (error as? OpenRouterError)?.description ?? error.localizedDescription
             }
@@ -61,19 +110,18 @@ struct ProgressScreen: View {
 // MARK: - Pieces
 
 private struct StatRow: View {
-    let cards: [CardRecord]
+    let cards: [String: StudyCard]
     let catalog: WordCatalog
-    let reviews: [ReviewRecord]
+    let totalReviews: Int
+    /// Proved on first contact, never taught.
+    let alreadyKnown: Int
+    let mixedUp: Int
 
-    private var byID: [String: StudyCard] {
-        Dictionary(cards.map { ($0.wordID, $0.studyCard) }, uniquingKeysWith: { a, _ in a })
-    }
-    private var due: Int { cards.filter { $0.due <= .now }.count }
+    private var due: Int { cards.values.filter { $0.fsrs.due <= .now }.count }
 
     var body: some View {
-        let byID = byID
+        let byID = cards
         let levels = Dictionary(catalog.words.map { (Mastery(card: byID[$0.id]), 1) }, uniquingKeysWith: +)
-        let decksDone = catalog.decks.filter { DeckProgress(deck: $0, cards: byID).isComplete }.count
         VStack(spacing: 12) {
             VStack(alignment: .leading, spacing: 12) {
                 Text("Mastery").font(Theme.label).foregroundStyle(Theme.tertiaryText).textCase(.uppercase)
@@ -82,11 +130,15 @@ private struct StatRow: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .cardSurface()
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-                Stat(value: "\(decksDone)", label: "Decks done", of: "of \(catalog.decks.count)")
-                Stat(value: "\(due)", label: "Due now", of: due == 0 ? "all caught up" : "ready to review")
                 Stat(value: "\((levels[.known] ?? 0) + (levels[.mastered] ?? 0))", label: "Known",
                      of: "3+ weeks' recall")
-                Stat(value: "\(reviews.count)", label: "Reviews", of: "all time")
+                Stat(value: "\(due)", label: "Due now", of: due == 0 ? "all caught up" : "ready to review")
+                // The two halves of the model that are not a review count: what
+                // the learner turned out to own already, and what they are still
+                // getting wrong on purpose rather than by forgetting.
+                Stat(value: "\(alreadyKnown)", label: "Already knew", of: "never taught")
+                Stat(value: "\(mixedUp)", label: "Mixed up", of: mixedUp == 0 ? "nothing tangled" : "words to untangle")
+                Stat(value: "\(totalReviews)", label: "Reviews", of: "all time")
             }
         }
     }
@@ -95,6 +147,8 @@ private struct StatRow: View {
 /// Recent accuracy, which sets the learning load, and what grading has cost.
 private struct LevelCard: View {
     let reviews: [ReviewRecord]
+    /// Every model call, not just the ones made while grading an answer.
+    let spend: Double
 
     private var accuracy: Double? {
         let recent = reviews.prefix(40)
@@ -102,7 +156,6 @@ private struct LevelCard: View {
         return Double(recent.map(\.score).reduce(0, +)) / Double(recent.count)
     }
 
-    private var spend: Double { reviews.compactMap(\.costUSD).reduce(0, +) }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
@@ -120,7 +173,7 @@ private struct LevelCard: View {
 
             if let accuracy {
                 Text("\(Int(accuracy))%")
-                    .font(Theme.headword(28))
+                    .font(Theme.headword(.title))
                     .foregroundStyle(Theme.tint(forScore: Int(accuracy)))
                 Text("Recent accuracy over your last \(min(reviews.count, 40)) answers. Above 85% and new words come faster; below 60% and reviews take priority.")
                     .font(.footnote)
@@ -136,10 +189,10 @@ private struct LevelCard: View {
     }
 
     private var spendLabel: String {
-        guard spend > 0 else { return "no grading cost yet" }
+        guard spend > 0 else { return "nothing spent yet" }
         return spend < 1
-            ? String(format: "%.1f¢ spent on grading", spend * 100)
-            : String(format: "$%.2f spent on grading", spend)
+            ? String(format: "%.1f¢ spent so far", spend * 100)
+            : String(format: "$%.2f spent so far", spend)
     }
 }
 
@@ -151,7 +204,7 @@ private struct Stat: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text(value)
-                .font(Theme.headword(30))
+                .font(Theme.headword(.title))
                 .foregroundStyle(Theme.accent)
             Text(label)
                 .font(Theme.label)
@@ -204,12 +257,12 @@ private struct AccuracyChart: View {
 }
 
 private struct UpcomingChart: View {
-    let cards: [CardRecord]
+    let cards: [String: StudyCard]
 
     private var byDay: [(day: Date, count: Int)] {
         let today = Calendar.current.startOfDay(for: .now)
-        let upcoming = cards.filter { $0.due >= today }
-        return Dictionary(grouping: upcoming) { Calendar.current.startOfDay(for: $0.due) }
+        let upcoming = cards.values.filter { $0.fsrs.due >= today }
+        return Dictionary(grouping: upcoming) { Calendar.current.startOfDay(for: $0.fsrs.due) }
             .map { (day: $0.key, count: $0.value.count) }
             .sorted { $0.day < $1.day }
             .prefix(14)

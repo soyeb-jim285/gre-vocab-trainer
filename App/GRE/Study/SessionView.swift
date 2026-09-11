@@ -3,16 +3,24 @@ import SwiftData
 import SwiftUI
 
 struct SessionView: View {
-    /// A fixed test instead of the open-ended queue.
-    var quiz: QuizSpec? = nil
-    /// Start drawing new words from this deck.
-    var deck: Deck? = nil
-
+    /// A fixed queue instead of the open-ended session.
+    var quiz: SessionShape? = nil
     @Environment(\.modelContext) private var context
+    @Environment(MasteryIndex.self) private var mastery
     @Environment(AppSettings.self) private var settings
     @Environment(\.catalog) private var catalog
 
     @State private var model: SessionViewModel?
+
+    /// The learner's typing lives here, not in the view model and not inside the
+    /// answer surface. A failed grading call used to replace the whole screen,
+    /// which unmounted whatever held the drafts; keeping them on the one view
+    /// that is never torn down means an answer survives a dropped connection.
+    @State private var typed = ""
+    @State private var definitionDraft = ""
+    @State private var sentenceDraft = ""
+    @AccessibilityFocusState private var feedbackFocused: Bool
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
         Group {
@@ -26,7 +34,7 @@ struct SessionView: View {
         .toolbar {
             if quiz == nil {
                 ToolbarItem(placement: .topBarLeading) {
-                    if let model, model.answeredCount > 0, isAnswerable(model) {
+                    if let model, model.cardsSeen > 0, isAnswerable(model) {
                         Button("Done") { model.stop() }.font(Theme.label)
                     }
                 }
@@ -35,8 +43,8 @@ struct SessionView: View {
         }
         .task {
             guard model == nil else { return }
-            if let deck { settings.currentDeckID = deck.id }
-            let created = SessionViewModel(context: context, catalog: catalog, settings: settings, quiz: quiz)
+            let created = SessionViewModel(context: context, catalog: catalog, settings: settings,
+                                          index: mastery, quiz: quiz)
             created.start()
             model = created
         }
@@ -46,11 +54,41 @@ struct SessionView: View {
         // A reset deleted the records this session was built from; rebuild
         // rather than grade cards that no longer exist.
         .onChange(of: settings.resetToken) { _, _ in model?.start() }
+        // The clock keeps running while the app is merely backgrounded on a
+        // device that is awake, which is someone answering the door, not
+        // hesitating.
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active { model?.resumeTimer() } else { model?.pauseTimer() }
+        }
+    }
+
+    private func clearDrafts() {
+        typed = ""
+        definitionDraft = ""
+        sentenceDraft = ""
+    }
+
+    /// What the learner has entered, in the shape the judge reads.
+    ///
+    /// Both written modes fill `definitionDraft`; only `defineAndUse` asks for a
+    /// sentence too, and the pretest is its own draft case because it is graded
+    /// against the word's grounding rather than one reference line.
+    private func draft(for item: SessionItem) -> AnswerDraft {
+        switch item.mode {
+        case .defineAndUse:
+            .written(definition: definitionDraft, sentence: sentenceDraft)
+        case .typeMeaning:
+            .meaning(definitionDraft)
+        default:
+            .typed(typed)
+        }
     }
 
     private func isAnswerable(_ model: SessionViewModel) -> Bool {
         switch model.phase {
-        case .answering, .reviewing: true
+        // Including the teaching card: someone who has answered a few and then
+        // meets a new word should still be able to stop.
+        case .answering, .reviewing, .introducing: true
         default: false
         }
     }
@@ -65,7 +103,7 @@ struct SessionView: View {
                 Divider()
                 // Writing is left out entirely without a key rather than shown
                 // selected while the planner quietly substitutes something else.
-                ForEach(StudyMode.allCases.filter { settings.hasAPIKey || !$0.needsAI }, id: \.self) { mode in
+                ForEach(StudyMode.forceable.filter { settings.hasAPIKey || !$0.needsAI }, id: \.self) { mode in
                     Label(mode.label, systemImage: mode.systemImage)
                         .tag(StudyMode?.some(mode))
                 }
@@ -92,98 +130,121 @@ struct SessionView: View {
         case let .caughtUp(nextDue):
             CaughtUpView(nextDue: nextDue, keepGoing: { model.keepGoing() })
 
-        case let .failed(message):
-            SessionErrorView(message: message) { model.retryAfterFailure() }
-
         case .grading:
             GradingView(word: model.current?.word.word ?? "")
 
+        case .introducing:
+            if case let .introduce(word, _)? = model.current {
+                VStack(spacing: 0) {
+                    ScrollView {
+                        IntroduceCard(word: word, accent: settings.accent,
+                                      voiceIdentifier: settings.voiceIdentifier)
+                            .padding(Theme.gutter)
+                    }
+                }
+                .safeAreaInset(edge: .bottom) {
+                    GlassEffectContainer(spacing: 16) {
+                        Button("Got it") { model.finishIntroduction() }
+                            .buttonStyle(.glassProminent)
+                            .font(.headline)
+                            .padding(.horizontal, Theme.gutter)
+                            .padding(.bottom, 12)
+                    }
+                }
+            }
+
         case .answering, .reviewing:
-            if let item = model.current {
+            if let item = model.current?.item {
                 VStack(spacing: 0) {
                     if let progress = model.progress {
                         SessionProgressBar(progress: progress)
                     }
                     ScrollView {
                         VStack(alignment: .leading, spacing: 28) {
-                            PromptCard(item: item, accent: settings.accent, voiceIdentifier: settings.voiceIdentifier)
+                            PromptCard(
+                                item: item, accent: settings.accent,
+                                voiceIdentifier: settings.voiceIdentifier,
+                                didPlayAudio: { model.noteAudioPlayed() }
+                            )
                             if case let .reviewing(feedback) = model.phase {
-                                FeedbackCard(feedback: feedback, item: item)
+                                FeedbackCard(feedback: feedback, item: item,
+                                             chosen: model.chosenOptionID)
+                                    .accessibilityFocused($feedbackFocused)
                             } else {
-                                answerArea(model, item)
+                                if let message = model.lastError {
+                                    ErrorBanner(message: message)
+                                }
+                                AnswerSurface(
+                                    item: item, options: model.options(for: item),
+                                    typed: $typed, definition: $definitionDraft,
+                                    sentence: $sentenceDraft
+                                ) { chosen in
+                                    Task { await model.submit(.choice(chosen)) }
+                                }
+                                if !model.hintsShown.isEmpty {
+                                    HintList(hints: model.hintsShown)
+                                }
+                                // Asked before the reveal, never after: once the
+                                // answer is on screen this stops being a report
+                                // and becomes a reaction to being told.
+                                ConfidenceRow(selected: model.selfReport) { model.note($0) }
                             }
                         }
                         .padding(Theme.gutter)
                     }
                 }
-                .safeAreaInset(edge: .bottom) { actionBar(model) }
+                .safeAreaInset(edge: .bottom) { actionBar(model, item) }
+                .onChange(of: model.phase) { _, phase in
+                    if case .reviewing = phase {
+                        // VoiceOver was on an option that no longer exists.
+                        feedbackFocused = true
+                    }
+                }
             }
-        }
-    }
-
-    @ViewBuilder
-    private func answerArea(_ model: SessionViewModel, _ item: SessionItem) -> some View {
-        @Bindable var model = model
-        switch item.mode {
-        case .multipleChoice:
-            MultipleChoiceAnswer(options: model.multipleChoiceOptions(for: item)) {
-                model.submitMultipleChoice($0)
-            }
-        case .contextCloze:
-            ClozeAnswer(
-                sentence: model.clozeSentence(for: item),
-                options: model.clozeOptions(for: item)
-            ) { model.submitCloze($0) }
-        case .senseInContext:
-            SenseAnswer(
-                word: item.word,
-                sentence: model.senseSentence(for: item),
-                options: model.senseOptions(for: item)
-            ) { model.submitSense($0) }
-        case .spelling:
-            SpellingAnswer(typed: $model.typedAnswer)
-        case .reverseRecall:
-            RecallAnswer(typed: $model.typedAnswer)
-        case .defineAndUse:
-            DefineAndUseAnswer(definition: $model.definitionDraft, sentence: $model.sentenceDraft)
         }
     }
 
     /// The one place Liquid Glass belongs: a floating control layer over content.
-    @ViewBuilder
-    private func actionBar(_ model: SessionViewModel) -> some View {
-        if let item = model.current {
-            GlassEffectContainer(spacing: 16) {
-                HStack(spacing: 16) {
-                    if isReviewing(model) {
-                        Button("Next") { model.advance() }
-                            .buttonStyle(.glassProminent)
-                    } else {
-                        // Available in every mode, including multiple choice --
-                        // guessing at random teaches nothing and pollutes the
-                        // schedule with answers that were never really known.
-                        Button("I don't know") { model.admitNotKnowing() }
+    private func actionBar(_ model: SessionViewModel, _ item: SessionItem) -> some View {
+        GlassEffectContainer(spacing: 16) {
+            HStack(spacing: 16) {
+                if isReviewing(model) {
+                    Button("Next") {
+                        clearDrafts()
+                        model.advance()
+                    }
+                    .buttonStyle(.glassProminent)
+                } else {
+                    // Available in every mode, including multiple choice --
+                    // guessing at random teaches nothing and pollutes the
+                    // schedule with answers that were never really known.
+                    // Stuck has two branches, and only one of them teaches. A
+                    // nudge first, the answer only when the nudges run out.
+                    if model.canHint {
+                        Button("Hint") { model.takeHint() }
                             .buttonStyle(.glass)
                             .foregroundStyle(Theme.secondaryText)
-
-                        if item.mode.isTapToAnswer == false {
-                            Button("Check") {
-                                switch item.mode {
-                                case .spelling: model.submitSpelling()
-                                case .reverseRecall: model.submitRecall()
-                                case .defineAndUse: Task { await model.submitDefineAndUse() }
-                                case .multipleChoice, .contextCloze, .senseInContext: break
-                                }
-                            }
-                            .buttonStyle(.glassProminent)
-                            .disabled(!canSubmit(model, item))
+                    } else {
+                        Button("I don't know") {
+                            Task { await model.admitNotKnowing() }
                         }
+                        .buttonStyle(.glass)
+                        .foregroundStyle(Theme.secondaryText)
+                    }
+
+                    if !item.mode.isTapToAnswer {
+                        let draft = draft(for: item)
+                        Button("Check") { Task { await model.submit(draft) } }
+                            .buttonStyle(.glassProminent)
+                            // The rule for what counts as an answer is stated
+                            // once, on the draft, for every mode at once.
+                            .disabled(!draft.isSubmittable)
                     }
                 }
-                .font(.headline)
-                .padding(.horizontal, Theme.gutter)
-                .padding(.bottom, 12)
             }
+            .font(.headline)
+            .padding(.horizontal, Theme.gutter)
+            .padding(.bottom, 12)
         }
     }
 
@@ -191,17 +252,87 @@ struct SessionView: View {
         if case .reviewing = model.phase { return true }
         return false
     }
+}
 
-    private func canSubmit(_ model: SessionViewModel, _ item: SessionItem) -> Bool {
-        switch item.mode {
-        case .defineAndUse:
-            !model.definitionDraft.trimmingCharacters(in: .whitespaces).isEmpty
-                && !model.sentenceDraft.trimmingCharacters(in: .whitespaces).isEmpty
-        case .multipleChoice, .contextCloze, .senseInContext:
-            true
-        default:
-            !model.typedAnswer.trimmingCharacters(in: .whitespaces).isEmpty
+/// How sure the learner is, asked before anything is revealed.
+///
+/// Three buttons rather than a slider: the distinction that matters is guess
+/// versus shaky versus sure, and a continuous control invites the learner to
+/// think about calibration instead of about the word.
+private struct ConfidenceRow: View {
+    let selected: SelfReport?
+    let choose: (SelfReport) -> Void
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("How sure are you?")
+                .font(.footnote)
+                .foregroundStyle(Theme.tertiaryText)
+            HStack(spacing: 8) {
+                ForEach(SelfReport.allCases, id: \.self) { report in
+                    Button(label(report)) { choose(report) }
+                        .buttonStyle(.glass)
+                        .font(Theme.label)
+                        .foregroundStyle(report == selected ? Theme.accent : Theme.secondaryText)
+                        .accessibilityAddTraits(report == selected ? [.isSelected] : [])
+                }
+            }
         }
+    }
+
+    private func label(_ report: SelfReport) -> String {
+        switch report {
+        case .guess: "Guessing"
+        case .unsure: "Not sure"
+        case .confident: "Confident"
+        }
+    }
+}
+
+/// The rungs of the ladder the learner has taken, kept on screen so a hint read
+/// three seconds ago is still there when they start typing.
+private struct HintList: View {
+    let hints: [String]
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            ForEach(Array(hints.enumerated()), id: \.offset) { _, hint in
+                HStack(alignment: .firstTextBaseline, spacing: 10) {
+                    Image(systemName: "lightbulb")
+                        .foregroundStyle(Theme.accent)
+                        .accessibilityHidden(true)
+                    Text(hint)
+                        .font(Theme.body)
+                        .foregroundStyle(Theme.primaryText)
+                }
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+}
+
+/// A failed call, above the answer rather than instead of it.
+private struct ErrorBanner: View {
+    let message: String
+
+    var body: some View {
+        HStack(alignment: .firstTextBaseline, spacing: 10) {
+            Image(systemName: "exclamationmark.triangle.fill")
+                .foregroundStyle(Theme.negative)
+                .accessibilityHidden(true)
+            VStack(alignment: .leading, spacing: 4) {
+                Text(message)
+                    .font(Theme.body)
+                    .foregroundStyle(Theme.primaryText)
+                // Nothing was scheduled, so the answer is still there to resubmit.
+                Text("Nothing was recorded. Your answer is still here.")
+                    .font(.footnote)
+                    .foregroundStyle(Theme.tertiaryText)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(16)
+        .background(Theme.negative.opacity(0.12), in: .rect(cornerRadius: 14))
     }
 }
 
@@ -223,51 +354,47 @@ private struct SessionProgressBar: View {
 }
 
 /// The card under study. Solid, not glass -- glass is for the layer above.
+///
+/// The question and what to show above it are both properties of the mode now.
+/// They used to be written here and again in the answer view, in slightly
+/// different words.
 private struct PromptCard: View {
     let item: SessionItem
     let accent: SpeechAccent
     let voiceIdentifier: String?
+    let didPlayAudio: () -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
-            Text(promptLabel)
+            Text(item.mode.question)
                 .font(Theme.label)
                 .foregroundStyle(Theme.tertiaryText)
                 .textCase(.uppercase)
 
-            switch item.mode {
-            case .spelling:
-                Button {
-                    Speaker.shared.say(item.word, accent: accent, voiceIdentifier: voiceIdentifier)
-                } label: {
+            switch item.mode.promptSubject {
+            case .audio:
+                Button(action: play) {
                     Label("Play the word", systemImage: "speaker.wave.3.fill")
-                        .font(Theme.headword(28))
+                        .font(Theme.headword(.title))
                         .foregroundStyle(Theme.accent)
                 }
                 .buttonStyle(.plain)
 
-            case .reverseRecall:
+            case .definition:
                 Text(item.word.teachingDefinition)
                     .font(Theme.definition)
                     .foregroundStyle(Theme.primaryText)
 
-            case .contextCloze:
-                // The blank is the question; showing the word would answer it.
-                Text("Which word fits?")
-                    .font(Theme.headword(26))
-                    .foregroundStyle(Theme.primaryText)
-
-            case .senseInContext, .multipleChoice, .defineAndUse:
+            case .word:
                 HStack(alignment: .firstTextBaseline, spacing: 12) {
                     Text(item.word.word)
                         .font(Theme.headword())
                         .foregroundStyle(Theme.primaryText)
-                    Button {
-                        Speaker.shared.say(item.word, accent: accent, voiceIdentifier: voiceIdentifier)
-                    } label: {
+                    Button(action: play) {
                         Image(systemName: "speaker.wave.2")
                             .foregroundStyle(Theme.secondaryText)
                     }
+                    .accessibilityLabel("Hear \(item.word.word) pronounced")
                     .buttonStyle(.plain)
                 }
                 if !item.word.ipa.isEmpty {
@@ -278,21 +405,18 @@ private struct PromptCard: View {
                 Text(item.word.primaryPartOfSpeech.rawValue)
                     .font(Theme.label)
                     .foregroundStyle(Theme.tertiaryText)
+
+            case .nothing:
+                EmptyView()
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .cardSurface()
     }
 
-    private var promptLabel: String {
-        switch item.mode {
-        case .multipleChoice: "Which definition fits?"
-        case .contextCloze: "Fill the gap"
-        case .senseInContext: "The same word, an unfamiliar meaning"
-        case .spelling: "Listen and spell"
-        case .reverseRecall: "Which word means this?"
-        case .defineAndUse: "Define it, then use it"
-        }
+    private func play() {
+        Speaker.shared.say(item.word, accent: accent, voiceIdentifier: voiceIdentifier)
+        didPlayAudio()
     }
 }
 
@@ -309,30 +433,6 @@ private struct GradingView: View {
     }
 }
 
-private struct SessionErrorView: View {
-    let message: String
-    let retry: () -> Void
-
-    var body: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "exclamationmark.triangle")
-                .font(.system(size: 34))
-                .foregroundStyle(Theme.negative)
-            Text(message)
-                .font(Theme.body)
-                .foregroundStyle(Theme.secondaryText)
-                .multilineTextAlignment(.center)
-            // Nothing was scheduled, so the answer is still there to resubmit.
-            Text("Your answer was kept and nothing was recorded.")
-                .font(.footnote)
-                .foregroundStyle(Theme.tertiaryText)
-            Button("Try again", action: retry)
-                .buttonStyle(.glassProminent)
-        }
-        .padding(Theme.gutter * 1.5)
-    }
-}
-
 private struct SessionCompleteView: View {
     let summary: SessionSummary
     let again: () -> Void
@@ -341,10 +441,11 @@ private struct SessionCompleteView: View {
     var body: some View {
         VStack(spacing: 18) {
             Image(systemName: summary.isQuiz ? "rosette" : "checkmark.seal")
-                .font(.system(size: 44))
+                .font(.largeTitle)
                 .foregroundStyle(Theme.accent)
+                .accessibilityHidden(true)
             Text(summary.isQuiz ? "\(summary.meanScore)%" : "Nice work")
-                .font(Theme.headword(summary.isQuiz ? 44 : 30))
+                .font(Theme.headword(summary.isQuiz ? .largeTitle : .title))
                 .foregroundStyle(summary.isQuiz ? Theme.tint(forScore: summary.meanScore) : Theme.primaryText)
             Text(summary.answered == 0
                  ? (summary.isQuiz ? "Study at least \(QuizPlanner.minimumWords) words first." : "Nothing answered yet.")
@@ -356,7 +457,7 @@ private struct SessionCompleteView: View {
                 .buttonStyle(.glassProminent)
                 .padding(.top, 8)
             if showTestEverything {
-                NavigationLink("Test everything I know") { SessionView(quiz: .everything).navigationTitle("Test") }
+                NavigationLink("Take today's challenge") { SessionView(quiz: .dailyChallenge).navigationTitle("Challenge") }
                     .buttonStyle(.glass)
             }
         }
@@ -371,10 +472,11 @@ private struct CaughtUpView: View {
     var body: some View {
         VStack(spacing: 18) {
             Image(systemName: "moon.stars")
-                .font(.system(size: 44))
+                .font(.largeTitle)
                 .foregroundStyle(Theme.accent)
+                .accessibilityHidden(true)
             Text("All caught up")
-                .font(Theme.headword(30))
+                .font(Theme.headword(.title))
                 .foregroundStyle(Theme.primaryText)
             Text(nextDue.map { "Next review \($0.formatted(.relative(presentation: .named)))." }
                  ?? "Every word in the list has been studied.")
@@ -385,7 +487,7 @@ private struct CaughtUpView: View {
             // someone who wants to keep going.
             Button("Keep going anyway", action: keepGoing)
                 .buttonStyle(.glassProminent)
-            NavigationLink("Test everything I know") { SessionView(quiz: .everything).navigationTitle("Test") }
+            NavigationLink("Take today's challenge") { SessionView(quiz: .dailyChallenge).navigationTitle("Challenge") }
                 .buttonStyle(.glass)
         }
         .padding(Theme.gutter * 1.5)

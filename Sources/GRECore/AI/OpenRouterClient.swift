@@ -101,19 +101,66 @@ public struct OpenRouterClient: Sendable {
         ).0
     }
 
-    public func deepDive(word: String, definition: String, model: String) async throws -> WordDeepDive {
+    /// Grades a typed meaning against the word's grounding.
+    ///
+    /// Separate from ``gradeWithCost(word:referenceDefinition:partOfSpeech:learnerDefinition:learnerSentence:model:)``
+    /// because it is a different question with a different contract: one answer
+    /// rather than two, judged against the dataset rather than a single
+    /// reference line, and returning the misconception it matched so the app can
+    /// say what went wrong instead of that something did.
+    public func gradeMeaningWithCost(
+        word: String, partOfSpeech: String, grounding: Grounding,
+        learnerAnswer: String, model: String
+    ) async throws -> (MeaningResult, CallCost?) {
         try await complete(
-            messages: Prompts.deepDive(word: word, definition: definition),
-            schemaName: "word_deep_dive", schema: Schemas.deepDive, model: model
+            messages: Prompts.meaning(
+                word: word, partOfSpeech: partOfSpeech,
+                grounding: grounding, learnerAnswer: learnerAnswer
+            ),
+            schemaName: "gre_meaning", schema: Schemas.meaning, model: model
+        )
+    }
+
+    public func gradeMeaning(
+        word: String, partOfSpeech: String, grounding: Grounding,
+        learnerAnswer: String, model: String
+    ) async throws -> MeaningResult {
+        try await gradeMeaningWithCost(
+            word: word, partOfSpeech: partOfSpeech, grounding: grounding,
+            learnerAnswer: learnerAnswer, model: model
         ).0
     }
 
-    public func weeklyCoach(
-        recentMisses: [String], recentWins: [String], model: String
-    ) async throws -> CoachSummary {
+    /// These two used to discard the cost the provider had already reported, so
+    /// the app charged the learner for deep dives and coaching without ever
+    /// counting them. A spending cap over a partial total is not a cap.
+    public func deepDiveWithCost(
+        word: String, definition: String, model: String
+    ) async throws -> (WordDeepDive, CallCost?) {
         try await complete(
-            messages: Prompts.coach(recentMisses: recentMisses, recentWins: recentWins),
+            messages: Prompts.deepDive(word: word, definition: definition),
+            schemaName: "word_deep_dive", schema: Schemas.deepDive, model: model
+        )
+    }
+
+    public func deepDive(word: String, definition: String, model: String) async throws -> WordDeepDive {
+        try await deepDiveWithCost(word: word, definition: definition, model: model).0
+    }
+
+    public func weeklyCoachWithCost(
+        recentMisses: [String], recentWins: [String], pace: String? = nil, model: String
+    ) async throws -> (CoachSummary, CallCost?) {
+        try await complete(
+            messages: Prompts.coach(recentMisses: recentMisses, recentWins: recentWins, pace: pace),
             schemaName: "weekly_coach", schema: Schemas.coach, model: model
+        )
+    }
+
+    public func weeklyCoach(
+        recentMisses: [String], recentWins: [String], pace: String? = nil, model: String
+    ) async throws -> CoachSummary {
+        try await weeklyCoachWithCost(
+            recentMisses: recentMisses, recentWins: recentWins, pace: pace, model: model
         ).0
     }
 

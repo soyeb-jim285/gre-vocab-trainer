@@ -30,6 +30,12 @@ jobs:
       - run: pip install -r tools/requirements.txt
       - name: Self-check the committed dataset
         run: python3 tools/build_dataset.py --verify-only
+      - name: Check the grounding hints never name their own word
+        run: python3 tools/grounding_verify.py
+      - name: Check the confusion lines name both words
+        run: python3 tools/confusion.py verify
+      - name: Check the exam questions
+        run: python3 tools/items.py verify
 
   app:
     name: iOS app (macOS)

@@ -9,7 +9,7 @@ struct DifficultyBadge: View {
 
     var body: some View {
         Text(label)
-            .font(.system(size: 9, weight: .semibold))
+            .font(Font.system(.caption2).weight(.semibold))
             .textCase(.uppercase)
             .padding(.horizontal, 6)
             .padding(.vertical, 2)
@@ -30,7 +30,7 @@ struct DifficultyBadge: View {
         switch difficulty {
         case .familiar: Theme.positive
         case .moderate: Theme.accent
-        case .hard: Color(red: 0.90, green: 0.68, blue: 0.35)
+        case .hard: Theme.caution
         case .rare: Theme.negative
         }
     }
@@ -63,7 +63,18 @@ struct WordDetailView: View {
         .navigationTitle(word.word)
         .navigationBarTitleDisplayMode(.inline)
         .task { dive = cached() }
-        .sheet(isPresented: $practising) { WritingPracticeView(word: word) }
+        .sheet(isPresented: $practising) {
+            NavigationStack {
+                SessionView(quiz: .practise(word: word, mode: .defineAndUse))
+                    .navigationTitle(word.word)
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbar {
+                        ToolbarItem(placement: .topBarLeading) {
+                            Button("Close") { practising = false }
+                        }
+                    }
+            }
+        }
     }
 
     /// Direct route to the mode the app is built around, without waiting for the
@@ -96,6 +107,7 @@ struct WordDetailView: View {
                     Image(systemName: "speaker.wave.2").foregroundStyle(Theme.accent)
                 }
                 .buttonStyle(.plain)
+                .accessibilityLabel("Hear \(word.word) pronounced")
             }
             if !word.ipa.isEmpty {
                 Text(word.ipa).font(Theme.mono).foregroundStyle(Theme.tertiaryText)
@@ -140,10 +152,7 @@ struct WordDetailView: View {
     }
 
     private func cached() -> WordDeepDive? {
-        let id = word.id
-        var descriptor = FetchDescriptor<DeepDiveRecord>(predicate: #Predicate { $0.wordID == id })
-        descriptor.fetchLimit = 1
-        guard let record = try? context.fetch(descriptor).first else { return nil }
+        guard let record = ReviewRecorder.deepDive(for: word.id, in: context) else { return nil }
         return WordDeepDive(
             etymology: record.etymology, mnemonic: record.mnemonic,
             nuance: record.nuance, confusableWith: record.confusableWith
@@ -157,10 +166,15 @@ struct WordDetailView: View {
         Task {
             defer { loading = false }
             do {
-                let result = try await settings.client().deepDive(
-                    word: word.word, definition: word.teachingDefinition,
-                    model: settings.deepDiveModel
-                )
+                let (result, _) = try await AILedger.spend(
+                    .deepDive, budget: settings.profile.budget,
+                    dayStart: settings.dayStart(), in: context
+                ) {
+                    try await settings.client().deepDiveWithCost(
+                        word: word.word, definition: word.teachingDefinition,
+                        model: settings.deepDiveModel
+                    )
+                }
                 // Cached so a word is only ever paid for once.
                 context.insert(DeepDiveRecord(wordID: word.id, dive: result, fetchedAt: .now))
                 try? context.save()

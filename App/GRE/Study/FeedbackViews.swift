@@ -1,221 +1,17 @@
 import GRECore
 import SwiftUI
 
-struct MultipleChoiceAnswer: View {
-    let options: [String]
-    let choose: (String) -> Void
-
-    var body: some View {
-        VStack(spacing: 12) {
-            ForEach(options, id: \.self) { option in
-                Button { choose(option) } label: {
-                    Text(option)
-                        .font(Theme.definition)
-                        .foregroundStyle(Theme.primaryText)
-                        .multilineTextAlignment(.leading)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(18)
-                        .background(Theme.raised, in: .rect(cornerRadius: 16))
-                        .overlay(RoundedRectangle(cornerRadius: 16).stroke(Theme.hairline, lineWidth: 1))
-                }
-                .buttonStyle(.plain)
-            }
-        }
-    }
-}
-
-struct SpellingAnswer: View {
-    @Binding var typed: String
-
-    var body: some View {
-        AnswerField(
-            title: "Spelling",
-            prompt: "Type what you heard",
-            text: $typed,
-            autocorrect: false
-        )
-    }
-}
-
-struct RecallAnswer: View {
-    @Binding var typed: String
-
-    var body: some View {
-        AnswerField(title: "The word", prompt: "Type the word", text: $typed, autocorrect: false)
-    }
-}
-
-struct DefineAndUseAnswer: View {
-    @Binding var definition: String
-    @Binding var sentence: String
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 22) {
-            AnswerEditor(
-                title: "Your definition",
-                prompt: "What does it mean? Your own words are fine.",
-                text: $definition
-            )
-            AnswerEditor(
-                title: "Your sentence",
-                prompt: "Use it in a sentence that shows you mean it.",
-                text: $sentence
-            )
-        }
-    }
-}
-
-// MARK: - Inputs
-
-private struct AnswerField: View {
-    let title: String
-    let prompt: String
-    @Binding var text: String
-    var autocorrect = true
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Text(title)
-                .font(Theme.label)
-                .foregroundStyle(Theme.tertiaryText)
-                .textCase(.uppercase)
-            TextField(prompt, text: $text)
-                .font(Theme.headword(26))
-                .foregroundStyle(Theme.primaryText)
-                .textInputAutocapitalization(.never)
-                .autocorrectionDisabled(!autocorrect)
-                .padding(.vertical, 12)
-            Rectangle()
-                .fill(Theme.accent.opacity(0.6))
-                .frame(height: 1)
-        }
-    }
-}
-
-private struct AnswerEditor: View {
-    let title: String
-    let prompt: String
-    @Binding var text: String
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Text(title)
-                .font(Theme.label)
-                .foregroundStyle(Theme.tertiaryText)
-                .textCase(.uppercase)
-            ZStack(alignment: .topLeading) {
-                if text.isEmpty {
-                    Text(prompt)
-                        .font(Theme.body)
-                        .foregroundStyle(Theme.tertiaryText)
-                        .padding(.top, 10)
-                        .padding(.leading, 5)
-                        .allowsHitTesting(false)
-                }
-                TextEditor(text: $text)
-                    .font(Theme.body)
-                    .foregroundStyle(Theme.primaryText)
-                    .scrollContentBackground(.hidden)
-                    .frame(minHeight: 96)
-            }
-            .padding(10)
-            .background(Theme.raised, in: .rect(cornerRadius: 14))
-            .overlay(RoundedRectangle(cornerRadius: 14).stroke(Theme.hairline, lineWidth: 1))
-        }
-    }
-}
-
-// MARK: - Feedback
-
-/// A sentence with a gap, and four words that might fill it.
-///
-/// The sentence carries the weight here: the learner meets the word doing its
-/// job rather than sitting beside a definition.
-struct ClozeAnswer: View {
-    let sentence: String
-    let options: [Word]
-    let choose: (Word) -> Void
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 18) {
-            Text(sentence)
-                .font(Theme.definition)
-                .foregroundStyle(Theme.primaryText)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .cardSurface()
-
-            VStack(spacing: 10) {
-                ForEach(options) { option in
-                    Button {
-                        choose(option)
-                    } label: {
-                        Text(option.word)
-                            .font(Theme.headword(19))
-                            .foregroundStyle(Theme.primaryText)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.vertical, 14)
-                            .padding(.horizontal, 16)
-                    }
-                    .buttonStyle(.plain)
-                    .background(Theme.raised, in: RoundedRectangle(cornerRadius: 14))
-                }
-            }
-        }
-    }
-}
-
-/// A common word used in its uncommon tested sense, and the meanings it gets
-/// confused with. The wrong answers are the everyday senses on purpose.
-struct SenseAnswer: View {
-    let word: Word
-    let sentence: String
-    let options: [String]
-    let choose: (String) -> Void
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 18) {
-            VStack(alignment: .leading, spacing: 10) {
-                Text("Which meaning is used here?")
-                    .font(Theme.label)
-                    .foregroundStyle(Theme.tertiaryText)
-                    .textCase(.uppercase)
-                Text(sentence)
-                    .font(Theme.definition)
-                    .foregroundStyle(Theme.primaryText)
-            }
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .cardSurface()
-
-            VStack(spacing: 10) {
-                ForEach(options, id: \.self) { option in
-                    Button {
-                        choose(option)
-                    } label: {
-                        Text(option)
-                            .font(Theme.body)
-                            .foregroundStyle(Theme.primaryText)
-                            .multilineTextAlignment(.leading)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.vertical, 14)
-                            .padding(.horizontal, 16)
-                    }
-                    .buttonStyle(.plain)
-                    .background(Theme.raised, in: RoundedRectangle(cornerRadius: 14))
-                }
-            }
-        }
-    }
-}
-
 struct FeedbackCard: View {
     let feedback: AnswerFeedback
     let item: SessionItem
+    /// What the learner picked, when they picked something.
+    var chosen: String?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 18) {
             HStack(alignment: .firstTextBaseline) {
                 Text(feedback.headline)
-                    .font(Theme.headword(26))
+                    .font(Theme.headword(.title))
                     .foregroundStyle(Theme.tint(forScore: feedback.score))
                 Spacer()
                 Text("\(feedback.score)")
@@ -229,27 +25,34 @@ struct FeedbackCard: View {
                     .foregroundStyle(Theme.primaryText)
             }
 
-            if let sentenceFeedback = feedback.sentenceFeedback, !sentenceFeedback.isEmpty {
+            // Seeing the wrong answer named is how the learner works out what
+            // they confused it with. The app tracked this and never showed it.
+            if let wrong = wrongChoice {
+                LabelledBlock(title: "You chose", text: wrong)
+                    .foregroundStyle(Theme.negative)
+            }
+
+            if let sentenceFeedback = feedback.extras.sentenceFeedback, !sentenceFeedback.isEmpty {
                 Divider().overlay(Theme.hairline)
                 LabelledBlock(title: "Your sentence", text: sentenceFeedback)
             }
 
-            if let corrected = feedback.correctedSentence, !corrected.isEmpty {
+            if let corrected = feedback.extras.correctedSentence, !corrected.isEmpty {
                 LabelledBlock(title: "Tightened up", text: corrected, italic: true)
             }
 
-            if let memorable = feedback.memorableSentence, !memorable.isEmpty {
+            if let memorable = feedback.extras.memorableSentence, !memorable.isEmpty {
                 LabelledBlock(title: "Worth remembering", text: memorable, italic: true)
             }
 
-            if !feedback.missedNuances.isEmpty {
+            if !feedback.extras.missedNuances.isEmpty {
                 Divider().overlay(Theme.hairline)
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Worth noticing")
                         .font(Theme.label)
                         .foregroundStyle(Theme.tertiaryText)
                         .textCase(.uppercase)
-                    ForEach(feedback.missedNuances, id: \.self) { nuance in
+                    ForEach(feedback.extras.missedNuances, id: \.self) { nuance in
                         Label(nuance, systemImage: "circle.fill")
                             .font(Theme.body)
                             .foregroundStyle(Theme.secondaryText)
@@ -280,6 +83,16 @@ struct FeedbackCard: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .cardSurface()
+    }
+
+    /// Nil when they were right, or when the mode had nothing to pick.
+    private var wrongChoice: String? {
+        guard let chosen, chosen != AnswerJudge.correctChoice(for: item),
+              item.mode.isTapToAnswer
+        else { return nil }
+        // Cloze options are identified by the word itself; the other two by the
+        // definition text. Either way the identity is what to show.
+        return chosen
     }
 }
 
@@ -440,10 +253,23 @@ private struct NextReviewNote: View {
 private struct BulletLabelStyle: LabelStyle {
     func makeBody(configuration: Configuration) -> some View {
         HStack(alignment: .firstTextBaseline, spacing: 10) {
-            configuration.icon
-                .font(.system(size: 5))
-                .foregroundStyle(Theme.accent)
+            BulletDot(icon: configuration.icon)
             configuration.title
         }
+    }
+}
+
+/// A view of its own rather than a `@ScaledMetric` on the style: the scaling
+/// wrappers only track the environment inside a View or ViewModifier. A dot
+/// pinned at 5pt beside body text scaled to 50pt reads as a rendering fault.
+private struct BulletDot<Icon: View>: View {
+    let icon: Icon
+    @ScaledMetric(relativeTo: .body) private var size: CGFloat = 5
+
+    var body: some View {
+        icon
+            .font(.system(size: size))
+            .foregroundStyle(Theme.accent)
+            .accessibilityHidden(true)
     }
 }
