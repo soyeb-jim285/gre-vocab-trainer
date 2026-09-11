@@ -1,4 +1,433 @@
 {
+  "se-apocryphal-1": {
+    "answers": [
+      "apocryphal",
+      "spurious"
+    ],
+    "explanation": "A story with no trace in any record from the time is widely told and probably untrue, which apocryphal and spurious both say; the others describe its age or style instead.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "apocryphal",
+      "spurious",
+      "venerable",
+      "prosaic",
+      "hackneyed",
+      "esoteric"
+    ],
+    "stem": "The story of the founder sleeping in the workshop for a year is _____: it appears in no letter, ledger or photograph from the period."
+  },
+  "se-apostate-1": {
+    "answers": [
+      "apostate",
+      "renegade"
+    ],
+    "explanation": "Going from chief defender to a name struck off the masthead is abandoning the cause, which apostate and renegade both say; the other four are words for staying loyal.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "apostate",
+      "renegade",
+      "acolyte",
+      "adherent",
+      "apologist",
+      "proponent"
+    ],
+    "stem": "Once the doctrine's most quoted defender, he became after the pamphlet the movement's most cited _____, his name struck from the journal's masthead."
+  },
+  "se-chary-1": {
+    "answers": [
+      "chary",
+      "wary"
+    ],
+    "explanation": "Having been cheated twice produces caution, not trust or haste, and chary and wary both leave the buyer equally guarded about paying in advance.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "chary",
+      "wary",
+      "profligate",
+      "impetuous",
+      "credulous",
+      "sanguine"
+    ],
+    "stem": "Burned twice by suppliers who vanished after the deposit cleared, the buyer grew _____ of any firm that asked for money before delivery."
+  },
+  "se-desultory-1": {
+    "answers": [
+      "desultory",
+      "haphazard"
+    ],
+    "explanation": "A box here, a box there and corners untouched is a search with no method, which desultory and haphazard both name and the other four contradict.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "desultory",
+      "haphazard",
+      "meticulous",
+      "exhaustive",
+      "punctilious",
+      "assiduous"
+    ],
+    "stem": "Their search of the attic was _____: one box opened here, another there, and whole corners never looked into at all."
+  },
+  "se-grandiloquent-1": {
+    "answers": [
+      "grandiloquent",
+      "bombastic"
+    ],
+    "explanation": "Laughter at the solemn part follows from language inflated past what the occasion carries, and grandiloquent and bombastic both leave the speech pompous.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "grandiloquent",
+      "bombastic",
+      "laconic",
+      "terse",
+      "diffident",
+      "perfunctory"
+    ],
+    "stem": "His acceptance speech was so _____ that the audience laughed aloud at a passage he had clearly intended as its solemn heart."
+  },
+  "se-lethargic-1": {
+    "answers": [
+      "lethargic",
+      "torpid"
+    ],
+    "explanation": "Abandoning the quota and sending workers home follows from a shift with no energy left in it, and lethargic and torpid both leave the afternoon equally sluggish.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "lethargic",
+      "torpid",
+      "ebullient",
+      "truculent",
+      "fastidious",
+      "garrulous"
+    ],
+    "stem": "The heat left the whole afternoon shift _____; by two o'clock the supervisor had given up on the quota and sent half the floor home."
+  },
+  "se-opprobrium-1": {
+    "answers": [
+      "opprobrium",
+      "obloquy"
+    ],
+    "explanation": "What follows a verdict and ruins a quiet retirement is public disgrace, and opprobrium and obloquy both leave him condemned; acclaim and deference would be the reverse.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "opprobrium",
+      "obloquy",
+      "acclaim",
+      "accolade",
+      "deference",
+      "largess"
+    ],
+    "stem": "The verdict brought him not the quiet retirement he had planned for but years of public _____, in the papers and on every doorstep he passed."
+  },
+  "se-pellucid-1": {
+    "answers": [
+      "pellucid",
+      "limpid"
+    ],
+    "explanation": "An untrained reader following every step is the test the sentence sets, and pellucid and limpid both make the writing perfectly clear; the others make it harder to read.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "pellucid",
+      "limpid",
+      "turgid",
+      "abstruse",
+      "recondite",
+      "prolix"
+    ],
+    "stem": "After three rewrites the explanation had become _____, and a reader with no training in the field could follow every step of the argument."
+  },
+  "se-pervasive-1": {
+    "answers": [
+      "pervasive",
+      "ubiquitous"
+    ],
+    "explanation": "The same mark in every flat on every floor rules out the occasional or the trivial, and pervasive and ubiquitous both spread the damp through the whole block.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "pervasive",
+      "ubiquitous",
+      "sporadic",
+      "negligible",
+      "anomalous",
+      "transient"
+    ],
+    "stem": "Damp in that block is _____: every flat on every floor shows the same brown line a hand's width above the skirting board."
+  },
+  "se-quotidian-1": {
+    "answers": [
+      "quotidian",
+      "humdrum"
+    ],
+    "explanation": "Weighing, labelling and copying the same column is routine set against the thrill she expected, and quotidian and humdrum both leave the work ordinary.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "quotidian",
+      "humdrum",
+      "arcane",
+      "halcyon",
+      "esoteric",
+      "rarefied"
+    ],
+    "stem": "She had expected the laboratory to be thrilling and found the work _____: weighing samples, labelling tubes, copying the same numbers into the same column."
+  },
+  "se-refractory-1": {
+    "answers": [
+      "refractory",
+      "recalcitrant"
+    ],
+    "explanation": "Three courses of treatment changing nothing is resistance to control, which refractory and recalcitrant both name; virulent would describe severity and dormant the opposite of active.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "refractory",
+      "recalcitrant",
+      "virulent",
+      "endemic",
+      "transient",
+      "dormant"
+    ],
+    "stem": "The infection proved _____: three full courses of the standard antibiotic left the counts exactly where they had been at the start."
+  },
+  "se-tyro-1": {
+    "answers": [
+      "tyro",
+      "neophyte"
+    ],
+    "explanation": "Losing four straight hands to players who saw through him immediately marks a beginner, and tyro and neophyte both leave him new to the game.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "tyro",
+      "neophyte",
+      "virtuoso",
+      "savant",
+      "connoisseur",
+      "raconteur"
+    ],
+    "stem": "For all his confidence at the table, he was a _____ at the game and lost the first four hands to players who had read him at once."
+  },
+  "tc-abeyance-1": {
+    "answers": [
+      "abeyance"
+    ],
+    "explanation": "Not repealed, suspended for now, and restorable by one vote is exactly temporary suspension, which abeyance names; dissolution would end the rule for good.",
+    "kind": "textCompletion",
+    "options": [
+      "abeyance",
+      "dissolution",
+      "resolution",
+      "decree",
+      "flux"
+    ],
+    "stem": "The rule has not been repealed but held in _____ while the review runs, and a single vote of the committee can bring it back."
+  },
+  "tc-abscond-1": {
+    "answers": [
+      "abscond"
+    ],
+    "explanation": "Leaving with the money to avoid an audit and turning up abroad is fleeing in secret, which abscond means; capitulate and acquiesce would mean facing it.",
+    "kind": "textCompletion",
+    "options": [
+      "abscond",
+      "capitulate",
+      "acquiesce",
+      "remonstrate",
+      "abstain"
+    ],
+    "stem": "The treasurer chose to _____ with the quarter's takings rather than face the audit, and was traced six months later to another country."
+  },
+  "tc-anodyne-1": {
+    "answers": [
+      "anodyne"
+    ],
+    "explanation": "Wording no faction can object to is chosen to give no offence, which is anodyne; polemical and contentious would invite the argument it avoids.",
+    "kind": "textCompletion",
+    "options": [
+      "anodyne",
+      "polemical",
+      "contentious",
+      "tendentious",
+      "truculent"
+    ],
+    "stem": "The statement was deliberately _____: three paragraphs that no faction could object to and that committed the company to nothing whatever."
+  },
+  "tc-approbation-1": {
+    "answers": [
+      "approbation"
+    ],
+    "explanation": "Three committees passing it unamended and a friendly notice in the paper is broad approval, which approbation names; censure and derision would be the opposite.",
+    "kind": "textCompletion",
+    "options": [
+      "approbation",
+      "censure",
+      "derision",
+      "consternation",
+      "indifference"
+    ],
+    "stem": "The design met with general _____: three committees passed it without amendment and even the local paper called it long overdue."
+  },
+  "tc-arrogate-1": {
+    "answers": [
+      "arrogate"
+    ],
+    "explanation": "Taking a power the charter never granted is claiming it without right, which arrogate means; relinquish, cede and forfeit all give power away instead.",
+    "kind": "textCompletion",
+    "options": [
+      "arrogate",
+      "delegate",
+      "relinquish",
+      "cede",
+      "forfeit"
+    ],
+    "stem": "No clause in the charter allowed the chairman to _____ the power of appointing trustees, yet he had quietly been doing so for a decade."
+  },
+  "tc-aver-1": {
+    "answers": [
+      "aver"
+    ],
+    "explanation": "Sticking to the same claim after the footage is played is stating it confidently as fact, which aver means; recant and retract would abandon it.",
+    "kind": "textCompletion",
+    "options": [
+      "aver",
+      "recant",
+      "concede",
+      "equivocate",
+      "retract"
+    ],
+    "stem": "The defendant continued to _____ that he had never entered the building, even after the footage was played twice in open court."
+  },
+  "tc-benign-1": {
+    "answers": [
+      "benign"
+    ],
+    "explanation": "Needing nothing beyond a check-up in a year means the growth does no harm, which is benign; the other four all make it dangerous in one way or another.",
+    "kind": "textCompletion",
+    "options": [
+      "benign",
+      "virulent",
+      "pernicious",
+      "insidious",
+      "noxious"
+    ],
+    "stem": "The growth turned out to be _____, and the surgeon told her she would need nothing beyond a routine check-up in a year's time."
+  },
+  "tc-brook-1": {
+    "answers": [
+      "brook"
+    ],
+    "explanation": "Stopping the orchestra at the first whisper shows she allows no talking at all, and brook is the verb for tolerating that the sentence negates.",
+    "kind": "textCompletion",
+    "options": [
+      "brook",
+      "rue",
+      "feign",
+      "flout",
+      "shirk"
+    ],
+    "stem": "A conductor of the old school, she would _____ no talking during rehearsal and stopped the orchestra at the first whisper from the back desks."
+  },
+  "tc-candid-1": {
+    "answers": [
+      "candid"
+    ],
+    "explanation": "Naming sums and dates unprompted, set against the hedging of the others, is straightforward honesty, which candid supplies and evasive and reticent deny.",
+    "kind": "textCompletion",
+    "options": [
+      "candid",
+      "evasive",
+      "circumspect",
+      "reticent",
+      "diffident"
+    ],
+    "stem": "Most of the witnesses hedged, but one was unexpectedly _____, naming the sums and the dates without once being pressed to do so."
+  },
+  "tc-catalyst-1": {
+    "answers": [
+      "catalyst"
+    ],
+    "explanation": "The wage cut comes before the walkout and sets it off, so the blank needs the thing that triggers change; catalyst says that, while corollary and upshot are results.",
+    "kind": "textCompletion",
+    "options": [
+      "catalyst",
+      "corollary",
+      "upshot",
+      "vestige",
+      "precedent"
+    ],
+    "stem": "The strike had been building for years; the wage cut announced in March was merely the _____ that turned a standing grievance into a walkout."
+  },
+  "tc-cupidity-1": {
+    "answers": [
+      "cupidity"
+    ],
+    "explanation": "Mortgaging the second estate to buy a third while needing nothing is greed for wealth, which cupidity names and frugality and temperance contradict.",
+    "kind": "textCompletion",
+    "options": [
+      "cupidity",
+      "probity",
+      "frugality",
+      "temperance",
+      "largess"
+    ],
+    "stem": "What the letters record is not need but _____: he already held two estates and was mortgaging the second in order to buy a third."
+  },
+  "tc-dilatory-1": {
+    "answers": [
+      "dilatory"
+    ],
+    "explanation": "A fortnight to answer each question, adding weeks to the job, is delay rather than tone or length, which is what dilatory describes.",
+    "kind": "textCompletion",
+    "options": [
+      "dilatory",
+      "terse",
+      "acerbic",
+      "meticulous",
+      "garrulous"
+    ],
+    "stem": "The contractor's _____ replies added six weeks to a job of four: every question sent to him took a fortnight to come back answered."
+  },
+  "tc-eccentric-1": {
+    "answers": [
+      "eccentric"
+    ],
+    "explanation": "The sentence rules out difficult and offers odd habits instead, so the blank is unconventional without being unpleasant, which is eccentric.",
+    "kind": "textCompletion",
+    "options": [
+      "eccentric",
+      "truculent",
+      "obsequious",
+      "pedantic",
+      "indolent"
+    ],
+    "stem": "Colleagues found him _____ rather than difficult: he kept a barometer on his desk and would answer only questions put to him in writing."
+  },
+  "tc-empirical-1": {
+    "answers": [
+      "empirical"
+    ],
+    "explanation": "Measurements taken in the field and repeatable by anyone is evidence from observation rather than theory, which is what empirical names.",
+    "kind": "textCompletion",
+    "options": [
+      "empirical",
+      "tendentious",
+      "polemical",
+      "abstruse",
+      "equivocal"
+    ],
+    "stem": "The committee wanted _____ support for the claim rather than another model: measurements from the field, taken under conditions anyone could repeat."
+  },
+  "tc-fecund-1": {
+    "answers": [
+      "fecund"
+    ],
+    "explanation": "Two or three crops a year from the same ground is exceptional fertility, which fecund names; dormant would mean nothing grows at all.",
+    "kind": "textCompletion",
+    "options": [
+      "fecund",
+      "torrid",
+      "dormant",
+      "negligible",
+      "transient"
+    ],
+    "stem": "The delta soil is so _____ that two crops in a year are ordinary there and a third is not thought remarkable."
+  },
   "tc-garrulous-1": {
     "answers": [
       "garrulous"
@@ -13,6 +442,21 @@
       "serene"
     ],
     "stem": "Nobody stood beside the _____ shopkeeper twice: an errand for a newspaper cost you forty minutes of his neighbours' business."
+  },
+  "tc-hoary-1": {
+    "answers": [
+      "hoary"
+    ],
+    "explanation": "An audience that can mouth the punchline has heard the joke many times before, so it is old and stale, which hoary says.",
+    "kind": "textCompletion",
+    "options": [
+      "hoary",
+      "arcane",
+      "esoteric",
+      "incisive",
+      "mordant"
+    ],
+    "stem": "He opened with the _____ joke about economists and forecasts, and half the audience mouthed the punchline along with him."
   },
   "tc-imperturbable-1": {
     "answers": [
@@ -74,6 +518,51 @@
     ],
     "stem": "Nothing in the afternoon heat moved quickly: the waiters crossed the terrace so _____ that the dogs watching them did not bother to get up at all."
   },
+  "tc-lugubrious-1": {
+    "answers": [
+      "lugubrious"
+    ],
+    "explanation": "Turning a drinking song into a funeral march is making it mournful, which lugubrious names; ebullient and sanguine would keep it cheerful.",
+    "kind": "textCompletion",
+    "options": [
+      "lugubrious",
+      "ebullient",
+      "frenetic",
+      "bombastic",
+      "sanguine"
+    ],
+    "stem": "The band's _____ arrangement turned a cheerful drinking song into something much closer to a funeral march."
+  },
+  "tc-malevolent-1": {
+    "answers": [
+      "malevolent"
+    ],
+    "explanation": "The sentence contrasts the blank with haste and bad records by ruling out a wish to hurt anyone, so the missing motive is the malevolent one.",
+    "kind": "textCompletion",
+    "options": [
+      "malevolent",
+      "venal",
+      "capricious",
+      "mercenary",
+      "officious"
+    ],
+    "stem": "Nothing in the file suggests the motive was _____; the damage came from haste and poor record-keeping rather than from any wish to hurt the family."
+  },
+  "tc-mendicant-1": {
+    "answers": [
+      "mendicant"
+    ],
+    "explanation": "Owning nothing and living on what villages give is begging under a religious vow, which is what a mendicant is; a magnate or potentate would own a great deal.",
+    "kind": "textCompletion",
+    "options": [
+      "mendicant",
+      "magnate",
+      "potentate",
+      "luminary",
+      "arbiter"
+    ],
+    "stem": "Sworn to own nothing at all, each brother took to the road as the order's _____, living on whatever the villages along it would give him."
+  },
   "tc-mercurial-1": {
     "answers": [
       "mercurial"
@@ -104,6 +593,21 @@
     ],
     "stem": "For all the talk of espionage, most of the work was _____: filing expense claims, booking flights, and waiting for a telephone that rarely rang."
   },
+  "tc-nuance-1": {
+    "answers": [
+      "nuance"
+    ],
+    "explanation": "Three kinds of obligation flattened into one word is a loss of fine distinctions, which is what nuance means; a platitude or tautology would be no loss at all.",
+    "kind": "textCompletion",
+    "options": [
+      "nuance",
+      "platitude",
+      "tautology",
+      "hyperbole",
+      "aphorism"
+    ],
+    "stem": "Translated word for word, the speech loses every _____: the original distinguishes three kinds of obligation where the English has only duty."
+  },
   "tc-obviate-1": {
     "answers": [
       "obviate"
@@ -118,6 +622,36 @@
       "mimic"
     ],
     "stem": "One well-placed sensor would _____ the nightly inspection that currently costs four hours and two members of staff."
+  },
+  "tc-partisan-1": {
+    "answers": [
+      "partisan"
+    ],
+    "explanation": "Reading as a brief for one side is exactly the failure of neutrality the sentence sets up, which partisan names and dispassionate denies.",
+    "kind": "textCompletion",
+    "options": [
+      "partisan",
+      "dispassionate",
+      "equivocal",
+      "perfunctory",
+      "prosaic"
+    ],
+    "stem": "The inquiry was meant to be neutral, yet its final chapter is so _____ that it reads as a brief for one side rather than a finding of fact."
+  },
+  "tc-perennial-1": {
+    "answers": [
+      "perennial"
+    ],
+    "explanation": "A complaint recorded in 1890 and in every year since is one that keeps recurring, which perennial says; transient and ephemeral would make it brief.",
+    "kind": "textCompletion",
+    "options": [
+      "perennial",
+      "transient",
+      "anomalous",
+      "incipient",
+      "ephemeral"
+    ],
+    "stem": "Flooding on that road is the _____ complaint of the parish: it appears in the minutes of 1890 and in every set of minutes taken since."
   },
   "tc-precipitate-1": {
     "answers": [
@@ -163,6 +697,36 @@
       "calumny"
     ],
     "stem": "Thirty years on the bench had earned him a reputation for _____ that survived even the accusations made by his last opponent."
+  },
+  "tc-proliferate-1": {
+    "answers": [
+      "proliferate"
+    ],
+    "explanation": "Three brands becoming forty in two years is a rapid increase in number, which proliferate names; abate, wane and ebb all move the other way.",
+    "kind": "textCompletion",
+    "options": [
+      "proliferate",
+      "abate",
+      "wane",
+      "languish",
+      "ebb"
+    ],
+    "stem": "Once the patent lapsed, cheap copies began to _____, and within two years the shelves carried forty brands where there had been three."
+  },
+  "tc-reprobate-1": {
+    "answers": [
+      "reprobate"
+    ],
+    "explanation": "Unpaid debts, broken promises and abandoned engagements describe a man without principles, which reprobate names and paragon reverses.",
+    "kind": "textCompletion",
+    "options": [
+      "reprobate",
+      "paragon",
+      "ingenue",
+      "savant",
+      "philanthropist"
+    ],
+    "stem": "His brother is spoken of in the family as the _____ of his generation: debts unpaid, promises broken, and two engagements abandoned without explanation."
   },
   "tc-sanction-1": {
     "answers": [

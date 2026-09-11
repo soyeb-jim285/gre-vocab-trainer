@@ -1,0 +1,62 @@
+{
+  "tc-rhetoric-1": {
+    "answers": [
+      "rhetoric"
+    ],
+    "explanation": "Grand talk of destiny and sacrifice that adds nothing to a budget request is persuasive language covering little, which rhetoric names.",
+    "kind": "textCompletion",
+    "options": [
+      "rhetoric",
+      "candor",
+      "brevity",
+      "probity",
+      "precision"
+    ],
+    "stem": "Stripped of the _____ about destiny and sacrifice, the proposal amounts to a request for a larger budget and two more staff."
+  },
+  "tc-salubrious-1": {
+    "answers": [
+      "salubrious"
+    ],
+    "explanation": "Air prescribed by doctors against city smoke is air that restores health, which salubrious means; fetid and noxious would make the patients worse.",
+    "kind": "textCompletion",
+    "options": [
+      "salubrious",
+      "fetid",
+      "noxious",
+      "rarefied",
+      "torrid"
+    ],
+    "stem": "Doctors sent their patients to the coast for its _____ air, on the theory that sea wind did what the smoke of the city could not."
+  },
+  "tc-sybarite-1": {
+    "answers": [
+      "sybarite"
+    ],
+    "explanation": "Silk sheets, a cook for one dish and wine bought past his means is a life given over to luxury, which is what a sybarite pursues; a miser would spend nothing.",
+    "kind": "textCompletion",
+    "options": [
+      "sybarite",
+      "miser",
+      "recluse",
+      "philistine",
+      "pedagogue"
+    ],
+    "stem": "He lived as a _____: silk sheets, a cook kept on for one dish alone, and a standing order with the wine merchant that outlasted his income."
+  },
+  "tc-turpitude-1": {
+    "answers": [
+      "turpitude"
+    ],
+    "explanation": "A ground for dismissal that an auditor's report brings into play is serious wickedness, which turpitude names; equanimity and forbearance would be no grounds at all.",
+    "kind": "textCompletion",
+    "options": [
+      "turpitude",
+      "equanimity",
+      "forbearance",
+      "ambivalence",
+      "diffidence"
+    ],
+    "stem": "The clause permits dismissal for moral _____, a phrase the trustees had never once had to define until the auditor's report landed."
+  }
+}

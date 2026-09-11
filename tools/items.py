@@ -17,7 +17,10 @@ Writing rules, learned the hard way:
   * Every option shares the answer's part of speech, or the wrong ones are
     eliminated on grammar without reading the sentence.
   * The stem must contain the clue that settles the answer, and must not use
-    the answer word or a form of it.
+    any option or a form of it -- the answer because it would give itself away,
+    a distractor because naming it eliminates it.
+  * No "a _____" or "an _____" in front of a mixed option list. The article
+    settles which options can fit before the sentence is read.
   * The explanation says what in the sentence settles it, and names the answer.
 
     python3 tools/items.py targets [N]     words worth writing a question for
