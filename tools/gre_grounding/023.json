@@ -878,5 +878,1325 @@
     "required_nuance": "covering a wide span",
     "mental_hook": "Reaches a long way across.",
     "semantic_hint": "The word for a discussion that covers a dozen subjects in an hour."
+  },
+  "rankle": {
+    "accepted_concepts": [
+      "cause lasting resentment",
+      "continue to irritate long afterwards",
+      "fester in the memory",
+      "gall over time",
+      "keep stinging"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to soothe",
+        "misconception": "inverts lasting irritation into comfort"
+      },
+      {
+        "answer": "the members of a body",
+        "misconception": "confuses the verb with the near-twin noun about a membership"
+      }
+    ],
+    "required_nuance": "irritation that persists rather than passing",
+    "mental_hook": "Still stings, years later.",
+    "semantic_hint": "What an old slight does when it still annoys a decade on."
+  },
+  "ranks": {
+    "accepted_concepts": [
+      "the members of an organisation",
+      "the general body of people in a group",
+      "the ordinary membership",
+      "those who make up a body",
+      "the personnel below the leadership"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the leadership alone",
+        "misconception": "inverts the general membership into those at the top"
+      },
+      {
+        "answer": "to cause lasting resentment",
+        "misconception": "confuses the noun with the near-twin verb about festering"
+      }
+    ],
+    "required_nuance": "the general membership of a body",
+    "mental_hook": "The people who make up the body.",
+    "semantic_hint": "The word for the ordinary members a party recruits from."
+  },
+  "rapacious": {
+    "accepted_concepts": [
+      "aggressively greedy",
+      "grasping after everything",
+      "predatory in taking",
+      "avaricious without limit",
+      "seizing whatever can be got"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "generous",
+        "misconception": "inverts greed into open-handedness"
+      },
+      {
+        "answer": "very fast",
+        "misconception": "hears the sound-alike about speed"
+      }
+    ],
+    "required_nuance": "greed that seizes rather than merely wants",
+    "mental_hook": "Greedy, and it takes.",
+    "semantic_hint": "The word for a company that strips an acquired firm of every asset."
+  },
+  "rapprochement": {
+    "accepted_concepts": [
+      "a restoration of friendly relations",
+      "a thaw between estranged parties",
+      "reconciliation between states",
+      "a coming together again",
+      "detente"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a final rupture",
+        "misconception": "inverts a coming together into a breaking apart"
+      },
+      {
+        "answer": "a formal reprimand",
+        "misconception": "hears the sound-alike about reproach"
+      }
+    ],
+    "required_nuance": "relations restored after estrangement",
+    "mental_hook": "Brought closer again, after a falling out.",
+    "semantic_hint": "The word for two countries resuming diplomatic relations after decades."
+  },
+  "rapt": {
+    "accepted_concepts": [
+      "completely absorbed",
+      "engrossed to the exclusion of everything else",
+      "spellbound by what one is watching",
+      "enthralled",
+      "carried away by attention"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "distracted",
+        "misconception": "inverts total absorption into inattention"
+      },
+      {
+        "answer": "wrapped up in paper",
+        "misconception": "hears the sound-alike about wrapping"
+      }
+    ],
+    "required_nuance": "attention so complete nothing else registers",
+    "mental_hook": "Carried away, and noticing nothing else.",
+    "semantic_hint": "The word for an audience that does not move for an hour."
+  },
+  "rarefied": {
+    "accepted_concepts": [
+      "exclusive and remote from ordinary life",
+      "belonging to a select elevated circle",
+      "esoteric in its concerns",
+      "high and thin in atmosphere",
+      "removed from common experience"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "commonplace and accessible",
+        "misconception": "inverts the exclusive into the ordinary"
+      },
+      {
+        "answer": "very rare in occurrence",
+        "misconception": "confuses elevated exclusivity with scarcity"
+      }
+    ],
+    "required_nuance": "elevated and exclusive, not merely uncommon",
+    "mental_hook": "Thin air, and a select few breathing it.",
+    "semantic_hint": "The word for a world of private collectors and eight-figure sales."
+  },
+  "rarefy": {
+    "accepted_concepts": [
+      "make less dense",
+      "thin out a substance",
+      "attenuate",
+      "refine to a purer form",
+      "reduce in thickness or coarseness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to condense",
+        "misconception": "inverts thinning into thickening"
+      },
+      {
+        "answer": "exclusive and elevated",
+        "misconception": "confuses the verb with the related adjective"
+      }
+    ],
+    "required_nuance": "the verb: thinning or refining",
+    "mental_hook": "The verb: makes it thinner.",
+    "semantic_hint": "What altitude does to the air in a person's lungs."
+  },
+  "rash": {
+    "accepted_concepts": [
+      "acting without thought of consequences",
+      "reckless in decision",
+      "impetuous",
+      "hasty in a way that invites trouble",
+      "taking a risk without weighing it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cautious",
+        "misconception": "inverts recklessness into care"
+      },
+      {
+        "answer": "a skin eruption",
+        "misconception": "takes the noun sense for the tested adjective"
+      }
+    ],
+    "required_nuance": "acting before considering, as an adjective",
+    "mental_hook": "Acted first. Thought never happened.",
+    "semantic_hint": "The word for resigning in anger before finding another job."
+  },
+  "ratify": {
+    "accepted_concepts": [
+      "approve formally",
+      "confirm by official act",
+      "endorse so it takes effect",
+      "give formal sanction to",
+      "make binding by approval"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to reject",
+        "misconception": "inverts approving into refusing"
+      },
+      {
+        "answer": "to correct an error",
+        "misconception": "confuses approving with the near-twin about putting right"
+      }
+    ],
+    "required_nuance": "formal approval that makes something binding",
+    "mental_hook": "Signed off, and now it counts.",
+    "semantic_hint": "What a parliament does to a treaty before it takes effect."
+  },
+  "rational": {
+    "accepted_concepts": [
+      "based on reason",
+      "logically grounded",
+      "sensible in its reasoning",
+      "arrived at by thinking clearly",
+      "reasoned rather than emotional"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "illogical",
+        "misconception": "inverts reason into unreason"
+      },
+      {
+        "answer": "inventing plausible excuses",
+        "misconception": "confuses being reasonable with the near-twin about excusing"
+      }
+    ],
+    "required_nuance": "grounded in reason, not excuse-making",
+    "mental_hook": "Reasoned. The near-twin verb makes excuses.",
+    "semantic_hint": "The word for a decision that follows logically from the evidence."
+  },
+  "rationalism": {
+    "accepted_concepts": [
+      "the view that reason is the source of knowledge",
+      "the doctrine that truth comes from reasoning",
+      "philosophy grounding knowledge in the intellect",
+      "the position that reason outranks the senses",
+      "knowledge founded on logic"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the view that knowledge comes from experience",
+        "misconception": "inverts reason into sense experience"
+      },
+      {
+        "answer": "inventing excuses for one's conduct",
+        "misconception": "confuses the doctrine with the near-twin about explaining away"
+      }
+    ],
+    "required_nuance": "knowledge from reason, not from the senses",
+    "mental_hook": "Reason first. The senses come second.",
+    "semantic_hint": "The philosophical doctrine opposed to founding knowledge on the senses."
+  },
+  "rationalize": {
+    "accepted_concepts": [
+      "invent plausible excuses",
+      "explain away one's own conduct",
+      "justify after the fact",
+      "find acceptable reasons for what was done for other motives",
+      "excuse with a respectable reason"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to admit the real reason",
+        "misconception": "inverts making excuses into confessing"
+      },
+      {
+        "answer": "based on sound reason",
+        "misconception": "confuses excuse-making with the near-twin about being reasonable"
+      }
+    ],
+    "required_nuance": "reasons invented after the fact to excuse",
+    "mental_hook": "The reason comes after the decision.",
+    "semantic_hint": "What someone does by explaining why the purchase was really necessary."
+  },
+  "raucous": {
+    "accepted_concepts": [
+      "loud and harsh",
+      "strident in sound",
+      "boisterously noisy",
+      "rowdy and grating",
+      "harsh-voiced"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "quiet and mellow",
+        "misconception": "inverts harsh noise into softness"
+      },
+      {
+        "answer": "aggressively greedy",
+        "misconception": "confuses noise with the near-twin about grasping"
+      }
+    ],
+    "required_nuance": "loud, and harsh with it",
+    "mental_hook": "Loud, and it grates.",
+    "semantic_hint": "The word for the noise of a crowded bar at closing time."
+  },
+  "ravage": {
+    "accepted_concepts": [
+      "devastate",
+      "lay waste to a place",
+      "destroy extensively",
+      "ruin utterly",
+      "wreak destruction on"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to restore",
+        "misconception": "inverts devastation into repair"
+      },
+      {
+        "answer": "to be extremely hungry",
+        "misconception": "confuses devastation with the near-twin about hunger"
+      }
+    ],
+    "required_nuance": "widespread destruction",
+    "mental_hook": "Everything laid waste.",
+    "semantic_hint": "What a wildfire does to a whole valley."
+  },
+  "rave": {
+    "accepted_concepts": [
+      "talk wildly and at length",
+      "rant in excitement",
+      "praise extravagantly",
+      "gush with enthusiasm",
+      "speak in a frenzied declamatory way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to disparage",
+        "misconception": "inverts extravagant praise into criticism"
+      },
+      {
+        "answer": "to devastate a place",
+        "misconception": "confuses wild talk with the near-twin about destruction"
+      }
+    ],
+    "required_nuance": "wild talk, whether mad or enthusiastic",
+    "mental_hook": "Talks wildly, in madness or in praise.",
+    "semantic_hint": "What a critic does when they cannot stop praising a film."
+  },
+  "ravel": {
+    "accepted_concepts": [
+      "untangle",
+      "disentangle threads",
+      "fray into loose strands",
+      "become tangled",
+      "pull apart into threads"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to weave tightly together",
+        "misconception": "inverts unpicking into weaving"
+      },
+      {
+        "answer": "to travel",
+        "misconception": "hears the sound-alike about journeys"
+      }
+    ],
+    "required_nuance": "it can mean both untangling and tangling",
+    "mental_hook": "Means both untangle and tangle. That is the trap.",
+    "semantic_hint": "What the end of a rope does when the binding comes off."
+  },
+  "ravenous": {
+    "accepted_concepts": [
+      "extremely hungry",
+      "famished",
+      "voracious in appetite",
+      "starving and desperate for food",
+      "hungry to the point of greed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "satiated",
+        "misconception": "inverts extreme hunger into fullness"
+      },
+      {
+        "answer": "wild in speech",
+        "misconception": "confuses hunger with the near-twin about ranting"
+      }
+    ],
+    "required_nuance": "hunger at its most acute",
+    "mental_hook": "Hungry enough to eat anything.",
+    "semantic_hint": "How someone feels after a day's hard walking with no lunch."
+  },
+  "raze": {
+    "accepted_concepts": [
+      "destroy completely to the ground",
+      "demolish a building entirely",
+      "flatten a settlement",
+      "level to the earth",
+      "tear down so nothing stands"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to build up",
+        "misconception": "inverts flattening into erecting"
+      },
+      {
+        "answer": "to lift upward",
+        "misconception": "hears the sound-alike about raising"
+      }
+    ],
+    "required_nuance": "complete destruction down to ground level",
+    "mental_hook": "Nothing left standing. Not even walls.",
+    "semantic_hint": "What an army does to a city it means to erase."
+  },
+  "reactant": {
+    "accepted_concepts": [
+      "a substance taking part in a reaction",
+      "a starting material in a chemical change",
+      "a reagent consumed in a process",
+      "what goes into a reaction",
+      "a substance that is transformed in the reaction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "what the reaction produces",
+        "misconception": "inverts the starting material into the result"
+      },
+      {
+        "answer": "someone opposing progress",
+        "misconception": "confuses the chemical term with the near-twin about politics"
+      }
+    ],
+    "required_nuance": "what goes into the reaction, not what comes out",
+    "mental_hook": "Goes in. The product comes out.",
+    "semantic_hint": "The word for the chemicals on the left of an equation."
+  },
+  "reactionary": {
+    "accepted_concepts": [
+      "opposing progress",
+      "wanting to return to an earlier order",
+      "regressive in politics",
+      "hostile to reform",
+      "traditionalist to an extreme degree"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "progressive",
+        "misconception": "inverts wanting the old order into wanting change"
+      },
+      {
+        "answer": "a substance in a chemical reaction",
+        "misconception": "confuses the political term with the near-twin about chemistry"
+      }
+    ],
+    "required_nuance": "wanting to go back, not merely to conserve",
+    "mental_hook": "Not just resisting change. Undoing it.",
+    "semantic_hint": "The word for a movement that wants the old order restored entirely."
+  },
+  "readjustment": {
+    "accepted_concepts": [
+      "a further adjustment to changed circumstances",
+      "a second adaptation after a change",
+      "a realignment to new conditions",
+      "a recalibration",
+      "adapting again to something altered"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a refusal to adapt",
+        "misconception": "inverts adapting into resisting change"
+      },
+      {
+        "answer": "a first-time arrangement",
+        "misconception": "loses that it is an adjustment made again"
+      }
+    ],
+    "required_nuance": "adjusting again, after conditions changed",
+    "mental_hook": "Adjusted once. Now adjusting again.",
+    "semantic_hint": "The word for what a returning soldier must do to civilian life."
+  },
+  "reap": {
+    "accepted_concepts": [
+      "obtain as a result",
+      "gather in what has been earned",
+      "harvest a crop",
+      "receive the consequences of what was done",
+      "gain from earlier effort"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to sow",
+        "misconception": "inverts gathering in into planting"
+      },
+      {
+        "answer": "to repeat",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "receiving the result of earlier action",
+    "mental_hook": "Takes in what was sown.",
+    "semantic_hint": "What the proverb says you do of whatever you sow."
+  },
+  "rebuke": {
+    "accepted_concepts": [
+      "reprimand sharply",
+      "censure someone in strong terms",
+      "admonish severely",
+      "tell off with authority",
+      "reprove"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to commend",
+        "misconception": "inverts reprimand into praise"
+      },
+      {
+        "answer": "to disprove an argument",
+        "misconception": "confuses reproof of a person with the near-twin about refuting a claim"
+      }
+    ],
+    "required_nuance": "reproving a person, not refuting an argument",
+    "mental_hook": "Tells the person off. The near-twin answers the argument.",
+    "semantic_hint": "What a judge does to a barrister who oversteps in court."
+  },
+  "rebus": {
+    "accepted_concepts": [
+      "a puzzle using pictures for words",
+      "a riddle made of images standing for sounds",
+      "a picture puzzle spelling a phrase",
+      "a device where drawings represent syllables",
+      "a visual word puzzle"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a crossword of plain words",
+        "misconception": "loses the pictures that define it"
+      },
+      {
+        "answer": "a public vehicle",
+        "misconception": "hears the word for a coach inside it"
+      }
+    ],
+    "required_nuance": "pictures standing in for words or syllables",
+    "mental_hook": "Pictures, spelling out words.",
+    "semantic_hint": "The puzzle where a drawing of an eye stands for the word I."
+  },
+  "rebut": {
+    "accepted_concepts": [
+      "disprove with argument",
+      "answer a claim with counter-evidence",
+      "counter a charge point by point",
+      "refute",
+      "argue against successfully"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to support the claim",
+        "misconception": "inverts countering into backing"
+      },
+      {
+        "answer": "to reprimand a person",
+        "misconception": "confuses answering a claim with the near-twin about telling someone off"
+      }
+    ],
+    "required_nuance": "answering the argument, not the person",
+    "mental_hook": "Answers the argument. The near-twin scolds the person.",
+    "semantic_hint": "What a defence does to the prosecution's central claim."
+  },
+  "recalcitrant": {
+    "accepted_concepts": [
+      "stubbornly resisting authority",
+      "refusing to obey",
+      "defiantly uncooperative",
+      "unruly against control",
+      "obstinate in the face of instruction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "compliant",
+        "misconception": "inverts defiance into obedience"
+      },
+      {
+        "answer": "difficult to calculate",
+        "misconception": "hears the sound-alike about calculation"
+      }
+    ],
+    "required_nuance": "resistance aimed at authority",
+    "mental_hook": "Told to. Will not.",
+    "semantic_hint": "The word for a pupil who refuses every instruction on principle."
+  },
+  "recant": {
+    "accepted_concepts": [
+      "publicly withdraw a former belief",
+      "renounce what one previously said",
+      "retract a statement formally",
+      "disavow an earlier position",
+      "take back under pressure or conviction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to affirm firmly",
+        "misconception": "inverts withdrawal into insistence"
+      },
+      {
+        "answer": "to sing again",
+        "misconception": "hears the root about chanting"
+      }
+    ],
+    "required_nuance": "publicly withdrawing a belief once held",
+    "mental_hook": "Said it. Now says they were wrong.",
+    "semantic_hint": "What Galileo was forced to do about the earth's motion."
+  },
+  "recapitulate": {
+    "accepted_concepts": [
+      "summarise the main points",
+      "go back over what has been said",
+      "restate in brief",
+      "run through the argument again",
+      "recap"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to elaborate at length",
+        "misconception": "inverts summarising into expanding"
+      },
+      {
+        "answer": "to surrender",
+        "misconception": "hears the sound-alike about capitulating"
+      }
+    ],
+    "required_nuance": "going back over the main points in brief",
+    "mental_hook": "Runs through it again, briefly.",
+    "semantic_hint": "What a lecturer does in the last five minutes of a class."
+  },
+  "recapitulation": {
+    "accepted_concepts": [
+      "a summary of what has been said",
+      "a restatement of the main points",
+      "a recap of an argument",
+      "a going back over in brief",
+      "a synopsis of what preceded"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an extended elaboration",
+        "misconception": "inverts a summary into an expansion"
+      },
+      {
+        "answer": "a surrender",
+        "misconception": "hears the sound-alike about capitulating"
+      }
+    ],
+    "required_nuance": "the summary itself, as a thing",
+    "mental_hook": "The summary, named.",
+    "semantic_hint": "The section of a symphony that brings back the opening themes."
+  },
+  "recluse": {
+    "accepted_concepts": [
+      "someone who lives in seclusion",
+      "a person who avoids society",
+      "a hermit",
+      "one who keeps apart from others",
+      "a solitary by choice"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a sociable person",
+        "misconception": "inverts solitude into sociability"
+      },
+      {
+        "answer": "someone who hates humankind",
+        "misconception": "confuses living apart with active contempt for people"
+      }
+    ],
+    "required_nuance": "living apart, not necessarily hating people",
+    "mental_hook": "Lives apart. Not necessarily bitter about it.",
+    "semantic_hint": "The word for a writer who has not been photographed in forty years."
+  },
+  "reconcile": {
+    "accepted_concepts": [
+      "restore friendship after a quarrel",
+      "make two accounts consistent",
+      "bring into agreement",
+      "settle a difference",
+      "harmonise things that seemed opposed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to estrange",
+        "misconception": "inverts bringing together into driving apart"
+      },
+      {
+        "answer": "to think deeply about",
+        "misconception": "confuses settling a difference with reflection"
+      }
+    ],
+    "required_nuance": "bringing into agreement, people or facts",
+    "mental_hook": "Makes them fit together again.",
+    "semantic_hint": "What an accountant does to two sets of figures that disagree."
+  },
+  "reconciliation": {
+    "accepted_concepts": [
+      "restoration of harmony",
+      "the healing of a quarrel",
+      "a coming to terms after conflict",
+      "the settlement of a dispute",
+      "reunion after estrangement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a final rupture",
+        "misconception": "inverts healing into breaking"
+      },
+      {
+        "answer": "to bring into agreement",
+        "misconception": "confuses the noun with the verb"
+      }
+    ],
+    "required_nuance": "the restoration itself, as a thing",
+    "mental_hook": "The healing, named.",
+    "semantic_hint": "The word for a formal process after a civil war to heal divisions."
+  },
+  "recondite": {
+    "accepted_concepts": [
+      "obscure and understood by few",
+      "abstruse in subject",
+      "esoteric",
+      "known only to specialists",
+      "deep and hard to follow"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "accessible to anyone",
+        "misconception": "inverts the obscure into the plain"
+      },
+      {
+        "answer": "in good condition",
+        "misconception": "hears the sound-alike about being reconditioned"
+      }
+    ],
+    "required_nuance": "obscure because deep and specialised",
+    "mental_hook": "Deep, and only a few can follow.",
+    "semantic_hint": "The word for a scholarly argument only a handful of people can assess."
+  },
+  "reconnaissance": {
+    "accepted_concepts": [
+      "a preliminary survey to gather information",
+      "scouting ahead of an operation",
+      "an exploratory inspection",
+      "a survey of ground before acting",
+      "an information-gathering mission"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the main assault itself",
+        "misconception": "confuses the preliminary survey with the operation"
+      },
+      {
+        "answer": "a cultural revival",
+        "misconception": "hears the sound-alike about a rebirth of learning"
+      }
+    ],
+    "required_nuance": "gathering information ahead of the main action",
+    "mental_hook": "Look first. Act later.",
+    "semantic_hint": "What a scout patrol does before an advance."
+  },
+  "recourse": {
+    "accepted_concepts": [
+      "a source of help in difficulty",
+      "the option one turns to",
+      "a remedy available when needed",
+      "a resort in trouble",
+      "something one can fall back on"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "having no option at all",
+        "misconception": "inverts an available remedy into helplessness"
+      },
+      {
+        "answer": "a repeated course of study",
+        "misconception": "reads the compound literally"
+      }
+    ],
+    "required_nuance": "what one can turn to for help",
+    "mental_hook": "The thing you can turn to.",
+    "semantic_hint": "What a tenant has to a tribunal when a landlord refuses repairs."
+  },
+  "recovering": {
+    "accepted_concepts": [
+      "returning to health",
+      "getting better after illness",
+      "convalescent",
+      "mending after damage",
+      "improving from a low point"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deteriorating",
+        "misconception": "inverts improvement into decline"
+      },
+      {
+        "answer": "already fully well",
+        "misconception": "loses that the process is still under way"
+      }
+    ],
+    "required_nuance": "improving, and not yet fully restored",
+    "mental_hook": "Getting better. Not better yet.",
+    "semantic_hint": "The word for an economy climbing back after a recession."
+  },
+  "recrimination": {
+    "accepted_concepts": [
+      "mutual accusation and blame",
+      "counter-charges traded between parties",
+      "blaming each other after a failure",
+      "reproach answered with reproach",
+      "an exchange of accusations"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "mutual forgiveness",
+        "misconception": "inverts traded blame into reconciliation"
+      },
+      {
+        "answer": "a single formal charge",
+        "misconception": "loses the mutual exchange that defines it"
+      }
+    ],
+    "required_nuance": "blame going both ways",
+    "mental_hook": "Each side blaming the other.",
+    "semantic_hint": "What follows a failed campaign when everyone blames everyone else."
+  },
+  "recrudesce": {
+    "accepted_concepts": [
+      "break out again after a period of calm",
+      "flare up once more",
+      "reappear after subsiding",
+      "return after seeming to end",
+      "resurge"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to subside for good",
+        "misconception": "inverts a flare-up into a final end"
+      },
+      {
+        "answer": "to appear for the first time",
+        "misconception": "loses that it had already occurred before"
+      }
+    ],
+    "required_nuance": "returning after an apparent end",
+    "mental_hook": "It was over. It is back.",
+    "semantic_hint": "What an epidemic does when it returns after months of quiet."
+  },
+  "recrudescent": {
+    "accepted_concepts": [
+      "breaking out again after subsiding",
+      "returning after a period of quiet",
+      "resurgent",
+      "flaring up once more",
+      "renewed after seeming to end"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "permanently extinguished",
+        "misconception": "inverts a return into a final end"
+      },
+      {
+        "answer": "occurring for the first time",
+        "misconception": "loses that it had happened before"
+      }
+    ],
+    "required_nuance": "the adjective for something breaking out again",
+    "mental_hook": "Back again, and it had gone quiet.",
+    "semantic_hint": "The word for nationalism that flares up again after a generation."
+  },
+  "rectify": {
+    "accepted_concepts": [
+      "correct something wrong",
+      "put right",
+      "remedy a fault",
+      "amend an error",
+      "set straight"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make worse",
+        "misconception": "inverts putting right into worsening"
+      },
+      {
+        "answer": "to approve formally",
+        "misconception": "confuses correcting with the near-twin about formal approval"
+      }
+    ],
+    "required_nuance": "putting right what was wrong",
+    "mental_hook": "Puts it right.",
+    "semantic_hint": "What a company does by correcting an error in a published account."
+  },
+  "redolent": {
+    "accepted_concepts": [
+      "strongly suggestive of something",
+      "evocative of a time or place",
+      "reminiscent in atmosphere",
+      "fragrant with a particular smell",
+      "carrying the flavour of"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "entirely odourless and suggesting nothing",
+        "misconception": "inverts evocative richness into blankness"
+      },
+      {
+        "answer": "formidable and imposing",
+        "misconception": "confuses evocativeness with the near-twin about being daunting"
+      }
+    ],
+    "required_nuance": "richly suggestive, often through smell",
+    "mental_hook": "Brings the other thing to mind at once.",
+    "semantic_hint": "The word for a street that immediately calls a childhood to mind."
+  },
+  "redoubtable": {
+    "accepted_concepts": [
+      "formidable and worthy of respect",
+      "daunting to face",
+      "imposing in reputation",
+      "to be reckoned with",
+      "commanding respect through strength"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "feeble and unimpressive",
+        "misconception": "inverts a formidable figure into a negligible one"
+      },
+      {
+        "answer": "full of doubt",
+        "misconception": "hears the root about doubting"
+      }
+    ],
+    "required_nuance": "formidable, and respected for it",
+    "mental_hook": "Formidable, and you respect it.",
+    "semantic_hint": "The word for an opponent nobody in the tournament wants to meet."
+  },
+  "redound": {
+    "accepted_concepts": [
+      "contribute to someone's credit or discredit",
+      "reflect on a person's reputation",
+      "come back upon the doer",
+      "add to the honour of",
+      "have an effect on standing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to have no bearing on reputation",
+        "misconception": "inverts reflecting on someone into being irrelevant"
+      },
+      {
+        "answer": "to bounce back physically",
+        "misconception": "reads the root about rebounding literally"
+      }
+    ],
+    "required_nuance": "reflecting back on someone's credit",
+    "mental_hook": "Comes back on their reputation.",
+    "semantic_hint": "What an act of generosity does to the giver's standing."
+  },
+  "redress": {
+    "accepted_concepts": [
+      "compensation for a wrong",
+      "reparation made to the injured",
+      "a remedy for an injustice",
+      "restitution",
+      "the putting right of a grievance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a further injury",
+        "misconception": "inverts remedy into harm"
+      },
+      {
+        "answer": "a change of clothing",
+        "misconception": "reads the compound literally"
+      }
+    ],
+    "required_nuance": "compensation or remedy for a wrong done",
+    "mental_hook": "Putting right what was done wrong.",
+    "semantic_hint": "What a tribunal offers someone unfairly dismissed."
+  },
+  "refectory": {
+    "accepted_concepts": [
+      "a communal dining hall",
+      "the eating hall of a monastery or college",
+      "a canteen for an institution",
+      "the room where a community takes meals",
+      "a mess hall"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a private dining room",
+        "misconception": "loses the communal character that defines it"
+      },
+      {
+        "answer": "a place of reflection",
+        "misconception": "hears the sound-alike about reflecting"
+      }
+    ],
+    "required_nuance": "the communal dining hall of an institution",
+    "mental_hook": "Where the whole community eats.",
+    "semantic_hint": "The long hall where monks take their meals together."
+  },
+  "refine": {
+    "accepted_concepts": [
+      "improve by small changes",
+      "polish to a higher standard",
+      "hone by successive adjustment",
+      "purify by removing impurities",
+      "perfect gradually"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to coarsen",
+        "misconception": "inverts polishing into roughening"
+      },
+      {
+        "answer": "to define again",
+        "misconception": "hears the sound-alike about definition"
+      }
+    ],
+    "required_nuance": "improving by small careful changes",
+    "mental_hook": "Small changes, until it is right.",
+    "semantic_hint": "What a chef does to a recipe over twenty attempts."
+  },
+  "reflect": {
+    "accepted_concepts": [
+      "think deeply about something",
+      "consider at length",
+      "indicate or show a state of affairs",
+      "throw back an image",
+      "ponder"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to act without thinking",
+        "misconception": "inverts deliberate thought into impulse"
+      },
+      {
+        "answer": "to improve by small changes",
+        "misconception": "confuses thinking with the near-twin about polishing"
+      }
+    ],
+    "required_nuance": "thinking deeply, or indicating something",
+    "mental_hook": "Thinks about it, or shows it.",
+    "semantic_hint": "What a fall in sales does about a change in public taste."
+  },
+  "refractory": {
+    "accepted_concepts": [
+      "stubbornly resistant to control",
+      "not responding to treatment",
+      "intractable",
+      "unmanageable despite effort",
+      "obstinate against being handled"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "compliant",
+        "misconception": "inverts resistance into obedience"
+      },
+      {
+        "answer": "shining brilliantly",
+        "misconception": "confuses resistance with the near-twin about radiance"
+      }
+    ],
+    "required_nuance": "resisting control or treatment",
+    "mental_hook": "Will not respond, to handling or to medicine.",
+    "semantic_hint": "The word for an infection that no antibiotic touches."
+  },
+  "refulgent": {
+    "accepted_concepts": [
+      "shining brilliantly",
+      "radiant with light",
+      "luminous",
+      "gleaming splendidly",
+      "brightly resplendent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dull and dim",
+        "misconception": "inverts brilliance into dullness"
+      },
+      {
+        "answer": "stubbornly resistant",
+        "misconception": "confuses radiance with the near-twin about resisting control"
+      }
+    ],
+    "required_nuance": "shining, and splendidly so",
+    "mental_hook": "Shining. The near-twin resists everything.",
+    "semantic_hint": "The word for a polished silver surface catching the light."
+  },
+  "refute": {
+    "accepted_concepts": [
+      "prove wrong with evidence",
+      "disprove a claim",
+      "demolish an argument",
+      "show a statement to be false",
+      "debunk"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to confirm",
+        "misconception": "inverts disproving into supporting"
+      },
+      {
+        "answer": "to deny without evidence",
+        "misconception": "loses the proving that distinguishes it from mere denial"
+      }
+    ],
+    "required_nuance": "disproving with evidence, not merely denying",
+    "mental_hook": "Not just denies it. Disproves it.",
+    "semantic_hint": "What a replicated experiment does to a false result."
+  },
+  "register": {
+    "accepted_concepts": [
+      "record officially",
+      "enter in an official list",
+      "enrol formally",
+      "show or express a reaction",
+      "perceive and take in"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to erase from the record",
+        "misconception": "inverts recording into deleting"
+      },
+      {
+        "answer": "to go backward",
+        "misconception": "confuses recording with the near-twin about regressing"
+      }
+    ],
+    "required_nuance": "recording formally, or perceiving and showing",
+    "mental_hook": "Written down, or taken in.",
+    "semantic_hint": "What a face does with surprise, and what a clerk does with a birth."
+  },
+  "regress": {
+    "accepted_concepts": [
+      "return to an earlier worse state",
+      "go backward in development",
+      "backslide",
+      "revert to a previous condition",
+      "deteriorate to where one was"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to progress",
+        "misconception": "inverts going back into advancing"
+      },
+      {
+        "answer": "to record officially",
+        "misconception": "confuses going back with the near-twin about recording"
+      }
+    ],
+    "required_nuance": "going back to an earlier and worse state",
+    "mental_hook": "Back to where it was, and worse.",
+    "semantic_hint": "What a patient does when symptoms return to their earlier level."
+  },
+  "reiterate": {
+    "accepted_concepts": [
+      "say again for emphasis",
+      "repeat a point deliberately",
+      "restate to make sure it is heard",
+      "go over the same statement again",
+      "emphasise by repetition"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to say once and move on",
+        "misconception": "loses the repetition that defines it"
+      },
+      {
+        "answer": "to summarise the argument",
+        "misconception": "confuses repeating one point with the near-twin about recapping"
+      }
+    ],
+    "required_nuance": "repeating for emphasis, not summarising",
+    "mental_hook": "Says it again, and means you to notice.",
+    "semantic_hint": "What a spokesperson does by stating the same position for the third time."
+  },
+  "rejoinder": {
+    "accepted_concepts": [
+      "a sharp reply",
+      "a quick retort",
+      "an answer given back in kind",
+      "a riposte",
+      "a comeback in argument"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a silent acceptance",
+        "misconception": "inverts a sharp reply into no reply"
+      },
+      {
+        "answer": "a person who joins again",
+        "misconception": "reads the compound literally"
+      }
+    ],
+    "required_nuance": "a reply, and usually a sharp one",
+    "mental_hook": "The answer that comes straight back.",
+    "semantic_hint": "The word for a cutting reply that ends an exchange."
+  },
+  "relegate": {
+    "accepted_concepts": [
+      "demote to a lower position",
+      "consign to a lesser place",
+      "downgrade in rank",
+      "push down to an inferior status",
+      "send to a lower division"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to promote",
+        "misconception": "inverts demotion into elevation"
+      },
+      {
+        "answer": "to hand over a task",
+        "misconception": "hears the sound-alike about delegating"
+      }
+    ],
+    "required_nuance": "moving down in rank or importance",
+    "mental_hook": "Sent down a level.",
+    "semantic_hint": "What happens to a football club finishing bottom of the league."
+  },
+  "relent": {
+    "accepted_concepts": [
+      "soften and give in",
+      "yield after refusing",
+      "abandon a hard line",
+      "capitulate under pressure",
+      "let up at last"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to harden further",
+        "misconception": "inverts softening into becoming firmer"
+      },
+      {
+        "answer": "to lease again",
+        "misconception": "hears the sound-alike about renting"
+      }
+    ],
+    "required_nuance": "softening after holding firm",
+    "mental_hook": "Said no for weeks. Now says yes.",
+    "semantic_hint": "What a parent finally does after refusing all evening."
+  },
+  "relentless": {
+    "accepted_concepts": [
+      "never stopping or weakening",
+      "unremitting in pressure",
+      "persistent without pause",
+      "implacable in pursuit",
+      "keeping on without mercy"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "intermittent",
+        "misconception": "inverts unbroken pressure into occasional effort"
+      },
+      {
+        "answer": "merciful",
+        "misconception": "inverts refusing to let up into giving way"
+      }
+    ],
+    "required_nuance": "never letting up at all",
+    "mental_hook": "Never lets up. Not once.",
+    "semantic_hint": "The word for rain that has not stopped for four days."
+  },
+  "relevant": {
+    "accepted_concepts": [
+      "connected to the matter at hand",
+      "bearing on the question",
+      "applicable to the case",
+      "germane",
+      "having a proper connection"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "immaterial",
+        "misconception": "inverts relevance into having no bearing"
+      },
+      {
+        "answer": "reverent",
+        "misconception": "hears the sound-alike about showing reverence"
+      }
+    ],
+    "required_nuance": "bearing on the matter under discussion",
+    "mental_hook": "It bears on this question.",
+    "semantic_hint": "The word for evidence a court will actually allow in."
+  },
+  "relinquish": {
+    "accepted_concepts": [
+      "give up",
+      "let go of a claim",
+      "surrender something held",
+      "cede to another",
+      "abandon a possession or right"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to seize",
+        "misconception": "inverts giving up into taking"
+      },
+      {
+        "answer": "to enjoy greatly",
+        "misconception": "confuses giving up with the near-twin about savouring"
+      }
+    ],
+    "required_nuance": "giving up something one held",
+    "mental_hook": "Lets go of it.",
+    "semantic_hint": "What a monarch does to a throne by abdicating."
+  },
+  "relish": {
+    "accepted_concepts": [
+      "enjoy greatly",
+      "savour with pleasure",
+      "take evident delight in",
+      "revel in",
+      "look forward to with enjoyment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to dread",
+        "misconception": "inverts enjoyment into aversion"
+      },
+      {
+        "answer": "to give something up",
+        "misconception": "confuses enjoying with the near-twin about surrendering"
+      }
+    ],
+    "required_nuance": "enjoying, and visibly so",
+    "mental_hook": "Enjoys it, and it shows.",
+    "semantic_hint": "What a debater does with the chance to answer a weak argument."
   }
 }
