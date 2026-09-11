@@ -878,5 +878,1325 @@
     "required_nuance": "departing from the norm, and judged for it",
     "mental_hook": "Outside the norm, and noticed for it.",
     "semantic_hint": "What sociologists call behaviour that breaks a society's accepted rules."
+  },
+  "deviate": {
+    "accepted_concepts": [
+      "depart from a set course",
+      "diverge from the plan",
+      "stray from what was agreed",
+      "digress",
+      "turn aside from the norm"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to follow exactly",
+        "misconception": "inverts departing into adhering"
+      },
+      {
+        "answer": "a piece of equipment",
+        "misconception": "hears the shared opening of 'device'"
+      }
+    ],
+    "required_nuance": "leaving a course that had been set",
+    "mental_hook": "Off the agreed path.",
+    "semantic_hint": "What a pilot does when they leave the filed flight plan."
+  },
+  "deviation": {
+    "accepted_concepts": [
+      "a departure from a standard",
+      "a divergence",
+      "a straying from the norm",
+      "a difference from what was expected",
+      "an aberration"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "conformity",
+        "misconception": "inverts departure into adherence"
+      },
+      {
+        "answer": "devotion",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "the departure itself, measured against a standard",
+    "mental_hook": "The gap between what happened and what should have.",
+    "semantic_hint": "The measured difference between a result and the expected value."
+  },
+  "device": {
+    "accepted_concepts": [
+      "a tool",
+      "a piece of equipment",
+      "a contrivance",
+      "a scheme or stratagem",
+      "a technique used for effect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "guidance offered",
+        "misconception": "hears the sound-alike 'advice'"
+      },
+      {
+        "answer": "a natural object",
+        "misconception": "inverts contrived into found"
+      }
+    ],
+    "required_nuance": "something contrived, whether an object or a technique",
+    "mental_hook": "A gadget, or a trick of the trade.",
+    "semantic_hint": "What a machine is, and also what a writer's clever technique is called."
+  },
+  "devolve": {
+    "accepted_concepts": [
+      "transfer power downward",
+      "hand authority to a lower level",
+      "pass responsibility down",
+      "degenerate",
+      "sink into a worse state"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to develop over time",
+        "misconception": "hears the sound-alike 'evolve' and inverts decline into progress"
+      },
+      {
+        "answer": "to centralise",
+        "misconception": "inverts sending power down into gathering it up"
+      }
+    ],
+    "required_nuance": "power moving downward, or a state worsening",
+    "mental_hook": "Power going down, or standards going down.",
+    "semantic_hint": "What a central government does when it hands powers to a regional assembly."
+  },
+  "diabolic": {
+    "accepted_concepts": [
+      "devilishly wicked",
+      "fiendish",
+      "infernal in cruelty",
+      "wicked with cunning",
+      "hellish"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to a blood-sugar disease",
+        "misconception": "hears the sound-alike 'diabetic'"
+      },
+      {
+        "answer": "angelic",
+        "misconception": "inverts wickedness into goodness"
+      }
+    ],
+    "required_nuance": "wickedness of a specifically devilish kind",
+    "mental_hook": "Of the devil, in temperament.",
+    "semantic_hint": "The word for cruelty so inventive it seems to come from hell."
+  },
+  "diabolical": {
+    "accepted_concepts": [
+      "extremely wicked",
+      "fiendishly clever",
+      "monstrously cruel",
+      "devilish in ingenuity",
+      "appallingly bad"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to a blood-sugar disease",
+        "misconception": "hears the sound-alike 'diabetic'"
+      },
+      {
+        "answer": "saintly",
+        "misconception": "inverts wickedness into holiness"
+      }
+    ],
+    "required_nuance": "wicked, or cunning, and sometimes simply dreadful",
+    "mental_hook": "Wicked, brilliant, or simply awful, depending on the sentence.",
+    "semantic_hint": "The word for a plan that is both fiendishly clever and thoroughly evil."
+  },
+  "diadem": {
+    "accepted_concepts": [
+      "a jewelled crown",
+      "a coronet",
+      "an ornamental headband of state",
+      "a tiara",
+      "a royal circlet"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a drawing or chart",
+        "misconception": "hears the shared opening of 'diagram'"
+      },
+      {
+        "answer": "a throne",
+        "misconception": "confuses the headpiece with the seat"
+      }
+    ],
+    "required_nuance": "worn on the head, and a mark of rank",
+    "mental_hook": "Worn on the head, not sat on.",
+    "semantic_hint": "The jewelled band a monarch wears on their head."
+  },
+  "diaphanous": {
+    "accepted_concepts": [
+      "light and delicate",
+      "so fine you can see through it",
+      "gossamer thin",
+      "sheer",
+      "translucent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "opaque",
+        "misconception": "inverts see-through into solid"
+      },
+      {
+        "answer": "relating to the muscle below the lungs",
+        "misconception": "hears the sound-alike 'diaphragm'"
+      }
+    ],
+    "required_nuance": "fine enough to see the light through",
+    "mental_hook": "You can see the light through it.",
+    "semantic_hint": "The word for a fabric so fine the light passes straight through it."
+  },
+  "diatribe": {
+    "accepted_concepts": [
+      "a bitter verbal attack",
+      "a tirade",
+      "a harangue",
+      "a sustained abusive denunciation",
+      "a torrent of invective"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a calm discussion",
+        "misconception": "inverts abuse into reasoned exchange"
+      },
+      {
+        "answer": "a clan",
+        "misconception": "hears the word 'tribe' inside it"
+      }
+    ],
+    "required_nuance": "abusive, and sustained at length",
+    "mental_hook": "Not an argument. A sustained attack.",
+    "semantic_hint": "The word for a furious speech that goes on far too long attacking someone."
+  },
+  "dichotomy": {
+    "accepted_concepts": [
+      "a division into two opposed parts",
+      "a split into two contrasting halves",
+      "a stark polarity",
+      "a two-way division",
+      "a contrast between two options"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a unity",
+        "misconception": "inverts division into wholeness"
+      },
+      {
+        "answer": "a division into many parts",
+        "misconception": "loses the specifically two"
+      }
+    ],
+    "required_nuance": "two parts, and opposed to each other",
+    "mental_hook": "Two, and opposed. Not three.",
+    "semantic_hint": "The word for a split into exactly two opposed camps."
+  },
+  "dictate": {
+    "accepted_concepts": [
+      "command authoritatively",
+      "prescribe",
+      "lay down as a rule",
+      "impose a requirement",
+      "decree"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to speak aloud for transcription",
+        "misconception": "takes the everyday office sense"
+      },
+      {
+        "answer": "to suggest",
+        "misconception": "softens a command into advice"
+      }
+    ],
+    "required_nuance": "laying down what must be, never proposing",
+    "mental_hook": "Not a suggestion. A requirement.",
+    "semantic_hint": "What circumstances do when they leave you no real choice."
+  },
+  "dictatorial": {
+    "accepted_concepts": [
+      "domineering",
+      "absolute in authority",
+      "imperious",
+      "allowing no disagreement",
+      "tyrannical in manner"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to speech transcription",
+        "misconception": "hears 'dictate' in its office sense"
+      },
+      {
+        "answer": "consultative",
+        "misconception": "inverts domination into consultation"
+      }
+    ],
+    "required_nuance": "the manner of one who allows no argument",
+    "mental_hook": "Tells, and never asks.",
+    "semantic_hint": "The word for a manager who issues orders and takes no questions."
+  },
+  "dictum": {
+    "accepted_concepts": [
+      "an authoritative pronouncement",
+      "a formal statement",
+      "a maxim laid down",
+      "a ruling utterance",
+      "a saying with authority behind it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a reference book of words",
+        "misconception": "hears the shared opening of 'dictionary'"
+      },
+      {
+        "answer": "a casual remark",
+        "misconception": "loses the authority that defines it"
+      }
+    ],
+    "required_nuance": "a pronouncement carrying real authority",
+    "mental_hook": "Said by someone whose saying it settles it.",
+    "semantic_hint": "The authoritative saying a judge or expert lays down as settled."
+  },
+  "didactic": {
+    "accepted_concepts": [
+      "intended to teach",
+      "instructive",
+      "moralising",
+      "heavy-handed in its lesson",
+      "preachy"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "entertaining",
+        "misconception": "inverts instruction into diversion"
+      },
+      {
+        "answer": "relating to teeth",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "teaching, and usually too obviously",
+    "mental_hook": "Has a lesson, and will not let you miss it.",
+    "semantic_hint": "The word for a novel so busy teaching a moral it forgets to be a story."
+  },
+  "differentiate": {
+    "accepted_concepts": [
+      "distinguish between",
+      "tell apart",
+      "mark a difference between",
+      "set one apart from another",
+      "separate by their differences"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make identical",
+        "misconception": "inverts distinguishing into equating"
+      },
+      {
+        "answer": "to postpone",
+        "misconception": "hears a vaguely similar opening"
+      }
+    ],
+    "required_nuance": "telling apart, or making distinct",
+    "mental_hook": "Seeing, or making, the difference.",
+    "semantic_hint": "What a specialist can do between two things a novice sees as the same."
+  },
+  "diffidence": {
+    "accepted_concepts": [
+      "shyness",
+      "lack of self-confidence",
+      "timidity",
+      "reticence born of self-doubt",
+      "an unassuming reserve"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "not caring either way",
+        "misconception": "hears 'indifference' and swaps shyness for apathy"
+      },
+      {
+        "answer": "boldness",
+        "misconception": "inverts timidity into assurance"
+      }
+    ],
+    "required_nuance": "reserve from self-doubt, never from coldness",
+    "mental_hook": "Quiet from doubt, not from disdain.",
+    "semantic_hint": "The shy self-doubt that keeps someone from speaking up in a meeting."
+  },
+  "diffident": {
+    "accepted_concepts": [
+      "shy",
+      "lacking confidence",
+      "self-effacing",
+      "unassuming",
+      "hesitant from self-doubt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "not caring",
+        "misconception": "hears 'indifferent' and swaps shyness for apathy"
+      },
+      {
+        "answer": "assertive",
+        "misconception": "inverts timidity into confidence"
+      }
+    ],
+    "required_nuance": "modest specifically through self-doubt",
+    "mental_hook": "One letter from indifferent, and a different failing.",
+    "semantic_hint": "The word for someone too unsure of themselves to put their hand up."
+  },
+  "diffuse": {
+    "accepted_concepts": [
+      "spread out",
+      "scattered widely",
+      "dispersed",
+      "lacking concision",
+      "wordy and unfocused"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make safe",
+        "misconception": "hears the sound-alike 'defuse'"
+      },
+      {
+        "answer": "concentrated",
+        "misconception": "inverts dispersal into focus"
+      }
+    ],
+    "required_nuance": "spread thin, whether light or prose",
+    "mental_hook": "Light, or an argument, spread too thin.",
+    "semantic_hint": "What light becomes when it passes through frosted glass."
+  },
+  "digress": {
+    "accepted_concepts": [
+      "depart from the main subject",
+      "wander off the point",
+      "stray into a side topic",
+      "go off on a tangent",
+      "ramble away from the theme"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to go backward",
+        "misconception": "hears the sound-alike 'regress'"
+      },
+      {
+        "answer": "to stay on point",
+        "misconception": "inverts wandering into focus"
+      }
+    ],
+    "required_nuance": "leaving the subject, usually only for a while",
+    "mental_hook": "Off the point, and usually announced.",
+    "semantic_hint": "What a speaker does when they say \"but that reminds me\"."
+  },
+  "digression": {
+    "accepted_concepts": [
+      "a departure from the main topic",
+      "an aside",
+      "a tangent",
+      "a wandering passage",
+      "an excursion away from the theme"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a return to the point",
+        "misconception": "inverts wandering into resuming"
+      },
+      {
+        "answer": "a going backward",
+        "misconception": "hears the sound-alike 'regression'"
+      }
+    ],
+    "required_nuance": "the wandering passage itself",
+    "mental_hook": "The bit you could cut without losing the argument.",
+    "semantic_hint": "The long aside a writer inserts before returning to the point."
+  },
+  "dilapidated": {
+    "accepted_concepts": [
+      "in disrepair",
+      "falling apart",
+      "ramshackle",
+      "decrepit from neglect",
+      "run-down"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "newly built",
+        "misconception": "inverts decay into freshness"
+      },
+      {
+        "answer": "apologetic",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "fallen apart through neglect",
+    "mental_hook": "Nobody has mended it in years.",
+    "semantic_hint": "What a cottage is when the roof sags and the windows are broken."
+  },
+  "dilate": {
+    "accepted_concepts": [
+      "widen",
+      "expand an opening",
+      "make larger",
+      "speak at length on",
+      "expatiate upon"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to narrow",
+        "misconception": "inverts widening into constricting"
+      },
+      {
+        "answer": "to delay",
+        "misconception": "confuses it with the similar-looking word for slowness"
+      }
+    ],
+    "required_nuance": "widening, or expanding on a subject",
+    "mental_hook": "Pupils do it, and so do long-winded speakers.",
+    "semantic_hint": "What pupils do in a dark room."
+  },
+  "dilatory": {
+    "accepted_concepts": [
+      "tending to delay",
+      "slow to act",
+      "procrastinating",
+      "sluggish in responding",
+      "causing delay"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "widening",
+        "misconception": "confuses it with the similar-looking word for expanding"
+      },
+      {
+        "answer": "prompt",
+        "misconception": "inverts slowness into speed"
+      }
+    ],
+    "required_nuance": "slowness amounting to delay, sometimes deliberate",
+    "mental_hook": "Slow, and often deliberately so.",
+    "semantic_hint": "The word for tactics designed to slow a court case down."
+  },
+  "dilettante": {
+    "accepted_concepts": [
+      "a dabbler",
+      "an amateur without real commitment",
+      "one who trifles with a subject",
+      "a superficial enthusiast",
+      "someone who plays at it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a dedicated expert",
+        "misconception": "inverts dabbling into mastery"
+      },
+      {
+        "answer": "a young woman entering society",
+        "misconception": "hears the sound-alike ending of 'debutante'"
+      }
+    ],
+    "required_nuance": "takes it up, and never takes it seriously",
+    "mental_hook": "Enthusiasm without the work.",
+    "semantic_hint": "The word for someone who takes up painting for a month and then drops it."
+  },
+  "diligent": {
+    "accepted_concepts": [
+      "hardworking",
+      "showing steady careful effort",
+      "assiduous",
+      "industrious",
+      "painstaking over time"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "lazy",
+        "misconception": "inverts effort into idleness"
+      },
+      {
+        "answer": "clever",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "effort that is steady as well as careful",
+    "mental_hook": "Keeps at it, and keeps at it carefully.",
+    "semantic_hint": "The word for a student who works steadily every day rather than cramming."
+  },
+  "diminutive": {
+    "accepted_concepts": [
+      "extremely small",
+      "tiny",
+      "minute",
+      "very small in stature",
+      "petite"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "becoming less",
+        "misconception": "takes the verb 'diminish' and misses the size"
+      },
+      {
+        "answer": "enormous",
+        "misconception": "inverts smallness into vastness"
+      }
+    ],
+    "required_nuance": "small in size, of a thing or a person",
+    "mental_hook": "Small, and the word makes a point of it.",
+    "semantic_hint": "The word for a person notably small in stature."
+  },
+  "din": {
+    "accepted_concepts": [
+      "a loud continuous noise",
+      "a racket",
+      "an uproar",
+      "a sustained clamour",
+      "a wall of sound"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an evening meal",
+        "misconception": "hears the sound-alike 'dinner'"
+      },
+      {
+        "answer": "silence",
+        "misconception": "inverts noise into quiet"
+      }
+    ],
+    "required_nuance": "noise that does not let up",
+    "mental_hook": "Not a bang. A wall of it, going on.",
+    "semantic_hint": "The unrelenting noise of a factory floor."
+  },
+  "dingy": {
+    "accepted_concepts": [
+      "dirty and drab",
+      "grimy",
+      "shabby and dull",
+      "depressingly dim",
+      "dulled by neglect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small boat",
+        "misconception": "hears the sound-alike 'dinghy'"
+      },
+      {
+        "answer": "bright",
+        "misconception": "inverts dullness into brilliance"
+      }
+    ],
+    "required_nuance": "dirty, dull and depressing all at once",
+    "mental_hook": "Not filthy. Just grey and unloved.",
+    "semantic_hint": "The word for a room with yellowed walls and one weak bulb."
+  },
+  "dint": {
+    "accepted_concepts": [
+      "force applied",
+      "the means by which something is achieved",
+      "sheer effort",
+      "the power of something",
+      "the agency by which a thing happens"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small hollow in a surface",
+        "misconception": "hears the sound-alike 'dent'"
+      },
+      {
+        "answer": "weakness",
+        "misconception": "inverts force into feebleness"
+      }
+    ],
+    "required_nuance": "survives almost only in one fixed phrase",
+    "mental_hook": "Survives in one phrase: \"by dint of\".",
+    "semantic_hint": "The word that appears almost nowhere except in the phrase meaning \"by force of\"."
+  },
+  "dirge": {
+    "accepted_concepts": [
+      "a mournful song",
+      "a funeral lament",
+      "an elegy",
+      "a slow song of mourning",
+      "a requiem"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a cheerful tune",
+        "misconception": "inverts mourning into celebration"
+      },
+      {
+        "answer": "a raised ridge",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "slow and mournful, sung for the dead",
+    "mental_hook": "The slow song at the graveside.",
+    "semantic_hint": "The slow mournful song sung at a funeral."
+  },
+  "disabuse": {
+    "accepted_concepts": [
+      "free someone from a mistaken belief",
+      "undeceive",
+      "correct a false impression",
+      "set someone straight",
+      "rid of an error"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to mistreat",
+        "misconception": "hears the word 'abuse' and misses the 'dis-'"
+      },
+      {
+        "answer": "to mislead",
+        "misconception": "inverts correcting into deceiving"
+      }
+    ],
+    "required_nuance": "removing an error, never causing harm",
+    "mental_hook": "The 'dis-' undoes the abuse. It means to set right.",
+    "semantic_hint": "What you do when you correct someone's comfortable misunderstanding."
+  },
+  "disaffected": {
+    "accepted_concepts": [
+      "discontented and no longer loyal",
+      "alienated from a cause",
+      "disgruntled",
+      "estranged from a group",
+      "having lost faith in it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "untouched by something",
+        "misconception": "reads the 'dis-' as merely unaffected"
+      },
+      {
+        "answer": "loyal",
+        "misconception": "inverts estrangement into allegiance"
+      }
+    ],
+    "required_nuance": "loyalty lost, not merely unhappiness",
+    "mental_hook": "Not just unhappy. No longer on side.",
+    "semantic_hint": "The word for members who have stopped believing in the party they joined."
+  },
+  "disapprobation": {
+    "accepted_concepts": [
+      "strong moral disapproval",
+      "condemnation",
+      "censure",
+      "a stern judgement against something",
+      "expressed disapproval"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "approval",
+        "misconception": "misses the 'dis-' and inverts the sense"
+      },
+      {
+        "answer": "a trial period",
+        "misconception": "hears the sound-alike 'probation'"
+      }
+    ],
+    "required_nuance": "disapproval carrying moral weight",
+    "mental_hook": "Disapproval, in its most formal robes.",
+    "semantic_hint": "The formal moral disapproval a community directs at a scandal."
+  },
+  "discern": {
+    "accepted_concepts": [
+      "perceive clearly",
+      "make out",
+      "distinguish one thing from another",
+      "detect with care",
+      "recognise despite difficulty"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to overlook",
+        "misconception": "inverts perceiving into missing"
+      },
+      {
+        "answer": "to worry about",
+        "misconception": "hears the sound-alike ending of 'concern'"
+      }
+    ],
+    "required_nuance": "perceiving something that is not obvious",
+    "mental_hook": "Seeing what is hard to see.",
+    "semantic_hint": "What you do when you make out a shape in poor light."
+  },
+  "discernible": {
+    "accepted_concepts": [
+      "able to be made out",
+      "perceptible",
+      "detectable",
+      "noticeable if you look",
+      "capable of being distinguished"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "invisible",
+        "misconception": "inverts perceptible into undetectable"
+      },
+      {
+        "answer": "showing good judgement",
+        "misconception": "confuses it with discerning"
+      }
+    ],
+    "required_nuance": "can be made out, said of the thing seen",
+    "mental_hook": "About the thing seen, not the one seeing.",
+    "semantic_hint": "The word for a difference small but still just about visible."
+  },
+  "discerning": {
+    "accepted_concepts": [
+      "showing good judgement",
+      "perceptive",
+      "astute in taste",
+      "judicious",
+      "able to tell quality"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "able to be perceived",
+        "misconception": "confuses it with discernible"
+      },
+      {
+        "answer": "indiscriminate",
+        "misconception": "inverts fine judgement into indifference"
+      }
+    ],
+    "required_nuance": "about the one judging, not the thing judged",
+    "mental_hook": "About the one seeing, not the thing seen.",
+    "semantic_hint": "The word for a reader who can spot a good book from a merely popular one."
+  },
+  "discomfit": {
+    "accepted_concepts": [
+      "make uneasy",
+      "embarrass",
+      "disconcert",
+      "unsettle someone",
+      "throw off balance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make physically uncomfortable",
+        "misconception": "hears 'comfort' and takes the bodily sense"
+      },
+      {
+        "answer": "to reassure",
+        "misconception": "inverts unsettling into soothing"
+      }
+    ],
+    "required_nuance": "unsettling the mind, never the body",
+    "mental_hook": "Nothing to do with comfort. It means to unsettle.",
+    "semantic_hint": "What an unexpected question does to a confident speaker."
+  },
+  "discomfiting": {
+    "accepted_concepts": [
+      "causing unease",
+      "unsettling",
+      "disconcerting",
+      "awkward to be faced with",
+      "throwing one off balance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "physically uncomfortable",
+        "misconception": "hears 'comfort' and takes the bodily sense"
+      },
+      {
+        "answer": "reassuring",
+        "misconception": "inverts unsettling into soothing"
+      }
+    ],
+    "required_nuance": "unsettles the mind, never the body",
+    "mental_hook": "Awkward, not uncomfortable.",
+    "semantic_hint": "The word for a silence that makes everyone in the room shift in their seats."
+  },
+  "disconcert": {
+    "accepted_concepts": [
+      "unsettle",
+      "fluster",
+      "throw off balance",
+      "perturb",
+      "rattle someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to cancel a performance",
+        "misconception": "hears the word 'concert'"
+      },
+      {
+        "answer": "to steady",
+        "misconception": "inverts unsettling into calming"
+      }
+    ],
+    "required_nuance": "knocking someone's composure off",
+    "mental_hook": "Knocks the composure out of someone.",
+    "semantic_hint": "What a sudden hostile question does to a witness."
+  },
+  "disconsolate": {
+    "accepted_concepts": [
+      "unable to be comforted",
+      "deeply unhappy",
+      "inconsolable",
+      "desolate with grief",
+      "forlorn"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a games machine",
+        "misconception": "hears the word 'console'"
+      },
+      {
+        "answer": "cheerful",
+        "misconception": "inverts grief into good spirits"
+      }
+    ],
+    "required_nuance": "grief beyond the reach of comfort",
+    "mental_hook": "Past comforting.",
+    "semantic_hint": "How someone is left when no words of comfort help at all."
+  },
+  "discord": {
+    "accepted_concepts": [
+      "disagreement",
+      "strife between people",
+      "harsh conflict",
+      "dissension",
+      "friction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "harmony",
+        "misconception": "inverts conflict into agreement"
+      },
+      {
+        "answer": "a length of rope",
+        "misconception": "hears the word 'cord'"
+      }
+    ],
+    "required_nuance": "conflict, in people or in sound",
+    "mental_hook": "Sounds clashing, or people clashing.",
+    "semantic_hint": "What breaks out in a committee that used to agree about everything."
+  },
+  "discordant": {
+    "accepted_concepts": [
+      "clashing",
+      "dissonant",
+      "not in harmony",
+      "jarring to the ear",
+      "incongruous with the rest"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "harmonious",
+        "misconception": "inverts clashing into blending"
+      },
+      {
+        "answer": "bound with rope",
+        "misconception": "hears the word 'cord'"
+      }
+    ],
+    "required_nuance": "clashing, whether sounds or elements",
+    "mental_hook": "Does not fit with the rest, and you can hear it.",
+    "semantic_hint": "The word for a note that plainly does not belong in the chord."
+  },
+  "discount": {
+    "accepted_concepts": [
+      "disregard",
+      "treat as unimportant",
+      "dismiss from consideration",
+      "play down",
+      "set aside as unreliable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a price reduction",
+        "misconception": "takes the noun sense for the verb"
+      },
+      {
+        "answer": "to take seriously",
+        "misconception": "inverts dismissing into weighing"
+      }
+    ],
+    "required_nuance": "dismissing a claim, not reducing a price",
+    "mental_hook": "The tested sense ignores a claim, not a price.",
+    "semantic_hint": "What a judge does to testimony they find unreliable."
+  },
+  "discourse": {
+    "accepted_concepts": [
+      "formal discussion",
+      "an extended treatment of a subject",
+      "a treatise",
+      "sustained communication",
+      "a dialogue on a theme"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a rough route",
+        "misconception": "hears 'course' and takes the path sense"
+      },
+      {
+        "answer": "a brief remark",
+        "misconception": "loses the extended quality"
+      }
+    ],
+    "required_nuance": "extended and formal, never a chat",
+    "mental_hook": "Not conversation. Sustained treatment.",
+    "semantic_hint": "The word for extended formal discussion of a subject."
+  },
+  "discredit": {
+    "accepted_concepts": [
+      "damage the reputation of",
+      "undermine believability",
+      "cast doubt on",
+      "disgrace",
+      "show to be unreliable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to refuse a loan",
+        "misconception": "hears 'credit' in its financial sense"
+      },
+      {
+        "answer": "to vouch for",
+        "misconception": "inverts undermining into endorsing"
+      }
+    ],
+    "required_nuance": "destroying trust in a person or a claim",
+    "mental_hook": "Takes the trust away.",
+    "semantic_hint": "What one revealed lie does to a whole body of testimony."
+  },
+  "discreet": {
+    "accepted_concepts": [
+      "careful to avoid embarrassment",
+      "tactful",
+      "prudent about what one says",
+      "circumspect",
+      "keeping things quiet"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "separate and distinct",
+        "misconception": "confuses it with its homophone"
+      },
+      {
+        "answer": "tactless",
+        "misconception": "inverts tact into blundering"
+      }
+    ],
+    "required_nuance": "careful with information, so as to spare embarrassment",
+    "mental_hook": "Two 'e's together: this one keeps a secret.",
+    "semantic_hint": "The word for someone who can be trusted with a secret."
+  },
+  "discrepancy": {
+    "accepted_concepts": [
+      "an inconsistency",
+      "a difference between figures that should match",
+      "a disparity",
+      "a mismatch in the evidence",
+      "a divergence between accounts"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "agreement",
+        "misconception": "inverts mismatch into consistency"
+      },
+      {
+        "answer": "a worn-out thing",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "two things that should agree and do not",
+    "mental_hook": "The numbers should match. They do not.",
+    "semantic_hint": "What an auditor finds when two sets of figures should match and do not."
+  },
+  "discrete": {
+    "accepted_concepts": [
+      "separate and distinct",
+      "individually separate",
+      "existing as distinct units",
+      "unconnected to the others",
+      "not continuous"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "tactful",
+        "misconception": "confuses it with its homophone"
+      },
+      {
+        "answer": "continuous",
+        "misconception": "inverts separate units into an unbroken whole"
+      }
+    ],
+    "required_nuance": "separate units, never a continuum",
+    "mental_hook": "The 'e's are apart: this one means separate.",
+    "semantic_hint": "The word for quantities that come in whole separate units rather than a continuous range."
+  },
+  "discretion": {
+    "accepted_concepts": [
+      "freedom to decide for oneself",
+      "the power to choose",
+      "good judgement in conduct",
+      "prudent restraint",
+      "latitude to act as one sees fit"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an obligation",
+        "misconception": "inverts freedom to choose into a requirement"
+      },
+      {
+        "answer": "separateness",
+        "misconception": "confuses it with discrete"
+      }
+    ],
+    "required_nuance": "the freedom to judge, or the judgement itself",
+    "mental_hook": "Left to you, and expected to be exercised well.",
+    "semantic_hint": "What a judge has when the law lets them choose the sentence."
+  },
+  "discretionary": {
+    "accepted_concepts": [
+      "left to individual judgement",
+      "optional",
+      "at one's own choosing",
+      "not fixed by rule",
+      "elective"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "compulsory",
+        "misconception": "inverts optional into required"
+      },
+      {
+        "answer": "separate",
+        "misconception": "confuses it with discrete"
+      }
+    ],
+    "required_nuance": "the choice is deliberately left open",
+    "mental_hook": "Yours to decide, within limits.",
+    "semantic_hint": "The word for spending a manager may make or not, as they judge best."
+  },
+  "discriminate": {
+    "accepted_concepts": [
+      "distinguish between things",
+      "tell apart carefully",
+      "treat unfairly",
+      "single out for worse treatment",
+      "make a distinction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to treat everyone alike",
+        "misconception": "inverts both senses at once"
+      },
+      {
+        "answer": "to describe",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "telling apart, or unfairly singling out",
+    "mental_hook": "One sense is a skill. The other is a wrong.",
+    "semantic_hint": "What a wine expert does between vintages, and what a bad employer does between applicants."
+  },
+  "discriminating": {
+    "accepted_concepts": [
+      "having refined judgement",
+      "perceptive about quality",
+      "selective",
+      "fastidious in taste",
+      "able to tell fine differences"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "treating people unfairly",
+        "misconception": "takes the other sense of the verb"
+      },
+      {
+        "answer": "undiscerning",
+        "misconception": "inverts fine judgement into indifference"
+      }
+    ],
+    "required_nuance": "refined taste, never unfair treatment",
+    "mental_hook": "The praising sense, not the damning one.",
+    "semantic_hint": "The word for a palate that can tell one vintage from another."
+  },
+  "discursive": {
+    "accepted_concepts": [
+      "rambling",
+      "moving from topic to topic",
+      "digressive",
+      "wandering in style",
+      "meandering away from the point"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "concise",
+        "misconception": "inverts rambling into brevity"
+      },
+      {
+        "answer": "joined-up handwriting",
+        "misconception": "hears the shared ending of 'cursive'"
+      }
+    ],
+    "required_nuance": "wandering across topics rather than staying put",
+    "mental_hook": "Never stays on one thing for long.",
+    "semantic_hint": "The word for an essay that wanders across six subjects without settling."
+  },
+  "disdain": {
+    "accepted_concepts": [
+      "contempt",
+      "scorn for something beneath one",
+      "haughty dismissal",
+      "derision",
+      "a refusal to take seriously"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "admiration",
+        "misconception": "inverts contempt into esteem"
+      },
+      {
+        "answer": "a mark on cloth",
+        "misconception": "hears the word 'stain' inside it"
+      }
+    ],
+    "required_nuance": "contempt with a sense of superiority in it",
+    "mental_hook": "Too good for it, and showing it.",
+    "semantic_hint": "The scorn someone shows for an offer they think beneath them."
+  },
+  "disembark": {
+    "accepted_concepts": [
+      "go ashore",
+      "leave a ship",
+      "get off a vehicle",
+      "alight from a vessel",
+      "land from a boat"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to board",
+        "misconception": "inverts leaving into getting on"
+      },
+      {
+        "answer": "to strip a tree",
+        "misconception": "reads 'bark' as a tree covering"
+      }
+    ],
+    "required_nuance": "getting off, usually a ship or a plane",
+    "mental_hook": "The opposite of going aboard.",
+    "semantic_hint": "What passengers do when the ship finally reaches port."
+  },
+  "disenfranchise": {
+    "accepted_concepts": [
+      "deprive of the vote",
+      "strip of a right",
+      "exclude from participation",
+      "take away someone's say",
+      "remove a right of citizenship"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to grant the vote",
+        "misconception": "inverts depriving into enfranchising"
+      },
+      {
+        "answer": "to close a chain of shops",
+        "misconception": "hears 'franchise' in its commercial sense"
+      }
+    ],
+    "required_nuance": "taking away a right, usually the vote",
+    "mental_hook": "Takes the vote away.",
+    "semantic_hint": "What a law does when it removes a group's right to vote."
+  },
+  "disentangle": {
+    "accepted_concepts": [
+      "free from knots",
+      "unravel",
+      "extricate from complication",
+      "separate what is tangled",
+      "sort out a mess"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to complicate",
+        "misconception": "inverts unravelling into knotting"
+      },
+      {
+        "answer": "to comb hair only",
+        "misconception": "narrows it to one application"
+      }
+    ],
+    "required_nuance": "separating what has knotted, literally or figuratively",
+    "mental_hook": "Getting the knots out, of string or of an argument.",
+    "semantic_hint": "What you do to a fishing line, and to a hopelessly confused argument."
+  },
+  "disgorge": {
+    "accepted_concepts": [
+      "discharge forcibly",
+      "pour out",
+      "give up unwillingly",
+      "surrender what was taken",
+      "expel"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to swallow",
+        "misconception": "inverts expelling into taking in"
+      },
+      {
+        "answer": "a narrow ravine",
+        "misconception": "takes the noun and misses the verb"
+      }
+    ],
+    "required_nuance": "giving out, usually reluctantly or forcefully",
+    "mental_hook": "Made to give it back.",
+    "semantic_hint": "What a court orders a company to do with profits it should not have made."
+  },
+  "disheartened": {
+    "accepted_concepts": [
+      "having lost hope",
+      "discouraged",
+      "dispirited",
+      "downcast",
+      "drained of enthusiasm"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "encouraged",
+        "misconception": "inverts discouragement into heartening"
+      },
+      {
+        "answer": "cruel",
+        "misconception": "reads 'heart' and takes the heartless sense"
+      }
+    ],
+    "required_nuance": "hope or enthusiasm drained away",
+    "mental_hook": "The heart has gone out of it.",
+    "semantic_hint": "How a team feels after a third defeat in a row."
+  },
+  "disillusion": {
+    "accepted_concepts": [
+      "free from a pleasant but false belief",
+      "disenchant",
+      "undeceive",
+      "strip away a comforting falsehood",
+      "show the unwelcome truth"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to deceive",
+        "misconception": "inverts removing the illusion into creating one"
+      },
+      {
+        "answer": "to sadden generally",
+        "misconception": "confuses losing an illusion with unhappiness of any kind"
+      }
+    ],
+    "required_nuance": "removing a comfortable falsehood, which usually hurts",
+    "mental_hook": "Takes the illusion away, and it stings.",
+    "semantic_hint": "What finding out the truth does to someone's comfortable belief."
   }
 }
