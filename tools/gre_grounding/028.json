@@ -1,4 +1,1324 @@
 {
+  "turgid": {
+    "accepted_concepts": [
+      "pompously overblown in style",
+      "swollen with unnecessary grandeur",
+      "bombastic in language",
+      "distended",
+      "inflated past what the sense needs"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "concise and plain",
+        "misconception": "inverts inflated grandeur into spare clarity"
+      },
+      {
+        "answer": "depravity of character",
+        "misconception": "confuses inflated style with the near-twin about wickedness"
+      }
+    ],
+    "required_nuance": "swollen, in tissue or in prose",
+    "mental_hook": "Swollen. Prose or flesh.",
+    "semantic_hint": "The word for writing so inflated nobody finishes the paragraph."
+  },
+  "turpitude": {
+    "accepted_concepts": [
+      "depravity",
+      "wickedness of character",
+      "moral corruption",
+      "baseness in conduct",
+      "vileness of behaviour"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "integrity",
+        "misconception": "inverts depravity into virtue"
+      },
+      {
+        "answer": "pompously overblown",
+        "misconception": "confuses moral vileness with the near-twin about swollen prose"
+      }
+    ],
+    "required_nuance": "moral baseness, usually in a legal phrase",
+    "mental_hook": "Wickedness, in the language of the statute.",
+    "semantic_hint": "The legal phrase for the moral baseness that bars someone from a country."
+  },
+  "tutelage": {
+    "accepted_concepts": [
+      "instruction under a mentor",
+      "guardianship of a learner",
+      "the state of being taught by someone",
+      "mentorship",
+      "protective guidance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "learning entirely alone",
+        "misconception": "inverts being under a mentor into self-teaching"
+      },
+      {
+        "answer": "a fee paid for schooling",
+        "misconception": "hears the sound-alike about school fees"
+      }
+    ],
+    "required_nuance": "being taught or protected by a named guide",
+    "mental_hook": "Under someone's wing, and learning.",
+    "semantic_hint": "The word for the years a young painter spends under a master."
+  },
+  "tyro": {
+    "accepted_concepts": [
+      "a beginner",
+      "a novice at something",
+      "someone new to a craft",
+      "a raw learner",
+      "one without experience yet"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a seasoned veteran",
+        "misconception": "inverts the beginner into the expert"
+      },
+      {
+        "answer": "a tyrant",
+        "misconception": "hears the sound-alike about a despot"
+      }
+    ],
+    "required_nuance": "new to the activity and unpractised",
+    "mental_hook": "Brand new at it.",
+    "semantic_hint": "The word for someone in their first month at a difficult craft."
+  },
+  "ubiquitous": {
+    "accepted_concepts": [
+      "present everywhere",
+      "found in every place at once",
+      "seemingly inescapable",
+      "universal in presence",
+      "turning up wherever one looks"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "rare and hard to find",
+        "misconception": "inverts being everywhere into scarcity"
+      },
+      {
+        "answer": "applying to all cases",
+        "misconception": "confuses physical presence everywhere with the near-twin about general application"
+      }
+    ],
+    "required_nuance": "everywhere in presence, not in application",
+    "mental_hook": "Everywhere you look.",
+    "semantic_hint": "The word for mobile phones in every hand in every city."
+  },
+  "ulterior": {
+    "accepted_concepts": [
+      "hidden beyond what is stated",
+      "kept back from what is admitted",
+      "concealed behind the declared reason",
+      "undisclosed in intention",
+      "lying beneath the stated purpose"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "openly stated",
+        "misconception": "inverts a concealed motive into a declared one"
+      },
+      {
+        "answer": "later in time",
+        "misconception": "takes the older sense about what lies beyond and loses the concealment"
+      }
+    ],
+    "required_nuance": "a motive held back behind the stated one",
+    "mental_hook": "The real reason, unstated.",
+    "semantic_hint": "The word for the hidden motive behind a suspiciously generous offer."
+  },
+  "umbrage": {
+    "accepted_concepts": [
+      "offence taken at something",
+      "resentment at a perceived slight",
+      "annoyance at being disrespected",
+      "a sense of having been insulted",
+      "pique at a supposed affront"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pleasure at a compliment",
+        "misconception": "inverts taking offence into being gratified"
+      },
+      {
+        "answer": "a shaded area",
+        "misconception": "takes the obsolete literal sense about shade"
+      }
+    ],
+    "required_nuance": "offence taken, whether or not it was meant",
+    "mental_hook": "Took it badly. Perhaps nothing was meant.",
+    "semantic_hint": "What someone takes when a remark is read as an insult."
+  },
+  "unadorned": {
+    "accepted_concepts": [
+      "plain and without decoration",
+      "bare of ornament",
+      "simple in presentation",
+      "austere in appearance",
+      "stripped of embellishment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ornate",
+        "misconception": "inverts bareness into decoration"
+      },
+      {
+        "answer": "genuine in manner",
+        "misconception": "confuses lack of ornament with the near-twin about being natural"
+      }
+    ],
+    "required_nuance": "without ornament, as a description of a thing",
+    "mental_hook": "Nothing added to it.",
+    "semantic_hint": "The word for a whitewashed chapel with no carving anywhere."
+  },
+  "unaffected": {
+    "accepted_concepts": [
+      "genuine in manner",
+      "natural rather than put on",
+      "unpretentious in bearing",
+      "free of pose",
+      "sincere without display"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pretentious",
+        "misconception": "inverts naturalness into affectation"
+      },
+      {
+        "answer": "left unchanged by an event",
+        "misconception": "takes the other sense and misses the tested one about manner"
+      }
+    ],
+    "required_nuance": "the tested sense is naturalness of manner",
+    "mental_hook": "No pose. Just themselves.",
+    "semantic_hint": "The word for a famous person who behaves exactly as they always did."
+  },
+  "unalloyed": {
+    "accepted_concepts": [
+      "pure and unmixed",
+      "unqualified by anything else",
+      "absolute in quality",
+      "not diluted by any admixture",
+      "complete without reservation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "qualified and mixed",
+        "misconception": "inverts purity into dilution"
+      },
+      {
+        "answer": "not made of metal",
+        "misconception": "reads the metallurgical root literally and loses the figurative sense"
+      }
+    ],
+    "required_nuance": "unmixed, and so complete of its kind",
+    "mental_hook": "Nothing mixed in to spoil it.",
+    "semantic_hint": "The word for joy with not a trace of anything else in it."
+  },
+  "unanimity": {
+    "accepted_concepts": [
+      "complete agreement",
+      "consensus with no dissent",
+      "accord among everyone present",
+      "concord without exception",
+      "all being of one mind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "open disagreement",
+        "misconception": "inverts full agreement into dissent"
+      },
+      {
+        "answer": "a majority view",
+        "misconception": "confuses everyone agreeing with most agreeing"
+      }
+    ],
+    "required_nuance": "everyone agrees, not merely most",
+    "mental_hook": "Not most. All.",
+    "semantic_hint": "What a jury needs before it can convict in some courts."
+  },
+  "unassailable": {
+    "accepted_concepts": [
+      "impossible to attack",
+      "not open to dispute",
+      "beyond challenge",
+      "secure against any objection",
+      "impregnable in position"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "easily disputed",
+        "misconception": "inverts being beyond challenge into being vulnerable"
+      },
+      {
+        "answer": "modest in manner",
+        "misconception": "confuses being beyond attack with the near-twin about modesty"
+      }
+    ],
+    "required_nuance": "cannot be attacked, in war or in argument",
+    "mental_hook": "No angle of attack exists.",
+    "semantic_hint": "The word for a lead too large to be overturned in the final round."
+  },
+  "unassuming": {
+    "accepted_concepts": [
+      "modest and unpretentious",
+      "making no claim to importance",
+      "self-effacing in manner",
+      "quiet about one's own standing",
+      "humble in bearing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "boastful",
+        "misconception": "inverts modesty into self-advertisement"
+      },
+      {
+        "answer": "impossible to attack",
+        "misconception": "confuses modesty with the near-twin about being beyond challenge"
+      }
+    ],
+    "required_nuance": "claiming nothing for oneself",
+    "mental_hook": "Never mentions their own part in it.",
+    "semantic_hint": "The word for a senior figure nobody would pick out of a room."
+  },
+  "uncanny": {
+    "accepted_concepts": [
+      "strange in an unsettling way",
+      "eerie",
+      "so accurate it is unnerving",
+      "beyond ordinary explanation",
+      "weirdly beyond the natural"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly ordinary",
+        "misconception": "inverts the eerie into the unremarkable"
+      },
+      {
+        "answer": "unable to be opened",
+        "misconception": "reads the second half as being about a tin"
+      }
+    ],
+    "required_nuance": "strange enough to unsettle, often by being too exact",
+    "mental_hook": "Too exact to be comfortable.",
+    "semantic_hint": "The word for a resemblance so close it makes people uneasy."
+  },
+  "uncompromising": {
+    "accepted_concepts": [
+      "refusing to concede anything",
+      "unwilling to soften a position",
+      "rigid in demands",
+      "inflexible in principle",
+      "giving no ground at all"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "accommodating",
+        "misconception": "inverts giving no ground into flexibility"
+      },
+      {
+        "answer": "morally unacceptable",
+        "misconception": "confuses inflexibility with the near-twin about what cannot be defended"
+      }
+    ],
+    "required_nuance": "refusing to give ground, for good or ill",
+    "mental_hook": "Will not meet you halfway.",
+    "semantic_hint": "The word for a standard of quality that permits no exception."
+  },
+  "unconscionable": {
+    "accepted_concepts": [
+      "morally unacceptable",
+      "outrageous beyond defence",
+      "excessive past all reason",
+      "indefensible in conscience",
+      "shockingly unreasonable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly reasonable",
+        "misconception": "inverts the indefensible into the acceptable"
+      },
+      {
+        "answer": "unaware and insensible",
+        "misconception": "hears the root about consciousness rather than conscience"
+      }
+    ],
+    "required_nuance": "so wrong that conscience cannot allow it",
+    "mental_hook": "No conscience could permit it.",
+    "semantic_hint": "The word for a contract term a court refuses to enforce as grossly unfair."
+  },
+  "uncouth": {
+    "accepted_concepts": [
+      "lacking manners",
+      "crude in behaviour",
+      "boorish",
+      "rough and unrefined",
+      "socially coarse"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "polished and refined",
+        "misconception": "inverts coarseness into refinement"
+      },
+      {
+        "answer": "strange and eerie",
+        "misconception": "confuses coarse manners with the near-twin about the unsettling"
+      }
+    ],
+    "required_nuance": "coarse in manners, not in morals",
+    "mental_hook": "Bad manners, plainly on show.",
+    "semantic_hint": "The word for eating with the fingers at a formal dinner."
+  },
+  "unction": {
+    "accepted_concepts": [
+      "exaggerated earnestness of manner",
+      "oily insincerity in speech",
+      "a smoothness that rings false",
+      "excessive show of feeling",
+      "greasy plausibility"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plain sincerity",
+        "misconception": "inverts oily display into genuine feeling"
+      },
+      {
+        "answer": "a formal legal action",
+        "misconception": "hears the sound-alike about a court order"
+      }
+    ],
+    "required_nuance": "earnestness laid on until it seems false",
+    "mental_hook": "Oil, applied to the voice.",
+    "semantic_hint": "The word for a funeral director's professionally sorrowful manner."
+  },
+  "unctuous": {
+    "accepted_concepts": [
+      "excessively smooth and insincere",
+      "oily in manner",
+      "smarmy",
+      "obsequious with false warmth",
+      "greasily ingratiating"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "blunt and sincere",
+        "misconception": "inverts oily smoothness into plain honesty"
+      },
+      {
+        "answer": "morally unacceptable",
+        "misconception": "confuses false charm with the near-twin about what cannot be defended"
+      }
+    ],
+    "required_nuance": "smoothness that reads as insincere",
+    "mental_hook": "So smooth it leaves a film.",
+    "semantic_hint": "The word for a salesman whose warmth nobody believes for a second."
+  },
+  "undercut": {
+    "accepted_concepts": [
+      "weaken the basis of something",
+      "offer at a lower price than a rival",
+      "undermine an argument",
+      "sell more cheaply to take the trade",
+      "cut the ground from beneath"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to bolster",
+        "misconception": "inverts weakening into strengthening"
+      },
+      {
+        "answer": "to weaken gradually and covertly",
+        "misconception": "confuses it with the near-twin about slow secret erosion"
+      }
+    ],
+    "required_nuance": "weakening the basis, or beating on price",
+    "mental_hook": "Cuts the ground away, or cuts the price.",
+    "semantic_hint": "What one exception does to a rule, and what a cheaper rival does to a price."
+  },
+  "undermine": {
+    "accepted_concepts": [
+      "weaken gradually and covertly",
+      "erode the foundation of something",
+      "sabotage from below",
+      "subvert by slow degrees",
+      "wear away support unseen"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to strengthen",
+        "misconception": "inverts eroding into reinforcing"
+      },
+      {
+        "answer": "to offer at a lower price",
+        "misconception": "confuses covert erosion with the near-twin about beating a price"
+      }
+    ],
+    "required_nuance": "gradual and usually covert weakening",
+    "mental_hook": "Digs away underneath, quietly.",
+    "semantic_hint": "What constant small criticisms do to someone's authority."
+  },
+  "underscore": {
+    "accepted_concepts": [
+      "emphasise",
+      "give extra weight to a point",
+      "highlight for attention",
+      "stress the importance of",
+      "draw attention to deliberately"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to downplay",
+        "misconception": "inverts emphasising into minimising"
+      },
+      {
+        "answer": "to weaken from below",
+        "misconception": "confuses emphasis with the near-twin about erosion"
+      }
+    ],
+    "required_nuance": "emphasising, not weakening",
+    "mental_hook": "A line under it, so you look.",
+    "semantic_hint": "What a sudden resignation does to a warning issued months earlier."
+  },
+  "understated": {
+    "accepted_concepts": [
+      "restrained in expression",
+      "subtle rather than showy",
+      "muted in effect",
+      "presented with deliberate modesty",
+      "playing it down rather than up"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ostentatious",
+        "misconception": "inverts restraint into display"
+      },
+      {
+        "answer": "not properly explained",
+        "misconception": "confuses deliberate restraint with insufficient statement"
+      }
+    ],
+    "required_nuance": "restraint chosen, not a failure to say enough",
+    "mental_hook": "Said quietly, on purpose.",
+    "semantic_hint": "The word for a black dress with no jewellery at all."
+  },
+  "undertake": {
+    "accepted_concepts": [
+      "commit to doing something",
+      "take on a task formally",
+      "pledge to carry out",
+      "embark on a piece of work",
+      "assume a responsibility"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to decline",
+        "misconception": "inverts taking on into refusing"
+      },
+      {
+        "answer": "to bury the dead",
+        "misconception": "hears the related trade and takes it for the verb"
+      }
+    ],
+    "required_nuance": "taking something on as a commitment",
+    "mental_hook": "Takes it on, and is now bound to it.",
+    "semantic_hint": "What a contractor does by agreeing to complete a job by a date."
+  },
+  "undertaking": {
+    "accepted_concepts": [
+      "a formal promise",
+      "a binding commitment given",
+      "a large task taken on",
+      "a venture embarked upon",
+      "a pledge one is held to"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a refusal to commit",
+        "misconception": "inverts a binding promise into a refusal"
+      },
+      {
+        "answer": "the business of funerals",
+        "misconception": "takes the related trade for the tested noun"
+      }
+    ],
+    "required_nuance": "a binding promise, or a substantial venture",
+    "mental_hook": "A promise you are held to, or a job you took on.",
+    "semantic_hint": "The word for a written promise a court accepts instead of an injunction."
+  },
+  "underwrite": {
+    "accepted_concepts": [
+      "guarantee financially",
+      "agree to cover any loss",
+      "back a venture with money",
+      "assume the financial risk of",
+      "finance by standing behind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to withdraw all backing",
+        "misconception": "inverts guaranteeing into refusing support"
+      },
+      {
+        "answer": "to write beneath a line",
+        "misconception": "reads the compound literally"
+      }
+    ],
+    "required_nuance": "taking on the financial risk for another",
+    "mental_hook": "Signs underneath, and carries the risk.",
+    "semantic_hint": "What an insurer does by agreeing to bear a risk for a premium."
+  },
+  "unearth": {
+    "accepted_concepts": [
+      "discover by searching",
+      "bring to light what was buried",
+      "dig up something hidden",
+      "uncover after long concealment",
+      "expose by investigation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to bury",
+        "misconception": "inverts bringing to light into concealing"
+      },
+      {
+        "answer": "to leave a place empty",
+        "misconception": "confuses discovery with the near-twin about vacating"
+      }
+    ],
+    "required_nuance": "finding what was hidden or buried",
+    "mental_hook": "Out of the ground, or out of the archive.",
+    "semantic_hint": "What a researcher does to a letter nobody has read in a century."
+  },
+  "unequivocal": {
+    "accepted_concepts": [
+      "leaving no doubt",
+      "admitting only one reading",
+      "categorical in statement",
+      "explicit beyond argument",
+      "clear without any hedging"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "open to two readings",
+        "misconception": "inverts a single clear meaning into ambiguity"
+      },
+      {
+        "answer": "beyond criticism",
+        "misconception": "confuses clarity with the near-twin about inoffensiveness"
+      }
+    ],
+    "required_nuance": "one meaning only, with no hedge",
+    "mental_hook": "One meaning. No hedging.",
+    "semantic_hint": "The word for a denial that leaves no room whatever for doubt."
+  },
+  "unexceptionable": {
+    "accepted_concepts": [
+      "beyond criticism",
+      "giving no grounds for objection",
+      "inoffensive to anyone",
+      "faultless in the sense of unobjectionable",
+      "impossible to take issue with"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "objectionable",
+        "misconception": "inverts the unobjectionable into the offensive"
+      },
+      {
+        "answer": "remarkable and out of the ordinary",
+        "misconception": "hears the sound-alike about being extraordinary"
+      }
+    ],
+    "required_nuance": "nobody can object, which is not the same as remarkable",
+    "mental_hook": "Nobody can object. Nobody is thrilled either.",
+    "semantic_hint": "The word for conduct so proper that no complaint could be made about it."
+  },
+  "unfaltering": {
+    "accepted_concepts": [
+      "steady and unwavering",
+      "never hesitating",
+      "holding firm throughout",
+      "resolute without a break",
+      "keeping on without weakening"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "hesitant",
+        "misconception": "inverts steadiness into wavering"
+      },
+      {
+        "answer": "unrestricted and free",
+        "misconception": "confuses steadiness with the near-twin about being unrestrained"
+      }
+    ],
+    "required_nuance": "never wavering, in resolve or step",
+    "mental_hook": "Not one hesitation.",
+    "semantic_hint": "The word for support that has not wavered once in twenty years."
+  },
+  "unfettered": {
+    "accepted_concepts": [
+      "unrestricted and free",
+      "released from all restraint",
+      "unhindered by rules",
+      "at liberty to act",
+      "not held back by any check"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "tightly constrained",
+        "misconception": "inverts freedom into restriction"
+      },
+      {
+        "answer": "never wavering",
+        "misconception": "confuses freedom from restraint with the near-twin about steadiness"
+      }
+    ],
+    "required_nuance": "free of restraints that were or could be imposed",
+    "mental_hook": "The chains are off.",
+    "semantic_hint": "The word for discretion a regulator exercises with no rules limiting it."
+  },
+  "unflappable": {
+    "accepted_concepts": [
+      "never becoming agitated",
+      "calm under any pressure",
+      "imperturbable",
+      "unshakable in composure",
+      "not to be rattled"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "easily flustered",
+        "misconception": "inverts steady composure into agitation"
+      },
+      {
+        "answer": "unable to fly",
+        "misconception": "reads the root about flapping literally"
+      }
+    ],
+    "required_nuance": "composure that nothing disturbs",
+    "mental_hook": "Nothing rattles them. Nothing.",
+    "semantic_hint": "The word for a pilot's voice during an emergency landing."
+  },
+  "ungainly": {
+    "accepted_concepts": [
+      "awkward in movement",
+      "clumsy and graceless",
+      "lacking coordination",
+      "moving without ease",
+      "gawky"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "graceful",
+        "misconception": "inverts clumsiness into elegance"
+      },
+      {
+        "answer": "bringing no profit",
+        "misconception": "hears the root about gain"
+      }
+    ],
+    "required_nuance": "clumsy in movement or shape",
+    "mental_hook": "Moves badly, and it shows.",
+    "semantic_hint": "The word for how a newborn foal moves in its first hour."
+  },
+  "unimpeachable": {
+    "accepted_concepts": [
+      "beyond doubt or reproach",
+      "not open to question",
+      "of unquestionable integrity",
+      "faultless in reliability",
+      "impossible to discredit"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dubious",
+        "misconception": "inverts the unquestionable into the doubtful"
+      },
+      {
+        "answer": "unable to be removed from office",
+        "misconception": "reads the political root literally"
+      }
+    ],
+    "required_nuance": "beyond challenge in credibility or character",
+    "mental_hook": "Nobody can call it into question.",
+    "semantic_hint": "The word for a source whose accuracy has never once been challenged."
+  },
+  "universal": {
+    "accepted_concepts": [
+      "applying to all cases",
+      "common to every member of a group",
+      "holding good everywhere",
+      "general without exception",
+      "shared by all"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "particular to one case",
+        "misconception": "inverts what applies to all into what applies to one"
+      },
+      {
+        "answer": "present everywhere at once",
+        "misconception": "confuses applying to all cases with the near-twin about physical presence"
+      }
+    ],
+    "required_nuance": "applying to all cases, not present in all places",
+    "mental_hook": "Applies to all. The near-twin is in all places.",
+    "semantic_hint": "The word for a right said to belong to every human being."
+  },
+  "unmitigated": {
+    "accepted_concepts": [
+      "absolute and not lessened",
+      "sheer without qualification",
+      "utter in degree",
+      "outright with nothing to soften it",
+      "complete and unrelieved"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "partial and qualified",
+        "misconception": "inverts the absolute into the hedged"
+      },
+      {
+        "answer": "not moderated by tempering",
+        "misconception": "confuses it with the near-twin about being unsoftened in character"
+      }
+    ],
+    "required_nuance": "nothing has lessened it at all",
+    "mental_hook": "Nothing softened it. Not one bit.",
+    "semantic_hint": "The word before disaster when the result was as bad as possible."
+  },
+  "unnerve": {
+    "accepted_concepts": [
+      "deprive of confidence",
+      "unsettle someone's composure",
+      "rattle",
+      "disconcert badly",
+      "shake a person's nerve"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to reassure",
+        "misconception": "inverts unsettling into steadying"
+      },
+      {
+        "answer": "to make insensible to pain",
+        "misconception": "reads the root about nerves literally"
+      }
+    ],
+    "required_nuance": "taking away someone's nerve or composure",
+    "mental_hook": "The nerve goes.",
+    "semantic_hint": "What a long silence from an interviewer does to a candidate."
+  },
+  "unprecedented": {
+    "accepted_concepts": [
+      "never having happened before",
+      "without any earlier parallel",
+      "novel in the whole record",
+      "unheard of until now",
+      "having no prior instance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "routine and common",
+        "misconception": "inverts the first of its kind into the everyday"
+      },
+      {
+        "answer": "not yet planned for",
+        "misconception": "confuses never having occurred with not being anticipated"
+      }
+    ],
+    "required_nuance": "no earlier case of it exists",
+    "mental_hook": "It has never happened before. Ever.",
+    "semantic_hint": "The word for a result nothing in the records comes close to."
+  },
+  "unprepossessing": {
+    "accepted_concepts": [
+      "unattractive at first sight",
+      "not creating a favourable impression",
+      "plain in appearance",
+      "nondescript",
+      "failing to impress on meeting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "immediately attractive",
+        "misconception": "inverts an unappealing first impression into a favourable one"
+      },
+      {
+        "answer": "owning nothing",
+        "misconception": "hears the root about possessions"
+      }
+    ],
+    "required_nuance": "the first impression is poor, whatever follows",
+    "mental_hook": "Poor first impression. Nothing more implied.",
+    "semantic_hint": "The word for a shabby building that turns out to be a fine restaurant."
+  },
+  "unpropitious": {
+    "accepted_concepts": [
+      "unfavourable to success",
+      "boding ill for what is planned",
+      "inauspicious in the circumstances",
+      "offering poor prospects",
+      "ominous as a sign"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "favourable",
+        "misconception": "inverts poor omens into good"
+      },
+      {
+        "answer": "improper and unbecoming",
+        "misconception": "confuses bad prospects with the near-twin about impropriety"
+      }
+    ],
+    "required_nuance": "circumstances working against success",
+    "mental_hook": "The signs are against it.",
+    "semantic_hint": "The word for a moment when everything argues against launching a venture."
+  },
+  "unremitting": {
+    "accepted_concepts": [
+      "never relaxing",
+      "continuing without any let-up",
+      "incessant in pressure",
+      "constant without pause",
+      "keeping on without relief"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "intermittent",
+        "misconception": "inverts unbroken continuation into occasional effort"
+      },
+      {
+        "answer": "given generously without limit",
+        "misconception": "confuses relentless continuation with the near-twin about open-handedness"
+      }
+    ],
+    "required_nuance": "no pause or slackening at any point",
+    "mental_hook": "Never once lets up.",
+    "semantic_hint": "The word for pressure that has not eased for a single day."
+  },
+  "unruly": {
+    "accepted_concepts": [
+      "disorderly and hard to control",
+      "resisting discipline",
+      "rowdy in behaviour",
+      "wayward and undisciplined",
+      "not to be kept in order"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "docile",
+        "misconception": "inverts disorder into obedience"
+      },
+      {
+        "answer": "having no written rules",
+        "misconception": "reads the compound literally"
+      }
+    ],
+    "required_nuance": "resisting control, in a person or a crowd",
+    "mental_hook": "Will not be kept in order.",
+    "semantic_hint": "The word for a class no supply teacher can settle."
+  },
+  "unscrupulous": {
+    "accepted_concepts": [
+      "without moral principles",
+      "unrestrained by conscience",
+      "dishonest in method",
+      "willing to do whatever succeeds",
+      "amoral in pursuit of an end"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "principled",
+        "misconception": "inverts a want of conscience into moral care"
+      },
+      {
+        "answer": "careless about detail",
+        "misconception": "confuses moral looseness with inattention to detail"
+      }
+    ],
+    "required_nuance": "no moral check on what one will do",
+    "mental_hook": "Nothing they would not do.",
+    "semantic_hint": "The word for a dealer who sells a car knowing the brakes are failing."
+  },
+  "unseemly": {
+    "accepted_concepts": [
+      "improper in the circumstances",
+      "in poor taste",
+      "unbecoming to the occasion",
+      "indecorous",
+      "offending against what is fitting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly proper",
+        "misconception": "inverts impropriety into good form"
+      },
+      {
+        "answer": "unfavourable in prospect",
+        "misconception": "confuses impropriety with the near-twin about poor omens"
+      }
+    ],
+    "required_nuance": "improper for the occasion, not immoral as such",
+    "mental_hook": "Not wicked. Just not done here.",
+    "semantic_hint": "The word for an argument about money at a graveside."
+  },
+  "unsparing": {
+    "accepted_concepts": [
+      "harshly frank",
+      "merciless in criticism",
+      "severe without softening",
+      "extremely generous in giving",
+      "lavish in what is provided"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "lenient and gentle",
+        "misconception": "inverts merciless severity into mildness"
+      },
+      {
+        "answer": "never relaxing in pressure",
+        "misconception": "confuses harsh frankness with the near-twin about incessant continuation"
+      }
+    ],
+    "required_nuance": "holding nothing back, in criticism or in giving",
+    "mental_hook": "Holds nothing back, praise or blame.",
+    "semantic_hint": "The word for a report that holds nothing back about its own side's failures."
+  },
+  "unstinting": {
+    "accepted_concepts": [
+      "given generously and without limit",
+      "wholehearted in what is offered",
+      "lavish without reservation",
+      "not held back at all",
+      "freely and fully given"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "grudging",
+        "misconception": "inverts generous giving into reluctant supply"
+      },
+      {
+        "answer": "harshly frank in criticism",
+        "misconception": "confuses generosity with the near-twin about severity"
+      }
+    ],
+    "required_nuance": "given fully and gladly, without measuring",
+    "mental_hook": "Given freely, and in full.",
+    "semantic_hint": "The word for praise offered without a single qualification."
+  },
+  "untempered": {
+    "accepted_concepts": [
+      "not moderated by anything",
+      "raw and unsoftened",
+      "without any restraining influence",
+      "unqualified by mercy or judgement",
+      "left at full strength"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "moderated and softened",
+        "misconception": "inverts the raw into the tempered"
+      },
+      {
+        "answer": "absolute in degree",
+        "misconception": "confuses a want of moderation with the near-twin about being unlessened"
+      }
+    ],
+    "required_nuance": "nothing has moderated it",
+    "mental_hook": "Nothing softened it on the way.",
+    "semantic_hint": "The word for justice applied with no mercy mixed in."
+  },
+  "untenable": {
+    "accepted_concepts": [
+      "impossible to defend",
+      "unable to be maintained",
+      "indefensible as a position",
+      "flawed past sustaining",
+      "no longer holdable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "easily defended",
+        "misconception": "inverts the indefensible into the sound"
+      },
+      {
+        "answer": "unwelcome and inappropriate",
+        "misconception": "confuses an indefensible position with the near-twin about the unfitting"
+      }
+    ],
+    "required_nuance": "cannot be held or defended any longer",
+    "mental_hook": "Cannot be held. Argument or ground.",
+    "semantic_hint": "The word for a minister's position after a third contradiction is exposed."
+  },
+  "untoward": {
+    "accepted_concepts": [
+      "unexpected and unwelcome",
+      "inappropriate in the circumstances",
+      "adverse in effect",
+      "improper as conduct",
+      "awkwardly unfavourable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "favourable and fitting",
+        "misconception": "inverts the unwelcome into the auspicious"
+      },
+      {
+        "answer": "impossible to defend",
+        "misconception": "confuses the unwelcome with the near-twin about an indefensible position"
+      }
+    ],
+    "required_nuance": "unexpected, and unwelcome or improper with it",
+    "mental_hook": "Not expected, and not welcome.",
+    "semantic_hint": "The phrase a report uses when nothing suspicious was found."
+  },
+  "untrammeled": {
+    "accepted_concepts": [
+      "not restricted",
+      "free of anything hampering",
+      "unhindered in action",
+      "at liberty without constraint",
+      "loosed from every check"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "hampered and restricted",
+        "misconception": "inverts freedom into restraint"
+      },
+      {
+        "answer": "not walked upon",
+        "misconception": "hears the sound-alike about trampling"
+      }
+    ],
+    "required_nuance": "free of what would hamper, as a state",
+    "mental_hook": "Nothing catching at it.",
+    "semantic_hint": "The word for imagination working with no rules imposed on it."
+  },
+  "unwonted": {
+    "accepted_concepts": [
+      "unusual for that person",
+      "out of the ordinary for the situation",
+      "uncharacteristic",
+      "not the customary thing",
+      "rare in this particular case"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "habitual and customary",
+        "misconception": "inverts the uncharacteristic into the usual"
+      },
+      {
+        "answer": "not desired",
+        "misconception": "hears the sound-alike about being unwanted"
+      }
+    ],
+    "required_nuance": "unusual for this person or case, not in general",
+    "mental_hook": "Unusual for them. Not unwanted.",
+    "semantic_hint": "The word for cheerfulness from someone who is never cheerful."
+  },
+  "upbraid": {
+    "accepted_concepts": [
+      "scold severely",
+      "reproach in strong terms",
+      "berate for a fault",
+      "rebuke at length",
+      "take someone to task"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to commend",
+        "misconception": "inverts severe scolding into praise"
+      },
+      {
+        "answer": "to weave hair together",
+        "misconception": "hears the word about plaiting"
+      }
+    ],
+    "required_nuance": "severe scolding, usually face to face",
+    "mental_hook": "Told off, thoroughly.",
+    "semantic_hint": "What a sergeant does to a recruit who forgot an order."
+  },
+  "upshot": {
+    "accepted_concepts": [
+      "the final outcome",
+      "the result that matters",
+      "what it all came to",
+      "the consequence in the end",
+      "the net effect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the original cause",
+        "misconception": "inverts the result into what produced it"
+      },
+      {
+        "answer": "an upward movement",
+        "misconception": "reads the compound literally"
+      }
+    ],
+    "required_nuance": "the outcome, summed up at the end",
+    "mental_hook": "What it all came to, in the end.",
+    "semantic_hint": "The word introducing what a long negotiation finally amounted to."
+  },
+  "urbane": {
+    "accepted_concepts": [
+      "suave and socially polished",
+      "sophisticated in manner",
+      "smoothly courteous",
+      "at ease in any company",
+      "elegantly worldly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "boorish",
+        "misconception": "inverts polish into crudeness"
+      },
+      {
+        "answer": "relating to towns and cities",
+        "misconception": "takes the near-identical geographic adjective for this one about manner"
+      }
+    ],
+    "required_nuance": "polish of manner, not location",
+    "mental_hook": "Polished manner. The near-twin means of the city.",
+    "semantic_hint": "The word for a diplomat equally comfortable at any table in Europe."
+  },
+  "usurp": {
+    "accepted_concepts": [
+      "seize power without right",
+      "take a position one has no claim to",
+      "appropriate authority wrongfully",
+      "commandeer a role",
+      "arrogate to oneself"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to relinquish",
+        "misconception": "inverts seizing into giving up"
+      },
+      {
+        "answer": "lending at excessive interest",
+        "misconception": "confuses seizing power with the near-twin about extortionate lending"
+      }
+    ],
+    "required_nuance": "taking power one has no right to",
+    "mental_hook": "Took the throne. Had no claim to it.",
+    "semantic_hint": "What a general does by taking the presidency in a coup."
+  },
+  "usury": {
+    "accepted_concepts": [
+      "lending at excessive interest",
+      "charging exorbitant rates on a loan",
+      "extortionate moneylending",
+      "profiting unfairly from a loan",
+      "loan-sharking"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "interest-free lending",
+        "misconception": "inverts extortionate rates into charging nothing"
+      },
+      {
+        "answer": "seizing power without right",
+        "misconception": "confuses extortionate lending with the near-twin about taking authority"
+      }
+    ],
+    "required_nuance": "the rate is the wrong, not the lending",
+    "mental_hook": "Lending. At a wicked rate.",
+    "semantic_hint": "The word for charging four hundred percent on a short-term loan."
+  },
+  "utilitarian": {
+    "accepted_concepts": [
+      "designed for use rather than beauty",
+      "functional above all",
+      "plain because practical",
+      "valuing usefulness over appearance",
+      "built to serve a purpose"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "purely decorative",
+        "misconception": "inverts function into ornament"
+      },
+      {
+        "answer": "generally useful to everyone",
+        "misconception": "confuses being built for use with the near-twin about applying to all"
+      }
+    ],
+    "required_nuance": "usefulness placed above appearance",
+    "mental_hook": "Built to work, not to look at.",
+    "semantic_hint": "The word for a concrete stairwell with no ornament anywhere."
+  },
+  "utter": {
+    "accepted_concepts": [
+      "complete and absolute",
+      "total in degree",
+      "sheer without qualification",
+      "out and out",
+      "unqualified in extent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "partial",
+        "misconception": "inverts the absolute into the qualified"
+      },
+      {
+        "answer": "outer or further out",
+        "misconception": "hears the root about what lies outside"
+      }
+    ],
+    "required_nuance": "absolute in degree, as an adjective",
+    "mental_hook": "Total. No qualification at all.",
+    "semantic_hint": "The word before nonsense when a claim has nothing whatever in it."
+  },
+  "utterly": {
+    "accepted_concepts": [
+      "completely",
+      "entirely without qualification",
+      "wholly",
+      "absolutely so",
+      "to the fullest degree"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "partially",
+        "misconception": "inverts the complete into the partial"
+      },
+      {
+        "answer": "spoken aloud",
+        "misconception": "hears the verb about saying something"
+      }
+    ],
+    "required_nuance": "to the fullest degree, as an adverb",
+    "mental_hook": "All the way. Not a bit less.",
+    "semantic_hint": "The adverb for being completely and entirely exhausted."
+  },
+  "vacate": {
+    "accepted_concepts": [
+      "leave a place empty",
+      "give up a position",
+      "quit premises",
+      "evacuate a building",
+      "relinquish an office"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to occupy",
+        "misconception": "inverts leaving empty into filling"
+      },
+      {
+        "answer": "a holiday",
+        "misconception": "hears the sound-alike about a break from work"
+      }
+    ],
+    "required_nuance": "leaving empty, a place or a post",
+    "mental_hook": "Out, and the place is empty.",
+    "semantic_hint": "What a tenant must do by noon on the last day of a lease."
+  },
   "vacillate": {
     "accepted_concepts": [
       "waver between choices",
