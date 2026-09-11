@@ -1318,5 +1318,885 @@
     "required_nuance": "moving, and usually with sadness in it",
     "mental_hook": "Moves you, and it hurts a little.",
     "semantic_hint": "The word for a reunion scene that leaves an audience silent."
+  },
+  "poise": {
+    "accepted_concepts": [
+      "graceful composure",
+      "self-possession under pressure",
+      "calm assurance of manner",
+      "aplomb",
+      "balance of bearing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "awkward fluster",
+        "misconception": "inverts composure into agitation"
+      },
+      {
+        "answer": "a toxic substance",
+        "misconception": "hears the sound-alike about something that kills"
+      }
+    ],
+    "required_nuance": "composure carried gracefully",
+    "mental_hook": "Calm, and it looks effortless.",
+    "semantic_hint": "The quality of someone who handles a hostile question without a flicker."
+  },
+  "polarize": {
+    "accepted_concepts": [
+      "divide into sharply opposed groups",
+      "split opinion into two camps",
+      "drive people to extremes",
+      "set two sides against each other",
+      "force a choice between extremes"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to unite",
+        "misconception": "inverts dividing into bringing together"
+      },
+      {
+        "answer": "to make cold",
+        "misconception": "hears the root about polar regions"
+      }
+    ],
+    "required_nuance": "dividing into two opposed extremes",
+    "mental_hook": "Everyone ends up at one end or the other.",
+    "semantic_hint": "What a divisive referendum does to a country's opinion."
+  },
+  "polarized": {
+    "accepted_concepts": [
+      "divided into opposing extremes",
+      "split into two hostile camps",
+      "left with no middle ground",
+      "sharply factional",
+      "driven apart into two poles"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "in broad agreement",
+        "misconception": "inverts a split into consensus"
+      },
+      {
+        "answer": "made very cold",
+        "misconception": "hears the root about polar regions"
+      }
+    ],
+    "required_nuance": "already split into two extremes",
+    "mental_hook": "Two camps, and nothing in between.",
+    "semantic_hint": "How a legislature is described when no vote crosses party lines."
+  },
+  "polemic": {
+    "accepted_concepts": [
+      "a strong verbal attack",
+      "a written assault on a position",
+      "a diatribe against something",
+      "a piece of sustained invective",
+      "a controversial attacking argument"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a speech of praise",
+        "misconception": "inverts attack into eulogy"
+      },
+      {
+        "answer": "a balanced survey",
+        "misconception": "loses the one-sided attack that defines it"
+      }
+    ],
+    "required_nuance": "an attacking argument, as a piece of work",
+    "mental_hook": "An attack, written down.",
+    "semantic_hint": "The word for a book written entirely to demolish one idea."
+  },
+  "polemical": {
+    "accepted_concepts": [
+      "strongly critical and controversial",
+      "written to attack a position",
+      "contentious in tone",
+      "combative in argument",
+      "disputatious"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "conciliatory",
+        "misconception": "inverts combativeness into peacemaking"
+      },
+      {
+        "answer": "neutral and even-handed",
+        "misconception": "loses the attacking stance that defines it"
+      }
+    ],
+    "required_nuance": "attacking in argument, not neutral",
+    "mental_hook": "Written to attack, not to weigh.",
+    "semantic_hint": "The word for an essay that takes one side and fights for it."
+  },
+  "policy": {
+    "accepted_concepts": [
+      "a course of action adopted",
+      "the settled approach of an organisation",
+      "a guiding principle for decisions",
+      "a protocol laid down",
+      "a strategy formally chosen"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single spontaneous decision",
+        "misconception": "confuses a settled approach with one ad hoc choice"
+      },
+      {
+        "answer": "shrewd in the circumstances",
+        "misconception": "confuses a course of action with the near-twin about prudence"
+      }
+    ],
+    "required_nuance": "a settled approach, not a single decision",
+    "mental_hook": "The rule they follow every time.",
+    "semantic_hint": "What a company writes down so every case is handled the same way."
+  },
+  "politic": {
+    "accepted_concepts": [
+      "prudent in the circumstances",
+      "shrewdly advantageous",
+      "judicious as a course",
+      "wise to do given the situation",
+      "expedient in the good sense"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "tactless and ill-judged",
+        "misconception": "inverts shrewdness into imprudence"
+      },
+      {
+        "answer": "a settled course of action",
+        "misconception": "confuses prudence with the near-twin about an adopted approach"
+      }
+    ],
+    "required_nuance": "wise to do, given how things stand",
+    "mental_hook": "The wise move, right now.",
+    "semantic_hint": "The word for a silence it would be wise to keep."
+  },
+  "polity": {
+    "accepted_concepts": [
+      "an organised political community",
+      "a state considered as a body",
+      "a commonwealth",
+      "the form of a political organisation",
+      "a body politic"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single citizen",
+        "misconception": "confuses the whole community with one member"
+      },
+      {
+        "answer": "a course of action",
+        "misconception": "confuses the community with the near-twin about an adopted approach"
+      }
+    ],
+    "required_nuance": "the organised community itself",
+    "mental_hook": "The state, as an organised whole.",
+    "semantic_hint": "The word for a self-governing community considered as a single body."
+  },
+  "pollyannaish": {
+    "accepted_concepts": [
+      "unrealistically optimistic",
+      "cheerful in the face of plain bad news",
+      "naively rosy in outlook",
+      "refusing to see difficulties",
+      "determinedly seeing the bright side"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deeply pessimistic",
+        "misconception": "inverts sunny optimism into gloom"
+      },
+      {
+        "answer": "realistically hopeful",
+        "misconception": "loses the unrealism that makes it a criticism"
+      }
+    ],
+    "required_nuance": "optimism that ignores the evidence",
+    "mental_hook": "Named for a girl who found good in everything.",
+    "semantic_hint": "The word for a forecast that assumes nothing will ever go wrong."
+  },
+  "polyglot": {
+    "accepted_concepts": [
+      "someone who speaks many languages",
+      "a multilingual person",
+      "one fluent in several tongues",
+      "a speaker of numerous languages",
+      "a linguist in the practical sense"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "someone who speaks only one language",
+        "misconception": "inverts many languages into one"
+      },
+      {
+        "answer": "an expert in many fields",
+        "misconception": "confuses many languages with the near-twin about many disciplines"
+      }
+    ],
+    "required_nuance": "many languages, not many subjects",
+    "mental_hook": "Many tongues. The near-twin knows many subjects.",
+    "semantic_hint": "The word for someone who speaks six languages fluently."
+  },
+  "polymath": {
+    "accepted_concepts": [
+      "someone with expertise in many fields",
+      "a person learned across disciplines",
+      "a wide-ranging scholar",
+      "one accomplished in several subjects",
+      "a Renaissance figure of broad learning"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a narrow specialist",
+        "misconception": "inverts breadth of learning into a single field"
+      },
+      {
+        "answer": "a speaker of many languages",
+        "misconception": "confuses many subjects with the near-twin about many tongues"
+      }
+    ],
+    "required_nuance": "many fields of learning, not many languages",
+    "mental_hook": "Many subjects. The near-twin speaks many languages.",
+    "semantic_hint": "The word for someone who is a serious painter, engineer and anatomist at once."
+  },
+  "pomp": {
+    "accepted_concepts": [
+      "splendid ceremonial display",
+      "grand public pageantry",
+      "stately show on a formal occasion",
+      "magnificence of ceremony",
+      "the trappings of a great occasion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plain simplicity",
+        "misconception": "inverts grand display into modesty"
+      },
+      {
+        "answer": "self-important pretension",
+        "misconception": "confuses ceremonial splendour with the near-twin about inflated self-regard"
+      }
+    ],
+    "required_nuance": "ceremonial splendour, not personal vanity",
+    "mental_hook": "The ceremony, not the vanity.",
+    "semantic_hint": "The word for all the ceremony of a state occasion."
+  },
+  "pomposity": {
+    "accepted_concepts": [
+      "self-important pretentiousness",
+      "inflated self-regard",
+      "grandiosity of manner",
+      "a puffed-up way of carrying oneself",
+      "showy self-importance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "humility",
+        "misconception": "inverts self-importance into modesty"
+      },
+      {
+        "answer": "ceremonial splendour",
+        "misconception": "confuses personal vanity with the near-twin about grand display"
+      }
+    ],
+    "required_nuance": "personal self-importance, not ceremony",
+    "mental_hook": "The vanity, not the ceremony.",
+    "semantic_hint": "The quality of a speech whose every phrase is chosen to impress."
+  },
+  "pompous": {
+    "accepted_concepts": [
+      "self-important and inflated",
+      "grandiose in manner or language",
+      "puffed up with self-regard",
+      "bombastic in style",
+      "taking oneself far too seriously"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unassuming",
+        "misconception": "inverts self-importance into modesty"
+      },
+      {
+        "answer": "genuinely magnificent",
+        "misconception": "loses the criticism carried in the word"
+      }
+    ],
+    "required_nuance": "self-important, and it is a criticism",
+    "mental_hook": "Thinks a great deal of himself, and shows it.",
+    "semantic_hint": "The word for a man who introduces himself with all his titles."
+  },
+  "ponderous": {
+    "accepted_concepts": [
+      "heavy and slow",
+      "laboured in style",
+      "dull through weight",
+      "cumbersome in movement",
+      "plodding and humourless"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "light and nimble",
+        "misconception": "inverts heaviness into agility"
+      },
+      {
+        "answer": "deeply thoughtful",
+        "misconception": "hears the root about pondering and loses the dullness"
+      }
+    ],
+    "required_nuance": "heavy and dull, not thoughtful",
+    "mental_hook": "Heavy, and it drags.",
+    "semantic_hint": "The word for a prose style that takes three pages to make one point."
+  },
+  "pontifical": {
+    "accepted_concepts": [
+      "pompously dogmatic",
+      "speaking as if beyond question",
+      "authoritative in an overbearing way",
+      "laying down the law",
+      "self-importantly certain"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "tentative and humble",
+        "misconception": "inverts dogmatic certainty into hesitancy"
+      },
+      {
+        "answer": "relating to bridges",
+        "misconception": "hears the Latin root about bridge-building literally"
+      }
+    ],
+    "required_nuance": "certainty delivered with self-importance",
+    "mental_hook": "Speaks as if from the throne.",
+    "semantic_hint": "The word for a tone that treats every opinion as settled doctrine."
+  },
+  "pontificate": {
+    "accepted_concepts": [
+      "speak in a pompous dogmatic way",
+      "hold forth as if beyond contradiction",
+      "sermonise at others",
+      "expound self-importantly",
+      "lay down opinions as if they were doctrine"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to listen quietly",
+        "misconception": "inverts holding forth into attending"
+      },
+      {
+        "answer": "to build a bridge",
+        "misconception": "reads the Latin root literally"
+      }
+    ],
+    "required_nuance": "speaking as if one's opinion settles the matter",
+    "mental_hook": "Holds forth, and expects no reply.",
+    "semantic_hint": "What someone does by lecturing a table on a subject they half know."
+  },
+  "populist": {
+    "accepted_concepts": [
+      "appealing to ordinary people against elites",
+      "claiming to speak for the common people",
+      "setting the masses against the establishment",
+      "with mass appeal by design",
+      "grassroots in its claimed base"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "elitist",
+        "misconception": "inverts appeal to the mass into appeal to the few"
+      },
+      {
+        "answer": "merely popular",
+        "misconception": "loses the opposition to elites that defines it"
+      }
+    ],
+    "required_nuance": "the people set against an elite",
+    "mental_hook": "Us, against them at the top.",
+    "semantic_hint": "The word for a campaign built on opposing the establishment."
+  },
+  "porous": {
+    "accepted_concepts": [
+      "full of holes",
+      "letting liquid or air through",
+      "permeable",
+      "easily passed through",
+      "not sealed against entry"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "watertight",
+        "misconception": "inverts letting things through into sealing them out"
+      },
+      {
+        "answer": "wealthy",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "things pass through it, physically or figuratively",
+    "mental_hook": "It leaks, and that is the point.",
+    "semantic_hint": "The word for rock water seeps through, and for a border nobody guards."
+  },
+  "portend": {
+    "accepted_concepts": [
+      "be a warning sign of",
+      "foreshadow something coming",
+      "presage",
+      "indicate what is to come",
+      "augur"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to recall what has passed",
+        "misconception": "inverts pointing forward into looking back"
+      },
+      {
+        "answer": "to carry",
+        "misconception": "hears the root about bearing something"
+      }
+    ],
+    "required_nuance": "serving as a sign of what is coming",
+    "mental_hook": "A sign of what is coming.",
+    "semantic_hint": "What a falling barometer does about the weather."
+  },
+  "portentous": {
+    "accepted_concepts": [
+      "ominously significant",
+      "warning of something momentous",
+      "solemnly weighty",
+      "pompously grave in manner",
+      "heavy with coming meaning"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "trivial and light",
+        "misconception": "inverts weighty significance into unimportance"
+      },
+      {
+        "answer": "a sign of what is coming",
+        "misconception": "confuses the adjective with the related verb"
+      }
+    ],
+    "required_nuance": "ominous in significance, or pompously solemn",
+    "mental_hook": "Heavy with meaning, or just heavy.",
+    "semantic_hint": "The word for a silence before an announcement everyone dreads."
+  },
+  "posit": {
+    "accepted_concepts": [
+      "put forward as a basis for argument",
+      "assume for the sake of reasoning",
+      "propose as a starting point",
+      "advance a proposition",
+      "lay down as given"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to prove conclusively",
+        "misconception": "confuses assuming for argument with demonstrating"
+      },
+      {
+        "answer": "to reject an assumption",
+        "misconception": "inverts putting forward into refusing"
+      }
+    ],
+    "required_nuance": "assumed as a starting point, not proved",
+    "mental_hook": "Assumed, so the argument can start.",
+    "semantic_hint": "What a theorist does by assuming a principle in order to reason from it."
+  },
+  "posthumous": {
+    "accepted_concepts": [
+      "occurring after a person's death",
+      "published or awarded after the author died",
+      "happening once the person is gone",
+      "coming after the subject's death",
+      "granted when the recipient is dead"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "happening during someone's lifetime",
+        "misconception": "inverts after death into during life"
+      },
+      {
+        "answer": "relating to the post",
+        "misconception": "hears the sound-alike about mail"
+      }
+    ],
+    "required_nuance": "after the person's death",
+    "mental_hook": "They never saw it happen.",
+    "semantic_hint": "The word for a medal awarded to someone who died earning it."
+  },
+  "postulate": {
+    "accepted_concepts": [
+      "assume as true for the sake of argument",
+      "take as given without proof",
+      "put forward as a basis",
+      "hypothesise",
+      "lay down as a starting assumption"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to prove from evidence",
+        "misconception": "confuses assuming with demonstrating"
+      },
+      {
+        "answer": "to disprove",
+        "misconception": "inverts assuming into refuting"
+      }
+    ],
+    "required_nuance": "taken as given, not established",
+    "mental_hook": "Assumed true, so the reasoning can proceed.",
+    "semantic_hint": "What geometry does with the statement that parallel lines never meet."
+  },
+  "potentate": {
+    "accepted_concepts": [
+      "a ruler with great power",
+      "a sovereign",
+      "a monarch of considerable authority",
+      "a powerful autocrat",
+      "one who rules absolutely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a subject with no power",
+        "misconception": "inverts a ruler into a ruled person"
+      },
+      {
+        "answer": "possible but not actual",
+        "misconception": "hears the root about potential"
+      }
+    ],
+    "required_nuance": "a ruler, and a powerful one",
+    "mental_hook": "Power, and a person holding it.",
+    "semantic_hint": "The word for an eastern ruler in an old travel book."
+  },
+  "powwow": {
+    "accepted_concepts": [
+      "an informal meeting",
+      "a quick discussion among a few people",
+      "a huddle to talk something over",
+      "a conference called on the spot",
+      "a confab"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a formal treaty signing",
+        "misconception": "loses the informality that defines it"
+      },
+      {
+        "answer": "a loud noise",
+        "misconception": "guesses from the sound of the word"
+      }
+    ],
+    "required_nuance": "informal, and a discussion",
+    "mental_hook": "A quick huddle to talk it over.",
+    "semantic_hint": "The word for a quick meeting called in a corridor."
+  },
+  "practice": {
+    "accepted_concepts": [
+      "customary action",
+      "what is actually done rather than theorised",
+      "repeated exercise to improve",
+      "the routine of doing something",
+      "established custom"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "theory",
+        "misconception": "inverts what is done into what is merely proposed"
+      },
+      {
+        "answer": "one who carries on a profession",
+        "misconception": "confuses the activity with the near-twin about the person"
+      }
+    ],
+    "required_nuance": "what is done, or the doing of it repeatedly",
+    "mental_hook": "What actually happens, not what is theorised.",
+    "semantic_hint": "The word contrasted with theory when a plan meets reality."
+  },
+  "practitioner": {
+    "accepted_concepts": [
+      "someone who practises a profession",
+      "one actively working in a field",
+      "a professional doing the work",
+      "an exponent of a craft",
+      "someone who carries it out rather than theorises"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a pure theorist",
+        "misconception": "inverts the one doing the work into the one theorising"
+      },
+      {
+        "answer": "the activity itself",
+        "misconception": "confuses the person with the near-twin about the practice"
+      }
+    ],
+    "required_nuance": "the person doing the work",
+    "mental_hook": "The person, not the activity.",
+    "semantic_hint": "The word for a doctor or lawyer actually working in their field."
+  },
+  "pragmatic": {
+    "accepted_concepts": [
+      "practical rather than theoretical",
+      "dealing with things as they are",
+      "realistic in approach",
+      "guided by what works",
+      "hardheaded about results"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "idealistic",
+        "misconception": "inverts practicality into devotion to principle"
+      },
+      {
+        "answer": "dogmatic",
+        "misconception": "inverts flexibility about method into rigid doctrine"
+      }
+    ],
+    "required_nuance": "judging by what works rather than by principle",
+    "mental_hook": "Whatever works, whatever the theory said.",
+    "semantic_hint": "The word for a decision made on what is achievable rather than ideal."
+  },
+  "prattle": {
+    "accepted_concepts": [
+      "chatter about trivia",
+      "babble on at length",
+      "talk foolishly and incessantly",
+      "gabble about nothing",
+      "run on in idle talk"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to speak weightily",
+        "misconception": "inverts idle chatter into substantial speech"
+      },
+      {
+        "answer": "to make a rattling noise",
+        "misconception": "hears the sound-alike about a rattle"
+      }
+    ],
+    "required_nuance": "trivial talk, and too much of it",
+    "mental_hook": "Talks and talks, about nothing.",
+    "semantic_hint": "What a small child does about their day for twenty minutes."
+  },
+  "pre-empt": {
+    "accepted_concepts": [
+      "act first to prevent something",
+      "forestall by moving early",
+      "anticipate and so block",
+      "take the step that stops it happening",
+      "preclude by acting in advance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to react after the event",
+        "misconception": "inverts acting first into responding later"
+      },
+      {
+        "answer": "to empty out",
+        "misconception": "hears the second half of the word literally"
+      }
+    ],
+    "required_nuance": "acting first so the other thing cannot happen",
+    "mental_hook": "Gets there first, so it never happens.",
+    "semantic_hint": "What a government does by announcing a concession before the strike."
+  },
+  "preamble": {
+    "accepted_concepts": [
+      "an introductory statement",
+      "a preface to a document",
+      "an opening section setting out the purpose",
+      "a prologue",
+      "words placed before the main text"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a concluding section",
+        "misconception": "inverts an opening into an ending"
+      },
+      {
+        "answer": "a leisurely walk",
+        "misconception": "hears the second half of the word as strolling"
+      }
+    ],
+    "required_nuance": "an introduction placed before the main text",
+    "mental_hook": "Before the main text, and setting it up.",
+    "semantic_hint": "The opening statement of purpose before a constitution's articles."
+  },
+  "precarious": {
+    "accepted_concepts": [
+      "dangerously unstable",
+      "liable to collapse at any moment",
+      "uncertain and insecure",
+      "tenuous in its hold",
+      "perilously balanced"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "secure and stable",
+        "misconception": "inverts instability into security"
+      },
+      {
+        "answer": "cautious",
+        "misconception": "confuses being at risk with being careful"
+      }
+    ],
+    "required_nuance": "unstable, with real risk of collapse",
+    "mental_hook": "Holding on, and only just.",
+    "semantic_hint": "The word for a ladder balanced on one uneven leg."
+  },
+  "preceded": {
+    "accepted_concepts": [
+      "came before in time",
+      "went ahead of in order",
+      "occurred earlier than",
+      "led the way before",
+      "came first in a sequence"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "followed after",
+        "misconception": "inverts coming before into coming after"
+      },
+      {
+        "answer": "moved forward",
+        "misconception": "hears the sound-alike about advancing"
+      }
+    ],
+    "required_nuance": "came before, in time or order",
+    "mental_hook": "Came first.",
+    "semantic_hint": "What the era before an event did in relation to it."
+  },
+  "precedent": {
+    "accepted_concepts": [
+      "an earlier case used as a guide",
+      "a previous instance setting the pattern",
+      "an example later cases follow",
+      "a prior decision with authority",
+      "a model established by an earlier case"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a case with no earlier parallel",
+        "misconception": "inverts a guiding earlier case into an unprecedented one"
+      },
+      {
+        "answer": "the head of a country",
+        "misconception": "hears the sound-alike about a head of state"
+      }
+    ],
+    "required_nuance": "an earlier case that guides later ones",
+    "mental_hook": "It happened before, and now it governs.",
+    "semantic_hint": "What a court decision becomes for every similar case afterwards."
+  },
+  "precept": {
+    "accepted_concepts": [
+      "a rule of conduct",
+      "a guiding principle for behaviour",
+      "a maxim laid down",
+      "an instruction to live by",
+      "a moral rule"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an earlier case used as a guide",
+        "misconception": "confuses a rule with the near-twin about a prior instance"
+      },
+      {
+        "answer": "something noticed by the senses",
+        "misconception": "hears the sound-alike about perception"
+      }
+    ],
+    "required_nuance": "a rule of conduct, not a prior case",
+    "mental_hook": "A rule to live by.",
+    "semantic_hint": "The word for a maxim like doing as you would be done by."
+  },
+  "precipitate": {
+    "accepted_concepts": [
+      "cause to happen suddenly",
+      "trigger an event",
+      "bring on abruptly",
+      "hasten something into occurring",
+      "provoke a crisis"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to delay",
+        "misconception": "inverts hastening into postponing"
+      },
+      {
+        "answer": "dangerously steep",
+        "misconception": "confuses the verb with the near-twin adjective about steepness"
+      }
+    ],
+    "required_nuance": "the tested sense is the verb: bringing something on suddenly",
+    "mental_hook": "Makes it happen, and suddenly.",
+    "semantic_hint": "What one bank failure can do to a wider financial crisis."
+  },
+  "precipitous": {
+    "accepted_concepts": [
+      "dangerously steep",
+      "falling away sharply",
+      "abrupt in descent",
+      "headlong and hasty",
+      "sheer"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "gradual",
+        "misconception": "inverts steepness into a gentle slope"
+      },
+      {
+        "answer": "to bring on suddenly",
+        "misconception": "confuses the adjective with the near-twin verb about triggering"
+      }
+    ],
+    "required_nuance": "steep or abrupt, as an adjective",
+    "mental_hook": "Steep. The near-twin verb triggers things.",
+    "semantic_hint": "The word for a cliff that drops straight to the sea."
+  },
+  "precis": {
+    "accepted_concepts": [
+      "a concise summary",
+      "an abstract of a longer work",
+      "a synopsis",
+      "the substance of a text in brief",
+      "a compressed account"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the full original text",
+        "misconception": "inverts a summary into the whole work"
+      },
+      {
+        "answer": "exactness of measurement",
+        "misconception": "confuses a summary with the near-twin about accuracy"
+      }
+    ],
+    "required_nuance": "a summary, and a short one",
+    "mental_hook": "The whole thing, in a page.",
+    "semantic_hint": "The word for a one-page summary of a long report."
+  },
+  "precision": {
+    "accepted_concepts": [
+      "exactness",
+      "accuracy in detail",
+      "rigour of measurement or expression",
+      "being correct to a fine degree",
+      "freedom from vagueness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "vagueness",
+        "misconception": "inverts exactness into imprecision"
+      },
+      {
+        "answer": "a concise summary",
+        "misconception": "confuses exactness with the near-twin about a short abstract"
+      }
+    ],
+    "required_nuance": "exactness, in measure or in wording",
+    "mental_hook": "Exact, to the last decimal.",
+    "semantic_hint": "The quality of an instrument that reads the same to four decimal places every time."
   }
 }

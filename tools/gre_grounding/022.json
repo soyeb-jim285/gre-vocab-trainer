@@ -1,0 +1,442 @@
+{
+  "preclude": {
+    "accepted_concepts": [
+      "prevent from happening",
+      "rule out in advance",
+      "make impossible",
+      "shut out as an option",
+      "bar something from occurring"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to permit",
+        "misconception": "inverts ruling out into allowing"
+      },
+      {
+        "answer": "to bring to an end",
+        "misconception": "hears the sound-alike about concluding"
+      }
+    ],
+    "required_nuance": "ruling something out before it can happen",
+    "mental_hook": "Shut out before it starts.",
+    "semantic_hint": "What one clause in a contract does to any later claim."
+  },
+  "precocious": {
+    "accepted_concepts": [
+      "advanced beyond one's years",
+      "developing unusually early",
+      "gifted at a young age",
+      "showing mature ability young",
+      "ahead of the usual stage"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "slow to develop",
+        "misconception": "inverts early development into lateness"
+      },
+      {
+        "answer": "dangerously unstable",
+        "misconception": "hears the sound-alike about insecurity"
+      }
+    ],
+    "required_nuance": "developed earlier than the age would suggest",
+    "mental_hook": "Too good, too young.",
+    "semantic_hint": "The word for a nine-year-old playing concert-level piano."
+  },
+  "precursor": {
+    "accepted_concepts": [
+      "something that comes before another",
+      "a forerunner of what follows",
+      "an earlier form that led to this",
+      "an antecedent",
+      "a harbinger of a later development"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a successor",
+        "misconception": "inverts what came before into what comes after"
+      },
+      {
+        "answer": "a curse spoken",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "comes before and leads to the later thing",
+    "mental_hook": "Came before, and led to it.",
+    "semantic_hint": "The word for an early machine that led to the modern computer."
+  },
+  "predecessor": {
+    "accepted_concepts": [
+      "the person who held a role before",
+      "the one who came before in a post",
+      "an earlier holder of an office",
+      "the previous occupant of a position",
+      "the model that came before a newer one"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the one who comes next",
+        "misconception": "inverts the earlier holder into the successor"
+      },
+      {
+        "answer": "a subordinate",
+        "misconception": "confuses order in time with rank"
+      }
+    ],
+    "required_nuance": "the earlier holder of the same role",
+    "mental_hook": "Had the job before them.",
+    "semantic_hint": "The word for the person who held your job before you did."
+  },
+  "predicament": {
+    "accepted_concepts": [
+      "a difficult situation",
+      "an unpleasant position with no easy way out",
+      "a quandary",
+      "a plight",
+      "a fix one is caught in"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an easy situation",
+        "misconception": "inverts a difficulty into a comfortable position"
+      },
+      {
+        "answer": "a forecast",
+        "misconception": "hears the sound-alike about predicting"
+      }
+    ],
+    "required_nuance": "a difficult position, hard to escape",
+    "mental_hook": "Stuck, and no good way out.",
+    "semantic_hint": "The word for being caught between two promises you cannot both keep."
+  },
+  "predilection": {
+    "accepted_concepts": [
+      "a preference for something",
+      "a special liking",
+      "a settled inclination toward",
+      "a penchant",
+      "a marked partiality"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an aversion",
+        "misconception": "inverts a liking into a dislike"
+      },
+      {
+        "answer": "a forecast of what will happen",
+        "misconception": "hears the sound-alike about prediction"
+      }
+    ],
+    "required_nuance": "a settled liking, not a prediction",
+    "mental_hook": "A liking. Not a forecast.",
+    "semantic_hint": "The word for someone's standing preference for detective novels."
+  },
+  "predisposed": {
+    "accepted_concepts": [
+      "inclined in advance toward something",
+      "made likely to react a certain way",
+      "susceptible beforehand",
+      "prone by constitution or attitude",
+      "already leaning that way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "resistant",
+        "misconception": "inverts an inclination toward into resistance"
+      },
+      {
+        "answer": "disposed of already",
+        "misconception": "hears the root about discarding"
+      }
+    ],
+    "required_nuance": "the inclination is there before the case arises",
+    "mental_hook": "Already leaning, before it even starts.",
+    "semantic_hint": "The word for a family history that makes an illness more likely."
+  },
+  "preempt": {
+    "accepted_concepts": [
+      "take action before someone else can",
+      "forestall another's move",
+      "seize the advantage in advance",
+      "supersede by acting first",
+      "block by getting in first"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to wait and respond",
+        "misconception": "inverts acting first into reacting"
+      },
+      {
+        "answer": "to empty completely",
+        "misconception": "hears the second half of the word literally"
+      }
+    ],
+    "required_nuance": "getting in first to stop or supersede",
+    "mental_hook": "In first, and the other move is dead.",
+    "semantic_hint": "What a broadcaster does by replacing scheduled programming with breaking news."
+  },
+  "preemptive": {
+    "accepted_concepts": [
+      "taken to forestall something",
+      "acting first to prevent a threat",
+      "anticipatory in nature",
+      "precautionary against what may come",
+      "striking before the other side can"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "reactive",
+        "misconception": "inverts acting first into responding afterwards"
+      },
+      {
+        "answer": "emptied out",
+        "misconception": "hears the second half of the word literally"
+      }
+    ],
+    "required_nuance": "acting in advance to forestall",
+    "mental_hook": "Struck first, to stop the other blow.",
+    "semantic_hint": "The word for a strike launched before the enemy can attack."
+  },
+  "preen": {
+    "accepted_concepts": [
+      "groom oneself carefully",
+      "smooth one's feathers or appearance",
+      "show visible self-satisfaction",
+      "plume oneself on an achievement",
+      "primp"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to neglect one's appearance",
+        "misconception": "inverts careful grooming into neglect"
+      },
+      {
+        "answer": "to feel ashamed",
+        "misconception": "inverts self-satisfaction into embarrassment"
+      }
+    ],
+    "required_nuance": "grooming, or visible pleasure in oneself",
+    "mental_hook": "The bird with its feathers, and the person with their success.",
+    "semantic_hint": "What someone does after being praised in front of everyone."
+  },
+  "premeditate": {
+    "accepted_concepts": [
+      "plan in advance",
+      "think out beforehand",
+      "plot ahead of the act",
+      "prearrange deliberately",
+      "decide on before doing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to act on impulse",
+        "misconception": "inverts advance planning into spontaneity"
+      },
+      {
+        "answer": "to reflect quietly",
+        "misconception": "loses the advance planning of an act"
+      }
+    ],
+    "required_nuance": "planned before the act, often a crime",
+    "mental_hook": "Thought out first. That is what makes it worse.",
+    "semantic_hint": "What separates murder from manslaughter in a charge."
+  },
+  "premise": {
+    "accepted_concepts": [
+      "an assumption an argument rests on",
+      "a proposition taken as a starting point",
+      "the basis from which a conclusion follows",
+      "a stated ground of an argument",
+      "what is assumed before the reasoning begins"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the conclusion reached",
+        "misconception": "inverts the starting assumption into the result"
+      },
+      {
+        "answer": "a promise given",
+        "misconception": "hears the sound-alike about an undertaking"
+      }
+    ],
+    "required_nuance": "the starting assumption, not the conclusion",
+    "mental_hook": "Where the argument starts, not where it ends.",
+    "semantic_hint": "The assumption a syllogism begins from before the conclusion."
+  },
+  "prescience": {
+    "accepted_concepts": [
+      "knowledge of events before they happen",
+      "foresight about what is coming",
+      "foreknowledge",
+      "the ability to see ahead",
+      "anticipation of the future"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "hindsight",
+        "misconception": "inverts seeing ahead into understanding afterwards"
+      },
+      {
+        "answer": "a felt sense that something is coming",
+        "misconception": "confuses knowledge with the near-twin about a vague premonition"
+      }
+    ],
+    "required_nuance": "knowing in advance, as a quality",
+    "mental_hook": "Knew it, before it happened.",
+    "semantic_hint": "The quality of a warning issued years before the crisis arrived."
+  },
+  "prescient": {
+    "accepted_concepts": [
+      "showing knowledge of the future",
+      "anticipating what will happen",
+      "farsighted about coming events",
+      "prophetic in judgement",
+      "seeing ahead correctly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "shortsighted",
+        "misconception": "inverts seeing ahead into failing to"
+      },
+      {
+        "answer": "present at the time",
+        "misconception": "hears the sound-alike about being present"
+      }
+    ],
+    "required_nuance": "correctly seeing what is coming",
+    "mental_hook": "Saw it coming, and was right.",
+    "semantic_hint": "The word for an essay that predicted the crash three years early."
+  },
+  "presentiment": {
+    "accepted_concepts": [
+      "a feeling that something is about to happen",
+      "a premonition of trouble",
+      "a foreboding sense",
+      "an intuition of what is coming",
+      "a hunch about the future"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "knowledge based on evidence",
+        "misconception": "confuses a felt intuition with reasoned foreknowledge"
+      },
+      {
+        "answer": "a gift handed over",
+        "misconception": "hears the word for a gift inside it"
+      }
+    ],
+    "required_nuance": "a feeling, not reasoned knowledge",
+    "mental_hook": "A feeling, and usually a bad one.",
+    "semantic_hint": "The uneasy sense that something is wrong before any news arrives."
+  },
+  "presumption": {
+    "accepted_concepts": [
+      "an assumption taken as true",
+      "a supposition adopted until disproved",
+      "arrogant boldness",
+      "taking a liberty beyond one's place",
+      "audacity in assuming too much"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "settled proof",
+        "misconception": "confuses an assumption with something established"
+      },
+      {
+        "answer": "humility",
+        "misconception": "inverts arrogant boldness into modesty"
+      }
+    ],
+    "required_nuance": "an assumption, or the arrogance of assuming",
+    "mental_hook": "Assumed. Or assumed too much.",
+    "semantic_hint": "What the law grants an accused person about innocence."
+  },
+  "presumptive": {
+    "accepted_concepts": [
+      "based on reasonable assumption",
+      "taken as probable until proved otherwise",
+      "assumed on the evidence so far",
+      "likely but not confirmed",
+      "provisionally accepted"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "conclusively proven",
+        "misconception": "confuses a working assumption with settled proof"
+      },
+      {
+        "answer": "overstepping proper bounds",
+        "misconception": "confuses a reasonable assumption with the near-twin about arrogance"
+      }
+    ],
+    "required_nuance": "assumed on reasonable grounds, not proved",
+    "mental_hook": "Taken as likely, pending better evidence.",
+    "semantic_hint": "The word for the heir assumed to succeed unless someone closer is born."
+  },
+  "presumptuous": {
+    "accepted_concepts": [
+      "overstepping proper bounds",
+      "taking a liberty one has no right to",
+      "impertinently forward",
+      "overconfident about one's standing",
+      "assuming too much"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deferential",
+        "misconception": "inverts overstepping into modesty"
+      },
+      {
+        "answer": "based on reasonable assumption",
+        "misconception": "confuses arrogance with the near-twin about a working assumption"
+      }
+    ],
+    "required_nuance": "arrogance in assuming a right one lacks",
+    "mental_hook": "Assumed a right they did not have.",
+    "semantic_hint": "The word for a stranger who starts rearranging your furniture."
+  },
+  "pretense": {
+    "accepted_concepts": [
+      "a false show",
+      "a claim made without foundation",
+      "an affectation put on for effect",
+      "a pretext concealing the truth",
+      "a sham appearance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "sincerity",
+        "misconception": "inverts a false show into honesty"
+      },
+      {
+        "answer": "claiming more importance than warranted",
+        "misconception": "confuses a false show with the near-twin about grandiosity"
+      }
+    ],
+    "required_nuance": "a false appearance deliberately maintained",
+    "mental_hook": "Keeping up an appearance that is not true.",
+    "semantic_hint": "The word for a friendliness maintained with someone you cannot stand."
+  },
+  "pretentious": {
+    "accepted_concepts": [
+      "claiming more importance than warranted",
+      "affected in a bid to impress",
+      "grandiose beyond what is earned",
+      "showy about one's own refinement",
+      "putting on airs"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unpretentious",
+        "misconception": "inverts affectation into plainness"
+      },
+      {
+        "answer": "a false show maintained",
+        "misconception": "confuses grandiosity with the near-twin noun about a sham"
+      }
+    ],
+    "required_nuance": "claiming an importance one has not earned",
+    "mental_hook": "Claims more than it is worth.",
+    "semantic_hint": "The word for a menu that describes a sandwich in four languages."
+  }
+}
