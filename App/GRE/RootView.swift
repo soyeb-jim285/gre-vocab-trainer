@@ -23,6 +23,9 @@ struct RootView: View {
             Tab("Challenge", systemImage: "target") {
                 NavigationStack { ChallengeView() }
             }
+            Tab("Drill", systemImage: "doc.text") {
+                NavigationStack { DrillView() }
+            }
             Tab("Progress", systemImage: "chart.line.uptrend.xyaxis") {
                 NavigationStack { ProgressScreen().navigationTitle("Progress") }
             }

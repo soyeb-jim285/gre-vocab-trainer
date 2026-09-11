@@ -1,4 +1,140 @@
 {
+  "se-apathy-1": {
+    "answers": [
+      "apathy",
+      "torpor"
+    ],
+    "explanation": "Four elections of falling turnout is disengagement, and apathy and torpor both name that listless lack of interest; zeal and alacrity say the opposite.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "apathy",
+      "torpor",
+      "zeal",
+      "alacrity",
+      "animosity",
+      "acumen"
+    ],
+    "stem": "Turnout fell for the fourth election running, and the council blamed the weather rather than the _____ its own decisions had produced."
+  },
+  "se-archaic-1": {
+    "answers": [
+      "archaic",
+      "antiquated"
+    ],
+    "explanation": "Needing a nineteenth-century dictionary dates the wording to an earlier era, which archaic and antiquated both say and nascent and novel deny.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "archaic",
+      "antiquated",
+      "nascent",
+      "novel",
+      "prescient",
+      "germane"
+    ],
+    "stem": "The statute's language is so _____ that clerks must consult a nineteenth-century dictionary to work out what two of its clauses forbid."
+  },
+  "se-arduous-1": {
+    "answers": [
+      "arduous",
+      "laborious"
+    ],
+    "explanation": "Nine years for one ceiling is the measure of effort the blank needs, and arduous and laborious both describe work demanding sustained hard labour.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "arduous",
+      "laborious",
+      "cursory",
+      "perfunctory",
+      "desultory",
+      "fortuitous"
+    ],
+    "stem": "Restoring the frescoes proved far more _____ than the estimate had suggested: two conservators spent nine years on a single chapel ceiling."
+  },
+  "se-assuage-1": {
+    "answers": [
+      "assuage",
+      "allay"
+    ],
+    "explanation": "The residents are packing anyway, so the broadcast failed to calm them; assuage and allay both mean to soothe a fear rather than stir one up.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "assuage",
+      "allay",
+      "exacerbate",
+      "foment",
+      "kindle",
+      "supplant"
+    ],
+    "stem": "The governor's evening broadcast did nothing to _____ the fears of residents downstream, who had already begun loading their cars."
+  },
+  "se-bolster-1": {
+    "answers": [
+      "bolster",
+      "buttress"
+    ],
+    "explanation": "Fresh finds agreeing with an old proposal strengthen it, and bolster and buttress both mean to shore up a claim rather than attack or weaken it.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "bolster",
+      "buttress",
+      "undermine",
+      "impugn",
+      "vitiate",
+      "construe"
+    ],
+    "stem": "Each new excavation season produced pottery that served to _____ the dating the team had proposed a decade earlier."
+  },
+  "se-denigrate-1": {
+    "answers": [
+      "denigrate",
+      "malign"
+    ],
+    "explanation": "Attacking the person instead of answering the question is blackening a reputation, which denigrate and malign both say and the praising options reverse.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "denigrate",
+      "malign",
+      "exalt",
+      "lionize",
+      "placate",
+      "peruse"
+    ],
+    "stem": "Rivals found it easier to _____ the architect than to explain why their own proposals had been rejected twice."
+  },
+  "se-elicit-1": {
+    "answers": [
+      "elicit",
+      "evoke"
+    ],
+    "explanation": "The picture has to draw the feeling out of an uninformed viewer, and elicit and evoke both mean to call up a response rather than suppress or prevent one.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "elicit",
+      "evoke",
+      "squelch",
+      "preclude",
+      "flout",
+      "impugn"
+    ],
+    "stem": "The photograph was chosen because it would _____ the same unease in a viewer who knew nothing about where it had been taken."
+  },
+  "se-esoteric-1": {
+    "answers": [
+      "esoteric",
+      "abstruse"
+    ],
+    "explanation": "If neighbouring specialists struggle, the material is understood by only a few; esoteric and abstruse both carry that obscurity, while lucid and pedestrian contradict it.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "esoteric",
+      "abstruse",
+      "pedestrian",
+      "lucid",
+      "mundane",
+      "sanguine"
+    ],
+    "stem": "The journal's reputation rests on articles so _____ that even specialists in the neighbouring subfield read them with real difficulty."
+  },
   "se-loquacious-1": {
     "answers": [
       "loquacious",
@@ -15,6 +151,23 @@
       "phlegmatic"
     ],
     "stem": "Seated beside the most _____ passenger on the train, she gave up on her book somewhere before the second station."
+  },
+  "se-morose-1": {
+    "answers": [
+      "morose",
+      "saturnine"
+    ],
+    "explanation": "Silent dinners and early exits describe settled gloom, and morose and saturnine both name a sullen, darkened temperament rather than a cheerful one.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "morose",
+      "saturnine",
+      "ebullient",
+      "affable",
+      "blithe",
+      "candid"
+    ],
+    "stem": "After the verdict he grew _____, sitting through dinners without speaking and leaving before the plates were cleared."
   },
   "se-onerous-1": {
     "answers": [
@@ -84,6 +237,57 @@
     ],
     "stem": "The ceasefire was _____ from the first week: two of the five factions had signed nothing at all, and the rest were quietly rearming."
   },
+  "se-rescind-1": {
+    "answers": [
+      "rescind",
+      "annul"
+    ],
+    "explanation": "A licence withdrawn under pressure is being cancelled by the body that issued it, which rescind and annul both mean; perpetuate would keep it in force.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "rescind",
+      "annul",
+      "perpetuate",
+      "stipulate",
+      "construe",
+      "condone"
+    ],
+    "stem": "Under pressure from three states, the board voted to _____ the licence it had granted only eleven weeks earlier."
+  },
+  "se-soporific-1": {
+    "answers": [
+      "soporific",
+      "somnolent"
+    ],
+    "explanation": "An audience that stops taking notes and starts watching the clock is being put to sleep, and soporific and somnolent both say the talk induced sleepiness.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "soporific",
+      "somnolent",
+      "stentorian",
+      "trenchant",
+      "lucid",
+      "pungent"
+    ],
+    "stem": "The keynote was so _____ that by the second graph a third of the audience had stopped taking notes and begun checking the time."
+  },
+  "se-tirade-1": {
+    "answers": [
+      "tirade",
+      "broadside"
+    ],
+    "explanation": "Forty minutes of attack on three targets at once is a sustained verbal assault, which is what a tirade and a broadside both are.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "tirade",
+      "broadside",
+      "eulogy",
+      "panegyric",
+      "aphorism",
+      "rejoinder"
+    ],
+    "stem": "What was billed as a closing statement turned into a forty-minute _____ against the agency, the press and his own lawyers."
+  },
   "se-turgid-1": {
     "answers": [
       "turgid",
@@ -101,6 +305,21 @@
     ],
     "stem": "Three pages of _____ tribute preceded the actual announcement, which when it finally arrived took a single sentence."
   },
+  "tc-advocate-1": {
+    "answers": [
+      "advocate"
+    ],
+    "explanation": "Being first to put the case for removal is public support for it, which advocate names; proscribe, decry and denounce would all be arguing against.",
+    "kind": "textCompletion",
+    "options": [
+      "advocate",
+      "proscribe",
+      "decry",
+      "denounce",
+      "eschew"
+    ],
+    "stem": "Having spent a decade studying the river, she was the first hydrologist to _____ removing the dam rather than repairing it again."
+  },
   "tc-amalgamate-1": {
     "answers": [
       "amalgamate"
@@ -115,6 +334,21 @@
       "disseminate"
     ],
     "stem": "Rather than let three rival societies go on duplicating each other's work, the trustees voted to _____ them into a single institute with one budget."
+  },
+  "tc-ascetic-1": {
+    "answers": [
+      "ascetic"
+    ],
+    "explanation": "One meal, no heat and an hour of speech a week is severe self-denial practised for spiritual ends, which ascetic names and the four opulent options contradict.",
+    "kind": "textCompletion",
+    "options": [
+      "ascetic",
+      "lavish",
+      "palatial",
+      "prodigal",
+      "ornate"
+    ],
+    "stem": "The order's _____ regime allowed one meal a day, no heating in the cells, and a single hour of conversation each week."
   },
   "tc-attenuate-1": {
     "answers": [
@@ -175,6 +409,36 @@
       "diffident"
     ],
     "stem": "His _____ treatment of the safety checklist, a glance and a shrug and a signature, was what the inquiry eventually fixed on."
+  },
+  "tc-censure-1": {
+    "answers": [
+      "censure"
+    ],
+    "explanation": "A penalty just short of expulsion, entered into the record, is official disapproval: censure. Approbation and deference would be praise or respect instead.",
+    "kind": "textCompletion",
+    "options": [
+      "censure",
+      "approbation",
+      "largess",
+      "deference",
+      "redress"
+    ],
+    "stem": "The committee stopped short of expulsion, settling on a formal _____ that was read into the record and published the same afternoon."
+  },
+  "tc-coalesce-1": {
+    "answers": [
+      "coalesce"
+    ],
+    "explanation": "Four groups becoming one organisation is the clue: coalesce is the merging into a whole, where polarize would split them and attenuate would thin them out.",
+    "kind": "textCompletion",
+    "options": [
+      "coalesce",
+      "polarize",
+      "dissemble",
+      "attenuate",
+      "flounder"
+    ],
+    "stem": "What began as four unconnected tenant groups had, by the spring, begun to _____ into a single organisation with one set of demands."
   },
   "tc-commensurate-1": {
     "answers": [

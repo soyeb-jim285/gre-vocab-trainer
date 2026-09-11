@@ -1,0 +1,212 @@
+{
+  "tc-garrulous-1": {
+    "answers": [
+      "garrulous"
+    ],
+    "explanation": "Forty minutes of the neighbours' business in exchange for buying a newspaper is excessive talk about trivia, which garrulous names; taciturn and laconic mean the reverse.",
+    "kind": "textCompletion",
+    "options": [
+      "garrulous",
+      "taciturn",
+      "laconic",
+      "pedantic",
+      "serene"
+    ],
+    "stem": "Nobody stood beside the _____ shopkeeper twice: an errand for a newspaper cost you forty minutes of his neighbours' business."
+  },
+  "tc-imperturbable-1": {
+    "answers": [
+      "imperturbable"
+    ],
+    "explanation": "Failed engines and a shouting cabin are exactly the conditions that should rattle her, and the voice does not, which is what imperturbable describes.",
+    "kind": "textCompletion",
+    "options": [
+      "imperturbable",
+      "morose",
+      "adamant",
+      "pedantic",
+      "erratic"
+    ],
+    "stem": "Two engines had failed and the cabin was shouting, but the captain's voice over the intercom remained _____, as though she were reading out a weather report."
+  },
+  "tc-impetuous-1": {
+    "answers": [
+      "impetuous"
+    ],
+    "explanation": "Resigning mid-meeting before hearing the answer, and regretting it within hours, is acting rashly without thought, which is what impetuous names.",
+    "kind": "textCompletion",
+    "options": [
+      "impetuous",
+      "languid",
+      "erudite",
+      "austere",
+      "taciturn"
+    ],
+    "stem": "She resigned in the middle of the meeting, before anyone had answered her question, a decision so _____ that she regretted it before lunch."
+  },
+  "tc-inimical-1": {
+    "answers": [
+      "inimical"
+    ],
+    "explanation": "Wind stripping the soil so that nothing can stand upright makes the ridge actively hostile to plants, which is what inimical says; idyllic and serene say the reverse.",
+    "kind": "textCompletion",
+    "options": [
+      "inimical",
+      "idyllic",
+      "serene",
+      "pedantic",
+      "cursory"
+    ],
+    "stem": "Conditions on the ridge are _____ to anything with roots: the wind strips the soil away and whatever survives lies flat against the rock."
+  },
+  "tc-languid-1": {
+    "answers": [
+      "languid"
+    ],
+    "explanation": "Waiters crossing a terrace so slowly that the dogs will not even rise for them sets the pace as slow and without energy, which is what languid means.",
+    "kind": "textCompletion",
+    "options": [
+      "languid",
+      "furtive",
+      "erudite",
+      "austere",
+      "adamant"
+    ],
+    "stem": "Nothing in the afternoon heat moved quickly: the waiters crossed the terrace so _____ that the dogs watching them did not bother to get up at all."
+  },
+  "tc-mercurial-1": {
+    "answers": [
+      "mercurial"
+    ],
+    "explanation": "Unexplained swings between praise and silence are sudden, unpredictable changes of mood, which is what mercurial names; adamant would mean he never shifted at all.",
+    "kind": "textCompletion",
+    "options": [
+      "mercurial",
+      "taciturn",
+      "adamant",
+      "pedantic",
+      "cursory"
+    ],
+    "stem": "Praise on Monday and silence on Tuesday, with nothing in between to explain the change: his staff learned to treat his _____ temper as weather rather than judgement."
+  },
+  "tc-mundane-1": {
+    "answers": [
+      "mundane"
+    ],
+    "explanation": "Expense claims and an unringing telephone are the ordinary and unexciting side of the job, which is what mundane names; arduous would make it hard rather than dull.",
+    "kind": "textCompletion",
+    "options": [
+      "mundane",
+      "arduous",
+      "adverse",
+      "cursory",
+      "serene"
+    ],
+    "stem": "For all the talk of espionage, most of the work was _____: filing expense claims, booking flights, and waiting for a telephone that rarely rang."
+  },
+  "tc-obviate-1": {
+    "answers": [
+      "obviate"
+    ],
+    "explanation": "A sensor that makes the nightly inspection unnecessary removes the need for it rather than arguing against it, and obviate is the word for that.",
+    "kind": "textCompletion",
+    "options": [
+      "obviate",
+      "countenance",
+      "rebut",
+      "delimit",
+      "mimic"
+    ],
+    "stem": "One well-placed sensor would _____ the nightly inspection that currently costs four hours and two members of staff."
+  },
+  "tc-precipitate-1": {
+    "answers": [
+      "precipitate"
+    ],
+    "explanation": "One sentence that sets off a bank run has caused it suddenly, which is what precipitate means; avert would mean the run never happened.",
+    "kind": "textCompletion",
+    "options": [
+      "precipitate",
+      "avert",
+      "delimit",
+      "countenance",
+      "rebut"
+    ],
+    "stem": "A single sentence in the governor's speech was enough to _____ a run on the bank that took three weeks and a federal loan to stop."
+  },
+  "tc-pristine-1": {
+    "answers": [
+      "pristine"
+    ],
+    "explanation": "Two centuries sealed away with the ink still black says the manuscript was untouched and unspoiled, which is pristine; dilapidated would be the opposite.",
+    "kind": "textCompletion",
+    "options": [
+      "pristine",
+      "dilapidated",
+      "cursory",
+      "prosaic",
+      "erratic"
+    ],
+    "stem": "The manuscript had lain in a sealed chest for two centuries and came out _____, its ink still as black as the day it dried."
+  },
+  "tc-probity-1": {
+    "answers": [
+      "probity"
+    ],
+    "explanation": "A reputation that survives accusations of wrongdoing is one for uprightness rather than mere frankness, and probity is the word for that integrity.",
+    "kind": "textCompletion",
+    "options": [
+      "probity",
+      "candor",
+      "effrontery",
+      "apathy",
+      "calumny"
+    ],
+    "stem": "Thirty years on the bench had earned him a reputation for _____ that survived even the accusations made by his last opponent."
+  },
+  "tc-sanction-1": {
+    "answers": [
+      "sanction"
+    ],
+    "explanation": "A board withholding approval of a merger pending a review is deciding whether to authorise it, which is the sense sanction carries here.",
+    "kind": "textCompletion",
+    "options": [
+      "sanction",
+      "rebut",
+      "forswear",
+      "delimit",
+      "mimic"
+    ],
+    "stem": "The board declined to _____ the merger until the regulator had finished its own review of the two pension schemes."
+  },
+  "tc-sedulous-1": {
+    "answers": [
+      "sedulous"
+    ],
+    "explanation": "Twenty years of steady work that ends in the county's only reliable census describes persistent diligence, which sedulous names; cursory and erratic would not have produced it.",
+    "kind": "textCompletion",
+    "options": [
+      "sedulous",
+      "cursory",
+      "erratic",
+      "prosaic",
+      "adamant"
+    ],
+    "stem": "Twenty years of _____ note-taking in parish registers produced the one reliable census of the county that historians still use today."
+  },
+  "tc-whimsical-1": {
+    "answers": [
+      "whimsical"
+    ],
+    "explanation": "Doors onto walls and giant benches are playful inventions that raise a laugh, which is what whimsical describes.",
+    "kind": "textCompletion",
+    "options": [
+      "whimsical",
+      "pedantic",
+      "adamant",
+      "cursory",
+      "adverse"
+    ],
+    "stem": "The garden was full of _____ touches — a door that opened onto a wall, a bench built for a giant — that made visitors laugh rather than admire."
+  }
+}

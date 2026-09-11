@@ -7,6 +7,7 @@ import SwiftUI
 struct GREApp: App {
     @State private var settings = AppSettings()
     @State private var catalog: WordCatalog?
+    @State private var items = ItemCatalog.empty
     @State private var mastery = MasteryIndex()
     @State private var loadError: String?
 
@@ -40,6 +41,7 @@ struct GREApp: App {
                 if let catalog {
                     RootView()
                         .environment(\.catalog, catalog)
+                        .environment(\.items, items)
                 } else if let loadError {
                     // Previously a dead end: unstyled red text with no way out.
                     VStack(spacing: 16) {
@@ -61,12 +63,19 @@ struct GREApp: App {
             .task(id: loadError == nil) {
                 guard catalog == nil else { return }
                 mastery.reload(from: container.mainContext)
+                // Questions are optional: a build written before the question
+                // pass still has to launch, with the drill empty.
+                items = (try? ItemCatalog.bundled()) ?? .empty
                 do { catalog = try WordCatalog.bundled() }
                 catch { loadError = "Could not load the word list: \(error)" }
             }
         }
         .modelContainer(container)
     }
+}
+
+private struct ItemsKey: EnvironmentKey {
+    static let defaultValue: ItemCatalog = .empty
 }
 
 private struct CatalogKey: EnvironmentKey {
@@ -78,5 +87,10 @@ extension EnvironmentValues {
     var catalog: WordCatalog {
         get { self[CatalogKey.self] }
         set { self[CatalogKey.self] = newValue }
+    }
+
+    var items: ItemCatalog {
+        get { self[ItemsKey.self] }
+        set { self[ItemsKey.self] = newValue }
     }
 }
