@@ -17,8 +17,8 @@
         "misconception": "hears the sound-alike about concluding"
       }
     ],
-    "required_nuance": "ruling something out before it can happen",
     "mental_hook": "Shut out before it starts.",
+    "required_nuance": "ruling something out before it can happen",
     "semantic_hint": "What one clause in a contract does to any later claim."
   },
   "precocious": {
@@ -39,8 +39,8 @@
         "misconception": "hears the sound-alike about insecurity"
       }
     ],
-    "required_nuance": "developed earlier than the age would suggest",
     "mental_hook": "Too good, too young.",
+    "required_nuance": "developed earlier than the age would suggest",
     "semantic_hint": "The word for a nine-year-old playing concert-level piano."
   },
   "precursor": {
@@ -61,8 +61,8 @@
         "misconception": "guesses from a vaguely similar shape"
       }
     ],
-    "required_nuance": "comes before and leads to the later thing",
     "mental_hook": "Came before, and led to it.",
+    "required_nuance": "comes before and leads to the later thing",
     "semantic_hint": "The word for an early machine that led to the modern computer."
   },
   "predecessor": {
@@ -83,8 +83,8 @@
         "misconception": "confuses order in time with rank"
       }
     ],
-    "required_nuance": "the earlier holder of the same role",
     "mental_hook": "Had the job before them.",
+    "required_nuance": "the earlier holder of the same role",
     "semantic_hint": "The word for the person who held your job before you did."
   },
   "predicament": {
@@ -105,8 +105,8 @@
         "misconception": "hears the sound-alike about predicting"
       }
     ],
-    "required_nuance": "a difficult position, hard to escape",
     "mental_hook": "Stuck, and no good way out.",
+    "required_nuance": "a difficult position, hard to escape",
     "semantic_hint": "The word for being caught between two promises you cannot both keep."
   },
   "predilection": {
@@ -127,8 +127,8 @@
         "misconception": "hears the sound-alike about prediction"
       }
     ],
-    "required_nuance": "a settled liking, not a prediction",
     "mental_hook": "A liking. Not a forecast.",
+    "required_nuance": "a settled liking, not a prediction",
     "semantic_hint": "The word for someone's standing preference for detective novels."
   },
   "predisposed": {
@@ -149,8 +149,8 @@
         "misconception": "hears the root about discarding"
       }
     ],
-    "required_nuance": "the inclination is there before the case arises",
     "mental_hook": "Already leaning, before it even starts.",
+    "required_nuance": "the inclination is there before the case arises",
     "semantic_hint": "The word for a family history that makes an illness more likely."
   },
   "preempt": {
@@ -171,8 +171,8 @@
         "misconception": "hears the second half of the word literally"
       }
     ],
-    "required_nuance": "getting in first to stop or supersede",
     "mental_hook": "In first, and the other move is dead.",
+    "required_nuance": "getting in first to stop or supersede",
     "semantic_hint": "What a broadcaster does by replacing scheduled programming with breaking news."
   },
   "preemptive": {
@@ -193,8 +193,8 @@
         "misconception": "hears the second half of the word literally"
       }
     ],
-    "required_nuance": "acting in advance to forestall",
     "mental_hook": "Struck first, to stop the other blow.",
+    "required_nuance": "acting in advance to forestall",
     "semantic_hint": "The word for a strike launched before the enemy can attack."
   },
   "preen": {
@@ -215,8 +215,8 @@
         "misconception": "inverts self-satisfaction into embarrassment"
       }
     ],
-    "required_nuance": "grooming, or visible pleasure in oneself",
     "mental_hook": "The bird with its feathers, and the person with their success.",
+    "required_nuance": "grooming, or visible pleasure in oneself",
     "semantic_hint": "What someone does after being praised in front of everyone."
   },
   "premeditate": {
@@ -237,8 +237,8 @@
         "misconception": "loses the advance planning of an act"
       }
     ],
-    "required_nuance": "planned before the act, often a crime",
     "mental_hook": "Thought out first. That is what makes it worse.",
+    "required_nuance": "planned before the act, often a crime",
     "semantic_hint": "What separates murder from manslaughter in a charge."
   },
   "premise": {
@@ -259,8 +259,8 @@
         "misconception": "hears the sound-alike about an undertaking"
       }
     ],
-    "required_nuance": "the starting assumption, not the conclusion",
     "mental_hook": "Where the argument starts, not where it ends.",
+    "required_nuance": "the starting assumption, not the conclusion",
     "semantic_hint": "The assumption a syllogism begins from before the conclusion."
   },
   "prescience": {
@@ -281,8 +281,8 @@
         "misconception": "confuses knowledge with the near-twin about a vague premonition"
       }
     ],
-    "required_nuance": "knowing in advance, as a quality",
     "mental_hook": "Knew it, before it happened.",
+    "required_nuance": "knowing in advance, as a quality",
     "semantic_hint": "The quality of a warning issued years before the crisis arrived."
   },
   "prescient": {
@@ -303,8 +303,8 @@
         "misconception": "hears the sound-alike about being present"
       }
     ],
-    "required_nuance": "correctly seeing what is coming",
     "mental_hook": "Saw it coming, and was right.",
+    "required_nuance": "correctly seeing what is coming",
     "semantic_hint": "The word for an essay that predicted the crash three years early."
   },
   "presentiment": {
@@ -325,8 +325,8 @@
         "misconception": "hears the word for a gift inside it"
       }
     ],
-    "required_nuance": "a feeling, not reasoned knowledge",
     "mental_hook": "A feeling, and usually a bad one.",
+    "required_nuance": "a feeling, not reasoned knowledge",
     "semantic_hint": "The uneasy sense that something is wrong before any news arrives."
   },
   "presumption": {
@@ -347,8 +347,8 @@
         "misconception": "inverts arrogant boldness into modesty"
       }
     ],
-    "required_nuance": "an assumption, or the arrogance of assuming",
     "mental_hook": "Assumed. Or assumed too much.",
+    "required_nuance": "an assumption, or the arrogance of assuming",
     "semantic_hint": "What the law grants an accused person about innocence."
   },
   "presumptive": {
@@ -369,8 +369,8 @@
         "misconception": "confuses a reasonable assumption with the near-twin about arrogance"
       }
     ],
-    "required_nuance": "assumed on reasonable grounds, not proved",
     "mental_hook": "Taken as likely, pending better evidence.",
+    "required_nuance": "assumed on reasonable grounds, not proved",
     "semantic_hint": "The word for the heir assumed to succeed unless someone closer is born."
   },
   "presumptuous": {
@@ -391,8 +391,8 @@
         "misconception": "confuses arrogance with the near-twin about a working assumption"
       }
     ],
-    "required_nuance": "arrogance in assuming a right one lacks",
     "mental_hook": "Assumed a right they did not have.",
+    "required_nuance": "arrogance in assuming a right one lacks",
     "semantic_hint": "The word for a stranger who starts rearranging your furniture."
   },
   "pretense": {
@@ -413,8 +413,8 @@
         "misconception": "confuses a false show with the near-twin about grandiosity"
       }
     ],
-    "required_nuance": "a false appearance deliberately maintained",
     "mental_hook": "Keeping up an appearance that is not true.",
+    "required_nuance": "a false appearance deliberately maintained",
     "semantic_hint": "The word for a friendliness maintained with someone you cannot stand."
   },
   "pretentious": {
@@ -435,8 +435,1328 @@
         "misconception": "confuses grandiosity with the near-twin noun about a sham"
       }
     ],
-    "required_nuance": "claiming an importance one has not earned",
     "mental_hook": "Claims more than it is worth.",
+    "required_nuance": "claiming an importance one has not earned",
     "semantic_hint": "The word for a menu that describes a sandwich in four languages."
+  },
+  "preternatural": {
+    "accepted_concepts": [
+      "beyond what is natural",
+      "uncanny in degree",
+      "exceeding normal experience",
+      "seemingly supernatural",
+      "extraordinary past explanation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly ordinary",
+        "misconception": "inverts the uncanny into the everyday"
+      },
+      {
+        "answer": "born before term",
+        "misconception": "hears the sound-alike about early birth"
+      }
+    ],
+    "mental_hook": "Past normal, without being magic.",
+    "required_nuance": "beyond the natural, without being divine",
+    "semantic_hint": "The word for a calm so complete it seems unnatural."
+  },
+  "prevail": {
+    "accepted_concepts": [
+      "triumph in the end",
+      "win out over opposition",
+      "be widespread as a practice",
+      "predominate",
+      "hold good generally"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to lose",
+        "misconception": "inverts triumph into defeat"
+      },
+      {
+        "answer": "to speak evasively",
+        "misconception": "confuses triumph with the near-twin about dodging the truth"
+      }
+    ],
+    "mental_hook": "Wins out, or holds throughout.",
+    "required_nuance": "winning out, or being generally the case",
+    "semantic_hint": "What common sense is said to do after a long argument."
+  },
+  "prevaricate": {
+    "accepted_concepts": [
+      "speak evasively to avoid the truth",
+      "hedge rather than answer",
+      "equivocate",
+      "dodge a direct answer",
+      "mislead by evasion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to state plainly",
+        "misconception": "inverts evasion into a straight answer"
+      },
+      {
+        "answer": "to triumph over opposition",
+        "misconception": "confuses evasion with the near-twin about winning out"
+      }
+    ],
+    "mental_hook": "Never quite lies. Never quite answers.",
+    "required_nuance": "evading the truth in speech",
+    "semantic_hint": "What a witness does by answering a different question each time."
+  },
+  "primacy": {
+    "accepted_concepts": [
+      "being first in importance",
+      "preeminence over others",
+      "the position of ranking above all",
+      "supremacy of place",
+      "the state of taking priority"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "subordination",
+        "misconception": "inverts being first into being beneath"
+      },
+      {
+        "answer": "the earliest period",
+        "misconception": "confuses rank with time"
+      }
+    ],
+    "mental_hook": "First in rank, not first in order.",
+    "required_nuance": "first in importance, not first in time",
+    "semantic_hint": "The word for the place evidence takes over opinion in science."
+  },
+  "prime": {
+    "accepted_concepts": [
+      "prepare in advance",
+      "get someone ready for what is coming",
+      "brief beforehand",
+      "make ready for use",
+      "condition in advance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to leave unprepared",
+        "misconception": "inverts readying into neglecting"
+      },
+      {
+        "answer": "of the highest quality",
+        "misconception": "takes the adjective sense for the tested verb"
+      }
+    ],
+    "mental_hook": "Made ready, before the moment.",
+    "required_nuance": "the tested sense is the verb: preparing in advance",
+    "semantic_hint": "What a lawyer does to a witness before they take the stand."
+  },
+  "principled": {
+    "accepted_concepts": [
+      "acting on firm moral grounds",
+      "guided by ethics rather than advantage",
+      "honourable in conduct",
+      "conscientious about right and wrong",
+      "holding to a standard whatever it costs"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "acting from expedience",
+        "misconception": "inverts principle into convenience"
+      },
+      {
+        "answer": "the head of a school",
+        "misconception": "hears the sound-alike about a school head"
+      }
+    ],
+    "mental_hook": "Does the right thing, cost included.",
+    "required_nuance": "acting on principle, even at a cost",
+    "semantic_hint": "The word for a resignation made over a matter of conscience."
+  },
+  "pristine": {
+    "accepted_concepts": [
+      "in original unspoiled condition",
+      "untouched and perfect",
+      "immaculate as when new",
+      "unsullied",
+      "entirely clean and undamaged"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "spoiled and worn",
+        "misconception": "inverts the untouched into the damaged"
+      },
+      {
+        "answer": "very old and decayed",
+        "misconception": "confuses originality of condition with age"
+      }
+    ],
+    "mental_hook": "As good as the day it was made.",
+    "required_nuance": "as it was originally, unspoiled",
+    "semantic_hint": "The word for a wilderness no development has ever touched."
+  },
+  "probity": {
+    "accepted_concepts": [
+      "complete honesty",
+      "moral integrity",
+      "uprightness of character",
+      "rectitude in dealings",
+      "incorruptible honesty"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "corruption",
+        "misconception": "inverts integrity into dishonesty"
+      },
+      {
+        "answer": "likelihood",
+        "misconception": "hears the sound-alike about probability"
+      }
+    ],
+    "mental_hook": "Honest, and reliably so.",
+    "required_nuance": "honesty as a settled character",
+    "semantic_hint": "The quality expected of an auditor above all others."
+  },
+  "procedural": {
+    "accepted_concepts": [
+      "relating to established procedure",
+      "about the method rather than the substance",
+      "concerning the correct steps",
+      "formal in the sense of process",
+      "to do with how a thing is done"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "concerning the substance of the matter",
+        "misconception": "inverts process into content"
+      },
+      {
+        "answer": "money received",
+        "misconception": "confuses process with the near-twin about takings"
+      }
+    ],
+    "mental_hook": "About how, not about what.",
+    "required_nuance": "about the process, not the merits",
+    "semantic_hint": "The word for an objection about the rules rather than the argument."
+  },
+  "proceeding": {
+    "accepted_concepts": [
+      "a formal legal process",
+      "an official action taken through channels",
+      "a hearing before a body",
+      "a course of formal steps",
+      "litigation in progress"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an informal chat",
+        "misconception": "loses the formality that defines it"
+      },
+      {
+        "answer": "money received",
+        "misconception": "confuses the process with the near-twin about takings"
+      }
+    ],
+    "mental_hook": "The formal process, under way.",
+    "required_nuance": "the formal process itself",
+    "semantic_hint": "The word for a case moving through a court or tribunal."
+  },
+  "proceeds": {
+    "accepted_concepts": [
+      "money obtained from a sale",
+      "takings from an event",
+      "the returns after a transaction",
+      "income raised",
+      "what the sale brought in"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "expenses incurred",
+        "misconception": "inverts money coming in into money going out"
+      },
+      {
+        "answer": "a formal legal process",
+        "misconception": "confuses money with the near-twin about a hearing"
+      }
+    ],
+    "mental_hook": "The money. The near-twin is the process.",
+    "required_nuance": "money received, not the process",
+    "semantic_hint": "The word for the money a charity concert raises."
+  },
+  "proclivity": {
+    "accepted_concepts": [
+      "a natural tendency",
+      "an inclination one is born with",
+      "a propensity toward something",
+      "a leaning in a direction",
+      "a habitual bent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an aversion",
+        "misconception": "inverts a leaning toward into a leaning away"
+      },
+      {
+        "answer": "a public announcement",
+        "misconception": "hears the sound-alike about proclaiming"
+      }
+    ],
+    "mental_hook": "The way they naturally lean.",
+    "required_nuance": "a natural leaning, often toward something questionable",
+    "semantic_hint": "The word for a standing tendency toward risky decisions."
+  },
+  "prodigal": {
+    "accepted_concepts": [
+      "wastefully extravagant",
+      "spending recklessly",
+      "lavish beyond all sense",
+      "squandering resources",
+      "profligate with money"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "thrifty",
+        "misconception": "inverts reckless spending into careful saving"
+      },
+      {
+        "answer": "returning home after absence",
+        "misconception": "takes the parable's story for the word's meaning"
+      }
+    ],
+    "mental_hook": "The son wasted the money. That is the word.",
+    "required_nuance": "wasteful spending, not returning",
+    "semantic_hint": "The word for going through an inheritance in two years."
+  },
+  "prodigious": {
+    "accepted_concepts": [
+      "impressively great in size",
+      "enormous in extent",
+      "remarkable in scale",
+      "phenomenal in degree",
+      "immense enough to astonish"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "tiny",
+        "misconception": "inverts immensity into smallness"
+      },
+      {
+        "answer": "wastefully extravagant",
+        "misconception": "confuses great size with the near-twin about squandering"
+      }
+    ],
+    "mental_hook": "Enormous, and it impresses.",
+    "required_nuance": "great in scale, and astonishing with it",
+    "semantic_hint": "The word for an appetite or an output that astonishes people."
+  },
+  "prodigy": {
+    "accepted_concepts": [
+      "a person with exceptional early talent",
+      "a child of remarkable gifts",
+      "a wunderkind",
+      "someone extraordinarily able very young",
+      "a phenomenon of youthful skill"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an ordinary learner",
+        "misconception": "inverts exceptional talent into the average"
+      },
+      {
+        "answer": "an ancestor",
+        "misconception": "confuses a gifted young person with the near-twin about a forebear"
+      }
+    ],
+    "mental_hook": "Astonishing, and still a child.",
+    "required_nuance": "exceptional talent, and young",
+    "semantic_hint": "The word for a twelve-year-old playing with a professional orchestra."
+  },
+  "proficient": {
+    "accepted_concepts": [
+      "competent and skilled",
+      "well able to do it",
+      "adept through training",
+      "accomplished at a task",
+      "having a good working command"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "inept",
+        "misconception": "inverts competence into incapacity"
+      },
+      {
+        "answer": "producing a great deal",
+        "misconception": "confuses skill with the near-twin about abundant output"
+      }
+    ],
+    "mental_hook": "Good at it. Says nothing about how much.",
+    "required_nuance": "skilled, not necessarily prolific",
+    "semantic_hint": "The word for someone who can hold a conversation in a second language."
+  },
+  "profligate": {
+    "accepted_concepts": [
+      "recklessly wasteful",
+      "extravagant with resources",
+      "dissolute in conduct",
+      "squandering without restraint",
+      "unrestrained in spending or morals"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "prudent",
+        "misconception": "inverts recklessness into careful management"
+      },
+      {
+        "answer": "producing abundantly",
+        "misconception": "confuses wastefulness with the near-twin about fertile output"
+      }
+    ],
+    "mental_hook": "Spends it all, and worse.",
+    "required_nuance": "reckless waste, of money or of self",
+    "semantic_hint": "The word for a government criticised for wasting public money."
+  },
+  "profound": {
+    "accepted_concepts": [
+      "very deep in meaning",
+      "far-reaching in effect",
+      "penetrating in insight",
+      "intense in degree",
+      "reaching to the bottom of a matter"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "superficial",
+        "misconception": "inverts depth into shallowness"
+      },
+      {
+        "answer": "abundant in quantity",
+        "misconception": "confuses depth with the near-twin about profusion"
+      }
+    ],
+    "mental_hook": "Deep. Not merely plentiful.",
+    "required_nuance": "deep, in insight or in degree",
+    "semantic_hint": "The word for a change that reaches every part of a society."
+  },
+  "profundity": {
+    "accepted_concepts": [
+      "great depth of insight",
+      "wisdom that reaches far",
+      "penetration of understanding",
+      "depth of thought",
+      "seriousness of significance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "triviality",
+        "misconception": "inverts depth into shallowness"
+      },
+      {
+        "answer": "abundance",
+        "misconception": "confuses depth with the near-twin about plenty"
+      }
+    ],
+    "mental_hook": "Depth of thought, named.",
+    "required_nuance": "depth of thought, as a quality",
+    "semantic_hint": "The quality of a remark that stays with you for years."
+  },
+  "profuse": {
+    "accepted_concepts": [
+      "abundant to excess",
+      "poured out lavishly",
+      "copious in quantity",
+      "effusive in expression",
+      "far more than needed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "meagre",
+        "misconception": "inverts abundance into scarcity"
+      },
+      {
+        "answer": "very deep in meaning",
+        "misconception": "confuses quantity with the near-twin about depth"
+      }
+    ],
+    "mental_hook": "Poured out, and too much of it.",
+    "required_nuance": "abundant, often embarrassingly so",
+    "semantic_hint": "The word for apologies repeated far more often than needed."
+  },
+  "profusion": {
+    "accepted_concepts": [
+      "a large abundance",
+      "an outpouring in great quantity",
+      "a wealth of something",
+      "plenty spilling over",
+      "richness of supply"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "scarcity",
+        "misconception": "inverts abundance into shortage"
+      },
+      {
+        "answer": "depth of insight",
+        "misconception": "confuses quantity with the near-twin about depth"
+      }
+    ],
+    "mental_hook": "Great quantities, spilling over.",
+    "required_nuance": "abundance in quantity, as a thing",
+    "semantic_hint": "The word for a garden with flowers everywhere in June."
+  },
+  "progenitor": {
+    "accepted_concepts": [
+      "an ancestor",
+      "the originator of a line",
+      "a founder from whom others descend",
+      "the first of a family or type",
+      "an originator of a movement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a descendant",
+        "misconception": "inverts the ancestor into the offspring"
+      },
+      {
+        "answer": "a gifted young person",
+        "misconception": "confuses an ancestor with the near-twin about a young genius"
+      }
+    ],
+    "mental_hook": "The one they all came from.",
+    "required_nuance": "the one from whom later ones descend",
+    "semantic_hint": "The word for the first machine of a kind that all later ones descend from."
+  },
+  "prognosticate": {
+    "accepted_concepts": [
+      "predict the future",
+      "foretell what will happen",
+      "forecast from present signs",
+      "make a prediction",
+      "declare what is to come"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to describe what has already happened",
+        "misconception": "inverts predicting into recounting"
+      },
+      {
+        "answer": "a prediction made",
+        "misconception": "confuses the verb with the related noun"
+      }
+    ],
+    "mental_hook": "The verb: does the predicting.",
+    "required_nuance": "the act of predicting, as a verb",
+    "semantic_hint": "What a commentator does by saying who will win the election."
+  },
+  "prognostication": {
+    "accepted_concepts": [
+      "a prediction",
+      "a forecast of what will happen",
+      "a prophecy about the future",
+      "a projection of coming events",
+      "a foretelling"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a record of the past",
+        "misconception": "inverts a forecast into a history"
+      },
+      {
+        "answer": "to predict",
+        "misconception": "confuses the noun with the verb"
+      }
+    ],
+    "mental_hook": "The prediction, named.",
+    "required_nuance": "the prediction itself, as a thing",
+    "semantic_hint": "The word for a forecast that turns out completely wrong."
+  },
+  "prohibitive": {
+    "accepted_concepts": [
+      "so high as to prevent something",
+      "too expensive to be possible",
+      "restrictive enough to rule it out",
+      "exorbitant to the point of barring",
+      "having the effect of forbidding"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "affordable",
+        "misconception": "inverts a barrier of cost into reasonableness"
+      },
+      {
+        "answer": "formally forbidden by law",
+        "misconception": "confuses a practical barrier with a legal ban"
+      }
+    ],
+    "mental_hook": "Not banned. Just impossible.",
+    "required_nuance": "the cost or condition itself prevents it",
+    "semantic_hint": "The word for a price so high nobody can consider buying."
+  },
+  "project": {
+    "accepted_concepts": [
+      "estimate for the future",
+      "extrapolate a trend forward",
+      "convey an impression outwardly",
+      "communicate vividly to an audience",
+      "throw forward"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to look back at past figures",
+        "misconception": "inverts forecasting into reviewing"
+      },
+      {
+        "answer": "a piece of work undertaken",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "mental_hook": "Throws it forward, in numbers or in manner.",
+    "required_nuance": "the tested sense is the verb: forecasting or conveying",
+    "semantic_hint": "What an actor does with a voice to reach the back row."
+  },
+  "projection": {
+    "accepted_concepts": [
+      "a forecast based on current trends",
+      "an estimate of future figures",
+      "an extrapolation forward",
+      "a calculated prediction",
+      "a modelled expectation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a record of what already happened",
+        "misconception": "inverts a forecast into a history"
+      },
+      {
+        "answer": "a piece of work undertaken",
+        "misconception": "confuses a forecast with a project"
+      }
+    ],
+    "mental_hook": "The numbers, carried forward.",
+    "required_nuance": "a forecast worked out from present figures",
+    "semantic_hint": "The word for a budget estimate of next year's costs."
+  },
+  "proletarian": {
+    "accepted_concepts": [
+      "relating to the working class",
+      "of the labouring mass",
+      "blue-collar in character",
+      "belonging to those who work for wages",
+      "characteristic of the industrial workers"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "belonging to the propertied class",
+        "misconception": "inverts the working class into the bourgeoisie"
+      },
+      {
+        "answer": "producing many offspring",
+        "misconception": "hears the root about fertility"
+      }
+    ],
+    "mental_hook": "Of the workers, in the political sense.",
+    "required_nuance": "the wage-earning working class",
+    "semantic_hint": "The word Marx used for the class that sells its labour."
+  },
+  "proliferate": {
+    "accepted_concepts": [
+      "increase rapidly in number",
+      "multiply fast",
+      "spread by rapid reproduction",
+      "mushroom in quantity",
+      "grow in numbers quickly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to dwindle",
+        "misconception": "inverts rapid increase into decline"
+      },
+      {
+        "answer": "producing much as a quality",
+        "misconception": "confuses the verb with the near-twin adjective"
+      }
+    ],
+    "mental_hook": "More and more, fast.",
+    "required_nuance": "increasing rapidly in number",
+    "semantic_hint": "What coffee shops did on high streets in one decade."
+  },
+  "prolific": {
+    "accepted_concepts": [
+      "producing a great deal",
+      "highly productive",
+      "turning out work in quantity",
+      "fertile in output",
+      "abundant in what it yields"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unproductive",
+        "misconception": "inverts abundant output into barrenness"
+      },
+      {
+        "answer": "competent and skilled",
+        "misconception": "confuses quantity of output with the near-twin about skill"
+      }
+    ],
+    "mental_hook": "Produces a lot. Quality is another question.",
+    "required_nuance": "producing much, whatever the quality",
+    "semantic_hint": "The word for a novelist who publishes two books a year."
+  },
+  "prolix": {
+    "accepted_concepts": [
+      "tediously wordy",
+      "using far more words than needed",
+      "long-winded",
+      "rambling at length",
+      "verbose to the point of tedium"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "concise",
+        "misconception": "inverts wordiness into brevity"
+      },
+      {
+        "answer": "producing a great deal",
+        "misconception": "confuses wordiness with the near-twin about abundant output"
+      }
+    ],
+    "mental_hook": "Too many words, and they drag.",
+    "required_nuance": "too many words, and tedious for it",
+    "semantic_hint": "The word for a report that says in forty pages what needed four."
+  },
+  "prolixity": {
+    "accepted_concepts": [
+      "excessive wordiness",
+      "long-windedness",
+      "the fault of using too many words",
+      "verbosity",
+      "tedious length of expression"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "concision",
+        "misconception": "inverts wordiness into brevity"
+      },
+      {
+        "answer": "great productivity",
+        "misconception": "confuses wordiness with the near-twin about abundant output"
+      }
+    ],
+    "mental_hook": "The wordiness itself, named.",
+    "required_nuance": "wordiness as a fault, named",
+    "semantic_hint": "The word for the fault of a witness who takes an hour to say yes."
+  },
+  "prologue": {
+    "accepted_concepts": [
+      "an introduction to a work",
+      "an opening section before the main narrative",
+      "a preface",
+      "words spoken before a play begins",
+      "a preamble to a story"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a closing section",
+        "misconception": "inverts an opening into an ending"
+      },
+      {
+        "answer": "a formal legal process",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "mental_hook": "Comes first, and sets the scene.",
+    "required_nuance": "an opening section before the main work",
+    "semantic_hint": "The speech before a Shakespeare play's first act."
+  },
+  "promiscuous": {
+    "accepted_concepts": [
+      "indiscriminate in choice",
+      "casual and unselective",
+      "mixing without distinction",
+      "random in what is taken up",
+      "undiscriminating"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "highly selective",
+        "misconception": "inverts indiscriminate choice into careful selection"
+      },
+      {
+        "answer": "notable and prominent",
+        "misconception": "hears the sound-alike about being conspicuous"
+      }
+    ],
+    "mental_hook": "Takes everything, chooses nothing.",
+    "required_nuance": "indiscriminate, and not only about relations",
+    "semantic_hint": "The word for a reader who devours every book without distinction."
+  },
+  "promulgate": {
+    "accepted_concepts": [
+      "make known officially",
+      "proclaim a law or doctrine",
+      "publish widely",
+      "disseminate formally",
+      "put out for all to know"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to suppress",
+        "misconception": "inverts publishing into concealing"
+      },
+      {
+        "answer": "to amalgamate",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "mental_hook": "Announced, and officially.",
+    "required_nuance": "official public announcement",
+    "semantic_hint": "What a government does by formally publishing a new regulation."
+  },
+  "prone": {
+    "accepted_concepts": [
+      "likely to suffer from something",
+      "liable by disposition",
+      "susceptible to a fault",
+      "inclined toward a tendency",
+      "lying face down"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "resistant to it",
+        "misconception": "inverts susceptibility into immunity"
+      },
+      {
+        "answer": "lying face up",
+        "misconception": "inverts face down into face up"
+      }
+    ],
+    "mental_hook": "Likely to. Or face down.",
+    "required_nuance": "liable to something, or lying face down",
+    "semantic_hint": "How someone is described who keeps getting the same injury."
+  },
+  "pronounced": {
+    "accepted_concepts": [
+      "very noticeable",
+      "marked and unmistakable",
+      "distinct enough to stand out",
+      "conspicuous in degree",
+      "clearly evident"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "slight and subtle",
+        "misconception": "inverts the marked into the barely noticeable"
+      },
+      {
+        "answer": "spoken aloud",
+        "misconception": "takes the sense about saying a word"
+      }
+    ],
+    "mental_hook": "You cannot miss it.",
+    "required_nuance": "noticeable to a marked degree",
+    "semantic_hint": "The word for a limp everyone in the room notices."
+  },
+  "propagate": {
+    "accepted_concepts": [
+      "spread widely",
+      "transmit onward",
+      "reproduce and multiply",
+      "disseminate an idea",
+      "breed and extend"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to contain and suppress",
+        "misconception": "inverts spreading into holding back"
+      },
+      {
+        "answer": "to make known officially",
+        "misconception": "confuses general spreading with the near-twin about formal proclamation"
+      }
+    ],
+    "mental_hook": "Spreads it, or breeds it.",
+    "required_nuance": "spreading or breeding onward",
+    "semantic_hint": "What a gardener does with cuttings, and what rumour does with a story."
+  },
+  "propensity": {
+    "accepted_concepts": [
+      "a natural inclination",
+      "a tendency to behave a certain way",
+      "a leaning built into someone",
+      "a habitual bent",
+      "a disposition toward something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a disinclination",
+        "misconception": "inverts a tendency toward into one away"
+      },
+      {
+        "answer": "correctness of behaviour",
+        "misconception": "confuses a tendency with the near-twin about decorum"
+      }
+    ],
+    "mental_hook": "What they tend to do.",
+    "required_nuance": "a tendency, not a standard of conduct",
+    "semantic_hint": "The word for a tendency to argue with any authority."
+  },
+  "property": {
+    "accepted_concepts": [
+      "a characteristic quality of a thing",
+      "an attribute belonging to something",
+      "what one owns",
+      "possessions held",
+      "a defining feature"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "correctness of behaviour",
+        "misconception": "confuses an attribute with the near-twin about decorum"
+      },
+      {
+        "answer": "a natural inclination",
+        "misconception": "confuses a thing's attribute with a person's tendency"
+      }
+    ],
+    "mental_hook": "What it has, or what you own.",
+    "required_nuance": "an attribute of a thing, or what is owned",
+    "semantic_hint": "The word for a substance's melting point as one of its characteristics."
+  },
+  "prophetic": {
+    "accepted_concepts": [
+      "accurately predicting the future",
+      "turning out to have foretold events",
+      "oracular",
+      "visionary about what would come",
+      "prescient in what it said"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "shortsighted",
+        "misconception": "inverts seeing ahead into failing to"
+      },
+      {
+        "answer": "highly profitable",
+        "misconception": "hears the sound-alike about making money"
+      }
+    ],
+    "mental_hook": "Said it would happen. It did.",
+    "required_nuance": "foretelling, and turning out right",
+    "semantic_hint": "The word for a warning written in 1930 that proved exactly right."
+  },
+  "propitiate": {
+    "accepted_concepts": [
+      "appease someone angry",
+      "win back the favour of",
+      "placate by an offering",
+      "conciliate an offended party",
+      "make peace with by concession"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to antagonise",
+        "misconception": "inverts appeasing into provoking"
+      },
+      {
+        "answer": "favourable and promising",
+        "misconception": "confuses the verb with the near-twin adjective about good omens"
+      }
+    ],
+    "mental_hook": "Buys back the goodwill.",
+    "required_nuance": "appeasing anger, often by an offering",
+    "semantic_hint": "What an offering was meant to do to an angry god."
+  },
+  "propitious": {
+    "accepted_concepts": [
+      "favourable to success",
+      "giving a good sign for what is planned",
+      "auspicious",
+      "opportune in circumstance",
+      "boding well"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unfavourable",
+        "misconception": "inverts good omens into bad"
+      },
+      {
+        "answer": "to appease someone angry",
+        "misconception": "confuses the adjective with the near-twin verb about placating"
+      }
+    ],
+    "mental_hook": "The signs are good.",
+    "required_nuance": "conditions favouring success",
+    "semantic_hint": "The word for a moment when everything favours launching the plan."
+  },
+  "proponent": {
+    "accepted_concepts": [
+      "someone who advocates a cause",
+      "a supporter arguing for something",
+      "a champion of a proposal",
+      "one who puts a case forward",
+      "an advocate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an opponent",
+        "misconception": "inverts the advocate into the critic"
+      },
+      {
+        "answer": "a neutral observer",
+        "misconception": "loses the advocacy that defines it"
+      }
+    ],
+    "mental_hook": "Argues for it.",
+    "required_nuance": "one who argues for something",
+    "semantic_hint": "The word for the leading advocate of a controversial reform."
+  },
+  "propriety": {
+    "accepted_concepts": [
+      "correctness of behaviour",
+      "what is socially fitting",
+      "decorum",
+      "conformity to accepted standards of conduct",
+      "seemliness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "impropriety",
+        "misconception": "inverts correct conduct into unseemliness"
+      },
+      {
+        "answer": "what someone owns",
+        "misconception": "confuses correct conduct with the near-twin about possessions"
+      }
+    ],
+    "mental_hook": "Correct behaviour. The near-twin is what you own.",
+    "required_nuance": "correctness of conduct, not ownership",
+    "semantic_hint": "The word for the standard of conduct expected at a formal funeral."
+  },
+  "prosaic": {
+    "accepted_concepts": [
+      "dull and ordinary",
+      "lacking any poetry or imagination",
+      "commonplace",
+      "matter-of-fact to the point of dullness",
+      "pedestrian"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "poetic and imaginative",
+        "misconception": "inverts dull plainness into imagination"
+      },
+      {
+        "answer": "to forbid officially",
+        "misconception": "confuses dullness with the near-twin about banning"
+      }
+    ],
+    "mental_hook": "Prose, and dull prose at that.",
+    "required_nuance": "dull and plain, like prose against poetry",
+    "semantic_hint": "The word for a description of a sunset in terms of air pressure."
+  },
+  "proscribe": {
+    "accepted_concepts": [
+      "forbid officially",
+      "ban by authority",
+      "outlaw a practice",
+      "prohibit formally",
+      "denounce as forbidden"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to recommend as a remedy",
+        "misconception": "hears the near-identical word that means to order a treatment"
+      },
+      {
+        "answer": "dull and ordinary",
+        "misconception": "confuses banning with the near-twin about dullness"
+      }
+    ],
+    "mental_hook": "Forbids it. The near-twin orders the medicine.",
+    "required_nuance": "forbidding, not recommending",
+    "semantic_hint": "What a regime does by formally outlawing a political party."
+  },
+  "proselytize": {
+    "accepted_concepts": [
+      "try to convert others to a belief",
+      "preach in order to win converts",
+      "evangelise",
+      "press one's faith on others",
+      "campaign to change others' beliefs"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to keep one's beliefs private",
+        "misconception": "inverts active conversion into reticence"
+      },
+      {
+        "answer": "to forbid officially",
+        "misconception": "confuses converting with the near-twin about banning"
+      }
+    ],
+    "mental_hook": "Wants you to believe it too.",
+    "required_nuance": "actively seeking to convert others",
+    "semantic_hint": "What missionaries do by going door to door."
+  },
+  "prospective": {
+    "accepted_concepts": [
+      "expected in the future",
+      "likely to become so",
+      "potential rather than actual",
+      "anticipated as forthcoming",
+      "looking ahead to what may be"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "looking back at the past",
+        "misconception": "inverts forward-looking into retrospective"
+      },
+      {
+        "answer": "currently in the role",
+        "misconception": "confuses a future holder with the present one"
+      }
+    ],
+    "mental_hook": "Not yet. Probably soon.",
+    "required_nuance": "expected or potential, not yet actual",
+    "semantic_hint": "The word for a buyer who has not yet made an offer."
+  },
+  "protean": {
+    "accepted_concepts": [
+      "readily taking different forms",
+      "versatile in changing shape",
+      "mutable",
+      "adaptable to any role",
+      "changing form at will"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "rigidly fixed",
+        "misconception": "inverts shape-shifting into fixity"
+      },
+      {
+        "answer": "relating to dietary building blocks",
+        "misconception": "hears the sound-alike about nutrition"
+      }
+    ],
+    "mental_hook": "Named for a god who could become anything.",
+    "required_nuance": "changing form readily, by nature",
+    "semantic_hint": "The word for an actor who is unrecognisable from role to role."
+  },
+  "provender": {
+    "accepted_concepts": [
+      "food for livestock",
+      "fodder",
+      "dry feed for animals",
+      "provisions laid in",
+      "supplies of food"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a supplier of goods",
+        "misconception": "hears the sound-alike about a vendor"
+      },
+      {
+        "answer": "a fee paid",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "mental_hook": "Feed for the animals.",
+    "required_nuance": "food, especially animal feed",
+    "semantic_hint": "The word for the hay and oats stored for a stable."
+  },
+  "provident": {
+    "accepted_concepts": [
+      "carefully preparing for the future",
+      "thrifty with an eye ahead",
+      "making provision in good time",
+      "farsighted in saving",
+      "prudent about what is coming"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "reckless about the future",
+        "misconception": "inverts foresight into improvidence"
+      },
+      {
+        "answer": "fortunately timed as if by fate",
+        "misconception": "confuses foresight with the near-twin about lucky timing"
+      }
+    ],
+    "mental_hook": "Put something by, in good time.",
+    "required_nuance": "foresight in preparing, not lucky timing",
+    "semantic_hint": "The word for saving steadily through good years for the bad ones."
+  },
+  "providential": {
+    "accepted_concepts": [
+      "occurring at a fortunate moment",
+      "lucky as if arranged by fate",
+      "opportune beyond expectation",
+      "heaven-sent in its timing",
+      "fortunate in a way that seems designed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "untimely",
+        "misconception": "inverts fortunate timing into bad timing"
+      },
+      {
+        "answer": "carefully preparing for the future",
+        "misconception": "confuses lucky timing with the near-twin about foresight"
+      }
+    ],
+    "mental_hook": "Lucky, and it feels arranged.",
+    "required_nuance": "lucky timing, as if by design",
+    "semantic_hint": "The word for a rescue arriving at exactly the right minute."
+  },
+  "provincial": {
+    "accepted_concepts": [
+      "narrow-minded",
+      "limited in outlook to one's own area",
+      "unsophisticated in taste",
+      "parochial",
+      "of the regions rather than the capital"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cosmopolitan",
+        "misconception": "inverts narrowness into worldliness"
+      },
+      {
+        "answer": "temporary and subject to change",
+        "misconception": "confuses narrowness with the near-twin about the interim"
+      }
+    ],
+    "mental_hook": "Narrow, and looking no further than home.",
+    "required_nuance": "narrow in outlook, not temporary",
+    "semantic_hint": "The word for taste that dismisses anything from outside the region."
+  },
+  "provisional": {
+    "accepted_concepts": [
+      "temporary and subject to change",
+      "arranged for the interim",
+      "tentative until confirmed",
+      "holding good only for now",
+      "not yet final"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "permanent and settled",
+        "misconception": "inverts the temporary into the definitive"
+      },
+      {
+        "answer": "narrow in outlook",
+        "misconception": "confuses the temporary with the near-twin about parochialism"
+      }
+    ],
+    "mental_hook": "For now, until it is settled.",
+    "required_nuance": "temporary, pending something final",
+    "semantic_hint": "The word for a government in place only until elections are held."
+  },
+  "provocative": {
+    "accepted_concepts": [
+      "deliberately causing a strong reaction",
+      "meant to stir people up",
+      "challenging in a way that invites response",
+      "inflammatory by design",
+      "stimulating argument on purpose"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "soothing",
+        "misconception": "inverts stirring up into calming"
+      },
+      {
+        "answer": "accidentally offensive",
+        "misconception": "loses the deliberateness that defines it"
+      }
+    ],
+    "mental_hook": "Meant to get a reaction, and it does.",
+    "required_nuance": "designed to provoke a reaction",
+    "semantic_hint": "The word for an essay written to make people argue about it."
+  },
+  "provoke": {
+    "accepted_concepts": [
+      "incite a reaction",
+      "goad someone into responding",
+      "stir up a feeling",
+      "bring about by irritation",
+      "elicit a strong response"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to pacify",
+        "misconception": "inverts stirring up into calming"
+      },
+      {
+        "answer": "to revoke a permission",
+        "misconception": "hears the sound-alike about withdrawing something"
+      }
+    ],
+    "mental_hook": "Pushes until something happens.",
+    "required_nuance": "bringing on a reaction, usually a strong one",
+    "semantic_hint": "What a taunt does to someone's temper."
+  },
+  "prowess": {
+    "accepted_concepts": [
+      "outstanding skill",
+      "great ability in a field",
+      "expertise that stands out",
+      "bravery in action",
+      "distinguished capability"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ineptitude",
+        "misconception": "inverts outstanding skill into incompetence"
+      },
+      {
+        "answer": "a slow careful search",
+        "misconception": "hears the sound-alike about prowling"
+      }
+    ],
+    "mental_hook": "Very good at it, and known for it.",
+    "required_nuance": "marked skill or courage",
+    "semantic_hint": "The word for a striker's ability in front of goal."
+  },
+  "proxy": {
+    "accepted_concepts": [
+      "a substitute standing in for another",
+      "someone authorised to act for you",
+      "a stand-in with authority",
+      "a surrogate measure used instead",
+      "a delegate acting in one's place"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the principal acting in person",
+        "misconception": "inverts the stand-in into the person themselves"
+      },
+      {
+        "answer": "nearness",
+        "misconception": "hears the sound-alike about being close by"
+      }
+    ],
+    "mental_hook": "Stands in, with authority.",
+    "required_nuance": "acting or standing in for another",
+    "semantic_hint": "What someone casts a vote by when they cannot attend in person."
+  },
+  "prude": {
+    "accepted_concepts": [
+      "someone easily shocked by impropriety",
+      "a person excessively concerned with modesty",
+      "a moralist about small improprieties",
+      "a puritan in manners",
+      "one offended by anything indelicate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a libertine",
+        "misconception": "inverts easily shocked modesty into unrestrained indulgence"
+      },
+      {
+        "answer": "someone showing good judgement",
+        "misconception": "hears the sound-alike about careful foresight"
+      }
+    ],
+    "mental_hook": "Shocked, and rather easily.",
+    "required_nuance": "easily shocked about propriety",
+    "semantic_hint": "The word for someone who objects to a mild joke at dinner."
   }
 }
