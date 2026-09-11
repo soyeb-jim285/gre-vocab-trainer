@@ -1758,5 +1758,445 @@
     "mental_hook": "Shocked, and rather easily.",
     "required_nuance": "easily shocked about propriety",
     "semantic_hint": "The word for someone who objects to a mild joke at dinner."
+  },
+  "prudent": {
+    "accepted_concepts": [
+      "careful and sensible about the future",
+      "showing good judgement in risk",
+      "circumspect",
+      "cautious in a wise way",
+      "judicious about consequences"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "reckless",
+        "misconception": "inverts care into rashness"
+      },
+      {
+        "answer": "easily shocked about propriety",
+        "misconception": "confuses good judgement with the near-twin about primness"
+      }
+    ],
+    "required_nuance": "wise caution about what may come",
+    "mental_hook": "Thinks about tomorrow before acting today.",
+    "semantic_hint": "The word for keeping a reserve of savings against bad years."
+  },
+  "prune": {
+    "accepted_concepts": [
+      "cut back",
+      "trim away what is not needed",
+      "curtail by removing parts",
+      "reduce by cutting",
+      "weed out the unnecessary"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to let grow unchecked",
+        "misconception": "inverts cutting back into allowing growth"
+      },
+      {
+        "answer": "a dried fruit",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "cutting back to improve or reduce",
+    "mental_hook": "Cuts it back, so what is left does better.",
+    "semantic_hint": "What a manager does to a bloated list of projects."
+  },
+  "prurient": {
+    "accepted_concepts": [
+      "having an unhealthy interest in sexual matters",
+      "salacious in curiosity",
+      "voyeuristic",
+      "dwelling on the indecent",
+      "lewdly inquisitive"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "wholesome",
+        "misconception": "inverts an unhealthy interest into decency"
+      },
+      {
+        "answer": "careful about the future",
+        "misconception": "confuses lewd interest with the near-twin about caution"
+      }
+    ],
+    "required_nuance": "an unwholesome sexual curiosity",
+    "mental_hook": "Interested, and unhealthily so.",
+    "semantic_hint": "The word for coverage that lingers on details it pretends to deplore."
+  },
+  "pucker": {
+    "accepted_concepts": [
+      "gather into wrinkles",
+      "draw into small folds",
+      "wrinkle up a surface",
+      "crumple into ridges",
+      "furrow together"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to smooth flat",
+        "misconception": "inverts wrinkling into flattening"
+      },
+      {
+        "answer": "to strike repeatedly",
+        "misconception": "hears the sound-alike about pummelling"
+      }
+    ],
+    "required_nuance": "gathering into small folds or wrinkles",
+    "mental_hook": "Drawn together into little folds.",
+    "semantic_hint": "What a badly sewn seam does to fabric."
+  },
+  "puerile": {
+    "accepted_concepts": [
+      "childishly silly",
+      "immature in a way that irritates",
+      "juvenile in humour",
+      "infantile",
+      "unworthy of an adult"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "mature",
+        "misconception": "inverts childishness into adulthood"
+      },
+      {
+        "answer": "pure and innocent",
+        "misconception": "hears the sound-alike about purity"
+      }
+    ],
+    "required_nuance": "childish, and it is a criticism",
+    "mental_hook": "Childish, and said with contempt.",
+    "semantic_hint": "The word for a joke you would expect from a twelve-year-old."
+  },
+  "pugilism": {
+    "accepted_concepts": [
+      "boxing",
+      "the sport of fist fighting",
+      "prizefighting",
+      "combat with the fists as a sport",
+      "the art of boxing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a boxer",
+        "misconception": "confuses the sport with the person who practises it"
+      },
+      {
+        "answer": "eagerness to argue",
+        "misconception": "confuses the sport with the near-twin about a combative temperament"
+      }
+    ],
+    "required_nuance": "the sport itself, not a person",
+    "mental_hook": "The sport. The near-twin is the fighter.",
+    "semantic_hint": "The formal word for the sport of boxing."
+  },
+  "pugilist": {
+    "accepted_concepts": [
+      "a boxer",
+      "a fighter with the fists",
+      "a prizefighter",
+      "one who boxes for a living",
+      "a practitioner of the ring"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the sport itself",
+        "misconception": "confuses the person with the activity"
+      },
+      {
+        "answer": "someone eager to argue",
+        "misconception": "confuses a boxer with the near-twin about a combative temperament"
+      }
+    ],
+    "required_nuance": "the person, not the sport",
+    "mental_hook": "The fighter. The near-twin is the sport.",
+    "semantic_hint": "The formal word for a professional boxer."
+  },
+  "pugnacious": {
+    "accepted_concepts": [
+      "eager to fight or argue",
+      "belligerent by temperament",
+      "combative in manner",
+      "quick to pick a quarrel",
+      "truculent"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "conciliatory",
+        "misconception": "inverts combativeness into peacemaking"
+      },
+      {
+        "answer": "a professional boxer",
+        "misconception": "confuses a temperament with the near-twin about a fighter"
+      }
+    ],
+    "required_nuance": "combative temperament, not the sport",
+    "mental_hook": "Looking for a fight, and not in a ring.",
+    "semantic_hint": "The word for a debater who turns every point into a quarrel."
+  },
+  "puissance": {
+    "accepted_concepts": [
+      "great power",
+      "might",
+      "influence of a formidable kind",
+      "potency of a ruler or force",
+      "strength commanding respect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "weakness",
+        "misconception": "inverts might into impotence"
+      },
+      {
+        "answer": "an evil-smelling substance",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "great power, in an archaic register",
+    "mental_hook": "Power, in an older word.",
+    "semantic_hint": "The archaic word for the might of a great king."
+  },
+  "puissant": {
+    "accepted_concepts": [
+      "powerful and influential",
+      "mighty",
+      "potent in authority",
+      "formidable in strength",
+      "commanding great power"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "feeble",
+        "misconception": "inverts might into weakness"
+      },
+      {
+        "answer": "great power as a quality",
+        "misconception": "confuses the adjective with the related noun"
+      }
+    ],
+    "required_nuance": "powerful, as an adjective",
+    "mental_hook": "Mighty, said the old way.",
+    "semantic_hint": "The archaic adjective for a mighty lord in a chronicle."
+  },
+  "pulchritude": {
+    "accepted_concepts": [
+      "physical beauty",
+      "loveliness of appearance",
+      "comeliness",
+      "beauty of form",
+      "attractive good looks"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ugliness",
+        "misconception": "inverts beauty into repulsiveness"
+      },
+      {
+        "answer": "moral goodness",
+        "misconception": "confuses physical beauty with virtue"
+      }
+    ],
+    "required_nuance": "beauty of appearance, in a formal word",
+    "mental_hook": "Beauty, in an unbeautiful word.",
+    "semantic_hint": "The formal word for physical loveliness."
+  },
+  "pummel": {
+    "accepted_concepts": [
+      "strike repeatedly",
+      "batter with blows",
+      "pound again and again",
+      "thrash with the fists",
+      "beat without stopping"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to caress gently",
+        "misconception": "inverts repeated blows into gentleness"
+      },
+      {
+        "answer": "to gather into wrinkles",
+        "misconception": "confuses beating with the near-twin about puckering"
+      }
+    ],
+    "required_nuance": "repeated blows, not a single strike",
+    "mental_hook": "Blow after blow.",
+    "semantic_hint": "What waves do to a boat in a long storm."
+  },
+  "punctilious": {
+    "accepted_concepts": [
+      "extremely attentive to correct detail",
+      "scrupulous about the proper form",
+      "meticulous about procedure",
+      "exact in observing small points",
+      "fastidious about correctness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "lax about detail",
+        "misconception": "inverts exactness into carelessness"
+      },
+      {
+        "answer": "always on time",
+        "misconception": "hears the sound-alike about punctuality"
+      }
+    ],
+    "required_nuance": "exactness about correct form, not timing",
+    "mental_hook": "Every small point, exactly right.",
+    "semantic_hint": "The word for an official who observes every point of protocol."
+  },
+  "pundit": {
+    "accepted_concepts": [
+      "a self-styled expert commentator",
+      "someone who pronounces publicly on a subject",
+      "an analyst whose opinion is sought",
+      "a commentator on current affairs",
+      "an expert of the broadcasting kind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an ordinary member of the public",
+        "misconception": "loses the claim to expertise"
+      },
+      {
+        "answer": "a punishment",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "a public commentator claiming expertise",
+    "mental_hook": "The expert on the panel, whoever asked.",
+    "semantic_hint": "The word for the commentators who predict every election result."
+  },
+  "pungent": {
+    "accepted_concepts": [
+      "sharply strong in smell",
+      "acrid to the nose",
+      "piquant and biting in taste",
+      "caustic in wit",
+      "penetratingly sharp"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "bland",
+        "misconception": "inverts sharpness into mildness"
+      },
+      {
+        "answer": "eager to fight",
+        "misconception": "confuses sharpness with the near-twin about combativeness"
+      }
+    ],
+    "required_nuance": "sharpness of smell, taste or wit",
+    "mental_hook": "Sharp enough to sting, nose or wit.",
+    "semantic_hint": "The word for the smell of vinegar, and for a cutting remark."
+  },
+  "purport": {
+    "accepted_concepts": [
+      "claim to be something",
+      "profess a character often falsely",
+      "allege about oneself",
+      "appear to be by one's own account",
+      "make out to be"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to prove conclusively",
+        "misconception": "confuses a claim with a demonstration"
+      },
+      {
+        "answer": "to supply goods",
+        "misconception": "confuses claiming with the near-twin about providing"
+      }
+    ],
+    "required_nuance": "claiming, with a hint that the claim may be false",
+    "mental_hook": "Says it is. Probably is not.",
+    "semantic_hint": "What a document does when it claims to be signed by someone who never saw it."
+  },
+  "purse": {
+    "accepted_concepts": [
+      "pucker the lips",
+      "draw the mouth into a tight round shape",
+      "compress into folds",
+      "tighten into a gathered shape",
+      "contract into wrinkles"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to relax the mouth",
+        "misconception": "inverts tightening into loosening"
+      },
+      {
+        "answer": "a bag for money",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "the tested sense is the verb: tightening the lips",
+    "mental_hook": "The lips, drawn tight.",
+    "semantic_hint": "What someone does with their mouth to show silent disapproval."
+  },
+  "pursuant": {
+    "accepted_concepts": [
+      "in accordance with",
+      "following from a rule or order",
+      "in conformity with a provision",
+      "as required by",
+      "under the terms of"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "contrary to",
+        "misconception": "inverts acting in accordance into acting against"
+      },
+      {
+        "answer": "chasing after someone",
+        "misconception": "takes the root about pursuit literally"
+      }
+    ],
+    "required_nuance": "in accordance with a stated authority",
+    "mental_hook": "Under the rule, as it requires.",
+    "semantic_hint": "The legal phrase for acting under the terms of a particular section."
+  },
+  "purvey": {
+    "accepted_concepts": [
+      "supply goods",
+      "provide provisions as a business",
+      "spread information about",
+      "deal in something",
+      "furnish to customers"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to withhold supply",
+        "misconception": "inverts providing into keeping back"
+      },
+      {
+        "answer": "to survey a scene",
+        "misconception": "hears the sound-alike about looking over"
+      }
+    ],
+    "required_nuance": "supplying, whether goods or claims",
+    "mental_hook": "Supplies it, goods or gossip.",
+    "semantic_hint": "What a firm does by supplying groceries to a household."
+  },
+  "pusillanimous": {
+    "accepted_concepts": [
+      "cowardly and timid",
+      "lacking the courage to act",
+      "craven",
+      "faint-hearted",
+      "spineless in the face of difficulty"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "brave and resolute",
+        "misconception": "inverts cowardice into courage"
+      },
+      {
+        "answer": "physically small",
+        "misconception": "hears the root about smallness and misses the spirit"
+      }
+    ],
+    "required_nuance": "smallness of spirit, shown as cowardice",
+    "mental_hook": "Small-souled, which is the Latin.",
+    "semantic_hint": "The word for a leader who refuses to take any difficult decision."
   }
 }

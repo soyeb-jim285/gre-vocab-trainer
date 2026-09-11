@@ -1,0 +1,882 @@
+{
+  "putrefy": {
+    "accepted_concepts": [
+      "rot",
+      "decay with a foul smell",
+      "decompose",
+      "go bad and stink",
+      "break down in corruption"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to preserve",
+        "misconception": "inverts rotting into keeping fresh"
+      },
+      {
+        "answer": "to make pure",
+        "misconception": "hears the sound-alike about purification"
+      }
+    ],
+    "required_nuance": "rotting, with the smell that goes with it",
+    "mental_hook": "Rots, and you can smell it.",
+    "semantic_hint": "What meat does left out in the heat for three days."
+  },
+  "pyrrhic": {
+    "accepted_concepts": [
+      "won at too great a cost",
+      "a victory not worth what it took",
+      "ruinous despite succeeding",
+      "costly beyond any gain",
+      "hollow as a triumph"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a decisive cheap win",
+        "misconception": "inverts a ruinous victory into an easy one"
+      },
+      {
+        "answer": "a total defeat",
+        "misconception": "loses that it is technically a win"
+      }
+    ],
+    "required_nuance": "a win, and it cost more than it was worth",
+    "mental_hook": "Won. And ruined by winning.",
+    "semantic_hint": "The word for a court case won after legal fees exceeding the award."
+  },
+  "quaff": {
+    "accepted_concepts": [
+      "drink heartily",
+      "swallow in deep draughts",
+      "gulp down with enjoyment",
+      "swig",
+      "drink deeply and fast"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to sip cautiously",
+        "misconception": "inverts deep draughts into small sips"
+      },
+      {
+        "answer": "to cough",
+        "misconception": "guesses from the sound of the word"
+      }
+    ],
+    "required_nuance": "drinking deeply and with relish",
+    "mental_hook": "Drinks it down in one.",
+    "semantic_hint": "What someone does with a tankard in a mediaeval tavern scene."
+  },
+  "quagmire": {
+    "accepted_concepts": [
+      "a difficult inescapable situation",
+      "a morass one cannot get out of",
+      "a boggy patch of ground",
+      "a predicament that keeps deepening",
+      "a swamp of complications"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a clear way forward",
+        "misconception": "inverts an inescapable mess into an easy path"
+      },
+      {
+        "answer": "a sudden disaster",
+        "misconception": "loses the slow sinking that defines it"
+      }
+    ],
+    "required_nuance": "a situation that traps and deepens",
+    "mental_hook": "The more you struggle, the deeper you go.",
+    "semantic_hint": "The word for a war a country cannot extract itself from."
+  },
+  "quail": {
+    "accepted_concepts": [
+      "shrink back in fear",
+      "flinch at what is coming",
+      "cower",
+      "lose heart before a threat",
+      "recoil in apprehension"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to stand firm",
+        "misconception": "inverts flinching into holding ground"
+      },
+      {
+        "answer": "a small game bird",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "shrinking back from fear",
+    "mental_hook": "Steps back, before it even starts.",
+    "semantic_hint": "What someone does inwardly at the thought of a task they dread."
+  },
+  "qualification": {
+    "accepted_concepts": [
+      "a limiting condition attached",
+      "a reservation that narrows a claim",
+      "a caveat",
+      "a credential fitting one for a role",
+      "a restriction on what was said"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an unconditional statement",
+        "misconception": "inverts a limiting condition into an absolute claim"
+      },
+      {
+        "answer": "a feeling of unease",
+        "misconception": "confuses a limiting condition with the near-twin about misgiving"
+      }
+    ],
+    "required_nuance": "a limiting condition, or a credential",
+    "mental_hook": "The condition attached, or the certificate earned.",
+    "semantic_hint": "The word for the caveat that narrows a witness's answer."
+  },
+  "qualified": {
+    "accepted_concepts": [
+      "limited by conditions",
+      "given with reservations",
+      "not unconditional",
+      "competent through training",
+      "fit for a role by credential"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unconditional and absolute",
+        "misconception": "inverts a hedged statement into a flat one"
+      },
+      {
+        "answer": "feeling unease",
+        "misconception": "confuses limitation with the near-twin about misgiving"
+      }
+    ],
+    "required_nuance": "hedged with conditions, or formally competent",
+    "mental_hook": "Yes, but with conditions.",
+    "semantic_hint": "The word for approval given only up to a point."
+  },
+  "qualify": {
+    "accepted_concepts": [
+      "limit a statement",
+      "modify a claim to narrow it",
+      "temper with reservations",
+      "restrict what was asserted",
+      "moderate a general claim"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to assert without limit",
+        "misconception": "inverts narrowing into a sweeping claim"
+      },
+      {
+        "answer": "to feel unease",
+        "misconception": "confuses narrowing a claim with the near-twin about misgiving"
+      }
+    ],
+    "required_nuance": "narrowing a claim rather than dropping it",
+    "mental_hook": "Adds the condition that narrows it.",
+    "semantic_hint": "What a scientist does by adding the conditions under which a result holds."
+  },
+  "qualm": {
+    "accepted_concepts": [
+      "a feeling of doubt",
+      "a misgiving about what one is doing",
+      "a pang of conscience",
+      "an uneasy scruple",
+      "a hesitation before acting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complete confidence",
+        "misconception": "inverts misgiving into certainty"
+      },
+      {
+        "answer": "a limiting condition on a statement",
+        "misconception": "confuses a feeling with the near-twin about narrowing a claim"
+      }
+    ],
+    "required_nuance": "a felt misgiving, often of conscience",
+    "mental_hook": "A twinge, before doing it.",
+    "semantic_hint": "What someone has none of when they lie without hesitation."
+  },
+  "quandary": {
+    "accepted_concepts": [
+      "uncertainty over a difficult choice",
+      "a dilemma between two bad options",
+      "a predicament with no clear answer",
+      "perplexity about what to do",
+      "an impasse of decision"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complete certainty",
+        "misconception": "inverts perplexity into a settled mind"
+      },
+      {
+        "answer": "a physical trap",
+        "misconception": "narrows a difficulty of decision to a physical one"
+      }
+    ],
+    "required_nuance": "uncertainty about which course to take",
+    "mental_hook": "Two options, neither acceptable.",
+    "semantic_hint": "The word for having to choose between betraying a friend and a principle."
+  },
+  "quarantine": {
+    "accepted_concepts": [
+      "isolation to prevent contagion",
+      "a period of enforced separation",
+      "segregation of the possibly infected",
+      "keeping apart to stop a disease spreading",
+      "a lockdown of the exposed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "free mixing with others",
+        "misconception": "inverts isolation into contact"
+      },
+      {
+        "answer": "a medical treatment",
+        "misconception": "confuses separation with a cure"
+      }
+    ],
+    "required_nuance": "isolation to stop infection spreading",
+    "mental_hook": "Kept apart, so it does not spread.",
+    "semantic_hint": "What travellers from an infected region are put into."
+  },
+  "quash": {
+    "accepted_concepts": [
+      "suppress completely",
+      "annul a decision",
+      "overturn by authority",
+      "put down a rebellion",
+      "squelch before it grows"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to uphold",
+        "misconception": "inverts annulling into confirming"
+      },
+      {
+        "answer": "to crush physically",
+        "misconception": "hears the sound-alike about squashing"
+      }
+    ],
+    "required_nuance": "suppressing or annulling by authority",
+    "mental_hook": "Ended, by authority.",
+    "semantic_hint": "What a higher court does to a conviction it overturns."
+  },
+  "quell": {
+    "accepted_concepts": [
+      "put an end to a disturbance",
+      "subdue a rising",
+      "suppress by force or reassurance",
+      "calm fears",
+      "allay unrest"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to incite",
+        "misconception": "inverts putting down into stirring up"
+      },
+      {
+        "answer": "to question",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "putting down unrest, or calming fear",
+    "mental_hook": "Puts it down, riot or worry.",
+    "semantic_hint": "What a clear statement does to a rumour, and troops do to a riot."
+  },
+  "querulous": {
+    "accepted_concepts": [
+      "habitually complaining",
+      "peevish in tone",
+      "whining about small things",
+      "petulantly discontented",
+      "given to grumbling"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "uncomplaining",
+        "misconception": "inverts constant grumbling into contentment"
+      },
+      {
+        "answer": "questioning closely",
+        "misconception": "hears the root about querying"
+      }
+    ],
+    "required_nuance": "complaining, and habitually so",
+    "mental_hook": "Complains, in that tone.",
+    "semantic_hint": "The word for a voice that has found fault every day for years."
+  },
+  "query": {
+    "accepted_concepts": [
+      "question something",
+      "express doubt about a claim",
+      "challenge an entry or figure",
+      "ask in order to check",
+      "dispute the accuracy of"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to accept without question",
+        "misconception": "inverts challenging into accepting"
+      },
+      {
+        "answer": "habitually complaining",
+        "misconception": "confuses questioning with the near-twin about grumbling"
+      }
+    ],
+    "required_nuance": "questioning to check or challenge",
+    "mental_hook": "Asks, because something looks wrong.",
+    "semantic_hint": "What an accountant does with an invoice that looks wrong."
+  },
+  "queue": {
+    "accepted_concepts": [
+      "a line of people waiting",
+      "an ordered line of items awaiting turn",
+      "a waiting list",
+      "a file of those awaiting service",
+      "things lined up in order"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a disorderly crowd",
+        "misconception": "inverts an ordered line into a scrum"
+      },
+      {
+        "answer": "a question",
+        "misconception": "hears the sound-alike about a query"
+      }
+    ],
+    "required_nuance": "an ordered line waiting a turn",
+    "mental_hook": "One after another, in order.",
+    "semantic_hint": "The word for a line at a bus stop or a list of jobs awaiting a printer."
+  },
+  "quibble": {
+    "accepted_concepts": [
+      "argue over trivial details",
+      "raise petty objections",
+      "nitpick",
+      "cavil at small points",
+      "evade the main issue by small objections"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to concede the point",
+        "misconception": "inverts petty objection into agreement"
+      },
+      {
+        "answer": "to argue a major issue",
+        "misconception": "loses the triviality that defines it"
+      }
+    ],
+    "required_nuance": "objections over trifles, often to evade the point",
+    "mental_hook": "Arguing about the commas.",
+    "semantic_hint": "What someone does by disputing the wording instead of the substance."
+  },
+  "quiescent": {
+    "accepted_concepts": [
+      "inactive for the time being",
+      "dormant",
+      "still and at rest",
+      "latent without activity",
+      "quiet and not stirring"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "actively agitated",
+        "misconception": "inverts stillness into activity"
+      },
+      {
+        "answer": "permanently dead",
+        "misconception": "loses that the inactivity is temporary"
+      }
+    ],
+    "required_nuance": "inactive now, capable of activity later",
+    "mental_hook": "Still, for now.",
+    "semantic_hint": "The word for a disease in remission but not gone."
+  },
+  "quintessential": {
+    "accepted_concepts": [
+      "representing the purest example",
+      "typical in the most complete way",
+      "archetypal of its kind",
+      "definitive as an instance",
+      "embodying the essence of a type"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "atypical",
+        "misconception": "inverts the defining case into the exception"
+      },
+      {
+        "answer": "the fifth in a series",
+        "misconception": "reads the root about a fifth element literally"
+      }
+    ],
+    "required_nuance": "the purest and most typical instance",
+    "mental_hook": "If you wanted one example, this one.",
+    "semantic_hint": "The word for the one village that captures everything about a region."
+  },
+  "quip": {
+    "accepted_concepts": [
+      "a witty remark",
+      "a clever passing comment",
+      "a jest thrown off lightly",
+      "a riposte",
+      "a short sharp witticism"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a long solemn speech",
+        "misconception": "inverts a brief witticism into an extended address"
+      },
+      {
+        "answer": "a piece of equipment",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "short, witty, and usually spoken",
+    "mental_hook": "One line, and it lands.",
+    "semantic_hint": "The word for a clever one-liner tossed into a conversation."
+  },
+  "quirky": {
+    "accepted_concepts": [
+      "unconventional in a charming way",
+      "idiosyncratic and appealing",
+      "offbeat",
+      "endearingly odd",
+      "individual in an unexpected way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "utterly conventional",
+        "misconception": "inverts oddness into the ordinary"
+      },
+      {
+        "answer": "unpleasantly strange",
+        "misconception": "loses the charm that usually attaches to it"
+      }
+    ],
+    "required_nuance": "odd, and usually appealingly so",
+    "mental_hook": "Odd, and people like it.",
+    "semantic_hint": "The word for a café with mismatched chairs and a piano nobody plays."
+  },
+  "quisling": {
+    "accepted_concepts": [
+      "a traitor who collaborates with an occupier",
+      "a collaborator with an enemy power",
+      "a turncoat serving invaders",
+      "one who governs on behalf of an occupier",
+      "a betrayer of his own country"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a resistance fighter",
+        "misconception": "inverts the collaborator into the resister"
+      },
+      {
+        "answer": "a foreign invader",
+        "misconception": "confuses the native collaborator with the occupier"
+      }
+    ],
+    "required_nuance": "a native who serves the occupying power",
+    "mental_hook": "Named for a man who did exactly this.",
+    "semantic_hint": "The word for a native leader installed by an occupying army."
+  },
+  "quixotic": {
+    "accepted_concepts": [
+      "idealistic and impractical",
+      "nobly unrealistic",
+      "chasing hopeless causes",
+      "romantic beyond the possible",
+      "well-meaning but doomed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "hardheaded and pragmatic",
+        "misconception": "inverts impractical idealism into realism"
+      },
+      {
+        "answer": "quick and changeable",
+        "misconception": "hears the sound-alike about speed"
+      }
+    ],
+    "required_nuance": "idealism so high it becomes impractical",
+    "mental_hook": "Named for a man who fought windmills.",
+    "semantic_hint": "The word for a one-man campaign to reform an entire system."
+  },
+  "quotidian": {
+    "accepted_concepts": [
+      "daily",
+      "occurring every day",
+      "ordinary through repetition",
+      "routine",
+      "belonging to everyday life"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "rare and extraordinary",
+        "misconception": "inverts the everyday into the exceptional"
+      },
+      {
+        "answer": "a numerical result",
+        "misconception": "hears the sound-alike about division"
+      }
+    ],
+    "required_nuance": "daily, and so ordinary",
+    "mental_hook": "Every day, and dull for it.",
+    "semantic_hint": "The word for the small tasks that fill every ordinary morning."
+  },
+  "raconteur": {
+    "accepted_concepts": [
+      "a skilled teller of anecdotes",
+      "someone who tells stories well",
+      "an entertaining narrator in company",
+      "a person known for good stories",
+      "an accomplished storyteller"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a dull speaker",
+        "misconception": "inverts a skilled storyteller into a tedious one"
+      },
+      {
+        "answer": "a written novelist",
+        "misconception": "confuses spoken storytelling with writing"
+      }
+    ],
+    "required_nuance": "telling stories aloud, and doing it well",
+    "mental_hook": "The one everyone wants at dinner.",
+    "semantic_hint": "The word for a guest whose anecdotes hold the whole table."
+  },
+  "radical": {
+    "accepted_concepts": [
+      "fundamental and far-reaching",
+      "going to the root of the matter",
+      "sweeping in change",
+      "revolutionary in extent",
+      "affecting the essential nature"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "superficial",
+        "misconception": "inverts reaching the root into touching the surface"
+      },
+      {
+        "answer": "moderate",
+        "misconception": "inverts sweeping change into small adjustment"
+      }
+    ],
+    "required_nuance": "going to the root, and so far-reaching",
+    "mental_hook": "To the root, which is the Latin.",
+    "semantic_hint": "The word for a reform that changes the whole basis of a system."
+  },
+  "raffish": {
+    "accepted_concepts": [
+      "attractively unconventional",
+      "slightly disreputable in an appealing way",
+      "louche but charming",
+      "bohemian in style",
+      "carelessly dashing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "staidly respectable",
+        "misconception": "inverts disreputable charm into propriety"
+      },
+      {
+        "answer": "merely criminal",
+        "misconception": "loses the attractiveness that goes with it"
+      }
+    ],
+    "required_nuance": "disreputable, and attractive because of it",
+    "mental_hook": "A little disreputable, and rather charming.",
+    "semantic_hint": "The word for a battered hat worn at an angle by someone charming."
+  },
+  "raft": {
+    "accepted_concepts": [
+      "a large number of things",
+      "a great many all at once",
+      "a host of items",
+      "a whole array of them",
+      "a multitude taken together"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a handful",
+        "misconception": "inverts a great many into a few"
+      },
+      {
+        "answer": "a floating platform",
+        "misconception": "takes the literal sense for the tested one"
+      }
+    ],
+    "required_nuance": "a large number, in the tested sense",
+    "mental_hook": "A great many of them, all at once.",
+    "semantic_hint": "The word for the great number of measures announced in one budget."
+  },
+  "rail": {
+    "accepted_concepts": [
+      "complain bitterly",
+      "protest loudly and at length",
+      "inveigh against something",
+      "fulminate",
+      "attack in angry words"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "inverts angry complaint into commendation"
+      },
+      {
+        "answer": "a metal bar on a track",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "bitter complaint, delivered at length",
+    "mental_hook": "Complains, loudly and repeatedly.",
+    "semantic_hint": "What a columnist does week after week against a policy."
+  },
+  "raillery": {
+    "accepted_concepts": [
+      "good-natured teasing",
+      "light banter between friends",
+      "badinage",
+      "joking mockery without malice",
+      "playful chaffing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "bitter denunciation",
+        "misconception": "inverts friendly teasing into angry attack"
+      },
+      {
+        "answer": "solemn earnestness",
+        "misconception": "inverts light joking into gravity"
+      }
+    ],
+    "required_nuance": "teasing, and good-natured with it",
+    "mental_hook": "Teasing, and nobody minds.",
+    "semantic_hint": "The word for the friendly mockery among old colleagues."
+  },
+  "raiment": {
+    "accepted_concepts": [
+      "clothing",
+      "attire, especially fine",
+      "garb",
+      "apparel in an old register",
+      "dress and adornment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "nakedness",
+        "misconception": "inverts clothing into its absence"
+      },
+      {
+        "answer": "a downpour",
+        "misconception": "hears the sound-alike about rain"
+      }
+    ],
+    "required_nuance": "clothing, in an archaic and elevated register",
+    "mental_hook": "Clothing, in biblical language.",
+    "semantic_hint": "The archaic word for fine clothing in a scriptural passage."
+  },
+  "rakish": {
+    "accepted_concepts": [
+      "dashing and slightly disreputable",
+      "jaunty in a knowing way",
+      "worn at a confident angle",
+      "stylishly louche",
+      "debonair with a hint of scandal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "prim and staid",
+        "misconception": "inverts dashing looseness into propriety"
+      },
+      {
+        "answer": "relating to a garden tool",
+        "misconception": "hears the noun for the implement"
+      }
+    ],
+    "required_nuance": "dashing, with a whiff of disrepute",
+    "mental_hook": "Dashing, and not quite respectable.",
+    "semantic_hint": "The word for a hat tilted at a confident angle."
+  },
+  "ramification": {
+    "accepted_concepts": [
+      "a complex consequence",
+      "an indirect result branching from a decision",
+      "a repercussion that follows on",
+      "an implication working outward",
+      "a knock-on effect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the original cause",
+        "misconception": "inverts the consequence into what produced it"
+      },
+      {
+        "answer": "a defensive wall",
+        "misconception": "confuses a consequence with the near-twin about fortification"
+      }
+    ],
+    "required_nuance": "a branching consequence, usually unforeseen",
+    "mental_hook": "One decision, and all the branches after it.",
+    "semantic_hint": "The word for the effects of a legal ruling nobody anticipated."
+  },
+  "ramify": {
+    "accepted_concepts": [
+      "branch out into complications",
+      "divide into further branches",
+      "spread into subdivisions",
+      "proliferate into offshoots",
+      "grow more complex by branching"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to simplify",
+        "misconception": "inverts branching into converging"
+      },
+      {
+        "answer": "a consequence that follows",
+        "misconception": "confuses the verb with the related noun"
+      }
+    ],
+    "required_nuance": "branching into further complexity, as a verb",
+    "mental_hook": "Branches, and keeps branching.",
+    "semantic_hint": "What one exception in a rule does as more cases arise."
+  },
+  "rampant": {
+    "accepted_concepts": [
+      "spreading unchecked",
+      "flourishing without restraint",
+      "widespread and out of control",
+      "unbridled in its growth",
+      "running riot"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "contained and controlled",
+        "misconception": "inverts unchecked spread into containment"
+      },
+      {
+        "answer": "a defensive wall",
+        "misconception": "confuses unchecked spread with the near-twin about fortification"
+      }
+    ],
+    "required_nuance": "spreading, and nothing checking it",
+    "mental_hook": "Spreading, and nothing stopping it.",
+    "semantic_hint": "The word for corruption that has spread through every department."
+  },
+  "rampart": {
+    "accepted_concepts": [
+      "a defensive wall",
+      "a raised bank protecting a place",
+      "a bulwark",
+      "a fortification around a town",
+      "a battlement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an open gateway",
+        "misconception": "inverts a defensive barrier into an opening"
+      },
+      {
+        "answer": "spreading unchecked",
+        "misconception": "confuses a wall with the near-twin about unrestrained growth"
+      }
+    ],
+    "required_nuance": "a defensive wall or bank",
+    "mental_hook": "The wall. The near-twin means unchecked.",
+    "semantic_hint": "The word for the earth wall around a mediaeval fortress."
+  },
+  "rancor": {
+    "accepted_concepts": [
+      "bitter long-lasting resentment",
+      "settled animosity",
+      "deep-seated bitterness",
+      "ill will that does not fade",
+      "spite held over time"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "goodwill",
+        "misconception": "inverts bitterness into friendliness"
+      },
+      {
+        "answer": "a bad smell",
+        "misconception": "hears the sound-alike about rancid things"
+      }
+    ],
+    "required_nuance": "bitterness that lasts and does not soften",
+    "mental_hook": "Bitterness, kept for years.",
+    "semantic_hint": "The word for the feeling left between two sides after a bitter split."
+  },
+  "rancorous": {
+    "accepted_concepts": [
+      "full of bitter resentment",
+      "acrimonious in feeling",
+      "embittered and vindictive",
+      "marked by lasting ill will",
+      "spiteful from long grievance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "amicable",
+        "misconception": "inverts bitterness into friendliness"
+      },
+      {
+        "answer": "smelling foul",
+        "misconception": "hears the sound-alike about rancid things"
+      }
+    ],
+    "required_nuance": "bitter and resentful in tone",
+    "mental_hook": "Bitter, and it shows in every word.",
+    "semantic_hint": "The word for a dispute where both sides have stopped speaking civilly."
+  },
+  "range": {
+    "accepted_concepts": [
+      "vary within limits",
+      "extend from one point to another",
+      "roam over an area",
+      "run between two extremes",
+      "move about a territory"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to stay at a single fixed value",
+        "misconception": "inverts varying across a span into remaining fixed"
+      },
+      {
+        "answer": "an area of control",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "the tested sense is the verb: varying or roaming",
+    "mental_hook": "Runs between two points, or roams.",
+    "semantic_hint": "What prices do when they run from ten pounds to a hundred."
+  },
+  "ranging": {
+    "accepted_concepts": [
+      "extending over a wide area",
+      "covering a broad span",
+      "roaming widely",
+      "wide in its reach",
+      "taking in a great deal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "narrowly confined",
+        "misconception": "inverts wide reach into a small area"
+      },
+      {
+        "answer": "arranged in order",
+        "misconception": "hears the sound-alike about arrangement"
+      }
+    ],
+    "required_nuance": "covering a wide span",
+    "mental_hook": "Reaches a long way across.",
+    "semantic_hint": "The word for a discussion that covers a dozen subjects in an hour."
+  }
+}
