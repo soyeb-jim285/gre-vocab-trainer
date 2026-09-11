@@ -1,0 +1,442 @@
+{
+  "fulminate": {
+    "accepted_concepts": [
+      "protest loudly and vehemently",
+      "rail against",
+      "denounce in thunderous terms",
+      "inveigh",
+      "explode in verbal attack"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "inverts denunciation into commendation"
+      },
+      {
+        "answer": "to reach completion",
+        "misconception": "hears the sound-alike 'culminate'"
+      }
+    ],
+    "required_nuance": "denunciation delivered like thunder",
+    "mental_hook": "Thunders against it.",
+    "semantic_hint": "What a columnist does week after week against a policy they hate."
+  },
+  "functionary": {
+    "accepted_concepts": [
+      "a minor official",
+      "a bureaucrat carrying out set duties",
+      "an officeholder of small importance",
+      "an administrator following procedure",
+      "a person employed in an official routine"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a head of state",
+        "misconception": "inverts minor office into supreme power"
+      },
+      {
+        "answer": "a celebration",
+        "misconception": "hears the sound-alike 'function' in its party sense"
+      }
+    ],
+    "required_nuance": "an official of small rank doing set duties",
+    "mental_hook": "Has a desk, a rubber stamp, and no power.",
+    "semantic_hint": "The word for the clerk who stamps a form and cannot vary the rule."
+  },
+  "fungible": {
+    "accepted_concepts": [
+      "interchangeable with an identical item",
+      "replaceable by another of the same kind",
+      "exchangeable unit for unit",
+      "freely substitutable",
+      "not distinguishable from another of its type"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unique and irreplaceable",
+        "misconception": "inverts interchangeability into singularity"
+      },
+      {
+        "answer": "relating to mushrooms",
+        "misconception": "hears the sound-alike 'fungal'"
+      }
+    ],
+    "required_nuance": "one unit does just as well as another",
+    "mental_hook": "One barrel of oil will do as well as another.",
+    "semantic_hint": "The word for money or oil, where any unit substitutes for any other."
+  },
+  "furnish": {
+    "accepted_concepts": [
+      "supply",
+      "provide what is needed",
+      "equip",
+      "make available to someone",
+      "fit out with something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to withhold",
+        "misconception": "inverts supplying into keeping back"
+      },
+      {
+        "answer": "to polish a surface",
+        "misconception": "hears the sound-alike 'burnish'"
+      }
+    ],
+    "required_nuance": "supplying what is needed",
+    "mental_hook": "Supplies it, whether chairs or proof.",
+    "semantic_hint": "What a witness does by providing the evidence a case needs."
+  },
+  "furtive": {
+    "accepted_concepts": [
+      "secretive and stealthy",
+      "done by stealth",
+      "surreptitious",
+      "trying not to be seen",
+      "sly in movement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "open and overt",
+        "misconception": "inverts stealth into openness"
+      },
+      {
+        "answer": "producing much",
+        "misconception": "hears the sound-alike 'fertile'"
+      }
+    ],
+    "required_nuance": "stealthy, and looking as if hiding something",
+    "mental_hook": "A glance over the shoulder, in one word.",
+    "semantic_hint": "The word for a quick glance nobody was supposed to notice."
+  },
+  "futile": {
+    "accepted_concepts": [
+      "pointless",
+      "incapable of succeeding",
+      "vain in effort",
+      "achieving nothing",
+      "bound to fail"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "effective",
+        "misconception": "inverts pointlessness into success"
+      },
+      {
+        "answer": "yet to come",
+        "misconception": "hears the sound-alike 'future'"
+      }
+    ],
+    "required_nuance": "certain to achieve nothing",
+    "mental_hook": "Doing it changes nothing.",
+    "semantic_hint": "The word for bailing out a boat with a hole in the bottom."
+  },
+  "gadfly": {
+    "accepted_concepts": [
+      "a persistent critic who provokes",
+      "someone who needles those in power",
+      "an irritating challenger of complacency",
+      "a provocateur who will not let a subject drop",
+      "a stinging critic"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a loyal supporter",
+        "misconception": "inverts the needling critic into a follower"
+      },
+      {
+        "answer": "a frivolous person",
+        "misconception": "loses the persistent criticism that defines it"
+      }
+    ],
+    "required_nuance": "criticism that irritates and will not stop",
+    "mental_hook": "The biting insect, applied to a critic.",
+    "semantic_hint": "What Socrates called himself in relation to the Athenian state."
+  },
+  "gaffe": {
+    "accepted_concepts": [
+      "an embarrassing social blunder",
+      "a tactless mistake in public",
+      "a faux pas",
+      "a slip that causes embarrassment",
+      "a clumsy misstep in company"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a deliberate insult",
+        "misconception": "confuses an accidental blunder with an intended attack"
+      },
+      {
+        "answer": "a hooked pole",
+        "misconception": "hears the sound-alike used in fishing"
+      }
+    ],
+    "required_nuance": "an unintended blunder that embarrasses",
+    "mental_hook": "Said it. Should not have.",
+    "semantic_hint": "The word for a politician's careless remark that dominates the news."
+  },
+  "gainsay": {
+    "accepted_concepts": [
+      "deny",
+      "contradict",
+      "dispute a statement",
+      "speak against a claim",
+      "refuse to accept as true"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to confirm",
+        "misconception": "inverts contradiction into agreement"
+      },
+      {
+        "answer": "to profit from",
+        "misconception": "hears the word 'gain'"
+      }
+    ],
+    "required_nuance": "contradicting, usually in the negative form",
+    "mental_hook": "Speaks against it, which is the old English.",
+    "semantic_hint": "The formal verb in the phrase about a fact nobody can deny."
+  },
+  "gale": {
+    "accepted_concepts": [
+      "a very strong wind",
+      "a storm-force blow",
+      "a tempest of wind",
+      "a sudden outburst, as of laughter",
+      "a squall"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a light breeze",
+        "misconception": "understates storm force into a gentle wind"
+      },
+      {
+        "answer": "brazen nerve",
+        "misconception": "confuses the wind with the near-twin about audacity"
+      }
+    ],
+    "required_nuance": "wind at storm strength, or a burst like one",
+    "mental_hook": "A wind strong enough to lean on.",
+    "semantic_hint": "The word for the strong wind that brings down branches, or a burst of laughter."
+  },
+  "gall": {
+    "accepted_concepts": [
+      "brazen nerve",
+      "shameless audacity",
+      "impudence",
+      "effrontery",
+      "bitterness of feeling"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "timidity",
+        "misconception": "inverts brazenness into diffidence"
+      },
+      {
+        "answer": "a very strong wind",
+        "misconception": "confuses the nerve with the near-twin about weather"
+      }
+    ],
+    "required_nuance": "nerve, shameless with it",
+    "mental_hook": "The nerve of them.",
+    "semantic_hint": "The quality of someone who complains about the service after refusing to pay."
+  },
+  "galvanize": {
+    "accepted_concepts": [
+      "shock into sudden action",
+      "rouse a group to act",
+      "spur into motion",
+      "electrify into activity",
+      "stir suddenly into effort"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to paralyse",
+        "misconception": "inverts rousing into freezing"
+      },
+      {
+        "answer": "to coat metal only",
+        "misconception": "narrows it to the industrial process"
+      }
+    ],
+    "required_nuance": "a jolt that produces action",
+    "mental_hook": "A jolt, and then everybody moves.",
+    "semantic_hint": "What one shocking photograph can do to a whole protest movement."
+  },
+  "gambit": {
+    "accepted_concepts": [
+      "a calculated opening move",
+      "an opening ploy involving risk",
+      "a stratagem that gives something up for advantage",
+      "a manoeuvre to gain position",
+      "a device to open proceedings"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a final desperate act",
+        "misconception": "inverts an opening move into a last resort"
+      },
+      {
+        "answer": "to frolic playfully",
+        "misconception": "confuses it with the near-twin verb about skipping about"
+      }
+    ],
+    "required_nuance": "an opening move, with something risked for position",
+    "mental_hook": "Gives up a pawn to win the position.",
+    "semantic_hint": "The chess opening that sacrifices a piece for a better position."
+  },
+  "gambol": {
+    "accepted_concepts": [
+      "run and jump playfully",
+      "frolic",
+      "cavort",
+      "skip about in high spirits",
+      "romp"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to trudge wearily",
+        "misconception": "inverts light play into heavy plodding"
+      },
+      {
+        "answer": "to bet money",
+        "misconception": "hears the sound-alike about wagering"
+      }
+    ],
+    "required_nuance": "playful skipping, usually of the young",
+    "mental_hook": "Lambs in a field. The near-twin is a bet.",
+    "semantic_hint": "What lambs do in a spring field."
+  },
+  "garble": {
+    "accepted_concepts": [
+      "distort a message",
+      "muddle so the meaning is lost",
+      "jumble the words of",
+      "confuse a report in retelling",
+      "render unintelligible"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to clarify",
+        "misconception": "inverts muddling into making clear"
+      },
+      {
+        "answer": "to eat quickly",
+        "misconception": "hears the sound-alike 'gobble'"
+      }
+    ],
+    "required_nuance": "a message distorted into confusion",
+    "mental_hook": "The words arrive. The sense does not.",
+    "semantic_hint": "What a bad phone line does to a spoken message."
+  },
+  "garish": {
+    "accepted_concepts": [
+      "unpleasantly bright and showy",
+      "gaudy",
+      "loud in colour",
+      "flashy to the point of bad taste",
+      "lurid"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "subdued and tasteful",
+        "misconception": "inverts loudness into restraint"
+      },
+      {
+        "answer": "rubbish",
+        "misconception": "hears the sound-alike 'garbage'"
+      }
+    ],
+    "required_nuance": "bright and showy in a way that offends taste",
+    "mental_hook": "Bright, and wrong.",
+    "semantic_hint": "The word for a hotel lobby in gold, purple and neon at once."
+  },
+  "garner": {
+    "accepted_concepts": [
+      "gather",
+      "accumulate over time",
+      "collect through effort",
+      "amass",
+      "earn and store up"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to squander",
+        "misconception": "inverts gathering into scattering"
+      },
+      {
+        "answer": "to decorate a dish",
+        "misconception": "hears the sound-alike 'garnish'"
+      }
+    ],
+    "required_nuance": "gathering and storing, usually through effort",
+    "mental_hook": "Gathers it in, the way a barn does grain.",
+    "semantic_hint": "What a film does with awards over an awards season."
+  },
+  "garrulous": {
+    "accepted_concepts": [
+      "excessively talkative",
+      "rambling on about trifles",
+      "loquacious to a fault",
+      "long-winded",
+      "chattering without pause"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "taciturn",
+        "misconception": "inverts talkativeness into silence"
+      },
+      {
+        "answer": "eloquent and worth hearing",
+        "misconception": "loses that the talk is trivial and too much"
+      }
+    ],
+    "required_nuance": "too much talk, and about little",
+    "mental_hook": "Talks a great deal. Says very little.",
+    "semantic_hint": "The word for a neighbour who talks for an hour about nothing."
+  },
+  "gauche": {
+    "accepted_concepts": [
+      "socially awkward",
+      "tactless in company",
+      "graceless in manner",
+      "maladroit socially",
+      "clumsy in dealing with people"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "urbane and tactful",
+        "misconception": "inverts awkwardness into polish"
+      },
+      {
+        "answer": "physically clumsy only",
+        "misconception": "narrows social awkwardness to bodily clumsiness"
+      }
+    ],
+    "required_nuance": "awkwardness in social dealing, not in the body",
+    "mental_hook": "Left-handed, in the French, and it means socially clumsy.",
+    "semantic_hint": "The word for someone who asks a guest what their house cost."
+  },
+  "gaunt": {
+    "accepted_concepts": [
+      "thin and haggard",
+      "wasted from illness or hunger",
+      "bony and drawn",
+      "emaciated in appearance",
+      "starved-looking"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plump and robust",
+        "misconception": "inverts wasted thinness into health"
+      },
+      {
+        "answer": "elegantly slim",
+        "misconception": "loses the illness and hardship that define it"
+      }
+    ],
+    "required_nuance": "thin from hardship, and it shows in the face",
+    "mental_hook": "Thin, and it looks like suffering.",
+    "semantic_hint": "The word for a face hollowed out by months of illness."
+  }
+}

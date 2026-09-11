@@ -1318,5 +1318,885 @@
     "required_nuance": "choosing not to, when one could",
     "mental_hook": "Could have. Chose not to.",
     "semantic_hint": "What someone does by biting back the obvious retort."
+  },
+  "forbearance": {
+    "accepted_concepts": [
+      "patient restraint under provocation",
+      "holding back from retaliating",
+      "tolerance of what one could punish",
+      "self-control when wronged",
+      "refraining from pressing a right"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "swift retaliation",
+        "misconception": "inverts restraint into revenge"
+      },
+      {
+        "answer": "an ancestor",
+        "misconception": "confuses it with the near-twin noun for one's forefathers"
+      }
+    ],
+    "required_nuance": "restraint held although one had grounds to act",
+    "mental_hook": "Could have hit back. Did not.",
+    "semantic_hint": "The patience a creditor shows by not demanding payment at once."
+  },
+  "ford": {
+    "accepted_concepts": [
+      "cross a river at a shallow place",
+      "wade across water",
+      "traverse a stream on foot",
+      "get across where it is shallow",
+      "pass over a river without a bridge"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to swim the deepest channel",
+        "misconception": "loses the shallowness that defines it"
+      },
+      {
+        "answer": "to send ahead",
+        "misconception": "hears the sound-alike 'forward'"
+      }
+    ],
+    "required_nuance": "crossing at a shallow point, without a bridge",
+    "mental_hook": "Across the shallow part, on foot.",
+    "semantic_hint": "What a wagon train does at a shallow stretch of river."
+  },
+  "forebear": {
+    "accepted_concepts": [
+      "an ancestor",
+      "a forefather",
+      "someone from whom one descends",
+      "a progenitor",
+      "a member of an earlier generation of the family"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a descendant",
+        "misconception": "inverts an ancestor into an heir"
+      },
+      {
+        "answer": "to refrain from acting",
+        "misconception": "confuses the noun with the near-twin verb about holding back"
+      }
+    ],
+    "required_nuance": "a person one is descended from",
+    "mental_hook": "Came before. The near-twin verb means hold back.",
+    "semantic_hint": "The word for a great-great-grandparent who came from another country."
+  },
+  "foreboding": {
+    "accepted_concepts": [
+      "a feeling that something bad will happen",
+      "a premonition of trouble",
+      "apprehension about what is coming",
+      "a dark misgiving",
+      "a sense of approaching disaster"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "reassurance",
+        "misconception": "inverts dread into comfort"
+      },
+      {
+        "answer": "a confident prediction",
+        "misconception": "confuses a feeling of dread with a reasoned forecast"
+      }
+    ],
+    "required_nuance": "a felt dread, not a reasoned prediction",
+    "mental_hook": "Not evidence. A feeling that it will go badly.",
+    "semantic_hint": "The uneasy sense before a phone call that something is wrong."
+  },
+  "foreseeable": {
+    "accepted_concepts": [
+      "able to be predicted",
+      "reasonably anticipated",
+      "within sight ahead",
+      "expected as a likely outcome",
+      "predictable in advance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "impossible to anticipate",
+        "misconception": "inverts the predictable into the unexpected"
+      },
+      {
+        "answer": "already happened",
+        "misconception": "inverts something ahead into something past"
+      }
+    ],
+    "required_nuance": "predictable from what is known now",
+    "mental_hook": "You could have seen it coming.",
+    "semantic_hint": "The word for a consequence any reasonable person could have predicted."
+  },
+  "foreshadow": {
+    "accepted_concepts": [
+      "hint at something to come",
+      "give an early sign of",
+      "presage",
+      "portend",
+      "suggest a future event in advance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to recall the past",
+        "misconception": "inverts pointing forward into looking back"
+      },
+      {
+        "answer": "to cast into darkness",
+        "misconception": "reads the second half of the word literally"
+      }
+    ],
+    "required_nuance": "an early sign pointing to something later",
+    "mental_hook": "The sign comes first. The thing comes later.",
+    "semantic_hint": "What an early scene in a novel does to the disaster in the final chapter."
+  },
+  "forestall": {
+    "accepted_concepts": [
+      "prevent by acting first",
+      "head off in advance",
+      "pre-empt",
+      "stop by getting there earlier",
+      "avert by anticipating"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to provoke",
+        "misconception": "inverts heading off into bringing on"
+      },
+      {
+        "answer": "to delay one's own action",
+        "misconception": "confuses acting early with stalling"
+      }
+    ],
+    "required_nuance": "preventing it by moving first",
+    "mental_hook": "Acts first, so it never happens.",
+    "semantic_hint": "What a government does by announcing a policy before critics can demand it."
+  },
+  "forfeit": {
+    "accepted_concepts": [
+      "lose as a penalty",
+      "give up as the price of a fault",
+      "surrender a right through wrongdoing",
+      "relinquish under a rule",
+      "be deprived of by default"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to gain",
+        "misconception": "inverts losing into acquiring"
+      },
+      {
+        "answer": "to give away freely",
+        "misconception": "loses the penalty that makes it compulsory"
+      }
+    ],
+    "required_nuance": "lost as a penalty, not given up freely",
+    "mental_hook": "Lost, and lost as a punishment.",
+    "semantic_hint": "What a team does with a match by failing to turn up."
+  },
+  "forlorn": {
+    "accepted_concepts": [
+      "sad and abandoned",
+      "desolate",
+      "hopeless and alone",
+      "wretched from being left",
+      "pitifully without hope"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cheerful",
+        "misconception": "inverts desolation into good spirits"
+      },
+      {
+        "answer": "lost in the woods",
+        "misconception": "reads it as merely physically mislaid"
+      }
+    ],
+    "required_nuance": "abandoned, and hopeless with it",
+    "mental_hook": "Alone, and no longer expecting rescue.",
+    "semantic_hint": "The word for a dog waiting at a gate nobody will come through."
+  },
+  "formal": {
+    "accepted_concepts": [
+      "following convention",
+      "official in character",
+      "done according to the proper form",
+      "ceremonious",
+      "correct rather than relaxed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "casual",
+        "misconception": "inverts the ceremonious into the relaxed"
+      },
+      {
+        "answer": "previous in time",
+        "misconception": "hears the sound-alike 'former'"
+      }
+    ],
+    "required_nuance": "conforming to accepted form or official procedure",
+    "mental_hook": "By the book, and in the right clothes.",
+    "semantic_hint": "The word for a written complaint lodged through the proper channel."
+  },
+  "formidable": {
+    "accepted_concepts": [
+      "inspiring fear or respect through power",
+      "daunting to face",
+      "impressively strong",
+      "redoubtable",
+      "hard to overcome"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "feeble",
+        "misconception": "inverts power into weakness"
+      },
+      {
+        "answer": "able to be shaped",
+        "misconception": "hears the word 'form' and takes it as mouldable"
+      }
+    ],
+    "required_nuance": "powerful enough to be daunting",
+    "mental_hook": "You would rather not face it.",
+    "semantic_hint": "The word for an opponent nobody wants to draw in the first round."
+  },
+  "forsake": {
+    "accepted_concepts": [
+      "abandon someone",
+      "desert what one was bound to",
+      "give up entirely",
+      "renounce and leave",
+      "turn one's back on"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to stand by",
+        "misconception": "inverts abandoning into staying loyal"
+      },
+      {
+        "answer": "to do for another's benefit",
+        "misconception": "hears the phrase 'for the sake of'"
+      }
+    ],
+    "required_nuance": "abandoning something one owed loyalty to",
+    "mental_hook": "Leaves what should have been kept.",
+    "semantic_hint": "What a vow promises never to do to a spouse."
+  },
+  "forswear": {
+    "accepted_concepts": [
+      "renounce solemnly",
+      "give up on oath",
+      "abjure",
+      "swear off for good",
+      "disavow formally"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to take up",
+        "misconception": "inverts renouncing into embracing"
+      },
+      {
+        "answer": "to curse aloud",
+        "misconception": "hears the word 'swear' in its profanity sense"
+      }
+    ],
+    "required_nuance": "renouncing solemnly, as if under oath",
+    "mental_hook": "Swears it off, and means it.",
+    "semantic_hint": "What a reformed gambler does to betting for life."
+  },
+  "forte": {
+    "accepted_concepts": [
+      "a person's strong point",
+      "the thing one does best",
+      "a special skill",
+      "one's particular strength",
+      "an area of real ability"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a weakness",
+        "misconception": "inverts a strength into a failing"
+      },
+      {
+        "answer": "a defended stronghold",
+        "misconception": "hears the shorter military word inside it"
+      }
+    ],
+    "required_nuance": "the particular thing someone is good at",
+    "mental_hook": "The one thing they do best.",
+    "semantic_hint": "The word for the single skill someone is genuinely good at."
+  },
+  "forthcoming": {
+    "accepted_concepts": [
+      "willing to share information",
+      "open in answering",
+      "communicative",
+      "about to happen",
+      "soon to appear"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "evasive",
+        "misconception": "inverts openness into reticence"
+      },
+      {
+        "answer": "long past",
+        "misconception": "inverts something imminent into something over"
+      }
+    ],
+    "required_nuance": "openly willing to tell, or shortly to arrive",
+    "mental_hook": "Tells you things, or is about to arrive.",
+    "semantic_hint": "How a witness is described when they answer questions readily."
+  },
+  "forthright": {
+    "accepted_concepts": [
+      "direct and honest",
+      "frank in speech",
+      "saying it without evasion",
+      "blunt and straightforward",
+      "plain-spoken"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "devious",
+        "misconception": "inverts directness into evasion"
+      },
+      {
+        "answer": "morally correct",
+        "misconception": "hears the word 'right' and takes it as virtue"
+      }
+    ],
+    "required_nuance": "directness of speech, not moral rightness",
+    "mental_hook": "Straight out, without a detour.",
+    "semantic_hint": "The word for an answer given plainly with no softening."
+  },
+  "fortify": {
+    "accepted_concepts": [
+      "strengthen against attack",
+      "reinforce",
+      "bolster",
+      "build up the defences of",
+      "make stronger"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to weaken",
+        "misconception": "inverts strengthening into undermining"
+      },
+      {
+        "answer": "to enrich with money",
+        "misconception": "confuses strengthening with funding"
+      }
+    ],
+    "required_nuance": "making stronger, usually against something",
+    "mental_hook": "Walls up, or braces up.",
+    "semantic_hint": "What an army does to a position before the enemy arrives."
+  },
+  "fortitude": {
+    "accepted_concepts": [
+      "courage in enduring hardship",
+      "strength of mind under suffering",
+      "resilience over time",
+      "grit in adversity",
+      "the courage to keep going"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cowardice",
+        "misconception": "inverts endurance into flinching"
+      },
+      {
+        "answer": "physical strength",
+        "misconception": "confuses courage in enduring with bodily power"
+      }
+    ],
+    "required_nuance": "courage in bearing, not in attacking",
+    "mental_hook": "The courage to endure, not to charge.",
+    "semantic_hint": "The quality of bearing long illness without complaint."
+  },
+  "fortuitous": {
+    "accepted_concepts": [
+      "happening by chance",
+      "accidental",
+      "occurring without design",
+      "coming about by luck",
+      "unplanned and often lucky"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "carefully planned",
+        "misconception": "inverts accident into design"
+      },
+      {
+        "answer": "necessarily lucky",
+        "misconception": "adds good fortune to what strictly means only by chance"
+      }
+    ],
+    "required_nuance": "by chance, whether or not the chance was kind",
+    "mental_hook": "By chance. Lucky is a bonus.",
+    "semantic_hint": "The word for a meeting neither person planned."
+  },
+  "foster": {
+    "accepted_concepts": [
+      "encourage the development of",
+      "nurture",
+      "cultivate a quality in others",
+      "promote the growth of",
+      "help something flourish"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to stifle",
+        "misconception": "inverts nurturing into suppression"
+      },
+      {
+        "answer": "to go faster",
+        "misconception": "hears the sound-alike 'faster'"
+      }
+    ],
+    "required_nuance": "actively helping something grow",
+    "mental_hook": "Feeds it until it grows.",
+    "semantic_hint": "What a good manager does to talent in a junior colleague."
+  },
+  "founder": {
+    "accepted_concepts": [
+      "fail utterly",
+      "collapse in the attempt",
+      "sink beneath the water",
+      "come to grief",
+      "break down and go under"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to thrive",
+        "misconception": "inverts collapse into success"
+      },
+      {
+        "answer": "a person who starts a company",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "failing completely, not merely struggling",
+    "mental_hook": "Goes under. The near-twin only struggles.",
+    "semantic_hint": "What a ship does in a storm, and what negotiations do over one clause."
+  },
+  "fracas": {
+    "accepted_concepts": [
+      "a noisy disturbance",
+      "a brawl",
+      "a loud altercation",
+      "a melee",
+      "a scuffle with plenty of noise"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a calm discussion",
+        "misconception": "inverts a brawl into quiet talk"
+      },
+      {
+        "answer": "a broken bone",
+        "misconception": "hears the sound-alike 'fracture'"
+      }
+    ],
+    "required_nuance": "a disturbance, noisy and disorderly",
+    "mental_hook": "A row, with noise and shoving.",
+    "semantic_hint": "The word for a noisy scuffle that breaks out outside a pub."
+  },
+  "fractious": {
+    "accepted_concepts": [
+      "irritable and quarrelsome",
+      "unruly",
+      "hard to control and apt to argue",
+      "peevish",
+      "given to making trouble"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "docile and cooperative",
+        "misconception": "inverts unruliness into compliance"
+      },
+      {
+        "answer": "broken into pieces",
+        "misconception": "hears the word 'fraction'"
+      }
+    ],
+    "required_nuance": "irritable and difficult to manage",
+    "mental_hook": "Cross, and will not be led.",
+    "semantic_hint": "The word for an overtired toddler, or a coalition that will not hold together."
+  },
+  "frailty": {
+    "accepted_concepts": [
+      "weakness of body",
+      "a moral weakness",
+      "infirmity",
+      "fragility of constitution or character",
+      "a liability to give way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "robustness",
+        "misconception": "inverts weakness into strength"
+      },
+      {
+        "answer": "cowardice in the face of danger",
+        "misconception": "narrows general weakness to one particular fault"
+      }
+    ],
+    "required_nuance": "weakness, of the body or of the character",
+    "mental_hook": "Weak in body, or weak in resolve.",
+    "semantic_hint": "The word Hamlet applies to human weakness of will."
+  },
+  "fraud": {
+    "accepted_concepts": [
+      "deliberate deception for gain",
+      "a swindle",
+      "criminal deceit",
+      "an impostor",
+      "someone passing as what they are not"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "honest dealing",
+        "misconception": "inverts deception into integrity"
+      },
+      {
+        "answer": "an honest mistake",
+        "misconception": "loses the deliberateness that defines it"
+      }
+    ],
+    "required_nuance": "deception on purpose, for gain",
+    "mental_hook": "A lie, told for money.",
+    "semantic_hint": "The crime of taking money by deliberate lies."
+  },
+  "fraught": {
+    "accepted_concepts": [
+      "filled with something bad",
+      "laden with risk or tension",
+      "charged with anxiety",
+      "carrying trouble with it",
+      "tense and difficult"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "carefree",
+        "misconception": "inverts tension into ease"
+      },
+      {
+        "answer": "empty of content",
+        "misconception": "inverts being loaded into being bare"
+      }
+    ],
+    "required_nuance": "loaded with something unwelcome",
+    "mental_hook": "Loaded, and not with anything good.",
+    "semantic_hint": "The word for a situation full of danger and tension."
+  },
+  "fray": {
+    "accepted_concepts": [
+      "a heated conflict",
+      "a fight",
+      "a melee",
+      "a contest joined by many",
+      "a battle one enters"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a truce",
+        "misconception": "inverts a fight into a peace"
+      },
+      {
+        "answer": "a fear",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "a fight, especially one others join",
+    "mental_hook": "The scrap you enter or stay out of.",
+    "semantic_hint": "The word for the fight a candidate enters by announcing they will stand."
+  },
+  "frenetic": {
+    "accepted_concepts": [
+      "fast and disorganised",
+      "frantically energetic",
+      "wildly hurried",
+      "hectic",
+      "frenzied in pace"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "calm and measured",
+        "misconception": "inverts frantic haste into composure"
+      },
+      {
+        "answer": "relating to genes",
+        "misconception": "hears the sound-alike 'genetic'"
+      }
+    ],
+    "required_nuance": "energy without order",
+    "mental_hook": "Fast, and going nowhere in particular.",
+    "semantic_hint": "The word for a trading floor in the last minutes before close."
+  },
+  "fresco": {
+    "accepted_concepts": [
+      "a painting made on wet plaster",
+      "a wall painting in plaster",
+      "a mural done while the surface is damp",
+      "a plaster-based wall picture",
+      "a painted wall surface in this technique"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a painting on canvas",
+        "misconception": "confuses the plaster technique with easel painting"
+      },
+      {
+        "answer": "cool and refreshing",
+        "misconception": "takes the ordinary Italian sense of the root"
+      }
+    ],
+    "required_nuance": "painted into wet plaster so it becomes part of the wall",
+    "mental_hook": "Painted into the wall while it is still wet.",
+    "semantic_hint": "What Michelangelo painted on the Sistine Chapel ceiling."
+  },
+  "fret": {
+    "accepted_concepts": [
+      "worry persistently",
+      "stew over something",
+      "agonise about a small matter",
+      "be anxious without ceasing",
+      "chafe with worry"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to relax",
+        "misconception": "inverts anxiety into ease"
+      },
+      {
+        "answer": "to be angry with someone",
+        "misconception": "confuses inward worry with outward anger"
+      }
+    ],
+    "required_nuance": "worry that keeps gnawing",
+    "mental_hook": "Worry that will not put itself down.",
+    "semantic_hint": "What a parent does all evening when a teenager is late home."
+  },
+  "frieze": {
+    "accepted_concepts": [
+      "a decorative horizontal band on a wall",
+      "a sculpted strip running along a building",
+      "an ornamental band near the ceiling",
+      "a carved horizontal panel",
+      "a running decorative border"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to turn to ice",
+        "misconception": "hears the sound-alike about freezing"
+      },
+      {
+        "answer": "a free-standing statue",
+        "misconception": "confuses a band on a wall with a figure in the round"
+      }
+    ],
+    "required_nuance": "a horizontal decorated band on a wall",
+    "mental_hook": "A band of carving, running along the top.",
+    "semantic_hint": "The carved band of figures running round the top of a Greek temple."
+  },
+  "fringe": {
+    "accepted_concepts": [
+      "the outer edge",
+      "the periphery",
+      "a marginal group",
+      "the part furthest from the centre",
+      "the margin of a movement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the mainstream centre",
+        "misconception": "inverts the margin into the middle"
+      },
+      {
+        "answer": "a strong smell",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "the outer margin, in place or in belief",
+    "mental_hook": "The edge, not the middle.",
+    "semantic_hint": "The word for a small group of extremists at the edge of a party."
+  },
+  "frivolous": {
+    "accepted_concepts": [
+      "not serious",
+      "lacking real worth",
+      "trivial",
+      "given to silliness",
+      "of no substance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "weighty and serious",
+        "misconception": "inverts triviality into gravity"
+      },
+      {
+        "answer": "chilly",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "lacking seriousness or worth",
+    "mental_hook": "Nothing to it, and no pretence otherwise.",
+    "semantic_hint": "The word for a lawsuit a court throws out as having no substance."
+  },
+  "frontier": {
+    "accepted_concepts": [
+      "the limit of settled territory",
+      "a border between countries",
+      "the edge of what is known",
+      "the furthest reach of exploration",
+      "the boundary of a field of knowledge"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the settled heartland",
+        "misconception": "inverts the outer edge into the interior"
+      },
+      {
+        "answer": "the front of a building",
+        "misconception": "hears the word 'front'"
+      }
+    ],
+    "required_nuance": "the edge of the settled or the known",
+    "mental_hook": "Where the map stops being filled in.",
+    "semantic_hint": "The word for the edge of settlement, or the edge of a science."
+  },
+  "fructify": {
+    "accepted_concepts": [
+      "bear fruit",
+      "become productive",
+      "yield results",
+      "come to fruition",
+      "produce an increase"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to wither",
+        "misconception": "inverts bearing fruit into dying back"
+      },
+      {
+        "answer": "to make something cold",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "producing fruit or results",
+    "mental_hook": "Finally produces something.",
+    "semantic_hint": "What a long investment does when it at last starts to yield."
+  },
+  "frugal": {
+    "accepted_concepts": [
+      "careful with money",
+      "sparing in spending",
+      "thrifty",
+      "economical in use of resources",
+      "avoiding waste"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "extravagant",
+        "misconception": "inverts thrift into lavishness"
+      },
+      {
+        "answer": "poor",
+        "misconception": "confuses choosing to spend little with having nothing"
+      }
+    ],
+    "required_nuance": "spending little by choice, not by necessity",
+    "mental_hook": "Spends little, and means to.",
+    "semantic_hint": "The word for a meal deliberately kept plain and cheap."
+  },
+  "frugality": {
+    "accepted_concepts": [
+      "careful economy in spending",
+      "thrift",
+      "the practice of using little",
+      "prudent restraint with money",
+      "sparing use of resources"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "extravagance",
+        "misconception": "inverts thrift into waste"
+      },
+      {
+        "answer": "poverty",
+        "misconception": "confuses a chosen economy with having nothing to spend"
+      }
+    ],
+    "required_nuance": "chosen economy, treated as a virtue",
+    "mental_hook": "Thrift, as a habit and a virtue.",
+    "semantic_hint": "The household virtue of never spending more than needed."
+  },
+  "fruitful": {
+    "accepted_concepts": [
+      "producing good results",
+      "yielding something worthwhile",
+      "productive",
+      "rewarding in outcome",
+      "bearing plenty"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pointless and unproductive",
+        "misconception": "inverts productive into barren"
+      },
+      {
+        "answer": "containing actual fruit",
+        "misconception": "reads the metaphor literally"
+      }
+    ],
+    "required_nuance": "producing worthwhile results",
+    "mental_hook": "Something came of it.",
+    "semantic_hint": "The word for a meeting that actually produced decisions."
+  },
+  "frustrate": {
+    "accepted_concepts": [
+      "prevent from succeeding",
+      "thwart a plan",
+      "block an effort",
+      "stymie",
+      "defeat an attempt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to enable",
+        "misconception": "inverts blocking into helping"
+      },
+      {
+        "answer": "merely to annoy",
+        "misconception": "loses the blocking and keeps only the irritation"
+      }
+    ],
+    "required_nuance": "blocking the effort, not merely irritating the person",
+    "mental_hook": "Not annoys. Stops.",
+    "semantic_hint": "What a sudden storm does to weeks of planning."
+  },
+  "fulcrum": {
+    "accepted_concepts": [
+      "the pivot point on which something turns",
+      "the support a lever rests on",
+      "the point everything balances on",
+      "the hinge of an argument",
+      "the critical point of leverage"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the load being lifted",
+        "misconception": "confuses the pivot with the weight"
+      },
+      {
+        "answer": "a full amount",
+        "misconception": "hears the word 'full'"
+      }
+    ],
+    "required_nuance": "the point about which the whole thing turns",
+    "mental_hook": "The point the whole lever turns on.",
+    "semantic_hint": "The point a seesaw balances on."
   }
 }
