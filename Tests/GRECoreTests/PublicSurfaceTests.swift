@@ -109,6 +109,16 @@ import Testing
             _ = (gre.pos, gre.definition, gre.synonyms, gre.antonyms, gre.sentences)
             _ = (gre.cloze, gre.distractors)
         }
+        if let grounding = word.grounding {
+            _ = (grounding.acceptedConcepts, grounding.requiredNuance)
+            _ = (grounding.mentalHook, grounding.semanticHint)
+            for association in grounding.incorrectAssociations {
+                _ = (association.answer, association.misconception)
+            }
+        }
+        for pair in word.confusion ?? [] {
+            _ = (pair.with, pair.distinction)
+        }
         let sense = word.primarySense
         _ = (sense.pos.rawValue, sense.definition, sense.examples, sense.synonyms, sense.antonyms)
 

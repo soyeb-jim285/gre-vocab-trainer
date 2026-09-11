@@ -87,6 +87,79 @@ public struct GRESense: Codable, Hashable, Sendable {
     public let distractors: [String]
 }
 
+/// A wrong answer learners actually give for a word, with the misunderstanding
+/// it reveals.
+///
+/// The label is the point. "Dishonest" for *equivocal* is not merely wrong, it
+/// is a learner confusing deliberate ambiguity with lying, and a grader that
+/// can name that can correct it instead of marking a cross.
+public struct IncorrectAssociation: Codable, Hashable, Sendable {
+    public let answer: String
+    public let misconception: String
+
+    public init(answer: String, misconception: String) {
+        self.answer = answer
+        self.misconception = misconception
+    }
+}
+
+/// What a grader needs in order to judge an answer against this word rather
+/// than against the model's memory of it.
+///
+/// Every field here exists to make one decision cheaper or more reliable:
+/// ``acceptedConcepts`` keeps grading strict about meaning and tolerant about
+/// wording, ``incorrectAssociations`` makes confidently-wrong detectable,
+/// ``requiredNuance`` decides the 2 versus 3 boundary, and ``mentalHook``
+/// replaces a per-word network call at teaching time.
+public struct Grounding: Codable, Hashable, Sendable {
+    /// Four to eight short paraphrases that score full marks.
+    public let acceptedConcepts: [String]
+    /// Two to four wrong answers, each labelled with what it reveals.
+    public let incorrectAssociations: [IncorrectAssociation]
+    /// The one element a precise answer must contain.
+    public let requiredNuance: String
+    /// One short memorable hook, shown when teaching.
+    public let mentalHook: String
+    /// The first rung of the hint ladder. Never contains the word or its stem.
+    public let semanticHint: String
+
+    private enum CodingKeys: String, CodingKey {
+        case acceptedConcepts = "accepted_concepts"
+        case incorrectAssociations = "incorrect_associations"
+        case requiredNuance = "required_nuance"
+        case mentalHook = "mental_hook"
+        case semanticHint = "semantic_hint"
+    }
+
+    public init(acceptedConcepts: [String],
+                incorrectAssociations: [IncorrectAssociation],
+                requiredNuance: String,
+                mentalHook: String,
+                semanticHint: String) {
+        self.acceptedConcepts = acceptedConcepts
+        self.incorrectAssociations = incorrectAssociations
+        self.requiredNuance = requiredNuance
+        self.mentalHook = mentalHook
+        self.semanticHint = semanticHint
+    }
+}
+
+/// Another word this one is mixed up with, and the line that tells them apart.
+///
+/// Stored on both halves of the pair, because either word can be the one on
+/// screen when the confusion surfaces.
+public struct ConfusionPair: Codable, Hashable, Sendable {
+    /// The id of the word confused with this one.
+    public let with: String
+    /// One sentence naming both words and what separates them.
+    public let distinction: String
+
+    public init(with: String, distinction: String) {
+        self.with = with
+        self.distinction = distinction
+    }
+}
+
 /// A vocabulary entry as shipped in `words.json`.
 public struct Word: Codable, Identifiable, Hashable, Sendable {
     public let id: String
@@ -112,6 +185,14 @@ public struct Word: Codable, Identifiable, Hashable, Sendable {
     /// 5 (obscure). Assigned by hand, because frequency measures the word form
     /// rather than the tested meaning: "august" is a common word and a hard one.
     public let rating: Int
+    /// What a grader needs to judge an answer about this word.
+    ///
+    /// Optional for the same reason ``gre`` is: the shipped dataset carries one
+    /// for every word, but a hand-built ``Word`` in a test need not.
+    public let grounding: Grounding?
+    /// Words this one is confused with. Absent where the dataset found no
+    /// candidate, which is most of the vocabulary.
+    public let confusion: [ConfusionPair]?
 
     /// WordNet orders senses by frequency, so the first one is the sense a
     /// learner is most likely to meet.
