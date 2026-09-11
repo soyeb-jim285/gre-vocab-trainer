@@ -438,5 +438,1325 @@
     "required_nuance": "describes the believer, never the claim",
     "mental_hook": "The believer, not the thing believed.",
     "semantic_hint": "The word for someone who believes every story they are told."
+  },
+  "crescendo": {
+    "accepted_concepts": [
+      "a gradual increase",
+      "a building toward a peak",
+      "a swelling in volume",
+      "a rise to a climax",
+      "a mounting intensity"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a sudden burst",
+        "misconception": "loses the gradual build that defines it"
+      },
+      {
+        "answer": "a fading away",
+        "misconception": "inverts rising into falling"
+      }
+    ],
+    "required_nuance": "the rise itself, not the peak it reaches",
+    "mental_hook": "The build, not the loud bit at the end.",
+    "semantic_hint": "What the music does as it gets steadily louder toward the big moment."
+  },
+  "crestfallen": {
+    "accepted_concepts": [
+      "dejected",
+      "downcast",
+      "visibly disappointed",
+      "disheartened",
+      "deflated by a setback"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "triumphant",
+        "misconception": "inverts dejection into elation"
+      },
+      {
+        "answer": "a bird losing its plumage",
+        "misconception": "reads the two halves literally"
+      }
+    ],
+    "required_nuance": "disappointment that plainly shows",
+    "mental_hook": "The comb of the cock, drooping.",
+    "semantic_hint": "How someone looks walking out after being told they did not get the job."
+  },
+  "crevice": {
+    "accepted_concepts": [
+      "a narrow crack",
+      "a fissure",
+      "a thin opening",
+      "a cleft in rock",
+      "a chink"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a deep split in a glacier",
+        "misconception": "confuses a small crack with a crevasse"
+      },
+      {
+        "answer": "a wide chasm",
+        "misconception": "loses the narrowness that defines it"
+      }
+    ],
+    "required_nuance": "narrow, and small in scale",
+    "mental_hook": "Small enough to lose a coin in.",
+    "semantic_hint": "The thin crack in a rock face where a plant takes root."
+  },
+  "crew": {
+    "accepted_concepts": [
+      "a group working together",
+      "a team",
+      "the people who run a vessel",
+      "a company of workers",
+      "a squad"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single worker",
+        "misconception": "confuses the group with one member"
+      },
+      {
+        "answer": "a black bird",
+        "misconception": "hears the sound-alike 'crow'"
+      }
+    ],
+    "required_nuance": "a working group, most often aboard something",
+    "mental_hook": "Everyone aboard except the passengers.",
+    "semantic_hint": "Everyone who works a ship, as opposed to those who ride on it."
+  },
+  "crone": {
+    "accepted_concepts": [
+      "a withered old woman",
+      "an aged woman of folklore",
+      "a hag",
+      "an old woman in a fairy tale",
+      "an ancient female figure"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a young girl",
+        "misconception": "inverts age entirely"
+      },
+      {
+        "answer": "a long-standing friend",
+        "misconception": "hears the sound-alike 'crony'"
+      }
+    ],
+    "required_nuance": "aged and withered, usually inside a story",
+    "mental_hook": "The one at the spinning wheel in the fairy tale.",
+    "semantic_hint": "The withered old woman who appears in every fairy tale."
+  },
+  "croon": {
+    "accepted_concepts": [
+      "sing softly",
+      "hum sentimentally",
+      "murmur a tune",
+      "sing in a low intimate voice",
+      "warble gently"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to shout",
+        "misconception": "inverts softness into loudness"
+      },
+      {
+        "answer": "a bird's harsh call",
+        "misconception": "hears the sound-alike 'crow'"
+      }
+    ],
+    "required_nuance": "soft, low and sentimental together",
+    "mental_hook": "Sinatra at a microphone, not an opera singer.",
+    "semantic_hint": "How a singer performs a love song softly into a microphone."
+  },
+  "cryptic": {
+    "accepted_concepts": [
+      "having a hidden meaning",
+      "obscure",
+      "enigmatic",
+      "deliberately puzzling",
+      "hard to interpret"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a burial vault",
+        "misconception": "hears the word 'crypt'"
+      },
+      {
+        "answer": "plain",
+        "misconception": "inverts obscurity into clarity"
+      }
+    ],
+    "required_nuance": "meaning deliberately concealed",
+    "mental_hook": "Says something. Will not say what.",
+    "semantic_hint": "The word for a crossword clue that hides its answer in wordplay."
+  },
+  "crystallize": {
+    "accepted_concepts": [
+      "take definite form",
+      "become clear and settled",
+      "solidify into shape",
+      "clarify into something definite",
+      "firm up"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to shatter",
+        "misconception": "hears 'crystal' and takes the brittleness"
+      },
+      {
+        "answer": "to blur",
+        "misconception": "inverts clarifying into obscuring"
+      }
+    ],
+    "required_nuance": "the vague becoming definite",
+    "mental_hook": "The fuzzy idea, suddenly sharp.",
+    "semantic_hint": "What a vague idea does when it finally takes definite shape."
+  },
+  "culminate": {
+    "accepted_concepts": [
+      "reach a climax",
+      "come to a final peak",
+      "end in something",
+      "build to a conclusion",
+      "reach the highest point"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to begin",
+        "misconception": "inverts ending into starting"
+      },
+      {
+        "answer": "to blame",
+        "misconception": "hears the shared opening of 'culpable'"
+      }
+    ],
+    "required_nuance": "ending at the high point, not merely ending",
+    "mental_hook": "Ends at the top, not merely ends.",
+    "semantic_hint": "What a long campaign does on election night."
+  },
+  "culpability": {
+    "accepted_concepts": [
+      "deserving of blame",
+      "guilt",
+      "responsibility for a wrong",
+      "liability for a fault",
+      "blameworthiness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the ability to do something",
+        "misconception": "hears the sound-alike 'capability'"
+      },
+      {
+        "answer": "innocence",
+        "misconception": "inverts guilt into blamelessness"
+      }
+    ],
+    "required_nuance": "the state of deserving blame",
+    "mental_hook": "Not what happened. Whose fault it was.",
+    "semantic_hint": "What an inquiry establishes when it decides who was to blame."
+  },
+  "culpable": {
+    "accepted_concepts": [
+      "deserving blame",
+      "blameworthy",
+      "at fault",
+      "answerable for a wrong",
+      "guilty of it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "able to do something",
+        "misconception": "hears the sound-alike 'capable'"
+      },
+      {
+        "answer": "blameless",
+        "misconception": "inverts fault into innocence"
+      }
+    ],
+    "required_nuance": "deserving blame, not necessarily criminal",
+    "mental_hook": "At fault, and it is fair to say so.",
+    "semantic_hint": "The word for someone whose negligence makes the accident their fault."
+  },
+  "cultured": {
+    "accepted_concepts": [
+      "refined in taste",
+      "well educated in the arts",
+      "cultivated",
+      "urbane",
+      "having polished manners"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "grown in a laboratory",
+        "misconception": "takes the biological sense"
+      },
+      {
+        "answer": "boorish",
+        "misconception": "inverts refinement into coarseness"
+      }
+    ],
+    "required_nuance": "refinement acquired by education",
+    "mental_hook": "Reads, listens, and knows why.",
+    "semantic_hint": "The word for someone equally at home at an opera and a gallery."
+  },
+  "cumbersome": {
+    "accepted_concepts": [
+      "awkward and bulky",
+      "unwieldy",
+      "hard to handle",
+      "burdensome to use",
+      "clumsy through sheer size"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "lightweight",
+        "misconception": "inverts bulk into lightness"
+      },
+      {
+        "answer": "a salad vegetable",
+        "misconception": "hears the shared opening of 'cucumber'"
+      }
+    ],
+    "required_nuance": "awkward because of size or complication",
+    "mental_hook": "Too big and awkward to be useful.",
+    "semantic_hint": "The word for a procedure so heavy with steps that nobody follows it."
+  },
+  "cunning": {
+    "accepted_concepts": [
+      "cleverly deceitful",
+      "sly",
+      "wily",
+      "ingenious in a scheming way",
+      "shrewd and tricky"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "straightforwardly clever",
+        "misconception": "loses the deceit that colours it"
+      },
+      {
+        "answer": "stupid",
+        "misconception": "inverts cleverness into dullness"
+      }
+    ],
+    "required_nuance": "cleverness bent toward deceiving",
+    "mental_hook": "Clever, and up to something.",
+    "semantic_hint": "The word for the fox's kind of cleverness."
+  },
+  "cupidity": {
+    "accepted_concepts": [
+      "greed for wealth",
+      "avarice",
+      "an inordinate desire for money",
+      "rapacity",
+      "covetousness for riches"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "romantic desire",
+        "misconception": "hears 'Cupid' and takes the amorous sense"
+      },
+      {
+        "answer": "generosity",
+        "misconception": "inverts greed into openhandedness"
+      }
+    ],
+    "required_nuance": "greed for money, despite the name",
+    "mental_hook": "Nothing to do with Cupid. It means greed.",
+    "semantic_hint": "The formal word for a greed for money that cannot be satisfied."
+  },
+  "curb": {
+    "accepted_concepts": [
+      "restrain",
+      "limit",
+      "keep in check",
+      "rein in",
+      "hold back"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the edge of a pavement",
+        "misconception": "takes the noun sense for the verb"
+      },
+      {
+        "answer": "to encourage",
+        "misconception": "inverts restraint into promotion"
+      }
+    ],
+    "required_nuance": "holding something back within limits",
+    "mental_hook": "The bit in a horse's mouth, made into a verb.",
+    "semantic_hint": "What a new rule does to spending that had got out of hand."
+  },
+  "curmudgeon": {
+    "accepted_concepts": [
+      "a bad-tempered person",
+      "a grouch",
+      "a habitual complainer",
+      "a crotchety old grump",
+      "a surly misanthrope"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a cheerful person",
+        "misconception": "inverts ill temper into good humour"
+      },
+      {
+        "answer": "an underground cell",
+        "misconception": "hears the sound-alike ending of 'dungeon'"
+      }
+    ],
+    "required_nuance": "ill temper as a settled character",
+    "mental_hook": "Grumbles as a way of life.",
+    "semantic_hint": "The word for a neighbour who complains about absolutely everything."
+  },
+  "cursory": {
+    "accepted_concepts": [
+      "hasty and superficial",
+      "done too quickly to be thorough",
+      "perfunctory",
+      "a quick skim",
+      "brief and inattentive"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "thorough",
+        "misconception": "inverts superficiality into care"
+      },
+      {
+        "answer": "relating to a screen pointer",
+        "misconception": "hears the sound-alike 'cursor'"
+      }
+    ],
+    "required_nuance": "quick, and therefore shallow",
+    "mental_hook": "A look, not an examination.",
+    "semantic_hint": "The word for a glance at a report that takes about nine seconds."
+  },
+  "curtail": {
+    "accepted_concepts": [
+      "cut short",
+      "reduce",
+      "trim back",
+      "shorten by cutting",
+      "abbreviate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a window hanging",
+        "misconception": "hears the shared opening of 'curtain'"
+      },
+      {
+        "answer": "to extend",
+        "misconception": "inverts shortening into lengthening"
+      }
+    ],
+    "required_nuance": "shortened by cutting, and usually unwelcome",
+    "mental_hook": "Cut back, and usually against someone's wishes.",
+    "semantic_hint": "What a budget cut does to a programme's activities."
+  },
+  "cynical": {
+    "accepted_concepts": [
+      "distrustful of others' motives",
+      "believing people act from self-interest",
+      "jaded",
+      "sceptical of sincerity",
+      "disillusioned about human nature"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "gloomy about outcomes",
+        "misconception": "confuses distrust of motives with pessimism about results"
+      },
+      {
+        "answer": "trusting",
+        "misconception": "inverts distrust into faith"
+      }
+    ],
+    "required_nuance": "distrust of motives, not of outcomes",
+    "mental_hook": "Doubts the reason, not the result.",
+    "semantic_hint": "The word for someone who assumes every charitable act has a selfish motive."
+  },
+  "dais": {
+    "accepted_concepts": [
+      "a raised platform",
+      "a podium for a speaker",
+      "a rostrum",
+      "a low stage",
+      "a platform holding a seat of honour"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small flower",
+        "misconception": "hears the sound-alike 'daisy'"
+      },
+      {
+        "answer": "a span of time",
+        "misconception": "hears the sound-alike 'days'"
+      }
+    ],
+    "required_nuance": "raised, and for a speaker or dignitary",
+    "mental_hook": "The step up that says who is speaking.",
+    "semantic_hint": "The low platform a head table stands on at a formal dinner."
+  },
+  "dalliance": {
+    "accepted_concepts": [
+      "a brief casual romance",
+      "a flirtation",
+      "idle dawdling",
+      "a light dabbling in something",
+      "trifling with a thing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a serious commitment",
+        "misconception": "inverts casualness into seriousness"
+      },
+      {
+        "answer": "a formal partnership",
+        "misconception": "hears the sound-alike ending of 'alliance'"
+      }
+    ],
+    "required_nuance": "casual and brief, never serious",
+    "mental_hook": "Not a relationship. A brief diversion.",
+    "semantic_hint": "The word for a brief romance nobody intended to last."
+  },
+  "damp": {
+    "accepted_concepts": [
+      "lessen the force of",
+      "dull",
+      "stifle",
+      "muffle",
+      "reduce the intensity of"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "slightly wet",
+        "misconception": "takes the adjective sense for the verb"
+      },
+      {
+        "answer": "to intensify",
+        "misconception": "inverts lessening into increasing"
+      }
+    ],
+    "required_nuance": "reducing force or enthusiasm, not wetting",
+    "mental_hook": "The tested sense reduces something, rather than wets it.",
+    "semantic_hint": "What bad news does to the enthusiasm in a room."
+  },
+  "dapper": {
+    "accepted_concepts": [
+      "neat and stylish in dress",
+      "smartly turned out",
+      "spruce",
+      "trim and well groomed",
+      "natty"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dopey",
+        "misconception": "guesses from a vaguely similar shape"
+      },
+      {
+        "answer": "scruffy",
+        "misconception": "inverts neatness into dishevelment"
+      }
+    ],
+    "required_nuance": "neatness and style together, usually of a small man",
+    "mental_hook": "Small, neat, and rather pleased about it.",
+    "semantic_hint": "The word for a man in a perfectly pressed suit and a bow tie."
+  },
+  "daunt": {
+    "accepted_concepts": [
+      "intimidate",
+      "discourage",
+      "dishearten",
+      "make someone hesitate",
+      "cow into hesitation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to encourage",
+        "misconception": "inverts discouragement into support"
+      },
+      {
+        "answer": "to linger as a ghost",
+        "misconception": "hears the sound-alike 'haunt'"
+      }
+    ],
+    "required_nuance": "discouraging by seeming too much to face",
+    "mental_hook": "Usually met as \"nothing daunted\".",
+    "semantic_hint": "What the size of a task does to the person facing it."
+  },
+  "daunting": {
+    "accepted_concepts": [
+      "intimidating",
+      "formidable",
+      "forbidding in scale",
+      "discouraging to face",
+      "enough to make anyone hesitate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "encouraging",
+        "misconception": "inverts intimidation into reassurance"
+      },
+      {
+        "answer": "lingering in the memory",
+        "misconception": "hears the sound-alike 'haunting'"
+      }
+    ],
+    "required_nuance": "intimidating by scale or difficulty",
+    "mental_hook": "Big enough to make you pause at the door.",
+    "semantic_hint": "The word for a pile of work so large you hesitate to start."
+  },
+  "dawdle": {
+    "accepted_concepts": [
+      "waste time",
+      "move slowly",
+      "linger unnecessarily",
+      "loiter",
+      "take far longer than needed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to hurry",
+        "misconception": "inverts slowness into haste"
+      },
+      {
+        "answer": "to scribble idly",
+        "misconception": "hears the sound-alike 'doodle'"
+      }
+    ],
+    "required_nuance": "slowness through idling, not inability",
+    "mental_hook": "Slow on purpose, or at least without trying.",
+    "semantic_hint": "What a child does on the walk home when they do not want to arrive."
+  },
+  "dearth": {
+    "accepted_concepts": [
+      "a scarcity",
+      "a shortage",
+      "a lack of something",
+      "a paucity",
+      "too little to go round"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the end of life",
+        "misconception": "hears the sound-alike 'death'"
+      },
+      {
+        "answer": "an abundance",
+        "misconception": "inverts shortage into plenty"
+      }
+    ],
+    "required_nuance": "shortage of something that is needed",
+    "mental_hook": "Not none. Not nearly enough.",
+    "semantic_hint": "The word for a shortage of good candidates for a job."
+  },
+  "debacle": {
+    "accepted_concepts": [
+      "a complete failure",
+      "a humiliating collapse",
+      "a fiasco",
+      "a rout",
+      "a disaster of one's own making"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a minor setback",
+        "misconception": "loses both the scale and the humiliation"
+      },
+      {
+        "answer": "a triumph",
+        "misconception": "inverts failure into success"
+      }
+    ],
+    "required_nuance": "failure that is both total and humiliating",
+    "mental_hook": "Not a defeat. A rout.",
+    "semantic_hint": "The word for a launch that failed so publicly the company never recovered."
+  },
+  "debase": {
+    "accepted_concepts": [
+      "lower in quality",
+      "cheapen",
+      "degrade in value",
+      "reduce the dignity of",
+      "adulterate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to raise up",
+        "misconception": "inverts lowering into elevation"
+      },
+      {
+        "answer": "a foundation",
+        "misconception": "hears the word 'base'"
+      }
+    ],
+    "required_nuance": "lowering worth, whether of a coin or of a person",
+    "mental_hook": "What rulers did to coins, and what flattery does to a language.",
+    "semantic_hint": "What adding cheap metal does to the value of a coin."
+  },
+  "debased": {
+    "accepted_concepts": [
+      "reduced in quality",
+      "degraded",
+      "cheapened",
+      "corrupted from its original worth",
+      "adulterated"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "improved",
+        "misconception": "inverts degradation into enhancement"
+      },
+      {
+        "answer": "founded on something",
+        "misconception": "hears the word 'based'"
+      }
+    ],
+    "required_nuance": "worth already lowered",
+    "mental_hook": "Already spoiled, and it shows.",
+    "semantic_hint": "How a currency is described after it has been quietly filled with cheaper metal."
+  },
+  "debauchery": {
+    "accepted_concepts": [
+      "excessive indulgence",
+      "dissipation",
+      "licentious excess",
+      "riotous self-indulgence",
+      "a life of sensual excess"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "restraint",
+        "misconception": "inverts excess into moderation"
+      },
+      {
+        "answer": "a butcher's trade",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "indulgence carried as far as moral ruin",
+    "mental_hook": "Pleasure, pursued past the point of ruin.",
+    "semantic_hint": "The word for a life of drinking and excess that ends badly."
+  },
+  "debilitating": {
+    "accepted_concepts": [
+      "severely weakening",
+      "sapping strength",
+      "enfeebling",
+      "draining of energy",
+      "leaving one unable to function"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "strengthening",
+        "misconception": "inverts weakening into fortifying"
+      },
+      {
+        "answer": "weighing up carefully",
+        "misconception": "hears the sound-alike 'deliberating'"
+      }
+    ],
+    "required_nuance": "weakening enough to disable",
+    "mental_hook": "Not merely tiring. Disabling.",
+    "semantic_hint": "The word for an illness that leaves someone unable to work at all."
+  },
+  "debonair": {
+    "accepted_concepts": [
+      "confident and charming",
+      "suave",
+      "stylishly self-assured",
+      "urbane and polished",
+      "elegantly easy in manner"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "awkward",
+        "misconception": "inverts poise into gaucheness"
+      },
+      {
+        "answer": "relating to the air",
+        "misconception": "reads the French ending literally"
+      }
+    ],
+    "required_nuance": "charm, style and ease all together",
+    "mental_hook": "Charm, worn lightly.",
+    "semantic_hint": "The word for a film star who is charming, elegant and entirely at ease."
+  },
+  "debunk": {
+    "accepted_concepts": [
+      "expose as false",
+      "disprove a claim",
+      "discredit an exaggeration",
+      "show up a myth",
+      "refute publicly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to remove a bed",
+        "misconception": "reads 'bunk' as furniture"
+      },
+      {
+        "answer": "to confirm",
+        "misconception": "inverts disproving into verifying"
+      }
+    ],
+    "required_nuance": "exposing as false something widely believed",
+    "mental_hook": "Takes the nonsense out, which is what the slang meant.",
+    "semantic_hint": "What a scientist does to a widely believed myth."
+  },
+  "debutante": {
+    "accepted_concepts": [
+      "a young woman formally entering society",
+      "a girl making her social debut",
+      "a newcomer presented at court",
+      "a young woman at her first season",
+      "a society newcomer"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an experienced veteran",
+        "misconception": "inverts newness into long standing"
+      },
+      {
+        "answer": "an argument",
+        "misconception": "hears the sound-alike 'debate'"
+      }
+    ],
+    "required_nuance": "formally presented, and new to it",
+    "mental_hook": "The first appearance, formally staged.",
+    "semantic_hint": "The young woman being formally presented to society for the first time."
+  },
+  "decadence": {
+    "accepted_concepts": [
+      "moral decline",
+      "cultural decay",
+      "self-indulgent decline",
+      "a falling away from earlier standards",
+      "degeneracy"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a period of ten years",
+        "misconception": "hears the sound-alike 'decade'"
+      },
+      {
+        "answer": "a flourishing",
+        "misconception": "inverts decline into growth"
+      }
+    ],
+    "required_nuance": "decline brought on by self-indulgence",
+    "mental_hook": "Decline, with the luxury still going on.",
+    "semantic_hint": "The word for a late empire's slide into luxury and decay."
+  },
+  "decadent": {
+    "accepted_concepts": [
+      "self-indulgent to excess",
+      "morally declining",
+      "dissolute",
+      "luxuriously degenerate",
+      "sunk in indulgence"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "lasting ten years",
+        "misconception": "hears the sound-alike 'decade'"
+      },
+      {
+        "answer": "austere",
+        "misconception": "inverts indulgence into self-denial"
+      }
+    ],
+    "required_nuance": "indulgence that marks decline, not mere richness",
+    "mental_hook": "More than rich. Rich, and going downhill.",
+    "semantic_hint": "The word for a society sunk in luxury while everything around it decays."
+  },
+  "decibel": {
+    "accepted_concepts": [
+      "a unit of sound intensity",
+      "a measure of loudness",
+      "the unit sound is measured in",
+      "a scale point for volume",
+      "a unit of acoustic level"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a musical note",
+        "misconception": "confuses measuring sound with making it"
+      },
+      {
+        "answer": "a chiming instrument",
+        "misconception": "hears the ending as 'bell'"
+      }
+    ],
+    "required_nuance": "the unit of measurement, never the sound",
+    "mental_hook": "Named after Alexander Graham Bell.",
+    "semantic_hint": "The unit a noise meter reads out in."
+  },
+  "decimate": {
+    "accepted_concepts": [
+      "destroy a large portion of",
+      "devastate",
+      "wipe out much of",
+      "ravage",
+      "reduce drastically in number"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to destroy entirely",
+        "misconception": "overstates a large part into the whole"
+      },
+      {
+        "answer": "to divide by ten",
+        "misconception": "takes the Latin root literally"
+      }
+    ],
+    "required_nuance": "a large part destroyed, never all of it",
+    "mental_hook": "The Romans meant one in ten. Now it means far more.",
+    "semantic_hint": "What a hard winter does to a herd."
+  },
+  "decimation": {
+    "accepted_concepts": [
+      "the destruction of a large part",
+      "devastation",
+      "heavy losses inflicted",
+      "widespread ruin",
+      "a drastic reduction in number"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "total annihilation",
+        "misconception": "overstates a large part into the whole"
+      },
+      {
+        "answer": "ornamentation",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "heavy losses, never total destruction",
+    "mental_hook": "Heavy losses, not extinction.",
+    "semantic_hint": "The word for the losses a regiment suffers when most of it is destroyed."
+  },
+  "decipher": {
+    "accepted_concepts": [
+      "make out the meaning of",
+      "decode",
+      "work out what something says",
+      "unravel an obscure text",
+      "interpret with difficulty"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to put into code",
+        "misconception": "inverts reading into concealing"
+      },
+      {
+        "answer": "a digit",
+        "misconception": "hears 'cipher' as a numeral"
+      }
+    ],
+    "required_nuance": "reading what was hard or hidden",
+    "mental_hook": "Getting the meaning out of something that resisted.",
+    "semantic_hint": "What you do with handwriting almost nobody can read."
+  },
+  "declaim": {
+    "accepted_concepts": [
+      "speak formally",
+      "orate",
+      "hold forth rhetorically",
+      "deliver in a grand style",
+      "expound at length"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to disown",
+        "misconception": "hears the sound-alike 'disclaim'"
+      },
+      {
+        "answer": "to whisper",
+        "misconception": "inverts oratory into quiet"
+      }
+    ],
+    "required_nuance": "speaking grandly, often too grandly",
+    "mental_hook": "Speaking as if to a hall, whatever the room.",
+    "semantic_hint": "What an actor does with a speech delivered to the back of the theatre."
+  },
+  "declivity": {
+    "accepted_concepts": [
+      "a downward slope",
+      "a descent",
+      "a falling gradient",
+      "a slope running down",
+      "an incline going down"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an upward slope",
+        "misconception": "inverts down into up"
+      },
+      {
+        "answer": "a formal statement",
+        "misconception": "hears the shared opening of 'declaration'"
+      }
+    ],
+    "required_nuance": "a slope, specifically downward",
+    "mental_hook": "Down, not up.",
+    "semantic_hint": "The formal word for a slope running downhill."
+  },
+  "decorous": {
+    "accepted_concepts": [
+      "proper and dignified",
+      "seemly",
+      "behaving with restraint",
+      "correct in manner",
+      "fitting for the occasion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ornamental",
+        "misconception": "hears the shared opening and takes the decorative sense"
+      },
+      {
+        "answer": "unruly",
+        "misconception": "inverts propriety into disorder"
+      }
+    ],
+    "required_nuance": "behaviour that fits the occasion",
+    "mental_hook": "Behaves as the occasion requires.",
+    "semantic_hint": "The word for conduct exactly suited to a solemn ceremony."
+  },
+  "decorum": {
+    "accepted_concepts": [
+      "proper conduct",
+      "propriety",
+      "dignified behaviour",
+      "etiquette",
+      "seemliness in bearing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ornamentation",
+        "misconception": "hears the shared opening and takes the decorative sense"
+      },
+      {
+        "answer": "rowdiness",
+        "misconception": "inverts propriety into disorder"
+      }
+    ],
+    "required_nuance": "the standard of conduct itself",
+    "mental_hook": "The standard, not the behaviour that meets it.",
+    "semantic_hint": "What a judge orders restored when a courtroom gets noisy."
+  },
+  "decree": {
+    "accepted_concepts": [
+      "an official order",
+      "an edict",
+      "a legally binding pronouncement",
+      "an ordinance",
+      "a ruling with the force of law"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a qualification",
+        "misconception": "hears the sound-alike 'degree'"
+      },
+      {
+        "answer": "a suggestion",
+        "misconception": "inverts a binding order into advice"
+      }
+    ],
+    "required_nuance": "an order with legal force, issued from above",
+    "mental_hook": "Not a request. An order with law behind it.",
+    "semantic_hint": "The order a ruler issues that has the force of law without a vote."
+  },
+  "decry": {
+    "accepted_concepts": [
+      "publicly denounce",
+      "condemn openly",
+      "speak out against",
+      "disparage publicly",
+      "criticise loudly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to weep",
+        "misconception": "hears the word 'cry' inside it"
+      },
+      {
+        "answer": "to praise",
+        "misconception": "inverts denunciation into commendation"
+      }
+    ],
+    "required_nuance": "denouncing in public, out loud",
+    "mental_hook": "Not private disapproval. Said out loud.",
+    "semantic_hint": "What campaigners do publicly to a policy they hate."
+  },
+  "deduce": {
+    "accepted_concepts": [
+      "reach a conclusion by reasoning",
+      "infer from evidence",
+      "work out logically",
+      "conclude from premises",
+      "reason to an answer"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to lessen",
+        "misconception": "hears the sound-alike 'reduce'"
+      },
+      {
+        "answer": "to guess",
+        "misconception": "loses the reasoning that defines it"
+      }
+    ],
+    "required_nuance": "concluding by reasoning, never by guessing",
+    "mental_hook": "Holmes, working from the mud on a boot.",
+    "semantic_hint": "What a detective does from the mud on a visitor's boots."
+  },
+  "deem": {
+    "accepted_concepts": [
+      "consider as",
+      "regard as",
+      "judge to be",
+      "reckon to be",
+      "hold to be"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to appear",
+        "misconception": "hears the sound-alike 'seem' and reverses who is judging"
+      },
+      {
+        "answer": "to prove",
+        "misconception": "confuses judging with demonstrating"
+      }
+    ],
+    "required_nuance": "judging something to be so",
+    "mental_hook": "Someone decides it is so, and says so.",
+    "semantic_hint": "What a committee does when it judges a proposal unsuitable."
+  },
+  "deface": {
+    "accepted_concepts": [
+      "spoil the appearance of",
+      "mar the surface",
+      "vandalise",
+      "disfigure",
+      "damage the look of"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to remove a face",
+        "misconception": "reads the two halves literally"
+      },
+      {
+        "answer": "to restore",
+        "misconception": "inverts damage into repair"
+      }
+    ],
+    "required_nuance": "damaging the surface or the appearance",
+    "mental_hook": "The damage is to the look of it.",
+    "semantic_hint": "What graffiti does to a monument."
+  },
+  "default": {
+    "accepted_concepts": [
+      "failure to meet an obligation",
+      "non-payment of a debt",
+      "failure to appear",
+      "a preset option",
+      "what happens if nothing is chosen"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a mistake",
+        "misconception": "hears 'fault' and misses the unmet obligation"
+      },
+      {
+        "answer": "fulfilment",
+        "misconception": "inverts failure into performance"
+      }
+    ],
+    "required_nuance": "failing to do what was required, or the fallback setting",
+    "mental_hook": "Missing the payment, or the setting nobody changed.",
+    "semantic_hint": "What a borrower does when they stop making payments."
+  },
+  "defer": {
+    "accepted_concepts": [
+      "postpone",
+      "put off to a later time",
+      "delay",
+      "yield to another's judgement",
+      "submit to another's view"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to disagree",
+        "misconception": "hears the sound-alike 'differ' and inverts yielding"
+      },
+      {
+        "answer": "to insist",
+        "misconception": "inverts yielding into holding firm"
+      }
+    ],
+    "required_nuance": "delaying, or giving way to someone else",
+    "mental_hook": "Two senses: put it off, or give way to them.",
+    "semantic_hint": "What you do to a payment you cannot make now, and to a judgement better than your own."
+  },
+  "deference": {
+    "accepted_concepts": [
+      "respectful submission",
+      "yielding to another's judgement",
+      "respectful regard",
+      "courteous submission",
+      "obeisance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a distinction between things",
+        "misconception": "hears the sound-alike 'difference'"
+      },
+      {
+        "answer": "open resistance",
+        "misconception": "inverts submission into defiance"
+      }
+    ],
+    "required_nuance": "respect expressed by giving way",
+    "mental_hook": "Respect, expressed by giving way.",
+    "semantic_hint": "The respect a junior shows by accepting a senior's judgement."
+  },
+  "deferential": {
+    "accepted_concepts": [
+      "respectful",
+      "showing submission to another's view",
+      "yielding respectfully",
+      "obsequiously respectful",
+      "humbly regardful"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to a difference",
+        "misconception": "hears the sound-alike 'differential'"
+      },
+      {
+        "answer": "defiant",
+        "misconception": "inverts submission into resistance"
+      }
+    ],
+    "required_nuance": "the manner itself shows submission to standing",
+    "mental_hook": "Yields, and shows it.",
+    "semantic_hint": "The adjective for the manner of someone who never contradicts a senior."
+  },
+  "deflect": {
+    "accepted_concepts": [
+      "turn aside",
+      "divert from a course",
+      "parry",
+      "sidestep a question",
+      "cause to change direction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to throw back",
+        "misconception": "hears 'reflect' and swaps turning aside for bouncing back"
+      },
+      {
+        "answer": "to absorb",
+        "misconception": "inverts turning aside into taking in"
+      }
+    ],
+    "required_nuance": "turning something aside, never absorbing it",
+    "mental_hook": "Sends it off course rather than stopping it.",
+    "semantic_hint": "What a politician does to a question they do not want to answer."
+  },
+  "defray": {
+    "accepted_concepts": [
+      "pay for costs",
+      "cover expenses",
+      "meet the cost of",
+      "settle a bill for",
+      "bear the expense of"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to wear at the edges",
+        "misconception": "hears the word 'fray'"
+      },
+      {
+        "answer": "to run up a cost",
+        "misconception": "reverses paying into owing"
+      }
+    ],
+    "required_nuance": "paying costs, often on another's behalf",
+    "mental_hook": "Covering the bill.",
+    "semantic_hint": "What a grant does to the costs of a research trip."
+  },
+  "deft": {
+    "accepted_concepts": [
+      "skilful and quick",
+      "neatly dexterous",
+      "adroit",
+      "nimble-fingered",
+      "handled with light skill"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "clumsy",
+        "misconception": "inverts skill into awkwardness"
+      },
+      {
+        "answer": "unable to hear",
+        "misconception": "hears the sound-alike 'deaf'"
+      }
+    ],
+    "required_nuance": "skill that looks quick and easy",
+    "mental_hook": "Quick, neat, and apparently effortless.",
+    "semantic_hint": "The word for hands that do something tricky without seeming to try."
+  },
+  "deftness": {
+    "accepted_concepts": [
+      "skilful quickness",
+      "dexterity",
+      "adroitness",
+      "light-handed skill",
+      "neat efficiency of touch"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "clumsiness",
+        "misconception": "inverts skill into awkwardness"
+      },
+      {
+        "answer": "inability to hear",
+        "misconception": "hears the sound-alike 'deafness'"
+      }
+    ],
+    "required_nuance": "the quality of quick, neat skill",
+    "mental_hook": "The skill itself, named.",
+    "semantic_hint": "The quality of a surgeon's hands that makes a hard operation look easy."
+  },
+  "degrade": {
+    "accepted_concepts": [
+      "reduce in quality",
+      "lower in status",
+      "demean someone",
+      "break down into something worse",
+      "cheapen"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to improve",
+        "misconception": "inverts lowering into enhancement"
+      },
+      {
+        "answer": "a mark or score",
+        "misconception": "hears the word 'grade' inside it"
+      }
+    ],
+    "required_nuance": "lowering quality, status or dignity",
+    "mental_hook": "Worth, rank or dignity, all reduced.",
+    "semantic_hint": "What repeated copying does to the quality of an image."
   }
 }
