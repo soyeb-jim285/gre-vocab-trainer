@@ -142,6 +142,16 @@ import Testing
         _ = catalog.words(inTier: .core)
         _ = catalog.words(withPartOfSpeech: .verb)
         _ = DistractorPicker.definitionDistractors(for: word, from: catalog, count: 3)
+        let items = try ItemCatalog.bundled()
+        _ = (items.items, items["nothing"], items.items(testing: word.id),
+             items.items(ofKind: .textCompletion))
+        if let item = items.items.first {
+            _ = (item.id, item.kind, item.stem, item.options, item.answers,
+                 item.explanation, item.testedWordIDs)
+            _ = (item.kind.label, item.kind.instruction, item.kind.answerCount,
+                 item.kind.optionCount)
+            _ = item.isCorrect(item.answers)
+        }
         _ = ConfusionDrill.isAvailable(for: word, in: catalog)
         if let question = ConfusionDrill.question(
             for: word, from: catalog, preferring: [], attempt: 0
