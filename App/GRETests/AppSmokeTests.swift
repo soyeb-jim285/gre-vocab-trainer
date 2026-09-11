@@ -97,11 +97,19 @@ struct AppSmokeTests {
         }
         #expect(feedback.score == 100)
 
+        // Every word in the batch has a card, but only the answered one has been
+        // scheduled: teaching records that a word was met and nothing else.
         let saved = try context.fetch(FetchDescriptor<CardRecord>())
-        #expect(saved.count == 1)
-        #expect(saved[0].reviewCount == 1)
+        let answered = try #require(saved.first { $0.wordID == first.word.id })
+        #expect(answered.reviewCount == 1)
         // A scheduled card must have moved off the epoch default.
-        #expect(saved[0].due > Date(timeIntervalSince1970: 1))
+        #expect(answered.due > Date(timeIntervalSince1970: 1))
+
+        for taught in saved where taught.wordID != first.word.id {
+            #expect(taught.reviewCount == 0)
+            #expect(taught.introducedAt != nil)
+            #expect(taught.due == .distantPast, "teaching must not spend a card's first rating")
+        }
     }
 
     @Test func aWrongMultipleChoiceAnswerSchedulesTheCardToReturn() async throws {
