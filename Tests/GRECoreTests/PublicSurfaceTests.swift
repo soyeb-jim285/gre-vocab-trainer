@@ -57,6 +57,10 @@ import Testing
             mode: .multipleChoice, latency: .seconds(3), settings: profile.confidence
         )
         _ = (SelfReport.allCases, HintLevel.allCases)
+        _ = AnswerAppraisal.isFastKnown(
+            grade: Grade(score: 100), selfReport: .confident, hints: .none,
+            mode: .typeMeaning, latency: .seconds(4)
+        )
 
         let catalog = try WordCatalog.bundled()
         let word = try #require(catalog["abate"])

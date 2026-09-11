@@ -539,10 +539,19 @@ final class SessionViewModel {
         cost: CallCost? = nil, extras: AnswerFeedback.Extras = .init()
     ) {
         guard let item = current?.item else { return }
+        // Only ever true on a word that had not been met: this is the claim
+        // "they already knew it", and a word taught last week does not qualify
+        // however fast the answer comes back.
+        let alreadyKnew = !item.card.isIntroduced && AnswerAppraisal.isFastKnown(
+            grade: judgement.grade, selfReport: selfReport, hints: hintsTaken,
+            mode: item.mode, latency: clock.isTainted ? nil : latency,
+            strictness: settings.strictness
+        )
         ReviewRecorder.record(
             wordID: item.card.wordID, mode: item.mode, grade: judgement.grade,
             rating: judgement.rating, scheduler: settings.scheduler, in: context, index: index,
-            latency: latency, latencyTainted: clock.isTainted
+            latency: latency, latencyTainted: clock.isTainted,
+            knownOnFirstContact: alreadyKnew
         )
         answeredCount += 1
         cardsSeen += 1

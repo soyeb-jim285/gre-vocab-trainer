@@ -95,6 +95,34 @@ public enum AnswerAppraisal {
         ) ?? rating)
     }
 
+    /// Whether a first answer says the learner already owns this word.
+    ///
+    /// All four conditions, because each one rules out a way of being right
+    /// without knowing: precise rather than approximately right, sure rather
+    /// than hopeful, unaided rather than nudged, and quick rather than
+    /// reconstructed. A word that clears all four does not need teaching, and
+    /// making someone sit through a lesson for it is how three thousand words
+    /// becomes a chore nobody finishes.
+    ///
+    /// `latency` may be nil when the clock was tainted, which fails the test:
+    /// this pathway skips teaching outright, so it should need evidence rather
+    /// than assume it.
+    public static func isFastKnown(
+        grade: Grade,
+        selfReport: SelfReport?,
+        hints: HintLevel,
+        mode: StudyMode,
+        latency: Duration?,
+        strictness: GradingStrictness = .standard
+    ) -> Bool {
+        guard grade.rating(strictness: strictness) == .easy,
+              selfReport == .confident,
+              hints == .none,
+              let latency, latency > .zero
+        else { return false }
+        return latency <= band(for: mode).fast
+    }
+
     /// A right answer the learner called a guess is worth less than the same
     /// answer they were sure of: one is a memory, the other is a coin that came
     /// up heads. Being unsure and right is a real but shaky memory, which is

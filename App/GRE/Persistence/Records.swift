@@ -23,6 +23,13 @@ final class CardRecord {
     /// Set once, when the word is first taught. Distinct from `reviewCount > 0`
     /// only in that it survives a mode being added later.
     var introducedAt: Date?
+    /// True when the learner proved they already knew this word on first
+    /// contact, before it was ever taught.
+    ///
+    /// Stored rather than derived. "Never taught" cannot be read off
+    /// `introducedAt`, because a word that was tested first and taught later
+    /// carries the same absence, and Progress needs to count the two apart.
+    var knownOnFirstContact: Bool = false
 
     init(wordID: String) {
         self.wordID = wordID

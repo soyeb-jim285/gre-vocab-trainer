@@ -15,11 +15,16 @@ import SwiftData
 @MainActor
 final class MasteryIndex {
     private(set) var cards: [String: StudyCard] = [:]
+    /// Words the learner proved they already knew on first contact, before the
+    /// app taught them anything. Kept here so Progress can separate what was
+    /// learned from what was merely confirmed.
+    private(set) var alreadyKnownIDs: Set<String> = []
 
     subscript(wordID: String) -> StudyCard? { cards[wordID] }
 
     func reload(from context: ModelContext) {
         cards = ReviewRecorder.cardsByID(in: context)
+        alreadyKnownIDs = ReviewRecorder.alreadyKnownWordIDs(in: context)
     }
 
     func progress(for deck: Deck) -> DeckProgress {

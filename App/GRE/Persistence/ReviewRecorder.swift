@@ -15,7 +15,8 @@ enum ReviewRecorder {
         wordID: String, mode: StudyMode, grade: Grade, rating: FSRSRating,
         scheduler: FSRS, in context: ModelContext, index: MasteryIndex,
         latency: Duration? = nil, latencyTainted: Bool = false,
-        isIntroduction: Bool = false, at date: Date = .now
+        isIntroduction: Bool = false, knownOnFirstContact: Bool = false,
+        at date: Date = .now
     ) -> CardRecord {
         let record = existing(wordID, in: context) ?? {
             let fresh = CardRecord(wordID: wordID)
@@ -27,6 +28,11 @@ enum ReviewRecorder {
         record.fsrs = scheduler.review(record.fsrs, rating: rating, at: date)
         record.reviewCount += 1
         if before == .review && record.fsrs.state == .relearning { record.lapses += 1 }
+        // Recorded before `introducedAt` is stamped below, because the claim is
+        // about a word that had never been met when the question was asked.
+        if knownOnFirstContact, record.introducedAt == nil, record.reviewCount == 1 {
+            record.knownOnFirstContact = true
+        }
         if record.introducedAt == nil { record.introducedAt = date }
 
         context.insert(ReviewRecord(
@@ -141,6 +147,14 @@ enum ReviewRecorder {
     static func cardsByID(in context: ModelContext) -> [String: StudyCard] {
         let records = (try? context.fetch(FetchDescriptor<CardRecord>())) ?? []
         return Dictionary(records.map { ($0.wordID, $0.studyCard) }, uniquingKeysWith: { a, _ in a })
+    }
+
+    /// The words the learner proved they already knew, before being taught.
+    static func alreadyKnownWordIDs(in context: ModelContext) -> Set<String> {
+        let descriptor = FetchDescriptor<CardRecord>(
+            predicate: #Predicate { $0.knownOnFirstContact }
+        )
+        return Set(((try? context.fetch(descriptor)) ?? []).map(\.wordID))
     }
 
     /// A word is paid for once. An empty etymology marks a row fetched for its
