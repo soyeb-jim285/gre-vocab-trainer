@@ -1,0 +1,1322 @@
+{
+  "fecund": {
+    "accepted_concepts": [
+      "highly fertile",
+      "producing abundantly",
+      "teeming with growth",
+      "richly productive",
+      "prolific in output"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "barren",
+        "misconception": "inverts fertility into sterility"
+      },
+      {
+        "answer": "second in order",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "producing a great deal, in soil or in mind",
+    "mental_hook": "Soil or imagination, and both produce plenty.",
+    "semantic_hint": "The word for land or an imagination that produces abundantly."
+  },
+  "feeble": {
+    "accepted_concepts": [
+      "weak",
+      "lacking force",
+      "frail",
+      "ineffectual",
+      "faint in strength"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "robust",
+        "misconception": "inverts weakness into strength"
+      },
+      {
+        "answer": "able to make mistakes",
+        "misconception": "hears the sound-alike about being liable to err"
+      }
+    ],
+    "required_nuance": "weak, in body or in argument",
+    "mental_hook": "Not enough strength, whether a body or an excuse.",
+    "semantic_hint": "The word for a grip, or an excuse, with no strength in it."
+  },
+  "feign": {
+    "accepted_concepts": [
+      "pretend",
+      "fake an appearance",
+      "simulate a feeling",
+      "put on a show of",
+      "affect something one does not feel"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to reveal honestly",
+        "misconception": "inverts pretending into disclosing"
+      },
+      {
+        "answer": "a deceptive move in a fight",
+        "misconception": "confuses the verb with the near-twin noun for a decoy move"
+      }
+    ],
+    "required_nuance": "pretending to have a state one does not have",
+    "mental_hook": "Puts on the feeling, and does not have it.",
+    "semantic_hint": "What a child does by pretending to be ill on a school morning."
+  },
+  "feint": {
+    "accepted_concepts": [
+      "a deceptive move to distract",
+      "a decoy attack",
+      "a ruse drawing attention elsewhere",
+      "a dodge to mislead an opponent",
+      "a false thrust"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to pretend to a feeling",
+        "misconception": "confuses the noun for a decoy move with the near-twin verb about pretending"
+      },
+      {
+        "answer": "weak and about to collapse",
+        "misconception": "hears the sound-alike about swooning"
+      }
+    ],
+    "required_nuance": "a move made to draw the defence the wrong way",
+    "mental_hook": "A move that means the opposite of what it looks like.",
+    "semantic_hint": "The word for a boxer's jab thrown only to open a different line."
+  },
+  "felicitous": {
+    "accepted_concepts": [
+      "well chosen and apt",
+      "pleasingly fitting",
+      "happily suited to the occasion",
+      "aptly expressed",
+      "well put"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "clumsy and ill-judged",
+        "misconception": "inverts aptness into awkwardness"
+      },
+      {
+        "answer": "merely lucky",
+        "misconception": "loses the fitness of the choice and leaves only chance"
+      }
+    ],
+    "required_nuance": "apt, and pleasing because it is apt",
+    "mental_hook": "Exactly the right words, and they please.",
+    "semantic_hint": "The word for a phrase that is both apt and a pleasure to hear."
+  },
+  "felicity": {
+    "accepted_concepts": [
+      "great happiness",
+      "bliss",
+      "aptness of expression",
+      "a happy knack in phrasing",
+      "the state of intense contentment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "misery",
+        "misconception": "inverts happiness into wretchedness"
+      },
+      {
+        "answer": "a criminal offence",
+        "misconception": "hears the sound-alike 'felony'"
+      }
+    ],
+    "required_nuance": "happiness, or the happy fitness of words",
+    "mental_hook": "Happiness, or a happy turn of phrase.",
+    "semantic_hint": "The word for deep happiness, and also for a writer's knack with wording."
+  },
+  "fell": {
+    "accepted_concepts": [
+      "fierce and deadly",
+      "cruel",
+      "savage in intent",
+      "lethal",
+      "capable of terrible harm"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "gentle",
+        "misconception": "inverts savagery into kindness"
+      },
+      {
+        "answer": "dropped to the ground",
+        "misconception": "takes the past tense of a common verb for this adjective"
+      }
+    ],
+    "required_nuance": "fierce and deadly, in an old literary register",
+    "mental_hook": "One fell swoop, and the swoop is deadly.",
+    "semantic_hint": "The adjective in the phrase about one swoop that destroys everything."
+  },
+  "ferret": {
+    "accepted_concepts": [
+      "search out persistently",
+      "dig something hidden into the open",
+      "root out by patient searching",
+      "uncover after a hunt",
+      "track down doggedly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to conceal",
+        "misconception": "inverts digging out into hiding"
+      },
+      {
+        "answer": "a small tame animal",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "persistent searching until it is found",
+    "mental_hook": "Goes down the hole after it.",
+    "semantic_hint": "What a dogged journalist does to a fact somebody buried."
+  },
+  "fervent": {
+    "accepted_concepts": [
+      "showing intense passion",
+      "ardent",
+      "burning with feeling",
+      "impassioned",
+      "deeply earnest in conviction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "apathetic",
+        "misconception": "inverts passion into indifference"
+      },
+      {
+        "answer": "recent",
+        "misconception": "hears the sound-alike 'recent'"
+      }
+    ],
+    "required_nuance": "feeling at heat, usually admirable",
+    "mental_hook": "Hot, in the old Latin sense.",
+    "semantic_hint": "The word for a hope held with burning intensity."
+  },
+  "fervid": {
+    "accepted_concepts": [
+      "intensely enthusiastic",
+      "burning with zeal",
+      "impassioned to excess",
+      "vehement in feeling",
+      "heated in expression"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cool and indifferent",
+        "misconception": "inverts heat into detachment"
+      },
+      {
+        "answer": "greenish",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "heat of feeling, often too much of it",
+    "mental_hook": "Hot, and often a touch too hot.",
+    "semantic_hint": "The word for admiration so heated it becomes uncomfortable."
+  },
+  "fervor": {
+    "accepted_concepts": [
+      "intense passion",
+      "burning zeal",
+      "ardour",
+      "heat of enthusiasm",
+      "deeply felt intensity"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "apathy",
+        "misconception": "inverts intensity into indifference"
+      },
+      {
+        "answer": "a kindness done",
+        "misconception": "hears the sound-alike 'favour'"
+      }
+    ],
+    "required_nuance": "passion at heat",
+    "mental_hook": "Heat, in a feeling.",
+    "semantic_hint": "The burning intensity of a crowd at a revival meeting."
+  },
+  "fester": {
+    "accepted_concepts": [
+      "worsen through neglect",
+      "become infected",
+      "rankle unhealed",
+      "grow worse while ignored",
+      "suppurate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to heal",
+        "misconception": "inverts worsening into mending"
+      },
+      {
+        "answer": "to go faster",
+        "misconception": "hears the sound-alike 'faster'"
+      }
+    ],
+    "required_nuance": "getting worse precisely because it is left alone",
+    "mental_hook": "Left alone, and getting worse for it.",
+    "semantic_hint": "What an untreated wound does, and what an unspoken grievance does."
+  },
+  "fete": {
+    "accepted_concepts": [
+      "honour with a celebration",
+      "hold a party in someone's honour",
+      "celebrate publicly",
+      "make much of someone",
+      "toast with ceremony"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to snub",
+        "misconception": "inverts honouring into slighting"
+      },
+      {
+        "answer": "destiny",
+        "misconception": "hears the sound-alike about what is doomed to happen"
+      }
+    ],
+    "required_nuance": "honouring with a public celebration",
+    "mental_hook": "A party held in your honour.",
+    "semantic_hint": "What a city does for a returning champion with a parade."
+  },
+  "fetid": {
+    "accepted_concepts": [
+      "smelling extremely unpleasant",
+      "stinking",
+      "putrid in odour",
+      "rank",
+      "foul to the nose"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "sweetly fragrant",
+        "misconception": "inverts stench into perfume"
+      },
+      {
+        "answer": "feverish",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "a strong bad smell",
+    "mental_hook": "You smell it before you see it.",
+    "semantic_hint": "The word for the smell of stagnant water in summer."
+  },
+  "fiasco": {
+    "accepted_concepts": [
+      "a complete and humiliating failure",
+      "a debacle",
+      "a disaster of an attempt",
+      "a public embarrassment of a venture",
+      "a total flop"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a triumph",
+        "misconception": "inverts failure into success"
+      },
+      {
+        "answer": "a small setback",
+        "misconception": "understates a total collapse into a minor problem"
+      }
+    ],
+    "required_nuance": "failure, complete and humiliating in public",
+    "mental_hook": "It failed, and everybody saw.",
+    "semantic_hint": "The word for a launch event where nothing at all worked."
+  },
+  "fickle": {
+    "accepted_concepts": [
+      "changeable in loyalty",
+      "inconstant in affection",
+      "apt to switch allegiance",
+      "capricious in preference",
+      "not to be relied on to stay"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "steadfast",
+        "misconception": "inverts inconstancy into loyalty"
+      },
+      {
+        "answer": "easily broken",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "changeable in loyalty or liking, not in mood alone",
+    "mental_hook": "Loves you Tuesday, gone by Thursday.",
+    "semantic_hint": "The word for public favour that switches without warning."
+  },
+  "fidelity": {
+    "accepted_concepts": [
+      "faithfulness",
+      "loyalty kept over time",
+      "accuracy of reproduction",
+      "exactness to an original",
+      "steadfast devotion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "betrayal",
+        "misconception": "inverts faithfulness into treachery"
+      },
+      {
+        "answer": "timidity",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "faithfulness to a person or exactness to an original",
+    "mental_hook": "Faithful to a person, or true to the original.",
+    "semantic_hint": "What a marriage vow asks for, and what a good recording preserves."
+  },
+  "figurative": {
+    "accepted_concepts": [
+      "metaphorical rather than literal",
+      "not to be taken at face value",
+      "symbolic in meaning",
+      "using an image to mean something else",
+      "non-literal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "literal",
+        "misconception": "inverts the metaphorical into the plain"
+      },
+      {
+        "answer": "relating to numbers",
+        "misconception": "hears the word 'figure' in its arithmetic sense"
+      }
+    ],
+    "required_nuance": "meaning by image rather than by the plain words",
+    "mental_hook": "Do not take it at face value.",
+    "semantic_hint": "How the phrase about raining cats and dogs is meant."
+  },
+  "filch": {
+    "accepted_concepts": [
+      "steal something small",
+      "pilfer",
+      "take furtively",
+      "purloin a trifle",
+      "sneak away with a minor item"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to return what was taken",
+        "misconception": "inverts stealing into restoring"
+      },
+      {
+        "answer": "to rob at gunpoint",
+        "misconception": "overstates petty theft into armed robbery"
+      }
+    ],
+    "required_nuance": "petty theft done quietly",
+    "mental_hook": "Small, sly, and hardly worth it.",
+    "semantic_hint": "What someone does by quietly taking pens from the office."
+  },
+  "filibuster": {
+    "accepted_concepts": [
+      "a prolonged speech used to block a vote",
+      "talking a measure to death",
+      "obstruction by endless speaking",
+      "stalling legislation by holding the floor",
+      "delay tactics in a chamber"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a swift vote",
+        "misconception": "inverts obstruction into decisive action"
+      },
+      {
+        "answer": "a pirate raid",
+        "misconception": "takes the obsolete original sense"
+      }
+    ],
+    "required_nuance": "blocking a decision by refusing to stop talking",
+    "mental_hook": "Talks until the clock beats the bill.",
+    "semantic_hint": "What a senator does by speaking for twelve hours to stop a bill."
+  },
+  "finagle": {
+    "accepted_concepts": [
+      "obtain by devious means",
+      "wangle",
+      "contrive by trickery",
+      "manipulate a situation to get something",
+      "scheme one's way to it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to obtain openly and fairly",
+        "misconception": "inverts trickery into straight dealing"
+      },
+      {
+        "answer": "to bring to an end",
+        "misconception": "hears the word 'final'"
+      }
+    ],
+    "required_nuance": "getting it by contrivance rather than right",
+    "mental_hook": "Gets it, and not straightforwardly.",
+    "semantic_hint": "What someone does to get an upgrade they were never entitled to."
+  },
+  "financial": {
+    "accepted_concepts": [
+      "relating to money",
+      "monetary",
+      "concerning the management of funds",
+      "fiscal",
+      "to do with money matters"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to the end of something",
+        "misconception": "hears the word 'final'"
+      },
+      {
+        "answer": "relating to physical goods",
+        "misconception": "confuses money with the things money buys"
+      }
+    ],
+    "required_nuance": "about money and its handling",
+    "mental_hook": "About the money.",
+    "semantic_hint": "The word for advice about how someone should handle their money."
+  },
+  "finesse": {
+    "accepted_concepts": [
+      "delicate skill in handling something",
+      "subtlety of technique",
+      "adroitness in a difficult situation",
+      "tact and refinement in execution",
+      "a light deft touch"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "clumsiness",
+        "misconception": "inverts deftness into heavy-handedness"
+      },
+      {
+        "answer": "brute strength",
+        "misconception": "confuses delicate skill with force"
+      }
+    ],
+    "required_nuance": "skill that is delicate rather than forceful",
+    "mental_hook": "Handled lightly, and perfectly.",
+    "semantic_hint": "The quality of a negotiator who defuses a row without anyone noticing."
+  },
+  "finicky": {
+    "accepted_concepts": [
+      "fussy about details",
+      "hard to satisfy over small things",
+      "particular to a fault",
+      "picky",
+      "over-exacting about trifles"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "easygoing",
+        "misconception": "inverts fussiness into indifference"
+      },
+      {
+        "answer": "near the end",
+        "misconception": "hears the word 'finish'"
+      }
+    ],
+    "required_nuance": "fussiness over small points",
+    "mental_hook": "Minds about the small things. All of them.",
+    "semantic_hint": "The word for an eater who objects to every item on the plate."
+  },
+  "firebrand": {
+    "accepted_concepts": [
+      "someone who stirs up trouble",
+      "an agitator",
+      "a rousing troublemaker",
+      "an instigator of unrest",
+      "a passionate rabble-rouser"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a peacemaker",
+        "misconception": "inverts stirring up into calming down"
+      },
+      {
+        "answer": "a trademark",
+        "misconception": "hears the word 'brand' in its commercial sense"
+      }
+    ],
+    "required_nuance": "a person who sets others alight",
+    "mental_hook": "Carries the burning stick into the crowd.",
+    "semantic_hint": "The word for a young politician who stirs a crowd to anger."
+  },
+  "fissure": {
+    "accepted_concepts": [
+      "a crack",
+      "a narrow split in a surface",
+      "a cleft",
+      "a division opening up",
+      "a rift"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a seamless whole",
+        "misconception": "inverts a split into an unbroken surface"
+      },
+      {
+        "answer": "a person who catches fish",
+        "misconception": "hears the sound-alike 'fisher'"
+      }
+    ],
+    "required_nuance": "a split, in rock or in a group",
+    "mental_hook": "A crack, in rock or in a party.",
+    "semantic_hint": "The word for a narrow crack opening in a rock face."
+  },
+  "fitful": {
+    "accepted_concepts": [
+      "irregular",
+      "occurring in short bursts",
+      "intermittent",
+      "starting and stopping",
+      "not sustained"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "steady and continuous",
+        "misconception": "inverts the intermittent into the sustained"
+      },
+      {
+        "answer": "in good physical shape",
+        "misconception": "hears the word 'fit'"
+      }
+    ],
+    "required_nuance": "in bursts, with gaps between",
+    "mental_hook": "Starts, stops, starts again.",
+    "semantic_hint": "The word for sleep that keeps breaking all night."
+  },
+  "flag": {
+    "accepted_concepts": [
+      "weaken",
+      "lose energy",
+      "grow tired",
+      "wane in strength",
+      "droop from fatigue"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to revive",
+        "misconception": "inverts tiring into recovering"
+      },
+      {
+        "answer": "a cloth emblem",
+        "misconception": "takes the common noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "losing strength gradually",
+    "mental_hook": "The verb means to tire, not to signal.",
+    "semantic_hint": "What attention does in the last hour of a long meeting."
+  },
+  "flagrant": {
+    "accepted_concepts": [
+      "shockingly obvious and bad",
+      "blatant",
+      "openly outrageous",
+      "brazen in its wrongness",
+      "conspicuously offensive"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "subtle and discreet",
+        "misconception": "inverts the conspicuous into the hidden"
+      },
+      {
+        "answer": "sweet-smelling",
+        "misconception": "hears the sound-alike 'fragrant'"
+      }
+    ],
+    "required_nuance": "wrong, and making no attempt to hide it",
+    "mental_hook": "Wrong, and out in the open.",
+    "semantic_hint": "The word for a rule-breach committed openly in front of everyone."
+  },
+  "flail": {
+    "accepted_concepts": [
+      "wave about wildly",
+      "thrash without control",
+      "struggle ineffectively",
+      "swing the arms uselessly",
+      "beat about"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to move with control",
+        "misconception": "inverts wild thrashing into precision"
+      },
+      {
+        "answer": "to fall short of success",
+        "misconception": "hears the sound-alike 'fail'"
+      }
+    ],
+    "required_nuance": "wild uncontrolled movement, usually useless",
+    "mental_hook": "Arms everywhere, progress nowhere.",
+    "semantic_hint": "What a poor swimmer's arms do in deep water."
+  },
+  "flair": {
+    "accepted_concepts": [
+      "a natural talent",
+      "an instinctive knack",
+      "stylishness in doing something",
+      "panache",
+      "an aptitude that shows"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ineptitude",
+        "misconception": "inverts talent into clumsiness"
+      },
+      {
+        "answer": "a sudden burst of light",
+        "misconception": "hears the sound-alike 'flare'"
+      }
+    ],
+    "required_nuance": "natural talent, often with style attached",
+    "mental_hook": "A knack, and it looks good doing it.",
+    "semantic_hint": "The word for a natural gift for languages, or for dressing well."
+  },
+  "flamboyant": {
+    "accepted_concepts": [
+      "strikingly showy",
+      "ostentatious",
+      "extravagantly attention-seeking",
+      "florid in style",
+      "elaborately flashy"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "understated",
+        "misconception": "inverts showiness into restraint"
+      },
+      {
+        "answer": "easily set alight",
+        "misconception": "hears the sound-alike 'flammable'"
+      }
+    ],
+    "required_nuance": "showy enough that it is meant to be noticed",
+    "mental_hook": "Meant to be looked at.",
+    "semantic_hint": "The word for an entrance in a scarlet cape that nobody could miss."
+  },
+  "flay": {
+    "accepted_concepts": [
+      "criticise savagely",
+      "attack with words mercilessly",
+      "strip the skin from",
+      "castigate harshly",
+      "lash verbally"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "inverts savage attack into commendation"
+      },
+      {
+        "answer": "to play music",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "stripping, whether skin or reputation",
+    "mental_hook": "Takes the skin off, literally or in print.",
+    "semantic_hint": "What a merciless review does to a novelist."
+  },
+  "fledgling": {
+    "accepted_concepts": [
+      "new and inexperienced",
+      "just beginning",
+      "newly established",
+      "a novice at it",
+      "not yet proven"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "long established",
+        "misconception": "inverts the new into the veteran"
+      },
+      {
+        "answer": "promised or pledged",
+        "misconception": "hears the word 'pledge'"
+      }
+    ],
+    "required_nuance": "new and not yet able to manage alone",
+    "mental_hook": "New feathers, and the flight is untested.",
+    "semantic_hint": "The word for a company in its first uncertain year."
+  },
+  "fleece": {
+    "accepted_concepts": [
+      "swindle out of money",
+      "defraud",
+      "charge an outrageous price",
+      "cheat someone of their cash",
+      "bilk"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to reimburse",
+        "misconception": "inverts swindling into paying back"
+      },
+      {
+        "answer": "a sheep's wool coat",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "taking someone's money by cheating or overcharging",
+    "mental_hook": "Shears the customer instead of the sheep.",
+    "semantic_hint": "What a crooked garage does to a stranded motorist."
+  },
+  "fleeting": {
+    "accepted_concepts": [
+      "lasting very briefly",
+      "gone almost at once",
+      "momentary",
+      "passing in an instant",
+      "transient"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "enduring",
+        "misconception": "inverts brevity into permanence"
+      },
+      {
+        "answer": "moving quickly",
+        "misconception": "confuses short duration with high speed"
+      }
+    ],
+    "required_nuance": "short in duration, not fast in motion",
+    "mental_hook": "Brief, not fast.",
+    "semantic_hint": "The word for a glimpse that lasts less than a second."
+  },
+  "flip": {
+    "accepted_concepts": [
+      "disrespectfully casual",
+      "glib",
+      "offhand when seriousness is due",
+      "treating a matter too lightly",
+      "pert"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "earnest and respectful",
+        "misconception": "inverts casual disrespect into gravity"
+      },
+      {
+        "answer": "to turn something over",
+        "misconception": "takes the common verb sense for this adjective"
+      }
+    ],
+    "required_nuance": "casual in a way that disrespects the subject",
+    "mental_hook": "Light about something that was not light.",
+    "semantic_hint": "The word for a breezy one-word answer to a serious question."
+  },
+  "flippant": {
+    "accepted_concepts": [
+      "not showing proper seriousness",
+      "frivolous about a grave matter",
+      "glib",
+      "treating something important as a joke",
+      "disrespectfully light"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "solemn",
+        "misconception": "inverts frivolity into gravity"
+      },
+      {
+        "answer": "easily reversed",
+        "misconception": "hears the common verb about turning over"
+      }
+    ],
+    "required_nuance": "lightness where seriousness was owed",
+    "mental_hook": "A joke where a straight answer was owed.",
+    "semantic_hint": "The word for a quip offered instead of a real apology."
+  },
+  "florid": {
+    "accepted_concepts": [
+      "excessively ornate",
+      "overwritten",
+      "flowery in style",
+      "ruddy in complexion",
+      "showily elaborate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plain and spare",
+        "misconception": "inverts ornament into austerity"
+      },
+      {
+        "answer": "pale",
+        "misconception": "inverts a red complexion into pallor"
+      }
+    ],
+    "required_nuance": "too much ornament, or too much red",
+    "mental_hook": "Flowery prose, or a flushed face.",
+    "semantic_hint": "The word for prose loaded with more ornament than it can carry."
+  },
+  "flotilla": {
+    "accepted_concepts": [
+      "a small fleet of boats",
+      "a group of vessels sailing together",
+      "a squadron of small ships",
+      "a convoy of craft",
+      "several boats in company"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single ship",
+        "misconception": "confuses a group of vessels with one"
+      },
+      {
+        "answer": "floating wreckage",
+        "misconception": "confuses the boats with the debris word that sounds close"
+      }
+    ],
+    "required_nuance": "several vessels together, and small ones",
+    "mental_hook": "A little fleet.",
+    "semantic_hint": "The word for a dozen small boats crossing together."
+  },
+  "flotsam": {
+    "accepted_concepts": [
+      "floating wreckage",
+      "debris drifting on water",
+      "worthless odds and ends",
+      "the leavings of a wreck",
+      "scattered useless remains"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a group of small boats",
+        "misconception": "confuses the debris with the fleet word that sounds close"
+      },
+      {
+        "answer": "valuable cargo",
+        "misconception": "inverts worthless leavings into treasure"
+      }
+    ],
+    "required_nuance": "wreckage adrift, or rubbish by extension",
+    "mental_hook": "What the wreck left floating.",
+    "semantic_hint": "The word for the debris still drifting after a ship goes down."
+  },
+  "flounder": {
+    "accepted_concepts": [
+      "struggle clumsily",
+      "make ineffective efforts",
+      "stumble about helplessly",
+      "thrash without progress",
+      "get nowhere while trying hard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to thrive",
+        "misconception": "inverts helpless struggle into success"
+      },
+      {
+        "answer": "to sink completely",
+        "misconception": "confuses struggling badly with the near-twin about going under"
+      }
+    ],
+    "required_nuance": "struggling ineffectively, not yet sunk",
+    "mental_hook": "Still moving. Getting nowhere.",
+    "semantic_hint": "What a speaker does after losing their place in the notes."
+  },
+  "flourish": {
+    "accepted_concepts": [
+      "thrive",
+      "prosper vigorously",
+      "grow strongly",
+      "wave something dramatically",
+      "brandish with a showy gesture"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to wither",
+        "misconception": "inverts thriving into decline"
+      },
+      {
+        "answer": "to struggle ineffectively",
+        "misconception": "confuses thriving with the near-twin about floundering"
+      }
+    ],
+    "required_nuance": "thriving, or a showy sweeping gesture",
+    "mental_hook": "Thrives, or waves it about.",
+    "semantic_hint": "What a plant does in good soil, and what a swordsman does with a blade."
+  },
+  "flout": {
+    "accepted_concepts": [
+      "openly disregard a rule",
+      "defy a convention deliberately",
+      "scorn an obligation in public",
+      "break a rule and show it",
+      "treat a law with contempt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to obey",
+        "misconception": "inverts defiance into compliance"
+      },
+      {
+        "answer": "to display proudly",
+        "misconception": "hears the sound-alike 'flaunt'"
+      }
+    ],
+    "required_nuance": "breaking a rule openly, and rules are what get broken",
+    "mental_hook": "Breaks the rule. The near-twin shows off the goods.",
+    "semantic_hint": "What a company does by ignoring a regulation in plain view."
+  },
+  "fluctuate": {
+    "accepted_concepts": [
+      "rise and fall irregularly",
+      "vary up and down",
+      "oscillate",
+      "keep changing level",
+      "waver between values"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to hold steady",
+        "misconception": "inverts variation into constancy"
+      },
+      {
+        "answer": "to rise only",
+        "misconception": "loses the falling half of the movement"
+      }
+    ],
+    "required_nuance": "both up and down, repeatedly",
+    "mental_hook": "Up, down, up again.",
+    "semantic_hint": "What a currency does hour by hour on the exchange."
+  },
+  "fluke": {
+    "accepted_concepts": [
+      "an unlikely stroke of luck",
+      "a chance success",
+      "an accident that turned out well",
+      "a lucky one-off",
+      "something that will not repeat"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a certainty",
+        "misconception": "inverts chance into reliability"
+      },
+      {
+        "answer": "a failure",
+        "misconception": "loses the good outcome that defines it"
+      }
+    ],
+    "required_nuance": "good outcome by chance, and unrepeatable",
+    "mental_hook": "It worked. Nobody knows why.",
+    "semantic_hint": "The word for a shot that goes in off three cushions by accident."
+  },
+  "flummox": {
+    "accepted_concepts": [
+      "bewilder completely",
+      "baffle",
+      "perplex utterly",
+      "confound",
+      "leave someone with no idea"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to clarify",
+        "misconception": "inverts bewildering into explaining"
+      },
+      {
+        "answer": "to annoy",
+        "misconception": "confuses confusion with irritation"
+      }
+    ],
+    "required_nuance": "confusion complete enough to stop someone",
+    "mental_hook": "Stumped, entirely.",
+    "semantic_hint": "What an impossible riddle does to the person hearing it."
+  },
+  "flummoxed": {
+    "accepted_concepts": [
+      "utterly bewildered",
+      "completely baffled",
+      "at a total loss",
+      "nonplussed",
+      "unable to make any sense of it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly clear about it",
+        "misconception": "inverts bewilderment into understanding"
+      },
+      {
+        "answer": "irritated",
+        "misconception": "confuses confusion with annoyance"
+      }
+    ],
+    "required_nuance": "bewildered to a standstill",
+    "mental_hook": "No idea. None at all.",
+    "semantic_hint": "How someone looks when handed a bill they cannot begin to explain."
+  },
+  "flush": {
+    "accepted_concepts": [
+      "abundantly supplied with money",
+      "well off just now",
+      "having plenty in hand",
+      "in funds",
+      "amply provided"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "broke",
+        "misconception": "inverts plenty into shortage"
+      },
+      {
+        "answer": "to blush",
+        "misconception": "takes a different sense of the same word"
+      }
+    ],
+    "required_nuance": "well supplied at this moment, usually with cash",
+    "mental_hook": "Pockets full, for now.",
+    "semantic_hint": "How someone is described the week after a large bonus lands."
+  },
+  "flustered": {
+    "accepted_concepts": [
+      "agitated and confused",
+      "rattled",
+      "thrown off balance",
+      "discomposed",
+      "ruffled out of one's calm"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly composed",
+        "misconception": "inverts agitation into calm"
+      },
+      {
+        "answer": "blushing red",
+        "misconception": "hears the sound-alike about flushing"
+      }
+    ],
+    "required_nuance": "agitation that muddles the mind",
+    "mental_hook": "Rattled, and losing the thread.",
+    "semantic_hint": "How someone gets when interrupted three times mid-sentence."
+  },
+  "flux": {
+    "accepted_concepts": [
+      "continuous change",
+      "a state of constant movement",
+      "instability over time",
+      "ongoing transition",
+      "unsettled shifting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "stability",
+        "misconception": "inverts constant change into fixity"
+      },
+      {
+        "answer": "a sudden single shift",
+        "misconception": "loses the continuousness that defines it"
+      }
+    ],
+    "required_nuance": "change that is continuous, not a single shift",
+    "mental_hook": "Everything moving, all the time.",
+    "semantic_hint": "The word for a department in a state of constant reorganisation."
+  },
+  "foible": {
+    "accepted_concepts": [
+      "a minor personal weakness",
+      "a harmless quirk",
+      "a small failing of character",
+      "an idiosyncrasy",
+      "a little fault easily forgiven"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a serious vice",
+        "misconception": "overstates a small quirk into a grave fault"
+      },
+      {
+        "answer": "a strength",
+        "misconception": "inverts a weakness into a virtue"
+      }
+    ],
+    "required_nuance": "a small and forgivable weakness",
+    "mental_hook": "A flaw, and a small one.",
+    "semantic_hint": "The word for a harmless odd habit a friend puts up with."
+  },
+  "foil": {
+    "accepted_concepts": [
+      "prevent from succeeding",
+      "thwart a plan",
+      "frustrate an attempt",
+      "stymie",
+      "block someone's design"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to assist",
+        "misconception": "inverts thwarting into helping"
+      },
+      {
+        "answer": "thin metal sheeting",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "stopping a plan before it succeeds",
+    "mental_hook": "The plan was good. It did not happen.",
+    "semantic_hint": "What an alert guard does to a robbery in progress."
+  },
+  "foist": {
+    "accepted_concepts": [
+      "impose something unwanted on someone",
+      "palm off",
+      "unload onto an unwilling recipient",
+      "force a thing on a person",
+      "pass off something inferior"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to withhold",
+        "misconception": "inverts imposing into keeping back"
+      },
+      {
+        "answer": "to lift up",
+        "misconception": "hears the sound-alike 'hoist'"
+      }
+    ],
+    "required_nuance": "putting on someone what they did not want",
+    "mental_hook": "They did not ask for it, and now it is theirs.",
+    "semantic_hint": "What a salesman does by loading extras onto a reluctant buyer."
+  },
+  "foment": {
+    "accepted_concepts": [
+      "stir up trouble",
+      "incite unrest",
+      "instigate discord",
+      "provoke into action",
+      "work up bad feeling"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to quell",
+        "misconception": "inverts stirring up into putting down"
+      },
+      {
+        "answer": "to ferment liquid",
+        "misconception": "hears the sound-alike about brewing"
+      }
+    ],
+    "required_nuance": "deliberately stirring trouble into being",
+    "mental_hook": "Stirs it up, on purpose.",
+    "semantic_hint": "What an agitator does to resentment already simmering."
+  },
+  "fomentation": {
+    "accepted_concepts": [
+      "the stirring up of trouble",
+      "incitement to unrest",
+      "instigation of discord",
+      "the deliberate working up of bad feeling",
+      "agitation stirred on purpose"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pacification",
+        "misconception": "inverts stirring up into calming"
+      },
+      {
+        "answer": "brewing of liquid",
+        "misconception": "hears the sound-alike about fermenting"
+      }
+    ],
+    "required_nuance": "the act of stirring trouble deliberately",
+    "mental_hook": "The stirring, named as a thing.",
+    "semantic_hint": "The charge laid against someone accused of deliberately stirring up a riot."
+  },
+  "foolhardy": {
+    "accepted_concepts": [
+      "recklessly bold",
+      "brave without sense",
+      "rash in the face of danger",
+      "imprudently daring",
+      "taking risks no one should"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "prudent",
+        "misconception": "inverts recklessness into caution"
+      },
+      {
+        "answer": "genuinely courageous",
+        "misconception": "loses the folly that separates it from real courage"
+      }
+    ],
+    "required_nuance": "boldness with no judgement behind it",
+    "mental_hook": "Brave, and stupid with it.",
+    "semantic_hint": "The word for climbing without ropes in a storm."
+  },
+  "foppish": {
+    "accepted_concepts": [
+      "excessively concerned with elegance",
+      "dandyish",
+      "vain about dress",
+      "affected in appearance",
+      "over-refined in manner"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plain and unpretentious",
+        "misconception": "inverts vanity about appearance into simplicity"
+      },
+      {
+        "answer": "clumsy",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "vanity about dress and manner, carried too far",
+    "mental_hook": "Two hours on the cravat.",
+    "semantic_hint": "The word for a man who fusses endlessly over his own clothes."
+  },
+  "forage": {
+    "accepted_concepts": [
+      "search widely for food or supplies",
+      "scavenge",
+      "rummage for what one needs",
+      "hunt about for provisions",
+      "go looking for something to live on"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to hoard",
+        "misconception": "inverts searching out into storing away"
+      },
+      {
+        "answer": "to make an army advance",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "searching about for food or supplies",
+    "mental_hook": "Out looking for something to eat.",
+    "semantic_hint": "What an animal or a soldier does when searching for food."
+  },
+  "forbear": {
+    "accepted_concepts": [
+      "refrain from doing something",
+      "hold back from acting",
+      "abstain deliberately",
+      "resist the impulse to",
+      "desist out of restraint"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to indulge",
+        "misconception": "inverts holding back into giving in"
+      },
+      {
+        "answer": "an ancestor",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "choosing not to, when one could",
+    "mental_hook": "Could have. Chose not to.",
+    "semantic_hint": "What someone does by biting back the obvious retort."
+  }
+}
