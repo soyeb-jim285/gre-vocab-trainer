@@ -878,5 +878,1325 @@
     "required_nuance": "turning aside an attack rather than meeting it",
     "mental_hook": "Turns it aside, blade or question.",
     "semantic_hint": "What a fencer does with a blade, and a minister with a hostile question."
+  },
+  "parsimonious": {
+    "accepted_concepts": [
+      "extremely unwilling to spend",
+      "stingy with money",
+      "miserly",
+      "sparing to the point of meanness",
+      "grudging in what is given"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "lavish",
+        "misconception": "inverts meanness into generosity"
+      },
+      {
+        "answer": "sensibly thrifty",
+        "misconception": "understates meanness into ordinary prudence"
+      }
+    ],
+    "required_nuance": "thrift carried into meanness",
+    "mental_hook": "Thrifty, and then some.",
+    "semantic_hint": "The word for an employer who counts every paper clip."
+  },
+  "partial": {
+    "accepted_concepts": [
+      "biased toward one side",
+      "prejudiced in judgement",
+      "favouring one party",
+      "incomplete",
+      "covering only some of the whole"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "impartial",
+        "misconception": "inverts bias into neutrality"
+      },
+      {
+        "answer": "complete",
+        "misconception": "inverts the incomplete into the whole"
+      }
+    ],
+    "required_nuance": "biased, or else only part of the whole",
+    "mental_hook": "Takes a side, or covers only some.",
+    "semantic_hint": "The word for a judge who favours one side, and for an incomplete refund."
+  },
+  "partiality": {
+    "accepted_concepts": [
+      "bias toward one side",
+      "favouritism in judgement",
+      "a special fondness for something",
+      "an unfair leaning",
+      "a marked liking"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "strict impartiality",
+        "misconception": "inverts favouritism into neutrality"
+      },
+      {
+        "answer": "a strong dislike",
+        "misconception": "inverts a fondness into an aversion"
+      }
+    ],
+    "required_nuance": "bias, or a particular fondness",
+    "mental_hook": "A leaning, unfair or merely fond.",
+    "semantic_hint": "The word for a judge's favouritism, and for a weakness for chocolate."
+  },
+  "partisan": {
+    "accepted_concepts": [
+      "strongly biased toward one side",
+      "loyal to a faction",
+      "one-sided in support",
+      "committed to a party regardless",
+      "factional in outlook"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "nonpartisan",
+        "misconception": "inverts factional loyalty into neutrality"
+      },
+      {
+        "answer": "incomplete",
+        "misconception": "confuses factional bias with the near-twin about being only part"
+      }
+    ],
+    "required_nuance": "loyalty to a side that colours everything",
+    "mental_hook": "Always on the same side.",
+    "semantic_hint": "The word for a report that reads as an argument for one party."
+  },
+  "parvenu": {
+    "accepted_concepts": [
+      "a newly rich social climber",
+      "an upstart with new money",
+      "someone risen suddenly in wealth and status",
+      "an arriviste",
+      "one newly arrived in a class they were not born to"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an old aristocratic family member",
+        "misconception": "inverts the newly arrived into the long established"
+      },
+      {
+        "answer": "a poor labourer",
+        "misconception": "loses the new wealth that defines it"
+      }
+    ],
+    "required_nuance": "newly rich, and looked down on for it",
+    "mental_hook": "New money, and the old money notices.",
+    "semantic_hint": "The word for a self-made millionaire snubbed by an old aristocracy."
+  },
+  "passage": {
+    "accepted_concepts": [
+      "a section of a text",
+      "an excerpt from a work",
+      "the act of moving through",
+      "transit from one place to another",
+      "a corridor or route"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the whole book",
+        "misconception": "inverts an excerpt into the entire work"
+      },
+      {
+        "answer": "out of fashion",
+        "misconception": "confuses an excerpt with the near-twin about being dated"
+      }
+    ],
+    "required_nuance": "an excerpt, or a movement through",
+    "mental_hook": "A piece of text, or a way through.",
+    "semantic_hint": "What a reading comprehension question gives you before the questions."
+  },
+  "passe": {
+    "accepted_concepts": [
+      "out of fashion",
+      "no longer current",
+      "outmoded",
+      "dated in style",
+      "past the point of being fashionable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fashionable",
+        "misconception": "inverts the outdated into the current"
+      },
+      {
+        "answer": "an excerpt from a book",
+        "misconception": "confuses being dated with the near-twin about a section of text"
+      }
+    ],
+    "required_nuance": "no longer in fashion",
+    "mental_hook": "Was in fashion. No longer.",
+    "semantic_hint": "The word for a style that was everywhere five years ago."
+  },
+  "pastiche": {
+    "accepted_concepts": [
+      "a work imitating another's style",
+      "a piece assembled in the manner of someone else",
+      "an imitation that borrows a style openly",
+      "a medley of borrowed styles",
+      "a homage in the original's manner"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an entirely original work",
+        "misconception": "inverts an imitation into something new"
+      },
+      {
+        "answer": "a mocking send-up",
+        "misconception": "confuses respectful imitation with parody"
+      }
+    ],
+    "required_nuance": "imitation of style, not mockery of it",
+    "mental_hook": "Written in their style, not to mock them.",
+    "semantic_hint": "The word for a modern novel written entirely in a Victorian voice."
+  },
+  "pastoral": {
+    "accepted_concepts": [
+      "relating to idealised rural life",
+      "of shepherds and country scenes",
+      "bucolic in subject",
+      "rustic in an idealised way",
+      "evoking the countryside"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "urban and industrial",
+        "misconception": "inverts the rural into the city"
+      },
+      {
+        "answer": "relating to the past",
+        "misconception": "hears the sound-alike about what has gone before"
+      }
+    ],
+    "required_nuance": "rural, and usually idealised",
+    "mental_hook": "Shepherds, and none of the mud.",
+    "semantic_hint": "The word for a poem about contented shepherds in a perfect valley."
+  },
+  "patent": {
+    "accepted_concepts": [
+      "obvious and unconcealed",
+      "plain to anyone",
+      "evident on the face of it",
+      "blatantly clear",
+      "manifest"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "well hidden",
+        "misconception": "inverts the obvious into the concealed"
+      },
+      {
+        "answer": "an inventor's legal right",
+        "misconception": "takes the noun sense for the tested adjective"
+      }
+    ],
+    "required_nuance": "obvious, as an adjective",
+    "mental_hook": "Obvious. The noun is the invention right.",
+    "semantic_hint": "The word for nonsense so obvious nobody bothers to argue with it."
+  },
+  "pathogenic": {
+    "accepted_concepts": [
+      "capable of causing disease",
+      "disease-producing",
+      "infectious in effect",
+      "able to make an organism ill",
+      "virulent in causing sickness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "harmless to health",
+        "misconception": "inverts disease-causing into benign"
+      },
+      {
+        "answer": "compulsive and unhealthy in behaviour",
+        "misconception": "confuses causing disease with the near-twin about compulsion"
+      }
+    ],
+    "required_nuance": "causes disease, as a property of an organism",
+    "mental_hook": "It makes you ill.",
+    "semantic_hint": "The word for a bacterium that causes infection."
+  },
+  "pathological": {
+    "accepted_concepts": [
+      "compulsive and unhealthy",
+      "obsessive beyond control",
+      "habitual in a diseased way",
+      "driven by something the person cannot check",
+      "morbidly extreme"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly normal",
+        "misconception": "inverts the compulsive into the healthy"
+      },
+      {
+        "answer": "capable of causing disease",
+        "misconception": "confuses compulsion with the near-twin about causing sickness"
+      }
+    ],
+    "required_nuance": "compulsive behaviour, in the tested sense",
+    "mental_hook": "Cannot stop. That is the point.",
+    "semantic_hint": "The word for lying that has become a compulsion."
+  },
+  "patriarch": {
+    "accepted_concepts": [
+      "the male head of a family",
+      "the senior man of a line",
+      "an elder ruling a household",
+      "the founding father of a group",
+      "a venerable male head"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the female head of a family",
+        "misconception": "inverts the male head into the female one"
+      },
+      {
+        "answer": "a young heir",
+        "misconception": "loses the seniority that defines it"
+      }
+    ],
+    "required_nuance": "a man, and he heads the family or group",
+    "mental_hook": "The grandfather at the head of the table.",
+    "semantic_hint": "The word for the old man who still runs a whole family business."
+  },
+  "patrician": {
+    "accepted_concepts": [
+      "aristocratic in bearing",
+      "of noble origin",
+      "refined in upbringing and manner",
+      "highborn",
+      "belonging to the old upper class"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "common and plebeian",
+        "misconception": "inverts high birth into low"
+      },
+      {
+        "answer": "the male head of a family",
+        "misconception": "confuses aristocratic bearing with the near-twin about a family head"
+      }
+    ],
+    "required_nuance": "high birth and the manner that goes with it",
+    "mental_hook": "Old family, and it shows in the manner.",
+    "semantic_hint": "The word for a bearing that suggests generations of privilege."
+  },
+  "patronize": {
+    "accepted_concepts": [
+      "treat condescendingly",
+      "talk down to someone",
+      "support financially as a customer or backer",
+      "give one's custom to",
+      "sponsor"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to treat as an equal",
+        "misconception": "inverts condescension into respect"
+      },
+      {
+        "answer": "to boycott",
+        "misconception": "inverts giving custom into withholding it"
+      }
+    ],
+    "required_nuance": "condescending, or giving custom and support",
+    "mental_hook": "Talks down to them, or buys from them.",
+    "semantic_hint": "What someone does by explaining a colleague's own field back to them."
+  },
+  "patronizing": {
+    "accepted_concepts": [
+      "condescending",
+      "treating others as inferiors",
+      "superior in manner",
+      "talking down while appearing kind",
+      "supercilious in tone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "genuinely respectful",
+        "misconception": "inverts condescension into respect"
+      },
+      {
+        "answer": "financially supportive",
+        "misconception": "takes the other sense of the related verb"
+      }
+    ],
+    "required_nuance": "condescension dressed as helpfulness",
+    "mental_hook": "Kind on the surface, condescending underneath.",
+    "semantic_hint": "The word for a tone that explains the obvious very slowly."
+  },
+  "paucity": {
+    "accepted_concepts": [
+      "a shortage",
+      "scarcity of something needed",
+      "an insufficient supply",
+      "a dearth",
+      "too little of it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "abundance",
+        "misconception": "inverts scarcity into plenty"
+      },
+      {
+        "answer": "a pause",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "not enough of something",
+    "mental_hook": "Too little of it.",
+    "semantic_hint": "The word for how little evidence a weak theory rests on."
+  },
+  "peccadillo": {
+    "accepted_concepts": [
+      "a minor fault",
+      "a small offence easily forgiven",
+      "a trivial lapse in conduct",
+      "a slight indiscretion",
+      "a petty sin"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a serious crime",
+        "misconception": "overstates a trivial lapse into a grave offence"
+      },
+      {
+        "answer": "a virtue",
+        "misconception": "inverts a small fault into a merit"
+      }
+    ],
+    "required_nuance": "a fault, and a small forgivable one",
+    "mental_hook": "A small sin, and nobody minds much.",
+    "semantic_hint": "The word for forgetting a birthday, as against real wrongdoing."
+  },
+  "peculiar": {
+    "accepted_concepts": [
+      "strange or odd",
+      "curious in a way that stands out",
+      "belonging exclusively to one thing",
+      "distinctive to a particular case",
+      "characteristic of that one alone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly ordinary",
+        "misconception": "inverts oddness into the commonplace"
+      },
+      {
+        "answer": "relating to money",
+        "misconception": "confuses it with the near-twin about finance"
+      }
+    ],
+    "required_nuance": "odd, or else belonging to one thing alone",
+    "mental_hook": "Odd, or belonging only to that one.",
+    "semantic_hint": "The word for a custom found in one valley and nowhere else."
+  },
+  "pecuniary": {
+    "accepted_concepts": [
+      "relating to money",
+      "financial in nature",
+      "monetary",
+      "concerning payment or cost",
+      "to do with sums of money"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "strange or odd",
+        "misconception": "confuses money with the near-twin about oddity"
+      },
+      {
+        "answer": "relating to teaching",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "about money, not oddity",
+    "mental_hook": "About money. The near-twin means odd.",
+    "semantic_hint": "The word for an interest in a case that consists of money at stake."
+  },
+  "pedagogical": {
+    "accepted_concepts": [
+      "relating to teaching methods",
+      "concerning how instruction is given",
+      "educational in approach",
+      "to do with the practice of teaching",
+      "instructional in purpose"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to what is learned rather than how",
+        "misconception": "confuses the method of teaching with the content"
+      },
+      {
+        "answer": "concerning feet",
+        "misconception": "hears the root about feet in a related word"
+      }
+    ],
+    "required_nuance": "about how teaching is done",
+    "mental_hook": "About the teaching, not the subject.",
+    "semantic_hint": "The word for a debate about how best to teach reading."
+  },
+  "pedagogue": {
+    "accepted_concepts": [
+      "a teacher",
+      "an educator",
+      "an instructor, often a pedantic one",
+      "someone who teaches by rule",
+      "a schoolmaster of the strict kind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a pupil",
+        "misconception": "inverts the teacher into the taught"
+      },
+      {
+        "answer": "the theory of teaching",
+        "misconception": "confuses the person with the discipline"
+      }
+    ],
+    "required_nuance": "the person teaching, often stiffly",
+    "mental_hook": "The teacher, and often a dry one.",
+    "semantic_hint": "The word for a schoolmaster who teaches strictly by the rules."
+  },
+  "pedagogy": {
+    "accepted_concepts": [
+      "the theory and practice of teaching",
+      "the discipline of how to instruct",
+      "the art of education",
+      "teaching method as a field",
+      "the craft of instruction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single teacher",
+        "misconception": "confuses the discipline with a person"
+      },
+      {
+        "answer": "the subject being taught",
+        "misconception": "confuses the method with the content"
+      }
+    ],
+    "required_nuance": "the discipline of teaching, not a person",
+    "mental_hook": "The craft, not the craftsman.",
+    "semantic_hint": "The field of study concerned with how teaching should be done."
+  },
+  "pedantic": {
+    "accepted_concepts": [
+      "excessively concerned with minor details",
+      "nitpicking over small points",
+      "showing off small learning",
+      "punctilious to the point of tedium",
+      "hairsplitting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "easygoing about details",
+        "misconception": "inverts fussiness into relaxation"
+      },
+      {
+        "answer": "genuinely learned and useful",
+        "misconception": "loses the pettiness that makes it a criticism"
+      }
+    ],
+    "required_nuance": "concern with detail that serves no purpose",
+    "mental_hook": "Correct, and nobody is grateful.",
+    "semantic_hint": "The word for correcting a friend's grammar mid-anecdote."
+  },
+  "peddle": {
+    "accepted_concepts": [
+      "sell from place to place",
+      "hawk goods about",
+      "promote something dubious",
+      "push an idea or product persistently",
+      "vend as a travelling seller"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to buy",
+        "misconception": "inverts selling into purchasing"
+      },
+      {
+        "answer": "to push with the feet",
+        "misconception": "hears the sound-alike about a bicycle"
+      }
+    ],
+    "required_nuance": "selling about, and often something dubious",
+    "mental_hook": "Selling it door to door, and it may be rubbish.",
+    "semantic_hint": "What someone does with a conspiracy theory by pushing it everywhere."
+  },
+  "pedestrian": {
+    "accepted_concepts": [
+      "dull and unimaginative",
+      "uninspired in execution",
+      "prosaic",
+      "plodding in quality",
+      "banal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "imaginative",
+        "misconception": "inverts dullness into inspiration"
+      },
+      {
+        "answer": "a person walking",
+        "misconception": "takes the noun sense for the tested adjective"
+      }
+    ],
+    "required_nuance": "dull in quality, as an adjective",
+    "mental_hook": "Plods along. Never lifts off.",
+    "semantic_hint": "The word for competent writing with no spark in it."
+  },
+  "peevish": {
+    "accepted_concepts": [
+      "irritable and complaining",
+      "querulous",
+      "fretfully bad-tempered",
+      "petulant over small things",
+      "cross and grumbling"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "good-humoured",
+        "misconception": "inverts crossness into cheerfulness"
+      },
+      {
+        "answer": "furious",
+        "misconception": "overstates fretful irritation into rage"
+      }
+    ],
+    "required_nuance": "irritable in a fretful, small-scale way",
+    "mental_hook": "Cross, and complaining about it.",
+    "semantic_hint": "The word for a tone that complains about every small inconvenience."
+  },
+  "pejorative": {
+    "accepted_concepts": [
+      "expressing disapproval",
+      "derogatory in force",
+      "belittling in what it implies",
+      "disparaging as a term",
+      "carrying contempt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complimentary",
+        "misconception": "inverts disparagement into praise"
+      },
+      {
+        "answer": "neutral in tone",
+        "misconception": "loses the disapproval that defines it"
+      }
+    ],
+    "required_nuance": "a word carrying built-in disapproval",
+    "mental_hook": "The word itself insults.",
+    "semantic_hint": "The word for a term that cannot be used without insulting someone."
+  },
+  "pellucid": {
+    "accepted_concepts": [
+      "perfectly clear",
+      "transparent",
+      "limpid",
+      "clear enough to see through",
+      "lucid in expression"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "murky",
+        "misconception": "inverts clarity into cloudiness"
+      },
+      {
+        "answer": "sharply critical",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "clear, in water or in prose",
+    "mental_hook": "Light goes straight through, and so does the sense.",
+    "semantic_hint": "The word for an explanation of a difficult idea that leaves nothing unclear."
+  },
+  "penchant": {
+    "accepted_concepts": [
+      "a strong liking",
+      "a settled tendency toward something",
+      "a predilection",
+      "a habitual inclination",
+      "a fondness one keeps returning to"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an aversion",
+        "misconception": "inverts fondness into dislike"
+      },
+      {
+        "answer": "a hanging ornament",
+        "misconception": "hears the sound-alike about a pendant"
+      }
+    ],
+    "required_nuance": "a settled liking or tendency",
+    "mental_hook": "Keeps coming back to it.",
+    "semantic_hint": "The word for someone's habitual fondness for dramatic entrances."
+  },
+  "pendulous": {
+    "accepted_concepts": [
+      "hanging down loosely",
+      "drooping under its own weight",
+      "dangling",
+      "sagging downward",
+      "suspended and swinging"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "standing upright",
+        "misconception": "inverts drooping into erect"
+      },
+      {
+        "answer": "undecided",
+        "misconception": "confuses hanging physically with a matter left unresolved"
+      }
+    ],
+    "required_nuance": "hanging down, physically",
+    "mental_hook": "Hangs, and swings a little.",
+    "semantic_hint": "The word for branches of a willow hanging to the water."
+  },
+  "penitent": {
+    "accepted_concepts": [
+      "feeling regret for wrongdoing",
+      "contrite",
+      "sorry enough to make amends",
+      "repentant",
+      "remorseful about what one did"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unrepentant",
+        "misconception": "inverts contrition into defiance"
+      },
+      {
+        "answer": "merely caught out",
+        "misconception": "loses the genuine regret that defines it"
+      }
+    ],
+    "required_nuance": "genuine regret for one's own wrong",
+    "mental_hook": "Sorry, and means it.",
+    "semantic_hint": "The word for someone kneeling to confess a fault they regret."
+  },
+  "pensive": {
+    "accepted_concepts": [
+      "deeply thoughtful",
+      "reflective with a touch of sadness",
+      "contemplative",
+      "lost in thought",
+      "wistfully musing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "carefree and thoughtless",
+        "misconception": "inverts deep thought into inattention"
+      },
+      {
+        "answer": "openly cheerful",
+        "misconception": "loses the shade of sadness that colours it"
+      }
+    ],
+    "required_nuance": "thoughtful, with a tinge of sadness",
+    "mental_hook": "Thinking, and a little sad with it.",
+    "semantic_hint": "The word for a face looking out of a window saying nothing."
+  },
+  "penultimate": {
+    "accepted_concepts": [
+      "second to last",
+      "next to last in a sequence",
+      "the one before the final",
+      "immediately preceding the last",
+      "last but one"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the very last",
+        "misconception": "confuses the one before the end with the end itself"
+      },
+      {
+        "answer": "the most important of all",
+        "misconception": "hears the prefix as an intensifier"
+      }
+    ],
+    "required_nuance": "second from the end, not the end",
+    "mental_hook": "One before the last. Not the last.",
+    "semantic_hint": "The word for the chapter just before the final one."
+  },
+  "penumbra": {
+    "accepted_concepts": [
+      "a partial shadow",
+      "the lighter edge of a shadow",
+      "a marginal area between two states",
+      "a fringe zone",
+      "the half-shaded border"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the darkest full shadow",
+        "misconception": "confuses the partial edge with the total shadow"
+      },
+      {
+        "answer": "a bright centre",
+        "misconception": "inverts a shaded fringe into full light"
+      }
+    ],
+    "required_nuance": "the partly shaded edge, not the full shadow",
+    "mental_hook": "The soft edge of the shadow.",
+    "semantic_hint": "The lighter ring around the dark core of a shadow in an eclipse."
+  },
+  "penurious": {
+    "accepted_concepts": [
+      "extremely poor",
+      "destitute",
+      "miserly with money",
+      "stingy to the point of hardship",
+      "living in want"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "wealthy and generous",
+        "misconception": "inverts poverty and meanness into riches and openness"
+      },
+      {
+        "answer": "thoughtful and sad",
+        "misconception": "confuses poverty with the near-twin about musing"
+      }
+    ],
+    "required_nuance": "poor, or mean with money",
+    "mental_hook": "No money, or will not part with it.",
+    "semantic_hint": "The word for both a family with nothing and a man who hoards everything."
+  },
+  "penury": {
+    "accepted_concepts": [
+      "extreme poverty",
+      "destitution",
+      "the state of having nothing",
+      "want of the barest means",
+      "indigence"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "affluence",
+        "misconception": "inverts destitution into wealth"
+      },
+      {
+        "answer": "a legal penalty",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "poverty at its most severe",
+    "mental_hook": "Nothing left at all.",
+    "semantic_hint": "The word for poverty so deep there is no food in the house."
+  },
+  "peon": {
+    "accepted_concepts": [
+      "a lowly worker",
+      "someone doing menial tasks",
+      "a drudge at the bottom of a hierarchy",
+      "an underling with no standing",
+      "a labourer of the lowest rank"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a person in charge",
+        "misconception": "inverts the lowly worker into the boss"
+      },
+      {
+        "answer": "a song of praise",
+        "misconception": "hears the sound-alike about a hymn of triumph"
+      }
+    ],
+    "required_nuance": "low rank, and menial work with it",
+    "mental_hook": "Bottom of the ladder.",
+    "semantic_hint": "The dismissive word for a worker at the very bottom of an organisation."
+  },
+  "perceive": {
+    "accepted_concepts": [
+      "become aware of",
+      "notice through the senses",
+      "discern",
+      "apprehend what is there",
+      "interpret what one observes"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to overlook",
+        "misconception": "inverts noticing into missing"
+      },
+      {
+        "answer": "to persist through difficulty",
+        "misconception": "hears the sound-alike about carrying on"
+      }
+    ],
+    "required_nuance": "becoming aware of, through senses or mind",
+    "mental_hook": "Notices it, and takes its meaning.",
+    "semantic_hint": "What someone does in registering a change in a colleague's mood."
+  },
+  "percipient": {
+    "accepted_concepts": [
+      "perceptive",
+      "quick to notice what others miss",
+      "discerning in observation",
+      "sharply aware",
+      "astute in perception"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "obtuse",
+        "misconception": "inverts sharp perception into dullness"
+      },
+      {
+        "answer": "sudden and steep",
+        "misconception": "hears the sound-alike about a sheer drop"
+      }
+    ],
+    "required_nuance": "quick and sharp in noticing",
+    "mental_hook": "Sees what others miss.",
+    "semantic_hint": "The word for a critic who notices what nobody else in the room did."
+  },
+  "peregrinate": {
+    "accepted_concepts": [
+      "travel about",
+      "wander from place to place",
+      "journey on foot over a distance",
+      "roam widely",
+      "trek from one region to another"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to settle in one place",
+        "misconception": "inverts wandering into staying"
+      },
+      {
+        "answer": "to pass through a substance",
+        "misconception": "confuses travelling with the near-twin about spreading through"
+      }
+    ],
+    "required_nuance": "travelling about, usually at length and on foot",
+    "mental_hook": "Wandering, a long way.",
+    "semantic_hint": "What a mediaeval pilgrim did across half of Europe."
+  },
+  "peremptory": {
+    "accepted_concepts": [
+      "insisting on obedience",
+      "allowing no refusal",
+      "dictatorial in tone",
+      "imperious in command",
+      "final and not open to discussion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "tentative",
+        "misconception": "inverts a flat command into hesitancy"
+      },
+      {
+        "answer": "happening before the expected time",
+        "misconception": "hears the sound-alike about pre-empting"
+      }
+    ],
+    "required_nuance": "a command that admits no refusal",
+    "mental_hook": "Not a request, and no discussion.",
+    "semantic_hint": "The word for an order given in a tone that expects no reply."
+  },
+  "perennial": {
+    "accepted_concepts": [
+      "lasting year after year",
+      "recurring season after season",
+      "enduring over a long period",
+      "perpetually returning",
+      "never going away"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "occurring once only",
+        "misconception": "inverts the recurring into the single event"
+      },
+      {
+        "answer": "happening every hundred years",
+        "misconception": "confuses yearly recurrence with a rare interval"
+      }
+    ],
+    "required_nuance": "returning year after year",
+    "mental_hook": "Comes back every year.",
+    "semantic_hint": "The word for a plant that returns each spring, and for a problem that never goes away."
+  },
+  "perfidious": {
+    "accepted_concepts": [
+      "treacherously disloyal",
+      "betraying trust",
+      "faithless to an ally",
+      "deceitful in breaking a bond",
+      "treacherous"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "loyal",
+        "misconception": "inverts treachery into faithfulness"
+      },
+      {
+        "answer": "done carelessly as a formality",
+        "misconception": "confuses treachery with the near-twin about going through the motions"
+      }
+    ],
+    "required_nuance": "betrayal of a trust that was given",
+    "mental_hook": "Trusted them. Should not have.",
+    "semantic_hint": "The word for an ally who secretly negotiates with the enemy."
+  },
+  "perfidy": {
+    "accepted_concepts": [
+      "betrayal of trust",
+      "treachery",
+      "the breaking of faith",
+      "disloyalty to those who trusted one",
+      "faithless conduct"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "faithfulness",
+        "misconception": "inverts treachery into loyalty"
+      },
+      {
+        "answer": "carelessness in duty",
+        "misconception": "confuses deliberate betrayal with mere negligence"
+      }
+    ],
+    "required_nuance": "deliberate betrayal of trust",
+    "mental_hook": "Faith given, faith broken.",
+    "semantic_hint": "The word for handing over the plans to the other side."
+  },
+  "perfunctory": {
+    "accepted_concepts": [
+      "done without care",
+      "carried out as a mere formality",
+      "cursory in execution",
+      "mechanical and uninterested",
+      "going through the motions"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "wholehearted",
+        "misconception": "inverts token effort into full commitment"
+      },
+      {
+        "answer": "treacherously disloyal",
+        "misconception": "confuses going through the motions with the near-twin about betrayal"
+      }
+    ],
+    "required_nuance": "done, but only as a formality",
+    "mental_hook": "Done. Not meant.",
+    "semantic_hint": "The word for a handshake given without looking up."
+  },
+  "perilous": {
+    "accepted_concepts": [
+      "dangerous",
+      "full of risk",
+      "hazardous to attempt",
+      "treacherous in the danger it poses",
+      "exposing one to serious harm"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly safe",
+        "misconception": "inverts danger into security"
+      },
+      {
+        "answer": "recurring yearly",
+        "misconception": "confuses danger with the near-twin about annual return"
+      }
+    ],
+    "required_nuance": "dangerous, with real risk of harm",
+    "mental_hook": "Real danger, not just difficulty.",
+    "semantic_hint": "The word for a crossing where a wrong step is fatal."
+  },
+  "peripatetic": {
+    "accepted_concepts": [
+      "travelling from place to place",
+      "moving between locations for work",
+      "itinerant",
+      "roving rather than fixed",
+      "going about from one site to another"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "settled in one place",
+        "misconception": "inverts constant movement into staying put"
+      },
+      {
+        "answer": "at the edge and unimportant",
+        "misconception": "confuses travelling with the near-twin about being marginal"
+      }
+    ],
+    "required_nuance": "moving about, usually for work",
+    "mental_hook": "Named for a philosopher who taught while walking.",
+    "semantic_hint": "The word for a music teacher who visits four schools a week."
+  },
+  "peripheral": {
+    "accepted_concepts": [
+      "of minor importance",
+      "at the edge rather than the centre",
+      "marginal to the main issue",
+      "outlying",
+      "secondary in significance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "central and essential",
+        "misconception": "inverts the marginal into the core"
+      },
+      {
+        "answer": "travelling from place to place",
+        "misconception": "confuses being at the edge with the near-twin about roving"
+      }
+    ],
+    "required_nuance": "at the edge, and so of lesser importance",
+    "mental_hook": "At the edge, and it matters less for that.",
+    "semantic_hint": "The word for a concern that has nothing to do with the main decision."
+  },
+  "perish": {
+    "accepted_concepts": [
+      "die",
+      "be destroyed",
+      "come to an end violently or from hardship",
+      "succumb",
+      "cease to exist"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to survive",
+        "misconception": "inverts dying into enduring"
+      },
+      {
+        "answer": "to cause a wrong",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "dying or being destroyed",
+    "mental_hook": "Dies, and often hard.",
+    "semantic_hint": "What crops do in a drought, and what people do in a disaster."
+  },
+  "perjury": {
+    "accepted_concepts": [
+      "lying under oath",
+      "false testimony given in court",
+      "swearing to what one knows is untrue",
+      "breaking a sworn oath by lying",
+      "giving deliberately false evidence"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "truthful testimony",
+        "misconception": "inverts a lie under oath into honest evidence"
+      },
+      {
+        "answer": "an honest mistake in evidence",
+        "misconception": "loses the deliberateness that makes it a crime"
+      }
+    ],
+    "required_nuance": "a deliberate lie told under oath",
+    "mental_hook": "Sworn to it, and lying.",
+    "semantic_hint": "The crime a witness commits by lying in the box."
+  },
+  "permeate": {
+    "accepted_concepts": [
+      "spread throughout",
+      "pervade every part",
+      "saturate",
+      "soak through the whole",
+      "suffuse completely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to drain away",
+        "misconception": "inverts spreading through into emptying"
+      },
+      {
+        "answer": "to travel about",
+        "misconception": "confuses spreading through with the near-twin about wandering"
+      }
+    ],
+    "required_nuance": "spreading through every part of something",
+    "mental_hook": "Right through, not just on top.",
+    "semantic_hint": "What the smell of frying does to a whole house."
+  },
+  "pernicious": {
+    "accepted_concepts": [
+      "gradually and subtly harmful",
+      "destructive in a way that works unseen",
+      "insidiously damaging",
+      "doing harm slowly",
+      "noxious in effect over time"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "beneficial",
+        "misconception": "inverts harm into benefit"
+      },
+      {
+        "answer": "obviously dangerous",
+        "misconception": "loses the subtlety that defines it"
+      }
+    ],
+    "required_nuance": "harmful, and working gradually or unnoticed",
+    "mental_hook": "Harmful, and quietly so.",
+    "semantic_hint": "The word for an idea that does damage slowly over a generation."
+  },
+  "peroration": {
+    "accepted_concepts": [
+      "the concluding part of a speech",
+      "the grand summing-up at the end",
+      "the rhetorical finale of an address",
+      "the closing section delivered with force",
+      "the last and most elaborate passage"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the opening of a speech",
+        "misconception": "inverts the conclusion into the introduction"
+      },
+      {
+        "answer": "a short casual remark",
+        "misconception": "loses the formality and grandeur that define it"
+      }
+    ],
+    "required_nuance": "the ending of a speech, and a grand one",
+    "mental_hook": "The big finish.",
+    "semantic_hint": "The word for the rousing final passage of a great speech."
+  },
+  "perpetrate": {
+    "accepted_concepts": [
+      "carry out a wrong",
+      "commit a crime or offence",
+      "be responsible for a bad act",
+      "execute something reprehensible",
+      "inflict a wrong on someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to cause to continue",
+        "misconception": "confuses committing an act with the near-twin about prolonging"
+      },
+      {
+        "answer": "to prevent",
+        "misconception": "inverts committing into stopping"
+      }
+    ],
+    "required_nuance": "committing a wrong, not prolonging one",
+    "mental_hook": "Commits it. The near-twin keeps it going.",
+    "semantic_hint": "What someone does by committing a fraud."
+  },
+  "perpetual": {
+    "accepted_concepts": [
+      "never ending",
+      "constantly repeated",
+      "going on without pause",
+      "everlasting",
+      "unceasing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "temporary",
+        "misconception": "inverts the endless into the passing"
+      },
+      {
+        "answer": "committed as a crime",
+        "misconception": "confuses endlessness with the near-twin about committing a wrong"
+      }
+    ],
+    "required_nuance": "without end, or endlessly repeated",
+    "mental_hook": "It does not stop.",
+    "semantic_hint": "The word for a state of argument that never once pauses."
+  },
+  "perpetuate": {
+    "accepted_concepts": [
+      "cause to continue indefinitely",
+      "keep something going",
+      "prolong a state of affairs",
+      "preserve a practice into the future",
+      "sustain so it does not end"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to bring to an end",
+        "misconception": "inverts prolonging into abolishing"
+      },
+      {
+        "answer": "to commit a crime",
+        "misconception": "confuses prolonging with the near-twin about committing a wrong"
+      }
+    ],
+    "required_nuance": "keeping something in existence, not committing it",
+    "mental_hook": "Keeps it going. The near-twin commits it.",
+    "semantic_hint": "What a textbook does to a myth by repeating it for fifty years."
+  },
+  "perquisite": {
+    "accepted_concepts": [
+      "a benefit attached to a position",
+      "an extra advantage of a job",
+      "a privilege that comes with the post",
+      "a perk",
+      "an incidental benefit beyond pay"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a necessary condition to be met first",
+        "misconception": "hears the sound-alike about something required in advance"
+      },
+      {
+        "answer": "the main salary",
+        "misconception": "confuses an extra benefit with the basic pay"
+      }
+    ],
+    "required_nuance": "an extra benefit that comes with a post",
+    "mental_hook": "The extras that come with the job.",
+    "semantic_hint": "The word for a company car that comes with a senior role."
+  },
+  "perseverance": {
+    "accepted_concepts": [
+      "persistence despite difficulty",
+      "steady effort in the face of obstacles",
+      "refusing to give up",
+      "tenacity over a long haul",
+      "doggedness in continuing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "giving up early",
+        "misconception": "inverts persistence into quitting"
+      },
+      {
+        "answer": "stubborn refusal to hear reason",
+        "misconception": "confuses admirable persistence with obstinacy"
+      }
+    ],
+    "required_nuance": "continuing despite difficulty, admirably",
+    "mental_hook": "Keeps at it, and it is hard.",
+    "semantic_hint": "The quality that finishes a doctorate after six discouraging years."
+  },
+  "persist": {
+    "accepted_concepts": [
+      "continue despite obstacles",
+      "keep on in the face of opposition",
+      "endure over time",
+      "carry on without stopping",
+      "refuse to leave off"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to desist",
+        "misconception": "inverts continuing into stopping"
+      },
+      {
+        "answer": "to become aware of",
+        "misconception": "hears the sound-alike about noticing"
+      }
+    ],
+    "required_nuance": "continuing despite what would stop others",
+    "mental_hook": "Still going, despite everything.",
+    "semantic_hint": "What a symptom does when it has not cleared after a month."
   }
 }
