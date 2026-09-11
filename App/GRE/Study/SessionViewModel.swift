@@ -180,7 +180,6 @@ final class SessionViewModel {
         lastError = nil
         if let quiz {
             let cards = Array(ReviewRecorder.cardsByID(in: context).values)
-            let seed = UInt64(now.timeIntervalSince1970)
             queue = switch quiz {
             case .dailyChallenge:
                 QuizPlanner.dailyChallenge(
@@ -393,7 +392,9 @@ final class SessionViewModel {
                 choicesAreWords: true
             )
 
-        case .reverseRecall, .spelling, .defineAndUse, .typeMeaning:
+        // Exam questions carry their own stem and option list and are served by
+        // the drill screen, never by a session.
+        case .reverseRecall, .spelling, .defineAndUse, .typeMeaning, .greItem:
             return AnswerOptions()
         }
     }
