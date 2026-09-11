@@ -1318,5 +1318,445 @@
     "required_nuance": "self-satisfaction, and it annoys others",
     "mental_hook": "Pleased with themselves, and it shows.",
     "semantic_hint": "The word for the expression of someone who was right and knows it."
+  },
+  "snide": {
+    "accepted_concepts": [
+      "slyly disparaging",
+      "sneering under a polite surface",
+      "cutting in an indirect way",
+      "malicious in an offhand remark",
+      "mocking without saying so outright"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "warmly complimentary",
+        "misconception": "inverts a veiled insult into praise"
+      },
+      {
+        "answer": "openly abusive",
+        "misconception": "loses the slyness that separates it from plain insult"
+      }
+    ],
+    "required_nuance": "the insult is sly rather than open",
+    "mental_hook": "Said with a smile, and it cuts.",
+    "semantic_hint": "The word for a remark that praises you while insulting you."
+  },
+  "snub": {
+    "accepted_concepts": [
+      "insult by deliberate coldness",
+      "refuse to acknowledge someone",
+      "slight a person in public",
+      "cut dead",
+      "pointedly ignore"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to welcome warmly",
+        "misconception": "inverts deliberate coldness into welcome"
+      },
+      {
+        "answer": "an accidental oversight",
+        "misconception": "loses the deliberateness that defines it"
+      }
+    ],
+    "required_nuance": "coldness shown on purpose, and noticed",
+    "mental_hook": "Looked straight through them, deliberately.",
+    "semantic_hint": "What someone does by walking past an acquaintance without a word."
+  },
+  "sob": {
+    "accepted_concepts": [
+      "weep with gasping breaths",
+      "cry convulsively",
+      "blubber uncontrollably",
+      "catch the breath while crying",
+      "weep audibly and hard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to laugh aloud",
+        "misconception": "inverts weeping into laughter"
+      },
+      {
+        "answer": "a nickname",
+        "misconception": "confuses the verb with a near-twin noun about an alternative name"
+      }
+    ],
+    "required_nuance": "weeping hard enough to break the breath",
+    "mental_hook": "Crying, with the breath catching.",
+    "semantic_hint": "What a child does after a fall, gasping between cries."
+  },
+  "sobriquet": {
+    "accepted_concepts": [
+      "a nickname",
+      "an epithet used instead of a real name",
+      "a familiar name given by others",
+      "a moniker attached to a person",
+      "a name that sticks to someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a legal name on a birth certificate",
+        "misconception": "confuses an informal name with the official one"
+      },
+      {
+        "answer": "a formal title of office",
+        "misconception": "confuses an affectionate nickname with a rank"
+      }
+    ],
+    "required_nuance": "an informal name others give you",
+    "mental_hook": "The name everyone uses, and nobody registered.",
+    "semantic_hint": "What the Iron Lady was for a British prime minister."
+  },
+  "solecism": {
+    "accepted_concepts": [
+      "a grammatical error",
+      "a breach of correct usage",
+      "a social blunder",
+      "an impropriety of manners",
+      "a mistake against accepted form"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly correct usage",
+        "misconception": "inverts a blunder into correctness"
+      },
+      {
+        "answer": "a deliberate stylistic choice",
+        "misconception": "loses that it is a mistake"
+      }
+    ],
+    "required_nuance": "a mistake against correct form, in speech or conduct",
+    "mental_hook": "Wrong by the rules, in grammar or in manners.",
+    "semantic_hint": "The word for both a mangled verb and a fork used at the wrong course."
+  },
+  "solicitous": {
+    "accepted_concepts": [
+      "showing anxious care for someone",
+      "attentive out of concern",
+      "eager about another's welfare",
+      "caring to the point of fussing",
+      "worried on someone else's behalf"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "indifferent to another's welfare",
+        "misconception": "inverts anxious care into neglect"
+      },
+      {
+        "answer": "unity based on shared interests",
+        "misconception": "confuses personal concern with the near-twin about group unity"
+      }
+    ],
+    "required_nuance": "care for another, with anxiety in it",
+    "mental_hook": "Fussing over you, because they are worried.",
+    "semantic_hint": "The word for a host who asks four times whether you are warm enough."
+  },
+  "solicitude": {
+    "accepted_concepts": [
+      "anxious care for another",
+      "attentive concern",
+      "worried attention to someone's needs",
+      "the state of being concerned for a person",
+      "careful regard for another's welfare"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complete indifference",
+        "misconception": "inverts concern into unconcern"
+      },
+      {
+        "answer": "the state of being alone",
+        "misconception": "hears the sound-alike about solitude"
+      }
+    ],
+    "required_nuance": "the concern itself, felt for someone else",
+    "mental_hook": "The worry, felt on someone else's behalf.",
+    "semantic_hint": "The word for the anxious care a nurse shows a frightened patient."
+  },
+  "solidarity": {
+    "accepted_concepts": [
+      "unity based on shared interests",
+      "mutual support within a group",
+      "standing together in a common cause",
+      "cohesion among people with the same stake",
+      "fellowship in a shared struggle"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "division into rival camps",
+        "misconception": "inverts unity into discord"
+      },
+      {
+        "answer": "anxious care for one person",
+        "misconception": "confuses group unity with the near-twin about individual concern"
+      }
+    ],
+    "required_nuance": "unity arising from a shared interest",
+    "mental_hook": "All of us, or none of us.",
+    "semantic_hint": "The word for workers refusing to cross a picket line for another trade."
+  },
+  "soliloquy": {
+    "accepted_concepts": [
+      "a speech made alone on stage",
+      "a character thinking aloud",
+      "a monologue revealing inner thought",
+      "words spoken with no listener present",
+      "an address to oneself for the audience"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a conversation between two characters",
+        "misconception": "inverts a speech alone into an exchange"
+      },
+      {
+        "answer": "the state of being by oneself",
+        "misconception": "hears the sound-alike about solitude"
+      }
+    ],
+    "required_nuance": "spoken alone, revealing what is thought",
+    "mental_hook": "Alone on stage, thinking out loud.",
+    "semantic_hint": "What the speech beginning with a question about being is, in Hamlet."
+  },
+  "solvent": {
+    "accepted_concepts": [
+      "able to pay one's debts",
+      "financially sound",
+      "having enough to meet obligations",
+      "not bankrupt",
+      "with assets exceeding liabilities"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unable to pay what is owed",
+        "misconception": "inverts financial soundness into bankruptcy"
+      },
+      {
+        "answer": "a liquid that dissolves things",
+        "misconception": "takes the chemical noun for the tested adjective"
+      }
+    ],
+    "required_nuance": "able to meet debts, as a financial state",
+    "mental_hook": "Can pay the bills. That is the whole test.",
+    "semantic_hint": "The word for a firm whose assets still cover what it owes."
+  },
+  "somatic": {
+    "accepted_concepts": [
+      "relating to the body",
+      "bodily rather than mental",
+      "physical in origin",
+      "corporeal",
+      "of the flesh rather than the mind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to the mind",
+        "misconception": "inverts the bodily into the mental"
+      },
+      {
+        "answer": "sleepy or causing sleep",
+        "misconception": "confuses the body with the near-twin about drowsiness"
+      }
+    ],
+    "required_nuance": "of the body, as opposed to the mind",
+    "mental_hook": "Body, not mind.",
+    "semantic_hint": "The word for symptoms that appear in the body from mental strain."
+  },
+  "somber": {
+    "accepted_concepts": [
+      "dark and gloomy in tone",
+      "grave in mood",
+      "melancholy in colour or manner",
+      "dour and subdued",
+      "heavy with seriousness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "bright and cheerful",
+        "misconception": "inverts gloom into brightness"
+      },
+      {
+        "answer": "sleepy",
+        "misconception": "confuses gloom with the near-twin about drowsiness"
+      }
+    ],
+    "required_nuance": "gloomy in mood or colour",
+    "mental_hook": "Dark in colour, or dark in mood.",
+    "semantic_hint": "The word for the atmosphere of a room after a funeral."
+  },
+  "somnolent": {
+    "accepted_concepts": [
+      "sleepy",
+      "drowsy and heavy-eyed",
+      "inducing drowsiness",
+      "lethargic with the urge to sleep",
+      "half asleep"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "wide awake and alert",
+        "misconception": "inverts drowsiness into alertness"
+      },
+      {
+        "answer": "gloomy in tone",
+        "misconception": "confuses sleepiness with the near-twin about gloom"
+      }
+    ],
+    "required_nuance": "sleepy, or making others so",
+    "mental_hook": "Eyes closing, and the room is warm.",
+    "semantic_hint": "The word for a village in the still heat of a summer afternoon."
+  },
+  "sonorous": {
+    "accepted_concepts": [
+      "deep and richly resonant",
+      "full in tone",
+      "booming with a pleasant depth",
+      "orotund in delivery",
+      "ringing with richness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "thin and reedy",
+        "misconception": "inverts rich depth into a thin tone"
+      },
+      {
+        "answer": "utterly silent",
+        "misconception": "inverts a full ringing tone into no sound at all"
+      }
+    ],
+    "required_nuance": "depth and richness of tone",
+    "mental_hook": "Deep, full, and it fills the room.",
+    "semantic_hint": "The word for a bass voice that seems to come from the floor."
+  },
+  "sophisticated": {
+    "accepted_concepts": [
+      "refined and worldly",
+      "complex in design",
+      "advanced beyond the simple",
+      "cultivated in taste",
+      "subtle enough to handle fine distinctions"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "naive and crude",
+        "misconception": "inverts refinement into simplicity"
+      },
+      {
+        "answer": "clever but false reasoning",
+        "misconception": "confuses refinement with the near-twin about deceptive argument"
+      }
+    ],
+    "required_nuance": "refined or complex, not deceptive",
+    "mental_hook": "Refined. The near-twin noun is a cheat.",
+    "semantic_hint": "The word for an instrument that measures a dozen variables at once."
+  },
+  "sophistry": {
+    "accepted_concepts": [
+      "clever but false reasoning",
+      "argument designed to deceive",
+      "specious logic dressed as rigour",
+      "casuistry",
+      "reasoning that looks sound and is not"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "valid reasoning",
+        "misconception": "inverts fallacious argument into sound logic"
+      },
+      {
+        "answer": "refined worldly taste",
+        "misconception": "confuses deceptive argument with the near-twin about refinement"
+      }
+    ],
+    "required_nuance": "reasoning that only appears to hold",
+    "mental_hook": "Looks like logic. Is not.",
+    "semantic_hint": "The word for an argument that survives only until someone checks it."
+  },
+  "soporific": {
+    "accepted_concepts": [
+      "causing sleepiness",
+      "sleep-inducing",
+      "dull enough to send one off",
+      "having a drowsy effect",
+      "a drug that brings on sleep"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "stimulating and invigorating",
+        "misconception": "inverts sleep-inducing into rousing"
+      },
+      {
+        "answer": "clever but false reasoning",
+        "misconception": "confuses drowsiness with the near-twin about deceptive argument"
+      }
+    ],
+    "required_nuance": "it puts others to sleep",
+    "mental_hook": "Sends you to sleep, drug or lecture.",
+    "semantic_hint": "The word for a talk so dull half the room nods off."
+  },
+  "sordid": {
+    "accepted_concepts": [
+      "morally squalid",
+      "dirty and degraded",
+      "sleazy in its details",
+      "ignoble and shabby",
+      "unpleasantly grubby in conduct"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "honourable and clean",
+        "misconception": "inverts moral squalor into decency"
+      },
+      {
+        "answer": "causing sleepiness",
+        "misconception": "confuses squalor with the near-twin about drowsiness"
+      }
+    ],
+    "required_nuance": "dirty, and usually morally so",
+    "mental_hook": "Grubby, and the grubbiness is moral.",
+    "semantic_hint": "The word for the details of a scandal nobody wants to hear."
+  },
+  "sound": {
+    "accepted_concepts": [
+      "solid and free of defect",
+      "reliable in construction",
+      "valid as an argument",
+      "in good condition throughout",
+      "well founded"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "flawed and unreliable",
+        "misconception": "inverts solidity into defect"
+      },
+      {
+        "answer": "a noise that can be heard",
+        "misconception": "takes the common noun for the tested adjective"
+      }
+    ],
+    "required_nuance": "free of defect, in structure or in reasoning",
+    "mental_hook": "No hidden flaw in it.",
+    "semantic_hint": "The word for a building's structure or an argument with no weak point."
+  },
+  "spangle": {
+    "accepted_concepts": [
+      "decorate with sparkling ornaments",
+      "stud with small shining pieces",
+      "cover with glittering points",
+      "scatter shiny discs over",
+      "make something glitter with ornament"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to strip of all decoration",
+        "misconception": "inverts decorating into removing ornament"
+      },
+      {
+        "answer": "to quarrel pettily",
+        "misconception": "confuses decorating with a near-twin about a squabble"
+      }
+    ],
+    "required_nuance": "decorating with small shining points",
+    "mental_hook": "Covered in little points of light.",
+    "semantic_hint": "What a costume-maker does to a dancer's dress with sequins."
   }
 }
