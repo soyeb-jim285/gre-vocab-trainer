@@ -1,0 +1,202 @@
+{
+  "abase": {
+    "accepted_concepts": ["humiliate", "degrade", "lower in rank or dignity", "bring someone low", "humble someone"],
+    "incorrect_associations": [
+      {"answer": "to hate", "misconception": "confuses it with abhor"},
+      {"answer": "to lessen or reduce", "misconception": "confuses it with abate"}
+    ],
+    "required_nuance": "loss of dignity, often self-inflicted",
+    "mental_hook": "Bringing someone down to a lower base, and often the someone is yourself.",
+    "semantic_hint": "Think of lowering a person's dignity, sometimes your own."
+  },
+  "abash": {
+    "accepted_concepts": ["embarrass", "disconcert", "make someone lose composure", "make self-conscious", "unsettle"],
+    "incorrect_associations": [
+      {"answer": "to smash or destroy", "misconception": "hears the sound-alike 'bash'"},
+      {"answer": "to scold", "misconception": "confuses being embarrassed with being told off"}
+    ],
+    "required_nuance": "loss of composure, not mere awkwardness",
+    "mental_hook": "Someone's confidence suddenly deserts them mid-sentence.",
+    "semantic_hint": "What happens to your poise when you are caught out."
+  },
+  "abate": {
+    "accepted_concepts": ["lessen", "subside", "die down", "become less severe", "diminish in force"],
+    "incorrect_associations": [
+      {"answer": "to help or encourage wrongdoing", "misconception": "confuses it with abet"},
+      {"answer": "to stop completely", "misconception": "mistakes a reduction for a full stop"}
+    ],
+    "required_nuance": "gradual reduction, not cessation",
+    "mental_hook": "The storm does not stop. It eases off.",
+    "semantic_hint": "What a storm or a fever does as it loses its force."
+  },
+  "abdicate": {
+    "accepted_concepts": ["give up the throne", "renounce power", "formally step down", "relinquish responsibility", "resign a position of authority"],
+    "incorrect_associations": [
+      {"answer": "to be removed from office", "misconception": "confuses giving up power with having it taken"},
+      {"answer": "to dedicate", "misconception": "hears the sound-alike ending"}
+    ],
+    "required_nuance": "voluntary and formal surrender of power",
+    "mental_hook": "A king walks away from the crown himself.",
+    "semantic_hint": "What a monarch does when they hand back the crown by choice."
+  },
+  "aberrant": {
+    "accepted_concepts": ["abnormal", "deviating from the norm", "atypical", "not conforming to what is expected", "anomalous"],
+    "incorrect_associations": [
+      {"answer": "wandering or lost", "misconception": "takes the Latin root literally"},
+      {"answer": "mistaken or erroneous", "misconception": "confuses departing from the norm with being wrong"}
+    ],
+    "required_nuance": "departure from the norm, not an error",
+    "mental_hook": "Off the expected track, though not necessarily off the rails.",
+    "semantic_hint": "A result that does not fit the pattern everything else follows."
+  },
+  "aberration": {
+    "accepted_concepts": ["an anomaly", "a deviation from the norm", "a one-off departure", "something out of the ordinary", "an irregularity"],
+    "incorrect_associations": [
+      {"answer": "a mistake", "misconception": "confuses an outlier with an error"},
+      {"answer": "a hallucination", "misconception": "borrows the optical sense"}
+    ],
+    "required_nuance": "a single departure from a pattern",
+    "mental_hook": "One reading that does not match the rest of the graph.",
+    "semantic_hint": "The single odd point in an otherwise steady set of results."
+  },
+  "abet": {
+    "accepted_concepts": ["help someone do wrong", "encourage a crime", "assist in wrongdoing", "aid and encourage", "back someone up in something illegal"],
+    "incorrect_associations": [
+      {"answer": "to lessen", "misconception": "confuses it with abate"},
+      {"answer": "to wager", "misconception": "hears the sound-alike 'bet'"}
+    ],
+    "required_nuance": "help given specifically to wrongdoing",
+    "mental_hook": "The one holding the ladder for the burglar.",
+    "semantic_hint": "What the accomplice does, as opposed to the one who commits it."
+  },
+  "abeyance": {
+    "accepted_concepts": ["temporary suspension", "a state of being on hold", "a pause in effect", "dormancy", "set aside for the time being"],
+    "incorrect_associations": [
+      {"answer": "obedience", "misconception": "hears it as a form of 'obey'"},
+      {"answer": "permanent cancellation", "misconception": "mistakes a pause for an ending"}
+    ],
+    "required_nuance": "suspended temporarily, expected to resume",
+    "mental_hook": "Paused, not cancelled.",
+    "semantic_hint": "The state a rule is in when it has been put on hold but not scrapped."
+  },
+  "abhor": {
+    "accepted_concepts": ["hate intensely", "loathe", "detest", "find repugnant", "regard with disgust"],
+    "incorrect_associations": [
+      {"answer": "to fear", "misconception": "confuses revulsion with dread"},
+      {"answer": "to avoid", "misconception": "mistakes the feeling for the behaviour it causes"}
+    ],
+    "required_nuance": "hatred mixed with disgust, not mere dislike",
+    "mental_hook": "Not dislike. Revulsion.",
+    "semantic_hint": "The strongest word for hating something you find repellent."
+  },
+  "abide": {
+    "accepted_concepts": ["tolerate", "put up with", "endure", "bear something unwelcome", "remain or dwell"],
+    "incorrect_associations": [
+      {"answer": "to obey", "misconception": "takes the phrase 'abide by' for the bare verb"},
+      {"answer": "to leave", "misconception": "inverts the sense of remaining"}
+    ],
+    "required_nuance": "enduring something unwelcome",
+    "mental_hook": "Usually heard in the negative: cannot stand it.",
+    "semantic_hint": "What you cannot do with a person you find unbearable."
+  },
+  "abject": {
+    "accepted_concepts": ["utterly wretched", "hopeless and degraded", "contemptibly low", "miserable in the extreme", "completely without dignity"],
+    "incorrect_associations": [
+      {"answer": "objectionable", "misconception": "hears the sound-alike 'object'"},
+      {"answer": "rejected or cast out", "misconception": "reads the '-ject' as being thrown out"}
+    ],
+    "required_nuance": "extremity, and loss of dignity with it",
+    "mental_hook": "The word that turns poverty or an apology into total.",
+    "semantic_hint": "The adjective that makes poverty or an apology sound complete and undignified."
+  },
+  "abjure": {
+    "accepted_concepts": ["renounce under oath", "formally give up a belief", "forswear", "publicly disown", "solemnly repudiate"],
+    "incorrect_associations": [
+      {"answer": "to insult", "misconception": "confuses it with abuse"},
+      {"answer": "to judge", "misconception": "reads the '-jure' as judicial"}
+    ],
+    "required_nuance": "formal, often sworn, renunciation of a belief",
+    "mental_hook": "Swearing off, out loud and on the record.",
+    "semantic_hint": "What a heretic does to their beliefs to escape punishment."
+  },
+  "abound": {
+    "accepted_concepts": ["exist in large numbers", "be plentiful", "teem", "be found everywhere", "occur in great quantity"],
+    "incorrect_associations": [
+      {"answer": "to bounce", "misconception": "hears the sound-alike 'bound'"},
+      {"answer": "to be scarce", "misconception": "inverts the meaning"}
+    ],
+    "required_nuance": "plentiful presence, not mere existence",
+    "mental_hook": "Not just present. Everywhere you look.",
+    "semantic_hint": "What errors do in a badly edited manuscript."
+  },
+  "aboveboard": {
+    "accepted_concepts": ["open and honest", "without concealment", "straightforward and legitimate", "not secretive", "done in plain view"],
+    "incorrect_associations": [
+      {"answer": "superior in rank", "misconception": "reads 'above' literally"},
+      {"answer": "on the deck of a ship", "misconception": "reads 'board' literally"}
+    ],
+    "required_nuance": "honesty through visibility, nothing hidden",
+    "mental_hook": "Hands above the table, where everyone can see them.",
+    "semantic_hint": "Dealing where nothing happens under the table."
+  },
+  "abrasive": {
+    "accepted_concepts": ["harsh in manner", "grating", "rubbing people the wrong way", "unpleasantly blunt", "irritating to deal with"],
+    "incorrect_associations": [
+      {"answer": "rough to the touch", "misconception": "keeps the physical sense where manner is meant"},
+      {"answer": "aggressive or violent", "misconception": "confuses wearing on people with hostility"}
+    ],
+    "required_nuance": "wearing on people, not merely rude",
+    "mental_hook": "Sandpaper, applied to a personality.",
+    "semantic_hint": "The word for someone whose manner wears you down like sandpaper."
+  },
+  "abreast": {
+    "accepted_concepts": ["up to date", "keeping current with", "informed of the latest", "in step with developments", "not behind on the news"],
+    "incorrect_associations": [
+      {"answer": "side by side", "misconception": "keeps the literal marching sense"},
+      {"answer": "ahead of others", "misconception": "mistakes keeping level for leading"}
+    ],
+    "required_nuance": "keeping level with, never ahead of",
+    "mental_hook": "Level with the news, not ahead of it.",
+    "semantic_hint": "What you stay when you keep up with developments in a field."
+  },
+  "abridge": {
+    "accepted_concepts": ["shorten", "condense", "cut down while keeping the sense", "make a shorter version", "curtail"],
+    "incorrect_associations": [
+      {"answer": "to build a crossing", "misconception": "reads 'bridge' literally"},
+      {"answer": "to summarise poorly", "misconception": "adds a judgement the word does not carry"}
+    ],
+    "required_nuance": "shortened yet still complete in substance",
+    "mental_hook": "The short edition that still tells the whole story.",
+    "semantic_hint": "What is done to a long novel to make the one-volume edition."
+  },
+  "abrogate": {
+    "accepted_concepts": ["repeal formally", "abolish a law", "annul", "revoke officially", "do away with by authority"],
+    "incorrect_associations": [
+      {"answer": "to claim for oneself", "misconception": "confuses it with arrogate"},
+      {"answer": "to hand off a duty", "misconception": "hears it as delegating"}
+    ],
+    "required_nuance": "formal abolition by an authority",
+    "mental_hook": "A treaty struck out by the power that made it.",
+    "semantic_hint": "What a government does to a law it wants struck off the books."
+  },
+  "abscission": {
+    "accepted_concepts": ["cutting off", "severance", "the shedding of leaves", "separation by cutting", "removal of a part"],
+    "incorrect_associations": [
+      {"answer": "a decision", "misconception": "hears the sound-alike ending"},
+      {"answer": "a cut into something", "misconception": "confuses cutting off with cutting into, as in incision"}
+    ],
+    "required_nuance": "cutting away, never cutting into",
+    "mental_hook": "The leaf lets go of the branch.",
+    "semantic_hint": "What a tree does to its leaves in autumn, or a surgeon to a growth."
+  },
+  "abscond": {
+    "accepted_concepts": ["flee secretly", "run off to avoid arrest", "make off in secret", "slip away to escape", "decamp with something"],
+    "incorrect_associations": [
+      {"answer": "to hide", "misconception": "mistakes concealment for departure"},
+      {"answer": "to steal", "misconception": "takes the usual object for the verb itself"}
+    ],
+    "required_nuance": "secret departure to evade capture",
+    "mental_hook": "Gone in the night, with the cash box.",
+    "semantic_hint": "What a treasurer does when they leave in the night with the funds."
+  }
+}
