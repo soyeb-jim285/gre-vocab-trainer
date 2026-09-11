@@ -120,6 +120,8 @@ final class SessionViewModel {
     private var scores: [Int] = []
     /// Newest last; the planner keeps these out of the way.
     private var recentWordIDs: [String] = []
+    /// Newest last; the curriculum spaces the heavy forms against these.
+    private var recentModes: [StudyMode] = []
     /// Quiz only: the fixed list and where we are in it.
     private var queue: [SessionCard] = []
     private var queueIndex = 0
@@ -176,6 +178,7 @@ final class SessionViewModel {
         cardsSeen = 0
         scores = []
         recentWordIDs = []
+        recentModes = []
         sessionSpend = 0
         chosenOptionID = nil
         lastError = nil
@@ -246,7 +249,7 @@ final class SessionViewModel {
         switch Curriculum.step(
             for: picked, word: word,
             competence: ReviewRecorder.competence(for: word.id, in: context),
-            settings: settings.sessionSettings
+            settings: settings.sessionSettings, recentModes: recentModes
         ) {
         case .introduce:
             current = .introduce(word: word, card: picked)
@@ -256,9 +259,11 @@ final class SessionViewModel {
             // it as its own screen is how the app ends up with two answer paths
             // that drift.
             current = .drill(SessionItem(card: picked, word: word, mode: .typeMeaning))
+            recentModes.append(.typeMeaning)
             beginAnswering()
         case let .drill(mode):
             current = .drill(SessionItem(card: picked, word: word, mode: mode))
+            recentModes.append(mode)
             beginAnswering()
         }
     }

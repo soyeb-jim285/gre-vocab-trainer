@@ -39,6 +39,20 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
 
     public var needsAI: Bool { self == .defineAndUse || self == .typeMeaning }
 
+    /// How much work this question asks of the learner, 1 to 3.
+    ///
+    /// Not difficulty: a hard multiple-choice question is still one tap. This is
+    /// the cost of answering at all, and it is what stops a day's reviews
+    /// becoming homework. A hundred and fifty typed definitions is a punishment
+    /// however well chosen each one is.
+    public var friction: Int {
+        switch self {
+        case .multipleChoice, .contextCloze, .senseInContext: 1
+        case .reverseRecall, .spelling: 2
+        case .typeMeaning, .defineAndUse: 3
+        }
+    }
+
     /// Shown in the session's mode picker.
     public var label: String {
         switch self {

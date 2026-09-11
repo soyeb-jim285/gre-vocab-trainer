@@ -242,3 +242,79 @@ import Testing
         }
     }
 }
+
+/// Rotation: the forms vary across exposures, and the heavy ones stay spaced.
+///
+/// A day of typed definitions is homework. The budget is what keeps the
+/// backbone form from becoming the only form.
+@Suite struct FrictionTests {
+
+    private static let catalog = try! WordCatalog.bundled()
+
+    private func held(_ id: String) throws -> (StudyCard, Word) {
+        let word = try #require(Self.catalog[id])
+        let fsrs = FSRS(enableFuzzing: false)
+        var card = FSRSCard()
+        for _ in 0..<4 { card = fsrs.review(card, rating: .good, at: .now) }
+        return (StudyCard(wordID: id, fsrs: card, reviewCount: 4, isIntroduced: true), word)
+    }
+
+    @Test func askingCostsWhatTheFormAsksFor() {
+        // Tapping one of four is not the same demand as composing a sentence.
+        #expect(StudyMode.multipleChoice.friction < StudyMode.spelling.friction)
+        #expect(StudyMode.spelling.friction < StudyMode.defineAndUse.friction)
+        #expect(StudyMode.typeMeaning.friction == StudyMode.defineAndUse.friction)
+    }
+
+    @Test func theFreeAnswerJoinsThePoolOnlyWhenItCanBeGraded() throws {
+        let word = try #require(Self.catalog["abate"])
+        #expect(Curriculum.candidates(for: word, aiEnabled: true).contains(.typeMeaning))
+        #expect(!Curriculum.candidates(for: word, aiEnabled: false).contains(.typeMeaning))
+    }
+
+    @Test func twoHeavyAnswersInARowSpendTheBudget() {
+        #expect(!Curriculum.isFatigued(recent: []))
+        #expect(!Curriculum.isFatigued(recent: [.typeMeaning, .multipleChoice]))
+        #expect(Curriculum.isFatigued(recent: [.typeMeaning, .spelling]))
+        #expect(Curriculum.isFatigued(recent: [.typeMeaning, .defineAndUse]))
+    }
+
+    @Test func onlyTheRecentPastCounts() {
+        // The budget shapes the next few minutes, not the day. Three typed
+        // answers ago has been paid for by the two light ones since.
+        #expect(!Curriculum.isFatigued(recent: [.typeMeaning, .typeMeaning, .multipleChoice, .contextCloze]))
+    }
+
+    @Test func afterAHeavyRunTheNextQuestionIsLight() throws {
+        let (card, word) = try held("abate")
+        // Evidence says the typed answer is weakest, but the learner has just
+        // written two: the schedule can wait, the session cannot.
+        let evidence = CardCompetence([])
+        let settings = SessionSettings(aiEnabled: true)
+        let tired = Curriculum.step(
+            for: card, word: word, competence: evidence, settings: settings,
+            recentModes: [.typeMeaning, .defineAndUse]
+        )
+        #expect(tired.mode?.friction == 1)
+
+        let fresh = Curriculum.step(
+            for: card, word: word, competence: evidence, settings: settings,
+            recentModes: [.multipleChoice, .multipleChoice]
+        )
+        #expect(fresh.mode?.friction == 3)
+    }
+
+    @Test func aFatiguedLearnerIsStillAskedSomethingReal() throws {
+        // Light is not nothing: the fallback has to be a question about this
+        // word, not a free pass.
+        let (card, word) = try held("abate")
+        let step = Curriculum.step(
+            for: card, word: word, competence: CardCompetence([]),
+            settings: SessionSettings(aiEnabled: true),
+            recentModes: [.typeMeaning, .typeMeaning]
+        )
+        let mode = try #require(step.mode)
+        #expect(mode == .multipleChoice
+                || Curriculum.candidates(for: word, aiEnabled: true).contains(mode))
+    }
+}

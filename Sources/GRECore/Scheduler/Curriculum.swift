@@ -39,8 +39,12 @@ public enum Curriculum {
     /// harder steps fall back to, not something to return to once a word is
     /// known. Writing is missing because reaching it is a threshold decision
     /// rather than an evidence one.
-    public static func candidates(for word: Word) -> [StudyMode] {
+    public static func candidates(for word: Word, aiEnabled: Bool = false) -> [StudyMode] {
         var modes: [StudyMode] = []
+        // The free answer is the backbone: it is the only form that shows what
+        // the learner actually holds rather than what they can recognise. It
+        // needs a key and the word's grounding to grade against.
+        if aiEnabled, word.grounding != nil { modes.append(.typeMeaning) }
         if !(word.gre?.cloze.isEmpty ?? true) { modes.append(.contextCloze) }
         modes.append(.reverseRecall)
         modes.append(.spelling)
@@ -48,6 +52,22 @@ public enum Curriculum {
         // meanings to tell apart.
         if word.isTrap { modes.append(.senseInContext) }
         return modes
+    }
+
+    /// The most a stretch of consecutive answers may cost before the next one
+    /// has to be light.
+    ///
+    /// Three typed answers in a row is where a session stops feeling like
+    /// practice and starts feeling like an exam. The budget is deliberately
+    /// short-range: it shapes the texture of the next few minutes rather than
+    /// rationing the day, because a learner who is enjoying it should not be
+    /// stopped from typing.
+    static let frictionBudget = 5
+
+    /// Whether the recent run of questions has been heavy enough that the next
+    /// one should be easy to answer.
+    static func isFatigued(recent modes: [StudyMode]) -> Bool {
+        modes.suffix(2).map(\.friction).reduce(0, +) >= frictionBudget
     }
 
     /// Whether a pretest answer was weak enough that the word should be taught
@@ -59,8 +79,13 @@ public enum Curriculum {
     /// without stopping to teach.
     public static func teaches(afterMeaningScore score: Int) -> Bool { score <= 2 }
 
+    /// - Parameter recentModes: the last few questions asked this session,
+    ///   oldest first. Used only to space the heavy ones; an empty list simply
+    ///   means nothing is known yet, which is the state at the start of a
+    ///   session and in every call that does not care.
     public static func step(
-        for card: StudyCard, word: Word, competence: CardCompetence, settings: SessionSettings
+        for card: StudyCard, word: Word, competence: CardCompetence,
+        settings: SessionSettings, recentModes: [StudyMode] = []
     ) -> StudyStep {
         // First contact is a question, not a lesson. Asking costs one typed
         // answer and buys the two facts teaching cannot: whether this learner
@@ -99,7 +124,12 @@ public enum Curriculum {
         // enough to correct the assumption before it sets.
         if word.isTrap, card.reviewCount == 1 { return .drill(.senseInContext) }
 
-        if settings.aiEnabled, card.reviewCount >= settings.writingModeAfterReviews {
+        // Writing is the heaviest form there is, so the budget outranks the
+        // threshold: a learner two typed answers deep is not asked to compose a
+        // sentence as well. The word keeps its claim on the mode and gets it
+        // next time round.
+        if settings.aiEnabled, card.reviewCount >= settings.writingModeAfterReviews,
+           !isFatigued(recent: recentModes) {
             return .drill(.defineAndUse)
         }
 
@@ -108,7 +138,15 @@ public enum Curriculum {
             return .drill(.multipleChoice)
         }
 
-        let pool = candidates(for: word)
+        let pool = candidates(for: word, aiEnabled: settings.aiEnabled)
+        // Weakest evidence picks the question, unless the last few were heavy,
+        // in which case the lightest form that still tests something wins. The
+        // rotation falls out of this rather than being a cycle: after a typed
+        // answer the budget is spent, so the next word is asked a lighter way,
+        // and by the time it comes round again the budget has recovered.
+        guard !isFatigued(recent: recentModes) else {
+            return .drill(pool.min(by: { $0.friction < $1.friction }) ?? .multipleChoice)
+        }
         return .drill(competence.weakest(among: pool) ?? .multipleChoice)
     }
 }
