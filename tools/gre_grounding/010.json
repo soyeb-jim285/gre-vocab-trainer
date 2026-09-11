@@ -1758,5 +1758,445 @@
     "required_nuance": "evenness of temper or climate, not fairness",
     "mental_hook": "Even temper. The near-twin means fair.",
     "semantic_hint": "The word for a temperament that never swings high or low."
+  },
+  "equanimity": {
+    "accepted_concepts": [
+      "calmness under strain",
+      "composure in difficulty",
+      "an even and untroubled mind",
+      "serenity when things go wrong",
+      "poise under pressure"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "panic",
+        "misconception": "inverts composure into agitation"
+      },
+      {
+        "answer": "fairness to all sides",
+        "misconception": "confuses calmness of mind with impartiality"
+      }
+    ],
+    "required_nuance": "calm held while under strain",
+    "mental_hook": "Level, while everything else is not.",
+    "semantic_hint": "The steadiness someone keeps while receiving very bad news."
+  },
+  "equitable": {
+    "accepted_concepts": [
+      "fair and impartial",
+      "just to all parties",
+      "evenhanded",
+      "giving each their due",
+      "free of favouritism"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "biased",
+        "misconception": "inverts fairness into partiality"
+      },
+      {
+        "answer": "calm in temper",
+        "misconception": "confuses justice with the near-twin about an even mood"
+      }
+    ],
+    "required_nuance": "fairness in the treatment, not evenness of mood",
+    "mental_hook": "Fair. The near-twin means even-tempered.",
+    "semantic_hint": "The word for a division of property that treats every heir justly."
+  },
+  "equivocal": {
+    "accepted_concepts": [
+      "ambiguous",
+      "open to two readings",
+      "deliberately unclear",
+      "noncommittal",
+      "capable of meaning either thing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly definite",
+        "misconception": "inverts ambiguity into clarity"
+      },
+      {
+        "answer": "dishonest",
+        "misconception": "confuses deliberate ambiguity with outright lying"
+      }
+    ],
+    "required_nuance": "ambiguity, and usually deliberate",
+    "mental_hook": "Two meanings, and that is on purpose.",
+    "semantic_hint": "The word for an answer carefully built to be read two ways."
+  },
+  "equivocate": {
+    "accepted_concepts": [
+      "speak ambiguously to avoid committing",
+      "hedge",
+      "prevaricate",
+      "use words that could mean either thing",
+      "dodge by being unclear"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to state plainly",
+        "misconception": "inverts hedging into a clear commitment"
+      },
+      {
+        "answer": "to make equal",
+        "misconception": "hears the word 'equal' inside it"
+      }
+    ],
+    "required_nuance": "vagueness chosen to avoid being pinned down",
+    "mental_hook": "Says neither thing, on purpose.",
+    "semantic_hint": "What a politician does to avoid answering a direct question."
+  },
+  "eradicate": {
+    "accepted_concepts": [
+      "destroy completely",
+      "wipe out entirely",
+      "root out",
+      "exterminate",
+      "remove so nothing is left"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to establish",
+        "misconception": "inverts wiping out into planting"
+      },
+      {
+        "answer": "to reduce a little",
+        "misconception": "loses the completeness that defines it"
+      }
+    ],
+    "required_nuance": "completely, down to the roots",
+    "mental_hook": "Roots and all. Nothing left to grow back.",
+    "semantic_hint": "What a vaccination campaign did to smallpox."
+  },
+  "erode": {
+    "accepted_concepts": [
+      "wear away gradually",
+      "eat away at over time",
+      "undermine bit by bit",
+      "corrode",
+      "diminish by slow wearing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to reinforce",
+        "misconception": "inverts wearing away into building up"
+      },
+      {
+        "answer": "to destroy at a stroke",
+        "misconception": "loses the gradualness that defines it"
+      }
+    ],
+    "required_nuance": "gradual wearing, never a sudden break",
+    "mental_hook": "Water on stone. Slowly.",
+    "semantic_hint": "What a river does to its banks over centuries."
+  },
+  "err": {
+    "accepted_concepts": [
+      "make a mistake",
+      "get it wrong",
+      "blunder",
+      "misjudge",
+      "slip up"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to get it right",
+        "misconception": "inverts a mistake into accuracy"
+      },
+      {
+        "answer": "to hesitate aloud",
+        "misconception": "hears it as the sound a hesitating speaker makes"
+      }
+    ],
+    "required_nuance": "the act of getting something wrong",
+    "mental_hook": "To be human, as the proverb has it.",
+    "semantic_hint": "What the proverb says is human, while forgiving is divine."
+  },
+  "errant": {
+    "accepted_concepts": [
+      "straying from the proper course",
+      "wayward",
+      "wandering off track",
+      "misbehaving",
+      "gone astray"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dutiful",
+        "misconception": "inverts straying into obedience"
+      },
+      {
+        "answer": "a small task run for someone",
+        "misconception": "hears the sound-alike 'errand'"
+      }
+    ],
+    "required_nuance": "straying from where it should be",
+    "mental_hook": "Off the path it should be on.",
+    "semantic_hint": "The word for a knight wandering in search of adventure, or a stray golf ball."
+  },
+  "erratic": {
+    "accepted_concepts": [
+      "unpredictable",
+      "inconsistent from moment to moment",
+      "wandering without pattern",
+      "volatile",
+      "not to be relied on"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "steady and consistent",
+        "misconception": "inverts unpredictability into reliability"
+      },
+      {
+        "answer": "simply wrong",
+        "misconception": "confuses inconsistency with being mistaken"
+      }
+    ],
+    "required_nuance": "unpredictable in pattern, not merely mistaken",
+    "mental_hook": "Not wrong. Just never the same twice.",
+    "semantic_hint": "The word for a heartbeat or a driver that keeps changing without warning."
+  },
+  "erroneous": {
+    "accepted_concepts": [
+      "incorrect",
+      "mistaken",
+      "based on a false premise",
+      "wrong in fact",
+      "fallacious"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "accurate",
+        "misconception": "inverts wrongness into correctness"
+      },
+      {
+        "answer": "unpredictable",
+        "misconception": "confuses being wrong with being inconsistent"
+      }
+    ],
+    "required_nuance": "wrong in fact, however consistently held",
+    "mental_hook": "Wrong, plainly and factually.",
+    "semantic_hint": "The word for a belief that is simply and factually mistaken."
+  },
+  "ersatz": {
+    "accepted_concepts": [
+      "an inferior artificial substitute",
+      "a poor imitation standing in for the real thing",
+      "synthetic and second-rate",
+      "a makeshift replacement",
+      "fake and worse than the original"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "genuine",
+        "misconception": "inverts the imitation into the authentic"
+      },
+      {
+        "answer": "a superior replacement",
+        "misconception": "loses the inferiority that defines it"
+      }
+    ],
+    "required_nuance": "a substitute, and a worse one",
+    "mental_hook": "A substitute, and everyone can tell.",
+    "semantic_hint": "The word for wartime coffee made from roasted acorns."
+  },
+  "erstwhile": {
+    "accepted_concepts": [
+      "former",
+      "onetime",
+      "previous",
+      "of an earlier time",
+      "no longer in that role"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "current",
+        "misconception": "inverts the past into the present"
+      },
+      {
+        "answer": "lasting a short while",
+        "misconception": "hears the word 'while' and takes it as duration"
+      }
+    ],
+    "required_nuance": "formerly so, and no longer",
+    "mental_hook": "Used to be. Is not now.",
+    "semantic_hint": "The formal word meaning someone used to hold a position but no longer does."
+  },
+  "erudite": {
+    "accepted_concepts": [
+      "having deep wide learning",
+      "scholarly",
+      "well read",
+      "showing great knowledge",
+      "learned in many things"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ignorant",
+        "misconception": "inverts learning into unschooled emptiness"
+      },
+      {
+        "answer": "coarse and impolite",
+        "misconception": "hears the sound-alike 'rude'"
+      }
+    ],
+    "required_nuance": "learning acquired by study, and deep",
+    "mental_hook": "Read everything, and remembers it.",
+    "semantic_hint": "The word for a scholar whose reading covers half a library."
+  },
+  "erudition": {
+    "accepted_concepts": [
+      "extensive scholarly knowledge",
+      "deep learning acquired by study",
+      "wide-ranging scholarship",
+      "the fruit of much reading",
+      "profound book learning"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ignorance",
+        "misconception": "inverts deep learning into knowing nothing"
+      },
+      {
+        "answer": "natural cleverness",
+        "misconception": "confuses knowledge gathered by study with innate wit"
+      }
+    ],
+    "required_nuance": "knowledge gathered by study, not native quickness",
+    "mental_hook": "Learned, not merely clever.",
+    "semantic_hint": "The word for the deep learning a lifetime of study produces."
+  },
+  "escalate": {
+    "accepted_concepts": [
+      "increase rapidly in intensity",
+      "grow more serious",
+      "intensify step by step",
+      "mount",
+      "raise to a higher level of conflict"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to wind down",
+        "misconception": "inverts intensifying into calming"
+      },
+      {
+        "answer": "to climb stairs",
+        "misconception": "reads the moving staircase literally"
+      }
+    ],
+    "required_nuance": "growing in intensity, usually a conflict",
+    "mental_hook": "Each step worse than the last.",
+    "semantic_hint": "What a border skirmish does when it turns into a war."
+  },
+  "eschew": {
+    "accepted_concepts": [
+      "deliberately avoid",
+      "shun on principle",
+      "abstain from",
+      "keep away from by choice",
+      "forgo"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to embrace",
+        "misconception": "inverts avoidance into seeking out"
+      },
+      {
+        "answer": "to grind with the teeth",
+        "misconception": "hears the sound-alike 'chew'"
+      }
+    ],
+    "required_nuance": "avoidance chosen on principle",
+    "mental_hook": "Avoids it, and on purpose.",
+    "semantic_hint": "What a monk does about luxury, as a matter of principle."
+  },
+  "esoteric": {
+    "accepted_concepts": [
+      "understood by only a few",
+      "known to a small circle",
+      "arcane",
+      "abstruse",
+      "obscure to outsiders"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "widely accessible",
+        "misconception": "inverts the specialist into the popular"
+      },
+      {
+        "answer": "strange and outlandish",
+        "misconception": "confuses being known to few with being bizarre"
+      }
+    ],
+    "required_nuance": "known only within a small circle",
+    "mental_hook": "Inside the circle it is ordinary. Outside it is unreadable.",
+    "semantic_hint": "The word for a debate only a dozen specialists can follow."
+  },
+  "espouse": {
+    "accepted_concepts": [
+      "adopt a cause",
+      "support publicly",
+      "champion a belief",
+      "take up and advocate",
+      "embrace a doctrine"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to renounce",
+        "misconception": "inverts taking up into abandoning"
+      },
+      {
+        "answer": "to marry",
+        "misconception": "takes the archaic literal sense for the tested one"
+      }
+    ],
+    "required_nuance": "taking up a cause and backing it publicly",
+    "mental_hook": "Married to the cause, which is the old sense.",
+    "semantic_hint": "What a public figure does by taking up a cause and arguing for it."
+  },
+  "establish": {
+    "accepted_concepts": [
+      "set up firmly",
+      "found",
+      "institute on a lasting basis",
+      "prove beyond doubt",
+      "demonstrate as fact"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to abolish",
+        "misconception": "inverts founding into dismantling"
+      },
+      {
+        "answer": "to guess at",
+        "misconception": "loses the proving that the second sense requires"
+      }
+    ],
+    "required_nuance": "founding it, or proving it",
+    "mental_hook": "Set it up, or settle the question.",
+    "semantic_hint": "What evidence does to a fact, and what a founder does to an institution."
+  },
+  "esteem": {
+    "accepted_concepts": [
+      "respect and admiration",
+      "high regard",
+      "the good opinion held of someone",
+      "favourable judgement of worth",
+      "honour accorded to someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "contempt",
+        "misconception": "inverts high regard into scorn"
+      },
+      {
+        "answer": "hot vapour",
+        "misconception": "hears the word 'steam'"
+      }
+    ],
+    "required_nuance": "regard grounded in judged worth",
+    "mental_hook": "Respect, earned and held.",
+    "semantic_hint": "The high regard a whole profession holds one figure in."
   }
 }

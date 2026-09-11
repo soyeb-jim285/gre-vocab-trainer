@@ -1,0 +1,882 @@
+{
+  "estimable": {
+    "accepted_concepts": [
+      "deserving respect",
+      "worthy of admiration",
+      "commendable",
+      "of admirable character",
+      "meriting high regard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "contemptible",
+        "misconception": "inverts worthiness into being beneath notice"
+      },
+      {
+        "answer": "able to be counted",
+        "misconception": "hears the word 'estimate' and takes the arithmetic sense"
+      }
+    ],
+    "required_nuance": "deserving respect, not merely countable",
+    "mental_hook": "Worth respecting, not worth counting.",
+    "semantic_hint": "The word for a person whose character everyone rightly admires."
+  },
+  "estrange": {
+    "accepted_concepts": [
+      "cause to become hostile or distant",
+      "alienate",
+      "drive apart",
+      "turn someone against another",
+      "break a close bond"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to reconcile",
+        "misconception": "inverts driving apart into bringing together"
+      },
+      {
+        "answer": "to make odd",
+        "misconception": "hears the word 'strange' and takes it literally"
+      }
+    ],
+    "required_nuance": "a close relationship broken into distance",
+    "mental_hook": "Turns close into distant.",
+    "semantic_hint": "What a long bitter quarrel does to two once-close relatives."
+  },
+  "estranged": {
+    "accepted_concepts": [
+      "no longer on good terms",
+      "alienated from someone once close",
+      "separated by hostility",
+      "grown distant after a break",
+      "no longer speaking"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "reconciled",
+        "misconception": "inverts the broken bond into a mended one"
+      },
+      {
+        "answer": "never acquainted",
+        "misconception": "loses that there was a close bond to break"
+      }
+    ],
+    "required_nuance": "once close, now distant",
+    "mental_hook": "Distant now, close once.",
+    "semantic_hint": "How two siblings are described when they have not spoken in years."
+  },
+  "ethereal": {
+    "accepted_concepts": [
+      "delicate and light",
+      "seemingly not of this world",
+      "airy and insubstantial",
+      "of heavenly fineness",
+      "gossamer"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "solid and earthy",
+        "misconception": "inverts the airy into the heavy"
+      },
+      {
+        "answer": "relating to morals",
+        "misconception": "hears the sound-alike 'ethical'"
+      }
+    ],
+    "required_nuance": "so light and fine it seems unearthly",
+    "mental_hook": "Too fine to be of this world.",
+    "semantic_hint": "The word for music so light it seems to come from somewhere else."
+  },
+  "ethos": {
+    "accepted_concepts": [
+      "the characteristic spirit of a group",
+      "the guiding beliefs of a community",
+      "a culture's distinctive character",
+      "the values a group lives by",
+      "the prevailing spirit of a place"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single individual's mood",
+        "misconception": "narrows a group's whole spirit to one person"
+      },
+      {
+        "answer": "a formal written rule",
+        "misconception": "confuses a prevailing spirit with a codified law"
+      }
+    ],
+    "required_nuance": "the spirit of a whole group, not one person",
+    "mental_hook": "What the group believes, without writing it down.",
+    "semantic_hint": "The word for the distinctive spirit and values of an institution."
+  },
+  "eugenic": {
+    "accepted_concepts": [
+      "relating to improving inherited traits",
+      "concerned with selective breeding of people",
+      "aimed at bettering hereditary qualities",
+      "relating to controlled heredity",
+      "seeking better inherited stock"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to worsening inherited traits",
+        "misconception": "inverts improvement into degradation"
+      },
+      {
+        "answer": "relating to good manners",
+        "misconception": "guesses at the Greek for 'well' without the birth part"
+      }
+    ],
+    "required_nuance": "improving inherited qualities by selection",
+    "mental_hook": "Well born, which is the Greek, and a discredited programme.",
+    "semantic_hint": "The word for the discredited programme of breeding people for inherited quality."
+  },
+  "eulogy": {
+    "accepted_concepts": [
+      "a speech of high praise",
+      "a tribute to someone who has died",
+      "a formal commendation",
+      "an address honouring a person",
+      "a panegyric"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a denunciation",
+        "misconception": "inverts praise into attack"
+      },
+      {
+        "answer": "a mournful poem",
+        "misconception": "confuses a speech of praise with the near-twin lament in verse"
+      }
+    ],
+    "required_nuance": "praise, usually spoken, usually for the dead",
+    "mental_hook": "The speech at the funeral, and it praises.",
+    "semantic_hint": "The speech of praise given at a funeral."
+  },
+  "euphemism": {
+    "accepted_concepts": [
+      "a mild word put in place of a harsh one",
+      "a softened substitute expression",
+      "an inoffensive term for something unpleasant",
+      "a polite stand-in phrase",
+      "a gentler way of naming something blunt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a deliberately harsher term",
+        "misconception": "inverts softening into sharpening"
+      },
+      {
+        "answer": "a short witty saying",
+        "misconception": "confuses a softened substitute with an epigram"
+      }
+    ],
+    "required_nuance": "a softer word standing in for a blunt one",
+    "mental_hook": "Says the soft thing, means the hard one.",
+    "semantic_hint": "Saying someone passed away rather than that they died."
+  },
+  "euphony": {
+    "accepted_concepts": [
+      "pleasing sound",
+      "agreeable harmony to the ear",
+      "a sweet succession of sounds",
+      "melodiousness",
+      "sound that is pleasant to hear"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "harsh discord",
+        "misconception": "inverts sweetness into cacophony"
+      },
+      {
+        "answer": "intense elation",
+        "misconception": "confuses pleasant sound with the near-twin about joy"
+      }
+    ],
+    "required_nuance": "pleasantness of sound, not of feeling",
+    "mental_hook": "Pleasant to the ear. Not the mood.",
+    "semantic_hint": "The quality of a line of verse that is lovely purely as sound."
+  },
+  "euphoria": {
+    "accepted_concepts": [
+      "intense elation",
+      "overwhelming happiness",
+      "a rush of joy",
+      "exhilaration",
+      "a state of extreme wellbeing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "despair",
+        "misconception": "inverts elation into misery"
+      },
+      {
+        "answer": "pleasant sound",
+        "misconception": "confuses the feeling with the near-twin about sound"
+      }
+    ],
+    "required_nuance": "joy at its most intense, often briefly",
+    "mental_hook": "Joy, at full volume.",
+    "semantic_hint": "The rush of feeling after winning something you never expected to."
+  },
+  "euphoric": {
+    "accepted_concepts": [
+      "intensely happy",
+      "elated",
+      "in a rush of joy",
+      "exultant",
+      "overwhelmed with wellbeing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "despondent",
+        "misconception": "inverts elation into gloom"
+      },
+      {
+        "answer": "sweet-sounding",
+        "misconception": "confuses the feeling with the near-twin about sound"
+      }
+    ],
+    "required_nuance": "joy at its highest pitch",
+    "mental_hook": "Not pleased. Flying.",
+    "semantic_hint": "How a crowd feels in the seconds after a last-minute winning goal."
+  },
+  "evade": {
+    "accepted_concepts": [
+      "avoid by cleverness",
+      "dodge",
+      "escape by contrivance",
+      "sidestep a question",
+      "get around something one should face"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to confront",
+        "misconception": "inverts dodging into facing head on"
+      },
+      {
+        "answer": "to fade away",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "escaping by cleverness rather than force",
+    "mental_hook": "Gets out of it, by wit.",
+    "semantic_hint": "What a fugitive does to a pursuer, and what a witness does to a hard question."
+  },
+  "evanescent": {
+    "accepted_concepts": [
+      "quickly fading away",
+      "vanishing almost as soon as it appears",
+      "fleeting",
+      "lasting only a moment",
+      "melting into nothing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "permanent",
+        "misconception": "inverts fading into lasting"
+      },
+      {
+        "answer": "glowing brightly",
+        "misconception": "hears the sound-alike 'incandescent'"
+      }
+    ],
+    "required_nuance": "fading as you watch it",
+    "mental_hook": "Gone while you are still looking at it.",
+    "semantic_hint": "The word for a scent or a mood that vanishes as soon as you notice it."
+  },
+  "evasive": {
+    "accepted_concepts": [
+      "deliberately avoiding directness",
+      "shifty in answering",
+      "dodging the question",
+      "unwilling to give a straight reply",
+      "slippery"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "forthright",
+        "misconception": "inverts dodging into directness"
+      },
+      {
+        "answer": "aggressive",
+        "misconception": "confuses dodging with attacking"
+      }
+    ],
+    "required_nuance": "avoiding directness on purpose",
+    "mental_hook": "Never quite answers the question.",
+    "semantic_hint": "The word for a witness who keeps almost answering."
+  },
+  "evenhanded": {
+    "accepted_concepts": [
+      "fair and impartial",
+      "treating all sides alike",
+      "unbiased",
+      "without favouritism",
+      "just in dealing with each party"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "biased toward one side",
+        "misconception": "inverts impartiality into favouritism"
+      },
+      {
+        "answer": "ambidextrous",
+        "misconception": "reads the two halves of the word literally"
+      }
+    ],
+    "required_nuance": "equal treatment of all sides",
+    "mental_hook": "Same weight in each hand.",
+    "semantic_hint": "The word for a referee who gives neither team an advantage."
+  },
+  "evident": {
+    "accepted_concepts": [
+      "plainly obvious",
+      "clear to see",
+      "apparent without explanation",
+      "manifest",
+      "needing no pointing out"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "hidden",
+        "misconception": "inverts the obvious into the concealed"
+      },
+      {
+        "answer": "proven by testimony",
+        "misconception": "hears the word 'evidence' and requires proof rather than plainness"
+      }
+    ],
+    "required_nuance": "obvious on its face",
+    "mental_hook": "You can see it. That is the whole of it.",
+    "semantic_hint": "The word for something so clear it needs no proof at all."
+  },
+  "evoke": {
+    "accepted_concepts": [
+      "bring a feeling or memory to mind",
+      "call up",
+      "summon an association",
+      "conjure a response",
+      "stir a recollection"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to suppress",
+        "misconception": "inverts calling up into pushing down"
+      },
+      {
+        "answer": "to remove a right",
+        "misconception": "hears the sound-alike 'revoke'"
+      }
+    ],
+    "required_nuance": "calling up a feeling or memory",
+    "mental_hook": "Calls it up out of you.",
+    "semantic_hint": "What an old song does to a memory of childhood."
+  },
+  "exacerbate": {
+    "accepted_concepts": [
+      "make a problem worse",
+      "aggravate",
+      "inflame an already bad situation",
+      "worsen",
+      "intensify a difficulty"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to relieve",
+        "misconception": "inverts worsening into soothing"
+      },
+      {
+        "answer": "to cause in the first place",
+        "misconception": "loses that the trouble was already there"
+      }
+    ],
+    "required_nuance": "worsening something already wrong",
+    "mental_hook": "Already bad. Now worse.",
+    "semantic_hint": "What scratching does to a rash."
+  },
+  "exacting": {
+    "accepted_concepts": [
+      "demanding great care",
+      "requiring rigorous effort",
+      "hard to satisfy",
+      "stringent in its requirements",
+      "insisting on precision"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "undemanding",
+        "misconception": "inverts rigour into leniency"
+      },
+      {
+        "answer": "precisely correct",
+        "misconception": "confuses demanding precision with being precise"
+      }
+    ],
+    "required_nuance": "it demands a great deal of whoever does it",
+    "mental_hook": "Demands a lot, and accepts nothing less.",
+    "semantic_hint": "The word for a supervisor who accepts no shortcut and no approximation."
+  },
+  "exalt": {
+    "accepted_concepts": [
+      "praise highly",
+      "raise in rank or honour",
+      "glorify",
+      "extol",
+      "lift to a higher standing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to denigrate",
+        "misconception": "inverts praising into running down"
+      },
+      {
+        "answer": "to rejoice",
+        "misconception": "hears the sound-alike 'exult'"
+      }
+    ],
+    "required_nuance": "raising someone in honour, not rejoicing oneself",
+    "mental_hook": "Raises them up. The near-twin means you rejoice.",
+    "semantic_hint": "What a coronation does to a monarch's standing."
+  },
+  "exasperate": {
+    "accepted_concepts": [
+      "irritate intensely",
+      "infuriate",
+      "try someone's patience past bearing",
+      "vex greatly",
+      "provoke to anger by persistence"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to soothe",
+        "misconception": "inverts irritating into calming"
+      },
+      {
+        "answer": "to make worse",
+        "misconception": "confuses annoying a person with worsening a problem"
+      }
+    ],
+    "required_nuance": "irritation of a person, past their patience",
+    "mental_hook": "Wears the patience right through.",
+    "semantic_hint": "What a child's fortieth question of the morning does to a parent."
+  },
+  "exasperated": {
+    "accepted_concepts": [
+      "intensely irritated",
+      "out of patience",
+      "infuriated by persistent annoyance",
+      "vexed past bearing",
+      "worn down into anger"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "patient and calm",
+        "misconception": "inverts lost patience into composure"
+      },
+      {
+        "answer": "made worse",
+        "misconception": "confuses a person's annoyance with a problem's worsening"
+      }
+    ],
+    "required_nuance": "patience worn out by repeated annoyance",
+    "mental_hook": "Patience gone, and it took a while.",
+    "semantic_hint": "How a teacher sounds after explaining the same rule six times."
+  },
+  "excise": {
+    "accepted_concepts": [
+      "cut out",
+      "remove by cutting",
+      "delete a passage",
+      "expunge",
+      "take out surgically or editorially"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to insert",
+        "misconception": "inverts cutting out into adding in"
+      },
+      {
+        "answer": "physical activity for fitness",
+        "misconception": "hears the sound-alike 'exercise'"
+      }
+    ],
+    "required_nuance": "cutting something out of a larger whole",
+    "mental_hook": "Cut out, and the rest closes over it.",
+    "semantic_hint": "What an editor does to a paragraph that has to go."
+  },
+  "excoriate": {
+    "accepted_concepts": [
+      "criticise severely",
+      "denounce harshly",
+      "castigate",
+      "flay with words",
+      "attack in the strongest terms"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "inverts harsh attack into commendation"
+      },
+      {
+        "answer": "to cut out",
+        "misconception": "confuses verbal flaying with surgical removal"
+      }
+    ],
+    "required_nuance": "criticism savage enough to strip the skin",
+    "mental_hook": "Strips the skin off, with words.",
+    "semantic_hint": "What a scathing review does to a bad film."
+  },
+  "excruciating": {
+    "accepted_concepts": [
+      "intensely painful",
+      "agonising",
+      "unbearable to endure",
+      "harrowing",
+      "causing extreme suffering"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "mild",
+        "misconception": "inverts extremity into slightness"
+      },
+      {
+        "answer": "precise and careful",
+        "misconception": "hears the sound-alike 'exacting'"
+      }
+    ],
+    "required_nuance": "pain at its most extreme",
+    "mental_hook": "Pain named after the cross.",
+    "semantic_hint": "The word for pain so severe it is impossible to think through."
+  },
+  "exculpate": {
+    "accepted_concepts": [
+      "clear from blame",
+      "show to be not at fault",
+      "absolve",
+      "acquit of a charge",
+      "free from accusation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to incriminate",
+        "misconception": "inverts clearing into blaming"
+      },
+      {
+        "answer": "to punish",
+        "misconception": "inverts release from blame into penalty"
+      }
+    ],
+    "required_nuance": "removing blame, not merely forgiving it",
+    "mental_hook": "Blame lifted off, which is the Latin.",
+    "semantic_hint": "What new evidence does for someone wrongly accused."
+  },
+  "execrable": {
+    "accepted_concepts": [
+      "extremely bad",
+      "detestable",
+      "abominable in quality",
+      "deserving to be cursed",
+      "atrocious"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "admirable",
+        "misconception": "inverts the appalling into the excellent"
+      },
+      {
+        "answer": "capable of being carried out",
+        "misconception": "hears the sound-alike 'executable'"
+      }
+    ],
+    "required_nuance": "bad enough to deserve cursing",
+    "mental_hook": "Bad enough to curse.",
+    "semantic_hint": "The word for a meal so bad it deserves to be complained about."
+  },
+  "execrate": {
+    "accepted_concepts": [
+      "detest and denounce",
+      "curse",
+      "loathe openly",
+      "abhor and say so",
+      "condemn with loathing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to adore",
+        "misconception": "inverts loathing into love"
+      },
+      {
+        "answer": "to carry out a plan",
+        "misconception": "hears the sound-alike 'execute'"
+      }
+    ],
+    "required_nuance": "loathing spoken aloud as a curse",
+    "mental_hook": "Hates it, and says so with venom.",
+    "semantic_hint": "What history does to the name of a hated tyrant."
+  },
+  "exegesis": {
+    "accepted_concepts": [
+      "a detailed critical interpretation of a text",
+      "close scholarly commentary",
+      "systematic explanation of a passage",
+      "line-by-line interpretation",
+      "an expository analysis of writing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a departure",
+        "misconception": "hears the sound-alike 'exodus'"
+      },
+      {
+        "answer": "a brief summary",
+        "misconception": "loses the detail and the interpretation"
+      }
+    ],
+    "required_nuance": "detailed interpretation, usually of a sacred or literary text",
+    "mental_hook": "Draws the meaning out, line by line.",
+    "semantic_hint": "The word for a scholar's detailed commentary on a passage of scripture."
+  },
+  "exemplar": {
+    "accepted_concepts": [
+      "a model example",
+      "a typical specimen",
+      "a pattern to be copied",
+      "an archetype",
+      "the standard instance of a type"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an exception to the type",
+        "misconception": "inverts the typical case into the outlier"
+      },
+      {
+        "answer": "a written copy of a book",
+        "misconception": "takes an old bibliographic sense for the tested one"
+      }
+    ],
+    "required_nuance": "a model worth copying or a typical instance",
+    "mental_hook": "The one you point to and say: like that.",
+    "semantic_hint": "The word for the single specimen everyone treats as the model."
+  },
+  "exemplify": {
+    "accepted_concepts": [
+      "be a typical example of",
+      "illustrate by being an instance",
+      "typify",
+      "embody a quality",
+      "show by serving as a case"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to contradict the type",
+        "misconception": "inverts illustrating into disproving"
+      },
+      {
+        "answer": "to make simpler",
+        "misconception": "hears the sound-alike 'simplify'"
+      }
+    ],
+    "required_nuance": "being the instance that shows the type",
+    "mental_hook": "Not describes the type. Is it.",
+    "semantic_hint": "What one building does when it shows a whole architectural style perfectly."
+  },
+  "exert": {
+    "accepted_concepts": [
+      "apply effort or force",
+      "bring influence to bear",
+      "wield a power",
+      "put forth strength",
+      "use an ability actively"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to withhold",
+        "misconception": "inverts applying force into holding it back"
+      },
+      {
+        "answer": "to leave a place",
+        "misconception": "hears the word 'exit'"
+      }
+    ],
+    "required_nuance": "putting force or influence to work",
+    "mental_hook": "Puts the force to work.",
+    "semantic_hint": "What a large shareholder does with their influence over a board."
+  },
+  "exertion": {
+    "accepted_concepts": [
+      "great physical or mental effort",
+      "strenuous labour",
+      "the putting forth of strength",
+      "hard strain",
+      "energy expended"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "rest",
+        "misconception": "inverts effort into idleness"
+      },
+      {
+        "answer": "the act of leaving",
+        "misconception": "hears the word 'exit'"
+      }
+    ],
+    "required_nuance": "effort that costs real energy",
+    "mental_hook": "Effort you can feel afterwards.",
+    "semantic_hint": "What leaves someone breathless after carrying furniture upstairs."
+  },
+  "exhaustive": {
+    "accepted_concepts": [
+      "complete and thorough",
+      "leaving nothing out",
+      "covering every case",
+      "comprehensive",
+      "as full as it can be"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cursory",
+        "misconception": "inverts thoroughness into a quick glance"
+      },
+      {
+        "answer": "very tiring",
+        "misconception": "confuses covering everything with the near-twin about being worn out"
+      }
+    ],
+    "required_nuance": "complete in coverage, not tiring in effect",
+    "mental_hook": "Covers everything. The near-twin tires you out.",
+    "semantic_hint": "The word for a search that has covered every single possibility."
+  },
+  "exhilarating": {
+    "accepted_concepts": [
+      "thrilling",
+      "invigorating",
+      "making one feel intensely alive",
+      "electrifying",
+      "rousing and enlivening"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dull",
+        "misconception": "inverts the thrilling into the flat"
+      },
+      {
+        "answer": "utterly draining",
+        "misconception": "hears the sound-alike about being worn out"
+      }
+    ],
+    "required_nuance": "thrilling in a way that energises",
+    "mental_hook": "Thrilling, and it leaves you charged.",
+    "semantic_hint": "How a first ride down a mountain on skis feels."
+  },
+  "exhort": {
+    "accepted_concepts": [
+      "strongly urge to act",
+      "press someone earnestly",
+      "spur on with words",
+      "urge insistently",
+      "encourage forcefully"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to discourage",
+        "misconception": "inverts urging on into holding back"
+      },
+      {
+        "answer": "to demand money by threat",
+        "misconception": "hears the sound-alike 'extort'"
+      }
+    ],
+    "required_nuance": "urging strongly, by words, to act",
+    "mental_hook": "Urges them on, hard.",
+    "semantic_hint": "What a captain does to a team at half-time."
+  },
+  "exigency": {
+    "accepted_concepts": [
+      "an urgent need",
+      "a pressing demand",
+      "an emergency requiring action",
+      "a situation that will not wait",
+      "a demand of the moment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a trivial matter",
+        "misconception": "inverts urgency into unimportance"
+      },
+      {
+        "answer": "a way out",
+        "misconception": "hears the word 'exit'"
+      }
+    ],
+    "required_nuance": "an urgent demand the situation imposes",
+    "mental_hook": "The situation demands it, and now.",
+    "semantic_hint": "The word for a pressing demand a crisis imposes on whoever is in charge."
+  },
+  "exigent": {
+    "accepted_concepts": [
+      "urgent",
+      "demanding immediate attention",
+      "pressing",
+      "requiring action now",
+      "critical in timing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "safely deferrable",
+        "misconception": "inverts urgency into something that can wait"
+      },
+      {
+        "answer": "existing",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "it will not wait",
+    "mental_hook": "Cannot wait.",
+    "semantic_hint": "The word for circumstances so pressing the police may enter without a warrant."
+  },
+  "exiguity": {
+    "accepted_concepts": [
+      "extreme scantiness",
+      "meagreness",
+      "smallness of amount",
+      "scarcity",
+      "the state of being barely enough"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "abundance",
+        "misconception": "inverts scantiness into plenty"
+      },
+      {
+        "answer": "the act of leaving",
+        "misconception": "hears the word 'exit'"
+      }
+    ],
+    "required_nuance": "scantiness of quantity",
+    "mental_hook": "So little it barely counts.",
+    "semantic_hint": "The word for how painfully small a research budget is."
+  },
+  "exonerate": {
+    "accepted_concepts": [
+      "clear of blame",
+      "absolve of an accusation",
+      "acquit",
+      "vindicate",
+      "free from the charge"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to incriminate",
+        "misconception": "inverts clearing into accusing"
+      },
+      {
+        "answer": "to pardon a proven offender",
+        "misconception": "confuses being shown blameless with being forgiven while guilty"
+      }
+    ],
+    "required_nuance": "shown not to have done it, rather than forgiven for doing it",
+    "mental_hook": "The burden lifted off, which is the Latin.",
+    "semantic_hint": "What a court does when it finds the accused was never guilty at all."
+  }
+}
