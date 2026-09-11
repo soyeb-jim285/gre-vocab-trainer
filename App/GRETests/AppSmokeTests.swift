@@ -15,13 +15,18 @@ struct AppSmokeTests {
     /// no screen can go stale behind a write.
     private let index = MasteryIndex()
 
-    /// Walks past the teaching card every unmet word now starts with.
+    /// Walks past the teaching cards to the next real question.
     ///
-    /// Teaching schedules nothing, so the word stays due and the very next card
-    /// is a real question about it.
+    /// A small batch of words is met before any of them is questioned, so this
+    /// may have to step past several. Bounded, so a queue that only ever teaches
+    /// fails the test rather than hanging it.
     @discardableResult
     private func drill(_ model: SessionViewModel) throws -> SessionItem {
-        if case .introduce? = model.current { model.finishIntroduction() }
+        var taught = 0
+        while case .introduce? = model.current, taught < 10 {
+            model.finishIntroduction()
+            taught += 1
+        }
         return try #require(model.current?.item)
     }
 
@@ -78,10 +83,11 @@ struct AppSmokeTests {
             return
         }
         #expect(card.isIntroduced == false)
-        model.finishIntroduction()
 
-        let first = try #require(model.current?.item)
-        #expect(first.word.id == word.id, "the question should be about the word just taught")
+        // A batch is met first, then questioned in the order it was met, so the
+        // first question is about the first word taught.
+        let first = try drill(model)
+        #expect(first.word.id == word.id, "the batch should be questioned in the order it was met")
         #expect(first.mode == .multipleChoice)
 
         await model.submit(.choice(first.word.teachingDefinition))
