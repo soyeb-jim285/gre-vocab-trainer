@@ -1,0 +1,442 @@
+{
+  "inscrutable": {
+    "accepted_concepts": [
+      "impossible to interpret",
+      "giving nothing away",
+      "enigmatic",
+      "unreadable in expression",
+      "not to be understood from the outside"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "transparent and easy to read",
+        "misconception": "inverts the unreadable into the open"
+      },
+      {
+        "answer": "unable to be trusted",
+        "misconception": "confuses being unreadable with being dishonest"
+      }
+    ],
+    "required_nuance": "cannot be read or interpreted",
+    "mental_hook": "Nothing shows, and nothing can be guessed.",
+    "semantic_hint": "The word for a face that reveals nothing at the card table."
+  },
+  "insensate": {
+    "accepted_concepts": [
+      "lacking feeling",
+      "without sensation",
+      "unfeeling toward others",
+      "brutishly without sense",
+      "incapable of emotion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "keenly compassionate",
+        "misconception": "inverts unfeeling into sympathetic"
+      },
+      {
+        "answer": "unaware because unconscious",
+        "misconception": "confuses lacking feeling with the near-twin about being knocked out"
+      }
+    ],
+    "required_nuance": "without feeling, whether sensation or compassion",
+    "mental_hook": "Feels nothing, and cares nothing.",
+    "semantic_hint": "The word for violence described as blind and unfeeling."
+  },
+  "insensible": {
+    "accepted_concepts": [
+      "unconscious",
+      "unaware of something",
+      "oblivious to what is happening",
+      "not perceiving",
+      "too slight to be noticed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "fully aware",
+        "misconception": "inverts obliviousness into awareness"
+      },
+      {
+        "answer": "lacking all compassion",
+        "misconception": "confuses being unaware with the near-twin about being unfeeling"
+      }
+    ],
+    "required_nuance": "unaware, or below the threshold of notice",
+    "mental_hook": "Does not notice, or cannot.",
+    "semantic_hint": "The word for someone knocked out cold, and for change too slow to see."
+  },
+  "insidious": {
+    "accepted_concepts": [
+      "harmful in a gradual hidden way",
+      "spreading damage unnoticed",
+      "stealthily treacherous",
+      "doing harm before it is detected",
+      "subtle and dangerous"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "obviously harmful",
+        "misconception": "inverts the hidden into the plain"
+      },
+      {
+        "answer": "harmless",
+        "misconception": "inverts damage into safety"
+      }
+    ],
+    "required_nuance": "harm that works unseen until it is far advanced",
+    "mental_hook": "By the time you see it, it is late.",
+    "semantic_hint": "The word for a disease that does its damage before any symptom appears."
+  },
+  "insinuate": {
+    "accepted_concepts": [
+      "suggest slyly",
+      "hint at something unpleasant",
+      "imply without stating",
+      "work oneself in gradually",
+      "edge into a position by degrees"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to state outright",
+        "misconception": "inverts a sly hint into a plain declaration"
+      },
+      {
+        "answer": "to conclude from evidence",
+        "misconception": "confuses the speaker's hinting with the listener's deducing"
+      }
+    ],
+    "required_nuance": "suggesting without saying, or easing in unnoticed",
+    "mental_hook": "Never says it. You still heard it.",
+    "semantic_hint": "What a remark does when it implies dishonesty without alleging it."
+  },
+  "insipid": {
+    "accepted_concepts": [
+      "bland",
+      "lacking flavour or interest",
+      "vapid",
+      "dull and without character",
+      "flat to the taste or the mind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "sharply stimulating",
+        "misconception": "inverts blandness into piquancy"
+      },
+      {
+        "answer": "foolish",
+        "misconception": "confuses dullness with stupidity"
+      }
+    ],
+    "required_nuance": "without flavour or interest, in food or in art",
+    "mental_hook": "No flavour, in food or in prose.",
+    "semantic_hint": "The word for soup with nothing in it and a novel with nothing in it."
+  },
+  "insist": {
+    "accepted_concepts": [
+      "demand firmly",
+      "maintain a position against opposition",
+      "assert without backing down",
+      "press a point repeatedly",
+      "refuse to give way on it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to concede",
+        "misconception": "inverts standing firm into giving way"
+      },
+      {
+        "answer": "to help",
+        "misconception": "hears the sound-alike about assisting"
+      }
+    ],
+    "required_nuance": "holding to it despite resistance",
+    "mental_hook": "Says it again, and will not drop it.",
+    "semantic_hint": "What someone does by repeating a demand until it is met."
+  },
+  "insolence": {
+    "accepted_concepts": [
+      "rude disrespectful behaviour",
+      "impudence toward a superior",
+      "contemptuous rudeness",
+      "effrontery",
+      "offensive boldness of manner"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deference",
+        "misconception": "inverts rudeness into respect"
+      },
+      {
+        "answer": "inability to pay debts",
+        "misconception": "confuses rudeness with the near-twin about bankruptcy"
+      }
+    ],
+    "required_nuance": "rudeness with contempt in it",
+    "mental_hook": "Rude, and meant to be.",
+    "semantic_hint": "The word for a shrug given to a direct order from a superior."
+  },
+  "insolent": {
+    "accepted_concepts": [
+      "rude and disrespectful",
+      "contemptuous toward authority",
+      "impudent in manner",
+      "offensively bold",
+      "showing open disrespect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "courteous",
+        "misconception": "inverts rudeness into politeness"
+      },
+      {
+        "answer": "unable to pay one's debts",
+        "misconception": "confuses rudeness with the near-twin about bankruptcy"
+      }
+    ],
+    "required_nuance": "disrespect, shown openly and with contempt",
+    "mental_hook": "Rude. The near-twin means broke.",
+    "semantic_hint": "The word for a reply that treats a superior with open contempt."
+  },
+  "insolvent": {
+    "accepted_concepts": [
+      "unable to pay debts",
+      "bankrupt",
+      "without the funds to meet obligations",
+      "financially ruined",
+      "owing more than one can pay"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "financially sound",
+        "misconception": "inverts bankruptcy into solvency"
+      },
+      {
+        "answer": "rudely disrespectful",
+        "misconception": "confuses bankruptcy with the near-twin about rudeness"
+      }
+    ],
+    "required_nuance": "cannot pay what is owed",
+    "mental_hook": "Cannot pay. The near-twin is merely rude.",
+    "semantic_hint": "The word for a company that can no longer meet its debts."
+  },
+  "insouciance": {
+    "accepted_concepts": [
+      "casual lack of concern",
+      "nonchalance",
+      "an easy indifference to worry",
+      "carefree unconcern",
+      "airy lack of anxiety"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deep anxiety",
+        "misconception": "inverts unconcern into worry"
+      },
+      {
+        "answer": "callous cruelty",
+        "misconception": "overstates light unconcern into hardness"
+      }
+    ],
+    "required_nuance": "unconcern worn lightly, almost with style",
+    "mental_hook": "Not worried, and rather stylish about it.",
+    "semantic_hint": "The word for a shrug at bad news delivered with perfect calm."
+  },
+  "inspire": {
+    "accepted_concepts": [
+      "stimulate to action",
+      "fill someone with the urge to do something",
+      "motivate",
+      "stir into effort",
+      "give rise to a feeling in someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to discourage",
+        "misconception": "inverts stirring into deterring"
+      },
+      {
+        "answer": "to plot secretly",
+        "misconception": "hears the sound-alike about conspiring"
+      }
+    ],
+    "required_nuance": "putting the impulse into someone",
+    "mental_hook": "Breathes it into them, which is the Latin.",
+    "semantic_hint": "What a great teacher does to a student's ambition."
+  },
+  "instance": {
+    "accepted_concepts": [
+      "a particular case",
+      "an example of a general thing",
+      "a single occurrence",
+      "a case in point",
+      "one occasion of something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the general rule",
+        "misconception": "inverts one case into the whole class"
+      },
+      {
+        "answer": "immediately",
+        "misconception": "hears the sound-alike about instantness"
+      }
+    ],
+    "required_nuance": "one particular case of a general thing",
+    "mental_hook": "One case, of many.",
+    "semantic_hint": "The word for a single example offered to illustrate a pattern."
+  },
+  "institute": {
+    "accepted_concepts": [
+      "establish formally",
+      "set in motion",
+      "found an arrangement",
+      "initiate proceedings",
+      "bring a practice into being"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to abolish",
+        "misconception": "inverts establishing into ending"
+      },
+      {
+        "answer": "an academic body",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "setting something up or starting it formally",
+    "mental_hook": "Sets it up, formally.",
+    "semantic_hint": "What a company does when it starts legal proceedings."
+  },
+  "insufferable": {
+    "accepted_concepts": [
+      "unbearable",
+      "intolerable to be around",
+      "obnoxious past enduring",
+      "impossible to put up with",
+      "unbearably arrogant"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pleasant company",
+        "misconception": "inverts the intolerable into the agreeable"
+      },
+      {
+        "answer": "incapable of feeling pain",
+        "misconception": "reads the root as the person not suffering"
+      }
+    ],
+    "required_nuance": "unbearable, usually through arrogance",
+    "mental_hook": "You cannot stand another minute.",
+    "semantic_hint": "The word for someone unbearably pleased with themselves."
+  },
+  "insular": {
+    "accepted_concepts": [
+      "narrow-minded",
+      "inward-looking",
+      "cut off from wider influence",
+      "parochial in outlook",
+      "isolated from other ideas"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cosmopolitan",
+        "misconception": "inverts narrowness into worldliness"
+      },
+      {
+        "answer": "providing warmth",
+        "misconception": "hears the sound-alike about insulation"
+      }
+    ],
+    "required_nuance": "narrow because cut off, like an island",
+    "mental_hook": "Island-minded.",
+    "semantic_hint": "The word for a village that takes no interest in anywhere else."
+  },
+  "insularity": {
+    "accepted_concepts": [
+      "narrowness of outlook",
+      "parochialism",
+      "isolation from wider influence",
+      "an inward-looking habit of mind",
+      "provincial narrowness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "openness to the world",
+        "misconception": "inverts narrowness into cosmopolitanism"
+      },
+      {
+        "answer": "material that keeps heat in",
+        "misconception": "hears the sound-alike about insulation"
+      }
+    ],
+    "required_nuance": "the narrowness that comes of being cut off",
+    "mental_hook": "The island, as a state of mind.",
+    "semantic_hint": "The word for a profession that reads only its own journals."
+  },
+  "insurgent": {
+    "accepted_concepts": [
+      "a rebel against authority",
+      "someone taking up arms against a government",
+      "a revolutionary fighter",
+      "a member of an armed rising",
+      "one in revolt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a loyalist",
+        "misconception": "inverts the rebel into the supporter of authority"
+      },
+      {
+        "answer": "an emergency",
+        "misconception": "hears the sound-alike about urgency"
+      }
+    ],
+    "required_nuance": "actively in revolt, usually armed",
+    "mental_hook": "Risen up, and fighting.",
+    "semantic_hint": "The word for a fighter in an armed revolt against a government."
+  },
+  "insurrection": {
+    "accepted_concepts": [
+      "a violent uprising against authority",
+      "an armed revolt",
+      "a rebellion against the state",
+      "a rising to overthrow a government",
+      "organised armed defiance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "obedient submission",
+        "misconception": "inverts revolt into compliance"
+      },
+      {
+        "answer": "a rising from the dead",
+        "misconception": "hears the sound-alike about resurrection"
+      }
+    ],
+    "required_nuance": "an armed rising against authority",
+    "mental_hook": "A rising. With force.",
+    "semantic_hint": "The charge brought after an armed attempt to overthrow a government."
+  },
+  "intelligible": {
+    "accepted_concepts": [
+      "able to be understood",
+      "comprehensible",
+      "clear enough to follow",
+      "making sense to a listener",
+      "lucid"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "impossible to understand",
+        "misconception": "inverts the comprehensible into the obscure"
+      },
+      {
+        "answer": "highly clever",
+        "misconception": "confuses being understandable with being intelligent"
+      }
+    ],
+    "required_nuance": "capable of being understood, not necessarily clever",
+    "mental_hook": "Can be understood. Says nothing about clever.",
+    "semantic_hint": "The word for speech clear enough to follow over a bad line."
+  }
+}
