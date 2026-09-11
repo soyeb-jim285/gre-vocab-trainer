@@ -291,7 +291,7 @@
       "temerity",
       "chicanery"
     ],
-    "stem": "Whatever he felt about the ruling, he maintained a _____ in the courtroom that his own supporters outside found infuriating."
+    "stem": "Whatever he felt about the ruling, he maintained the _____ expected in a courtroom, which his own supporters outside found infuriating."
   },
   "tc-delineate-1": {
     "answers": [
@@ -451,10 +451,10 @@
     "kind": "textCompletion",
     "options": [
       "dupe",
-      "apprise",
+      "cajole",
       "disabuse",
       "edify",
-      "corroborate"
+      "apprise"
     ],
     "stem": "The scheme worked because it was dull: nothing about a quarterly statement full of small steady gains looks designed to _____ anyone."
   },
@@ -651,7 +651,7 @@
       "martinet",
       "apostate"
     ],
-    "stem": "The board wanted a safe pair of hands and got a _____ who spent his first month questioning every assumption in the strategy."
+    "stem": "The board wanted a safe pair of hands and got the _____ of the department, who spent his first month questioning every assumption in the strategy."
   },
   "tc-obstinate-1": {
     "answers": [

@@ -156,10 +156,21 @@ def check(item_id: str, item: dict, words: dict[str, dict]) -> list[str]:
         if option not in words:
             problems.append(f"{item_id}: option '{option}' is not in the dataset")
 
-    # A stem that uses the answer word, or a form of it, answers itself.
-    for answer in answers:
-        if names(stem, answer):
-            problems.append(f"{item_id}: the stem gives away '{answer}'")
+    # A stem that uses any option, or a form of it, decides that option for the
+    # reader: the answer if it is the answer, and an easy elimination if not.
+    for option in options:
+        if names(stem, option):
+            problems.append(f"{item_id}: the stem uses '{option}'")
+
+    # "a _____" and "an _____" eliminate half the options on grammar. Either
+    # every option starts with a vowel or none does, or the stem has to be
+    # reworded around the article.
+    article = re.search(rf"\b(an?)\s+{re.escape(BLANK)}", stem, re.I)
+    if article:
+        vowels = {o[:1].lower() in "aeiou" for o in options}
+        if len(vowels) > 1:
+            problems.append(f"{item_id}: '{article.group(1)} {BLANK}' picks the options "
+                            "that start with a vowel")
 
     # Options that are not the same part of speech do not fit the blank
     # grammatically, so they are eliminated without reading the sentence.
