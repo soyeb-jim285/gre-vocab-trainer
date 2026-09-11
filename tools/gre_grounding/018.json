@@ -1318,5 +1318,885 @@
     "mental_hook": "Stingy. The sound-alike means wretched.",
     "required_nuance": "stingy, not unhappy",
     "semantic_hint": "The word for a pay rise of one percent after a record year."
+  },
+  "misnomer": {
+    "accepted_concepts": [
+      "an inaccurate name",
+      "a name that misdescribes the thing",
+      "a wrongly applied title",
+      "a label that does not fit",
+      "an unsuitable designation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an exactly right name",
+        "misconception": "inverts a wrong name into a fitting one"
+      },
+      {
+        "answer": "a forgotten name",
+        "misconception": "confuses an inaccurate name with one nobody remembers"
+      }
+    ],
+    "required_nuance": "the name is wrong for what it names",
+    "mental_hook": "Called that, and should not be.",
+    "semantic_hint": "Why calling a peanut a nut is a mistake in naming."
+  },
+  "misogynist": {
+    "accepted_concepts": [
+      "one who hates women",
+      "a person contemptuous of women",
+      "someone with an ingrained prejudice against women",
+      "a woman-hater",
+      "one who despises women as a class"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "one who hates humankind generally",
+        "misconception": "widens hatred of women into hatred of everyone"
+      },
+      {
+        "answer": "someone who admires women",
+        "misconception": "inverts contempt into admiration"
+      }
+    ],
+    "required_nuance": "the hatred is directed at women specifically",
+    "mental_hook": "Hates women. Specifically.",
+    "semantic_hint": "The word for someone whose contempt is reserved entirely for women."
+  },
+  "missive": {
+    "accepted_concepts": [
+      "a letter",
+      "a written communication",
+      "a formal dispatch",
+      "a sent message in writing",
+      "a letter, usually official"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a spoken message",
+        "misconception": "inverts a written letter into speech"
+      },
+      {
+        "answer": "a launched weapon",
+        "misconception": "hears the sound-alike about a rocket"
+      }
+    ],
+    "required_nuance": "a written letter, usually formal",
+    "mental_hook": "A letter, said grandly.",
+    "semantic_hint": "The word for a lengthy formal letter from a solicitor."
+  },
+  "mite": {
+    "accepted_concepts": [
+      "a very small amount",
+      "a tiny creature",
+      "a scrap of something",
+      "a speck",
+      "the least bit"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a huge quantity",
+        "misconception": "inverts a tiny amount into a great one"
+      },
+      {
+        "answer": "strength or power",
+        "misconception": "hears the sound-alike about might"
+      }
+    ],
+    "required_nuance": "something very small, in amount or in creature",
+    "mental_hook": "The smallest thing there is.",
+    "semantic_hint": "What the widow in the parable gave, and what lives in dust."
+  },
+  "mitigate": {
+    "accepted_concepts": [
+      "make less severe",
+      "lessen the force of",
+      "alleviate the harshness of",
+      "temper something harsh",
+      "reduce the damage"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to aggravate",
+        "misconception": "inverts softening into worsening"
+      },
+      {
+        "answer": "to weigh against a proposal",
+        "misconception": "confuses lessening harm with the near-twin about counting against"
+      }
+    ],
+    "required_nuance": "making something harsh less so",
+    "mental_hook": "Softens it. The near-twin weighs against.",
+    "semantic_hint": "What a good insulation programme does to fuel poverty."
+  },
+  "mode": {
+    "accepted_concepts": [
+      "a way of doing something",
+      "a manner or method",
+      "a particular form of operation",
+      "the fashion in which a thing is done",
+      "a style of working"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the reason for doing it",
+        "misconception": "confuses the manner with the motive"
+      },
+      {
+        "answer": "a small amount",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "the manner or method, not the purpose",
+    "mental_hook": "How, not why.",
+    "semantic_hint": "The word for a way of travelling, whether rail, road or air."
+  },
+  "modest": {
+    "accepted_concepts": [
+      "unassuming about oneself",
+      "moderate in size or amount",
+      "humble in self-estimate",
+      "not showy",
+      "reasonable rather than extravagant"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "boastful",
+        "misconception": "inverts unassuming into self-advertising"
+      },
+      {
+        "answer": "enormous",
+        "misconception": "inverts moderate size into great size"
+      }
+    ],
+    "required_nuance": "unassuming in manner, or moderate in scale",
+    "mental_hook": "Does not boast, or is not large.",
+    "semantic_hint": "The word for someone who plays down their achievements, and for a small house."
+  },
+  "modicum": {
+    "accepted_concepts": [
+      "a small amount",
+      "a scrap of something",
+      "the smallest measure of a quality",
+      "a trace",
+      "just a little"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an abundance",
+        "misconception": "inverts a small amount into plenty"
+      },
+      {
+        "answer": "a way of doing something",
+        "misconception": "confuses a small amount with the near-twin about manner"
+      }
+    ],
+    "required_nuance": "a small but real quantity",
+    "mental_hook": "A little. Not none.",
+    "semantic_hint": "The phrase asking for just a small amount of common sense."
+  },
+  "modish": {
+    "accepted_concepts": [
+      "fashionable",
+      "in the current style",
+      "trendy, often superficially",
+      "chic of the moment",
+      "following the latest taste"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unfashionable",
+        "misconception": "inverts the stylish into the outdated"
+      },
+      {
+        "answer": "moderate in amount",
+        "misconception": "confuses being in fashion with the near-twin about small quantity"
+      }
+    ],
+    "required_nuance": "in fashion now, and perhaps only now",
+    "mental_hook": "In style, and probably not next year.",
+    "semantic_hint": "The word for a design that is fashionable and will date quickly."
+  },
+  "mollify": {
+    "accepted_concepts": [
+      "soothe anger",
+      "appease someone upset",
+      "placate",
+      "calm down a person's feelings",
+      "pacify by concession"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to enrage",
+        "misconception": "inverts soothing into provoking"
+      },
+      {
+        "answer": "to make physically soft",
+        "misconception": "takes the root about softening literally"
+      }
+    ],
+    "required_nuance": "soothing a person's anger",
+    "mental_hook": "Softens the temper.",
+    "semantic_hint": "What an apology and a refund do to an angry customer."
+  },
+  "molt": {
+    "accepted_concepts": [
+      "shed feathers or skin",
+      "cast off an outer covering",
+      "slough the old layer",
+      "lose the coat to grow a new one",
+      "shed periodically"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to grow a covering for the first time",
+        "misconception": "inverts shedding into acquiring"
+      },
+      {
+        "answer": "to melt",
+        "misconception": "hears the sound-alike about liquefying"
+      }
+    ],
+    "required_nuance": "shedding an outer covering to replace it",
+    "mental_hook": "Off with the old coat.",
+    "semantic_hint": "What a snake does to its skin, and a bird to its feathers."
+  },
+  "moment": {
+    "accepted_concepts": [
+      "importance",
+      "consequence in the scheme of things",
+      "significance of a matter",
+      "a brief instant",
+      "weight of significance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "triviality",
+        "misconception": "inverts significance into unimportance"
+      },
+      {
+        "answer": "only a short time",
+        "misconception": "misses the tested sense of importance"
+      }
+    ],
+    "required_nuance": "the tested sense is importance, not duration",
+    "mental_hook": "A matter of great moment is an important one.",
+    "semantic_hint": "What a decision has when it is described as of great consequence."
+  },
+  "momentary": {
+    "accepted_concepts": [
+      "lasting only an instant",
+      "brief",
+      "over almost at once",
+      "fleeting in duration",
+      "passing in a second"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "permanent",
+        "misconception": "inverts brevity into lasting"
+      },
+      {
+        "answer": "of great importance",
+        "misconception": "confuses duration with the near-twin about significance"
+      }
+    ],
+    "required_nuance": "duration, not importance",
+    "mental_hook": "Short. The near-twin noun means important.",
+    "semantic_hint": "The word for a flicker of doubt that lasts a second."
+  },
+  "monastic": {
+    "accepted_concepts": [
+      "severely simple and secluded",
+      "ascetic in habit",
+      "cloistered from the world",
+      "austere in living",
+      "withdrawn and plain in life"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "worldly and indulgent",
+        "misconception": "inverts austere seclusion into luxury"
+      },
+      {
+        "answer": "relating to a single ruler",
+        "misconception": "hears the sound-alike about rule by one person"
+      }
+    ],
+    "required_nuance": "simple, secluded and austere",
+    "mental_hook": "A cell, a desk, and nothing else.",
+    "semantic_hint": "The word for a writer's life of plain food and total seclusion."
+  },
+  "monetary": {
+    "accepted_concepts": [
+      "relating to money",
+      "concerning currency and its supply",
+      "financial",
+      "to do with money as such",
+      "pecuniary"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to goods bartered",
+        "misconception": "inverts money into exchange without it"
+      },
+      {
+        "answer": "having great importance",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "about money itself, especially its supply",
+    "mental_hook": "About the money supply.",
+    "semantic_hint": "The word for a central bank's policy on interest rates."
+  },
+  "monotonous": {
+    "accepted_concepts": [
+      "dull through lack of variety",
+      "repetitive without relief",
+      "unvarying and tedious",
+      "always the same",
+      "wearisome in its sameness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "varied and lively",
+        "misconception": "inverts sameness into variety"
+      },
+      {
+        "answer": "extremely loud",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "tedious because nothing changes",
+    "mental_hook": "Same note. Over and over.",
+    "semantic_hint": "The word for a voice that stays on one pitch for an hour."
+  },
+  "monotony": {
+    "accepted_concepts": [
+      "tedious sameness",
+      "the dullness of unchanging routine",
+      "wearisome uniformity",
+      "tedium from lack of variety",
+      "unbroken repetition"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "variety",
+        "misconception": "inverts sameness into diversity"
+      },
+      {
+        "answer": "great wealth",
+        "misconception": "hears the root about money"
+      }
+    ],
+    "required_nuance": "the sameness itself, as a condition",
+    "mental_hook": "The sameness, named.",
+    "semantic_hint": "The word for what a long flat drive across a plain becomes."
+  },
+  "moot": {
+    "accepted_concepts": [
+      "debatable",
+      "open to argument",
+      "no longer of practical relevance",
+      "academic now that events have moved on",
+      "arguable either way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "definitively settled",
+        "misconception": "inverts the arguable into the decided"
+      },
+      {
+        "answer": "to make a noise like a cow",
+        "misconception": "hears the sound-alike animal noise"
+      }
+    ],
+    "required_nuance": "open to argument, or now beside the point",
+    "mental_hook": "Arguable, or no longer worth arguing.",
+    "semantic_hint": "What a question becomes once the decision has already been made."
+  },
+  "morass": {
+    "accepted_concepts": [
+      "a confusing entangling situation",
+      "a quagmire one cannot get out of",
+      "a swamp of complications",
+      "a tangle that bogs everything down",
+      "a boggy stretch of ground"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfect clarity",
+        "misconception": "inverts a confusing tangle into clearness"
+      },
+      {
+        "answer": "a mass of people",
+        "misconception": "hears the sound-alike about a crowd"
+      }
+    ],
+    "required_nuance": "an entangling mess one sinks into",
+    "mental_hook": "A swamp, and you are in it.",
+    "semantic_hint": "The word for a legal situation nobody can extract themselves from."
+  },
+  "moratorium": {
+    "accepted_concepts": [
+      "an official temporary suspension",
+      "a formal pause in an activity",
+      "a freeze imposed for a period",
+      "a halt declared while things are considered",
+      "an agreed stoppage for now"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a permanent ban",
+        "misconception": "loses the temporary nature that defines it"
+      },
+      {
+        "answer": "a place for the dead",
+        "misconception": "hears the sound-alike about a mortuary"
+      }
+    ],
+    "required_nuance": "official, and temporary",
+    "mental_hook": "Stopped, officially, for now.",
+    "semantic_hint": "The word for a formal pause on new drilling while a review runs."
+  },
+  "morbid": {
+    "accepted_concepts": [
+      "unhealthily preoccupied with death",
+      "dwelling on the gruesome",
+      "ghoulish in interest",
+      "gloomy in a diseased way",
+      "fixated on what is grim"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "wholesome and cheerful",
+        "misconception": "inverts a grim fixation into healthy good spirits"
+      },
+      {
+        "answer": "physically overweight",
+        "misconception": "hears the phrase about obesity and takes it as the meaning"
+      }
+    ],
+    "required_nuance": "an unhealthy preoccupation with death or gloom",
+    "mental_hook": "Interested in death, and too interested.",
+    "semantic_hint": "The word for a fascination with the details of a disaster."
+  },
+  "mordant": {
+    "accepted_concepts": [
+      "bitingly sarcastic",
+      "caustic in wit",
+      "sharply cutting in humour",
+      "trenchant and acid",
+      "harshly ironic"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "gentle and bland",
+        "misconception": "inverts biting wit into mildness"
+      },
+      {
+        "answer": "in decline and near death",
+        "misconception": "confuses biting wit with the near-twin about dying"
+      }
+    ],
+    "required_nuance": "biting wit, not decline",
+    "mental_hook": "Bites, which is the French.",
+    "semantic_hint": "The word for a critic whose wit draws blood."
+  },
+  "moreover": {
+    "accepted_concepts": [
+      "in addition",
+      "furthermore",
+      "besides what has been said",
+      "as a further point",
+      "additionally"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "on the contrary",
+        "misconception": "inverts adding a point into opposing one"
+      },
+      {
+        "answer": "finally",
+        "misconception": "confuses adding a further point with closing the list"
+      }
+    ],
+    "required_nuance": "adding a further point to the same argument",
+    "mental_hook": "And there is more.",
+    "semantic_hint": "The word that introduces a further point on the same side."
+  },
+  "mores": {
+    "accepted_concepts": [
+      "the accepted customs of a community",
+      "conventions a society lives by",
+      "the unwritten rules of a group",
+      "established social norms",
+      "customary standards of behaviour"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "written laws",
+        "misconception": "confuses unwritten custom with codified law"
+      },
+      {
+        "answer": "a greater quantity",
+        "misconception": "hears it as a plural of the everyday word"
+      }
+    ],
+    "required_nuance": "customs, and unwritten",
+    "mental_hook": "The rules nobody wrote down.",
+    "semantic_hint": "The word for the unwritten social rules of a small town."
+  },
+  "moribund": {
+    "accepted_concepts": [
+      "in decline and near death",
+      "dying out",
+      "stagnant and failing",
+      "at the point of extinction",
+      "no longer viable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "thriving",
+        "misconception": "inverts decline into flourishing"
+      },
+      {
+        "answer": "bitingly sarcastic",
+        "misconception": "confuses decline with the near-twin about caustic wit"
+      }
+    ],
+    "required_nuance": "dying, but not yet dead",
+    "mental_hook": "Dying. Not dead yet.",
+    "semantic_hint": "The word for an industry with no new entrants and shrinking orders."
+  },
+  "morose": {
+    "accepted_concepts": [
+      "gloomy and sullen",
+      "silently bad-tempered",
+      "glum and withdrawn",
+      "saturnine",
+      "sunk in low spirits"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "genial",
+        "misconception": "inverts gloom into good cheer"
+      },
+      {
+        "answer": "aggressive",
+        "misconception": "confuses sullen gloom with open hostility"
+      }
+    ],
+    "required_nuance": "gloom with sullenness in it",
+    "mental_hook": "Gloomy, and not talking about it.",
+    "semantic_hint": "The word for someone who sits silent and glowering all evening."
+  },
+  "morph": {
+    "accepted_concepts": [
+      "change gradually into something else",
+      "transform by degrees",
+      "shift form over time",
+      "evolve into another shape",
+      "turn into something different"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to stay exactly the same",
+        "misconception": "inverts changing into remaining"
+      },
+      {
+        "answer": "to sleep deeply",
+        "misconception": "hears the sound-alike about a sleeping drug"
+      }
+    ],
+    "required_nuance": "changing form, and usually gradually",
+    "mental_hook": "Becomes something else, slowly.",
+    "semantic_hint": "What a protest movement does when it turns into a political party."
+  },
+  "mortify": {
+    "accepted_concepts": [
+      "humiliate deeply",
+      "cause acute embarrassment",
+      "shame someone badly",
+      "make someone wish the ground would open",
+      "abase in front of others"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to flatter",
+        "misconception": "inverts humiliation into praise"
+      },
+      {
+        "answer": "to make immortal",
+        "misconception": "reads the root about death and inverts it"
+      }
+    ],
+    "required_nuance": "embarrassment deep enough to sting",
+    "mental_hook": "So embarrassed it hurts.",
+    "semantic_hint": "How someone feels realising they used the wrong name all evening."
+  },
+  "mote": {
+    "accepted_concepts": [
+      "a tiny particle",
+      "a speck of dust",
+      "a fleck floating in the air",
+      "the smallest visible fragment",
+      "a grain of something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a large boulder",
+        "misconception": "inverts a speck into something huge"
+      },
+      {
+        "answer": "a water-filled ditch round a castle",
+        "misconception": "hears the sound-alike about a defensive ditch"
+      }
+    ],
+    "required_nuance": "a tiny particle, classically of dust",
+    "mental_hook": "The dust you see in a sunbeam.",
+    "semantic_hint": "What the parable says people notice in another's eye."
+  },
+  "mountebank": {
+    "accepted_concepts": [
+      "a charlatan selling false remedies",
+      "a quack",
+      "a swindler who plays on trust",
+      "a fraud pretending to expertise",
+      "a showy imposter"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a genuine expert",
+        "misconception": "inverts the fraud into the qualified"
+      },
+      {
+        "answer": "a financial institution",
+        "misconception": "hears the second half of the word literally"
+      }
+    ],
+    "required_nuance": "a fraud who sells by performance",
+    "mental_hook": "Up on the bench, selling nothing.",
+    "semantic_hint": "The word for someone selling miracle cures from a market stall."
+  },
+  "mulct": {
+    "accepted_concepts": [
+      "fine someone",
+      "swindle out of money",
+      "penalise by taking money",
+      "defraud of a sum",
+      "extract money as a penalty"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to pay compensation to",
+        "misconception": "inverts taking money into handing it over"
+      },
+      {
+        "answer": "to spread material on soil",
+        "misconception": "hears the sound-alike about garden covering"
+      }
+    ],
+    "required_nuance": "taking money, as a penalty or by fraud",
+    "mental_hook": "Money taken off them, fairly or not.",
+    "semantic_hint": "What a corrupt official does to traders through invented fees."
+  },
+  "multifaceted": {
+    "accepted_concepts": [
+      "having many aspects",
+      "many-sided",
+      "complex in its different parts",
+      "showing several different qualities",
+      "versatile across areas"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "one-dimensional",
+        "misconception": "inverts many-sidedness into simplicity"
+      },
+      {
+        "answer": "of many different kinds",
+        "misconception": "confuses one thing with many sides with the near-twin about variety of kinds"
+      }
+    ],
+    "required_nuance": "one thing with many sides",
+    "mental_hook": "One thing. Many faces.",
+    "semantic_hint": "The word for a problem with technical, legal and moral sides at once."
+  },
+  "multifarious": {
+    "accepted_concepts": [
+      "of many varied kinds",
+      "diverse in type",
+      "manifold",
+      "made up of many different sorts",
+      "various in nature"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "uniform",
+        "misconception": "inverts variety into sameness"
+      },
+      {
+        "answer": "having many sides to one thing",
+        "misconception": "confuses many kinds with the near-twin about many aspects of one"
+      }
+    ],
+    "required_nuance": "many different kinds, not many sides of one",
+    "mental_hook": "Many kinds. The near-twin means many sides.",
+    "semantic_hint": "The word for a collection of objects of every imaginable type."
+  },
+  "multitude": {
+    "accepted_concepts": [
+      "a very large number",
+      "a great host of people",
+      "a throng",
+      "an enormous quantity",
+      "a crowd beyond counting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a handful",
+        "misconception": "inverts a great number into a few"
+      },
+      {
+        "answer": "a height above sea level",
+        "misconception": "hears the sound-alike about altitude"
+      }
+    ],
+    "required_nuance": "a very great number, usually of people",
+    "mental_hook": "Too many to count.",
+    "semantic_hint": "The word for the crowd a preacher addresses on a hillside."
+  },
+  "mundane": {
+    "accepted_concepts": [
+      "ordinary and unexciting",
+      "commonplace",
+      "banal",
+      "belonging to everyday routine",
+      "prosaic"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "extraordinary",
+        "misconception": "inverts the everyday into the remarkable"
+      },
+      {
+        "answer": "occurring on a Monday",
+        "misconception": "hears the sound-alike about the day"
+      }
+    ],
+    "required_nuance": "ordinary in the sense of dull and worldly",
+    "mental_hook": "Of this world, and dull for it.",
+    "semantic_hint": "The word for the routine tasks that fill most of a working day."
+  },
+  "munificent": {
+    "accepted_concepts": [
+      "extremely generous",
+      "lavish in giving",
+      "bountiful",
+      "open-handed on a grand scale",
+      "giving far beyond what was expected"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "stingy",
+        "misconception": "inverts great generosity into meanness"
+      },
+      {
+        "answer": "relating to a city council",
+        "misconception": "hears the sound-alike about local government"
+      }
+    ],
+    "required_nuance": "generosity on a grand scale",
+    "mental_hook": "Generous, on a very large scale.",
+    "semantic_hint": "The word for a gift that funds an entire new wing of a hospital."
+  },
+  "muse": {
+    "accepted_concepts": [
+      "reflect at length",
+      "ponder a subject",
+      "contemplate quietly",
+      "turn something over in the mind",
+      "meditate on a question"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to act without thinking",
+        "misconception": "inverts reflection into impulsiveness"
+      },
+      {
+        "answer": "to entertain someone",
+        "misconception": "hears the sound-alike about amusing"
+      }
+    ],
+    "required_nuance": "unhurried reflection, as a verb",
+    "mental_hook": "Thinking about it, slowly.",
+    "semantic_hint": "What someone does aloud when they wonder what might have been."
+  },
+  "muster": {
+    "accepted_concepts": [
+      "gather together",
+      "assemble a force",
+      "rally people or resources",
+      "summon up a quality from within",
+      "call together for a purpose"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to disperse",
+        "misconception": "inverts gathering into scattering"
+      },
+      {
+        "answer": "a yellow condiment",
+        "misconception": "hears the sound-alike about a sauce"
+      }
+    ],
+    "required_nuance": "gathering together, people or resolve",
+    "mental_hook": "Called together, or summoned up.",
+    "semantic_hint": "What someone does with the last of their courage before speaking."
+  },
+  "muted": {
+    "accepted_concepts": [
+      "subdued in sound",
+      "softened in colour",
+      "restrained in reaction",
+      "understated rather than loud",
+      "toned down"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "loud and vivid",
+        "misconception": "inverts restraint into brightness"
+      },
+      {
+        "answer": "entirely absent",
+        "misconception": "confuses being toned down with not being there"
+      }
+    ],
+    "required_nuance": "present but toned down",
+    "mental_hook": "There, but turned down.",
+    "semantic_hint": "The word for applause that is polite rather than enthusiastic."
+  },
+  "mutiny": {
+    "accepted_concepts": [
+      "open rebellion against authority",
+      "a revolt by those under command",
+      "an uprising of a crew or troops",
+      "collective refusal to obey orders",
+      "insurrection within the ranks"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "loyal obedience",
+        "misconception": "inverts revolt into compliance"
+      },
+      {
+        "answer": "a change in form",
+        "misconception": "hears the sound-alike about a change in genes"
+      }
+    ],
+    "required_nuance": "revolt by those bound to obey",
+    "mental_hook": "The crew refuses the captain.",
+    "semantic_hint": "What a ship's crew commits by seizing the vessel from its captain."
   }
 }

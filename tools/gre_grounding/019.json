@@ -1,0 +1,442 @@
+{
+  "myopic": {
+    "accepted_concepts": [
+      "shortsighted in thinking",
+      "unable to see beyond the immediate",
+      "narrow in view",
+      "blinkered about the long term",
+      "failing to look ahead"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "farsighted and visionary",
+        "misconception": "inverts shortsightedness into long vision"
+      },
+      {
+        "answer": "only a matter of eyesight",
+        "misconception": "narrows the figurative sense to the literal condition"
+      }
+    ],
+    "required_nuance": "shortsighted in judgement, not only in vision",
+    "mental_hook": "Cannot see past next quarter.",
+    "semantic_hint": "The word for a policy that ignores everything beyond the next year."
+  },
+  "myriad": {
+    "accepted_concepts": [
+      "countless",
+      "extremely numerous",
+      "innumerable",
+      "of very great number",
+      "too many to count"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "few",
+        "misconception": "inverts a great number into a handful"
+      },
+      {
+        "answer": "exactly ten thousand only",
+        "misconception": "insists on the original literal figure"
+      }
+    ],
+    "required_nuance": "a very great, effectively uncountable number",
+    "mental_hook": "Ten thousand once. Countless now.",
+    "semantic_hint": "The word for the number of stars visible from a dark hillside."
+  },
+  "nadir": {
+    "accepted_concepts": [
+      "the lowest point",
+      "rock bottom",
+      "the worst moment of a decline",
+      "the trough of a fall",
+      "the point from which things can only improve"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the highest point",
+        "misconception": "inverts the bottom into the peak"
+      },
+      {
+        "answer": "the middle",
+        "misconception": "confuses the lowest point with the average"
+      }
+    ],
+    "required_nuance": "the very lowest point reached",
+    "mental_hook": "The bottom. It goes no lower.",
+    "semantic_hint": "The word for the worst moment in a long decline."
+  },
+  "naive": {
+    "accepted_concepts": [
+      "lacking experience",
+      "too ready to trust",
+      "unsophisticated in judgement",
+      "innocent of how things work",
+      "credulous through inexperience"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "shrewd and worldly",
+        "misconception": "inverts inexperience into sophistication"
+      },
+      {
+        "answer": "deliberately foolish",
+        "misconception": "confuses innocence with wilful stupidity"
+      }
+    ],
+    "required_nuance": "innocence from lack of experience",
+    "mental_hook": "Not stupid. Just has not seen it before.",
+    "semantic_hint": "The word for a first-time buyer who believes every promise."
+  },
+  "narcissist": {
+    "accepted_concepts": [
+      "someone excessively self-absorbed",
+      "a person in love with their own image",
+      "an egomaniac",
+      "one whose whole world is themselves",
+      "a person who needs constant admiration"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an altruist",
+        "misconception": "inverts self-absorption into selflessness"
+      },
+      {
+        "answer": "someone merely confident",
+        "misconception": "understates a consuming self-obsession into ordinary assurance"
+      }
+    ],
+    "required_nuance": "self-absorption that consumes everything else",
+    "mental_hook": "Named for the boy at the pool.",
+    "semantic_hint": "The word for someone who turns every conversation back to themselves."
+  },
+  "nascent": {
+    "accepted_concepts": [
+      "just coming into existence",
+      "at the earliest stage of development",
+      "emerging",
+      "newly begun",
+      "budding into being"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "long established",
+        "misconception": "inverts the newly begun into the mature"
+      },
+      {
+        "answer": "unpleasant-smelling",
+        "misconception": "hears the sound-alike about a bad odour"
+      }
+    ],
+    "required_nuance": "just beginning, and not yet established",
+    "mental_hook": "Being born, right now.",
+    "semantic_hint": "The word for an industry that has existed for only two years."
+  },
+  "natty": {
+    "accepted_concepts": [
+      "smartly dressed",
+      "dapper",
+      "neat and stylish in appearance",
+      "spruce",
+      "sharply turned out"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "scruffy",
+        "misconception": "inverts smartness into shabbiness"
+      },
+      {
+        "answer": "irritable",
+        "misconception": "hears the sound-alike about being tetchy"
+      }
+    ],
+    "required_nuance": "smart and neat in dress",
+    "mental_hook": "Sharp suit, well pressed.",
+    "semantic_hint": "The word for a man in a perfectly pressed suit and polished shoes."
+  },
+  "nebulous": {
+    "accepted_concepts": [
+      "vague and ill-defined",
+      "hazy in outline",
+      "amorphous",
+      "lacking clear shape or content",
+      "too indistinct to grasp"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "precise",
+        "misconception": "inverts vagueness into definition"
+      },
+      {
+        "answer": "relating to clouds in the sky",
+        "misconception": "takes the root about mist literally"
+      }
+    ],
+    "required_nuance": "indistinct in shape or meaning",
+    "mental_hook": "No clear edges to it.",
+    "semantic_hint": "The word for a plan with no specifics anyone can point to."
+  },
+  "nefarious": {
+    "accepted_concepts": [
+      "wicked and criminal",
+      "villainous in purpose",
+      "iniquitous",
+      "evil in design",
+      "heinously wrong"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "virtuous",
+        "misconception": "inverts wickedness into goodness"
+      },
+      {
+        "answer": "vague and ill-defined",
+        "misconception": "confuses wickedness with the near-twin about haziness"
+      }
+    ],
+    "required_nuance": "wicked, and usually criminal with it",
+    "mental_hook": "Wicked, and up to something.",
+    "semantic_hint": "The word for a scheme in a thriller to poison a water supply."
+  },
+  "negate": {
+    "accepted_concepts": [
+      "nullify",
+      "cancel the effect of",
+      "make something count for nothing",
+      "contradict a proposition",
+      "invalidate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to confirm",
+        "misconception": "inverts cancelling into affirming"
+      },
+      {
+        "answer": "to bargain over terms",
+        "misconception": "hears the sound-alike about negotiating"
+      }
+    ],
+    "required_nuance": "cancelling out or denying entirely",
+    "mental_hook": "Cancels it to nothing.",
+    "semantic_hint": "What a single bad quarter can do to a year of gains."
+  },
+  "neglect": {
+    "accepted_concepts": [
+      "failure to give proper care",
+      "inattention to a duty",
+      "disregard of what should be tended",
+      "dereliction of responsibility",
+      "leaving something uncared for"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "careful attention",
+        "misconception": "inverts failing to care into caring"
+      },
+      {
+        "answer": "a deliberate attack",
+        "misconception": "confuses failing to act with acting harmfully"
+      }
+    ],
+    "required_nuance": "failing to give the care owed",
+    "mental_hook": "Not cruelty. Failure to care.",
+    "semantic_hint": "What leaves a garden overgrown and a building falling down."
+  },
+  "negligent": {
+    "accepted_concepts": [
+      "failing to take proper care",
+      "careless about a duty",
+      "remiss in responsibility",
+      "derelict in attention",
+      "not taking the care the situation required"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "conscientious",
+        "misconception": "inverts carelessness into diligence"
+      },
+      {
+        "answer": "too small to matter",
+        "misconception": "confuses carelessness with the near-twin about insignificance"
+      }
+    ],
+    "required_nuance": "careless in a duty, not insignificant",
+    "mental_hook": "Careless. The near-twin means it hardly matters.",
+    "semantic_hint": "The legal word for failing to take the care a reasonable person would."
+  },
+  "negligible": {
+    "accepted_concepts": [
+      "too small to matter",
+      "insignificant in effect",
+      "trifling",
+      "not worth taking into account",
+      "minimal in consequence"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "considerable",
+        "misconception": "inverts the insignificant into the substantial"
+      },
+      {
+        "answer": "careless about duty",
+        "misconception": "confuses insignificance with the near-twin about carelessness"
+      }
+    ],
+    "required_nuance": "small enough to ignore, not careless",
+    "mental_hook": "Hardly matters. The near-twin is careless.",
+    "semantic_hint": "The word for a difference so small it can safely be ignored."
+  },
+  "neologism": {
+    "accepted_concepts": [
+      "a newly coined word",
+      "a new term entering the language",
+      "a freshly invented expression",
+      "a word not previously in use",
+      "a recent coinage"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an obsolete word",
+        "misconception": "inverts the newly coined into the archaic"
+      },
+      {
+        "answer": "a study of religion",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "a word that is new to the language",
+    "mental_hook": "New word, new to everyone.",
+    "semantic_hint": "What a word like doomscrolling was when it first appeared."
+  },
+  "neophyte": {
+    "accepted_concepts": [
+      "a beginner",
+      "a novice at something",
+      "someone newly admitted to a practice",
+      "an initiate without experience",
+      "a newcomer still learning"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a seasoned veteran",
+        "misconception": "inverts the beginner into the expert"
+      },
+      {
+        "answer": "a new plant",
+        "misconception": "reads the root about growth literally"
+      }
+    ],
+    "required_nuance": "new to the activity, and still learning",
+    "mental_hook": "Newly planted, which is the Greek.",
+    "semantic_hint": "The word for someone in their first week at a craft."
+  },
+  "net": {
+    "accepted_concepts": [
+      "obtain as clear profit",
+      "gain after all deductions",
+      "clear a sum",
+      "secure as a final gain",
+      "come away with after costs"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to lose money",
+        "misconception": "inverts profit into loss"
+      },
+      {
+        "answer": "the total before deductions",
+        "misconception": "confuses what is left with what came in"
+      }
+    ],
+    "required_nuance": "what is left after everything is taken off",
+    "mental_hook": "What is left after the deductions.",
+    "semantic_hint": "What a business clears once every cost is paid."
+  },
+  "nettle": {
+    "accepted_concepts": [
+      "irritate",
+      "provoke into annoyance",
+      "needle someone",
+      "sting with a remark",
+      "annoy enough to provoke a reaction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to soothe",
+        "misconception": "inverts irritating into calming"
+      },
+      {
+        "answer": "a stinging plant",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "irritating enough to provoke a reaction",
+    "mental_hook": "Named for the stinging plant.",
+    "semantic_hint": "What a well-aimed jibe does to someone's composure."
+  },
+  "nettlesome": {
+    "accepted_concepts": [
+      "causing irritation",
+      "vexing to deal with",
+      "troublesome in a persistent way",
+      "irksome",
+      "prickly and hard to handle"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "soothing and easy",
+        "misconception": "inverts vexing difficulty into ease"
+      },
+      {
+        "answer": "covered in stinging plants",
+        "misconception": "reads the root literally"
+      }
+    ],
+    "required_nuance": "irritating and troublesome to handle",
+    "mental_hook": "Prickly, whatever you do with it.",
+    "semantic_hint": "The word for a question that keeps causing trouble for a government."
+  },
+  "neutralize": {
+    "accepted_concepts": [
+      "counteract",
+      "make ineffective",
+      "cancel out an effect",
+      "offset a force",
+      "render harmless"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to reinforce",
+        "misconception": "inverts cancelling out into strengthening"
+      },
+      {
+        "answer": "to remain impartial",
+        "misconception": "confuses cancelling an effect with taking no side"
+      }
+    ],
+    "required_nuance": "cancelling something out so it has no effect",
+    "mental_hook": "Cancels it out.",
+    "semantic_hint": "What an alkali does to an acid."
+  },
+  "nevertheless": {
+    "accepted_concepts": [
+      "in spite of that",
+      "all the same",
+      "nonetheless",
+      "despite what was just said",
+      "even so"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "therefore",
+        "misconception": "inverts a concession into a consequence"
+      },
+      {
+        "answer": "in addition",
+        "misconception": "confuses granting a point with adding one"
+      }
+    ],
+    "required_nuance": "granting the point and holding the position anyway",
+    "mental_hook": "Granted, and still.",
+    "semantic_hint": "The word that concedes a point and keeps the argument going."
+  }
+}
