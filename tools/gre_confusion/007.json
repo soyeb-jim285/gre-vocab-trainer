@@ -92,6 +92,66 @@
   "daunt|gaunt": {
     "distinction": "To daunt is to intimidate someone out of trying, while gaunt describes a face made thin and hollow by illness or hardship."
   },
+  "pontifical|portentous": {
+    "distinction": "Pontifical speaks as if from the throne and will not be contradicted, while portentous weighs every word as though doom were coming."
+  },
+  "preamble|prologue": {
+    "distinction": "A preamble sets out the purpose of a document, as in a constitution, while a prologue opens a work of literature or drama."
+  },
+  "precursor|predecessor": {
+    "distinction": "A precursor is usually a thing that led to a later thing, while a predecessor is usually the person who held the role before. Machines have precursors; officials have predecessors."
+  },
+  "predicament|quandary": {
+    "distinction": "A predicament is a difficult situation you are stuck in, while a quandary is uncertainty about which course to take. One traps you, the other puzzles you."
+  },
+  "proclivity|propensity": {
+    "distinction": "Proclivity and propensity both name a natural tendency, though proclivity more often points at something questionable and propensity is neutral."
+  },
+  "prodigal|profligate": {
+    "distinction": "Prodigal is wasteful spending, while profligate adds a hint of moral dissolution as well. A profligate court wastes money and its reputation."
+  },
+  "prodigal|spendthrift": {
+    "distinction": "Prodigal is the adjective for wasteful extravagance, while a spendthrift is the person who does the wasting. One describes, the other names."
+  },
+  "prodigy|prognostication": {
+    "distinction": "A prodigy is a person of astonishing early talent, while a prognostication is a prediction about the future. They share a root and nothing else."
+  },
+  "profligate|spendthrift": {
+    "distinction": "Profligate describes reckless waste and often loose morals, while spendthrift names only the person who cannot stop spending."
+  },
+  "project|undertaking": {
+    "distinction": "To project is to forecast figures or convey an impression, while an undertaking is a formal promise or a large task taken on."
+  },
+  "promiscuous|wanton": {
+    "distinction": "Promiscuous means making no distinctions in what one takes up, while wanton means acting with no provocation or restraint. Promiscuous reading, wanton destruction."
+  },
+  "provisional|tentative": {
+    "distinction": "Provisional means in place for now until something final replaces it, while tentative means put forward without confidence. A provisional government is not tentative."
+  },
+  "prune|rationalize": {
+    "distinction": "To prune is to cut back what is not needed, while to rationalize is to invent respectable reasons for what one has done, or to reorganise for efficiency."
+  },
+  "pugnacious|truculent": {
+    "distinction": "Pugnacious is eager to pick a fight, while truculent is aggressively defiant when challenged. One starts the quarrel, the other refuses to back down."
+  },
+  "pundit|savant": {
+    "distinction": "A pundit pronounces publicly on current affairs, often self-appointed, while a savant has deep learning or an extraordinary particular ability."
+  },
+  "quash|subjugate": {
+    "distinction": "Quash puts down a rising or annuls a verdict, while subjugate brings a people under lasting domination. One ends a revolt, the other rules the defeated."
+  },
+  "quell|squelch": {
+    "distinction": "Quell puts down unrest or calms fear, while squelch suppresses something before it spreads, usually a rumour or a protest, and is the more colloquial."
+  },
+  "rapacious|ravenous": {
+    "distinction": "Rapacious is greed that seizes what belongs to others, while ravenous is simple extreme hunger. A rapacious landlord, a ravenous walker."
+  },
+  "rapacious|voracious": {
+    "distinction": "Rapacious means grasping at others' expense, while voracious means consuming hugely, which can be admirable in a reader. Voracious lacks the moral charge."
+  },
+  "ravenous|voracious": {
+    "distinction": "Ravenous is acute hunger felt now, while voracious is a settled huge appetite, and voracious alone extends comfortably to reading and curiosity."
+  },
   "recant|retract": {
     "distinction": "You recant a belief you once held publicly, and you retract a particular statement you made; recanting is about conviction, retracting about words."
   },

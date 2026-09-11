@@ -118,5 +118,185 @@
   },
   "harbinger|precursor": {
     "distinction": "A harbinger announces what is coming, while a precursor is the earlier thing that led to what came after."
+  },
+  "harbinger|predecessor": {
+    "distinction": "A harbinger is a sign that something is coming, while a predecessor is the person who held the post before you. One points forward, the other backward."
+  },
+  "hardy|intrepid": {
+    "distinction": "Hardy is about surviving hard conditions, while intrepid is about walking into danger. A hardy plant endures the winter; an intrepid explorer chooses the ice."
+  },
+  "hardy|stalwart": {
+    "distinction": "Hardy means tough enough to endure, while stalwart means loyal enough to be relied on. One is about constitution, the other about allegiance."
+  },
+  "haughty|imperious": {
+    "distinction": "Haughty looks down on you, while imperious gives you orders. Haughty needs no power to be arrogant; imperious assumes it will be obeyed."
+  },
+  "haughty|overbearing": {
+    "distinction": "Haughty holds itself above you in silence, while overbearing imposes on you actively. One is a posture, the other is pressure."
+  },
+  "haughty|supercilious": {
+    "distinction": "Haughty is general arrogance of bearing, while supercilious is that arrogance showing in the face, especially the raised eyebrow and the faint sneer."
+  },
+  "headstrong|willful": {
+    "distinction": "Headstrong means charging ahead against advice, while willful can also mean simply deliberate. A willful act was intended; a headstrong person will not be told."
+  },
+  "heady|rash": {
+    "distinction": "Heady describes the intoxicating thing, while rash describes the person acting without thought. Heady success can make someone rash."
+  },
+  "heretical|heterodox": {
+    "distinction": "Heretical implies a doctrine worth condemning, while heterodox merely notes it departs from the accepted line. Heretical carries the charge; heterodox carries the label."
+  },
+  "hinder|impede": {
+    "distinction": "Hinder and impede both mean to slow progress, and are interchangeable in most sentences, though impede is the more formal and is preferred in technical writing."
+  },
+  "hinder|stymie": {
+    "distinction": "Hinder slows progress down, while stymie stops it outright. A hindered plan is behind schedule; a stymied plan is going nowhere."
+  },
+  "hodgepodge|melange": {
+    "distinction": "A hodgepodge is a confused jumble with no order to it, while a melange is a varied mixture that may be deliberate and attractive."
+  },
+  "homogeneous|homogenous": {
+    "distinction": "Homogeneous is the standard spelling for uniform in composition; homogenous is a biological term about shared descent, now widely used as a variant spelling."
+  },
+  "humble|humiliate": {
+    "distinction": "To humble someone is to lower their pride, which can be deserved and even good for them, while to humiliate is to shame them, which is a cruelty."
+  },
+  "humble|mortify": {
+    "distinction": "Humble lowers someone's pride, while mortify makes them wish the ground would open. Mortify is the sharper, more personal of the two."
+  },
+  "humdrum|prosaic": {
+    "distinction": "Humdrum is dull through repetition, while prosaic is dull through lacking imagination. A humdrum routine repeats; a prosaic description never lifts."
+  },
+  "humiliate|mortify": {
+    "distinction": "Humiliate is what someone does to you, while mortify describes the burning shame you feel. You humiliate a rival; you are mortified by your own blunder."
+  },
+  "hummock|knoll": {
+    "distinction": "A hummock is a small lumpy rise, often in marsh or ice, while a knoll is a smooth rounded hill in open country. Knoll is the gentler word."
+  },
+  "imbue|permeate": {
+    "distinction": "Imbue needs an agent putting the quality in, while permeate describes something spreading through by itself. A teacher imbues students with curiosity; damp permeates a wall."
+  },
+  "imbue|pervade": {
+    "distinction": "Imbue is what someone does to fill a thing with a quality, while pervade is what the quality itself does once it is everywhere in that thing."
+  },
+  "immaculate|impeccable": {
+    "distinction": "Immaculate is about cleanness with no mark on it, while impeccable is about conduct or work with no fault in it. An immaculate shirt, impeccable manners."
+  },
+  "imminent|impending": {
+    "distinction": "Imminent and impending both mean about to happen, but impending carries a sense of dread, so good news is imminent and doom is impending."
+  },
+  "impair|mar": {
+    "distinction": "Impair damages how well something works, while mar damages how it looks or its perfection. A stroke impairs speech; a scratch mars a table."
+  },
+  "impair|vitiate": {
+    "distinction": "Impair weakens something so it works less well, while vitiate spoils it so it no longer holds good at all. A false statement vitiates a claim rather than impairing it."
+  },
+  "impecunious|penurious": {
+    "distinction": "Impecunious means simply having no money, while penurious can also mean mean with money. Only penurious can be an accusation about character."
+  },
+  "impede|occlude": {
+    "distinction": "Impede slows any kind of progress, while occlude blocks a physical passage. Traffic impedes a journey; a clot occludes an artery."
+  },
+  "imperil|jeopardize": {
+    "distinction": "Imperil and jeopardize both mean to put at risk and are interchangeable, though imperil is the more literary and jeopardize the commoner in ordinary prose."
+  },
+  "imperious|overbearing": {
+    "distinction": "Imperious expects obedience as of right, while overbearing simply pushes until it gets its way. Imperious is colder; overbearing is heavier."
+  },
+  "impertinent|impudent": {
+    "distinction": "Impertinent can also mean simply not relevant, while impudent is only ever about cheek. Impudent is the stronger word for disrespect."
+  },
+  "impertinent|irreverent": {
+    "distinction": "Impertinent is cheek toward a person, while irreverent is disrespect toward what is held sacred. One offends a superior, the other offends the faithful."
+  },
+  "impertinent|pert": {
+    "distinction": "Impertinent is genuinely offensive cheek, while pert is lively cheek that often charms. Pert is nearly affectionate; impertinent is a rebuke."
+  },
+  "implacable|inexorable": {
+    "distinction": "Implacable means no appeal will soften it, while inexorable means nothing will stop its advance. An implacable enemy, an inexorable deadline."
+  },
+  "implacable|relentless": {
+    "distinction": "Implacable is about refusing to be appeased, while relentless is about never easing off. A relentless rain is not angry; an implacable foe is."
+  },
+  "implicit|tacit": {
+    "distinction": "Implicit means contained in what was said without being stated, while tacit means agreed in silence. A tacit agreement was reached; an implicit assumption was carried."
+  },
+  "imposing|magisterial": {
+    "distinction": "Imposing impresses by sheer scale or presence, while magisterial impresses by authority and mastery. An imposing building, a magisterial history."
+  },
+  "imposing|noble": {
+    "distinction": "Imposing is about the impression something makes, while noble is about its character or birth. A ruin can be imposing without being noble."
+  },
+  "impregnable|inviolable": {
+    "distinction": "Impregnable means it cannot be taken by force, while inviolable means it must not be broken as a matter of principle. One resists attack, the other forbids it."
+  },
+  "impregnable|unassailable": {
+    "distinction": "Impregnable is usually a place no attack can take, while unassailable is usually a position or argument no criticism can dent."
+  },
+  "impudent|insolent": {
+    "distinction": "Impudent is brazen cheek, often from someone young, while insolent carries open contempt for the person addressed. Insolent is the colder offence."
+  },
+  "inborn|innate": {
+    "distinction": "Inborn and innate both mean present from birth and are interchangeable, though innate is the word philosophy and psychology use for ideas and capacities."
+  },
+  "incendiary|inflammatory": {
+    "distinction": "Incendiary can also mean literally setting fires, while inflammatory only ever inflames feeling. An incendiary device burns; inflammatory language enrages."
+  },
+  "incessant|perpetual": {
+    "distinction": "Incessant stresses that it never pauses and usually irritates, while perpetual stresses that it never ends. Incessant noise annoys; perpetual motion continues."
+  },
+  "incessant|unremitting": {
+    "distinction": "Incessant and unremitting both mean without a break, but unremitting suggests effort or pressure being kept up, so it suits work and rain more than chatter."
+  },
+  "incipient|nascent": {
+    "distinction": "Incipient and nascent both mean just beginning, though nascent suits things being born into the world and incipient suits conditions starting to show."
+  },
+  "incisive|keen": {
+    "distinction": "Incisive is only about cutting to the heart of a matter, while keen can also mean eager. A keen student may not be incisive."
+  },
+  "incontrovertible|irrefutable": {
+    "distinction": "Incontrovertible and irrefutable both mean beyond dispute, though irrefutable answers an attempted refutation while incontrovertible forestalls one."
+  },
+  "indecorous|unseemly": {
+    "distinction": "Indecorous and unseemly both mean improper for the occasion, though indecorous points at a breach of manners and unseemly at a breach of dignity."
+  },
+  "indecorous|untoward": {
+    "distinction": "Indecorous is about behaviour that offends propriety, while untoward can simply mean unexpected and unwelcome. Nothing untoward happened is not about manners."
+  },
+  "indigence|penury": {
+    "distinction": "Indigence and penury both name extreme poverty and are interchangeable, though penury is the older and more literary, and indigence the word legal and welfare texts use."
+  },
+  "indolent|slothful": {
+    "distinction": "Indolent and slothful both mean lazy, but slothful carries the moral weight of the deadly sin while indolent is the cooler, more descriptive word."
+  },
+  "inequity|iniquity": {
+    "distinction": "Inequity is unfairness, while iniquity is wickedness. An unequal pay scale is an inequity; a massacre is an iniquity."
+  },
+  "inert|sluggish": {
+    "distinction": "Inert means not acting or reacting at all, while sluggish means moving but slowly. An inert gas does nothing; a sluggish river still flows."
+  },
+  "inert|torpid": {
+    "distinction": "Inert describes something with no activity in it, while torpid describes a living thing gone dull and slow. A torpid animal will wake; an inert substance will not."
+  },
+  "inexorable|intransigent": {
+    "distinction": "Inexorable means nothing will halt its advance, while intransigent means the person will not compromise. Processes are inexorable; negotiators are intransigent."
+  },
+  "inexorable|relentless": {
+    "distinction": "Inexorable stresses that no plea will divert it, while relentless stresses that it never lets up. Both suit a glacier, but only inexorable suits a fate."
+  },
+  "inexorable|stern": {
+    "distinction": "Inexorable means unstoppable and deaf to appeal, while stern means severe in manner. A stern judge may still relent; an inexorable process cannot."
+  },
+  "inkling|intimation": {
+    "distinction": "An inkling is the faint sense you pick up, while an intimation is the hint someone else drops. You get an inkling; you are given an intimation."
+  },
+  "insinuate|intimate": {
+    "distinction": "To insinuate is to hint at something damaging, while to intimate is simply to suggest indirectly. Insinuate always carries a sting; intimate need not."
+  },
+  "insipid|vapid": {
+    "distinction": "Insipid comes from taste and suits food and art with no flavour, while vapid suits talk and expression with no thought behind it."
+  },
+  "inspire|invigorate": {
+    "distinction": "Inspire puts an idea or impulse into someone, while invigorate puts energy into them. A speech can inspire a plan; a cold swim invigorates the body."
   }
 }
