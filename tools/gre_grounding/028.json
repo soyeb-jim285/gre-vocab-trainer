@@ -1,0 +1,442 @@
+{
+  "vacillate": {
+    "accepted_concepts": [
+      "waver between choices",
+      "keep changing one's mind",
+      "swing back and forth over a decision",
+      "dither between options",
+      "fail to settle on a course"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to decide firmly",
+        "misconception": "inverts wavering into resolution"
+      },
+      {
+        "answer": "empty of meaning",
+        "misconception": "confuses indecision with the near-twin about emptiness"
+      }
+    ],
+    "required_nuance": "unable to settle, swinging between options",
+    "mental_hook": "Back and forth, and never decides.",
+    "semantic_hint": "What a minister does by announcing a policy and reversing it twice."
+  },
+  "vacuous": {
+    "accepted_concepts": [
+      "empty of thought",
+      "showing no intelligence behind it",
+      "inane",
+      "without meaning or content",
+      "blankly unthinking"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "thoughtful and profound",
+        "misconception": "inverts emptiness into depth"
+      },
+      {
+        "answer": "wavering between choices",
+        "misconception": "confuses emptiness with the near-twin about indecision"
+      }
+    ],
+    "required_nuance": "nothing behind it, in thought or expression",
+    "mental_hook": "Nothing behind the eyes.",
+    "semantic_hint": "The word for a smile with no thought at all behind it."
+  },
+  "vagary": {
+    "accepted_concepts": [
+      "an unpredictable change",
+      "a caprice of fortune or mood",
+      "a whim that cannot be foreseen",
+      "an erratic turn",
+      "a quirk of circumstance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "steady constancy",
+        "misconception": "inverts unpredictable change into reliability"
+      },
+      {
+        "answer": "an unclear statement",
+        "misconception": "hears the sound-alike about vagueness"
+      }
+    ],
+    "required_nuance": "an unpredictable turn, not vagueness",
+    "mental_hook": "The sudden turn nobody predicted.",
+    "semantic_hint": "The word for the unpredictable turns of weather or of fashion."
+  },
+  "vain": {
+    "accepted_concepts": [
+      "excessively proud of oneself",
+      "conceited about one's appearance",
+      "futile in effect",
+      "producing no result",
+      "fruitless"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "modest",
+        "misconception": "inverts conceit into humility"
+      },
+      {
+        "answer": "a blood vessel",
+        "misconception": "hears the sound-alike about veins"
+      }
+    ],
+    "required_nuance": "conceited, or else useless",
+    "mental_hook": "Full of themselves, or good for nothing.",
+    "semantic_hint": "The word in the phrase about an effort made entirely for nothing."
+  },
+  "vainglorious": {
+    "accepted_concepts": [
+      "boastfully proud",
+      "swaggering about one's own achievements",
+      "conceited and given to display",
+      "vaunting oneself openly",
+      "proud in a way that demands notice"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "humble",
+        "misconception": "inverts boastful pride into modesty"
+      },
+      {
+        "answer": "genuinely distinguished",
+        "misconception": "loses the emptiness of the boasting"
+      }
+    ],
+    "required_nuance": "pride that boasts, and hollow with it",
+    "mental_hook": "Boasts, and there is less to it than claimed.",
+    "semantic_hint": "The word for a general who talks endlessly about one old victory."
+  },
+  "valor": {
+    "accepted_concepts": [
+      "great courage in danger",
+      "bravery in battle",
+      "gallantry under fire",
+      "heroism in the face of risk",
+      "courage shown in action"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "cowardice",
+        "misconception": "inverts bravery into fear"
+      },
+      {
+        "answer": "worth in money",
+        "misconception": "hears the sound-alike about value"
+      }
+    ],
+    "required_nuance": "courage shown in danger, usually in war",
+    "mental_hook": "Courage, and under fire.",
+    "semantic_hint": "The quality a medal is awarded for after an act of battlefield bravery."
+  },
+  "vanguard": {
+    "accepted_concepts": [
+      "the leading position in a movement",
+      "those at the forefront of change",
+      "the advance party",
+      "the cutting edge of a development",
+      "the front rank leading the way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "those lagging at the back",
+        "misconception": "inverts the leading edge into the rear"
+      },
+      {
+        "answer": "a protective barrier",
+        "misconception": "reads the second half of the compound literally"
+      }
+    ],
+    "required_nuance": "at the front, leading what follows",
+    "mental_hook": "Out in front, and the rest follow.",
+    "semantic_hint": "The word for the handful of artists who start a movement."
+  },
+  "vanquish": {
+    "accepted_concepts": [
+      "defeat thoroughly",
+      "conquer an opponent decisively",
+      "overcome completely",
+      "rout an enemy",
+      "beat so no resistance remains"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to surrender",
+        "misconception": "inverts defeating into being defeated"
+      },
+      {
+        "answer": "to disappear from sight",
+        "misconception": "hears the sound-alike about vanishing"
+      }
+    ],
+    "required_nuance": "defeating completely, not narrowly",
+    "mental_hook": "Beaten, and beaten completely.",
+    "semantic_hint": "What an army does to a force that never fights again."
+  },
+  "vapid": {
+    "accepted_concepts": [
+      "dull and lacking substance",
+      "insipid in effect",
+      "flat and uninteresting",
+      "without any life in it",
+      "banal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "stimulating",
+        "misconception": "inverts flat dullness into liveliness"
+      },
+      {
+        "answer": "moving very fast",
+        "misconception": "hears the sound-alike about rapidity"
+      }
+    ],
+    "required_nuance": "flat and lifeless, in talk or writing",
+    "mental_hook": "Flat. Nothing in it.",
+    "semantic_hint": "The word for an interview that says nothing in twenty minutes."
+  },
+  "variance": {
+    "accepted_concepts": [
+      "a difference between things",
+      "disagreement between parties",
+      "a discrepancy in figures",
+      "divergence from what was expected",
+      "a state of not matching"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "exact agreement",
+        "misconception": "inverts discrepancy into conformity"
+      },
+      {
+        "answer": "varied in colour",
+        "misconception": "confuses a discrepancy with the near-twin about mottling"
+      }
+    ],
+    "required_nuance": "a difference or disagreement, not colour",
+    "mental_hook": "They do not match.",
+    "semantic_hint": "The word for the gap between a budget and what was actually spent."
+  },
+  "variegated": {
+    "accepted_concepts": [
+      "varied in colour",
+      "marked with patches of different shades",
+      "mottled",
+      "diverse in character",
+      "showing several different hues"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "uniform and plain",
+        "misconception": "inverts patchy variety into a single shade"
+      },
+      {
+        "answer": "a disagreement between parties",
+        "misconception": "confuses colouring with the near-twin about discrepancy"
+      }
+    ],
+    "required_nuance": "varied in colour or character, patch by patch",
+    "mental_hook": "Patched with different colours.",
+    "semantic_hint": "The word for leaves marked with cream and green together."
+  },
+  "vassal": {
+    "accepted_concepts": [
+      "a subordinate dependent on a superior",
+      "one holding land in return for service",
+      "a dependent bound to a lord",
+      "a subject state owing allegiance",
+      "someone under another's protection and control"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the overlord",
+        "misconception": "inverts the dependent into the superior"
+      },
+      {
+        "answer": "a large container",
+        "misconception": "hears the sound-alike about a vessel"
+      }
+    ],
+    "required_nuance": "dependent on and owing service to a superior",
+    "mental_hook": "Holds the land. Owes the lord.",
+    "semantic_hint": "The word for a state that is independent in name and controlled in fact."
+  },
+  "vat": {
+    "accepted_concepts": [
+      "a large container for liquids",
+      "a tank used in brewing or dyeing",
+      "a big tub for holding fluid",
+      "a cistern of industrial size",
+      "a vessel holding a large volume"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small cup",
+        "misconception": "inverts a large container into a tiny one"
+      },
+      {
+        "answer": "a sales tax",
+        "misconception": "hears the sound-alike about a tax abbreviation"
+      }
+    ],
+    "required_nuance": "a large vessel for holding liquid",
+    "mental_hook": "A tank, big enough to climb into.",
+    "semantic_hint": "What beer ferments in at a brewery."
+  },
+  "vaunted": {
+    "accepted_concepts": [
+      "much boasted about",
+      "loudly praised in advance",
+      "talked up by its supporters",
+      "touted as excellent",
+      "acclaimed more than it deserves"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "never mentioned by anyone",
+        "misconception": "inverts loud praise into obscurity"
+      },
+      {
+        "answer": "curved overhead as a roof",
+        "misconception": "hears the sound-alike about a vaulted ceiling"
+      }
+    ],
+    "required_nuance": "boasted about, often with a hint of doubt",
+    "mental_hook": "Everyone said how good it was.",
+    "semantic_hint": "The word for a much-praised reform that then achieves nothing."
+  },
+  "vehement": {
+    "accepted_concepts": [
+      "showing intense forceful feeling",
+      "impassioned in expression",
+      "strongly emphatic",
+      "fervent to the point of heat",
+      "forceful in conviction"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "mild and apathetic",
+        "misconception": "inverts forceful feeling into indifference"
+      },
+      {
+        "answer": "relating to road transport",
+        "misconception": "hears the sound-alike about vehicles"
+      }
+    ],
+    "required_nuance": "feeling expressed with great force",
+    "mental_hook": "Said with force, and meant.",
+    "semantic_hint": "The word for a denial delivered at the top of someone's voice."
+  },
+  "venal": {
+    "accepted_concepts": [
+      "open to bribery",
+      "corruptible by money",
+      "willing to sell one's influence",
+      "for sale in the wrong sense",
+      "prepared to act dishonestly for payment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "incorruptible",
+        "misconception": "inverts corruptibility into integrity"
+      },
+      {
+        "answer": "minor and forgivable",
+        "misconception": "confuses corruption with the near-twin about a pardonable fault"
+      }
+    ],
+    "required_nuance": "corruptible, not merely a small fault",
+    "mental_hook": "Buys and sells its own office.",
+    "semantic_hint": "The word for an official who signs whatever the highest bidder wants."
+  },
+  "venality": {
+    "accepted_concepts": [
+      "willingness to be bribed",
+      "corruptibility in office",
+      "the readiness to sell influence",
+      "corruption as a disposition",
+      "the practice of taking bribes"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "integrity",
+        "misconception": "inverts corruptibility into honesty"
+      },
+      {
+        "answer": "a minor forgivable fault",
+        "misconception": "confuses corruption with the near-twin about a pardonable sin"
+      }
+    ],
+    "required_nuance": "corruptibility, as a quality of a person or system",
+    "mental_hook": "Everything has a price, including the office.",
+    "semantic_hint": "The word for a system where every permit requires a bribe."
+  },
+  "veneer": {
+    "accepted_concepts": [
+      "a thin deceptive surface",
+      "a facade over something worse",
+      "a gloss concealing the reality",
+      "a pretence laid over the truth",
+      "a surface layer hiding what is underneath"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the solid substance beneath",
+        "misconception": "inverts the surface layer into the core"
+      },
+      {
+        "answer": "deep respect",
+        "misconception": "confuses a surface layer with the near-twin about reverence"
+      }
+    ],
+    "required_nuance": "a thin covering that misleads",
+    "mental_hook": "One layer thick, and the rest is not like it.",
+    "semantic_hint": "The word for a thin layer of politeness over real hostility."
+  },
+  "venerable": {
+    "accepted_concepts": [
+      "commanding respect through age",
+      "worthy of honour for long service",
+      "esteemed for accumulated achievement",
+      "revered because of its history",
+      "distinguished by age and standing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "disreputable",
+        "misconception": "inverts honour into disgrace"
+      },
+      {
+        "answer": "easily wounded",
+        "misconception": "hears the sound-alike about vulnerability"
+      }
+    ],
+    "required_nuance": "respected because of age or long achievement",
+    "mental_hook": "Old, and respected for it.",
+    "semantic_hint": "The word for an institution that has stood for three centuries."
+  },
+  "venerate": {
+    "accepted_concepts": [
+      "regard with deep respect",
+      "honour as almost sacred",
+      "hold in the highest esteem",
+      "treat with reverence",
+      "look up to with awe"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to revile",
+        "misconception": "inverts deep respect into contempt"
+      },
+      {
+        "answer": "worthy of respect through age",
+        "misconception": "confuses the verb with the near-twin adjective"
+      }
+    ],
+    "required_nuance": "the act of revering, as a verb",
+    "mental_hook": "The verb: they do the revering.",
+    "semantic_hint": "What pilgrims do at the shrine of a saint."
+  }
+}

@@ -1,0 +1,882 @@
+{
+  "venerated": {
+    "accepted_concepts": [
+      "deeply respected",
+      "held in reverence by many",
+      "hallowed by long honour",
+      "treated as sacred",
+      "esteemed above others"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "scorned",
+        "misconception": "inverts reverence into contempt"
+      },
+      {
+        "answer": "to regard with deep respect",
+        "misconception": "confuses the adjective with the verb"
+      }
+    ],
+    "required_nuance": "already the object of reverence",
+    "mental_hook": "Revered, as a settled fact.",
+    "semantic_hint": "The word for a figure a whole culture treats as beyond criticism."
+  },
+  "venial": {
+    "accepted_concepts": [
+      "minor and forgivable",
+      "pardonable as a fault",
+      "excusable in the circumstances",
+      "slight enough to overlook",
+      "a small transgression"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unforgivable",
+        "misconception": "inverts a pardonable fault into a mortal one"
+      },
+      {
+        "answer": "open to bribery",
+        "misconception": "confuses a small fault with the near-twin about corruption"
+      }
+    ],
+    "required_nuance": "a small forgivable fault, not corruption",
+    "mental_hook": "A small sin. The near-twin takes bribes.",
+    "semantic_hint": "The theological word for a sin that does not sever the soul from grace."
+  },
+  "venture": {
+    "accepted_concepts": [
+      "risk saying or doing something",
+      "dare to put something forward",
+      "hazard an opinion",
+      "go somewhere despite the danger",
+      "risk an undertaking"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to hold back entirely",
+        "misconception": "inverts daring into refusing to try"
+      },
+      {
+        "answer": "a ceremonial garment",
+        "misconception": "confuses risking with the near-twin about robes"
+      }
+    ],
+    "required_nuance": "acting or speaking despite the risk",
+    "mental_hook": "Says it, knowing it may be wrong.",
+    "semantic_hint": "What someone does by offering a guess they are not sure of."
+  },
+  "veracious": {
+    "accepted_concepts": [
+      "truthful",
+      "habitually honest in what one says",
+      "accurate in report",
+      "telling the truth as a rule",
+      "reliable in statement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "habitually lying",
+        "misconception": "inverts truthfulness into deceit"
+      },
+      {
+        "answer": "extremely hungry",
+        "misconception": "hears the sound-alike about a huge appetite"
+      }
+    ],
+    "required_nuance": "truthful, not ravenous",
+    "mental_hook": "Truthful. The sound-alike is hungry.",
+    "semantic_hint": "The word for a witness whose account can be relied on."
+  },
+  "veracity": {
+    "accepted_concepts": [
+      "truthfulness",
+      "accuracy of an account",
+      "honesty in what is reported",
+      "conformity to the facts",
+      "the quality of being reliable in statement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "habitual lying",
+        "misconception": "inverts truthfulness into falsehood"
+      },
+      {
+        "answer": "extreme greed for food",
+        "misconception": "hears the sound-alike about voracity"
+      }
+    ],
+    "required_nuance": "truthfulness, as a quality tested",
+    "mental_hook": "Is it true? That is the question it names.",
+    "semantic_hint": "What a court examines about a witness's statement."
+  },
+  "verbose": {
+    "accepted_concepts": [
+      "using more words than needed",
+      "wordy to a fault",
+      "long-winded",
+      "padded with unnecessary language",
+      "prolix"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "concise",
+        "misconception": "inverts wordiness into brevity"
+      },
+      {
+        "answer": "loudly spoken",
+        "misconception": "confuses quantity of words with volume"
+      }
+    ],
+    "required_nuance": "too many words for the content",
+    "mental_hook": "Four sentences where one would do.",
+    "semantic_hint": "The word for a report that could lose half its length and lose nothing."
+  },
+  "verdant": {
+    "accepted_concepts": [
+      "green with vegetation",
+      "lush with growth",
+      "covered in fresh foliage",
+      "richly leafy",
+      "green and flourishing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "arid and barren",
+        "misconception": "inverts lush green into bare ground"
+      },
+      {
+        "answer": "a formal judgement",
+        "misconception": "hears the sound-alike about a verdict"
+      }
+    ],
+    "required_nuance": "green with living growth",
+    "mental_hook": "Green, and growing.",
+    "semantic_hint": "The word for a valley after a wet spring."
+  },
+  "verisimilar": {
+    "accepted_concepts": [
+      "having the appearance of truth",
+      "plausible in seeming",
+      "lifelike enough to convince",
+      "credible as a likeness",
+      "looking as the real thing would"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "obviously far-fetched",
+        "misconception": "inverts plausible appearance into the incredible"
+      },
+      {
+        "answer": "genuine and actual",
+        "misconception": "confuses seeming true with being true"
+      }
+    ],
+    "required_nuance": "seeming true, which is not being true",
+    "mental_hook": "Looks true. Says nothing about being true.",
+    "semantic_hint": "The word for a detail in a novel that makes a scene feel real."
+  },
+  "verisimilitude": {
+    "accepted_concepts": [
+      "the appearance of being true",
+      "realism in a depiction",
+      "the quality of seeming authentic",
+      "lifelikeness in a work",
+      "plausibility of representation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "obvious implausibility",
+        "misconception": "inverts the appearance of truth into incredibility"
+      },
+      {
+        "answer": "actual truth itself",
+        "misconception": "confuses seeming true with being true"
+      }
+    ],
+    "required_nuance": "the appearance of truth, as a quality of a work",
+    "mental_hook": "Feels real. That is all it claims.",
+    "semantic_hint": "What a director seeks by filming in the actual location."
+  },
+  "veritable": {
+    "accepted_concepts": [
+      "genuine",
+      "real in the full sense",
+      "used to emphasise that a description is apt",
+      "nothing less than what is claimed",
+      "actual and not exaggerated"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "counterfeit",
+        "misconception": "inverts the genuine into the fake"
+      },
+      {
+        "answer": "merely apparent",
+        "misconception": "confuses being genuine with seeming so"
+      }
+    ],
+    "required_nuance": "genuine, and often used to intensify",
+    "mental_hook": "Really is. Not a figure of speech.",
+    "semantic_hint": "The word used to insist that a mountain of paperwork really was one."
+  },
+  "vernal": {
+    "accepted_concepts": [
+      "relating to spring",
+      "occurring in the spring season",
+      "springlike in character",
+      "of the season of new growth",
+      "belonging to spring"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "wintry",
+        "misconception": "inverts spring into the cold season"
+      },
+      {
+        "answer": "green with vegetation",
+        "misconception": "confuses the season with the near-twin about lush growth"
+      }
+    ],
+    "required_nuance": "the season of spring, not greenness itself",
+    "mental_hook": "Spring, the season.",
+    "semantic_hint": "The word for the equinox that falls in March."
+  },
+  "versatile": {
+    "accepted_concepts": [
+      "able to adapt to many functions",
+      "useful in many different roles",
+      "many-sided in ability",
+      "turning easily from one task to another",
+      "flexible across uses"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "narrowly specialised",
+        "misconception": "inverts adaptability into a single use"
+      },
+      {
+        "answer": "energy in expression",
+        "misconception": "confuses adaptability with the near-twin about vigour"
+      }
+    ],
+    "required_nuance": "adaptable across many different uses",
+    "mental_hook": "Turns to anything.",
+    "semantic_hint": "The word for a player who can fill any position on the pitch."
+  },
+  "verve": {
+    "accepted_concepts": [
+      "energy and enthusiasm in expression",
+      "spirited vitality in performance",
+      "dash and liveliness",
+      "panache in how something is done",
+      "vigour that shows in style"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dull lethargy",
+        "misconception": "inverts spirited energy into flatness"
+      },
+      {
+        "answer": "able to adapt to many uses",
+        "misconception": "confuses energy with the near-twin about adaptability"
+      }
+    ],
+    "required_nuance": "energy showing in the manner of doing",
+    "mental_hook": "Energy, and it shows in the style.",
+    "semantic_hint": "The word for the spirit with which a dull piece is played brilliantly."
+  },
+  "vestige": {
+    "accepted_concepts": [
+      "a small remaining trace",
+      "the last remnant of something gone",
+      "a surviving sign of what existed",
+      "a relic left behind",
+      "the faintest remainder"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the whole surviving thing",
+        "misconception": "inverts a faint trace into the entire article"
+      },
+      {
+        "answer": "a ceremonial garment",
+        "misconception": "confuses a trace with the near-twin about robes"
+      }
+    ],
+    "required_nuance": "a small trace of what has largely gone",
+    "mental_hook": "Almost gone. This much is left.",
+    "semantic_hint": "The word for the low bank that is all that remains of a Roman wall."
+  },
+  "vestment": {
+    "accepted_concepts": [
+      "a ceremonial garment",
+      "a robe worn for a religious office",
+      "official regalia worn on formal occasions",
+      "the dress of a priest at a service",
+      "a ritual garment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "everyday working clothes",
+        "misconception": "loses the ceremonial character that defines it"
+      },
+      {
+        "answer": "a small remaining trace",
+        "misconception": "confuses a garment with the near-twin about a remnant"
+      }
+    ],
+    "required_nuance": "a garment worn for ceremony or office",
+    "mental_hook": "The robes, worn for the office.",
+    "semantic_hint": "What a bishop puts on before a service."
+  },
+  "vex": {
+    "accepted_concepts": [
+      "annoy",
+      "trouble someone's peace of mind",
+      "irritate persistently",
+      "irk",
+      "disturb with small aggravations"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to soothe",
+        "misconception": "inverts irritating into calming"
+      },
+      {
+        "answer": "annoyance as a state",
+        "misconception": "confuses the verb with the related noun"
+      }
+    ],
+    "required_nuance": "the verb: causing annoyance",
+    "mental_hook": "The verb. It does the annoying.",
+    "semantic_hint": "What a problem does when it keeps a scientist awake for years."
+  },
+  "vexation": {
+    "accepted_concepts": [
+      "annoyance felt",
+      "irritation at something troublesome",
+      "the state of being annoyed",
+      "a cause of irritation",
+      "exasperation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "delight",
+        "misconception": "inverts annoyance into pleasure"
+      },
+      {
+        "answer": "to annoy someone",
+        "misconception": "confuses the noun with the verb"
+      }
+    ],
+    "required_nuance": "the annoyance itself, or its cause",
+    "mental_hook": "The annoyance, named as a thing.",
+    "semantic_hint": "The word for the irritation of a form that must be filled in twice."
+  },
+  "viable": {
+    "accepted_concepts": [
+      "capable of working successfully",
+      "practicable in the circumstances",
+      "able to survive on its own",
+      "feasible as a plan",
+      "workable in practice"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unworkable",
+        "misconception": "inverts the practicable into the impossible"
+      },
+      {
+        "answer": "clearly seen",
+        "misconception": "hears the sound-alike about visibility"
+      }
+    ],
+    "required_nuance": "able to work or survive, not merely visible",
+    "mental_hook": "It can actually work.",
+    "semantic_hint": "The word for a business that can survive without further funding."
+  },
+  "vicarious": {
+    "accepted_concepts": [
+      "experienced through another person",
+      "felt at second hand",
+      "enjoyed by imagining oneself in another's place",
+      "indirect rather than lived",
+      "gained through someone else's experience"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "experienced firsthand",
+        "misconception": "inverts second-hand experience into direct experience"
+      },
+      {
+        "answer": "relating to a parish priest",
+        "misconception": "hears the root about a vicar"
+      }
+    ],
+    "required_nuance": "felt through another's experience, not one's own",
+    "mental_hook": "Their experience. Your feeling.",
+    "semantic_hint": "The word for the thrill a parent takes in a child's success."
+  },
+  "vicissitude": {
+    "accepted_concepts": [
+      "an unwelcome change of fortune",
+      "a reversal in circumstances",
+      "an upheaval in one's affairs",
+      "a turn of fortune for the worse",
+      "the ups and downs of life"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unbroken stability",
+        "misconception": "inverts changing fortune into constancy"
+      },
+      {
+        "answer": "a wicked act",
+        "misconception": "hears the sound-alike about vice"
+      }
+    ],
+    "required_nuance": "changes of fortune, usually unwelcome",
+    "mental_hook": "Fortune turns, and not for the better.",
+    "semantic_hint": "The word for the reversals a long career inevitably brings."
+  },
+  "vie": {
+    "accepted_concepts": [
+      "compete eagerly",
+      "contend for something",
+      "strive against a rival",
+      "struggle to outdo another",
+      "rival someone for a prize"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to concede without a contest",
+        "misconception": "inverts competing into giving way"
+      },
+      {
+        "answer": "to see",
+        "misconception": "hears the sound-alike about viewing"
+      }
+    ],
+    "required_nuance": "competing, and eagerly",
+    "mental_hook": "Two of them, both wanting it.",
+    "semantic_hint": "What several candidates do for one nomination."
+  },
+  "vigilant": {
+    "accepted_concepts": [
+      "watchful for danger",
+      "keeping careful watch",
+      "alert to what might go wrong",
+      "attentive against threats",
+      "on guard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "inattentive",
+        "misconception": "inverts watchfulness into carelessness"
+      },
+      {
+        "answer": "full of physical energy",
+        "misconception": "confuses watchfulness with the near-twin about vigour"
+      }
+    ],
+    "required_nuance": "watchfulness aimed at danger",
+    "mental_hook": "Watching, because something might happen.",
+    "semantic_hint": "The word for a guard who scans the crowd all evening."
+  },
+  "vigor": {
+    "accepted_concepts": [
+      "physical or mental energy",
+      "strength and liveliness",
+      "robustness of constitution",
+      "forcefulness in action",
+      "healthy vitality"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "feebleness",
+        "misconception": "inverts strength into weakness"
+      },
+      {
+        "answer": "watchful for danger",
+        "misconception": "confuses energy with the near-twin about alertness"
+      }
+    ],
+    "required_nuance": "energy and strength, not watchfulness",
+    "mental_hook": "Energy. The near-twin watches for danger.",
+    "semantic_hint": "The word for the energy someone attacks a task with at sixty."
+  },
+  "vilify": {
+    "accepted_concepts": [
+      "speak abusively about",
+      "blacken someone's name",
+      "denigrate in public",
+      "traduce a reputation",
+      "attack with defamatory language"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to extol",
+        "misconception": "inverts abuse into praise"
+      },
+      {
+        "answer": "to make something clear",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "abusive attack on a reputation",
+    "mental_hook": "Makes them vile, in everyone's eyes.",
+    "semantic_hint": "What a campaign does to an opponent by publishing constant abuse."
+  },
+  "vim": {
+    "accepted_concepts": [
+      "lively energy",
+      "vigour and enthusiasm",
+      "spirited liveliness",
+      "dash in doing something",
+      "zest"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "lethargy",
+        "misconception": "inverts liveliness into torpor"
+      },
+      {
+        "answer": "a whim",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "energy, lively and evident",
+    "mental_hook": "Energy, in three letters.",
+    "semantic_hint": "The word paired with vigour in the phrase about someone full of life."
+  },
+  "vindicate": {
+    "accepted_concepts": [
+      "clear of blame",
+      "prove someone was right",
+      "justify a course by the outcome",
+      "exonerate after accusation",
+      "show a position to have been correct"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to condemn",
+        "misconception": "inverts clearing into blaming"
+      },
+      {
+        "answer": "seeking revenge",
+        "misconception": "confuses clearing with the near-twin about vengefulness"
+      }
+    ],
+    "required_nuance": "clearing or proving right, not avenging",
+    "mental_hook": "Proved right. The near-twin takes revenge.",
+    "semantic_hint": "What a later inquiry does for someone wrongly blamed."
+  },
+  "vindictive": {
+    "accepted_concepts": [
+      "seeking revenge",
+      "vengeful in spirit",
+      "unforgiving and eager to punish",
+      "spiteful in retaliation",
+      "bent on paying someone back"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "magnanimous",
+        "misconception": "inverts vengefulness into generosity"
+      },
+      {
+        "answer": "to clear of blame",
+        "misconception": "confuses vengefulness with the near-twin about exoneration"
+      }
+    ],
+    "required_nuance": "wanting revenge, not wanting to be cleared",
+    "mental_hook": "Wants them to pay. The near-twin clears the name.",
+    "semantic_hint": "The word for a settlement designed to punish rather than to resolve."
+  },
+  "vintage": {
+    "accepted_concepts": [
+      "of high quality from an earlier period",
+      "classic of its era",
+      "characteristic of a fine past year",
+      "period in style and valued for it",
+      "dating from an admired time"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "brand new",
+        "misconception": "inverts belonging to an earlier era into the contemporary"
+      },
+      {
+        "answer": "a wine merchant",
+        "misconception": "confuses the adjective with the near-twin noun about a wine seller"
+      }
+    ],
+    "required_nuance": "from an earlier period, and valued for it",
+    "mental_hook": "Old, and that is the selling point.",
+    "semantic_hint": "The word for a car from the nineteen-thirties kept in perfect order."
+  },
+  "vintner": {
+    "accepted_concepts": [
+      "a wine merchant",
+      "someone who makes wine",
+      "a dealer in wine",
+      "a winemaker by trade",
+      "one whose business is wine"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a brewer of beer",
+        "misconception": "confuses wine with a different drink"
+      },
+      {
+        "answer": "of a fine earlier period",
+        "misconception": "confuses the person with the near-twin adjective about an admired era"
+      }
+    ],
+    "required_nuance": "a person, and wine is the trade",
+    "mental_hook": "The person. The near-twin is the quality.",
+    "semantic_hint": "The word for someone whose whole trade is in wine."
+  },
+  "virago": {
+    "accepted_concepts": [
+      "a domineering ill-tempered woman",
+      "a scolding overbearing woman",
+      "a shrew",
+      "a woman of fierce and bullying manner",
+      "a termagant"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a gentle retiring woman",
+        "misconception": "inverts a domineering manner into meekness"
+      },
+      {
+        "answer": "a skilled performer",
+        "misconception": "confuses the term with the near-twin about technical mastery"
+      }
+    ],
+    "required_nuance": "a woman, domineering and sharp-tongued",
+    "mental_hook": "Loud, fierce, and nobody argues.",
+    "semantic_hint": "The old word for a woman who rules a household by shouting."
+  },
+  "virtual": {
+    "accepted_concepts": [
+      "in effect though not formally so",
+      "amounting to it in practice",
+      "so nearly so as makes no difference",
+      "effective without being official",
+      "practically the case"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "formally and officially so",
+        "misconception": "inverts being so in effect into being so in name"
+      },
+      {
+        "answer": "morally good",
+        "misconception": "hears the root about virtue"
+      }
+    ],
+    "required_nuance": "true in effect, not in form",
+    "mental_hook": "Not officially. In practice, yes.",
+    "semantic_hint": "The word for a monopoly a firm has without ever being declared one."
+  },
+  "virtuoso": {
+    "accepted_concepts": [
+      "someone with exceptional technical skill",
+      "a master of an instrument or craft",
+      "a performer of dazzling ability",
+      "a maestro",
+      "an expert of the highest technical order"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a beginner",
+        "misconception": "inverts mastery into inexperience"
+      },
+      {
+        "answer": "a morally upright person",
+        "misconception": "hears the root about virtue"
+      }
+    ],
+    "required_nuance": "technical mastery, usually in performance",
+    "mental_hook": "The technique is the point.",
+    "semantic_hint": "The word for a violinist whose technique astonishes other violinists."
+  },
+  "virulent": {
+    "accepted_concepts": [
+      "extremely severe in effect",
+      "bitterly hostile",
+      "venomous in attack",
+      "malignant in its harm",
+      "acting with destructive force"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "benign",
+        "misconception": "inverts severity into mildness"
+      },
+      {
+        "answer": "morally upright",
+        "misconception": "hears the root about virtue"
+      }
+    ],
+    "required_nuance": "severe or hostile, in disease or in speech",
+    "mental_hook": "Severe, in a disease or in an attack.",
+    "semantic_hint": "The word for a strain of infection that kills fast, and for hatred in print."
+  },
+  "visage": {
+    "accepted_concepts": [
+      "a person's face",
+      "the countenance",
+      "the features as they appear",
+      "the expression a face wears",
+      "the front of the head as seen"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the back of the head",
+        "misconception": "inverts the face into what is behind it"
+      },
+      {
+        "answer": "a mental image of the future",
+        "misconception": "confuses the face with the near-twin about foresight"
+      }
+    ],
+    "required_nuance": "the face, in a literary register",
+    "mental_hook": "The face, said grandly.",
+    "semantic_hint": "The literary word for a grim expression on someone's face."
+  },
+  "viscid": {
+    "accepted_concepts": [
+      "sticky to the touch",
+      "glutinous",
+      "gluey in texture",
+      "adhering when handled",
+      "tacky and clinging"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "dry and free-flowing",
+        "misconception": "inverts stickiness into dryness"
+      },
+      {
+        "answer": "thick and slow to pour",
+        "misconception": "confuses stickiness with the near-twin about slow flow"
+      }
+    ],
+    "required_nuance": "sticky to the touch rather than slow to flow",
+    "mental_hook": "Sticks to the fingers.",
+    "semantic_hint": "The word for a resin that clings to whatever touches it."
+  },
+  "viscous": {
+    "accepted_concepts": [
+      "thick and slow-flowing",
+      "resisting flow",
+      "syrupy in consistency",
+      "pouring reluctantly",
+      "of high resistance to movement"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "thin and watery",
+        "misconception": "inverts slow thickness into free flow"
+      },
+      {
+        "answer": "sticky to the touch",
+        "misconception": "confuses slow flow with the near-twin about stickiness"
+      }
+    ],
+    "required_nuance": "slow to flow rather than sticky to touch",
+    "mental_hook": "Pours slowly. Very slowly.",
+    "semantic_hint": "The word for cold treacle coming out of a jar."
+  },
+  "visionary": {
+    "accepted_concepts": [
+      "showing imaginative foresight",
+      "seeing possibilities others miss",
+      "prophetic in outlook",
+      "boldly imaginative about the future",
+      "given to grand schemes that may be impractical"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "shortsighted",
+        "misconception": "inverts far-sighted imagination into a narrow view"
+      },
+      {
+        "answer": "a person's face",
+        "misconception": "confuses foresight with the near-twin about the countenance"
+      }
+    ],
+    "required_nuance": "imaginative foresight, sometimes impractical with it",
+    "mental_hook": "Sees further. Perhaps too far.",
+    "semantic_hint": "The word for a founder who described the product a decade before it existed."
+  },
+  "vitality": {
+    "accepted_concepts": [
+      "energy and liveliness",
+      "the quality of being full of life",
+      "vigour that animates",
+      "vivacity",
+      "the force that keeps something alive"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "torpor",
+        "misconception": "inverts liveliness into lethargy"
+      },
+      {
+        "answer": "to spoil or impair",
+        "misconception": "confuses liveliness with the near-twin verb about corrupting"
+      }
+    ],
+    "required_nuance": "the liveliness that animates a person or thing",
+    "mental_hook": "Life, as a visible quality.",
+    "semantic_hint": "What a city loses when every young person leaves."
+  },
+  "vitiate": {
+    "accepted_concepts": [
+      "spoil the effectiveness of",
+      "impair the quality of",
+      "corrupt what was sound",
+      "invalidate a document or argument",
+      "debase so it no longer works"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to improve",
+        "misconception": "inverts spoiling into strengthening"
+      },
+      {
+        "answer": "energy and liveliness",
+        "misconception": "confuses the verb with the near-twin noun about vigour"
+      }
+    ],
+    "required_nuance": "spoiling so the thing no longer holds good",
+    "mental_hook": "Still there. No longer good.",
+    "semantic_hint": "What one false statement does to an entire insurance claim."
+  },
+  "vitriol": {
+    "accepted_concepts": [
+      "bitter savage criticism",
+      "venomous abuse in words",
+      "acrimony poured out",
+      "invective of the cruellest kind",
+      "corrosive hostility in speech"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "civil praise",
+        "misconception": "inverts savage abuse into commendation"
+      },
+      {
+        "answer": "a glass container",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "abuse, and corrosive with it",
+    "mental_hook": "Acid, and it is poured on people.",
+    "semantic_hint": "The word for the abuse a public figure receives online after a scandal."
+  }
+}
