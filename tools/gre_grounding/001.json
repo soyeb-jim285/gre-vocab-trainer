@@ -1758,5 +1758,445 @@
     "required_nuance": "worsening something already bad",
     "mental_hook": "The tested sense makes a problem worse, not a person cross.",
     "semantic_hint": "What scratching does to a rash."
+  },
+  "aggregate": {
+    "accepted_concepts": [
+      "a combined total",
+      "a sum of parts",
+      "the whole taken together",
+      "a composite figure",
+      "everything added up"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single item",
+        "misconception": "mistakes the whole for one of its parts"
+      },
+      {
+        "answer": "to make worse",
+        "misconception": "hears the sound-alike 'aggravate'"
+      }
+    ],
+    "required_nuance": "the whole formed out of separate parts",
+    "mental_hook": "Many separate numbers, reported as one.",
+    "semantic_hint": "The single figure you get when you add every region's results together."
+  },
+  "aggrieve": {
+    "accepted_concepts": [
+      "treat unjustly",
+      "wrong someone",
+      "cause distress by unfair treatment",
+      "injure by injustice",
+      "give cause for complaint"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to mourn",
+        "misconception": "takes 'grief' as sorrow rather than injustice"
+      },
+      {
+        "answer": "to agree",
+        "misconception": "hears the sound-alike opening"
+      }
+    ],
+    "required_nuance": "injustice done, not sorrow felt",
+    "mental_hook": "The wronged party, not the sad one.",
+    "semantic_hint": "What an employer does to a worker who then files a complaint."
+  },
+  "aghast": {
+    "accepted_concepts": [
+      "horrified",
+      "struck with shock",
+      "appalled",
+      "open-mouthed with horror",
+      "stunned by something terrible"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "eager",
+        "misconception": "guesses something positive from the sound"
+      },
+      {
+        "answer": "a spirit of the dead",
+        "misconception": "hears the word 'ghost' inside it"
+      }
+    ],
+    "required_nuance": "shock specifically at something horrifying",
+    "mental_hook": "The face just before the scream.",
+    "semantic_hint": "How you look when you have just seen something terrible."
+  },
+  "agitate": {
+    "accepted_concepts": [
+      "stir up feeling",
+      "campaign vigorously",
+      "rouse people",
+      "provoke unrest",
+      "work energetically for a cause"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to shake a liquid",
+        "misconception": "keeps the mechanical sense where people are meant"
+      },
+      {
+        "answer": "to calm",
+        "misconception": "inverts stirring into soothing"
+      }
+    ],
+    "required_nuance": "stirring people up, not substances",
+    "mental_hook": "A machine does it to clothes; an organiser does it to a crowd.",
+    "semantic_hint": "What a campaigner does to public feeling before a vote."
+  },
+  "aide": {
+    "accepted_concepts": [
+      "an assistant",
+      "a deputy to a senior figure",
+      "a helper to someone important",
+      "an adjutant",
+      "a staff member who assists"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "money given to a poor country",
+        "misconception": "hears the sound-alike abstract noun"
+      },
+      {
+        "answer": "a disease",
+        "misconception": "hears the sound-alike acronym"
+      }
+    ],
+    "required_nuance": "a person, never the help itself",
+    "mental_hook": "A person, not a package of assistance.",
+    "semantic_hint": "The person who stands behind a senator carrying the papers."
+  },
+  "alacrity": {
+    "accepted_concepts": [
+      "cheerful eagerness",
+      "brisk readiness",
+      "promptness with willingness",
+      "eager speed",
+      "keenness to act at once"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "slowness",
+        "misconception": "inverts the promptness"
+      },
+      {
+        "answer": "clearness",
+        "misconception": "hears the sound-alike 'clarity'"
+      }
+    ],
+    "required_nuance": "speed with willingness, not speed alone",
+    "mental_hook": "Said yes before you had finished asking.",
+    "semantic_hint": "The cheerful speed with which someone accepts an invitation they want."
+  },
+  "alchemy": {
+    "accepted_concepts": [
+      "a magical-seeming transformation",
+      "turning one thing into something better",
+      "a mysterious process of change",
+      "the medieval search for gold from base metal",
+      "a seemingly miraculous conversion"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "modern chemistry",
+        "misconception": "reduces the magical sense to the science that replaced it"
+      },
+      {
+        "answer": "a chemical formula",
+        "misconception": "takes a process for a notation"
+      }
+    ],
+    "required_nuance": "transformation that seems magical",
+    "mental_hook": "Lead into gold, or a losing team into champions.",
+    "semantic_hint": "The old art of turning base metal into gold, used now for any magical change."
+  },
+  "alcove": {
+    "accepted_concepts": [
+      "a recess in a wall",
+      "a small nook",
+      "a niche set back from a room",
+      "a recessed corner",
+      "a sheltered space off a larger one"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small bay on a coast",
+        "misconception": "hears the word 'cove'"
+      },
+      {
+        "answer": "a cupboard",
+        "misconception": "mistakes an open recess for an enclosed store"
+      }
+    ],
+    "required_nuance": "a recess opening off a larger space",
+    "mental_hook": "The bit of the room that steps back.",
+    "semantic_hint": "The recessed corner of a room where a reading chair fits."
+  },
+  "alienate": {
+    "accepted_concepts": [
+      "make hostile",
+      "drive away",
+      "estrange",
+      "turn someone against you",
+      "cause to feel like an outsider"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to extraterrestrials",
+        "misconception": "hears the word 'alien'"
+      },
+      {
+        "answer": "to welcome",
+        "misconception": "inverts driving away into drawing in"
+      }
+    ],
+    "required_nuance": "turning away someone who was close",
+    "mental_hook": "Losing people you used to have.",
+    "semantic_hint": "What a leader does to supporters by ignoring them."
+  },
+  "allay": {
+    "accepted_concepts": [
+      "calm",
+      "reduce fear or doubt",
+      "soothe",
+      "put worries to rest",
+      "quiet an anxiety"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to lie down",
+        "misconception": "hears the sound-alike 'lay'"
+      },
+      {
+        "answer": "to increase",
+        "misconception": "inverts calming into stirring"
+      }
+    ],
+    "required_nuance": "reducing fear or doubt, rarely anything physical",
+    "mental_hook": "Fears, doubts and suspicions. Almost never a pain.",
+    "semantic_hint": "What a reassuring statement does to public fear."
+  },
+  "allege": {
+    "accepted_concepts": [
+      "assert without proof",
+      "claim without evidence",
+      "state as an accusation",
+      "maintain something unproven",
+      "accuse without having shown it"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to prove",
+        "misconception": "inverts the missing proof into demonstration"
+      },
+      {
+        "answer": "a solemn promise",
+        "misconception": "hears the sound-alike 'pledge'"
+      }
+    ],
+    "required_nuance": "claimed, and specifically not yet proven",
+    "mental_hook": "The word a newspaper uses to avoid being sued.",
+    "semantic_hint": "What a newspaper does when it cannot yet prove the accusation."
+  },
+  "alleviate": {
+    "accepted_concepts": [
+      "make less severe",
+      "ease",
+      "relieve suffering",
+      "lessen a burden",
+      "take the edge off"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to cure completely",
+        "misconception": "mistakes easing for curing"
+      },
+      {
+        "answer": "to raise up",
+        "misconception": "hears the sound-alike 'elevate'"
+      }
+    ],
+    "required_nuance": "easing something, never curing it",
+    "mental_hook": "The painkiller, not the operation.",
+    "semantic_hint": "What a painkiller does without curing anything."
+  },
+  "allusion": {
+    "accepted_concepts": [
+      "an indirect reference",
+      "a passing mention",
+      "a hint at something else",
+      "an oblique nod to something",
+      "a veiled reference"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a false impression",
+        "misconception": "confuses it with illusion"
+      },
+      {
+        "answer": "a direct quotation",
+        "misconception": "loses the indirectness that defines it"
+      }
+    ],
+    "required_nuance": "indirect, never named outright",
+    "mental_hook": "Mentioned without being mentioned.",
+    "semantic_hint": "When a poem gestures at Homer without naming him."
+  },
+  "allusive": {
+    "accepted_concepts": [
+      "full of indirect references",
+      "hinting rather than stating",
+      "oblique in reference",
+      "suggestive of other works",
+      "referring without naming"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "hard to catch or pin down",
+        "misconception": "confuses it with elusive"
+      },
+      {
+        "answer": "deceptive",
+        "misconception": "confuses it with illusive"
+      }
+    ],
+    "required_nuance": "referring indirectly, not evading",
+    "mental_hook": "One letter from elusive, and a different idea entirely.",
+    "semantic_hint": "The adjective for writing thick with unnamed references to other books."
+  },
+  "aloof": {
+    "accepted_concepts": [
+      "distant and uninvolved",
+      "standoffish",
+      "keeping apart from others",
+      "emotionally remote",
+      "deliberately detached"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "high above",
+        "misconception": "hears the word 'loft'"
+      },
+      {
+        "answer": "warm and involved",
+        "misconception": "inverts distance into closeness"
+      }
+    ],
+    "required_nuance": "distance by choice, not by shyness",
+    "mental_hook": "Chooses the edge of the room.",
+    "semantic_hint": "How someone stands apart at a party by choice, not by nerves."
+  },
+  "altruism": {
+    "accepted_concepts": [
+      "unselfish concern for others",
+      "selflessness",
+      "putting others first",
+      "regard for the welfare of others",
+      "generosity without self-interest"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "truthfulness",
+        "misconception": "hears the word 'true' inside it"
+      },
+      {
+        "answer": "selfishness",
+        "misconception": "inverts the whole idea"
+      }
+    ],
+    "required_nuance": "concern for others at cost to oneself",
+    "mental_hook": "Helping when there is nothing in it for you.",
+    "semantic_hint": "The principle of acting for others with nothing in it for yourself."
+  },
+  "altruistic": {
+    "accepted_concepts": [
+      "selfless",
+      "unselfishly generous",
+      "acting for another's benefit",
+      "putting others before oneself",
+      "charitable in motive"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "artistic",
+        "misconception": "hears the sound-alike"
+      },
+      {
+        "answer": "self-serving",
+        "misconception": "inverts the motive"
+      }
+    ],
+    "required_nuance": "the motive is another's benefit, not one's own",
+    "mental_hook": "The motive matters more than the act.",
+    "semantic_hint": "The adjective for a donation made with nothing expected back."
+  },
+  "amalgam": {
+    "accepted_concepts": [
+      "a blend of different things",
+      "a mixture",
+      "a composite of parts",
+      "a fusion of elements",
+      "a combination of several sources"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a single pure substance",
+        "misconception": "inverts a mixture into a pure element"
+      },
+      {
+        "answer": "a dental filling and nothing else",
+        "misconception": "keeps one application as the whole meaning"
+      }
+    ],
+    "required_nuance": "distinct things combined into one",
+    "mental_hook": "A style that is part jazz, part folk.",
+    "semantic_hint": "What you call a style built out of several different traditions."
+  },
+  "amalgamate": {
+    "accepted_concepts": [
+      "combine into one",
+      "merge",
+      "fuse together",
+      "unite separate parts",
+      "consolidate into a single body"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to separate",
+        "misconception": "inverts merging into splitting"
+      },
+      {
+        "answer": "to pile up",
+        "misconception": "hears 'accumulate' and loses the fusing"
+      }
+    ],
+    "required_nuance": "merging into one whole, not merely gathering",
+    "mental_hook": "Two companies becoming one, not two companies sitting together.",
+    "semantic_hint": "What two banks do when they become a single institution."
+  },
+  "amalgamation": {
+    "accepted_concepts": [
+      "a merger",
+      "the process of combining into one",
+      "the fusing of separate bodies",
+      "consolidation",
+      "a union of parts into a whole"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a separation",
+        "misconception": "inverts the process"
+      },
+      {
+        "answer": "a collection kept apart",
+        "misconception": "loses the fusing into one"
+      }
+    ],
+    "required_nuance": "the joining itself, ending in a single body",
+    "mental_hook": "The merger, named as a process rather than an event.",
+    "semantic_hint": "The formal name for the process by which two firms become one."
   }
 }

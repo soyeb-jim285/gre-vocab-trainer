@@ -1,0 +1,882 @@
+{
+  "ambience": {
+    "accepted_concepts": [
+      "the atmosphere of a place",
+      "the feel of a room",
+      "the surrounding mood",
+      "the character of a setting",
+      "the prevailing aura"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an emergency vehicle",
+        "misconception": "hears the sound-alike 'ambulance'"
+      },
+      {
+        "answer": "a drive to succeed",
+        "misconception": "hears the shared opening of 'ambition'"
+      }
+    ],
+    "required_nuance": "the mood a place gives off",
+    "mental_hook": "What a restaurant sells besides food.",
+    "semantic_hint": "What lighting and music give a restaurant besides food."
+  },
+  "ambiguous": {
+    "accepted_concepts": [
+      "open to more than one reading",
+      "unclear in meaning",
+      "capable of two interpretations",
+      "not definite in meaning",
+      "able to be taken two ways"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "strongly determined to succeed",
+        "misconception": "hears the sound-alike 'ambitious'"
+      },
+      {
+        "answer": "perfectly clear",
+        "misconception": "inverts it"
+      }
+    ],
+    "required_nuance": "more than one possible meaning, not mere vagueness",
+    "mental_hook": "Not unclear. Clear in two ways at once.",
+    "semantic_hint": "What a sentence is when it can honestly be read two ways."
+  },
+  "ambivalence": {
+    "accepted_concepts": [
+      "conflicting feelings",
+      "being pulled both ways",
+      "mixed emotions about something",
+      "simultaneous attraction and reluctance",
+      "indecision born of divided feeling"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "indifference",
+        "misconception": "mistakes conflicting feeling for no feeling at all"
+      },
+      {
+        "answer": "a drive to succeed",
+        "misconception": "hears the shared opening of 'ambition'"
+      }
+    ],
+    "required_nuance": "two feelings at once, not the absence of feeling",
+    "mental_hook": "Not \"I do not care\". \"I want both.\"",
+    "semantic_hint": "The state of wanting two opposite things at the same time."
+  },
+  "ambivalent": {
+    "accepted_concepts": [
+      "having mixed feelings",
+      "pulled in two directions",
+      "conflicted about something",
+      "of two minds",
+      "torn between options"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "not caring either way",
+        "misconception": "confuses inner conflict with indifference"
+      },
+      {
+        "answer": "firmly decided",
+        "misconception": "inverts being torn into being settled"
+      }
+    ],
+    "required_nuance": "two feelings held at once, never none",
+    "mental_hook": "Not neutral. Torn.",
+    "semantic_hint": "How you feel when you want the job and dread it equally."
+  },
+  "ambrosia": {
+    "accepted_concepts": [
+      "food of the gods",
+      "something exquisitely delicious",
+      "a divine delicacy",
+      "nectar-like food",
+      "something wonderful to taste"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "loss of memory",
+        "misconception": "hears the sound-alike 'amnesia'"
+      },
+      {
+        "answer": "something bitter",
+        "misconception": "inverts the pleasure"
+      }
+    ],
+    "required_nuance": "deliciousness at a divine level",
+    "mental_hook": "What the gods ate on Olympus.",
+    "semantic_hint": "What the Greek gods were said to eat on Olympus."
+  },
+  "ameliorate": {
+    "accepted_concepts": [
+      "make better",
+      "improve a bad situation",
+      "ease conditions",
+      "remedy partially",
+      "relieve something poor"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make worse",
+        "misconception": "inverts improvement into worsening"
+      },
+      {
+        "answer": "to eliminate entirely",
+        "misconception": "overstates partial improvement"
+      }
+    ],
+    "required_nuance": "improving something bad, not perfecting it",
+    "mental_hook": "Better, not good.",
+    "semantic_hint": "What a reform does to bad conditions without fixing them entirely."
+  },
+  "amenable": {
+    "accepted_concepts": [
+      "willing to agree",
+      "open to persuasion",
+      "receptive to suggestion",
+      "cooperative about a proposal",
+      "ready to be talked round"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "pleasant in character",
+        "misconception": "confuses willingness to agree with a nice personality"
+      },
+      {
+        "answer": "able to be changed",
+        "misconception": "takes only the 'amenable to treatment' sense"
+      }
+    ],
+    "required_nuance": "willingness to be persuaded",
+    "mental_hook": "Not nice. Persuadable.",
+    "semantic_hint": "How someone is when they are open to being talked round."
+  },
+  "amend": {
+    "accepted_concepts": [
+      "revise",
+      "alter a text or law formally",
+      "modify to improve",
+      "correct by changing",
+      "make a formal change to"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to make up for a wrong",
+        "misconception": "confuses it with making amends"
+      },
+      {
+        "answer": "to finish",
+        "misconception": "hears the word 'end'"
+      }
+    ],
+    "required_nuance": "formal alteration of a text or rule",
+    "mental_hook": "What parliament does to a bill, not what you do to a friendship.",
+    "semantic_hint": "What a parliament does to a bill before passing it."
+  },
+  "amiable": {
+    "accepted_concepts": [
+      "pleasant and good-natured",
+      "friendly",
+      "agreeable in manner",
+      "easy-going and warm",
+      "likeable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "able to be loved",
+        "misconception": "reads the Latin root too literally"
+      },
+      {
+        "answer": "friendly between two parties",
+        "misconception": "confuses it with amicable, which describes relations rather than people"
+      }
+    ],
+    "required_nuance": "describes a person's nature, not a relationship",
+    "mental_hook": "People are this. Settlements are amicable.",
+    "semantic_hint": "The word for a person with a warm, easy nature."
+  },
+  "amicable": {
+    "accepted_concepts": [
+      "friendly in relations",
+      "done without hostility",
+      "characterised by goodwill",
+      "peaceable between parties",
+      "cordial"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a good-natured person",
+        "misconception": "confuses it with amiable, which describes a person rather than relations"
+      },
+      {
+        "answer": "hostile",
+        "misconception": "inverts the goodwill"
+      }
+    ],
+    "required_nuance": "describes a relationship or settlement, not a person",
+    "mental_hook": "Divorces are this. People are amiable.",
+    "semantic_hint": "The word for a divorce or a settlement reached without hostility."
+  },
+  "amorous": {
+    "accepted_concepts": [
+      "showing romantic desire",
+      "full of love",
+      "passionate toward someone",
+      "ardent in affection",
+      "romantically inclined"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "shapeless",
+        "misconception": "hears the sound-alike 'amorphous'"
+      },
+      {
+        "answer": "generous",
+        "misconception": "guesses warmly from the sound with nothing to go on"
+      }
+    ],
+    "required_nuance": "romantic or sexual desire specifically",
+    "mental_hook": "Romance, not affection in general.",
+    "semantic_hint": "The adjective for glances exchanged across a candlelit table."
+  },
+  "amorphous": {
+    "accepted_concepts": [
+      "shapeless",
+      "without definite form",
+      "formless",
+      "vague in structure",
+      "lacking a clear outline"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "romantic",
+        "misconception": "hears the sound-alike 'amorous'"
+      },
+      {
+        "answer": "sharply defined",
+        "misconception": "inverts formlessness into definition"
+      }
+    ],
+    "required_nuance": "no definite shape or structure",
+    "mental_hook": "A cloud, or a plan with no edges.",
+    "semantic_hint": "What a cloud is, and a well-organised plan is not."
+  },
+  "amortize": {
+    "accepted_concepts": [
+      "pay off gradually",
+      "reduce a debt in instalments",
+      "write down a cost over time",
+      "clear a loan by degrees",
+      "spread repayment out"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to kill off",
+        "misconception": "takes the Latin 'mort' as death"
+      },
+      {
+        "answer": "to borrow",
+        "misconception": "inverts repayment into borrowing"
+      }
+    ],
+    "required_nuance": "gradual repayment across a period",
+    "mental_hook": "The mortgage, chipped away monthly.",
+    "semantic_hint": "What you do to a home loan over twenty-five years."
+  },
+  "amply": {
+    "accepted_concepts": [
+      "more than sufficiently",
+      "generously",
+      "abundantly",
+      "in full measure",
+      "plentifully"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "barely",
+        "misconception": "inverts abundance into scarcity"
+      },
+      {
+        "answer": "in a straightforward way",
+        "misconception": "hears the sound-alike 'simply'"
+      }
+    ],
+    "required_nuance": "more than enough, not merely enough",
+    "mental_hook": "Not just enough. Comfortably more.",
+    "semantic_hint": "The adverb for rewarding someone rather more than they expected."
+  },
+  "amuck": {
+    "accepted_concepts": [
+      "wildly",
+      "out of control",
+      "in a frenzy",
+      "berserk",
+      "rampaging"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "covered in dirt",
+        "misconception": "hears the word 'muck'"
+      },
+      {
+        "answer": "calmly",
+        "misconception": "inverts the frenzy"
+      }
+    ],
+    "required_nuance": "uncontrolled and destructive motion",
+    "mental_hook": "Almost always follows the word \"run\".",
+    "semantic_hint": "How a crowd behaves when it runs wild through a street."
+  },
+  "amulet": {
+    "accepted_concepts": [
+      "a protective charm",
+      "a talisman worn against evil",
+      "a lucky object worn on the body",
+      "a charm against harm",
+      "a protective trinket"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a small omelette",
+        "misconception": "hears the sound-alike"
+      },
+      {
+        "answer": "a weapon",
+        "misconception": "mistakes protection by charm for protection by force"
+      }
+    ],
+    "required_nuance": "worn on the body, and protective by charm",
+    "mental_hook": "Worn round the neck to keep bad luck off.",
+    "semantic_hint": "The charm worn on a chain to keep evil away."
+  },
+  "anachronism": {
+    "accepted_concepts": [
+      "something out of its proper time",
+      "a thing belonging to another era",
+      "a historical misplacement",
+      "an object surviving past its age",
+      "something chronologically out of place"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a very old thing",
+        "misconception": "mistakes mere age for being out of place"
+      },
+      {
+        "answer": "a grammatical error",
+        "misconception": "guesses at some technical fault from the shape of the word"
+      }
+    ],
+    "required_nuance": "wrong era, not merely old",
+    "mental_hook": "A wristwatch in a Roman epic.",
+    "semantic_hint": "A wristwatch worn by a character in a Roman epic."
+  },
+  "anachronistic": {
+    "accepted_concepts": [
+      "out of its proper period",
+      "belonging to another era",
+      "chronologically misplaced",
+      "surviving from an earlier age",
+      "out of step with its time"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "merely old-fashioned",
+        "misconception": "mistakes being dated for being misplaced in time"
+      },
+      {
+        "answer": "chaotic and lawless",
+        "misconception": "hears the sound-alike 'anarchic'"
+      }
+    ],
+    "required_nuance": "in the wrong era, not merely dated",
+    "mental_hook": "Not old. In the wrong century.",
+    "semantic_hint": "The adjective for a duelling code still practised in the modern age."
+  },
+  "analgesia": {
+    "accepted_concepts": [
+      "relief from pain",
+      "the absence of pain",
+      "insensibility to pain",
+      "pain being taken away",
+      "a painless state"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "loss of memory",
+        "misconception": "hears the sound-alike 'amnesia'"
+      },
+      {
+        "answer": "total unconsciousness",
+        "misconception": "confuses it with anaesthesia, which removes all sensation"
+      }
+    ],
+    "required_nuance": "pain gone, consciousness intact",
+    "mental_hook": "Pain gone, and you are still awake.",
+    "semantic_hint": "The state of feeling no pain while remaining fully conscious."
+  },
+  "analgesic": {
+    "accepted_concepts": [
+      "a painkiller",
+      "a drug that relieves pain",
+      "a remedy for pain",
+      "a pain-relieving medicine",
+      "an anodyne"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a drug that causes sleep",
+        "misconception": "confuses relieving pain with sedation"
+      },
+      {
+        "answer": "something that removes all sensation",
+        "misconception": "confuses it with an anaesthetic"
+      }
+    ],
+    "required_nuance": "removes pain, never sensation or consciousness",
+    "mental_hook": "Aspirin. Not chloroform.",
+    "semantic_hint": "What aspirin is, as opposed to chloroform."
+  },
+  "analogous": {
+    "accepted_concepts": [
+      "comparable",
+      "similar in the relevant ways",
+      "parallel in structure",
+      "alike enough to compare",
+      "corresponding in function"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "identical",
+        "misconception": "overstates similarity into sameness"
+      },
+      {
+        "answer": "illogical",
+        "misconception": "guesses from the shape of the word"
+      }
+    ],
+    "required_nuance": "comparable in structure, never identical",
+    "mental_hook": "Alike enough to compare, not alike enough to swap.",
+    "semantic_hint": "What a heart is to a pump: not the same, but fairly compared."
+  },
+  "anarchy": {
+    "accepted_concepts": [
+      "absence of government",
+      "lawlessness",
+      "the collapse of order",
+      "rule by no one",
+      "chaos from the lack of authority"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "rule by a king",
+        "misconception": "hears the shared ending of 'monarchy'"
+      },
+      {
+        "answer": "strict order",
+        "misconception": "inverts it"
+      }
+    ],
+    "required_nuance": "no governing authority at all",
+    "mental_hook": "Not bad government. No government.",
+    "semantic_hint": "The state of a country with no functioning government at all."
+  },
+  "anathema": {
+    "accepted_concepts": [
+      "something detested",
+      "an object of loathing",
+      "a formal curse",
+      "something utterly unacceptable",
+      "a thing abhorred"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a subject or topic",
+        "misconception": "hears the sound-alike 'theme'"
+      },
+      {
+        "answer": "something beloved",
+        "misconception": "inverts loathing into love"
+      }
+    ],
+    "required_nuance": "detestation strong enough to be absolute",
+    "mental_hook": "Usually said to be \"anathema to\" someone.",
+    "semantic_hint": "What compromise is to a true fanatic."
+  },
+  "ancillary": {
+    "accepted_concepts": [
+      "supporting",
+      "subordinate to the main thing",
+      "auxiliary",
+      "secondary but helpful",
+      "providing back-up"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "central or primary",
+        "misconception": "inverts the subordination"
+      },
+      {
+        "answer": "very old",
+        "misconception": "hears the shared opening of 'ancient'"
+      }
+    ],
+    "required_nuance": "supporting, and secondary to the main thing",
+    "mental_hook": "Helps the main thing. Is not the main thing.",
+    "semantic_hint": "The word for services that support the main business without being it."
+  },
+  "androgynous": {
+    "accepted_concepts": [
+      "having both male and female characteristics",
+      "neither clearly male nor female",
+      "of indeterminate gender",
+      "combining masculine and feminine traits",
+      "unisex in appearance"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "robotic",
+        "misconception": "hears the word 'android'"
+      },
+      {
+        "answer": "strongly masculine",
+        "misconception": "takes only the 'andro' half of the word"
+      }
+    ],
+    "required_nuance": "both at once, not neither and not one",
+    "mental_hook": "Both at once, rather than absent.",
+    "semantic_hint": "The word for a look that reads as neither clearly masculine nor feminine."
+  },
+  "anemic": {
+    "accepted_concepts": [
+      "weak",
+      "lacking vitality",
+      "feeble in effect",
+      "pale and lifeless",
+      "without force"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a blood disorder and nothing else",
+        "misconception": "keeps the medical sense where the figurative one is meant"
+      },
+      {
+        "answer": "energetic",
+        "misconception": "inverts weakness into vigour"
+      }
+    ],
+    "required_nuance": "lacking force or vitality, often figuratively",
+    "mental_hook": "An anemic recovery has nothing to do with blood.",
+    "semantic_hint": "The word for a recovery so weak it barely counts as one."
+  },
+  "anesthetic": {
+    "accepted_concepts": [
+      "a substance that removes sensation",
+      "a numbing agent",
+      "a drug that puts you under",
+      "something causing loss of feeling",
+      "the drug that makes surgery painless"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "concerned with beauty",
+        "misconception": "hears 'aesthetic', which is nearly its opposite"
+      },
+      {
+        "answer": "a painkiller and nothing more",
+        "misconception": "confuses removing all sensation with relieving pain"
+      }
+    ],
+    "required_nuance": "removes sensation, not merely pain",
+    "mental_hook": "One letter from aesthetic, and about feeling nothing rather than feeling beauty.",
+    "semantic_hint": "What the surgeon gives you before cutting."
+  },
+  "animosity": {
+    "accepted_concepts": [
+      "strong hostility",
+      "open ill will",
+      "bitter enmity",
+      "active dislike",
+      "hostile feeling between people"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "liveliness",
+        "misconception": "takes the Latin 'anima' as spirit or energy"
+      },
+      {
+        "answer": "friendliness",
+        "misconception": "inverts hostility into warmth"
+      }
+    ],
+    "required_nuance": "hostility openly felt between people",
+    "mental_hook": "Not disagreement. Dislike.",
+    "semantic_hint": "The open hostility between two people who cannot stand each other."
+  },
+  "animus": {
+    "accepted_concepts": [
+      "hostility that drives action",
+      "motivating ill will",
+      "a hostile intention",
+      "active malice behind conduct",
+      "bias against someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a creature",
+        "misconception": "hears the shared opening of 'animal'"
+      },
+      {
+        "answer": "enthusiasm",
+        "misconception": "takes the Latin 'spirit' sense positively"
+      }
+    ],
+    "required_nuance": "hostility acting as a motive",
+    "mental_hook": "The ill will behind the act, not merely the feeling.",
+    "semantic_hint": "The hostile motive a court looks for behind a discriminatory act."
+  },
+  "annul": {
+    "accepted_concepts": [
+      "declare legally invalid",
+      "cancel formally",
+      "nullify",
+      "void a contract or marriage",
+      "wipe out in law"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "yearly",
+        "misconception": "hears the sound-alike 'annual'"
+      },
+      {
+        "answer": "to confirm",
+        "misconception": "inverts cancelling into ratifying"
+      }
+    ],
+    "required_nuance": "legally void, as if it had never been",
+    "mental_hook": "Not ended. Treated as never having existed.",
+    "semantic_hint": "What a court does to a marriage so that it counts as never having happened."
+  },
+  "anodyne": {
+    "accepted_concepts": [
+      "inoffensive",
+      "bland and unobjectionable",
+      "deliberately mild",
+      "unlikely to upset anyone",
+      "soothing and neutral"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "poisonous",
+        "misconception": "guesses darkly from the unfamiliar sound"
+      },
+      {
+        "answer": "provocative",
+        "misconception": "inverts inoffensiveness"
+      }
+    ],
+    "required_nuance": "mild to the point of saying nothing",
+    "mental_hook": "A statement carefully built to annoy nobody.",
+    "semantic_hint": "The word for a press release so bland it offends no one."
+  },
+  "anoint": {
+    "accepted_concepts": [
+      "ceremonially choose",
+      "consecrate with oil",
+      "formally designate as chosen",
+      "ordain to a role",
+      "mark out as the successor"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to let someone down",
+        "misconception": "hears the sound-alike 'disappoint'"
+      },
+      {
+        "answer": "to appoint by vote",
+        "misconception": "loses the ceremonial and chosen quality"
+      }
+    ],
+    "required_nuance": "chosen ceremonially, often as successor",
+    "mental_hook": "Oil on the forehead, or a chosen heir.",
+    "semantic_hint": "What is done with oil to a monarch at a coronation."
+  },
+  "anomalous": {
+    "accepted_concepts": [
+      "irregular",
+      "departing from the standard",
+      "not conforming to the pattern",
+      "atypical",
+      "unusual against the norm"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "nameless",
+        "misconception": "hears the sound-alike 'anonymous'"
+      },
+      {
+        "answer": "standard",
+        "misconception": "inverts deviation into conformity"
+      }
+    ],
+    "required_nuance": "departing from the standard pattern",
+    "mental_hook": "Does not fit the rule everything else follows.",
+    "semantic_hint": "The adjective for the one reading that breaks the pattern."
+  },
+  "anomaly": {
+    "accepted_concepts": [
+      "an irregularity",
+      "a departure from the norm",
+      "an oddity in a pattern",
+      "an exception to the rule",
+      "something that does not fit"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an enemy",
+        "misconception": "hears the sound-alike 'enemy'"
+      },
+      {
+        "answer": "the usual case",
+        "misconception": "inverts the exception into the rule"
+      }
+    ],
+    "required_nuance": "the exception itself, never the rule",
+    "mental_hook": "The one data point everyone argues about.",
+    "semantic_hint": "The single result that does not fit the pattern."
+  },
+  "antagonize": {
+    "accepted_concepts": [
+      "provoke hostility",
+      "make an enemy of",
+      "deliberately irritate",
+      "turn someone against you",
+      "stir up opposition in someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to support",
+        "misconception": "inverts provoking into backing"
+      },
+      {
+        "answer": "to compete fairly",
+        "misconception": "loses the hostility it causes"
+      }
+    ],
+    "required_nuance": "causing hostility in another person",
+    "mental_hook": "Making an enemy where you did not have one.",
+    "semantic_hint": "What you do when you needlessly make an enemy of someone."
+  },
+  "antecedent": {
+    "accepted_concepts": [
+      "something that comes before",
+      "a forerunner",
+      "a precursor",
+      "an earlier thing that led to this",
+      "a predecessor"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a consequence",
+        "misconception": "inverts before into after"
+      },
+      {
+        "answer": "a family ancestor and nothing else",
+        "misconception": "narrows it to genealogy"
+      }
+    ],
+    "required_nuance": "what comes before, in time or in logic",
+    "mental_hook": "Comes first, and the later thing points back to it.",
+    "semantic_hint": "The earlier event or word that a later one refers back to."
+  },
+  "antedate": {
+    "accepted_concepts": [
+      "come before in time",
+      "precede",
+      "be earlier than",
+      "exist prior to",
+      "predate"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to postpone",
+        "misconception": "inverts earlier into later"
+      },
+      {
+        "answer": "a social engagement",
+        "misconception": "hears the word 'date' in its social sense"
+      }
+    ],
+    "required_nuance": "earlier in time than something else",
+    "mental_hook": "Older than the thing it is measured against.",
+    "semantic_hint": "What cave paintings do to written language."
+  },
+  "antedated": {
+    "accepted_concepts": [
+      "came earlier than",
+      "preceded in time",
+      "was in existence before",
+      "marked with an earlier day than the true one",
+      "came first"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "came afterwards",
+        "misconception": "inverts the order"
+      },
+      {
+        "answer": "went out of fashion",
+        "misconception": "confuses being earlier with being outdated"
+      }
+    ],
+    "required_nuance": "earlier than, whether truly or on paper",
+    "mental_hook": "Either genuinely earlier, or written to look earlier.",
+    "semantic_hint": "What a document is when someone writes an earlier day on it than the true one."
+  },
+  "anthology": {
+    "accepted_concepts": [
+      "a collection of selected writings",
+      "a compilation of pieces",
+      "a gathered selection of works",
+      "a compendium of texts",
+      "a selection by many hands"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the study of human societies",
+        "misconception": "hears the sound-alike 'anthropology'"
+      },
+      {
+        "answer": "a single long work",
+        "misconception": "loses the selected-from-many quality"
+      }
+    ],
+    "required_nuance": "selected pieces gathered together",
+    "mental_hook": "A bouquet of writings, which is what the Greek meant.",
+    "semantic_hint": "A book of poems by many different writers, chosen and gathered."
+  },
+  "anthropocentrism": {
+    "accepted_concepts": [
+      "treating humans as central",
+      "putting people at the centre of things",
+      "a human-centred view",
+      "judging everything by human interests",
+      "human-centredness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the study of human culture",
+        "misconception": "confuses a viewpoint with an academic discipline"
+      },
+      {
+        "answer": "the view that the earth is central",
+        "misconception": "hears the sound-alike 'geocentrism'"
+      }
+    ],
+    "required_nuance": "humans as the measure of value, a viewpoint",
+    "mental_hook": "Everything judged by what it means for people.",
+    "semantic_hint": "The view that people are the point, and everything else is judged by them."
+  }
+}
