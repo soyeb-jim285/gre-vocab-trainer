@@ -1,0 +1,442 @@
+{
+  "counterpoint": {
+    "accepted_concepts": [
+      "a contrasting element",
+      "a foil to something else",
+      "a contrast that sets off another",
+      "a juxtaposed opposite",
+      "an offsetting element"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a rebuttal",
+        "misconception": "confuses contrast with refutation"
+      },
+      {
+        "answer": "a duplicate",
+        "misconception": "inverts contrast into sameness"
+      }
+    ],
+    "required_nuance": "contrast that enhances, not contradiction",
+    "mental_hook": "Sets the other thing off by being unlike it.",
+    "semantic_hint": "The contrasting element that makes the main one stand out."
+  },
+  "counterproductive": {
+    "accepted_concepts": [
+      "having the opposite of the intended effect",
+      "self-defeating",
+      "working against its own aim",
+      "doing more harm than good",
+      "defeating its own purpose"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "achieving nothing",
+        "misconception": "confuses achieving nothing with achieving the reverse"
+      },
+      {
+        "answer": "effective",
+        "misconception": "inverts self-defeat into success"
+      }
+    ],
+    "required_nuance": "not merely useless, but actively backfiring",
+    "mental_hook": "Worse than useless. Backwards.",
+    "semantic_hint": "The word for a punishment that makes the behaviour worse."
+  },
+  "court": {
+    "accepted_concepts": [
+      "seek the favour of",
+      "woo",
+      "solicit attention from",
+      "invite something risky",
+      "deliberately run toward trouble"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a place where trials are held",
+        "misconception": "takes the noun sense for the verb"
+      },
+      {
+        "answer": "to avoid",
+        "misconception": "inverts seeking into shunning"
+      }
+    ],
+    "required_nuance": "actively seeking, whether favour or danger",
+    "mental_hook": "You can court a patron, and court disaster.",
+    "semantic_hint": "What someone does with danger when they keep taking the risk deliberately."
+  },
+  "covert": {
+    "accepted_concepts": [
+      "secret",
+      "concealed",
+      "hidden from view",
+      "done in secrecy",
+      "not openly acknowledged"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "done openly",
+        "misconception": "inverts hidden into overt"
+      },
+      {
+        "answer": "to desire",
+        "misconception": "hears the sound-alike 'covet'"
+      }
+    ],
+    "required_nuance": "deliberately hidden",
+    "mental_hook": "One letter from overt, and its opposite.",
+    "semantic_hint": "The word for an operation the government will never admit to."
+  },
+  "covet": {
+    "accepted_concepts": [
+      "desire what belongs to another",
+      "crave enviously",
+      "long for someone else's",
+      "hanker after",
+      "want badly what is not yours"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "secret",
+        "misconception": "hears the sound-alike 'covert'"
+      },
+      {
+        "answer": "to give away",
+        "misconception": "inverts wanting into relinquishing"
+      }
+    ],
+    "required_nuance": "desire aimed at another person's possession",
+    "mental_hook": "Wanting what is theirs, not yours.",
+    "semantic_hint": "What the tenth commandment forbids doing to a neighbour's goods."
+  },
+  "cow": {
+    "accepted_concepts": [
+      "intimidate into submission",
+      "frighten into obedience",
+      "daunt",
+      "subdue by fear",
+      "browbeat"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a farm animal",
+        "misconception": "takes the noun sense for the verb"
+      },
+      {
+        "answer": "to embolden",
+        "misconception": "inverts intimidation into encouragement"
+      }
+    ],
+    "required_nuance": "intimidating until resistance stops",
+    "mental_hook": "The verb has nothing to do with the animal.",
+    "semantic_hint": "What a bullying manager does to a team until nobody speaks up."
+  },
+  "cower": {
+    "accepted_concepts": [
+      "crouch in fear",
+      "cringe away",
+      "shrink back from something frightening",
+      "huddle in terror",
+      "recoil fearfully"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to intimidate",
+        "misconception": "reverses who is frightened"
+      },
+      {
+        "answer": "to stand firm",
+        "misconception": "inverts shrinking into resistance"
+      }
+    ],
+    "required_nuance": "shrinking physically, out of fear",
+    "mental_hook": "The one who is frightened, not the one doing the frightening.",
+    "semantic_hint": "What a beaten dog does in a corner when someone raises a hand."
+  },
+  "coy": {
+    "accepted_concepts": [
+      "pretending shyness",
+      "deliberately evasive",
+      "affectedly modest",
+      "teasingly reticent",
+      "demure in a calculated way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "genuinely shy",
+        "misconception": "misses that the shyness is put on"
+      },
+      {
+        "answer": "an ornamental fish",
+        "misconception": "hears the sound-alike 'koi'"
+      }
+    ],
+    "required_nuance": "the shyness is affected, never real",
+    "mental_hook": "Shy on purpose.",
+    "semantic_hint": "The word for someone being deliberately vague about an answer they clearly know."
+  },
+  "cozen": {
+    "accepted_concepts": [
+      "trick",
+      "deceive",
+      "dupe",
+      "swindle",
+      "beguile into something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a relative",
+        "misconception": "hears the sound-alike 'cousin'"
+      },
+      {
+        "answer": "to make comfortable",
+        "misconception": "hears 'cosy' and guesses warmly"
+      }
+    ],
+    "required_nuance": "deceiving by persuasion, never by force",
+    "mental_hook": "Deceit with a smile.",
+    "semantic_hint": "The old word for cheating someone out of their money by flattery."
+  },
+  "crabbed": {
+    "accepted_concepts": [
+      "irritable",
+      "surly",
+      "peevish",
+      "cramped and hard to read",
+      "written tiny and illegibly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to shellfish",
+        "misconception": "hears the word 'crab'"
+      },
+      {
+        "answer": "cheerful",
+        "misconception": "inverts irritability into good humour"
+      }
+    ],
+    "required_nuance": "sour in temper, or cramped on the page",
+    "mental_hook": "A temper, or a hand you cannot read.",
+    "semantic_hint": "The word for both a sour temper and handwriting nobody can decipher."
+  },
+  "craft": {
+    "accepted_concepts": [
+      "skill in making things",
+      "artistry",
+      "practical expertise",
+      "cunning",
+      "guile"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a boat or aircraft",
+        "misconception": "takes another noun sense"
+      },
+      {
+        "answer": "clumsiness",
+        "misconception": "inverts skill into ineptitude"
+      }
+    ],
+    "required_nuance": "skill, or the cunning kind of skill",
+    "mental_hook": "The skill of the maker, or the cunning of the schemer.",
+    "semantic_hint": "What a potter has in their hands, and what a schemer has in their head."
+  },
+  "crafty": {
+    "accepted_concepts": [
+      "cunning",
+      "sly",
+      "wily",
+      "deceptively clever",
+      "artful in a scheming way"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "skilled at making things",
+        "misconception": "takes the neutral sense and misses the deceit"
+      },
+      {
+        "answer": "honest",
+        "misconception": "inverts cunning into straightness"
+      }
+    ],
+    "required_nuance": "cleverness put to deceiving",
+    "mental_hook": "Clever, and not to be trusted.",
+    "semantic_hint": "The word for a fox in almost every children's story."
+  },
+  "craven": {
+    "accepted_concepts": [
+      "contemptibly cowardly",
+      "spineless",
+      "abjectly fearful",
+      "pusillanimous",
+      "shamefully timid"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a black bird",
+        "misconception": "hears the sound-alike 'raven'"
+      },
+      {
+        "answer": "brave",
+        "misconception": "inverts cowardice into courage"
+      }
+    ],
+    "required_nuance": "cowardice that deserves contempt",
+    "mental_hook": "Not merely afraid. Contemptibly so.",
+    "semantic_hint": "The word for a surrender so cowardly it disgraces everyone involved."
+  },
+  "credence": {
+    "accepted_concepts": [
+      "belief in something",
+      "acceptance as true",
+      "the trust placed in a claim",
+      "willingness to believe",
+      "the weight given to a report"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "documents proving qualification",
+        "misconception": "hears the shared opening of 'credentials'"
+      },
+      {
+        "answer": "disbelief",
+        "misconception": "inverts acceptance into rejection"
+      }
+    ],
+    "required_nuance": "the belief granted to a claim",
+    "mental_hook": "Usually \"lend credence to\".",
+    "semantic_hint": "What new evidence lends to a theory people were doubting."
+  },
+  "credibility": {
+    "accepted_concepts": [
+      "believability",
+      "trustworthiness",
+      "the quality of being worth believing",
+      "plausibility",
+      "reliability in the eyes of others"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "readiness to believe anything",
+        "misconception": "swaps being believable for being too ready to believe"
+      },
+      {
+        "answer": "a formal qualification",
+        "misconception": "hears the sound-alike 'credential'"
+      }
+    ],
+    "required_nuance": "being worth believing, judged by others",
+    "mental_hook": "What a witness loses by being caught out once.",
+    "semantic_hint": "What a witness loses the moment they are caught in one lie."
+  },
+  "credible": {
+    "accepted_concepts": [
+      "believable",
+      "plausible",
+      "worth taking seriously",
+      "convincing enough to accept",
+      "trustworthy as an account"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "deserving praise",
+        "misconception": "confuses it with creditable"
+      },
+      {
+        "answer": "too ready to believe",
+        "misconception": "confuses it with credulous"
+      }
+    ],
+    "required_nuance": "worth believing, said of a claim or a source",
+    "mental_hook": "A credible witness is believable. A credulous one believes anything.",
+    "semantic_hint": "The word for a threat serious enough that you have to take it seriously."
+  },
+  "creditable": {
+    "accepted_concepts": [
+      "deserving praise",
+      "respectable",
+      "worthy of some recognition",
+      "commendable in a modest way",
+      "doing one reasonable honour"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "believable",
+        "misconception": "confuses it with credible"
+      },
+      {
+        "answer": "shameful",
+        "misconception": "inverts praise into disgrace"
+      }
+    ],
+    "required_nuance": "deserving praise, never deserving belief",
+    "mental_hook": "Earns credit, rather than belief.",
+    "semantic_hint": "The word for a performance that earns respect without winning."
+  },
+  "credo": {
+    "accepted_concepts": [
+      "a statement of beliefs",
+      "a creed",
+      "a set of guiding principles",
+      "a personal manifesto",
+      "the principles one lives by"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "money owed",
+        "misconception": "hears the sound-alike 'credit'"
+      },
+      {
+        "answer": "a doubt",
+        "misconception": "inverts belief into scepticism"
+      }
+    ],
+    "required_nuance": "beliefs set out as a statement",
+    "mental_hook": "Latin for \"I believe\", and still the statement of it.",
+    "semantic_hint": "The short statement of principles someone says they live by."
+  },
+  "credulity": {
+    "accepted_concepts": [
+      "readiness to believe too easily",
+      "gullibility",
+      "naivety in accepting claims",
+      "a willingness to be taken in",
+      "unwary trust"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "believability",
+        "misconception": "confuses being too ready to believe with being worth believing"
+      },
+      {
+        "answer": "scepticism",
+        "misconception": "inverts gullibility into doubt"
+      }
+    ],
+    "required_nuance": "the fault lies in the believer, not the claim",
+    "mental_hook": "The failing is in the audience, not the story.",
+    "semantic_hint": "What a con artist relies on in the people they target."
+  },
+  "credulous": {
+    "accepted_concepts": [
+      "too ready to believe",
+      "gullible",
+      "naive in accepting claims",
+      "easily taken in",
+      "unsuspecting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "believable",
+        "misconception": "confuses it with credible, which describes the claim"
+      },
+      {
+        "answer": "sceptical",
+        "misconception": "inverts gullibility into doubt"
+      }
+    ],
+    "required_nuance": "describes the believer, never the claim",
+    "mental_hook": "The believer, not the thing believed.",
+    "semantic_hint": "The word for someone who believes every story they are told."
+  }
+}
