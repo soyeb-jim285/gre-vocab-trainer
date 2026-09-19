@@ -139,15 +139,23 @@ struct AppSmokeTests {
 
         let model = SessionViewModel(context: context, catalog: catalog, settings: settings, index: index)
         model.start()
+        var asked = 0
         for _ in 0..<12 {
             let item = try drill(model)
-            let options = model.options(for: item).choices.map(\.id)
-            #expect(options.count == 4, "\(item.word.id) offered \(options.count) options")
-            #expect(options.contains(item.word.teachingDefinition),
-                    "\(item.word.id) was not among its own options")
-            await model.submit(.choice(item.word.teachingDefinition))
+            // A word met today comes back until it has been got right three
+            // times, and by the third pass it may have graduated to a harder
+            // form. Only the multiple-choice cards are this test's business.
+            if item.mode == .multipleChoice {
+                asked += 1
+                let options = model.options(for: item).choices.map(\.id)
+                #expect(options.count == 4, "\(item.word.id) offered \(options.count) options")
+                #expect(options.contains(item.word.teachingDefinition),
+                        "\(item.word.id) was not among its own options")
+            }
+            await model.submit(correctDraft(for: item))
             model.advance()
         }
+        #expect(asked > 0)
     }
 
     @Test func withoutAKeyTheGradedModeIsNeverOffered() throws {
@@ -348,7 +356,10 @@ struct AppSmokeTests {
             await model.submit(correctDraft(for: item))
             model.advance()
         }
-        #expect(seen.contains(missed.word.id) == false, "the same word should not repeat back-to-back")
+        // Not back to back: the repeat window keeps it away for a few cards.
+        // After that it is owed a correct answer, so it does come back.
+        #expect(!seen.prefix(SessionQueue.repeatWindow).contains(missed.word.id),
+                "the same word should not repeat back-to-back")
         #expect(settings.currentDeckID == catalog.decks[0].id)
     }
 
