@@ -1,0 +1,2202 @@
+{
+  "sate": {
+    "accepted_concepts": [
+      "fill someone to the full",
+      "gratify an appetite completely",
+      "glut with more than enough",
+      "quench a desire entirely",
+      "feed until nothing more is wanted"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to deprive",
+        "misconception": "inverts filling to the full into withholding"
+      },
+      {
+        "answer": "a tiny trace of something",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "filling an appetite until it is gone",
+    "mental_hook": "Fed, and wanting nothing more.",
+    "semantic_hint": "What a very large meal does to hunger."
+  },
+  "satiate": {
+    "accepted_concepts": [
+      "fill beyond what is wanted",
+      "glut with excess",
+      "surfeit someone",
+      "supply past the point of pleasure",
+      "cloy by giving too much"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to starve",
+        "misconception": "inverts overfilling into depriving"
+      },
+      {
+        "answer": "to fill just enough",
+        "misconception": "loses the excess that separates it from merely satisfying"
+      }
+    ],
+    "required_nuance": "filling past the point of pleasure",
+    "mental_hook": "Past full. Well past.",
+    "semantic_hint": "What a fourth helping of pudding does to an appetite."
+  },
+  "satire": {
+    "accepted_concepts": [
+      "humour used to expose folly",
+      "ridicule aimed at vice",
+      "mockery with a moral purpose",
+      "comic attack on human failings",
+      "irony deployed against a target"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a speech of praise",
+        "misconception": "inverts mockery into eulogy"
+      },
+      {
+        "answer": "humour with no target at all",
+        "misconception": "loses the exposure of folly that defines it"
+      }
+    ],
+    "required_nuance": "humour aimed at exposing folly or vice",
+    "mental_hook": "Funny, and aiming at something.",
+    "semantic_hint": "What Swift wrote when he proposed eating Irish children."
+  },
+  "satirical": {
+    "accepted_concepts": [
+      "using humour to ridicule",
+      "mocking through comedy",
+      "ironic at a target's expense",
+      "sardonic in its comic attack",
+      "written to expose by laughter"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "earnest and reverent",
+        "misconception": "inverts comic ridicule into solemn respect"
+      },
+      {
+        "answer": "humour used to expose folly, as a thing",
+        "misconception": "confuses the adjective with the related noun"
+      }
+    ],
+    "required_nuance": "ridiculing by humour, as an adjective",
+    "mental_hook": "Funny, and it has a target.",
+    "semantic_hint": "The word for a magazine that mocks the government every fortnight."
+  },
+  "saturate": {
+    "accepted_concepts": [
+      "soak completely",
+      "drench through and through",
+      "fill to capacity",
+      "permeate every part",
+      "supply until no more can be taken in"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to dry out",
+        "misconception": "inverts soaking into drying"
+      },
+      {
+        "answer": "to touch only the surface",
+        "misconception": "loses the through-and-through filling"
+      }
+    ],
+    "required_nuance": "filling or soaking until nothing more can go in",
+    "mental_hook": "Full through, not just wet on top.",
+    "semantic_hint": "What a week of rain does to the ground, and advertising to a market."
+  },
+  "saturnine": {
+    "accepted_concepts": [
+      "gloomy in temperament",
+      "sullen and sardonic",
+      "darkly morose",
+      "given to grim silence",
+      "heavy and unsmiling by nature"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "jovial",
+        "misconception": "inverts gloom into good cheer"
+      },
+      {
+        "answer": "relating to a planet's rings",
+        "misconception": "takes the astronomical root literally"
+      }
+    ],
+    "required_nuance": "settled gloom, often with a mocking edge",
+    "mental_hook": "Named for a slow cold planet, and it shows.",
+    "semantic_hint": "The word for a face that has not smiled in the whole meeting."
+  },
+  "savant": {
+    "accepted_concepts": [
+      "a person of deep learning",
+      "a scholar of great attainment",
+      "someone with an extraordinary gift",
+      "a learned authority",
+      "one whose knowledge is remarkable"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an ignoramus",
+        "misconception": "inverts deep learning into ignorance"
+      },
+      {
+        "answer": "shrewdly practical",
+        "misconception": "confuses the noun with the near-twin adjective about street wisdom"
+      }
+    ],
+    "required_nuance": "remarkable knowledge, or one remarkable gift",
+    "mental_hook": "Knows a great deal, or one thing astonishingly.",
+    "semantic_hint": "The word for someone who can name the weekday of any date in history."
+  },
+  "savor": {
+    "accepted_concepts": [
+      "enjoy slowly and fully",
+      "relish every moment of",
+      "take one's time over a pleasure",
+      "appreciate at leisure",
+      "draw out an enjoyment"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to gulp down without noticing",
+        "misconception": "inverts slow enjoyment into haste"
+      },
+      {
+        "answer": "shrewdly practical",
+        "misconception": "confuses the verb with the near-twin adjective"
+      }
+    ],
+    "required_nuance": "enjoying slowly, drawing it out",
+    "mental_hook": "Takes their time over it.",
+    "semantic_hint": "What someone does with the last mouthful of a very good meal."
+  },
+  "savvy": {
+    "accepted_concepts": [
+      "shrewdly practical",
+      "well-informed about how things work",
+      "canny in dealing with the world",
+      "knowing in a practical way",
+      "astute about the realities"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "naive",
+        "misconception": "inverts practical shrewdness into innocence"
+      },
+      {
+        "answer": "deeply learned in books",
+        "misconception": "confuses practical knowingness with scholarship"
+      }
+    ],
+    "required_nuance": "practical shrewdness, not book learning",
+    "mental_hook": "Knows how it actually works.",
+    "semantic_hint": "The word for someone who never gets caught out by a contract."
+  },
+  "scabbard": {
+    "accepted_concepts": [
+      "a sheath for a blade",
+      "the case a sword is kept in",
+      "a protective covering for a weapon",
+      "the holder a dagger slides into",
+      "a rigid case for a blade"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the blade itself",
+        "misconception": "confuses the case with what it holds"
+      },
+      {
+        "answer": "a crust over a healing wound",
+        "misconception": "hears the sound-alike about a scab"
+      }
+    ],
+    "required_nuance": "the case, not the blade",
+    "mental_hook": "Holds the sword. Is not the sword.",
+    "semantic_hint": "What a knight's sword slides into at his hip."
+  },
+  "scale": {
+    "accepted_concepts": [
+      "climb a height",
+      "ascend a steep face",
+      "adjust in proportion",
+      "increase or reduce by a set ratio",
+      "measure against a standard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to descend",
+        "misconception": "inverts climbing into going down"
+      },
+      {
+        "answer": "to weigh an object",
+        "misconception": "takes the weighing-machine noun for the tested verb"
+      }
+    ],
+    "required_nuance": "climbing, or adjusting by proportion",
+    "mental_hook": "Climbs it, or sizes it.",
+    "semantic_hint": "What a climber does to a wall, and an engineer does to a drawing."
+  },
+  "scant": {
+    "accepted_concepts": [
+      "barely sufficient",
+      "meagre in amount",
+      "not quite enough",
+      "thin in supply",
+      "only just covering the need"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ample",
+        "misconception": "inverts a bare sufficiency into plenty"
+      },
+      {
+        "answer": "in short supply generally",
+        "misconception": "confuses a barely adequate amount with the near-twin about rarity"
+      }
+    ],
+    "required_nuance": "barely enough, rather than simply rare",
+    "mental_hook": "Just about enough, and no more.",
+    "semantic_hint": "The word for a report given barely a page of attention."
+  },
+  "scarce": {
+    "accepted_concepts": [
+      "in short supply",
+      "hard to obtain",
+      "rare in availability",
+      "thin on the ground",
+      "not to be had easily"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "plentiful",
+        "misconception": "inverts short supply into abundance"
+      },
+      {
+        "answer": "barely sufficient in amount",
+        "misconception": "confuses rarity with the near-twin about a bare sufficiency"
+      }
+    ],
+    "required_nuance": "hard to come by, rather than barely adequate",
+    "mental_hook": "Hard to find at all.",
+    "semantic_hint": "The word for skilled welders when every shipyard wants them."
+  },
+  "scathing": {
+    "accepted_concepts": [
+      "severely critical",
+      "withering in its attack",
+      "caustic in judgement",
+      "excoriating in tone",
+      "critical enough to sting"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complimentary",
+        "misconception": "inverts harsh criticism into praise"
+      },
+      {
+        "answer": "gentle in correction",
+        "misconception": "inverts severity into mildness"
+      }
+    ],
+    "required_nuance": "criticism severe enough to wound",
+    "mental_hook": "It burns on the way past.",
+    "semantic_hint": "The word for a review that ends a play's run in one night."
+  },
+  "schadenfreude": {
+    "accepted_concepts": [
+      "pleasure at another's misfortune",
+      "quiet delight when a rival fails",
+      "malicious enjoyment of a downfall",
+      "gloating at someone's bad luck",
+      "satisfaction in another's trouble"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "compassion for another's trouble",
+        "misconception": "inverts enjoyment of misfortune into sympathy"
+      },
+      {
+        "answer": "pleasure in one's own success",
+        "misconception": "misplaces the pleasure onto one's own fortune"
+      }
+    ],
+    "required_nuance": "the pleasure is in someone else's misfortune",
+    "mental_hook": "Their disaster. Your good mood.",
+    "semantic_hint": "The German word for enjoying a rival's public humiliation."
+  },
+  "scheme": {
+    "accepted_concepts": [
+      "a systematic plan",
+      "an organised arrangement",
+      "a plot with a hidden purpose",
+      "a design worked out in advance",
+      "a stratagem"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an improvised reaction",
+        "misconception": "inverts a worked-out design into spontaneity"
+      },
+      {
+        "answer": "a split within a group",
+        "misconception": "confuses a plan with the near-twin about a division"
+      }
+    ],
+    "required_nuance": "a worked-out plan, often with a devious edge",
+    "mental_hook": "A plan, and often not an honest one.",
+    "semantic_hint": "The word for a pension arrangement, and for a plot to defraud one."
+  },
+  "schism": {
+    "accepted_concepts": [
+      "a split within a group",
+      "a formal division of a church",
+      "a break into opposed factions",
+      "a rupture separating one body",
+      "a division over doctrine"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a reunification",
+        "misconception": "inverts a split into a coming together"
+      },
+      {
+        "answer": "a systematic plan",
+        "misconception": "confuses a division with the near-twin about a plot"
+      }
+    ],
+    "required_nuance": "a split inside one body, often over doctrine",
+    "mental_hook": "One church, then two.",
+    "semantic_hint": "The word for the break between the eastern and western churches."
+  },
+  "scintilla": {
+    "accepted_concepts": [
+      "a tiny trace",
+      "the smallest particle of something",
+      "an iota",
+      "a barely detectable amount",
+      "the least hint of a thing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an abundance",
+        "misconception": "inverts the smallest trace into plenty"
+      },
+      {
+        "answer": "brilliantly clever and lively",
+        "misconception": "confuses the noun with the near-twin adjective"
+      }
+    ],
+    "required_nuance": "the smallest possible amount, usually of evidence",
+    "mental_hook": "The smallest possible amount of it.",
+    "semantic_hint": "The word in the phrase about not a shred of evidence."
+  },
+  "scintillating": {
+    "accepted_concepts": [
+      "brilliantly clever and lively",
+      "sparkling with wit",
+      "dazzling in conversation",
+      "vivaciously brilliant",
+      "flashing with cleverness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "insipid",
+        "misconception": "inverts sparkling wit into dullness"
+      },
+      {
+        "answer": "a tiny trace of something",
+        "misconception": "confuses the adjective with the near-twin noun"
+      }
+    ],
+    "required_nuance": "brilliance of wit, not of light alone",
+    "mental_hook": "Sparkles, and it is the talk that sparkles.",
+    "semantic_hint": "The word for conversation at a table nobody wants to leave."
+  },
+  "scoff": {
+    "accepted_concepts": [
+      "speak derisively",
+      "mock with contempt",
+      "sneer at a claim",
+      "deride openly",
+      "treat with contemptuous disregard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to praise",
+        "misconception": "inverts derision into commendation"
+      },
+      {
+        "answer": "to take seriously",
+        "misconception": "inverts contemptuous dismissal into respect"
+      }
+    ],
+    "required_nuance": "dismissing with open contempt",
+    "mental_hook": "Laughs, and means it as contempt.",
+    "semantic_hint": "What sceptics did to the first reports of stones falling from the sky."
+  },
+  "scorn": {
+    "accepted_concepts": [
+      "contempt for what is worthless",
+      "open derision",
+      "disdain shown plainly",
+      "the feeling that something is beneath one",
+      "withering dismissal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "admiration",
+        "misconception": "inverts contempt into respect"
+      },
+      {
+        "answer": "to burn slightly",
+        "misconception": "hears the sound-alike about scorching"
+      }
+    ],
+    "required_nuance": "contempt, and shown rather than hidden",
+    "mental_hook": "Beneath notice, and said so.",
+    "semantic_hint": "What a crowd pours on a player who refuses to shake hands."
+  },
+  "screed": {
+    "accepted_concepts": [
+      "a long tedious piece of writing",
+      "a rambling diatribe",
+      "an overlong rant in print",
+      "a wearying harangue set down",
+      "an interminable written attack"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a brief note",
+        "misconception": "inverts an overlong piece into something short"
+      },
+      {
+        "answer": "a loud shriek",
+        "misconception": "hears the sound-alike about screeching"
+      }
+    ],
+    "required_nuance": "long, tedious, and usually aggrieved",
+    "mental_hook": "Twelve pages, and angry throughout.",
+    "semantic_hint": "The word for an eight-page letter of complaint nobody will finish."
+  },
+  "scrupulous": {
+    "accepted_concepts": [
+      "very careful and morally exact",
+      "meticulous about doing right",
+      "conscientious to the last detail",
+      "painstakingly honest",
+      "exacting in matters of principle"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "careless",
+        "misconception": "inverts exactness into negligence"
+      },
+      {
+        "answer": "examining closely",
+        "misconception": "confuses moral exactness with the near-twin about close inspection"
+      }
+    ],
+    "required_nuance": "careful about detail and about right conduct",
+    "mental_hook": "Exact about the work, and about the ethics.",
+    "semantic_hint": "The word for an accountant who declares a two-pound discrepancy."
+  },
+  "scrutinize": {
+    "accepted_concepts": [
+      "examine closely",
+      "inspect in detail",
+      "look over with great care",
+      "probe every part of",
+      "study minutely"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to skim",
+        "misconception": "inverts close inspection into a glance"
+      },
+      {
+        "answer": "morally exact in conduct",
+        "misconception": "confuses close inspection with the near-twin about conscientiousness"
+      }
+    ],
+    "required_nuance": "close examination, not moral care",
+    "mental_hook": "Goes over it with a magnifying glass.",
+    "semantic_hint": "What an auditor does to every line of an expense claim."
+  },
+  "scurvy": {
+    "accepted_concepts": [
+      "contemptible and mean",
+      "despicable in conduct",
+      "shabby in a low way",
+      "vile enough to disgust",
+      "beneath contempt"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "honourable",
+        "misconception": "inverts baseness into decency"
+      },
+      {
+        "answer": "a vitamin deficiency",
+        "misconception": "takes the noun sense for the tested adjective"
+      }
+    ],
+    "required_nuance": "contemptible conduct, not the disease",
+    "mental_hook": "The adjective insults. The noun is the illness.",
+    "semantic_hint": "The word an old sea captain uses for a low untrustworthy crew."
+  },
+  "searchingly": {
+    "accepted_concepts": [
+      "in a probing manner",
+      "penetratingly",
+      "with intent scrutiny",
+      "keenly, as if seeking something hidden",
+      "with a look that goes deep"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "casually",
+        "misconception": "inverts intent probing into idle glancing"
+      },
+      {
+        "answer": "while looking for a lost object",
+        "misconception": "narrows a probing manner to a literal hunt"
+      }
+    ],
+    "required_nuance": "probing, as of a look or question",
+    "mental_hook": "A look that goes right through you.",
+    "semantic_hint": "How someone studies a face when they suspect a lie."
+  },
+  "secrete": {
+    "accepted_concepts": [
+      "produce and discharge a fluid",
+      "give off a substance from a gland",
+      "exude",
+      "hide something away",
+      "stow out of sight"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to absorb",
+        "misconception": "inverts giving off into taking in"
+      },
+      {
+        "answer": "not religious",
+        "misconception": "confuses the verb with the near-twin adjective about worldly matters"
+      }
+    ],
+    "required_nuance": "giving off a substance, or hiding something",
+    "mental_hook": "Gives it off, or puts it away.",
+    "semantic_hint": "What a gland does with a hormone, and what a thief does with a stolen watch."
+  },
+  "secular": {
+    "accepted_concepts": [
+      "not religious",
+      "worldly rather than sacred",
+      "concerning this life rather than the spiritual",
+      "temporal in character",
+      "outside the authority of a church"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "sacred",
+        "misconception": "inverts the worldly into the religious"
+      },
+      {
+        "answer": "to give off a substance",
+        "misconception": "confuses the adjective with the near-twin verb about discharging"
+      }
+    ],
+    "required_nuance": "not religious, in a formal register",
+    "mental_hook": "Of this world, not the next.",
+    "semantic_hint": "The word for a state that keeps religion out of its laws."
+  },
+  "sedative": {
+    "accepted_concepts": [
+      "a drug that calms",
+      "a tranquilliser",
+      "something given to quiet the nerves",
+      "a preparation that induces rest",
+      "a depressant of the nervous system"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a stimulant",
+        "misconception": "inverts a calming drug into an exciting one"
+      },
+      {
+        "answer": "matter settling at the bottom",
+        "misconception": "confuses the drug with the near-twin about deposits"
+      }
+    ],
+    "required_nuance": "a drug, and it calms",
+    "mental_hook": "A drug. The near-twin settles in a bottle.",
+    "semantic_hint": "What a vet gives a frightened animal before an examination."
+  },
+  "sediment": {
+    "accepted_concepts": [
+      "matter that settles at the bottom",
+      "a deposit left by still liquid",
+      "silt gathered on a bed",
+      "residue sunk out of suspension",
+      "the layer settled below"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a calming drug",
+        "misconception": "confuses a settled deposit with the near-twin about tranquillisers"
+      },
+      {
+        "answer": "incitement to rebel",
+        "misconception": "confuses a deposit with the near-twin about subversion"
+      }
+    ],
+    "required_nuance": "matter that has settled out of a liquid",
+    "mental_hook": "What sinks to the bottom and stays.",
+    "semantic_hint": "The silt that settles at the bottom of a slow river."
+  },
+  "sedition": {
+    "accepted_concepts": [
+      "incitement to rebel against authority",
+      "subversion of a government",
+      "stirring up revolt",
+      "agitation against the state",
+      "conduct inciting insurrection"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "loyal obedience",
+        "misconception": "inverts inciting revolt into faithfulness"
+      },
+      {
+        "answer": "matter settling at the bottom",
+        "misconception": "confuses inciting revolt with the near-twin about deposits"
+      }
+    ],
+    "required_nuance": "stirring others against the state",
+    "mental_hook": "Stirring people against the government.",
+    "semantic_hint": "The charge brought against a pamphleteer urging revolt."
+  },
+  "sedulous": {
+    "accepted_concepts": [
+      "diligent and persistent",
+      "assiduous in application",
+      "working at it steadily",
+      "painstaking over a long effort",
+      "constant in attention to a task"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "negligent",
+        "misconception": "inverts steady diligence into carelessness"
+      },
+      {
+        "answer": "a calming drug",
+        "misconception": "confuses diligence with the near-twin about tranquillisers"
+      }
+    ],
+    "required_nuance": "diligence sustained over time",
+    "mental_hook": "Keeps at it, day after day.",
+    "semantic_hint": "The word for a scholar who copies a master's style for years to learn it."
+  },
+  "seemly": {
+    "accepted_concepts": [
+      "proper and in good taste",
+      "decorous for the occasion",
+      "fitting in conduct",
+      "becoming to the circumstances",
+      "appropriate by accepted standards"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "improper",
+        "misconception": "inverts propriety into unseemliness"
+      },
+      {
+        "answer": "apparently the case",
+        "misconception": "hears the root about appearance"
+      }
+    ],
+    "required_nuance": "proper for the occasion, not merely apparent",
+    "mental_hook": "Proper. Not about how it looks.",
+    "semantic_hint": "The word for behaviour a grieving family would find appropriate."
+  },
+  "seethe": {
+    "accepted_concepts": [
+      "be violently agitated",
+      "boil inwardly with rage",
+      "simmer with suppressed fury",
+      "churn with anger",
+      "fume without breaking out"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to remain calm",
+        "misconception": "inverts inner fury into composure"
+      },
+      {
+        "answer": "to breathe out",
+        "misconception": "guesses from a vaguely similar sound"
+      }
+    ],
+    "required_nuance": "violent agitation, often held in",
+    "mental_hook": "Boiling, and the lid still on.",
+    "semantic_hint": "What someone does silently after being publicly overruled."
+  },
+  "semantic": {
+    "accepted_concepts": [
+      "relating to meaning in language",
+      "concerning what words signify",
+      "to do with sense rather than form",
+      "about the content of an expression",
+      "linguistic in the sense of meaning"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to grammar and sentence structure",
+        "misconception": "confuses meaning with the arrangement of words"
+      },
+      {
+        "answer": "an outward deceptive appearance",
+        "misconception": "confuses meaning with the near-twin about a façade"
+      }
+    ],
+    "required_nuance": "about meaning, not structure",
+    "mental_hook": "About what it means, not how it is built.",
+    "semantic_hint": "The word for an argument that is only about what a term signifies."
+  },
+  "semblance": {
+    "accepted_concepts": [
+      "an outward appearance",
+      "a show of something without the substance",
+      "a guise presented to others",
+      "a façade of normality",
+      "the look of a thing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the underlying reality",
+        "misconception": "inverts the outward show into what is actually so"
+      },
+      {
+        "answer": "relating to meaning in language",
+        "misconception": "confuses an appearance with the near-twin about sense"
+      }
+    ],
+    "required_nuance": "the outward look, often without the substance",
+    "mental_hook": "Looks like it. Is not necessarily.",
+    "semantic_hint": "The word for the appearance of order a city keeps after a disaster."
+  },
+  "sensational": {
+    "accepted_concepts": [
+      "designed to excite strong reaction",
+      "lurid in presentation",
+      "shocking for effect",
+      "melodramatic in treatment",
+      "playing to the appetite for scandal"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "sober and restrained",
+        "misconception": "inverts lurid excitement into restraint"
+      },
+      {
+        "answer": "genuinely excellent",
+        "misconception": "takes the colloquial praise sense and loses the criticism"
+      }
+    ],
+    "required_nuance": "exciting reaction deliberately, often cheaply",
+    "mental_hook": "Written to shock, not to inform.",
+    "semantic_hint": "The word for a headline that promises far more than the story delivers."
+  },
+  "sententious": {
+    "accepted_concepts": [
+      "moralising in a pompous way",
+      "preachy about virtue",
+      "given to solemn platitudes",
+      "self-importantly instructive",
+      "laying down moral truisms"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unpretentious",
+        "misconception": "inverts pompous moralising into modesty"
+      },
+      {
+        "answer": "able to perceive and feel",
+        "misconception": "confuses moralising with the near-twin about consciousness"
+      }
+    ],
+    "required_nuance": "moralising, and pleased with itself for it",
+    "mental_hook": "Moralises, and enjoys the sound of it.",
+    "semantic_hint": "The word for a speech that lectures the audience on virtue at length."
+  },
+  "sentient": {
+    "accepted_concepts": [
+      "able to perceive and feel",
+      "conscious of sensation",
+      "possessing awareness",
+      "capable of experiencing",
+      "having the capacity to feel"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "inanimate",
+        "misconception": "inverts the capacity to feel into lifelessness"
+      },
+      {
+        "answer": "pompously moralising",
+        "misconception": "confuses awareness with the near-twin about preachiness"
+      }
+    ],
+    "required_nuance": "capable of feeling and perceiving",
+    "mental_hook": "It can feel. That is the whole test.",
+    "semantic_hint": "The word at the centre of debates about which animals can suffer."
+  },
+  "sentimental": {
+    "accepted_concepts": [
+      "excessively emotional",
+      "nostalgic past the point of taste",
+      "mawkish in feeling",
+      "indulging tender emotion too readily",
+      "valuing a thing for its associations"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "hardheaded",
+        "misconception": "inverts tender excess into unfeeling realism"
+      },
+      {
+        "answer": "a guard on watch",
+        "misconception": "confuses the adjective with the near-twin noun about a watchman"
+      }
+    ],
+    "required_nuance": "emotion indulged past what the case warrants",
+    "mental_hook": "Feeling, and rather too much of it.",
+    "semantic_hint": "The word for keeping a broken cup because a grandparent used it."
+  },
+  "sentinel": {
+    "accepted_concepts": [
+      "a guard on watch",
+      "a sentry keeping lookout",
+      "a watchman posted to warn",
+      "one standing guard at a post",
+      "a keeper of watch"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "excessively emotional",
+        "misconception": "confuses the guard with the near-twin adjective about tender feeling"
+      },
+      {
+        "answer": "an attacking force",
+        "misconception": "inverts the one keeping watch into the one attacking"
+      }
+    ],
+    "required_nuance": "a person or thing standing guard",
+    "mental_hook": "Stands watch, and gives the alarm.",
+    "semantic_hint": "The word for a lone figure posted to watch a gate all night."
+  },
+  "seraphic": {
+    "accepted_concepts": [
+      "angelically serene",
+      "blissful in expression",
+      "beatific",
+      "radiantly calm as an angel",
+      "sweetly untroubled"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "troubled and dark",
+        "misconception": "inverts angelic calm into torment"
+      },
+      {
+        "answer": "occurring by fortunate accident",
+        "misconception": "confuses angelic calm with the near-twin about lucky chance"
+      }
+    ],
+    "required_nuance": "calm and radiant, in an angelic way",
+    "mental_hook": "The face of an angel in a painting.",
+    "semantic_hint": "The word for the untroubled smile of a sleeping infant."
+  },
+  "serendipitous": {
+    "accepted_concepts": [
+      "occurring by fortunate accident",
+      "happily unplanned",
+      "lucky in the way it came about",
+      "arrived at by a fortunate chance",
+      "unsought and welcome"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "carefully planned",
+        "misconception": "inverts happy accident into design"
+      },
+      {
+        "answer": "calm and untroubled",
+        "misconception": "confuses lucky chance with the near-twin about tranquillity"
+      }
+    ],
+    "required_nuance": "by chance, and the chance was kind",
+    "mental_hook": "Nobody planned it, and it worked out.",
+    "semantic_hint": "The word for a discovery made while looking for something else."
+  },
+  "serendipity": {
+    "accepted_concepts": [
+      "the luck of finding good things unsought",
+      "fortunate accident as a faculty",
+      "happy chance in discovery",
+      "the knack of stumbling on what one needs",
+      "good fortune that arrives unplanned"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "careful design",
+        "misconception": "inverts happy accident into deliberate planning"
+      },
+      {
+        "answer": "peaceful calmness",
+        "misconception": "confuses lucky chance with the near-twin about tranquillity"
+      }
+    ],
+    "required_nuance": "finding good things without seeking them",
+    "mental_hook": "Looking for one thing. Finding a better one.",
+    "semantic_hint": "The word for the luck behind penicillin and the microwave oven."
+  },
+  "serene": {
+    "accepted_concepts": [
+      "calm and untroubled",
+      "placid in bearing",
+      "tranquil under pressure",
+      "composed and unhurried",
+      "peacefully undisturbed"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "agitated",
+        "misconception": "inverts calm into turbulence"
+      },
+      {
+        "answer": "occurring by lucky accident",
+        "misconception": "confuses calm with the near-twin about fortunate chance"
+      }
+    ],
+    "required_nuance": "calm, as an adjective describing a state",
+    "mental_hook": "Nothing ruffles the surface.",
+    "semantic_hint": "The word for a lake at dawn with no wind at all."
+  },
+  "serenity": {
+    "accepted_concepts": [
+      "peaceful calmness",
+      "untroubled composure",
+      "tranquillity of mind",
+      "freedom from agitation",
+      "quiet steadiness of spirit"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "turmoil",
+        "misconception": "inverts calm into agitation"
+      },
+      {
+        "answer": "the luck of unsought discovery",
+        "misconception": "confuses calmness with the near-twin about happy chance"
+      }
+    ],
+    "required_nuance": "calmness itself, as a quality",
+    "mental_hook": "The calm, named as a thing.",
+    "semantic_hint": "What the famous prayer asks for in the face of what cannot be changed."
+  },
+  "sever": {
+    "accepted_concepts": [
+      "cut off",
+      "divide by cutting through",
+      "break a connection",
+      "sunder completely",
+      "end a tie for good"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to join",
+        "misconception": "inverts cutting apart into uniting"
+      },
+      {
+        "answer": "extremely harsh",
+        "misconception": "hears the sound-alike about severity"
+      }
+    ],
+    "required_nuance": "cutting through so the connection ends",
+    "mental_hook": "Cut, and the two parts are apart.",
+    "semantic_hint": "What two countries do to diplomatic ties after an incident."
+  },
+  "sextant": {
+    "accepted_concepts": [
+      "an instrument for measuring angles in navigation",
+      "a device for taking the sun's altitude at sea",
+      "a navigator's angle-measuring instrument",
+      "the tool used to fix a ship's position by the stars",
+      "an optical instrument for celestial navigation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a church official",
+        "misconception": "hears the sound-alike about a sexton"
+      },
+      {
+        "answer": "a compass showing direction",
+        "misconception": "confuses measuring angles with showing bearings"
+      }
+    ],
+    "required_nuance": "measuring angles to the sun or stars at sea",
+    "mental_hook": "Measures the angle to the sun, and finds you.",
+    "semantic_hint": "What a navigator used before satellites to fix a position at sea."
+  },
+  "sham": {
+    "accepted_concepts": [
+      "something false pretending to be genuine",
+      "a counterfeit put forward as real",
+      "a pretence with nothing behind it",
+      "a fake passed off as authentic",
+      "a hollow imitation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the genuine article",
+        "misconception": "inverts the fake into the real thing"
+      },
+      {
+        "answer": "a broken fragment",
+        "misconception": "confuses a fake with the near-twin about a splinter"
+      }
+    ],
+    "required_nuance": "false, and pretending otherwise",
+    "mental_hook": "Pretends to be real. Is not.",
+    "semantic_hint": "The word for an election whose result was decided in advance."
+  },
+  "shard": {
+    "accepted_concepts": [
+      "a broken fragment",
+      "a splinter of something shattered",
+      "a jagged piece of glass or pottery",
+      "a sharp remnant of a broken whole",
+      "a fragment left after breaking"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "an unbroken whole",
+        "misconception": "inverts a fragment into the complete object"
+      },
+      {
+        "answer": "something false pretending to be genuine",
+        "misconception": "confuses a fragment with the near-twin about a fake"
+      }
+    ],
+    "required_nuance": "a sharp fragment of something broken",
+    "mental_hook": "A piece, and it has an edge.",
+    "semantic_hint": "What archaeologists find by the thousand where pottery was made."
+  },
+  "sherbet": {
+    "accepted_concepts": [
+      "a frozen fruit dessert",
+      "a water ice with fruit",
+      "a sorbet-like frozen sweet",
+      "a light frozen confection",
+      "a chilled fruit ice"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a hot drink",
+        "misconception": "inverts a frozen dessert into something hot"
+      },
+      {
+        "answer": "a guard on watch",
+        "misconception": "guesses from a vaguely similar shape"
+      }
+    ],
+    "required_nuance": "a frozen fruit sweet, lighter than ice cream",
+    "mental_hook": "Frozen fruit, and lighter than ice cream.",
+    "semantic_hint": "The frozen lemon dessert served between courses at a long dinner."
+  },
+  "shirk": {
+    "accepted_concepts": [
+      "avoid a duty",
+      "evade work one should do",
+      "dodge a responsibility",
+      "neglect what is owed",
+      "get out of an obligation"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to undertake willingly",
+        "misconception": "inverts dodging a duty into taking it on"
+      },
+      {
+        "answer": "to make a loud cry",
+        "misconception": "hears the sound-alike about shrieking"
+      }
+    ],
+    "required_nuance": "avoiding a duty one actually has",
+    "mental_hook": "The job is theirs. They avoid it.",
+    "semantic_hint": "What someone does by always being elsewhere when the hard task comes up."
+  },
+  "shrill": {
+    "accepted_concepts": [
+      "high-pitched and piercing",
+      "harsh in tone to the ear",
+      "stridently insistent",
+      "loud and grating in pitch",
+      "unpleasantly sharp in sound"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "mellow",
+        "misconception": "inverts a piercing tone into a soft one"
+      },
+      {
+        "answer": "a sudden chill",
+        "misconception": "hears the sound-alike about cold"
+      }
+    ],
+    "required_nuance": "piercingly high, in sound or in insistence",
+    "mental_hook": "High, sharp, and it hurts.",
+    "semantic_hint": "The word for a whistle, and for criticism pitched at a constant scream."
+  },
+  "sibilant": {
+    "accepted_concepts": [
+      "making a hissing sound",
+      "characterised by a hiss",
+      "whispering with a hiss",
+      "producing the sound of an s",
+      "hissing in quality"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "silent",
+        "misconception": "inverts a hissing sound into no sound"
+      },
+      {
+        "answer": "a brother or sister",
+        "misconception": "hears the sound-alike about a sibling"
+      }
+    ],
+    "required_nuance": "the hissing quality of a sound",
+    "mental_hook": "The hiss in the sound.",
+    "semantic_hint": "The word for the quality shared by the letters s and sh."
+  },
+  "siege": {
+    "accepted_concepts": [
+      "a prolonged surrounding attack",
+      "the encirclement of a place to force surrender",
+      "a blockade to starve out defenders",
+      "a sustained military investment of a town",
+      "the act of surrounding and cutting off"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the lifting of a blockade",
+        "misconception": "inverts surrounding a place into relieving it"
+      },
+      {
+        "answer": "a single swift raid",
+        "misconception": "loses the prolonged surrounding that defines it"
+      }
+    ],
+    "required_nuance": "surrounding and waiting, not a quick assault",
+    "mental_hook": "Surrounded, and waiting them out.",
+    "semantic_hint": "What an army does by surrounding a city for months until it surrenders."
+  },
+  "simper": {
+    "accepted_concepts": [
+      "smile in a silly affected way",
+      "smirk coyly",
+      "grin with self-conscious affectation",
+      "give a foolish ingratiating smile",
+      "smile archly for effect"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to frown",
+        "misconception": "inverts a coy smile into a scowl"
+      },
+      {
+        "answer": "to make something easier",
+        "misconception": "hears the sound-alike about simplifying"
+      }
+    ],
+    "required_nuance": "a smile, and an affected silly one",
+    "mental_hook": "A smile that is putting it on.",
+    "semantic_hint": "The word for the coy smile a flatterer gives a superior."
+  },
+  "simulacrum": {
+    "accepted_concepts": [
+      "a superficial likeness",
+      "an image standing in for the real thing",
+      "a facsimile without the substance",
+      "an imitation resembling the original",
+      "a shallow copy of something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "the original itself",
+        "misconception": "inverts the copy into the thing copied"
+      },
+      {
+        "answer": "occurring at the same time",
+        "misconception": "confuses a likeness with the near-twin about coincidence in time"
+      }
+    ],
+    "required_nuance": "a likeness, and a hollow one",
+    "mental_hook": "Looks like it. Nothing inside.",
+    "semantic_hint": "The word for a theme-park street built to look like a real old town."
+  },
+  "simultaneous": {
+    "accepted_concepts": [
+      "occurring at the same time",
+      "happening together",
+      "concurrent",
+      "coinciding in time",
+      "synchronous"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "one after another",
+        "misconception": "inverts things happening together into a sequence"
+      },
+      {
+        "answer": "a hollow likeness",
+        "misconception": "confuses coincidence in time with the near-twin about a copy"
+      }
+    ],
+    "required_nuance": "at the same time, not in sequence",
+    "mental_hook": "Both at once.",
+    "semantic_hint": "The word for interpreting that happens as the speaker talks."
+  },
+  "sinecure": {
+    "accepted_concepts": [
+      "a position requiring little or no work",
+      "a post with pay and no duties",
+      "an office held without real responsibility",
+      "a comfortable appointment with nothing to do",
+      "a paid role that demands nothing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a demanding post",
+        "misconception": "inverts a no-work position into a taxing one"
+      },
+      {
+        "answer": "a remarkable and unique thing",
+        "misconception": "confuses an easy post with the near-twin about being exceptional"
+      }
+    ],
+    "required_nuance": "paid, and with almost nothing to do",
+    "mental_hook": "Paid. Nothing required.",
+    "semantic_hint": "The word for an honorary post with a salary and no duties."
+  },
+  "singular": {
+    "accepted_concepts": [
+      "remarkable and unique",
+      "exceptional beyond the ordinary",
+      "extraordinary in a way that stands alone",
+      "strikingly out of the common",
+      "unlike anything else"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "commonplace",
+        "misconception": "inverts the exceptional into the ordinary"
+      },
+      {
+        "answer": "a post with no duties",
+        "misconception": "confuses being exceptional with the near-twin about an easy office"
+      }
+    ],
+    "required_nuance": "remarkable, not merely one in number",
+    "mental_hook": "One of a kind, and remarkably so.",
+    "semantic_hint": "The word for a talent nobody in the field has matched."
+  },
+  "sinuous": {
+    "accepted_concepts": [
+      "having many curves",
+      "winding in its course",
+      "serpentine in shape",
+      "supple in movement",
+      "bending in smooth curves"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly straight",
+        "misconception": "inverts a winding course into a direct one"
+      },
+      {
+        "answer": "remarkable and unique",
+        "misconception": "confuses curving shape with the near-twin about being exceptional"
+      }
+    ],
+    "required_nuance": "curving repeatedly, in shape or movement",
+    "mental_hook": "Curves, and keeps curving.",
+    "semantic_hint": "The word for a mountain road with a hundred bends."
+  },
+  "skeptic": {
+    "accepted_concepts": [
+      "one who questions accepted claims",
+      "a doubter of received wisdom",
+      "someone who withholds belief pending proof",
+      "a habitual questioner of assertions",
+      "one not easily convinced"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a true believer",
+        "misconception": "inverts the doubter into the devotee"
+      },
+      {
+        "answer": "a septic condition",
+        "misconception": "hears the sound-alike about infection"
+      }
+    ],
+    "required_nuance": "withholding belief until convinced",
+    "mental_hook": "Wants the evidence first.",
+    "semantic_hint": "The word for someone who asks for proof before accepting a claim."
+  },
+  "skill": {
+    "accepted_concepts": [
+      "practised ability",
+      "expertise gained by training",
+      "proficiency at a craft",
+      "capability developed through work",
+      "competence in doing something"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "ineptitude",
+        "misconception": "inverts ability into incompetence"
+      },
+      {
+        "answer": "natural talent needing no practice",
+        "misconception": "loses that it is developed by practice"
+      }
+    ],
+    "required_nuance": "ability that has been practised into being",
+    "mental_hook": "Earned by doing it, again and again.",
+    "semantic_hint": "What a decade at a workbench gives a carpenter."
+  },
+  "skirt": {
+    "accepted_concepts": [
+      "avoid dealing with something",
+      "pass around the edge of",
+      "circumvent an issue",
+      "go along the border of",
+      "evade a difficult point"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to confront directly",
+        "misconception": "inverts going round into meeting head on"
+      },
+      {
+        "answer": "a garment",
+        "misconception": "takes the noun sense for the tested verb"
+      }
+    ],
+    "required_nuance": "going round rather than through",
+    "mental_hook": "Round the edge, never through the middle.",
+    "semantic_hint": "What a careful answer does to the part of the question that matters."
+  },
+  "skittish": {
+    "accepted_concepts": [
+      "nervous and easily startled",
+      "jumpy at any disturbance",
+      "excitable and hard to settle",
+      "apt to shy away suddenly",
+      "unsteady from nerves"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "calm and steady",
+        "misconception": "inverts nervousness into composure"
+      },
+      {
+        "answer": "underhanded scheming",
+        "misconception": "confuses nervousness with the near-twin about trickery"
+      }
+    ],
+    "required_nuance": "easily startled, of an animal or a market",
+    "mental_hook": "Jumps at everything.",
+    "semantic_hint": "The word for a horse that bolts at a plastic bag, and for a nervous market."
+  },
+  "skullduggery": {
+    "accepted_concepts": [
+      "underhanded scheming",
+      "trickery behind the scenes",
+      "chicanery",
+      "dishonest contrivance",
+      "sly intrigue"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "open honest dealing",
+        "misconception": "inverts underhand trickery into transparency"
+      },
+      {
+        "answer": "nervous and easily startled",
+        "misconception": "confuses trickery with the near-twin about jumpiness"
+      }
+    ],
+    "required_nuance": "dishonest scheming, carried on in secret",
+    "mental_hook": "Something dishonest, going on quietly.",
+    "semantic_hint": "The word for the backroom manoeuvring that fixes a committee vote."
+  },
+  "slack": {
+    "accepted_concepts": [
+      "loose rather than taut",
+      "careless and lacking effort",
+      "negligent about a duty",
+      "lax in application",
+      "not pulled tight"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "diligent",
+        "misconception": "inverts carelessness into effort"
+      },
+      {
+        "answer": "to satisfy a thirst",
+        "misconception": "confuses looseness with the near-twin verb about quenching"
+      }
+    ],
+    "required_nuance": "loose, in a rope or in effort",
+    "mental_hook": "Loose rope, or loose effort.",
+    "semantic_hint": "The word for a rope with give in it, and for work done without care."
+  },
+  "slake": {
+    "accepted_concepts": [
+      "satisfy a thirst",
+      "quench a craving",
+      "assuage a desire",
+      "relieve a need by satisfying it",
+      "put an end to a longing"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to intensify a craving",
+        "misconception": "inverts satisfying a desire into sharpening it"
+      },
+      {
+        "answer": "loose and careless",
+        "misconception": "confuses quenching with the near-twin adjective about looseness"
+      }
+    ],
+    "required_nuance": "satisfying a thirst or craving",
+    "mental_hook": "The thirst is answered.",
+    "semantic_hint": "What cold water does to a thirst after a long walk."
+  },
+  "slander": {
+    "accepted_concepts": [
+      "a false spoken statement damaging reputation",
+      "defamation by word of mouth",
+      "a calumny uttered aloud",
+      "an untrue aspersion cast on someone",
+      "spoken lies that injure a name"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "praise",
+        "misconception": "inverts damaging falsehood into commendation"
+      },
+      {
+        "answer": "a damaging falsehood in print",
+        "misconception": "confuses the spoken form with the written one"
+      }
+    ],
+    "required_nuance": "spoken, and false, and damaging",
+    "mental_hook": "Spoken. The written kind has another name.",
+    "semantic_hint": "The legal word for a damaging lie said aloud rather than published."
+  },
+  "slapdash": {
+    "accepted_concepts": [
+      "careless and hasty",
+      "done without proper attention",
+      "haphazard in execution",
+      "thrown together quickly",
+      "perfunctory and rough"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "meticulous",
+        "misconception": "inverts careless haste into thoroughness"
+      },
+      {
+        "answer": "a false spoken statement",
+        "misconception": "confuses careless work with the near-twin about defamation"
+      }
+    ],
+    "required_nuance": "hasty, and careless because of it",
+    "mental_hook": "Done fast, and it shows.",
+    "semantic_hint": "The word for a paint job finished in an hour with the brush marks showing."
+  },
+  "slay": {
+    "accepted_concepts": [
+      "kill violently",
+      "put to death by force",
+      "murder",
+      "strike down in battle",
+      "dispatch with a weapon"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to spare",
+        "misconception": "inverts killing into sparing"
+      },
+      {
+        "answer": "a large number",
+        "misconception": "confuses the verb with the near-twin noun about a multitude"
+      }
+    ],
+    "required_nuance": "killing, and violently",
+    "mental_hook": "Killed, and the word is old and violent.",
+    "semantic_hint": "What the hero does to the dragon in the old story."
+  },
+  "sleight": {
+    "accepted_concepts": [
+      "skilful trickery with the hands",
+      "dexterity used to deceive the eye",
+      "the conjurer's quickness of hand",
+      "deft manual deception",
+      "legerdemain"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to insult by ignoring",
+        "misconception": "confuses manual trickery with the near-twin verb about snubbing"
+      },
+      {
+        "answer": "clumsiness",
+        "misconception": "inverts practised dexterity into awkwardness"
+      }
+    ],
+    "required_nuance": "quickness of hand used to deceive",
+    "mental_hook": "The hand is quicker than the eye.",
+    "semantic_hint": "The phrase for a magician's trick done with the hands."
+  },
+  "slew": {
+    "accepted_concepts": [
+      "a large number",
+      "a great many of something",
+      "a host of items",
+      "a multitude taken together",
+      "a whole raft of them"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a handful",
+        "misconception": "inverts a great many into a few"
+      },
+      {
+        "answer": "to kill violently",
+        "misconception": "confuses the noun with the near-twin verb about killing"
+      }
+    ],
+    "required_nuance": "a large quantity, as a noun",
+    "mental_hook": "A great many. The verb kills.",
+    "semantic_hint": "The word for the great number of applications a job attracts."
+  },
+  "slight": {
+    "accepted_concepts": [
+      "insult by ignoring someone",
+      "snub deliberately",
+      "treat as beneath notice",
+      "pass over in a way that offends",
+      "disparage by omission"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to honour",
+        "misconception": "inverts a snub into a mark of respect"
+      },
+      {
+        "answer": "skilful trickery with the hands",
+        "misconception": "confuses the snub with the near-twin about manual deception"
+      }
+    ],
+    "required_nuance": "the tested sense is the verb: to snub",
+    "mental_hook": "Ignored them, and meant it to sting.",
+    "semantic_hint": "What leaving one name off a list of thanks does to that person."
+  },
+  "slothful": {
+    "accepted_concepts": [
+      "lazy",
+      "disinclined to any exertion",
+      "indolent by habit",
+      "idle where effort is needed",
+      "lethargic about work"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "industrious",
+        "misconception": "inverts laziness into diligence"
+      },
+      {
+        "answer": "untidy in appearance",
+        "misconception": "confuses laziness with the near-twin about being unkempt"
+      }
+    ],
+    "required_nuance": "lazy, and habitually so",
+    "mental_hook": "Named for the animal that moves as little as possible.",
+    "semantic_hint": "The word for the deadly sin of refusing all effort."
+  },
+  "slovenly": {
+    "accepted_concepts": [
+      "untidy and careless",
+      "unkempt in appearance",
+      "disorderly in habits",
+      "sloppy about how things are left",
+      "negligent about neatness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "meticulously tidy",
+        "misconception": "inverts untidiness into order"
+      },
+      {
+        "answer": "lazy about work",
+        "misconception": "confuses untidiness with the near-twin about indolence"
+      }
+    ],
+    "required_nuance": "untidy in appearance or habit",
+    "mental_hook": "Untidy. The near-twin is merely lazy.",
+    "semantic_hint": "The word for a room where nothing has been put away for weeks."
+  },
+  "sluggish": {
+    "accepted_concepts": [
+      "slow-moving and lacking energy",
+      "torpid in response",
+      "inert and heavy",
+      "lethargic in pace",
+      "reacting slowly"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "brisk",
+        "misconception": "inverts slowness into energy"
+      },
+      {
+        "answer": "washing with a flow of water",
+        "misconception": "confuses slowness with the near-twin about flushing"
+      }
+    ],
+    "required_nuance": "slow through lack of energy",
+    "mental_hook": "Moving, but barely.",
+    "semantic_hint": "The word for an engine on a cold morning, and for a flat economy."
+  },
+  "sluice": {
+    "accepted_concepts": [
+      "wash with a flow of water",
+      "flush something clean",
+      "rinse with a rush of liquid",
+      "swill down with water",
+      "pour water over to clean"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to dry off",
+        "misconception": "inverts flooding with water into drying"
+      },
+      {
+        "answer": "slow-moving and lacking energy",
+        "misconception": "confuses flushing with the near-twin about torpor"
+      }
+    ],
+    "required_nuance": "washing by a rush of water",
+    "mental_hook": "A rush of water, and it is clean.",
+    "semantic_hint": "What a farmer does to a yard with a hose at full pressure."
+  },
+  "smattering": {
+    "accepted_concepts": [
+      "a slight superficial knowledge",
+      "a small amount of something",
+      "a sprinkling scattered thinly",
+      "a trace of a subject learned",
+      "just enough to be dangerous"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complete mastery",
+        "misconception": "inverts superficial knowledge into deep command"
+      },
+      {
+        "answer": "irritatingly self-satisfied",
+        "misconception": "confuses slight knowledge with the near-twin about complacency"
+      }
+    ],
+    "required_nuance": "a small amount, usually of knowledge",
+    "mental_hook": "Knows a little. Not enough.",
+    "semantic_hint": "The word for the few phrases of a language a tourist picks up."
+  },
+  "smug": {
+    "accepted_concepts": [
+      "irritatingly self-satisfied",
+      "complacent about one's own rightness",
+      "pleased with oneself in a way that grates",
+      "priggishly content",
+      "quietly triumphant at another's expense"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "humble",
+        "misconception": "inverts self-satisfaction into modesty"
+      },
+      {
+        "answer": "a slight superficial knowledge",
+        "misconception": "confuses self-satisfaction with the near-twin about a sprinkling"
+      }
+    ],
+    "required_nuance": "self-satisfaction, and it annoys others",
+    "mental_hook": "Pleased with themselves, and it shows.",
+    "semantic_hint": "The word for the expression of someone who was right and knows it."
+  },
+  "snide": {
+    "accepted_concepts": [
+      "slyly disparaging",
+      "sneering under a polite surface",
+      "cutting in an indirect way",
+      "malicious in an offhand remark",
+      "mocking without saying so outright"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "warmly complimentary",
+        "misconception": "inverts a veiled insult into praise"
+      },
+      {
+        "answer": "openly abusive",
+        "misconception": "loses the slyness that separates it from plain insult"
+      }
+    ],
+    "required_nuance": "the insult is sly rather than open",
+    "mental_hook": "Said with a smile, and it cuts.",
+    "semantic_hint": "The word for a remark that praises you while insulting you."
+  },
+  "snub": {
+    "accepted_concepts": [
+      "insult by deliberate coldness",
+      "refuse to acknowledge someone",
+      "slight a person in public",
+      "cut dead",
+      "pointedly ignore"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to welcome warmly",
+        "misconception": "inverts deliberate coldness into welcome"
+      },
+      {
+        "answer": "an accidental oversight",
+        "misconception": "loses the deliberateness that defines it"
+      }
+    ],
+    "required_nuance": "coldness shown on purpose, and noticed",
+    "mental_hook": "Looked straight through them, deliberately.",
+    "semantic_hint": "What someone does by walking past an acquaintance without a word."
+  },
+  "sob": {
+    "accepted_concepts": [
+      "weep with gasping breaths",
+      "cry convulsively",
+      "blubber uncontrollably",
+      "catch the breath while crying",
+      "weep audibly and hard"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to laugh aloud",
+        "misconception": "inverts weeping into laughter"
+      },
+      {
+        "answer": "a nickname",
+        "misconception": "confuses the verb with a near-twin noun about an alternative name"
+      }
+    ],
+    "required_nuance": "weeping hard enough to break the breath",
+    "mental_hook": "Crying, with the breath catching.",
+    "semantic_hint": "What a child does after a fall, gasping between cries."
+  },
+  "sobriquet": {
+    "accepted_concepts": [
+      "a nickname",
+      "an epithet used instead of a real name",
+      "a familiar name given by others",
+      "a moniker attached to a person",
+      "a name that sticks to someone"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a legal name on a birth certificate",
+        "misconception": "confuses an informal name with the official one"
+      },
+      {
+        "answer": "a formal title of office",
+        "misconception": "confuses an affectionate nickname with a rank"
+      }
+    ],
+    "required_nuance": "an informal name others give you",
+    "mental_hook": "The name everyone uses, and nobody registered.",
+    "semantic_hint": "What the Iron Lady was for a British prime minister."
+  },
+  "solecism": {
+    "accepted_concepts": [
+      "a grammatical error",
+      "a breach of correct usage",
+      "a social blunder",
+      "an impropriety of manners",
+      "a mistake against accepted form"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "perfectly correct usage",
+        "misconception": "inverts a blunder into correctness"
+      },
+      {
+        "answer": "a deliberate stylistic choice",
+        "misconception": "loses that it is a mistake"
+      }
+    ],
+    "required_nuance": "a mistake against correct form, in speech or conduct",
+    "mental_hook": "Wrong by the rules, in grammar or in manners.",
+    "semantic_hint": "The word for both a mangled verb and a fork used at the wrong course."
+  },
+  "solicitous": {
+    "accepted_concepts": [
+      "showing anxious care for someone",
+      "attentive out of concern",
+      "eager about another's welfare",
+      "caring to the point of fussing",
+      "worried on someone else's behalf"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "indifferent to another's welfare",
+        "misconception": "inverts anxious care into neglect"
+      },
+      {
+        "answer": "unity based on shared interests",
+        "misconception": "confuses personal concern with the near-twin about group unity"
+      }
+    ],
+    "required_nuance": "care for another, with anxiety in it",
+    "mental_hook": "Fussing over you, because they are worried.",
+    "semantic_hint": "The word for a host who asks four times whether you are warm enough."
+  },
+  "solicitude": {
+    "accepted_concepts": [
+      "anxious care for another",
+      "attentive concern",
+      "worried attention to someone's needs",
+      "the state of being concerned for a person",
+      "careful regard for another's welfare"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "complete indifference",
+        "misconception": "inverts concern into unconcern"
+      },
+      {
+        "answer": "the state of being alone",
+        "misconception": "hears the sound-alike about solitude"
+      }
+    ],
+    "required_nuance": "the concern itself, felt for someone else",
+    "mental_hook": "The worry, felt on someone else's behalf.",
+    "semantic_hint": "The word for the anxious care a nurse shows a frightened patient."
+  },
+  "solidarity": {
+    "accepted_concepts": [
+      "unity based on shared interests",
+      "mutual support within a group",
+      "standing together in a common cause",
+      "cohesion among people with the same stake",
+      "fellowship in a shared struggle"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "division into rival camps",
+        "misconception": "inverts unity into discord"
+      },
+      {
+        "answer": "anxious care for one person",
+        "misconception": "confuses group unity with the near-twin about individual concern"
+      }
+    ],
+    "required_nuance": "unity arising from a shared interest",
+    "mental_hook": "All of us, or none of us.",
+    "semantic_hint": "The word for workers refusing to cross a picket line for another trade."
+  },
+  "soliloquy": {
+    "accepted_concepts": [
+      "a speech made alone on stage",
+      "a character thinking aloud",
+      "a monologue revealing inner thought",
+      "words spoken with no listener present",
+      "an address to oneself for the audience"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "a conversation between two characters",
+        "misconception": "inverts a speech alone into an exchange"
+      },
+      {
+        "answer": "the state of being by oneself",
+        "misconception": "hears the sound-alike about solitude"
+      }
+    ],
+    "required_nuance": "spoken alone, revealing what is thought",
+    "mental_hook": "Alone on stage, thinking out loud.",
+    "semantic_hint": "What the speech beginning with a question about being is, in Hamlet."
+  },
+  "solvent": {
+    "accepted_concepts": [
+      "able to pay one's debts",
+      "financially sound",
+      "having enough to meet obligations",
+      "not bankrupt",
+      "with assets exceeding liabilities"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "unable to pay what is owed",
+        "misconception": "inverts financial soundness into bankruptcy"
+      },
+      {
+        "answer": "a liquid that dissolves things",
+        "misconception": "takes the chemical noun for the tested adjective"
+      }
+    ],
+    "required_nuance": "able to meet debts, as a financial state",
+    "mental_hook": "Can pay the bills. That is the whole test.",
+    "semantic_hint": "The word for a firm whose assets still cover what it owes."
+  },
+  "somatic": {
+    "accepted_concepts": [
+      "relating to the body",
+      "bodily rather than mental",
+      "physical in origin",
+      "corporeal",
+      "of the flesh rather than the mind"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "relating to the mind",
+        "misconception": "inverts the bodily into the mental"
+      },
+      {
+        "answer": "sleepy or causing sleep",
+        "misconception": "confuses the body with the near-twin about drowsiness"
+      }
+    ],
+    "required_nuance": "of the body, as opposed to the mind",
+    "mental_hook": "Body, not mind.",
+    "semantic_hint": "The word for symptoms that appear in the body from mental strain."
+  },
+  "somber": {
+    "accepted_concepts": [
+      "dark and gloomy in tone",
+      "grave in mood",
+      "melancholy in colour or manner",
+      "dour and subdued",
+      "heavy with seriousness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "bright and cheerful",
+        "misconception": "inverts gloom into brightness"
+      },
+      {
+        "answer": "sleepy",
+        "misconception": "confuses gloom with the near-twin about drowsiness"
+      }
+    ],
+    "required_nuance": "gloomy in mood or colour",
+    "mental_hook": "Dark in colour, or dark in mood.",
+    "semantic_hint": "The word for the atmosphere of a room after a funeral."
+  },
+  "somnolent": {
+    "accepted_concepts": [
+      "sleepy",
+      "drowsy and heavy-eyed",
+      "inducing drowsiness",
+      "lethargic with the urge to sleep",
+      "half asleep"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "wide awake and alert",
+        "misconception": "inverts drowsiness into alertness"
+      },
+      {
+        "answer": "gloomy in tone",
+        "misconception": "confuses sleepiness with the near-twin about gloom"
+      }
+    ],
+    "required_nuance": "sleepy, or making others so",
+    "mental_hook": "Eyes closing, and the room is warm.",
+    "semantic_hint": "The word for a village in the still heat of a summer afternoon."
+  },
+  "sonorous": {
+    "accepted_concepts": [
+      "deep and richly resonant",
+      "full in tone",
+      "booming with a pleasant depth",
+      "orotund in delivery",
+      "ringing with richness"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "thin and reedy",
+        "misconception": "inverts rich depth into a thin tone"
+      },
+      {
+        "answer": "utterly silent",
+        "misconception": "inverts a full ringing tone into no sound at all"
+      }
+    ],
+    "required_nuance": "depth and richness of tone",
+    "mental_hook": "Deep, full, and it fills the room.",
+    "semantic_hint": "The word for a bass voice that seems to come from the floor."
+  },
+  "sophisticated": {
+    "accepted_concepts": [
+      "refined and worldly",
+      "complex in design",
+      "advanced beyond the simple",
+      "cultivated in taste",
+      "subtle enough to handle fine distinctions"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "naive and crude",
+        "misconception": "inverts refinement into simplicity"
+      },
+      {
+        "answer": "clever but false reasoning",
+        "misconception": "confuses refinement with the near-twin about deceptive argument"
+      }
+    ],
+    "required_nuance": "refined or complex, not deceptive",
+    "mental_hook": "Refined. The near-twin noun is a cheat.",
+    "semantic_hint": "The word for an instrument that measures a dozen variables at once."
+  },
+  "sophistry": {
+    "accepted_concepts": [
+      "clever but false reasoning",
+      "argument designed to deceive",
+      "specious logic dressed as rigour",
+      "casuistry",
+      "reasoning that looks sound and is not"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "valid reasoning",
+        "misconception": "inverts fallacious argument into sound logic"
+      },
+      {
+        "answer": "refined worldly taste",
+        "misconception": "confuses deceptive argument with the near-twin about refinement"
+      }
+    ],
+    "required_nuance": "reasoning that only appears to hold",
+    "mental_hook": "Looks like logic. Is not.",
+    "semantic_hint": "The word for an argument that survives only until someone checks it."
+  },
+  "soporific": {
+    "accepted_concepts": [
+      "causing sleepiness",
+      "sleep-inducing",
+      "dull enough to send one off",
+      "having a drowsy effect",
+      "a drug that brings on sleep"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "stimulating and invigorating",
+        "misconception": "inverts sleep-inducing into rousing"
+      },
+      {
+        "answer": "clever but false reasoning",
+        "misconception": "confuses drowsiness with the near-twin about deceptive argument"
+      }
+    ],
+    "required_nuance": "it puts others to sleep",
+    "mental_hook": "Sends you to sleep, drug or lecture.",
+    "semantic_hint": "The word for a talk so dull half the room nods off."
+  },
+  "sordid": {
+    "accepted_concepts": [
+      "morally squalid",
+      "dirty and degraded",
+      "sleazy in its details",
+      "ignoble and shabby",
+      "unpleasantly grubby in conduct"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "honourable and clean",
+        "misconception": "inverts moral squalor into decency"
+      },
+      {
+        "answer": "causing sleepiness",
+        "misconception": "confuses squalor with the near-twin about drowsiness"
+      }
+    ],
+    "required_nuance": "dirty, and usually morally so",
+    "mental_hook": "Grubby, and the grubbiness is moral.",
+    "semantic_hint": "The word for the details of a scandal nobody wants to hear."
+  },
+  "sound": {
+    "accepted_concepts": [
+      "solid and free of defect",
+      "reliable in construction",
+      "valid as an argument",
+      "in good condition throughout",
+      "well founded"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "flawed and unreliable",
+        "misconception": "inverts solidity into defect"
+      },
+      {
+        "answer": "a noise that can be heard",
+        "misconception": "takes the common noun for the tested adjective"
+      }
+    ],
+    "required_nuance": "free of defect, in structure or in reasoning",
+    "mental_hook": "No hidden flaw in it.",
+    "semantic_hint": "The word for a building's structure or an argument with no weak point."
+  },
+  "spangle": {
+    "accepted_concepts": [
+      "decorate with sparkling ornaments",
+      "stud with small shining pieces",
+      "cover with glittering points",
+      "scatter shiny discs over",
+      "make something glitter with ornament"
+    ],
+    "incorrect_associations": [
+      {
+        "answer": "to strip of all decoration",
+        "misconception": "inverts decorating into removing ornament"
+      },
+      {
+        "answer": "to quarrel pettily",
+        "misconception": "confuses decorating with a near-twin about a squabble"
+      }
+    ],
+    "required_nuance": "decorating with small shining points",
+    "mental_hook": "Covered in little points of light.",
+    "semantic_hint": "What a costume-maker does to a dancer's dress with sequins."
+  }
+}

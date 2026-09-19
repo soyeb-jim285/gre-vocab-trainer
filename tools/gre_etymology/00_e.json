@@ -1,0 +1,452 @@
+{
+  "ascendancy": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "scandere", "origin": "Latin", "meaning": "to climb"}],
+    "literal": "a climbing up",
+    "path": "The physical act of climbing upward extended to rising to a position of dominant power or controlling influence.",
+    "cousins": ["ascend", "descend", "transcend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ascertain": {
+    "parts": [{"piece": "a-", "origin": "Old French", "meaning": "to"}, {"piece": "certain", "origin": "Old French, from Latin certus", "meaning": "certain, settled"}],
+    "literal": "to make certain",
+    "path": "Directly, to make a fact certain through investigation, i.e. to find it out for sure.",
+    "cousins": ["certain", "certify", "certificate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ascetic": {
+    "parts": [{"piece": "askesis", "origin": "Greek, from askein", "meaning": "exercise, training"}],
+    "literal": "practiced through training",
+    "path": "Originally described rigorous athletic training; applied to religious figures who trained themselves through severe self-denial for spiritual discipline.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ascribe": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "scribere", "origin": "Latin", "meaning": "to write"}],
+    "literal": "to write onto",
+    "path": "Literally writing something onto a person's account, like an entry in a ledger, extended to attributing a cause or quality to someone.",
+    "cousins": ["scribe", "script", "describe"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "aseptic": {
+    "parts": [{"piece": "a-", "origin": "Greek", "meaning": "without"}, {"piece": "septikos", "origin": "Greek, from sepein", "meaning": "putrefying, to rot"}],
+    "literal": "without rot",
+    "path": "Directly names the state of being free from decay-causing microbes, i.e. sterile.",
+    "cousins": ["antiseptic", "sepsis"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "askance": {
+    "parts": [{"piece": "askance", "origin": "obscure, possibly Old French/Italian a scancio", "meaning": "sideways, obliquely"}],
+    "literal": "sideways",
+    "path": "A sideways glance narrowed specifically to one cast with suspicion or disapproval. The word's deeper origin before this is disputed.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "asperity": {
+    "parts": [{"piece": "asper", "origin": "Latin", "meaning": "rough"}],
+    "literal": "roughness",
+    "path": "The physical roughness of terrain or texture extended metaphorically to harshness in tone, manner, or temperament.",
+    "cousins": ["exasperate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "aspersion": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "spargere", "origin": "Latin", "meaning": "to scatter, sprinkle"}],
+    "literal": "a sprinkling toward",
+    "path": "From the ritual sprinkling of water, the image of 'casting' something at a person gave 'cast aspersions,' i.e. throwing damaging or false remarks at someone.",
+    "cousins": ["disperse", "sparse"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "aspersions": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "spargere", "origin": "Latin", "meaning": "to scatter, sprinkle"}],
+    "literal": "sprinklings cast",
+    "path": "The plural of aspersion: damaging or false remarks figuratively thrown, or 'cast,' at someone's reputation.",
+    "cousins": ["disperse", "sparse"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "assail": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "salire", "origin": "Latin", "meaning": "to leap"}],
+    "literal": "to leap at",
+    "path": "Literally leaping upon someone became the general sense of attacking violently, whether physically or with words.",
+    "cousins": ["assault", "salient"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "assay": {
+    "parts": [{"piece": "assai", "origin": "Old French, variant of essai", "meaning": "a trial, test (related to a weighing)"}],
+    "literal": "a trial, a weighing",
+    "path": "Originally to test metals for purity by weighing and analysis; extended to testing or analyzing the quality of anything.",
+    "cousins": ["essay"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "assent": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "sentire", "origin": "Latin", "meaning": "to feel, think"}],
+    "literal": "to feel toward, agree",
+    "path": "Feeling the same way as another person directly gave the sense of agreeing with, or formally approving, a proposal.",
+    "cousins": ["sentiment", "consent", "dissent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "assert": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "serere", "origin": "Latin", "meaning": "to join, link"}],
+    "literal": "to join to oneself",
+    "path": "A legal term for formally laying claim to something, joining it to oneself; extended to stating something firmly or insisting on a right.",
+    "cousins": ["series"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "assertive": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "serere", "origin": "Latin", "meaning": "to join, link"}],
+    "literal": "joining to oneself",
+    "path": "Describes someone inclined to assert, i.e. confidently and forcefully claim and state their position.",
+    "cousins": ["series"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "assiduous": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "sedere", "origin": "Latin", "meaning": "to sit"}],
+    "literal": "sitting close to",
+    "path": "Literally staying seated persistently at a task extended to diligent, persistent care and effort applied to it.",
+    "cousins": ["sedentary", "session", "reside"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "assiduously": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "sedere", "origin": "Latin", "meaning": "to sit"}],
+    "literal": "in a sitting-close-to way",
+    "path": "The manner form of assiduous: acting with the same persistent, sit-down-and-stick-with-it care.",
+    "cousins": ["sedentary", "session", "reside"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "assimilate": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "similis", "origin": "Latin", "meaning": "like, similar"}],
+    "literal": "to make similar to",
+    "path": "Directly, to make one thing similar to another, extended to absorbing and integrating something fully until it is indistinguishable.",
+    "cousins": ["similar", "simulate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "assuage": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "suavis", "origin": "Latin", "meaning": "sweet, pleasant"}],
+    "literal": "to make sweet toward",
+    "path": "Making something sweet or pleasant extended to soothing pain, grief, or intense feeling, making it milder.",
+    "cousins": ["suave", "sweet"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "astonishment": {
+    "parts": [{"piece": "ex-", "origin": "Vulgar Latin", "meaning": "out"}, {"piece": "tonare", "origin": "Latin", "meaning": "to thunder"}],
+    "literal": "thunderstruck",
+    "path": "Being struck as if by a thunderclap became the image for overwhelming, sudden surprise or amazement.",
+    "cousins": ["detonate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "astringent": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "stringere", "origin": "Latin", "meaning": "to bind, draw tight"}],
+    "literal": "to bind tightly",
+    "path": "The literal drawing tight and contracting of tissue by a chemical extended to a sharp, severe quality in taste, tone, or manner.",
+    "cousins": ["strict", "stringent", "constrain"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "astute": {
+    "parts": [{"piece": "astus", "origin": "Latin", "meaning": "craft, cunning"}],
+    "literal": "crafty",
+    "path": "General craftiness and cunning narrowed to shrewd, perceptive judgment, especially skill at spotting advantage.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "asunder": {
+    "parts": [{"piece": "on sundran", "origin": "Old English, from sundor", "meaning": "apart, separately"}],
+    "literal": "in a separated way",
+    "path": "Directly, apart or into separate pieces; the sense has stayed essentially unchanged since Old English.",
+    "cousins": ["sunder", "sundry"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "atavism": {
+    "parts": [{"piece": "atavus", "origin": "Latin", "meaning": "distant ancestor (great-great-grandfather)"}],
+    "literal": "distant ancestor",
+    "path": "From the word for a far-off ancestor to the biological reappearance of a trait inherited from that distant ancestry.",
+    "cousins": ["avuncular"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "attenuate": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "tenuis", "origin": "Latin", "meaning": "thin"}],
+    "literal": "to make thin",
+    "path": "Making something physically thinner extended to weakening or reducing its force, intensity, or effect.",
+    "cousins": ["tenuous", "extenuate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "attitude": {
+    "parts": [{"piece": "aptitudo", "origin": "Latin, from aptus", "meaning": "fitness, aptness"}],
+    "literal": "fitness of posture",
+    "path": "Originally an artistic term for the fitness of a figure's pose or posture; extended to a settled mental posture, a way of thinking or feeling.",
+    "cousins": ["apt", "adapt", "aptitude"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "attribute": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "tribuere", "origin": "Latin", "meaning": "to assign, grant"}],
+    "literal": "assigned to",
+    "path": "Directly, something granted or assigned to a person or thing as belonging to it, i.e. one of its qualities.",
+    "cousins": ["tribute", "contribute", "distribute"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "attuned": {
+    "parts": [{"piece": "at-", "origin": "English", "meaning": "to"}, {"piece": "tune", "origin": "English, ultimately Latin tonus", "meaning": "musical pitch"}],
+    "literal": "brought into tune",
+    "path": "Bringing one musical instrument into tune with another extended to being emotionally or perceptually in harmony with something.",
+    "cousins": ["tune", "tone", "monotone"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "audacious": {
+    "parts": [{"piece": "audere", "origin": "Latin", "meaning": "to dare"}],
+    "literal": "daring",
+    "path": "Directly from bold daring to the adjective describing it, sometimes carrying a reckless edge.",
+    "cousins": ["audacity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "audacity": {
+    "parts": [{"piece": "audere", "origin": "Latin", "meaning": "to dare"}],
+    "literal": "daring",
+    "path": "Names the quality itself: bold daring, or, taken negatively, shameless nerve.",
+    "cousins": ["audacious"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "augment": {
+    "parts": [{"piece": "augere", "origin": "Latin", "meaning": "to increase"}],
+    "literal": "to increase",
+    "path": "Directly, to make something greater by adding to it.",
+    "cousins": ["auction", "author"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "augury": {
+    "parts": [{"piece": "augur", "origin": "Latin (deeper root disputed)", "meaning": "a diviner who read omens, especially from birds"}],
+    "literal": "a diviner's reading",
+    "path": "Roman augurs read the flight and behavior of birds to foretell the future; the practice's predictive result gave the general word for any sign of what is to come.",
+    "cousins": ["inaugurate"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "august": {
+    "parts": [{"piece": "augustus", "origin": "Latin, from augere", "meaning": "consecrated, elevated (to increase)"}],
+    "literal": "elevated, consecrated",
+    "path": "Originally described something ritually elevated and consecrated, later an imperial title; the drift to 'inspiring dignified respect' is not something the roots alone suggest.",
+    "cousins": ["augment", "author"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "auspices": {
+    "parts": [{"piece": "avis", "origin": "Latin", "meaning": "bird"}, {"piece": "specere", "origin": "Latin", "meaning": "to look, watch"}],
+    "literal": "bird-watching",
+    "path": "Romans watched birds to divine favorable conditions before an undertaking; 'under the auspices of' someone came to mean under their favorable sponsorship and protection.",
+    "cousins": ["inspect", "aviary"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "auspicious": {
+    "parts": [{"piece": "avis", "origin": "Latin", "meaning": "bird"}, {"piece": "specere", "origin": "Latin", "meaning": "to look, watch"}],
+    "literal": "of favorable bird-watching",
+    "path": "A favorable reading of bird omens before an undertaking extended to anything that seems to promise future success.",
+    "cousins": ["inspect", "aviary"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "austere": {
+    "parts": [{"piece": "austeros", "origin": "Greek, related to auein", "meaning": "harsh, dry (of taste)"}],
+    "literal": "harsh, dry to the taste",
+    "path": "A literal harsh, astringent taste extended to a severe, unadorned quality in manner or style.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "authoritarian": {
+    "parts": [{"piece": "auctor", "origin": "Latin, from augere", "meaning": "originator, author (to increase)"}],
+    "literal": "of an originator's command",
+    "path": "From the general notion of an author whose word carries weight, narrowed to a political style demanding strict obedience to that authority.",
+    "cousins": ["author", "authorize", "augment"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "autocratic": {
+    "parts": [{"piece": "autos", "origin": "Greek", "meaning": "self"}, {"piece": "kratos", "origin": "Greek", "meaning": "power, rule"}],
+    "literal": "self-ruling",
+    "path": "Directly, one who rules by their own power alone, unchecked by others, hence absolute and unrestrained rule.",
+    "cousins": ["democracy", "aristocracy"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "automate": {
+    "parts": [{"piece": "autos", "origin": "Greek", "meaning": "self"}, {"piece": "matos", "origin": "Greek", "meaning": "thinking, willing"}],
+    "literal": "self-acting",
+    "path": "Directly, making a process run by itself, without a human operator.",
+    "cousins": ["automatic", "automaton"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "autonomous": {
+    "parts": [{"piece": "autos", "origin": "Greek", "meaning": "self"}, {"piece": "nomos", "origin": "Greek", "meaning": "law"}],
+    "literal": "self-law",
+    "path": "Directly, governing oneself by one's own laws rather than another's, hence acting independently.",
+    "cousins": ["autonomy", "economy", "astronomy"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "autonomy": {
+    "parts": [{"piece": "autos", "origin": "Greek", "meaning": "self"}, {"piece": "nomos", "origin": "Greek", "meaning": "law"}],
+    "literal": "self-law",
+    "path": "Names the condition itself: the independence and freedom to govern oneself by one's own laws.",
+    "cousins": ["autonomous", "economy", "astronomy"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "auxiliary": {
+    "parts": [{"piece": "auxilium", "origin": "Latin, from augere", "meaning": "help, aid (to increase)"}],
+    "literal": "helping",
+    "path": "Directly, from the general word for aid to something that provides supplementary, secondary support to a main thing.",
+    "cousins": ["augment"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "avarice": {
+    "parts": [{"piece": "avarus", "origin": "Latin, from avere", "meaning": "greedy, to crave"}],
+    "literal": "craving",
+    "path": "Directly, from eager craving and desire narrowed to extreme greed specifically for wealth.",
+    "cousins": ["avid", "avaricious"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "avaricious": {
+    "parts": [{"piece": "avarus", "origin": "Latin, from avere", "meaning": "greedy, to crave"}],
+    "literal": "craving",
+    "path": "Describes someone possessed by avarice, extremely greedy for money.",
+    "cousins": ["avarice", "avid"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "aver": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "verus", "origin": "Latin", "meaning": "true"}],
+    "literal": "to make true",
+    "path": "Directly, from 'to make true' to formally and confidently stating something as fact.",
+    "cousins": ["verify", "verity", "veracity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "aversion": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "away"}, {"piece": "vertere", "origin": "Latin", "meaning": "to turn"}],
+    "literal": "a turning away",
+    "path": "Physically turning away from something extended to the strong dislike that makes one want to turn away or avoid it.",
+    "cousins": ["avert", "convert", "divert"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "avert": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "away"}, {"piece": "vertere", "origin": "Latin", "meaning": "to turn"}],
+    "literal": "to turn away",
+    "path": "Directly, turning something away, extended to preventing an unwanted event by figuratively turning it aside.",
+    "cousins": ["aversion", "convert", "divert"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "avid": {
+    "parts": [{"piece": "avidus", "origin": "Latin, from avere", "meaning": "craving"}],
+    "literal": "craving",
+    "path": "Directly, from eager craving and desire to keen, enthusiastic interest in something.",
+    "cousins": ["avarice", "avaricious"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "avocation": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "away"}, {"piece": "vocare", "origin": "Latin", "meaning": "to call"}],
+    "literal": "a calling away",
+    "path": "Literally being called away from one's main work extended to a secondary pursuit, a hobby followed alongside one's job.",
+    "cousins": ["vocation", "vocal", "invoke"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "avow": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "vocare", "origin": "Latin", "meaning": "to call"}],
+    "literal": "to call upon, vouch for",
+    "path": "Originally to formally vouch for or acknowledge something by calling it to witness, extended to openly declaring something without shame.",
+    "cousins": ["vocal", "advocate", "invoke"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "avuncular": {
+    "parts": [{"piece": "avunculus", "origin": "Latin, diminutive of avus", "meaning": "maternal uncle (little grandfather)"}],
+    "literal": "of a maternal uncle",
+    "path": "Directly, from the word for a maternal uncle to describing the kindly, tolerant manner associated with that family role.",
+    "cousins": ["atavism"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  }
+}

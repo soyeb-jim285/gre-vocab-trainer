@@ -1,0 +1,1108 @@
+{
+  "embellish": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in, make"
+      },
+      {
+        "piece": "bellus",
+        "origin": "Latin",
+        "meaning": "beautiful"
+      }
+    ],
+    "literal": "to make beautiful",
+    "path": "French embellir meant to make beautiful, from bellus, pretty. Making something more beautiful with extra ornament shifted to adding extra, sometimes invented, decorative details to a story or object.",
+    "cousins": [
+      "belle",
+      "beauty"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "emblazon": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in, on"
+      },
+      {
+        "piece": "blason",
+        "origin": "French",
+        "meaning": "shield, coat of arms"
+      }
+    ],
+    "literal": "to paint on a shield",
+    "path": "French blason meant a heraldic shield or coat of arms. To emblazon was to paint arms conspicuously on a shield, and the word broadened to displaying anything boldly and conspicuously.",
+    "cousins": [
+      "blazon"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "emboss": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in, on"
+      },
+      {
+        "piece": "boce",
+        "origin": "French",
+        "meaning": "a swelling, lump"
+      }
+    ],
+    "literal": "to put a bump on",
+    "path": "Old French boce meant a knob or protruding bump. To emboss is to raise a design on a surface so it bulges outward like that bump, a design you can feel.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "embroil": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "brouiller",
+        "origin": "French",
+        "meaning": "to mix up, confuse"
+      }
+    ],
+    "literal": "to mix into confusion",
+    "path": "French brouiller meant to mix up or muddle, related to broth being stirred into a murky mix. To embroil someone is to stir them into a confused, conflicted situation.",
+    "cousins": [
+      "broth",
+      "broil"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "embroiled": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "brouiller",
+        "origin": "French",
+        "meaning": "to mix up, confuse"
+      }
+    ],
+    "literal": "mixed into confusion",
+    "path": "From the same root as embroil, embroiled describes the state of having been stirred into a muddled, conflicted situation and stuck there.",
+    "cousins": [
+      "broth",
+      "broil"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "embryonic": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Greek",
+        "meaning": "in"
+      },
+      {
+        "piece": "bryein",
+        "origin": "Greek",
+        "meaning": "to swell, grow"
+      }
+    ],
+    "literal": "growing within",
+    "path": "Greek embryon meant something growing or swelling within, from bryein, to swell. An embryo is a life form still developing inside, so embryonic describes anything at that same early, undeveloped stage.",
+    "cousins": [
+      "embryo"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "emend": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "mendum",
+        "origin": "Latin",
+        "meaning": "fault, blemish"
+      }
+    ],
+    "literal": "to remove a fault",
+    "path": "Latin emendare meant to free from fault, from mendum, a defect or error. Emend narrowed to the specific act of correcting faults in a written text.",
+    "cousins": [
+      "amend",
+      "mend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "emetic": {
+    "parts": [
+      {
+        "piece": "emein",
+        "origin": "Greek",
+        "meaning": "to vomit"
+      }
+    ],
+    "literal": "vomit-causing",
+    "path": "Greek emetikos meant causing vomiting, from emein, to vomit. An emetic is simply a substance whose purpose is to induce that reaction.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "eminent": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "minere",
+        "origin": "Latin",
+        "meaning": "to project, jut out"
+      }
+    ],
+    "literal": "standing out, jutting forth",
+    "path": "Latin eminere meant to stand out or project above others, like a peak rising above a range. Someone eminent stands out above others in distinction and respect.",
+    "cousins": [
+      "prominent",
+      "imminent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "emissary": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "mittere",
+        "origin": "Latin",
+        "meaning": "to send"
+      }
+    ],
+    "literal": "one sent out",
+    "path": "Latin emissarius meant one sent out, from mittere, to send, the root behind mission and message. An emissary is literally sent forth to represent someone else on a mission.",
+    "cousins": [
+      "mission",
+      "transmit",
+      "message"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "emollient": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "mollire",
+        "origin": "Latin",
+        "meaning": "to soften"
+      }
+    ],
+    "literal": "softening out",
+    "path": "Latin emollire meant to make soft, from mollis, soft. Emollient describes anything, literally a skin cream or figuratively words or actions, that softens and soothes.",
+    "cousins": [
+      "mollify",
+      "mollusk"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "emolument": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "molere",
+        "origin": "Latin",
+        "meaning": "to grind"
+      }
+    ],
+    "literal": "grinding out (a miller's fee)",
+    "path": "Latin emolumentum originally meant a miller's payment for grinding grain, from molere, to grind. The word broadened from that specific fee to any payment received for holding a position or office.",
+    "cousins": [
+      "mill"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "empathetic": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Greek",
+        "meaning": "in"
+      },
+      {
+        "piece": "pathos",
+        "origin": "Greek",
+        "meaning": "suffering, feeling"
+      }
+    ],
+    "literal": "feeling within another",
+    "path": "Greek empatheia meant feeling into something, from pathos, feeling. Coined in English by analogy with sympathy, empathetic describes the capacity to feel one's way into another person's emotions.",
+    "cousins": [
+      "sympathy",
+      "pathos",
+      "pathetic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "empirical": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Greek",
+        "meaning": "in"
+      },
+      {
+        "piece": "peira",
+        "origin": "Greek",
+        "meaning": "trial, experiment"
+      }
+    ],
+    "literal": "based on trial and experience",
+    "path": "Greek empeiria meant experience, from peira, a trial or test. Empirical came to describe knowledge based on observed trial and experience rather than pure theory.",
+    "cousins": [
+      "experience",
+      "experiment",
+      "expert"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "empiricism": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Greek",
+        "meaning": "in"
+      },
+      {
+        "piece": "peira",
+        "origin": "Greek",
+        "meaning": "trial, experiment"
+      }
+    ],
+    "literal": "the doctrine of experience",
+    "path": "From the same Greek root as empirical, empiricism names the philosophical position that all knowledge ultimately comes from sensory experience rather than innate reason.",
+    "cousins": [
+      "experience",
+      "experiment",
+      "expert"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "emulate": {
+    "parts": [
+      {
+        "piece": "aemulus",
+        "origin": "Latin",
+        "meaning": "rival, imitating with effort"
+      }
+    ],
+    "literal": "to strive to equal",
+    "path": "Latin aemulari meant to rival or strive to equal, from aemulus, a competitive rival. Emulate kept that sense of imitating someone as a model while striving to match or surpass them.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "enamor": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "amor",
+        "origin": "Latin",
+        "meaning": "love"
+      }
+    ],
+    "literal": "to put into love",
+    "path": "Old French enamourer meant to inspire with love, from amor, love. To enamor someone is literally to put them into a state of love or fascination.",
+    "cousins": [
+      "amorous",
+      "amiable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "enchant": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in, upon"
+      },
+      {
+        "piece": "cantare",
+        "origin": "Latin",
+        "meaning": "to sing"
+      }
+    ],
+    "literal": "to sing a spell upon",
+    "path": "Latin incantare meant to cast a spell by chanting, from cantare, to sing. Magic spells were sung or chanted, so enchant kept the sense of casting a spell, whether literally bewitching or figuratively delighting someone.",
+    "cousins": [
+      "chant",
+      "cantata"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "enclave": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "clavis",
+        "origin": "Latin",
+        "meaning": "key"
+      }
+    ],
+    "literal": "locked in",
+    "path": "French enclave derives from Latin inclavare, to shut in with a key, from clavis, key. An enclave is a territory locked in and enclosed within a larger, surrounding one.",
+    "cousins": [
+      "clavicle",
+      "conclave"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "encomium": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Greek",
+        "meaning": "in"
+      },
+      {
+        "piece": "komos",
+        "origin": "Greek",
+        "meaning": "festive procession, revelry"
+      }
+    ],
+    "literal": "a song sung in a victory procession",
+    "path": "Greek enkomion meant a hymn of praise sung in a komos, a festive procession honoring a victor. Encomium kept the sense of formal, celebratory praise.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "encroach": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Old French",
+        "meaning": "in"
+      },
+      {
+        "piece": "croc",
+        "origin": "Old French",
+        "meaning": "hook"
+      }
+    ],
+    "literal": "to hook in, seize with a hook",
+    "path": "Old French encrochier meant to seize with a hook, from croc, hook. Grabbing bit by bit with a hook became the image for gradually intruding on territory or rights that are not one's own.",
+    "cousins": [
+      "crochet",
+      "crotchety"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "encroachment": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Old French",
+        "meaning": "in"
+      },
+      {
+        "piece": "croc",
+        "origin": "Old French",
+        "meaning": "hook"
+      }
+    ],
+    "literal": "a hooking in, seizing",
+    "path": "From the same root as encroach, encroachment names the act itself: gradually seizing or intruding on territory or rights bit by bit, as if hooking it in.",
+    "cousins": [
+      "crochet"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "encumber": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "cumbrus",
+        "origin": "Late Latin",
+        "meaning": "a heap, obstruction"
+      }
+    ],
+    "literal": "to load with a heap",
+    "path": "Old French encombrer meant to block or obstruct, from combrer, to heap up debris. To encumber someone is to load them down with a burden, a heap that hinders movement.",
+    "cousins": [
+      "cumbersome"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "encyclopedic": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Greek",
+        "meaning": "in"
+      },
+      {
+        "piece": "kyklos",
+        "origin": "Greek",
+        "meaning": "circle"
+      },
+      {
+        "piece": "paideia",
+        "origin": "Greek",
+        "meaning": "education"
+      }
+    ],
+    "literal": "the circle of general education",
+    "path": "Greek enkyklios paideia meant the well-rounded circle of learning expected of a free person. Encyclopedic came to describe knowledge or coverage as vast and comprehensive as an entire circle of learning.",
+    "cousins": [
+      "cycle",
+      "pedagogy"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "endemic": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Greek",
+        "meaning": "in"
+      },
+      {
+        "piece": "demos",
+        "origin": "Greek",
+        "meaning": "people, district"
+      }
+    ],
+    "literal": "among the people, native to a place",
+    "path": "Greek endemos meant native or belonging to a particular people or district, from demos, the people. Endemic describes something that regularly occurs within and belongs to a particular place or group.",
+    "cousins": [
+      "democracy",
+      "epidemic",
+      "demographic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "endow": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "dotare",
+        "origin": "Latin",
+        "meaning": "to give a dowry, equip"
+      }
+    ],
+    "literal": "to give a dowry to",
+    "path": "Old French endouer meant to provide with a dowry, from Latin dotare, to endow, related to dos, dowry. Endow broadened from giving a marriage dowry to providing anyone with any quality, gift, or fund.",
+    "cousins": [
+      "dowry",
+      "donate"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "endue": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "ducere",
+        "origin": "Latin",
+        "meaning": "to lead"
+      }
+    ],
+    "literal": "to lead into, put on",
+    "path": "Latin induere meant to put on, as in putting on clothing, related to ducere, to lead. Endue kept the figurative sense of clothing someone with a quality, investing them with it as if putting it on.",
+    "cousins": [
+      "induce",
+      "conduct"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "enduring": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "durus",
+        "origin": "Latin",
+        "meaning": "hard"
+      }
+    ],
+    "literal": "hardening, holding hard within",
+    "path": "Latin indurare meant to harden, from durus, hard, the same root as duress. To endure is to hold hard against hardship, and enduring describes what lasts a long time, hard and unyielding to time.",
+    "cousins": [
+      "duress",
+      "durable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "enervate": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "nervus",
+        "origin": "Latin",
+        "meaning": "sinew, nerve"
+      }
+    ],
+    "literal": "to take the sinew out of",
+    "path": "Latin enervare meant to remove the sinews, literally to cut the tendons that give strength. Losing that physical sinew became the image for draining someone of energy and vigor.",
+    "cousins": [
+      "nerve"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "enervated": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "nervus",
+        "origin": "Latin",
+        "meaning": "sinew, nerve"
+      }
+    ],
+    "literal": "having the sinew taken out",
+    "path": "From the same root as enervate, enervated describes the resulting state: stripped of sinew and strength, drained of energy and vitality.",
+    "cousins": [
+      "nerve"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "engage": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "gage",
+        "origin": "Old French",
+        "meaning": "a pledge"
+      }
+    ],
+    "literal": "to put in as a pledge",
+    "path": "Old French engager meant to pledge or pawn something, putting it in as a guarantee, from gage, a pledge. Binding oneself by a pledge broadened to occupying, involving, or committing oneself to any activity or conflict.",
+    "cousins": [
+      "mortgage",
+      "wage"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "engender": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "generare",
+        "origin": "Latin",
+        "meaning": "to beget, produce"
+      }
+    ],
+    "literal": "to beget within",
+    "path": "Latin ingenerare meant to beget or produce, from genus, birth or kind. Engender kept that sense of generating or giving rise to something, as if bringing it to birth.",
+    "cousins": [
+      "generate",
+      "genesis",
+      "genus"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "enhance": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "altus",
+        "origin": "Latin",
+        "meaning": "high"
+      }
+    ],
+    "literal": "to make higher",
+    "path": "Old French enhaucer meant to raise or lift up, ultimately from Latin altus, high, the root of altitude. Raising something in height extended to raising its quality or value.",
+    "cousins": [
+      "altitude",
+      "exalt"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "enigma": {
+    "parts": [
+      {
+        "piece": "ainissesthai",
+        "origin": "Greek",
+        "meaning": "to speak in riddles"
+      }
+    ],
+    "literal": "a riddle",
+    "path": "Greek ainigma meant a riddle or dark saying, from ainos, a fable or allusive tale. Enigma kept the sense of something deliberately puzzling, whose meaning is hidden like a riddle's.",
+    "cousins": [
+      "enigmatic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "enigmatic": {
+    "parts": [
+      {
+        "piece": "ainissesthai",
+        "origin": "Greek",
+        "meaning": "to speak in riddles"
+      }
+    ],
+    "literal": "riddle-like",
+    "path": "From the same Greek root as enigma, enigmatic describes anything that behaves like a riddle: mysterious, puzzling, and hard to interpret.",
+    "cousins": [
+      "enigma"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "enjoin": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "jungere",
+        "origin": "Latin",
+        "meaning": "to join"
+      }
+    ],
+    "literal": "to join a command onto someone",
+    "path": "Latin injungere meant to impose or attach, from jungere, to join, the root of join and junction. To enjoin is to attach a firm order onto someone, commanding them to do or stop something.",
+    "cousins": [
+      "join",
+      "junction",
+      "conjoin"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "enmity": {
+    "parts": [
+      {
+        "piece": "inimicus",
+        "origin": "Latin",
+        "meaning": "enemy"
+      }
+    ],
+    "literal": "the state of being an enemy",
+    "path": "Old French enemi, enemy, comes from Latin inimicus, not a friend, from in- (not) plus amicus, friend. Enmity is simply the noun for that hostile, enemy-like relationship.",
+    "cousins": [
+      "enemy",
+      "inimical"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ennui": {
+    "parts": [
+      {
+        "piece": "inodiare",
+        "origin": "Late Latin",
+        "meaning": "to make hateful, annoy"
+      }
+    ],
+    "literal": "a state of being annoyed, tired of things",
+    "path": "French ennui traces to Late Latin inodiare, to cause hatred or annoyance, related to odium. It narrowed from general annoyance to the specific weary, listless boredom of having nothing to engage one's interest.",
+    "cousins": [
+      "annoy",
+      "odious"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "enormity": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out of"
+      },
+      {
+        "piece": "norma",
+        "origin": "Latin",
+        "meaning": "rule, pattern"
+      }
+    ],
+    "literal": "outside the norm",
+    "path": "Latin enormis meant out of the norm, straying beyond a normal pattern or rule. Deviating from the moral norm gave enormity its sense of monstrous wickedness, distinct from mere enormous size.",
+    "cousins": [
+      "norm",
+      "normal",
+      "enormous"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "enrapture": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "rapere",
+        "origin": "Latin",
+        "meaning": "to seize, snatch"
+      }
+    ],
+    "literal": "to seize and carry off",
+    "path": "Rapture comes from Latin rapere, to seize or snatch away, the root behind rapid and rapt. To enrapture is to seize someone's mind as if carrying them off, filling them with delight.",
+    "cousins": [
+      "rapid",
+      "rapt",
+      "rapacious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ensconce": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "sconce",
+        "origin": "Dutch/French",
+        "meaning": "small fort, shelter"
+      }
+    ],
+    "literal": "to fortify within a shelter",
+    "path": "Sconce once meant a small defensive fort or screen. To ensconce someone was to shelter them behind a fortification, and the word settled into meaning to settle comfortably and securely in place.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "ensue": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "sequi",
+        "origin": "Latin",
+        "meaning": "to follow"
+      }
+    ],
+    "literal": "to follow after",
+    "path": "Old French ensuivre meant to follow, from Latin sequi, to follow, the root of sequence. Ensue kept exactly that: to come after and follow as a consequence.",
+    "cousins": [
+      "sequence",
+      "consequent",
+      "pursue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "entertain": {
+    "parts": [
+      {
+        "piece": "inter-",
+        "origin": "Latin",
+        "meaning": "among"
+      },
+      {
+        "piece": "tenere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "to hold among, hold together",
+    "path": "Latin intertenere meant to hold in a certain state, to maintain. Holding guests or holding an idea in mind led to two senses: to entertain guests by amusing them, and to entertain an idea by considering it.",
+    "cousins": [
+      "tenant",
+      "maintain",
+      "contain"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "enthrall": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Old English",
+        "meaning": "in"
+      },
+      {
+        "piece": "thrall",
+        "origin": "Old Norse",
+        "meaning": "slave, bondsman"
+      }
+    ],
+    "literal": "to make a slave of",
+    "path": "Thrall came from Old Norse thraell, a slave. To enthrall someone literally meant to enslave them, and the word softened to mean captivating someone's attention as completely as if holding them in bondage.",
+    "cousins": [
+      "thrall"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "entice": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "titio",
+        "origin": "Latin",
+        "meaning": "firebrand"
+      }
+    ],
+    "literal": "to set afire, kindle desire",
+    "path": "Old French enticier meant to incite or provoke, probably from Latin titio, a firebrand, the image of kindling a fire. Entice narrowed to tempting someone by kindling their desire with something appealing.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "entitled": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in, to give"
+      },
+      {
+        "piece": "titulus",
+        "origin": "Latin",
+        "meaning": "title, label"
+      }
+    ],
+    "literal": "given a title, a claim to right",
+    "path": "Latin titulus meant an inscription or title establishing a claim. Entitled originally meant given a legal title or right, and the modern sense narrowed critically to believing oneself owed privilege regardless of actual right.",
+    "cousins": [
+      "title"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "entitlement": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in, to give"
+      },
+      {
+        "piece": "titulus",
+        "origin": "Latin",
+        "meaning": "title, label"
+      }
+    ],
+    "literal": "the state of having a title to something",
+    "path": "From the same root as entitled, entitlement is the noun for a claim or right, and by extension the attitude of feeling owed something as a matter of course.",
+    "cousins": [
+      "title"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "entomology": {
+    "parts": [
+      {
+        "piece": "entomon",
+        "origin": "Greek",
+        "meaning": "insect"
+      },
+      {
+        "piece": "logos",
+        "origin": "Greek",
+        "meaning": "study, word"
+      }
+    ],
+    "literal": "the study of insects",
+    "path": "Greek entomon meant insect, literally something cut into segments, from temnein, to cut, referring to an insect's notched body. Entomology is straightforwardly the systematic study of these cut-up creatures.",
+    "cousins": [
+      "anatomy",
+      "tome"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "entreat": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in, make"
+      },
+      {
+        "piece": "tractare",
+        "origin": "Latin",
+        "meaning": "to handle, treat"
+      }
+    ],
+    "literal": "to treat with, negotiate",
+    "path": "Old French entraiter meant to treat or deal with someone, from tractare, to handle. Treating with someone to win them over narrowed to earnestly and humbly asking them for something.",
+    "cousins": [
+      "treat",
+      "treaty"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "entrenched": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "trencher",
+        "origin": "Old French",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "dug into a trench",
+    "path": "Old French trenchier meant to cut, the root of trench, a dug ditch. Troops dug into trenches for defense, so entrenched came to mean firmly, defensively established and hard to dislodge or change.",
+    "cousins": [
+      "trench",
+      "retrench"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

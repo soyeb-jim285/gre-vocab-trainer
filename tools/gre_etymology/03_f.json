@@ -1,0 +1,697 @@
+{
+  "finagle": {
+    "parts": [
+      {
+        "piece": "fainaguer",
+        "origin": "British dialect",
+        "meaning": "to cheat, renege"
+      }
+    ],
+    "literal": "to cheat, shirk",
+    "path": "Finagle likely derives from British dialect fainaigue, to cheat or renege at cards, of uncertain further origin. It settled into meaning to obtain something through clever, devious maneuvering.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "financial": {
+    "parts": [
+      {
+        "piece": "finis",
+        "origin": "Latin",
+        "meaning": "end, boundary"
+      }
+    ],
+    "literal": "relating to a settlement",
+    "path": "Medieval Latin financia meant a payment settling a debt, from finis, end, the point at which an obligation is finished. Financial broadened from settling one payment to covering money and its management generally.",
+    "cousins": [
+      "finish",
+      "finite",
+      "final"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "finesse": {
+    "parts": [
+      {
+        "piece": "fin",
+        "origin": "French",
+        "meaning": "fine, delicate"
+      }
+    ],
+    "literal": "fineness",
+    "path": "French finesse meant fineness or subtlety, from fin, fine or delicate. Finesse kept that sense: a delicate, skillful touch in handling a tricky situation.",
+    "cousins": [
+      "fine",
+      "final",
+      "finite"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "finicky": {
+    "parts": [
+      {
+        "piece": "fin",
+        "origin": "French",
+        "meaning": "fine, delicate"
+      }
+    ],
+    "literal": "overly fine",
+    "path": "Finicky likely grew from finical, itself related to fine, delicate or precise. Being overly concerned with fine points became finicky's sense of fussiness over small details.",
+    "cousins": [
+      "fine",
+      "finesse"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "firebrand": {
+    "parts": [
+      {
+        "piece": "fire",
+        "origin": "Old English",
+        "meaning": "fire"
+      },
+      {
+        "piece": "brand",
+        "origin": "Old English",
+        "meaning": "burning piece of wood, torch"
+      }
+    ],
+    "literal": "a piece of burning wood",
+    "path": "A firebrand was literally a burning stick used as a torch, easily used to set things ablaze. That image of igniting flames carried over to a person who stirs up trouble or passion, igniting conflict wherever they go.",
+    "cousins": [
+      "brand"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fissure": {
+    "parts": [
+      {
+        "piece": "findere",
+        "origin": "Latin",
+        "meaning": "to split"
+      }
+    ],
+    "literal": "a splitting",
+    "path": "Latin fissura meant a cleft or split, from findere, to split. Fissure kept that literal sense of a crack, whether in rock or, figuratively, a division within a group.",
+    "cousins": [
+      "fission"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fitful": {
+    "parts": [
+      {
+        "piece": "fit",
+        "origin": "Old English",
+        "meaning": "conflict, struggle"
+      }
+    ],
+    "literal": "full of fits, struggles",
+    "path": "Old English fitt meant a struggle or conflict, later a fit or spasm, a sudden burst. Fitful describes something happening in irregular bursts, like the fit itself, rather than smoothly and continuously.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "flag": {
+    "parts": [
+      {
+        "piece": "flag",
+        "origin": "unknown",
+        "meaning": "possibly related to flap, droop"
+      }
+    ],
+    "literal": "to droop, hang loosely",
+    "path": "This sense of flag, distinct from the banner, likely relates to flap or a Germanic root for hanging loose, describing something drooping like a wilting plant. Flag came to mean weakening or losing energy, drooping like that plant.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "flagrant": {
+    "parts": [
+      {
+        "piece": "flagrare",
+        "origin": "Latin",
+        "meaning": "to blaze, burn"
+      }
+    ],
+    "literal": "blazing",
+    "path": "Latin flagrans meant blazing or burning, from flagrare, to burn. A blazing fire cannot be missed, so flagrant came to describe wrongdoing so obvious it burns before everyone's eyes.",
+    "cousins": [
+      "conflagration"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "flail": {
+    "parts": [
+      {
+        "piece": "flagellum",
+        "origin": "Latin",
+        "meaning": "whip"
+      }
+    ],
+    "literal": "to strike with a whip-like tool",
+    "path": "Latin flagellum meant a whip, and named the threshing tool swung to beat grain loose. That swinging, beating motion gave flail its sense of waving wildly or struggling without control.",
+    "cousins": [
+      "flagellate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "flair": {
+    "parts": [
+      {
+        "piece": "fragrare",
+        "origin": "Latin",
+        "meaning": "to smell sweet"
+      }
+    ],
+    "literal": "a scent, sense of smell",
+    "path": "French flair meant a sense of smell, from Latin fragrare, to smell sweet. A keen nose for something became a figure for a natural talent or instinctive knack, a stylish sense for doing something well.",
+    "cousins": [
+      "fragrant",
+      "fragrance"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "flamboyant": {
+    "parts": [
+      {
+        "piece": "flamme",
+        "origin": "French",
+        "meaning": "flame"
+      }
+    ],
+    "literal": "flaming",
+    "path": "French flamboyant meant flaming or blazing, from flamme, flame, first describing a wavy, flame-like style of Gothic architecture. The blazing image carried over to describe anything strikingly showy and bold.",
+    "cousins": [
+      "flame",
+      "flammable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "flay": {
+    "parts": [
+      {
+        "piece": "flean",
+        "origin": "Old English",
+        "meaning": "to strip off skin"
+      }
+    ],
+    "literal": "to strip the skin off",
+    "path": "Old English flean meant to strip an animal's hide off. That brutal physical image extended figuratively to criticizing someone so harshly it feels like stripping their skin off.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fledgling": {
+    "parts": [
+      {
+        "piece": "flycge",
+        "origin": "Old English",
+        "meaning": "fit to fly"
+      }
+    ],
+    "literal": "a young bird just able to fly",
+    "path": "Old English flycge meant able to fly, describing a young bird ready to leave the nest. Fledgling kept that image of the young, still-untested bird, applied to anyone or anything new and inexperienced.",
+    "cousins": [
+      "fly",
+      "fledge"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fleece": {
+    "parts": [
+      {
+        "piece": "fleos",
+        "origin": "Old English",
+        "meaning": "wool, sheep's coat"
+      }
+    ],
+    "literal": "a sheep's wool",
+    "path": "Old English fleos meant the woolly coat of a sheep, traditionally sheared off. The image of shearing wool off a sheep, taking something valuable from an unresisting animal, gave the verb fleece its sense of swindling someone out of money.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fleeting": {
+    "parts": [
+      {
+        "piece": "fleon",
+        "origin": "Old English",
+        "meaning": "to flee"
+      }
+    ],
+    "literal": "fleeing",
+    "path": "Old English fleon meant to flee or run away swiftly. Fleeting describes something that seems to flee from you just as it arrives, lasting only a brief moment.",
+    "cousins": [
+      "flee"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "flip": {
+    "parts": [
+      {
+        "piece": "flip",
+        "origin": "English",
+        "meaning": "to flick, toss quickly"
+      }
+    ],
+    "literal": "to flick quickly",
+    "path": "Flip likely imitates the quick snapping motion of a flick or fillip. That quick, careless snap of motion became flip's figurative sense: treating something serious with a quick, disrespectfully casual attitude.",
+    "cousins": [
+      "flippant"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "flippant": {
+    "parts": [
+      {
+        "piece": "flip",
+        "origin": "English",
+        "meaning": "to flick, toss quickly"
+      }
+    ],
+    "literal": "quick and glib",
+    "path": "From the same root as flip, flippant originally described glib, ready speech, and settled into meaning a casual, disrespectful lack of seriousness about matters that deserve it.",
+    "cousins": [
+      "flip"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "florid": {
+    "parts": [
+      {
+        "piece": "flos",
+        "origin": "Latin",
+        "meaning": "flower"
+      }
+    ],
+    "literal": "flowery",
+    "path": "Latin floridus meant flowering, blooming, from flos, flower. Something florid is decorated as ornately as a field in full bloom, whether ornate language or a flushed, rosy complexion.",
+    "cousins": [
+      "flower",
+      "flourish",
+      "florist"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "flotilla": {
+    "parts": [
+      {
+        "piece": "flota",
+        "origin": "Spanish",
+        "meaning": "fleet"
+      }
+    ],
+    "literal": "a small fleet",
+    "path": "Spanish flotilla is a diminutive of flota, fleet, itself related to floating. Flotilla kept that exact sense: a small fleet of boats or ships.",
+    "cousins": [
+      "fleet",
+      "float"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "flotsam": {
+    "parts": [
+      {
+        "piece": "floter",
+        "origin": "Old French",
+        "meaning": "to float"
+      }
+    ],
+    "literal": "that which floats",
+    "path": "Anglo-French floteson meant wreckage found floating after a shipwreck, from floter, to float. Flotsam kept that image, and broadened figuratively to any scattered, worthless odds and ends.",
+    "cousins": [
+      "float",
+      "flotilla"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "flounder": {
+    "parts": [
+      {
+        "piece": "flounder",
+        "origin": "English",
+        "meaning": "blend of founder and blunder"
+      }
+    ],
+    "literal": "to stumble clumsily",
+    "path": "Flounder likely blends founder, to sink or fail, with blunder, to stumble clumsily. It pictures someone struggling to move, like wading through mud, unable to gain solid footing.",
+    "cousins": [
+      "founder",
+      "blunder"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "flourish": {
+    "parts": [
+      {
+        "piece": "florere",
+        "origin": "Latin",
+        "meaning": "to bloom, flower"
+      }
+    ],
+    "literal": "to bloom",
+    "path": "Latin florere meant to blossom or bloom, from flos, flower. Flourish kept that image of blooming vigorously, whether a plant thriving or a dramatic sweeping gesture, like a flower's showy bloom.",
+    "cousins": [
+      "florid",
+      "flower",
+      "florist"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "flout": {
+    "parts": [
+      {
+        "piece": "fluiten",
+        "origin": "Middle Dutch",
+        "meaning": "to play the flute, mock"
+      }
+    ],
+    "literal": "to play the flute at, mock",
+    "path": "Middle Dutch fluiten meant to whistle or play the flute, and by extension to hiss in mockery, as an audience might whistle at a bad performance. Flout kept that sense of contemptuous mockery, openly disregarding a rule with scorn.",
+    "cousins": [
+      "flute"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "fluctuate": {
+    "parts": [
+      {
+        "piece": "fluctus",
+        "origin": "Latin",
+        "meaning": "wave"
+      }
+    ],
+    "literal": "to wave, undulate",
+    "path": "Latin fluctuare meant to move like waves, from fluctus, a wave, related to fluere, to flow. Fluctuate kept the image of rising and falling in waves, whether the sea or any quantity that rises and falls irregularly.",
+    "cousins": [
+      "fluid",
+      "fluent",
+      "flux"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fluke": {
+    "parts": [
+      {
+        "piece": "fluke",
+        "origin": "English",
+        "meaning": "originally a lucky stroke in billiards"
+      }
+    ],
+    "literal": "a lucky billiards shot",
+    "path": "Fluke first named an accidental, lucky shot in the game of billiards, of uncertain further origin. That gambler's sense of unearned luck broadened to any unlikely stroke of good fortune.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "flummox": {
+    "parts": [
+      {
+        "piece": "flummox",
+        "origin": "English dialect",
+        "meaning": "uncertain, imitative of clumsy confusion"
+      }
+    ],
+    "literal": "uncertain",
+    "path": "Flummox arose in 19th century English dialect, likely echoing the sound of something clumsy or confusing, with no clear single source. It has always meant to bewilder someone completely, leaving them at a loss.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "flummoxed": {
+    "parts": [
+      {
+        "piece": "flummox",
+        "origin": "English dialect",
+        "meaning": "uncertain, imitative of clumsy confusion"
+      }
+    ],
+    "literal": "uncertain",
+    "path": "From the same obscure dialect root as flummox, flummoxed describes the resulting state: utterly bewildered and unable to proceed.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "flush": {
+    "parts": [
+      {
+        "piece": "flux",
+        "origin": "Latin",
+        "meaning": "flow"
+      }
+    ],
+    "literal": "flowing abundantly",
+    "path": "Flush likely relates to flux, a flowing, picturing a sudden rush or abundance, as of a flushed complexion or a card hand flush with cards of one suit. Flush with money pictures wealth flowing in abundantly.",
+    "cousins": [
+      "flux",
+      "fluid",
+      "flow"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "flustered": {
+    "parts": [
+      {
+        "piece": "flustra",
+        "origin": "Old Norse",
+        "meaning": "to hurry, bustle"
+      }
+    ],
+    "literal": "hurried into confusion",
+    "path": "Flustered likely derives from a Scandinavian root related to hurrying or bustling in confusion, possibly blended with flush and bluster. It settled into meaning agitated and confused, thrown off balance.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "flux": {
+    "parts": [
+      {
+        "piece": "fluere",
+        "origin": "Latin",
+        "meaning": "to flow"
+      }
+    ],
+    "literal": "a flowing",
+    "path": "Latin fluxus meant a flowing, from fluere, to flow, the root of fluid and fluent. Flux names that state of constant flow, continuous change without settling into a fixed state.",
+    "cousins": [
+      "fluid",
+      "fluent",
+      "influx"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "foible": {
+    "parts": [
+      {
+        "piece": "foible",
+        "origin": "Old French",
+        "meaning": "weak, feeble"
+      }
+    ],
+    "literal": "a weakness",
+    "path": "Old French foible was an early form of feeble, weak. Foible narrowed to a small, specific point of weakness in someone's character, a minor and usually forgivable flaw.",
+    "cousins": [
+      "feeble"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "foil": {
+    "parts": [
+      {
+        "piece": "folium",
+        "origin": "Latin",
+        "meaning": "leaf, thin sheet"
+      }
+    ],
+    "literal": "a thin sheet",
+    "path": "Latin folium meant a leaf, and gave foil its sense of a thin metal sheet placed behind a gem to make it shine brighter by contrast. That contrast sense extended: to foil a plan is to set something against it that defeats it, and a foil is also a character who highlights another by contrast.",
+    "cousins": [
+      "foliage",
+      "portfolio"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "foist": {
+    "parts": [
+      {
+        "piece": "vuist",
+        "origin": "Dutch",
+        "meaning": "fist"
+      }
+    ],
+    "literal": "to palm, hide in the fist",
+    "path": "Dutch vuisten meant to take in the hand, from vuist, fist, originally describing a gambler palming a loaded die to cheat. That sense of sneaking something in by hand became foist: imposing something unwanted on someone by underhanded means.",
+    "cousins": [
+      "fist"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "foment": {
+    "parts": [
+      {
+        "piece": "fomentum",
+        "origin": "Latin",
+        "meaning": "warm application, poultice"
+      }
+    ],
+    "literal": "to apply warmth",
+    "path": "Latin fomentum meant a warm poultice or lotion applied to soothe. Applying warmth to encourage healing shifted, ironically, to applying heat figuratively: stirring up and encouraging trouble rather than soothing it.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "fomentation": {
+    "parts": [
+      {
+        "piece": "fomentum",
+        "origin": "Latin",
+        "meaning": "warm application, poultice"
+      }
+    ],
+    "literal": "the applying of warmth",
+    "path": "From the same root as foment, fomentation names the act itself: the stirring up of trouble, as if applying continuous heat to keep it inflamed.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "foolhardy": {
+    "parts": [
+      {
+        "piece": "fol",
+        "origin": "Old French",
+        "meaning": "fool"
+      },
+      {
+        "piece": "hardi",
+        "origin": "Old French",
+        "meaning": "bold"
+      }
+    ],
+    "literal": "foolishly bold",
+    "path": "Old French folhardi combined fol, fool, with hardi, bold, describing boldness driven by foolishness rather than good judgment. Foolhardy kept exactly that sense: recklessly bold without regard to danger.",
+    "cousins": [
+      "fool",
+      "hardy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "foppish": {
+    "parts": [
+      {
+        "piece": "fop",
+        "origin": "Middle English",
+        "meaning": "a fool, later a vain dandy"
+      }
+    ],
+    "literal": "like a foolish dandy",
+    "path": "Middle English fop first meant a fool, and narrowed to a vain man overly concerned with fashion, a dandy. Foppish describes that same excessive concern with elegance and appearance.",
+    "cousins": [
+      "fop"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "forage": {
+    "parts": [
+      {
+        "piece": "fuerre",
+        "origin": "Old French",
+        "meaning": "fodder, straw"
+      }
+    ],
+    "literal": "to gather fodder",
+    "path": "Old French forrage meant fodder for animals, related to Germanic words for feed. Gathering fodder for livestock broadened to searching widely for any food or supplies, wherever they can be found.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "forbear": {
+    "parts": [
+      {
+        "piece": "for-",
+        "origin": "Old English",
+        "meaning": "away, off"
+      },
+      {
+        "piece": "beran",
+        "origin": "Old English",
+        "meaning": "to bear, carry"
+      }
+    ],
+    "literal": "to bear away from, hold back",
+    "path": "Old English forberan meant to bear off, to abstain or hold oneself back, combining for-, away, with beran, to bear or carry. Forbear kept that sense: holding oneself back from doing something, restraining an impulse.",
+    "cousins": [
+      "bear",
+      "bearing"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

@@ -1,0 +1,1082 @@
+{
+  "deify": {
+    "parts": [
+      {
+        "piece": "deus",
+        "origin": "Latin",
+        "meaning": "god"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "to make into a god",
+    "path": "Straightforward: to deify someone is to make them into a god, raising them to divine status.",
+    "cousins": [
+      "deity",
+      "divine"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "deign": {
+    "parts": [
+      {
+        "piece": "dignari",
+        "origin": "Latin",
+        "meaning": "to deem worthy"
+      }
+    ],
+    "literal": "to deem worthy",
+    "path": "To deign is to judge something worthy of oneself, but with the implication of lowering oneself to consider it: a note of condescension toward the task.",
+    "cousins": [
+      "dignity",
+      "dignify",
+      "indignant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "deject": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "jacere",
+        "origin": "Latin",
+        "meaning": "to throw"
+      }
+    ],
+    "literal": "to throw down",
+    "path": "To deject someone is to throw their spirits down, leaving them low and disheartened.",
+    "cousins": [
+      "reject",
+      "project",
+      "subject",
+      "inject"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "delegate": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away"
+      },
+      {
+        "piece": "legare",
+        "origin": "Latin",
+        "meaning": "to send as deputy, entrust"
+      }
+    ],
+    "literal": "to send off as deputy",
+    "path": "To delegate a task is to send it off to someone else acting as your deputy, entrusting it to them.",
+    "cousins": [
+      "legal",
+      "legislate",
+      "colleague"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "deleterious": {
+    "parts": [
+      {
+        "piece": "deleisthai",
+        "origin": "Greek",
+        "meaning": "to harm, injure"
+      }
+    ],
+    "literal": "harmful",
+    "path": "Traces to a Greek verb meaning to harm or injure. The word has kept that sense directly: causing harm, often slow and hidden harm.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "deliberate": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "librare",
+        "origin": "Latin",
+        "meaning": "to weigh, balance"
+      }
+    ],
+    "literal": "to weigh out carefully",
+    "path": "From libra, 'a balance scale.' To deliberate is to weigh options carefully in the mind before deciding, like weighing goods on a scale.",
+    "cousins": [
+      "equilibrium",
+      "Libra"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "delicacy": {
+    "parts": [
+      {
+        "piece": "delicatus",
+        "origin": "Latin",
+        "meaning": "delightful, dainty"
+      }
+    ],
+    "literal": "delightfulness, daintiness",
+    "path": "From delicere, 'to allure, entice.' Delicacy covers both a fine, tactful touch and a food fine enough to be especially enticing.",
+    "cousins": [
+      "delight",
+      "delicious",
+      "delectable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "delimit": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "fully"
+      },
+      {
+        "piece": "limes",
+        "origin": "Latin",
+        "meaning": "boundary"
+      }
+    ],
+    "literal": "to fully bound",
+    "path": "Straightforward: to delimit something is to mark out its limits or boundaries fully.",
+    "cousins": [
+      "limit",
+      "limitation"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "delineate": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "linea",
+        "origin": "Latin",
+        "meaning": "line"
+      }
+    ],
+    "literal": "to mark out with lines thoroughly",
+    "path": "Like drawing a precise outline with a pen, to delineate something is to trace its shape or details out thoroughly and clearly.",
+    "cousins": [
+      "line",
+      "linear",
+      "lineage"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "delusion": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down, thoroughly"
+      },
+      {
+        "piece": "ludere",
+        "origin": "Latin",
+        "meaning": "to play"
+      }
+    ],
+    "literal": "to play someone down, to trick",
+    "path": "From ludere, 'to play, to game.' A delusion is a belief someone has been thoroughly played into holding, a persistent trick of the mind.",
+    "cousins": [
+      "illusion",
+      "elude",
+      "ludicrous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "delve": {
+    "parts": [
+      {
+        "piece": "delfan",
+        "origin": "Old English",
+        "meaning": "to dig"
+      }
+    ],
+    "literal": "to dig",
+    "path": "Simply 'to dig' in Old English. To delve into a topic is to dig into it the way one digs into earth, going deep.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "demagogue": {
+    "parts": [
+      {
+        "piece": "demos",
+        "origin": "Greek",
+        "meaning": "the people"
+      },
+      {
+        "piece": "agogos",
+        "origin": "Greek",
+        "meaning": "leading"
+      }
+    ],
+    "literal": "leader of the people",
+    "path": "Neutral in ancient Greek, simply a popular leader. English narrowed the word to its darker side: a leader who whips up the people's fears and prejudices rather than reasoning with them.",
+    "cousins": [
+      "democracy",
+      "epidemic",
+      "pedagogue",
+      "synagogue"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "demarcate": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "off"
+      },
+      {
+        "piece": "marcar",
+        "origin": "Spanish",
+        "meaning": "to mark"
+      }
+    ],
+    "literal": "to mark off",
+    "path": "To demarcate is to mark off a clear boundary line, separating one area from another.",
+    "cousins": [
+      "mark"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "demean": {
+    "parts": [
+      {
+        "piece": "mean",
+        "origin": "Old English",
+        "meaning": "common, low-status"
+      }
+    ],
+    "literal": "to make common, low",
+    "path": "The modern sense of lowering someone's dignity grew from association with the adjective 'mean' (low-status), tangled with an older, unrelated French-derived verb 'demean' meaning simply to behave or conduct oneself.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "demonstrable": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "monstrare",
+        "origin": "Latin",
+        "meaning": "to show"
+      }
+    ],
+    "literal": "able to be shown thoroughly",
+    "path": "From monstrare, 'to show,' related to monere, 'to warn' (as in an omen, a monstrum). Something demonstrable can be shown or proven outright.",
+    "cousins": [
+      "demonstrate",
+      "monument",
+      "admonish"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "demonstrative": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "monstrare",
+        "origin": "Latin",
+        "meaning": "to show"
+      }
+    ],
+    "literal": "showing thoroughly",
+    "path": "Same root as demonstrable. A demonstrative person shows their feelings openly rather than keeping them hidden.",
+    "cousins": [
+      "monument"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "demoralize": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away, down"
+      },
+      {
+        "piece": "moralis",
+        "origin": "Latin",
+        "meaning": "moral, of custom"
+      }
+    ],
+    "literal": "to strip away morale",
+    "path": "Originally 'to corrupt morals,' the word shifted to its now-dominant sense: stripping away someone's confidence and fighting spirit.",
+    "cousins": [
+      "moral",
+      "morale",
+      "morality"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "demur": {
+    "parts": [
+      {
+        "piece": "demorari",
+        "origin": "Latin",
+        "meaning": "to linger, delay"
+      }
+    ],
+    "literal": "to linger, delay",
+    "path": "From mora, 'delay.' To demur is to hold back and linger before agreeing, voicing a polite objection or hesitation rather than a flat refusal.",
+    "cousins": [
+      "moratorium"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "demure": {
+    "parts": [
+      {
+        "piece": "demorer",
+        "origin": "Old French",
+        "meaning": "to linger, remain, be composed"
+      }
+    ],
+    "literal": "composed, settled",
+    "path": "Likely from the same root as demur, describing sober, composed behavior; some link it instead to Latin mores, 'manners.' The origin is uncertain, but the sense of quiet, reserved composure is old and stable.",
+    "cousins": [
+      "demur"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "denigrate": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "nigrare",
+        "origin": "Latin",
+        "meaning": "to blacken"
+      }
+    ],
+    "literal": "to blacken thoroughly",
+    "path": "From niger, 'black.' To denigrate someone is to blacken their reputation thoroughly, whether fairly or not.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "denote": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "notare",
+        "origin": "Latin",
+        "meaning": "to mark"
+      }
+    ],
+    "literal": "to mark thoroughly",
+    "path": "From nota, 'a mark or sign.' To denote is to mark out a meaning clearly and directly, what a word literally signifies.",
+    "cousins": [
+      "note",
+      "notable",
+      "notation"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "denouement": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "French",
+        "meaning": "undo"
+      },
+      {
+        "piece": "nouer",
+        "origin": "French",
+        "meaning": "to tie"
+      }
+    ],
+    "literal": "an untying",
+    "path": "A story's plot is pictured as a knot that tightens through the middle; the denouement is where that knot is finally untied and everything resolves.",
+    "cousins": [
+      "node",
+      "nodule"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "denounce": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "nuntiare",
+        "origin": "Latin",
+        "meaning": "to announce"
+      }
+    ],
+    "literal": "to announce formally",
+    "path": "From nuntius, 'messenger.' To denounce is to formally announce condemnation of someone or something, publicly and pointedly.",
+    "cousins": [
+      "announce",
+      "pronounce",
+      "renounce"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dense": {
+    "parts": [
+      {
+        "piece": "densus",
+        "origin": "Latin",
+        "meaning": "thick, crowded"
+      }
+    ],
+    "literal": "thick, crowded",
+    "path": "Directly from Latin densus. Matter that is dense is tightly packed together; by extension, dense writing is packed too tightly to follow easily.",
+    "cousins": [
+      "condense"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "deportment": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "portare",
+        "origin": "Latin",
+        "meaning": "to carry"
+      }
+    ],
+    "literal": "how one carries oneself",
+    "path": "From portare, 'to carry.' Deportment is literally the way a person carries themselves, their manner and bearing.",
+    "cousins": [
+      "portable",
+      "transport",
+      "export"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "depose": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "poser",
+        "origin": "Old French",
+        "meaning": "to place"
+      }
+    ],
+    "literal": "to put down",
+    "path": "To depose a ruler is to put them down from power. To depose in a legal sense is to put one's testimony down on record.",
+    "cousins": [
+      "pose",
+      "position",
+      "depot"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "deprave": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "pravus",
+        "origin": "Latin",
+        "meaning": "crooked, perverse"
+      }
+    ],
+    "literal": "to make thoroughly crooked",
+    "path": "From pravus, 'crooked, distorted.' To deprave someone is to twist them morally, thoroughly bending them out of true.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "depravity": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "pravus",
+        "origin": "Latin",
+        "meaning": "crooked, perverse"
+      }
+    ],
+    "literal": "thorough crookedness",
+    "path": "Same root as deprave: depravity is the state of being morally twisted, corrupt through and through.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "deprecate": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away"
+      },
+      {
+        "piece": "precari",
+        "origin": "Latin",
+        "meaning": "to pray"
+      }
+    ],
+    "literal": "to pray away",
+    "path": "Originally meant to pray against something in order to avert it. The sense drifted from warding off disaster by prayer to simply expressing disapproval or belittling something.",
+    "cousins": [
+      "pray",
+      "precarious",
+      "imprecate"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "depredation": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "praedari",
+        "origin": "Latin",
+        "meaning": "to plunder"
+      }
+    ],
+    "literal": "thorough plundering",
+    "path": "From praeda, 'booty, prey.' A depredation is an act of plundering or preying on something, taking it by force.",
+    "cousins": [
+      "prey",
+      "predator",
+      "predatory"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "derelict": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "relinquere",
+        "origin": "Latin",
+        "meaning": "to leave behind, abandon"
+      }
+    ],
+    "literal": "thoroughly left behind",
+    "path": "From relinquere, 'to abandon.' A derelict building has been thoroughly abandoned; a derelict person has abandoned their duty.",
+    "cousins": [
+      "relinquish",
+      "delinquent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "deride": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "ridere",
+        "origin": "Latin",
+        "meaning": "to laugh"
+      }
+    ],
+    "literal": "to laugh down at",
+    "path": "From ridere, 'to laugh.' To deride someone is to laugh down at them scornfully.",
+    "cousins": [
+      "ridicule",
+      "ridiculous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "derision": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "ridere",
+        "origin": "Latin",
+        "meaning": "to laugh"
+      }
+    ],
+    "literal": "laughing down at",
+    "path": "Same root as deride: derision is contemptuous mockery, laughing down at someone or something.",
+    "cousins": [
+      "ridicule",
+      "ridiculous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "derisive": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "ridere",
+        "origin": "Latin",
+        "meaning": "to laugh"
+      }
+    ],
+    "literal": "laughing down at",
+    "path": "Same root as deride: a derisive remark laughs scornfully down at its target.",
+    "cousins": [
+      "ridicule",
+      "ridiculous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "derivative": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away, down"
+      },
+      {
+        "piece": "rivus",
+        "origin": "Latin",
+        "meaning": "stream"
+      }
+    ],
+    "literal": "drawn off from a stream",
+    "path": "A derivative work is pictured as a channel diverted from an original stream: it carries the same water but is not the source, hence unoriginal.",
+    "cousins": [
+      "derive",
+      "river",
+      "rival"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "derive": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away, down"
+      },
+      {
+        "piece": "rivus",
+        "origin": "Latin",
+        "meaning": "stream"
+      }
+    ],
+    "literal": "to draw off from a stream",
+    "path": "To derive something is to draw it off from its source, the way a channel is diverted from a stream.",
+    "cousins": [
+      "river",
+      "rival"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "derived": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away, down"
+      },
+      {
+        "piece": "rivus",
+        "origin": "Latin",
+        "meaning": "stream"
+      }
+    ],
+    "literal": "drawn off from a stream",
+    "path": "Same root as derive: something derived has been channeled off from an original source.",
+    "cousins": [
+      "river",
+      "rival"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "derogative": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away"
+      },
+      {
+        "piece": "rogare",
+        "origin": "Latin",
+        "meaning": "to ask, propose a law"
+      }
+    ],
+    "literal": "partly repealing a law",
+    "path": "In Roman law, to 'derogate' a law meant to weaken or partially repeal it. The sense was carried over to weakening a person's standing: a derogative remark chips away at someone's reputation.",
+    "cousins": [
+      "interrogate",
+      "abrogate",
+      "prerogative"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "descry": {
+    "parts": [
+      {
+        "piece": "crier",
+        "origin": "Old French",
+        "meaning": "to cry out, proclaim"
+      }
+    ],
+    "literal": "to cry out, proclaim",
+    "path": "Originally meant to cry out or announce, close in form to 'decry.' The sense settled into catching sight of something distant and, in effect, announcing that discovery.",
+    "cousins": [
+      "decry"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "desecrate": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "undo"
+      },
+      {
+        "piece": "sacrare",
+        "origin": "Latin",
+        "meaning": "to make sacred"
+      }
+    ],
+    "literal": "to unmake sacred",
+    "path": "From sacer, 'sacred.' To desecrate something is to strip its sacredness away by treating it disrespectfully.",
+    "cousins": [
+      "sacred",
+      "consecrate",
+      "sacrifice"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "desiccate": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "siccare",
+        "origin": "Latin",
+        "meaning": "to dry"
+      }
+    ],
+    "literal": "to dry thoroughly",
+    "path": "From siccus, 'dry.' To desiccate something is to remove all its moisture, drying it out completely.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "desiccated": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "siccare",
+        "origin": "Latin",
+        "meaning": "to dry"
+      }
+    ],
+    "literal": "thoroughly dried",
+    "path": "Same root as desiccate: something desiccated has had all its moisture and, by extension, its vitality stripped away.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "desideratum": {
+    "parts": [
+      {
+        "piece": "desiderare",
+        "origin": "Latin",
+        "meaning": "to long for, desire"
+      }
+    ],
+    "literal": "a thing longed for",
+    "path": "From the same Latin verb that gives 'desire,' possibly rooted in an old astrological phrase for awaiting a sign from the stars. A desideratum is simply something wanted and needed.",
+    "cousins": [
+      "desire"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "despair": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "without"
+      },
+      {
+        "piece": "sperare",
+        "origin": "Latin",
+        "meaning": "to hope"
+      }
+    ],
+    "literal": "without hope",
+    "path": "From spes, 'hope.' Despair is simply the state of being entirely without hope.",
+    "cousins": [
+      "desperate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "despite": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "specere",
+        "origin": "Latin",
+        "meaning": "to look"
+      }
+    ],
+    "literal": "a looking down on",
+    "path": "From despicere, 'to look down on.' As a noun, despite is exactly that: the contempt or spite of looking down on someone.",
+    "cousins": [
+      "spectacle",
+      "inspect",
+      "despise"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "despoil": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "spoliare",
+        "origin": "Latin",
+        "meaning": "to strip, rob"
+      }
+    ],
+    "literal": "to strip thoroughly",
+    "path": "From spolium, 'a hide stripped from an animal, booty.' To despoil is to strip someone of their possessions thoroughly, as in war or plunder.",
+    "cousins": [
+      "spoil",
+      "spoils"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "despoiler": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "spoliare",
+        "origin": "Latin",
+        "meaning": "to strip, rob"
+      }
+    ],
+    "literal": "one who strips thoroughly",
+    "path": "Same root as despoil: a despoiler is one who plunders and strips others of their possessions.",
+    "cousins": [
+      "spoil",
+      "spoils"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "despot": {
+    "parts": [
+      {
+        "piece": "despotes",
+        "origin": "Greek",
+        "meaning": "master of the house"
+      }
+    ],
+    "literal": "master of the house",
+    "path": "Greek despotes combined 'house' with a word for lord or master, originally just meaning the head of a household. It widened to an absolute ruler, then narrowed again to one who rules oppressively.",
+    "cousins": [
+      "potent",
+      "potentate"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "despotic": {
+    "parts": [
+      {
+        "piece": "despotes",
+        "origin": "Greek",
+        "meaning": "master of the house"
+      }
+    ],
+    "literal": "of a master of the house",
+    "path": "Same root as despot: despotic rule wields the absolute, unquestioned authority of a master over his household, extended to a whole state.",
+    "cousins": [
+      "potent",
+      "potentate"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "destitute": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away"
+      },
+      {
+        "piece": "statuere",
+        "origin": "Latin",
+        "meaning": "to set up, place"
+      }
+    ],
+    "literal": "set apart, left standing alone",
+    "path": "Originally meant forsaken or abandoned, left standing without support. The sense narrowed to lacking the means of subsistence: extreme poverty.",
+    "cousins": [
+      "statue",
+      "status",
+      "constitute"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

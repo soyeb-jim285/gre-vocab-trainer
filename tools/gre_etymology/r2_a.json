@@ -1,0 +1,326 @@
+{
+  "perpetuate": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "through"}, {"piece": "petere", "origin": "Latin", "meaning": "to seek, go toward"}],
+    "literal": "going through continuously",
+    "path": "Latin perpetuus meant continuous, unbroken, built from per-, through, and petere, to seek or go toward, picturing something that goes straight through without stopping. Perpetuate means to make something continue that way indefinitely.",
+    "cousins": ["petition", "appetite", "compete"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "perquisite": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "thoroughly"}, {"piece": "quaerere", "origin": "Latin", "meaning": "to seek, ask"}],
+    "literal": "thoroughly sought, acquired",
+    "path": "Latin perquirere meant to search out diligently, and perquisitum was something acquired by such searching, originally property gained beyond one's salary. The word narrowed to the extra benefits that come with a job, what 'perk' shortens it to.",
+    "cousins": ["acquire", "inquire", "query"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "perseverance": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "thoroughly"}, {"piece": "severus", "origin": "Latin", "meaning": "strict, serious"}],
+    "literal": "remaining strict throughout",
+    "path": "Latin perseverare combined per-, thoroughly, with severus, strict or serious, meaning to abide steadfastly by a purpose. Perseverance kept that sense of steady persistence despite difficulty.",
+    "cousins": ["severe", "persevere"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "persist": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "through"}, {"piece": "sistere", "origin": "Latin", "meaning": "to stand"}],
+    "literal": "to stand firmly through",
+    "path": "Latin persistere meant to stand firm or continue steadfastly, from per-, through, and sistere, to stand. Standing firm through opposition gave persist its sense of continuing despite obstacles.",
+    "cousins": ["consist", "insist", "resist"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "personable": {
+    "parts": [{"piece": "persona", "origin": "Latin", "meaning": "mask, character"}],
+    "literal": "having the bearing of a person",
+    "path": "Latin persona named a theatrical mask, then the character behind it, and eventually the individual self. Personable first described someone of pleasing outward appearance and broadened to mean generally likable in manner.",
+    "cousins": ["person", "personal", "impersonate"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "perspicacious": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "through"}, {"piece": "specere", "origin": "Latin", "meaning": "to look, see"}],
+    "literal": "seeing through clearly",
+    "path": "Latin perspicax meant sharp-sighted, from perspicere, to see through clearly, combining per-, through, with specere, to look. Seeing through things clearly became a mental sharpness, keen insight into people or situations.",
+    "cousins": ["spectacle", "inspect", "spectator"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "perspicacity": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "through"}, {"piece": "specere", "origin": "Latin", "meaning": "to look, see"}],
+    "literal": "the quality of seeing through clearly",
+    "path": "From the same Latin perspicax as perspicacious, perspicacity is the noun naming that faculty of sharp, penetrating insight, the ability to see through to the truth of things.",
+    "cousins": ["spectacle", "inspect", "spectator"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "perspicuous": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "through"}, {"piece": "specere", "origin": "Latin", "meaning": "to look, see"}],
+    "literal": "able to be seen through clearly",
+    "path": "Latin perspicuus described something transparent enough to see through, clear as glass. Applied to language, perspicuous describes writing or speech so clear that the meaning is easy to see through to.",
+    "cousins": ["spectacle", "inspect", "spectator"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "pert": {
+    "parts": [{"piece": "aperire", "origin": "Latin", "meaning": "to open"}],
+    "literal": "open, evident",
+    "path": "Pert began as a shortening of Middle English apert, open or frank, from Latin aperire, to open. An open, unreserved manner shifted toward impudence, giving pert its modern sense of cheeky boldness, especially in a child.",
+    "cousins": ["aperture", "overt"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "pertinacious": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "thoroughly"}, {"piece": "tenere", "origin": "Latin", "meaning": "to hold"}],
+    "literal": "holding on thoroughly",
+    "path": "Latin pertinax meant holding on firmly and stubbornly, from per-, thoroughly, and tenere, to hold. Pertinacious describes someone who holds their course with that same unyielding grip.",
+    "cousins": ["tenacious", "retain", "tenant"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pertinent": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "through"}, {"piece": "tenere", "origin": "Latin", "meaning": "to hold, extend"}],
+    "literal": "extending through to, belonging to",
+    "path": "Latin pertinere meant to reach to or belong to, from per-, through, and tenere, to hold or extend. What pertains to a matter extends through and connects to it, giving pertinent its sense of direct relevance.",
+    "cousins": ["retain", "contain", "tenure"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "perturb": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "thoroughly"}, {"piece": "turbare", "origin": "Latin", "meaning": "to disturb, throw into confusion"}],
+    "literal": "to throw into confusion thoroughly",
+    "path": "Latin perturbare meant to throw completely into disorder, from turba, a crowd or commotion, the root behind turbulent. Perturb kept that sense of stirring someone's calm into anxious confusion.",
+    "cousins": ["turbulent", "disturb", "turbine"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "peruse": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "thoroughly"}, {"piece": "use", "origin": "Latin", "meaning": "to use"}],
+    "literal": "to use up thoroughly",
+    "path": "Peruse likely formed from per-, thoroughly, plus use, on the model of consume, and first meant to use up or go through something completely. That thorough going-through narrowed to reading a text carefully from end to end.",
+    "cousins": ["use", "usage", "utilize"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "pervade": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "through"}, {"piece": "vadere", "origin": "Latin", "meaning": "to go"}],
+    "literal": "to go through",
+    "path": "Latin pervadere meant to go or spread through something completely, from vadere, to go, the root behind invade and evade. Pervade kept that image of spreading through every part of a space or situation.",
+    "cousins": ["invade", "evade", "evasion"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pervasive": {
+    "parts": [{"piece": "per-", "origin": "Latin", "meaning": "through"}, {"piece": "vadere", "origin": "Latin", "meaning": "to go"}],
+    "literal": "tending to go through",
+    "path": "From the same Latin pervadere as pervade, pervasive describes something with the tendency to spread through and fill every part of a space, situation, or group.",
+    "cousins": ["invade", "evade", "evasion"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "petulant": {
+    "parts": [{"piece": "petere", "origin": "Latin", "meaning": "to seek, attack"}],
+    "literal": "prone to attacking, impudent",
+    "path": "Latin petulans described someone forward or impudent, from petere, to seek or attack, the same root behind compete and appetite. The sense of aggressive pushiness softened into the childish sulkiness and irritability petulant names today.",
+    "cousins": ["compete", "appetite", "petition"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "phalanx": {
+    "parts": [{"piece": "phalanx", "origin": "Greek", "meaning": "log, line of battle"}],
+    "literal": "a log, a battle line",
+    "path": "Greek phalanx originally meant a log or round piece of wood, then a line or column of soldiers arranged in close, solid ranks like a wall. English kept the image of a tightly packed formation moving as one unit.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "phantasmagorical": {
+    "parts": [{"piece": "phantasma", "origin": "Greek", "meaning": "image, phantom"}],
+    "literal": "of phantom-like shifting images",
+    "path": "Phantasmagoria was coined around 1802 as the name for a ghostly magic-lantern light show, built from Greek phantasma, an image or phantom, with an invented flourish of an ending. Phantasmagorical describes scenes as shifting and dreamlike as that ghostly show.",
+    "cousins": ["phantom", "fantasy"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "phenomena": {
+    "parts": [{"piece": "phainein", "origin": "Greek", "meaning": "to show, appear"}],
+    "literal": "things that appear",
+    "path": "Greek phainomenon meant a thing that appears or shows itself, from phainein, to show. Phenomena named observable happenings, things that present themselves to be seen and studied.",
+    "cousins": ["phase", "fantasy", "emphasis"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "philanthropist": {
+    "parts": [{"piece": "philos", "origin": "Greek", "meaning": "loving"}, {"piece": "anthropos", "origin": "Greek", "meaning": "mankind"}],
+    "literal": "a lover of mankind",
+    "path": "Greek philanthropia meant love of humanity, from philos, loving, and anthropos, human being. A philanthropist channels that love of humanity into generous giving for others' benefit.",
+    "cousins": ["philosophy", "anthropology", "misanthrope"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "philanthropy": {
+    "parts": [{"piece": "philos", "origin": "Greek", "meaning": "loving"}, {"piece": "anthropos", "origin": "Greek", "meaning": "mankind"}],
+    "literal": "love of mankind",
+    "path": "Greek philanthropia named a general love of humanity. English philanthropy narrowed that broad benevolence to its practical expression: giving money and effort to benefit the public good.",
+    "cousins": ["philosophy", "anthropology", "misanthrope"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "philistine": {
+    "parts": [{"piece": "Philistia", "origin": "unknown", "meaning": "land of the Philistines"}],
+    "literal": "a Philistine, the biblical people",
+    "path": "The Philistines were the biblical enemies of Israel. German university slang used Philister for uncultured townsfolk, outsiders to academic and artistic life, and English borrowed that sense so philistine now means someone hostile to art and culture.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "philology": {
+    "parts": [{"piece": "philos", "origin": "Greek", "meaning": "loving"}, {"piece": "logos", "origin": "Greek", "meaning": "word, reason"}],
+    "literal": "love of words",
+    "path": "Greek philologia meant a love of learning, discussion, and literature, from philos, loving, and logos, word. The term narrowed to the scholarly study of language, especially historical texts and their development.",
+    "cousins": ["dialogue", "logic", "monologue"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "philosophical": {
+    "parts": [{"piece": "philos", "origin": "Greek", "meaning": "loving"}, {"piece": "sophia", "origin": "Greek", "meaning": "wisdom"}],
+    "literal": "loving wisdom",
+    "path": "Greek philosophia meant love of wisdom, from philos, loving, and sophia, wisdom. Because philosophers were pictured as facing misfortune with rational calm, philosophical also came to mean accepting hardship with steady composure.",
+    "cousins": ["sophisticated", "sophomore"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "phlegmatic": {
+    "parts": [{"piece": "phlegma", "origin": "Greek", "meaning": "phlegm, one of the four humors"}],
+    "literal": "full of phlegm",
+    "path": "In ancient humor theory, phlegm was the cold, moist bodily fluid, from Greek phlegma, believed to make a person calm, sluggish, and slow to show emotion. Phlegmatic kept that ancient medical sense as a description of an unflappable temperament.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "phony": {
+    "parts": [{"piece": "fáinne", "origin": "Irish", "meaning": "ring"}],
+    "literal": "uncertain, possibly a swindler's fake ring",
+    "path": "Phony's origin is disputed. One theory traces it to fawney, British slang for a gilt ring used in a Victorian street swindle called the fawney rig, ultimately from Irish fáinne, ring. Whatever the source, by the 1890s American slang, phony meant fake or fraudulent.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "picayune": {
+    "parts": [{"piece": "picaioun", "origin": "unknown", "meaning": "small coin"}],
+    "literal": "worth a small coin",
+    "path": "Picayune named a small Spanish coin of little value once circulated in the American South, from Provencal picaioun. Something worth only a picayune came to mean petty and trivial, hardly worth bothering with.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "piety": {
+    "parts": [{"piece": "pius", "origin": "Latin", "meaning": "dutiful, devout"}],
+    "literal": "dutifulness",
+    "path": "Latin pietas named the dutiful respect owed to gods, country, and family, from pius, devout. English piety kept that sense of devout, dutiful reverence, especially toward religion.",
+    "cousins": ["pious", "pity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "pilfer": {
+    "parts": [{"piece": "pelfre", "origin": "unknown", "meaning": "booty, spoils"}],
+    "literal": "to take booty, plunder",
+    "path": "Pilfer comes from Old French pelfrer, to pillage or plunder, related to pelf, ill-gotten spoils, itself of uncertain origin. The word narrowed from wholesale plundering to the sneakier crime of stealing small items.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "pillage": {
+    "parts": [{"piece": "pillier", "origin": "unknown", "meaning": "to plunder, loot"}],
+    "literal": "to plunder, loot",
+    "path": "Pillage comes from Old French pillier, to plunder or loot, itself of disputed origin, possibly tied to Latin pilare, to strip of hair. The word has meant violent seizure of goods, especially during war, since it entered English.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pillory": {
+    "parts": [{"piece": "pilori", "origin": "unknown", "meaning": "framework for public punishment"}],
+    "literal": "a framework for public punishment",
+    "path": "A pillory was a wooden framework that locked an offender's head and hands in place for public jeering, from Old French pilori, of uncertain origin. To pillory someone now means to expose them to that same kind of public ridicule and condemnation.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pine": {
+    "parts": [{"piece": "poena", "origin": "Latin", "meaning": "penalty, punishment"}],
+    "literal": "to suffer torment",
+    "path": "Old English pinian meant to torture or cause suffering, borrowed from Latin poena, punishment, the root of pain and penalty. Pine narrowed from general torment to wasting away from grief, and then to yearning painfully for something out of reach.",
+    "cousins": ["pain", "penalty"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "pinion": {
+    "parts": [{"piece": "pinna", "origin": "Latin", "meaning": "feather, wing"}],
+    "literal": "to bind the wing",
+    "path": "Pinion comes from Old French pignon, wing tip, from Latin pinna, feather or wing. Binding a bird's wing to stop it flying gave pinion its extended sense of binding a person's arms to the body to restrain them.",
+    "cousins": ["pinnacle", "pennant"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pinnacle": {
+    "parts": [{"piece": "pinna", "origin": "Latin", "meaning": "point, peak, feather"}],
+    "literal": "a small peak",
+    "path": "Latin pinnaculum meant a small wing or peak, a diminutive of pinna, feather or point. Originally naming a turret or spire on a building, pinnacle came to mean the highest point of anything.",
+    "cousins": ["pinion", "pennant"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "redolent": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "olere", "origin": "Latin", "meaning": "to smell"}],
+    "literal": "smelling strongly",
+    "path": "Latin redolere meant to give off a strong smell, from olere, to smell, intensified by re-. Redolent kept the literal sense of fragrant, and extended figuratively to anything strongly reminiscent, as if carrying a telltale scent of something.",
+    "cousins": ["odor", "olfactory"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "redoubtable": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "dubitare", "origin": "Latin", "meaning": "to doubt, hesitate, fear"}],
+    "literal": "greatly to be feared",
+    "path": "Old French redouter meant to dread deeply, from douter, to fear or doubt, from Latin dubitare, to hesitate or doubt. Someone redoubtable inspires that same wary respect, formidable enough to give an opponent pause.",
+    "cousins": ["doubt", "dubious"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  }
+}

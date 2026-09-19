@@ -19,6 +19,15 @@ final class AppSettings {
         static let strictness = "gradingStrictness"
         static let desiredRetention = "desiredRetention"
         static let currentDeckID = "currentDeckID"
+        static let testDate = "testDate"
+        static let dailyMinutes = "dailyMinutes"
+        static let newWordsPerDayCap = "newWordsPerDayCap"
+        static let dayStartHour = "dayStartHour"
+        static let confidenceEnabled = "confidenceEnabled"
+        static let confidenceScale = "confidenceScale"
+        static let dailyBudgetUSD = "dailyBudgetUSD"
+        static let lifetimeBudgetUSD = "lifetimeBudgetUSD"
+        static let hasOnboarded = "hasOnboarded"
     }
 
     private let defaults: UserDefaults
@@ -51,6 +60,26 @@ final class AppSettings {
         didSet { defaults.set(currentDeckID, forKey: Key.currentDeckID) }
     }
 
+    // MARK: The goal
+
+    /// Nil for anyone studying without a deadline.
+    var testDate: Date? { didSet { defaults.set(testDate, forKey: Key.testDate) } }
+    var dailyMinutes: Int { didSet { defaults.set(dailyMinutes, forKey: Key.dailyMinutes) } }
+    var newWordsPerDayCap: Int { didSet { defaults.set(newWordsPerDayCap, forKey: Key.newWordsPerDayCap) } }
+    /// When a study day rolls over, so finishing at half past midnight completes
+    /// the day the learner thinks they are in.
+    var dayStartHour: Int { didSet { defaults.set(dayStartHour, forKey: Key.dayStartHour) } }
+    var hasOnboarded: Bool { didSet { defaults.set(hasOnboarded, forKey: Key.hasOnboarded) } }
+
+    // MARK: Advanced
+
+    var confidenceEnabled: Bool { didSet { defaults.set(confidenceEnabled, forKey: Key.confidenceEnabled) } }
+    var confidenceScale: Double { didSet { defaults.set(confidenceScale, forKey: Key.confidenceScale) } }
+    /// Negative means no limit. A separate "unlimited" flag would be a second
+    /// thing to keep in step with the number it guards.
+    var dailyBudgetUSD: Double { didSet { defaults.set(dailyBudgetUSD, forKey: Key.dailyBudgetUSD) } }
+    var lifetimeBudgetUSD: Double { didSet { defaults.set(lifetimeBudgetUSD, forKey: Key.lifetimeBudgetUSD) } }
+
     /// Mirrors the Keychain so views can react; the Keychain stays the source of truth.
     var hasAPIKey: Bool
 
@@ -72,11 +101,20 @@ final class AppSettings {
         strictness = GradingStrictness(rawValue: defaults.string(forKey: Key.strictness) ?? "") ?? .standard
         desiredRetention = defaults.object(forKey: Key.desiredRetention) as? Double ?? 0.9
         currentDeckID = defaults.string(forKey: Key.currentDeckID)
+        testDate = defaults.object(forKey: Key.testDate) as? Date
+        dailyMinutes = defaults.object(forKey: Key.dailyMinutes) as? Int ?? 20
+        newWordsPerDayCap = defaults.object(forKey: Key.newWordsPerDayCap) as? Int ?? 15
+        dayStartHour = defaults.object(forKey: Key.dayStartHour) as? Int ?? 4
+        hasOnboarded = defaults.bool(forKey: Key.hasOnboarded)
+        confidenceEnabled = defaults.bool(forKey: Key.confidenceEnabled)
+        confidenceScale = defaults.object(forKey: Key.confidenceScale) as? Double ?? 1
+        dailyBudgetUSD = defaults.object(forKey: Key.dailyBudgetUSD) as? Double ?? 0.50
+        lifetimeBudgetUSD = defaults.object(forKey: Key.lifetimeBudgetUSD) as? Double ?? -1
         hasAPIKey = KeychainStore.hasKey
     }
 
     /// A cheap, widely-available model that does structured outputs.
-    private static let fallbackModel = "google/gemini-3.7-flash"
+    private static let fallbackModel = "openai/gpt-5.6-luna"
 
     /// Put every preference back where a fresh install would have it.
     ///
@@ -96,6 +134,17 @@ final class AppSettings {
         strictness = .standard
         desiredRetention = 0.9
         currentDeckID = nil
+        testDate = nil
+        dailyMinutes = 20
+        newWordsPerDayCap = 15
+        dayStartHour = 4
+        confidenceEnabled = false
+        confidenceScale = 1
+        dailyBudgetUSD = 0.50
+        lifetimeBudgetUSD = -1
+        // Left alone on purpose, like the Keychain: someone wiping their
+        // progress is starting the word list again, not the app.
+        // hasOnboarded stays as it is.
     }
 
     func setAPIKey(_ key: String?) {
@@ -115,7 +164,36 @@ final class AppSettings {
         )
     }
 
-    var scheduler: FSRS { FSRS(desiredRetention: desiredRetention) }
+    var profile: LearnerProfile {
+        LearnerProfile(
+            testDate: testDate,
+            dailyMinutes: dailyMinutes,
+            newWordsPerDayCap: newWordsPerDayCap,
+            dayStartHour: dayStartHour,
+            desiredRetention: desiredRetention,
+            strictness: strictness,
+            confidence: ConfidenceSettings(isEnabled: confidenceEnabled, scale: confidenceScale),
+            budget: AIBudget(
+                dailyUSD: dailyBudgetUSD < 0 ? nil : dailyBudgetUSD,
+                lifetimeUSD: lifetimeBudgetUSD < 0 ? nil : lifetimeBudgetUSD
+            )
+        )
+    }
+
+    /// The start of the study day the learner is currently in.
+    func dayStart(at date: Date = .now) -> Date {
+        Pacing.dayStart(containing: date, hour: dayStartHour)
+    }
+
+    /// Intervals stop at the eve of the test: a review booked for after it is
+    /// one that never happens.
+    var scheduler: FSRS {
+        FSRS(
+            desiredRetention: desiredRetention,
+            maximumIntervalDays: Pacing.maximumIntervalDays(until: profile.testDate, from: .now)
+                ?? 36_500
+        )
+    }
 
     func client() -> OpenRouterClient {
         OpenRouterClient(apiKey: KeychainStore.apiKey ?? "")

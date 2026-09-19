@@ -1,0 +1,362 @@
+{
+  "distinction": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "stinguere", "origin": "Latin", "meaning": "to prick, mark off"}],
+    "literal": "a marking apart",
+    "path": "Latin distinguere meant to mark off, separate by a distinguishing mark. Marking one thing apart from others gave both senses: a difference between things, and the honor of being marked apart as exceptional.",
+    "cousins": ["distinguish", "extinguish"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "distort": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart, away"}, {"piece": "torquere", "origin": "Latin", "meaning": "to twist"}],
+    "literal": "to twist awry",
+    "path": "Latin distorquere meant to twist out of shape. Distort kept that literal sense and extended it to meaning, facts, or sound twisted away from their true form.",
+    "cousins": ["torque", "contort", "retort"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "distraught": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "trahere", "origin": "Latin", "meaning": "to draw, pull"}],
+    "literal": "pulled apart",
+    "path": "Distraught comes from distract, from Latin distrahere, to pull in different directions. A mind pulled apart by conflicting worries is exactly the deep agitation the word describes.",
+    "cousins": ["traction", "tract", "subtract"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "distressed": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart, thoroughly"}, {"piece": "stringere", "origin": "Latin", "meaning": "to draw tight, bind"}],
+    "literal": "drawn tight, constrained",
+    "path": "Latin distringere meant to stretch apart or constrain by force. Being pulled tight under pressure gave distress its sense of anxious strain, whether emotional or financial.",
+    "cousins": ["strict", "stress", "constrict"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dither": {
+    "parts": [{"piece": "didderen", "origin": "Middle English", "meaning": "to tremble, shake"}],
+    "literal": "to shake or tremble",
+    "path": "Dither is a variant of the older word didder, to tremble. Trembling with uncertainty between choices became the image for wavering indecisively rather than committing to one.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "diurnal": {
+    "parts": [{"piece": "dies", "origin": "Latin", "meaning": "day"}],
+    "literal": "of the day",
+    "path": "Latin diurnus meant daily, from dies, day. Diurnal describes anything tied to the daytime or repeating every day, as opposed to nocturnal, by night.",
+    "cousins": ["diary", "journal", "journey"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "diverge": {
+    "parts": [{"piece": "di-", "origin": "Latin", "meaning": "apart"}, {"piece": "vergere", "origin": "Latin", "meaning": "to bend, turn"}],
+    "literal": "to bend apart",
+    "path": "Latin divergere meant to bend away in different directions. Paths, opinions, or lines that diverge are all bending apart from a common point rather than toward one.",
+    "cousins": ["converge", "verge"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "divergent": {
+    "parts": [{"piece": "di-", "origin": "Latin", "meaning": "apart"}, {"piece": "vergere", "origin": "Latin", "meaning": "to bend, turn"}],
+    "literal": "bending apart",
+    "path": "From the same root as diverge, divergent describes things that differ by moving apart from a shared starting point, whether opinions, paths, or outcomes.",
+    "cousins": ["converge", "verge"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "diversified": {
+    "parts": [{"piece": "di-", "origin": "Latin", "meaning": "apart"}, {"piece": "vertere", "origin": "Latin", "meaning": "to turn"}],
+    "literal": "turned into different forms",
+    "path": "Latin diversus meant turned in different directions, hence varied. Something diversified has been turned toward many different kinds rather than kept as one uniform thing.",
+    "cousins": ["reverse", "versatile", "divert"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "divert": {
+    "parts": [{"piece": "di-", "origin": "Latin", "meaning": "apart"}, {"piece": "vertere", "origin": "Latin", "meaning": "to turn"}],
+    "literal": "to turn aside",
+    "path": "Latin divertere meant to turn away or aside. Turning traffic or attention aside gave divert its double sense: to redirect something, and, by turning the mind aside from worry, to entertain it.",
+    "cousins": ["reverse", "versatile", "avert"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "divest": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart, un-"}, {"piece": "vestire", "origin": "Latin", "meaning": "to clothe"}],
+    "literal": "to unclothe",
+    "path": "Latin divestire meant to strip of clothing, from vestis, garment. Stripping off a garment extended to stripping oneself of any possession, right, or asset, including selling off investments.",
+    "cousins": ["vest", "invest"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "divine": {
+    "parts": [{"piece": "divus", "origin": "Latin", "meaning": "god, godlike"}],
+    "literal": "godlike",
+    "path": "Latin divinus meant of a god. Ancient diviners were thought to see the future through god-given insight, so the verb divine kept that sense of perceiving hidden truth by intuition rather than ordinary reasoning.",
+    "cousins": ["deity"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "divorced": {
+    "parts": [{"piece": "di-", "origin": "Latin", "meaning": "apart"}, {"piece": "vertere", "origin": "Latin", "meaning": "to turn"}],
+    "literal": "turned apart",
+    "path": "Latin divortium, from divertere, to turn different ways, named a legal separation. The word broadened from ending a marriage to describe anything cut off or separated from something it was once joined to.",
+    "cousins": ["reverse", "avert"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "divulge": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "abroad, apart"}, {"piece": "vulgare", "origin": "Latin", "meaning": "to make common, publish"}],
+    "literal": "to spread among the common people",
+    "path": "Latin divulgare meant to publish widely, from vulgus, the common people. To divulge private information is to spread it out among everyone, exactly as the Latin root pictures.",
+    "cousins": ["vulgar"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "docile": {
+    "parts": [{"piece": "docere", "origin": "Latin", "meaning": "to teach"}],
+    "literal": "able to be taught",
+    "path": "Latin docilis meant easily taught, teachable, from docere, to teach. A docile animal or person is easy to instruct and guide, which slid naturally into meaning easily managed and obedient.",
+    "cousins": ["doctrine", "doctor", "document"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "doctrinaire": {
+    "parts": [{"piece": "docere", "origin": "Latin", "meaning": "to teach"}],
+    "literal": "belonging to a taught theory",
+    "path": "French doctrinaire, from doctrine, teaching, from docere, to teach, named someone devoted to abstract theory over experience. It kept that sense: rigidly attached to a taught set of principles regardless of whether they work in practice.",
+    "cousins": ["doctrine", "doctor", "docile"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "document": {
+    "parts": [{"piece": "docere", "origin": "Latin", "meaning": "to teach"}],
+    "literal": "something that teaches, proof",
+    "path": "Latin documentum meant a lesson or proof, from docere, to teach. A document originally taught or instructed by example, and the verb keeps that sense: to record something as instructive evidence.",
+    "cousins": ["doctrine", "doctor", "docile"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "documentary": {
+    "parts": [{"piece": "docere", "origin": "Latin", "meaning": "to teach"}],
+    "literal": "based on a teaching record",
+    "path": "From the same root as document, documentary describes what is grounded in factual documents or records, and later, a film built from such factual record rather than fiction.",
+    "cousins": ["doctrine", "doctor", "docile"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "doff": {
+    "parts": [{"piece": "do off", "origin": "Old English", "meaning": "to take off"}],
+    "literal": "to do off",
+    "path": "Doff is a worn-down contraction of do off, just as don is do on. Taking off a hat is literally doing it off your head, and the word never strayed from that plain action.",
+    "cousins": ["don"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dog": {
+    "parts": [{"piece": "docga", "origin": "Old English", "meaning": "dog, of uncertain further origin"}],
+    "literal": "dog, the animal",
+    "path": "Old English docga named the animal, its own origin unclear. The verb sense grew from watching a dog trail someone relentlessly, giving dog the meaning to follow or pester without letting up.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dogged": {
+    "parts": [{"piece": "docga", "origin": "Old English", "meaning": "dog"}],
+    "literal": "like a dog",
+    "path": "A dog fixed on a scent or a chase does not give up. That tenacious, unrelenting pursuit gave dogged its sense of stubborn, admirable persistence toward a goal.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "doggerel": {
+    "parts": [{"piece": "docga", "origin": "Old English", "meaning": "dog"}],
+    "literal": "dog-like verse",
+    "path": "Dog was used dismissively for anything low-grade or mongrel, and doggerel took the -erel suffix to name verse of that same crude, low quality, badly made and often comic.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dogma": {
+    "parts": [{"piece": "dokein", "origin": "Greek", "meaning": "to seem, to think"}],
+    "literal": "that which seems true, an opinion",
+    "path": "Greek dogma meant an opinion or belief, from dokein, to seem or think. Philosophical and religious schools used it for a settled tenet, which is why dogma now means a principle laid down as beyond question.",
+    "cousins": ["paradox", "orthodox"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dogmatic": {
+    "parts": [{"piece": "dokein", "origin": "Greek", "meaning": "to seem, to think"}],
+    "literal": "of a settled opinion",
+    "path": "From the same Greek root as dogma, dogmatic describes someone who asserts their opinions as certain, unquestionable truth rather than open positions.",
+    "cousins": ["paradox", "orthodox"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "doleful": {
+    "parts": [{"piece": "dolere", "origin": "Latin", "meaning": "to grieve, suffer pain"}],
+    "literal": "full of grief",
+    "path": "Old French doel, grief, from Latin dolere, to grieve. Doleful describes a face, tone, or scene so full of that grief that sorrow is plainly written on it.",
+    "cousins": ["condolence"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dolorous": {
+    "parts": [{"piece": "dolor", "origin": "Latin", "meaning": "pain, grief"}],
+    "literal": "full of pain",
+    "path": "Latin dolor meant pain or grief, from dolere, to suffer. Dolorous describes anything, from a cry to a story, steeped in that same deep sorrow or pain.",
+    "cousins": ["condolence"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dormant": {
+    "parts": [{"piece": "dormire", "origin": "Latin", "meaning": "to sleep"}],
+    "literal": "sleeping",
+    "path": "Latin dormire meant to sleep. Dormant kept that image directly: something dormant is temporarily inactive, as if asleep, whether a volcano, a seed, or a talent.",
+    "cousins": ["dormitory", "dormer"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dormer": {
+    "parts": [{"piece": "dormire", "origin": "Latin", "meaning": "to sleep"}],
+    "literal": "of a sleeping room",
+    "path": "Old French dormeor named a sleeping chamber, from dormire, to sleep. These roof windows originally lit upper-floor bedrooms, and the name for the room shifted onto the window itself.",
+    "cousins": ["dormitory", "dormant"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "dotage": {
+    "parts": [{"piece": "doten", "origin": "Middle English", "meaning": "to be foolish, silly"}],
+    "literal": "a state of being foolish",
+    "path": "Middle English doten meant to be foolish or feeble-minded, of uncertain further origin. Dotage narrowed that to the feeble-mindedness expected in extreme old age.",
+    "cousins": ["dote"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dote": {
+    "parts": [{"piece": "doten", "origin": "Middle English", "meaning": "to be foolish, silly"}],
+    "literal": "to be foolish",
+    "path": "Middle English doten meant to be silly or out of one's wits. The sense narrowed from general foolishness to a specific kind: being so foolishly, excessively fond of someone that good judgment slips.",
+    "cousins": ["dotage"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "dovetail": {
+    "parts": [{"piece": "dove", "origin": "Old English", "meaning": "the bird"}, {"piece": "tail", "origin": "Old English", "meaning": "tail"}],
+    "literal": "a dove's tail",
+    "path": "The joint is named for its fan-shaped pins, which spread out like a dove's tail feathers and interlock tightly with the matching notches. The verb means to fit pieces together as neatly as that joint.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "dowdy": {
+    "parts": [{"piece": "dowd", "origin": "unknown", "meaning": "a dull, unfashionable woman"}],
+    "literal": "like a dowd",
+    "path": "Dowdy comes from the now-obsolete noun dowd, naming a plain, unfashionable woman, itself of unknown origin. The word has simply meant lacking in style for as long as it has been recorded.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "draconian": {
+    "parts": [{"piece": "Drakon", "origin": "Greek", "meaning": "Draco, the Athenian lawgiver"}],
+    "literal": "of Draco",
+    "path": "Draco was the 7th century BC Athenian lawgiver whose legal code punished even minor offenses severely. His name became the standard word for any rule or punishment excessively harsh.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "dregs": {
+    "parts": [{"piece": "dregg", "origin": "Old Norse", "meaning": "sediment, lees"}],
+    "literal": "sediment",
+    "path": "Old Norse dregg named the sediment settling at the bottom of a liquid. Dregs kept that image of the worthless leftover matter, whether at the bottom of a cup or in a metaphor for society's lowest remainder.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "droll": {
+    "parts": [{"piece": "drol", "origin": "Middle Dutch", "meaning": "a jolly imp, funny fellow"}],
+    "literal": "an odd, funny fellow",
+    "path": "French drole, funny, likely comes from Middle Dutch drol, a jolly imp or amusing figure. Droll kept that flavor of an odd, dry, slightly strange kind of amusement.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dubious": {
+    "parts": [{"piece": "duo", "origin": "Latin", "meaning": "two"}],
+    "literal": "of two minds",
+    "path": "Latin dubius meant wavering, uncertain, literally torn between two options, from duo, two. Dubious kept that sense of unresolved doubt, whether about truth or about the value of something.",
+    "cousins": ["doubt", "double", "dual"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dulcet": {
+    "parts": [{"piece": "dulcis", "origin": "Latin", "meaning": "sweet"}],
+    "literal": "sweet",
+    "path": "Latin dulcis meant sweet to the taste. Applied to sound, dulcet describes a voice or melody as sweet and soothing to the ear.",
+    "cousins": ["dulcimer"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "dupe": {
+    "parts": [{"piece": "duppe", "origin": "French", "meaning": "hoopoe, a bird thought foolish"}],
+    "literal": "a hoopoe",
+    "path": "French dupe named a deceived person, apparently from duppe, the hoopoe, a bird considered easily caught and foolish-looking. The noun for a gullible victim gave rise to the verb: to trick such a person.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "duplicitous": {
+    "parts": [{"piece": "duo", "origin": "Latin", "meaning": "two"}, {"piece": "plicare", "origin": "Latin", "meaning": "to fold"}],
+    "literal": "two-folded",
+    "path": "Latin duplex meant twofold, from duo, two, and plicare, to fold. Someone folded two ways at once presents one face to one person and another to someone else, which is exactly the deception the word names.",
+    "cousins": ["duplicate", "double", "complicate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "duplicity": {
+    "parts": [{"piece": "duo", "origin": "Latin", "meaning": "two"}, {"piece": "plicare", "origin": "Latin", "meaning": "to fold"}],
+    "literal": "a two-folded state",
+    "path": "From the same root as duplicitous, duplicity is the noun for that double-folded deceit: saying one thing while doing or believing another.",
+    "cousins": ["duplicate", "double", "complicate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

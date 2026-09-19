@@ -1,0 +1,671 @@
+{
+  "waver": {
+    "parts": [
+      {
+        "piece": "vafra",
+        "origin": "Old Norse",
+        "meaning": "to hover, flicker"
+      }
+    ],
+    "literal": "to flicker",
+    "path": "Originally described a flickering, unsteady movement, like a flame. It extended to hesitating indecisively between choices.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "wax": {
+    "parts": [
+      {
+        "piece": "weaxan",
+        "origin": "Old English",
+        "meaning": "to grow, increase"
+      }
+    ],
+    "literal": "to grow",
+    "path": "Direct from the root: to increase gradually, as the moon waxes. 'Wax eloquent' extends this to speaking at length with growing enthusiasm.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "waylay": {
+    "parts": [
+      {
+        "piece": "way",
+        "origin": "Old English",
+        "meaning": "path, route"
+      },
+      {
+        "piece": "lay",
+        "origin": "Old English",
+        "meaning": "to lay, place"
+      }
+    ],
+    "literal": "to lay in wait along the way",
+    "path": "Direct compound: to lie in wait along someone's path in order to intercept and detain them.",
+    "cousins": [
+      "way"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "wayward": {
+    "parts": [
+      {
+        "piece": "away",
+        "origin": "Old English",
+        "meaning": "away"
+      },
+      {
+        "piece": "-ward",
+        "origin": "Old English",
+        "meaning": "turned toward"
+      }
+    ],
+    "literal": "turned away",
+    "path": "Originally meant turned away from control or the right path. It came to describe someone willful and hard to control, going their own way.",
+    "cousins": [
+      "away",
+      "toward"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "weary": {
+    "parts": [
+      {
+        "piece": "werig",
+        "origin": "Old English",
+        "meaning": "tired, exhausted"
+      }
+    ],
+    "literal": "tired",
+    "path": "Direct from the root: tired and worn out, whether from physical effort or from tedium.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "weather": {
+    "parts": [
+      {
+        "piece": "weder",
+        "origin": "Old English",
+        "meaning": "air, sky, storm"
+      }
+    ],
+    "literal": "the state of the sky",
+    "path": "Originally the general condition of the sky or air. 'To weather' a difficulty is to endure exposure to bad weather and come through it safely.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "weigh": {
+    "parts": [
+      {
+        "piece": "wegan",
+        "origin": "Old English",
+        "meaning": "to carry, move"
+      }
+    ],
+    "literal": "to carry, move (on a scale)",
+    "path": "Originally meant to carry or lift, as on a balance scale. It extended to 'weighing' options, considering them carefully as if balancing them against each other.",
+    "cousins": [
+      "weight",
+      "wagon"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "welt": {
+    "parts": [
+      {
+        "piece": "welt",
+        "origin": "Middle English",
+        "meaning": "a raised edge strip on a shoe sole"
+      }
+    ],
+    "literal": "a shoe's raised edge",
+    "path": "From a shoemaker's welt, a raised ridge of leather along a sole's edge. The word extended to any raised ridge, especially a raised mark on the skin from a blow.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "welter": {
+    "parts": [
+      {
+        "piece": "welteren",
+        "origin": "Middle Dutch",
+        "meaning": "to roll, wallow"
+      }
+    ],
+    "literal": "to roll, wallow",
+    "path": "Originally a verb meaning to roll about or wallow, as in mud. The noun came to mean a confused, rolling mass of things.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "wheedle": {
+    "parts": [
+      {
+        "piece": "wedeln",
+        "origin": "German (disputed)",
+        "meaning": "to wag the tail, fawn"
+      }
+    ],
+    "literal": "to fawn (disputed)",
+    "path": "Origin disputed, possibly linked to a dog wagging its tail to fawn for favor, or to an old word for begging. Either way it settled into meaning to coax someone with flattery.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "whet": {
+    "parts": [
+      {
+        "piece": "hwettan",
+        "origin": "Old English",
+        "meaning": "to sharpen"
+      }
+    ],
+    "literal": "to sharpen",
+    "path": "Direct from the root: to physically sharpen a blade, extended to sharpening interest or appetite, to stimulate.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "whimsical": {
+    "parts": [
+      {
+        "piece": "whim-wham",
+        "origin": "English (uncertain)",
+        "meaning": "a fanciful trinket or notion"
+      }
+    ],
+    "literal": "fanciful (uncertain root)",
+    "path": "Tied to the old word 'whim-wham' for a fanciful trinket or notion, itself of obscure origin. Whimsical describes something playfully fanciful, guided by whim rather than reason.",
+    "cousins": [
+      "whim"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "whitewash": {
+    "parts": [
+      {
+        "piece": "white",
+        "origin": "Old English",
+        "meaning": "white"
+      },
+      {
+        "piece": "wash",
+        "origin": "Old English",
+        "meaning": "to wash"
+      }
+    ],
+    "literal": "to wash white",
+    "path": "Literally to coat a wall with a white lime wash to cover blemishes. Figuratively, to cover up wrongdoing with a superficial show of innocence.",
+    "cousins": [
+      "white",
+      "wash"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "whittle": {
+    "parts": [
+      {
+        "piece": "þwitan",
+        "origin": "Old English",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "to cut with a knife",
+    "path": "Direct from the root: to cut small pieces off with a knife, extended to reducing something gradually, 'whittling it down.'",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "whorl": {
+    "parts": [
+      {
+        "piece": "hweorfan",
+        "origin": "Old English",
+        "meaning": "to turn"
+      }
+    ],
+    "literal": "a turning shape",
+    "path": "Related to 'whirl': a whorl is a spiral, coiled pattern formed by turning.",
+    "cousins": [
+      "whirl"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "willful": {
+    "parts": [
+      {
+        "piece": "will",
+        "origin": "Old English",
+        "meaning": "desire, intent"
+      },
+      {
+        "piece": "full",
+        "origin": "Old English",
+        "meaning": "full of"
+      }
+    ],
+    "literal": "full of one's own will",
+    "path": "Direct from the parts: acting according to one's own desire regardless of others, deliberately and stubbornly self-willed.",
+    "cousins": [
+      "will"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "wily": {
+    "parts": [
+      {
+        "piece": "wile",
+        "origin": "Old North French",
+        "meaning": "trick, craft"
+      }
+    ],
+    "literal": "full of tricks",
+    "path": "Direct from the root: full of wiles, cunning and skilled in deception.",
+    "cousins": [
+      "guile"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "winnow": {
+    "parts": [
+      {
+        "piece": "windwian",
+        "origin": "Old English",
+        "meaning": "to fan with wind"
+      }
+    ],
+    "literal": "to fan with wind",
+    "path": "Originally to use wind to blow the chaff away from grain. It extended to sifting out the valuable from the worthless in any context.",
+    "cousins": [
+      "wind"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "winsome": {
+    "parts": [
+      {
+        "piece": "wynn",
+        "origin": "Old English",
+        "meaning": "joy, pleasure"
+      }
+    ],
+    "literal": "full of joy",
+    "path": "Direct from the root: inspiring joy and pleasure in others, charming in an innocent, appealing way.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "wistful": {
+    "parts": [
+      {
+        "piece": "wistly",
+        "origin": "English (uncertain)",
+        "meaning": "intently (obsolete, linked to 'wis,' to know)"
+      }
+    ],
+    "literal": "gazing intently (uncertain blend)",
+    "path": "Likely shaped by a blend with 'wishful' and an old word for gazing intently. It came to mean sadly longing for something past, looking back with soft regret.",
+    "cousins": [
+      "wish"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "wizened": {
+    "parts": [
+      {
+        "piece": "wisnian",
+        "origin": "Old English",
+        "meaning": "to wither, dry up"
+      }
+    ],
+    "literal": "withered",
+    "path": "Direct from the root: shriveled and dried up, especially with age, like a plant withering.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "woeful": {
+    "parts": [
+      {
+        "piece": "wa",
+        "origin": "Old English",
+        "meaning": "woe, sorrow"
+      },
+      {
+        "piece": "full",
+        "origin": "Old English",
+        "meaning": "full of"
+      }
+    ],
+    "literal": "full of woe",
+    "path": "Direct from the parts: full of sorrow, or so bad that it causes sorrow and dismay.",
+    "cousins": [
+      "woe"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "wont": {
+    "parts": [
+      {
+        "piece": "wunian",
+        "origin": "Old English",
+        "meaning": "to dwell, be accustomed"
+      }
+    ],
+    "literal": "accustomed",
+    "path": "Direct from the root: a customary habit, something one is accustomed to doing.",
+    "cousins": [
+      "unwonted"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "wraith": {
+    "parts": [
+      {
+        "piece": "wraith",
+        "origin": "Scottish (uncertain)",
+        "meaning": "apparition (origin obscure)"
+      }
+    ],
+    "literal": "uncertain, possibly guardian spirit",
+    "path": "Origin obscure, first appearing in Scottish sources for the apparition of a person seen near the time of their death. It generalized to any ghost or ghostly figure.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "wrangle": {
+    "parts": [
+      {
+        "piece": "wrangeln",
+        "origin": "Low German",
+        "meaning": "to struggle, wrestle"
+      }
+    ],
+    "literal": "to wrestle",
+    "path": "Originally to struggle or wrestle physically. It extended to arguing noisily and at length, a verbal wrestling match.",
+    "cousins": [
+      "wring",
+      "wrestle"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "wreak": {
+    "parts": [
+      {
+        "piece": "wrecan",
+        "origin": "Old English",
+        "meaning": "to drive, avenge, punish"
+      }
+    ],
+    "literal": "to drive, avenge",
+    "path": "Originally meant to avenge or punish. It narrowed into 'wreak havoc,' to inflict or cause great damage.",
+    "cousins": [
+      "wreck"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "wry": {
+    "parts": [
+      {
+        "piece": "wrigian",
+        "origin": "Old English",
+        "meaning": "to turn, twist, bend"
+      }
+    ],
+    "literal": "to turn, twist",
+    "path": "Physically twisted or bent, as in a wry face or smile, extended to speech or humor that carries a dry, ironic twist.",
+    "cousins": [
+      "writhe",
+      "wrist"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "xenophobia": {
+    "parts": [
+      {
+        "piece": "xenos",
+        "origin": "Greek",
+        "meaning": "stranger, foreigner"
+      },
+      {
+        "piece": "phobos",
+        "origin": "Greek",
+        "meaning": "fear"
+      }
+    ],
+    "literal": "fear of foreigners",
+    "path": "Direct from the parts: fear or hatred of foreigners or strangers.",
+    "cousins": [
+      "phobia"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "xenophobic": {
+    "parts": [
+      {
+        "piece": "xenos",
+        "origin": "Greek",
+        "meaning": "stranger, foreigner"
+      },
+      {
+        "piece": "phobos",
+        "origin": "Greek",
+        "meaning": "fear"
+      }
+    ],
+    "literal": "fearing foreigners",
+    "path": "Same roots as xenophobia: fearing or hating foreigners.",
+    "cousins": [
+      "xenophobia",
+      "phobia"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "yeoman": {
+    "parts": [
+      {
+        "piece": "yoman",
+        "origin": "Middle English",
+        "meaning": "villager or young man (origin disputed)"
+      }
+    ],
+    "literal": "uncertain, possibly villager",
+    "path": "Originally denoted a middle-ranking servant or small landholder, respected for reliable, sturdy service. 'Yeoman's service' came to mean dependable, workmanlike effort.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "yield": {
+    "parts": [
+      {
+        "piece": "gieldan",
+        "origin": "Old English",
+        "meaning": "to pay, repay"
+      }
+    ],
+    "literal": "to pay",
+    "path": "Originally meant to pay or repay a debt or tribute. It extended to producing a return, as crops yield produce, and to giving way under pressure.",
+    "cousins": [
+      "guild"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "yoke": {
+    "parts": [
+      {
+        "piece": "geoc",
+        "origin": "Old English",
+        "meaning": "a joining bar for draft animals"
+      }
+    ],
+    "literal": "a joining bar",
+    "path": "A wooden crosspiece joining two draft animals for labor, extended figuratively to any burden of oppression or servitude that binds someone.",
+    "cousins": [
+      "join",
+      "junction",
+      "conjugal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "zeal": {
+    "parts": [
+      {
+        "piece": "zelos",
+        "origin": "Greek",
+        "meaning": "ardor, eager rivalry"
+      }
+    ],
+    "literal": "ardor",
+    "path": "Direct from the root: great, ardent energy in pursuit of a cause or goal.",
+    "cousins": [
+      "jealous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "zealot": {
+    "parts": [
+      {
+        "piece": "zelos",
+        "origin": "Greek",
+        "meaning": "ardor, eager rivalry"
+      }
+    ],
+    "literal": "one full of zeal",
+    "path": "Named after the Zealots, a fervent Jewish sect who resisted Roman occupation with uncompromising fervor. The word generalized to any uncompromising fanatic for a cause.",
+    "cousins": [
+      "zeal",
+      "jealous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "zealous": {
+    "parts": [
+      {
+        "piece": "zelos",
+        "origin": "Greek",
+        "meaning": "ardor, eager rivalry"
+      }
+    ],
+    "literal": "full of zeal",
+    "path": "Direct from the root: showing intense enthusiasm and ardor for a cause.",
+    "cousins": [
+      "zeal",
+      "zealot",
+      "jealous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "zeitgeist": {
+    "parts": [
+      {
+        "piece": "Zeit",
+        "origin": "German",
+        "meaning": "time"
+      },
+      {
+        "piece": "Geist",
+        "origin": "German",
+        "meaning": "spirit"
+      }
+    ],
+    "literal": "time-spirit",
+    "path": "Direct from the parts: the defining spirit or mood characteristic of a particular period in history.",
+    "cousins": [
+      "ghost"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "zenith": {
+    "parts": [
+      {
+        "piece": "samt",
+        "origin": "Arabic",
+        "meaning": "path (over the head)"
+      }
+    ],
+    "literal": "the path overhead (via scribal error)",
+    "path": "From Arabic astronomy, 'the path over the head,' the point directly overhead. A medieval scribal error in copying the term into Latin produced 'zenith,' which extended to the highest point of anything.",
+    "cousins": [
+      "azimuth"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "zephyr": {
+    "parts": [
+      {
+        "piece": "Zephyros",
+        "origin": "Greek",
+        "meaning": "god of the west wind"
+      }
+    ],
+    "literal": "the west wind",
+    "path": "Named after Zephyros, the Greek god of the gentle west wind. Zephyr came to mean any gentle breeze.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  }
+}

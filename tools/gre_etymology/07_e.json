@@ -1,0 +1,452 @@
+{
+  "raiment": {
+    "parts": [{"piece": "array", "origin": "Old French (via Vulgar Latin *arredare)", "meaning": "to put in order, equip, dress"}],
+    "literal": "a putting in order, dressing",
+    "path": "Raiment is a worn-down form of 'arrayment,' from array, to put in order or dress. It kept the sense of clothing, especially clothing fine enough to have been carefully arrayed.",
+    "cousins": ["array"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rakish": {
+    "parts": [{"piece": "rakehell", "origin": "English (disputed origin)", "meaning": "a thoroughly dissolute person"}],
+    "literal": "like a hell-raking scoundrel (disputed)",
+    "path": "Rakish comes from 'rake,' short for 'rakehell,' an old word for a dissolute, wild-living man of somewhat murky origin. Rakish kept the sense of dashing but slightly disreputable charm.",
+    "cousins": ["rake"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ramification": {
+    "parts": [{"piece": "ramus", "origin": "Latin", "meaning": "branch"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "branching out",
+    "path": "Latin ramus meant a branch. A ramification is a consequence that branches out from an action, often into unexpected complexity.",
+    "cousins": ["ramify"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ramify": {
+    "parts": [{"piece": "ramus", "origin": "Latin", "meaning": "branch"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "to make branches",
+    "path": "From the same root as ramification, ramify describes an issue that grows more complicated as it branches out into further effects.",
+    "cousins": ["ramification"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rampant": {
+    "parts": [{"piece": "ramper", "origin": "Old French", "meaning": "to climb, rear up"}],
+    "literal": "rearing up",
+    "path": "In heraldry, rampant described a lion or beast rearing up on its hind legs, wild and unrestrained. The word broadened to describe anything spreading unchecked, as uncontrolled as that rearing beast.",
+    "cousins": ["ramp"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rampart": {
+    "parts": [{"piece": "parare", "origin": "Latin", "meaning": "to prepare, arrange"}],
+    "literal": "that which is fortified anew",
+    "path": "French remparer meant to fortify anew, ultimately from Latin parare, to prepare. A rampart is the defensive wall built up to fortify and protect a stronghold.",
+    "cousins": ["prepare", "repair", "apparatus"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rancor": {
+    "parts": [{"piece": "rancere", "origin": "Latin", "meaning": "to stink, be rancid"}],
+    "literal": "a festering stink",
+    "path": "Latin rancere meant to be rancid or foul-smelling. Rancor pictures resentment as something that festers and sours over time, like rancid meat.",
+    "cousins": ["rancid"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rancorous": {
+    "parts": [{"piece": "rancere", "origin": "Latin", "meaning": "to stink, be rancid"}],
+    "literal": "festering, rancid",
+    "path": "Sharing its root with rancor, rancere, to stink, rancorous describes bitterness so long-held it feels rancid, soured with age.",
+    "cousins": ["rancid", "rancor"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "range": {
+    "parts": [{"piece": "rang", "origin": "Old French (Germanic)", "meaning": "a row, rank, line"}],
+    "literal": "to arrange in a row",
+    "path": "Old French rang meant a row or line, giving rangier, to arrange in order. Range broadened to mean moving freely across a line of possibilities, roaming, or varying within a set span.",
+    "cousins": ["rank", "arrange", "derange"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ranging": {
+    "parts": [{"piece": "rang", "origin": "Old French (Germanic)", "meaning": "a row, rank, line"}],
+    "literal": "extending along a line",
+    "path": "From the same root as range, ranging describes something that extends across a wide line or span of possibilities.",
+    "cousins": ["rank", "arrange"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rankle": {
+    "parts": [{"piece": "draco", "origin": "Latin (via dracunculus, 'little serpent')", "meaning": "serpent, dragon"}],
+    "literal": "a festering little serpent, a sore",
+    "path": "Rankle traces to a Latin word for a small serpent, applied to a festering ulcer pictured as a coiled snake under the skin. To rankle is to fester like that unhealed sore, causing lasting resentment.",
+    "cousins": ["dragon", "draconian"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "ranks": {
+    "parts": [{"piece": "rang", "origin": "Old French (Germanic)", "meaning": "a row, rank, line"}],
+    "literal": "rows in order",
+    "path": "From the same root as range, ranks named rows of soldiers standing in line, then broadened to the membership of any organization.",
+    "cousins": ["range", "arrange"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rapacious": {
+    "parts": [{"piece": "rapere", "origin": "Latin", "meaning": "to seize, snatch"}],
+    "literal": "seizing, grasping",
+    "path": "Latin rapere meant to seize or snatch by force. Rapacious describes greed aggressive enough to seize whatever it wants.",
+    "cousins": ["rapid", "rapture", "ravish"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rapprochement": {
+    "parts": [{"piece": "prope", "origin": "Latin", "meaning": "near"}],
+    "literal": "a bringing close again",
+    "path": "French rapprocher meant to bring close again, from prope, near. Rapprochement is that renewed closeness, a restoration of friendly relations between former rivals.",
+    "cousins": ["approach", "approximate", "proximity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "rapt": {
+    "parts": [{"piece": "rapere", "origin": "Latin", "meaning": "to seize, carry off"}],
+    "literal": "carried off, seized",
+    "path": "Latin raptus meant seized or carried off, as by force or ecstasy. Rapt describes attention so completely seized and carried away that nothing else can intrude.",
+    "cousins": ["rapture", "rapacious"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "rarefied": {
+    "parts": [{"piece": "rarus", "origin": "Latin", "meaning": "rare, thin, sparse"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "made thin, sparse",
+    "path": "Latin rarefacere meant to make something thin or sparse, as air at high altitude. Rarefied kept the literal sense of thin air and extended it figuratively to elite circles remote from ordinary, dense everyday life.",
+    "cousins": ["rare", "rarity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rarefy": {
+    "parts": [{"piece": "rarus", "origin": "Latin", "meaning": "rare, thin, sparse"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "to make thin, sparse",
+    "path": "From the same root as rarefied, to rarefy is to make something, air, an idea, a group, less dense and more refined.",
+    "cousins": ["rare", "rarity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rash": {
+    "parts": [{"piece": "rasch", "origin": "Germanic (Old/Middle English)", "meaning": "quick, hasty"}],
+    "literal": "hasty, quick",
+    "path": "Rash comes from a Germanic word simply meaning quick or hasty. It narrowed to describe acting too quickly, without proper thought for consequences.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ratify": {
+    "parts": [{"piece": "ratus", "origin": "Latin", "meaning": "fixed, confirmed (from reri, to reckon, judge)"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "to make fixed, confirmed",
+    "path": "Latin ratus meant reckoned and settled, fixed by judgment. To ratify something is to make it officially fixed and confirmed, formally approved.",
+    "cousins": ["rate", "ratio", "reason"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "rational": {
+    "parts": [{"piece": "ratio", "origin": "Latin", "meaning": "reckoning, reason (from reri, to reckon)"}],
+    "literal": "of reckoning, reason",
+    "path": "Latin ratio meant a reckoning or reasoned calculation. Rational describes thinking grounded in that same careful reckoning, based on reason rather than impulse.",
+    "cousins": ["ratio", "reason", "rate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "rationalism": {
+    "parts": [{"piece": "ratio", "origin": "Latin", "meaning": "reckoning, reason"}],
+    "literal": "the doctrine of reckoning, reason",
+    "path": "Sharing its root with rational, rationalism names the philosophical view that reason, not experience or faith, is the true source of knowledge.",
+    "cousins": ["ratio", "reason"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rationalize": {
+    "parts": [{"piece": "ratio", "origin": "Latin", "meaning": "reckoning, reason"}],
+    "literal": "to make reasoned, in appearance",
+    "path": "Built on the same root as rational, rationalize ironically means to construct a reasoned-sounding excuse to justify something you already wanted to do for other reasons.",
+    "cousins": ["ratio", "reason", "rational"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "raucous": {
+    "parts": [{"piece": "raucus", "origin": "Latin", "meaning": "hoarse"}],
+    "literal": "hoarse",
+    "path": "Latin raucus meant hoarse, like a rough, strained voice. Raucous describes sound with that same rough, loud harshness.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ravage": {
+    "parts": [{"piece": "rapere", "origin": "Latin", "meaning": "to seize, snatch"}],
+    "literal": "to seize violently, sweep away",
+    "path": "French ravage traced back to rapere, to seize by force. To ravage is to sweep through and seize everything violently, devastating what is left behind.",
+    "cousins": ["rapid", "rapture", "ravish"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rave": {
+    "parts": [{"piece": "resver", "origin": "Old French (disputed origin)", "meaning": "to rave, dream, wander in delirium"}],
+    "literal": "to wander in delirium (disputed)",
+    "path": "Rave traces to an Old French word for raving or dreaming deliriously, itself of debated origin. The core sense, talking wildly and unrestrained, has stuck since Middle English.",
+    "cousins": ["reverie"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ravel": {
+    "parts": [{"piece": "ravelen", "origin": "Dutch", "meaning": "to tangle, fray out"}],
+    "literal": "to fray, tangle",
+    "path": "Dutch ravelen meant to fray or tangle threads. English kept the odd double sense: to ravel can mean both to tangle and, confusingly, to untangle, since pulling apart a tangle also unravels it.",
+    "cousins": ["unravel"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ravenous": {
+    "parts": [{"piece": "rapina", "origin": "Latin", "meaning": "plunder, robbery (from rapere, to seize)"}],
+    "literal": "plundering, seizing by force",
+    "path": "Latin rapina meant plunder or robbery. Ravenous first described violent, rapacious seizing, and narrowed to hunger so extreme it feels like it must plunder anything in reach.",
+    "cousins": ["rapacious", "ravage"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "raze": {
+    "parts": [{"piece": "radere", "origin": "Latin", "meaning": "to scrape, shave"}],
+    "literal": "to scrape away, shave down",
+    "path": "Latin radere meant to scrape or shave clean. To raze a building is to scrape it away entirely, level it flat with the ground.",
+    "cousins": ["razor", "erase", "abrasive"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "reactant": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "agere", "origin": "Latin", "meaning": "to do, act"}],
+    "literal": "acting back",
+    "path": "Built from re-, again, and act, from Latin agere, to do, a reactant is a substance that acts back, taking part in a chemical reaction.",
+    "cousins": ["act", "agent", "agenda"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "reactionary": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again, back"}, {"piece": "agere", "origin": "Latin", "meaning": "to do, act"}],
+    "literal": "acting back against change",
+    "path": "Built on react, to act back against something, reactionary describes a political stance that pushes back against progress, favoring a return to the past.",
+    "cousins": ["act", "agent", "react"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "readjustment": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "juxta", "origin": "Latin", "meaning": "near (via adjust)"}],
+    "literal": "to bring near, right, again",
+    "path": "Adjust traces to Latin juxta, near, the idea of bringing something close to correct. Readjustment is doing that fitting-right process again, adapting further to changed circumstances.",
+    "cousins": ["adjust", "juxtapose"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "reap": {
+    "parts": [{"piece": "ripan", "origin": "Old English", "meaning": "to harvest ripe grain (related to 'ripe')"}],
+    "literal": "to harvest ripe grain",
+    "path": "Reap comes from an Old English word for harvesting grain once it has ripened. The word extended figuratively to obtaining any result, good or bad, as the natural yield of what was planted or done.",
+    "cousins": ["ripe"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rebuke": {
+    "parts": [{"piece": "buschier", "origin": "Old French (Germanic)", "meaning": "to strike wood"}],
+    "literal": "to strike back, beat down",
+    "path": "Old French rebuchier meant to beat back or strike down, literally hitting wood. Rebuke kept the force of that blow, verbally striking someone down with sharp reprimand.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rebus": {
+    "parts": [{"piece": "res", "origin": "Latin", "meaning": "thing"}],
+    "literal": "by things, not words",
+    "path": "Rebus comes from Latin res, thing, via the ablative plural rebus, 'by things,' a phrase used for a riddle that represents words with pictures of things rather than with the words themselves.",
+    "cousins": ["real", "republic"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rebut": {
+    "parts": [{"piece": "boter", "origin": "Old French (Germanic)", "meaning": "to push, butt"}],
+    "literal": "to push back",
+    "path": "Old French rebuter meant to thrust or push something back. To rebut an argument is to push it back with counter-evidence, disproving it.",
+    "cousins": ["butt", "buttress", "abut"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "recalcitrant": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "calx", "origin": "Latin", "meaning": "heel (via calcitrare, to kick)"}],
+    "literal": "kicking back",
+    "path": "Latin recalcitrare pictured a mule kicking back with its heels, refusing to move forward. Recalcitrant kept that image of stubborn, kicking-back resistance to authority.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "recant": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "cantare", "origin": "Latin", "meaning": "to sing, chant"}],
+    "literal": "to sing back, unsing",
+    "path": "Latin recantare meant literally to sing back, to unsay a chanted spell or charm. To recant is to publicly take back, unsay, a former belief or statement.",
+    "cousins": ["chant", "enchant", "incantation"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "recapitulate": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "caput", "origin": "Latin", "meaning": "head (via capitulum, chapter heading)"}],
+    "literal": "to go back over the chapter headings",
+    "path": "Late Latin recapitulare meant to go back through a text point by point under its main headings. To recapitulate is to summarize by going back over the chief points, chapter by chapter.",
+    "cousins": ["capital", "chapter", "decapitate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "recapitulation": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "caput", "origin": "Latin", "meaning": "head (via capitulum, chapter heading)"}],
+    "literal": "a going back over the headings",
+    "path": "From the same root as recapitulate, a recapitulation is a summary that revisits a text's main points, one by one, from the top.",
+    "cousins": ["capital", "chapter"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "recluse": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "(intensive)"}, {"piece": "claudere", "origin": "Latin", "meaning": "to shut"}],
+    "literal": "shut away, enclosed",
+    "path": "Late Latin reclusus meant shut away, enclosed. A recluse is someone who has shut themselves away from the world, living in deliberate seclusion.",
+    "cousins": ["close", "conclude", "exclude"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "reconcile": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "conciliare", "origin": "Latin", "meaning": "to bring together, unite"}],
+    "literal": "to bring together again",
+    "path": "Latin reconciliare meant to bring people or things back together. To reconcile is to restore that togetherness, whether mending a friendship or making conflicting facts consistent.",
+    "cousins": ["conciliate", "council"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "reconciliation": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "conciliare", "origin": "Latin", "meaning": "to bring together, unite"}],
+    "literal": "a bringing together again",
+    "path": "From the same root as reconcile, reconciliation names the restored harmony that follows bringing estranged parties back together.",
+    "cousins": ["conciliate", "council"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "recondite": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "(intensive)"}, {"piece": "condere", "origin": "Latin", "meaning": "to hide, store away"}],
+    "literal": "hidden away, stored deep",
+    "path": "Latin recondere meant to store something away out of sight. Recondite describes knowledge hidden so deep it is understood only by a few.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "reconnaissance": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "cognoscere", "origin": "Latin", "meaning": "to know, recognize"}],
+    "literal": "a recognizing again",
+    "path": "French reconnaissance meant recognition, from Latin recognoscere, to know again. Military and general use narrowed it to a preliminary survey undertaken to come to know unfamiliar territory or information.",
+    "cousins": ["recognize", "cognizant"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "recourse": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "currere", "origin": "Latin", "meaning": "to run"}],
+    "literal": "a running back to",
+    "path": "Latin recursus meant a running back, a retreat to a resource. Recourse is that same turning back to a source of help when facing difficulty.",
+    "cousins": ["current", "course", "occur"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "recovering": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "capere", "origin": "Latin", "meaning": "to take (via recuperare, to get back)"}],
+    "literal": "getting back again",
+    "path": "Latin recuperare meant to get something back, to regain it. Recovering describes the process of getting back one's health or a normal state, step by step.",
+    "cousins": ["recuperate", "capture", "capable"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "recrimination": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back, in return"}, {"piece": "crimen", "origin": "Latin", "meaning": "accusation, crime"}],
+    "literal": "an accusation thrown back",
+    "path": "Latin recriminare meant to accuse in return. Recrimination is that back-and-forth of counter-accusations, each side blaming the other.",
+    "cousins": ["crime", "criminal", "incriminate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "recrudesce": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "crudus", "origin": "Latin", "meaning": "raw"}],
+    "literal": "to become raw again",
+    "path": "Latin recrudescere pictured a healed wound breaking open again, raw and fresh. Recrudesce describes any trouble, disease, or conflict breaking out again after seeming to have healed.",
+    "cousins": ["crude"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "recrudescent": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "crudus", "origin": "Latin", "meaning": "raw"}],
+    "literal": "becoming raw again",
+    "path": "From the same root as recrudesce, recrudescent describes a problem breaking open again, raw and fresh, after appearing to subside.",
+    "cousins": ["crude"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rectify": {
+    "parts": [{"piece": "rectus", "origin": "Latin", "meaning": "straight, right"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "to make straight, right",
+    "path": "Latin rectus meant straight or right. To rectify something is to make it straight again, correcting what had gone wrong.",
+    "cousins": ["correct", "direct", "erect"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

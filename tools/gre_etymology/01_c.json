@@ -1,0 +1,938 @@
+{
+  "cardinal": {
+    "parts": [
+      {
+        "piece": "cardo",
+        "origin": "Latin",
+        "meaning": "a hinge"
+      }
+    ],
+    "literal": "hinge-like, pivotal",
+    "path": "Latin cardo meant a hinge, the pivot point a door turns on. Cardinal describes something so central everything else turns on it: of the greatest importance, fundamental.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "careen": {
+    "parts": [
+      {
+        "piece": "carina",
+        "origin": "Latin",
+        "meaning": "keel of a ship"
+      }
+    ],
+    "literal": "to tilt on the keel",
+    "path": "Careen comes from carina, the keel of a ship. Sailors careened a ship by tipping it on its side for cleaning, and the tilting, lurching motion gave the word its modern sense: to swerve wildly while moving fast.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "caricature": {
+    "parts": [
+      {
+        "piece": "carricare",
+        "origin": "Latin",
+        "meaning": "to load, overload a cart"
+      }
+    ],
+    "literal": "an overloaded portrayal",
+    "path": "Caricature comes from Italian caricare, to load or exaggerate, from a Latin word for loading a cart. A caricature loads a portrait with exaggeration, piling on distorted features for comic effect.",
+    "cousins": [
+      "cargo",
+      "charge"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "carping": {
+    "parts": [
+      {
+        "piece": "carpere",
+        "origin": "Latin",
+        "meaning": "to pluck, pick at; slander"
+      }
+    ],
+    "literal": "picking at, plucking apart",
+    "path": "Carp probably blends an Old Norse word for boasting with Latin carpere, to pluck or pick apart, which also meant to slander. Carping settled into that plucking, picking sense: constantly finding fault over small things.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "carrion": {
+    "parts": [
+      {
+        "piece": "caro",
+        "origin": "Latin",
+        "meaning": "flesh, meat"
+      }
+    ],
+    "literal": "dead flesh",
+    "path": "Carrion comes from Latin caro, flesh. It names the decaying flesh of dead animals, the same root that gives us carnal and carnivore.",
+    "cousins": [
+      "carnal",
+      "carnivore",
+      "incarnate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cartographer": {
+    "parts": [
+      {
+        "piece": "carte",
+        "origin": "French",
+        "meaning": "map, card"
+      },
+      {
+        "piece": "graphein",
+        "origin": "Greek",
+        "meaning": "to write, draw"
+      }
+    ],
+    "literal": "one who draws maps",
+    "path": "Cartographer joins carte, a map or card, with Greek graphein, to write or draw. It names, plainly, a person who draws maps.",
+    "cousins": [
+      "card",
+      "graphic",
+      "photograph"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cartography": {
+    "parts": [
+      {
+        "piece": "carte",
+        "origin": "French",
+        "meaning": "map, card"
+      },
+      {
+        "piece": "graphein",
+        "origin": "Greek",
+        "meaning": "to write, draw"
+      }
+    ],
+    "literal": "map-drawing",
+    "path": "Cartography joins carte, map, with Greek graphein, to write or draw: the art and science of drawing maps.",
+    "cousins": [
+      "card",
+      "graphic",
+      "photograph"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "castigate": {
+    "parts": [
+      {
+        "piece": "castus",
+        "origin": "Latin",
+        "meaning": "pure, chaste"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to drive, do"
+      }
+    ],
+    "literal": "to drive toward purity",
+    "path": "Latin castigare combined castus, pure, with agere, to drive or do: literally to correct someone into purity. Castigate kept that punishing edge: to criticize or punish severely.",
+    "cousins": [
+      "chaste",
+      "act",
+      "agent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "castigation": {
+    "parts": [
+      {
+        "piece": "castus",
+        "origin": "Latin",
+        "meaning": "pure, chaste"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to drive, do"
+      }
+    ],
+    "literal": "a driving toward purity",
+    "path": "Castigation shares castigate's root, Latin castus, pure, plus agere, to drive, since correction was once meant to purify. It names the severe criticism or punishment itself.",
+    "cousins": [
+      "chaste",
+      "act",
+      "agent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cataclysm": {
+    "parts": [
+      {
+        "piece": "kata-",
+        "origin": "Greek",
+        "meaning": "down"
+      },
+      {
+        "piece": "klyzein",
+        "origin": "Greek",
+        "meaning": "to wash, deluge"
+      }
+    ],
+    "literal": "a washing down, a flood",
+    "path": "Greek kataklysmos meant a great flood, from kata, down, and klyzein, to wash or deluge, originally naming the biblical flood. Cataclysm broadened from that engulfing flood to any violent, catastrophic upheaval.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cataclysmic": {
+    "parts": [
+      {
+        "piece": "kata-",
+        "origin": "Greek",
+        "meaning": "down"
+      },
+      {
+        "piece": "klyzein",
+        "origin": "Greek",
+        "meaning": "to wash, deluge"
+      }
+    ],
+    "literal": "flood-like",
+    "path": "Cataclysmic shares cataclysm's Greek root, kata, down, plus klyzein, to wash or deluge, describing the biblical flood. It describes anything violently destructive on that overwhelming scale.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "catalyst": {
+    "parts": [
+      {
+        "piece": "kata-",
+        "origin": "Greek",
+        "meaning": "down, thoroughly"
+      },
+      {
+        "piece": "lyein",
+        "origin": "Greek",
+        "meaning": "to loosen, dissolve"
+      }
+    ],
+    "literal": "a thorough loosening",
+    "path": "Catalyst comes from Greek kata, thoroughly, plus lyein, to loosen or dissolve, a term borrowed for a chemical agent that loosens a reaction into motion. It broadened to anything that precipitates change without itself being changed.",
+    "cousins": [
+      "analysis",
+      "paralysis"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "categorical": {
+    "parts": [
+      {
+        "piece": "kata-",
+        "origin": "Greek",
+        "meaning": "against, down"
+      },
+      {
+        "piece": "agoreuein",
+        "origin": "Greek",
+        "meaning": "to speak publicly, in the assembly"
+      }
+    ],
+    "literal": "asserted publicly, stated outright",
+    "path": "Categorical traces to Greek kategorein, to speak against or assert publicly in the assembly. A categorical statement is one stated outright and absolutely, unqualified and unequivocal.",
+    "cousins": [
+      "category"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cathartic": {
+    "parts": [
+      {
+        "piece": "katharos",
+        "origin": "Greek",
+        "meaning": "pure, clean"
+      }
+    ],
+    "literal": "purifying, cleansing",
+    "path": "Cathartic comes from Greek katharos, pure, via katharsis, a purging or cleansing, a term Aristotle used for the emotional cleansing tragedy brings an audience. It still names anything that provides that emotional release.",
+    "cousins": [
+      "catharsis"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "catholic": {
+    "parts": [
+      {
+        "piece": "kata-",
+        "origin": "Greek",
+        "meaning": "throughout"
+      },
+      {
+        "piece": "holos",
+        "origin": "Greek",
+        "meaning": "whole"
+      }
+    ],
+    "literal": "throughout the whole, universal",
+    "path": "Greek katholikos meant universal, spanning the whole, from kata, throughout, and holos, whole. Lowercase catholic kept that original sense: broad and wide-ranging, as in catholic tastes.",
+    "cousins": [
+      "holistic",
+      "whole"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "caucus": {
+    "parts": [
+      {
+        "piece": "caucus",
+        "origin": "unknown, possibly Algonquian",
+        "meaning": "a closed political meeting"
+      }
+    ],
+    "literal": "a closed meeting",
+    "path": "Caucus is an early American word of genuinely disputed origin, perhaps from an Algonquian word for a counselor or elder. It has meant a closed meeting of a political faction since colonial times.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "caustic": {
+    "parts": [
+      {
+        "piece": "kaiein",
+        "origin": "Greek",
+        "meaning": "to burn"
+      }
+    ],
+    "literal": "burning",
+    "path": "Greek kaiein meant to burn, giving caustic its literal chemical sense: corrosive enough to burn tissue. The same burning quality extended to sharp, biting sarcasm.",
+    "cousins": [
+      "cauterize",
+      "holocaust"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cavalier": {
+    "parts": [
+      {
+        "piece": "caballus",
+        "origin": "Latin",
+        "meaning": "horse"
+      }
+    ],
+    "literal": "a horseman",
+    "path": "Cavalier comes from Latin caballus, horse, via a word for a mounted knight or gentleman. The swaggering, offhand air associated with such horsemen, reinforced by the Royalist Cavaliers of the English Civil War, gave the word its modern sense: dismissive of important matters.",
+    "cousins": [
+      "cavalry",
+      "chivalrous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cease": {
+    "parts": [
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go, yield, withdraw"
+      }
+    ],
+    "literal": "to withdraw, yield",
+    "path": "Cease comes from Latin cessare, to stop or be idle, itself from cedere, to go or yield. To cease is to yield ground and withdraw from an action: to stop.",
+    "cousins": [
+      "cede",
+      "recede",
+      "proceed"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cede": {
+    "parts": [
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go, yield, withdraw"
+      }
+    ],
+    "literal": "to yield, withdraw",
+    "path": "Cede comes directly from Latin cedere, to yield or withdraw. To cede territory or power is literally to yield ground, formally giving it up.",
+    "cousins": [
+      "cease",
+      "recede",
+      "proceed"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "celerity": {
+    "parts": [
+      {
+        "piece": "celer",
+        "origin": "Latin",
+        "meaning": "swift"
+      }
+    ],
+    "literal": "swiftness",
+    "path": "Celerity comes straight from Latin celer, swift, the same root behind accelerate. It names swiftness of action, plain and simple.",
+    "cousins": [
+      "accelerate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "censor": {
+    "parts": [
+      {
+        "piece": "censere",
+        "origin": "Latin",
+        "meaning": "to assess, judge, give an opinion"
+      }
+    ],
+    "literal": "one who judges",
+    "path": "Latin censere meant to assess or judge, the root behind the Roman censor, a magistrate who judged public morals. Censor kept that judging role, narrowing to the act of suppressing objectionable material.",
+    "cousins": [
+      "census",
+      "censure"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "censure": {
+    "parts": [
+      {
+        "piece": "censere",
+        "origin": "Latin",
+        "meaning": "to assess, judge, give an opinion"
+      }
+    ],
+    "literal": "a formal judgment",
+    "path": "Censure shares censor's root in Latin censere, to judge or assess. It names the formal, harsh judgment itself: strong disapproval officially expressed.",
+    "cousins": [
+      "census",
+      "censor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "centrifuge": {
+    "parts": [
+      {
+        "piece": "centrum",
+        "origin": "Latin",
+        "meaning": "center"
+      },
+      {
+        "piece": "fugere",
+        "origin": "Latin",
+        "meaning": "to flee"
+      }
+    ],
+    "literal": "fleeing the center",
+    "path": "Centrifuge combines Latin centrum, center, with fugere, to flee, describing how spinning flings material away from the center. It names the machine that separates substances using that outward force.",
+    "cousins": [
+      "fugitive",
+      "refuge",
+      "central"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cerebral": {
+    "parts": [
+      {
+        "piece": "cerebrum",
+        "origin": "Latin",
+        "meaning": "brain"
+      }
+    ],
+    "literal": "of the brain",
+    "path": "Cerebral comes directly from Latin cerebrum, brain. It describes what belongs to the mind and intellect rather than the emotions.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "chaff": {
+    "parts": [
+      {
+        "piece": "ceaf",
+        "origin": "Old English",
+        "meaning": "husks of grain"
+      }
+    ],
+    "literal": "grain husks",
+    "path": "Chaff is simply the Old English word for the husks separated from grain during threshing, worthless once the valuable kernel is removed. The word kept that sense of husk-like, discardable material.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "chagrin": {
+    "parts": [
+      {
+        "piece": "chagrin",
+        "origin": "French",
+        "meaning": "distress, vexation, disputed origin"
+      }
+    ],
+    "literal": "gnawing distress",
+    "path": "Chagrin's exact origin is disputed, possibly linked to a rough leather called shagreen, whose grating texture suggested something that grates on the spirit. It has meant distress from humiliation or disappointment in French and English alike.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "chamber": {
+    "parts": [
+      {
+        "piece": "camera",
+        "origin": "Latin",
+        "meaning": "a vaulted room"
+      }
+    ],
+    "literal": "a vaulted room",
+    "path": "Chamber comes from Latin camera, a vaulted room, the same word that gave us camera, originally a dark chamber for capturing images. It names an enclosed space, or by extension a legislative body that meets in one.",
+    "cousins": [
+      "camera"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "champion": {
+    "parts": [
+      {
+        "piece": "campus",
+        "origin": "Latin",
+        "meaning": "a field, place of combat"
+      }
+    ],
+    "literal": "a fighter on the field",
+    "path": "Champion comes from Late Latin campio, a combatant, from campus, the field where battles and contests were fought. To champion a cause is to fight for it, the way a champion once fought in single combat.",
+    "cousins": [
+      "campaign",
+      "campus"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "charlatan": {
+    "parts": [
+      {
+        "piece": "ciarlare",
+        "origin": "Italian",
+        "meaning": "to chatter, babble"
+      }
+    ],
+    "literal": "a babbling chatterer",
+    "path": "Charlatan comes from Italian ciarlare, to chatter or babble, describing the patter of a traveling peddler talking up fake cures. It settled into naming any fraud who talks a good game while pretending to expertise.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "chary": {
+    "parts": [
+      {
+        "piece": "cearig",
+        "origin": "Old English",
+        "meaning": "sorrowful, full of care"
+      }
+    ],
+    "literal": "full of care",
+    "path": "Chary shares its root with care, originally meaning sorrowful or full of anxious care. That careful, anxious watchfulness narrowed to being cautiously reluctant, wary of taking a risk.",
+    "cousins": [
+      "care"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "chastise": {
+    "parts": [
+      {
+        "piece": "castigare",
+        "origin": "Latin",
+        "meaning": "to correct, punish"
+      }
+    ],
+    "literal": "to correct through punishment",
+    "path": "Chastise comes from the same Latin root as castigate, castigare, to punish or correct, ultimately tied to castus, pure. Both words kept the sense of harsh correction: to rebuke or punish severely.",
+    "cousins": [
+      "chaste",
+      "castigate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "chauvinism": {
+    "parts": [
+      {
+        "piece": "Chauvin",
+        "origin": "eponym",
+        "meaning": "Nicolas Chauvin, a soldier famed for fanatical patriotism"
+      }
+    ],
+    "literal": "Chauvin-like fanaticism",
+    "path": "Nicolas Chauvin was a possibly legendary French soldier renowned for blind devotion to Napoleon. His name became shorthand for excessive, unreasoning loyalty to one's own group, cause, or country.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "chauvinist": {
+    "parts": [
+      {
+        "piece": "Chauvin",
+        "origin": "eponym",
+        "meaning": "Nicolas Chauvin, a soldier famed for fanatical patriotism"
+      }
+    ],
+    "literal": "a follower of Chauvin's spirit",
+    "path": "Chauvinist names a person who carries Nicolas Chauvin's fanatical, uncritical loyalty: someone who believes their own group is simply superior.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "chauvinistic": {
+    "parts": [
+      {
+        "piece": "Chauvin",
+        "origin": "eponym",
+        "meaning": "Nicolas Chauvin, a soldier famed for fanatical patriotism"
+      }
+    ],
+    "literal": "Chauvin-like",
+    "path": "Chauvinistic describes the attitude named for Nicolas Chauvin, the soldier famous for blind devotion to his cause: aggressively convinced of one's own group's superiority.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "check": {
+    "parts": [
+      {
+        "piece": "shah",
+        "origin": "Persian",
+        "meaning": "king, source of the chess term check"
+      }
+    ],
+    "literal": "a call of king in chess",
+    "path": "Check comes from chess, where declaring check, from the Persian word for king, shah, meant the king was under direct threat and had to respond. The sense of stopping an opponent's advance broadened to checking, restraining, anything's progress.",
+    "cousins": [
+      "chess",
+      "checkmate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "checkered": {
+    "parts": [
+      {
+        "piece": "shah",
+        "origin": "Persian",
+        "meaning": "king, source of the chess/checker pattern"
+      }
+    ],
+    "literal": "patterned like a chessboard",
+    "path": "Checkered comes from the checkerboard pattern of alternating squares, ultimately from chess and its Persian word for king. A checkered career is one that alternates between good and bad, like light and dark squares.",
+    "cousins": [
+      "chess",
+      "checkmate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cherish": {
+    "parts": [
+      {
+        "piece": "carus",
+        "origin": "Latin",
+        "meaning": "dear, precious, beloved"
+      }
+    ],
+    "literal": "to hold dear",
+    "path": "Cherish comes from French cher, dear, from Latin carus, precious or beloved. To cherish something is literally to hold it dear, the same root behind charity and caress.",
+    "cousins": [
+      "charity",
+      "caress"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "chicanery": {
+    "parts": [
+      {
+        "piece": "chicaner",
+        "origin": "French",
+        "meaning": "to quibble, use trickery"
+      }
+    ],
+    "literal": "quibbling, trickery",
+    "path": "Chicanery comes from French chicaner, to quibble or use pettifogging tricks, itself of disputed origin, perhaps traced to a medieval game involving crafty play. It has long meant clever deception, especially the legalistic, quibbling kind.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "chide": {
+    "parts": [
+      {
+        "piece": "cidan",
+        "origin": "Old English",
+        "meaning": "to quarrel, scold, complain"
+      }
+    ],
+    "literal": "to scold",
+    "path": "Chide has meant to scold or quarrel since Old English, with no clear further root beyond that. It has softened over time to imply a milder scolding than outright anger.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "chimera": {
+    "parts": [
+      {
+        "piece": "khimaira",
+        "origin": "Greek",
+        "meaning": "she-goat, name of a mythical fire-breathing monster"
+      }
+    ],
+    "literal": "a monstrous she-goat hybrid",
+    "path": "Chimera was a monstrous hybrid creature in Greek myth, part lion, goat, and serpent, its name literally meaning she-goat. Something fantastical and impossible, existing only in imagination, became a chimera: an illusion or impossible hope.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "chivalrous": {
+    "parts": [
+      {
+        "piece": "caballus",
+        "origin": "Latin",
+        "meaning": "horse"
+      }
+    ],
+    "literal": "knightly, horseman-like",
+    "path": "Chivalrous traces to Latin caballus, horse, via chevalier, a mounted knight. The knight's code of honor and courtesy toward others, especially the weak, gave chivalrous its modern sense: courteous and honorable.",
+    "cousins": [
+      "cavalier",
+      "cavalry"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "choleric": {
+    "parts": [
+      {
+        "piece": "khole",
+        "origin": "Greek",
+        "meaning": "bile"
+      }
+    ],
+    "literal": "full of bile",
+    "path": "Choleric comes from Greek khole, bile, from the old medical theory of four humors in which excess yellow bile caused a hot, irritable temper. The word still describes someone easily angered.",
+    "cousins": [
+      "cholera",
+      "melancholy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "chortle": {
+    "parts": [
+      {
+        "piece": "chuckle",
+        "origin": "English",
+        "meaning": "to laugh quietly"
+      },
+      {
+        "piece": "snort",
+        "origin": "English",
+        "meaning": "to exhale noisily through the nose"
+      }
+    ],
+    "literal": "a chuckle-snort",
+    "path": "Chortle is a blend Lewis Carroll invented in Jabberwocky, combining chuckle and snort. It names exactly that: a gleeful laugh with a snorting edge.",
+    "cousins": [
+      "chuckle"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "chronological": {
+    "parts": [
+      {
+        "piece": "khronos",
+        "origin": "Greek",
+        "meaning": "time"
+      },
+      {
+        "piece": "logos",
+        "origin": "Greek",
+        "meaning": "study, word, account"
+      }
+    ],
+    "literal": "according to the study of time",
+    "path": "Chronological joins Greek khronos, time, with logos, an account or study. It describes events arranged in the order time actually happened, a time-account.",
+    "cousins": [
+      "chronicle",
+      "synchronize"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "churlish": {
+    "parts": [
+      {
+        "piece": "ceorl",
+        "origin": "Old English",
+        "meaning": "a free peasant, commoner"
+      }
+    ],
+    "literal": "like a common peasant",
+    "path": "Churlish comes from churl, an Old English word for a free peasant or commoner. As with boor, class prejudice turned a neutral word for an ordinary person into an insult: rude and mean-spirited.",
+    "cousins": [
+      "churl"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "circumlocution": {
+    "parts": [
+      {
+        "piece": "circum-",
+        "origin": "Latin",
+        "meaning": "around"
+      },
+      {
+        "piece": "loqui",
+        "origin": "Latin",
+        "meaning": "to speak"
+      }
+    ],
+    "literal": "speaking around",
+    "path": "Circumlocution combines circum, around, with loqui, to speak. It names speech that talks around a point rather than straight to it: roundabout, evasive language.",
+    "cousins": [
+      "eloquent",
+      "loquacious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "circumscribe": {
+    "parts": [
+      {
+        "piece": "circum-",
+        "origin": "Latin",
+        "meaning": "around"
+      },
+      {
+        "piece": "scribere",
+        "origin": "Latin",
+        "meaning": "to write, draw"
+      }
+    ],
+    "literal": "to draw a line around",
+    "path": "Circumscribe joins circum, around, with scribere, to draw or write, literally to draw a boundary line around something. It came to mean restricting something within those limits.",
+    "cousins": [
+      "scribe",
+      "describe",
+      "inscribe"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "circumscribed": {
+    "parts": [
+      {
+        "piece": "circum-",
+        "origin": "Latin",
+        "meaning": "around"
+      },
+      {
+        "piece": "scribere",
+        "origin": "Latin",
+        "meaning": "to write, draw"
+      }
+    ],
+    "literal": "hemmed in by a drawn line",
+    "path": "Circumscribed shares circumscribe's roots, circum, around, and scribere, to draw, describing something boxed in by a boundary line: restricted within limits.",
+    "cousins": [
+      "scribe",
+      "describe",
+      "inscribe"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "circumspect": {
+    "parts": [
+      {
+        "piece": "circum-",
+        "origin": "Latin",
+        "meaning": "around"
+      },
+      {
+        "piece": "specere",
+        "origin": "Latin",
+        "meaning": "to look, see"
+      }
+    ],
+    "literal": "looking around",
+    "path": "Circumspect combines circum, around, with specere, to look. To be circumspect is to look all around before acting, carefully considering every consequence.",
+    "cousins": [
+      "spectacle",
+      "inspect",
+      "perspective"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  }
+}

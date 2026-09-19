@@ -1,0 +1,838 @@
+{
+  "impetus": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in, onto"
+      },
+      {
+        "piece": "petere",
+        "origin": "Latin",
+        "meaning": "to seek, rush at"
+      }
+    ],
+    "literal": "a rushing at, attack",
+    "path": "Latin impetus meant a violent attack or onset, from impetere, to rush at, from petere, to seek or aim for. The physical force of an assault became the abstract force that sets something moving or driving it forward.",
+    "cousins": [
+      "petition",
+      "compete",
+      "appetite"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "impiety": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "pietas",
+        "origin": "Latin",
+        "meaning": "dutifulness, piety"
+      }
+    ],
+    "literal": "lack of piety",
+    "path": "Latin impietas simply negated pietas, dutiful respect toward gods, family, and country. Impiety kept that sense: a failure of proper reverence, especially toward the sacred.",
+    "cousins": [
+      "piety",
+      "pious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impious": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "pius",
+        "origin": "Latin",
+        "meaning": "dutiful, devout"
+      }
+    ],
+    "literal": "not devout",
+    "path": "Latin impius negated pius, devout and dutiful toward the gods. Impious describes someone or something that flouts that reverence, irreverent toward what should be sacred.",
+    "cousins": [
+      "piety",
+      "pity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "implacable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "placare",
+        "origin": "Latin",
+        "meaning": "to calm, appease"
+      }
+    ],
+    "literal": "not able to be calmed",
+    "path": "Latin placare meant to soothe or appease, the root behind placate and placid. Implacable negates that: someone implacable cannot be calmed or reconciled, however much one tries.",
+    "cousins": [
+      "placate",
+      "placid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "implausible": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "plaudere",
+        "origin": "Latin",
+        "meaning": "to clap, applaud"
+      }
+    ],
+    "literal": "not deserving applause",
+    "path": "Latin plausibilis meant worthy of applause or approval, from plaudere, to clap. Plausible narrowed to seeming believable or reasonable, and implausible negates that: too hard to credit.",
+    "cousins": [
+      "plausible",
+      "applaud",
+      "explode"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "implicate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold"
+      }
+    ],
+    "literal": "to fold into",
+    "path": "Latin implicare meant to fold or entangle something into another thing. Being folded into a situation became being involved in it, especially in wrongdoing.",
+    "cousins": [
+      "complicate",
+      "duplicate",
+      "explicit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "implication": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold"
+      }
+    ],
+    "literal": "a folding in",
+    "path": "From the same root as implicate, an implication is something folded into a statement without being spelled out, a meaning entangled in what is said rather than stated outright.",
+    "cousins": [
+      "complicate",
+      "duplicate",
+      "explicit"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "implicit": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold"
+      }
+    ],
+    "literal": "folded in",
+    "path": "Implicit is the past participle of Latin implicare, folded in. Something implicit is folded into a statement or belief rather than stated openly, and trust that is implicit is unquestioning, folded in without examination.",
+    "cousins": [
+      "complicate",
+      "explicit",
+      "duplicate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "implode": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "plaudere",
+        "origin": "Latin",
+        "meaning": "to clap, strike"
+      }
+    ],
+    "literal": "to clap or burst inward",
+    "path": "Implode was coined in the 19th century as the mirror of explode, itself from Latin explodere, to drive off the stage by clapping. Swapping ex- for in- gave a word for bursting inward instead of outward.",
+    "cousins": [
+      "explode",
+      "applaud"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impolitic": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "polis",
+        "origin": "Greek",
+        "meaning": "city, state"
+      }
+    ],
+    "literal": "not fit for civic affairs",
+    "path": "Politic derives from Greek polis, city-state, by way of Latin politicus, of citizens. A politic act suited public affairs shrewdly; impolitic negates that, calling an action unwise or tactless in its effects.",
+    "cousins": [
+      "policy",
+      "police",
+      "metropolis"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "imponderable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "pondus",
+        "origin": "Latin",
+        "meaning": "weight"
+      }
+    ],
+    "literal": "not able to be weighed",
+    "path": "Latin pondus meant weight, and ponderare meant to weigh out mentally as well as physically. An imponderable cannot be weighed or measured with any precision, a factor too uncertain to calculate.",
+    "cousins": [
+      "ponder",
+      "ponderous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "importunate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "portus",
+        "origin": "Latin",
+        "meaning": "harbor, port"
+      }
+    ],
+    "literal": "without a harbor, ill-timed",
+    "path": "Latin importunus meant unsuitable or inconvenient, literally lacking a good harbor, from portus, port. An importunate person presses their demands at the wrong, inconvenient time, over and over until it feels like harassment.",
+    "cousins": [
+      "port",
+      "opportunity",
+      "portal"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "importuned": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "portus",
+        "origin": "Latin",
+        "meaning": "harbor, port"
+      }
+    ],
+    "literal": "made without a harbor, pressed inconveniently",
+    "path": "From the same Latin importunus as importunate, to importune someone is to press them at an inconvenient time, pestering with persistent requests until they give in.",
+    "cousins": [
+      "port",
+      "opportunity"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "imposed": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "upon"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to place, put"
+      }
+    ],
+    "literal": "placed upon",
+    "path": "Latin imponere meant to place something upon, or upon someone, often as a burden or deception. Imposed kept that sense of a thing set upon someone by force or authority, not freely chosen.",
+    "cousins": [
+      "position",
+      "compose",
+      "deposit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "imposing": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "upon"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to place, put"
+      }
+    ],
+    "literal": "placing upon, weighing on the senses",
+    "path": "From the same Latin imponere, placed upon, imposing shifted from a burden set upon someone to a presence so large it presses on the viewer, commanding attention and respect.",
+    "cousins": [
+      "position",
+      "compose",
+      "deposit"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "imposition": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "upon"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to place, put"
+      }
+    ],
+    "literal": "a placing upon",
+    "path": "From Latin imponere, to place upon, an imposition is literally a burden set upon someone else, and the word kept that sense of an unwelcome demand placed on another person's time or goodwill.",
+    "cousins": [
+      "position",
+      "compose",
+      "deposit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "imposture": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "upon"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to place, put"
+      }
+    ],
+    "literal": "a placing upon, a deception",
+    "path": "Imposture comes through French from Latin imponere, in its sense of imposing upon or deceiving someone. An imposture is a fraud placed upon a victim, especially by posing as someone else.",
+    "cousins": [
+      "impostor",
+      "position"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "imprecation": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "upon"
+      },
+      {
+        "piece": "precari",
+        "origin": "Latin",
+        "meaning": "to pray, beg"
+      }
+    ],
+    "literal": "praying evil upon",
+    "path": "Latin imprecari meant to invoke or pray for something, often something bad, upon another person. Imprecation kept that darker sense: a curse called down on someone rather than a blessing.",
+    "cousins": [
+      "pray",
+      "deprecate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impregnable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "prehendere",
+        "origin": "Latin",
+        "meaning": "to seize, grasp"
+      }
+    ],
+    "literal": "not able to be seized",
+    "path": "Impregnable comes from French imprenable, not able to be taken, from prendre, to take, ultimately Latin prehendere, to seize. A fortress impregnable cannot be captured by force.",
+    "cousins": [
+      "comprehend",
+      "prison",
+      "apprehend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "improbable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "probare",
+        "origin": "Latin",
+        "meaning": "to test, prove"
+      }
+    ],
+    "literal": "not provable, not likely",
+    "path": "Latin probabilis meant able to be proved or demonstrated, from probare, to test or approve. Improbable negates that: something so unlikely it resists being borne out as true.",
+    "cousins": [
+      "probable",
+      "probe",
+      "approve"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "improvident": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "providere",
+        "origin": "Latin",
+        "meaning": "to foresee, provide for"
+      }
+    ],
+    "literal": "not foreseeing",
+    "path": "Latin providere meant to see ahead and make provision for it, the root of provide. Improvident negates that foresight: someone improvident fails to plan or save for what is coming.",
+    "cousins": [
+      "provide",
+      "provision",
+      "providence"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "improvise": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "providere",
+        "origin": "Latin",
+        "meaning": "to foresee, provide for"
+      }
+    ],
+    "literal": "not foreseen, unprepared",
+    "path": "Latin improvisus meant unforeseen, not provided for in advance. From describing something unexpected, improvise came to mean creating or performing on the spot, without prior preparation.",
+    "cousins": [
+      "provide",
+      "provision"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "imprudence": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "providere",
+        "origin": "Latin",
+        "meaning": "to foresee"
+      }
+    ],
+    "literal": "lack of foresight",
+    "path": "Prudence contracts Latin providentia, foresight, from providere, to see ahead. Imprudence negates that careful foresight, naming rash action taken without due care for consequences.",
+    "cousins": [
+      "prudent",
+      "provide"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "imprudent": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "providere",
+        "origin": "Latin",
+        "meaning": "to foresee"
+      }
+    ],
+    "literal": "lacking foresight",
+    "path": "From the same contraction of Latin providentia as imprudence, imprudent describes a person or act lacking the foresight and caution that wisdom demands.",
+    "cousins": [
+      "prudent",
+      "provide"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "impudent": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "pudere",
+        "origin": "Latin",
+        "meaning": "to feel shame"
+      }
+    ],
+    "literal": "without shame",
+    "path": "Latin pudere meant to feel shame, and pudens meant modest or bashful. Impudent negates that modesty: someone impudent shows no shame in being bold and disrespectful.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impugn": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "pugnare",
+        "origin": "Latin",
+        "meaning": "to fight"
+      }
+    ],
+    "literal": "to fight against",
+    "path": "Latin impugnare meant to attack or assail, from pugnare, to fight, the root of pugilist and pugnacious. To impugn someone's honesty is to fight against it verbally, attacking its credibility.",
+    "cousins": [
+      "pugnacious",
+      "pugilist",
+      "repugnant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impunity": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "poena",
+        "origin": "Latin",
+        "meaning": "punishment, penalty"
+      }
+    ],
+    "literal": "without punishment",
+    "path": "Latin poena meant punishment or penalty, the root of pain and penalty. Impunity negates it: acting with impunity means acting free from any punishment for the consequences.",
+    "cousins": [
+      "penalty",
+      "pain",
+      "punish"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impute": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "upon"
+      },
+      {
+        "piece": "putare",
+        "origin": "Latin",
+        "meaning": "to reckon, think"
+      }
+    ],
+    "literal": "to reckon upon",
+    "path": "Latin imputare meant to charge to someone's account, reckoning a cost or fault upon them, from putare, to reckon or think over. Impute kept that sense of attributing a quality or blame to someone.",
+    "cousins": [
+      "compute",
+      "dispute",
+      "reputation"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inadvertent": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "toward"
+      },
+      {
+        "piece": "vertere",
+        "origin": "Latin",
+        "meaning": "to turn"
+      }
+    ],
+    "literal": "not turning the mind toward",
+    "path": "Advertent, from Latin advertere, to turn toward, described turning one's attention to something. Inadvertent negates that: an act done without the mind turned toward it, done carelessly or without noticing.",
+    "cousins": [
+      "advertise",
+      "convert",
+      "revert"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inanity": {
+    "parts": [
+      {
+        "piece": "inanis",
+        "origin": "Latin",
+        "meaning": "empty, vain"
+      }
+    ],
+    "literal": "emptiness",
+    "path": "Latin inanis meant empty or void, used both literally and for empty vanity. Inanity kept the figurative sense: talk or ideas so empty of substance they become silly.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inarticulate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "articulus",
+        "origin": "Latin",
+        "meaning": "joint, small part"
+      }
+    ],
+    "literal": "not jointed, not distinct",
+    "path": "Latin articulus meant a small joint or part, and articulate speech was speech divided into distinct joined parts, clear syllables. Inarticulate negates that: speech lacking that clear, distinct structure.",
+    "cousins": [
+      "article",
+      "articulate",
+      "joint"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inborn": {
+    "parts": [
+      {
+        "piece": "inboren",
+        "origin": "Old English",
+        "meaning": "born in"
+      }
+    ],
+    "literal": "born within",
+    "path": "Inborn is a native English compound, in plus born, describing a trait already present at birth rather than acquired later.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "incandescent": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "candere",
+        "origin": "Latin",
+        "meaning": "to glow white, shine"
+      }
+    ],
+    "literal": "growing white-hot",
+    "path": "Latin candere meant to shine or glow white-hot, the root of candid and candle. Incandescere added an inceptive sense, becoming glowing hot, and incandescent kept both the literal glow of heated matter and a figurative blazing intensity.",
+    "cousins": [
+      "candle",
+      "candid",
+      "candor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "incarnadine": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "caro, carnis",
+        "origin": "Latin",
+        "meaning": "flesh"
+      }
+    ],
+    "literal": "flesh-colored",
+    "path": "Incarnadine comes via Italian incarnadino, flesh colored, from Latin caro, carnis, flesh, the root of carnal and incarnate. Originally a pale pink flesh tone, the word darkened in usage, famously in Macbeth, toward the deep red of blood.",
+    "cousins": [
+      "carnal",
+      "incarnate",
+      "carnage"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "incendiary": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "candere",
+        "origin": "Latin",
+        "meaning": "to kindle, burn"
+      }
+    ],
+    "literal": "for setting fire",
+    "path": "Latin incendere meant to set on fire, from a root shared with candere, to burn or glow. An incendiary device literally sets fires, and incendiary speech figuratively inflames anger and unrest.",
+    "cousins": [
+      "incense",
+      "candle",
+      "incandescent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "incense": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "candere",
+        "origin": "Latin",
+        "meaning": "to kindle, burn"
+      }
+    ],
+    "literal": "to set on fire",
+    "path": "Latin incendere meant to set on fire, the root also behind incendiary and incandescent. Applied to emotion, to incense someone is to set their temper alight, filling them with anger.",
+    "cousins": [
+      "incendiary",
+      "incandescent",
+      "candle"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

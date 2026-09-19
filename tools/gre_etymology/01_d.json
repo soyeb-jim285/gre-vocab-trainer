@@ -1,0 +1,1002 @@
+{
+  "circumstances": {
+    "parts": [
+      {
+        "piece": "circum-",
+        "origin": "Latin",
+        "meaning": "around"
+      },
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "things standing around",
+    "path": "Circumstance combines circum, around, with stare, to stand: the facts standing around an event, framing it. It names the conditions surrounding a situation.",
+    "cousins": [
+      "stand",
+      "status",
+      "stable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "circumvent": {
+    "parts": [
+      {
+        "piece": "circum-",
+        "origin": "Latin",
+        "meaning": "around"
+      },
+      {
+        "piece": "venire",
+        "origin": "Latin",
+        "meaning": "to come"
+      }
+    ],
+    "literal": "to come around",
+    "path": "Circumvent joins circum, around, with venire, to come, literally to come around an obstacle rather than through it. It means getting around a rule or obstacle cleverly.",
+    "cousins": [
+      "convene",
+      "venue",
+      "advent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cite": {
+    "parts": [
+      {
+        "piece": "citare",
+        "origin": "Latin",
+        "meaning": "to summon, call"
+      }
+    ],
+    "literal": "to summon",
+    "path": "Cite comes from Latin citare, to summon or call forth, the same root as excite and incite. To cite something is to call it forth as evidence in support of an argument.",
+    "cousins": [
+      "excite",
+      "incite",
+      "recite"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "clad": {
+    "parts": [
+      {
+        "piece": "clath",
+        "origin": "Old English",
+        "meaning": "cloth"
+      }
+    ],
+    "literal": "covered in cloth",
+    "path": "Clad is the old past participle of clothe, from Old English clath, cloth. It simply means clothed or covered, whether literally in cloth or figuratively, as in iron-clad.",
+    "cousins": [
+      "cloth",
+      "clothe"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "clamber": {
+    "parts": [
+      {
+        "piece": "climban",
+        "origin": "Old English",
+        "meaning": "to climb"
+      }
+    ],
+    "literal": "to climb awkwardly",
+    "path": "Clamber is a variant of climb, likely intensified to suggest a scrambling, effortful ascent. It describes climbing awkwardly, using hands and feet together.",
+    "cousins": [
+      "climb"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "clamor": {
+    "parts": [
+      {
+        "piece": "clamare",
+        "origin": "Latin",
+        "meaning": "to shout, cry out"
+      }
+    ],
+    "literal": "a shout",
+    "path": "Clamor comes directly from Latin clamare, to shout or cry out, the same root as exclaim and proclaim. It names loud noise or a vehement public demand, a shouted call for attention.",
+    "cousins": [
+      "exclaim",
+      "proclaim",
+      "claim"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "clamorous": {
+    "parts": [
+      {
+        "piece": "clamare",
+        "origin": "Latin",
+        "meaning": "to shout, cry out"
+      }
+    ],
+    "literal": "shouting, noisy",
+    "path": "Clamorous shares clamor's root in Latin clamare, to shout. It describes something noisily insistent, as loud and demanding as a shouted crowd.",
+    "cousins": [
+      "exclaim",
+      "proclaim",
+      "claim"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "clandestine": {
+    "parts": [
+      {
+        "piece": "clam",
+        "origin": "Latin",
+        "meaning": "secretly"
+      }
+    ],
+    "literal": "done secretly",
+    "path": "Clandestine comes from Latin clam, secretly. It describes anything kept hidden, especially for illicit reasons, a very literal inheritance from its root.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "clangor": {
+    "parts": [
+      {
+        "piece": "clangere",
+        "origin": "Latin",
+        "meaning": "to resound, clang, imitative"
+      }
+    ],
+    "literal": "a resounding clang",
+    "path": "Clangor comes directly from Latin clangere, an imitative word for a loud, ringing clang. It names exactly that: a loud, resonant clanging noise.",
+    "cousins": [
+      "clang"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "clarion": {
+    "parts": [
+      {
+        "piece": "clarus",
+        "origin": "Latin",
+        "meaning": "clear, bright"
+      }
+    ],
+    "literal": "clear-sounding trumpet",
+    "path": "Clarion comes from Latin clarus, clear, via a medieval word for a shrill, clear-toned trumpet. As an adjective it kept that ringing clarity: loud and clear, as a trumpet call.",
+    "cousins": [
+      "clarify",
+      "clear",
+      "declare"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "cleave": {
+    "parts": [
+      {
+        "piece": "cleofan / clifian",
+        "origin": "Old English",
+        "meaning": "to split (cleofan) and to cling (clifian), two distinct verbs merged in spelling"
+      }
+    ],
+    "literal": "to split; to cling",
+    "path": "Cleave is actually two separate Old English verbs, cleofan, to split, and clifian, to cling, that happened to collapse into the same spelling. That accident of history is why cleave can mean both to split apart and to stick fast, near opposites.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "clemency": {
+    "parts": [
+      {
+        "piece": "clemens",
+        "origin": "Latin",
+        "meaning": "mild, merciful, gentle"
+      }
+    ],
+    "literal": "mildness, gentleness",
+    "path": "Clemency comes from Latin clemens, mild or merciful, of uncertain deeper origin. It names mercy shown in place of a harsher punishment.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "clinch": {
+    "parts": [
+      {
+        "piece": "clench",
+        "origin": "Old English",
+        "meaning": "to grip tightly, fasten firmly"
+      }
+    ],
+    "literal": "to fasten tight",
+    "path": "Clinch is a variant of clench, and originally described bending over the point of a driven nail to fix it permanently in place. Clinching a deal borrows that image: fastening it down so firmly it cannot come undone.",
+    "cousins": [
+      "clench"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cloak": {
+    "parts": [
+      {
+        "piece": "clocca",
+        "origin": "Medieval Latin",
+        "meaning": "a bell"
+      }
+    ],
+    "literal": "a bell-shaped garment",
+    "path": "Cloak comes from a Medieval Latin word for a bell, since an early cloak was shaped like a bell hanging from the shoulders. The verb to cloak extended the garment's covering function to hiding or disguising anything.",
+    "cousins": [
+      "clock"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cloying": {
+    "parts": [
+      {
+        "piece": "clavus",
+        "origin": "Latin",
+        "meaning": "a nail"
+      }
+    ],
+    "literal": "pierced, clogged by a nail",
+    "path": "Cloy began as accloy, to lame a horse by driving a nail into its hoof, from Latin clavus, nail. The sense of being painfully obstructed narrowed to being sickened by an excess, especially of sweetness: cloying.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "coagulate": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to drive"
+      }
+    ],
+    "literal": "to drive together",
+    "path": "Coagulate comes from Latin coagulum, a curdling agent like rennet, itself from co-, together, and agere, to drive. To coagulate is to drive particles together into a thickened, semisolid mass, as blood clots or milk curdles.",
+    "cousins": [
+      "agent",
+      "act"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "coalesce": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "alere",
+        "origin": "Latin",
+        "meaning": "to nourish, grow"
+      }
+    ],
+    "literal": "to grow together",
+    "path": "Coalesce joins co-, together, with alescere, to grow, from alere, to nourish. It describes separate parts growing and nourishing themselves into one unified whole.",
+    "cousins": [
+      "alimony",
+      "adolescent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "coast": {
+    "parts": [
+      {
+        "piece": "costa",
+        "origin": "Latin",
+        "meaning": "rib, side"
+      }
+    ],
+    "literal": "along the side",
+    "path": "Coast comes from Latin costa, rib or side, first naming a shoreline, the side of the land. The verb grew from sailing along a coast to sliding downhill on a sled without effort, and then to any action that proceeds smoothly without further exertion.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "coax": {
+    "parts": [
+      {
+        "piece": "cokes",
+        "origin": "unknown, 16th c. English slang",
+        "meaning": "a fool, dupe"
+      }
+    ],
+    "literal": "to make a fool of",
+    "path": "Coax began as slang meaning to make a fool of someone, from an obscure word cokes, a dupe. The word softened from mockery into gentler persuasion: coaxing someone along with patience and flattery.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "coda": {
+    "parts": [
+      {
+        "piece": "cauda",
+        "origin": "Latin",
+        "meaning": "tail"
+      }
+    ],
+    "literal": "a tail",
+    "path": "Coda comes from Italian coda, tail, from Latin cauda. In music and writing, a coda is literally the tail end: a concluding section or final addition.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "coddle": {
+    "parts": [
+      {
+        "piece": "caudle",
+        "origin": "Anglo-French",
+        "meaning": "a warm spiced drink for invalids"
+      }
+    ],
+    "literal": "to nurse with warm drink",
+    "path": "Coddle probably grew from caudle, a warm spiced drink given to the sick, and the gentle boiling used to prepare such invalid food. Nursing someone so tenderly extended to coddling: treating anyone with excessive, overprotective care.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "codicil": {
+    "parts": [
+      {
+        "piece": "codex",
+        "origin": "Latin",
+        "meaning": "a block of wood, tablet, book"
+      }
+    ],
+    "literal": "a little tablet",
+    "path": "Codicil is a diminutive of Latin codex, a book or wooden tablet used for writing. It names a small addition or supplement attached to the main document of a will.",
+    "cousins": [
+      "code",
+      "codex"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "coercion": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "arcere",
+        "origin": "Latin",
+        "meaning": "to enclose, confine, restrain"
+      }
+    ],
+    "literal": "a shutting in together",
+    "path": "Coercion comes from Latin coercere, to restrain, joining co-, together, with arcere, to enclose or confine. It names the use of force or threats to hem someone in and compel them.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "coercive": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "arcere",
+        "origin": "Latin",
+        "meaning": "to enclose, confine, restrain"
+      }
+    ],
+    "literal": "restraining, confining",
+    "path": "Coercive shares coercion's root, Latin coercere, to shut in and restrain. It describes anything that uses force or threats to compel.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "coffer": {
+    "parts": [
+      {
+        "piece": "kophinos",
+        "origin": "Greek",
+        "meaning": "a basket"
+      }
+    ],
+    "literal": "a basket, chest",
+    "path": "Coffer comes from Greek kophinos, a basket, the same root that gives us coffin. A coffer is a chest for valuables, and by extension the financial reserves kept inside one.",
+    "cousins": [
+      "coffin"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cogent": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to drive"
+      }
+    ],
+    "literal": "driving together an argument",
+    "path": "Cogent comes from Latin cogere, to drive together or compel, joining co-, together, with agere, to drive. A cogent argument drives its points together so forcefully that it compels agreement.",
+    "cousins": [
+      "agent",
+      "act",
+      "coagulate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "cogitate": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "agitare",
+        "origin": "Latin",
+        "meaning": "to shake, drive, turn over"
+      }
+    ],
+    "literal": "to shake together in the mind",
+    "path": "Cogitate comes from Latin cogitare, to turn thoughts over, joining co-, together, with agitare, to shake or drive. To cogitate is to churn ideas together in the mind: to think deeply.",
+    "cousins": [
+      "agitate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cognate": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "nasci",
+        "origin": "Latin",
+        "meaning": "to be born"
+      }
+    ],
+    "literal": "born together",
+    "path": "Cognate comes from Latin cognatus, related by birth, joining co-, together, with nasci, to be born. It describes words or things born from the same origin: related.",
+    "cousins": [
+      "native",
+      "nature",
+      "nation"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cognizant": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "noscere",
+        "origin": "Latin",
+        "meaning": "to know, come to know"
+      }
+    ],
+    "literal": "thoroughly knowing",
+    "path": "Cognizant comes from Latin cognoscere, to get to know thoroughly, joining co- with noscere, to know. It simply means aware of something, having come to know it.",
+    "cousins": [
+      "recognize",
+      "notion",
+      "know"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cohere": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "haerere",
+        "origin": "Latin",
+        "meaning": "to stick, cling"
+      }
+    ],
+    "literal": "to stick together",
+    "path": "Cohere joins co-, together, with haerere, to stick, the same root as adhere. To cohere is to stick together, logically or physically, into a unified whole.",
+    "cousins": [
+      "adhere",
+      "adhesive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cohesive": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "haerere",
+        "origin": "Latin",
+        "meaning": "to stick, cling"
+      }
+    ],
+    "literal": "sticking together",
+    "path": "Cohesive shares cohere's root, Latin co-, together, and haerere, to stick. It describes something well unified, sticking together as one piece.",
+    "cousins": [
+      "adhere",
+      "adhesive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "cohort": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "hortus",
+        "origin": "Latin",
+        "meaning": "garden, enclosure"
+      }
+    ],
+    "literal": "an enclosed group",
+    "path": "Cohort comes from Latin cohors, an enclosed yard and, by extension, a company of soldiers gathered within one, from hortus, garden or enclosure. It broadened from a military unit to any group sharing a characteristic or time.",
+    "cousins": [
+      "horticulture",
+      "garden"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "coiffure": {
+    "parts": [
+      {
+        "piece": "cofia",
+        "origin": "Late Latin",
+        "meaning": "a close-fitting cap"
+      }
+    ],
+    "literal": "a head-covering",
+    "path": "Coiffure comes from French coiffer, to arrange hair or cover the head, from an old word for a close-fitting cap. It names a hairstyle, the modern covering for the head.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "coin": {
+    "parts": [
+      {
+        "piece": "cuneus",
+        "origin": "Latin",
+        "meaning": "a wedge"
+      }
+    ],
+    "literal": "a wedge, a die for stamping",
+    "path": "Coin comes from Latin cuneus, a wedge, the shape of the die used to stamp metal into money. To coin a word is to strike it fresh, the way a die stamps out a brand-new coin.",
+    "cousins": [
+      "cuneiform"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "collaborate": {
+    "parts": [
+      {
+        "piece": "col-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "labor",
+        "origin": "Latin",
+        "meaning": "work"
+      }
+    ],
+    "literal": "to work together",
+    "path": "Collaborate joins col-, together, with labor, work. It simply means to work jointly with others, though the same word darkened during wartime to also mean cooperating with an occupying enemy.",
+    "cousins": [
+      "labor",
+      "laboratory",
+      "elaborate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "collation": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "ferre",
+        "origin": "Latin",
+        "meaning": "to carry, bring"
+      }
+    ],
+    "literal": "a bringing together",
+    "path": "Collation comes from Latin conferre, to bring together, joining com-, together, with ferre, to carry. It names the act of gathering texts together to carefully compare them.",
+    "cousins": [
+      "confer",
+      "transfer",
+      "offer"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "collude": {
+    "parts": [
+      {
+        "piece": "col-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "ludere",
+        "origin": "Latin",
+        "meaning": "to play"
+      }
+    ],
+    "literal": "to play together, a shared trick",
+    "path": "Collude joins col-, together, with ludere, to play, originally suggesting a secretly shared game or trick. It came to mean cooperating secretly for a wrongful purpose.",
+    "cousins": [
+      "ludicrous",
+      "illusion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "collusion": {
+    "parts": [
+      {
+        "piece": "col-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "ludere",
+        "origin": "Latin",
+        "meaning": "to play"
+      }
+    ],
+    "literal": "a shared game or trick",
+    "path": "Collusion shares collude's root, Latin col-, together, and ludere, to play, the image of a shared, secret game. It names secret cooperation for a dishonest purpose.",
+    "cousins": [
+      "ludicrous",
+      "illusion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "color": {
+    "parts": [
+      {
+        "piece": "color",
+        "origin": "Latin",
+        "meaning": "color, hue, perhaps related to concealing"
+      }
+    ],
+    "literal": "a hue, a covering tint",
+    "path": "Latin color may share a root with celare, to hide, since a color is what covers and tints a surface. The verb to color extended this literal tinting to a figurative one: to influence or distort perception by giving it a particular slant.",
+    "cousins": [
+      "conceal"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "colossal": {
+    "parts": [
+      {
+        "piece": "kolossos",
+        "origin": "Greek",
+        "meaning": "a gigantic statue"
+      }
+    ],
+    "literal": "statue-sized, gigantic",
+    "path": "Colossal comes from colossus, a Greek word of obscure origin for a gigantic statue, most famously the bronze Colossus of Rhodes. It describes anything on that same overwhelming scale: extremely large.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "comity": {
+    "parts": [
+      {
+        "piece": "comis",
+        "origin": "Latin",
+        "meaning": "courteous, affable, kind"
+      }
+    ],
+    "literal": "courteousness",
+    "path": "Comity comes from Latin comis, courteous and affable. It names that same courteous, mutual respect, especially the kind extended formally between nations or groups.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "commence": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "initiare",
+        "origin": "Latin",
+        "meaning": "to begin, initiate"
+      }
+    ],
+    "literal": "to fully initiate",
+    "path": "Commence comes from Medieval Latin cominitiare, joining the intensive com- with initiare, to begin, from initium, a start. It simply means to begin.",
+    "cousins": [
+      "initiate",
+      "initial"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "commendable": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "mandare",
+        "origin": "Latin",
+        "meaning": "to entrust, commit"
+      }
+    ],
+    "literal": "worthy of being entrusted",
+    "path": "Commendable comes from Latin commendare, to entrust or commit something to someone's care, joining com- with mandare, to entrust. Praising something as commendable entrusts it favorably to others' good opinion.",
+    "cousins": [
+      "command",
+      "mandate",
+      "recommend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "commensurate": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "mensura",
+        "origin": "Latin",
+        "meaning": "measure"
+      }
+    ],
+    "literal": "measured together",
+    "path": "Commensurate joins com-, together, with mensura, measure. Something commensurate is measured to match, proportionate in size or degree to something else.",
+    "cousins": [
+      "measure",
+      "dimension"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "commiserate": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "miser",
+        "origin": "Latin",
+        "meaning": "wretched, unhappy"
+      }
+    ],
+    "literal": "to be wretched together",
+    "path": "Commiserate joins com-, together, with miser, wretched, the same root as misery. To commiserate is to share in another's wretchedness: expressing sympathy for their misfortune.",
+    "cousins": [
+      "misery",
+      "miserable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "commission": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "mittere",
+        "origin": "Latin",
+        "meaning": "to send"
+      }
+    ],
+    "literal": "a sending together, entrusting",
+    "path": "Commission comes from Latin committere, to entrust or bring together, joining com- with mittere, to send. To commission work is to formally send someone the task, entrusting it to them.",
+    "cousins": [
+      "mission",
+      "transmit",
+      "submit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "commit": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "mittere",
+        "origin": "Latin",
+        "meaning": "to send"
+      }
+    ],
+    "literal": "to send together, entrust",
+    "path": "Commit shares commission's root, Latin committere, to entrust or bring together. To commit is to entrust yourself to a course of action, or to carry one out.",
+    "cousins": [
+      "mission",
+      "transmit",
+      "submit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "compel": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "pellere",
+        "origin": "Latin",
+        "meaning": "to drive, push"
+      }
+    ],
+    "literal": "to drive thoroughly",
+    "path": "Compel comes from Latin compellere, joining the intensive com- with pellere, to drive or push. To compel is to forcefully drive someone to act.",
+    "cousins": [
+      "propel",
+      "expel",
+      "repel"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "compelling": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together, thoroughly"
+      },
+      {
+        "piece": "pellere",
+        "origin": "Latin",
+        "meaning": "to drive, push"
+      }
+    ],
+    "literal": "driving forcefully together",
+    "path": "Compellere meant to drive something together by force, herding it toward a point. A compelling argument or story pushes your attention or belief in one direction so forcefully that you can't easily look away or disagree.",
+    "cousins": [
+      "propel",
+      "expel",
+      "repel"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "compendium": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "pendere",
+        "origin": "Latin",
+        "meaning": "to weigh, hang"
+      }
+    ],
+    "literal": "a weighing together, a saving",
+    "path": "Compendium comes from Latin compendium, a shortening or saving, from com-, together, and pendere, to weigh. It originally meant what is saved by weighing things together efficiently, and now names a concise, comprehensive collection.",
+    "cousins": [
+      "pendant",
+      "suspend",
+      "expend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  }
+}

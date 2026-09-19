@@ -1,0 +1,788 @@
+{
+  "se-apathy-1": {
+    "answers": [
+      "apathy",
+      "torpor"
+    ],
+    "explanation": "Four elections of falling turnout is disengagement, and apathy and torpor both name that listless lack of interest; zeal and alacrity say the opposite.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "apathy",
+      "torpor",
+      "zeal",
+      "alacrity",
+      "animosity",
+      "acumen"
+    ],
+    "stem": "Turnout fell for the fourth election running, and the council blamed the weather rather than the _____ its own decisions had produced."
+  },
+  "se-archaic-1": {
+    "answers": [
+      "archaic",
+      "antiquated"
+    ],
+    "explanation": "Needing a nineteenth-century dictionary dates the wording to an earlier era, which archaic and antiquated both say and nascent and novel deny.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "archaic",
+      "antiquated",
+      "nascent",
+      "novel",
+      "prescient",
+      "germane"
+    ],
+    "stem": "The statute's language is so _____ that clerks must consult a nineteenth-century dictionary to work out what two of its clauses forbid."
+  },
+  "se-arduous-1": {
+    "answers": [
+      "arduous",
+      "laborious"
+    ],
+    "explanation": "Nine years for one ceiling is the measure of effort the blank needs, and arduous and laborious both describe work demanding sustained hard labour.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "arduous",
+      "laborious",
+      "cursory",
+      "perfunctory",
+      "desultory",
+      "fortuitous"
+    ],
+    "stem": "Restoring the frescoes proved far more _____ than the estimate had suggested: two conservators spent nine years on a single chapel ceiling."
+  },
+  "se-assuage-1": {
+    "answers": [
+      "assuage",
+      "allay"
+    ],
+    "explanation": "The residents are packing anyway, so the broadcast failed to calm them; assuage and allay both mean to soothe a fear rather than stir one up.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "assuage",
+      "allay",
+      "exacerbate",
+      "foment",
+      "kindle",
+      "supplant"
+    ],
+    "stem": "The governor's evening broadcast did nothing to _____ the fears of residents downstream, who had already begun loading their cars."
+  },
+  "se-bolster-1": {
+    "answers": [
+      "bolster",
+      "buttress"
+    ],
+    "explanation": "Fresh finds agreeing with an old proposal strengthen it, and bolster and buttress both mean to shore up a claim rather than attack or weaken it.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "bolster",
+      "buttress",
+      "undermine",
+      "impugn",
+      "vitiate",
+      "construe"
+    ],
+    "stem": "Each new excavation season produced pottery that served to _____ the dating the team had proposed a decade earlier."
+  },
+  "se-denigrate-1": {
+    "answers": [
+      "denigrate",
+      "malign"
+    ],
+    "explanation": "Attacking the person instead of answering the question is blackening a reputation, which denigrate and malign both say and the praising options reverse.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "denigrate",
+      "malign",
+      "exalt",
+      "lionize",
+      "placate",
+      "peruse"
+    ],
+    "stem": "Rivals found it easier to _____ the architect than to explain why their own proposals had been rejected twice."
+  },
+  "se-elicit-1": {
+    "answers": [
+      "elicit",
+      "evoke"
+    ],
+    "explanation": "The picture has to draw the same feeling out of an uninformed viewer, and elicit and evoke both mean to call up a response; squelch and stifle would suppress the very unease it was chosen to produce.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "elicit",
+      "evoke",
+      "squelch",
+      "preclude",
+      "stifle",
+      "impugn"
+    ],
+    "stem": "The photograph was chosen because it would _____ the same unease in a viewer who knew nothing about where it had been taken."
+  },
+  "se-esoteric-1": {
+    "answers": [
+      "esoteric",
+      "abstruse"
+    ],
+    "explanation": "If neighbouring specialists struggle, the material is understood by only a few; esoteric and abstruse both carry that obscurity, while lucid and pedestrian contradict it.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "esoteric",
+      "abstruse",
+      "pedestrian",
+      "lucid",
+      "mundane",
+      "sanguine"
+    ],
+    "stem": "The journal's reputation rests on articles so _____ that even specialists in the neighbouring subfield read them with real difficulty."
+  },
+  "se-loquacious-1": {
+    "answers": [
+      "loquacious",
+      "garrulous"
+    ],
+    "explanation": "Abandoning a book before the second station is the effect of a passenger who will not stop talking, and loquacious and garrulous both leave him equally talkative.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "loquacious",
+      "garrulous",
+      "taciturn",
+      "reticent",
+      "laconic",
+      "phlegmatic"
+    ],
+    "stem": "Seated beside the most _____ passenger on the train, she gave up on her book somewhere before the second station."
+  },
+  "se-morose-1": {
+    "answers": [
+      "morose",
+      "saturnine"
+    ],
+    "explanation": "Silent dinners and early exits describe settled gloom, and morose and saturnine both name a sullen, darkened temperament rather than a cheerful one.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "morose",
+      "saturnine",
+      "ebullient",
+      "affable",
+      "blithe",
+      "candid"
+    ],
+    "stem": "After the verdict he grew _____, sitting through dinners without speaking and leaving before the plates were cleared."
+  },
+  "se-onerous-1": {
+    "answers": [
+      "onerous",
+      "arduous"
+    ],
+    "explanation": "A decade of work spent chiefly on repayment marks the terms as a heavy burden, and onerous and arduous both leave them equally punishing.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "onerous",
+      "arduous",
+      "innocuous",
+      "ephemeral",
+      "perfunctory",
+      "benign"
+    ],
+    "stem": "The terms of the loan proved so _____ that the family spent the next decade working chiefly to meet them."
+  },
+  "se-opaque-1": {
+    "answers": [
+      "opaque",
+      "impenetrable"
+    ],
+    "explanation": "Needing a commentary to follow one paragraph says the prose cannot be seen through, and opaque and impenetrable both leave it equally hard to read.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "opaque",
+      "impenetrable",
+      "lucid",
+      "terse",
+      "laconic",
+      "trenchant"
+    ],
+    "stem": "The prose of the founding charter is _____ to modern readers, who need a commentary open beside it to follow a single paragraph."
+  },
+  "se-paragon-1": {
+    "answers": [
+      "paragon",
+      "exemplar"
+    ],
+    "explanation": "A man held up for thirty years as what public service should look like is a model of it, and paragon and exemplar both leave him the ideal case.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "paragon",
+      "exemplar",
+      "pariah",
+      "philistine",
+      "dilettante",
+      "reprobate"
+    ],
+    "stem": "For thirty years the school held him up as the _____ of public service, which made the later disclosures land all the harder."
+  },
+  "se-precarious-1": {
+    "answers": [
+      "precarious",
+      "tenuous"
+    ],
+    "explanation": "Unsigned factions and quiet rearmament make the ceasefire unstable, and precarious and tenuous both leave it liable to collapse; robust and resilient claim a strength the evidence denies.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "precarious",
+      "tenuous",
+      "immutable",
+      "robust",
+      "innocuous",
+      "resilient"
+    ],
+    "stem": "The ceasefire was _____ from the first week: two of the five factions had signed nothing at all, and the rest were quietly rearming."
+  },
+  "se-rescind-1": {
+    "answers": [
+      "rescind",
+      "annul"
+    ],
+    "explanation": "A licence withdrawn under pressure is being cancelled by the body that issued it, which rescind and annul both mean; perpetuate would keep it in force.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "rescind",
+      "annul",
+      "perpetuate",
+      "stipulate",
+      "construe",
+      "condone"
+    ],
+    "stem": "Under pressure from three states, the board voted to _____ the licence it had granted only eleven weeks earlier."
+  },
+  "se-soporific-1": {
+    "answers": [
+      "soporific",
+      "somnolent"
+    ],
+    "explanation": "An audience that stops taking notes and starts watching the clock is being put to sleep, and soporific and somnolent both say the talk induced sleepiness; arresting and compelling would have held the room.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "soporific",
+      "somnolent",
+      "stentorian",
+      "arresting",
+      "lucid",
+      "compelling"
+    ],
+    "stem": "The keynote was so _____ that by the second graph a third of the audience had stopped taking notes and begun checking the time."
+  },
+  "se-tirade-1": {
+    "answers": [
+      "tirade",
+      "broadside"
+    ],
+    "explanation": "Forty minutes of attack on three targets at once is a sustained verbal assault, which is what a tirade and a broadside both are.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "tirade",
+      "broadside",
+      "eulogy",
+      "panegyric",
+      "aphorism",
+      "rejoinder"
+    ],
+    "stem": "What was billed as a closing statement turned into a forty-minute _____ against the agency, the press and his own lawyers."
+  },
+  "se-turgid-1": {
+    "answers": [
+      "turgid",
+      "bombastic"
+    ],
+    "explanation": "Three pages of tribute against a one-sentence announcement marks the writing as inflated, and turgid and bombastic both leave it pompously overblown.",
+    "kind": "sentenceEquivalence",
+    "options": [
+      "turgid",
+      "bombastic",
+      "laconic",
+      "pithy",
+      "austere",
+      "lucid"
+    ],
+    "stem": "Three pages of _____ tribute preceded the actual announcement, which when it finally arrived took a single sentence."
+  },
+  "tc-advocate-1": {
+    "answers": [
+      "advocate"
+    ],
+    "explanation": "Being first to put the case for removal is public support for it, which advocate names; proscribe, decry and denounce would all be arguing against.",
+    "kind": "textCompletion",
+    "options": [
+      "advocate",
+      "proscribe",
+      "decry",
+      "denounce",
+      "eschew"
+    ],
+    "stem": "Having spent a decade studying the river, she was the first hydrologist to _____ removing the dam rather than repairing it again."
+  },
+  "tc-amalgamate-1": {
+    "answers": [
+      "amalgamate"
+    ],
+    "explanation": "Three bodies becoming one institute with one budget is combination rather than replacement or demotion, and amalgamate is the word for merging into a single whole.",
+    "kind": "textCompletion",
+    "options": [
+      "amalgamate",
+      "supplant",
+      "relegate",
+      "delineate",
+      "disseminate"
+    ],
+    "stem": "Rather than let three rival societies go on duplicating each other's work, the trustees voted to _____ them into a single institute with one budget."
+  },
+  "tc-ascetic-1": {
+    "answers": [
+      "ascetic"
+    ],
+    "explanation": "One meal, no heat and an hour of speech a week is severe self-denial practised for spiritual ends, which ascetic names and the four opulent options contradict.",
+    "kind": "textCompletion",
+    "options": [
+      "ascetic",
+      "lavish",
+      "palatial",
+      "prodigal",
+      "ornate"
+    ],
+    "stem": "The order's _____ regime allowed one meal a day, no heating in the cells, and a single hour of conversation each week."
+  },
+  "tc-attenuate-1": {
+    "answers": [
+      "attenuate"
+    ],
+    "explanation": "A shock arriving as a faint tremor is force reduced on the way, which is what attenuate means; the other options would make it worse or start it.",
+    "kind": "textCompletion",
+    "options": [
+      "attenuate",
+      "exacerbate",
+      "engender",
+      "precipitate",
+      "galvanize"
+    ],
+    "stem": "Each layer of foam was there to _____ the vibration, so that what finally reached the instruments was a faint tremor rather than a shock."
+  },
+  "tc-burnish-1": {
+    "answers": [
+      "burnish"
+    ],
+    "explanation": "A reputation that has been dulled and a book meant to fix it calls for polishing, and burnish is the verb for restoring a shine to a name.",
+    "kind": "textCompletion",
+    "options": [
+      "burnish",
+      "denigrate",
+      "debase",
+      "impugn",
+      "obscure"
+    ],
+    "stem": "The memoir's real purpose was to _____ a reputation that two decades of litigation and unflattering testimony had steadily dulled."
+  },
+  "tc-castigate-1": {
+    "answers": [
+      "castigate"
+    ],
+    "explanation": "Going beyond noting failures to attack at length is severe criticism, which castigate supplies; the other verbs excuse or soothe rather than rebuke.",
+    "kind": "textCompletion",
+    "options": [
+      "castigate",
+      "condone",
+      "exonerate",
+      "appease",
+      "placate"
+    ],
+    "stem": "The report does not merely note the failures; it goes on to _____ the department at length for ignoring warnings it had itself commissioned."
+  },
+  "tc-cavalier-1": {
+    "answers": [
+      "cavalier"
+    ],
+    "explanation": "A glance, a shrug and a signature is dismissive handling of something serious, which is what cavalier names; the other options describe care, not carelessness.",
+    "kind": "textCompletion",
+    "options": [
+      "cavalier",
+      "meticulous",
+      "sedulous",
+      "fastidious",
+      "diffident"
+    ],
+    "stem": "His _____ treatment of the safety checklist, a glance and a shrug and a signature, was what the inquiry eventually fixed on."
+  },
+  "tc-censure-1": {
+    "answers": [
+      "censure"
+    ],
+    "explanation": "A penalty just short of expulsion, entered into the record, is official disapproval: censure. Approbation and deference would be praise or respect instead.",
+    "kind": "textCompletion",
+    "options": [
+      "censure",
+      "approbation",
+      "largess",
+      "deference",
+      "redress"
+    ],
+    "stem": "The committee stopped short of expulsion, settling on a formal _____ that was read into the record and published the same afternoon."
+  },
+  "tc-coalesce-1": {
+    "answers": [
+      "coalesce"
+    ],
+    "explanation": "Four groups becoming one organisation is the clue: coalesce is the merging into a whole, where polarize would split them and attenuate would thin them out.",
+    "kind": "textCompletion",
+    "options": [
+      "coalesce",
+      "polarize",
+      "dissemble",
+      "attenuate",
+      "flounder"
+    ],
+    "stem": "What began as four unconnected tenant groups had, by the spring, begun to _____ into a single organisation with one set of demands."
+  },
+  "tc-commensurate-1": {
+    "answers": [
+      "commensurate"
+    ],
+    "explanation": "A year's wages set against a whole career is a failure of proportion, and commensurate is the word for matching in size or degree.",
+    "kind": "textCompletion",
+    "options": [
+      "commensurate",
+      "disparate",
+      "analogous",
+      "anomalous",
+      "ambiguous"
+    ],
+    "stem": "The settlement was never _____ with the harm done: a single year's wages for a career that had ended at thirty-one."
+  },
+  "tc-construe-1": {
+    "answers": [
+      "construe"
+    ],
+    "explanation": "Treating silence as though it meant consent is an act of interpretation, which is what construe names; the others assign blame, reject, outline or cancel.",
+    "kind": "textCompletion",
+    "options": [
+      "construe",
+      "impute",
+      "repudiate",
+      "delineate",
+      "rescind"
+    ],
+    "stem": "The lawyers warned that a court would _____ the silence as consent, which is why every concession had to be read aloud and minuted."
+  },
+  "tc-dearth-1": {
+    "answers": [
+      "dearth"
+    ],
+    "explanation": "The sentence contrasts money, of which there was plenty, with a missing willingness to decide, so the blank needs the word for a shortage, dearth.",
+    "kind": "textCompletion",
+    "options": [
+      "dearth",
+      "surfeit",
+      "plethora",
+      "modicum",
+      "nuance"
+    ],
+    "stem": "What stalled the project was not a _____ of money but of anyone willing to say out loud which of the four designs was best."
+  },
+  "tc-deleterious-1": {
+    "answers": [
+      "deleterious"
+    ],
+    "explanation": "Harm that only shows after eleven years is damage done gradually, which is exactly what deleterious describes; benign and innocuous say the opposite.",
+    "kind": "textCompletion",
+    "options": [
+      "deleterious",
+      "benign",
+      "innocuous",
+      "anomalous",
+      "ephemeral"
+    ],
+    "stem": "The additive passed every short-term trial; only after eleven years of use did its _____ effect on the liver become undeniable."
+  },
+  "tc-demur-1": {
+    "answers": [
+      "demur"
+    ],
+    "explanation": "Thanking the board while pleading inexperience is a polite refusal, not a surrender or an evasion, and demur is the word for objecting courteously.",
+    "kind": "textCompletion",
+    "options": [
+      "demur",
+      "capitulate",
+      "vacillate",
+      "equivocate",
+      "gainsay"
+    ],
+    "stem": "Offered the chairmanship in front of the whole board, she began to _____, thanking them warmly and pleading an inexperience that nobody present believed in."
+  },
+  "tc-disinterested-1": {
+    "answers": [
+      "disinterested"
+    ],
+    "explanation": "No client, no stake and nothing to gain is the definition of impartiality, and disinterested is the word for a judgement no interest can bend.",
+    "kind": "textCompletion",
+    "options": [
+      "disinterested",
+      "dogmatic",
+      "obdurate",
+      "officious",
+      "irresolute"
+    ],
+    "stem": "Both sides agreed to abide by the finding of referees who were _____: no client in the room, no stake in the outcome, nothing to gain either way."
+  },
+  "tc-estimable-1": {
+    "answers": [
+      "estimable"
+    ],
+    "explanation": "Hardworking, honest and widely liked is a man who deserves respect, which is what estimable says; the other options are faults rather than virtues.",
+    "kind": "textCompletion",
+    "options": [
+      "estimable",
+      "egregious",
+      "insipid",
+      "irascible",
+      "spurious"
+    ],
+    "stem": "His predecessor had been in every way _____, hardworking and honest and widely liked, which made the decision to replace him harder to explain."
+  },
+  "tc-exculpate-1": {
+    "answers": [
+      "exculpate"
+    ],
+    "explanation": "Evidence putting him in another city clears him of the charge rather than damaging him, and exculpate is the verb for freeing someone from blame.",
+    "kind": "textCompletion",
+    "options": [
+      "exculpate",
+      "impugn",
+      "castigate",
+      "denigrate",
+      "upbraid"
+    ],
+    "stem": "The new timestamps did not merely cast doubt on the charge; they _____ him outright, placing him in another city on the evening in question."
+  },
+  "tc-fawn-1": {
+    "answers": [
+      "fawn"
+    ],
+    "explanation": "Worst ideas going unchallenged is the consequence of servile flattery rather than criticism, and fawn is the verb for praising a superior that way.",
+    "kind": "textCompletion",
+    "options": [
+      "fawn",
+      "upbraid",
+      "deride",
+      "disparage",
+      "impugn"
+    ],
+    "stem": "New arrivals learned quickly to _____ over the director's every passing remark, which is why his worst ideas went unchallenged for years."
+  },
+  "tc-flag-1": {
+    "answers": [
+      "flag"
+    ],
+    "explanation": "A fourth hour and a break called in response point to energy running down, which is what flag means; the other verbs describe growth or a surge.",
+    "kind": "textCompletion",
+    "options": [
+      "flag",
+      "burgeon",
+      "coalesce",
+      "galvanize",
+      "proliferate"
+    ],
+    "stem": "By the fourth hour of rehearsal the choir's attention had begun to _____, and the conductor called a break rather than fight it."
+  },
+  "tc-foment-1": {
+    "answers": [
+      "foment"
+    ],
+    "explanation": "Pamphlets aimed at unrest rather than explanation are there to stir it up, which foment names; the other verbs would calm the towns instead.",
+    "kind": "textCompletion",
+    "options": [
+      "foment",
+      "assuage",
+      "placate",
+      "mollify",
+      "obviate"
+    ],
+    "stem": "The pamphlets printed in the back room were meant to _____ unrest in the garrison towns, not to explain any particular grievance."
+  },
+  "tc-fractious-1": {
+    "answers": [
+      "fractious"
+    ],
+    "explanation": "Shouting down the chair and walking out is quarrelsome unruliness, which is what fractious describes, and the surprise of June's unanimity depends on it.",
+    "kind": "textCompletion",
+    "options": [
+      "fractious",
+      "tractable",
+      "amenable",
+      "phlegmatic",
+      "imperturbable"
+    ],
+    "stem": "A committee that had been _____ all spring, shouting down its own chair and walking out twice, somehow produced a unanimous report in June."
+  },
+  "tc-iconoclast-1": {
+    "answers": [
+      "iconoclast"
+    ],
+    "explanation": "Someone hired to dismantle cherished traditions is an iconoclast; a sycophant would flatter them and a pundit would merely comment on them.",
+    "kind": "textCompletion",
+    "options": [
+      "iconoclast",
+      "sycophant",
+      "philistine",
+      "pundit",
+      "dilettante"
+    ],
+    "stem": "Hired to shake the place up, the new director turned out to be exactly the _____ the board had feared, dismantling in one year the traditions it had spent three decades defending."
+  },
+  "tc-indolent-1": {
+    "answers": [
+      "indolent"
+    ],
+    "explanation": "Arriving early and waiting is offered as proof against laziness, so the blank has to be the accusation being denied, which is indolent.",
+    "kind": "textCompletion",
+    "options": [
+      "indolent",
+      "obdurate",
+      "fractious",
+      "irascible",
+      "craven"
+    ],
+    "stem": "The staff were not _____ so much as unled: they arrived early, sat down at their desks, and waited for instructions that never came."
+  },
+  "tc-intimate-1": {
+    "answers": [
+      "intimate"
+    ],
+    "explanation": "Never saying it outright but conveying it with an eyebrow and a pause is hinting, and intimate is the verb for suggesting something indirectly.",
+    "kind": "textCompletion",
+    "options": [
+      "intimate",
+      "aver",
+      "repudiate",
+      "elucidate",
+      "enumerate"
+    ],
+    "stem": "He would never say outright that the figures had been altered; he preferred to _____ it, with a raised eyebrow and a pause in the right place."
+  },
+  "tc-invidious-1": {
+    "answers": [
+      "invidious"
+    ],
+    "explanation": "The resentment left on every rung is the clue: the exercise is not harmless but actively provoking, which is what invidious means.",
+    "kind": "textCompletion",
+    "options": [
+      "invidious",
+      "innocuous",
+      "benign",
+      "perfunctory",
+      "anomalous"
+    ],
+    "stem": "Ranking colleagues by a single number is deeply _____: whatever the final list shows, it leaves resentment standing on every rung below the top."
+  },
+  "tc-itinerant-1": {
+    "answers": [
+      "itinerant"
+    ],
+    "explanation": "Six weeks here and a term there, never twice in one town, is a working life spent travelling, which is what itinerant describes.",
+    "kind": "textCompletion",
+    "options": [
+      "itinerant",
+      "indolent",
+      "ostentatious",
+      "erudite",
+      "irresolute"
+    ],
+    "stem": "For thirty years he was an _____ lecturer, six weeks at one college and a term at the next, never twice in the same town in a single year."
+  },
+  "tc-officious-1": {
+    "answers": [
+      "officious"
+    ],
+    "explanation": "Going past helpful into unasked-for interference and correction is officious; obsequious would mean flattering the guests rather than overruling them.",
+    "kind": "textCompletion",
+    "options": [
+      "officious",
+      "obsequious",
+      "diffident",
+      "taciturn",
+      "reticent"
+    ],
+    "stem": "The porter was not merely helpful but _____, rearranging luggage nobody had asked him to touch and correcting the guests' pronunciation of the street names."
+  },
+  "tc-opaque-1": {
+    "answers": [
+      "opaque"
+    ],
+    "explanation": "A clause its own drafters cannot explain is impossible to see through, which is what opaque says; lucid, patent and cogent all mean the reverse.",
+    "kind": "textCompletion",
+    "options": [
+      "opaque",
+      "lucid",
+      "patent",
+      "candid",
+      "cogent"
+    ],
+    "stem": "The charter's key clause is so _____ that even the two lawyers who drafted it cannot explain its effect without resorting to a diagram."
+  },
+  "tc-pragmatic-1": {
+    "answers": [
+      "pragmatic"
+    ],
+    "explanation": "The contrast between an ideal city and what can be built by spring is the clue: she is judging by what works rather than by theory, which is what pragmatic names.",
+    "kind": "textCompletion",
+    "options": [
+      "pragmatic",
+      "dogmatic",
+      "austere",
+      "capricious",
+      "pedantic"
+    ],
+    "stem": "Her approach to the housing shortage was resolutely _____: she asked not what an ideal city would look like, but what could actually be built by spring."
+  },
+  "tc-sinecure-1": {
+    "answers": [
+      "sinecure"
+    ],
+    "explanation": "A title and an office with no duties attached is precisely a sinecure, a position that pays without asking for work.",
+    "kind": "textCompletion",
+    "options": [
+      "sinecure",
+      "quandary",
+      "censure",
+      "travesty",
+      "paragon"
+    ],
+    "stem": "The post came with a title, a corner office and no duty anyone could name, a _____ invented to keep a difficult man out of the way of the work."
+  },
+  "tc-sporadic-1": {
+    "answers": [
+      "sporadic"
+    ],
+    "explanation": "Three meetings one month and none the next describes an irregular pattern rather than a hasty or difficult one, which is what sporadic says.",
+    "kind": "textCompletion",
+    "options": [
+      "sporadic",
+      "perfunctory",
+      "tortuous",
+      "onerous",
+      "contentious"
+    ],
+    "stem": "The committee's meetings were so _____ that summer, three in May and none at all in June, that nobody could remember what had last been decided."
+  },
+  "tc-trenchant-1": {
+    "answers": [
+      "trenchant"
+    ],
+    "explanation": "Two sentences succeeding where forty pages failed points to criticism that is sharp and effective, which is what trenchant names.",
+    "kind": "textCompletion",
+    "options": [
+      "trenchant",
+      "turgid",
+      "banal",
+      "tortuous",
+      "tacit"
+    ],
+    "stem": "Two sentences of her review did what forty pages of committee prose had not: the criticism was _____ enough to end the project that same afternoon."
+  }
+}

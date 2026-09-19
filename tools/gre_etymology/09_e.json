@@ -1,0 +1,902 @@
+{
+  "vernal": {
+    "parts": [
+      {
+        "piece": "ver",
+        "origin": "Latin",
+        "meaning": "spring"
+      }
+    ],
+    "literal": "of spring",
+    "path": "Direct from the root: relating to the season of spring.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "versatile": {
+    "parts": [
+      {
+        "piece": "versare",
+        "origin": "Latin",
+        "meaning": "to turn about"
+      }
+    ],
+    "literal": "able to turn easily",
+    "path": "Originally meant capable of turning easily in different directions. It extended to a person or thing able to adapt to many different functions.",
+    "cousins": [
+      "verse",
+      "convert",
+      "reverse"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "verve": {
+    "parts": [
+      {
+        "piece": "verve",
+        "origin": "French",
+        "meaning": "energy, spirit (origin uncertain)"
+      }
+    ],
+    "literal": "uncertain",
+    "path": "Entered English via French for lively spirit and energy in artistic expression; the word's deeper origin before French is disputed and not clearly traceable.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "vestige": {
+    "parts": [
+      {
+        "piece": "vestigium",
+        "origin": "Latin",
+        "meaning": "footprint, track"
+      }
+    ],
+    "literal": "a footprint",
+    "path": "A vestige is literally a footprint or track left behind; figuratively it is a small remaining trace of something that once existed.",
+    "cousins": [
+      "investigate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vestment": {
+    "parts": [
+      {
+        "piece": "vestire",
+        "origin": "Latin",
+        "meaning": "to clothe"
+      }
+    ],
+    "literal": "clothing",
+    "path": "Direct from the root for clothing: a ceremonial garment, especially worn in religious ritual.",
+    "cousins": [
+      "invest",
+      "travesty"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vex": {
+    "parts": [
+      {
+        "piece": "vexare",
+        "origin": "Latin",
+        "meaning": "to shake, disturb, harass"
+      }
+    ],
+    "literal": "to shake roughly",
+    "path": "Originally meant to shake or jolt violently. The sense softened over time to mean to annoy or trouble someone.",
+    "cousins": [
+      "convey",
+      "vehicle"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vexation": {
+    "parts": [
+      {
+        "piece": "vexare",
+        "origin": "Latin",
+        "meaning": "to shake, disturb, harass"
+      }
+    ],
+    "literal": "a shaking, disturbing",
+    "path": "Same root as vex: annoyance, or something that causes it.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "viable": {
+    "parts": [
+      {
+        "piece": "vita",
+        "origin": "Latin",
+        "meaning": "life"
+      }
+    ],
+    "literal": "capable of life",
+    "path": "Viable first described a newborn strong enough to survive outside the womb, built on vita, life. The word then spread to plans and options: a viable plan has enough life in it to actually work and survive, not just look good on paper.",
+    "cousins": [
+      "vital",
+      "vivid",
+      "revive",
+      "survive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vicarious": {
+    "parts": [
+      {
+        "piece": "vicis",
+        "origin": "Latin",
+        "meaning": "change, turn, substitution"
+      }
+    ],
+    "literal": "substituted, in place of another",
+    "path": "Direct from the root: experienced in place of, or through, another person, standing in for direct experience.",
+    "cousins": [
+      "vicar"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vicissitude": {
+    "parts": [
+      {
+        "piece": "vicis",
+        "origin": "Latin",
+        "meaning": "change, turn"
+      }
+    ],
+    "literal": "a change, a turn",
+    "path": "Direct from the root: an unwelcome turn of fortune, one of life's ups and downs.",
+    "cousins": [
+      "vicar"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vie": {
+    "parts": [
+      {
+        "piece": "invitare",
+        "origin": "Latin",
+        "meaning": "to invite, challenge"
+      }
+    ],
+    "literal": "to challenge",
+    "path": "Originally a card-game term meaning to raise a bet as a challenge to an opponent. It came to mean to compete eagerly for something.",
+    "cousins": [
+      "invite"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vigilant": {
+    "parts": [
+      {
+        "piece": "vigil",
+        "origin": "Latin",
+        "meaning": "awake"
+      }
+    ],
+    "literal": "staying awake",
+    "path": "Direct from the root: watchful and alert to danger, staying awake and observant.",
+    "cousins": [
+      "vigil",
+      "vigilante"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vigor": {
+    "parts": [
+      {
+        "piece": "vigere",
+        "origin": "Latin",
+        "meaning": "to be lively, thrive"
+      }
+    ],
+    "literal": "liveliness",
+    "path": "Direct from the root: physical or mental energy and strength.",
+    "cousins": [
+      "vigorous",
+      "invigorate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vilify": {
+    "parts": [
+      {
+        "piece": "vilis",
+        "origin": "Latin",
+        "meaning": "cheap, base, worthless"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "to make base",
+    "path": "Direct from the parts: to make someone seem base or worthless through speech, to speak abusively about them.",
+    "cousins": [
+      "vile",
+      "revile"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vim": {
+    "parts": [
+      {
+        "piece": "vis",
+        "origin": "Latin",
+        "meaning": "force, energy"
+      }
+    ],
+    "literal": "force",
+    "path": "A direct borrowing of the Latin word for force or energy, meaning lively energy.",
+    "cousins": [
+      "violent"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vindicate": {
+    "parts": [
+      {
+        "piece": "vindex",
+        "origin": "Latin",
+        "meaning": "claimant, avenger"
+      }
+    ],
+    "literal": "to lay claim, to avenge",
+    "path": "Originally meant to assert a claim or avenge a wrong. It came to mean clearing someone of blame or proving them right, defending their claim to innocence.",
+    "cousins": [
+      "vengeance",
+      "avenge",
+      "vindictive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vindictive": {
+    "parts": [
+      {
+        "piece": "vindex",
+        "origin": "Latin",
+        "meaning": "avenger"
+      }
+    ],
+    "literal": "avenging",
+    "path": "Direct from the root: seeking revenge, driven by a desire to avenge a wrong.",
+    "cousins": [
+      "vindicate",
+      "vengeance",
+      "avenge"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vintage": {
+    "parts": [
+      {
+        "piece": "vinum",
+        "origin": "Latin",
+        "meaning": "wine"
+      },
+      {
+        "piece": "demere",
+        "origin": "Latin",
+        "meaning": "to remove"
+      }
+    ],
+    "literal": "grape harvest",
+    "path": "Originally referred to a year's wine harvest, giving wine its dated quality. It extended to anything of high quality from a notable earlier period.",
+    "cousins": [
+      "vine",
+      "wine",
+      "vineyard"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vintner": {
+    "parts": [
+      {
+        "piece": "vinum",
+        "origin": "Latin",
+        "meaning": "wine"
+      }
+    ],
+    "literal": "a wine dealer",
+    "path": "Direct from the root for wine: one who sells or makes wine.",
+    "cousins": [
+      "vine",
+      "wine",
+      "vintage"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "virago": {
+    "parts": [
+      {
+        "piece": "vir",
+        "origin": "Latin",
+        "meaning": "man"
+      }
+    ],
+    "literal": "a man-like woman",
+    "path": "Originally a positive term for a heroic, warlike woman equal to men in courage. Over time the connotation shifted, and it came to mean a domineering, ill-tempered woman.",
+    "cousins": [
+      "virile",
+      "virtue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "virtual": {
+    "parts": [
+      {
+        "piece": "virtus",
+        "origin": "Latin",
+        "meaning": "power, excellence, worth"
+      }
+    ],
+    "literal": "possessing inherent power",
+    "path": "Originally meant existing in essence or effect, having the inherent power of a thing without its actual physical form. It came to mean 'in effect though not formally so.'",
+    "cousins": [
+      "virtuous",
+      "virtuoso"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "virtuoso": {
+    "parts": [
+      {
+        "piece": "virtus",
+        "origin": "Latin",
+        "meaning": "excellence, skill"
+      }
+    ],
+    "literal": "excellent, skilled",
+    "path": "Direct from the root: someone whose skill is so excellent it stands out, showing exceptional technical mastery.",
+    "cousins": [
+      "virtue",
+      "virtual"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "virulent": {
+    "parts": [
+      {
+        "piece": "virus",
+        "origin": "Latin",
+        "meaning": "poison"
+      }
+    ],
+    "literal": "full of poison",
+    "path": "Originally described something poisonous or venomous. It extended to extremely severe, as a virulent disease, or bitterly hostile, as virulent criticism.",
+    "cousins": [
+      "virus",
+      "viral"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "visage": {
+    "parts": [
+      {
+        "piece": "videre",
+        "origin": "Latin",
+        "meaning": "to see"
+      }
+    ],
+    "literal": "appearance, sight",
+    "path": "Direct from the root for sight: a person's face or facial expression, their visible appearance.",
+    "cousins": [
+      "vision",
+      "visible",
+      "visual"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "viscid": {
+    "parts": [
+      {
+        "piece": "viscum",
+        "origin": "Latin",
+        "meaning": "birdlime, mistletoe"
+      }
+    ],
+    "literal": "like birdlime",
+    "path": "Birdlime, a sticky paste made from mistletoe berries, was smeared on branches to trap birds. Viscid describes anything sticky and glutinous like it.",
+    "cousins": [
+      "viscous"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "viscous": {
+    "parts": [
+      {
+        "piece": "viscum",
+        "origin": "Latin",
+        "meaning": "birdlime, mistletoe"
+      }
+    ],
+    "literal": "like birdlime",
+    "path": "Same root as viscid: thick and slow-flowing, sticky like birdlime.",
+    "cousins": [
+      "viscid"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "visionary": {
+    "parts": [
+      {
+        "piece": "videre",
+        "origin": "Latin",
+        "meaning": "to see"
+      }
+    ],
+    "literal": "seeing",
+    "path": "Direct from the root: someone who 'sees' beyond the present, showing imaginative foresight.",
+    "cousins": [
+      "vision",
+      "visible",
+      "envision"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vitality": {
+    "parts": [
+      {
+        "piece": "vivere",
+        "origin": "Latin",
+        "meaning": "to live"
+      }
+    ],
+    "literal": "life",
+    "path": "Direct from the root: the quality of being full of life, energy and liveliness.",
+    "cousins": [
+      "vivid",
+      "revive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vitiate": {
+    "parts": [
+      {
+        "piece": "vitium",
+        "origin": "Latin",
+        "meaning": "fault, defect, vice"
+      }
+    ],
+    "literal": "to make faulty",
+    "path": "Direct from the root: to spoil or corrupt something, making it defective or ineffective.",
+    "cousins": [
+      "vice",
+      "vicious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vitriol": {
+    "parts": [
+      {
+        "piece": "vitrum",
+        "origin": "Latin",
+        "meaning": "glass"
+      }
+    ],
+    "literal": "a glassy substance",
+    "path": "Originally named the glassy-looking sulfate salts and the caustic acid derived from them. Because the acid was so corrosive, vitriol came to mean bitter, savage criticism.",
+    "cousins": [
+      "vitreous",
+      "vitrify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vitriolic": {
+    "parts": [
+      {
+        "piece": "vitrum",
+        "origin": "Latin",
+        "meaning": "glass"
+      }
+    ],
+    "literal": "like the corrosive acid",
+    "path": "Same root as vitriol: savagely hostile and corrosive in tone.",
+    "cousins": [
+      "vitriol",
+      "vitreous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vituperate": {
+    "parts": [
+      {
+        "piece": "vitium",
+        "origin": "Latin",
+        "meaning": "fault"
+      },
+      {
+        "piece": "parare",
+        "origin": "Latin",
+        "meaning": "to prepare, make"
+      }
+    ],
+    "literal": "to prepare blame",
+    "path": "Direct from the parts: to attack someone verbally with harsh, abusive criticism.",
+    "cousins": [
+      "vice"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vivacious": {
+    "parts": [
+      {
+        "piece": "vivere",
+        "origin": "Latin",
+        "meaning": "to live"
+      }
+    ],
+    "literal": "full of life",
+    "path": "Direct from the root: lively and animated, brimming with the energy of life.",
+    "cousins": [
+      "vivid",
+      "vital",
+      "revive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vociferous": {
+    "parts": [
+      {
+        "piece": "vox",
+        "origin": "Latin",
+        "meaning": "voice"
+      },
+      {
+        "piece": "ferre",
+        "origin": "Latin",
+        "meaning": "to carry, bear"
+      }
+    ],
+    "literal": "carrying the voice",
+    "path": "Direct from the parts: loud and insistent in carrying one's voice and opinion, expressing views forcefully.",
+    "cousins": [
+      "voice",
+      "vocal",
+      "transfer"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "volatile": {
+    "parts": [
+      {
+        "piece": "volare",
+        "origin": "Latin",
+        "meaning": "to fly"
+      }
+    ],
+    "literal": "flying",
+    "path": "Originally described substances that evaporate quickly, 'flying off' into vapor. It extended figuratively to anything unstable and liable to change suddenly.",
+    "cousins": [
+      "volley"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "volubility": {
+    "parts": [
+      {
+        "piece": "volvere",
+        "origin": "Latin",
+        "meaning": "to roll, turn"
+      }
+    ],
+    "literal": "rolling (of speech)",
+    "path": "Direct from the root: speech that rolls on easily and at length, fluent talkativeness.",
+    "cousins": [
+      "revolve",
+      "evolve",
+      "voluble"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "voluble": {
+    "parts": [
+      {
+        "piece": "volvere",
+        "origin": "Latin",
+        "meaning": "to roll, turn"
+      }
+    ],
+    "literal": "rolling",
+    "path": "Same root as volubility: speaking easily, with words rolling out at length.",
+    "cousins": [
+      "revolve",
+      "evolve",
+      "volume"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "voracious": {
+    "parts": [
+      {
+        "piece": "vorare",
+        "origin": "Latin",
+        "meaning": "to devour"
+      }
+    ],
+    "literal": "devouring",
+    "path": "Direct from the root: having a huge appetite, devouring food literally or, figuratively, books or information.",
+    "cousins": [
+      "devour",
+      "carnivore",
+      "omnivore"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "waffle": {
+    "parts": [
+      {
+        "piece": "waff",
+        "origin": "English (dialectal)",
+        "meaning": "to yelp, bark idly"
+      }
+    ],
+    "literal": "to yelp idly",
+    "path": "Originally a dialect word for yapping like a dog. It developed into talking vaguely and at length without commitment, wavering indecisively between choices.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "waft": {
+    "parts": [
+      {
+        "piece": "wachter",
+        "origin": "Middle Low German",
+        "meaning": "guard, watchman (convoy ship)"
+      }
+    ],
+    "literal": "a convoy ship",
+    "path": "Originally described a ship escorting others safely across water. The sense shifted to something being carried gently through air or water, drifting along.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "waive": {
+    "parts": [
+      {
+        "piece": "weyver",
+        "origin": "Old French",
+        "meaning": "to abandon (treat as an ownerless waif)"
+      }
+    ],
+    "literal": "to abandon, like an ownerless waif",
+    "path": "Originally a legal term meaning to abandon property or a claim, treating it as an ownerless 'waif.' It came to mean voluntarily giving up a right or requirement.",
+    "cousins": [
+      "waif"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "wan": {
+    "parts": [
+      {
+        "piece": "wann",
+        "origin": "Old English",
+        "meaning": "dark, gloomy"
+      }
+    ],
+    "literal": "dark, gloomy",
+    "path": "Old English wann meant dark or gloomy. By Middle English the sense had shifted, somewhat paradoxically, to pale, perhaps through the drained look shared by sickness and shadow.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "wander": {
+    "parts": [
+      {
+        "piece": "wandrian",
+        "origin": "Old English",
+        "meaning": "to move about aimlessly"
+      }
+    ],
+    "literal": "to move turningly",
+    "path": "Related to the Germanic root for 'wind' (to turn): to move without a fixed course, winding here and there.",
+    "cousins": [
+      "wind",
+      "wend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "wane": {
+    "parts": [
+      {
+        "piece": "wanian",
+        "origin": "Old English",
+        "meaning": "to decrease, diminish"
+      }
+    ],
+    "literal": "to decrease",
+    "path": "Direct from the root: to decrease gradually, as the moon wanes.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "wanting": {
+    "parts": [
+      {
+        "piece": "vanta",
+        "origin": "Old Norse",
+        "meaning": "to lack"
+      }
+    ],
+    "literal": "lacking",
+    "path": "Direct from the root: describes something found deficient or lacking when measured against what is needed.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "wanton": {
+    "parts": [
+      {
+        "piece": "wan-",
+        "origin": "Old English",
+        "meaning": "lacking, deficient"
+      },
+      {
+        "piece": "togen",
+        "origin": "Old English",
+        "meaning": "trained, disciplined"
+      }
+    ],
+    "literal": "lacking discipline",
+    "path": "Originally described someone undisciplined or unrestrained, literally 'untrained.' It came to mean deliberately unprovoked and reckless.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "warble": {
+    "parts": [
+      {
+        "piece": "werble",
+        "origin": "Old French",
+        "meaning": "melody, trilling song"
+      }
+    ],
+    "literal": "a trilling melody",
+    "path": "Direct from the root: to sing with quavering trills.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "warrant": {
+    "parts": [
+      {
+        "piece": "warant",
+        "origin": "Old French",
+        "meaning": "guarantee, protector"
+      }
+    ],
+    "literal": "a guarantee",
+    "path": "Direct from the root: something that guarantees or backs up an action, giving it grounds to be justified or deserved.",
+    "cousins": [
+      "guarantee",
+      "guard",
+      "warranty"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "warranted": {
+    "parts": [
+      {
+        "piece": "warant",
+        "origin": "Old French",
+        "meaning": "guarantee, protector"
+      }
+    ],
+    "literal": "guaranteed",
+    "path": "Same root as warrant: justified by the circumstances, backed by adequate grounds.",
+    "cousins": [
+      "guarantee"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "wary": {
+    "parts": [
+      {
+        "piece": "wær",
+        "origin": "Old English",
+        "meaning": "cautious, alert"
+      }
+    ],
+    "literal": "alert",
+    "path": "Direct from the root: cautious about possible danger, on guard.",
+    "cousins": [
+      "aware",
+      "beware",
+      "ward"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

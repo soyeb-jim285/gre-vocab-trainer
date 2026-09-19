@@ -1,0 +1,875 @@
+{
+  "gall": {
+    "parts": [
+      {
+        "piece": "gealla",
+        "origin": "Old English",
+        "meaning": "bile, bitter secretion"
+      }
+    ],
+    "literal": "bile",
+    "path": "Old English gealla meant bile, the bitter fluid from the liver, cognate with Greek chole and Latin fel. The word kept its sense of bitterness, and in modern slang bitter cheek turned into brazen nerve: having the 'gall' to do something.",
+    "cousins": [
+      "cholera",
+      "melancholy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "galvanize": {
+    "parts": [
+      {
+        "piece": "Galvani",
+        "origin": "proper noun (Italian)",
+        "meaning": "Luigi Galvani, 18th-c. scientist who studied electrically induced muscle twitches"
+      }
+    ],
+    "literal": "to apply Galvani's shock",
+    "path": "Named after Luigi Galvani, who found that an electric current could make a dead frog's leg twitch. To galvanize first meant to stimulate with electricity, then generalized to shocking someone into sudden action, as if jolted alive.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "gambit": {
+    "parts": [
+      {
+        "piece": "gamba",
+        "origin": "Italian",
+        "meaning": "leg"
+      }
+    ],
+    "literal": "a leg-trip",
+    "path": "Italian gambetto meant tripping someone up by the leg, a wrestling move. Chess borrowed the word for an opening move that sacrifices a piece to trip up the opponent's position, and it broadened to any calculated risky opening move.",
+    "cousins": [
+      "gambol"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gambol": {
+    "parts": [
+      {
+        "piece": "gamba",
+        "origin": "Italian",
+        "meaning": "leg"
+      }
+    ],
+    "literal": "a leg-caper",
+    "path": "From Italian gamba, leg, via a word for a horse's playful kick or caper. To gambol is to skip and leap about on one's legs, running and jumping playfully.",
+    "cousins": [
+      "gambit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "garble": {
+    "parts": [
+      {
+        "piece": "gharbala",
+        "origin": "Arabic",
+        "meaning": "to sift, select (spices)"
+      }
+    ],
+    "literal": "to sift selectively",
+    "path": "The word traces to Arabic gharbala, to sift spices, borrowed into Medieval Latin and Italian for sorting goods. Sifting selectively slid into sifting dishonestly, picking and mixing parts of a message until it came out distorted and unclear.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "garish": {
+    "parts": [
+      {
+        "piece": "gaure (uncertain)",
+        "origin": "uncertain, possibly Scandinavian",
+        "meaning": "to stare"
+      }
+    ],
+    "literal": "uncertain, perhaps 'stare-worthy'",
+    "path": "The origin is unclear. One theory connects garish to an old dialect word 'gaure', to stare, as if something garish is loud enough to make people stare. The word settled into describing anything unpleasantly bright and showy.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "garner": {
+    "parts": [
+      {
+        "piece": "granum",
+        "origin": "Latin",
+        "meaning": "grain"
+      }
+    ],
+    "literal": "to store in a granary",
+    "path": "Garner comes from Latin granum, grain, via a word for a grain store. To garner something was originally to gather grain into a granary for storage, and the verb widened to gathering or accumulating anything valuable.",
+    "cousins": [
+      "grain",
+      "granary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "garrulous": {
+    "parts": [
+      {
+        "piece": "garrire",
+        "origin": "Latin",
+        "meaning": "to chatter, babble"
+      }
+    ],
+    "literal": "chattering",
+    "path": "Latin garrire meant to chatter or babble, and garrulus described someone prone to it. A garrulous person talks on and on about trivial things, unable to stop chattering.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "gauche": {
+    "parts": [
+      {
+        "piece": "gauche",
+        "origin": "French",
+        "meaning": "left (hand); clumsy"
+      }
+    ],
+    "literal": "left-handed",
+    "path": "French gauche means 'left', as opposed to the right hand traditionally seen as the skilled one. Because left-handedness was long viewed as clumsy, gauche came to describe anyone socially awkward and tactless.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "gaunt": {
+    "parts": [
+      {
+        "piece": "gaunt",
+        "origin": "Middle English",
+        "meaning": "thin, slender (ultimate origin unknown)"
+      }
+    ],
+    "literal": "unclear origin, 'thin'",
+    "path": "Gaunt's origin before Middle English is unknown, with guesses ranging from a Scandinavian word for thin to a French dialect term. Whatever its source, it has meant thin and haggard, especially from illness or hardship, since it entered English.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "gawk": {
+    "parts": [
+      {
+        "piece": "gawk",
+        "origin": "English dialect",
+        "meaning": "left hand (uncertain ultimate origin)"
+      }
+    ],
+    "literal": "left-handed, clumsy",
+    "path": "Gawk began as a dialect word for the left hand, much like the parallel history of 'gauche'. From a term for clumsy left-handedness it came to describe someone standing about looking slack-jawed, and the verb settled into meaning to stare stupidly.",
+    "cousins": [
+      "gawky"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "gawky": {
+    "parts": [
+      {
+        "piece": "gawk",
+        "origin": "English dialect",
+        "meaning": "left hand (uncertain ultimate origin)"
+      }
+    ],
+    "literal": "left-handed, clumsy",
+    "path": "Gawky likely comes from the same dialect word for the left hand as 'gawk', with -y added. A left-handed person was stereotyped as clumsy, and gawky came to mean generally awkward and ungainly.",
+    "cousins": [
+      "gawk"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "generate": {
+    "parts": [
+      {
+        "piece": "genus (gener-)",
+        "origin": "Latin",
+        "meaning": "birth, race, kind"
+      }
+    ],
+    "literal": "to beget",
+    "path": "Latin generare meant to beget or bring forth, from genus, birth or kind. To generate something is to bring it into existence, as if giving birth to it.",
+    "cousins": [
+      "genus",
+      "gene",
+      "genetic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "genesis": {
+    "parts": [
+      {
+        "piece": "genesis",
+        "origin": "Greek",
+        "meaning": "birth, origin"
+      }
+    ],
+    "literal": "birth, origin",
+    "path": "Greek genesis meant birth or coming into being, from a verb meaning to be born. It names the origin or beginning point of anything, echoing the Biblical book of that name about the world's beginning.",
+    "cousins": [
+      "gene",
+      "genetic",
+      "generate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "genial": {
+    "parts": [
+      {
+        "piece": "genius",
+        "origin": "Latin",
+        "meaning": "guardian spirit associated with birth"
+      }
+    ],
+    "literal": "befitting one's guardian spirit, festive",
+    "path": "Latin genialis originally described whatever pleased one's genius, the guardian spirit thought to preside over marriage and birth, hence festive and pleasant. English narrowed that pleasant festivity into simple friendliness and cheer.",
+    "cousins": [
+      "genius",
+      "generate"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "genteel": {
+    "parts": [
+      {
+        "piece": "gens (gent-)",
+        "origin": "Latin",
+        "meaning": "clan, family, birth"
+      }
+    ],
+    "literal": "well-born",
+    "path": "From Latin gens, clan or family, via French gentil, well-born or noble. Genteel kept the sense of refined manners expected of the well-born, though today it often carries a whiff of affectation, refinement overdone.",
+    "cousins": [
+      "gentle",
+      "gender"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gentility": {
+    "parts": [
+      {
+        "piece": "gens (gent-)",
+        "origin": "Latin",
+        "meaning": "clan, family, birth"
+      }
+    ],
+    "literal": "well-born quality",
+    "path": "The noun form of genteel, from Latin gens, family or birth. Gentility names the refined manners and taste associated with good breeding.",
+    "cousins": [
+      "gentle",
+      "genteel"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "gentry": {
+    "parts": [
+      {
+        "piece": "gens (gent-)",
+        "origin": "Latin",
+        "meaning": "clan, family, birth"
+      }
+    ],
+    "literal": "well-born people",
+    "path": "From the same French gentil, well-born, as 'genteel'. Gentry names the class of people of good birth, ranked just below the nobility.",
+    "cousins": [
+      "gentle",
+      "genteel"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "germane": {
+    "parts": [
+      {
+        "piece": "germen (germanus)",
+        "origin": "Latin",
+        "meaning": "sprout, offshoot; of the same stock"
+      }
+    ],
+    "literal": "of the same stock, closely akin",
+    "path": "Latin germanus described full siblings, those sprung from the same stock (germen, a sprout or bud). The word was extended figuratively, notably by Shakespeare, to anything closely and relevantly connected to a matter, as siblings are connected by blood.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "gerrymander": {
+    "parts": [
+      {
+        "piece": "Gerry",
+        "origin": "proper noun (English)",
+        "meaning": "Elbridge Gerry, US governor"
+      },
+      {
+        "piece": "salamander",
+        "origin": "Greek/Latin",
+        "meaning": "a lizard-like amphibian"
+      }
+    ],
+    "literal": "Gerry's salamander",
+    "path": "In 1812, Massachusetts Governor Elbridge Gerry signed off on an oddly shaped electoral district that a newspaper cartoonist thought resembled a salamander; the press blended his name with the creature to coin 'gerrymander'. It now names any redrawing of boundaries for political advantage.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "gestate": {
+    "parts": [
+      {
+        "piece": "gestare",
+        "origin": "Latin",
+        "meaning": "to carry, bear"
+      }
+    ],
+    "literal": "to carry",
+    "path": "Latin gestare meant to carry or bear, used of a mother carrying a child. To gestate is to carry something as it develops, whether literally a pregnancy or figuratively an idea maturing slowly before it emerges.",
+    "cousins": [
+      "gesture",
+      "digest"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gestation": {
+    "parts": [
+      {
+        "piece": "gestare",
+        "origin": "Latin",
+        "meaning": "to carry, bear"
+      }
+    ],
+    "literal": "a carrying",
+    "path": "The noun of gestate, from Latin gestare, to carry. Gestation is the period during which something is carried and develops before it emerges, literally pregnancy, figuratively any slow incubation of an idea or plan.",
+    "cousins": [
+      "gesture",
+      "digest"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gibe": {
+    "parts": [
+      {
+        "piece": "gibe",
+        "origin": "uncertain, possibly Old French",
+        "meaning": "origin obscure, possibly 'to handle roughly'"
+      }
+    ],
+    "literal": "unclear origin",
+    "path": "The origin of gibe is obscure; one guess ties it to an Old French word for handling something roughly. Whatever its source, it has long meant a mocking, taunting jeer aimed to needle someone.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "gird": {
+    "parts": [
+      {
+        "piece": "gyrdan",
+        "origin": "Old English",
+        "meaning": "to encircle, bind with a belt"
+      }
+    ],
+    "literal": "to belt oneself",
+    "path": "Old English gyrdan meant to put on a belt or girdle, binding a sword or tools to the waist before battle or work. To gird oneself kept that image: bracing and equipping yourself before something difficult.",
+    "cousins": [
+      "girdle",
+      "girth"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gist": {
+    "parts": [
+      {
+        "piece": "iacere",
+        "origin": "Latin",
+        "meaning": "to lie down, throw"
+      }
+    ],
+    "literal": "where it lies",
+    "path": "From Anglo-French legal phrasing, 'the action lies' (gist), meaning where the real substance of a legal claim rests, ultimately from Latin iacere, to lie down. The gist of something is where its essential point actually lies.",
+    "cousins": [
+      "adjacent",
+      "project"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "glacial": {
+    "parts": [
+      {
+        "piece": "glacies",
+        "origin": "Latin",
+        "meaning": "ice"
+      }
+    ],
+    "literal": "icy",
+    "path": "Straightforward from Latin glacies, ice. Glacial describes anything icy cold, or by extension anything moving as slowly as a glacier.",
+    "cousins": [
+      "glacier"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "glean": {
+    "parts": [
+      {
+        "piece": "glennare",
+        "origin": "Late Latin (Gaulish origin)",
+        "meaning": "to gather leftover grain"
+      }
+    ],
+    "literal": "to gather leftover grain",
+    "path": "The word comes from a Gaulish-derived Late Latin term for gathering the grain stalks left behind by reapers in a field. Gleaning kept that image of picking up small, scattered leftovers, now usually information gathered bit by bit.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "glib": {
+    "parts": [
+      {
+        "piece": "glibberig",
+        "origin": "Low German/Dutch",
+        "meaning": "slippery"
+      }
+    ],
+    "literal": "slippery",
+    "path": "Glib likely comes from a Low German or Dutch word meaning slippery. A glib talker has a tongue as slippery as the word's root suggests, fluent and smooth but sliding over any real substance or sincerity.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "glower": {
+    "parts": [
+      {
+        "piece": "glora (uncertain)",
+        "origin": "uncertain, possibly Scandinavian",
+        "meaning": "to stare"
+      }
+    ],
+    "literal": "uncertain, perhaps 'to stare'",
+    "path": "Glower's origin is uncertain, possibly from a Scandinavian dialect word for staring, related to German glotzen. It settled into meaning a sustained, angry stare.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "glum": {
+    "parts": [
+      {
+        "piece": "gloum-",
+        "origin": "Middle English",
+        "meaning": "to look sullen, gloomy"
+      }
+    ],
+    "literal": "gloomy-looking",
+    "path": "Glum is a variant of the same root as 'gloom', an old word for looking sullen or dark. Someone glum wears that dark, dejected look.",
+    "cousins": [
+      "gloom"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "glut": {
+    "parts": [
+      {
+        "piece": "gluttire",
+        "origin": "Latin",
+        "meaning": "to swallow, gulp"
+      }
+    ],
+    "literal": "a swallowing",
+    "path": "From Latin gluttire, to swallow greedily, the same root as 'glutton'. A glut is an excessive supply, as if the market has swallowed far more than can be comfortably used.",
+    "cousins": [
+      "glutton",
+      "gluttony"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "goad": {
+    "parts": [
+      {
+        "piece": "gad",
+        "origin": "Old English",
+        "meaning": "a pointed stick, spearhead"
+      }
+    ],
+    "literal": "a pointed stick",
+    "path": "Old English gad meant a pointed stick used to prod cattle forward. To goad someone is to prod them the way a farmer jabs an ox, provoking them into action.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "goosebumps": {
+    "parts": [
+      {
+        "piece": "goose",
+        "origin": "Old English",
+        "meaning": "the bird goose"
+      },
+      {
+        "piece": "bump",
+        "origin": "English",
+        "meaning": "a small swelling"
+      }
+    ],
+    "literal": "bumps like a plucked goose's skin",
+    "path": "A literal compound: cold or strong emotion raises little bumps on the skin that resemble the pimpled flesh of a plucked goose, giving the phenomenon its name.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gossamer": {
+    "parts": [
+      {
+        "piece": "goose + sumor",
+        "origin": "Middle English",
+        "meaning": "goose + summer, a mild autumn spell"
+      }
+    ],
+    "literal": "goose-summer (cobweb season)",
+    "path": "Gossamer likely comes from 'goose' plus 'summer', naming a mild spell in late autumn when geese were traditionally eaten and fine cobwebs floated in the air. Those delicate threads gave their name to anything as light, thin, and fragile.",
+    "cousins": [
+      "goose"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "gouge": {
+    "parts": [
+      {
+        "piece": "gubia",
+        "origin": "Late Latin (possibly Celtic)",
+        "meaning": "a chisel"
+      }
+    ],
+    "literal": "to chisel out",
+    "path": "From a Late Latin word for a curved chisel, gubia, possibly of Celtic origin. To gouge is to cut out a groove roughly with such a tool, and the sense extended to cutting into someone's wallet, overcharging them.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "gradation": {
+    "parts": [
+      {
+        "piece": "gradus",
+        "origin": "Latin",
+        "meaning": "step"
+      }
+    ],
+    "literal": "a stepping",
+    "path": "Latin gradus meant a step, as on a staircase. Gradation names a gradual step-by-step shading or change between stages, moving smoothly the way one climbs stairs one step at a time.",
+    "cousins": [
+      "gradual",
+      "progress"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "graft": {
+    "parts": [
+      {
+        "piece": "grapheion",
+        "origin": "Greek",
+        "meaning": "stylus, writing tool"
+      }
+    ],
+    "literal": "a stylus-shaped cutting",
+    "path": "A graft was originally a plant shoot cut at a slanted point, shaped like the pointed stylus used for writing, from Greek grapheion. The horticultural sense of inserting one thing into another to grow together carried over into surgical transplants; the 'corrupt gain' sense is a separate, less certain American coinage, imagining illicit profit grafted parasitically onto a legitimate position.",
+    "cousins": [
+      "graphic",
+      "graph"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "granary": {
+    "parts": [
+      {
+        "piece": "granum",
+        "origin": "Latin",
+        "meaning": "grain"
+      }
+    ],
+    "literal": "a place for grain",
+    "path": "Directly from Latin granum, grain. A granary is simply a storehouse built to hold grain.",
+    "cousins": [
+      "grain",
+      "garner"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "grandiloquent": {
+    "parts": [
+      {
+        "piece": "grandis",
+        "origin": "Latin",
+        "meaning": "grand, large"
+      },
+      {
+        "piece": "loqui",
+        "origin": "Latin",
+        "meaning": "to speak"
+      }
+    ],
+    "literal": "speaking grandly",
+    "path": "A Latin compound of grandis, large or grand, and loqui, to speak. Grandiloquent language speaks in grand, inflated terms, pompous language dressed up bigger than it needs to be.",
+    "cousins": [
+      "eloquent",
+      "loquacious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "grandstand": {
+    "parts": [
+      {
+        "piece": "grand",
+        "origin": "French/Latin",
+        "meaning": "large, great"
+      },
+      {
+        "piece": "stand",
+        "origin": "Old English",
+        "meaning": "a standing structure"
+      }
+    ],
+    "literal": "to play to the grand stand of spectators",
+    "path": "A grandstand was literally the large seating structure for spectators at a sporting event. To grandstand became playing up to that crowd, performing showily to impress onlookers rather than doing the job plainly.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "grant": {
+    "parts": [
+      {
+        "piece": "credere",
+        "origin": "Latin",
+        "meaning": "to believe, trust"
+      }
+    ],
+    "literal": "to vouch into being",
+    "path": "Grant comes ultimately from Latin credere, to believe or trust, via an Old French word meaning to promise or guarantee. To grant something is to formally trust or vouch it into someone else's hands, conceding or bestowing it.",
+    "cousins": [
+      "credit",
+      "creed"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "grapple": {
+    "parts": [
+      {
+        "piece": "grape/grap-",
+        "origin": "Old French/Germanic",
+        "meaning": "hook, claw, grip"
+      }
+    ],
+    "literal": "to hook onto",
+    "path": "From an Old French word for a grappling hook, ultimately Germanic and related to 'grab' and 'grip'. To grapple is to hook onto and hold something tightly, whether an opponent in a wrestling match or a difficult problem.",
+    "cousins": [
+      "grab",
+      "grip",
+      "grasp"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gratify": {
+    "parts": [
+      {
+        "piece": "gratus",
+        "origin": "Latin",
+        "meaning": "pleasing, thankful, grateful"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make, do"
+      }
+    ],
+    "literal": "to make pleasing",
+    "path": "Latin gratus meant pleasing or thankful, and gratificari added facere, to make. To gratify someone is to make things pleasing for them, satisfying their wish.",
+    "cousins": [
+      "grace",
+      "gratitude",
+      "grateful"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "grating": {
+    "parts": [
+      {
+        "piece": "grater",
+        "origin": "Old French/Germanic",
+        "meaning": "to scrape, scratch"
+      }
+    ],
+    "literal": "scraping",
+    "path": "From an Old French/Germanic verb meaning to scrape or scratch, the same root as a kitchen grater. A grating sound rubs and scrapes on the ear the way a scraper rubs on a surface, harsh and irritating.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "gratis": {
+    "parts": [
+      {
+        "piece": "gratia",
+        "origin": "Latin",
+        "meaning": "favor, thanks, grace"
+      }
+    ],
+    "literal": "out of kindness",
+    "path": "Latin gratiis meant 'out of favor or thanks', a contraction that gave English gratis directly. Something gratis is given free, as a favor rather than for payment.",
+    "cousins": [
+      "grace",
+      "gratitude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gratitude": {
+    "parts": [
+      {
+        "piece": "gratus",
+        "origin": "Latin",
+        "meaning": "pleasing, thankful"
+      }
+    ],
+    "literal": "thankfulness",
+    "path": "From Latin gratus, thankful or pleasing. Gratitude is simply the state of feeling thankful appreciation.",
+    "cousins": [
+      "grace",
+      "gratify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "gratuitous": {
+    "parts": [
+      {
+        "piece": "gratus",
+        "origin": "Latin",
+        "meaning": "pleasing, freely given"
+      }
+    ],
+    "literal": "given freely, without cause",
+    "path": "Latin gratuitus described something given freely, without payment or reason, from gratus, pleasing. English kept the sense of 'without real cause', which shifted mildly negative: a gratuitous remark is thrown in for no good reason, unnecessary and unwarranted.",
+    "cousins": [
+      "grace",
+      "gratis"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "gravity": {
+    "parts": [
+      {
+        "piece": "gravis",
+        "origin": "Latin",
+        "meaning": "heavy, weighty, serious"
+      }
+    ],
+    "literal": "heaviness",
+    "path": "Latin gravis meant heavy or weighty, in both the physical and the figurative sense of serious and important. Gravity kept both: the physical force that gives objects weight, and the seriousness of a grave matter.",
+    "cousins": [
+      "aggravate",
+      "gravitate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gregarious": {
+    "parts": [
+      {
+        "piece": "grex (greg-)",
+        "origin": "Latin",
+        "meaning": "flock, herd"
+      }
+    ],
+    "literal": "flocking together",
+    "path": "Latin grex meant a flock or herd, and gregarius described animals that live in one. A gregarious person likewise flocks together with others, sociable and fond of company.",
+    "cousins": [
+      "congregate",
+      "segregate",
+      "aggregate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "grievance": {
+    "parts": [
+      {
+        "piece": "gravis (gravare)",
+        "origin": "Latin",
+        "meaning": "heavy; to burden"
+      }
+    ],
+    "literal": "a burdening",
+    "path": "From Latin gravare, to burden, itself from gravis, heavy. A grievance is a burden someone feels has been unfairly placed on them, a real or imagined cause for complaint weighing on them.",
+    "cousins": [
+      "grave",
+      "gravity",
+      "aggravate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

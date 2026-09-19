@@ -1,0 +1,452 @@
+{
+  "convivial": {
+    "parts": [{"piece": "com-", "origin": "Latin", "meaning": "together"}, {"piece": "vivere", "origin": "Latin", "meaning": "to live"}],
+    "literal": "living together",
+    "path": "Latin convivium meant a feast where people lived it up together, eating and drinking as one company. The adjective kept that banquet-hall warmth: festive, sociable, good company.",
+    "cousins": ["vivid", "vital", "revive", "survive"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "convoke": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "vocare", "origin": "Latin", "meaning": "to call"}],
+    "literal": "to call together",
+    "path": "Straightforward from Latin: a convoked assembly is one literally called into being by summons, everyone gathered by a single call.",
+    "cousins": ["vocal", "invoke", "evoke", "vocation"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "convoluted": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "volvere", "origin": "Latin", "meaning": "to roll"}],
+    "literal": "rolled together, coiled",
+    "path": "Something convolutus is coiled like rope wound on itself. A convoluted argument is pictured the same way: folded back on itself so many times a listener cannot trace it straight through.",
+    "cousins": ["revolve", "evolve", "volume"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "copious": {
+    "parts": [{"piece": "copia", "origin": "Latin", "meaning": "abundance, plenty"}],
+    "literal": "full of abundance",
+    "path": "Latin copia (itself co- 'together' + ops 'wealth, power') meant plenty or a large supply. Copious simply keeps that sense of overflowing quantity.",
+    "cousins": ["copy", "cornucopia"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "cordial": {
+    "parts": [{"piece": "cor-", "origin": "Latin", "meaning": "heart"}],
+    "literal": "of the heart",
+    "path": "Medieval Latin cordialis meant 'of or from the heart.' A cordial greeting is imagined as coming straight from the heart, sincere and warm rather than merely polite.",
+    "cousins": ["courage", "accord", "core", "record"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "cornucopia": {
+    "parts": [{"piece": "cornu", "origin": "Latin", "meaning": "horn"}, {"piece": "copia", "origin": "Latin", "meaning": "abundance"}],
+    "literal": "horn of plenty",
+    "path": "The mythical goat's horn that endlessly poured out food gave its name directly to any overflowing abundant supply.",
+    "cousins": ["copious", "unicorn"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "corollary": {
+    "parts": [{"piece": "corolla", "origin": "Latin", "meaning": "small garland"}],
+    "literal": "a small garland, a bonus gift",
+    "path": "In Latin a corollarium was the extra garland or tip given beyond what was owed, a gratuity. That sense of 'something extra that comes with the main thing' shifted to a logical consequence that follows naturally from a prior result.",
+    "cousins": ["crown", "coronation"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "corporeal": {
+    "parts": [{"piece": "corpus", "origin": "Latin", "meaning": "body"}],
+    "literal": "bodily",
+    "path": "Directly from Latin corpus, 'body.' Corporeal simply means having a physical body, as opposed to spiritual or abstract.",
+    "cousins": ["corporation", "corpse", "incorporate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "corpulent": {
+    "parts": [{"piece": "corpus", "origin": "Latin", "meaning": "body"}, {"piece": "-ulentus", "origin": "Latin", "meaning": "full of"}],
+    "literal": "full of body",
+    "path": "Latin corpulentus meant literally 'full-bodied.' It settled into describing someone whose body is very full indeed: fat, bulky.",
+    "cousins": ["corporeal", "corpse", "corps"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "correlate": {
+    "parts": [{"piece": "com-", "origin": "Latin", "meaning": "together"}, {"piece": "relatus", "origin": "Latin", "meaning": "brought back, related"}],
+    "literal": "brought back together, related to each other",
+    "path": "Built from the same root as 'relate.' To correlate is for two things to be carried back to one another, shown to rise and fall together.",
+    "cousins": ["relate", "refer", "relative"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "corroborate": {
+    "parts": [{"piece": "com-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "roborare", "origin": "Latin", "meaning": "to strengthen"}],
+    "literal": "to strengthen thoroughly",
+    "path": "From robur, 'oak, strength.' To corroborate a claim is to add oak-solid strength to it with supporting evidence.",
+    "cousins": ["robust"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "corrosion": {
+    "parts": [{"piece": "com-", "origin": "Latin", "meaning": "thoroughly"}, {"piece": "rodere", "origin": "Latin", "meaning": "to gnaw"}],
+    "literal": "gnawed away thoroughly",
+    "path": "Rust and acid are pictured gnawing at metal the way an animal gnaws a bone, wearing it away bit by bit.",
+    "cousins": ["rodent", "erode"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cosmopolitan": {
+    "parts": [{"piece": "kosmos", "origin": "Greek", "meaning": "world, order"}, {"piece": "polites", "origin": "Greek", "meaning": "citizen"}],
+    "literal": "citizen of the world",
+    "path": "A cosmopolitan person belongs to no single city or country but claims the whole world as home, comfortable across cultures.",
+    "cousins": ["cosmic", "cosmos", "metropolis", "politics"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "cosset": {
+    "parts": [{"piece": "cosset", "origin": "unknown", "meaning": "hand-reared pet lamb"}],
+    "literal": "a pet lamb raised by hand",
+    "path": "A cosset was originally a lamb kept as a household pet and hand-fed rather than left in the field. The verb kept that image: to cosset someone is to fuss over and indulge them the way a hand-raised lamb was doted on. The word's ultimate origin is uncertain.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cosseted": {
+    "parts": [{"piece": "cosset", "origin": "unknown", "meaning": "hand-reared pet lamb"}],
+    "literal": "treated like a hand-raised pet lamb",
+    "path": "Same word as 'cosset': someone cosseted has been fussed over and shielded from hardship like a lamb kept as a household pet. Origin uncertain.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "coterie": {
+    "parts": [{"piece": "cote", "origin": "Old French", "meaning": "hut, cottage"}],
+    "literal": "a group of cottage-holders",
+    "path": "In medieval France a coterie was a band of peasants jointly holding a cottage-plot from a lord. The word narrowed to any small, closed circle of associates who keep to themselves.",
+    "cousins": ["cottage"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "coterminous": {
+    "parts": [{"piece": "co-", "origin": "Latin", "meaning": "together"}, {"piece": "terminus", "origin": "Latin", "meaning": "boundary, end"}],
+    "literal": "sharing a boundary",
+    "path": "Two things that are coterminous have their end-lines lined up exactly together, whether in territory or in time.",
+    "cousins": ["terminal", "terminate", "determine"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "countenance": {
+    "parts": [{"piece": "com-", "origin": "Latin", "meaning": "together"}, {"piece": "tenere", "origin": "Latin", "meaning": "to hold"}],
+    "literal": "bearing, the face one holds",
+    "path": "Countenance originally meant one's facial bearing or demeanor. To countenance an act is to show it a favorable face, that is, to approve or tolerate it.",
+    "cousins": ["contain", "continent", "maintain", "tenant"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "counterintuitive": {
+    "parts": [{"piece": "counter-", "origin": "Latin", "meaning": "against"}, {"piece": "intueri", "origin": "Latin", "meaning": "to look upon, consider"}],
+    "literal": "against what is looked upon as obvious",
+    "path": "Intuition is what seems obviously true at a glance. Something counterintuitive runs directly against that first-glance judgment.",
+    "cousins": ["intuition", "tutor", "tuition"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "countermand": {
+    "parts": [{"piece": "counter-", "origin": "Latin", "meaning": "against"}, {"piece": "mandare", "origin": "Latin", "meaning": "to order, command"}],
+    "literal": "to order against",
+    "path": "A countermand is a new order issued directly against an earlier one, canceling it.",
+    "cousins": ["command", "mandate", "demand"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "counterpoint": {
+    "parts": [{"piece": "counter-", "origin": "Latin", "meaning": "against"}, {"piece": "punctum", "origin": "Latin", "meaning": "point (musical note)"}],
+    "literal": "point against point",
+    "path": "From medieval music theory, 'note set against note': one melodic line placed against another. The word widened to any contrasting element set against another to bring it out.",
+    "cousins": ["point", "punctual", "puncture"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "counterproductive": {
+    "parts": [{"piece": "counter-", "origin": "Latin", "meaning": "against"}, {"piece": "producere", "origin": "Latin", "meaning": "to lead forward, produce"}],
+    "literal": "working against production",
+    "path": "Something counterproductive works directly against the very output it was meant to produce.",
+    "cousins": ["produce", "product", "reduce"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "court": {
+    "parts": [{"piece": "cohors", "origin": "Latin", "meaning": "enclosed yard, retinue"}],
+    "literal": "the enclosed yard of a king's retinue",
+    "path": "A royal court was the enclosed household where nobles gathered to win the ruler's favor. To 'court' someone keeps that image: paying the same kind of studied attention to win them over, or, by extension, inviting risk the way one might invite a rival's attention.",
+    "cousins": ["courtesy", "courteous", "cohort"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "covert": {
+    "parts": [{"piece": "co-", "origin": "Latin", "meaning": "thoroughly"}, {"piece": "operire", "origin": "Latin", "meaning": "to cover, close"}],
+    "literal": "covered over",
+    "path": "Past participle of Old French covrir, 'to cover.' Something covert is kept fully covered from view, hidden from open sight.",
+    "cousins": ["cover", "discover", "curfew"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "covet": {
+    "parts": [{"piece": "cupere", "origin": "Latin", "meaning": "to desire"}],
+    "literal": "to desire strongly",
+    "path": "From the same root as cupidity and Cupid. To covet is to feel that same burning desire, but aimed at something that belongs to someone else.",
+    "cousins": ["cupidity", "Cupid"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cow": {
+    "parts": [{"piece": "kuga", "origin": "Old Norse", "meaning": "to oppress"}],
+    "literal": "to oppress",
+    "path": "Probably from an Old Norse word for oppressing or subduing; unrelated to the barnyard animal. To cow someone is to browbeat them into submission.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cower": {
+    "parts": [{"piece": "kura", "origin": "Old Norse", "meaning": "to lie still, squat"}],
+    "literal": "to squat down low",
+    "path": "Probably from a Scandinavian word for crouching or lying low. To cower is to shrink low to the ground, the posture of fear.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "coy": {
+    "parts": [{"piece": "quietus", "origin": "Latin", "meaning": "calm, at rest"}],
+    "literal": "quiet, still",
+    "path": "Old French coi meant simply quiet or still. That stillness narrowed first to modest reserve, then to a deliberately playful, evasive show of shyness.",
+    "cousins": ["quiet", "quiescent", "acquit", "requiem"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cozen": {
+    "parts": [{"piece": "cozen", "origin": "unknown", "meaning": "uncertain, perhaps 'claim false kinship' or 'horse-trade'"}],
+    "literal": "uncertain",
+    "path": "Origin disputed: perhaps from French cousiner, to claim kinship in order to exploit someone's hospitality, or from an Italian word for shady horse-trading. Either story points to gaining someone's trust falsely in order to cheat them.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "crabbed": {
+    "parts": [{"piece": "crabba", "origin": "Old English", "meaning": "crab"}],
+    "literal": "like a crab",
+    "path": "Named for the crab's sideways, snapping movements: a crabbed temper is sour and irritable, and crabbed handwriting crawls crookedly across the page the way a crab scuttles sideways.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "craft": {
+    "parts": [{"piece": "cræft", "origin": "Old English", "meaning": "strength, power, skill"}],
+    "literal": "strength, power",
+    "path": "Old English cræft meant raw strength or power before it narrowed to skill and then to cunning: the sense that skillful ability can shade into sly manipulation.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "crafty": {
+    "parts": [{"piece": "cræft", "origin": "Old English", "meaning": "strength, skill"}],
+    "literal": "full of skill",
+    "path": "Built on 'craft.' Skillful ability shaded into cunning: a crafty person is skilled at getting their way, often through deception.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "craven": {
+    "parts": [{"piece": "crepare", "origin": "Latin", "meaning": "to crack, break"}],
+    "literal": "crushed, broken (in defeat)",
+    "path": "Old French cravanté meant utterly crushed or defeated in battle. A soldier so broken came to stand for cowardice itself: craven describes contemptible, defeated-before-they-start fear.",
+    "cousins": ["decrepit", "crevice"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "credence": {
+    "parts": [{"piece": "credere", "origin": "Latin", "meaning": "to believe"}],
+    "literal": "believing",
+    "path": "Directly from credere, 'to believe.' To give credence to something is to grant it belief.",
+    "cousins": ["credible", "credit", "creed"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "credibility": {
+    "parts": [{"piece": "credere", "origin": "Latin", "meaning": "to believe"}],
+    "literal": "believability",
+    "path": "From credere. Credibility is the quality of being worthy of belief.",
+    "cousins": ["credit", "creed", "credo"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "credible": {
+    "parts": [{"piece": "credere", "origin": "Latin", "meaning": "to believe"}],
+    "literal": "able to be believed",
+    "path": "Straightforward from credere: something credible can be believed.",
+    "cousins": ["credit", "incredible", "creed"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "creditable": {
+    "parts": [{"piece": "credere", "origin": "Latin", "meaning": "to believe, trust"}],
+    "literal": "worthy of trust or credit",
+    "path": "From the same root as 'credit.' A creditable effort is one that earns credit, that is, mild praise for being solidly done.",
+    "cousins": ["credible", "credit", "accredit"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "credo": {
+    "parts": [{"piece": "credo", "origin": "Latin", "meaning": "I believe"}],
+    "literal": "I believe",
+    "path": "The Latin opening word of the Christian creed, 'I believe,' generalized to mean any statement of one's core beliefs or principles.",
+    "cousins": ["creed", "credible", "credit"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "credulity": {
+    "parts": [{"piece": "credulus", "origin": "Latin", "meaning": "believing easily"}],
+    "literal": "easy believing",
+    "path": "From credere, 'to believe,' with a suffix for 'easily inclined to.' Credulity is a readiness to believe that outruns the evidence.",
+    "cousins": ["credible", "credit", "creed"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "credulous": {
+    "parts": [{"piece": "credulus", "origin": "Latin", "meaning": "believing easily"}],
+    "literal": "easily believing",
+    "path": "Same root as credulity: a credulous person believes too readily, without demanding real proof.",
+    "cousins": ["credible", "credit", "creed"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "crescendo": {
+    "parts": [{"piece": "crescere", "origin": "Latin", "meaning": "to grow"}],
+    "literal": "growing",
+    "path": "Italian musical term, present participle of 'to grow.' A crescendo is a passage that keeps growing louder until it peaks.",
+    "cousins": ["increase", "crescent", "concrete"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "crestfallen": {
+    "parts": [{"piece": "crista", "origin": "Latin", "meaning": "crest, tuft"}, {"piece": "fallen", "origin": "Old English", "meaning": "dropped"}],
+    "literal": "with crest drooped",
+    "path": "Pictures a rooster whose comb droops after losing a fight, the visible sign of a beaten spirit. Applied to people, it means visibly deflated by disappointment.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "crevice": {
+    "parts": [{"piece": "crepare", "origin": "Latin", "meaning": "to crack, break"}],
+    "literal": "a crack",
+    "path": "From the same Latin verb for cracking or breaking that gives 'decrepit' and 'craven.' A crevice is simply a narrow crack or split opening.",
+    "cousins": ["decrepit", "craven"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "crew": {
+    "parts": [{"piece": "crescere", "origin": "Latin", "meaning": "to grow, increase"}],
+    "literal": "an increase, a reinforcement",
+    "path": "A crew originally meant a body of fresh troops sent to reinforce an army, an 'increase' in numbers. It settled into meaning any organized team working together, especially aboard a ship.",
+    "cousins": ["crescendo", "crescent", "increase"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "crone": {
+    "parts": [{"piece": "caro", "origin": "Latin", "meaning": "flesh, carcass"}],
+    "literal": "an old carcass",
+    "path": "Originally an insult for a worn-out old ewe, literally an old carcass, later applied to a withered old woman, especially as a folklore figure.",
+    "cousins": ["carnal", "carnage", "carnivore", "incarnate"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "croon": {
+    "parts": [{"piece": "kronen", "origin": "Middle Dutch", "meaning": "to lament, groan"}],
+    "literal": "to groan, murmur",
+    "path": "A Germanic imitative word for a low murmuring sound, originally a lament. It softened into singing softly and sentimentally.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "cryptic": {
+    "parts": [{"piece": "kryptos", "origin": "Greek", "meaning": "hidden"}],
+    "literal": "hidden",
+    "path": "Straight from Greek kryptos, 'hidden.' Something cryptic has a meaning deliberately buried out of easy sight.",
+    "cousins": ["crypt", "encrypt", "cryptography"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "crystallize": {
+    "parts": [{"piece": "krystallos", "origin": "Greek", "meaning": "ice, rock crystal"}],
+    "literal": "to turn to ice, to form crystal",
+    "path": "Water freezing into crystal gives the image: a vague idea that crystallizes is pictured hardening into a clear, fixed shape.",
+    "cousins": ["crystal"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "culminate": {
+    "parts": [{"piece": "culmen", "origin": "Latin", "meaning": "summit, top"}],
+    "literal": "to reach the summit",
+    "path": "From culmen, 'the topmost point.' Events that culminate are pictured climbing to their highest point before resolving.",
+    "cousins": ["column", "colonnade"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "culpability": {
+    "parts": [{"piece": "culpa", "origin": "Latin", "meaning": "fault, blame"}],
+    "literal": "faultiness, blameworthiness",
+    "path": "Straight from culpa, 'fault.' Culpability is simply the state of deserving blame for a fault.",
+    "cousins": ["culprit", "exculpate", "inculpate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

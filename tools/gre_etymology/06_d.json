@@ -1,0 +1,452 @@
+{
+  "orotund": {
+    "parts": [{"piece": "os, or-", "origin": "Latin", "meaning": "mouth"}, {"piece": "rotundus", "origin": "Latin", "meaning": "round"}],
+    "literal": "with a round mouth",
+    "path": "The Latin phrase ore rotundo, with rounded mouth, described elegant, full-voiced speech. Orotund kept that image of speech that sounds full and rounded, but often over-inflated and pompous.",
+    "cousins": ["oral", "rotund", "rotate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "orthodox": {
+    "parts": [{"piece": "ortho-", "origin": "Greek", "meaning": "straight, correct"}, {"piece": "doxa", "origin": "Greek", "meaning": "opinion, belief"}],
+    "literal": "correct opinion",
+    "path": "Greek ortho- (straight, correct) plus doxa (opinion) named the correct or straight belief endorsed by an authority. Orthodox describes conformity to that established, accepted belief.",
+    "cousins": ["orthopedic", "paradox"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "oscillate": {
+    "parts": [{"piece": "oscillum", "origin": "Latin", "meaning": "small swinging mask (diminutive of os, face)"}],
+    "literal": "to swing like a small hanging mask",
+    "path": "Latin oscillum named a little swinging mask of Bacchus hung in vineyards to sway in the breeze. Oscillare, to swing like it, gave English oscillate: to swing back and forth, or waver between positions.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ossify": {
+    "parts": [{"piece": "os, oss-", "origin": "Latin", "meaning": "bone"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "to make into bone",
+    "path": "Latin os, bone, combined with facere (to make) gives ossify: literally to turn into bone. English extended that hardening image to ideas or institutions that become rigid and unable to change.",
+    "cousins": ["osseous"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ostensible": {
+    "parts": [{"piece": "ob-", "origin": "Latin", "meaning": "toward"}, {"piece": "tendere", "origin": "Latin", "meaning": "to stretch"}],
+    "literal": "shown, held out to view",
+    "path": "Latin ostendere, to hold out for show (ob-, toward, plus tendere, to stretch), gives ostensible: something shown or displayed, but possibly just for appearance rather than the real truth underneath.",
+    "cousins": ["extend", "tension", "pretend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ostensive": {
+    "parts": [{"piece": "ob-", "origin": "Latin", "meaning": "toward"}, {"piece": "tendere", "origin": "Latin", "meaning": "to stretch"}],
+    "literal": "showing directly",
+    "path": "Also from Latin ostendere, to show (see ostensible), but ostensive kept the more literal, straightforward sense: directly demonstrating something by pointing it out.",
+    "cousins": ["extend", "tension"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ostentatious": {
+    "parts": [{"piece": "ostentare", "origin": "Latin", "meaning": "to show off repeatedly (frequentative of ostendere, to show)"}],
+    "literal": "showing off repeatedly",
+    "path": "Ostentare, the repeated-action form of ostendere, to show, meant to show off again and again. Ostentatious describes behavior or display meant to impress through exaggerated show.",
+    "cousins": ["extend", "pretend", "ostensible"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ostracism": {
+    "parts": [{"piece": "ostrakon", "origin": "Greek", "meaning": "potsherd"}],
+    "literal": "voting by potsherd",
+    "path": "In ancient Athens, citizens voted to banish someone for ten years by scratching his name onto an ostrakon, a broken piece of pottery. Ostracism kept that image: formal exclusion from a group.",
+    "cousins": ["oyster"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ostracize": {
+    "parts": [{"piece": "ostrakon", "origin": "Greek", "meaning": "potsherd"}],
+    "literal": "to banish by potsherd vote",
+    "path": "The verb form of ostracism (see ostracism): to exclude someone from a group, as Athenians once voted to exile a citizen.",
+    "cousins": ["oyster"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "oust": {
+    "parts": [{"piece": "oster", "origin": "Old French", "meaning": "to remove, take away"}],
+    "literal": "to remove, take away",
+    "path": "Old French oster meant to remove or take away, of disputed ultimate Latin origin. English oust narrowed it to forcibly removing someone from a position of power.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "outlandish": {
+    "parts": [{"piece": "out", "origin": "Old English", "meaning": "out"}, {"piece": "land", "origin": "Old English", "meaning": "land"}],
+    "literal": "from an outer land, foreign",
+    "path": "A native compound originally meaning simply foreign, from an outside land. The sense shifted from foreign to bizarre and unconventional, as foreign things once seemed strange.",
+    "cousins": ["land"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "outskirts": {
+    "parts": [{"piece": "out", "origin": "Old English", "meaning": "out"}, {"piece": "skirt", "origin": "Old Norse", "meaning": "edge, border of a garment"}],
+    "literal": "outer edges",
+    "path": "Skirt originally named the lower edge of a garment, then extended to any outer edge or border. Outskirts combines out with that edge sense: the outer edges of a town, away from its center.",
+    "cousins": ["shirt"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "outstrip": {
+    "parts": [{"piece": "strip", "origin": "Middle English", "meaning": "to move swiftly (obsolete sense)"}],
+    "literal": "to move out faster than",
+    "path": "Here strip carries an old, now obsolete sense of moving swiftly, not the remove-covering sense. Outstrip combines that with out to mean literally to outrun, and by extension to surpass or exceed.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "overbearing": {
+    "parts": [{"piece": "over", "origin": "Old English", "meaning": "over"}, {"piece": "beran", "origin": "Old English", "meaning": "to carry, bear"}],
+    "literal": "bearing, pressing over",
+    "path": "A native compound: to bear, or press, over someone else, literally overpowering them with weight. Overbearing describes a domineering, arrogant manner that presses down on others.",
+    "cousins": ["bear"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "overshadow": {
+    "parts": [{"piece": "over", "origin": "Old English", "meaning": "over"}, {"piece": "shadow", "origin": "Old English", "meaning": "shadow"}],
+    "literal": "to cast a shadow over",
+    "path": "A native compound: to cast a shadow that covers something, literally darkening it. Figuratively, to overshadow something is to make it seem less important, eclipsed the way a shadow blocks light.",
+    "cousins": ["shade"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "overt": {
+    "parts": [{"piece": "aperire", "origin": "Latin", "meaning": "to open"}],
+    "literal": "opened",
+    "path": "Old French ouvert, opened, past participle of ouvrir, to open (from Latin aperire). Overt kept that sense of openness: done in plain view, not hidden.",
+    "cousins": ["aperture", "overture"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "overweening": {
+    "parts": [{"piece": "over", "origin": "Old English", "meaning": "excessively"}, {"piece": "wenan", "origin": "Old English", "meaning": "to think, suppose"}],
+    "literal": "thinking too much of oneself",
+    "path": "The archaic verb ween meant to think or suppose, especially favorably about oneself. Overweening describes thinking too highly of yourself, excessively supposing your own worth, hence arrogantly excessive.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "overwrought": {
+    "parts": [{"piece": "over", "origin": "Old English", "meaning": "excessively"}, {"piece": "wrought", "origin": "Old English", "meaning": "worked (past participle of work)"}],
+    "literal": "worked over excessively",
+    "path": "Wrought is an old past participle of work. Overwrought literally means worked over excessively, whether describing an emotionally overworked, agitated state or a design worked over into overly elaborate detail.",
+    "cousins": ["work"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pacifist": {
+    "parts": [{"piece": "pax", "origin": "Latin", "meaning": "peace"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "peace-maker",
+    "path": "Latin pax (peace) combined with facere (to make) gives the root of pacifist: literally one devoted to making peace, opposed to war and violence.",
+    "cousins": ["peace", "pact"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "pacify": {
+    "parts": [{"piece": "pax", "origin": "Latin", "meaning": "peace"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "to make peace",
+    "path": "Built from the same roots as pacifist (see pacifist): to bring about a calm, peaceful state by subduing conflict or anger.",
+    "cousins": ["peace", "pact"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "paean": {
+    "parts": [{"piece": "Paian", "origin": "Greek", "meaning": "healer god, epithet of Apollo"}],
+    "literal": "a hymn to the healer god",
+    "path": "In Greek religion, a paian was a choral hymn sung to Paieon, the healer god, especially in thanksgiving or triumph after victory. English paean kept the sense of an exultant song of praise.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "painstaking": {
+    "parts": [{"piece": "pain", "origin": "Old English/French", "meaning": "trouble, effort"}, {"piece": "taking", "origin": "Old English", "meaning": "taking"}],
+    "literal": "taking trouble, taking effort",
+    "path": "A native compound built on the phrase to take pains, to exert effort or trouble over something. Painstaking describes work done with that great, careful effort.",
+    "cousins": ["pain"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "palatable": {
+    "parts": [{"piece": "palatum", "origin": "Latin", "meaning": "palate, roof of the mouth"}],
+    "literal": "able to be tasted",
+    "path": "Latin palatum named the palate, the roof of the mouth where taste is sensed. Palatable describes what's acceptable to that sense, whether literal taste or, figuratively, an idea acceptable to the mind.",
+    "cousins": ["palate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "palatial": {
+    "parts": [{"piece": "palatium", "origin": "Latin", "meaning": "palace (from the Palatine Hill)"}],
+    "literal": "palace-like",
+    "path": "Latin palatium named the imperial residences built on Rome's Palatine Hill, the source of palace. Palatial describes anything as spacious and splendid as such a residence.",
+    "cousins": ["palace"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "palaver": {
+    "parts": [{"piece": "palavra", "origin": "Portuguese", "meaning": "word, speech (Latin parabola)"}],
+    "literal": "word, talk",
+    "path": "Portuguese palavra, word or speech, traced from Latin parabola, a comparison. Sailors picked it up from West African trade negotiations, and English palaver came to mean prolonged, often unnecessary talk or fuss.",
+    "cousins": ["parable", "parole"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "palimpsest": {
+    "parts": [{"piece": "palin", "origin": "Greek", "meaning": "again"}, {"piece": "psestos", "origin": "Greek", "meaning": "rubbed smooth (psen, to rub, scrape)"}],
+    "literal": "scraped again",
+    "path": "Greek palimpsestos described a writing surface, like parchment, scraped clean and reused, though traces of the earlier text often still showed through. Palimpsest kept that image: anything reused while bearing traces of what came before.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pall": {
+    "parts": [{"piece": "pallium", "origin": "Latin", "meaning": "cloak, covering cloth"}],
+    "literal": "a covering cloth",
+    "path": "Latin pallium named a cloak or covering cloth; the word came to mean the cloth draped over a coffin at a funeral. Pall extended figuratively to any heavy, gloomy atmosphere that covers a scene like a funeral shroud.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "palliate": {
+    "parts": [{"piece": "pallium", "origin": "Latin", "meaning": "cloak"}],
+    "literal": "to cloak, cover up",
+    "path": "Latin pallium, cloak (see pall), gives palliare, to cover with a cloak. Palliate kept the figurative sense: to cover over the symptoms of a problem, relieving them without curing the underlying cause.",
+    "cousins": ["pall"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pallid": {
+    "parts": [{"piece": "pallere", "origin": "Latin", "meaning": "to be pale"}],
+    "literal": "pale",
+    "path": "Latin pallere meant to be pale or wan; pallidus described that pale quality directly. English pallid kept the sense: pale, lacking healthy color or vitality.",
+    "cousins": ["pale", "pallor"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "palpable": {
+    "parts": [{"piece": "palpare", "origin": "Latin", "meaning": "to touch gently, feel"}],
+    "literal": "able to be touched",
+    "path": "Latin palpare meant to touch or stroke gently, as if feeling something out. Palpable describes something so intense or obvious it seems almost touchable, felt as clearly as with the hands.",
+    "cousins": ["palpitate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "palpitate": {
+    "parts": [{"piece": "palpitare", "origin": "Latin", "meaning": "to throb repeatedly (frequentative of palpare, to touch)"}],
+    "literal": "to keep throbbing",
+    "path": "Latin palpitare, the repeated-action form of palpare (to touch, throb), described a heart or pulse throbbing again and again. English palpitate kept that sense: to beat rapidly and irregularly.",
+    "cousins": ["palpable"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "panacea": {
+    "parts": [{"piece": "pan-", "origin": "Greek", "meaning": "all"}, {"piece": "akos", "origin": "Greek", "meaning": "cure, remedy"}],
+    "literal": "all-cure",
+    "path": "Greek pan- (all) combined with akos (remedy) named a universal cure for every ill, associated with the goddess Panacea. English panacea kept that sense: a supposed cure-all for any problem.",
+    "cousins": ["pandemic", "panorama"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "panache": {
+    "parts": [{"piece": "pinna", "origin": "Latin", "meaning": "feather, wing"}],
+    "literal": "a plume of feathers",
+    "path": "French panache named the showy plume of feathers worn on a helmet, especially by a dashing military commander. English panache kept that sense of flamboyant, stylish flair.",
+    "cousins": ["pinnacle", "pin"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "panegyric": {
+    "parts": [{"piece": "pan-", "origin": "Greek", "meaning": "all"}, {"piece": "agyris", "origin": "Greek", "meaning": "assembly (ageirein, to gather)"}],
+    "literal": "of a full public gathering",
+    "path": "Greek panegyrikos described a speech given at a full public assembly, especially one praising a person or achievement. English panegyric kept that sense: elaborate, formal praise.",
+    "cousins": ["agora"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "panoply": {
+    "parts": [{"piece": "pan-", "origin": "Greek", "meaning": "all"}, {"piece": "hopla", "origin": "Greek", "meaning": "arms, armor"}],
+    "literal": "full armor",
+    "path": "Greek panoplia named the full suit of armor and weapons of a Greek hoplite soldier. English panoply broadened that sense of a complete, impressive set to any complete and impressive array.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "parable": {
+    "parts": [{"piece": "para-", "origin": "Greek", "meaning": "alongside"}, {"piece": "bole", "origin": "Greek", "meaning": "a throw (ballein, to throw)"}],
+    "literal": "a throwing alongside, comparison",
+    "path": "Greek parabole literally meant something thrown alongside another for comparison. A parable is a short story placed alongside a moral truth, illustrating it by comparison.",
+    "cousins": ["ballistic", "symbol"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "paradigm": {
+    "parts": [{"piece": "para-", "origin": "Greek", "meaning": "beside"}, {"piece": "deiknynai", "origin": "Greek", "meaning": "to show"}],
+    "literal": "shown beside, as an example",
+    "path": "Greek paradeigma, from deiknynai (to show) plus para- (beside), named a pattern held up alongside something as a model. Paradigm kept that sense: a model or typical framework others are measured against.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "paradigmatic": {
+    "parts": [{"piece": "para-", "origin": "Greek", "meaning": "beside"}, {"piece": "deiknynai", "origin": "Greek", "meaning": "to show"}],
+    "literal": "serving as a model shown beside",
+    "path": "The adjective form of paradigm (see paradigm): serving as a typical example held up as the model.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "paradox": {
+    "parts": [{"piece": "para-", "origin": "Greek", "meaning": "contrary to"}, {"piece": "doxa", "origin": "Greek", "meaning": "opinion, belief"}],
+    "literal": "beyond common opinion",
+    "path": "Greek doxa meant opinion or belief (see orthodox); para- (contrary to) plus doxa named something contrary to common opinion, seemingly impossible yet true.",
+    "cousins": ["orthodox"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "paradoxical": {
+    "parts": [{"piece": "para-", "origin": "Greek", "meaning": "contrary to"}, {"piece": "doxa", "origin": "Greek", "meaning": "opinion, belief"}],
+    "literal": "contrary to common opinion",
+    "path": "The adjective form of paradox (see paradox): seemingly contradictory to common belief yet true.",
+    "cousins": ["orthodox"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "paragon": {
+    "parts": [{"piece": "parakonan", "origin": "Greek", "meaning": "to sharpen, whet (against a stone)"}],
+    "literal": "a touchstone for testing",
+    "path": "A paragone was a touchstone, a stone used to test the purity of gold by rubbing it and comparing the streak. Paragon kept that sense: a standard so perfect it can test and measure all others against it.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "paraphernalia": {
+    "parts": [{"piece": "para-", "origin": "Greek", "meaning": "beside"}, {"piece": "pherne", "origin": "Greek", "meaning": "dowry (pherein, to bring, carry)"}],
+    "literal": "things beyond the dowry",
+    "path": "In Roman and later law, paraphernalia named a wife's personal property beyond her formal dowry, from Greek para- (beside) plus pherne (dowry). The word broadened to any miscellaneous collection of belongings or equipment.",
+    "cousins": ["metaphor"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "pare": {
+    "parts": [{"piece": "parare", "origin": "Latin", "meaning": "to prepare, make ready"}],
+    "literal": "to prepare, trim",
+    "path": "Latin parare, to prepare, developed in French into paring away the excess to prepare something, like trimming a fruit's skin. Pare kept that sense: to trim or gradually reduce.",
+    "cousins": ["prepare", "repair", "separate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "parenthetical": {
+    "parts": [{"piece": "para-", "origin": "Greek", "meaning": "beside"}, {"piece": "thesis", "origin": "Greek", "meaning": "a placing (tithenai, to place)"}],
+    "literal": "a placing in beside",
+    "path": "Greek parenthesis literally meant a placing-in beside the main text, an inserted aside. Parenthetical describes anything inserted that way, additional but set apart from the main line of thought.",
+    "cousins": ["thesis", "synthesis", "antithesis"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pariah": {
+    "parts": [{"piece": "paraiyan", "origin": "Tamil", "meaning": "member of a South Indian caste, drummer"}],
+    "literal": "drummer, member of a low caste",
+    "path": "Pariah comes from Tamil paraiyan, a member of a large caste in South India traditionally associated with drumming, treated as an outcast by the colonial-era caste hierarchy. English generalized the word to any social outcast.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "parity": {
+    "parts": [{"piece": "par", "origin": "Latin", "meaning": "equal"}],
+    "literal": "equality",
+    "path": "Latin par meant equal; paritas named the state of being equal. English parity kept that sense directly: equality in status, rank, or amount.",
+    "cousins": ["pair", "compare", "disparate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "parley": {
+    "parts": [{"piece": "parler", "origin": "Old French", "meaning": "to speak (Latin parabola, speech)"}],
+    "literal": "a speaking",
+    "path": "Old French parler, to speak, from Latin parabola by way of Vulgar Latin speech, gives parley: literally speech or talk, narrowed to a formal discussion between opposing sides to negotiate terms.",
+    "cousins": ["parlor", "parliament", "parable"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "parochial": {
+    "parts": [{"piece": "para-", "origin": "Greek", "meaning": "beside"}, {"piece": "oikos", "origin": "Greek", "meaning": "house"}],
+    "literal": "a dwelling beside",
+    "path": "Greek paroikos, a neighbor dwelling beside the main community, gave parochia, a parish, a local church district. Parochial kept the sense of that limited, local sphere, narrow in outlook like someone who never leaves their own parish.",
+    "cousins": ["economy", "ecology", "parish"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "parody": {
+    "parts": [{"piece": "para-", "origin": "Greek", "meaning": "beside, mock-"}, {"piece": "oide", "origin": "Greek", "meaning": "song, ode"}],
+    "literal": "a mock song sung alongside",
+    "path": "Greek paroidia combined para- (alongside, with a mocking twist) with oide (song) to name a song composed to mock another by imitation. English parody kept that sense: a humorous imitation of a work's style.",
+    "cousins": ["ode", "melody"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "parry": {
+    "parts": [{"piece": "parare", "origin": "Latin", "meaning": "to prepare, make ready"}],
+    "literal": "to prepare oneself, ward off",
+    "path": "French parer, to ward off, comes from Latin parare, to prepare, the sense of readying oneself to block an incoming blow. Parry kept that sense: to deflect an attack, literal or figurative.",
+    "cousins": ["prepare", "repair", "pare"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

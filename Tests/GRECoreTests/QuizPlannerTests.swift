@@ -17,46 +17,35 @@ import Testing
         )
     }
 
-    private var deck: Deck { Self.catalog.decks[0] }
+    private var dayStart: Date { Date(timeIntervalSince1970: 1_799_971_200) }
 
-    @Test func aDeckTestCoversEveryStudiedWordOnce() {
-        let cards = deck.wordIDs.prefix(9).map { studied($0) }
-        let items = QuizPlanner.deckTest(deck: deck, cards: cards, catalog: Self.catalog, seed: 1)
-        #expect(Set(items.map(\.card.wordID)) == Set(cards.map(\.wordID)))
-        #expect(items.count == 9)
+    @Test func theChallengeIsTheSameSetAllDayAndANewOneTomorrow() {
+        // Either you did today's or you did not. Re-rolling on every open would
+        // make it another session with a different name.
+        let cards = Self.catalog.words.prefix(60).map { studied($0.id) }
+        func challenge(_ start: Date) -> [String] {
+            QuizPlanner.dailyChallenge(cards: cards, catalog: Self.catalog, scheduler: fsrs,
+                                       dayStart: start, now: now).map(\.card.wordID)
+        }
+        #expect(challenge(dayStart) == challenge(dayStart))
+        #expect(challenge(dayStart) != challenge(dayStart.addingTimeInterval(86_400)))
     }
 
-    @Test func unstudiedAndForeignWordsAreLeftOut() {
-        let cards = deck.wordIDs.prefix(6).map { studied($0) } + [studied("laconic")]
-        let items = QuizPlanner.deckTest(deck: deck, cards: cards, catalog: Self.catalog, seed: 1)
-        #expect(items.count == 6)
-        #expect(items.allSatisfy { deck.wordIDs.contains($0.card.wordID) })
-    }
-
-    @Test func fewerThanFiveStudiedWordsIsNoTest() {
-        let cards = deck.wordIDs.prefix(4).map { studied($0) }
-        #expect(QuizPlanner.deckTest(deck: deck, cards: cards, catalog: Self.catalog, seed: 1).isEmpty)
-        let five = deck.wordIDs.prefix(5).map { studied($0) }
-        #expect(QuizPlanner.deckTest(deck: deck, cards: five, catalog: Self.catalog, seed: 1).count == 5)
-    }
-
-    @Test func onlyLocalModesAreUsedAndTheyAreMixed() {
-        let cards = deck.wordIDs.map { studied($0) }
-        let items = QuizPlanner.deckTest(deck: deck, cards: cards, catalog: Self.catalog, seed: 3)
+    @Test func theChallengeOnlyAsksQuestionsThatNeedNoKey() {
+        // It is the one screen that has to work on a train.
+        let cards = Self.catalog.words.prefix(60).map { studied($0.id) }
+        let items = QuizPlanner.dailyChallenge(cards: cards, catalog: Self.catalog,
+                                               scheduler: fsrs, dayStart: dayStart, now: now)
+        #expect(items.count == 20)
         #expect(items.allSatisfy { StudyMode.locallyGraded.contains($0.mode) })
-        #expect(Set(items.map(\.mode)).count == 4)
-        // "Which meaning" needs a trap word, so a test never asks it.
         #expect(items.allSatisfy { $0.mode != .senseInContext })
+        #expect(Set(items.map(\.mode)).count == 4)
     }
 
-    @Test func theSameSeedGivesTheSameOrderAndADifferentSeedShufflesIt() {
-        let cards = deck.wordIDs.map { studied($0) }
-        let a = QuizPlanner.deckTest(deck: deck, cards: cards, catalog: Self.catalog, seed: 7).map(\.card.wordID)
-        let b = QuizPlanner.deckTest(deck: deck, cards: cards, catalog: Self.catalog, seed: 7).map(\.card.wordID)
-        let c = QuizPlanner.deckTest(deck: deck, cards: cards, catalog: Self.catalog, seed: 8).map(\.card.wordID)
-        #expect(a == b)
-        #expect(a != c)
-        #expect(a != deck.wordIDs, "should not come out in deck order")
+    @Test func thereIsNoChallengeBeforeThereIsAnythingToBeChallengedOn() {
+        let cards = Self.catalog.words.prefix(4).map { studied($0.id) }
+        #expect(QuizPlanner.dailyChallenge(cards: cards, catalog: Self.catalog, scheduler: fsrs,
+                                           dayStart: dayStart, now: now).isEmpty)
     }
 
     @Test func aGlobalTestSamplesTheRequestedCountFromStudiedWords() {

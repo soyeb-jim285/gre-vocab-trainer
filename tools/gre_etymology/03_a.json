@@ -1,0 +1,1057 @@
+{
+  "duress": {
+    "parts": [
+      {
+        "piece": "durus",
+        "origin": "Latin",
+        "meaning": "hard"
+      }
+    ],
+    "literal": "hardness, harsh treatment",
+    "path": "Latin durus meant hard or harsh, giving durus-based durities and later duresse, hardship imposed on someone. In law and general use this narrowed to compulsion by threat or force: being made to act under hard pressure.",
+    "cousins": [
+      "endure",
+      "durable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dutiful": {
+    "parts": [
+      {
+        "piece": "debitum",
+        "origin": "Latin",
+        "meaning": "that which is owed"
+      }
+    ],
+    "literal": "full of what is owed",
+    "path": "Duty traces to Old French deu, owed, from Latin debitum. Something owed became a moral obligation, and dutiful describes someone who conscientiously pays what duty demands.",
+    "cousins": [
+      "debt",
+      "due"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "dwell": {
+    "parts": [
+      {
+        "piece": "dwellan",
+        "origin": "Old English",
+        "meaning": "to go astray, linger, delay"
+      }
+    ],
+    "literal": "to linger, delay",
+    "path": "Old English dwellan meant to err or lead astray, and its Old Norse cognate dvelja meant to delay or tarry. The sense of lingering in a place shifted to residing there, and lingering on a topic gave the figurative sense of dwelling on something.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "dwindling": {
+    "parts": [
+      {
+        "piece": "dwinan",
+        "origin": "Old English",
+        "meaning": "to waste away"
+      }
+    ],
+    "literal": "wasting away",
+    "path": "Old English dwinan meant to waste away or vanish. Dwindle added a frequentative -le ending, picturing something shrinking bit by bit, which is exactly the steady decrease the word now names.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dynamo": {
+    "parts": [
+      {
+        "piece": "dynamis",
+        "origin": "Greek",
+        "meaning": "power"
+      }
+    ],
+    "literal": "a power-generating machine",
+    "path": "Greek dynamis meant power or force. A dynamo is literally an electricity-generating machine, and the word jumped to describe a person who generates that same tireless energy in everything they do.",
+    "cousins": [
+      "dynamic",
+      "dynasty"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "dyspeptic": {
+    "parts": [
+      {
+        "piece": "dys-",
+        "origin": "Greek",
+        "meaning": "bad, difficult"
+      },
+      {
+        "piece": "pepsis",
+        "origin": "Greek",
+        "meaning": "digestion"
+      }
+    ],
+    "literal": "badly digesting",
+    "path": "Greek dyspepsia meant bad digestion, an upset stomach. Chronic indigestion was long associated with a sour, irritable mood, so dyspeptic came to describe someone gloomy and ill-tempered, not just someone with a bad stomach.",
+    "cousins": [
+      "pepsin"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "earnest": {
+    "parts": [
+      {
+        "piece": "eornoste",
+        "origin": "Old English",
+        "meaning": "seriousness, zeal"
+      }
+    ],
+    "literal": "in serious zeal",
+    "path": "Old English eornoste meant vigor or seriousness of purpose. The word kept that core sense: to be earnest is to mean what you say and pursue it with sincere, unaffected seriousness.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ebb": {
+    "parts": [
+      {
+        "piece": "ebba",
+        "origin": "Old English",
+        "meaning": "low tide, flowing back"
+      }
+    ],
+    "literal": "tide flowing back out",
+    "path": "Old English ebba named the outgoing tide, water receding from the shore. The tidal image extended to anything that declines or recedes from a high point, like fortunes or strength ebbing away.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ebullient": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "bullire",
+        "origin": "Latin",
+        "meaning": "to boil, bubble"
+      }
+    ],
+    "literal": "boiling out, bubbling over",
+    "path": "Latin ebullire meant to boil up or bubble out. The physical image of liquid boiling over became a figure for emotion: someone ebullient is so full of cheerful energy it seems to bubble out of them.",
+    "cousins": [
+      "boil",
+      "bouillon"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "eccentric": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Greek",
+        "meaning": "out of"
+      },
+      {
+        "piece": "kentron",
+        "origin": "Greek",
+        "meaning": "center"
+      }
+    ],
+    "literal": "off center",
+    "path": "Astronomers used Greek-derived eccentric for an orbit not centered on the expected point. Applied to people, being off the normal center of behavior became a mild, often fond way of saying unconventional or slightly strange.",
+    "cousins": [
+      "center",
+      "concentric"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "echelon": {
+    "parts": [
+      {
+        "piece": "scala",
+        "origin": "Latin",
+        "meaning": "ladder"
+      }
+    ],
+    "literal": "ladder-like formation",
+    "path": "French echelon derives from echelle, ladder, ultimately Latin scala. Troops arranged in a stepped, ladder-like formation of ranks gave the word its military sense, which broadened to any level or rank within an organization.",
+    "cousins": [
+      "scale",
+      "escalate"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "eclectic": {
+    "parts": [
+      {
+        "piece": "ek-",
+        "origin": "Greek",
+        "meaning": "out"
+      },
+      {
+        "piece": "legein",
+        "origin": "Greek",
+        "meaning": "to choose, gather"
+      }
+    ],
+    "literal": "picking out, selecting",
+    "path": "Greek eklektikos described philosophers who picked out the best doctrines from various schools rather than following one system. The word kept that sense of selecting freely from many sources.",
+    "cousins": [
+      "select",
+      "collect",
+      "dialect"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "eclipse": {
+    "parts": [
+      {
+        "piece": "ek-",
+        "origin": "Greek",
+        "meaning": "out"
+      },
+      {
+        "piece": "leipein",
+        "origin": "Greek",
+        "meaning": "to leave"
+      }
+    ],
+    "literal": "a leaving out, failing to appear",
+    "path": "Greek ekleipsis described the sun or moon failing to appear, being blotted out. From one body blocking another's light, eclipse extended to any person or thing that overshadows and surpasses another.",
+    "cousins": [
+      "ellipsis"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "economical": {
+    "parts": [
+      {
+        "piece": "oikos",
+        "origin": "Greek",
+        "meaning": "house"
+      },
+      {
+        "piece": "nomos",
+        "origin": "Greek",
+        "meaning": "managing, law"
+      }
+    ],
+    "literal": "managing the household well",
+    "path": "Greek oikonomia meant household management. Managing a household well meant not wasting resources, so economical narrowed from general household management to the specific virtue of thrift and avoiding waste.",
+    "cousins": [
+      "economy",
+      "ecology"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "economy": {
+    "parts": [
+      {
+        "piece": "oikos",
+        "origin": "Greek",
+        "meaning": "house"
+      },
+      {
+        "piece": "nomos",
+        "origin": "Greek",
+        "meaning": "managing, law"
+      }
+    ],
+    "literal": "household management",
+    "path": "Greek oikonomia meant management of a household or estate. The idea of efficient management of resources scaled up from one house to a whole nation's production and trade, giving both senses: thrift and a financial system.",
+    "cousins": [
+      "economical",
+      "ecology"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "edict": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "dicere",
+        "origin": "Latin",
+        "meaning": "to say, proclaim"
+      }
+    ],
+    "literal": "something spoken out",
+    "path": "Latin edictum was something proclaimed out publicly by a magistrate or ruler. That sense of an authoritative public proclamation carried straight into English edict.",
+    "cousins": [
+      "dictate",
+      "predict",
+      "verdict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "edifice": {
+    "parts": [
+      {
+        "piece": "aedes",
+        "origin": "Latin",
+        "meaning": "building, hearth"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "a made building",
+    "path": "Latin aedificium meant a building constructed with care, from aedes, dwelling, plus facere, to make. English kept the sense of a large, imposing structure, and extended it to elaborate systems built like a structure.",
+    "cousins": [
+      "edify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "edify": {
+    "parts": [
+      {
+        "piece": "aedes",
+        "origin": "Latin",
+        "meaning": "building, hearth"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "to build up",
+    "path": "Latin aedificare meant to build a house. Christian writers used it figuratively for building up someone's faith or character, and English edify kept only that figurative sense of instructing and morally improving someone.",
+    "cousins": [
+      "edifice"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "edifying": {
+    "parts": [
+      {
+        "piece": "aedes",
+        "origin": "Latin",
+        "meaning": "building, hearth"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "building up (morally)",
+    "path": "From the same Latin root as edify, building a house figuratively became building up a person's mind or morals. Edifying describes content that instructs and improves in that constructive way.",
+    "cousins": [
+      "edifice"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "effacing": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "facies",
+        "origin": "Latin",
+        "meaning": "face, appearance"
+      }
+    ],
+    "literal": "rubbing out the face",
+    "path": "French effacer meant to rub out or erase, literally wiping away the face or surface of something. Self-effacing extended that image of erasing to a person erasing their own presence, staying deliberately unnoticed.",
+    "cousins": [
+      "face",
+      "facial"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "effervescence": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "fervere",
+        "origin": "Latin",
+        "meaning": "to boil, glow"
+      }
+    ],
+    "literal": "boiling out",
+    "path": "Latin effervescere meant to boil up or bubble out, describing liquids fizzing. The bubbling image of a fizzy drink was carried over to describe lively, bubbling enthusiasm in a person's manner.",
+    "cousins": [
+      "fervent",
+      "fervor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "effervescent": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "fervere",
+        "origin": "Latin",
+        "meaning": "to boil, glow"
+      }
+    ],
+    "literal": "boiling out, fizzing",
+    "path": "From the same root as effervescence, a liquid that fizzes and bubbles gave a vivid image for a personality that seems to bubble over with lively enthusiasm.",
+    "cousins": [
+      "fervent",
+      "fervor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "effete": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "fetus",
+        "origin": "Latin",
+        "meaning": "having given birth, offspring"
+      }
+    ],
+    "literal": "worn out from bearing young",
+    "path": "Latin effetus described an animal exhausted and worn out after giving birth, no longer fertile. The word broadened to anything worn out and depleted of vigor, and later took on a sense of over-refined weakness.",
+    "cousins": [
+      "fetus",
+      "fecund"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "efficacious": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "making things happen",
+    "path": "Latin efficax meant capable of producing an effect, from efficere, to work out or accomplish. Something efficacious does what it is supposed to do, producing the desired result.",
+    "cousins": [
+      "effect",
+      "efficient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "efficacy": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "the power to make happen",
+    "path": "From the same root as efficacious, Latin efficacia meant effective power. Efficacy is the noun for that capacity: the power a thing has to produce its intended result.",
+    "cousins": [
+      "effect",
+      "efficient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "effigy": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "fingere",
+        "origin": "Latin",
+        "meaning": "to shape, fashion"
+      }
+    ],
+    "literal": "something shaped out",
+    "path": "Latin effigies meant a shaped likeness or image, from fingere, to mold or fashion, the root behind figure. Effigy kept the sense of a fashioned likeness, especially one crudely made and burned or hanged in protest.",
+    "cousins": [
+      "figure",
+      "fiction"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "effluvium": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "fluere",
+        "origin": "Latin",
+        "meaning": "to flow"
+      }
+    ],
+    "literal": "a flowing out",
+    "path": "Latin effluvium meant an outflow, from fluere, to flow, the root of fluid and flow. What flows out of decaying or foul matter is an invisible vapor, giving the word its sense of an unpleasant smell.",
+    "cousins": [
+      "fluid",
+      "flux",
+      "fluent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "effrontery": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "frons",
+        "origin": "Latin",
+        "meaning": "forehead, brow"
+      }
+    ],
+    "literal": "showing one's brow outward, unabashed",
+    "path": "Latin effrons described someone shameless, putting their forehead forward without blushing. A bold, exposed brow became the image for brazen boldness that feels no shame.",
+    "cousins": [
+      "front",
+      "frontal"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "effulgence": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "fulgere",
+        "origin": "Latin",
+        "meaning": "to shine, flash"
+      }
+    ],
+    "literal": "a shining out",
+    "path": "Latin effulgere meant to shine out or blaze forth, from fulgere, to flash or gleam. Effulgence names that outward blaze of light, a radiant brightness.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "effusive": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "fundere",
+        "origin": "Latin",
+        "meaning": "to pour"
+      }
+    ],
+    "literal": "pouring out",
+    "path": "Latin effundere meant to pour out. Emotions that pour out without restraint, gushing freely in speech or writing, gave effusive its sense of excessive, unchecked expression of feeling.",
+    "cousins": [
+      "fuse",
+      "confuse",
+      "refund"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "egalitarian": {
+    "parts": [
+      {
+        "piece": "aequalis",
+        "origin": "Latin",
+        "meaning": "equal"
+      }
+    ],
+    "literal": "believing in equals",
+    "path": "French egal, equal, comes from Latin aequalis. Egalitarian was coined in the 19th century for the political doctrine that all people should be equal, and it still names that belief in equality for all.",
+    "cousins": [
+      "equal",
+      "equality"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "egotist": {
+    "parts": [
+      {
+        "piece": "ego",
+        "origin": "Latin",
+        "meaning": "I"
+      }
+    ],
+    "literal": "an I-focused person",
+    "path": "Latin ego simply means I. An egotist is someone whose speech and thought constantly return to that word, self-absorbed and boastful about their own importance.",
+    "cousins": [
+      "ego"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "egregious": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out of"
+      },
+      {
+        "piece": "grex",
+        "origin": "Latin",
+        "meaning": "flock, herd"
+      }
+    ],
+    "literal": "standing out from the herd",
+    "path": "Latin egregius originally meant distinguished, standing out from the common flock in a good way. Over time the word ironically flipped to standing out for badness, so egregious now means outstandingly bad rather than outstandingly good.",
+    "cousins": [
+      "gregarious",
+      "congregate"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "egress": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "gradi",
+        "origin": "Latin",
+        "meaning": "to step, go"
+      }
+    ],
+    "literal": "a stepping out",
+    "path": "Latin egressus meant a going out, from gradi, to step or walk. Egress names the act or the way of stepping out, the exit.",
+    "cousins": [
+      "progress",
+      "gradual",
+      "degrade"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "elaborate": {
+    "parts": [
+      {
+        "piece": "e-/ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "labor",
+        "origin": "Latin",
+        "meaning": "work, toil"
+      }
+    ],
+    "literal": "worked out by labor",
+    "path": "Latin elaborare meant to produce something by hard toil, working it out fully. English kept that sense of thorough working-over: an elaborate plan or design has been labored over piece by piece until it's detailed and intricate.",
+    "cousins": [
+      "labor",
+      "laboratory",
+      "collaborate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "elated": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "latus",
+        "origin": "Latin",
+        "meaning": "carried, borne"
+      }
+    ],
+    "literal": "carried up, lifted",
+    "path": "Latin elatus meant lifted up or exalted, the past participle of efferre, to carry out or raise. Being lifted up in spirit gave elated its sense of being carried away by happiness and excitement.",
+    "cousins": [
+      "relate",
+      "translate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "elegiac": {
+    "parts": [
+      {
+        "piece": "elegos",
+        "origin": "Greek",
+        "meaning": "song of mourning"
+      }
+    ],
+    "literal": "in the style of a mourning song",
+    "path": "Greek elegos named a mournful song, especially one sung with a flute at funerals. Elegiac describes anything with that same tone of sorrowful lament for something lost.",
+    "cousins": [
+      "elegy"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "elegy": {
+    "parts": [
+      {
+        "piece": "elegos",
+        "origin": "Greek",
+        "meaning": "song of mourning"
+      }
+    ],
+    "literal": "a mourning song",
+    "path": "Greek elegos meant a mournful poem or song, originally in a specific meter used for funeral laments. Elegy kept that core meaning: a poem mourning the dead or something lost.",
+    "cousins": [
+      "elegiac"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "elementary": {
+    "parts": [
+      {
+        "piece": "elementum",
+        "origin": "Latin",
+        "meaning": "first principle, rudiment"
+      }
+    ],
+    "literal": "of the first principles",
+    "path": "Latin elementum meant a basic component or first principle, like the letters of the alphabet. Elementary kept that sense of belonging to the basic building blocks, the fundamental first stage of something.",
+    "cousins": [
+      "element"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "elevate": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out, up"
+      },
+      {
+        "piece": "levare",
+        "origin": "Latin",
+        "meaning": "to lift, raise"
+      }
+    ],
+    "literal": "to lift up",
+    "path": "Latin elevare meant to lift up, from levis, light in weight, the root of lever. Physically raising something up extended naturally to raising rank, quality, or position.",
+    "cousins": [
+      "lever",
+      "levity",
+      "alleviate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "elicit": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "lacere",
+        "origin": "Latin",
+        "meaning": "to entice, lure"
+      }
+    ],
+    "literal": "to lure out",
+    "path": "Latin elicere meant to draw out or entice forth, from lacere, to entice. Eliciting a response is drawing it out of someone, coaxing information or a reaction into the open.",
+    "cousins": [
+      "delight",
+      "delectable"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "elitist": {
+    "parts": [
+      {
+        "piece": "eligere",
+        "origin": "Latin",
+        "meaning": "to choose, pick out"
+      }
+    ],
+    "literal": "belonging to the chosen ones",
+    "path": "Elite comes through French from Latin eligere, to choose out, the root also behind elect. An elite was a chosen, superior group, and elitist describes favoring that select few over everyone else.",
+    "cousins": [
+      "elect",
+      "election"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ellipsis": {
+    "parts": [
+      {
+        "piece": "en-",
+        "origin": "Greek",
+        "meaning": "in"
+      },
+      {
+        "piece": "leipein",
+        "origin": "Greek",
+        "meaning": "to leave"
+      }
+    ],
+    "literal": "a leaving in, falling short",
+    "path": "Greek elleipsis meant a falling short or omission, from leipein, to leave. Grammarians used it for words left out of a sentence, and it also names the three dots marking that omission.",
+    "cousins": [
+      "eclipse"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "eloquence": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "loqui",
+        "origin": "Latin",
+        "meaning": "to speak"
+      }
+    ],
+    "literal": "speaking out fluently",
+    "path": "Latin eloqui meant to speak out clearly. Eloquentia named the skill of speaking out with fluent, persuasive power, and English eloquence kept exactly that sense.",
+    "cousins": [
+      "loquacious",
+      "colloquial",
+      "soliloquy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "eloquent": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "loqui",
+        "origin": "Latin",
+        "meaning": "to speak"
+      }
+    ],
+    "literal": "speaking out fluently",
+    "path": "From the same Latin root as eloquence, eloquent describes someone whose speech flows out fluently and persuasively, or writing with that same persuasive fluency.",
+    "cousins": [
+      "loquacious",
+      "colloquial",
+      "soliloquy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "elucidate": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "lux",
+        "origin": "Latin",
+        "meaning": "light"
+      }
+    ],
+    "literal": "to bring into light",
+    "path": "Latin elucidare meant to make clear or bring to light, from lux, light, the root of lucid. To elucidate is to shine light out onto something confusing so it becomes clear.",
+    "cousins": [
+      "lucid",
+      "translucent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "elude": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "ludere",
+        "origin": "Latin",
+        "meaning": "to play"
+      }
+    ],
+    "literal": "to play out of, dodge",
+    "path": "Latin eludere meant to escape by trickery, literally to play one's way out of a situation, from ludere, to play. To elude someone is to dodge them as if in a game.",
+    "cousins": [
+      "ludicrous",
+      "allude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "elusive": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "ludere",
+        "origin": "Latin",
+        "meaning": "to play"
+      }
+    ],
+    "literal": "tending to play out of reach",
+    "path": "From the same root as elude, something elusive slips away as if playing a game of dodging capture, whether a physical thing or an idea that is hard to pin down.",
+    "cousins": [
+      "ludicrous",
+      "allude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "elysian": {
+    "parts": [
+      {
+        "piece": "Elysion",
+        "origin": "Greek",
+        "meaning": "the abode of the blessed dead"
+      }
+    ],
+    "literal": "of Elysium",
+    "path": "In Greek myth, Elysium was the paradise where heroes and the virtuous dwelled after death. Elysian came to describe anything as blissful and delightful as that paradise.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "emaciate": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "macies",
+        "origin": "Latin",
+        "meaning": "leanness"
+      }
+    ],
+    "literal": "to make thin throughout",
+    "path": "Latin emaciare meant to make lean or thin, from macies, leanness. Emaciate kept that literal sense: to waste a body down to abnormal thinness and weakness.",
+    "cousins": [
+      "meager"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

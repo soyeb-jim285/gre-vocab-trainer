@@ -1,0 +1,326 @@
+{
+  "redound": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "unda", "origin": "Latin", "meaning": "wave"}],
+    "literal": "to surge back like a wave",
+    "path": "Latin redundare meant to overflow or surge back, from unda, a wave, the root of undulate. Redound kept the image of consequences flowing back like a wave onto their source, adding to a person's credit or discredit.",
+    "cousins": ["redundant", "undulate", "abound"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "redress": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "dirigere", "origin": "Latin", "meaning": "to direct, set straight"}],
+    "literal": "to set straight again",
+    "path": "Old French redrecier meant to set right again, from dresser, to arrange or straighten, ultimately from Latin dirigere, to direct. Redress kept the sense of correcting a wrong, and the noun names the compensation that sets things straight.",
+    "cousins": ["direct", "address"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "refectory": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "facere", "origin": "Latin", "meaning": "to make, do"}],
+    "literal": "a place for remaking oneself",
+    "path": "Latin reficere meant to restore or refresh, from facere, to make. A refectorium was the monastic room where monks restored themselves with food, and refectory kept that sense of a communal dining hall.",
+    "cousins": ["fact", "factory", "manufacture"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "refine": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "finis", "origin": "Latin", "meaning": "end, limit"}],
+    "literal": "to make thoroughly fine",
+    "path": "Refine combines re-, intensifying, with fine, itself from Latin finis, end or limit, via the sense of something brought to its finished, pure state. To refine is to remove impurities repeatedly until a thing reaches that finished purity.",
+    "cousins": ["fine", "finish", "final"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "reflect": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "flectere", "origin": "Latin", "meaning": "to bend"}],
+    "literal": "to bend back",
+    "path": "Latin reflectere meant to bend or turn back, from flectere, to bend, the root of flexible. Light bending back off a surface gave reflect its literal sense, and the mind turning back over a thought gave it the sense of careful thinking.",
+    "cousins": ["flexible", "flex", "deflect"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "refractory": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "frangere", "origin": "Latin", "meaning": "to break"}],
+    "literal": "breaking back, resisting",
+    "path": "Latin refringere meant to break open or resist, from frangere, to break, the root of fracture. Refractory describes something that breaks back against attempts to control or treat it, stubbornly resistant.",
+    "cousins": ["fracture", "fragment", "fraction"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "refulgent": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "fulgere", "origin": "Latin", "meaning": "to shine, flash"}],
+    "literal": "shining back brightly",
+    "path": "Latin refulgere meant to flash or shine back brilliantly, from fulgere, to shine, the same root as effulgence. Refulgent describes a dazzling, radiant brightness.",
+    "cousins": ["effulgence"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "refute": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "futare", "origin": "Latin", "meaning": "to beat, strike"}],
+    "literal": "to strike back, drive back",
+    "path": "Latin refutare meant to drive back or repel by argument, from futare, to beat or strike. Refute kept the sense of beating back a claim with evidence until it is disproved.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "register": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "gerere", "origin": "Latin", "meaning": "to carry, do"}],
+    "literal": "things carried back, recorded",
+    "path": "Late Latin regesta named things entered into a record, from regerere, to carry back or record, built on gerere, to carry. Register kept that sense of officially recording, and extended to a device or reaction that visibly shows or indicates something.",
+    "cousins": ["gesture", "congest", "digest"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "regress": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "gradi", "origin": "Latin", "meaning": "to step, walk"}],
+    "literal": "to step back",
+    "path": "Latin regredi meant to step or go back, from gradi, to walk, the root of gradual. Regress kept that image of stepping backward, especially to a worse or less developed state.",
+    "cousins": ["progress", "gradual", "degrade"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "reiterate": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "iterum", "origin": "Latin", "meaning": "again"}],
+    "literal": "to repeat again",
+    "path": "Latin iterare meant to repeat, from iterum, again. Reiterate doubles that sense of repetition with an added re-, emphasizing saying something again for stress or clarity.",
+    "cousins": ["iterate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rejoinder": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "jungere", "origin": "Latin", "meaning": "to join"}],
+    "literal": "joining again in argument",
+    "path": "Rejoinder comes from Old French rejoindre, to join again, from Latin jungere, to join, a term originally from legal pleading for a defendant's answering reply. It broadened to mean any sharp, ready retort in conversation.",
+    "cousins": ["join", "joint", "junction"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "relegate": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "away"}, {"piece": "legare", "origin": "Latin", "meaning": "to send, depute"}],
+    "literal": "to send away",
+    "path": "Latin relegare meant to send away or banish, from legare, to depute or send on a commission. Relegate softened from outright banishment to the sense of demoting someone or something to a lesser, out-of-the-way position.",
+    "cousins": ["legate", "delegate", "colleague"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "relent": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "lentus", "origin": "Latin", "meaning": "slow, pliant"}],
+    "literal": "to become pliant again",
+    "path": "Relent traces to Latin lentus, slow or pliant, the same root as lenient. To relent is to soften one's resistance, becoming pliant again after being firm.",
+    "cousins": ["lenient", "relentless"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "relentless": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "lentus", "origin": "Latin", "meaning": "slow, pliant"}],
+    "literal": "without softening",
+    "path": "Built on the same root as relent, from Latin lentus, pliant or slow, relentless describes something that refuses to soften or slacken, pressing on without any easing of pace or force.",
+    "cousins": ["lenient", "relent"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "relevant": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "levare", "origin": "Latin", "meaning": "to lift, raise"}],
+    "literal": "raising up, bearing upon",
+    "path": "Relevant comes from Latin relevare, to lift up or lighten, the same root as relieve. Legal usage of a point that raises or bears upon a case gave relevant its sense of directly connecting to the matter at hand.",
+    "cousins": ["relieve", "elevate", "levity"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "relinquish": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "linquere", "origin": "Latin", "meaning": "to leave"}],
+    "literal": "to leave behind thoroughly",
+    "path": "Latin relinquere meant to leave behind or abandon completely, from linquere, to leave, the root also behind derelict. Relinquish kept that sense of fully giving something up.",
+    "cousins": ["derelict", "delinquent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "relish": {
+    "parts": [{"piece": "relaisser", "origin": "unknown", "meaning": "to leave behind"}],
+    "literal": "a lingering aftertaste",
+    "path": "Relish comes from Old French reles, something left behind, related to relaisser, to release or leave. A lingering aftertaste came to mean a flavor or trait in general, and then the keen enjoyment of savoring that flavor.",
+    "cousins": ["release", "relay"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "remedial": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "mederi", "origin": "Latin", "meaning": "to heal"}],
+    "literal": "healing again",
+    "path": "Latin remedium named a cure or medicine, from mederi, to heal. Remedial describes something meant to heal or correct a deficiency, bringing a person or situation back to a proper state.",
+    "cousins": ["remedy", "medicine", "medical"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "remiss": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "mittere", "origin": "Latin", "meaning": "to send, let go"}],
+    "literal": "let go back, slackened",
+    "path": "Latin remittere meant to send back or slacken, from mittere, to send, the root of permit and submit. A slackened effort became careless neglect, giving remiss its sense of being negligent in duty.",
+    "cousins": ["permit", "submit", "transmit"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "remission": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "mittere", "origin": "Latin", "meaning": "to send, let go"}],
+    "literal": "a sending back, slackening",
+    "path": "From the same Latin remittere as remiss, remission named a slackening or relaxing. Applied to disease or punishment, it describes an easing that lets up temporarily, without necessarily disappearing.",
+    "cousins": ["permit", "submit", "transmit"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "remonstrate": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "monstrare", "origin": "Latin", "meaning": "to show"}],
+    "literal": "to show forcefully",
+    "path": "Latin remonstrare meant to point out or demonstrate clearly, from monstrare, to show, the root of demonstrate. Pointing out objections forcefully and repeatedly narrowed remonstrate to its modern sense of protesting.",
+    "cousins": ["demonstrate", "monster"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "remote": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "movere", "origin": "Latin", "meaning": "to move"}],
+    "literal": "moved back, removed",
+    "path": "Latin remotus was the past participle of removere, to move back or remove. Something moved far away became remote, distant in space, and by extension only slightly connected or likely.",
+    "cousins": ["remove", "motion", "mobile"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "remuneration": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "munus", "origin": "Latin", "meaning": "gift, service"}],
+    "literal": "giving back a gift for service",
+    "path": "Latin remunerari meant to reward or repay, from munus, a gift or service, the root shared with municipal. Remuneration is the payment given back in exchange for work performed.",
+    "cousins": ["municipal", "community"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "renaissance": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "nasci", "origin": "Latin", "meaning": "to be born"}],
+    "literal": "a rebirth",
+    "path": "French renaissance literally means rebirth, from naissance, birth, from Latin nasci, to be born. First naming the revival of classical art and learning in Europe, it broadened to mean any renewed flowering of interest or activity.",
+    "cousins": ["nascent", "nation", "native"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "rend": {
+    "parts": [{"piece": "rendan", "origin": "Old English", "meaning": "to tear"}],
+    "literal": "to tear",
+    "path": "Old English rendan meant to tear or cut violently. Rend has kept that same raw, physical sense of ripping something forcefully apart.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "render": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "dare", "origin": "Latin", "meaning": "to give"}],
+    "literal": "to give back",
+    "path": "Old French rendre meant to give back or yield, from Latin reddere, to return, built on dare, to give. Giving something back broadened to giving in general, so render now means to provide, or to cause something to become a certain state.",
+    "cousins": ["surrender", "add", "data"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "renegade": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "negare", "origin": "Latin", "meaning": "to deny"}],
+    "literal": "one who has utterly denied a faith",
+    "path": "Spanish renegado named someone who had renounced their Christian faith, from Medieval Latin renegare, to deny utterly, built on negare, to deny. Renegade broadened from religious apostasy to anyone who deserts and turns against their former group.",
+    "cousins": ["negate", "deny", "renege"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "renege": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "negare", "origin": "Latin", "meaning": "to deny"}],
+    "literal": "to deny utterly",
+    "path": "From the same Latin renegare as renegade, to deny or refuse resolutely, renege kept the sense of denying, narrowed to going back on a promise or commitment one had made.",
+    "cousins": ["negate", "deny", "renegade"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "renounce": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "nuntiare", "origin": "Latin", "meaning": "to announce"}],
+    "literal": "to announce against, declare off",
+    "path": "Latin renuntiare meant to bring back a report or formally protest, from nuntiare, to announce, the root of announce. Renounce kept the sense of a formal, public declaration, specifically one giving something up.",
+    "cousins": ["announce", "pronounce", "denounce"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "repast": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "pascere", "origin": "Latin", "meaning": "to feed"}],
+    "literal": "a feeding",
+    "path": "Late Latin repastus meant a feeding, from pascere, to feed or graze, the root of pasture. Repast kept that plain sense: an instance of eating, a meal.",
+    "cousins": ["pasture", "pastor"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "repeal": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "appellare", "origin": "Latin", "meaning": "to call, appeal"}],
+    "literal": "to call back",
+    "path": "Old French repeler meant to call back or recall, from apeler, to call, the root of appeal. Repeal kept the sense of formally calling back a law, revoking it as if summoning it home to cancel it.",
+    "cousins": ["appeal", "peal"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "repercussion": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "back"}, {"piece": "percutere", "origin": "Latin", "meaning": "to strike through"}],
+    "literal": "a striking back, rebound",
+    "path": "Latin repercutere meant to cause to rebound, striking back, from percutere, to strike, the root of percussion. Repercussion first described an echo or physical rebound, and now names any indirect consequence that bounces back from an action.",
+    "cousins": ["percussion", "concussion"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "repertoire": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "parere", "origin": "Latin", "meaning": "to produce, bring forth"}],
+    "literal": "an inventory, a finding again",
+    "path": "Late Latin repertorium meant an inventory or catalog, from reperire, to find or discover, built on parere, to bring forth. A repertoire began as a theater's catalog of plays ready to perform, and broadened to the whole range of things a person or group can do.",
+    "cousins": ["repertory"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "repine": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "poena", "origin": "Latin", "meaning": "penalty, punishment"}],
+    "literal": "to pine persistently",
+    "path": "Repine combines the intensifying re- with pine, itself from Old English pinian, to suffer, ultimately from Latin poena, punishment. To repine is to keep fretting and complaining, dwelling discontentedly on one's suffering.",
+    "cousins": ["pain", "penalty"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "replenish": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "plenus", "origin": "Latin", "meaning": "full"}],
+    "literal": "to make full again",
+    "path": "Old French replenir meant to fill completely, from plenus, full, the root of plenty. Replenish kept the sense of filling something back up to its full level after it has been used or depleted.",
+    "cousins": ["plenty", "plenary"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

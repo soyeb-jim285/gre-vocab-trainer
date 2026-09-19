@@ -1,0 +1,452 @@
+{
+  "inscrutable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "scrutari", "origin": "Latin", "meaning": "to search, examine"}],
+    "literal": "not able to be searched through",
+    "path": "Latin scrutari meant to search thoroughly, originally to rummage through trash for something valuable. Inscrutable describes what cannot be searched out or understood.",
+    "cousins": ["scrutinize", "scrutiny"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "insensate": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "sentire", "origin": "Latin", "meaning": "to feel"}],
+    "literal": "without feeling",
+    "path": "From Latin sentire, to feel. Insensate describes what lacks feeling or sense entirely.",
+    "cousins": ["sense", "sensation", "sentiment"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "insensible": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "sentire", "origin": "Latin", "meaning": "to feel, perceive"}],
+    "literal": "not able to feel or perceive",
+    "path": "Same sentire root as insensate. Insensible describes being unconscious or unaware, without sensation.",
+    "cousins": ["sense", "sensation", "sentient"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "insidious": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in, on"}, {"piece": "sedere", "origin": "Latin", "meaning": "to sit"}],
+    "literal": "sitting in ambush",
+    "path": "Latin insidiae meant an ambush, literally troops sitting in wait. Insidious describes harm that lies in wait, spreading gradually and hidden.",
+    "cousins": ["sit", "sedentary", "reside"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "insinuate": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "sinuare", "origin": "Latin", "meaning": "to bend, curve"}],
+    "literal": "to wind into",
+    "path": "Latin sinus meant a curve or fold, as in a toga or a bay. Insinuare meant to work one's way in through winding curves, giving insinuate its sense of hinting slyly or working in gradually.",
+    "cousins": ["sinuous", "sinus"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "insipid": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "sapidus", "origin": "Latin", "meaning": "tasty"}],
+    "literal": "not tasty",
+    "path": "Latin sapere meant to taste or to be wise. Insipid describes food or ideas that lack flavor or interest.",
+    "cousins": ["savor", "sapient", "savory"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "insist": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "upon"}, {"piece": "sistere", "origin": "Latin", "meaning": "to stand, take a stand"}],
+    "literal": "to stand upon",
+    "path": "Latin sistere meant to stand or take a stand. Insist means to stand firmly upon a demand or claim.",
+    "cousins": ["persist", "resist", "exist"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "insolence": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "solere", "origin": "Latin", "meaning": "to be accustomed"}],
+    "literal": "unaccustomed, immoderate",
+    "path": "Latin solens meant customary, from solere, to be accustomed. Insolens originally meant unusual or unaccustomed, and came to describe arrogantly overstepping normal bounds, hence rude disrespect.",
+    "cousins": ["obsolete"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "insolent": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "solere", "origin": "Latin", "meaning": "to be accustomed"}],
+    "literal": "unaccustomed, immoderate",
+    "path": "Same root as insolence. What was once merely unaccustomed or out of the ordinary came to mean rudely overstepping the bounds of respect.",
+    "cousins": ["obsolete"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "insolvent": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "solvere", "origin": "Latin", "meaning": "to loosen, pay, release"}],
+    "literal": "not able to pay",
+    "path": "Latin solvere meant to loosen or release, extended to paying off a debt. Insolvent describes being unable to pay what is owed.",
+    "cousins": ["solve", "dissolve", "resolve"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "insouciance": {
+    "parts": [{"piece": "in-", "origin": "Latin/French", "meaning": "not"}, {"piece": "soucier", "origin": "French", "meaning": "to worry, care"}],
+    "literal": "not worrying",
+    "path": "French souci meant care or worry, from Latin sollicitare, to agitate. Insouciance is a casual, carefree lack of concern.",
+    "cousins": ["solicit", "solicitous"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inspire": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "into"}, {"piece": "spirare", "origin": "Latin", "meaning": "to breathe"}],
+    "literal": "to breathe into",
+    "path": "Latin spirare meant to breathe. Inspire originally meant a divine breath infused into a person, and came to mean stimulating creativity or motivation.",
+    "cousins": ["spirit", "respire", "aspire"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "instance": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "upon"}, {"piece": "stare", "origin": "Latin", "meaning": "to stand"}],
+    "literal": "standing close upon",
+    "path": "Latin instare meant to stand close upon or press urgently. Instance came to mean a particular case that stands right before you, an example.",
+    "cousins": ["stand", "constant", "distant"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "institute": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "statuere", "origin": "Latin", "meaning": "to set up, establish"}],
+    "literal": "to set up in place",
+    "path": "Latin statuere meant to set up or establish, from stare, to stand. Institute means to set something in motion or establish it formally.",
+    "cousins": ["statue", "status", "constitute"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "insufferable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "sufferre", "origin": "Latin", "meaning": "to bear, endure"}],
+    "literal": "not able to be borne",
+    "path": "Latin sufferre meant to carry from underneath, to endure. Insufferable describes what cannot be endured, especially unbearable arrogance.",
+    "cousins": ["suffer", "offer", "transfer"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "insular": {
+    "parts": [{"piece": "insula", "origin": "Latin", "meaning": "island"}],
+    "literal": "of an island",
+    "path": "Latin insula meant island. Insular originally described island geography, then extended to a narrow, isolated outlook, as if cut off like an island.",
+    "cousins": ["isolate", "peninsula", "isle"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "insularity": {
+    "parts": [{"piece": "insula", "origin": "Latin", "meaning": "island"}],
+    "literal": "island-like isolation",
+    "path": "The noun form of insular, from Latin insula, island, naming the narrowness of outlook that comes from being cut off.",
+    "cousins": ["isolate", "peninsula", "isle"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "insurgent": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "upon, against"}, {"piece": "surgere", "origin": "Latin", "meaning": "to rise"}],
+    "literal": "rising up against",
+    "path": "Latin surgere meant to rise. An insurgent is one who rises up in rebellion against established authority.",
+    "cousins": ["surge", "resurgent", "source"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "insurrection": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "upon, against"}, {"piece": "surgere", "origin": "Latin", "meaning": "to rise"}],
+    "literal": "a rising up",
+    "path": "From the same root as insurgent, Latin surgere, to rise. Insurrection names the violent uprising itself.",
+    "cousins": ["surge", "resurgent", "source"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "intelligible": {
+    "parts": [{"piece": "inter-", "origin": "Latin", "meaning": "between"}, {"piece": "legere", "origin": "Latin", "meaning": "to choose, gather, read"}],
+    "literal": "able to be gathered between",
+    "path": "Latin intelligere meant to perceive or understand, literally to choose or discern between things. Intelligible describes what can be clearly grasped.",
+    "cousins": ["elect", "collect", "legible"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "intemperance": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "temperare", "origin": "Latin", "meaning": "to moderate, mix properly"}],
+    "literal": "not moderate",
+    "path": "Latin temperare meant to mix in due proportion or restrain. Intemperance is the lack of that moderation, especially overindulgence in drink.",
+    "cousins": ["temper", "temperate", "temperature"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "intend": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "toward"}, {"piece": "tendere", "origin": "Latin", "meaning": "to stretch"}],
+    "literal": "to stretch toward",
+    "path": "Latin tendere meant to stretch. Intendere meant to direct one's attention toward a goal, giving intend its sense of planning or meaning to do something.",
+    "cousins": ["tension", "extend", "attend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "intensive": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "toward"}, {"piece": "tendere", "origin": "Latin", "meaning": "to stretch"}],
+    "literal": "stretched tight",
+    "path": "From the same tendere root as intend. Something intensive is stretched to its fullest degree, concentrated and thorough.",
+    "cousins": ["tension", "extend", "tendency"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inter": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "terra", "origin": "Latin", "meaning": "earth"}],
+    "literal": "to put into the earth",
+    "path": "Latin terra meant earth. Inter means to place a body into the earth, to bury.",
+    "cousins": ["terrain", "terrestrial", "territory"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "interchangeable": {
+    "parts": [{"piece": "inter-", "origin": "Latin", "meaning": "between"}, {"piece": "cambire", "origin": "Latin", "meaning": "to exchange, barter"}],
+    "literal": "able to be changed between",
+    "path": "Combines inter-, between, with change, ultimately from Latin cambire, to barter. Interchangeable things can be swapped for each other without difference.",
+    "cousins": ["exchange", "change"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "interdict": {
+    "parts": [{"piece": "inter-", "origin": "Latin", "meaning": "between"}, {"piece": "dicere", "origin": "Latin", "meaning": "to say, proclaim"}],
+    "literal": "to proclaim between",
+    "path": "Latin interdicere meant to forbid by formal proclamation, placing a decree between someone and an action. Interdict means to prohibit officially.",
+    "cousins": ["dictate", "verdict", "predict"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "intermediary": {
+    "parts": [{"piece": "inter-", "origin": "Latin", "meaning": "between"}, {"piece": "medius", "origin": "Latin", "meaning": "middle"}],
+    "literal": "in the middle between",
+    "path": "From Latin medius, middle. An intermediary stands between two parties as a go-between.",
+    "cousins": ["medium", "median", "mediate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "interminable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "terminare", "origin": "Latin", "meaning": "to limit, end"}],
+    "literal": "without end",
+    "path": "Latin terminus meant a boundary or end point. Interminable describes something with no end in sight, endless and tedious.",
+    "cousins": ["terminal", "terminate", "determine"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "intermittent": {
+    "parts": [{"piece": "inter-", "origin": "Latin", "meaning": "between"}, {"piece": "mittere", "origin": "Latin", "meaning": "to send, let go"}],
+    "literal": "sent between, let go between",
+    "path": "Latin mittere meant to send or release. Intermittere meant to pause or leave gaps between periods of activity, giving intermittent its sense of occurring at irregular intervals.",
+    "cousins": ["transmit", "permit", "admit"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "internecine": {
+    "parts": [{"piece": "inter-", "origin": "Latin", "meaning": "thoroughly (originally intensive, not \"between\")"}, {"piece": "necare", "origin": "Latin", "meaning": "to kill"}],
+    "literal": "utterly deadly",
+    "path": "Latin internecinus meant utterly deadly, using inter- as an intensifier. Samuel Johnson's dictionary mistakenly read inter- as between, and that misreading fixed the modern sense of destruction mutual to both sides within a group.",
+    "cousins": ["pernicious"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "interplay": {
+    "parts": [{"piece": "inter-", "origin": "Latin", "meaning": "between"}, {"piece": "play", "origin": "Old English", "meaning": "to play"}],
+    "literal": "playing between",
+    "path": "A straightforward compound of inter-, between, and play. Interplay names the way things act and react upon each other.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "interpolate": {
+    "parts": [{"piece": "inter-", "origin": "Latin", "meaning": "between"}, {"piece": "polare", "origin": "Latin", "meaning": "to polish, touch up"}],
+    "literal": "to polish up between",
+    "path": "Latin interpolare originally meant to touch up or alter a text by inserting new material between the old lines, giving interpolate its modern sense of inserting something between existing parts.",
+    "cousins": ["polish", "polite"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "interregnum": {
+    "parts": [{"piece": "inter-", "origin": "Latin", "meaning": "between"}, {"piece": "regnum", "origin": "Latin", "meaning": "reign, kingdom"}],
+    "literal": "between reigns",
+    "path": "A direct Latin compound: an interregnum is the gap between one ruler's reign and the next.",
+    "cousins": ["reign", "regal", "royal"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "intertwined": {
+    "parts": [{"piece": "inter-", "origin": "Latin", "meaning": "between"}, {"piece": "twine", "origin": "Old English", "meaning": "to twist together"}],
+    "literal": "twisted together between",
+    "path": "Combines inter-, between, with twine, from Old English twin, twisted thread. Intertwined things are twisted together closely.",
+    "cousins": ["twin", "twist"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "intimate": {
+    "parts": [{"piece": "intimus", "origin": "Latin", "meaning": "innermost"}],
+    "literal": "to make known from within",
+    "path": "Latin intimus meant innermost. Intimare meant to announce something as if from deep within, and the verb intimate kept a sense of hinting indirectly rather than stating outright.",
+    "cousins": ["interior", "internal"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "intimation": {
+    "parts": [{"piece": "intimus", "origin": "Latin", "meaning": "innermost"}],
+    "literal": "an announcing from within",
+    "path": "The noun form of intimate, from Latin intimus, innermost, naming the indirect hint itself.",
+    "cousins": ["interior", "internal"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "intractable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "tractare", "origin": "Latin", "meaning": "to handle, manage"}],
+    "literal": "not able to be handled",
+    "path": "Latin trahere meant to drag or draw, and tractare meant to handle or manage. Intractable describes what cannot be handled or managed, hard to control or solve.",
+    "cousins": ["tract", "traction", "attract"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "intransigent": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "transigere", "origin": "Latin", "meaning": "to come to an agreement, settle"}],
+    "literal": "not coming to terms",
+    "path": "Latin transigere meant to transact or settle a matter across differences. Intransigent describes someone who refuses to settle or compromise.",
+    "cousins": ["transact", "agent", "act"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "intrepid": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "trepidus", "origin": "Latin", "meaning": "alarmed, trembling"}],
+    "literal": "not trembling",
+    "path": "Latin trepidus meant fearful or agitated. Intrepid describes someone who does not tremble in the face of danger, fearless.",
+    "cousins": ["trepidation"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "intrigue": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "tricae", "origin": "Latin", "meaning": "tangles, troublesome trifles"}],
+    "literal": "to entangle",
+    "path": "Latin tricae meant tangles or perplexing trifles. Intrigue originally meant to entangle or perplex, and the noun came to mean secret, entangling plots.",
+    "cousins": ["intricate", "extricate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "intrinsic": {
+    "parts": [{"piece": "intra", "origin": "Latin", "meaning": "within"}, {"piece": "secus", "origin": "Latin", "meaning": "alongside, following"}],
+    "literal": "on the inside",
+    "path": "Latin intrinsecus described something located on the inward side. Intrinsic describes qualities belonging naturally to a thing's inner nature.",
+    "cousins": ["interior", "internal"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "introspection": {
+    "parts": [{"piece": "intro-", "origin": "Latin", "meaning": "inward"}, {"piece": "specere", "origin": "Latin", "meaning": "to look"}],
+    "literal": "looking inward",
+    "path": "Latin specere meant to look. Introspection is the act of looking inward at one's own thoughts.",
+    "cousins": ["spectacle", "inspect", "spectator"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inundate": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "into"}, {"piece": "unda", "origin": "Latin", "meaning": "wave"}],
+    "literal": "to send waves into",
+    "path": "Latin unda meant wave. Inundate originally described a flood of water and extended to being overwhelmed by anything arriving in great quantity.",
+    "cousins": ["undulate", "redundant"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inure": {
+    "parts": [{"piece": "en ure", "origin": "Old French", "meaning": "in use, in practice"}],
+    "literal": "into use, into practice",
+    "path": "The Old French phrase en ure meant in practice, from oeuvre, work. To inure someone to something means to bring them into habitual practice with it until they are accustomed or hardened.",
+    "cousins": ["operate", "opera"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inured": {
+    "parts": [{"piece": "en ure", "origin": "Old French", "meaning": "in use, in practice"}],
+    "literal": "brought into use, into practice",
+    "path": "The adjective form of inure. Inured describes someone hardened by long exposure or habitual practice.",
+    "cousins": ["operate", "opera"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "invasive": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "into"}, {"piece": "vadere", "origin": "Latin", "meaning": "to go, walk"}],
+    "literal": "going into",
+    "path": "Latin vadere meant to go or walk. Invadere meant to go in aggressively, to attack. Invasive describes what intrudes or spreads aggressively into a space.",
+    "cousins": ["evade", "pervade"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "invective": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "against"}, {"piece": "vehere", "origin": "Latin", "meaning": "to carry"}],
+    "literal": "carrying against",
+    "path": "Latin vehere meant to carry. Invehi meant to carry oneself against someone in words, to attack verbally. Invective is that abusive, attacking language.",
+    "cousins": ["vehicle", "convey"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inveigle": {
+    "parts": [{"piece": "ab oculis", "origin": "Latin (via Old French aveugler)", "meaning": "without eyes, to blind"}],
+    "literal": "to blind someone's judgment",
+    "path": "The word traces through Old French aveugler, to blind, ultimately Latin ab oculis, without eyes. To inveigle someone is to blind their judgment with flattery or deceit so as to persuade them.",
+    "cousins": ["ocular"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "investiture": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "vestire", "origin": "Latin", "meaning": "to clothe"}],
+    "literal": "clothing in",
+    "path": "Latin vestire meant to clothe. Investiture is the formal ceremony of clothing someone in the robes and symbols of office, conferring it upon them.",
+    "cousins": ["vest", "vestment", "divest"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inveterate": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "intensive"}, {"piece": "vetus", "origin": "Latin", "meaning": "old"}],
+    "literal": "made thoroughly old",
+    "path": "Latin vetus meant old. Inveterate describes a habit so long-established and deeply aged into someone's character that it feels permanent.",
+    "cousins": ["veteran"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

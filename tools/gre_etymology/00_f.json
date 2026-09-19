@@ -1,0 +1,742 @@
+{
+  "axiom": {
+    "parts": [
+      {
+        "piece": "axioun",
+        "origin": "Greek, from axios",
+        "meaning": "to think worthy"
+      }
+    ],
+    "literal": "that which is thought worthy",
+    "path": "Directly, a principle deemed worthy of acceptance on its own, without need of proof, i.e. self-evidently true.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "axiomatic": {
+    "parts": [
+      {
+        "piece": "axioun",
+        "origin": "Greek, from axios",
+        "meaning": "to think worthy"
+      }
+    ],
+    "literal": "worthy in itself",
+    "path": "Describes a claim so evidently true it needs no proof, from the same root as axiom.",
+    "cousins": [
+      "axiom"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "badger": {
+    "parts": [
+      {
+        "piece": "badger",
+        "origin": "English (animal name, sport of badger-baiting)",
+        "meaning": "to harass a baited badger"
+      }
+    ],
+    "literal": "to hunt like a baited badger",
+    "path": "The cruel old sport of badger-baiting, in which the animal was relentlessly harassed by dogs, gave the verb its sense of pestering someone persistently.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "badinage": {
+    "parts": [
+      {
+        "piece": "badiner",
+        "origin": "French, from badin",
+        "meaning": "to joke, a joker"
+      }
+    ],
+    "literal": "joking, foolery",
+    "path": "From a general word for joking around to specifically light, playful banter between people.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "baleful": {
+    "parts": [
+      {
+        "piece": "bealu",
+        "origin": "Old English",
+        "meaning": "evil, harm, malice"
+      },
+      {
+        "piece": "-ful",
+        "origin": "Old English",
+        "meaning": "full of"
+      }
+    ],
+    "literal": "full of evil",
+    "path": "Directly, full of malice or harmful intent, hence menacing or threatening harm.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "balk": {
+    "parts": [
+      {
+        "piece": "balca",
+        "origin": "Old English",
+        "meaning": "ridge, bank, obstacle"
+      }
+    ],
+    "literal": "a ridge in a field",
+    "path": "A physical ridge or obstacle in a plowed field that one stumbles against became the figure for stopping short, hesitating, or refusing to proceed.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "balloon": {
+    "parts": [
+      {
+        "piece": "pallone",
+        "origin": "Italian, from palla",
+        "meaning": "large ball"
+      }
+    ],
+    "literal": "a large ball",
+    "path": "A ball swelling and inflating with air gave the direct image for anything rapidly swelling or increasing in size.",
+    "cousins": [
+      "ball",
+      "ballot"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "banal": {
+    "parts": [
+      {
+        "piece": "ban",
+        "origin": "Old French",
+        "meaning": "feudal proclamation, compulsory communal service"
+      }
+    ],
+    "literal": "of common feudal obligation",
+    "path": "Things every vassal was bound to use in common, like a lord's communal mill or oven, were 'banal,' i.e. shared by all; the sense drifted to ordinary and unoriginal.",
+    "cousins": [
+      "banish",
+      "bandit"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "banality": {
+    "parts": [
+      {
+        "piece": "ban",
+        "origin": "Old French",
+        "meaning": "feudal proclamation, compulsory communal service"
+      }
+    ],
+    "literal": "the state of being common to all",
+    "path": "Names the quality behind banal: from shared feudal obligation to plain, boring ordinariness.",
+    "cousins": [
+      "ban",
+      "banish"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "bandy": {
+    "parts": [
+      {
+        "piece": "bander",
+        "origin": "French",
+        "meaning": "to strike back and forth (in an old ball game)"
+      }
+    ],
+    "literal": "to strike back and forth",
+    "path": "The back-and-forth hitting of a ball in the old game of bandy extended metaphorically to exchanging words or ideas casually back and forth.",
+    "cousins": [
+      "band"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bane": {
+    "parts": [
+      {
+        "piece": "bana",
+        "origin": "Old English",
+        "meaning": "slayer, murderer, poison"
+      }
+    ],
+    "literal": "a slayer, poison",
+    "path": "Originally meant a killer or deadly poison (as in wolfsbane), generalized to any cause of ruin or persistent misery.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "banish": {
+    "parts": [
+      {
+        "piece": "ban",
+        "origin": "Germanic root, via Old French banir / Vulgar Latin bannire",
+        "meaning": "public proclamation, edict, or curse"
+      }
+    ],
+    "literal": "put under a public ban",
+    "path": "Banish comes from Old French banir, built on the old Germanic legal 'ban', a public proclamation, often one outlawing a person. To banish someone was to formally declare them under that ban, cast outside the community's protection, which meant driving them out and keeping them away for good.",
+    "cousins": [
+      "ban",
+      "bandit",
+      "abandon"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "banter": {
+    "parts": [
+      {
+        "piece": "banter",
+        "origin": "English, origin unknown",
+        "meaning": "playful, teasing talk"
+      }
+    ],
+    "literal": "playful talk",
+    "path": "The word appeared suddenly in 17th-century English slang with no clear traceable source; it has meant light, teasing conversation from the start.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "baroque": {
+    "parts": [
+      {
+        "piece": "barroco",
+        "origin": "Portuguese",
+        "meaning": "an irregularly shaped pearl"
+      }
+    ],
+    "literal": "an irregular pearl",
+    "path": "A jeweler's term for a misshapen pearl became a disparaging label for excessive ornamentation in art and architecture, then any extravagantly ornate, complex style.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "barrage": {
+    "parts": [
+      {
+        "piece": "barrer",
+        "origin": "French, from barre",
+        "meaning": "to bar, block"
+      }
+    ],
+    "literal": "a barring",
+    "path": "A military term for a wall of artillery fire laid down to block enemy movement extended to any overwhelming, rapid outpouring of words or blows.",
+    "cousins": [
+      "bar",
+      "barrier"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "barren": {
+    "parts": [
+      {
+        "piece": "baraigne",
+        "origin": "Old French (further origin obscure)",
+        "meaning": "sterile"
+      }
+    ],
+    "literal": "sterile",
+    "path": "Describes land or a creature unable to produce fruit or offspring, extended to anything bleak, empty, and unproductive. The word's deeper source is uncertain.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "base": {
+    "parts": [
+      {
+        "piece": "bassus",
+        "origin": "Late Latin",
+        "meaning": "low"
+      }
+    ],
+    "literal": "low",
+    "path": "Physical lowness extended directly to being morally low, contemptible.",
+    "cousins": [
+      "abase",
+      "debase"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bastardization": {
+    "parts": [
+      {
+        "piece": "bastard",
+        "origin": "Old French (root disputed)",
+        "meaning": "of illegitimate birth"
+      }
+    ],
+    "literal": "made illegitimate",
+    "path": "The idea of a child of impure, irregular lineage extended to any version of something corrupted or debased from its original, 'pure' form.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bate": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin (shortened from abate)",
+        "meaning": "to"
+      },
+      {
+        "piece": "battuere",
+        "origin": "Latin",
+        "meaning": "to beat"
+      }
+    ],
+    "literal": "to beat down",
+    "path": "A shortened form of abate: beating down force or intensity, as in 'bated breath,' breath held back and lessened.",
+    "cousins": [
+      "abate",
+      "batter"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bauble": {
+    "parts": [
+      {
+        "piece": "baubel",
+        "origin": "Old French (further origin uncertain)",
+        "meaning": "a child's toy, plaything"
+      }
+    ],
+    "literal": "a plaything",
+    "path": "Originally a child's toy or trinket; the sense has stayed close to the original: something showy but of little real value.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bawdy": {
+    "parts": [
+      {
+        "piece": "bawd",
+        "origin": "Middle English, from Old French baude (root disputed)",
+        "meaning": "a procurer, brothel-keeper"
+      }
+    ],
+    "literal": "of a brothel-keeper's trade",
+    "path": "Language or humor associated with a bawd's trade narrowed to speech that is sexually indecent but delivered in a joking way.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "baying": {
+    "parts": [
+      {
+        "piece": "abaiier",
+        "origin": "Old French (imitative)",
+        "meaning": "to bark"
+      }
+    ],
+    "literal": "barking",
+    "path": "The deep, howling bark of hounds in pursuit extended to any loud, clamorous howling or shouting by a crowd.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "beatific": {
+    "parts": [
+      {
+        "piece": "beatus",
+        "origin": "Latin, from beare",
+        "meaning": "blessed, made happy"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "making blessed",
+    "path": "Directly, from making someone blessed and happy to describing an expression or state of radiant blessedness and serene joy.",
+    "cousins": [
+      "beatify",
+      "beatitude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "becoming": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "cuman",
+        "origin": "Old English",
+        "meaning": "to come"
+      }
+    ],
+    "literal": "coming to fit",
+    "path": "From 'to come to be' the verb developed a sense of 'to suit, to be fitting for'; the adjective names something that flatters or suits the wearer well.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "bedlam": {
+    "parts": [
+      {
+        "piece": "Bedlam",
+        "origin": "English, corrupted form of Bethlehem",
+        "meaning": "name of London's Hospital of St. Mary of Bethlehem"
+      }
+    ],
+    "literal": "Bethlehem (the hospital's name)",
+    "path": "The chaotic, noisy conditions of London's infamous psychiatric hospital, nicknamed Bedlam, gave its name to any scene of noisy confusion generally.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "befuddled": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "fuddle",
+        "origin": "English (origin uncertain)",
+        "meaning": "to make drunk, muddle"
+      }
+    ],
+    "literal": "thoroughly muddled",
+    "path": "Originally about being made drunk and muddled by alcohol; extended to any state of confusion where one cannot think clearly.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "beg": {
+    "parts": [
+      {
+        "piece": "beggen",
+        "origin": "Middle English (origin disputed, possibly linked to mendicant friars)",
+        "meaning": "to ask for alms"
+      }
+    ],
+    "literal": "to ask as a mendicant",
+    "path": "Possibly from friars who lived by asking for alms, generalized to asking earnestly for anything; the separate 'beg the question' sense comes from a specific logical fallacy of assuming the conclusion.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "begrudge": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "grucchen",
+        "origin": "Old French grouchier (imitative)",
+        "meaning": "to grumble, murmur"
+      }
+    ],
+    "literal": "to thoroughly grumble at",
+    "path": "Grumbling discontent about something narrowed to resenting another person's possession or success specifically.",
+    "cousins": [
+      "grudge",
+      "grouch"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "beguile": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "guile",
+        "origin": "Old French, Germanic origin",
+        "meaning": "cunning, deceit"
+      }
+    ],
+    "literal": "to thoroughly deceive",
+    "path": "From tricking someone with cunning to charming them, often in a way that distracts or deceives.",
+    "cousins": [
+      "guile",
+      "wile"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "behoove": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "hof",
+        "origin": "Old English, related to behoof",
+        "meaning": "need, benefit"
+      }
+    ],
+    "literal": "to be of need or benefit",
+    "path": "Directly, from being of benefit or need to someone to being necessary or proper for them to do.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "behooves": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "hof",
+        "origin": "Old English, related to behoof",
+        "meaning": "need, benefit"
+      }
+    ],
+    "literal": "is of need or benefit",
+    "path": "The present-tense form of behoove: it is necessary or proper for someone to act.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "belabor": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "labor",
+        "origin": "Middle English, from Latin labor",
+        "meaning": "to work at, beat, thresh"
+      }
+    ],
+    "literal": "to thoroughly beat over",
+    "path": "Literally to beat or work something over at length, as in threshing, extended to attacking or explaining a point excessively and repetitively.",
+    "cousins": [
+      "labor",
+      "elaborate",
+      "collaborate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "beleaguer": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Dutch",
+        "meaning": "around"
+      },
+      {
+        "piece": "leger",
+        "origin": "Dutch",
+        "meaning": "camp, bed"
+      }
+    ],
+    "literal": "to camp around",
+    "path": "Literally to surround a place with a military camp, i.e. lay siege to it; extended to harassing or besetting someone persistently.",
+    "cousins": [
+      "lager"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "belfry": {
+    "parts": [
+      {
+        "piece": "berg-",
+        "origin": "Germanic",
+        "meaning": "to protect"
+      },
+      {
+        "piece": "frid",
+        "origin": "Germanic",
+        "meaning": "peace"
+      }
+    ],
+    "literal": "a protecting shelter",
+    "path": "Originally a movable wooden siege or watchtower, unrelated to bells; the word later attached to bell towers, with its spelling reshaped by false association with 'bell.'",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "belie": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "thoroughly, about"
+      },
+      {
+        "piece": "leogan",
+        "origin": "Old English",
+        "meaning": "to lie, deceive"
+      }
+    ],
+    "literal": "to thoroughly lie about",
+    "path": "Directly, from deceiving about something to giving a false impression of it, or contradicting it.",
+    "cousins": [
+      "lie"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "belittle": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "little",
+        "origin": "Old English lytel",
+        "meaning": "small"
+      }
+    ],
+    "literal": "to make little",
+    "path": "Directly, from making something small to figuratively making someone or something seem unimportant or inferior.",
+    "cousins": [
+      "little"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bellicose": {
+    "parts": [
+      {
+        "piece": "bellum",
+        "origin": "Latin",
+        "meaning": "war"
+      }
+    ],
+    "literal": "warlike",
+    "path": "Directly, full of war, hence eager to fight and generally aggressive.",
+    "cousins": [
+      "belligerent",
+      "antebellum"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "belligerent": {
+    "parts": [
+      {
+        "piece": "bellum",
+        "origin": "Latin",
+        "meaning": "war"
+      },
+      {
+        "piece": "gerere",
+        "origin": "Latin",
+        "meaning": "to wage, carry on"
+      }
+    ],
+    "literal": "waging war",
+    "path": "Directly, from carrying on war to hostile, aggressive behavior in general.",
+    "cousins": [
+      "bellicose",
+      "antebellum"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bemoan": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "moan",
+        "origin": "Middle English (origin uncertain)",
+        "meaning": "to lament, complain"
+      }
+    ],
+    "literal": "to thoroughly lament",
+    "path": "Directly, from lamenting or complaining to expressing regret or grief about something specific.",
+    "cousins": [
+      "moan"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bemuse": {
+    "parts": [
+      {
+        "piece": "be-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "muse",
+        "origin": "Old French muser",
+        "meaning": "to ponder, stare fixedly, waste time"
+      }
+    ],
+    "literal": "to thoroughly set pondering",
+    "path": "Originally to make someone absorbed in blank, fixed thought; extended to bewildering or puzzling them.",
+    "cousins": [
+      "amuse"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

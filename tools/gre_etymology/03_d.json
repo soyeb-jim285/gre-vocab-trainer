@@ -1,0 +1,1138 @@
+{
+  "exasperate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, thoroughly"
+      },
+      {
+        "piece": "asper",
+        "origin": "Latin",
+        "meaning": "rough, harsh"
+      }
+    ],
+    "literal": "to make thoroughly rough",
+    "path": "Latin exasperare meant to roughen or irritate thoroughly, from asper, rough. Exasperate kept that image of roughening someone's temper, irritating them intensely.",
+    "cousins": [
+      "asperity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "exasperated": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, thoroughly"
+      },
+      {
+        "piece": "asper",
+        "origin": "Latin",
+        "meaning": "rough, harsh"
+      }
+    ],
+    "literal": "made thoroughly rough",
+    "path": "From the same root as exasperate, exasperated describes the resulting state: irritated intensely, roughened by frustration.",
+    "cousins": [
+      "asperity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "excise": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "caedere",
+        "origin": "Latin",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "to cut out",
+    "path": "Latin excidere meant to cut out, from caedere, to cut. Excise kept that literal sense: to remove a piece by cutting it out, whether a passage of text or tissue in surgery.",
+    "cousins": [
+      "incision",
+      "concise"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "excoriate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "corium",
+        "origin": "Latin",
+        "meaning": "skin, hide"
+      }
+    ],
+    "literal": "to strip the skin off",
+    "path": "Latin excoriare meant to flay, stripping the hide off an animal, from corium, skin. Excoriate kept the vivid image, now used figuratively for criticizing someone so harshly it feels like flaying them.",
+    "cousins": [
+      "corium"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "excruciating": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, thoroughly"
+      },
+      {
+        "piece": "crux",
+        "origin": "Latin",
+        "meaning": "cross"
+      }
+    ],
+    "literal": "thoroughly crucified",
+    "path": "Latin excruciare meant to torment or torture, literally derived from crux, cross, evoking the agony of crucifixion. Excruciating kept that extreme sense: pain as intense as torture.",
+    "cousins": [
+      "crucial",
+      "crucify",
+      "crux"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "exculpate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, away"
+      },
+      {
+        "piece": "culpa",
+        "origin": "Latin",
+        "meaning": "blame, fault"
+      }
+    ],
+    "literal": "to take blame away",
+    "path": "Latin exculpare meant to free from blame, from culpa, fault, the root of culpable. Exculpate kept that legal sense: clearing someone from an accusation of guilt.",
+    "cousins": [
+      "culpable",
+      "culprit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "execrable": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "sacrare",
+        "origin": "Latin",
+        "meaning": "to consecrate, curse"
+      }
+    ],
+    "literal": "cursed out",
+    "path": "Latin execrari meant to curse or denounce, from sacer, sacred, in the sense of setting something apart as accursed. Execrable describes something so bad it deserves to be cursed, detestable.",
+    "cousins": [
+      "execrate",
+      "sacred"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "execrate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "sacrare",
+        "origin": "Latin",
+        "meaning": "to consecrate, curse"
+      }
+    ],
+    "literal": "to curse out",
+    "path": "From the same root as execrable, execrate is the verb: to denounce something as cursed, expressing intense hatred and detestation of it.",
+    "cousins": [
+      "execrable",
+      "sacred"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "exegesis": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Greek",
+        "meaning": "out"
+      },
+      {
+        "piece": "hegeisthai",
+        "origin": "Greek",
+        "meaning": "to lead, guide"
+      }
+    ],
+    "literal": "a leading out, guiding through",
+    "path": "Greek exegesis meant an explanation or interpretation, literally guiding someone out of confusion, from hegeisthai, to lead. Exegesis kept that scholarly sense: a detailed critical interpretation, especially of a religious or literary text.",
+    "cousins": [
+      "hegemony"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "exemplar": {
+    "parts": [
+      {
+        "piece": "exemplum",
+        "origin": "Latin",
+        "meaning": "sample, example"
+      }
+    ],
+    "literal": "a sample taken out",
+    "path": "Latin exemplum meant a sample or example, related to eximere, to take out. An exemplar is a model instance held up as representative of the ideal type.",
+    "cousins": [
+      "example",
+      "exemplify",
+      "sample"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "exemplify": {
+    "parts": [
+      {
+        "piece": "exemplum",
+        "origin": "Latin",
+        "meaning": "sample, example"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "to make into an example",
+    "path": "From Latin exemplum, example, plus facere, to make, exemplify means to serve as a typical instance, making oneself an example of a larger quality or category.",
+    "cousins": [
+      "example",
+      "exemplar",
+      "sample"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "exert": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "serere",
+        "origin": "Latin",
+        "meaning": "to join, put"
+      }
+    ],
+    "literal": "to thrust out",
+    "path": "Latin exserere meant to stretch out or put forth, from serere, to join or bind. To exert oneself is to put force or effort outward into action.",
+    "cousins": [
+      "series",
+      "assert"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "exertion": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "serere",
+        "origin": "Latin",
+        "meaning": "to join, put"
+      }
+    ],
+    "literal": "the act of thrusting out",
+    "path": "From the same root as exert, exertion names the effort itself: the great physical or mental push of putting force outward into action.",
+    "cousins": [
+      "series",
+      "assert"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "exhaustive": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "haurire",
+        "origin": "Latin",
+        "meaning": "to drain, draw out"
+      }
+    ],
+    "literal": "draining out completely",
+    "path": "Latin exhaurire meant to drain out completely, empty a container of every last drop, from haurire, to draw water. Exhaustive describes coverage so complete it has drawn out every last detail, leaving nothing left.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "exhilarating": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, thoroughly"
+      },
+      {
+        "piece": "hilaris",
+        "origin": "Latin",
+        "meaning": "cheerful"
+      }
+    ],
+    "literal": "making thoroughly cheerful",
+    "path": "Latin exhilarare meant to make very cheerful, from hilaris, cheerful, the root of hilarious. Exhilarating describes an experience that fills someone with thrilling, invigorating excitement.",
+    "cousins": [
+      "hilarious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "exhort": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, thoroughly"
+      },
+      {
+        "piece": "hortari",
+        "origin": "Latin",
+        "meaning": "to urge, encourage"
+      }
+    ],
+    "literal": "to urge thoroughly",
+    "path": "Latin exhortari meant to encourage strongly, from hortari, to urge or incite. Exhort kept that sense: to press someone hard with urgent encouragement to act.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "exigency": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to drive, do"
+      }
+    ],
+    "literal": "a driving out, urgent demand",
+    "path": "Latin exigere meant to demand or drive out, from agere, to drive or do. Exigency names the pressing circumstance itself: an urgent need that drives an immediate response.",
+    "cousins": [
+      "exigent",
+      "agent",
+      "act"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "exigent": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to drive, do"
+      }
+    ],
+    "literal": "driving out demand",
+    "path": "From the same root as exigency, exigent describes a situation so pressing it demands immediate attention, driving action forward without delay.",
+    "cousins": [
+      "exigency",
+      "agent",
+      "act"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "exiguity": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to drive, weigh out"
+      }
+    ],
+    "literal": "the state of being sparingly measured out",
+    "path": "Latin exiguus meant scanty or small, related to exigere, to weigh out precisely, implying something measured out sparingly. Exiguity names that quality of extreme smallness or scantiness.",
+    "cousins": [
+      "exigent"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "exonerate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, away"
+      },
+      {
+        "piece": "onus",
+        "origin": "Latin",
+        "meaning": "burden, load"
+      }
+    ],
+    "literal": "to unload the burden",
+    "path": "Latin exonerare meant to unburden or unload, from onus, a weight or burden. Exonerate kept the figurative weight: clearing someone of blame lifts the burden of guilt off them.",
+    "cousins": [
+      "onus",
+      "onerous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "exorbitant": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "orbita",
+        "origin": "Latin",
+        "meaning": "wheel track, orbit"
+      }
+    ],
+    "literal": "out of the wheel track",
+    "path": "Latin exorbitare meant to go off the track, from orbita, the rut a wheel follows. Straying off the normal track gave exorbitant its sense of a price or demand that has strayed far beyond reasonable limits.",
+    "cousins": [
+      "orbit"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "exorcise": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Greek",
+        "meaning": "out"
+      },
+      {
+        "piece": "horkos",
+        "origin": "Greek",
+        "meaning": "oath"
+      }
+    ],
+    "literal": "to bind by oath, drive out",
+    "path": "Greek exorkizein meant to bind by an oath, invoking a spirit under oath to leave, from horkos, oath. Exorcise kept the ritual sense: driving out an evil spirit or, figuratively, a haunting bad memory.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "exotic": {
+    "parts": [
+      {
+        "piece": "exo-",
+        "origin": "Greek",
+        "meaning": "outside"
+      }
+    ],
+    "literal": "from outside",
+    "path": "Greek exotikos meant foreign, from outside, from exo, outside. Anything brought in from outside one's own land felt strikingly unfamiliar, giving exotic its sense of unusual and from a distant place.",
+    "cousins": [
+      "exit",
+      "exodus"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "expansive": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "pandere",
+        "origin": "Latin",
+        "meaning": "to spread, stretch"
+      }
+    ],
+    "literal": "spreading out",
+    "path": "Latin expandere meant to spread out, from pandere, to stretch. A physically expansive space spreads out widely, and the same word describes a personality that spreads out openly, generous and communicative.",
+    "cousins": [
+      "expand"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "expatiate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "spatium",
+        "origin": "Latin",
+        "meaning": "space"
+      }
+    ],
+    "literal": "to wander out over open space",
+    "path": "Latin expatiari meant to wander freely over a wide space, from spatium, space. Wandering widely across a landscape became a figure for wandering widely in speech or writing, expatiating at length.",
+    "cousins": [
+      "space",
+      "spacious"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "expatriate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "patria",
+        "origin": "Latin",
+        "meaning": "fatherland"
+      }
+    ],
+    "literal": "out of one's fatherland",
+    "path": "Latin patria meant fatherland, from pater, father. To expatriate someone is to send them out of their native country, and an expatriate is simply a person living outside it.",
+    "cousins": [
+      "patriot",
+      "paternal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "expedient": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "pes",
+        "origin": "Latin",
+        "meaning": "foot"
+      }
+    ],
+    "literal": "freeing the foot, unshackling",
+    "path": "Latin expedire meant to free the feet from a snare, releasing them to move, from pes, foot. Freeing an action to proceed easily gave expedient its sense of practically convenient, even if not entirely proper.",
+    "cousins": [
+      "expedite",
+      "pedal",
+      "impede"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "expedite": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "pes",
+        "origin": "Latin",
+        "meaning": "foot"
+      }
+    ],
+    "literal": "to free the foot",
+    "path": "From the same root as expedient, expedite kept the sense of freeing something to move quickly, unshackling a process so it proceeds faster.",
+    "cousins": [
+      "expedient",
+      "pedal",
+      "impede"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "expel": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "pellere",
+        "origin": "Latin",
+        "meaning": "to drive, push"
+      }
+    ],
+    "literal": "to drive out",
+    "path": "Latin expellere meant to drive out forcibly, from pellere, to push or drive, the root of compel and propel. Expel kept that direct sense: forcing something or someone out.",
+    "cousins": [
+      "compel",
+      "propel",
+      "repel"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "expiate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, thoroughly"
+      },
+      {
+        "piece": "piare",
+        "origin": "Latin",
+        "meaning": "to appease, make pious"
+      }
+    ],
+    "literal": "to make thoroughly right with the gods",
+    "path": "Latin expiare meant to atone for or make amends for a sin, from piare, to appease through piety. Expiate kept that sense of making full amends for wrongdoing.",
+    "cousins": [
+      "pious",
+      "piety"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "explicable": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold"
+      }
+    ],
+    "literal": "able to be unfolded",
+    "path": "Latin explicare meant to unfold, from plicare, to fold, the root of complex and ply. Unfolding a tangled idea became explaining it, so explicable describes what can be unfolded into clarity.",
+    "cousins": [
+      "explain",
+      "complex",
+      "duplicate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "explicate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold"
+      }
+    ],
+    "literal": "to unfold",
+    "path": "From the same root as explicable, explicate is the verb: to unfold a text or idea layer by layer, analyzing and explaining it in detail.",
+    "cousins": [
+      "explain",
+      "complex",
+      "duplicate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "explicit": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold"
+      }
+    ],
+    "literal": "unfolded out flat",
+    "path": "From the same root as explicate, Latin explicitus meant unfolded, laid out flat and open. Explicit describes something stated so plainly it has been fully unfolded, leaving nothing hidden or ambiguous.",
+    "cousins": [
+      "explain",
+      "complex",
+      "duplicate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "exploit": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold"
+      }
+    ],
+    "literal": "to unfold, work out fully",
+    "path": "Old French exploiter meant to accomplish or carry out, ultimately from Latin explicare, to unfold or work out. Working something out to one's own advantage narrowed to using it, often unfairly, for personal gain.",
+    "cousins": [
+      "explicit",
+      "complex"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "exploitation": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold"
+      }
+    ],
+    "literal": "the act of working out for gain",
+    "path": "From the same root as exploit, exploitation names the practice itself: unfairly working someone or something for one's own advantage.",
+    "cousins": [
+      "explicit"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "exploitative": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold"
+      }
+    ],
+    "literal": "tending to work out for gain",
+    "path": "From the same root as exploit, exploitative describes behavior or systems characterized by taking unfair advantage of someone else's position.",
+    "cousins": [
+      "exploit",
+      "exploitation"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "exponent": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to put, place"
+      }
+    ],
+    "literal": "one who puts forth",
+    "path": "Latin exponere meant to put forth or explain, from ponere, to place, the root of position and component. An exponent puts forth and explains an idea, becoming its advocate or leading practitioner.",
+    "cousins": [
+      "position",
+      "component",
+      "expose"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "exposition": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to put, place"
+      }
+    ],
+    "literal": "a putting out on display",
+    "path": "From the same root as exponent, Latin expositio meant a setting forth. Exposition kept both senses that follow from putting something out: a clear explanation, and a large public display.",
+    "cousins": [
+      "exponent",
+      "position",
+      "expose"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "expostulation": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "postulare",
+        "origin": "Latin",
+        "meaning": "to demand, request"
+      }
+    ],
+    "literal": "a demanding out",
+    "path": "Latin expostulare meant to demand a reason, remonstrating with someone, from postulare, to demand. Expostulation names that earnest, insistent protest raised against someone's action or decision.",
+    "cousins": [
+      "postulate"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "expound": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to put, place"
+      }
+    ],
+    "literal": "to put forth in detail",
+    "path": "From the same root as exponent, Latin exponere gave French espondre, to explain. Expound kept the sense of putting an idea out in full, methodical detail.",
+    "cousins": [
+      "exponent",
+      "exposition"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "expunge": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "pungere",
+        "origin": "Latin",
+        "meaning": "to prick, mark"
+      }
+    ],
+    "literal": "to prick out marks",
+    "path": "Latin expungere meant to mark for deletion by pricking dots above unwanted text, from pungere, to prick, the root of puncture. Expunge kept that sense of erasing something completely, as if pricking it out of existence.",
+    "cousins": [
+      "puncture",
+      "pungent"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "expurgate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "purgare",
+        "origin": "Latin",
+        "meaning": "to cleanse, purge"
+      }
+    ],
+    "literal": "to cleanse out",
+    "path": "Latin expurgare meant to purify completely, from purgare, to cleanse, the root of purge. Expurgate narrowed to cleansing a text by removing its objectionable parts.",
+    "cousins": [
+      "purge",
+      "purify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "extant": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "standing out, still standing",
+    "path": "Latin extare meant to stand out or exist, from stare, to stand. Extant kept that sense: still standing, still in existence, especially of old texts or objects that survive.",
+    "cousins": [
+      "stand",
+      "stable",
+      "status"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "extemporaneous": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out of"
+      },
+      {
+        "piece": "tempus",
+        "origin": "Latin",
+        "meaning": "time"
+      }
+    ],
+    "literal": "out of the moment",
+    "path": "Latin ex tempore meant out of the time, on the spur of the moment, from tempus, time. Extemporaneous describes what is spoken or done on the spot, without prior preparation.",
+    "cousins": [
+      "temporary",
+      "contemporary",
+      "tempo"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "extemporize": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out of"
+      },
+      {
+        "piece": "tempus",
+        "origin": "Latin",
+        "meaning": "time"
+      }
+    ],
+    "literal": "to act out of the moment",
+    "path": "From the same root as extemporaneous, extemporize is the verb: to improvise on the spot, acting out of the immediate moment without a prepared plan.",
+    "cousins": [
+      "temporary",
+      "contemporary",
+      "tempo"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "extend": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "tendere",
+        "origin": "Latin",
+        "meaning": "to stretch"
+      }
+    ],
+    "literal": "to stretch out",
+    "path": "Latin extendere meant to stretch out, from tendere, to stretch, the root of tension and tent. Extend kept that image: stretching something out longer or wider, or stretching an offer out to someone.",
+    "cousins": [
+      "tension",
+      "tent",
+      "extensive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "extenuate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, thoroughly"
+      },
+      {
+        "piece": "tenuis",
+        "origin": "Latin",
+        "meaning": "thin"
+      }
+    ],
+    "literal": "to make thoroughly thin",
+    "path": "Latin extenuare meant to make thin or lessen, from tenuis, thin, the root of tenuous. Extenuate kept the figurative thinning: making an offense seem lighter, less serious than it first appears.",
+    "cousins": [
+      "tenuous",
+      "attenuate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "extenuating": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, thoroughly"
+      },
+      {
+        "piece": "tenuis",
+        "origin": "Latin",
+        "meaning": "thin"
+      }
+    ],
+    "literal": "making thoroughly thin",
+    "path": "From the same root as extenuate, extenuating describes circumstances that thin out the weight of an offense, making it seem less serious than it otherwise would.",
+    "cousins": [
+      "tenuous",
+      "attenuate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "extol": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, up"
+      },
+      {
+        "piece": "tollere",
+        "origin": "Latin",
+        "meaning": "to lift, raise"
+      }
+    ],
+    "literal": "to lift up",
+    "path": "Latin extollere meant to raise up or elevate in praise, from tollere, to lift. Extol kept that sense: praising someone so highly it lifts them up.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "extort": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "torquere",
+        "origin": "Latin",
+        "meaning": "to twist"
+      }
+    ],
+    "literal": "to twist out",
+    "path": "Latin extorquere meant to wrench out by twisting or force, from torquere, to twist, the root of torture and torque. Extort kept that violent image: forcing something out of someone by threat.",
+    "cousins": [
+      "torture",
+      "torque",
+      "distort"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

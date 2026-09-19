@@ -1,0 +1,944 @@
+{
+  "lissome": {
+    "parts": [
+      {
+        "piece": "lithe",
+        "origin": "Old English",
+        "meaning": "flexible, bending easily"
+      }
+    ],
+    "literal": "flexible, bending",
+    "path": "A contracted form of lithesome, from lithe, flexible. Lissome describes something slim and gracefully supple.",
+    "cousins": [
+      "lithe"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "listless": {
+    "parts": [
+      {
+        "piece": "list",
+        "origin": "Old English",
+        "meaning": "desire, inclination"
+      }
+    ],
+    "literal": "without desire",
+    "path": "The old noun list meant desire or inclination, related to lust. Listless describes someone without that desire or energy, lacking enthusiasm.",
+    "cousins": [
+      "lust"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "litany": {
+    "parts": [
+      {
+        "piece": "lite",
+        "origin": "Greek",
+        "meaning": "prayer, supplication"
+      }
+    ],
+    "literal": "a prayer, entreaty",
+    "path": "Greek lite meant a prayer or supplication. Litany named a repetitive prayer service, and extended to mean any long, repetitive list.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "litigation": {
+    "parts": [
+      {
+        "piece": "lis, litis",
+        "origin": "Latin",
+        "meaning": "lawsuit, dispute"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to do, drive"
+      }
+    ],
+    "literal": "to carry on a lawsuit",
+    "path": "Latin lis meant a lawsuit, and agere meant to do or drive. Litigation is the process of driving a legal dispute forward.",
+    "cousins": [
+      "litigant",
+      "litigious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "livelihood": {
+    "parts": [
+      {
+        "piece": "lif",
+        "origin": "Old English",
+        "meaning": "life"
+      },
+      {
+        "piece": "lad",
+        "origin": "Old English",
+        "meaning": "course, way"
+      }
+    ],
+    "literal": "course of life",
+    "path": "Old English lif-lad meant course of life, later reshaped by folk etymology to resemble likelihood. Livelihood names the means by which one supports one's life.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "livid": {
+    "parts": [
+      {
+        "piece": "livere",
+        "origin": "Latin",
+        "meaning": "to be bluish"
+      }
+    ],
+    "literal": "bluish, black-and-blue",
+    "path": "Latin livere meant to be bluish, as in a bruise. Livid originally described a bruised blue-black color, extending to a face flushed with fury, extremely angry.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "loath": {
+    "parts": [
+      {
+        "piece": "lath",
+        "origin": "Old English",
+        "meaning": "hostile, hateful"
+      }
+    ],
+    "literal": "hostile, hateful",
+    "path": "Old English lath meant hostile or hateful. Loath narrowed to describe reluctance or unwillingness to do something one finds distasteful.",
+    "cousins": [
+      "loathe",
+      "loathsome"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "loathe": {
+    "parts": [
+      {
+        "piece": "lathian",
+        "origin": "Old English",
+        "meaning": "to hate"
+      }
+    ],
+    "literal": "to hate",
+    "path": "From the same Old English root as loath, hateful. Loathe means to hate intensely.",
+    "cousins": [
+      "loath",
+      "loathsome"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lode": {
+    "parts": [
+      {
+        "piece": "lad",
+        "origin": "Old English",
+        "meaning": "a way, course, leading"
+      }
+    ],
+    "literal": "a way, a leading",
+    "path": "Originally the same word as load and lead, a course or way. In mining, a lode became the vein one follows to find ore, a rich source.",
+    "cousins": [
+      "load",
+      "lead"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "lofty": {
+    "parts": [
+      {
+        "piece": "lopt",
+        "origin": "Old Norse",
+        "meaning": "air, sky, upper room"
+      }
+    ],
+    "literal": "airy, elevated",
+    "path": "Old Norse lopt meant air or sky, also an upper room, hence loft. Lofty describes what is elevated in position or ideals, or by extension haughty, as if looking down from on high.",
+    "cousins": [
+      "aloft"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "log": {
+    "parts": [
+      {
+        "piece": "logge",
+        "origin": "Middle English",
+        "meaning": "a bulky piece of wood"
+      }
+    ],
+    "literal": "a piece of wood (ship's speed-log)",
+    "path": "Sailors measured a ship's speed by throwing a wooden log overboard on a knotted line, recording the readings in a log-book. To log came to mean recording anything systematically.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "loquacious": {
+    "parts": [
+      {
+        "piece": "loqui",
+        "origin": "Latin",
+        "meaning": "to speak"
+      }
+    ],
+    "literal": "talkative",
+    "path": "Latin loqui meant to speak, giving loquax, talkative. Loquacious describes someone very talkative.",
+    "cousins": [
+      "eloquent",
+      "colloquial",
+      "soliloquy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "lout": {
+    "parts": [
+      {
+        "piece": "lutan",
+        "origin": "Old English",
+        "meaning": "to bow, stoop (disputed)"
+      }
+    ],
+    "literal": "one who stoops, bows awkwardly",
+    "path": "The word may derive from an old verb meaning to bow or stoop, describing an awkward, clumsy rustic, though the connection is debated. Lout came to mean a crude, aggressive person.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "lucid": {
+    "parts": [
+      {
+        "piece": "lux, lucis",
+        "origin": "Latin",
+        "meaning": "light"
+      }
+    ],
+    "literal": "shining, bright",
+    "path": "Latin lux meant light. Lucid describes something clear and easy to understand, as if illuminated.",
+    "cousins": [
+      "illuminate",
+      "translucent",
+      "elucidate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "lucrative": {
+    "parts": [
+      {
+        "piece": "lucrum",
+        "origin": "Latin",
+        "meaning": "gain, profit"
+      }
+    ],
+    "literal": "profitable",
+    "path": "Latin lucrum meant gain or profit. Lucrative describes something producing substantial profit.",
+    "cousins": [
+      "lucre"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "lugubrious": {
+    "parts": [
+      {
+        "piece": "lugere",
+        "origin": "Latin",
+        "meaning": "to mourn"
+      }
+    ],
+    "literal": "mournful",
+    "path": "Latin lugere meant to mourn. Lugubrious describes an excessively, almost theatrically mournful tone.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lull": {
+    "parts": [
+      {
+        "piece": "lull",
+        "origin": "imitative",
+        "meaning": "a soothing sound (echoic)"
+      }
+    ],
+    "literal": "a soothing sound",
+    "path": "An imitative word, likely echoing the soothing la-la sound used to calm a baby to sleep. Lull came to mean a temporary, calming pause in activity.",
+    "cousins": [
+      "lullaby"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "lumber": {
+    "parts": [
+      {
+        "piece": "loma",
+        "origin": "Scandinavian (uncertain)",
+        "meaning": "to move slowly, walk heavily"
+      }
+    ],
+    "literal": "to move heavily (uncertain origin)",
+    "path": "The verb's precise origin is uncertain, though it may connect to a Scandinavian word for walking heavily. Lumber came to describe moving in a slow, heavy, clumsy way.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "luminary": {
+    "parts": [
+      {
+        "piece": "lumen, luminis",
+        "origin": "Latin",
+        "meaning": "light"
+      }
+    ],
+    "literal": "a light",
+    "path": "Latin lumen meant light. A luminary was originally a light-giving body like the sun or moon, extended to mean a person of great prominence who shines in their field.",
+    "cousins": [
+      "illuminate",
+      "luminous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "luminous": {
+    "parts": [
+      {
+        "piece": "lumen, luminis",
+        "origin": "Latin",
+        "meaning": "light"
+      }
+    ],
+    "literal": "full of light",
+    "path": "From the same Latin lumen, light. Luminous describes something giving off light, radiant.",
+    "cousins": [
+      "illuminate",
+      "luminary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "lurid": {
+    "parts": [
+      {
+        "piece": "luridus",
+        "origin": "Latin",
+        "meaning": "pale yellow, ghastly"
+      }
+    ],
+    "literal": "pale yellow, ghastly",
+    "path": "Latin luridus described a sickly, pale-yellow or ghastly color. Lurid shifted to mean shockingly vivid or sensational, as in gruesome or gaudy detail.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "luxuriant": {
+    "parts": [
+      {
+        "piece": "luxus",
+        "origin": "Latin",
+        "meaning": "excess, abundance"
+      }
+    ],
+    "literal": "excessive, abundant growth",
+    "path": "Latin luxus meant excess or abundance. Luxuriant describes vegetation or growth that is thick and abundant, almost excessive.",
+    "cousins": [
+      "luxury",
+      "luxuriate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "macabre": {
+    "parts": [
+      {
+        "piece": "macabre",
+        "origin": "French (disputed)",
+        "meaning": "of the dance of death, possibly referencing the Maccabees"
+      }
+    ],
+    "literal": "unclear, disputed",
+    "path": "The phrase danse macabre, dance of death, names a medieval allegory of death leading people of all stations to the grave. Macabre's exact source is debated, but the word settled into meaning disturbingly concerned with death.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "machinate": {
+    "parts": [
+      {
+        "piece": "machina",
+        "origin": "Latin",
+        "meaning": "machine, device, contrivance"
+      }
+    ],
+    "literal": "to devise with a contrivance",
+    "path": "Latin machina meant a device or contrivance. Machinari meant to devise or scheme, and machinate keeps that sense of crafty plotting.",
+    "cousins": [
+      "machine",
+      "mechanism"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "machination": {
+    "parts": [
+      {
+        "piece": "machina",
+        "origin": "Latin",
+        "meaning": "machine, device, contrivance"
+      }
+    ],
+    "literal": "a devised contrivance",
+    "path": "The noun form of machinate. A machination is a crafty scheme.",
+    "cousins": [
+      "mechanism"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "machinations": {
+    "parts": [
+      {
+        "piece": "machina",
+        "origin": "Latin",
+        "meaning": "machine, device, contrivance"
+      }
+    ],
+    "literal": "devised contrivances",
+    "path": "The plural of machination, from Latin machina, device. Machinations are crafty schemes and plots.",
+    "cousins": [
+      "machine",
+      "mechanism"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "madrigal": {
+    "parts": [
+      {
+        "piece": "matricalis",
+        "origin": "Late Latin (disputed)",
+        "meaning": "maternal, in the mother tongue"
+      }
+    ],
+    "literal": "in the mother tongue (disputed)",
+    "path": "The origin is debated, but a leading theory ties madrigal to Late Latin matricalis, relating to mater, mother, suggesting an original, simple song in the vernacular rather than formal Latin verse.",
+    "cousins": [
+      "maternal"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "maelstrom": {
+    "parts": [
+      {
+        "piece": "malen",
+        "origin": "Dutch",
+        "meaning": "to grind, whirl"
+      },
+      {
+        "piece": "stroom",
+        "origin": "Dutch",
+        "meaning": "stream"
+      }
+    ],
+    "literal": "a grinding stream",
+    "path": "Dutch maalstroom named a specific dangerous whirlpool off Norway, combining grind or whirl with stream. Maelstrom now describes any violent whirlpool or turbulent situation.",
+    "cousins": [
+      "stream"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "magisterial": {
+    "parts": [
+      {
+        "piece": "magister",
+        "origin": "Latin",
+        "meaning": "master, teacher"
+      }
+    ],
+    "literal": "of a master",
+    "path": "Latin magister meant master or teacher. Magisterial describes an authoritative, commanding manner, as befits a master.",
+    "cousins": [
+      "master",
+      "magistrate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "magnanimity": {
+    "parts": [
+      {
+        "piece": "magnus",
+        "origin": "Latin",
+        "meaning": "great"
+      },
+      {
+        "piece": "animus",
+        "origin": "Latin",
+        "meaning": "soul, spirit"
+      }
+    ],
+    "literal": "great-souled",
+    "path": "Latin magnus meant great and animus meant soul. Magnanimity is greatness of soul, generosity especially toward rivals or inferiors.",
+    "cousins": [
+      "magnify",
+      "animate",
+      "unanimous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "magnanimous": {
+    "parts": [
+      {
+        "piece": "magnus",
+        "origin": "Latin",
+        "meaning": "great"
+      },
+      {
+        "piece": "animus",
+        "origin": "Latin",
+        "meaning": "soul, spirit"
+      }
+    ],
+    "literal": "great-souled",
+    "path": "The adjective form of magnanimity, from great plus soul. Magnanimous describes a person generous and forgiving, especially to rivals.",
+    "cousins": [
+      "magnify",
+      "animate",
+      "unanimous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "magnate": {
+    "parts": [
+      {
+        "piece": "magnus",
+        "origin": "Latin",
+        "meaning": "great"
+      }
+    ],
+    "literal": "a great one",
+    "path": "Latin magnus meant great. A magnate is a person of great wealth and power, especially in business.",
+    "cousins": [
+      "magnify",
+      "magnificent",
+      "magnitude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "maintain": {
+    "parts": [
+      {
+        "piece": "manu",
+        "origin": "Latin",
+        "meaning": "hand"
+      },
+      {
+        "piece": "tenere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "to hold in hand",
+    "path": "Latin manu tenere literally meant to hold in the hand. Maintain kept the sense of holding something steady, whether asserting a claim firmly or keeping something in good condition.",
+    "cousins": [
+      "manual",
+      "tenant",
+      "retain"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "majority": {
+    "parts": [
+      {
+        "piece": "major",
+        "origin": "Latin",
+        "meaning": "greater"
+      }
+    ],
+    "literal": "greaterness",
+    "path": "Latin major meant greater, comparative of magnus, great. Majority names the greater number or part of a group.",
+    "cousins": [
+      "maximum"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "makeshift": {
+    "parts": [
+      {
+        "piece": "make",
+        "origin": "Old English",
+        "meaning": "to make"
+      },
+      {
+        "piece": "shift",
+        "origin": "Old English",
+        "meaning": "to contrive, manage"
+      }
+    ],
+    "literal": "made to contrive",
+    "path": "A compound of make and shift, in the old sense of shift meaning to contrive or manage. Makeshift describes something temporary and improvised, made to get by.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "maladroit": {
+    "parts": [
+      {
+        "piece": "mal-",
+        "origin": "Latin",
+        "meaning": "badly"
+      },
+      {
+        "piece": "adroit",
+        "origin": "French",
+        "meaning": "skillful, to the right"
+      }
+    ],
+    "literal": "badly skillful",
+    "path": "French adroit meant skillful, literally to the right, from directus, straight. Maladroit adds mal-, badly, to mean clumsy and inept.",
+    "cousins": [
+      "adroit",
+      "direct",
+      "rectify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malady": {
+    "parts": [
+      {
+        "piece": "male",
+        "origin": "Latin",
+        "meaning": "badly"
+      },
+      {
+        "piece": "habitus",
+        "origin": "Latin",
+        "meaning": "having, condition"
+      }
+    ],
+    "literal": "in bad condition",
+    "path": "Latin male habitus meant in a bad state or condition. Malady names a disease, or by extension any serious problem.",
+    "cousins": [
+      "habit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malaise": {
+    "parts": [
+      {
+        "piece": "mal",
+        "origin": "French",
+        "meaning": "bad"
+      },
+      {
+        "piece": "aise",
+        "origin": "French",
+        "meaning": "ease, comfort"
+      }
+    ],
+    "literal": "bad ease",
+    "path": "French combines mal, bad, with aise, ease or comfort. Malaise names a general feeling of unease or discontent, the opposite of ease.",
+    "cousins": [
+      "ease",
+      "disease"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malapropism": {
+    "parts": [
+      {
+        "piece": "mal a propos",
+        "origin": "French",
+        "meaning": "badly to the purpose"
+      }
+    ],
+    "literal": "badly to the purpose",
+    "path": "Mrs. Malaprop, a character in Sheridan's play The Rivals, was named from French mal a propos, badly suited, because she habitually misused words. Malapropism names that comic error.",
+    "cousins": [
+      "apropos"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malcontent": {
+    "parts": [
+      {
+        "piece": "mal-",
+        "origin": "Latin",
+        "meaning": "bad"
+      },
+      {
+        "piece": "content",
+        "origin": "Latin",
+        "meaning": "satisfied"
+      }
+    ],
+    "literal": "badly content",
+    "path": "Combines mal-, badly, with content, satisfied. A malcontent is persistently dissatisfied, badly content.",
+    "cousins": [
+      "content",
+      "discontent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malediction": {
+    "parts": [
+      {
+        "piece": "male",
+        "origin": "Latin",
+        "meaning": "badly"
+      },
+      {
+        "piece": "dicere",
+        "origin": "Latin",
+        "meaning": "to say"
+      }
+    ],
+    "literal": "speaking badly",
+    "path": "Latin male dicere meant to speak ill of. Malediction is a curse, the opposite of benediction, speaking well.",
+    "cousins": [
+      "dictate",
+      "benediction",
+      "verdict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malevolent": {
+    "parts": [
+      {
+        "piece": "male",
+        "origin": "Latin",
+        "meaning": "badly"
+      },
+      {
+        "piece": "velle",
+        "origin": "Latin",
+        "meaning": "to wish"
+      }
+    ],
+    "literal": "wishing badly",
+    "path": "Latin male volens meant wishing ill. Malevolent describes someone wishing harm to others.",
+    "cousins": [
+      "benevolent",
+      "volition",
+      "voluntary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malfeasance": {
+    "parts": [
+      {
+        "piece": "mal-",
+        "origin": "Latin",
+        "meaning": "bad"
+      },
+      {
+        "piece": "faisance",
+        "origin": "French",
+        "meaning": "a doing, from facere, to do"
+      }
+    ],
+    "literal": "bad-doing",
+    "path": "Combines mal-, bad, with faisance, a doing, from Latin facere, to do. Malfeasance names wrongdoing, especially by a public official.",
+    "cousins": [
+      "feasible",
+      "manufacture"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malice": {
+    "parts": [
+      {
+        "piece": "malus",
+        "origin": "Latin",
+        "meaning": "bad"
+      }
+    ],
+    "literal": "badness",
+    "path": "Latin malus meant bad. Malice is the desire to do bad, to harm others.",
+    "cousins": [
+      "malign",
+      "malevolent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malign": {
+    "parts": [
+      {
+        "piece": "malus",
+        "origin": "Latin",
+        "meaning": "bad"
+      },
+      {
+        "piece": "gen-",
+        "origin": "Latin",
+        "meaning": "born, nature"
+      }
+    ],
+    "literal": "born bad",
+    "path": "Latin malignus combined bad with the root for born or nature. Malign as a verb means to speak evil of someone, to slander.",
+    "cousins": [
+      "malignant",
+      "benign"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malinger": {
+    "parts": [
+      {
+        "piece": "malingre",
+        "origin": "French",
+        "meaning": "sickly, wretched"
+      }
+    ],
+    "literal": "badly weak",
+    "path": "French malingre described someone chronically sickly. Malinger came to mean deliberately faking illness to avoid work.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malingerer": {
+    "parts": [
+      {
+        "piece": "malingre",
+        "origin": "French",
+        "meaning": "sickly, wretched"
+      }
+    ],
+    "literal": "one who fakes sickness",
+    "path": "The agent noun of malinger, from French malingre, sickly. A malingerer fakes illness to avoid duty.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "malleable": {
+    "parts": [
+      {
+        "piece": "malleus",
+        "origin": "Latin",
+        "meaning": "hammer"
+      }
+    ],
+    "literal": "able to be hammered",
+    "path": "Latin malleus meant hammer. Malleable describes metal that can be hammered into shape, or by extension a person or idea easily shaped or influenced.",
+    "cousins": [
+      "mallet",
+      "maul"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "malodorous": {
+    "parts": [
+      {
+        "piece": "male",
+        "origin": "Latin",
+        "meaning": "badly"
+      },
+      {
+        "piece": "odor",
+        "origin": "Latin",
+        "meaning": "smell"
+      }
+    ],
+    "literal": "badly smelling",
+    "path": "Combines male, badly, with odor, smell. Malodorous means smelling very unpleasant.",
+    "cousins": [
+      "odor",
+      "deodorant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "manacle": {
+    "parts": [
+      {
+        "piece": "manus",
+        "origin": "Latin",
+        "meaning": "hand"
+      }
+    ],
+    "literal": "a little hand (restraint)",
+    "path": "Latin manus meant hand. A manacle is a restraint for the hand, and to manacle someone is to shackle them.",
+    "cousins": [
+      "manual",
+      "manipulate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

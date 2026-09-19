@@ -1,0 +1,936 @@
+{
+  "forbearance": {
+    "parts": [
+      {
+        "piece": "for-",
+        "origin": "Old English",
+        "meaning": "away, off (intensive prefix)"
+      },
+      {
+        "piece": "bear",
+        "origin": "Old English",
+        "meaning": "to carry, endure"
+      }
+    ],
+    "literal": "holding oneself back from bearing down",
+    "path": "Old English forberan combined 'away' with 'bear, carry' to mean holding back or putting up with something instead of acting on it. Forbearance is the patient self-restraint of holding back a reaction under provocation.",
+    "cousins": [
+      "birth",
+      "burden"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ford": {
+    "parts": [
+      {
+        "piece": "ford",
+        "origin": "Old English",
+        "meaning": "a crossing place, related to 'to go, travel'"
+      }
+    ],
+    "literal": "a place to go across",
+    "path": "Old English ford comes from the Germanic root for 'to go' or travel, the same root behind 'fare' and 'ferry'. A ford is a spot where a river can be gone across on foot; the verb means to make that crossing.",
+    "cousins": [
+      "fare",
+      "ferry"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "forebear": {
+    "parts": [
+      {
+        "piece": "fore-",
+        "origin": "Old English",
+        "meaning": "before"
+      },
+      {
+        "piece": "-be-er",
+        "origin": "Old English",
+        "meaning": "one who is/was"
+      }
+    ],
+    "literal": "one who was before",
+    "path": "Forebear literally means 'one who has been before': fore, earlier, plus an old agent form of 'be'. Despite the spelling it has nothing to do with 'bear' (carry); it simply names those who lived before you, your ancestors.",
+    "cousins": [
+      "before",
+      "being"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "foreboding": {
+    "parts": [
+      {
+        "piece": "fore-",
+        "origin": "Old English",
+        "meaning": "before"
+      },
+      {
+        "piece": "bode",
+        "origin": "Old English",
+        "meaning": "to announce, foretell"
+      }
+    ],
+    "literal": "an announcing beforehand",
+    "path": "Old English bodian meant to announce or proclaim, as a messenger would. To forebode is to announce something before it happens, usually something bad, and foreboding is the anxious sense of that coming announcement.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "foreseeable": {
+    "parts": [
+      {
+        "piece": "fore-",
+        "origin": "Old English",
+        "meaning": "before"
+      },
+      {
+        "piece": "see",
+        "origin": "Old English",
+        "meaning": "to see"
+      }
+    ],
+    "literal": "able to be seen beforehand",
+    "path": "A plain compound of 'fore' (ahead in time) and 'see'. Something foreseeable can be seen or known in advance, before it actually happens.",
+    "cousins": [
+      "sight"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "foreshadow": {
+    "parts": [
+      {
+        "piece": "fore-",
+        "origin": "Old English",
+        "meaning": "before"
+      },
+      {
+        "piece": "shadow",
+        "origin": "Old English",
+        "meaning": "shade, shadow"
+      }
+    ],
+    "literal": "to cast a shadow ahead of time",
+    "path": "The image is a shadow that arrives before the object casting it, the way a tall figure's shadow can reach you before the person does. To foreshadow something is to give an early, indirect sign of it before it fully arrives.",
+    "cousins": [
+      "shade"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "forestall": {
+    "parts": [
+      {
+        "piece": "fore-",
+        "origin": "Old English",
+        "meaning": "before"
+      },
+      {
+        "piece": "stall",
+        "origin": "Old English",
+        "meaning": "a standing place, market stall"
+      }
+    ],
+    "literal": "to set up ahead at the stall",
+    "path": "Forestall first meant to intercept goods before they reached the market stalls, buying them up early to corner the trade. The sense generalized to acting first on anything, heading off a problem before it can develop.",
+    "cousins": [
+      "stand"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "forfeit": {
+    "parts": [
+      {
+        "piece": "foris-",
+        "origin": "Latin",
+        "meaning": "outside, beyond"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "to do beyond (the law)",
+    "path": "Old French forfaire meant to transgress, act outside the law, from Latin foris (outside) plus facere (to do). What was done wrong cost the offender something, so to forfeit is to lose that thing as the price of the offense.",
+    "cousins": [
+      "factory",
+      "fact"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "forlorn": {
+    "parts": [
+      {
+        "piece": "for-",
+        "origin": "Old English",
+        "meaning": "utterly, completely (intensive prefix)"
+      },
+      {
+        "piece": "leosan",
+        "origin": "Old English",
+        "meaning": "to lose"
+      }
+    ],
+    "literal": "utterly lost",
+    "path": "Forlorn is the old past participle of 'to lose utterly': for- intensifies, and leosan is the ancestor of 'lose'. Something forlorn feels completely lost and abandoned, left with no hope.",
+    "cousins": [
+      "lose",
+      "loss"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "formal": {
+    "parts": [
+      {
+        "piece": "forma",
+        "origin": "Latin",
+        "meaning": "shape, form"
+      }
+    ],
+    "literal": "having a fixed shape",
+    "path": "Latin forma meant shape or pattern. Something formal follows the established shape or pattern for how things are properly done, official and structured rather than casual.",
+    "cousins": [
+      "format",
+      "formula",
+      "uniform"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "formidable": {
+    "parts": [
+      {
+        "piece": "formido",
+        "origin": "Latin",
+        "meaning": "fear, dread"
+      }
+    ],
+    "literal": "causing dread",
+    "path": "Latin formido meant fear or terror, and formidabilis described whatever inspired it. English kept the sense of something so powerful it commands fear or deep respect.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "forsake": {
+    "parts": [
+      {
+        "piece": "for-",
+        "origin": "Old English",
+        "meaning": "away, off (negative prefix)"
+      },
+      {
+        "piece": "sacan",
+        "origin": "Old English",
+        "meaning": "to contend, deny, quarrel"
+      }
+    ],
+    "literal": "to deny away, renounce",
+    "path": "Old English sacan meant to dispute or contend, related to the legal word 'sake'. Adding 'away' gave forsacan the sense of denying or renouncing a claim entirely, which became the modern meaning of abandoning someone or something.",
+    "cousins": [
+      "sake"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "forswear": {
+    "parts": [
+      {
+        "piece": "for-",
+        "origin": "Old English",
+        "meaning": "away, against"
+      },
+      {
+        "piece": "swerian",
+        "origin": "Old English",
+        "meaning": "to swear"
+      }
+    ],
+    "literal": "to swear away from",
+    "path": "For- here means 'against' or 'away from'. To forswear something is to swear it away, renouncing it with the solemnity of an oath.",
+    "cousins": [
+      "swear"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "forte": {
+    "parts": [
+      {
+        "piece": "fortis",
+        "origin": "Latin",
+        "meaning": "strong"
+      }
+    ],
+    "literal": "the strong (point)",
+    "path": "Borrowed from French fort, strong, ultimately Latin fortis. A person's forte is simply their strong point, the thing they do well.",
+    "cousins": [
+      "fort",
+      "fortify",
+      "force"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "forthcoming": {
+    "parts": [
+      {
+        "piece": "forth",
+        "origin": "Old English",
+        "meaning": "forward, onward"
+      },
+      {
+        "piece": "coming",
+        "origin": "Old English",
+        "meaning": "coming"
+      }
+    ],
+    "literal": "coming forth",
+    "path": "A plain compound: something forthcoming is coming forth, whether that is information a person is willing to bring into the open, or an event about to arrive.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "forthright": {
+    "parts": [
+      {
+        "piece": "forth",
+        "origin": "Old English",
+        "meaning": "forward"
+      },
+      {
+        "piece": "riht",
+        "origin": "Old English",
+        "meaning": "straight, right"
+      }
+    ],
+    "literal": "straight forward",
+    "path": "Forth (onward) plus right in its old sense of 'straight'. A forthright person goes straight forward with what they mean, direct and honest without evasion.",
+    "cousins": [
+      "right"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "fortify": {
+    "parts": [
+      {
+        "piece": "fortis",
+        "origin": "Latin",
+        "meaning": "strong"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "to make strong",
+    "path": "Latin fortis (strong) plus facere (to make). To fortify is to make something strong, building up defenses or reinforcing something against attack or weakness.",
+    "cousins": [
+      "fort",
+      "force",
+      "effort"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fortitude": {
+    "parts": [
+      {
+        "piece": "fortis",
+        "origin": "Latin",
+        "meaning": "strong"
+      }
+    ],
+    "literal": "strength of character",
+    "path": "From Latin fortis, strong. Fortitude is inner strength, specifically the strength to endure pain or hardship without giving way.",
+    "cousins": [
+      "fort",
+      "force",
+      "fortify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "fortuitous": {
+    "parts": [
+      {
+        "piece": "fors",
+        "origin": "Latin",
+        "meaning": "chance, luck"
+      }
+    ],
+    "literal": "happening by chance",
+    "path": "Latin fors meant chance or luck, the same root as 'fortune'. Fortuitous first meant simply 'by accident', with no judgment of good or bad, but usage has drifted so it now usually implies a lucky accident.",
+    "cousins": [
+      "fortune",
+      "fortunate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "foster": {
+    "parts": [
+      {
+        "piece": "fostrian",
+        "origin": "Old English",
+        "meaning": "to nourish, feed, support"
+      }
+    ],
+    "literal": "to feed and nourish",
+    "path": "Old English fostrian meant to feed and rear a child, from the same root as 'food'. To foster something now is to nourish its growth and development, as a foster parent nourishes a child not their own.",
+    "cousins": [
+      "food",
+      "fodder"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "founder": {
+    "parts": [
+      {
+        "piece": "fundus",
+        "origin": "Latin",
+        "meaning": "bottom"
+      }
+    ],
+    "literal": "to go to the bottom",
+    "path": "From Latin fundus, bottom, via Old French fondrer, to sink or collapse. A ship that founders goes down to the bottom; a plan that founders collapses and fails the same way.",
+    "cousins": [
+      "foundation",
+      "fund",
+      "profound"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fracas": {
+    "parts": [
+      {
+        "piece": "fracassare",
+        "origin": "Italian",
+        "meaning": "to smash, break with noise"
+      }
+    ],
+    "literal": "a loud smashing",
+    "path": "Borrowed via French from Italian fracassare, to smash noisily. A fracas is the noisy, chaotic disturbance such a smashing racket leaves behind, a brawl or uproar.",
+    "cousins": [
+      "fracture",
+      "fraction"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fractious": {
+    "parts": [
+      {
+        "piece": "frangere (fract-)",
+        "origin": "Latin",
+        "meaning": "to break"
+      }
+    ],
+    "literal": "prone to breaking",
+    "path": "Built on the Latin root of 'fracture', frangere, to break. Fractious first described something apt to break into pieces or disorder, and came to mean a person prone to breaking into quarrels, irritable and hard to manage.",
+    "cousins": [
+      "fracture",
+      "fragment"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "frailty": {
+    "parts": [
+      {
+        "piece": "fragilis",
+        "origin": "Latin",
+        "meaning": "breakable, fragile"
+      }
+    ],
+    "literal": "breakableness",
+    "path": "Frail comes from Latin fragilis, breakable, the same word that gives 'fragile' directly. Frailty is that breakable quality applied to a body or character, easily weakened or worn down.",
+    "cousins": [
+      "fragile",
+      "fragment"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fraud": {
+    "parts": [
+      {
+        "piece": "fraus",
+        "origin": "Latin",
+        "meaning": "deceit, injury, harm"
+      }
+    ],
+    "literal": "deceit",
+    "path": "Directly from Latin fraus, deceit or harm done by trickery. A fraud is exactly that: a deliberate deception carried out for gain, or the person who perpetrates one.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fraught": {
+    "parts": [
+      {
+        "piece": "vracht",
+        "origin": "Middle Dutch",
+        "meaning": "load, cargo, freight"
+      }
+    ],
+    "literal": "loaded, freighted",
+    "path": "Fraught was originally the past participle of an old verb meaning to load a ship with cargo, related to 'freight'. A situation fraught with danger is loaded down with it, so a fraught moment feels heavily loaded, tense.",
+    "cousins": [
+      "freight"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fray": {
+    "parts": [
+      {
+        "piece": "affray",
+        "origin": "Old French",
+        "meaning": "to break the peace (ex- + Frankish 'peace')"
+      }
+    ],
+    "literal": "a breaking of the peace",
+    "path": "Fray is a clipped form of 'affray', an Old French word built on Latin ex- (out) and a Frankish word for peace. An affray was a disturbance that broke the peace; fray narrowed to mean the fight itself.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "frenetic": {
+    "parts": [
+      {
+        "piece": "phren",
+        "origin": "Greek",
+        "meaning": "mind, brain"
+      }
+    ],
+    "literal": "of a brain fever, delirious",
+    "path": "Frenetic traces to Greek phren, mind, via a term for delirious brain fever. The word kept the sense of frantic, disordered energy, as if someone were feverishly out of their mind.",
+    "cousins": [
+      "frenzy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fresco": {
+    "parts": [
+      {
+        "piece": "fresco",
+        "origin": "Italian",
+        "meaning": "fresh"
+      }
+    ],
+    "literal": "painted while fresh",
+    "path": "Italian fresco means 'fresh'. The technique is painting pigment onto wet, fresh plaster so the color binds as it dries; the painting took the name of the fresh plaster it was done on.",
+    "cousins": [
+      "fresh"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fret": {
+    "parts": [
+      {
+        "piece": "for-",
+        "origin": "Old English",
+        "meaning": "thoroughly, up (intensive prefix)"
+      },
+      {
+        "piece": "etan",
+        "origin": "Old English",
+        "meaning": "to eat"
+      }
+    ],
+    "literal": "to eat away at",
+    "path": "Old English fretan meant to eat up or devour, an intensified form of 'eat'. The sense shifted from physical gnawing to worry gnawing at the mind: to fret is to let anxiety eat away at you.",
+    "cousins": [
+      "eat"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "frieze": {
+    "parts": [
+      {
+        "piece": "frise",
+        "origin": "French",
+        "meaning": "uncertain, possibly from 'Phrygian' embroidery"
+      }
+    ],
+    "literal": "unclear origin, possibly Phrygian work",
+    "path": "The origin is disputed. One theory ties frieze to Medieval Latin phrygium, 'Phrygian', referencing elaborate Phrygian needlework; another links it to Frisian cloth. Whatever the source, it settled into meaning a decorative band running along a wall.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "fringe": {
+    "parts": [
+      {
+        "piece": "fimbriae",
+        "origin": "Latin",
+        "meaning": "fibers, threads, fringe"
+      }
+    ],
+    "literal": "hanging threads",
+    "path": "From Latin fimbriae, the loose threads along an edge of cloth. A fringe was literally that decorative border of dangling threads, and the word extended to any outer edge, then to groups positioned at the margins.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "frivolous": {
+    "parts": [
+      {
+        "piece": "frivolus",
+        "origin": "Latin",
+        "meaning": "silly, trifling, worthless"
+      }
+    ],
+    "literal": "trifling, worthless",
+    "path": "Latin frivolus already meant silly or worthless, possibly connected to friare, to crumble, as if something frivolous were as insubstantial as crumbs. English kept the sense of something not to be taken seriously.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "frontier": {
+    "parts": [
+      {
+        "piece": "frons (front-)",
+        "origin": "Latin",
+        "meaning": "forehead, front, facing side"
+      }
+    ],
+    "literal": "the facing part",
+    "path": "Frontier comes from Latin frons, the forehead or front-facing part of something. A frontier is the land that faces outward, fronting the unknown or unsettled territory beyond a country's edge.",
+    "cousins": [
+      "front",
+      "confront",
+      "affront"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fructify": {
+    "parts": [
+      {
+        "piece": "fructus",
+        "origin": "Latin",
+        "meaning": "fruit"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "to make fruit",
+    "path": "A Latin compound of fructus, fruit, plus facere, to make. To fructify is literally to make fruit, and by extension to become productive or yield results.",
+    "cousins": [
+      "fruit",
+      "fruition"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "frugal": {
+    "parts": [
+      {
+        "piece": "frugi",
+        "origin": "Latin",
+        "meaning": "fit for use, fruit-worthy, economical"
+      }
+    ],
+    "literal": "fit for use",
+    "path": "Latin frugi (from frux, fruit or produce) meant fit for use or economically proper, as one might judge a crop worth its keep. A frugal person manages money the way good produce is used: carefully, without waste.",
+    "cousins": [
+      "fruit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "frugality": {
+    "parts": [
+      {
+        "piece": "frugi",
+        "origin": "Latin",
+        "meaning": "fit for use, economical"
+      }
+    ],
+    "literal": "the quality of being fit for use",
+    "path": "The noun form of frugal, ultimately from Latin frux, produce, via frugi, useful and fitting. It names the careful, non-wasteful management of money or resources.",
+    "cousins": [
+      "fruit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "fruitful": {
+    "parts": [
+      {
+        "piece": "fructus",
+        "origin": "Latin",
+        "meaning": "fruit, produce"
+      },
+      {
+        "piece": "-ful",
+        "origin": "Old English",
+        "meaning": "full of"
+      }
+    ],
+    "literal": "full of fruit",
+    "path": "A plain compound of fruit (from Latin fructus) and 'full of'. Literally full of fruit, and by extension full of good results, productive.",
+    "cousins": [
+      "fruit",
+      "fructify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "frustrate": {
+    "parts": [
+      {
+        "piece": "frustra",
+        "origin": "Latin",
+        "meaning": "in vain, for nothing"
+      }
+    ],
+    "literal": "made to be in vain",
+    "path": "Latin frustrari meant to deceive or disappoint, built on frustra, 'in vain'. To frustrate a plan or a person is literally to make the effort come to nothing, so the attempt fails despite the work put into it. (Frustra's own deeper root, possibly tied to fraus, 'deceit', is uncertain.)",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fulcrum": {
+    "parts": [
+      {
+        "piece": "fulcire",
+        "origin": "Latin",
+        "meaning": "to prop up, support"
+      }
+    ],
+    "literal": "a prop",
+    "path": "Latin fulcrum meant the post of a couch or bed, something that props things up, from fulcire, to support. The word was borrowed into mechanics for the fixed point that props up a lever as it turns.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fulminate": {
+    "parts": [
+      {
+        "piece": "fulmen",
+        "origin": "Latin",
+        "meaning": "lightning bolt"
+      }
+    ],
+    "literal": "to strike with lightning",
+    "path": "Latin fulmen meant a lightning bolt, and fulminare meant to hurl thunderbolts. The word was applied to papal decrees thundered down, then generalized to any loud, thundering denunciation or protest.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "functionary": {
+    "parts": [
+      {
+        "piece": "fungi",
+        "origin": "Latin",
+        "meaning": "to perform, discharge a duty"
+      }
+    ],
+    "literal": "one who performs a duty",
+    "path": "From Latin fungi, to perform or discharge a task, the same root as 'function'. A functionary performs an official function, usually a low-ranking bureaucrat carrying out routine duties.",
+    "cousins": [
+      "function",
+      "defunct"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fungible": {
+    "parts": [
+      {
+        "piece": "fungi",
+        "origin": "Latin",
+        "meaning": "to perform, serve in place of"
+      }
+    ],
+    "literal": "able to serve in place of another",
+    "path": "From the same Latin fungi as 'function', but used in the legal sense of fungi vice, 'to serve in place of'. Fungible goods are ones any unit of which can serve in place of any other, like identical coins or bushels of grain.",
+    "cousins": [
+      "function"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "furnish": {
+    "parts": [
+      {
+        "piece": "furnir",
+        "origin": "Old French",
+        "meaning": "to provide, supply, complete"
+      }
+    ],
+    "literal": "to provide fully",
+    "path": "From Old French furnir, to provide or fit out, itself from a Germanic root meaning to carry out or complete. To furnish is to supply what is needed, originally to equip a room fully, now to provide generally.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "furtive": {
+    "parts": [
+      {
+        "piece": "fur",
+        "origin": "Latin",
+        "meaning": "thief"
+      }
+    ],
+    "literal": "like a thief",
+    "path": "Latin fur meant thief, and furtivus described anything stolen or done secretly, the way a thief acts. A furtive glance or movement is done with a thief's secrecy, quick and hidden.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "futile": {
+    "parts": [
+      {
+        "piece": "fundere",
+        "origin": "Latin",
+        "meaning": "to pour"
+      }
+    ],
+    "literal": "leaky, pouring out easily",
+    "path": "Latin futilis originally described a vessel so leaky it couldn't hold water, from fundere, to pour. A futile effort likewise can't hold together or achieve anything, it leaks away to nothing.",
+    "cousins": [
+      "fuse",
+      "refund"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "gadfly": {
+    "parts": [
+      {
+        "piece": "gad",
+        "origin": "Middle English",
+        "meaning": "a goad, spike; to rove about"
+      },
+      {
+        "piece": "fly",
+        "origin": "Old English",
+        "meaning": "fly (insect)"
+      }
+    ],
+    "literal": "a goading fly",
+    "path": "A gadfly is literally a biting fly that makes livestock bolt and run wildly, from 'gad', an old word for a goad or spike. The word transferred to a person who likewise stings others into discomfort or action with persistent criticism.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gaffe": {
+    "parts": [
+      {
+        "piece": "gaffe",
+        "origin": "French",
+        "meaning": "boat hook; clumsy blunder"
+      }
+    ],
+    "literal": "a clumsy hook",
+    "path": "French gaffe first named a boat hook used by fishermen, then came to mean a clumsy blunder, perhaps from the image of fumbling with the hook. English borrowed it for an embarrassing social slip.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "gainsay": {
+    "parts": [
+      {
+        "piece": "gain-",
+        "origin": "Old English",
+        "meaning": "against"
+      },
+      {
+        "piece": "say",
+        "origin": "Old English",
+        "meaning": "to say"
+      }
+    ],
+    "literal": "to say against",
+    "path": "Gain- here is an old prefix meaning 'against' (unrelated to modern 'gain'). To gainsay something is literally to say against it, to contradict or deny it.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "gale": {
+    "parts": [
+      {
+        "piece": "galan",
+        "origin": "Old English",
+        "meaning": "to sing, cry out (uncertain link)"
+      }
+    ],
+    "literal": "uncertain, perhaps a shrieking wind",
+    "path": "The origin of gale is uncertain. One guess ties it to Old English galan, to sing or shriek (as in 'nightingale'), imagining a wind that howls. It settled into meaning a very strong wind, and by extension any sudden outburst, like a gale of laughter.",
+    "cousins": [
+      "nightingale"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  }
+}

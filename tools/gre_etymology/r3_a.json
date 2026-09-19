@@ -1,0 +1,677 @@
+{
+  "spate": {
+    "parts": [
+      {
+        "piece": "spate",
+        "origin": "unknown",
+        "meaning": "flood, overflowing of a river"
+      }
+    ],
+    "literal": "a flood, a river overflowing",
+    "path": "Spate first meant a sudden flood or rush of water in a river, recorded in Scottish and northern English texts from the 1400s. Its ultimate source is unknown. The flood image extended to any sudden large outpouring, of words, violence, or events.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "spearhead": {
+    "parts": [
+      {
+        "piece": "spear",
+        "origin": "Old English",
+        "meaning": "a pointed weapon on a shaft"
+      },
+      {
+        "piece": "head",
+        "origin": "Old English",
+        "meaning": "the foremost part"
+      }
+    ],
+    "literal": "the head of a spear",
+    "path": "A spearhead is literally the sharp point that leads a spear into its target. The word was extended to the lead unit of a military attack, and later to verb use: to lead or drive forward an effort the way a spearhead leads a charge.",
+    "cousins": [
+      "spear",
+      "forehead"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "specious": {
+    "parts": [
+      {
+        "piece": "speci-",
+        "origin": "Latin",
+        "meaning": "appearance, look"
+      },
+      {
+        "piece": "-ous",
+        "origin": "Latin",
+        "meaning": "full of, having the quality of"
+      }
+    ],
+    "literal": "full of good appearance",
+    "path": "Latin speciosus meant good-looking or plausible, from species, appearance, ultimately from specere, to look. Specious first meant beautiful or plausible in a neutral sense, then narrowed to appearances that mislead: something that looks right but is not.",
+    "cousins": [
+      "species",
+      "spectacle"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "spectral": {
+    "parts": [
+      {
+        "piece": "spectrum",
+        "origin": "Latin",
+        "meaning": "appearance, apparition"
+      },
+      {
+        "piece": "-al",
+        "origin": "Latin",
+        "meaning": "relating to"
+      }
+    ],
+    "literal": "relating to an apparition",
+    "path": "Latin spectrum meant an appearance or image, from specere, to look. It was used for ghostly apparitions as well as optical images. Spectral kept the ghost sense: relating to a specter, something seen that seems otherworldly.",
+    "cousins": [
+      "spectacle",
+      "inspect"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "spectrum": {
+    "parts": [
+      {
+        "piece": "spectrum",
+        "origin": "Latin",
+        "meaning": "appearance, image"
+      }
+    ],
+    "literal": "an appearance, an image",
+    "path": "Latin spectrum meant an appearance or image, from specere, to look. Newton used it in the 1670s for the band of colors cast by a prism, literally an image of light. From there spectrum widened to any continuous range between two extremes.",
+    "cousins": [
+      "spectacle",
+      "inspect",
+      "spectator"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "speculate": {
+    "parts": [
+      {
+        "piece": "specul-",
+        "origin": "Latin",
+        "meaning": "watch, observe"
+      },
+      {
+        "piece": "-ate",
+        "origin": "Latin",
+        "meaning": "to do, to make"
+      }
+    ],
+    "literal": "to watch or observe closely",
+    "path": "Latin speculari meant to spy out or observe from a lookout, from specula, watchtower. Speculate first meant to consider theoretically. Because such thinking often rests on incomplete information, the word came to mean guessing without proof, and later, risking money on an uncertain outcome.",
+    "cousins": [
+      "spectacle",
+      "inspect",
+      "spectator"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "spendthrift": {
+    "parts": [
+      {
+        "piece": "spend",
+        "origin": "Old English",
+        "meaning": "to pay out, expend"
+      },
+      {
+        "piece": "thrift",
+        "origin": "Old Norse",
+        "meaning": "prosperity, savings"
+      }
+    ],
+    "literal": "one who spends away one's savings",
+    "path": "Spendthrift joins spend with thrift, which originally meant prosperity or savings, from Old Norse, related to thrive. A spendthrift is someone who spends away the very savings that thrift is supposed to protect.",
+    "cousins": [
+      "thrive",
+      "expend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "splenetic": {
+    "parts": [
+      {
+        "piece": "splen",
+        "origin": "Greek",
+        "meaning": "spleen"
+      },
+      {
+        "piece": "-etic",
+        "origin": "Greek",
+        "meaning": "pertaining to"
+      }
+    ],
+    "literal": "pertaining to the spleen",
+    "path": "In ancient and medieval physiology the spleen was believed to produce black bile, the humor that caused melancholy and irritability. Splenetic kept that old medical theory: someone splenetic is ill-tempered and spiteful, as if governed by a sick spleen.",
+    "cousins": [
+      "spleen"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sporadic": {
+    "parts": [
+      {
+        "piece": "spor-",
+        "origin": "Greek",
+        "meaning": "scattered, sown"
+      },
+      {
+        "piece": "-adic",
+        "origin": "Greek",
+        "meaning": "pertaining to"
+      }
+    ],
+    "literal": "scattered here and there",
+    "path": "Greek sporas meant scattered, from speirein, to sow or scatter seed the way a farmer casts them across a field. Sporadic kept that image of scattering, applied to events that occur only here and there rather than regularly.",
+    "cousins": [
+      "spore",
+      "diaspora"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sportive": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away"
+      },
+      {
+        "piece": "portare",
+        "origin": "Latin",
+        "meaning": "to carry"
+      }
+    ],
+    "literal": "carrying away, diverting",
+    "path": "Sport comes from Old French desporter, to divert or amuse oneself, literally to carry oneself away from work, from Latin portare, to carry. Sportive kept the sense of playful diversion rather than the modern athletic one.",
+    "cousins": [
+      "transport",
+      "portable",
+      "export"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "spurious": {
+    "parts": [
+      {
+        "piece": "spurius",
+        "origin": "Latin",
+        "meaning": "illegitimate, of doubtful origin"
+      }
+    ],
+    "literal": "of illegitimate birth",
+    "path": "Latin spurius named a child born out of wedlock, of uncertain or false parentage. The word broadened from illegitimate birth to anything of false or counterfeit origin: not what it claims to be.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "spurn": {
+    "parts": [
+      {
+        "piece": "spurnan",
+        "origin": "Old English",
+        "meaning": "to kick, strike with the foot"
+      }
+    ],
+    "literal": "to kick away",
+    "path": "Old English spurnan meant to kick or strike with the foot, the same root that gives spur. To spurn something was literally to kick it away, and the word narrowed to rejecting someone or something with contempt.",
+    "cousins": [
+      "spur"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "squalid": {
+    "parts": [
+      {
+        "piece": "squalere",
+        "origin": "Latin",
+        "meaning": "to be rough, filthy, encrusted with dirt"
+      }
+    ],
+    "literal": "encrusted with filth",
+    "path": "Latin squalere meant to be stiff or rough with dirt, describing skin or ground caked with grime. Squalid kept that image of filth, extended to describe degraded, dirty living conditions generally.",
+    "cousins": [
+      "squalor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "squalor": {
+    "parts": [
+      {
+        "piece": "squalere",
+        "origin": "Latin",
+        "meaning": "to be rough, filthy, encrusted with dirt"
+      }
+    ],
+    "literal": "filthiness, griminess",
+    "path": "Squalor comes directly from Latin squalere, to be stiff or crusted with dirt, describing neglected skin or ground. English borrowed the noun form whole to name the state of filthy, degraded conditions.",
+    "cousins": [
+      "squalid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "squander": {
+    "parts": [
+      {
+        "piece": "squander",
+        "origin": "unknown",
+        "meaning": "to scatter, disperse"
+      }
+    ],
+    "literal": "to scatter about",
+    "path": "Squander first meant to scatter or disperse, recorded from the late 1500s; its ultimate origin is unknown, perhaps linked to scatter or squatter. The scattering sense narrowed to scattering money or resources: spending them recklessly.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "squeamish": {
+    "parts": [
+      {
+        "piece": "squaimous",
+        "origin": "Anglo-Norman",
+        "meaning": "fastidious, disdainful"
+      }
+    ],
+    "literal": "fastidious, easily disgusted",
+    "path": "Squeamish comes from Middle English squaimous, fastidious or easily nauseated, itself from an Anglo-Norman word of uncertain origin. The sense of being overly delicate about unpleasant things has stayed largely the same for 700 years.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "squelch": {
+    "parts": [
+      {
+        "piece": "squelch",
+        "origin": "unknown",
+        "meaning": "imitative of a soft crushing, sucking sound"
+      }
+    ],
+    "literal": "a soft crushing, sucking sound",
+    "path": "Squelch began as an imitative word for the sound of something crushed or trodden in mud, from the 1620s. By the 1800s it was used figuratively for crushing an argument or opponent into silence.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "staid": {
+    "parts": [
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "stayed, remained standing",
+    "path": "Staid is an old past-tense spelling of stay, itself from Old French ester, to stand, from Latin stare. Someone staid has stayed fixed and settled in their ways: sedate and unadventurous rather than restless.",
+    "cousins": [
+      "stay",
+      "stable",
+      "station"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stake": {
+    "parts": [
+      {
+        "piece": "staca",
+        "origin": "Old English",
+        "meaning": "a pointed stick or post"
+      }
+    ],
+    "literal": "a post driven into the ground",
+    "path": "A stake was originally a pointed wooden post used to mark a boundary or tether an animal. Wagers were once marked by placing money or an object beside a staked post, and the word came to mean whatever is risked or held as an interest in an outcome.",
+    "cousins": [
+      "stick",
+      "stockade"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "stalwart": {
+    "parts": [
+      {
+        "piece": "stæl",
+        "origin": "Old English",
+        "meaning": "place"
+      },
+      {
+        "piece": "wierþe",
+        "origin": "Old English",
+        "meaning": "worthy, valuable"
+      }
+    ],
+    "literal": "worthy in one's place",
+    "path": "Old English stælwierðe meant serviceable or good, combining a word for place with worthy. The sense settled into someone who is dependably worthy wherever placed: firm, loyal, and strong.",
+    "cousins": [
+      "worth",
+      "worthy"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "stanch": {
+    "parts": [
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "to make stand still",
+    "path": "Stanch comes from Old French estanchier, to stop or check, traced to Vulgar Latin stanticare, built on Latin stare, to stand. To stanch a wound is to make the flow of blood stand still, stopping it.",
+    "cousins": [
+      "stand",
+      "station",
+      "stable"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "standing": {
+    "parts": [
+      {
+        "piece": "standan",
+        "origin": "Old English",
+        "meaning": "to stand"
+      },
+      {
+        "piece": "-ing",
+        "origin": "Old English",
+        "meaning": "forming a noun of state"
+      }
+    ],
+    "literal": "the state of standing",
+    "path": "Standing comes straight from stand. To have a certain standing is to occupy a fixed position, literally where one stands, in a social or professional order, which extended naturally to one's reputation or status.",
+    "cousins": [
+      "understand",
+      "withstand"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stanza": {
+    "parts": [
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "a stopping place, a room",
+    "path": "Italian stanza meant a room or a stopping place, from Latin stare, to stand or stay. A stanza in poetry took the sense of a standing place in a song, a self-contained unit where the verse pauses before moving on.",
+    "cousins": [
+      "stay",
+      "station",
+      "stance"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "stark": {
+    "parts": [
+      {
+        "piece": "stearc",
+        "origin": "Old English",
+        "meaning": "stiff, strong, rigid"
+      }
+    ],
+    "literal": "stiff and rigid",
+    "path": "Old English stearc meant stiff, strong, or rigid, describing something unyielding. That rigidity extended to bare, harsh severity, as in a stark landscape, and to the sense of complete or absolute, as in stark contrast.",
+    "cousins": [
+      "starch"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "start": {
+    "parts": [
+      {
+        "piece": "styrtan",
+        "origin": "Old English",
+        "meaning": "to leap up suddenly"
+      }
+    ],
+    "literal": "to leap up suddenly",
+    "path": "Start comes from an Old English or Middle English verb meaning to leap up suddenly, as in fright. The tested sense keeps that original meaning: to jump involuntarily in surprise, distinct from the later sense of beginning something.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stasis": {
+    "parts": [
+      {
+        "piece": "histanai",
+        "origin": "Greek",
+        "meaning": "to make stand"
+      }
+    ],
+    "literal": "a standing",
+    "path": "Greek stasis meant a standing still, a halt, from histanai, to make stand. English borrowed it directly for any state where things have stopped moving or changing, a standstill.",
+    "cousins": [
+      "static",
+      "stand"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "static": {
+    "parts": [
+      {
+        "piece": "histanai",
+        "origin": "Greek",
+        "meaning": "to make stand"
+      },
+      {
+        "piece": "-ikos",
+        "origin": "Greek",
+        "meaning": "pertaining to"
+      }
+    ],
+    "literal": "pertaining to standing still",
+    "path": "Static comes from Greek statikos, causing to stand, from histanai, to make stand. It first described the science of bodies at rest, then broadened to anything that stays fixed rather than changing.",
+    "cousins": [
+      "stasis",
+      "stand"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "staunch": {
+    "parts": [
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "watertight, made to stand firm",
+    "path": "Staunch shares its root with stanch, Old French estanchier, to stop or make stand firm, originally describing a vessel watertight enough to hold. The sense of holding firm without leaking extended to people: firm and unwavering in loyalty.",
+    "cousins": [
+      "stanch",
+      "stand"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "steadfast": {
+    "parts": [
+      {
+        "piece": "stede",
+        "origin": "Old English",
+        "meaning": "place"
+      },
+      {
+        "piece": "fæst",
+        "origin": "Old English",
+        "meaning": "fixed, firm"
+      }
+    ],
+    "literal": "fixed in place",
+    "path": "Old English stedefæst combined stede, place, with fæst, fixed. Something steadfast is literally fastened in its place, which extended naturally to a person who stays firm and unwavering in loyalty or purpose.",
+    "cousins": [
+      "instead",
+      "fast",
+      "homestead"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "steep": {
+    "parts": [
+      {
+        "piece": "steypa",
+        "origin": "Old Norse",
+        "meaning": "to pour out, cast"
+      }
+    ],
+    "literal": "to pour over, soak",
+    "path": "This steep comes from a Scandinavian root related to Old Norse steypa, to pour out or cast, likely describing pouring liquid over grain or cloth. The word settled into its modern sense of soaking something thoroughly in liquid.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "steeped": {
+    "parts": [
+      {
+        "piece": "steypa",
+        "origin": "Old Norse",
+        "meaning": "to pour out, cast"
+      }
+    ],
+    "literal": "soaked thoroughly",
+    "path": "Steeped is the past participle of steep, to soak in liquid, from a Scandinavian root meaning to pour or cast. The literal sense of tea leaves steeped in water extended figuratively to being thoroughly immersed in a subject, tradition, or feeling.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stem": {
+    "parts": [
+      {
+        "piece": "stemma",
+        "origin": "Old Norse",
+        "meaning": "to stop, dam up"
+      }
+    ],
+    "literal": "to dam up",
+    "path": "This stem comes from Old Norse stemma, to stop or dam up flowing water. It is a different word from the plant-stem noun, and keeps the sense of stopping something, as in stemming the flow of blood or bad news.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stentorian": {
+    "parts": [
+      {
+        "piece": "Stentor",
+        "origin": "Greek",
+        "meaning": "a herald in the Iliad famed for a loud voice"
+      }
+    ],
+    "literal": "like Stentor",
+    "path": "Stentor was a Greek herald in Homer's Iliad whose voice, Homer says, was as loud as fifty men shouting together. Stentorian has meant extremely loud and powerful, especially of a voice, since the word entered English in the 1600s.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stern": {
+    "parts": [
+      {
+        "piece": "styrne",
+        "origin": "Old English",
+        "meaning": "strict, severe"
+      }
+    ],
+    "literal": "strict, severe",
+    "path": "Old English styrne meant strict or severe, describing a harsh temperament or expression. The meaning has stayed close to its root for over a thousand years: serious, unyielding, and unrelenting.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "stevedore": {
+    "parts": [
+      {
+        "piece": "stipare",
+        "origin": "Latin",
+        "meaning": "to pack, press together"
+      }
+    ],
+    "literal": "one who packs cargo",
+    "path": "Stevedore comes through Spanish estivador, from estivar, to stow cargo, ultimately from Latin stipare, to pack tightly. The word named the dockworkers who packed a ship's hold, and English borrowed it whole in the 1780s.",
+    "cousins": [
+      "constipate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stifle": {
+    "parts": [
+      {
+        "piece": "stuppa",
+        "origin": "Latin",
+        "meaning": "tow, coarse flax fiber"
+      }
+    ],
+    "literal": "to stop up with fiber",
+    "path": "Stifle likely traces to Vulgar Latin stuppare, to stop up with stuppa, coarse flax fiber used for caulking and plugging. The image of stopping something up with packed fiber extended to smothering or suppressing anything, breath, sound, or feeling.",
+    "cousins": [
+      "stop"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "bridle": {
+    "parts": [{"piece": "bridel", "origin": "Old English", "meaning": "a horse's headgear, restraint"}],
+    "literal": "to fit with a horse's headgear",
+    "path": "A bridle is the harness that controls a horse's head. To bridle at something is to react like a horse jerking its head up against the bridle, indignant and resistant; the same word also means to restrain, as a bridle does.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bristle": {
+    "parts": [{"piece": "byrst", "origin": "Old English", "meaning": "a stiff hair"}],
+    "literal": "stiff hairs standing up",
+    "path": "A bristle is a short stiff hair, as on a hog's back. Animals raise their bristles when alarmed, and the verb to bristle borrowed that image for a person's sudden flash of anger.",
+    "cousins": ["brush"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "broach": {
+    "parts": [{"piece": "broche", "origin": "Old French", "meaning": "a spit, pointed tool"}],
+    "literal": "to pierce open",
+    "path": "A broche was a pointed spit or tool used to pierce something open, like tapping a cask of wine. Broaching a topic borrows that image: piercing it open for discussion.",
+    "cousins": ["brooch"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "broadside": {
+    "parts": [{"piece": "broad", "origin": "Old English", "meaning": "wide"}, {"piece": "side", "origin": "Old English", "meaning": "side"}],
+    "literal": "the wide side of a ship",
+    "path": "A broadside was originally the simultaneous firing of every cannon along one side of a warship. That image of overwhelming, all-at-once force carried over to a broadside in speech or print: a forceful, sweeping attack.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bromide": {
+    "parts": [{"piece": "bromos", "origin": "Greek", "meaning": "stench, source of the element bromine"}],
+    "literal": "a bromine-based sedative",
+    "path": "Bromide salts were once standard sedatives, prescribed to calm anxious patients. A verbal bromide borrowed that image: a soothing, trite platitude meant to calm rather than say anything original.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "brooch": {
+    "parts": [{"piece": "broche", "origin": "Old French", "meaning": "a spit, pointed pin"}],
+    "literal": "a pointed pin",
+    "path": "Brooch and broach share the same French root, a pointed spit or pin. Brooch kept the literal object: an ornamental pin that pierces and fastens clothing.",
+    "cousins": ["broach"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "brook": {
+    "parts": [{"piece": "brucan", "origin": "Old English", "meaning": "to use, enjoy, make use of"}],
+    "literal": "to make use of, put up with",
+    "path": "Brook once simply meant to use or enjoy, related to the German verb brauchen, to need. It narrowed to a specific kind of use: putting up with something, usually in negative phrases like 'brook no delay.'",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "browbeat": {
+    "parts": [{"piece": "brow", "origin": "Old English", "meaning": "eyebrow, forehead"}, {"piece": "beat", "origin": "Old English", "meaning": "to strike"}],
+    "literal": "to beat down with a stare",
+    "path": "Browbeat pictures someone using a fierce, lowered brow, a glowering stare, to beat an opponent into submission without landing a physical blow. It came to mean bullying someone with words and threats.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "brusquely": {
+    "parts": [{"piece": "brusco", "origin": "Italian", "meaning": "sharp, tart, rough"}],
+    "literal": "sharply, tartly",
+    "path": "Brusque comes from Italian brusco, sharp or tart, originally describing sour wine or a prickly plant. The sharpness of taste became the sharpness of manner: blunt and abrupt.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "buck": {
+    "parts": [{"piece": "bucca", "origin": "Old English", "meaning": "male deer or goat"}],
+    "literal": "to jump like a male goat",
+    "path": "A buck is a male deer or goat, prone to sudden leaping jumps. A horse that bucks throws its rider with that same explosive leap, and the verb extended to any stubborn, forceful resistance.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bucolic": {
+    "parts": [{"piece": "bous", "origin": "Greek", "meaning": "cow, ox"}, {"piece": "-kolos", "origin": "Greek", "meaning": "tending, herding"}],
+    "literal": "of cowherding",
+    "path": "Greek boukolos meant a cowherd, from bous, cow or ox. Bucolic described the poetry and life of herdsmen in the countryside, and broadened to anything pleasantly rural.",
+    "cousins": ["bovine"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "buff": {
+    "parts": [{"piece": "buffalo", "origin": "uncertain", "meaning": "buffalo leather, a buff-colored coat"}],
+    "literal": "wearer of a buff coat",
+    "path": "In old New York, volunteer firefighters wore buff-colored buffalo-leather coats, and eager onlookers who followed them were nicknamed buffs. The word broadened from fire enthusiasts to any devoted fan or expert.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "buffer": {
+    "parts": [{"piece": "buffe", "origin": "Old French", "meaning": "a blow, a puff"}],
+    "literal": "something that absorbs a blow",
+    "path": "Buffer comes from an old verb buff, to deaden a blow, related to buffet, a strike. A buffer is literally something built to absorb impact, extended to anything that softens shock or conflict.",
+    "cousins": ["buffet"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bullion": {
+    "parts": [{"piece": "bullire", "origin": "Latin", "meaning": "to boil"}],
+    "literal": "melted metal",
+    "path": "Bullion likely traces to the same root as boil, referring to metal melted down at a mint before being cast or stamped. It came to mean precious metal in bulk, uncoined form.",
+    "cousins": ["boil", "bouillon"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bulwark": {
+    "parts": [{"piece": "bole", "origin": "Middle Dutch", "meaning": "plank, tree trunk"}, {"piece": "werc", "origin": "Middle Dutch", "meaning": "work, structure"}],
+    "literal": "a plank-work wall",
+    "path": "Bulwark comes from a Germanic compound meaning a structure built of tree-trunk planks: a log rampart. The same word passed into French as boulevard, while English kept its sense of a strong bastion or protection.",
+    "cousins": ["boulevard"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "bumbling": {
+    "parts": [{"piece": "bumble", "origin": "English", "meaning": "to buzz, move clumsily"}],
+    "literal": "buzzing about clumsily",
+    "path": "Bumble began as an imitative word for a droning, buzzing sound, like a bumblebee, and blended with words like fumble and stumble to also mean moving clumsily. Bumbling describes that same inept, fumbling awkwardness.",
+    "cousins": ["fumble", "stumble"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "buoyant": {
+    "parts": [{"piece": "boeye", "origin": "Middle Dutch", "meaning": "a floating marker, buoy"}],
+    "literal": "able to float like a buoy",
+    "path": "Buoyant comes from buoy, a floating marker, itself perhaps traced to a Latin word for a fetter used to tether it in place. The literal ability to float extended naturally to a buoyant, resilient spirit that bounces back up.",
+    "cousins": ["buoy"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "bureaucracy": {
+    "parts": [{"piece": "bureau", "origin": "French", "meaning": "desk, office"}, {"piece": "-kratia", "origin": "Greek", "meaning": "rule, power"}],
+    "literal": "rule by desks and offices",
+    "path": "Bureau originally meant the coarse cloth covering a writing desk, then the desk itself, then the office around it. Adding the Greek suffix for rule gave bureaucracy: government by desks and offices, complex administrative procedure.",
+    "cousins": ["democracy", "aristocracy"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "burgeon": {
+    "parts": [{"piece": "burjon", "origin": "Old French", "meaning": "a bud, sprout"}],
+    "literal": "to bud, sprout",
+    "path": "Burgeon comes from an Old French word for a plant bud or sprout. The literal image of a bud opening and growing rapidly extended to anything that grows or expands quickly.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "burnish": {
+    "parts": [{"piece": "brun", "origin": "Old French", "meaning": "brown"}],
+    "literal": "to make shiny brown",
+    "path": "Burnish comes from an Old French word meaning to make brown or shine, related to brun, brown, since polishing metal darkened and brightened it at once. It kept the sense of polishing something, literally or a reputation, to a shine.",
+    "cousins": ["brown", "brunette"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "buttress": {
+    "parts": [{"piece": "bouter", "origin": "Old French", "meaning": "to push, thrust"}],
+    "literal": "a pushing support",
+    "path": "Buttress comes from an Old French word meaning to push or thrust, describing a stone support that pushes back against a wall to keep it standing. The verb kept that image: to buttress is to prop up and reinforce.",
+    "cousins": ["butt"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "buxom": {
+    "parts": [{"piece": "bugan", "origin": "Old English", "meaning": "to bow, bend"}, {"piece": "-sum", "origin": "Old English", "meaning": "-some, characterized by"}],
+    "literal": "easily bending, compliant",
+    "path": "Buxom originally meant obedient or yielding, literally easily bowed or bent. That sense of pliant good health and cheer shifted, through healthy and vigorous, to today's meaning: plump and full-figured.",
+    "cousins": ["bow"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "bygone": {
+    "parts": [{"piece": "by", "origin": "Old English", "meaning": "past, beside"}, {"piece": "gone", "origin": "Old English", "meaning": "departed"}],
+    "literal": "gone by",
+    "path": "Bygone is simply by plus gone: something that has passed by. It describes anything belonging to an earlier, vanished time, as in 'let bygones be bygones.'",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "byzantine": {
+    "parts": [{"piece": "Byzantium", "origin": "eponym", "meaning": "capital of the Byzantine Empire, known for complex court intrigue"}],
+    "literal": "of Byzantium",
+    "path": "Byzantine originally just meant of Byzantium, the Eastern Roman Empire. Its court and bureaucracy had a reputation, fair or not, for elaborate, convoluted intrigue, and the word came to describe anything excessively complex and devious.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "cabal": {
+    "parts": [{"piece": "qabbalah", "origin": "Hebrew", "meaning": "received tradition, esoteric doctrine"}],
+    "literal": "secret mystical tradition",
+    "path": "Cabal traces to Hebrew qabbalah, the secret, esoteric Jewish mystical tradition. The association with hidden, arcane knowledge shifted to any small group plotting in secret. A later coincidence, that the initials of five of Charles II's ministers spelled CABAL, is a popular but false origin story.",
+    "cousins": ["kabbalah"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cacophonous": {
+    "parts": [{"piece": "kakos", "origin": "Greek", "meaning": "bad"}, {"piece": "phone", "origin": "Greek", "meaning": "sound, voice"}],
+    "literal": "bad-sounding",
+    "path": "Greek kakos, bad, joined phone, sound, to describe anything that sounds harsh and unpleasant. Cacophonous names discord as plainly as its opposite, euphonious, names sweetness.",
+    "cousins": ["euphony", "telephone", "symphony"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cacophony": {
+    "parts": [{"piece": "kakos", "origin": "Greek", "meaning": "bad"}, {"piece": "phone", "origin": "Greek", "meaning": "sound, voice"}],
+    "literal": "bad sound",
+    "path": "Cacophony joins Greek kakos, bad, with phone, sound: a harsh mixture of noise, the opposite of pleasant harmony.",
+    "cousins": ["euphony", "symphony", "telephone"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cadaverous": {
+    "parts": [{"piece": "cadere", "origin": "Latin", "meaning": "to fall"}],
+    "literal": "corpse-like",
+    "path": "Latin cadaver, a corpse, comes from cadere, to fall, since the dead are those who have fallen. Cadaverous describes a living person who looks deathly pale and gaunt, corpse-like.",
+    "cousins": ["cadence", "decay", "incident"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cajole": {
+    "parts": [{"piece": "cageoler", "origin": "Old French", "meaning": "to chatter like a jay bird"}],
+    "literal": "to chatter like a caged bird",
+    "path": "Cajole probably comes from an Old French word meaning to chatter like a jay, possibly blended with a word for luring a bird into a cage. Either image fits: to cajole is to coax someone with sweet talk.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "callous": {
+    "parts": [{"piece": "callum", "origin": "Latin", "meaning": "hardened skin, callus"}],
+    "literal": "hard-skinned",
+    "path": "Latin callum meant hardened skin, a callus. Callous first described physically toughened skin, then extended to a toughened heart: someone insensitive to others' suffering.",
+    "cousins": ["callus"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "callow": {
+    "parts": [{"piece": "calu", "origin": "Old English", "meaning": "bald, bare, unfledged"}],
+    "literal": "bare, unfledged",
+    "path": "Callow first described a young bird still bare of feathers, not yet fledged. The image of an unready fledgling extended to young, inexperienced people who have not yet grown into maturity.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "calumny": {
+    "parts": [{"piece": "calvi", "origin": "Latin", "meaning": "to deceive, trick"}],
+    "literal": "deceitful accusation",
+    "path": "Latin calumnia, a false accusation, comes from calvi, to deceive or trick. Calumny keeps that sense exactly: a false statement made to damage someone's reputation.",
+    "cousins": ["challenge"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cameo": {
+    "parts": [{"piece": "cammaeus", "origin": "Medieval Latin", "meaning": "a carved gem with raised relief"}],
+    "literal": "a carved gem portrait",
+    "path": "A cameo was originally a small gem or shell carved with a raised portrait in relief, its ultimate origin obscure. A cameo appearance borrows that image: a brief, distinctive, framed portrait of a role rather than a full part.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "campaign": {
+    "parts": [{"piece": "campus", "origin": "Latin", "meaning": "a field, open plain"}],
+    "literal": "operating in open country",
+    "path": "Campaign comes from campagne, open countryside, from Latin campus, a field. Armies took to the open field for a campaigning season, and the word broadened to any organized, sustained effort toward a goal.",
+    "cousins": ["campus", "champagne"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "canard": {
+    "parts": [{"piece": "canard", "origin": "French", "meaning": "a duck, also a hoax"}],
+    "literal": "a duck, a hoax",
+    "path": "Canard is French for duck, and by a French idiom for swindling, literally to half-sell a duck, it came to mean a hoax or fabricated story. The exact link between ducks and lies is debated, but the sense of an unfounded rumor stuck.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "candid": {
+    "parts": [{"piece": "candere", "origin": "Latin", "meaning": "to shine, glow white"}],
+    "literal": "shining white, pure",
+    "path": "Latin candidus meant shining white, the root also behind candidate, since Roman office-seekers wore bright white togas. A pure, unclouded quality of speech became candid: honest and straightforward.",
+    "cousins": ["candidate", "incandescent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "candidness": {
+    "parts": [{"piece": "candere", "origin": "Latin", "meaning": "to shine, glow white"}],
+    "literal": "the quality of being pure and clear",
+    "path": "Candidness shares candid's root in Latin candere, to shine white, the same image behind candidate. A speaker's purity and clarity became honesty and directness.",
+    "cousins": ["candidate", "incandescent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "candor": {
+    "parts": [{"piece": "candere", "origin": "Latin", "meaning": "to shine, glow white"}],
+    "literal": "whiteness, purity",
+    "path": "Candor is the Latin noun candor, whiteness or brightness, from candere, to shine. That pure, unclouded brightness became openness and honesty in expression.",
+    "cousins": ["candidate", "incandescent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "canny": {
+    "parts": [{"piece": "can", "origin": "Old English", "meaning": "to know, know how"}, {"piece": "-y", "origin": "English", "meaning": "adjective suffix"}],
+    "literal": "knowing, able",
+    "path": "Canny grew from can, in its old sense of to know, the same root behind cunning and ken. To be canny is to know how things work: shrewd and careful, especially in practical or business matters.",
+    "cousins": ["cunning", "ken"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "canon": {
+    "parts": [{"piece": "kanon", "origin": "Greek", "meaning": "a straight rod, rule, standard"}],
+    "literal": "a measuring rule",
+    "path": "Greek kanon meant a straight rod used as a measuring rule or standard. A canon is the accepted standard body of works or rules against which others are measured.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "canonical": {
+    "parts": [{"piece": "kanon", "origin": "Greek", "meaning": "a straight rod, rule, standard"}],
+    "literal": "according to the standard",
+    "path": "Canonical extends canon, Greek kanon, a measuring rod or standard. Something canonical meets the accepted standard: authoritative and official.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "canonize": {
+    "parts": [{"piece": "kanon", "origin": "Greek", "meaning": "a rule, standard, official list"}],
+    "literal": "to place in the official list",
+    "path": "Canonize comes from canon in the sense of an official list or rule. To canonize a saint was to formally add them to the church's authoritative list, and the word extended to treating anything as authoritative.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "cant": {
+    "parts": [{"piece": "cantare", "origin": "Latin", "meaning": "to sing"}],
+    "literal": "a sung, whining speech",
+    "path": "Cant traces to Latin cantare, to sing, originally describing the sing-song whine of beggars and, later, the special jargon of a trade or class. That insincere, sing-song quality narrowed to hollow, moralizing talk that isn't really felt.",
+    "cousins": ["chant", "canto", "accent"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cantankerous": {
+    "parts": [{"piece": "cantankerous", "origin": "unknown", "meaning": "quarrelsome, obscure origin"}],
+    "literal": "quarrelsome",
+    "path": "Cantankerous appeared in 18th-century Irish English with a genuinely obscure origin, perhaps blending an old word for strife with rancorous. It has always meant bad-tempered and quarrelsome.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "canto": {
+    "parts": [{"piece": "cantus", "origin": "Latin", "meaning": "song"}],
+    "literal": "a song, a sung section",
+    "path": "Canto comes from Latin cantus, song, since long narrative poems were originally sung or recited aloud in sections. Each canto is one such major division of a long poem.",
+    "cousins": ["chant", "cant", "accent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "capacity": {
+    "parts": [{"piece": "capere", "origin": "Latin", "meaning": "to take, hold, seize"}],
+    "literal": "ability to hold",
+    "path": "Latin capere, to take or hold, gave capax, able to hold much, and from it capacity: the ability to hold, or more broadly, the maximum amount or ability possible.",
+    "cousins": ["capture", "capable", "accept"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "capitulate": {
+    "parts": [{"piece": "caput", "origin": "Latin", "meaning": "head"}, {"piece": "capitulum", "origin": "Latin", "meaning": "a chapter, small heading"}],
+    "literal": "to arrange under headings",
+    "path": "Capitulate comes from Latin caput, head, via capitulum, a chapter or set of headings. It first meant to negotiate surrender terms laid out under formal headings, and narrowed to the act of surrendering itself.",
+    "cousins": ["chapter", "captain", "capital"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "caprice": {
+    "parts": [{"piece": "capriccio", "origin": "Italian", "meaning": "a shudder, horror, hair standing on end"}],
+    "literal": "a sudden shudder",
+    "path": "Caprice probably comes from Italian capriccio, an original sense of a horrified shudder, hair standing up like a startled hedgehog's quills. The word drifted from a sudden fright to any sudden, unpredictable change of mind.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "capricious": {
+    "parts": [{"piece": "capriccio", "origin": "Italian", "meaning": "a shudder, horror, hair standing on end"}],
+    "literal": "given to sudden shudders",
+    "path": "Capricious shares caprice's root in an Italian word for a startled shudder. It describes someone prone to sudden, unpredictable changes of mood or decision, as fickle as a sudden fright.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "captious": {
+    "parts": [{"piece": "capere", "origin": "Latin", "meaning": "to take, seize, catch"}],
+    "literal": "fond of catching faults",
+    "path": "Captious comes from Latin capere, to take or catch, via captio, a deceptive catch or trick, as in a trick question. A captious critic is one who loves catching others out over trivial faults.",
+    "cousins": ["capture", "capable"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

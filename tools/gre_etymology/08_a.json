@@ -1,0 +1,1103 @@
+{
+  "reprehensible": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back, again"
+      },
+      {
+        "piece": "prehendere",
+        "origin": "Latin",
+        "meaning": "to seize, grasp"
+      }
+    ],
+    "literal": "worthy of being seized upon, blamed",
+    "path": "Latin reprehendere meant to seize back or catch someone in fault, to censure. Reprehensible describes conduct that deserves to be seized upon and strongly condemned.",
+    "cousins": [
+      "comprehend",
+      "apprehend",
+      "prehensile"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "reprisal": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "prehendere",
+        "origin": "Latin",
+        "meaning": "to seize, take"
+      }
+    ],
+    "literal": "a taking back, a seizing in return",
+    "path": "Medieval Latin reprensalia named the act of seizing goods or persons in return for a wrong done. The word narrowed to any retaliatory act carried out in return for an injury.",
+    "cousins": [
+      "comprise",
+      "enterprise"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "reprise": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "again"
+      },
+      {
+        "piece": "prehendere",
+        "origin": "Latin",
+        "meaning": "to take, seize"
+      }
+    ],
+    "literal": "a taking up again",
+    "path": "French reprise, from reprendre, to take back or resume, named the act of taking something up again. In music and drama it settled on repeating an earlier passage.",
+    "cousins": [
+      "comprise",
+      "surprise",
+      "enterprise"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "reproach": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "prope",
+        "origin": "Latin",
+        "meaning": "near"
+      }
+    ],
+    "literal": "to bring back near, hold up close",
+    "path": "Reproach probably comes from Vulgar Latin repropiare, to bring near again, in the sense of holding a fault up close to someone's face. It settled into meaning to blame someone to their face.",
+    "cousins": [
+      "approach"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "reprobate": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "opposite of"
+      },
+      {
+        "piece": "probare",
+        "origin": "Latin",
+        "meaning": "to test, approve"
+      }
+    ],
+    "literal": "tested and rejected, disapproved",
+    "path": "Latin reprobare meant to reject after testing, the opposite of probare, to approve. In theology a reprobate was someone rejected by God rather than saved, and the word drifted to mean any unprincipled person.",
+    "cousins": [
+      "probe",
+      "probable",
+      "approve"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "reprobation": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "opposite of"
+      },
+      {
+        "piece": "probare",
+        "origin": "Latin",
+        "meaning": "to test, approve"
+      }
+    ],
+    "literal": "a rejecting, disapproving after testing",
+    "path": "From the same Latin reprobare as reprobate, reprobation named the act of formally rejecting or condemning something, once carrying theological weight and now general strong disapproval.",
+    "cousins": [
+      "probe",
+      "approve",
+      "probable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "repudiate": {
+    "parts": [
+      {
+        "piece": "repudium",
+        "origin": "Latin",
+        "meaning": "divorce, rejection (origin disputed)"
+      }
+    ],
+    "literal": "to formally cast off, divorce",
+    "path": "Latin repudiare meant to cast off a spouse, to divorce; the root repudium is of disputed origin. The word broadened from marital rejection to formally disowning any claim or belief.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "repugnant": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "pugnare",
+        "origin": "Latin",
+        "meaning": "to fight"
+      }
+    ],
+    "literal": "fighting back against, resisting",
+    "path": "Latin repugnare meant to fight back against something, to resist it. Repugnant first described clashing, inconsistent ideas, then things so offensive they provoke resistance and disgust.",
+    "cousins": [
+      "pugnacious",
+      "impugn",
+      "pugilist"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "requite": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "quietus",
+        "origin": "Latin",
+        "meaning": "at rest, settled"
+      }
+    ],
+    "literal": "to settle, discharge in return",
+    "path": "Requite comes from Latin quietare, to settle a debt and put to rest, with re- added for emphasis. To requite an act is to pay it back and settle the account.",
+    "cousins": [
+      "quiet",
+      "acquit",
+      "quit"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "rescind": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "scindere",
+        "origin": "Latin",
+        "meaning": "to cut, split"
+      }
+    ],
+    "literal": "to cut back, cut off",
+    "path": "Latin rescindere meant literally to cut back or tear away. Applied to laws and agreements, it meant to cut them off from force, to formally cancel them.",
+    "cousins": [
+      "schism",
+      "scissors"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "reservation": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "servare",
+        "origin": "Latin",
+        "meaning": "to keep, guard"
+      }
+    ],
+    "literal": "a keeping back",
+    "path": "Latin reservare meant to hold something back in store. A reservation is part of one's agreement or approval held back rather than given fully, hence a lingering doubt.",
+    "cousins": [
+      "conserve",
+      "preserve",
+      "observe"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "resignation": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "signare",
+        "origin": "Latin",
+        "meaning": "to seal, sign"
+      }
+    ],
+    "literal": "an unsealing, a giving up of a claim",
+    "path": "Latin resignare meant to unseal or cancel, to give back what had been sealed to you. To resign oneself to something is to surrender one's claim against it, hence calm acceptance of the unavoidable.",
+    "cousins": [
+      "sign",
+      "signature",
+      "design"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "resilient": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "salire",
+        "origin": "Latin",
+        "meaning": "to leap, jump"
+      }
+    ],
+    "literal": "leaping back",
+    "path": "Latin resilire meant to spring or rebound, like an object bouncing back after a blow. Resilient kept that image, first for elastic materials and then for people who recover quickly.",
+    "cousins": [
+      "salient",
+      "exult",
+      "insult"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "resolute": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "solvere",
+        "origin": "Latin",
+        "meaning": "to loosen, untie"
+      }
+    ],
+    "literal": "thoroughly loosened, settled",
+    "path": "Latin resolvere meant to untie completely, and by extension to settle a question by working it loose. Once a doubt is resolved, the mind is fixed and firm, hence resolute.",
+    "cousins": [
+      "solve",
+      "dissolve",
+      "absolute"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "resolution": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "solvere",
+        "origin": "Latin",
+        "meaning": "to loosen, untie"
+      }
+    ],
+    "literal": "a loosening, a settling",
+    "path": "From the same Latin resolvere as resolute, a resolution is the settling of something once tangled, whether a dispute or one's own wavering intent, giving both a formal decision and firm resolve.",
+    "cousins": [
+      "solve",
+      "dissolve",
+      "absolute"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "resolve": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "again, thoroughly"
+      },
+      {
+        "piece": "solvere",
+        "origin": "Latin",
+        "meaning": "to loosen, untie"
+      }
+    ],
+    "literal": "to loosen thoroughly, untie completely",
+    "path": "Resolvere meant to loosen or untangle something completely, like undoing a knot. Applied to the mind, resolving inner conflict means untangling indecision until it settles; the noun resolve is that settled, untangled state, a firm determination that no longer wavers.",
+    "cousins": [
+      "solve",
+      "dissolve",
+      "absolute"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "resonant": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back, again"
+      },
+      {
+        "piece": "sonare",
+        "origin": "Latin",
+        "meaning": "to sound"
+      }
+    ],
+    "literal": "sounding again, echoing back",
+    "path": "Latin resonare meant to sound back, to echo. A resonant voice or space sends sound reverberating, and a resonant idea keeps echoing in the mind, striking a chord of feeling.",
+    "cousins": [
+      "sonic",
+      "sonata",
+      "unison"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "resource": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "again"
+      },
+      {
+        "piece": "surgere",
+        "origin": "Latin",
+        "meaning": "to rise"
+      }
+    ],
+    "literal": "a rising again, a recourse",
+    "path": "Old French resourdre meant to rise again or recover, from Latin resurgere. A resource was originally something to turn to for recovery in difficulty, later any supply available for use.",
+    "cousins": [
+      "resurgent",
+      "surge",
+      "insurgent",
+      "resurrect"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "respectively": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "specere",
+        "origin": "Latin",
+        "meaning": "to look at"
+      }
+    ],
+    "literal": "looking back at each in turn",
+    "path": "Latin respicere meant to look back at or have regard for something specific. Respective came to mean pertaining individually to each one, and respectively marks each item matching one already named.",
+    "cousins": [
+      "spectator",
+      "inspect",
+      "perspective"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "respite": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "specere",
+        "origin": "Latin",
+        "meaning": "to look at"
+      }
+    ],
+    "literal": "a looking back, a reconsideration",
+    "path": "Respite comes from Latin respectus, a looking back or reconsideration, the same root as respect. A legal respite was a delay granted for reconsideration, later any short pause of relief.",
+    "cousins": [
+      "respect",
+      "inspect",
+      "spectator"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "restitution": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "statuere",
+        "origin": "Latin",
+        "meaning": "to set up, establish"
+      }
+    ],
+    "literal": "a setting up again, restoring",
+    "path": "Latin restituere meant to set something back up, to restore it to its former state. Restitution kept that sense of making whole again, returning property or compensating for a loss.",
+    "cousins": [
+      "statue",
+      "constitute",
+      "institute"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "restive": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "standing back, remaining stubbornly still",
+    "path": "Old French restif described a horse planting itself and refusing to move, from Latin restare, to stand back. Influenced by 'restless,' the word drifted from stubborn stillness to fidgety impatience under restraint.",
+    "cousins": [
+      "stable",
+      "static",
+      "stationary"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "restrained": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "stringere",
+        "origin": "Latin",
+        "meaning": "to draw tight, bind"
+      }
+    ],
+    "literal": "bound back, held tight",
+    "path": "Latin restringere meant to bind something back tightly. Restrained kept that image of being held in check, describing behavior or style tightly controlled rather than let loose.",
+    "cousins": [
+      "strict",
+      "stringent",
+      "constrict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "resurgent": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "again"
+      },
+      {
+        "piece": "surgere",
+        "origin": "Latin",
+        "meaning": "to rise"
+      }
+    ],
+    "literal": "rising again",
+    "path": "Latin resurgere meant simply to rise again, to get back up. Resurgent describes a force or feeling rising anew after having faded or been defeated.",
+    "cousins": [
+      "surge",
+      "insurgent",
+      "resurrect",
+      "source"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "resurrect": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "again"
+      },
+      {
+        "piece": "surgere",
+        "origin": "Latin",
+        "meaning": "to rise"
+      }
+    ],
+    "literal": "to rise again",
+    "path": "From the same Latin resurgere as resurgent, resurrect kept the image of rising from the dead, and broadened from the religious sense to reviving anything fallen out of use.",
+    "cousins": [
+      "surge",
+      "resurgent",
+      "insurgent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "retainer": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "tenere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "something that holds back, keeps",
+    "path": "Latin retinere meant to hold something back, to keep it in one's grasp. A retainer was first a person kept in service, then the fee paid to keep a professional's services on call.",
+    "cousins": [
+      "tenant",
+      "tenure",
+      "maintain"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "retaliate": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "talio",
+        "origin": "Latin",
+        "meaning": "retribution in kind"
+      }
+    ],
+    "literal": "to pay back in kind",
+    "path": "Latin retaliare drew on talio, punishment matched exactly to the offense, as in an eye for an eye. To retaliate is to return an injury with one of the same kind.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "retard": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "tardus",
+        "origin": "Latin",
+        "meaning": "slow"
+      }
+    ],
+    "literal": "to make thoroughly slow",
+    "path": "Latin retardare meant to make slow, from tardus, sluggish. Retard kept its original technical sense of delaying progress, as in slowing an engine's timing or a plant's growth.",
+    "cousins": [
+      "tardy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "retentive": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "tenere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "holding on tightly",
+    "path": "From Latin retinere, to hold back or keep, retentive describes a mind or memory that holds onto information firmly rather than letting it slip away.",
+    "cousins": [
+      "tenant",
+      "tenure",
+      "maintain"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "reticent": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "tacere",
+        "origin": "Latin",
+        "meaning": "to be silent"
+      }
+    ],
+    "literal": "keeping thoroughly silent",
+    "path": "Latin reticere meant to hold one's tongue completely. Reticent describes someone who stays quiet, disinclined to reveal thoughts or feelings.",
+    "cousins": [
+      "tacit",
+      "taciturn"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "retinue": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "tenere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "those held back, retained in service",
+    "path": "Old French retenue, from retenir, to retain, named a body of followers kept in a lord's service. Retinue kept that sense: the attendants who travel with and serve someone.",
+    "cousins": [
+      "tenant",
+      "tenure",
+      "retain"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "retiring": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "French",
+        "meaning": "back"
+      },
+      {
+        "piece": "tirer",
+        "origin": "French",
+        "meaning": "to draw, pull"
+      }
+    ],
+    "literal": "drawing back",
+    "path": "Retire comes from French retirer, to draw back or withdraw. A retiring person metaphorically draws back from attention and company rather than seeking the spotlight.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "retort": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "torquere",
+        "origin": "Latin",
+        "meaning": "to twist"
+      }
+    ],
+    "literal": "twisted back",
+    "path": "Latin retorquere meant to twist or bend back. A retort turns an argument or insult back on the speaker, a sharp reply that twists their words against them.",
+    "cousins": [
+      "torque",
+      "contort",
+      "distort"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "retract": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "trahere",
+        "origin": "Latin",
+        "meaning": "to draw, pull"
+      }
+    ],
+    "literal": "to draw back",
+    "path": "Latin retrahere meant to pull something back. To retract a statement is to draw it back in, as if pulling it out of the record.",
+    "cousins": [
+      "tractor",
+      "attract",
+      "extract"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "retrench": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "French",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "trancher",
+        "origin": "French",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "to cut back sharply",
+    "path": "French retrancher meant to cut off or curtail, from trancher, to cut, the source of English trench and trenchant. To retrench is to cut back expenses sharply, slicing away the excess.",
+    "cousins": [
+      "trench",
+      "trenchant"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "retrospective": {
+    "parts": [
+      {
+        "piece": "retro-",
+        "origin": "Latin",
+        "meaning": "backward"
+      },
+      {
+        "piece": "specere",
+        "origin": "Latin",
+        "meaning": "to look"
+      }
+    ],
+    "literal": "looking backward",
+    "path": "Latin retro, backward, joined specere, to look, to form a word for looking back over past events, as in a retrospective exhibit reviewing an artist's earlier work.",
+    "cousins": [
+      "spectator",
+      "inspect",
+      "perspective"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "revamp": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "English",
+        "meaning": "again"
+      },
+      {
+        "piece": "vamp",
+        "origin": "French",
+        "meaning": "front upper of a shoe, from avant-pied, before the foot"
+      }
+    ],
+    "literal": "to put a new upper on again",
+    "path": "A vamp was the front upper part of a shoe. Cobblers would vamp, or patch, a worn shoe with a new upper, and revamp broadened to overhauling anything old to make it look new.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "revelry": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "again"
+      },
+      {
+        "piece": "bellum",
+        "origin": "Latin",
+        "meaning": "war"
+      }
+    ],
+    "literal": "rebelling, making riot",
+    "path": "Revel comes from Old French reveler, to riot or be unruly, ultimately from Latin rebellare, to rebel. The sense softened from insurrection to boisterous merrymaking, and revelry is that noisy celebration.",
+    "cousins": [
+      "rebel",
+      "rebellion",
+      "belligerent"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "revere": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "vereri",
+        "origin": "Latin",
+        "meaning": "to fear, stand in awe of"
+      }
+    ],
+    "literal": "to stand in deep awe of",
+    "path": "Latin revereri meant to feel deep awe or reverent fear toward someone. Revere kept that sense of profound respect mixed with awe, directed at someone held in the highest regard.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "reverent": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "vereri",
+        "origin": "Latin",
+        "meaning": "to fear, revere"
+      }
+    ],
+    "literal": "standing in deep awe",
+    "path": "From the same Latin revereri as revere, reverent describes an attitude of deep respect and awe, as one might show toward something sacred or greatly admired.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "reverie": {
+    "parts": [
+      {
+        "piece": "resver",
+        "origin": "Old French",
+        "meaning": "to wander, rave (origin uncertain)"
+      }
+    ],
+    "literal": "a wandering, raving state of mind",
+    "path": "Old French resverie named a wild or delirious state, from resver, to wander in mind, a word of uncertain deeper origin (it is unrelated to revere despite the resemblance). It settled into meaning an idle, pleasant wandering of the mind.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "revulsion": {
+    "parts": [
+      {
+        "piece": "re-",
+        "origin": "Latin",
+        "meaning": "back"
+      },
+      {
+        "piece": "vellere",
+        "origin": "Latin",
+        "meaning": "to pluck, tear"
+      }
+    ],
+    "literal": "a tearing away, pulling back",
+    "path": "Latin revellere meant to pull or tear something away violently. In old medicine revulsion meant drawing disease away from an afflicted part; the sense shifted to a violent recoiling of feeling, disgust.",
+    "cousins": [
+      "convulsion"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "rhapsodize": {
+    "parts": [
+      {
+        "piece": "rhaptein",
+        "origin": "Greek",
+        "meaning": "to stitch together"
+      },
+      {
+        "piece": "oide",
+        "origin": "Greek",
+        "meaning": "song"
+      }
+    ],
+    "literal": "to stitch songs together",
+    "path": "Greek rhapsoidia named the stitching together of epic verses for recitation. Rhapsodize kept the sense of ecstatic, flowing speech, as if reciting stirring verse with extravagant enthusiasm.",
+    "cousins": [
+      "ode",
+      "melody"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "rhapsody": {
+    "parts": [
+      {
+        "piece": "rhaptein",
+        "origin": "Greek",
+        "meaning": "to stitch together"
+      },
+      {
+        "piece": "oide",
+        "origin": "Greek",
+        "meaning": "song"
+      }
+    ],
+    "literal": "a stitched-together song",
+    "path": "A rhapsody in ancient Greece was an epic poem stitched together from verses for recitation. The performances grew so passionate that rhapsody came to mean any outpouring of ecstatic enthusiasm.",
+    "cousins": [
+      "ode",
+      "melody"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "rhetoric": {
+    "parts": [
+      {
+        "piece": "rhetor",
+        "origin": "Greek",
+        "meaning": "public speaker, orator"
+      }
+    ],
+    "literal": "the art of the public speaker",
+    "path": "Rhetorike (tekhne) named the formal craft ancient Greek orators trained in: how to persuade an audience. Because a trained speaker could sound convincing while saying little of substance, rhetoric picked up its modern edge: polished, persuasive language that may be hollow underneath.",
+    "cousins": [
+      "word",
+      "verb"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ribald": {
+    "parts": [
+      {
+        "piece": "ribaud",
+        "origin": "Old French",
+        "meaning": "rogue, scoundrel, from Germanic riber, to seek pleasure wantonly"
+      }
+    ],
+    "literal": "a wanton rogue's talk",
+    "path": "Old French ribaud named a licentious vagabond, from a Germanic root meaning to seek pleasure wantonly. Ribald settled into describing the coarse, bawdy humor such rogues were known for.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "ridden": {
+    "parts": [
+      {
+        "piece": "ridan",
+        "origin": "Old English",
+        "meaning": "to ride"
+      }
+    ],
+    "literal": "ridden upon, as a horse by a rider",
+    "path": "Ridden is the old past participle of ride. Something guilt-ridden or disease-ridden is pictured as a horse mounted by a rider, burdened and dominated by whatever sits astride it.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rider": {
+    "parts": [
+      {
+        "piece": "ridan",
+        "origin": "Old English",
+        "meaning": "to ride"
+      }
+    ],
+    "literal": "something that rides along",
+    "path": "A rider is literally something that rides along, from Old English ridan, to ride. In legal use, a rider is a clause tacked onto a document, riding along with the main text.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rife": {
+    "parts": [
+      {
+        "piece": "rife",
+        "origin": "Old English",
+        "meaning": "abundant, prevalent"
+      }
+    ],
+    "literal": "abundant, widespread",
+    "path": "Rife comes from Old English rife, abundant or widespread, of Germanic stock. It kept its plain sense of being everywhere, though it now usually attaches to unwelcome things, like disease rife in a place.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rift": {
+    "parts": [
+      {
+        "piece": "rifa",
+        "origin": "Old Norse",
+        "meaning": "to tear, break apart"
+      }
+    ],
+    "literal": "a tear, a split",
+    "path": "Rift comes from Old Norse rifa, to tear or break apart, first describing a physical crack in rock or cloud. It extended to a serious tear in relationships, a rift between friends or nations.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

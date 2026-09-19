@@ -1,0 +1,452 @@
+{
+  "bemused": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "thoroughly, intensive"}, {"piece": "muse", "origin": "Old French", "meaning": "to ponder, stare vacantly"}],
+    "literal": "thoroughly lost in thought",
+    "path": "Muse probably traces to a Medieval Latin word for staring open-mouthed, related to muzzle. Bemused first meant deeply absorbed in thought, then drifted to its modern sense of dazed, puzzled confusion.",
+    "cousins": ["muzzle", "amuse"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "beneficent": {
+    "parts": [{"piece": "bene-", "origin": "Latin", "meaning": "well"}, {"piece": "facere", "origin": "Latin", "meaning": "to do, make"}],
+    "literal": "doing well",
+    "path": "Latin bene (well) plus a form of facere (to do, make) gave beneficent: literally doing good. The word kept its transparent sense of actively producing good effects.",
+    "cousins": ["benefit", "factory", "manufacture"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "benevolent": {
+    "parts": [{"piece": "bene-", "origin": "Latin", "meaning": "well"}, {"piece": "volens", "origin": "Latin", "meaning": "wishing, willing"}],
+    "literal": "well-wishing",
+    "path": "Latin bene (well) joined volens (wishing, from velle, to wish) to mean wishing others well. The sense of kind, good-hearted intent survives intact in English.",
+    "cousins": ["voluntary", "volunteer", "malevolent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "benighted": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "into a state of"}, {"piece": "night", "origin": "Old English", "meaning": "darkness, nighttime"}],
+    "literal": "overtaken by darkness",
+    "path": "Benighted first described travelers caught out after nightfall, literally overtaken by darkness. The image extended metaphorically to intellectual or moral darkness: ignorance.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "benign": {
+    "parts": [{"piece": "bene-", "origin": "Latin", "meaning": "well"}, {"piece": "gignere", "origin": "Latin", "meaning": "to beget, be born"}],
+    "literal": "well-born, good-natured",
+    "path": "Latin benignus combined bene (well) with a root tied to birth and nature, meaning naturally good or kind. The medical sense, a benign tumor, extended this to not harmful.",
+    "cousins": ["genial", "genius", "malignant"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "bent": {
+    "parts": [{"piece": "bend", "origin": "Old English", "meaning": "to curve, bow"}],
+    "literal": "a bending, a turn",
+    "path": "Bent is the old past participle of bend. A physical bend became a figurative turn of the mind, a natural leaning toward something, by the 1600s.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bequeath": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "intensive prefix"}, {"piece": "cwethan", "origin": "Old English", "meaning": "to say, declare"}],
+    "literal": "to formally declare",
+    "path": "Bequeath comes from Old English cwethan, to say, the same root as quoth. To bequeath was to declare formally in a will, narrowing to the specific act of leaving property.",
+    "cousins": ["quoth"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "berate": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "intensive prefix"}, {"piece": "rate", "origin": "Old French", "meaning": "to scold, blame"}],
+    "literal": "to scold thoroughly",
+    "path": "The verb rate meaning to scold, distinct from rate meaning ratio, is of uncertain origin, perhaps from an Old French word for accusing or blaming. Adding the intensive be- gave berate: to scold at length.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bereave": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "thoroughly, away"}, {"piece": "reafian", "origin": "Old English", "meaning": "to rob, plunder"}],
+    "literal": "to rob away from",
+    "path": "Reafian meant to rob or plunder in Old English, from the same Germanic root as rob. Bereave kept the sense of forcibly taking something away, later narrowing to loss through death.",
+    "cousins": ["rob"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bereft": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "thoroughly, away"}, {"piece": "reafian", "origin": "Old English", "meaning": "to rob, plunder"}],
+    "literal": "robbed away, deprived",
+    "path": "Bereft is the old past participle of bereave, from Old English reafian, to rob or plunder, the same root as rob. It described someone forcibly stripped of something, later souring into general desolate loss.",
+    "cousins": ["rob"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "beseech": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "thoroughly, intensive"}, {"piece": "seek", "origin": "Old English", "meaning": "to seek, search for"}],
+    "literal": "to thoroughly seek",
+    "path": "Beseech pairs the intensive be- with seek. To beseech was originally to seek something urgently, narrowing to the act of begging or imploring.",
+    "cousins": ["seek"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "besiege": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "around, thoroughly"}, {"piece": "siege", "origin": "Old French", "meaning": "a seat, a sitting down"}],
+    "literal": "to sit down around",
+    "path": "Siege comes from Old French sege, a seat, ultimately from Latin sedere, to sit. An army besieging a city literally sat down and camped around it until it fell.",
+    "cousins": ["sit", "sedentary", "session"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "besmirch": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "thoroughly"}, {"piece": "smirch", "origin": "Middle English", "meaning": "to smear, soil, dirty"}],
+    "literal": "to thoroughly smear",
+    "path": "Smirch meant to smear or soil something, of uncertain further origin. Besmirch intensified this: to thoroughly stain, and by extension to damage a reputation.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "besotted": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "into a state of"}, {"piece": "sot", "origin": "Old French", "meaning": "a fool, drunkard"}],
+    "literal": "made into a fool",
+    "path": "Sot meant a foolish person, later a habitual drunkard, from an Old French word of unknown origin. Besotted originally meant made foolish, often by drink or infatuation, narrowing to blind, foolish devotion.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bestow": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "thoroughly"}, {"piece": "stow", "origin": "Old English", "meaning": "a place; to put in place"}],
+    "literal": "to put in place upon",
+    "path": "Stow originally meant a place, and as a verb, to put something in its place. Bestow extended this to placing a gift upon someone: to confer or grant.",
+    "cousins": ["stow"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "betoken": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "thoroughly"}, {"piece": "token", "origin": "Old English", "meaning": "a sign, symbol"}],
+    "literal": "to serve as a sign of",
+    "path": "Token meant a sign or symbol in Old English. Betoken kept this literally: to be a token of something, to indicate or signify.",
+    "cousins": ["token", "teach"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "betray": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "thoroughly"}, {"piece": "tradere", "origin": "Latin", "meaning": "to hand over, deliver up"}],
+    "literal": "to hand over completely",
+    "path": "Latin tradere meant to hand over or deliver, as one might hand a secret or a person to an enemy. Betray kept this core sense: to hand someone over, hence to be disloyal.",
+    "cousins": ["tradition", "traitor", "extradite"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "betrothed": {
+    "parts": [{"piece": "be-", "origin": "Old English", "meaning": "thoroughly"}, {"piece": "troth", "origin": "Old English", "meaning": "truth, pledge of faith"}],
+    "literal": "pledged in truth",
+    "path": "Troth is an old variant of truth, meaning a pledge of good faith. To be betrothed was to be bound by such a pledge, specifically a promise to marry.",
+    "cousins": ["truth", "true", "trust"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bevy": {
+    "parts": [{"piece": "bevy", "origin": "Anglo-French", "meaning": "a group, originally of birds"}],
+    "literal": "a flock, a group",
+    "path": "Bevy first named a flock of birds, especially quails or larks, in Anglo-French hunting terminology. Its ultimate origin is unknown; it later broadened to any large gathered group.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "biased": {
+    "parts": [{"piece": "biais", "origin": "Old French", "meaning": "a slant, oblique line"}],
+    "literal": "slanted",
+    "path": "Bias originally meant a diagonal or slanting line, a term from the game of bowls where a ball's bias makes it curve off a straight path. A biased view similarly slants away from straight, neutral judgment.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bifurcate": {
+    "parts": [{"piece": "bi-", "origin": "Latin", "meaning": "two"}, {"piece": "furca", "origin": "Latin", "meaning": "fork"}],
+    "literal": "forked into two",
+    "path": "Latin furca meant a fork or forked stick. Bifurcate simply means to split into two forks or branches, a very literal image.",
+    "cousins": ["fork"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bilious": {
+    "parts": [{"piece": "bilis", "origin": "Latin", "meaning": "bile"}],
+    "literal": "full of bile",
+    "path": "In ancient and medieval medicine, the body's four humors governed temperament; an excess of bile was thought to cause irritability. Bilious kept that link between bile and a sour, cranky mood.",
+    "cousins": ["bile"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bilk": {
+    "parts": [{"piece": "bilk", "origin": "unknown", "meaning": "to thwart, cheat"}],
+    "literal": "to thwart, cheat",
+    "path": "Bilk first appeared as a cribbage term meaning to spoil an opponent's score, possibly an alteration of balk, to hinder. It later generalized to cheating someone, especially out of money.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "blanch": {
+    "parts": [{"piece": "blanc", "origin": "Old French", "meaning": "white"}],
+    "literal": "to make white",
+    "path": "Blanch comes from French blanc, white. To blanch is to turn white or pale, whether a face draining of color in fear or vegetables whitened briefly in boiling water.",
+    "cousins": ["blank", "bleak"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bland": {
+    "parts": [{"piece": "blandus", "origin": "Latin", "meaning": "smooth, mild, flattering"}],
+    "literal": "smooth, mild",
+    "path": "Latin blandus meant smooth, soothing, or flattering. English bland kept the sense of mildness, which over time settled into meaning dull or lacking flavor and interest.",
+    "cousins": ["blandish"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "blatant": {
+    "parts": [{"piece": "blaterare", "origin": "Latin", "meaning": "to babble, chatter noisily"}],
+    "literal": "noisily chattering",
+    "path": "Blatant was coined by the poet Spenser for a monstrous 'blatant beast,' probably echoing a Latin word for babbling or boasting noisily. The word came to describe something so glaringly obvious it seems to shout for attention.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "bleak": {
+    "parts": [{"piece": "bleikr", "origin": "Old Norse", "meaning": "pale, white"}],
+    "literal": "pale, exposed",
+    "path": "Bleak comes from Old Norse bleikr, pale or white, describing bare, exposed, wind-scoured land. That barren paleness extended to the emotional sense of bleak: offering little hope or comfort.",
+    "cousins": ["bleach", "blank"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "blight": {
+    "parts": [{"piece": "blight", "origin": "unknown", "meaning": "a disease or scourge affecting plants"}],
+    "literal": "a plant disease, scourge",
+    "path": "Blight appeared in English with unclear origins, possibly linked to an old word for a skin disease. It named a plant-killing disease before broadening to anything that spoils or ruins.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "blighted": {
+    "parts": [{"piece": "blight", "origin": "unknown", "meaning": "a disease or scourge affecting plants"}],
+    "literal": "afflicted by blight",
+    "path": "Blighted describes something afflicted the way a plant disease ruins a crop: spoiled, stunted, or ruined, whether literally or, later, in fortunes and hopes.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "blinkered": {
+    "parts": [{"piece": "blink", "origin": "Middle English", "meaning": "to flash, glance quickly"}, {"piece": "-er", "origin": "English", "meaning": "instrument suffix"}],
+    "literal": "wearing blinkers",
+    "path": "Blinkers are the leather flaps put on a horse's bridle to block side vision, keeping it looking straight ahead. Blinkered borrowed this image for a person whose outlook is narrowly restricted, unable to see the wider picture.",
+    "cousins": ["blink"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "blithe": {
+    "parts": [{"piece": "blithe", "origin": "Old English", "meaning": "joyous, merry"}],
+    "literal": "joyous, merry",
+    "path": "Blithe has meant cheerful and merry since Old English, largely unchanged in sense. The GRE nuance, cheerful to the point of carelessness, is a later shading of that same happy-go-lucky quality.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bluster": {
+    "parts": [{"piece": "bluster", "origin": "Middle English", "meaning": "to blow violently, roar"}],
+    "literal": "to blow and roar loudly",
+    "path": "Bluster began as a description of wind blowing violently and noisily, likely imitative in origin. It shifted to people: loud, blowhard talk that is more noise than substance.",
+    "cousins": ["blast", "blow"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "boast": {
+    "parts": [{"piece": "boast", "origin": "Anglo-Norman", "meaning": "ostentatious display"}],
+    "literal": "ostentatious display",
+    "path": "Boast entered Middle English from an Anglo-Norman word for ostentation or a loud claim, of disputed ultimate origin. It has meant speaking with excessive pride ever since.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "bogus": {
+    "parts": [{"piece": "bogus", "origin": "unknown", "meaning": "counterfeit apparatus"}],
+    "literal": "counterfeit",
+    "path": "Bogus first named a machine for making counterfeit coins in 1800s America, origin unknown. The word kept that core sense of something fake passed off as genuine.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "boisterous": {
+    "parts": [{"piece": "boistous", "origin": "Old French", "meaning": "rough, coarse, violent"}],
+    "literal": "rough and violent",
+    "path": "Boisterous originally described something rough, coarse, or violent, from an Old French word of uncertain further origin. The rough physical sense softened over time into noisy, unrestrained high spirits.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bolster": {
+    "parts": [{"piece": "bolster", "origin": "Old English", "meaning": "a long stuffed cushion, pillow"}],
+    "literal": "a supporting cushion",
+    "path": "A bolster is literally a long stuffed pillow used to prop something up. The verb kept that supporting image: to bolster something is to prop it up and give it strength.",
+    "cousins": ["bulge"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bolt": {
+    "parts": [{"piece": "bolt", "origin": "Old English", "meaning": "a short, stout arrow or dart"}],
+    "literal": "a shot arrow",
+    "path": "A bolt was originally a short, heavy arrow shot from a crossbow. Its swiftness gave rise to the verb: to bolt is to dart off suddenly, or to gulp food down as fast as a shot arrow flies.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bombast": {
+    "parts": [{"piece": "bombyx", "origin": "Greek", "meaning": "silk, silkworm, source of cotton padding"}],
+    "literal": "cotton padding, stuffing",
+    "path": "Bombast first meant the cotton or wool padding once stuffed into garments, from a Greek word for silk. Inflated, padded-out language borrowed this image: speech stuffed with pompous filler rather than substance.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bombastic": {
+    "parts": [{"piece": "bombyx", "origin": "Greek", "meaning": "silk, silkworm, source of cotton padding"}],
+    "literal": "padded, stuffed with words",
+    "path": "Bombastic derives from bombast, the cotton padding once stuffed into clothes. Language that is bombastic is similarly stuffed and puffed out: inflated and pompous rather than substantial.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bonhomie": {
+    "parts": [{"piece": "bon", "origin": "French", "meaning": "good"}, {"piece": "homme", "origin": "French", "meaning": "man"}],
+    "literal": "good-fellowship",
+    "path": "French bonhomie comes straight from bon homme, a good fellow. It describes the easy, genial friendliness of someone who is good company.",
+    "cousins": ["bonus", "homage"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "boon": {
+    "parts": [{"piece": "bon", "origin": "Old Norse", "meaning": "a request, favor asked"}],
+    "literal": "a favor asked and granted",
+    "path": "Boon came from Old Norse bon, a request or petition. What began as the asking shifted to the thing granted: a timely benefit or blessing.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "boor": {
+    "parts": [{"piece": "gebur", "origin": "Middle Dutch", "meaning": "farmer, peasant, countryman"}],
+    "literal": "a peasant, countryman",
+    "path": "Boor originally just meant a farmer or peasant, a plain country dweller, from a Germanic word related to neighbor. Class prejudice narrowed it into an insult for someone assumed to be crude and ill-mannered.",
+    "cousins": ["neighbor"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "boorish": {
+    "parts": [{"piece": "gebur", "origin": "Middle Dutch", "meaning": "farmer, peasant, countryman"}],
+    "literal": "like a peasant",
+    "path": "Boorish extends boor, a word for a plain countryman that snobbery twisted into an insult for rude, insensitive behavior.",
+    "cousins": ["neighbor"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bouillon": {
+    "parts": [{"piece": "bullire", "origin": "Latin", "meaning": "to boil, bubble"}],
+    "literal": "boiled liquid",
+    "path": "Bouillon comes straight from French bouillir, to boil, from Latin bullire. It names the clear broth produced by boiling meat or vegetables.",
+    "cousins": ["boil", "ebullient"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "bowdlerize": {
+    "parts": [{"piece": "Bowdler", "origin": "eponym", "meaning": "Thomas Bowdler, editor who expurgated Shakespeare"}],
+    "literal": "to do a Bowdler",
+    "path": "Thomas Bowdler published a censored 'Family Shakespeare' in 1818, cutting anything he judged indecent. His name became a verb for that kind of prudish editing: removing offensive material from a text.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "brandish": {
+    "parts": [{"piece": "brand", "origin": "Old French", "meaning": "sword, blade"}],
+    "literal": "to wave a sword",
+    "path": "Brand once meant a sword, a poetic word tied to the flash of burning or flashing metal. Brandish kept the image of waving that blade around: to flourish something threateningly.",
+    "cousins": ["brand", "burn"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "bravado": {
+    "parts": [{"piece": "bravo", "origin": "Italian/Spanish", "meaning": "brave, bold"}],
+    "literal": "boldness on display",
+    "path": "Bravado comes from bravo, brave or bold, the same word shouted in approval at the theater. It came to mean a showy display of courage meant more to impress than to reflect real bravery.",
+    "cousins": ["brave"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "brawn": {
+    "parts": [{"piece": "braon", "origin": "Old French", "meaning": "fleshy muscle, ham"}],
+    "literal": "fleshy muscle",
+    "path": "Brawn first named the fleshy, muscular part of an animal, from a Frankish word for ham. It generalized to muscular strength in people.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "brazen": {
+    "parts": [{"piece": "bræs", "origin": "Old English", "meaning": "brass"}],
+    "literal": "made of brass",
+    "path": "Brazen literally meant made of brass. Brass being hard and unyielding, the word came to describe people with a similarly hard, shameless nerve: bold without shame.",
+    "cousins": ["brass"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "brevity": {
+    "parts": [{"piece": "brevis", "origin": "Latin", "meaning": "short"}],
+    "literal": "shortness",
+    "path": "Brevity comes directly from Latin brevis, short. It names shortness of expression or duration, the same root Hamlet invoked calling brevity the soul of wit.",
+    "cousins": ["brief", "abbreviate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

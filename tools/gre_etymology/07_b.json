@@ -1,0 +1,1071 @@
+{
+  "portentous": {
+    "parts": [
+      {
+        "piece": "portendere",
+        "origin": "Latin",
+        "meaning": "to stretch forth, point out as a sign"
+      }
+    ],
+    "literal": "serving as an omen",
+    "path": "Built on the same root as portend, portentous describes something that stretches forth as an ominous sign, or, ironically, a speaker whose solemnity is puffed up as if every word were an omen.",
+    "cousins": [
+      "portend",
+      "tend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "posit": {
+    "parts": [
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to put, place"
+      }
+    ],
+    "literal": "to put down, place",
+    "path": "Latin ponere meant to put or place. To posit an idea is to set it down as a starting point for further argument.",
+    "cousins": [
+      "deposit",
+      "compose"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "posthumous": {
+    "parts": [
+      {
+        "piece": "postumus",
+        "origin": "Latin",
+        "meaning": "last, last-born (superlative of posterus, coming after)"
+      }
+    ],
+    "literal": "last-born (later reshaped by folk link to 'after burial')",
+    "path": "Latin postumus simply meant 'last,' describing a child born after the father's death. The spelling later shifted to posthumus through false association with humare, to bury, cementing the modern sense of 'after death.'",
+    "cousins": [
+      "posterior",
+      "exhume"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "postulate": {
+    "parts": [
+      {
+        "piece": "postulare",
+        "origin": "Latin",
+        "meaning": "to demand, request"
+      }
+    ],
+    "literal": "to demand, request",
+    "path": "Latin postulare meant to ask for or demand. To postulate is to demand acceptance of a claim as a starting assumption for an argument.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "potentate": {
+    "parts": [
+      {
+        "piece": "potens",
+        "origin": "Latin",
+        "meaning": "powerful, able (from posse, to be able)"
+      }
+    ],
+    "literal": "a powerful one",
+    "path": "Latin potens, able or powerful, gives us potentate, a ruler who wields great power.",
+    "cousins": [
+      "potent",
+      "potential",
+      "omnipotent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "powwow": {
+    "parts": [
+      {
+        "piece": "powwaw",
+        "origin": "Narragansett/Algonquian",
+        "meaning": "shaman, medicine man"
+      }
+    ],
+    "literal": "a shaman's gathering",
+    "path": "Powwow comes from an Algonquian word for a spiritual healer, and the ceremonial gathering held around one. English colonists broadened it to any council or conference, sacred or not.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "practice": {
+    "parts": [
+      {
+        "piece": "prattein",
+        "origin": "Greek",
+        "meaning": "to do, act, accomplish"
+      }
+    ],
+    "literal": "doing, acting",
+    "path": "Greek prattein meant to do or act. Practice is literally the doing of something, whether a habitual custom or repeated exercise meant to improve a skill.",
+    "cousins": [
+      "pragmatic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "practitioner": {
+    "parts": [
+      {
+        "piece": "prattein",
+        "origin": "Greek",
+        "meaning": "to do, act, accomplish"
+      }
+    ],
+    "literal": "one who does, acts",
+    "path": "Sharing its root with practice, practitioner names someone who actively does a profession, a doctor, lawyer, or craftsperson, rather than one who only studies it.",
+    "cousins": [
+      "practical",
+      "pragmatic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pragmatic": {
+    "parts": [
+      {
+        "piece": "pragma",
+        "origin": "Greek",
+        "meaning": "deed, affair, business (from prassein, to do)"
+      }
+    ],
+    "literal": "concerned with deeds",
+    "path": "Greek pragma meant a deed or matter of business. Pragmatic describes an approach grounded in actual deeds and results rather than abstract theory.",
+    "cousins": [
+      "practice",
+      "practical"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prattle": {
+    "parts": [
+      {
+        "piece": "praten",
+        "origin": "Middle Low German",
+        "meaning": "to chatter (probably imitative)"
+      }
+    ],
+    "literal": "to chatter on and on",
+    "path": "Prattle likely echoes the sound of idle chatter itself, an imitative word for talking at length about nothing important.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pre-empt": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "emere",
+        "origin": "Latin",
+        "meaning": "to buy, take"
+      }
+    ],
+    "literal": "to buy before others can",
+    "path": "Preemption originally was the legal right to buy land before anyone else got the chance. Pre-empt broadened from buying first to acting first in any way, forestalling someone else's move.",
+    "cousins": [
+      "exempt",
+      "redeem"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "preamble": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "ambulare",
+        "origin": "Latin",
+        "meaning": "to walk"
+      }
+    ],
+    "literal": "walking before",
+    "path": "Latin ambulare meant to walk. A preamble 'walks before' the main text, introducing it the way an usher walks ahead of the main party.",
+    "cousins": [
+      "amble",
+      "ambulance"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "precarious": {
+    "parts": [
+      {
+        "piece": "prex",
+        "origin": "Latin",
+        "meaning": "prayer"
+      }
+    ],
+    "literal": "held by prayer or entreaty",
+    "path": "Latin precarius described something held only by request or favor, granted at another's pleasure and revocable at any time. That dependency became precarious: unstable because it rests on someone else's whim.",
+    "cousins": [
+      "pray",
+      "deprecate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "preceded": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go"
+      }
+    ],
+    "literal": "went before",
+    "path": "Latin praecedere combined prae, before, and cedere, to go: to go ahead of something else in time or order.",
+    "cousins": [
+      "proceed",
+      "exceed",
+      "recede"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "precedent": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go"
+      }
+    ],
+    "literal": "that which went before",
+    "path": "From the same root as precede, a precedent is an earlier case that went before, now used to guide later decisions.",
+    "cousins": [
+      "proceed",
+      "exceed",
+      "recede"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "precept": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "capere",
+        "origin": "Latin",
+        "meaning": "to take"
+      }
+    ],
+    "literal": "taken beforehand",
+    "path": "Latin praecipere meant to give instruction in advance, literally to 'take beforehand.' A precept is a rule handed down ahead of time to guide conduct.",
+    "cousins": [
+      "capture",
+      "concept",
+      "accept"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "precipitate": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before, forth"
+      },
+      {
+        "piece": "caput",
+        "origin": "Latin",
+        "meaning": "head"
+      }
+    ],
+    "literal": "head-first, headlong",
+    "path": "Latin praeceps meant headlong, head plunging forward first. To precipitate an event is to throw it headlong into happening, suddenly and abruptly.",
+    "cousins": [
+      "capital",
+      "decapitate",
+      "chapter"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "precipitous": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before, forth"
+      },
+      {
+        "piece": "caput",
+        "origin": "Latin",
+        "meaning": "head"
+      }
+    ],
+    "literal": "headlong, steep",
+    "path": "Sharing its root with precipitate, praeceps, headlong, precipitous describes a slope, or a decision, so steep it feels like plunging head-first.",
+    "cousins": [
+      "capital",
+      "decapitate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "precis": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "caedere",
+        "origin": "Latin",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "cut short",
+    "path": "Latin praecidere meant to cut off short. A precis is a text cut down to its essential, concise summary.",
+    "cousins": [
+      "concise",
+      "incision",
+      "decide"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "precision": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "caedere",
+        "origin": "Latin",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "a cutting off, to an exact point",
+    "path": "Sharing its root with precise, precision names the quality of being cut exactly to the mark, exact and accurate.",
+    "cousins": [
+      "concise",
+      "incision",
+      "decide"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "preclude": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "claudere",
+        "origin": "Latin",
+        "meaning": "to shut, close"
+      }
+    ],
+    "literal": "to shut off beforehand",
+    "path": "Latin praecludere meant to close something off in advance. To preclude an outcome is to shut the door on it before it can happen.",
+    "cousins": [
+      "close",
+      "exclude",
+      "include",
+      "conclude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "precocious": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "coquere",
+        "origin": "Latin",
+        "meaning": "to cook, ripen"
+      }
+    ],
+    "literal": "ripened early",
+    "path": "Latin praecox described fruit that ripened before its season. Precocious borrowed that image for a child whose abilities ripen earlier than expected.",
+    "cousins": [
+      "cook",
+      "apricot"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "precursor": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "currere",
+        "origin": "Latin",
+        "meaning": "to run"
+      }
+    ],
+    "literal": "one who runs before",
+    "path": "Latin praecursor combined prae, before, with currere, to run: a runner sent ahead. A precursor runs ahead of what follows, a forerunner.",
+    "cousins": [
+      "current",
+      "course",
+      "occur"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "predecessor": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go, withdraw"
+      }
+    ],
+    "literal": "one who withdrew before",
+    "path": "Latin decedere meant to depart or withdraw. A predecessor is literally the one who stepped down or went away before you took the role.",
+    "cousins": [
+      "proceed",
+      "exceed",
+      "recede"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "predicament": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "dicare",
+        "origin": "Latin",
+        "meaning": "to proclaim, assert"
+      }
+    ],
+    "literal": "a category proclaimed or asserted",
+    "path": "Praedicamentum was originally a logician's term for a category a thing could be classified under. English narrowed it, oddly, to one specific unwelcome classification: being stuck in a difficult situation.",
+    "cousins": [
+      "predict",
+      "dictate",
+      "verdict"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "predilection": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "diligere",
+        "origin": "Latin",
+        "meaning": "to esteem, love"
+      }
+    ],
+    "literal": "loved before others",
+    "path": "Latin praediligere meant to love or esteem one thing ahead of others. A predilection is that pre-set favoring, a special liking.",
+    "cousins": [
+      "diligent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "predisposed": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to put, place"
+      }
+    ],
+    "literal": "arranged beforehand",
+    "path": "Latin disponere meant to arrange or set in order. Predisposed adds 'before,' meaning inclined toward something in advance, ahead of any actual event.",
+    "cousins": [
+      "position",
+      "compose",
+      "deposit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "preempt": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "emere",
+        "origin": "Latin",
+        "meaning": "to buy, take"
+      }
+    ],
+    "literal": "to buy before others can",
+    "path": "Same root as pre-empt: preemption was originally the legal right to buy land before others could. Preempt broadened to acting first in general, before someone else gets the chance.",
+    "cousins": [
+      "exempt",
+      "redeem"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "preemptive": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "emere",
+        "origin": "Latin",
+        "meaning": "to buy, take"
+      }
+    ],
+    "literal": "acting to take first",
+    "path": "From the same root as preempt, preemptive describes an action taken first specifically to forestall someone else's move.",
+    "cousins": [
+      "exempt",
+      "redeem"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "preen": {
+    "parts": [
+      {
+        "piece": "proynen",
+        "origin": "uncertain (Old French, possibly confused with 'prune')",
+        "meaning": "to trim feathers with the beak"
+      }
+    ],
+    "literal": "to trim or groom (disputed origin)",
+    "path": "Preen's origin is tangled: it may trace to an Old French word for anointing beforehand, or it may simply be a form of 'prune,' to trim. Either way it settled into meaning grooming, literal for a bird, or figurative self-satisfied fussing.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "premeditate": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "meditari",
+        "origin": "Latin",
+        "meaning": "to think over, consider"
+      }
+    ],
+    "literal": "to think over beforehand",
+    "path": "Latin meditari meant to ponder or think something through. To premeditate is to think a plan through before acting on it.",
+    "cousins": [
+      "meditate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "premise": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "mittere",
+        "origin": "Latin",
+        "meaning": "to send"
+      }
+    ],
+    "literal": "sent before, put forth first",
+    "path": "Latin praemittere meant to send ahead. A premise is the proposition sent ahead, put forth first as the foundation the rest of an argument builds on.",
+    "cousins": [
+      "mission",
+      "transmit",
+      "permit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prescience": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "scire",
+        "origin": "Latin",
+        "meaning": "to know"
+      }
+    ],
+    "literal": "knowing beforehand",
+    "path": "Latin praescientia combined prae, before, and scientia, knowledge: knowledge of things before they occur.",
+    "cousins": [
+      "science",
+      "conscience",
+      "omniscient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "prescient": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "scire",
+        "origin": "Latin",
+        "meaning": "to know"
+      }
+    ],
+    "literal": "knowing beforehand",
+    "path": "Sharing its root with prescience, prescient describes someone who seems to know what is coming before it happens.",
+    "cousins": [
+      "science",
+      "conscience",
+      "omniscient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "presentiment": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "sentire",
+        "origin": "Latin",
+        "meaning": "to feel, perceive"
+      }
+    ],
+    "literal": "a feeling beforehand",
+    "path": "Latin sentire meant to feel or perceive. A presentiment is a feeling that arrives before the event itself, an anticipatory sense that something is coming.",
+    "cousins": [
+      "sense",
+      "sentiment",
+      "consent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "presumption": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "sumere",
+        "origin": "Latin",
+        "meaning": "to take"
+      }
+    ],
+    "literal": "taking beforehand",
+    "path": "Latin praesumere meant to take something for granted in advance. A presumption is an assumption taken as given, and taking too much for granted without earning it gives the word its other sense, arrogant boldness.",
+    "cousins": [
+      "assume",
+      "consume",
+      "resume"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "presumptive": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "sumere",
+        "origin": "Latin",
+        "meaning": "to take"
+      }
+    ],
+    "literal": "taken for granted",
+    "path": "From the same root as presumption, presumptive describes a conclusion taken as reasonable in advance, based on the evidence at hand rather than proof.",
+    "cousins": [
+      "assume",
+      "consume",
+      "resume"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "presumptuous": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "sumere",
+        "origin": "Latin",
+        "meaning": "to take"
+      }
+    ],
+    "literal": "taking too much for granted",
+    "path": "Also from praesumere, to take beforehand, presumptuous describes someone who takes for granted a right or familiarity they have not earned, overstepping proper bounds.",
+    "cousins": [
+      "assume",
+      "consume",
+      "resume"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pretense": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "tendere",
+        "origin": "Latin",
+        "meaning": "to stretch"
+      }
+    ],
+    "literal": "stretched forth as a cover",
+    "path": "Latin praetendere meant to stretch something out in front as a cover or excuse. Pretense is that stretched-forth false front, a show put up to hide the truth.",
+    "cousins": [
+      "tend",
+      "extend",
+      "tense"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pretentious": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "tendere",
+        "origin": "Latin",
+        "meaning": "to stretch"
+      }
+    ],
+    "literal": "stretching forth a false claim",
+    "path": "From the same root as pretense, pretentious describes someone who stretches their claims to importance further than the truth supports.",
+    "cousins": [
+      "tend",
+      "extend",
+      "pretend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "preternatural": {
+    "parts": [
+      {
+        "piece": "praeter",
+        "origin": "Latin",
+        "meaning": "beyond, past"
+      },
+      {
+        "piece": "natura",
+        "origin": "Latin",
+        "meaning": "nature"
+      }
+    ],
+    "literal": "beyond nature",
+    "path": "Latin praeter naturam meant literally beyond nature. Preternatural describes something that goes past what is natural, uncanny or almost supernatural.",
+    "cousins": [
+      "nature",
+      "natural",
+      "supernatural"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prevail": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "valere",
+        "origin": "Latin",
+        "meaning": "to be strong, be worth"
+      }
+    ],
+    "literal": "to be strong before others",
+    "path": "Latin praevalere meant to have greater strength than others. To prevail is to win out through superior strength, or to become the dominant, widespread state of things.",
+    "cousins": [
+      "valid",
+      "value",
+      "avail",
+      "valor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "prevaricate": {
+    "parts": [
+      {
+        "piece": "varus",
+        "origin": "Latin",
+        "meaning": "bent, knock-kneed (via varicare, to straddle)"
+      }
+    ],
+    "literal": "to walk crookedly, straddling",
+    "path": "Latin praevaricari originally described a lawyer colluding with the opposing side, literally straddling the issue instead of arguing it straight. Prevaricate kept that sense of dodging the truth by talking around it.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "primacy": {
+    "parts": [
+      {
+        "piece": "primus",
+        "origin": "Latin",
+        "meaning": "first"
+      }
+    ],
+    "literal": "firstness",
+    "path": "Latin primus meant first. Primacy is simply the state of ranking first in importance.",
+    "cousins": [
+      "prime",
+      "primary",
+      "primitive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prime": {
+    "parts": [
+      {
+        "piece": "primus",
+        "origin": "Latin",
+        "meaning": "first"
+      }
+    ],
+    "literal": "made first-ready",
+    "path": "Rooted in primus, first, to prime something, a pump, a canvas, a person, is to put it in its first, ready state before the main action begins.",
+    "cousins": [
+      "primary",
+      "primitive",
+      "premier"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "principled": {
+    "parts": [
+      {
+        "piece": "princeps",
+        "origin": "Latin",
+        "meaning": "first, chief (primus, first + capere, to take)"
+      }
+    ],
+    "literal": "grounded in first things",
+    "path": "Latin principium meant a foundation or first cause. A principled person acts from firm foundational rules, the 'first things' that guide all their other choices.",
+    "cousins": [
+      "prince",
+      "principal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "pristine": {
+    "parts": [
+      {
+        "piece": "pristinus",
+        "origin": "Latin",
+        "meaning": "former, original"
+      }
+    ],
+    "literal": "in the original, earliest state",
+    "path": "Latin pristinus meant belonging to the earliest or former state of things. Pristine kept that sense: something still in its first, unspoiled condition.",
+    "cousins": [
+      "prior"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "probity": {
+    "parts": [
+      {
+        "piece": "probus",
+        "origin": "Latin",
+        "meaning": "good, upright, honest"
+      }
+    ],
+    "literal": "uprightness, goodness",
+    "path": "Latin probus meant genuinely good or upright. Probity is that same tested honesty and integrity of character.",
+    "cousins": [
+      "prove",
+      "approve"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "procedural": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go"
+      }
+    ],
+    "literal": "going forward, step by step",
+    "path": "Latin procedere meant to move forward, step by step. Procedural describes anything relating to the fixed steps, the established procedure, by which a process moves forward.",
+    "cousins": [
+      "proceed",
+      "exceed",
+      "recede"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "proceeding": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go"
+      }
+    ],
+    "literal": "a going forward",
+    "path": "From the same root as procedural, a proceeding is a formal process that moves forward through set steps, as in a legal or official proceeding.",
+    "cousins": [
+      "exceed",
+      "recede"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

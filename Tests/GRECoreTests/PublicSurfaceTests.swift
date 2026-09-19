@@ -27,14 +27,87 @@ import Testing
         _ = CoachSummary(summary: "", focusAreas: [], encouragement: "")
     }
 
-    @Test func sessionItemCanBeBuiltByHandForPracticeOutsideASession() throws {
-        // Writing practice reuses the session's feedback view for a single word,
-        // so it builds a SessionItem itself rather than getting one from the planner.
+    @Test func theNewPlanningTypesAreConstructibleAndReadableFromOutside() throws {
+        let profile = LearnerProfile(
+            testDate: .now, dailyMinutes: 20, newWordsPerDayCap: 15,
+            desiredRetention: 0.9, strictness: .standard,
+            confidence: ConfidenceSettings(isEnabled: false, scale: 1),
+            budget: AIBudget(dailyUSD: 0.5, lifetimeUSD: nil)
+        )
+        _ = profile.budget.allows(spentToday: 0, spentLifetime: 0)
+
+        let advice = Pacing.advise(remaining: 100, profile: profile)
+        _ = (advice.required, advice.allowed, advice.completion,
+             advice.wordsRemaining, advice.isOnTrack, advice.newWordsToday)
+        _ = Pacing.studyDaysRemaining(from: .now, to: .now)
+        _ = Pacing.newWordsPerDay(remaining: 10, testDate: .now)
+        _ = Pacing.completionDate(remaining: 10, newWordsPerDay: 2)
+
+        let competence = CardCompetence([ReviewEvidence(
+            mode: .multipleChoice, score: 100, latency: .seconds(3), at: .now
+        )])
+        _ = (competence.totalAttempts, competence[.multipleChoice].attempts,
+             competence[.multipleChoice].passes, competence[.multipleChoice].accuracy,
+             competence[.multipleChoice].lastSeen)
+        _ = competence.weakest(among: StudyMode.locallyGraded)
+
+        _ = AnswerAppraisal.band(for: .multipleChoice)
+        _ = AnswerAppraisal.rate(
+            grade: Grade(score: 80), selfReport: .confident, hints: .semantic,
+            mode: .multipleChoice, latency: .seconds(3), settings: profile.confidence
+        )
+        _ = (SelfReport.allCases, HintLevel.allCases)
+        _ = AnswerAppraisal.isFastKnown(
+            grade: Grade(score: 100), selfReport: .confident, hints: .none,
+            mode: .typeMeaning, latency: .seconds(4)
+        )
+
         let catalog = try WordCatalog.bundled()
         let word = try #require(catalog["abate"])
-        let item = SessionItem(card: StudyCard(wordID: word.id), word: word, mode: .defineAndUse)
-        #expect(item.mode == .defineAndUse)
-        #expect(item.word.id == "abate")
+        let item = SessionItem(card: StudyCard(wordID: word.id), word: word, mode: .multipleChoice)
+        _ = AnswerJudge.correctChoice(for: item)
+        let judgement = try #require(AnswerJudge.judge(
+            .choice("x"), item: item, strictness: .standard,
+            latency: .seconds(3), confidence: profile.confidence
+        ))
+        _ = (judgement.grade, judgement.rating, judgement.headline,
+             judgement.detail, judgement.showsReference)
+        #expect(AnswerJudge.judge(.written(definition: "", sentence: ""), item: item) == nil)
+        _ = AnswerDraft.typed("x") == AnswerDraft.gaveUp
+        _ = AnswerDraft.typed("x").isSubmittable
+        _ = AnswerDraft.meaning("x").isSubmittable
+        _ = HintLadder.available(for: word)
+        _ = HintLadder.next(after: .none, for: word)
+        _ = HintLadder.hint(.semantic, for: word)
+        _ = MeaningResult(score: 3, matchedMisconception: "", feedback: "")
+            .isConfidentlyWrong
+        _ = MeaningResult(score: 3, matchedMisconception: "", feedback: "").percentage
+        _ = (StudyMode.spelling.question, StudyMode.spelling.promptSubject)
+    }
+
+    @Test func thePlannerTypesTheAppDrivesAreVisibleFromOutside() throws {
+        let catalog = try WordCatalog.bundled()
+        let word = try #require(catalog["abate"])
+        let profile = LearnerProfile()
+
+        let step = Curriculum.step(
+            for: StudyCard(wordID: word.id), word: word,
+            competence: CardCompetence([]), settings: SessionSettings(aiEnabled: false)
+        )
+        _ = step.mode
+        #expect(step == .introduce)
+        _ = Curriculum.candidates(for: word)
+        _ = Curriculum.teaches(afterMeaningScore: 2)
+
+        let plan = DayPlanner.plan(
+            cards: [StudyCard(wordID: word.id)], catalog: catalog, profile: profile,
+            introducedToday: 0, answeredToday: 0
+        )
+        _ = (plan.dueNow, plan.newWordsRemaining, plan.answeredToday, plan.nextDue,
+             plan.pacing, plan.remainingAnswers, plan.isComplete,
+             plan.estimatedMinutes, plan.progress)
+        _ = DayPlanner.secondsPerAnswer
+        _ = Pacing.dayStart(containing: .now, hour: profile.dayStartHour)
     }
 
     @Test func everyPropertyTheAppReadsIsPubliclyReadable() throws {
@@ -51,6 +124,16 @@ import Testing
             _ = (gre.pos, gre.definition, gre.synonyms, gre.antonyms, gre.sentences)
             _ = (gre.cloze, gre.distractors)
         }
+        if let grounding = word.grounding {
+            _ = (grounding.acceptedConcepts, grounding.requiredNuance)
+            _ = (grounding.mentalHook, grounding.semanticHint)
+            for association in grounding.incorrectAssociations {
+                _ = (association.answer, association.misconception)
+            }
+        }
+        for pair in word.confusion ?? [] {
+            _ = (pair.with, pair.distinction)
+        }
         let sense = word.primarySense
         _ = (sense.pos.rawValue, sense.definition, sense.examples, sense.synonyms, sense.antonyms)
 
@@ -59,17 +142,34 @@ import Testing
         _ = catalog.words(inTier: .core)
         _ = catalog.words(withPartOfSpeech: .verb)
         _ = DistractorPicker.definitionDistractors(for: word, from: catalog, count: 3)
+        let items = try ItemCatalog.bundled()
+        _ = (items.items, items["nothing"], items.items(testing: word.id),
+             items.items(ofKind: .textCompletion))
+        if let item = items.items.first {
+            _ = (item.id, item.kind, item.stem, item.options, item.answers,
+                 item.explanation, item.testedWordIDs)
+            _ = (item.kind.label, item.kind.instruction, item.kind.answerCount,
+                 item.kind.optionCount)
+            _ = item.isCorrect(item.answers)
+        }
+        _ = ConfusionDrill.isAvailable(for: word, in: catalog)
+        if let question = ConfusionDrill.question(
+            for: word, from: catalog, preferring: [], attempt: 0
+        ) {
+            _ = (question.word, question.partner, question.distinction, question.options)
+        }
 
         // Scheduling round trip, as the view model does it
         let card = StudyCard(wordID: word.id)
         let settings = SessionSettings(aiEnabled: false, currentDeckID: catalog.decks.first?.id)
-        let item = SessionPlanner.next(
-            cards: [card], catalog: catalog, settings: settings, scheduler: FSRS(),
-            recentAccuracy: 72, recentWordIDs: [], allowEarly: false, now: .now
+        let picked = SessionQueue.nextCard(
+            cards: [card], catalog: catalog, currentDeckID: settings.currentDeckID,
+            newWordsAllowed: 5, scheduler: FSRS(), recentAccuracy: 72,
+            recentWordIDs: [], allowEarly: false, now: .now
         )
-        if let item { _ = (item.card, item.word, item.mode) }
-        _ = SessionPlanner.nextDue(cards: [card], now: .now)
-        _ = SessionPlanner.learningLoadCap(forAccuracy: 72)
+        if let picked { _ = (picked.wordID, picked.reviewCount, picked.fsrs, picked.isIntroduced) }
+        _ = SessionQueue.learningLoadCap(forAccuracy: 72)
+        _ = SessionQueue.nextDue(cards: [card], now: .now)
         // Decks and mastery, as the Decks tab and Progress read them
         _ = catalog.decks.map { ($0.id, $0.title, $0.tier, $0.index, $0.wordIDs) }
         _ = catalog.decks(inTier: .core)
@@ -81,7 +181,8 @@ import Testing
         _ = Mastery.allCases.map(\.rawValue)
         let progress = DeckProgress(deck: catalog.decks[0], cards: [word.id: card])
         _ = (progress.counts, progress.total, progress.fraction, progress.isComplete, progress.count(atLeast: .known))
-        _ = QuizPlanner.deckTest(deck: catalog.decks[0], cards: [card], catalog: catalog, seed: 1)
+        _ = QuizPlanner.dailyChallenge(cards: [card], catalog: catalog, scheduler: FSRS(),
+                                       dayStart: .now, now: .now)
         _ = QuizPlanner.globalTest(cards: [card], catalog: catalog, scheduler: FSRS(), seed: 1, now: .now)
         _ = QuizPlanner.minimumWords
         let scheduled = FSRS().review(card.fsrs, rating: .good, at: .now)

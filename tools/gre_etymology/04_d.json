@@ -1,0 +1,972 @@
+{
+  "heretical": {
+    "parts": [
+      {
+        "piece": "haireisthai",
+        "origin": "Greek",
+        "meaning": "to choose, take for oneself"
+      }
+    ],
+    "literal": "characterized by choosing for oneself",
+    "path": "The adjective form of 'heretic', from Greek haireisthai, to choose. Heretical describes beliefs that depart from the accepted doctrine, chosen against orthodoxy.",
+    "cousins": [
+      "heresy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hermetic": {
+    "parts": [
+      {
+        "piece": "Hermes Trismegistus",
+        "origin": "proper noun (Greek/Egyptian)",
+        "meaning": "legendary founder of alchemy"
+      }
+    ],
+    "literal": "sealed by Hermes' magic",
+    "path": "Named for Hermes Trismegistus, the legendary father of alchemy, whose followers were said to seal vessels airtight with a magic symbol. 'Hermetically sealed' kept that image of an unbreakable seal, and hermetic broadened to mean cut off entirely from outside influence.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "hermitage": {
+    "parts": [
+      {
+        "piece": "eremos",
+        "origin": "Greek",
+        "meaning": "desolate, uninhabited"
+      }
+    ],
+    "literal": "a desert-dweller's place",
+    "path": "From Greek eremos, desolate or empty, via eremites, one who lives in the desert wilderness. A hermitage is the secluded dwelling of a hermit, someone who withdraws to live alone.",
+    "cousins": [
+      "hermit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "heterodox": {
+    "parts": [
+      {
+        "piece": "heteros",
+        "origin": "Greek",
+        "meaning": "other, different"
+      },
+      {
+        "piece": "doxa",
+        "origin": "Greek",
+        "meaning": "opinion, belief"
+      }
+    ],
+    "literal": "of other opinion",
+    "path": "A Greek compound of heteros, other, and doxa, opinion or belief, as in 'orthodox', right opinion. Heterodox beliefs are simply other opinions, ones that don't conform to accepted standards.",
+    "cousins": [
+      "orthodox",
+      "paradox"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "heterogeneous": {
+    "parts": [
+      {
+        "piece": "heteros",
+        "origin": "Greek",
+        "meaning": "other, different"
+      },
+      {
+        "piece": "genos",
+        "origin": "Greek",
+        "meaning": "kind, race, type"
+      }
+    ],
+    "literal": "of different kinds",
+    "path": "A Greek compound of heteros, other, and genos, kind, the same root as 'gene'. Heterogeneous things are made of different, unlike kinds mixed together, rather than one uniform sort.",
+    "cousins": [
+      "gene",
+      "genre"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hew": {
+    "parts": [
+      {
+        "piece": "heawan",
+        "origin": "Old English",
+        "meaning": "to cut, hack, strike with a blade"
+      }
+    ],
+    "literal": "to cut, chop",
+    "path": "Old English heawan meant to cut or hack with blows, as with an axe. The sense 'to hew to' something, meaning to adhere closely, comes from cutting precisely along a marked line, staying exactly on course.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "heyday": {
+    "parts": [
+      {
+        "piece": "hey (interjection)",
+        "origin": "Middle English",
+        "meaning": "an exclamation of joy or surprise"
+      }
+    ],
+    "literal": "an exclamation of joy",
+    "path": "Heyday began as an interjection of high spirits, like 'hey-day!', unrelated to the modern words 'hey' and 'day' taken literally. Over time it was reanalyzed as a noun naming the peak, most spirited period of success.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "hierarchical": {
+    "parts": [
+      {
+        "piece": "hieros",
+        "origin": "Greek",
+        "meaning": "sacred"
+      },
+      {
+        "piece": "arkhein",
+        "origin": "Greek",
+        "meaning": "to rule, lead"
+      }
+    ],
+    "literal": "arranged by sacred rank",
+    "path": "The adjective from 'hierarchy', Greek hieros, sacred, plus arkhein, to rule, originally the ranked orders of angels. Hierarchical describes anything organized in ranks of authority, one level above another.",
+    "cousins": [
+      "hierarchy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hierarchy": {
+    "parts": [
+      {
+        "piece": "hieros",
+        "origin": "Greek",
+        "meaning": "sacred"
+      },
+      {
+        "piece": "arkhein",
+        "origin": "Greek",
+        "meaning": "to rule, lead"
+      }
+    ],
+    "literal": "sacred rule",
+    "path": "Greek hierarkhes named a high priest, built from hieros, sacred, and arkhein, to rule. The word first described the ranked orders of angels, then any system of ranked levels of authority.",
+    "cousins": [
+      "monarchy",
+      "anarchy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hinder": {
+    "parts": [
+      {
+        "piece": "hinder",
+        "origin": "Old English",
+        "meaning": "behind, back"
+      }
+    ],
+    "literal": "to hold behind",
+    "path": "Old English hindrian, to hold back, comes from hinder, meaning 'behind', the same root as 'hind' (as in hindquarters). To hinder is to keep something held back behind where it should be, obstructing its progress.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hireling": {
+    "parts": [
+      {
+        "piece": "hyrian",
+        "origin": "Old English",
+        "meaning": "to hire, pay for service"
+      },
+      {
+        "piece": "-ling",
+        "origin": "Old English",
+        "meaning": "one connected with (often dismissive)"
+      }
+    ],
+    "literal": "a hired one",
+    "path": "From 'hire' plus the suffix -ling, often used with a diminishing or dismissive edge, as in 'underling'. A hireling works purely because they're paid, with the suffix implying they lack real loyalty or higher motive.",
+    "cousins": [
+      "underling"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "histrionic": {
+    "parts": [
+      {
+        "piece": "histrio",
+        "origin": "Latin",
+        "meaning": "actor"
+      }
+    ],
+    "literal": "actor-like",
+    "path": "From Latin histrio, an actor. Histrionic describes behavior as theatrical and exaggerated as a stage performance, overly dramatic for real life.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hoary": {
+    "parts": [
+      {
+        "piece": "har",
+        "origin": "Old English",
+        "meaning": "grey, grey-haired with age"
+      }
+    ],
+    "literal": "grey with age",
+    "path": "Old English har meant grey, especially grey-haired with age. Hoary keeps that literal image of grey age, and extends it to anything old and stale, worn out from long use like an old grey-bearded idea.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hobble": {
+    "parts": [
+      {
+        "piece": "hobbelen",
+        "origin": "Middle Dutch",
+        "meaning": "to rock, stumble, toss unevenly"
+      }
+    ],
+    "literal": "to move unevenly, rocking",
+    "path": "Probably related to a Middle Dutch word for rocking or stumbling unevenly, perhaps a frequentative of 'hop'. To hobble is to walk with that same uneven, halting rock, or figuratively to hamper someone's ability to move freely.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hodgepodge": {
+    "parts": [
+      {
+        "piece": "hocher",
+        "origin": "Old French",
+        "meaning": "to shake"
+      },
+      {
+        "piece": "pot",
+        "origin": "Old French",
+        "meaning": "pot"
+      }
+    ],
+    "literal": "a shaken pot of mixed ingredients",
+    "path": "From Old French hochepot, a stew made by shaking together whatever ingredients were on hand, hocher, to shake, plus pot. Hodgepodge kept that image of a jumbled mix thrown together, a confused mixture of anything.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "homage": {
+    "parts": [
+      {
+        "piece": "homo",
+        "origin": "Latin",
+        "meaning": "man, human being"
+      }
+    ],
+    "literal": "becoming someone's man (vassal)",
+    "path": "From Latin homo, man, via an Old French word for the ceremony in which a vassal formally became his lord's 'man', pledging loyalty. Homage kept that sense of formal, respectful submission, now simply public respect or tribute.",
+    "cousins": [
+      "human"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "homespun": {
+    "parts": [
+      {
+        "piece": "home",
+        "origin": "Old English",
+        "meaning": "home"
+      },
+      {
+        "piece": "spun",
+        "origin": "Old English",
+        "meaning": "spun (thread)"
+      }
+    ],
+    "literal": "spun at home",
+    "path": "Literally cloth spun at home rather than by a professional weaver, plain and coarse rather than fine. Homespun extended to anything with that same unpolished, simple, unsophisticated homemade quality.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "homily": {
+    "parts": [
+      {
+        "piece": "homilos",
+        "origin": "Greek",
+        "meaning": "an assembled crowd, company"
+      }
+    ],
+    "literal": "a talk to the assembled company",
+    "path": "Greek homilia meant conversation or discourse, from homilos, an assembled crowd or company. A homily was originally simply a talk given to a gathered congregation, and narrowed to the moralizing lecture or sermon it still names.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "homogeneous": {
+    "parts": [
+      {
+        "piece": "homos",
+        "origin": "Greek",
+        "meaning": "same"
+      },
+      {
+        "piece": "genos",
+        "origin": "Greek",
+        "meaning": "kind, type"
+      }
+    ],
+    "literal": "of the same kind",
+    "path": "A Greek compound of homos, same, and genos, kind, the same root as 'gene'. Homogeneous things are uniform, made of the same kind of material throughout, unlike heterogeneous things.",
+    "cousins": [
+      "gene",
+      "heterogeneous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "homogenous": {
+    "parts": [
+      {
+        "piece": "homos",
+        "origin": "Greek",
+        "meaning": "same"
+      },
+      {
+        "piece": "genos",
+        "origin": "Greek",
+        "meaning": "kind, type"
+      }
+    ],
+    "literal": "of the same kind",
+    "path": "Built from the same Greek roots as 'homogeneous', homos, same, and genos, kind. In everyday use it's treated as a shorter variant of homogeneous, describing something of the same kind throughout.",
+    "cousins": [
+      "homogeneous",
+      "gene"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hoodwink": {
+    "parts": [
+      {
+        "piece": "hood",
+        "origin": "Old English",
+        "meaning": "a head covering"
+      },
+      {
+        "piece": "wink",
+        "origin": "Old English",
+        "meaning": "to close the eyes"
+      }
+    ],
+    "literal": "to cover the eyes with a hood",
+    "path": "Hoodwink literally meant to blindfold someone by pulling a hood down over their eyes so they couldn't see. The word kept that image figuratively: to hoodwink someone is to blind them to the truth through trickery.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "horde": {
+    "parts": [
+      {
+        "piece": "ordu",
+        "origin": "Turkic/Mongolian",
+        "meaning": "a camp, royal military encampment"
+      }
+    ],
+    "literal": "a nomadic camp or army",
+    "path": "From a Turkic and Mongolian word for a royal military encampment, ordu, used of the Mongol and Tatar armies that swept across Central Asia. Horde kept that sense of a large, moving mass of people, now usually a disorderly crowd.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "hotly": {
+    "parts": [
+      {
+        "piece": "hat",
+        "origin": "Old English",
+        "meaning": "hot"
+      }
+    ],
+    "literal": "in a hot manner",
+    "path": "Simply 'hot' plus the adverbial -ly. Hotly describes doing something with the heat of intense feeling, as in a hotly contested debate.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hound": {
+    "parts": [
+      {
+        "piece": "hund",
+        "origin": "Old English",
+        "meaning": "dog (hunting dog)"
+      }
+    ],
+    "literal": "to chase like a hunting dog",
+    "path": "Old English hund was simply the word for dog, later specializing to hunting hounds that chase prey relentlessly. To hound someone verbally is to pursue them the way a hunting dog pursues its quarry, relentlessly.",
+    "cousins": [
+      "canine"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hubbub": {
+    "parts": [
+      {
+        "piece": "hubbub",
+        "origin": "probably Irish/Gaelic (imitative)",
+        "meaning": "a shout or battle cry, echoic"
+      }
+    ],
+    "literal": "an imitative shout",
+    "path": "Likely from an Irish exclamation or battle cry, essentially imitative of a confused shouting noise. Hubbub kept that sense: a loud, confused noise or commotion of many voices.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hubris": {
+    "parts": [
+      {
+        "piece": "hybris",
+        "origin": "Greek",
+        "meaning": "excessive pride, insolence"
+      }
+    ],
+    "literal": "excessive pride",
+    "path": "Directly from Greek hybris, the insolent pride the Greeks saw as inviting the gods' punishment. Hubris still names that excessive pride that blinds a person to their limits and invites their own downfall.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "humble": {
+    "parts": [
+      {
+        "piece": "humus",
+        "origin": "Latin",
+        "meaning": "earth, ground, soil"
+      }
+    ],
+    "literal": "close to the ground",
+    "path": "Latin humilis meant low or lowly, literally close to the ground, from humus, earth. To humble someone is to bring them low, back down to the ground, lowering their pride or status.",
+    "cousins": [
+      "humus",
+      "exhume"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "humdrum": {
+    "parts": [
+      {
+        "piece": "hum + drum",
+        "origin": "English (imitative reduplication)",
+        "meaning": "a droning, monotonous sound"
+      }
+    ],
+    "literal": "a droning hum and drum",
+    "path": "A reduplicated coinage pairing 'hum' with 'drum', both droning, repetitive sounds. Humdrum imitates that monotonous drone, describing anything dull and routine.",
+    "cousins": [
+      "hum",
+      "drum"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "humiliate": {
+    "parts": [
+      {
+        "piece": "humus",
+        "origin": "Latin",
+        "meaning": "earth, ground, soil"
+      }
+    ],
+    "literal": "to bring to the ground",
+    "path": "Same Latin root as 'humble', humilis, low, from humus, earth. To humiliate someone is to forcibly bring them low, making them feel ashamed and lowered in others' eyes.",
+    "cousins": [
+      "humble",
+      "humus"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hummock": {
+    "parts": [
+      {
+        "piece": "hummock",
+        "origin": "uncertain, possibly related to 'hump'",
+        "meaning": "a small mound (obscure origin)"
+      }
+    ],
+    "literal": "unclear origin, small mound",
+    "path": "The word's deeper origin is obscure, though it may be related to 'hump'. It has simply named a small hill or mound, often of ice or ground, since it entered English.",
+    "cousins": [
+      "hump"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "hurtle": {
+    "parts": [
+      {
+        "piece": "hurten",
+        "origin": "Middle English",
+        "meaning": "to strike, collide, dash against"
+      }
+    ],
+    "literal": "to keep striking, dashing",
+    "path": "A frequentative form of the old verb 'hurt', which originally meant to strike or collide rather than to cause pain. Hurtle kept the sense of colliding motion: to move violently and rapidly, as if crashing forward.",
+    "cousins": [
+      "hurt"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "husband": {
+    "parts": [
+      {
+        "piece": "hus",
+        "origin": "Old Norse",
+        "meaning": "house"
+      },
+      {
+        "piece": "bondi",
+        "origin": "Old Norse",
+        "meaning": "occupier, farmer, dweller"
+      }
+    ],
+    "literal": "the house-dweller/farmer",
+    "path": "Husband comes from Old Norse husbondi, the master of a household, house plus a word for its occupier or farmer. Since managing a household's resources well was his job, the verb 'to husband' came to mean using resources carefully and sparingly.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "husbandry": {
+    "parts": [
+      {
+        "piece": "hus",
+        "origin": "Old Norse",
+        "meaning": "house"
+      },
+      {
+        "piece": "bondi",
+        "origin": "Old Norse",
+        "meaning": "occupier, farmer, dweller"
+      }
+    ],
+    "literal": "the work of the house-dweller",
+    "path": "The noun form of 'husband' in its old sense of household manager or farmer, from Old Norse hus, house, and bondi, dweller. Husbandry names the careful management of resources, especially farming and livestock.",
+    "cousins": [
+      "husband"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "hyperbole": {
+    "parts": [
+      {
+        "piece": "hyper",
+        "origin": "Greek",
+        "meaning": "over, beyond"
+      },
+      {
+        "piece": "ballein",
+        "origin": "Greek",
+        "meaning": "to throw"
+      }
+    ],
+    "literal": "a throwing beyond",
+    "path": "A Greek compound of hyper, beyond, and ballein, to throw, the same root as 'ballistic'. Hyperbole throws a statement beyond the literal truth, deliberate exaggeration for effect.",
+    "cousins": [
+      "ballistic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hysterical": {
+    "parts": [
+      {
+        "piece": "hystera",
+        "origin": "Greek",
+        "meaning": "womb"
+      }
+    ],
+    "literal": "of the womb",
+    "path": "Greek hystera meant womb; ancient and early modern medicine wrongly attributed uncontrolled emotional fits to disturbances of the womb, calling the condition hysteria. Hysterical kept that sense of wildly emotional, uncontrolled behavior, though the anatomical theory behind it was false.",
+    "cousins": [
+      "hysterectomy"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "iconoclast": {
+    "parts": [
+      {
+        "piece": "eikon",
+        "origin": "Greek",
+        "meaning": "image, likeness"
+      },
+      {
+        "piece": "klan (klastes)",
+        "origin": "Greek",
+        "meaning": "to break"
+      }
+    ],
+    "literal": "an image-breaker",
+    "path": "A Greek compound of eikon, image, as in 'icon', and a word for breaker, from klan, to break. Iconoclasts originally smashed religious icons; the word broadened to anyone who attacks cherished beliefs or traditions.",
+    "cousins": [
+      "icon",
+      "iconic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "iconoclastic": {
+    "parts": [
+      {
+        "piece": "eikon",
+        "origin": "Greek",
+        "meaning": "image, likeness"
+      },
+      {
+        "piece": "klan (klastes)",
+        "origin": "Greek",
+        "meaning": "to break"
+      }
+    ],
+    "literal": "image-breaking",
+    "path": "The adjective form of 'iconoclast', from Greek eikon, image, and klan, to break. Iconoclastic describes attacks on established, cherished beliefs or institutions.",
+    "cousins": [
+      "icon",
+      "iconoclast"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ideological": {
+    "parts": [
+      {
+        "piece": "idea",
+        "origin": "Greek",
+        "meaning": "form, idea"
+      },
+      {
+        "piece": "logos",
+        "origin": "Greek",
+        "meaning": "study, word, reasoned account"
+      }
+    ],
+    "literal": "relating to a system of ideas",
+    "path": "The adjective form of 'ideology', from Greek idea, form or idea, and logos, study or reasoned account. Ideological describes anything based on or driven by a coherent system of beliefs.",
+    "cousins": [
+      "ideology",
+      "idea"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ideology": {
+    "parts": [
+      {
+        "piece": "idea",
+        "origin": "Greek",
+        "meaning": "form, idea"
+      },
+      {
+        "piece": "logos",
+        "origin": "Greek",
+        "meaning": "study, word, reasoned account"
+      }
+    ],
+    "literal": "the study of ideas",
+    "path": "A Greek compound of idea, form or idea, and logos, reasoned account. Coined originally for a 'science of ideas', ideology settled into meaning a coherent system of beliefs that guides action, especially political.",
+    "cousins": [
+      "idea",
+      "logic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "idiosyncrasy": {
+    "parts": [
+      {
+        "piece": "idios",
+        "origin": "Greek",
+        "meaning": "one's own, private, peculiar"
+      },
+      {
+        "piece": "synkrasis",
+        "origin": "Greek",
+        "meaning": "a mixing together, temperament"
+      }
+    ],
+    "literal": "one's own private mixture",
+    "path": "A Greek compound of idios, one's own or private, and synkrasis, a mixture or temperament, the old idea that personality came from a mix of bodily humors. An idiosyncrasy is a quirk unique to one's own private makeup, a peculiar personal habit.",
+    "cousins": [
+      "idiom"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "idiosyncratic": {
+    "parts": [
+      {
+        "piece": "idios",
+        "origin": "Greek",
+        "meaning": "one's own, private, peculiar"
+      },
+      {
+        "piece": "synkrasis",
+        "origin": "Greek",
+        "meaning": "a mixing together, temperament"
+      }
+    ],
+    "literal": "of one's own private mixture",
+    "path": "The adjective form of 'idiosyncrasy', from Greek idios, one's own, and synkrasis, a personal mixture or temperament. Idiosyncratic describes whatever is peculiar to a particular individual.",
+    "cousins": [
+      "idiom",
+      "idiosyncrasy"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "idolatrous": {
+    "parts": [
+      {
+        "piece": "eidolon",
+        "origin": "Greek",
+        "meaning": "image, idol, phantom"
+      },
+      {
+        "piece": "latreia",
+        "origin": "Greek",
+        "meaning": "worship, service"
+      }
+    ],
+    "literal": "idol-worshipping",
+    "path": "A Greek compound of eidolon, image or idol, and latreia, worship. Idolatrous originally described literal worship of idols, and broadened to any excessive, worshipful devotion to something.",
+    "cousins": [
+      "idol"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "idolatry": {
+    "parts": [
+      {
+        "piece": "eidolon",
+        "origin": "Greek",
+        "meaning": "image, idol, phantom"
+      },
+      {
+        "piece": "latreia",
+        "origin": "Greek",
+        "meaning": "worship, service"
+      }
+    ],
+    "literal": "idol-worship",
+    "path": "From Greek eidolon, image or idol, and latreia, worship. Idolatry is literally the worship of idols, and figuratively any excessive devotion given to something undeserving of it.",
+    "cousins": [
+      "idol"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "idyllic": {
+    "parts": [
+      {
+        "piece": "eidos",
+        "origin": "Greek",
+        "meaning": "form, shape"
+      }
+    ],
+    "literal": "like a little picture-poem",
+    "path": "From Greek eidyllion, a little picture or short poem describing rustic scenes, a diminutive of eidos, form. Idyllic describes a scene as peacefully perfect and picturesque as one of those charming little poetic sketches.",
+    "cousins": [
+      "idea"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "ignoble": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "nobilis",
+        "origin": "Latin",
+        "meaning": "noble, well-known"
+      }
+    ],
+    "literal": "not noble",
+    "path": "A straightforward Latin negation: in-, not, plus nobilis, noble, from a root meaning 'known', as the noble were the well-known families. Ignoble simply means not noble, dishonorable and low.",
+    "cousins": [
+      "noble",
+      "notable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ignominious": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "nomen",
+        "origin": "Latin",
+        "meaning": "name, reputation"
+      }
+    ],
+    "literal": "marked by loss of good name",
+    "path": "The adjective of 'ignominy', from Latin in- (not) and nomen (name), losing one's good name. Ignominious describes a defeat or failure so shameful it publicly strips away one's reputation.",
+    "cousins": [
+      "nominate",
+      "ignominy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ignominy": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "nomen",
+        "origin": "Latin",
+        "meaning": "name, reputation"
+      }
+    ],
+    "literal": "loss of name",
+    "path": "A Latin compound of in-, not, and nomen, name or reputation. Ignominy is the public disgrace that strips away a person's good name.",
+    "cousins": [
+      "nominate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "illiberality": {
+    "parts": [
+      {
+        "piece": "in- (il-)",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "liber",
+        "origin": "Latin",
+        "meaning": "free"
+      }
+    ],
+    "literal": "not free, not generous",
+    "path": "From in- (assimilated to il-), not, plus Latin liber, free, the root of 'liberal'. Where liberal once meant generous and open-minded, befitting a free person, illiberality is the narrow-minded, ungenerous opposite.",
+    "cousins": [
+      "liberty",
+      "liberal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "illicit": {
+    "parts": [
+      {
+        "piece": "in- (il-)",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "licere",
+        "origin": "Latin",
+        "meaning": "to be allowed, permitted"
+      }
+    ],
+    "literal": "not permitted",
+    "path": "A Latin negation of licitus, lawful, from licere, to be allowed. Illicit simply means not permitted, forbidden by law or custom.",
+    "cousins": [
+      "license"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "illusory": {
+    "parts": [
+      {
+        "piece": "in- (il-)",
+        "origin": "Latin",
+        "meaning": "upon, at"
+      },
+      {
+        "piece": "ludere",
+        "origin": "Latin",
+        "meaning": "to play"
+      }
+    ],
+    "literal": "playing upon someone",
+    "path": "From Latin illudere, to mock or trick, built from in-, upon, and ludere, to play, as in playing a trick on someone. Illusory describes something that plays upon the senses or mind, seeming real but based on illusion.",
+    "cousins": [
+      "ludicrous",
+      "elude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

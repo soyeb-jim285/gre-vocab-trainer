@@ -1,0 +1,686 @@
+{
+  "stigma": {
+    "parts": [
+      {
+        "piece": "stizein",
+        "origin": "Greek",
+        "meaning": "to prick, mark by pricking"
+      }
+    ],
+    "literal": "a mark made by pricking, a brand",
+    "path": "Greek stigma named a mark burned or pricked into the skin, often to brand slaves or criminals. English kept the sense of a mark of shame, extending from a literal brand to any mark of social disgrace.",
+    "cousins": [
+      "stigmatize"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "stigmatize": {
+    "parts": [
+      {
+        "piece": "stizein",
+        "origin": "Greek",
+        "meaning": "to prick, mark by pricking"
+      },
+      {
+        "piece": "-ize",
+        "origin": "Greek",
+        "meaning": "to make, to do"
+      }
+    ],
+    "literal": "to brand with a mark",
+    "path": "Stigmatize is built directly on stigma, the mark once burned or pricked into the skin of slaves or criminals. To stigmatize someone is to brand them, figuratively, with a mark of disgrace.",
+    "cousins": [
+      "stigma"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "stilted": {
+    "parts": [
+      {
+        "piece": "stilte",
+        "origin": "Middle Low German",
+        "meaning": "a pole for walking raised off the ground"
+      }
+    ],
+    "literal": "raised up on stilts",
+    "path": "Stilted comes from stilt, a pole used to walk raised above the ground. Someone walking on stilts moves stiffly and awkwardly, and that image gave stilted its sense of speech or writing that feels artificially elevated and unnatural.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "stingy": {
+    "parts": [
+      {
+        "piece": "stingan",
+        "origin": "Old English",
+        "meaning": "to sting, to pierce sharply"
+      }
+    ],
+    "literal": "sharp, biting",
+    "path": "Stingy likely grew from sting, to pierce sharply, by way of a dialectal word for someone sharp or biting in temper. That sharpness narrowed to a specific kind of meanness: being sharp and unwilling when it comes to giving or spending.",
+    "cousins": [
+      "sting"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "stint": {
+    "parts": [
+      {
+        "piece": "styntan",
+        "origin": "Old English",
+        "meaning": "to make short, blunt, or stop"
+      }
+    ],
+    "literal": "to make short or stop",
+    "path": "Stint traces to an Old English verb meaning to make short, blunt, or bring to a stop, the same root that gives stunt. To stint something is to cut it short: to be sparing or restrict how much is given.",
+    "cousins": [
+      "stunt"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "stinting": {
+    "parts": [
+      {
+        "piece": "styntan",
+        "origin": "Old English",
+        "meaning": "to make short, blunt, or stop"
+      },
+      {
+        "piece": "-ing",
+        "origin": "Old English",
+        "meaning": "forming an adjective from a verb"
+      }
+    ],
+    "literal": "cutting short, holding back",
+    "path": "Stinting is the adjective form of stint, to cut short or restrict. Someone stinting holds back what they give, measuring it out sparingly or grudgingly rather than freely.",
+    "cousins": [
+      "stunt"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "stipend": {
+    "parts": [
+      {
+        "piece": "stips",
+        "origin": "Latin",
+        "meaning": "small payment, contribution"
+      },
+      {
+        "piece": "pendere",
+        "origin": "Latin",
+        "meaning": "to weigh, to pay"
+      }
+    ],
+    "literal": "a small payment weighed out",
+    "path": "Latin stipendium combined stips, a small contribution, with pendere, to weigh or pay, since coins were originally weighed rather than counted. It first meant a soldier's pay or tax, and settled into any fixed, regular allowance.",
+    "cousins": [
+      "pension",
+      "compensate",
+      "expend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stipulate": {
+    "parts": [
+      {
+        "piece": "stipulari",
+        "origin": "Latin",
+        "meaning": "to demand a formal promise"
+      }
+    ],
+    "literal": "to demand a formal promise",
+    "path": "Latin stipulari meant to exact a formal promise or bargain, though its deeper origin is disputed, perhaps tied to stipes, a firm stem, suggesting a fixed agreement. Stipulate kept the sense of setting firm terms as a requirement.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stock": {
+    "parts": [
+      {
+        "piece": "stocc",
+        "origin": "Old English",
+        "meaning": "tree trunk, log, stump"
+      }
+    ],
+    "literal": "kept as standard stock",
+    "path": "Stock began as Old English stocc, a tree trunk or log, and widened to mean a stored supply, goods kept in reserve on hand. A stock phrase or stock character is one drawn from that standard stored supply: routine, ready-made, and unoriginal.",
+    "cousins": [
+      "stockpile",
+      "livestock"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "stoic": {
+    "parts": [
+      {
+        "piece": "stoa",
+        "origin": "Greek",
+        "meaning": "porch, colonnade"
+      }
+    ],
+    "literal": "of the Porch (the Stoic school)",
+    "path": "The Stoic philosophers took their name from the Stoa Poikile, the painted porch in Athens where Zeno taught that virtue lies in enduring fate with self-control. Stoic came to describe anyone who bears hardship without complaint, following that philosophy's ideal.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "stolid": {
+    "parts": [
+      {
+        "piece": "stolidus",
+        "origin": "Latin",
+        "meaning": "dull, immovable, slow of perception"
+      }
+    ],
+    "literal": "immovable, dull",
+    "path": "Latin stolidus meant dull or slow of perception, probably literally unmovable, built on the same ancient root as stand and still. Stolid kept that sense of an unmoving, unreactive temperament: showing little emotion.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "straight": {
+    "parts": [
+      {
+        "piece": "streccan",
+        "origin": "Old English",
+        "meaning": "to stretch"
+      }
+    ],
+    "literal": "stretched out, without bends",
+    "path": "Straight is the old past participle of stretch: something pulled taut lies without bends or curves. Just as crooked came to mean dishonest, straight came to mean honest and direct, without deceptive twists.",
+    "cousins": [
+      "stretch"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "stratagem": {
+    "parts": [
+      {
+        "piece": "stratos",
+        "origin": "Greek",
+        "meaning": "army"
+      },
+      {
+        "piece": "agein",
+        "origin": "Greek",
+        "meaning": "to lead"
+      }
+    ],
+    "literal": "the act of a general leading an army",
+    "path": "Greek strategema meant a general's maneuver, from strategos, army leader, built on stratos, army, and agein, to lead. Stratagem kept the sense of a calculated maneuver, extended from the battlefield to any clever scheme for advantage.",
+    "cousins": [
+      "strategy",
+      "strategic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stratum": {
+    "parts": [
+      {
+        "piece": "sternere",
+        "origin": "Latin",
+        "meaning": "to spread out, lay down"
+      }
+    ],
+    "literal": "something spread out flat",
+    "path": "Latin stratum was the past participle of sternere, to spread out or lay down, used for a pavement or a spread covering. Geologists borrowed it for a spread layer of rock, and the word extended to any layer, including a layer of society.",
+    "cousins": [
+      "street",
+      "prostrate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "striate": {
+    "parts": [
+      {
+        "piece": "stria",
+        "origin": "Latin",
+        "meaning": "furrow, groove"
+      }
+    ],
+    "literal": "grooved, furrowed",
+    "path": "Latin stria meant a furrow or groove, and striare meant to groove or channel. Striate describes a surface marked with the fine parallel grooves or lines the Latin word originally named.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "stricture": {
+    "parts": [
+      {
+        "piece": "stringere",
+        "origin": "Latin",
+        "meaning": "to draw tight, bind tightly"
+      }
+    ],
+    "literal": "a drawing tight, a tightening",
+    "path": "Latin strictura meant a tightening or contraction, from stringere, to draw tight. In English stricture first named a narrowing, medically a constriction of a passage, and figuratively a tightly binding restriction or a sharply critical remark.",
+    "cousins": [
+      "strict",
+      "constrict",
+      "restrict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "strife": {
+    "parts": [
+      {
+        "piece": "estrif",
+        "origin": "Old French",
+        "meaning": "quarrel, dispute, effort"
+      }
+    ],
+    "literal": "quarrel, contention",
+    "path": "Strife comes from Old French estrif, quarrel or dispute, likely of Germanic origin and related to strive. It kept its old sense mostly unchanged: bitter, ongoing conflict.",
+    "cousins": [
+      "strive"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "stringent": {
+    "parts": [
+      {
+        "piece": "stringere",
+        "origin": "Latin",
+        "meaning": "to draw tight, bind tightly"
+      }
+    ],
+    "literal": "drawing tight, binding",
+    "path": "Stringent comes from Latin stringere, to draw tight or bind. Rules described as stringent are figuratively drawn tight, leaving little slack: strict and demanding.",
+    "cousins": [
+      "strict",
+      "constrict",
+      "restrict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "strut": {
+    "parts": [
+      {
+        "piece": "strutian",
+        "origin": "Old English",
+        "meaning": "to stand out stiffly, project rigidly"
+      }
+    ],
+    "literal": "to stand out stiffly",
+    "path": "Strut goes back to an Old English word meaning to stick out stiffly or bulge, describing something rigid and puffed up. That stiff, puffed-up image carried into the walk of someone showing off: strutting with arrogant display.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "stultify": {
+    "parts": [
+      {
+        "piece": "stultus",
+        "origin": "Latin",
+        "meaning": "foolish"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "to make foolish",
+    "path": "Stultify comes from Latin stultus, foolish, plus facere, to make. It began as a legal term for declaring someone of unsound mind, then broadened to making something appear foolish, and eventually to making something dull or ineffective generally.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "stump": {
+    "parts": [
+      {
+        "piece": "stump",
+        "origin": "Middle Low German",
+        "meaning": "a tree stump, a remaining stub"
+      }
+    ],
+    "literal": "a tree stump",
+    "path": "Stump named the stub left after a tree is cut down, a stubborn obstacle that was hard to clear from farmland. By the 1800s in American English, to stump someone meant to trip them up like a hidden stump: to baffle them completely.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "stupendous": {
+    "parts": [
+      {
+        "piece": "stupere",
+        "origin": "Latin",
+        "meaning": "to be stunned, amazed"
+      }
+    ],
+    "literal": "that which is to be marveled at",
+    "path": "Latin stupendus meant worthy of amazement, from stupere, to be stunned or dazed. Stupendous kept that sense of something so vast or impressive it leaves people stunned with wonder.",
+    "cousins": [
+      "stupor",
+      "stupid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "stymie": {
+    "parts": [
+      {
+        "piece": "stymie",
+        "origin": "Scots",
+        "meaning": "a person who is partially blind, dim-sighted"
+      }
+    ],
+    "literal": "one who is dim-sighted",
+    "path": "Stymie began as a Scots word for someone partially blind, of unclear deeper origin. Golf borrowed it in the 1800s for a shot blocked when an opponent's ball sat in its path, and that sense of being blocked generalized to being thwarted in anything.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "suavity": {
+    "parts": [
+      {
+        "piece": "suavis",
+        "origin": "Latin",
+        "meaning": "sweet, pleasant, agreeable"
+      }
+    ],
+    "literal": "sweetness, pleasantness",
+    "path": "Latin suavis meant sweet or pleasant, and suavitas named that quality of agreeableness. Suavity narrowed to a smooth, polished charm in manner, the sweetness of someone's social ease.",
+    "cousins": [
+      "persuade",
+      "dissuade"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "subaltern": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "alternus",
+        "origin": "Latin",
+        "meaning": "one after another, alternate"
+      }
+    ],
+    "literal": "ranked under, alternating below",
+    "path": "Subaltern combines sub-, under, with alternus, alternating, from alter, other. It first meant simply subordinate or inferior in rank, and in the military it settled on a specific sense: a junior officer ranked under a captain.",
+    "cousins": [
+      "alternate",
+      "alter"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "subjective": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "iacere",
+        "origin": "Latin",
+        "meaning": "to throw"
+      }
+    ],
+    "literal": "thrown underneath, placed under",
+    "path": "Latin subjectus meant thrown or placed underneath, i.e. underlying something. In philosophy the 'subject' became the underlying mind that perceives, opposed to the outer 'object' it perceives. Subjective then means belonging to that inner viewpoint, based on personal feeling rather than the object itself.",
+    "cousins": [
+      "object",
+      "project",
+      "reject",
+      "inject"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "subjugate": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "jugum",
+        "origin": "Latin",
+        "meaning": "yoke"
+      }
+    ],
+    "literal": "to place under the yoke",
+    "path": "Latin subjugare meant to put under the yoke, the wooden crosspiece binding oxen to a plow or cart. Subjugate kept the image of forcing something under a yoke of control: bringing it fully under domination.",
+    "cousins": [
+      "conjugate",
+      "yoke"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sublimate": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "up to"
+      },
+      {
+        "piece": "limen",
+        "origin": "Latin",
+        "meaning": "threshold, lintel"
+      }
+    ],
+    "literal": "to raise up to the threshold",
+    "path": "Latin sublimis meant lofty or elevated, perhaps literally raised up to the lintel of a doorway. Chemists used sublimate for turning a solid straight into a purified vapor, and psychology borrowed that image of transformation: redirecting a raw impulse into a higher, more acceptable form.",
+    "cousins": [
+      "sublime"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "sublime": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "up to"
+      },
+      {
+        "piece": "limen",
+        "origin": "Latin",
+        "meaning": "threshold, lintel"
+      }
+    ],
+    "literal": "raised up high, lofty",
+    "path": "Latin sublimis meant lofty or elevated, perhaps literally raised up to the lintel of a doorway. Sublime kept that sense of being lifted above the ordinary, describing grandeur or excellence so great it overwhelms.",
+    "cousins": [
+      "sublimate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "subliminal": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "below"
+      },
+      {
+        "piece": "limen",
+        "origin": "Latin",
+        "meaning": "threshold"
+      }
+    ],
+    "literal": "below the threshold",
+    "path": "Subliminal was coined by psychologists in the 1800s from Latin sub-, below, and limen, threshold, for anything below the threshold of conscious perception. A subliminal message registers on the mind without crossing into awareness.",
+    "cousins": [
+      "preliminary",
+      "eliminate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "subordinate": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "ordo",
+        "origin": "Latin",
+        "meaning": "order, rank, row"
+      }
+    ],
+    "literal": "under in rank",
+    "path": "Subordinate combines sub-, under, with ordo, rank or order. Someone subordinate is placed under another in a fixed order of rank: lower in importance or authority.",
+    "cousins": [
+      "order",
+      "ordinary",
+      "coordinate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "subpoena": {
+    "parts": [
+      {
+        "piece": "sub",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "poena",
+        "origin": "Latin",
+        "meaning": "penalty, punishment"
+      }
+    ],
+    "literal": "under penalty",
+    "path": "Subpoena is literally Latin sub poena, under penalty, the opening words of the legal writ that ordered someone to appear in court or face punishment. English adopted the phrase whole as the name for the order itself.",
+    "cousins": [
+      "penalty",
+      "penal",
+      "pain"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "subservient": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "servire",
+        "origin": "Latin",
+        "meaning": "to serve"
+      }
+    ],
+    "literal": "serving under",
+    "path": "Subservient combines sub-, under, with servire, to serve. It first meant simply useful or subordinate in serving a purpose, and narrowed to describe someone excessively eager to serve and obey.",
+    "cousins": [
+      "serve",
+      "servant",
+      "service"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "subside": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "down, under"
+      },
+      {
+        "piece": "sidere",
+        "origin": "Latin",
+        "meaning": "to settle, sink"
+      }
+    ],
+    "literal": "to settle down",
+    "path": "Latin subsidere meant to sink or settle down, from sub-, down, and sidere, to settle, related to sedere, to sit. Subside kept that sense of sinking or settling, applied to floodwaters, swelling, or emotions that die down.",
+    "cousins": [
+      "sediment",
+      "reside",
+      "sedentary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "substantial": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "standing underneath, essential being",
+    "path": "Latin substantia named the essential underlying being of a thing, from substare, to stand under. Substantial first meant having real existence or essence, and from that solid, real quality came the sense of considerable in size or importance.",
+    "cousins": [
+      "substance",
+      "stand",
+      "constant"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  }
+}

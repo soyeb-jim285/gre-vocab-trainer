@@ -1,0 +1,1181 @@
+{
+  "competent": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "petere",
+        "origin": "Latin",
+        "meaning": "to seek, aim at"
+      }
+    ],
+    "literal": "seeking together, fitting",
+    "path": "Competent comes from Latin competere, to strive together or be fit for something, joining com- with petere, to seek. It describes someone adequately skilled, suited to the task they're seeking to do.",
+    "cousins": [
+      "compete",
+      "petition",
+      "appetite"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "complacent": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "placere",
+        "origin": "Latin",
+        "meaning": "to please"
+      }
+    ],
+    "literal": "thoroughly pleased with oneself",
+    "path": "Complacent comes from Latin complacere, to please greatly, joining the intensive com- with placere, to please. Someone complacent is so thoroughly pleased with themselves that they become smugly unaware of danger.",
+    "cousins": [
+      "placate",
+      "pleasant",
+      "please"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "complaisance": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "placere",
+        "origin": "Latin",
+        "meaning": "to please"
+      }
+    ],
+    "literal": "thoroughly pleasing",
+    "path": "Complaisance shares complacent's root, Latin complacere, to please greatly. Where complacent turned inward to self-satisfaction, complaisance kept the outward sense: an eagerness to please others.",
+    "cousins": [
+      "placate",
+      "pleasant",
+      "please"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "complaisant": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "placere",
+        "origin": "Latin",
+        "meaning": "to please"
+      }
+    ],
+    "literal": "pleasing, obliging",
+    "path": "Complaisant shares the same Latin root, complacere, to please greatly. It describes someone willing and eager to please, obliging toward others' wishes.",
+    "cousins": [
+      "placate",
+      "pleasant",
+      "please"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "complement": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "plere",
+        "origin": "Latin",
+        "meaning": "to fill"
+      }
+    ],
+    "literal": "to fill up completely",
+    "path": "Complement comes from Latin complere, to fill up completely, joining com- with plere, to fill. To complement something is to fill it out, completing or enhancing it.",
+    "cousins": [
+      "complete",
+      "plenty",
+      "supply"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "complementary": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "plere",
+        "origin": "Latin",
+        "meaning": "to fill"
+      }
+    ],
+    "literal": "filling out, completing",
+    "path": "Complementary shares complement's root, Latin complere, to fill up. Complementary things combine to fill each other out, forming a complete whole together.",
+    "cousins": [
+      "complete",
+      "plenty",
+      "supply"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "compliant": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "plere",
+        "origin": "Latin",
+        "meaning": "to fill, fulfill"
+      }
+    ],
+    "literal": "fulfilling obligations",
+    "path": "Compliant comes from the same Latin root as complement, complere, to fill up or fulfill. Someone compliant fulfills what's asked of them, readily obeying or conforming to a rule or request.",
+    "cousins": [
+      "complete",
+      "comply"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "complicit": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold"
+      }
+    ],
+    "literal": "folded together with",
+    "path": "Complicit comes from Latin complicare, to fold together, the same root as accomplice and complicated. To be complicit is to be folded into, entangled with, others in wrongdoing.",
+    "cousins": [
+      "accomplice",
+      "complicated",
+      "duplicate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "comply": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "plere",
+        "origin": "Latin",
+        "meaning": "to fill, fulfill"
+      }
+    ],
+    "literal": "to fulfill an obligation",
+    "path": "Comply traces through Italian complire back to Latin complere, to fill up or fulfill. To comply is to fulfill a rule or request, acting in accordance with it.",
+    "cousins": [
+      "complete",
+      "compliant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "comport": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "portare",
+        "origin": "Latin",
+        "meaning": "to carry"
+      }
+    ],
+    "literal": "to carry together",
+    "path": "Comport comes from Latin comportare, to carry together, joining com- with portare, to carry. To comport oneself is to carry oneself in a certain way; to comport with something is for it to align with it.",
+    "cousins": [
+      "portable",
+      "transport",
+      "import"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "compound": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to put, place"
+      }
+    ],
+    "literal": "to put together",
+    "path": "Compound comes from Latin componere, to put together, joining com- with ponere, to place. To compound a problem is to put more onto it, piling addition upon addition until it worsens.",
+    "cousins": [
+      "component",
+      "position",
+      "compose"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "comprehensive": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "prehendere",
+        "origin": "Latin",
+        "meaning": "to grasp, seize"
+      }
+    ],
+    "literal": "grasping everything together",
+    "path": "Comprehensive comes from Latin comprehendere, to grasp together, joining com- with prehendere, to seize. Something comprehensive grasps every part at once: complete, covering everything.",
+    "cousins": [
+      "comprehend",
+      "apprehend",
+      "prehensile"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "compromise": {
+    "parts": [
+      {
+        "piece": "com-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "promittere",
+        "origin": "Latin",
+        "meaning": "to promise"
+      }
+    ],
+    "literal": "to promise together",
+    "path": "Compromise comes from Latin compromittere, joining com-, together, with promittere, to promise, originally a mutual pledge to accept an arbiter's decision. It settled into meaning a mutual settlement by concession, or, more darkly, to endanger something by weakening it.",
+    "cousins": [
+      "promise",
+      "mission"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "concede": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together, intensive"
+      },
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go, yield"
+      }
+    ],
+    "literal": "to yield completely",
+    "path": "Concede comes from Latin concedere, joining con- with cedere, to yield or go. To concede is to yield ground: to admit or surrender something, often reluctantly.",
+    "cousins": [
+      "cede",
+      "recede",
+      "proceed"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conceit": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "capere",
+        "origin": "Latin",
+        "meaning": "to take, seize"
+      }
+    ],
+    "literal": "a thing conceived, taken up in the mind",
+    "path": "Conceit comes from Latin concipere, to conceive, joining con- with capere, to take or seize: literally an idea taken up in the mind. It split into two senses: an elaborate literary idea or metaphor, and an overblown idea of one's own worth, excessive pride.",
+    "cousins": [
+      "concept",
+      "conceive",
+      "capture"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "concept": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "capere",
+        "origin": "Latin",
+        "meaning": "to take, seize"
+      }
+    ],
+    "literal": "a thing taken up in the mind",
+    "path": "Concept shares conceit's root, Latin concipere, to conceive, from con- and capere, to take. It names an abstract idea formed and held in the mind: a general notion.",
+    "cousins": [
+      "conceive",
+      "capture",
+      "perceive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "concern": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "cernere",
+        "origin": "Latin",
+        "meaning": "to sift, distinguish, perceive"
+      }
+    ],
+    "literal": "to sift together, relate to",
+    "path": "Concern comes from Latin concernere, to sift together or relate to, joining con- with cernere, to distinguish or perceive. What concerns you is sifted out as relevant to you, whether as worry or simple interest.",
+    "cousins": [
+      "discern",
+      "certain",
+      "secret"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conciliate": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "calare",
+        "origin": "Latin",
+        "meaning": "to summon, call"
+      }
+    ],
+    "literal": "to call together, unite",
+    "path": "Conciliate comes from Latin conciliare, to bring together, from concilium, a council or assembly summoned together. To conciliate is to call opposing sides back together: to win over or reconcile.",
+    "cousins": [
+      "council",
+      "calendar"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "conciliatory": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "calare",
+        "origin": "Latin",
+        "meaning": "to summon, call"
+      }
+    ],
+    "literal": "aimed at calling together",
+    "path": "Conciliatory shares conciliate's root, Latin concilium, an assembly called together. It describes an approach intended to placate and bring opposing sides back into agreement.",
+    "cousins": [
+      "council",
+      "calendar"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "conclusive": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "claudere",
+        "origin": "Latin",
+        "meaning": "to close, shut"
+      }
+    ],
+    "literal": "shutting the case completely",
+    "path": "Conclusive comes from Latin concludere, to close up or conclude, joining con- with claudere, to shut. A conclusive argument shuts the door on the matter entirely, ending all doubt.",
+    "cousins": [
+      "close",
+      "closet",
+      "include"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "concomitant": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "comes",
+        "origin": "Latin",
+        "meaning": "a companion"
+      }
+    ],
+    "literal": "accompanying together",
+    "path": "Concomitant comes from Latin comes, a companion, joined with con-, together. It describes something that travels alongside another as its companion: occurring together with it.",
+    "cousins": [
+      "count",
+      "county"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "concur": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "currere",
+        "origin": "Latin",
+        "meaning": "to run"
+      }
+    ],
+    "literal": "to run together",
+    "path": "Concur comes from Latin concurrere, to run together, joining con- with currere, to run. Minds that concur run together toward the same point: they agree.",
+    "cousins": [
+      "current",
+      "occur",
+      "course"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "condemn": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "damnare",
+        "origin": "Latin",
+        "meaning": "to harm, condemn"
+      }
+    ],
+    "literal": "to thoroughly damn",
+    "path": "Condemn comes from Latin condemnare, joining the intensive con- with damnare, to harm or condemn, from damnum, harm. To condemn is to pronounce strong disapproval, or formally to sentence someone to harm.",
+    "cousins": [
+      "damn",
+      "damage",
+      "indemnity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "condolence": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "dolere",
+        "origin": "Latin",
+        "meaning": "to grieve, suffer pain"
+      }
+    ],
+    "literal": "to grieve together",
+    "path": "Condolence comes from Latin condolere, to suffer together, joining con- with dolere, to grieve. It names an expression of sympathy that shares, in words, another person's grief.",
+    "cousins": [
+      "doleful"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "condone": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "donare",
+        "origin": "Latin",
+        "meaning": "to give"
+      }
+    ],
+    "literal": "to thoroughly give up, forgive",
+    "path": "Condone comes from Latin condonare, to forgive or remit entirely, joining con- with donare, to give, from donum, a gift. To condone wrongdoing is to freely give it a pass: overlooking or tacitly accepting it.",
+    "cousins": [
+      "donate",
+      "pardon"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "conducive": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "ducere",
+        "origin": "Latin",
+        "meaning": "to lead"
+      }
+    ],
+    "literal": "leading together toward",
+    "path": "Conducive comes from Latin conducere, to lead together, joining con- with ducere, to lead. Something conducive leads you toward a favorable result, tending to promote or help bring it about.",
+    "cousins": [
+      "conduct",
+      "duct",
+      "induce"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "conduct": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "ducere",
+        "origin": "Latin",
+        "meaning": "to lead"
+      }
+    ],
+    "literal": "the way one leads oneself",
+    "path": "Conduct shares conducive's root, Latin conducere, to lead. As a noun it names the way a person leads or carries themselves: their behavior.",
+    "cousins": [
+      "conducive",
+      "duct",
+      "induce"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "confer": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "ferre",
+        "origin": "Latin",
+        "meaning": "to carry, bring"
+      }
+    ],
+    "literal": "to bring together",
+    "path": "Confer comes from Latin conferre, to bring together, joining con- with ferre, to carry. To confer is either to bring ideas together in discussion, or to bring and bestow something, like an honor, upon someone.",
+    "cousins": [
+      "transfer",
+      "offer",
+      "collation"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conflagration": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "flagrare",
+        "origin": "Latin",
+        "meaning": "to blaze, burn"
+      }
+    ],
+    "literal": "a thorough blazing",
+    "path": "Conflagration comes from Latin conflagrare, to burn up completely, joining the intensive con- with flagrare, to blaze. It names a large, destructive fire that burns everything in its path.",
+    "cousins": [
+      "flagrant",
+      "flame"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "conflate": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "flare",
+        "origin": "Latin",
+        "meaning": "to blow"
+      }
+    ],
+    "literal": "to blow together, fuse",
+    "path": "Conflate comes from Latin conflare, to blow together and fuse, as a smith blows air on a fire to melt metals into one. To conflate two things is to blow them together into a single, confused whole.",
+    "cousins": [
+      "inflate",
+      "deflate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "confluence": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "fluere",
+        "origin": "Latin",
+        "meaning": "to flow"
+      }
+    ],
+    "literal": "a flowing together",
+    "path": "Confluence comes from Latin confluere, to flow together, joining con- with fluere, to flow, as two rivers merge into one. It names any coming together, literal or figurative, of separate streams into one.",
+    "cousins": [
+      "fluid",
+      "fluent",
+      "influence"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "confound": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "fundere",
+        "origin": "Latin",
+        "meaning": "to pour"
+      }
+    ],
+    "literal": "to pour together, mix up",
+    "path": "Confound comes from Latin confundere, to pour things together and mix them up, joining con- with fundere, to pour. To confound someone is to pour their thoughts into confusion: to baffle or thwart them.",
+    "cousins": [
+      "fuse",
+      "refund"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "congeal": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "gelare",
+        "origin": "Latin",
+        "meaning": "to freeze"
+      }
+    ],
+    "literal": "to freeze together",
+    "path": "Congeal comes from Latin congelare, to freeze together, joining con- with gelare, to freeze, from gelu, frost. It describes anything that solidifies, especially by cooling, as if freezing into one mass.",
+    "cousins": [
+      "gel",
+      "gelatin",
+      "glacier"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "congenial": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "genialis",
+        "origin": "Latin",
+        "meaning": "of the same birth or nature"
+      }
+    ],
+    "literal": "of the same birth or nature",
+    "path": "Congenial joins con-, together, with genialis, of the same birth or nature, from genius, one's inborn character. People who are congenial share a compatible nature: pleasant and agreeable in company.",
+    "cousins": [
+      "genial",
+      "genius",
+      "generate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "conjectural": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "iacere",
+        "origin": "Latin",
+        "meaning": "to throw"
+      }
+    ],
+    "literal": "thrown together, a guess",
+    "path": "Conjectural comes from Latin conicere, to throw together and so infer or guess, joining con- with iacere, to throw. A conjectural claim is one thrown together from guesswork rather than solid evidence.",
+    "cousins": [
+      "project",
+      "reject",
+      "eject"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conjugal": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "iungere",
+        "origin": "Latin",
+        "meaning": "to join, yoke"
+      }
+    ],
+    "literal": "joined together in marriage",
+    "path": "Conjugal comes from Latin conjunx, a spouse, from conjungere, to join together, joining con- with iungere, to yoke or join. It describes anything relating to the union of marriage.",
+    "cousins": [
+      "join",
+      "junction",
+      "yoke"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conjure": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "iurare",
+        "origin": "Latin",
+        "meaning": "to swear an oath"
+      }
+    ],
+    "literal": "to swear together, an oath",
+    "path": "Conjure comes from Latin conjurare, to swear a solemn oath together, joining con- with iurare, to swear. That binding oath became the ritual invocation of a magician, and to conjure is to summon something as if by a magic spell.",
+    "cousins": [
+      "jury",
+      "perjure"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conniving": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "nivere",
+        "origin": "Latin",
+        "meaning": "to close the eyes, wink"
+      }
+    ],
+    "literal": "winking together at wrongdoing",
+    "path": "Connive comes from Latin connivere, to shut the eyes or wink, joining con- with a root meaning to close the eyes. To connive was originally to look the other way at wrongdoing, and shifted to actively scheming: conniving.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "connoisseur": {
+    "parts": [
+      {
+        "piece": "co-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "gnoscere",
+        "origin": "Latin",
+        "meaning": "to know"
+      }
+    ],
+    "literal": "one who thoroughly knows",
+    "path": "Connoisseur comes from French connaitre, to know, from Latin cognoscere, to know thoroughly. It names an expert judge, someone who truly knows a subject, especially matters of taste.",
+    "cousins": [
+      "cognizant",
+      "recognize",
+      "notion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "connotation": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "notare",
+        "origin": "Latin",
+        "meaning": "to mark, note"
+      }
+    ],
+    "literal": "a marking alongside",
+    "path": "Connotation joins con-, together, with notare, to mark, from nota, a sign. A connotation is a meaning marked onto a word alongside its literal sense: an implied meaning beyond the literal.",
+    "cousins": [
+      "note",
+      "notation",
+      "notable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "connote": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "notare",
+        "origin": "Latin",
+        "meaning": "to mark, note"
+      }
+    ],
+    "literal": "to mark alongside",
+    "path": "Connote shares connotation's root, con-, together, and notare, to mark. To connote is to carry an implied meaning alongside the literal one.",
+    "cousins": [
+      "note",
+      "notation",
+      "notable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conscientious": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "scire",
+        "origin": "Latin",
+        "meaning": "to know"
+      }
+    ],
+    "literal": "knowing thoroughly right from wrong",
+    "path": "Conscientious comes from Latin conscientia, inner knowledge or conscience, joining con- with scire, to know. Someone conscientious acts from that inner knowing of right and wrong: careful, thorough, and guided by principle.",
+    "cousins": [
+      "science",
+      "conscious",
+      "omniscient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "consecrate": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "sacrare",
+        "origin": "Latin",
+        "meaning": "to make sacred"
+      }
+    ],
+    "literal": "to make thoroughly sacred",
+    "path": "Consecrate comes from Latin consecrare, joining the intensive con- with sacrare, to make sacred, from sacer, sacred. To consecrate is to declare something sacred, dedicating it solemnly to a higher purpose.",
+    "cousins": [
+      "sacred",
+      "sacrifice",
+      "sanctify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "consensus": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "sentire",
+        "origin": "Latin",
+        "meaning": "to feel, perceive"
+      }
+    ],
+    "literal": "feeling together",
+    "path": "Consensus comes from Latin consentire, to feel together, joining con- with sentire, to feel or perceive, the root of sense and sentiment. A consensus is a shared feeling: general agreement within a group.",
+    "cousins": [
+      "sense",
+      "sentiment",
+      "consent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "consequential": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "together"
+      },
+      {
+        "piece": "sequi",
+        "origin": "Latin",
+        "meaning": "to follow"
+      }
+    ],
+    "literal": "following along with",
+    "path": "Consequential comes from Latin consequi, to follow closely with something, joining con- with sequi, to follow. A consequential event is one whose effects follow significantly, mattering in what comes after.",
+    "cousins": [
+      "sequel",
+      "sequence",
+      "pursue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "conservatory": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "servare",
+        "origin": "Latin",
+        "meaning": "to keep, preserve"
+      }
+    ],
+    "literal": "a place for preserving",
+    "path": "Conservatory comes from Latin conservare, to preserve carefully, joining con- with servare, to keep. A conservatory was first a place for preserving delicate plants, extended to a place preserving and cultivating musical talent.",
+    "cousins": [
+      "conserve",
+      "preserve",
+      "observe"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "consider": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "sidus",
+        "origin": "Latin",
+        "meaning": "star, constellation"
+      }
+    ],
+    "literal": "to observe the stars",
+    "path": "Consider probably comes from Latin considerare, to observe the stars closely, joining con- with sidus, a star, an old term from augury or astrology. Careful stargazing became careful thought in general: to think about something carefully.",
+    "cousins": [
+      "sidereal",
+      "desire"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "console": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "solari",
+        "origin": "Latin",
+        "meaning": "to comfort, soothe"
+      }
+    ],
+    "literal": "to thoroughly comfort",
+    "path": "Console comes from Latin consolari, to comfort greatly, joining the intensive con- with solari, to soothe. To console someone is to comfort them in their distress.",
+    "cousins": [
+      "solace"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "consolidate": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "solidus",
+        "origin": "Latin",
+        "meaning": "solid, firm"
+      }
+    ],
+    "literal": "to make thoroughly solid",
+    "path": "Consolidate comes from Latin consolidare, to make firm, joining con- with solidus, solid. To consolidate is to combine separate parts into one solid, stronger whole.",
+    "cousins": [
+      "solid",
+      "solidarity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "conspicuous": {
+    "parts": [
+      {
+        "piece": "con-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "specere",
+        "origin": "Latin",
+        "meaning": "to look, see"
+      }
+    ],
+    "literal": "very visible, easily looked at",
+    "path": "Conspicuous comes from Latin conspicere, to look at closely, joining the intensive con- with specere, to look. Something conspicuous is so easy to look at, so clearly visible, that it attracts notice.",
+    "cousins": [
+      "spectacle",
+      "inspect",
+      "circumspect"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

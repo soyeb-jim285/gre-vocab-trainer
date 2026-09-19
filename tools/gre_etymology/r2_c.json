@@ -1,0 +1,326 @@
+{
+  "replete": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "intensive"}, {"piece": "plere", "origin": "Latin", "meaning": "to fill"}],
+    "literal": "filled up completely",
+    "path": "Latin repletus, filled up, comes from plere, to fill, the root of complete and supply. Replete describes something abundantly, completely filled.",
+    "cousins": ["complete", "supply", "deplete"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "repose": {
+    "parts": [{"piece": "re-", "origin": "Latin", "meaning": "again"}, {"piece": "pausare", "origin": "Latin", "meaning": "to pause, rest"}],
+    "literal": "to pause again, rest",
+    "path": "Late Latin repausare meant to rest again, from pausa, a pause, the root of pause itself. Repose kept that sense of settled, restful calm, a state of pausing from activity.",
+    "cousins": ["pause"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "slay": {
+    "parts": [{"piece": "slean", "origin": "Old English", "meaning": "to strike, kill"}],
+    "literal": "to strike down",
+    "path": "Old English slean meant to strike or beat, and killing was simply the most extreme strike. Slay kept that violent core sense, striking someone down fatally.",
+    "cousins": ["slaughter", "sledgehammer"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sleight": {
+    "parts": [{"piece": "sloegd", "origin": "Old Norse", "meaning": "cleverness, cunning"}],
+    "literal": "cunning, cleverness",
+    "path": "Sleight comes from Old Norse sloegd, cleverness or cunning, the same root as sly. Sleight of hand names that cunning dexterity used to deceive the eye.",
+    "cousins": ["sly"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "slew": {
+    "parts": [{"piece": "sluagh", "origin": "unknown", "meaning": "host, crowd"}],
+    "literal": "a host, a crowd",
+    "path": "Slew borrows Irish sluagh, meaning a host or crowd, originally an army. In American English it loosened into the casual sense of a large, informal quantity of anything.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "slight": {
+    "parts": [{"piece": "slettr", "origin": "Old Norse", "meaning": "smooth, level"}],
+    "literal": "smooth, of little account",
+    "path": "Slight comes from Old Norse slettr, smooth or level, which came to mean slender or of little substance. Treating someone as if they were of little account, smoothing over their importance, gave slight its sense of a deliberate, dismissive insult.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "slothful": {
+    "parts": [{"piece": "slow", "origin": "Old English", "meaning": "sluggish"}],
+    "literal": "full of slowness",
+    "path": "Sloth was formed from slow plus the abstract noun ending -th, literally the state of being slow. Slothful describes someone characterized by that habitual laziness and reluctance to act.",
+    "cousins": ["slow"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "slovenly": {
+    "parts": [{"piece": "sloven", "origin": "unknown", "meaning": "an untidy, careless person"}],
+    "literal": "characteristic of a sloven",
+    "path": "Slovenly derives from sloven, a habitually untidy person, likely related to Middle Dutch slof, careless or lax. The word has always centered on carelessness in appearance and habits.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sluggish": {
+    "parts": [{"piece": "slugge", "origin": "unknown", "meaning": "lazy person"}],
+    "literal": "like a sluggard",
+    "path": "Sluggish comes from sluggard, a habitually lazy person, likely of Scandinavian origin related to the slow-moving slug. It describes movement or response that drags with that same lazy, low-energy slowness.",
+    "cousins": ["slug", "sluggard"],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sluice": {
+    "parts": [{"piece": "ex-", "origin": "Latin", "meaning": "out"}, {"piece": "claudere", "origin": "Latin", "meaning": "to close, shut"}],
+    "literal": "shut-out water",
+    "path": "Old French escluse named a floodgate, from Late Latin exclusa aqua, water shut out, built on claudere, to close, the root of close and include. A sluice controls water flow through such a gate, and the verb describes washing with that controlled rush of water.",
+    "cousins": ["close", "exclude", "include"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "smattering": {
+    "parts": [{"piece": "smatter", "origin": "unknown", "meaning": "to chatter, have slight knowledge"}],
+    "literal": "chattering about lightly",
+    "path": "Smattering comes from smatter, to talk superficially or chatter, possibly imitative, related to Swedish smattra. A smattering of knowledge is the thin, surface-level kind that comes from chattering about a subject rather than truly studying it.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "smug": {
+    "parts": [{"piece": "smuk", "origin": "unknown", "meaning": "neat, trim"}],
+    "literal": "neat, trim",
+    "path": "Smug entered English from Low German smuk, neat or trim, first describing someone dressed neatly and precisely. That self-satisfaction with one's own neat appearance broadened into the modern sense of irritating self-satisfaction generally.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "snide": {
+    "parts": [{"piece": "snide", "origin": "unknown", "meaning": "counterfeit, fake"}],
+    "literal": "uncertain, originally counterfeit or fake",
+    "path": "Snide first appeared in 19th century criminal slang meaning counterfeit or fake, of unknown origin. That sense of something dishonest and contemptible narrowed to describe remarks that are slyly, unkindly mocking.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "snub": {
+    "parts": [{"piece": "snubba", "origin": "Old Norse", "meaning": "to check, rebuke, cut short"}],
+    "literal": "to cut short, rebuke sharply",
+    "path": "Old Norse snubba meant to check or rebuke sharply, an image of cutting someone off short, the same root behind snub-nosed. Snub kept the sense of curtly cutting someone off, now especially by cold, deliberate disregard.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sob": {
+    "parts": [{"piece": "sobben", "origin": "unknown", "meaning": "to weep with gasping"}],
+    "literal": "gasping weeping",
+    "path": "Sob is an old Germanic word, likely imitative of the catching, gasping sound made while crying hard. Its sense has changed little: convulsive weeping accompanied by audible gasps.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sobriquet": {
+    "parts": [{"piece": "sous-", "origin": "French", "meaning": "under"}, {"piece": "briquet", "origin": "unknown", "meaning": "chin"}],
+    "literal": "a tap under the chin, disputed",
+    "path": "French sobriquet is of disputed origin, possibly literally a chuck under the chin, from sous, under, and an old word for chin. Whatever its literal source, sobriquet has long meant a nickname, often an affectionate or mocking one.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "solecism": {
+    "parts": [{"piece": "Soloi", "origin": "Greek", "meaning": "a colony reputed to speak corrupt Greek"}],
+    "literal": "speaking like the people of Soloi",
+    "path": "Greek soloikismos meant speaking incorrectly, from soloikos, said to derive from Soloi, an Athenian colony whose Greek dialect was considered corrupted. Solecism kept that sense of a glaring error in grammar or, by extension, in manners.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "solicitous": {
+    "parts": [{"piece": "sollus", "origin": "Latin", "meaning": "whole, entire"}, {"piece": "ciere", "origin": "Latin", "meaning": "to move, stir"}],
+    "literal": "wholly stirred up",
+    "path": "Latin sollicitus meant thoroughly agitated or anxious, from sollus, whole, and ciere, to move or stir. That anxious agitation narrowed into solicitous, caring so much about someone's welfare that it shows as attentive concern.",
+    "cousins": ["solicit", "incite"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "solicitude": {
+    "parts": [{"piece": "sollus", "origin": "Latin", "meaning": "whole, entire"}, {"piece": "ciere", "origin": "Latin", "meaning": "to move, stir"}],
+    "literal": "the state of being wholly stirred up",
+    "path": "From the same Latin sollicitus as solicitous, solicitude names the anxious, attentive concern itself, the caring agitation felt on someone else's behalf.",
+    "cousins": ["solicit", "incite"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "solidarity": {
+    "parts": [{"piece": "solidus", "origin": "Latin", "meaning": "solid, whole"}],
+    "literal": "wholeness, solidness of a group",
+    "path": "French solidaire described people mutually bound as if part of one solid whole, from Latin solidus, solid. Solidarity names that unity, people standing together as one solid body around shared interests.",
+    "cousins": ["solid", "consolidate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "soliloquy": {
+    "parts": [{"piece": "solus", "origin": "Latin", "meaning": "alone"}, {"piece": "loqui", "origin": "Latin", "meaning": "to speak"}],
+    "literal": "speaking alone",
+    "path": "Late Latin soliloquium, speaking alone, was coined by Augustine from solus, alone, and loqui, to speak, the root of eloquent. It named exactly what it still means: a speech a character gives alone, voicing inner thoughts aloud.",
+    "cousins": ["solo", "eloquent", "loquacious"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "solvent": {
+    "parts": [{"piece": "solvere", "origin": "Latin", "meaning": "to loosen, pay, release"}],
+    "literal": "loosening, paying off",
+    "path": "Latin solvere meant to loosen or release, and by extension to pay off an obligation, releasing oneself from debt. Solvent describes having enough funds to loosen, or pay off, all that one owes.",
+    "cousins": ["dissolve", "resolve", "absolve"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "somatic": {
+    "parts": [{"piece": "soma", "origin": "Greek", "meaning": "body"}],
+    "literal": "of the body",
+    "path": "Greek soma simply meant body. Somatic kept that plain sense, describing anything relating to the physical body rather than the mind.",
+    "cousins": ["psychosomatic"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "somber": {
+    "parts": [{"piece": "sub-", "origin": "Latin", "meaning": "under"}, {"piece": "umbra", "origin": "Latin", "meaning": "shadow"}],
+    "literal": "under shadow",
+    "path": "French sombre traces to Vulgar Latin subumbrare, to cast into shade, from umbra, shadow, the root of umbrella. Somber kept that image of a place cast in shadow, extended to a dark, gloomy mood or tone.",
+    "cousins": ["umbrella", "penumbra"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "somnolent": {
+    "parts": [{"piece": "somnus", "origin": "Latin", "meaning": "sleep"}],
+    "literal": "full of sleep",
+    "path": "Latin somnolentus meant sleepy, built directly on somnus, sleep, the root of insomnia. Somnolent kept that plain sense, whether describing a drowsy person or something that induces drowsiness.",
+    "cousins": ["insomnia"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sonorous": {
+    "parts": [{"piece": "sonare", "origin": "Latin", "meaning": "to sound"}],
+    "literal": "full of sound",
+    "path": "Latin sonorus meant resounding or loud-sounding, from sonare, to sound, the root of sonic. Sonorous kept that sense of a rich, deep, resonant sound.",
+    "cousins": ["sonic", "resonate", "unison"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "sophisticated": {
+    "parts": [{"piece": "sophos", "origin": "Greek", "meaning": "wise, clever"}],
+    "literal": "made falsely clever, adulterated",
+    "path": "Sophisticated comes from sophisticate, to adulterate or corrupt, from Greek sophos, wise, by way of sophist, someone using clever but deceptive argument. The word originally meant impure or tampered with, and only in the 20th century shifted to its modern sense of refined and worldly.",
+    "cousins": ["sophomore", "philosophy"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "sophistry": {
+    "parts": [{"piece": "sophos", "origin": "Greek", "meaning": "wise, clever"}],
+    "literal": "the practice of a sophist",
+    "path": "Greek sophistes meant a wise man or skilled expert, from sophos, wise. Sophists later gained a reputation for clever but misleading argument, and sophistry kept that negative sense of reasoning that sounds sharp but is deceptive.",
+    "cousins": ["sophisticated", "philosophy"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "soporific": {
+    "parts": [{"piece": "sopor", "origin": "Latin", "meaning": "deep sleep"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "sleep-making",
+    "path": "Latin sopor meant deep sleep. Soporific was formed with facere, to make, literally naming anything that makes one fall into deep sleep, whether a drug or a dull lecture.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sordid": {
+    "parts": [{"piece": "sordere", "origin": "Latin", "meaning": "to be dirty"}],
+    "literal": "dirty, filthy",
+    "path": "Latin sordidus meant dirty or filthy, from sordere, to be dirty. The physical squalor extended naturally to moral squalor, describing something base, corrupt, or dishonorable.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sound": {
+    "parts": [{"piece": "gesund", "origin": "Old English", "meaning": "healthy, whole"}],
+    "literal": "healthy, whole",
+    "path": "Old English gesund meant healthy or whole in body, a sense preserved in German gesund. Sound broadened from bodily health to soundness of any kind: reliable, solid, and free of defect.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "spangle": {
+    "parts": [{"piece": "spang", "origin": "unknown", "meaning": "metal clasp"}],
+    "literal": "a small clasp or ornament",
+    "path": "Spangle is a diminutive of spang, an old word for a small metal clasp or ornament, related to Dutch spang, buckle. To spangle something is to stud it with these small, glittering ornaments.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sparing": {
+    "parts": [{"piece": "sparian", "origin": "Old English", "meaning": "to refrain, use frugally"}],
+    "literal": "refraining from use",
+    "path": "Old English sparian meant to refrain from harming or to use something frugally, holding back from spending it fully. Sparing kept that sense of careful, economical restraint in use.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sparse": {
+    "parts": [{"piece": "spargere", "origin": "Latin", "meaning": "to scatter"}],
+    "literal": "scattered",
+    "path": "Latin spargere meant to scatter or strew. Sparse kept that plain sense: things scattered thinly, with wide gaps between them.",
+    "cousins": ["disperse", "aspersion"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "spartan": {
+    "parts": [{"piece": "Sparta", "origin": "Greek", "meaning": "ancient city known for austere discipline"}],
+    "literal": "of Sparta",
+    "path": "The ancient Greek city of Sparta was famous for a disciplined, austere way of life with no luxury and constant military training. Spartan borrowed that reputation to describe anything severely simple and stripped of comfort.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "spat": {
+    "parts": [{"piece": "spat", "origin": "unknown", "meaning": "imitative, sound of a slap"}],
+    "literal": "uncertain, possibly an imitative sound word",
+    "path": "Spat meaning a petty quarrel appeared in early 19th century American English, of unknown origin, perhaps echoing the sound of a slap or spatter, like the small, sharp sound of a minor dispute breaking out.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  }
+}

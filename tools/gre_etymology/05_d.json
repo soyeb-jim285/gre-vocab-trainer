@@ -1,0 +1,911 @@
+{
+  "kudos": {
+    "parts": [
+      {
+        "piece": "kydos",
+        "origin": "Greek",
+        "meaning": "glory, renown"
+      }
+    ],
+    "literal": "glory",
+    "path": "Directly from Greek kydos, glory or renown. Kudos names the praise and recognition given for an achievement.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "label": {
+    "parts": [
+      {
+        "piece": "label, lambel",
+        "origin": "Old French (Germanic)",
+        "meaning": "ribbon, strip of cloth"
+      }
+    ],
+    "literal": "a strip, a ribbon",
+    "path": "A label began as a ribbon or strip attached to a document or garment for identification. To label something now means to attach a categorizing tag to it, often reductively.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "labor": {
+    "parts": [
+      {
+        "piece": "labor",
+        "origin": "Latin",
+        "meaning": "toil, hardship, exertion"
+      }
+    ],
+    "literal": "toil, hardship",
+    "path": "Latin labor meant toil or hardship, possibly from the image of staggering under a heavy load. Labor means to work hard, and belabor extends the sense to hammering at a point excessively.",
+    "cousins": [
+      "laboratory",
+      "collaborate",
+      "elaborate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "laborious": {
+    "parts": [
+      {
+        "piece": "labor",
+        "origin": "Latin",
+        "meaning": "toil, hardship"
+      }
+    ],
+    "literal": "full of toil",
+    "path": "From Latin labor, toil. Laborious describes what requires long, hard effort.",
+    "cousins": [
+      "laboratory",
+      "collaborate",
+      "elaborate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lacerate": {
+    "parts": [
+      {
+        "piece": "lacer",
+        "origin": "Latin",
+        "meaning": "torn, mangled"
+      }
+    ],
+    "literal": "torn, mangled",
+    "path": "Latin lacer meant torn or mangled. Lacerate means to tear or wound deeply.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lachrymose": {
+    "parts": [
+      {
+        "piece": "lacrima",
+        "origin": "Latin",
+        "meaning": "tear, teardrop"
+      }
+    ],
+    "literal": "tearful",
+    "path": "Latin lacrima meant a teardrop. Lachrymose describes something tearful or inducing tears.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lackluster": {
+    "parts": [
+      {
+        "piece": "lack",
+        "origin": "Middle English",
+        "meaning": "to be without"
+      },
+      {
+        "piece": "luster",
+        "origin": "Latin",
+        "meaning": "shine, from lux, light"
+      }
+    ],
+    "literal": "lacking shine",
+    "path": "A plain compound of lack and luster, shine. Lackluster describes something dull and uninspired, missing its shine.",
+    "cousins": [
+      "illustrate",
+      "luminous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "laconic": {
+    "parts": [
+      {
+        "piece": "Lakonikos",
+        "origin": "Greek",
+        "meaning": "of Laconia (Sparta)"
+      }
+    ],
+    "literal": "of Laconia",
+    "path": "The Spartans, natives of Laconia, were famous for their blunt, economical speech. Laconic came to describe anyone who uses very few words.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "laggard": {
+    "parts": [
+      {
+        "piece": "lag",
+        "origin": "uncertain",
+        "meaning": "to fall behind"
+      },
+      {
+        "piece": "-ard",
+        "origin": "Germanic",
+        "meaning": "pejorative person suffix"
+      }
+    ],
+    "literal": "one who lags",
+    "path": "Built from lag, of uncertain origin meaning to fall behind, plus the pejorative suffix -ard seen in words like drunkard and sluggard.",
+    "cousins": [
+      "sluggard"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lambast": {
+    "parts": [
+      {
+        "piece": "lam",
+        "origin": "Scandinavian",
+        "meaning": "to beat"
+      },
+      {
+        "piece": "baste",
+        "origin": "Scandinavian",
+        "meaning": "to beat, thrash"
+      }
+    ],
+    "literal": "to beat thoroughly",
+    "path": "Likely a combination of lam and baste, both meaning to beat or thrash, from Scandinavian roots. Lambast means to criticize harshly, as if beating someone verbally.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lambaste": {
+    "parts": [
+      {
+        "piece": "lam",
+        "origin": "Scandinavian",
+        "meaning": "to beat"
+      },
+      {
+        "piece": "baste",
+        "origin": "Scandinavian",
+        "meaning": "to beat, thrash"
+      }
+    ],
+    "literal": "to beat thoroughly",
+    "path": "A variant spelling of lambast, from the same Scandinavian roots meaning to beat or thrash, applied to harsh verbal criticism.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lament": {
+    "parts": [
+      {
+        "piece": "lamentum",
+        "origin": "Latin",
+        "meaning": "a wailing, moaning"
+      }
+    ],
+    "literal": "to wail",
+    "path": "Latin lamentum meant a wailing or moaning, likely imitative of the sound of crying. Lament means to mourn or express grief and regret.",
+    "cousins": [
+      "lamentable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lampoon": {
+    "parts": [
+      {
+        "piece": "lampons",
+        "origin": "French",
+        "meaning": "let us drink! (refrain of a mocking drinking song)"
+      }
+    ],
+    "literal": "let us drink",
+    "path": "French satirical drinking songs ended with the refrain lampons, let us drink. The term for the mocking song itself, lampoon, kept the satirical sense without literally meaning to mock.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "lancet": {
+    "parts": [
+      {
+        "piece": "lancea",
+        "origin": "Latin",
+        "meaning": "light spear, lance"
+      }
+    ],
+    "literal": "a small spear",
+    "path": "Latin lancea meant a light spear. Lancet names a small, spear-pointed surgical blade, a little lance.",
+    "cousins": [
+      "lance",
+      "launch"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "landmark": {
+    "parts": [
+      {
+        "piece": "land",
+        "origin": "Old English",
+        "meaning": "land"
+      },
+      {
+        "piece": "mearc",
+        "origin": "Old English",
+        "meaning": "boundary, sign"
+      }
+    ],
+    "literal": "a boundary marker on land",
+    "path": "Originally a literal marker showing a land boundary. Landmark extended to mean any notable, decisive feature or event that stands out, like a marker on a landscape or in history.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "languid": {
+    "parts": [
+      {
+        "piece": "languere",
+        "origin": "Latin",
+        "meaning": "to be faint, weak, listless"
+      }
+    ],
+    "literal": "faint, weak",
+    "path": "Latin languere meant to be faint or listless. Languid describes a slow, energy-lacking state.",
+    "cousins": [
+      "languish",
+      "languor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "languish": {
+    "parts": [
+      {
+        "piece": "languere",
+        "origin": "Latin",
+        "meaning": "to be faint, weak, listless"
+      }
+    ],
+    "literal": "to grow faint",
+    "path": "From the same Latin languere, to be weak. Languish means to grow weak, or to be neglected and left to weaken.",
+    "cousins": [
+      "languid",
+      "languor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lapidary": {
+    "parts": [
+      {
+        "piece": "lapis, lapidis",
+        "origin": "Latin",
+        "meaning": "stone"
+      }
+    ],
+    "literal": "relating to stone",
+    "path": "Latin lapis meant stone. Lapidary originally described the craft of engraving stone, and extended to describe prose as elegantly concise as if carved permanently in stone.",
+    "cousins": [
+      "dilapidate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "larceny": {
+    "parts": [
+      {
+        "piece": "latro",
+        "origin": "Latin",
+        "meaning": "robber, hired soldier"
+      }
+    ],
+    "literal": "robbery",
+    "path": "Latin latro meant a robber or hired soldier, giving Latin latrocinium, robbery. Larceny is the legal term for theft of personal property.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "larder": {
+    "parts": [
+      {
+        "piece": "lardum",
+        "origin": "Latin",
+        "meaning": "bacon, fat"
+      }
+    ],
+    "literal": "a place for bacon",
+    "path": "Latin lardum meant bacon or fat. A larder was originally a storeroom for meat and fat, and broadened to mean any food storage room.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "largess": {
+    "parts": [
+      {
+        "piece": "largus",
+        "origin": "Latin",
+        "meaning": "abundant, generous"
+      }
+    ],
+    "literal": "abundance, generosity",
+    "path": "Latin largus meant abundant or generous. Largess names generous, lavish giving.",
+    "cousins": [
+      "large",
+      "enlarge"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "largesse": {
+    "parts": [
+      {
+        "piece": "largus",
+        "origin": "Latin",
+        "meaning": "abundant, generous"
+      }
+    ],
+    "literal": "abundance, generosity",
+    "path": "A variant spelling of largess, from the same Latin largus, abundant, generous.",
+    "cousins": [
+      "large",
+      "enlarge"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "lascivious": {
+    "parts": [
+      {
+        "piece": "lascivus",
+        "origin": "Latin",
+        "meaning": "playful, wanton"
+      }
+    ],
+    "literal": "playful, wanton",
+    "path": "Latin lascivus originally meant playful or frisky, and the sense narrowed over time to wanton and openly lustful.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lassitude": {
+    "parts": [
+      {
+        "piece": "lassus",
+        "origin": "Latin",
+        "meaning": "tired, weary"
+      }
+    ],
+    "literal": "weariness",
+    "path": "Latin lassus meant tired. Lassitude names weariness and lack of energy.",
+    "cousins": [
+      "alas"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "latent": {
+    "parts": [
+      {
+        "piece": "latere",
+        "origin": "Latin",
+        "meaning": "to lie hidden, lurk"
+      }
+    ],
+    "literal": "lying hidden",
+    "path": "Latin latere meant to lie hidden. Latent describes what is present but not yet visible, still hidden.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "latitude": {
+    "parts": [
+      {
+        "piece": "latus",
+        "origin": "Latin",
+        "meaning": "wide, broad"
+      }
+    ],
+    "literal": "breadth, width",
+    "path": "Latin latus meant wide. Latitude originally meant breadth or extent, and extended metaphorically to freedom to act broadly, as one chooses.",
+    "cousins": [
+      "lateral"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "laud": {
+    "parts": [
+      {
+        "piece": "laudare",
+        "origin": "Latin",
+        "meaning": "to praise"
+      }
+    ],
+    "literal": "praise",
+    "path": "Latin laudare meant to praise. Laud directly means to praise highly.",
+    "cousins": [
+      "applaud"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "laudable": {
+    "parts": [
+      {
+        "piece": "laudare",
+        "origin": "Latin",
+        "meaning": "to praise"
+      }
+    ],
+    "literal": "worthy of praise",
+    "path": "From Latin laudare, to praise. Laudable describes what deserves praise.",
+    "cousins": [
+      "laud",
+      "applaud"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "lavish": {
+    "parts": [
+      {
+        "piece": "lavasse",
+        "origin": "Old French",
+        "meaning": "a deluge of rain"
+      }
+    ],
+    "literal": "a deluge",
+    "path": "The word traces to a Middle French term for a torrential downpour, from laver, to wash. Lavish came to describe an overflowing, extravagant abundance.",
+    "cousins": [
+      "launder",
+      "lavatory"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "lax": {
+    "parts": [
+      {
+        "piece": "laxus",
+        "origin": "Latin",
+        "meaning": "loose, slack"
+      }
+    ],
+    "literal": "loose, slack",
+    "path": "Latin laxus meant loose or slack. Lax describes something not strict or careful enough, slack in its standards.",
+    "cousins": [
+      "relax",
+      "laxative",
+      "release"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "layperson": {
+    "parts": [
+      {
+        "piece": "laos",
+        "origin": "Greek",
+        "meaning": "the common people"
+      }
+    ],
+    "literal": "a person of the common people",
+    "path": "Greek laos meant the common people, as opposed to clergy or specialists. A layperson is someone outside a specialized field, without expert knowledge.",
+    "cousins": [
+      "laity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "league": {
+    "parts": [
+      {
+        "piece": "ligare",
+        "origin": "Latin",
+        "meaning": "to bind"
+      }
+    ],
+    "literal": "a binding",
+    "path": "Latin ligare meant to bind. A league is a group bound together by alliance or shared purpose.",
+    "cousins": [
+      "ligament",
+      "oblige",
+      "rely"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "leery": {
+    "parts": [
+      {
+        "piece": "hleor",
+        "origin": "Old English",
+        "meaning": "cheek, face"
+      }
+    ],
+    "literal": "looking sideways from the cheek",
+    "path": "Leer traces to Old English hleor, cheek or face, describing a sideways, sly glance. Leery describes being wary and suspicious, as if eyeing something askance.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "legerdemain": {
+    "parts": [
+      {
+        "piece": "leger",
+        "origin": "French",
+        "meaning": "light"
+      },
+      {
+        "piece": "de main",
+        "origin": "French",
+        "meaning": "of hand"
+      }
+    ],
+    "literal": "light of hand",
+    "path": "French leger de main literally means light of hand, describing the nimble hand movements of a conjurer. Legerdemain names sleight of hand or trickery.",
+    "cousins": [
+      "manual",
+      "manipulate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "lethargic": {
+    "parts": [
+      {
+        "piece": "lethe",
+        "origin": "Greek",
+        "meaning": "forgetfulness"
+      },
+      {
+        "piece": "argos",
+        "origin": "Greek",
+        "meaning": "idle, without work"
+      }
+    ],
+    "literal": "forgetful and idle",
+    "path": "Greek lethe meant forgetfulness, combined with argos, idle. Lethargic describes a sluggish, drowsy, work-avoiding state.",
+    "cousins": [
+      "energy",
+      "ergonomic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "levee": {
+    "parts": [
+      {
+        "piece": "lever",
+        "origin": "French",
+        "meaning": "to raise"
+      }
+    ],
+    "literal": "a raising",
+    "path": "French lever meant to raise, from Latin levare, to lift. A levee is an embankment raised to hold back a river.",
+    "cousins": [
+      "elevate",
+      "lever",
+      "alleviate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "level": {
+    "parts": [
+      {
+        "piece": "libra",
+        "origin": "Latin",
+        "meaning": "balance, scale"
+      }
+    ],
+    "literal": "a little balance",
+    "path": "Latin libra meant a balance or scale. A level tool was named for checking flatness, and the verb extended to making flat, or to leveling an accusation squarely at someone.",
+    "cousins": [
+      "equilibrium",
+      "deliberate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "levity": {
+    "parts": [
+      {
+        "piece": "levis",
+        "origin": "Latin",
+        "meaning": "light, not heavy"
+      }
+    ],
+    "literal": "lightness",
+    "path": "Latin levis meant light in weight. Levity describes a lightness of manner, humor, or lack of seriousness.",
+    "cousins": [
+      "elevate",
+      "alleviate",
+      "levitate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "levy": {
+    "parts": [
+      {
+        "piece": "levare",
+        "origin": "Latin",
+        "meaning": "to raise, lift"
+      }
+    ],
+    "literal": "a raising",
+    "path": "Same root as levee: Latin levare, to raise. Levy means to raise or impose a tax or fine.",
+    "cousins": [
+      "elevate",
+      "alleviate",
+      "levee"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "lexicography": {
+    "parts": [
+      {
+        "piece": "lexis",
+        "origin": "Greek",
+        "meaning": "word, speech"
+      },
+      {
+        "piece": "graphein",
+        "origin": "Greek",
+        "meaning": "to write"
+      }
+    ],
+    "literal": "writing about words",
+    "path": "Greek lexis meant word, and graphein meant to write. Lexicography is the practice of writing down and compiling words, making dictionaries.",
+    "cousins": [
+      "lexicon",
+      "graphic",
+      "dialogue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "liability": {
+    "parts": [
+      {
+        "piece": "ligare",
+        "origin": "Latin",
+        "meaning": "to bind"
+      }
+    ],
+    "literal": "able to be bound",
+    "path": "The root traces to Latin ligare, to bind. A liability is an obligation that binds you, legally or as a disadvantage weighing on you.",
+    "cousins": [
+      "ligament",
+      "oblige",
+      "league"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "liberal": {
+    "parts": [
+      {
+        "piece": "liber",
+        "origin": "Latin",
+        "meaning": "free"
+      }
+    ],
+    "literal": "of a free person",
+    "path": "Latin liber meant free. Liberal originally described what was befitting a free person, generous and open-minded, later extending to open to change politically.",
+    "cousins": [
+      "liberty",
+      "liberate",
+      "deliver"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "liberate": {
+    "parts": [
+      {
+        "piece": "liber",
+        "origin": "Latin",
+        "meaning": "free"
+      }
+    ],
+    "literal": "to make free",
+    "path": "From Latin liberare, to free, itself from liber, free. Liberate means to set free.",
+    "cousins": [
+      "liberty",
+      "liberal",
+      "deliver"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "libertine": {
+    "parts": [
+      {
+        "piece": "libertus",
+        "origin": "Latin",
+        "meaning": "freedman"
+      }
+    ],
+    "literal": "a freedman",
+    "path": "In Rome, a libertinus was a freed slave. Over time the word shifted to describe someone free from moral restraint, unbound by conventional rules.",
+    "cousins": [
+      "liberty",
+      "liberate",
+      "liberal"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "libretto": {
+    "parts": [
+      {
+        "piece": "liber",
+        "origin": "Latin",
+        "meaning": "book"
+      }
+    ],
+    "literal": "a little book",
+    "path": "Latin liber meant book, a different word from liber meaning free. Libretto, little book, names the printed text or script of an opera.",
+    "cousins": [
+      "library",
+      "libel"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "licentious": {
+    "parts": [
+      {
+        "piece": "licere",
+        "origin": "Latin",
+        "meaning": "to be permitted, be lawful"
+      }
+    ],
+    "literal": "having license, permission",
+    "path": "Latin licere meant to be allowed, giving licentia, freedom or license. Licentious describes someone who takes excessive liberty, especially abandoning moral or sexual restraint.",
+    "cousins": [
+      "license",
+      "illicit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "likewise": {
+    "parts": [
+      {
+        "piece": "gelic",
+        "origin": "Old English",
+        "meaning": "like, similar"
+      },
+      {
+        "piece": "wise",
+        "origin": "Old English",
+        "meaning": "manner, way"
+      }
+    ],
+    "literal": "in like manner",
+    "path": "A plain compound of like and wise, manner. Likewise means in the same way, similarly.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "limpid": {
+    "parts": [
+      {
+        "piece": "limpidus",
+        "origin": "Latin",
+        "meaning": "clear"
+      }
+    ],
+    "literal": "clear, like water",
+    "path": "Latin limpidus described water or liquid as perfectly clear. Limpid retains that sense of transparent clarity.",
+    "cousins": [
+      "lymph"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "lineament": {
+    "parts": [
+      {
+        "piece": "linea",
+        "origin": "Latin",
+        "meaning": "line"
+      }
+    ],
+    "literal": "a line, outline",
+    "path": "Latin linea meant a line. Lineament originally meant the outline or contour of a shape, and now names a distinctive feature, especially of a face.",
+    "cousins": [
+      "line",
+      "linear",
+      "delineate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "lionize": {
+    "parts": [
+      {
+        "piece": "lion",
+        "origin": "Latin (leo)",
+        "meaning": "lion"
+      },
+      {
+        "piece": "-ize",
+        "origin": "Greek",
+        "meaning": "to make, treat as"
+      }
+    ],
+    "literal": "to make a lion of",
+    "path": "In 19th-century usage, a lion was a celebrity treated as a prized sight, much like a menagerie's lion. To lionize someone is to treat them as such a celebrity.",
+    "cousins": [
+      "leonine"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  }
+}

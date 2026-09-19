@@ -1,0 +1,859 @@
+{
+  "grievous": {
+    "parts": [
+      {
+        "piece": "gravis (gravare)",
+        "origin": "Latin",
+        "meaning": "heavy; to burden"
+      }
+    ],
+    "literal": "burdensome, heavy",
+    "path": "Same Latin root as 'grievance', gravis, heavy, via grever, to burden. Something grievous weighs heavily and seriously, causing severe harm or sorrow.",
+    "cousins": [
+      "grave",
+      "gravity",
+      "grievance"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "gripe": {
+    "parts": [
+      {
+        "piece": "gripan",
+        "origin": "Old English",
+        "meaning": "to grasp, seize tightly"
+      }
+    ],
+    "literal": "to grip, seize",
+    "path": "Old English gripan meant to grasp or seize, the same root as 'grip'. The word narrowed through 'gripes', sharp seizing stomach pains, and from there to griping as a verb for persistent, nagging complaint.",
+    "cousins": [
+      "grip"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "grisly": {
+    "parts": [
+      {
+        "piece": "grislic",
+        "origin": "Old English",
+        "meaning": "horrible, causing dread"
+      }
+    ],
+    "literal": "causing shuddering",
+    "path": "Old English grislic meant horrible or dreadful, from a Germanic root about shuddering with fear, the same family that gives 'gruesome'. Grisly still names sights so horrifying they make you shudder.",
+    "cousins": [
+      "gruesome"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "grouse": {
+    "parts": [
+      {
+        "piece": "groucier",
+        "origin": "Old French",
+        "meaning": "to grumble, murmur"
+      }
+    ],
+    "literal": "to grumble",
+    "path": "Likely from an Old French verb meaning to grumble or murmur, the same root behind 'grudge' and 'grouch'. To grouse is simply to grumble or complain, typically about something minor.",
+    "cousins": [
+      "grudge",
+      "grouch"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "grove": {
+    "parts": [
+      {
+        "piece": "graf",
+        "origin": "Old English",
+        "meaning": "grove, thicket (further origin unknown)"
+      }
+    ],
+    "literal": "a thicket",
+    "path": "Old English graf simply meant a grove or thicket; its deeper origin isn't known. It has kept its plain sense: a small stand or group of trees.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "grovel": {
+    "parts": [
+      {
+        "piece": "á grúfu",
+        "origin": "Old Norse",
+        "meaning": "face down, on one's belly"
+      }
+    ],
+    "literal": "to lie face down",
+    "path": "Grovel comes from an old adverb meaning 'on one's face', traced to Old Norse a grufu, face down. To grovel is literally to lie face down, and figuratively to abase oneself with servile submission.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "grudging": {
+    "parts": [
+      {
+        "piece": "groucier",
+        "origin": "Old French",
+        "meaning": "to grumble, murmur"
+      }
+    ],
+    "literal": "grumbling while giving",
+    "path": "From the same Old French root as 'grouse', groucier, to grumble. Something grudging is given while grumbling inwardly, reluctant and resentful rather than willing.",
+    "cousins": [
+      "grouse",
+      "grouch"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "gruel": {
+    "parts": [
+      {
+        "piece": "*grud-",
+        "origin": "Frankish/Germanic",
+        "meaning": "coarse ground meal"
+      }
+    ],
+    "literal": "ground meal, porridge",
+    "path": "From a Germanic root for coarsely ground meal, the same family as 'grits' and 'groats'. Gruel is the thin, watery porridge made by boiling that ground meal.",
+    "cousins": [
+      "grits",
+      "groats"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "guffaw": {
+    "parts": [
+      {
+        "piece": "guffaw",
+        "origin": "Scots (imitative)",
+        "meaning": "echoic of a loud laugh"
+      }
+    ],
+    "literal": "an imitation of a loud laugh",
+    "path": "Guffaw is imitative, a Scots word coined to mimic the sound itself. It names a loud, hearty burst of laughter, the word sounding much like the laugh it describes.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "guile": {
+    "parts": [
+      {
+        "piece": "guile",
+        "origin": "Old French (Germanic)",
+        "meaning": "deceit, cunning"
+      }
+    ],
+    "literal": "cunning trickery",
+    "path": "Old French guile meant deceit or cunning, from a Germanic root shared with 'wile'. Guile still names crafty, deceitful cunning used to trick others.",
+    "cousins": [
+      "wile"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "guileless": {
+    "parts": [
+      {
+        "piece": "guile",
+        "origin": "Old French (Germanic)",
+        "meaning": "deceit, cunning"
+      },
+      {
+        "piece": "-less",
+        "origin": "Old English",
+        "meaning": "without"
+      }
+    ],
+    "literal": "without cunning deceit",
+    "path": "Simply guile, cunning deceit, plus 'without'. A guileless person acts without any trickery, innocent and straightforward.",
+    "cousins": [
+      "wile"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "gullible": {
+    "parts": [
+      {
+        "piece": "gull",
+        "origin": "uncertain, possibly related to 'gullet'",
+        "meaning": "to dupe, deceive"
+      }
+    ],
+    "literal": "easily duped",
+    "path": "Gullible comes from 'gull', an old verb for deceiving or duping someone, of uncertain origin, possibly tied to 'gullet', swallowing, as if a gullible person swallows a lie whole. It describes someone easily fooled.",
+    "cousins": [
+      "gullet"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "gumption": {
+    "parts": [
+      {
+        "piece": "gaumr",
+        "origin": "Old Norse (via Scottish dialect)",
+        "meaning": "heed, attention, understanding"
+      }
+    ],
+    "literal": "heed, common sense",
+    "path": "Gumption comes from a Scottish dialect word tied to Old Norse gaumr, heed or attention. It named practical common sense, and broadened to the resourceful initiative and drive to act on it.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "gustatory": {
+    "parts": [
+      {
+        "piece": "gustare",
+        "origin": "Latin",
+        "meaning": "to taste"
+      }
+    ],
+    "literal": "relating to tasting",
+    "path": "Directly from Latin gustare, to taste. Gustatory simply means relating to the sense of taste.",
+    "cousins": [
+      "gusto",
+      "disgust"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "gusto": {
+    "parts": [
+      {
+        "piece": "gustus",
+        "origin": "Latin",
+        "meaning": "taste"
+      }
+    ],
+    "literal": "taste, relish",
+    "path": "From Latin gustus, taste, via Italian gusto. Gusto is enjoyment savored the way one relishes a taste, vigorous and hearty enthusiasm.",
+    "cousins": [
+      "gustatory",
+      "disgust"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "gusty": {
+    "parts": [
+      {
+        "piece": "gustr",
+        "origin": "Old Norse",
+        "meaning": "a blast, gust of wind"
+      }
+    ],
+    "literal": "blowing in blasts",
+    "path": "From Old Norse gustr, a sudden blast of wind, related to a verb meaning to gush. Gusty weather blows in sudden bursts the way the old word describes a blast.",
+    "cousins": [
+      "gush"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hackneyed": {
+    "parts": [
+      {
+        "piece": "Hackney",
+        "origin": "place name (London)",
+        "meaning": "a district where hire horses were pastured"
+      }
+    ],
+    "literal": "like a worn-out hired horse",
+    "path": "A hackney was a horse kept for ordinary hire, possibly named for the London district of Hackney where such horses were pastured. Hired out over and over, hackney horses grew worn and common, and hackneyed came to describe any phrase or idea worn out through overuse.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "haggle": {
+    "parts": [
+      {
+        "piece": "höggva",
+        "origin": "Old Norse",
+        "meaning": "to hew, chop"
+      }
+    ],
+    "literal": "to hack away at repeatedly",
+    "path": "Haggle is built on an old word for hacking or chopping, from Old Norse hoggva, to hew. The image is of chopping back and forth at a price, bargaining persistently until both sides wear it down.",
+    "cousins": [
+      "hew"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hail": {
+    "parts": [
+      {
+        "piece": "heill",
+        "origin": "Old Norse",
+        "meaning": "healthy, whole"
+      }
+    ],
+    "literal": "to wish health upon",
+    "path": "The greeting 'hail' comes from Old Norse heill, healthy or whole, the same root as 'hale' and 'whole'. To hail someone was originally to call out wishing them health, and the verb kept that sense of an enthusiastic greeting or acclaim.",
+    "cousins": [
+      "hale",
+      "whole",
+      "wholesome"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "halcyon": {
+    "parts": [
+      {
+        "piece": "halkyon",
+        "origin": "Greek",
+        "meaning": "kingfisher (mythical bird said to calm the sea)"
+      }
+    ],
+    "literal": "of the calming kingfisher",
+    "path": "Greek halkyon named the kingfisher, a bird myth held could calm stormy seas to nest at the winter solstice, giving 'halcyon days' of calm weather. Halcyon still describes a peaceful, idyllic, prosperous time.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "hale": {
+    "parts": [
+      {
+        "piece": "hal",
+        "origin": "Old English",
+        "meaning": "whole, healthy"
+      }
+    ],
+    "literal": "whole, healthy",
+    "path": "Old English hal meant whole or healthy, the same root behind 'whole' and 'heal'. Hale describes someone robustly healthy, especially notable in old age.",
+    "cousins": [
+      "whole",
+      "heal",
+      "health"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "hallmark": {
+    "parts": [
+      {
+        "piece": "hall",
+        "origin": "Old English",
+        "meaning": "Goldsmiths' Hall, London (assay office)"
+      },
+      {
+        "piece": "mark",
+        "origin": "Old English",
+        "meaning": "a stamp, sign"
+      }
+    ],
+    "literal": "the mark stamped at Hall",
+    "path": "A hallmark was literally the official stamp applied at Goldsmiths' Hall in London certifying the purity of gold or silver. The word broadened to any mark that certifies quality, then to any distinctive defining characteristic.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "halting": {
+    "parts": [
+      {
+        "piece": "halz",
+        "origin": "Old High German",
+        "meaning": "lame, limping"
+      }
+    ],
+    "literal": "limping",
+    "path": "Halt traces back to a Germanic word for lame or limping. Halting speech or movement proceeds the way a lame walker moves, hesitant, faltering, stopping and starting.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hamper": {
+    "parts": [
+      {
+        "piece": "hamper (v.)",
+        "origin": "Middle English, origin unknown",
+        "meaning": "to impede, obstruct"
+      }
+    ],
+    "literal": "unclear origin, 'to impede'",
+    "path": "The verb hamper has an unclear origin, possibly related to an old word for mutilating or restraining, and is likely unconnected to the picnic-basket noun 'hamper'. It has simply meant to hinder or impede since Middle English.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "hamstrung": {
+    "parts": [
+      {
+        "piece": "hamm",
+        "origin": "Old English",
+        "meaning": "the back of the knee/thigh"
+      },
+      {
+        "piece": "string",
+        "origin": "Old English",
+        "meaning": "a cord, tendon"
+      }
+    ],
+    "literal": "cut in the leg tendon",
+    "path": "To hamstring someone literally meant to slice the tendon behind the knee (the ham, an old word for that joint), crippling their ability to walk or run. Hamstrung keeps that image for anyone severely disabled from acting effectively.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hankering": {
+    "parts": [
+      {
+        "piece": "hankeren",
+        "origin": "Dutch/Flemish",
+        "meaning": "to long for, linger desiring"
+      }
+    ],
+    "literal": "to linger, longing for",
+    "path": "Hanker likely comes from a Dutch or Flemish word related to 'hang', picturing someone lingering about, hanging around what they want. A hankering is that persistent, lingering longing.",
+    "cousins": [
+      "hang"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "haphazard": {
+    "parts": [
+      {
+        "piece": "happ",
+        "origin": "Old Norse",
+        "meaning": "luck, chance"
+      },
+      {
+        "piece": "hasard",
+        "origin": "Old French (from Arabic az-zahr)",
+        "meaning": "a dice game, chance"
+      }
+    ],
+    "literal": "chance upon chance",
+    "path": "A doubled-up word for luck: 'hap' (Old Norse for chance) plus 'hazard' (an Old French dice game ultimately from Arabic for 'the die'). Haphazard piles chance on chance, describing something done with no order or plan, left purely to luck.",
+    "cousins": [
+      "happen",
+      "happy",
+      "hazard"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hapless": {
+    "parts": [
+      {
+        "piece": "happ",
+        "origin": "Old Norse",
+        "meaning": "luck, chance"
+      },
+      {
+        "piece": "-less",
+        "origin": "Old English",
+        "meaning": "without"
+      }
+    ],
+    "literal": "without luck",
+    "path": "From 'hap', an old word for luck or chance, plus 'without'. Someone hapless is simply without luck, unlucky and pitiable through no real fault of their own.",
+    "cousins": [
+      "happen",
+      "happy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "harangue": {
+    "parts": [
+      {
+        "piece": "*hriggs (ring)",
+        "origin": "Germanic (via Old Italian)",
+        "meaning": "a ring, circle of assembled people"
+      }
+    ],
+    "literal": "a speech to the assembled ring",
+    "path": "Harangue traces through Old Italian to a Germanic word for 'ring', picturing a speaker addressing a circle of assembled people. It narrowed to mean the long, forceful, often hectoring speech such a public address could become.",
+    "cousins": [
+      "ring"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "harbinger": {
+    "parts": [
+      {
+        "piece": "herberge",
+        "origin": "Old French (Germanic)",
+        "meaning": "lodging, shelter"
+      }
+    ],
+    "literal": "one who arranges lodging ahead",
+    "path": "A harbinger was originally someone sent ahead of a traveling group to arrange lodging, from a Germanic word for shelter related to 'harbor'. Going first to prepare the way, the harbinger came to mean anything that signals what is about to arrive.",
+    "cousins": [
+      "harbor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hardy": {
+    "parts": [
+      {
+        "piece": "hardir",
+        "origin": "Old French (Germanic)",
+        "meaning": "to make bold, harden"
+      }
+    ],
+    "literal": "made hard, bold",
+    "path": "From Old French hardir, to make bold, ultimately Germanic and related to 'hard'. Hardy things or people are toughened to endure, able to withstand difficult conditions.",
+    "cousins": [
+      "hard"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "harried": {
+    "parts": [
+      {
+        "piece": "hergian",
+        "origin": "Old English",
+        "meaning": "to ravage, raid, make war on"
+      }
+    ],
+    "literal": "raided, plundered",
+    "path": "From Old English hergian, to raid and plunder as an army does. Someone harried feels raided by stress, harassed and under constant pressure.",
+    "cousins": [
+      "harry"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "harrow": {
+    "parts": [
+      {
+        "piece": "harwe",
+        "origin": "Middle English (Germanic)",
+        "meaning": "a spiked farm implement for breaking soil"
+      }
+    ],
+    "literal": "to drag a spiked frame over",
+    "path": "A harrow is a heavy, spiked farm tool dragged over plowed ground to break it up. To harrow someone figuratively is to drag them over that same rough ground, tearing at them and causing acute distress.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "harrowing": {
+    "parts": [
+      {
+        "piece": "harwe",
+        "origin": "Middle English (Germanic)",
+        "meaning": "a spiked farm implement for breaking soil"
+      }
+    ],
+    "literal": "dragging, like a spiked farm frame",
+    "path": "The adjective from 'harrow', the spiked implement dragged roughly over soil. A harrowing experience drags over you the same way, acutely distressing.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "harry": {
+    "parts": [
+      {
+        "piece": "here",
+        "origin": "Old English",
+        "meaning": "army, military host"
+      }
+    ],
+    "literal": "to make war on",
+    "path": "Old English hergian, to ravage or make war, comes from here, an army or military host. To harry someone is to attack them relentlessly, as an invading army lays waste to a land, now usually meaning to harass persistently.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "haughty": {
+    "parts": [
+      {
+        "piece": "altus",
+        "origin": "Latin",
+        "meaning": "high"
+      }
+    ],
+    "literal": "held high",
+    "path": "From French haut, high, ultimately Latin altus. A haughty person holds themselves high above others, arrogantly superior in manner.",
+    "cousins": [
+      "altitude",
+      "exalt"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "hauteur": {
+    "parts": [
+      {
+        "piece": "altus",
+        "origin": "Latin",
+        "meaning": "high"
+      }
+    ],
+    "literal": "height of manner",
+    "path": "Directly from French hauteur, height, the noun of the same haut, high, that gives 'haughty'. Hauteur names that same lofty, arrogant pride held above others.",
+    "cousins": [
+      "altitude",
+      "haughty"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "haven": {
+    "parts": [
+      {
+        "piece": "höfn",
+        "origin": "Old Norse",
+        "meaning": "harbor, haven"
+      }
+    ],
+    "literal": "a harbor",
+    "path": "From Old Norse hofn, a harbor where ships find shelter from the sea. Haven kept that image of shelter, any place of safety or refuge.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "headlong": {
+    "parts": [
+      {
+        "piece": "head",
+        "origin": "Old English",
+        "meaning": "head"
+      },
+      {
+        "piece": "-long",
+        "origin": "Old English",
+        "meaning": "in the direction of (as in 'sidelong')"
+      }
+    ],
+    "literal": "head-first",
+    "path": "A compound of 'head' and an old adverbial suffix meaning 'in the direction of', also seen in 'sidelong'. Headlong originally meant falling or plunging head-first, and extended to acting recklessly, rushing in without thought.",
+    "cousins": [
+      "sidelong"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "headstrong": {
+    "parts": [
+      {
+        "piece": "head",
+        "origin": "Old English",
+        "meaning": "head"
+      },
+      {
+        "piece": "strong",
+        "origin": "Old English",
+        "meaning": "strong"
+      }
+    ],
+    "literal": "strong-headed",
+    "path": "A plain compound: strong in one's own head, meaning one's own will. Someone headstrong is stubbornly set on having things their own way.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "heady": {
+    "parts": [
+      {
+        "piece": "head",
+        "origin": "Old English",
+        "meaning": "head"
+      }
+    ],
+    "literal": "going to the head",
+    "path": "Built simply on 'head' plus -y. Heady describes anything, like strong drink or wild success, that rushes to the head and leaves it spinning, intoxicating and exhilarating.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "hearken": {
+    "parts": [
+      {
+        "piece": "hercnian",
+        "origin": "Old English",
+        "meaning": "to listen attentively"
+      }
+    ],
+    "literal": "to listen closely",
+    "path": "Old English hercnian, related to 'hear', already meant to listen attentively. Hearken has kept that exact sense unchanged: to listen carefully to what is said.",
+    "cousins": [
+      "hear"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hector": {
+    "parts": [
+      {
+        "piece": "Hector",
+        "origin": "proper noun (Greek, via Trojan legend)",
+        "meaning": "Hector, warrior of Homer's Iliad"
+      }
+    ],
+    "literal": "to act like a swaggering Hector",
+    "path": "Named for Hector, the great Trojan warrior of Homer's Iliad. In 17th-century London, gangs of swaggering bullies took the name 'Hectors' for themselves, and the verb hector came to mean bullying someone loudly with words.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "hedge": {
+    "parts": [
+      {
+        "piece": "hecg",
+        "origin": "Old English",
+        "meaning": "a hedge, boundary fence of bushes"
+      }
+    ],
+    "literal": "to fence oneself in",
+    "path": "Old English hecg named a boundary fence of bushes. To hedge figuratively is to build a similar boundary around a commitment or a bet, avoiding a firm stance and limiting risk by not going all in.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hedonism": {
+    "parts": [
+      {
+        "piece": "hedone",
+        "origin": "Greek",
+        "meaning": "pleasure"
+      }
+    ],
+    "literal": "pleasure-doctrine",
+    "path": "From Greek hedone, pleasure. Hedonism is simply the doctrine or devotion to pleasure as the highest good in life.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hedonist": {
+    "parts": [
+      {
+        "piece": "hedone",
+        "origin": "Greek",
+        "meaning": "pleasure"
+      }
+    ],
+    "literal": "one devoted to pleasure",
+    "path": "From Greek hedone, pleasure, the same root as 'hedonism'. A hedonist is a person devoted to pursuing pleasure.",
+    "cousins": [
+      "hedonism"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "heed": {
+    "parts": [
+      {
+        "piece": "hedan",
+        "origin": "Old English",
+        "meaning": "to take care, attend to"
+      }
+    ],
+    "literal": "to take care, attend to",
+    "path": "Old English hedan already meant to attend to or take care over something. Heed has kept that plain sense of paying careful attention to advice or a warning.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "hegemony": {
+    "parts": [
+      {
+        "piece": "hegeisthai",
+        "origin": "Greek",
+        "meaning": "to lead, go before"
+      }
+    ],
+    "literal": "leadership",
+    "path": "From Greek hegeisthai, to lead, via hegemon, a leader. Hegemony named the leadership of one Greek state over others, and now names the dominance of any one group over others.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "herculean": {
+    "parts": [
+      {
+        "piece": "Hercules",
+        "origin": "proper noun (Greek/Roman myth)",
+        "meaning": "Hercules, hero of superhuman strength"
+      }
+    ],
+    "literal": "worthy of Hercules",
+    "path": "Named for Hercules, the mythical hero whose twelve labors demanded superhuman strength. A herculean task requires the same enormous strength or effort those legendary labors did.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "heretic": {
+    "parts": [
+      {
+        "piece": "haireisthai",
+        "origin": "Greek",
+        "meaning": "to choose, take for oneself"
+      }
+    ],
+    "literal": "one who chooses for themselves",
+    "path": "Greek hairetikos meant able to choose, from haireisthai, to choose. A heretic was originally simply one who chose their own beliefs rather than accepting the given doctrine, which the Church recast as dissent from orthodox belief.",
+    "cousins": [
+      "heresy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

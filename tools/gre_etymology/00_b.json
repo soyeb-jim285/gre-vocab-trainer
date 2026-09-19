@@ -1,0 +1,1096 @@
+{
+  "adequate": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "aequus",
+        "origin": "Latin",
+        "meaning": "equal"
+      }
+    ],
+    "literal": "made equal to",
+    "path": "Something made equal to a requirement became the sense of being sufficient to meet a need, without implying anything more.",
+    "cousins": [
+      "equal",
+      "equate",
+      "equity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "adhere": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "haerere",
+        "origin": "Latin",
+        "meaning": "to stick"
+      }
+    ],
+    "literal": "to stick to",
+    "path": "Physical sticking to a surface extended to sticking closely to a rule, belief, or plan.",
+    "cousins": [
+      "adhesive",
+      "coherent",
+      "inherent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "adherent": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "haerere",
+        "origin": "Latin",
+        "meaning": "to stick"
+      }
+    ],
+    "literal": "one sticking to",
+    "path": "Someone who clings or sticks closely to a cause or leader became the word for a supporter.",
+    "cousins": [
+      "adhesive",
+      "coherent",
+      "inherent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "adjudicate": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "judicare",
+        "origin": "Latin, from ius + dicare",
+        "meaning": "to judge, proclaim law"
+      }
+    ],
+    "literal": "to proclaim judgment",
+    "path": "Formally pronouncing a legal ruling on a case broadened to any formal settling of a dispute.",
+    "cousins": [
+      "judge",
+      "judicial",
+      "verdict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "adjure": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "iurare",
+        "origin": "Latin",
+        "meaning": "to swear"
+      }
+    ],
+    "literal": "to swear to",
+    "path": "Originally to put someone under solemn oath, the word broadened to urging or commanding someone with the same solemn force.",
+    "cousins": [
+      "jury",
+      "perjure",
+      "abjure"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "admonish": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "monere",
+        "origin": "Latin",
+        "meaning": "to warn"
+      }
+    ],
+    "literal": "to warn toward",
+    "path": "The direct sense of warning someone narrowed over time to a gentle reprimand or caution.",
+    "cousins": [
+      "monitor",
+      "premonition",
+      "monument"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "admonitory": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "monere",
+        "origin": "Latin",
+        "meaning": "to warn"
+      }
+    ],
+    "literal": "warning",
+    "path": "Describes anything that carries the function of warning or gently reproving, directly from the sense of admonish.",
+    "cousins": [
+      "monitor",
+      "premonition",
+      "monument"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "adroit": {
+    "parts": [
+      {
+        "piece": "a-",
+        "origin": "French",
+        "meaning": "to"
+      },
+      {
+        "piece": "droit",
+        "origin": "French, from Latin directus",
+        "meaning": "right, straight"
+      }
+    ],
+    "literal": "to the right, straight",
+    "path": "Right-handedness was long equated with skill and dexterity, so 'to the right' came to mean clever and skillful, especially under pressure.",
+    "cousins": [
+      "direct",
+      "erect",
+      "rectify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "adulation": {
+    "parts": [
+      {
+        "piece": "adulari",
+        "origin": "Latin",
+        "meaning": "to fawn on, flatter (of a dog wagging its tail)"
+      }
+    ],
+    "literal": "fawning like a dog",
+    "path": "A dog's tail-wagging fawning over its master became the image for excessive, servile flattery of a person.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "adulterate": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "alter",
+        "origin": "Latin",
+        "meaning": "other"
+      }
+    ],
+    "literal": "to make other",
+    "path": "To corrupt something by mixing it with a foreign substance became specifically making a pure thing impure by adding inferior material.",
+    "cousins": [
+      "alter",
+      "alternate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "adumbrate": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "umbra",
+        "origin": "Latin",
+        "meaning": "shadow"
+      }
+    ],
+    "literal": "to cast a shadow toward",
+    "path": "Sketching a shadowy outline of a shape became the figure for faintly outlining an idea or foreshadowing an event.",
+    "cousins": [
+      "umbrella",
+      "umbrage",
+      "penumbra"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "adventitious": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "venire",
+        "origin": "Latin",
+        "meaning": "to come"
+      }
+    ],
+    "literal": "coming from outside",
+    "path": "Something arriving from outside rather than growing from within became the sense of occurring by chance rather than being inherent.",
+    "cousins": [
+      "advent",
+      "venue",
+      "convene"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "adverse": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "vertere",
+        "origin": "Latin",
+        "meaning": "to turn"
+      }
+    ],
+    "literal": "turned against",
+    "path": "Turning to face an opponent became the general sense of circumstances that are unfavorable or working against someone.",
+    "cousins": [
+      "convert",
+      "revert",
+      "divert"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "adversity": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "vertere",
+        "origin": "Latin",
+        "meaning": "to turn"
+      }
+    ],
+    "literal": "a state of being turned against",
+    "path": "The same turning-against image as adverse, but naming the condition itself: hardship or misfortune faced head-on.",
+    "cousins": [
+      "convert",
+      "revert",
+      "divert"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "advert": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "vertere",
+        "origin": "Latin",
+        "meaning": "to turn"
+      }
+    ],
+    "literal": "to turn toward",
+    "path": "Turning one's attention toward a topic in speech or writing became the sense of referring to it.",
+    "cousins": [
+      "convert",
+      "revert",
+      "avert"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "advocate": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to, toward"
+      },
+      {
+        "piece": "vocare",
+        "origin": "Latin",
+        "meaning": "to call"
+      }
+    ],
+    "literal": "called to (one's side)",
+    "path": "An advocatus in Rome was someone called in to speak on your behalf in a legal case, an early lawyer summoned to argue for you. To advocate for something is to call out in its support, urging others toward it, just as the original advocate literally called the case for you.",
+    "cousins": [
+      "vocal",
+      "voice",
+      "evoke",
+      "invoke"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "aerie": {
+    "parts": [
+      {
+        "piece": "aire",
+        "origin": "Old French, ultimately Latin (disputed)",
+        "meaning": "nest of a bird of prey"
+      }
+    ],
+    "literal": "a nest set high",
+    "path": "Named the elevated nest of an eagle or hawk on a cliff; extended to any lofty dwelling perched high above. The deeper root before Old French is disputed.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "aesthete": {
+    "parts": [
+      {
+        "piece": "aisthanesthai",
+        "origin": "Greek",
+        "meaning": "to perceive, feel"
+      }
+    ],
+    "literal": "one who perceives",
+    "path": "General sensory perception narrowed to a refined perception specifically of beauty, giving a person devoted to art and beauty.",
+    "cousins": [
+      "aesthetic",
+      "anesthetic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "aesthetic": {
+    "parts": [
+      {
+        "piece": "aisthanesthai",
+        "origin": "Greek",
+        "meaning": "to perceive, sense, feel"
+      }
+    ],
+    "literal": "relating to sense perception",
+    "path": "Greek aisthetikos meant relating to perception through the senses in general. 18th-century philosophers narrowed the word to the perception and judgment of beauty specifically, giving modern aesthetic its meaning: concerned with beauty and artistic taste.",
+    "cousins": [
+      "anesthesia",
+      "synesthesia"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "affable": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "fari",
+        "origin": "Latin",
+        "meaning": "to speak"
+      }
+    ],
+    "literal": "able to be spoken to",
+    "path": "Someone easy to approach and speak with became the general sense of a friendly, easygoing manner.",
+    "cousins": [
+      "fable",
+      "infant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "affect": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "to do something to",
+    "path": "Acting upon something gave the sense of influencing it, while a related sense of striving after a manner gave the sense of putting one on as pretense.",
+    "cousins": [
+      "fact",
+      "factor",
+      "effect"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "affectation": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "an aiming at, striving after",
+    "path": "Striving after a particular impression or manner became the artificial, put-on behavior meant to impress others.",
+    "cousins": [
+      "fact",
+      "effect",
+      "manufacture"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "affected": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "aimed at, put on",
+    "path": "Describes a manner that has been deliberately assumed or aimed at rather than natural, hence artificial or pretentious.",
+    "cousins": [
+      "fact",
+      "effect",
+      "manufacture"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "affinity": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "finis",
+        "origin": "Latin",
+        "meaning": "border, end"
+      }
+    ],
+    "literal": "bordering on",
+    "path": "Originally described relationship by marriage, families whose boundaries touched; broadened to any natural attraction or close resemblance.",
+    "cousins": [
+      "final",
+      "finish",
+      "define"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "afflict": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "fligere",
+        "origin": "Latin",
+        "meaning": "to strike down"
+      }
+    ],
+    "literal": "to strike down against",
+    "path": "The physical image of striking someone down became the sense of causing them suffering or distress.",
+    "cousins": [
+      "conflict",
+      "inflict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "affluent": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "fluere",
+        "origin": "Latin",
+        "meaning": "to flow"
+      }
+    ],
+    "literal": "flowing toward",
+    "path": "Wealth and resources pictured as flowing abundantly toward someone gave the simple modern sense of being wealthy.",
+    "cousins": [
+      "fluent",
+      "fluid",
+      "influence"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "afford": {
+    "parts": [
+      {
+        "piece": "ge-",
+        "origin": "Old English",
+        "meaning": "perfective prefix"
+      },
+      {
+        "piece": "forðian",
+        "origin": "Old English, from forð",
+        "meaning": "to further, carry forth"
+      }
+    ],
+    "literal": "to carry forth, accomplish",
+    "path": "Originally meant to accomplish or bring something about; narrowed to having the financial means to manage or provide something.",
+    "cousins": [
+      "forth",
+      "further"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "affront": {
+    "parts": [
+      {
+        "piece": "a-",
+        "origin": "Old French",
+        "meaning": "to"
+      },
+      {
+        "piece": "front",
+        "origin": "Old French, from Latin frons",
+        "meaning": "forehead, face"
+      }
+    ],
+    "literal": "to strike face to face",
+    "path": "Confronting someone directly, face to face, especially with insult, narrowed to the deliberate insult itself.",
+    "cousins": [
+      "front",
+      "frontier",
+      "confront"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "aggrandize": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "grandis",
+        "origin": "Latin",
+        "meaning": "great, large"
+      }
+    ],
+    "literal": "to make great toward",
+    "path": "The direct sense of making something greater narrowed to inflating one's own power, wealth, or importance, often unduly.",
+    "cousins": [
+      "grand",
+      "grandeur",
+      "grandiose"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "aggravate": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "gravis",
+        "origin": "Latin",
+        "meaning": "heavy"
+      }
+    ],
+    "literal": "to make heavy toward",
+    "path": "Adding weight or burden to something became the sense of making an already bad situation worse.",
+    "cousins": [
+      "gravity",
+      "grief",
+      "aggrieve"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "aggregate": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to, toward"
+      },
+      {
+        "piece": "grex / greg-",
+        "origin": "Latin",
+        "meaning": "flock, herd"
+      }
+    ],
+    "literal": "herded together into a flock",
+    "path": "Aggregare meant to herd animals together into one flock. Aggregate kept that gathering image in the abstract: separate parts, numbers, or facts driven together into a single combined total, the way scattered animals get herded into one group.",
+    "cousins": [
+      "gregarious",
+      "congregate",
+      "segregate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "aggrieve": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Old French",
+        "meaning": "to"
+      },
+      {
+        "piece": "grever",
+        "origin": "Old French, from Latin gravare",
+        "meaning": "to burden (from gravis, heavy)"
+      }
+    ],
+    "literal": "to burden heavily",
+    "path": "Burdening someone with weight extended to causing them grief or treating them unjustly.",
+    "cousins": [
+      "gravity",
+      "aggravate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "aghast": {
+    "parts": [
+      {
+        "piece": "a-",
+        "origin": "Middle English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "gasten",
+        "origin": "Old English, related to gast",
+        "meaning": "to terrify, ghost"
+      }
+    ],
+    "literal": "frightened as if by a ghost",
+    "path": "Being terrified by a ghostly apparition became the general sense of being filled with shock or horror.",
+    "cousins": [
+      "ghost",
+      "ghastly"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "agitate": {
+    "parts": [
+      {
+        "piece": "agitare",
+        "origin": "Latin, frequentative of agere",
+        "meaning": "to keep driving, shake repeatedly"
+      }
+    ],
+    "literal": "to keep shaking",
+    "path": "The repeated physical shaking of a liquid or object became stirring up emotions, or campaigning energetically for a cause.",
+    "cousins": [
+      "act",
+      "agent",
+      "react"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "aide": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "iuvare",
+        "origin": "Latin",
+        "meaning": "to help"
+      }
+    ],
+    "literal": "a helper",
+    "path": "Directly from the plain sense of one who helps to a formal personal assistant to someone important.",
+    "cousins": [
+      "aid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "alacrity": {
+    "parts": [
+      {
+        "piece": "alacer",
+        "origin": "Latin",
+        "meaning": "lively, eager"
+      }
+    ],
+    "literal": "liveliness",
+    "path": "Directly from a lively, brisk eagerness of spirit to the cheerful promptness the word names.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "alchemy": {
+    "parts": [
+      {
+        "piece": "al-",
+        "origin": "Arabic",
+        "meaning": "the"
+      },
+      {
+        "piece": "kimiya",
+        "origin": "Arabic, from Greek khemeia",
+        "meaning": "transmutation, infusion (disputed root)"
+      }
+    ],
+    "literal": "the art of transmutation",
+    "path": "The medieval practice of trying to transmute base metals into gold became a metaphor for any seemingly magical process of transformation.",
+    "cousins": [
+      "chemistry"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "alcove": {
+    "parts": [
+      {
+        "piece": "al-",
+        "origin": "Arabic",
+        "meaning": "the"
+      },
+      {
+        "piece": "qubba",
+        "origin": "Arabic",
+        "meaning": "vault, dome"
+      }
+    ],
+    "literal": "the vault",
+    "path": "An arched, domed recess for a bed in Arabic and Spanish architecture narrowed to any small recessed space in a room.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "alienate": {
+    "parts": [
+      {
+        "piece": "alienus",
+        "origin": "Latin, from alius",
+        "meaning": "belonging to another, foreign"
+      }
+    ],
+    "literal": "to make foreign",
+    "path": "Treating something as belonging to another, as foreign, extended to making a person feel like an estranged outsider.",
+    "cousins": [
+      "alien",
+      "alias"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "allay": {
+    "parts": [
+      {
+        "piece": "a-",
+        "origin": "Old English",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "lecgan",
+        "origin": "Old English",
+        "meaning": "to lay down"
+      }
+    ],
+    "literal": "to lay down completely",
+    "path": "Laying a physical burden down completely became the figure for putting fears or doubts to rest.",
+    "cousins": [
+      "lay"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "allege": {
+    "parts": [
+      {
+        "piece": "allegare",
+        "origin": "Latin",
+        "meaning": "to send, cite, adduce"
+      },
+      {
+        "piece": "exlitigare",
+        "origin": "Vulgar Latin (merged form)",
+        "meaning": "to clear by lawsuit"
+      }
+    ],
+    "literal": "to cite formally at law",
+    "path": "The word's history blends two legal roots, one about citing evidence and one about clearing a case by lawsuit; both point to formally asserting a claim, which settled into stating something as fact before it is proven.",
+    "cousins": [
+      "legal",
+      "delegate",
+      "legate"
+    ],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "alleviate": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "levis",
+        "origin": "Latin",
+        "meaning": "light in weight"
+      }
+    ],
+    "literal": "to lighten",
+    "path": "Literally lightening a physical load extended to lightening pain, burden, or severity of any kind.",
+    "cousins": [
+      "levity",
+      "elevate",
+      "lever"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "allusion": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "ludere",
+        "origin": "Latin",
+        "meaning": "to play"
+      }
+    ],
+    "literal": "a playing toward",
+    "path": "Playfully touching on a topic without stating it directly became the sense of an indirect reference.",
+    "cousins": [
+      "illusion",
+      "delude",
+      "ludicrous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "allusive": {
+    "parts": [
+      {
+        "piece": "ad-",
+        "origin": "Latin",
+        "meaning": "to"
+      },
+      {
+        "piece": "ludere",
+        "origin": "Latin",
+        "meaning": "to play"
+      }
+    ],
+    "literal": "playing toward",
+    "path": "Describes speech or writing that plays with indirect references rather than stating things outright.",
+    "cousins": [
+      "illusion",
+      "delude",
+      "ludicrous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "aloof": {
+    "parts": [
+      {
+        "piece": "a-",
+        "origin": "English",
+        "meaning": "on, to"
+      },
+      {
+        "piece": "loof",
+        "origin": "Dutch loef",
+        "meaning": "windward direction"
+      }
+    ],
+    "literal": "to the windward",
+    "path": "A sailing command to turn the ship's head into the wind, away from the shore, became the figure for keeping oneself apart and emotionally distant.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "altruism": {
+    "parts": [
+      {
+        "piece": "altrui",
+        "origin": "Italian, from Latin alter",
+        "meaning": "of or to others"
+      }
+    ],
+    "literal": "other-ism",
+    "path": "Coined in the 19th century specifically to name concern for others as the opposite of egoism, concern for self.",
+    "cousins": [
+      "alter",
+      "alternate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "altruistic": {
+    "parts": [
+      {
+        "piece": "altrui",
+        "origin": "Italian, from Latin alter",
+        "meaning": "of or to others"
+      }
+    ],
+    "literal": "other-ish",
+    "path": "Describes behavior driven by concern for others rather than the self, from the same 19th-century coinage as altruism.",
+    "cousins": [
+      "alter",
+      "alternate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "amalgam": {
+    "parts": [
+      {
+        "piece": "amalgama",
+        "origin": "Medieval Latin (obscure origin)",
+        "meaning": "a soft mixture, mercury alloy"
+      }
+    ],
+    "literal": "a soft blended mixture",
+    "path": "Originally a metallurgical and alchemical term for an alloy of mercury with another metal; generalized to any blend of different things. The deeper root is uncertain.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "amalgamate": {
+    "parts": [
+      {
+        "piece": "amalgama",
+        "origin": "Medieval Latin (obscure origin)",
+        "meaning": "a soft mixture, mercury alloy"
+      }
+    ],
+    "literal": "to mix into an alloy",
+    "path": "The alchemical act of mixing metals into an alloy extended to combining any separate things into a single whole.",
+    "cousins": [
+      "amalgam"
+    ],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "amalgamation": {
+    "parts": [
+      {
+        "piece": "amalgama",
+        "origin": "Medieval Latin (obscure origin)",
+        "meaning": "a soft mixture, mercury alloy"
+      }
+    ],
+    "literal": "the process of alloying",
+    "path": "Names the process behind amalgamate: combining separate things, originally metals, into a single unified whole.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

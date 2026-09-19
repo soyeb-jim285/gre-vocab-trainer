@@ -1,0 +1,452 @@
+{
+  "prudent": {
+    "parts": [{"piece": "providens", "origin": "Latin", "meaning": "foreseeing (pro-, ahead + videre, to see)"}],
+    "literal": "foreseeing",
+    "path": "Prudent is a contracted form of Latin providens, foreseeing. A prudent person exercises careful judgment by anticipating consequences before they happen.",
+    "cousins": ["provide", "evident", "vision"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "prune": {
+    "parts": [{"piece": "proignier", "origin": "uncertain (Old French)", "meaning": "to round off, trim"}],
+    "literal": "to round off, cut back (disputed)",
+    "path": "Prune's origin is genuinely murky, likely from an Old French word for rounding or clipping something off. Its meaning has stayed steady since the 1400s: to cut back excess growth, on a plant, a budget, or a text.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "prurient": {
+    "parts": [{"piece": "prurire", "origin": "Latin", "meaning": "to itch, to long for"}],
+    "literal": "itching, longing",
+    "path": "Latin prurire meant to itch or to have a persistent craving. Prurient describes a curiosity, especially about sex, that feels like a persistent itch to be scratched.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pucker": {
+    "parts": [{"piece": "poke", "origin": "dialectal English", "meaning": "a bag, pouch"}],
+    "literal": "to draw up like the mouth of a bag",
+    "path": "Pucker likely derives from an old dialect word for a bag or pouch, whose mouth is drawn tight with a drawstring. To pucker is to gather fabric, or lips, into small wrinkled folds the same way.",
+    "cousins": ["pocket", "poke"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "puerile": {
+    "parts": [{"piece": "puer", "origin": "Latin", "meaning": "boy, child"}],
+    "literal": "boyish",
+    "path": "Latin puer meant a boy or child. Puerile describes behavior that is childish in the worst sense, silly and immature for someone's age.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pugilism": {
+    "parts": [{"piece": "pugnus", "origin": "Latin", "meaning": "fist"}],
+    "literal": "the fist-craft",
+    "path": "Latin pugnus meant fist. Pugilism is literally the fist-craft, formal boxing.",
+    "cousins": ["pugnacious"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pugilist": {
+    "parts": [{"piece": "pugnus", "origin": "Latin", "meaning": "fist"}],
+    "literal": "one who fights with fists",
+    "path": "Sharing its root with pugilism, fist, a pugilist is a boxer, someone who fights with their fists.",
+    "cousins": ["pugnacious"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pugnacious": {
+    "parts": [{"piece": "pugnus", "origin": "Latin", "meaning": "fist"}],
+    "literal": "fist-fighting, combative",
+    "path": "Sharing its root with pugilist, fist, pugnacious describes someone quick to put up their fists, eager to fight or argue.",
+    "cousins": ["pugilist", "impugn", "repugnant"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "puissance": {
+    "parts": [{"piece": "posse", "origin": "Latin", "meaning": "to be able"}],
+    "literal": "ability, power",
+    "path": "French poissance traces to Latin posse, to be able. Puissance is that raw ability turned into great power or influence.",
+    "cousins": ["possible", "potent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "puissant": {
+    "parts": [{"piece": "posse", "origin": "Latin", "meaning": "to be able"}],
+    "literal": "able, powerful",
+    "path": "From the same root as puissance, posse, to be able, puissant describes someone with real, wielded power and influence.",
+    "cousins": ["possible", "potent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "pulchritude": {
+    "parts": [{"piece": "pulcher", "origin": "Latin", "meaning": "beautiful"}],
+    "literal": "beauty",
+    "path": "Latin pulcher simply meant beautiful. Pulchritude is a formal, almost old-fashioned word for that same physical beauty.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "pummel": {
+    "parts": [{"piece": "pomum", "origin": "Latin", "meaning": "fruit, apple (via pomel, a rounded knob)"}],
+    "literal": "to strike with a rounded knob",
+    "path": "A pommel was the round knob on a sword hilt, itself named for its apple-like shape. To pummel someone originally meant striking them with that knob, or with the fists, and now just means to strike repeatedly.",
+    "cousins": ["pommel"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "punctilious": {
+    "parts": [{"piece": "punctum", "origin": "Latin", "meaning": "a point (from pungere, to prick)"}],
+    "literal": "concerned with fine points",
+    "path": "Latin punctum meant a point, a small prick mark. Punctilious describes someone fussy about every fine point of correct behavior or procedure.",
+    "cousins": ["point", "puncture", "punctuate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "pundit": {
+    "parts": [{"piece": "pandita", "origin": "Sanskrit", "meaning": "learned man, scholar"}],
+    "literal": "a learned scholar",
+    "path": "Sanskrit pandita named a genuinely learned scholar, a title of real respect. English borrowed the word via colonial India, and it has since drifted, often ironically, to mean any self-appointed expert commentator in the media.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pungent": {
+    "parts": [{"piece": "pungere", "origin": "Latin", "meaning": "to prick, sting"}],
+    "literal": "pricking, stinging",
+    "path": "Latin pungere meant to prick or sting. Pungent describes a smell, taste, or remark so sharp it seems to sting the senses.",
+    "cousins": ["poignant", "puncture", "point"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "purport": {
+    "parts": [{"piece": "pro-", "origin": "Latin", "meaning": "forth"}, {"piece": "portare", "origin": "Latin", "meaning": "to carry"}],
+    "literal": "to carry forth a meaning",
+    "path": "Anglo-French purporter meant to carry forth a meaning or intention. To purport is to carry forth a claim about oneself, often one that turns out to be false.",
+    "cousins": ["portable", "transport", "export"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "purse": {
+    "parts": [{"piece": "bursa", "origin": "Late Latin (from Greek byrsa)", "meaning": "bag, purse, hide"}],
+    "literal": "to draw tight like a bag's mouth",
+    "path": "A purse is a small drawstring bag, from Greek byrsa, hide or leather. To purse the lips is to draw them tight, just as you'd pull a purse's drawstring closed.",
+    "cousins": ["bursar", "reimburse", "disburse"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pursuant": {
+    "parts": [{"piece": "pro-", "origin": "Latin", "meaning": "forward"}, {"piece": "sequi", "origin": "Latin", "meaning": "to follow"}],
+    "literal": "following forward",
+    "path": "Latin prosequi meant to follow along after something. Pursuant describes an action carried out following, in accordance with, a rule or agreement.",
+    "cousins": ["pursue", "sequence", "sequel"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "purvey": {
+    "parts": [{"piece": "pro-", "origin": "Latin", "meaning": "ahead"}, {"piece": "videre", "origin": "Latin", "meaning": "to see"}],
+    "literal": "to see ahead, to provide",
+    "path": "Purvey and provide share the same Latin root, providere, to foresee and supply. To purvey is to supply goods, or, by extension, to spread information as if handing it out.",
+    "cousins": ["provide", "vision", "evident"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pusillanimous": {
+    "parts": [{"piece": "pusillus", "origin": "Latin", "meaning": "very small, weak"}, {"piece": "animus", "origin": "Latin", "meaning": "spirit, mind, courage"}],
+    "literal": "small-spirited",
+    "path": "Latin pusillanimis combined pusillus, tiny, with animus, spirit. A pusillanimous person has a small, weak spirit, too timid and cowardly to face difficulty.",
+    "cousins": ["animate", "magnanimous", "unanimous"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "putrefy": {
+    "parts": [{"piece": "putrere", "origin": "Latin", "meaning": "to rot"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "to make rotten",
+    "path": "Latin putrefacere combined putrere, to rot, with facere, to make. To putrefy is to make, or become, rotten and foul-smelling.",
+    "cousins": ["putrid", "fact"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pyrrhic": {
+    "parts": [{"piece": "Pyrrhus", "origin": "eponym (Greek)", "meaning": "king of Epirus"}],
+    "literal": "in the manner of Pyrrhus's costly victory",
+    "path": "King Pyrrhus of Epirus won a battle against Rome but lost so many soldiers that he reportedly said one more such victory would destroy his army. A pyrrhic victory is any win whose cost outweighs its benefit.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "quaff": {
+    "parts": [{"piece": "quaff", "origin": "uncertain (perhaps imitative or Low German quassen)", "meaning": "to drink heartily"}],
+    "literal": "to drink heartily (origin uncertain)",
+    "path": "Quaff's roots are unclear, perhaps echoing the gulping sound of hearty drinking, or borrowed from a Low German word for overindulging. Its meaning has stayed constant since the 1500s.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "quagmire": {
+    "parts": [{"piece": "quake", "origin": "Old English", "meaning": "to shake"}, {"piece": "mire", "origin": "Old Norse", "meaning": "bog, swamp"}],
+    "literal": "shaking boggy ground",
+    "path": "A quagmire was literally boggy ground that quakes underfoot, ground you sink into and struggle to escape. The word extended to any situation just as hard to get out of.",
+    "cousins": ["mire", "quake"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "quail": {
+    "parts": [{"piece": "quelen", "origin": "uncertain (perhaps Middle Dutch)", "meaning": "to suffer, be ill"}],
+    "literal": "to suffer, be overcome (uncertain)",
+    "path": "The verb quail is of unclear origin, perhaps related to a Dutch or German word for suffering and torment. Its sense, to lose heart and shrink back in fear, has held steady since the 1300s.",
+    "cousins": ["qualm"],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "qualification": {
+    "parts": [{"piece": "qualis", "origin": "Latin", "meaning": "of what kind"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "to make of a certain kind",
+    "path": "Latin qualis asked 'of what kind?' To qualify something is to specify what kind or condition applies to it, giving both a limiting condition and, since it means meeting a standard, a credential.",
+    "cousins": ["quality", "qualify"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "qualified": {
+    "parts": [{"piece": "qualis", "origin": "Latin", "meaning": "of what kind"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "made to be of a certain kind",
+    "path": "From the same root as qualification, qualified describes something either limited by conditions, or a person made competent by meeting a standard.",
+    "cousins": ["quality", "qualification"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "qualify": {
+    "parts": [{"piece": "qualis", "origin": "Latin", "meaning": "of what kind"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "to make of a certain kind",
+    "path": "Sharing its root with qualification, to qualify a statement is to specify the kind or degree of condition attached to it, limiting or modifying its scope.",
+    "cousins": ["quality", "qualification"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "qualm": {
+    "parts": [{"piece": "cwealm", "origin": "Old English", "meaning": "death, violent disaster (related to cwellan, to kill)"}],
+    "literal": "a sudden, violent pang",
+    "path": "Old English cwealm meant death or violent disaster, related to quell. The word softened over centuries from a mortal pang to a sudden faint feeling, and finally to a milder pang of conscience or doubt.",
+    "cousins": ["quell"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "quandary": {
+    "parts": [{"piece": "quandary", "origin": "unknown (perhaps garbled Latin or French)", "meaning": "state of perplexity"}],
+    "literal": "a state of perplexity (origin unknown)",
+    "path": "Quandary's origin is genuinely unknown, possibly a garbled Latin quando, 'when,' or French phrase. Since the 1500s it has named the state of being stuck between difficult choices.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "quarantine": {
+    "parts": [{"piece": "quadraginta", "origin": "Latin", "meaning": "forty"}],
+    "literal": "a period of forty (days)",
+    "path": "Venice once required ships from plague-stricken ports to wait quaranta giorni, forty days, before docking. Quarantine kept that meaning of enforced isolation to stop contagion, even after the specific forty days faded away.",
+    "cousins": ["quart", "quarter", "quadrant"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "quash": {
+    "parts": [{"piece": "cassare/quassare", "origin": "Latin", "meaning": "to annul, void / to shake, break"}],
+    "literal": "to make void, to shatter",
+    "path": "Quash blends two Latin words that fell together in Old French: one meaning to annul or void, the other to shake or smash. Either way, to quash something is to crush it, an army's revolt or a court ruling, out of existence.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "quell": {
+    "parts": [{"piece": "cwellan", "origin": "Old English", "meaning": "to kill"}],
+    "literal": "to kill, destroy",
+    "path": "Old English cwellan meant to kill outright. Quell softened over time from literal killing to suppressing or putting a forceful end to something, a riot or a fear, without literal violence.",
+    "cousins": ["qualm"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "querulous": {
+    "parts": [{"piece": "queri", "origin": "Latin", "meaning": "to complain"}],
+    "literal": "complaining",
+    "path": "Latin queri meant to complain. Querulous describes someone with a habitual, whining tendency to complain.",
+    "cousins": ["query", "quarrel"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "query": {
+    "parts": [{"piece": "quaerere", "origin": "Latin", "meaning": "to ask, seek"}],
+    "literal": "ask!",
+    "path": "Latin quaerere meant to seek or ask. Query is literally the Latin command 'ask!', still used to mean questioning or expressing doubt about something.",
+    "cousins": ["question", "quest", "inquire"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "queue": {
+    "parts": [{"piece": "cauda", "origin": "Latin", "meaning": "tail"}],
+    "literal": "a tail",
+    "path": "French queue meant a tail. A queue is literally a 'tail' of people trailing one behind another, waiting their turn.",
+    "cousins": ["coward"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "quibble": {
+    "parts": [{"piece": "quibus", "origin": "Latin", "meaning": "to whom, which (a legal case-form of 'who')"}],
+    "literal": "legal 'who/which' jargon",
+    "path": "Quibble may trace to quibus, a Latin grammatical form that turned up constantly in dense legal documents. Because lawyers used it so often in technical argument, quibble came to mean nitpicking over small, hair-splitting points.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "quiescent": {
+    "parts": [{"piece": "quies", "origin": "Latin", "meaning": "rest, quiet"}],
+    "literal": "resting",
+    "path": "Latin quies meant rest or quiet. Quiescent describes something temporarily at rest, inactive or dormant rather than permanently gone.",
+    "cousins": ["quiet", "acquiesce"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "quintessential": {
+    "parts": [{"piece": "quintus", "origin": "Latin", "meaning": "fifth"}, {"piece": "essentia", "origin": "Latin", "meaning": "essence, being"}],
+    "literal": "the fifth essence",
+    "path": "Medieval philosophers believed four elements made up the earthly world, plus a fifth, purest essence that made up the heavens. Quintessential kept that sense of the purest, most concentrated essence of something.",
+    "cousins": ["essence", "essential", "quintet"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "quip": {
+    "parts": [{"piece": "quippe", "origin": "uncertain (Latin)", "meaning": "indeed, obviously (used ironically)"}],
+    "literal": "'obviously!' said sarcastically (disputed)",
+    "path": "Quip's origin is uncertain, but one leading guess ties it to Latin quippe, a sarcastic 'of course!' used to underline an ironic point, much as a modern quip lands with the same sharp, pointed wit.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "quirky": {
+    "parts": [{"piece": "quirk", "origin": "unknown", "meaning": "verbal trickery, later an individual mannerism"}],
+    "literal": "an odd twist (origin unknown)",
+    "path": "Quirk is of unknown origin, first meaning a verbal trick or subtlety before settling, by the 1800s, into naming an individual peculiarity. Quirky describes behavior full of these small, charming oddities.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "quisling": {
+    "parts": [{"piece": "Quisling", "origin": "eponym (Norwegian)", "meaning": "Vidkun Quisling, WWII Nazi collaborator"}],
+    "literal": "like Quisling",
+    "path": "Vidkun Quisling was the Norwegian politician who headed a puppet government for the Nazis during their occupation of Norway. His name became a generic term almost immediately for any traitor who collaborates with an occupying enemy.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "quixotic": {
+    "parts": [{"piece": "Don Quixote", "origin": "literary eponym (Spanish)", "meaning": "idealistic, impractical knight"}],
+    "literal": "like Don Quixote",
+    "path": "Don Quixote, Cervantes's hero, pursued impossibly grand chivalric ideals, famously charging at windmills he mistook for giants. Quixotic describes any scheme with that same noble but impractical idealism.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "quotidian": {
+    "parts": [{"piece": "quot", "origin": "Latin", "meaning": "how many, as many as"}, {"piece": "dies", "origin": "Latin", "meaning": "day"}],
+    "literal": "of every day",
+    "path": "Latin quotidie meant every day, combining quot, however many, with dies, day. Quotidian describes whatever happens daily, and by extension anything as unremarkable as an everyday routine.",
+    "cousins": ["diary", "journal"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "raconteur": {
+    "parts": [{"piece": "re-", "origin": "French", "meaning": "again"}, {"piece": "conter", "origin": "French (from Latin computare)", "meaning": "to tell, count"}],
+    "literal": "one who recounts",
+    "path": "French raconter meant to recount or tell again, from the same root as count. A raconteur is someone especially skilled at recounting stories and anecdotes.",
+    "cousins": ["count", "account"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "radical": {
+    "parts": [{"piece": "radix", "origin": "Latin", "meaning": "root"}],
+    "literal": "of the root",
+    "path": "Latin radix meant root. Radical describes change that reaches down to the very root of something, fundamental rather than superficial.",
+    "cousins": ["eradicate", "radish"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "raffish": {
+    "parts": [{"piece": "riffraff", "origin": "Old French (rif et raf)", "meaning": "one and all, the rabble"}],
+    "literal": "of the rabble",
+    "path": "Raffish comes from 'raff,' short for riffraff, an Old French phrase meaning 'one and all,' used for the common rabble. Raffish softened riffraff's low associations into something more charmingly disreputable rather than truly disgraceful.",
+    "cousins": ["riffraff"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "raft": {
+    "parts": [{"piece": "raff", "origin": "dialectal English", "meaning": "a heap, abundance (related to riffraff)"}],
+    "literal": "a heap, abundance",
+    "path": "This sense of raft, a large number of things, is a different word from the floating platform. It is an American alteration of dialectal raff, a heap or abundance, the same root behind riffraff.",
+    "cousins": ["riffraff", "raffish"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "rail": {
+    "parts": [{"piece": "ragere", "origin": "Vulgar Latin (via Old Provençal ralhar)", "meaning": "to bray, neigh, mock"}],
+    "literal": "to bray, jeer",
+    "path": "Rail traces to a Vulgar Latin word for braying or neighing, which became a term for mocking, jeering speech in Old Provençal and French. To rail against something is to complain about it bitterly and loudly.",
+    "cousins": ["raillery"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "raillery": {
+    "parts": [{"piece": "ragere", "origin": "Vulgar Latin (via Old French railler)", "meaning": "to bray, neigh, tease"}],
+    "literal": "mocking, jesting",
+    "path": "Sharing its root with rail, to scold, raillery softened into good-natured teasing rather than bitter complaint, playful banter instead of hostile mockery.",
+    "cousins": ["rail"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

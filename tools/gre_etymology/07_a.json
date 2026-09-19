@@ -1,0 +1,901 @@
+{
+  "pious": {
+    "parts": [
+      {
+        "piece": "pius",
+        "origin": "Latin",
+        "meaning": "dutiful, devout, godfearing"
+      }
+    ],
+    "literal": "dutiful toward the gods",
+    "path": "Latin pius described someone who fulfilled their duty to gods, family, and country. English kept the devout sense, but also the ironic edge: a pious display of duty can look performed rather than felt, hence sanctimonious.",
+    "cousins": [
+      "piety",
+      "pity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "piquant": {
+    "parts": [
+      {
+        "piece": "piquer",
+        "origin": "French",
+        "meaning": "to prick, sting"
+      }
+    ],
+    "literal": "pricking, stinging",
+    "path": "French piquer meant to prick or sting like a pin. A piquant flavor stings the tongue pleasantly, and by extension a piquant remark or story has that same sharp, lively bite.",
+    "cousins": [
+      "pique",
+      "pike"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "pique": {
+    "parts": [
+      {
+        "piece": "piquer",
+        "origin": "French",
+        "meaning": "to prick, sting"
+      }
+    ],
+    "literal": "a prick, a sting",
+    "path": "French pique named a literal prick or sting, and figuratively the stinging feeling of a wounded ego. To feel pique is to feel pricked in one's pride.",
+    "cousins": [
+      "piquant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pith": {
+    "parts": [
+      {
+        "piece": "pitha",
+        "origin": "Old English",
+        "meaning": "central strand of a plant stem"
+      }
+    ],
+    "literal": "the spongy center of a stalk",
+    "path": "Pith first named the soft tissue at the center of a plant stem. Because that core held the plant together, pith came to mean the essential heart of any matter.",
+    "cousins": [
+      "pit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pithy": {
+    "parts": [
+      {
+        "piece": "pith",
+        "origin": "Old English",
+        "meaning": "essential core"
+      }
+    ],
+    "literal": "full of pith",
+    "path": "Pithy grew directly from pith, the compact core of a stalk. A pithy remark is packed with meaning the way pith fills a stem, with nothing wasted.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "pittance": {
+    "parts": [
+      {
+        "piece": "pietas",
+        "origin": "Latin",
+        "meaning": "piety, dutifulness"
+      }
+    ],
+    "literal": "a pious allowance",
+    "path": "A pittance was originally a small allowance of food or alms given to monks or the poor out of piety. Because such gifts were meager, the word came to mean any skimpy amount of money.",
+    "cousins": [
+      "piety",
+      "pity"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "placate": {
+    "parts": [
+      {
+        "piece": "placare",
+        "origin": "Latin",
+        "meaning": "to soothe, appease"
+      }
+    ],
+    "literal": "to make calm and pleasing",
+    "path": "Latin placare meant to smooth something over, related to placere, to please. To placate someone is to calm their anger the way you'd calm rough water.",
+    "cousins": [
+      "please",
+      "placid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "placebo": {
+    "parts": [
+      {
+        "piece": "placebo",
+        "origin": "Latin",
+        "meaning": "I shall please (future of placere)"
+      }
+    ],
+    "literal": "I shall please",
+    "path": "Placebo is Latin for 'I shall please,' the opening word of a psalm sung in the medieval service for the dead. Because mourners were paid to sing it, the word came to mean a flatterer, and later a treatment given only to please or humor a patient.",
+    "cousins": [
+      "please",
+      "placid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "placid": {
+    "parts": [
+      {
+        "piece": "placidus",
+        "origin": "Latin",
+        "meaning": "calm, gentle"
+      }
+    ],
+    "literal": "pleasing, calm",
+    "path": "Latin placidus described whatever was calm and undisturbed, like a still pond, related to placere, to please.",
+    "cousins": [
+      "please",
+      "placate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "plaintive": {
+    "parts": [
+      {
+        "piece": "plangere",
+        "origin": "Latin",
+        "meaning": "to strike, lament, beat the breast"
+      }
+    ],
+    "literal": "beating the breast in grief",
+    "path": "Latin plangere meant to strike, specifically to beat one's chest in mourning. A plaintive sound still carries that note of lamentation.",
+    "cousins": [
+      "complain"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "plastic": {
+    "parts": [
+      {
+        "piece": "plassein",
+        "origin": "Greek",
+        "meaning": "to mold, form"
+      }
+    ],
+    "literal": "able to be molded",
+    "path": "Greek plassein meant to shape or mold, the way a sculptor works clay. Something plastic can be reshaped freely without breaking.",
+    "cousins": [
+      "plaster",
+      "plasma"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "plasticity": {
+    "parts": [
+      {
+        "piece": "plassein",
+        "origin": "Greek",
+        "meaning": "to mold, form"
+      }
+    ],
+    "literal": "the quality of being moldable",
+    "path": "Built on the same root as plastic, plasticity names the capacity to be shaped or to adapt, whether in materials, the brain, or a plan.",
+    "cousins": [
+      "plaster",
+      "plasma"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "platitude": {
+    "parts": [
+      {
+        "piece": "plat",
+        "origin": "French",
+        "meaning": "flat"
+      }
+    ],
+    "literal": "flatness",
+    "path": "French plat means flat. A platitude is a 'flat' remark, one worn smooth by overuse, with no freshness or elevation left in it.",
+    "cousins": [
+      "plateau",
+      "plaza"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "plausible": {
+    "parts": [
+      {
+        "piece": "plaudere",
+        "origin": "Latin",
+        "meaning": "to clap, applaud"
+      }
+    ],
+    "literal": "worthy of applause",
+    "path": "Latin plausibilis meant deserving applause, praiseworthy. A plausible claim originally won approval outright; now it just seems believable enough to accept at a glance, even if false.",
+    "cousins": [
+      "applaud",
+      "explode"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "plead": {
+    "parts": [
+      {
+        "piece": "placitum",
+        "origin": "Latin",
+        "meaning": "a decree, thing agreed upon (from placere, to please)"
+      }
+    ],
+    "literal": "to argue a decreed case",
+    "path": "Latin placitum meant a decision or ruling, literally a thing 'pleasing' or agreed upon. Old French turned this into pleading a case in court, and English broadened it to arguing or begging earnestly for anything.",
+    "cousins": [
+      "please",
+      "placid"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "plebeian": {
+    "parts": [
+      {
+        "piece": "plebs",
+        "origin": "Latin",
+        "meaning": "the common people"
+      }
+    ],
+    "literal": "of the common people",
+    "path": "In Rome the plebs were ordinary citizens, as opposed to the patrician nobility. Plebeian came to describe anything common or lacking refinement.",
+    "cousins": [
+      "plebiscite"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "plenitude": {
+    "parts": [
+      {
+        "piece": "plenus",
+        "origin": "Latin",
+        "meaning": "full"
+      }
+    ],
+    "literal": "fullness",
+    "path": "Latin plenus meant full or complete. Plenitude is simply a state of fullness, an abundant supply.",
+    "cousins": [
+      "plenty",
+      "plenary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "plethora": {
+    "parts": [
+      {
+        "piece": "plethein",
+        "origin": "Greek",
+        "meaning": "to be full"
+      }
+    ],
+    "literal": "fullness, overfullness",
+    "path": "Greek plethore first named a medical condition of having too much blood, an overfullness. The word broadened to mean any excessive amount of anything.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pliant": {
+    "parts": [
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold, bend"
+      }
+    ],
+    "literal": "folding, bendable",
+    "path": "Latin plicare meant to fold. Something pliant bends and folds easily, whether cloth bending in the hand or a person's will bending under pressure.",
+    "cousins": [
+      "comply",
+      "apply",
+      "reply",
+      "duplicate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "plod": {
+    "parts": [
+      {
+        "piece": "plod",
+        "origin": "unknown (probably imitative)",
+        "meaning": "a heavy, dragging step"
+      }
+    ],
+    "literal": "a dull, heavy footfall",
+    "path": "Plod is of uncertain origin, likely imitative of the dull sound of trudging feet. It has always meant to walk or work slowly and doggedly.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "plodding": {
+    "parts": [
+      {
+        "piece": "plod",
+        "origin": "unknown (probably imitative)",
+        "meaning": "a heavy, dragging step"
+      }
+    ],
+    "literal": "moving in dull, heavy steps",
+    "path": "Built from plod, itself likely an imitation of trudging footsteps, plodding describes work or movement that is slow and unimaginative but steady.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "ploy": {
+    "parts": [
+      {
+        "piece": "ploy",
+        "origin": "uncertain (perhaps from employ or deploy)",
+        "meaning": "an undertaking"
+      }
+    ],
+    "literal": "an undertaking or maneuver (origin disputed)",
+    "path": "Ploy's origin is genuinely uncertain: it may be a clipped form of employ, or linked to deploy. The modern sense of a cunning tactic only became common in the 20th century.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "plucky": {
+    "parts": [
+      {
+        "piece": "pluck",
+        "origin": "Old English",
+        "meaning": "to pull; later, courage/spirit"
+      }
+    ],
+    "literal": "having pluck, guts",
+    "path": "Pluck first named the heart and innards of a slaughtered animal, the parts pulled out. By the 1800s pluck had come to mean courage or spirit, and plucky described someone who showed it.",
+    "cousins": [
+      "pluck",
+      "pull"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "plumb": {
+    "parts": [
+      {
+        "piece": "plumbum",
+        "origin": "Latin",
+        "meaning": "lead (the metal)"
+      }
+    ],
+    "literal": "to measure with a lead weight",
+    "path": "A plumb line was a cord weighted with lead, used to measure depth or check vertical alignment. To plumb something is to sound its depths the way sailors used a lead weight to measure water.",
+    "cousins": [
+      "plummet"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "plummet": {
+    "parts": [
+      {
+        "piece": "plomet",
+        "origin": "Old French",
+        "meaning": "sounding lead, plumb line (from plom, lead)"
+      }
+    ],
+    "literal": "to drop like a lead weight",
+    "path": "A plummet was originally a small lead weight used like a plumb line. Because such a weight drops straight down fast, the word became a verb for falling steeply and suddenly.",
+    "cousins": [
+      "plumb",
+      "plumber"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "plus": {
+    "parts": [
+      {
+        "piece": "plus",
+        "origin": "Latin",
+        "meaning": "more"
+      }
+    ],
+    "literal": "more",
+    "path": "Latin plus simply meant 'more.' English borrowed it first as the addition sign, then as a noun for an added benefit, an advantage.",
+    "cousins": [
+      "surplus",
+      "plural"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "plutocracy": {
+    "parts": [
+      {
+        "piece": "ploutos",
+        "origin": "Greek",
+        "meaning": "wealth"
+      },
+      {
+        "piece": "-kratia",
+        "origin": "Greek",
+        "meaning": "rule, power (from kratos, strength)"
+      }
+    ],
+    "literal": "rule by wealth",
+    "path": "Greek ploutos meant wealth and kratos meant power. A plutocracy is government run by, and for, the rich.",
+    "cousins": [
+      "democracy",
+      "aristocracy",
+      "autocracy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "podium": {
+    "parts": [
+      {
+        "piece": "pod-/pous",
+        "origin": "Greek",
+        "meaning": "foot"
+      }
+    ],
+    "literal": "a little foot, a base",
+    "path": "Greek podion, a 'little foot,' named a raised base or pedestal. Latin podium extended this to an elevated platform, the podium a speaker stands on.",
+    "cousins": [
+      "tripod",
+      "octopus",
+      "podiatrist"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "poignancy": {
+    "parts": [
+      {
+        "piece": "pungere",
+        "origin": "Latin",
+        "meaning": "to prick, pierce, sting"
+      }
+    ],
+    "literal": "piercing quality",
+    "path": "Built on Latin pungere, to prick or stab, poignancy is the quality of an experience that pierces you emotionally, a sharp sting of feeling.",
+    "cousins": [
+      "pungent",
+      "puncture",
+      "point"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "poignant": {
+    "parts": [
+      {
+        "piece": "pungere",
+        "origin": "Latin",
+        "meaning": "to prick, pierce, sting"
+      }
+    ],
+    "literal": "piercing, stinging",
+    "path": "Latin pungere meant to prick or stab. A poignant memory or scene pierces you emotionally, a sharp sting that is often sad.",
+    "cousins": [
+      "pungent",
+      "puncture",
+      "point"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "poise": {
+    "parts": [
+      {
+        "piece": "pendere",
+        "origin": "Latin",
+        "meaning": "to weigh, hang"
+      }
+    ],
+    "literal": "weight, balance",
+    "path": "Poise comes from an Old French word for weight, itself from Latin pendere, to weigh or hang in balance. A poised person carries themselves evenly, weighted and steady.",
+    "cousins": [
+      "pendant",
+      "suspend",
+      "compensate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "polarize": {
+    "parts": [
+      {
+        "piece": "polos",
+        "origin": "Greek",
+        "meaning": "pivot, axis"
+      }
+    ],
+    "literal": "to push toward opposite poles",
+    "path": "Greek polos named the axis a sphere turns on, giving us the North and South poles. To polarize a group is to push its members toward two opposite extremes.",
+    "cousins": [
+      "pole",
+      "polar"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "polarized": {
+    "parts": [
+      {
+        "piece": "polos",
+        "origin": "Greek",
+        "meaning": "pivot, axis"
+      }
+    ],
+    "literal": "pushed toward opposite poles",
+    "path": "From the same root as pole, polarized describes a group or opinion that has split apart into two opposing extremes.",
+    "cousins": [
+      "pole",
+      "polar"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "polemic": {
+    "parts": [
+      {
+        "piece": "polemos",
+        "origin": "Greek",
+        "meaning": "war"
+      }
+    ],
+    "literal": "warlike argument",
+    "path": "Greek polemos meant war. A polemic treats argument as combat, a fierce written or spoken attack rather than a calm debate.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "polemical": {
+    "parts": [
+      {
+        "piece": "polemos",
+        "origin": "Greek",
+        "meaning": "war"
+      }
+    ],
+    "literal": "of warlike argument",
+    "path": "Sharing its root with polemic and Greek polemos, war, polemical describes writing or speech that attacks its target combatively rather than reasoning calmly.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "policy": {
+    "parts": [
+      {
+        "piece": "polis",
+        "origin": "Greek",
+        "meaning": "city, city-state"
+      }
+    ],
+    "literal": "civil administration",
+    "path": "Greek polis meant city-state, and politeia was its governance. Policy narrowed to a deliberate course of action a government or organization adopts to manage its affairs.",
+    "cousins": [
+      "politics",
+      "police",
+      "metropolis"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "politic": {
+    "parts": [
+      {
+        "piece": "polis",
+        "origin": "Greek",
+        "meaning": "city, city-state"
+      }
+    ],
+    "literal": "statesmanlike, of civic affairs",
+    "path": "From the same root as politics, the art of running a city, politic describes behavior that is prudent and shrewd about the circumstances, the way a skilled statesman would act.",
+    "cousins": [
+      "police"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "polity": {
+    "parts": [
+      {
+        "piece": "polis",
+        "origin": "Greek",
+        "meaning": "city, city-state"
+      }
+    ],
+    "literal": "an organized civic body",
+    "path": "Sharing its root with policy and politics, polity names an organized political community with its own system of government.",
+    "cousins": [
+      "politics",
+      "police"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pollyannaish": {
+    "parts": [
+      {
+        "piece": "Pollyanna",
+        "origin": "eponym (English)",
+        "meaning": "title character of Eleanor Porter's 1913 novel"
+      }
+    ],
+    "literal": "like the character Pollyanna",
+    "path": "Pollyanna was the heroine of a 1913 novel, famous for finding something to be glad about in every misfortune. Pollyannaish describes optimism so relentless it seems naive.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "polyglot": {
+    "parts": [
+      {
+        "piece": "poly-",
+        "origin": "Greek",
+        "meaning": "many"
+      },
+      {
+        "piece": "glotta",
+        "origin": "Greek",
+        "meaning": "tongue, language"
+      }
+    ],
+    "literal": "many-tongued",
+    "path": "Greek combined poly, many, with glotta, tongue, to describe someone fluent in many languages, literally many-tongued.",
+    "cousins": [
+      "polygon",
+      "polygamy",
+      "epiglottis"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "polymath": {
+    "parts": [
+      {
+        "piece": "poly-",
+        "origin": "Greek",
+        "meaning": "many"
+      },
+      {
+        "piece": "manthanein",
+        "origin": "Greek",
+        "meaning": "to learn"
+      }
+    ],
+    "literal": "having learned much",
+    "path": "Greek polymathes combined poly, many, with manthanein, to learn, describing someone whose knowledge spans many fields.",
+    "cousins": [
+      "mathematics",
+      "polygon"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "pomp": {
+    "parts": [
+      {
+        "piece": "pompe",
+        "origin": "Greek",
+        "meaning": "solemn procession, escort (from pempein, to send)"
+      }
+    ],
+    "literal": "a ceremonial procession",
+    "path": "Greek pompe named a solemn processional escort. English kept the sense of grand ceremonial display, pomp and circumstance.",
+    "cousins": [
+      "pompous",
+      "pomposity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pomposity": {
+    "parts": [
+      {
+        "piece": "pompa",
+        "origin": "Latin",
+        "meaning": "procession, display"
+      }
+    ],
+    "literal": "full of ceremonial display",
+    "path": "Sharing its root with pomp, grand procession, pomposity is self-importance paraded the way a procession parades splendor.",
+    "cousins": [
+      "pomp",
+      "pompous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pompous": {
+    "parts": [
+      {
+        "piece": "pompa",
+        "origin": "Latin",
+        "meaning": "procession, display"
+      }
+    ],
+    "literal": "full of display",
+    "path": "Pompous shares its root with pomp, a grand procession. A pompous person parades their own importance the way a ceremony parades splendor.",
+    "cousins": [
+      "pomp",
+      "pomposity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ponderous": {
+    "parts": [
+      {
+        "piece": "pondus",
+        "origin": "Latin",
+        "meaning": "weight (from pendere, to weigh)"
+      }
+    ],
+    "literal": "weighty",
+    "path": "Latin pondus meant weight. Something ponderous is so heavy, in body or in style, that it moves and unfolds slowly and laboriously.",
+    "cousins": [
+      "ponder",
+      "pound",
+      "preponderance"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pontifical": {
+    "parts": [
+      {
+        "piece": "pontifex",
+        "origin": "Latin",
+        "meaning": "high priest (traditionally 'bridge-builder', pons + facere, though this derivation is disputed)"
+      }
+    ],
+    "literal": "of a high priest or pope",
+    "path": "A pontifex was Rome's high priest, an office later given to the Pope, or pontiff. Pontifical first meant relating to a pope or bishop, then broadened to speech delivered with that same self-important, decree-like authority.",
+    "cousins": [
+      "pontiff"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pontificate": {
+    "parts": [
+      {
+        "piece": "pontifex",
+        "origin": "Latin",
+        "meaning": "high priest, pontiff"
+      }
+    ],
+    "literal": "to act as a high priest",
+    "path": "Pontificate originally meant to perform the office of a bishop or pope. It came to describe anyone who lays down opinions with that same self-important, priestly authority.",
+    "cousins": [
+      "pontiff",
+      "pontifical"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "populist": {
+    "parts": [
+      {
+        "piece": "populus",
+        "origin": "Latin",
+        "meaning": "the people"
+      }
+    ],
+    "literal": "of the people",
+    "path": "Latin populus meant the people as a whole. A populist appeals directly to ordinary people, positioning themselves against elites.",
+    "cousins": [
+      "population",
+      "popular"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "porous": {
+    "parts": [
+      {
+        "piece": "poros",
+        "origin": "Greek",
+        "meaning": "passage, pore"
+      }
+    ],
+    "literal": "full of passages",
+    "path": "Greek poros meant a passage or channel. Something porous is riddled with tiny passages that let liquid or air pass through.",
+    "cousins": [
+      "pore"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "portend": {
+    "parts": [
+      {
+        "piece": "por-",
+        "origin": "Latin",
+        "meaning": "forth (variant of pro-)"
+      },
+      {
+        "piece": "tendere",
+        "origin": "Latin",
+        "meaning": "to stretch"
+      }
+    ],
+    "literal": "to stretch forth a sign",
+    "path": "Latin portendere meant to stretch forth or point out in advance. To portend something is to extend a sign of what is coming.",
+    "cousins": [
+      "tend",
+      "tendency",
+      "extend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

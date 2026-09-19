@@ -1,0 +1,1016 @@
+{
+  "nuance": {
+    "parts": [
+      {
+        "piece": "nuer",
+        "origin": "French",
+        "meaning": "to shade (from nue, cloud, Latin nubes)"
+      }
+    ],
+    "literal": "shading, cloud-shading",
+    "path": "French nuer meant to shade colors gradually into each other, from nue, cloud, the way cloud colors blend. Nuance kept that sense of a fine gradation, a subtle shade of difference in meaning.",
+    "cousins": [
+      "nebula"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "nullify": {
+    "parts": [
+      {
+        "piece": "nullus",
+        "origin": "Latin",
+        "meaning": "none, not any"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "to make nothing",
+    "path": "Latin nullus (none) combined with facere (to make) gives nullify: to make something count as nothing, voiding its legal force.",
+    "cousins": [
+      "null",
+      "annul"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "numinous": {
+    "parts": [
+      {
+        "piece": "numen",
+        "origin": "Latin",
+        "meaning": "divine will, nod of approval"
+      }
+    ],
+    "literal": "carrying a divine nod",
+    "path": "Latin numen named the divine power or will, imagined as a god's nod of assent. Numinous describes anything that carries that felt sense of a hidden divine presence.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "obdurate": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "thoroughly (intensive)"
+      },
+      {
+        "piece": "durare",
+        "origin": "Latin",
+        "meaning": "to harden (durus, hard)"
+      }
+    ],
+    "literal": "hardened thoroughly",
+    "path": "Latin durus meant hard; obdurare, intensified with ob-, meant to harden completely. Obdurate describes someone hardened against persuasion, stubbornly refusing to change.",
+    "cousins": [
+      "durable",
+      "endure",
+      "duration"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obeisance": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "toward"
+      },
+      {
+        "piece": "audire",
+        "origin": "Latin",
+        "meaning": "to hear"
+      }
+    ],
+    "literal": "hearing toward, obeying",
+    "path": "Latin oboedire, to obey, literally meant to listen or hearken toward someone. Obeisance kept the sense of a gesture, like a bow, showing that submissive, respectful hearing.",
+    "cousins": [
+      "obey",
+      "audible",
+      "audience"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "obfuscate": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "over"
+      },
+      {
+        "piece": "fuscare",
+        "origin": "Latin",
+        "meaning": "to darken (fuscus, dark)"
+      }
+    ],
+    "literal": "to darken over",
+    "path": "Latin fuscus meant dark or dusky; obfuscare, to darken over, described casting something into shadow. Obfuscate kept that image: to deliberately darken understanding, making something unclear.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "objective": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "toward, before"
+      },
+      {
+        "piece": "iacere",
+        "origin": "Latin",
+        "meaning": "to throw"
+      }
+    ],
+    "literal": "thrown before (the mind)",
+    "path": "Latin obicere meant to throw something in front of, to present it as an object. Objective describes something existing out there as a presented fact, independent of the observer's personal feelings.",
+    "cousins": [
+      "project",
+      "reject"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "objurgate": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "jurgare",
+        "origin": "Latin",
+        "meaning": "to quarrel, dispute at law (ius, law)"
+      }
+    ],
+    "literal": "to dispute against",
+    "path": "Latin jurgare meant to quarrel or argue, often in a legal sense; adding ob- (against) gives objurgare, to scold sharply. English objurgate kept the sense of a severe, formal rebuke.",
+    "cousins": [
+      "jury",
+      "justice"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obliging": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "toward"
+      },
+      {
+        "piece": "ligare",
+        "origin": "Latin",
+        "meaning": "to bind, tie"
+      }
+    ],
+    "literal": "binding toward (a duty)",
+    "path": "Latin obligare meant to bind someone by a duty or favor. Obliging describes someone eager to bind themselves to helping others, willingly doing favors.",
+    "cousins": [
+      "ligament",
+      "league"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "oblique": {
+    "parts": [
+      {
+        "piece": "obliquus",
+        "origin": "Latin",
+        "meaning": "slanting, sidelong"
+      }
+    ],
+    "literal": "slanting, sidelong",
+    "path": "Latin obliquus described a slanting, indirect angle, neither straight nor level. Oblique extended that spatial sense to indirect, evasive speech or approach that doesn't go straight at its point.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "oblivious": {
+    "parts": [
+      {
+        "piece": "oblivisci",
+        "origin": "Latin",
+        "meaning": "to forget"
+      }
+    ],
+    "literal": "forgetting, smoothed over",
+    "path": "Latin oblivisci meant to forget, possibly picturing memory being smoothed or wiped away like writing on a wax tablet. Oblivious describes someone whose awareness has been wiped clean, completely unaware.",
+    "cousins": [
+      "oblivion"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obloquy": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "loqui",
+        "origin": "Latin",
+        "meaning": "to speak"
+      }
+    ],
+    "literal": "speaking against",
+    "path": "Latin loqui, to speak, combined with ob- (against) gives obloquium, speech directed against someone. Obloquy kept that sense: harsh, condemning public speech aimed at a person's reputation.",
+    "cousins": [
+      "eloquent",
+      "loquacious",
+      "colloquial"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obscure": {
+    "parts": [
+      {
+        "piece": "obscurus",
+        "origin": "Latin",
+        "meaning": "dark, shaded"
+      }
+    ],
+    "literal": "dark, covered over",
+    "path": "Latin obscurus meant dark or covered in shadow. The verb obscure kept that sense: to cover something over so it can't be clearly seen or understood.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obsequious": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "toward"
+      },
+      {
+        "piece": "sequi",
+        "origin": "Latin",
+        "meaning": "to follow"
+      }
+    ],
+    "literal": "following toward, compliant",
+    "path": "Latin sequi, to follow, combined with ob- (toward) gives obsequi, to comply by following someone's wishes. Obsequious sharpened that: following and pleasing someone to an excessive, fawning degree.",
+    "cousins": [
+      "sequence",
+      "consequence",
+      "pursue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obsolete": {
+    "parts": [
+      {
+        "piece": "obsolescere",
+        "origin": "Latin",
+        "meaning": "to fall into disuse (solere, to be accustomed)"
+      }
+    ],
+    "literal": "worn out of use",
+    "path": "Latin obsolescere meant to fall into disuse, to wear out from lack of habitual use. Obsolete describes something that has worn out of common use, no longer useful.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obstinate": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "standing firmly against",
+    "path": "Latin obstinare meant to stand firm, to persist in a position. Obstinate kept that image: someone standing their ground, stubbornly refusing to change course.",
+    "cousins": [
+      "stand",
+      "stable",
+      "station"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obstreperous": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "strepere",
+        "origin": "Latin",
+        "meaning": "to make a noise"
+      }
+    ],
+    "literal": "making noise against",
+    "path": "Latin strepere, to make noise, combined with ob- (against) gives obstrepere, to clamor loudly against something. Obstreperous kept that sense: noisily and stubbornly resisting control.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obstructionist": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "struere",
+        "origin": "Latin",
+        "meaning": "to build, pile"
+      }
+    ],
+    "literal": "one who builds against, blocks",
+    "path": "Latin struere, to build, combined with ob- (against) gives obstruere, to block by building in the way. An obstructionist deliberately piles up obstacles to block progress.",
+    "cousins": [
+      "structure",
+      "construct",
+      "instruct"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obtain": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "toward, intensive"
+      },
+      {
+        "piece": "tenere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "to hold onto firmly",
+    "path": "Latin tenere, to hold, combined with ob- (intensive) gives obtinere, to hold firmly, to gain possession. English obtain kept the sense of acquiring, and a secondary sense of a rule holding in force.",
+    "cousins": [
+      "tenant",
+      "contain",
+      "maintain"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "obtrude": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "toward"
+      },
+      {
+        "piece": "trudere",
+        "origin": "Latin",
+        "meaning": "to thrust, push"
+      }
+    ],
+    "literal": "to thrust toward",
+    "path": "Latin trudere, to thrust or push, combined with ob- (toward) gives obtrudere, to push something forcibly at someone. Obtrude kept that sense: to impose oneself where unwelcome.",
+    "cousins": [
+      "intrude",
+      "extrude",
+      "protrude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obtuse": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "tundere",
+        "origin": "Latin",
+        "meaning": "to beat, strike"
+      }
+    ],
+    "literal": "beaten blunt",
+    "path": "Latin tundere, to beat or pound, combined with ob- (against) gives obtundere, to blunt something by repeated beating. Obtuse first described a blunt angle, then a mind that is blunt, slow to understand.",
+    "cousins": [
+      "contusion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "obviate": {
+    "parts": [
+      {
+        "piece": "ob",
+        "origin": "Latin",
+        "meaning": "against, toward"
+      },
+      {
+        "piece": "via",
+        "origin": "Latin",
+        "meaning": "way, road"
+      }
+    ],
+    "literal": "to come in the way of",
+    "path": "Latin ob via, literally in the way, gave obviare, to block something by getting in its path before it arrives. Obviate kept that sense: to head off a problem in advance, removing the need to deal with it.",
+    "cousins": [
+      "via",
+      "voyage",
+      "deviate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "occlude": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "over, against"
+      },
+      {
+        "piece": "claudere",
+        "origin": "Latin",
+        "meaning": "to close, shut"
+      }
+    ],
+    "literal": "to shut up completely",
+    "path": "Latin claudere, to close, combined with the intensive ob- gives occludere, to shut something up entirely. Occlude kept that sense: to block or obstruct a passage completely.",
+    "cousins": [
+      "close",
+      "conclude",
+      "exclude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "occult": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "over"
+      },
+      {
+        "piece": "celare",
+        "origin": "Latin",
+        "meaning": "to hide"
+      }
+    ],
+    "literal": "hidden, covered over",
+    "path": "Latin occulere, to hide completely, built from ob- (over) and a root meaning to cover or conceal. Occult describes what's deliberately hidden from ordinary knowledge, associated with secret or supernatural practices.",
+    "cousins": [
+      "conceal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "odious": {
+    "parts": [
+      {
+        "piece": "odium",
+        "origin": "Latin",
+        "meaning": "hatred"
+      }
+    ],
+    "literal": "hateful",
+    "path": "Latin odium meant hatred; odiosus described anything that provokes it. English odious kept that sense: extremely unpleasant, repulsive enough to be hated.",
+    "cousins": [
+      "odium",
+      "annoy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "odium": {
+    "parts": [
+      {
+        "piece": "odium",
+        "origin": "Latin",
+        "meaning": "hatred"
+      }
+    ],
+    "literal": "hatred",
+    "path": "Latin odium named hatred or intense dislike directly. English kept it whole: widespread hatred or disgust directed at someone.",
+    "cousins": [
+      "odious",
+      "annoy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "offhand": {
+    "parts": [
+      {
+        "piece": "off",
+        "origin": "Old English",
+        "meaning": "off"
+      },
+      {
+        "piece": "hand",
+        "origin": "Old English",
+        "meaning": "hand"
+      }
+    ],
+    "literal": "off the hand",
+    "path": "A native English compound picturing something done straight off the hand, without setup or forethought, hence casual and unprepared.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "officious": {
+    "parts": [
+      {
+        "piece": "officium",
+        "origin": "Latin",
+        "meaning": "duty, service (opus, work + facere, to do)"
+      }
+    ],
+    "literal": "full of duty, dutifully helpful",
+    "path": "Latin officium meant duty or service; officiosus originally meant dutifully helpful. The sense soured in English: officious now means meddling with unwanted, self-important helpfulness.",
+    "cousins": [
+      "office",
+      "official",
+      "efficient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "offset": {
+    "parts": [
+      {
+        "piece": "off",
+        "origin": "Old English",
+        "meaning": "off"
+      },
+      {
+        "piece": "set",
+        "origin": "Old English",
+        "meaning": "to set"
+      }
+    ],
+    "literal": "to set off against",
+    "path": "A native compound: to set something off against something else so the two balance out, one counteracting the other.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "olfactory": {
+    "parts": [
+      {
+        "piece": "olere",
+        "origin": "Latin",
+        "meaning": "to smell"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make, do"
+      }
+    ],
+    "literal": "making smell, perceiving smell",
+    "path": "Latin olere, to smell, combined with facere (to do) gives olfacere, to perceive by smell. Olfactory simply means relating to the sense of smell.",
+    "cousins": [
+      "odor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ominous": {
+    "parts": [
+      {
+        "piece": "omen",
+        "origin": "Latin",
+        "meaning": "omen, sign"
+      }
+    ],
+    "literal": "full of omens",
+    "path": "Latin omen named a sign taken to foretell the future, often an ill one. Ominous describes anything that carries such a sign, suggesting bad things to come.",
+    "cousins": [
+      "omen"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "omnipresent": {
+    "parts": [
+      {
+        "piece": "omnis",
+        "origin": "Latin",
+        "meaning": "all"
+      },
+      {
+        "piece": "praesens",
+        "origin": "Latin",
+        "meaning": "present, being at hand"
+      }
+    ],
+    "literal": "present everywhere",
+    "path": "Latin omnis (all) combined with present names something existing at all places simultaneously, a term originally used of God's presence in theology.",
+    "cousins": [
+      "omnipotent",
+      "omniscient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "omniscience": {
+    "parts": [
+      {
+        "piece": "omnis",
+        "origin": "Latin",
+        "meaning": "all"
+      },
+      {
+        "piece": "scientia",
+        "origin": "Latin",
+        "meaning": "knowledge (scire, to know)"
+      }
+    ],
+    "literal": "all-knowledge",
+    "path": "Latin omnis (all) plus scientia (knowledge) names the state of knowing everything, a quality classically attributed to God.",
+    "cousins": [
+      "science",
+      "conscious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "omniscient": {
+    "parts": [
+      {
+        "piece": "omnis",
+        "origin": "Latin",
+        "meaning": "all"
+      },
+      {
+        "piece": "scientia",
+        "origin": "Latin",
+        "meaning": "knowledge (scire, to know)"
+      }
+    ],
+    "literal": "all-knowing",
+    "path": "The adjective form of omniscience (see omniscience): knowing everything.",
+    "cousins": [
+      "science",
+      "conscious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "onerous": {
+    "parts": [
+      {
+        "piece": "onus",
+        "origin": "Latin",
+        "meaning": "load, burden"
+      }
+    ],
+    "literal": "burdensome",
+    "path": "Latin onus meant a load or burden; onerosus described anything weighed down by one. Onerous kept that sense: involving a heavy, oppressive burden of duty or work.",
+    "cousins": [
+      "onus",
+      "exonerate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "onset": {
+    "parts": [
+      {
+        "piece": "on",
+        "origin": "Old English",
+        "meaning": "on"
+      },
+      {
+        "piece": "set",
+        "origin": "Old English",
+        "meaning": "to set"
+      }
+    ],
+    "literal": "a setting on",
+    "path": "A native compound originally meaning an attack, a setting on an enemy. It broadened to the beginning of anything, especially something unwelcome like an illness or storm.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "opaque": {
+    "parts": [
+      {
+        "piece": "opacus",
+        "origin": "Latin",
+        "meaning": "shaded, dark"
+      }
+    ],
+    "literal": "shaded, dark",
+    "path": "Latin opacus described something cast in shadow, blocking light. Opaque kept that sense of blocking light and extended it to ideas or writing too dark to see through clearly.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "opine": {
+    "parts": [
+      {
+        "piece": "opinari",
+        "origin": "Latin",
+        "meaning": "to think, hold an opinion"
+      }
+    ],
+    "literal": "to hold an opinion",
+    "path": "Latin opinari meant to suppose or hold a belief, the root of opinion. Opine kept that direct sense: to state a view, often with a hint that it's unsolicited.",
+    "cousins": [
+      "opinionated"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "opportunism": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "toward"
+      },
+      {
+        "piece": "portus",
+        "origin": "Latin",
+        "meaning": "harbor, port"
+      }
+    ],
+    "literal": "toward the harbor, favorable",
+    "path": "Latin opportunus described a wind blowing favorably toward the harbor, hence convenient timing. Opportunism took that idea and gave it a negative twist: seizing advantage from circumstances without regard to principle.",
+    "cousins": [
+      "port",
+      "portal",
+      "import"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "oppress": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "premere",
+        "origin": "Latin",
+        "meaning": "to press"
+      }
+    ],
+    "literal": "to press against",
+    "path": "Latin premere, to press, combined with ob- (against) gives opprimere, to press down on, to crush. Oppress kept that sense: to keep people down through the crushing weight of unjust force.",
+    "cousins": [
+      "press",
+      "pressure",
+      "compress"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "opprobrium": {
+    "parts": [
+      {
+        "piece": "ob-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "probrum",
+        "origin": "Latin",
+        "meaning": "shameful act, reproach"
+      }
+    ],
+    "literal": "reproach cast against",
+    "path": "Latin probrum meant a shameful or reproachful act; combined with ob- (against), opprobrium named the disgrace hurled at someone for it. English kept the sense of harsh public condemnation.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "optimal": {
+    "parts": [
+      {
+        "piece": "optimus",
+        "origin": "Latin",
+        "meaning": "best"
+      }
+    ],
+    "literal": "best",
+    "path": "Latin optimus was the superlative form of good, meaning best. Optimal simply describes the best possible option given the circumstances.",
+    "cousins": [
+      "optimum",
+      "optimist"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "optimum": {
+    "parts": [
+      {
+        "piece": "optimus",
+        "origin": "Latin",
+        "meaning": "best"
+      }
+    ],
+    "literal": "best",
+    "path": "Borrowed directly from Latin optimum, the neuter of optimus, best: the most favorable condition or amount.",
+    "cousins": [
+      "optimal",
+      "optimist"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "opulence": {
+    "parts": [
+      {
+        "piece": "ops",
+        "origin": "Latin",
+        "meaning": "power, wealth, resources"
+      }
+    ],
+    "literal": "richness in resources",
+    "path": "Latin ops meant power or wealth, resources at one's disposal. Opulentus described someone overflowing with such riches. Opulence kept that sense of lavish, ostentatious wealth.",
+    "cousins": [
+      "copious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "opulent": {
+    "parts": [
+      {
+        "piece": "ops",
+        "origin": "Latin",
+        "meaning": "power, wealth, resources"
+      }
+    ],
+    "literal": "rich in resources",
+    "path": "The adjective form of opulence (see opulence): luxurious and richly appointed, overflowing with wealth.",
+    "cousins": [
+      "copious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "oration": {
+    "parts": [
+      {
+        "piece": "orare",
+        "origin": "Latin",
+        "meaning": "to speak, plead (os, mouth)"
+      }
+    ],
+    "literal": "a speaking, mouth-work",
+    "path": "Latin orare, to speak or plead, traces to os, mouth. Oratio named the act of formal speaking. English oration kept that sense: a formal, often ceremonial speech.",
+    "cousins": [
+      "oral",
+      "orator",
+      "adore"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "oratorio": {
+    "parts": [
+      {
+        "piece": "orare",
+        "origin": "Latin",
+        "meaning": "to pray"
+      }
+    ],
+    "literal": "place of prayer",
+    "path": "Named after the Italian oratorio, a chapel for prayer (from Latin orare, to pray) where Philip Neri's followers staged musical devotions in the 16th century. Oratorio came to mean the large-scale sacred musical works performed there.",
+    "cousins": [
+      "oral",
+      "orator",
+      "oration"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "ordain": {
+    "parts": [
+      {
+        "piece": "ordo, ordin-",
+        "origin": "Latin",
+        "meaning": "order, rank"
+      }
+    ],
+    "literal": "to set in order",
+    "path": "Latin ordinare meant to arrange things in their proper order or rank. Ordain kept that in two directions: to officially decree something into law, and to formally induct someone into a proper rank or office.",
+    "cousins": [
+      "order",
+      "ordinary",
+      "coordinate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ornate": {
+    "parts": [
+      {
+        "piece": "ornare",
+        "origin": "Latin",
+        "meaning": "to adorn, decorate"
+      }
+    ],
+    "literal": "adorned, decorated",
+    "path": "Latin ornare meant to decorate or equip something splendidly. Ornate kept that direct sense: elaborately, often excessively, decorated.",
+    "cousins": [
+      "ornament",
+      "adorn"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ornery": {
+    "parts": [
+      {
+        "piece": "ordinarius",
+        "origin": "Latin",
+        "meaning": "ordinary, of common rank (ordo, order)"
+      }
+    ],
+    "literal": "ordinary, common",
+    "path": "Ornery began as a slurred American pronunciation of ordinary, first meaning plain or of common, low quality. The sense soured further into bad-tempered and stubbornly difficult.",
+    "cousins": [
+      "order",
+      "ordinary"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  }
+}

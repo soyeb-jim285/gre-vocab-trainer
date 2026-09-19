@@ -1,0 +1,452 @@
+{
+  "desultory": {
+    "parts": [{"piece": "desultor", "origin": "Latin", "meaning": "a circus rider who leaps between horses"}],
+    "literal": "leaping from horse to horse",
+    "path": "A desultor was a Roman circus performer who jumped from the back of one galloping horse to another. Desultory behavior jumps the same way between topics or tasks, with no fixed method.",
+    "cousins": ["salient", "exult", "result"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "detached": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "away, undo"}, {"piece": "tache", "origin": "Frankish", "meaning": "nail, fastener"}],
+    "literal": "unfastened",
+    "path": "To be detached is to be unfastened from something, whether physically separate or, by extension, emotionally unattached.",
+    "cousins": ["attach", "attachment"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "detachment": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "away, undo"}, {"piece": "tache", "origin": "Frankish", "meaning": "nail, fastener"}],
+    "literal": "unfastening",
+    "path": "Same root as detached: detachment is the state of being unfastened from a situation, viewing it with emotional distance.",
+    "cousins": ["attach"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "detente": {
+    "parts": [{"piece": "detendre", "origin": "French", "meaning": "to release, relax"}],
+    "literal": "a loosening of tension",
+    "path": "From tendre, 'to stretch,' the same root as 'tense.' A detente is the release of a stretched, tense relationship between rivals.",
+    "cousins": ["tense", "extend", "tension"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "deter": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "away"}, {"piece": "terrere", "origin": "Latin", "meaning": "to frighten"}],
+    "literal": "to frighten away",
+    "path": "From terrere, 'to frighten,' the root of 'terror.' To deter someone is to frighten them away from acting.",
+    "cousins": ["terror", "terrify", "terrible"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "determinant": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "thoroughly"}, {"piece": "terminare", "origin": "Latin", "meaning": "to limit, bound"}],
+    "literal": "that which bounds thoroughly",
+    "path": "From terminus, 'boundary.' A determinant is the factor that sets the final bound on an outcome, deciding it.",
+    "cousins": ["terminal", "terminate", "term"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "deterrent": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "away"}, {"piece": "terrere", "origin": "Latin", "meaning": "to frighten"}],
+    "literal": "something that frightens away",
+    "path": "Same root as deter: a deterrent frightens someone off from taking an action.",
+    "cousins": ["terror", "terrify"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "detraction": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "down, away"}, {"piece": "trahere", "origin": "Latin", "meaning": "to draw, pull"}],
+    "literal": "a drawing down or away",
+    "path": "From trahere, 'to pull.' Detraction pulls something down, away from its due credit, by belittling it.",
+    "cousins": ["traction", "extract", "attract"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "detrimental": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "away"}, {"piece": "terere", "origin": "Latin", "meaning": "to rub, wear"}],
+    "literal": "worn away",
+    "path": "From terere, 'to rub, wear down.' Something detrimental wears away at whatever it affects, causing harm.",
+    "cousins": ["attrition", "trite"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "deviance": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "away"}, {"piece": "via", "origin": "Latin", "meaning": "road, way"}],
+    "literal": "off the road",
+    "path": "From via, 'road.' Deviance is a straying off the accepted path, a departure from the expected route of behavior.",
+    "cousins": ["via", "voyage", "previous"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "deviate": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "away"}, {"piece": "via", "origin": "Latin", "meaning": "road, way"}],
+    "literal": "to go off the road",
+    "path": "Same root as deviance: to deviate is to leave the established road or course.",
+    "cousins": ["via", "voyage"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "deviation": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "away"}, {"piece": "via", "origin": "Latin", "meaning": "road, way"}],
+    "literal": "a going off the road",
+    "path": "Same root as deviate: a deviation is a departure from the established course or standard.",
+    "cousins": ["via", "voyage"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "device": {
+    "parts": [{"piece": "deviser", "origin": "Old French", "meaning": "to divide, arrange, contrive"}],
+    "literal": "an arrangement, a contrivance",
+    "path": "From Latin dividere, 'to divide.' A device is something devised, arranged or contrived, whether a physical tool or a clever scheme.",
+    "cousins": ["divide", "division", "devise"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "devolve": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "down"}, {"piece": "volvere", "origin": "Latin", "meaning": "to roll"}],
+    "literal": "to roll down",
+    "path": "From volvere, 'to roll.' Power or a situation that devolves is pictured rolling downward, either passed down a chain of authority or rolling downhill into decline.",
+    "cousins": ["evolve", "revolve", "volume"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "diabolic": {
+    "parts": [{"piece": "dia-", "origin": "Greek", "meaning": "across"}, {"piece": "ballein", "origin": "Greek", "meaning": "to throw"}],
+    "literal": "throwing across, slandering",
+    "path": "The Devil's Greek name, diabolos, meant 'slanderer,' one who throws accusations across at someone. Diabolic keeps that sense of devilish wickedness.",
+    "cousins": ["symbol", "problem", "ballistic"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "diabolical": {
+    "parts": [{"piece": "dia-", "origin": "Greek", "meaning": "across"}, {"piece": "ballein", "origin": "Greek", "meaning": "to throw"}],
+    "literal": "throwing across, slandering",
+    "path": "Same root as diabolic: describes wickedness fiendish and clever enough to be worthy of the Devil himself.",
+    "cousins": ["symbol", "problem", "ballistic"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "diadem": {
+    "parts": [{"piece": "dia-", "origin": "Greek", "meaning": "across, around"}, {"piece": "dein", "origin": "Greek", "meaning": "to bind"}],
+    "literal": "something bound around",
+    "path": "A diadem was originally a cloth band bound around the head as a mark of royalty, later a jeweled crown or headband.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "diaphanous": {
+    "parts": [{"piece": "dia-", "origin": "Greek", "meaning": "through"}, {"piece": "phainein", "origin": "Greek", "meaning": "to show, appear"}],
+    "literal": "showing through",
+    "path": "From phainein, 'to show,' the same root as 'phenomenon.' Something diaphanous is so light and fine that light shows straight through it.",
+    "cousins": ["phenomenon", "fantasy", "phase"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "diatribe": {
+    "parts": [{"piece": "dia-", "origin": "Greek", "meaning": "thoroughly"}, {"piece": "tribein", "origin": "Greek", "meaning": "to rub, wear away"}],
+    "literal": "a wearing away, a spent discourse",
+    "path": "Originally a scholarly lecture or extended discussion, a way of 'wearing away' the time. English narrowed it sharply to a specifically bitter, abusive verbal attack.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "dichotomy": {
+    "parts": [{"piece": "dikho-", "origin": "Greek", "meaning": "in two, apart"}, {"piece": "temnein", "origin": "Greek", "meaning": "to cut"}],
+    "literal": "a cutting in two",
+    "path": "From temnein, 'to cut,' the root of 'atom' (uncuttable) and 'tome.' A dichotomy cuts a whole cleanly into two opposed parts.",
+    "cousins": ["anatomy", "atom", "epitome"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dictate": {
+    "parts": [{"piece": "dictare", "origin": "Latin", "meaning": "to say repeatedly, prescribe"}],
+    "literal": "to say with authority",
+    "path": "From dicere, 'to say.' To dictate is to speak with the authority to command what must be done or written.",
+    "cousins": ["dictionary", "diction", "edict", "verdict"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dictatorial": {
+    "parts": [{"piece": "dicere", "origin": "Latin", "meaning": "to say"}],
+    "literal": "of one who says (and must be obeyed)",
+    "path": "From the same root as dictate: dictatorial behavior speaks with absolute, unchallengeable authority.",
+    "cousins": ["dictionary", "diction", "verdict"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dictum": {
+    "parts": [{"piece": "dicere", "origin": "Latin", "meaning": "to say"}],
+    "literal": "a thing said",
+    "path": "Simply Latin for 'something said,' now an authoritative statement or pronouncement.",
+    "cousins": ["dictionary", "diction", "edict"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "didactic": {
+    "parts": [{"piece": "didaskein", "origin": "Greek", "meaning": "to teach"}],
+    "literal": "teaching",
+    "path": "Straight from the Greek verb for teaching. Didactic keeps the sense of instructing, usually with the negative shade of doing so heavy-handedly.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "differentiate": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "ferre", "origin": "Latin", "meaning": "to carry"}],
+    "literal": "to carry apart",
+    "path": "From the same root as 'different.' To differentiate is to carry two things apart conceptually, marking what separates them.",
+    "cousins": ["defer", "transfer", "refer"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "diffidence": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "not, apart"}, {"piece": "fidere", "origin": "Latin", "meaning": "to trust"}],
+    "literal": "lack of trust",
+    "path": "From fidere, 'to trust,' the root of 'confide' and 'fidelity.' Diffidence is a lack of trust in oneself, shyness born of self-doubt.",
+    "cousins": ["confide", "confident", "fidelity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "diffident": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "not, apart"}, {"piece": "fidere", "origin": "Latin", "meaning": "to trust"}],
+    "literal": "not trusting",
+    "path": "Same root as diffidence: a diffident person lacks trust in their own abilities.",
+    "cousins": ["confide", "confident", "fidelity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "diffuse": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "fundere", "origin": "Latin", "meaning": "to pour"}],
+    "literal": "poured apart",
+    "path": "From fundere, 'to pour.' Something diffuse has been poured out widely rather than concentrated, whether light, gas, or an argument's focus.",
+    "cousins": ["fuse", "transfuse", "refund"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "digress": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "gradi", "origin": "Latin", "meaning": "to walk, step"}],
+    "literal": "to step apart",
+    "path": "From gradus, 'a step.' To digress is to step away from the main path of a subject into a side topic.",
+    "cousins": ["grade", "gradual", "progress"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "digression": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "gradi", "origin": "Latin", "meaning": "to walk, step"}],
+    "literal": "a stepping apart",
+    "path": "Same root as digress: a digression steps away from the main subject temporarily.",
+    "cousins": ["grade", "gradual", "progress"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dilapidated": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "lapis", "origin": "Latin", "meaning": "stone"}],
+    "literal": "with stones scattered apart",
+    "path": "Originally meant to squander or waste, pictured as scattering a building's stones apart. It settled into describing a structure left to crumble into disrepair.",
+    "cousins": ["lapidary"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dilate": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "latus", "origin": "Latin", "meaning": "wide, broad"}],
+    "literal": "to make wide apart",
+    "path": "From latus, 'wide.' To dilate is to widen, whether a pupil expanding or a speaker widening out into a long-winded explanation.",
+    "cousins": ["latitude"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dilatory": {
+    "parts": [{"piece": "differre", "origin": "Latin", "meaning": "to put off, delay"}],
+    "literal": "putting off, delaying",
+    "path": "Despite its look-alike spelling, this traces not to 'dilate' (widen) but to differre, 'to postpone,' the same verb behind 'defer' and 'differ.' Dilatory behavior keeps putting things off.",
+    "cousins": ["defer", "differ", "transfer"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dilettante": {
+    "parts": [{"piece": "dilettare", "origin": "Italian", "meaning": "to delight"}],
+    "literal": "one who delights (in something)",
+    "path": "From the same root as 'delight' and 'delicious.' A dilettante pursues a subject purely for the pleasure of it, never with the discipline of a serious student.",
+    "cousins": ["delight", "delectable", "delicious"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "diligent": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "legere", "origin": "Latin", "meaning": "to choose, gather"}],
+    "literal": "singling out, prizing highly",
+    "path": "Diligere originally meant to single something out and love or value it highly. That sense of caring deeply about a task became the careful, steady effort we call diligence.",
+    "cousins": ["elect", "select", "collect", "intelligent"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "diminutive": {
+    "parts": [{"piece": "de-", "origin": "Latin", "meaning": "away, down"}, {"piece": "minuere", "origin": "Latin", "meaning": "to lessen"}],
+    "literal": "made lesser",
+    "path": "From minus, 'less.' Something diminutive has been made smaller, down to a strikingly tiny scale.",
+    "cousins": ["minute", "minor", "diminish"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "din": {
+    "parts": [{"piece": "dyne", "origin": "Old English", "meaning": "loud noise, roar"}],
+    "literal": "a roar",
+    "path": "A native Germanic word for a loud, continuous roar or clamor, unchanged in sense across a thousand years.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dingy": {
+    "parts": [{"piece": "dingy", "origin": "unknown", "meaning": "uncertain, perhaps related to 'dung'"}],
+    "literal": "uncertain",
+    "path": "Origin unclear; possibly connected to 'dung' through a sense of griminess. The word has simply meant dirty, drab, and depressing for centuries.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "dint": {
+    "parts": [{"piece": "dynt", "origin": "Old English", "meaning": "a blow, stroke"}],
+    "literal": "a blow",
+    "path": "Originally a literal blow or strike. 'By dint of' originally meant 'by force of blows,' by literally striking or forcing one's way through, later generalized to 'by means of.'",
+    "cousins": ["dent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dirge": {
+    "parts": [{"piece": "dirige", "origin": "Latin", "meaning": "direct! (imperative of dirigere)"}],
+    "literal": "direct! (a command to God)",
+    "path": "Named for 'Dirige, Domine' ('Direct, O Lord'), the opening word of a medieval Latin funeral chant. The word came to mean any mournful song for the dead.",
+    "cousins": ["direct", "direction"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "disabuse": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "undo"}, {"piece": "abusus", "origin": "Latin", "meaning": "misuse"}],
+    "literal": "to undo a misuse",
+    "path": "From the same root as 'abuse,' misusing something. To disabuse someone is to undo their mind's misuse, that is, to correct a mistaken belief.",
+    "cousins": ["abuse", "usage", "utility"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "disaffected": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "not"}, {"piece": "afficere", "origin": "Latin", "meaning": "to influence, act upon"}],
+    "literal": "not favorably influenced toward",
+    "path": "From afficere, 'to act upon, influence.' Someone disaffected is no longer warmly disposed toward a cause or leader, having lost loyalty.",
+    "cousins": ["affect", "effect", "factor"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disapprobation": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "not"}, {"piece": "probare", "origin": "Latin", "meaning": "to test, approve"}],
+    "literal": "not-approval",
+    "path": "From probare, 'to test as good,' the root of 'approve' and 'probable.' Disapprobation is the direct opposite: strong, tested disapproval.",
+    "cousins": ["approve", "probable", "prove"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "discern": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "cernere", "origin": "Latin", "meaning": "to separate, sift"}],
+    "literal": "to sift apart",
+    "path": "From cernere, 'to sift, separate.' To discern something is to sift it apart from the surrounding confusion and perceive it clearly.",
+    "cousins": ["discreet", "discrete", "secret"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "discernible": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "cernere", "origin": "Latin", "meaning": "to separate, sift"}],
+    "literal": "able to be sifted apart and seen",
+    "path": "Same root as discern: something discernible can be sifted out and perceived clearly.",
+    "cousins": ["discreet", "discrete"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "discerning": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart"}, {"piece": "cernere", "origin": "Latin", "meaning": "to separate, sift"}],
+    "literal": "sifting apart",
+    "path": "Same root as discern: a discerning person sifts through details others miss, showing sharp judgment.",
+    "cousins": ["discreet", "discrete"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "discomfit": {
+    "parts": [{"piece": "des-", "origin": "Latin", "meaning": "undo"}, {"piece": "conficere", "origin": "Latin", "meaning": "to make, accomplish"}],
+    "literal": "to undo, defeat utterly",
+    "path": "Originally meant to utterly defeat in battle, to unmake an army's order. The sense softened over centuries to a milder blow: making someone uneasy or embarrassed.",
+    "cousins": ["confection", "perfect", "manufacture"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "discomfiting": {
+    "parts": [{"piece": "des-", "origin": "Latin", "meaning": "undo"}, {"piece": "conficere", "origin": "Latin", "meaning": "to make, accomplish"}],
+    "literal": "undoing, defeating",
+    "path": "Same root as discomfit: something discomfiting delivers that same softened blow, causing unease or embarrassment rather than outright defeat.",
+    "cousins": ["confection", "perfect"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "disconcert": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "apart, undo"}, {"piece": "concertare", "origin": "Italian/Latin", "meaning": "to harmonize, arrange together"}],
+    "literal": "to break harmony",
+    "path": "From the root behind 'concert,' arranging things into harmony. To disconcert someone is to break that harmony, throwing them off balance.",
+    "cousins": ["concert", "concerto"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disconsolate": {
+    "parts": [{"piece": "dis-", "origin": "Latin", "meaning": "not"}, {"piece": "consolari", "origin": "Latin", "meaning": "to console, comfort"}],
+    "literal": "not consoled",
+    "path": "From consolari, 'to comfort.' Someone disconsolate cannot be consoled, sunk in grief no comfort can reach.",
+    "cousins": ["console", "consolation", "solace"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}
