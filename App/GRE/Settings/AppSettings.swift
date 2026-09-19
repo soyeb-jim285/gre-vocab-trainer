@@ -185,7 +185,15 @@ final class AppSettings {
         Pacing.dayStart(containing: date, hour: dayStartHour)
     }
 
-    var scheduler: FSRS { FSRS(desiredRetention: desiredRetention) }
+    /// Intervals stop at the eve of the test: a review booked for after it is
+    /// one that never happens.
+    var scheduler: FSRS {
+        FSRS(
+            desiredRetention: desiredRetention,
+            maximumIntervalDays: Pacing.maximumIntervalDays(until: profile.testDate, from: .now)
+                ?? 36_500
+        )
+    }
 
     func client() -> OpenRouterClient {
         OpenRouterClient(apiKey: KeychainStore.apiKey ?? "")

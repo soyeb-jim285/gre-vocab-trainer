@@ -12,8 +12,26 @@ struct IntroduceCard: View {
     let word: Word
     let accent: SpeechAccent
     let voiceIdentifier: String?
+    /// Whether the meaning is on screen. A word whose parts point at its meaning
+    /// starts hidden: the learner guesses from the parts first, which adds the
+    /// pretest effect to the word-part one.
+    @State private var revealed = false
+
+    private var guessFirst: Bool { word.etymology?.invitesGuess == true && !revealed }
 
     var body: some View {
+        VStack(alignment: .leading, spacing: 24) {
+            if guessFirst, let etymology = word.etymology {
+                GuessCard(word: word, etymology: etymology, accent: accent,
+                          voiceIdentifier: voiceIdentifier) { revealed = true }
+            } else {
+                taught
+            }
+        }
+        .id(word.id)
+    }
+
+    private var taught: some View {
         VStack(alignment: .leading, spacing: 24) {
             VStack(alignment: .leading, spacing: 14) {
                 Text("A new word")
@@ -75,6 +93,10 @@ struct IntroduceCard: View {
                 .cardSurface()
             }
 
+            if let etymology = word.etymology {
+                OriginCard(etymology: etymology)
+            }
+
             MnemonicCard(word: word)
 
             if let synonyms = word.gre?.synonyms, !synonyms.isEmpty {
@@ -89,6 +111,104 @@ struct IntroduceCard: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .cardSurface()
+            }
+        }
+    }
+}
+
+/// The word and its parts, and a question: what might this mean?
+private struct GuessCard: View {
+    let word: Word
+    let etymology: Etymology
+    let accent: SpeechAccent
+    let voiceIdentifier: String?
+    let reveal: () -> Void
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            Text("A new word")
+                .font(Theme.label)
+                .foregroundStyle(Theme.tertiaryText)
+                .textCase(.uppercase)
+            HStack(alignment: .firstTextBaseline, spacing: 12) {
+                Text(word.word)
+                    .font(Theme.headword())
+                    .foregroundStyle(Theme.primaryText)
+                Button {
+                    Speaker.shared.say(word, accent: accent, voiceIdentifier: voiceIdentifier)
+                } label: {
+                    Image(systemName: "speaker.wave.2").foregroundStyle(Theme.accent)
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("Hear \(word.word) pronounced")
+            }
+            PartsList(parts: etymology.parts)
+            Text("Built from these parts, what might it mean? Guess before you look.")
+                .font(Theme.body)
+                .foregroundStyle(Theme.secondaryText)
+            Button("Show the meaning", action: reveal)
+                .buttonStyle(.glassProminent)
+                .font(.headline)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .cardSurface()
+    }
+}
+
+/// How the literal picture became the meaning, and words that share the root.
+struct OriginCard: View {
+    let etymology: Etymology
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("Where it comes from")
+                .font(Theme.label)
+                .foregroundStyle(Theme.tertiaryText)
+                .textCase(.uppercase)
+            PartsList(parts: etymology.parts)
+            Text("Literally, \u{201C}\(etymology.literal)\u{201D}")
+                .font(Theme.definition.italic())
+                .foregroundStyle(Theme.primaryText)
+            Text(etymology.path)
+                .font(Theme.body)
+                .foregroundStyle(Theme.primaryText)
+            // Honest about drift: when the roots do not point at today's
+            // meaning, say so rather than let them mislead.
+            if !etymology.transparent {
+                Text("The parts do not lead straight to today's meaning; the story does.")
+                    .font(.footnote)
+                    .foregroundStyle(Theme.caution)
+            }
+            if !etymology.cousins.isEmpty {
+                Text("Same root: \(etymology.cousins.joined(separator: " · "))")
+                    .font(.footnote)
+                    .foregroundStyle(Theme.secondaryText)
+            }
+            if etymology.confidence == .low {
+                Text("The origin is uncertain.")
+                    .font(.footnote)
+                    .foregroundStyle(Theme.tertiaryText)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .cardSurface()
+    }
+}
+
+struct PartsList: View {
+    let parts: [Etymology.Part]
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            ForEach(Array(parts.enumerated()), id: \.offset) { _, part in
+                HStack(alignment: .firstTextBaseline, spacing: 8) {
+                    Text(part.piece)
+                        .font(Theme.mono)
+                        .foregroundStyle(Theme.accent)
+                    Text("\(part.meaning) (\(part.origin))")
+                        .font(Theme.body)
+                        .foregroundStyle(Theme.primaryText)
+                }
             }
         }
     }

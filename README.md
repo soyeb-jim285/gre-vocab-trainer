@@ -33,8 +33,10 @@ and then building a schedule on the result.
 | Reverse recall | Definition shown, name the word | locally, free |
 | Spelling | Hear it in your chosen accent, type it | locally, free |
 | Define and use | Write a definition and a sentence | a model, via OpenRouter |
+| Quick recall | See the word, think the meaning, reveal, say if you had it | self-rated, capped at Good |
+| Positive or negative | Tap the charge of the tested sense | locally, capped at Hard |
 
-Five of the six work with no API key and no network. Only the writing mode needs
+All but the writing mode work with no API key and no network. Only writing needs
 one, because grading a free-text answer is the one thing a phone cannot do alone.
 
 While a word is still shaky you get recognition. Once it holds, the app asks
@@ -105,6 +107,40 @@ after, in exam-value order, up to what the day allows. On top of that the app
 counts the words currently half-learned and stops introducing more past a cap:
 four if your recent accuracy is under 60%, twelve if it is over 85%, eight
 otherwise. A bad day slows the intake instead of burying you.
+
+## What the research changed
+
+A round of reading the memory literature and the prep market turned into these:
+
+- **Three right answers on day one.** Rawson and Dunlosky's successive
+  relearning: practise to a criterion of three correct recalls, then relearn in
+  spaced sessions. FSRS already did the spacing, but its learning steps graduate
+  a word after two passes, which can be one lucky tap. A word met today now comes
+  back before any new word until it has been got right three times.
+- **Look-alikes only against words you know.** Similar words learned together
+  interfere with each other. The "tell apart" drill used to pair a word with any
+  annotated neighbour, including ones never met; it now only uses neighbours
+  already introduced.
+- **The test date shapes the last weeks.** The final six days are review only
+  (GregMat's forty-day plan ends the same way), and no interval is scheduled past
+  the eve of the test, since a review booked for after the exam never happens.
+  Today shows the plan as "day 12 of 40".
+- **Word origins, guess first.** Every word carries its roots, what they
+  literally say, how that became the tested meaning, and everyday words sharing
+  the root. Where the roots genuinely point at the meaning, the teaching card
+  shows only the parts and asks for a guess before revealing it. Where the
+  meaning drifted, it says so instead of letting the roots mislead.
+- **Quick rounds.** GregMat's pace on per-word scheduling: a self-rated gloss
+  ("Quick recall", Good at best) and a positive/negative/neutral tap (Hard at
+  best, since a third of guesses land). Both only for words already held, and
+  neither introduces new ones.
+- **Predict before the options.** On Text Completion the drill asks for your own
+  word first and says whether it matched, meant the same, or at least pointed
+  the right way.
+- **Coverage, not word count.** Progress shows what share of core words is
+  actually held, and how each of GregMat's 32 groups stands.
+- **One anchor sentence, then variety,** and writing prompts that ask for a
+  sentence about your own life.
 
 ## Order, mastery, and the other two screens
 

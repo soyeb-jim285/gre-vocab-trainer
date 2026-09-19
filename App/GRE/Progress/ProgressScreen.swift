@@ -37,6 +37,7 @@ struct ProgressScreen: View {
             VStack(alignment: .leading, spacing: 26) {
                 StatRow(cards: mastery.cards, catalog: catalog, totalReviews: totalReviews,
                         alreadyKnown: mastery.alreadyKnownIDs.count, mixedUp: mixedUp)
+                CoverageCard(cards: mastery.cards, catalog: catalog)
                 LevelCard(reviews: reviews, spend: spend)
                 if !reviews.isEmpty {
                     AccuracyChart(reviews: reviews)
@@ -329,6 +330,79 @@ private struct CoachCard: View {
                 Button(loading ? "Thinking…" : (coach == nil ? "Ask the coach" : "Ask again"), action: run)
                     .buttonStyle(.glassProminent)
                     .disabled(loading)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .cardSurface()
+    }
+}
+
+/// How much of the likely test vocabulary is actually held, not merely met.
+///
+/// Core words are on three or more prep lists, which is the best available
+/// guess at what the exam uses. GregMat's groups are here for learners who
+/// follow his plan alongside the app.
+private struct CoverageCard: View {
+    let cards: [String: StudyCard]
+    let catalog: WordCatalog
+
+    private struct GroupRow: Identifiable {
+        let number: Int
+        let coverage: Coverage
+        var id: Int { number }
+    }
+
+    private var groups: [GroupRow] {
+        Dictionary(grouping: catalog.words.filter { $0.gregmatGroup != nil }) { $0.gregmatGroup! }
+            .map { GroupRow(number: $0.key, coverage: Coverage(wordIDs: $0.value.map(\.id), cards: cards)) }
+            .sorted { $0.number < $1.number }
+    }
+
+    var body: some View {
+        let core = Coverage(wordIDs: catalog.words(inTier: .core).map(\.id), cards: cards)
+        let all = Coverage(wordIDs: catalog.words.map(\.id), cards: cards)
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Coverage")
+                .font(Theme.label)
+                .foregroundStyle(Theme.tertiaryText)
+                .textCase(.uppercase)
+            HStack(alignment: .firstTextBaseline, spacing: 6) {
+                Text("\(core.percent)%")
+                    .font(Theme.headword())
+                    .foregroundStyle(Theme.accent)
+                    .monospacedDigit()
+                Text("of core words held")
+                    .font(Theme.body)
+                    .foregroundStyle(Theme.secondaryText)
+            }
+            Text("\(core.held) of \(core.total) core words · \(all.held) of \(all.total) overall. Held means past the learning steps and surviving on its own.")
+                .font(.footnote)
+                .foregroundStyle(Theme.tertiaryText)
+
+            if !groups.isEmpty {
+                Text("GregMat groups")
+                    .font(Theme.label)
+                    .foregroundStyle(Theme.tertiaryText)
+                    .textCase(.uppercase)
+                    .padding(.top, 6)
+                LazyVGrid(columns: [GridItem(.adaptive(minimum: 64), spacing: 8)], spacing: 8) {
+                    ForEach(groups) { group in
+                        VStack(spacing: 4) {
+                            Text("\(group.number)")
+                                .font(.footnote.weight(.semibold))
+                                .foregroundStyle(Theme.primaryText)
+                            ProgressView(value: group.coverage.fraction)
+                                .tint(Theme.accent)
+                            Text("\(group.coverage.held)/\(group.coverage.total)")
+                                .font(.caption2)
+                                .foregroundStyle(Theme.tertiaryText)
+                                .monospacedDigit()
+                        }
+                        .accessibilityElement(children: .ignore)
+                        .accessibilityLabel("Group \(group.number)")
+                        .accessibilityValue("\(group.coverage.held) of \(group.coverage.total) held")
+                    }
+                }
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)

@@ -15,14 +15,16 @@ struct TodayView: View {
 
     @State private var plan: DayPlan?
     @State private var streak = 0
+    @State private var planDay: (day: Int, of: Int)?
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 22) {
                 if let plan {
                     DayCard(plan: plan, streak: streak)
-                    PaceCard(plan: plan, testDate: settings.testDate)
+                    PaceCard(plan: plan, testDate: settings.testDate, planDay: planDay)
                     startButton(plan)
+                    if heldWords > 0 { quickRounds }
                 } else {
                     ProgressView().tint(Theme.accent).frame(maxWidth: .infinity)
                 }
@@ -56,6 +58,45 @@ struct TodayView: View {
         .font(.headline)
     }
 
+    /// Words past their learning steps: the only ones a quick round asks about.
+    private var heldWords: Int {
+        mastery.cards.values.filter { $0.fsrs.state == .review }.count
+    }
+
+    /// GregMat's pace, on per-word scheduling: a fast pass over words already
+    /// held, when there is time for a few minutes and not for typing.
+    private var quickRounds: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("Quick rounds")
+                .font(Theme.label)
+                .foregroundStyle(Theme.tertiaryText)
+                .textCase(.uppercase)
+            Text("A fast pass over the \(heldWords) words you already hold. No new words.")
+                .font(.footnote)
+                .foregroundStyle(Theme.secondaryText)
+            HStack(spacing: 12) {
+                quickRound(.gist)
+                quickRound(.charge)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .cardSurface()
+    }
+
+    private func quickRound(_ mode: StudyMode) -> some View {
+        NavigationLink {
+            SessionView().navigationTitle(mode.label)
+        } label: {
+            Label(mode.label, systemImage: mode.systemImage)
+                .frame(maxWidth: .infinity)
+        }
+        .buttonStyle(.glass)
+        .font(.subheadline)
+        // Pins the session to the round; the picker inside the session shows it
+        // and switches back to Auto.
+        .simultaneousGesture(TapGesture().onEnded { settings.forcedMode = mode })
+    }
+
     private func refresh() {
         let now = Date.now
         let today = ReviewRecorder.todaysWork(in: context, since: settings.dayStart(at: now))
@@ -64,6 +105,10 @@ struct TodayView: View {
             introducedToday: today.introduced, answeredToday: today.answered, now: now
         )
         streak = ReviewRecorder.streak(in: context, profile: settings.profile, now: now)
+        planDay = Pacing.planDay(
+            started: ReviewRecorder.firstStudyDay(in: context),
+            testDate: settings.testDate, now: now
+        )
     }
 }
 
@@ -123,13 +168,31 @@ private struct DayCard: View {
 private struct PaceCard: View {
     let plan: DayPlan
     let testDate: Date?
+    let planDay: (day: Int, of: Int)?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Pace")
-                .font(Theme.label)
-                .foregroundStyle(Theme.tertiaryText)
-                .textCase(.uppercase)
+            HStack {
+                Text("Pace")
+                    .font(Theme.label)
+                    .foregroundStyle(Theme.tertiaryText)
+                    .textCase(.uppercase)
+                Spacer()
+                // A plan with an end: the thing that keeps people going.
+                if let planDay {
+                    Text("Day \(planDay.day) of \(planDay.of)")
+                        .font(.footnote.weight(.semibold))
+                        .foregroundStyle(Theme.accent)
+                        .monospacedDigit()
+                }
+            }
+
+            if plan.pacing.isFinalReview {
+                Label("Final stretch: review only. New words stop \(Pacing.finalReviewDays) days out so the ones you know get their last passes.",
+                      systemImage: "flag.checkered")
+                    .font(.footnote)
+                    .foregroundStyle(Theme.primaryText)
+            }
 
             if let testDate, let required = plan.pacing.required {
                 Text("Test \(testDate.formatted(.relative(presentation: .named)))")

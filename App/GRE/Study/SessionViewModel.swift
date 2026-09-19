@@ -118,6 +118,9 @@ final class SessionViewModel {
     private var recentWordIDs: [String] = []
     /// Newest last; the curriculum spaces the heavy forms against these.
     private var recentModes: [StudyMode] = []
+    /// Words already introduced, read with the cards. A look-alike drill only
+    /// pairs a word with one of these.
+    private var met: Set<String> = []
     /// Quiz only: the fixed list and where we are in it.
     private var queue: [SessionCard] = []
     private var queueIndex = 0
@@ -219,14 +222,21 @@ final class SessionViewModel {
         )
         day = plan
 
+        // A quick round reviews what is already held; neither form can teach.
+        let quickRound = settings.forcedMode?.isQuickRound == true
         let picked = SessionQueue.nextCard(
             cards: cards, catalog: catalog, currentDeckID: settings.currentDeckID,
             // Early review is the learner asking to keep going past the day's
             // plan, so the allowance stops applying.
-            newWordsAllowed: allowEarly ? .max : plan.newWordsRemaining,
+            newWordsAllowed: quickRound ? 0 : (allowEarly ? .max : plan.newWordsRemaining),
             scheduler: settings.scheduler, recentAccuracy: recentAccuracy,
-            recentWordIDs: recentWordIDs, allowEarly: allowEarly, now: now
+            recentWordIDs: recentWordIDs, allowEarly: allowEarly,
+            belowCriterion: quickRound ? [] : ReviewRecorder.owedToday(
+                in: context, since: settings.dayStart(at: now)
+            ),
+            now: now
         )
+        met = Set(cards.filter(\.isIntroduced).map(\.wordID))
 
         guard let picked, let word = catalog[picked.wordID] else {
             current = nil
@@ -243,7 +253,8 @@ final class SessionViewModel {
         switch Curriculum.step(
             for: picked, word: word,
             competence: ReviewRecorder.competence(for: word.id, in: context),
-            settings: settings.sessionSettings, recentModes: recentModes
+            settings: settings.sessionSettings, recentModes: recentModes,
+            met: met, catalog: catalog
         ) {
         case .introduce:
             current = .introduce(word: word, card: picked)
@@ -274,7 +285,7 @@ final class SessionViewModel {
         ConfusionDrill.question(
             for: word, from: catalog,
             preferring: Misconceptions.confusedPartners(for: word.id, in: context),
-            attempt: card.reviewCount
+            attempt: card.reviewCount, met: met
         )?.partner.id
     }
 
@@ -392,9 +403,17 @@ final class SessionViewModel {
                 choicesAreWords: true
             )
 
+        case .charge:
+            // Always the same three, in the same order: the question is the
+            // word, and a moving layout would be something else to read.
+            return AnswerOptions(
+                choices: Charge.allCases.map { AnswerOption(id: $0.rawValue, text: $0.label) },
+                choicesAreWords: true
+            )
+
         // Exam questions carry their own stem and option list and are served by
         // the drill screen, never by a session.
-        case .reverseRecall, .spelling, .defineAndUse, .typeMeaning, .greItem:
+        case .reverseRecall, .spelling, .defineAndUse, .typeMeaning, .greItem, .gist:
             return AnswerOptions()
         }
     }
@@ -403,11 +422,11 @@ final class SessionViewModel {
         options.sorted { stableSortKey($0, salt: salt) < stableSortKey($1, salt: salt) }
     }
 
-    /// Chosen per card, so a word met twice is not asked with the same sentence
-    /// both times.
+    /// One anchor sentence while the word is new, then a different one each
+    /// time: see ``ContextRotation``.
     private func pick(_ options: [String], for item: SessionItem) -> String {
         guard !options.isEmpty else { return "" }
-        return options[item.card.reviewCount % options.count]
+        return options[ContextRotation.index(count: options.count, card: item.card)]
     }
 
     /// The one way an answer is submitted, whatever asked for it.

@@ -11,11 +11,18 @@ struct WordsView: View {
     @Environment(\.catalog) private var catalog
     @Environment(MasteryIndex.self) private var mastery
     @State private var search = ""
+    /// One of GregMat's groups, for learners following his videos alongside.
+    @State private var group: Int?
+
+    private var groupNumbers: [Int] {
+        Set(catalog.words.compactMap(\.gregmatGroup)).sorted()
+    }
 
     private var matches: [Word] {
-        let pool = search.isEmpty
+        var pool = search.isEmpty
             ? catalog.words
             : catalog.words.filter { $0.word.localizedCaseInsensitiveContains(search) }
+        if let group { pool = pool.filter { $0.gregmatGroup == group } }
         return pool.sorted { $0.zipf != $1.zipf ? $0.zipf > $1.zipf : $0.id < $1.id }
     }
 
@@ -30,7 +37,23 @@ struct WordsView: View {
         .scrollContentBackground(.hidden)
         .searchable(text: $search, prompt: "Search \(catalog.words.count) words")
         .screenBackground()
-        .navigationTitle("Words")
+        .navigationTitle(group.map { "GregMat group \($0)" } ?? "Words")
+        .toolbar {
+            if !groupNumbers.isEmpty {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu {
+                        Picker("GregMat group", selection: $group) {
+                            Text("All words").tag(Int?.none)
+                            ForEach(groupNumbers, id: \.self) { number in
+                                Text("Group \(number)").tag(Int?.some(number))
+                            }
+                        }
+                    } label: {
+                        Label("Filter", systemImage: "line.3.horizontal.decrease.circle")
+                    }
+                }
+            }
+        }
     }
 
     private func row(_ word: Word) -> some View {

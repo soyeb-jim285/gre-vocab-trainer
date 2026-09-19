@@ -24,6 +24,11 @@ struct DrillView: View {
     @State private var correctCount = 0
     /// Questions answered this run, so a second run does not repeat them.
     @State private var seen: Set<String> = []
+    /// The learner's own word for the blank, typed before the options appear.
+    @State private var prediction = ""
+    /// Set once the prediction is in (or skipped); the options show after.
+    @State private var predicted = false
+    @State private var verdict: PredictionVerdict?
 
     private var current: GREItem? { index < queue.count ? queue[index] : nil }
 
@@ -60,9 +65,23 @@ struct DrillView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .cardSurface()
 
-        VStack(spacing: 10) {
-            ForEach(item.options, id: \.self) { option in
-                optionRow(item, option)
+        // Predict first, on a completion: the habit high scorers credit most,
+        // and a generation task rather than a recognition one. An equivalence
+        // is about the pair, so it goes straight to the options.
+        if item.kind == .textCompletion && !predicted {
+            predictionField(item)
+        } else {
+            if let verdict {
+                Label("\(verdict.headline): \u{201C}\(prediction.trimmingCharacters(in: .whitespaces))\u{201D}",
+                      systemImage: verdict.isOnTarget ? "checkmark.circle" : "arrow.triangle.2.circlepath")
+                    .font(.footnote)
+                    .foregroundStyle(verdict.isOnTarget ? Theme.positive
+                                     : verdict == .unknown ? Theme.secondaryText : Theme.caution)
+            }
+            VStack(spacing: 10) {
+                ForEach(item.options, id: \.self) { option in
+                    optionRow(item, option)
+                }
             }
         }
 
@@ -73,6 +92,37 @@ struct DrillView: View {
                 .font(.headline)
                 .frame(maxWidth: .infinity)
         }
+    }
+
+    private func predictionField(_ item: GREItem) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("Your word for the blank")
+                .font(Theme.label).foregroundStyle(Theme.tertiaryText).textCase(.uppercase)
+            TextField("Any word that fits, before you see the choices", text: $prediction)
+                .font(Theme.headword(.title3))
+                .textInputAutocapitalization(.never)
+                .autocorrectionDisabled()
+                .onSubmit { reveal(item) }
+            HStack(spacing: 12) {
+                Button("Skip") { predicted = true }
+                    .buttonStyle(.glass)
+                    .foregroundStyle(Theme.secondaryText)
+                Button("Show the choices") { reveal(item) }
+                    .buttonStyle(.glassProminent)
+                    .disabled(prediction.trimmingCharacters(in: .whitespaces).isEmpty)
+            }
+            .font(.headline)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .cardSurface()
+    }
+
+    private func reveal(_ item: GREItem) {
+        guard !prediction.trimmingCharacters(in: .whitespaces).isEmpty else { return }
+        if let answer = item.answers.first.flatMap({ catalog[$0] }) {
+            verdict = PredictionCheck.judge(prediction, answer: answer, catalog: catalog)
+        }
+        predicted = true
     }
 
     private func optionRow(_ item: GREItem, _ option: String) -> some View {
@@ -167,6 +217,13 @@ struct DrillView: View {
         correctCount = 0
         picked = []
         answered = false
+        resetPrediction()
+    }
+
+    private func resetPrediction() {
+        prediction = ""
+        predicted = false
+        verdict = nil
     }
 
     /// One tap for a completion; a pair for an equivalence, graded on the
@@ -203,5 +260,6 @@ struct DrillView: View {
         index += 1
         picked = []
         answered = false
+        resetPrediction()
     }
 }

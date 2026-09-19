@@ -17,6 +17,11 @@ struct AnswerOption: Identifiable, Equatable {
         self.id = word.id
         self.text = word.word
     }
+
+    init(id: String, text: String) {
+        self.id = id
+        self.text = text
+    }
 }
 
 /// Everything a question needs beyond the word itself, worked out once by the
@@ -45,8 +50,11 @@ struct AnswerSurface: View {
 
     var body: some View {
         switch item.mode {
-        case .multipleChoice, .discriminate:
+        case .multipleChoice, .discriminate, .charge:
             OptionList(options: options, choose: choose)
+
+        case .gist:
+            GistReveal(word: item.word, choose: choose)
 
         case .contextCloze, .senseInContext:
             VStack(alignment: .leading, spacing: 18) {
@@ -79,11 +87,55 @@ struct AnswerSurface: View {
                 AnswerEditor(title: "Your definition",
                              prompt: "What does it mean? Your own words are fine.",
                              text: $definition)
+                // About the learner's own life: relating a word to yourself is
+                // one of the most reliable memory effects there is.
                 AnswerEditor(title: "Your sentence",
-                             prompt: "Use it in a sentence that shows you mean it.",
+                             prompt: "Use it about someone you know or something that happened to you.",
                              text: $sentence)
             }
         }
+    }
+}
+
+/// Quick recall: think of the meaning, look, say whether you had it.
+///
+/// The two answers are passed back through `choose` as ``GistReveal/recalled``
+/// and ``GistReveal/missed``, so the surface keeps its single callback.
+struct GistReveal: View {
+    static let recalled = "recalled"
+    static let missed = "missed"
+
+    let word: Word
+    let choose: (String) -> Void
+    @State private var revealed = false
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 18) {
+            if revealed {
+                Text(word.teachingDefinition)
+                    .font(Theme.definition)
+                    .foregroundStyle(Theme.primaryText)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .cardSurface()
+                HStack(spacing: 12) {
+                    Button("Didn't have it") { choose(Self.missed) }
+                        .buttonStyle(.glass)
+                        .foregroundStyle(Theme.secondaryText)
+                    Button("Had it") { choose(Self.recalled) }
+                        .buttonStyle(.glassProminent)
+                }
+                .font(.headline)
+            } else {
+                Text("Say the meaning to yourself, then look.")
+                    .font(Theme.body)
+                    .foregroundStyle(Theme.secondaryText)
+                Button("Show meaning") { revealed = true }
+                    .buttonStyle(.glassProminent)
+                    .font(.headline)
+            }
+        }
+        // A new card is a new word: start hidden again.
+        .id(word.id)
     }
 }
 

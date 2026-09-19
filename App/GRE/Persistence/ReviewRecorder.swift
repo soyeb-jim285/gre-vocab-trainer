@@ -109,6 +109,41 @@ enum ReviewRecorder {
         return (today.count, today.filter(\.isIntroduction).count)
     }
 
+    /// Words met today that are still owed a correct answer; see
+    /// ``LearningCriterion``.
+    ///
+    /// A word proved known on first contact owes nothing: it was never learned
+    /// today, only recognised.
+    static func owedToday(in context: ModelContext, since dayStart: Date) -> Set<String> {
+        let met = FetchDescriptor<CardRecord>(
+            predicate: #Predicate { $0.introducedAt != nil && !$0.knownOnFirstContact }
+        )
+        let introduced = Set(((try? context.fetch(met)) ?? [])
+            .filter { ($0.introducedAt ?? .distantPast) >= dayStart }
+            .map(\.wordID))
+        guard !introduced.isEmpty else { return [] }
+
+        let answered = FetchDescriptor<ReviewRecord>(
+            predicate: #Predicate { $0.reviewedAt >= dayStart && !$0.isIntroduction }
+        )
+        var correct: [String: Int] = [:]
+        for review in (try? context.fetch(answered)) ?? []
+        where LearningCriterion.counts(score: review.score, mode: review.mode) {
+            correct[review.wordID, default: 0] += 1
+        }
+        return LearningCriterion.unmet(introducedToday: introduced, correctToday: correct)
+    }
+
+    /// The day the learner first met a word: day one of their plan.
+    static func firstStudyDay(in context: ModelContext) -> Date? {
+        var descriptor = FetchDescriptor<CardRecord>(
+            predicate: #Predicate { $0.introducedAt != nil },
+            sortBy: [SortDescriptor(\.introducedAt)]
+        )
+        descriptor.fetchLimit = 1
+        return (try? context.fetch(descriptor))?.first?.introducedAt
+    }
+
     /// Consecutive study days ending today, counting back.
     ///
     /// A day counts if anything was answered in it. Today not yet started does

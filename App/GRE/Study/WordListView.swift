@@ -52,6 +52,8 @@ struct WordDetailView: View {
                 header
                 practiceButton
                 if let gre = word.gre { GRESenseBlock(gre: gre) }
+                // Stored with the word, so it needs no key and costs nothing.
+                if let etymology = word.etymology { OriginCard(etymology: etymology) }
                 ForEach(Array(word.senses.enumerated()), id: \.offset) { _, sense in
                     SenseBlock(sense: sense)
                 }
@@ -115,6 +117,16 @@ struct WordDetailView: View {
             Text(word.sourceLists.joined(separator: " · "))
                 .font(.footnote)
                 .foregroundStyle(Theme.tertiaryText)
+            HStack(spacing: 12) {
+                if let group = word.gregmatGroup {
+                    Text("GregMat group \(group)")
+                }
+                if let charge = word.charge {
+                    Text(charge.label)
+                }
+            }
+            .font(.footnote.weight(.medium))
+            .foregroundStyle(Theme.secondaryText)
         }
     }
 

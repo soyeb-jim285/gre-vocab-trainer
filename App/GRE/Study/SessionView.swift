@@ -179,7 +179,10 @@ struct SessionView: View {
                                     typed: $typed, definition: $definitionDraft,
                                     sentence: $sentenceDraft
                                 ) { chosen in
-                                    Task { await model.submit(.choice(chosen)) }
+                                    let draft: AnswerDraft = item.mode == .gist
+                                        ? .recalled(chosen == GistReveal.recalled)
+                                        : .choice(chosen)
+                                    Task { await model.submit(draft) }
                                 }
                                 if !model.hintsShown.isEmpty {
                                     HintList(hints: model.hintsShown)
@@ -187,7 +190,11 @@ struct SessionView: View {
                                 // Asked before the reveal, never after: once the
                                 // answer is on screen this stops being a report
                                 // and becomes a reaction to being told.
-                                ConfidenceRow(selected: model.selfReport) { model.note($0) }
+                                // A quick round is a single tap; asking first
+                                // would double its cost.
+                                if !item.mode.isQuickRound {
+                                    ConfidenceRow(selected: model.selfReport) { model.note($0) }
+                                }
                             }
                         }
                         .padding(Theme.gutter)
@@ -214,6 +221,9 @@ struct SessionView: View {
                         model.advance()
                     }
                     .buttonStyle(.glassProminent)
+                } else if item.mode.isQuickRound {
+                    // The answer is the tap; there is nothing to hint at.
+                    EmptyView()
                 } else {
                     // Available in every mode, including multiple choice --
                     // guessing at random teaches nothing and pollutes the
