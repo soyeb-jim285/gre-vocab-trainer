@@ -55,14 +55,14 @@
       "ebullient",
       "exuberant"
     ],
-    "explanation": "Telling strangers on a train about a job he has not been offered is uncontainable high spirits, which is what ebullient and exuberant say; serene and morose are the quiet ends of the scale.",
+    "explanation": "Telling strangers on a train about a job he has not been offered is uncontainable high spirits, which is what ebullient and exuberant say; serene and placid are the calm he plainly could not keep.",
     "kind": "sentenceEquivalence",
     "options": [
       "ebullient",
       "exuberant",
       "serene",
       "morose",
-      "cursory",
+      "placid",
       "adamant"
     ],
     "stem": "He came back from the interview so _____ that he told three strangers on the train he had got the job before the offer had been made."
@@ -72,15 +72,15 @@
       "hackneyed",
       "trite"
     ],
-    "explanation": "Phrases used a thousand times that the audience can predict are worn out from repetition, which is what hackneyed and trite both mean; the rest describe fussiness, haste or calm.",
+    "explanation": "Phrases used a thousand times that the audience can predict are worn out from repetition, which is what hackneyed and trite both mean; novel and unprecedented contradict the thousand earlier uses.",
     "kind": "sentenceEquivalence",
     "options": [
       "hackneyed",
       "trite",
       "pedantic",
       "cursory",
-      "adverse",
-      "serene"
+      "novel",
+      "unprecedented"
     ],
     "stem": "Every image in the speech had been used a thousand times before, and the audience could hear the _____ phrases coming a full sentence ahead."
   },
@@ -89,15 +89,15 @@
       "intransigent",
       "obdurate"
     ],
-    "explanation": "A fortnight of mediation that moves nobody describes a refusal to budge, which intransigent and obdurate both carry; erratic would mean the position kept changing.",
+    "explanation": "A fortnight of mediation that moves nobody describes a refusal to budge, which intransigent and obdurate both carry; pliant and compliant would have settled the talks, and erratic would mean the position kept changing.",
     "kind": "sentenceEquivalence",
     "options": [
       "intransigent",
       "obdurate",
       "diffident",
       "erratic",
-      "cursory",
-      "prosaic"
+      "pliant",
+      "compliant"
     ],
     "stem": "Two mediators and a fortnight of talks left the union exactly where it had started, _____ on every point that the company cared about."
   },
@@ -106,13 +106,13 @@
       "meticulous",
       "punctilious"
     ],
-    "explanation": "Recording every variable for every trial is extreme care over detail, which meticulous and punctilious both name; cursory and token say the opposite and erratic says something else again.",
+    "explanation": "Recording every variable for every trial is extreme care over detail, which meticulous and punctilious both name; cursory and perfunctory say the opposite and erratic says something else again.",
     "kind": "sentenceEquivalence",
     "options": [
       "meticulous",
       "punctilious",
       "cursory",
-      "token",
+      "perfunctory",
       "prosaic",
       "erratic"
     ],
@@ -157,13 +157,13 @@
       "perfunctory",
       "cursory"
     ],
-    "explanation": "Four minutes and a single tick is going through the motions, which perfunctory and cursory both describe; thorough is the opposite of what the sentence reports.",
+    "explanation": "Four minutes and a single tick is going through the motions, which perfunctory and cursory both describe; thorough and exhaustive are the opposite of what the sentence reports.",
     "kind": "sentenceEquivalence",
     "options": [
       "perfunctory",
       "cursory",
       "thorough",
-      "prosaic",
+      "exhaustive",
       "adamant",
       "serene"
     ],

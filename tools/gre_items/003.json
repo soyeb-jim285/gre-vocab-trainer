@@ -38,12 +38,12 @@
       "chary",
       "wary"
     ],
-    "explanation": "Having been cheated twice produces caution, not trust or haste, and chary and wary both leave the buyer equally guarded about paying in advance.",
+    "explanation": "Having been cheated twice produces caution, not trust or haste, and chary and wary both leave the buyer equally guarded about paying in advance; credulous and gullible get the lesson backwards.",
     "kind": "sentenceEquivalence",
     "options": [
       "chary",
       "wary",
-      "profligate",
+      "gullible",
       "impetuous",
       "credulous",
       "sanguine"
@@ -89,14 +89,14 @@
       "lethargic",
       "torpid"
     ],
-    "explanation": "Abandoning the quota and sending workers home follows from a shift with no energy left in it, and lethargic and torpid both leave the afternoon equally sluggish.",
+    "explanation": "Abandoning the quota and sending workers home follows from a shift with no energy left in it, and lethargic and torpid both leave the afternoon equally sluggish; ebullient and vivacious supply the energy it lacked.",
     "kind": "sentenceEquivalence",
     "options": [
       "lethargic",
       "torpid",
       "ebullient",
       "truculent",
-      "fastidious",
+      "vivacious",
       "garrulous"
     ],
     "stem": "The heat left the whole afternoon shift _____; by two o'clock the supervisor had given up on the quota and sent half the floor home."
@@ -140,7 +140,7 @@
       "pervasive",
       "ubiquitous"
     ],
-    "explanation": "The same mark in every flat on every floor rules out the occasional or the trivial, and pervasive and ubiquitous both spread the damp through the whole block.",
+    "explanation": "The same mark in every flat on every floor rules out the occasional, which is all sporadic and intermittent offer, and pervasive and ubiquitous both spread the damp through the whole block.",
     "kind": "sentenceEquivalence",
     "options": [
       "pervasive",
@@ -148,7 +148,7 @@
       "sporadic",
       "negligible",
       "anomalous",
-      "transient"
+      "intermittent"
     ],
     "stem": "Damp in that block is _____: every flat on every floor shows the same brown line a hand's width above the skirting board."
   },
@@ -174,13 +174,13 @@
       "refractory",
       "recalcitrant"
     ],
-    "explanation": "Three courses of treatment changing nothing is resistance to control, which refractory and recalcitrant both name; virulent would describe severity and dormant the opposite of active.",
+    "explanation": "Three courses of treatment changing nothing is resistance to control, which refractory and recalcitrant both name; transient and transitory would have it clearing on its own, and virulent describes severity.",
     "kind": "sentenceEquivalence",
     "options": [
       "refractory",
       "recalcitrant",
       "virulent",
-      "endemic",
+      "transitory",
       "transient",
       "dormant"
     ],

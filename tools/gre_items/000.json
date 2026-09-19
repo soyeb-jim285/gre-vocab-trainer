@@ -4,15 +4,15 @@
       "antipathy",
       "animosity"
     ],
-    "explanation": "Asking twice to be excused points to settled dislike, and antipathy and animosity both name hostility strong enough to explain the request.",
+    "explanation": "Asking twice to be excused points to settled dislike, and antipathy and animosity both name hostility strong enough to explain the request; affinity and predilection are fondness, which would make the request senseless.",
     "kind": "sentenceEquivalence",
     "options": [
       "antipathy",
       "animosity",
       "alacrity",
       "deference",
-      "candor",
-      "reverie"
+      "affinity",
+      "predilection"
     ],
     "stem": "Her _____ toward the committee was old and well documented, and she had asked twice to be excused from sitting on it."
   },
@@ -106,15 +106,15 @@
       "effrontery",
       "audacity"
     ],
-    "explanation": "Billing the firm for his own leaving party is shameless nerve, and effrontery and audacity both leave the sentence marvelling at the same gall.",
+    "explanation": "Billing the firm for his own leaving party is shameless nerve, and effrontery and audacity both leave the sentence marvelling at the same gall; propriety and decorum are exactly the restraint he lacked.",
     "kind": "sentenceEquivalence",
     "options": [
       "effrontery",
       "audacity",
       "diffidence",
-      "probity",
+      "propriety",
       "deference",
-      "chagrin"
+      "decorum"
     ],
     "stem": "He had the _____ to bill the company for the party at which he had announced he was leaving to join its closest rival."
   },
@@ -140,15 +140,15 @@
       "evanescent",
       "ephemeral"
     ],
-    "explanation": "Gone before the magazines could explain it is a fashion that lasted no time, and evanescent and ephemeral both leave it fading as quickly.",
+    "explanation": "Gone before the magazines could explain it is a fashion that lasted no time, and evanescent and ephemeral both leave it fading as quickly; perennial and enduring describe the lasting fashion the sentence rules out.",
     "kind": "sentenceEquivalence",
     "options": [
       "evanescent",
       "ephemeral",
       "immutable",
-      "archaic",
+      "perennial",
       "endemic",
-      "pristine"
+      "enduring"
     ],
     "stem": "The fashion proved _____: by the time the magazines had finished explaining it, the shops that started it had moved on to something else."
   },
@@ -157,7 +157,7 @@
       "fastidious",
       "punctilious"
     ],
-    "explanation": "Holding an issue over one comma is attention to detail carried to its limit, and fastidious and punctilious both leave the editor equally exacting.",
+    "explanation": "Holding an issue over one comma is attention to detail carried to its limit, and fastidious and punctilious both leave the editor equally exacting; perfunctory and cursory are the hasty carelessness he refused.",
     "kind": "sentenceEquivalence",
     "options": [
       "fastidious",
@@ -165,7 +165,7 @@
       "cavalier",
       "perfunctory",
       "indolent",
-      "glib"
+      "cursory"
     ],
     "stem": "So _____ was the editor that he would hold a whole issue overnight rather than let a misplaced comma reach the printer."
   },
@@ -174,12 +174,12 @@
       "inchoate",
       "nascent"
     ],
-    "explanation": "A mailing list, two pamphlets and no name is a movement barely begun, and inchoate and nascent both leave it unformed in the same way.",
+    "explanation": "A mailing list, two pamphlets and no name is a movement barely begun, and inchoate and nascent both leave it unformed in the same way; archaic and antiquated make it old when every detail makes it new.",
     "kind": "sentenceEquivalence",
     "options": [
       "inchoate",
       "nascent",
-      "hackneyed",
+      "antiquated",
       "archaic",
       "endemic",
       "immutable"

@@ -38,15 +38,15 @@
       "affable",
       "genial"
     ],
-    "explanation": "An evening running two hours long against expectations of severity points to warmth and ease, and affable and genial both leave the host equally friendly.",
+    "explanation": "An evening running two hours long against expectations of severity points to warmth and ease, and affable and genial both leave the host equally friendly; stern and austere are what the guests expected, not what they found.",
     "kind": "sentenceEquivalence",
     "options": [
       "affable",
       "genial",
       "petulant",
-      "stolid",
+      "austere",
       "cavalier",
-      "glib"
+      "stern"
     ],
     "stem": "Guests who came expecting the famously severe critic found instead a host so _____ that the evening ran two hours past its billing."
   },
@@ -89,14 +89,14 @@
       "condone",
       "countenance"
     ],
-    "explanation": "Sitting on evidence for years goes past tolerance into tacit approval, and condone and countenance both leave the regulator accepting the practice.",
+    "explanation": "Sitting on evidence for years goes past tolerance into tacit approval, and condone and countenance both leave the regulator accepting the practice; castigate and chastise would need the action it never takes.",
     "kind": "sentenceEquivalence",
     "options": [
       "condone",
       "countenance",
       "proscribe",
       "castigate",
-      "rescind",
+      "chastise",
       "curtail"
     ],
     "stem": "A regulator that has held the evidence for three years and still acts on none of it does not merely tolerate the practice; it has come to _____ it."
@@ -106,13 +106,13 @@
       "copious",
       "profuse"
     ],
-    "explanation": "Notes valuable enough to outprice the book are there in quantity, and copious and profuse both leave them equally abundant; perfunctory and laconic say the opposite.",
+    "explanation": "Notes valuable enough to outprice the book are there in quantity, and copious and profuse both leave them equally abundant; scant and sparse say the opposite.",
     "kind": "sentenceEquivalence",
     "options": [
       "copious",
       "profuse",
-      "nominal",
-      "tenuous",
+      "scant",
+      "sparse",
       "perfunctory",
       "laconic"
     ],
@@ -225,14 +225,14 @@
       "panache",
       "verve"
     ],
-    "explanation": "Carrying an audience past a visible mistake takes dash rather than care, and panache and verve both leave the performance equally spirited.",
+    "explanation": "Carrying an audience past a visible mistake takes dash rather than care, and panache and verve both leave the performance equally spirited; torpor and lassitude would have let the mistake show.",
     "kind": "sentenceEquivalence",
     "options": [
       "panache",
       "verve",
       "diffidence",
       "torpor",
-      "candor",
+      "lassitude",
       "rigor"
     ],
     "stem": "She took the last chorus with such _____ that the audience forgot the orchestra had come in two full bars early."
@@ -259,14 +259,14 @@
       "tawdry",
       "garish"
     ],
-    "explanation": "Plastic chandeliers and gilt paint that fool nobody are cheap display, and tawdry and garish both leave the lobby showy and worthless.",
+    "explanation": "Plastic chandeliers and gilt paint that fool nobody are cheap display, and tawdry and garish both leave the lobby showy and worthless; opulent and lavish would be the real thing it only imitates.",
     "kind": "sentenceEquivalence",
     "options": [
       "tawdry",
       "garish",
       "austere",
-      "pristine",
-      "sublime",
+      "lavish",
+      "opulent",
       "somber"
     ],
     "stem": "The lobby had been done up in plastic chandeliers and gilt paint, so _____ that nobody who had seen the real thing was fooled for a moment."
@@ -276,7 +276,7 @@
       "timorous",
       "diffident"
     ],
-    "explanation": "Dropping her voice the moment she is challenged is a want of nerve, and timorous and diffident both leave the judge equally unassertive.",
+    "explanation": "Dropping her voice the moment she is challenged is a want of nerve, and timorous and diffident both leave the judge equally unassertive; imperious and overbearing are the opposite temperament.",
     "kind": "sentenceEquivalence",
     "options": [
       "timorous",
@@ -284,7 +284,7 @@
       "imperious",
       "garrulous",
       "irascible",
-      "sanguine"
+      "overbearing"
     ],
     "stem": "Even after a decade on the bench she remained _____ in open court, dropping her voice to nothing whenever a barrister pushed back at her."
   },

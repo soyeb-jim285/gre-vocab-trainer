@@ -106,14 +106,14 @@
       "elicit",
       "evoke"
     ],
-    "explanation": "The picture has to draw the feeling out of an uninformed viewer, and elicit and evoke both mean to call up a response rather than suppress or prevent one.",
+    "explanation": "The picture has to draw the same feeling out of an uninformed viewer, and elicit and evoke both mean to call up a response; squelch and stifle would suppress the very unease it was chosen to produce.",
     "kind": "sentenceEquivalence",
     "options": [
       "elicit",
       "evoke",
       "squelch",
       "preclude",
-      "flout",
+      "stifle",
       "impugn"
     ],
     "stem": "The photograph was chosen because it would _____ the same unease in a viewer who knew nothing about where it had been taken."
@@ -225,15 +225,15 @@
       "precarious",
       "tenuous"
     ],
-    "explanation": "Unsigned factions and quiet rearmament make the ceasefire unstable, and precarious and tenuous both leave it liable to collapse.",
+    "explanation": "Unsigned factions and quiet rearmament make the ceasefire unstable, and precarious and tenuous both leave it liable to collapse; robust and resilient claim a strength the evidence denies.",
     "kind": "sentenceEquivalence",
     "options": [
       "precarious",
       "tenuous",
       "immutable",
-      "pristine",
+      "robust",
       "innocuous",
-      "banal"
+      "resilient"
     ],
     "stem": "The ceasefire was _____ from the first week: two of the five factions had signed nothing at all, and the rest were quietly rearming."
   },
@@ -259,15 +259,15 @@
       "soporific",
       "somnolent"
     ],
-    "explanation": "An audience that stops taking notes and starts watching the clock is being put to sleep, and soporific and somnolent both say the talk induced sleepiness.",
+    "explanation": "An audience that stops taking notes and starts watching the clock is being put to sleep, and soporific and somnolent both say the talk induced sleepiness; arresting and compelling would have held the room.",
     "kind": "sentenceEquivalence",
     "options": [
       "soporific",
       "somnolent",
       "stentorian",
-      "trenchant",
+      "arresting",
       "lucid",
-      "pungent"
+      "compelling"
     ],
     "stem": "The keynote was so _____ that by the second graph a third of the audience had stopped taking notes and begun checking the time."
   },

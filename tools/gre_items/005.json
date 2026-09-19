@@ -38,14 +38,14 @@
       "germane",
       "pertinent"
     ],
-    "explanation": "The story is ruled out for having nothing to do with the application, so the blank is relevance, and germane and pertinent both supply it.",
+    "explanation": "The story is ruled out for having nothing to do with the application, so the blank is relevance, and germane and pertinent both supply it; after 'not', extraneous and tangential would call the story relevant.",
     "kind": "sentenceEquivalence",
     "options": [
       "germane",
       "pertinent",
       "extraneous",
       "tedious",
-      "plausible",
+      "tangential",
       "spurious"
     ],
     "stem": "The chair cut him off on the grounds that a long story about his grandfather's shop, however charming, was not _____ to the zoning application before them."
@@ -72,13 +72,13 @@
       "inscrutable",
       "enigmatic"
     ],
-    "explanation": "The other side could read nothing from his face, and inscrutable and enigmatic both leave the expression equally impossible to interpret.",
+    "explanation": "The other side could read nothing from his face, and inscrutable and enigmatic both leave the expression equally impossible to interpret; effusive and demonstrative would have shown them everything.",
     "kind": "sentenceEquivalence",
     "options": [
       "inscrutable",
       "enigmatic",
       "lucid",
-      "plaintive",
+      "demonstrative",
       "effusive",
       "garrulous"
     ],
@@ -174,15 +174,15 @@
       "querulous",
       "peevish"
     ],
-    "explanation": "The repeated grumble about parking undermines the real complaint, and querulous and peevish both leave the paragraph equally whining.",
+    "explanation": "The repeated grumble about parking undermines the real complaint, and querulous and peevish both leave the paragraph equally whining; conciliatory and emollient would soothe rather than complain.",
     "kind": "sentenceEquivalence",
     "options": [
       "querulous",
       "peevish",
       "deferential",
       "laconic",
-      "magnanimous",
-      "effusive"
+      "conciliatory",
+      "emollient"
     ],
     "stem": "Every letter opened with the same _____ paragraph about the parking, which made the genuine complaint about the drains three pages later easy to ignore."
   },
@@ -225,7 +225,7 @@
       "sanguine",
       "buoyant"
     ],
-    "explanation": "Untroubled confidence that the date would hold, punctured only at the last week, is cheerful optimism, and sanguine and buoyant both leave him equally hopeful.",
+    "explanation": "Untroubled confidence that the date would hold, punctured only at the last week, is cheerful optimism, and sanguine and buoyant both leave him equally hopeful; morose and glum leave nothing for the discovery to puncture.",
     "kind": "sentenceEquivalence",
     "options": [
       "sanguine",
@@ -233,7 +233,7 @@
       "morose",
       "timorous",
       "phlegmatic",
-      "fatuous"
+      "glum"
     ],
     "stem": "He stayed _____ about the launch date right up to the week it arrived, when he discovered that not one supplier had confirmed anything in writing."
   },
@@ -293,14 +293,14 @@
       "zenith",
       "apex"
     ],
-    "explanation": "Four box-office winners in one season marks the highest point of the studio's run, and zenith and apex both name that peak; nadir would mark the bottom.",
+    "explanation": "Four box-office winners in one season marks the highest point of the studio's run, and zenith and apex both name that peak; nadir would mark the bottom, and paucity and dearth are scarcity, not a high point.",
     "kind": "sentenceEquivalence",
     "options": [
       "zenith",
       "apex",
       "nadir",
       "paucity",
-      "surfeit",
+      "dearth",
       "anachronism"
     ],
     "stem": "The studio reached its _____ in the years just after the war, when four of its films topped the box office in a single season."
