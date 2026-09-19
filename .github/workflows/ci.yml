@@ -36,6 +36,8 @@ jobs:
         run: python3 tools/confusion.py verify
       - name: Check the exam questions
         run: python3 tools/items.py verify
+      - name: Check the word origins
+        run: python3 tools/etymology_verify.py
 
   app:
     name: iOS app (macOS)

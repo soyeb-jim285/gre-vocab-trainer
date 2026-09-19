@@ -1,0 +1,452 @@
+{
+  "invidious": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "upon"}, {"piece": "videre", "origin": "Latin", "meaning": "to see"}],
+    "literal": "looking upon with envy",
+    "path": "Latin invidere meant to look at with envy or malice. Invidious describes something likely to provoke envy or resentment, or that discriminates unfairly.",
+    "cousins": ["envy", "vision", "evident"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "invigorate": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "into"}, {"piece": "vigere", "origin": "Latin", "meaning": "to be lively, thrive"}],
+    "literal": "to put vigor into",
+    "path": "Latin vigere meant to thrive or be lively. Invigorate means to fill something with vigor and energy.",
+    "cousins": ["vigor", "vigorous"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "inviolable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "violare", "origin": "Latin", "meaning": "to treat with violence, dishonor"}],
+    "literal": "not able to be violated",
+    "path": "Latin violare meant to treat violently or profane. Inviolable describes what must never be broken or violated.",
+    "cousins": ["violate", "violence"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "inviolate": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "violare", "origin": "Latin", "meaning": "to treat with violence, dishonor"}],
+    "literal": "not violated",
+    "path": "From the same root as inviolable. Inviolate describes something that has in fact not been violated, kept intact and undisturbed.",
+    "cousins": ["violate", "violence"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "invocation": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "upon"}, {"piece": "vocare", "origin": "Latin", "meaning": "to call"}],
+    "literal": "a calling upon",
+    "path": "Latin vocare meant to call. Invocation is an appeal calling upon authority or a higher power.",
+    "cousins": ["vocal", "vocation", "evoke"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "invoke": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "upon"}, {"piece": "vocare", "origin": "Latin", "meaning": "to call"}],
+    "literal": "to call upon",
+    "path": "Same root as invocation, Latin vocare, to call. To invoke is to call on something for support or authority.",
+    "cousins": ["vocal", "vocation", "evoke"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "involved": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "volvere", "origin": "Latin", "meaning": "to roll"}],
+    "literal": "rolled in",
+    "path": "Latin volvere meant to roll. Involved originally meant rolled up or entangled within something, giving rise to the senses of being complicated or deeply engaged.",
+    "cousins": ["revolve", "evolve", "volume"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "invulnerable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "vulnerare", "origin": "Latin", "meaning": "to wound"}],
+    "literal": "not able to be wounded",
+    "path": "Latin vulnus meant a wound. Invulnerable describes what cannot be wounded or harmed.",
+    "cousins": ["vulnerable"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "irascible": {
+    "parts": [{"piece": "irasci", "origin": "Latin", "meaning": "to grow angry"}],
+    "literal": "prone to anger",
+    "path": "Latin ira meant anger, and irasci meant to grow angry. Irascible describes someone quick to anger.",
+    "cousins": ["irate", "ire"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ire": {
+    "parts": [{"piece": "ira", "origin": "Latin", "meaning": "anger"}],
+    "literal": "anger",
+    "path": "Borrowed directly from Latin ira, anger, through French, keeping its core meaning intact.",
+    "cousins": ["irate", "irascible"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "irk": {
+    "parts": [{"piece": "irken", "origin": "unknown", "meaning": "to be weary of, annoy (obscure origin)"}],
+    "literal": "no clear literal sense",
+    "path": "The word's roots are genuinely obscure. It appears in Middle English already meaning to weary or annoy, with no clear source story.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "irksome": {
+    "parts": [{"piece": "irk", "origin": "unknown", "meaning": "to annoy (obscure origin)"}, {"piece": "-some", "origin": "Old English", "meaning": "tending to, characterized by"}],
+    "literal": "tending to annoy",
+    "path": "Built from irk, an obscure Middle English word for annoy, plus the adjective suffix -some, tending to.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ironclad": {
+    "parts": [{"piece": "iron", "origin": "Old English", "meaning": "iron"}, {"piece": "clad", "origin": "Old English", "meaning": "clothed"}],
+    "literal": "clothed in iron",
+    "path": "A literal compound describing armored ships covered in iron plating. Ironclad extended metaphorically to mean impossible to break or alter, as sturdy as an armored hull.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "irony": {
+    "parts": [{"piece": "eironeia", "origin": "Greek", "meaning": "feigned ignorance, dissimulation"}],
+    "literal": "feigned ignorance",
+    "path": "In Greek drama, the eiron was a stock character who played dumb to outwit a boastful rival. Irony came to describe a gap between what is expected or said and the underlying truth.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "irrefutable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "refutare", "origin": "Latin", "meaning": "to drive back, disprove"}],
+    "literal": "not able to be driven back",
+    "path": "Latin refutare meant to repel or disprove an argument by driving it back. Irrefutable describes what cannot be disproved.",
+    "cousins": ["refute", "refutation"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "irresolute": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "resolvere", "origin": "Latin", "meaning": "to loosen, settle"}],
+    "literal": "not settled",
+    "path": "Latin resolvere meant to loosen or settle a matter. Irresolute describes someone who has not settled on a decision, hesitant and undecided.",
+    "cousins": ["resolve", "resolution", "dissolve"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "irreverent": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "revereri", "origin": "Latin", "meaning": "to stand in awe of, respect"}],
+    "literal": "not standing in awe",
+    "path": "Latin vereri meant to feel awe or fear. Irreverent describes a lack of the proper respect owed to something sacred or serious.",
+    "cousins": ["revere", "reverence"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "irrevocable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "revocare", "origin": "Latin", "meaning": "to call back"}],
+    "literal": "not able to be called back",
+    "path": "Latin revocare meant to call back or recall. Irrevocable describes a decision that cannot be called back or undone.",
+    "cousins": ["revoke", "invoke", "vocal"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "issue": {
+    "parts": [{"piece": "ex-", "origin": "Latin", "meaning": "out"}, {"piece": "ire", "origin": "Latin", "meaning": "to go"}],
+    "literal": "a going out",
+    "path": "Latin exire meant to go out. Issue traces to the outflow or outcome of something, and as a verb means to send out or publish officially.",
+    "cousins": ["exit", "transit", "itinerant"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "itinerant": {
+    "parts": [{"piece": "iter", "origin": "Latin", "meaning": "journey, road"}],
+    "literal": "one who journeys",
+    "path": "Latin iter meant a journey or road, from ire, to go. Itinerant describes someone who travels from place to place for work.",
+    "cousins": ["exit", "transit", "issue"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "itinerary": {
+    "parts": [{"piece": "iter", "origin": "Latin", "meaning": "journey, road"}],
+    "literal": "of a journey",
+    "path": "From the same Latin iter, journey. An itinerary is the planned route or schedule of that journey.",
+    "cousins": ["exit", "transit", "issue"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "itinerate": {
+    "parts": [{"piece": "iter", "origin": "Latin", "meaning": "journey, road"}],
+    "literal": "to journey",
+    "path": "The verb built directly on Latin iter, journey: to travel from place to place.",
+    "cousins": ["exit", "transit", "issue"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "jargon": {
+    "parts": [{"piece": "jargon", "origin": "Old French", "meaning": "chattering, twittering of birds"}],
+    "literal": "chattering, twittering",
+    "path": "Old French jargon originally described the meaningless twittering of birds or unintelligible chatter, before narrowing to mean the specialized, hard-to-follow language of a trade or group.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "jaundice": {
+    "parts": [{"piece": "jaune", "origin": "French", "meaning": "yellow"}],
+    "literal": "yellowness",
+    "path": "French jaune meant yellow, naming the yellowing of skin from liver disease. The figurative sense of bitterness or prejudice comes from the old belief that excess yellow bile caused a sour, jaundiced view of the world.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "jejune": {
+    "parts": [{"piece": "jejunus", "origin": "Latin", "meaning": "fasting, hungry, meager"}],
+    "literal": "fasting, empty",
+    "path": "Latin jejunus meant hungry or empty, describing a meager fast. Jejune extended metaphorically to intellectually empty, naive, and dull.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "jeopardize": {
+    "parts": [{"piece": "jeu parti", "origin": "Old French", "meaning": "a divided game, even chances"}],
+    "literal": "a game of even chances",
+    "path": "Old French jeu parti described a game with even odds, an uncertain outcome. Jeopardy came to mean risk or peril, and jeopardize means to put something at that risk.",
+    "cousins": ["party", "partition", "depart"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "jet": {
+    "parts": [{"piece": "gagates", "origin": "Greek (via Latin, French)", "meaning": "stone of Gagai (a black gemstone)"}],
+    "literal": "stone from Gagai",
+    "path": "The adjective jet, deep glossy black, comes from the gemstone jet, a black mineral whose name traces to Gagai, an ancient town in Asia Minor famous for producing the stone.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "jettison": {
+    "parts": [{"piece": "jacere", "origin": "Latin", "meaning": "to throw"}],
+    "literal": "a throwing",
+    "path": "Latin jacere meant to throw. Jettison originally meant throwing cargo overboard to lighten a ship in distress, and now means to discard anything unwanted.",
+    "cousins": ["eject", "project", "reject"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "jibe": {
+    "parts": [{"piece": "jibe", "origin": "unknown", "meaning": "to agree, fit together (uncertain origin)"}],
+    "literal": "no clear literal sense",
+    "path": "This sense of jibe, to agree or fit together, is of genuinely uncertain origin in American English, possibly linked to a nautical term for shifting a sail, but no root is firmly established.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "jingoism": {
+    "parts": [{"piece": "by Jingo", "origin": "English (minced oath)", "meaning": "a mild oath from an 1878 pro-war song"}],
+    "literal": "by Jingo (an oath) plus -ism",
+    "path": "The word Jingo began as a mild oath in a British pro-war music-hall song of 1878. Jingoism came to name the aggressive, boastful patriotism the song expressed.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "jingoist": {
+    "parts": [{"piece": "by Jingo", "origin": "English (minced oath)", "meaning": "a mild oath from an 1878 pro-war song"}],
+    "literal": "one who holds jingoist views",
+    "path": "From the same 1878 by Jingo song that gave rise to jingoism. A jingoist is someone who holds those aggressively nationalist views.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "jocular": {
+    "parts": [{"piece": "jocus", "origin": "Latin", "meaning": "joke, jest"}],
+    "literal": "of a joke",
+    "path": "Latin jocus meant a joke. Jocular describes someone humorous and playful.",
+    "cousins": ["joke", "jocose"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "jocund": {
+    "parts": [{"piece": "iucundus", "origin": "Latin", "meaning": "pleasant, delightful"}],
+    "literal": "pleasing, delightful",
+    "path": "Latin iucundus meant pleasant or delightful, from juvare, to please, a different root from jocus, joke, though the two words are often confused. Jocund describes a cheerful, lighthearted mood.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "jovial": {
+    "parts": [{"piece": "Jove", "origin": "Latin", "meaning": "Jupiter, the Roman god"}],
+    "literal": "of Jupiter",
+    "path": "In medieval astrology, the planet Jupiter (Jove) was believed to bestow a cheerful, generous temperament on those born under its influence. Jovial kept that sunny, friendly sense.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "jubilant": {
+    "parts": [{"piece": "jubilare", "origin": "Latin", "meaning": "to shout for joy"}],
+    "literal": "shouting for joy",
+    "path": "Latin jubilare meant to shout or whoop with joy. Jubilant describes someone triumphantly, joyfully exultant.",
+    "cousins": ["jubilee", "jubilation"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "judicious": {
+    "parts": [{"piece": "jus", "origin": "Latin", "meaning": "law, right"}, {"piece": "dicere", "origin": "Latin", "meaning": "to say"}],
+    "literal": "relating to judgment",
+    "path": "Latin judicare meant to judge, combining jus, law, with dicere, to say. Judicious describes someone who exercises good judgment.",
+    "cousins": ["judge", "prejudice", "verdict"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "juggernaut": {
+    "parts": [{"piece": "Jagannath", "origin": "Sanskrit", "meaning": "Lord of the World (a Hindu deity)"}],
+    "literal": "Lord of the World",
+    "path": "European travelers' accounts of the huge temple cart of the Hindu deity Jagannath, rumored (with colonial-era exaggeration) to crush worshippers under its wheels, gave English juggernaut its sense of an unstoppable, crushing force.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "juncture": {
+    "parts": [{"piece": "jungere", "origin": "Latin", "meaning": "to join"}],
+    "literal": "a joining",
+    "path": "Latin jungere meant to join. Juncture originally meant a joint or joining point, and extended to mean a critical point in time where things meet or turn.",
+    "cousins": ["join", "junction", "conjunction"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "junket": {
+    "parts": [{"piece": "jonquette", "origin": "Old French", "meaning": "rush basket"}],
+    "literal": "made on a rush mat",
+    "path": "The cream dessert junket got its name from being served in a woven rush basket. Eating it became a festive occasion, and the word extended to any pleasure trip, eventually one taken at someone else's expense.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "junta": {
+    "parts": [{"piece": "jungere", "origin": "Latin", "meaning": "to join"}],
+    "literal": "a joined group",
+    "path": "Latin jungere meant to join. Junta named a joined council or committee, and came to mean specifically a group, usually military, that seizes power and rules together.",
+    "cousins": ["join", "junction", "adjoin"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "justify": {
+    "parts": [{"piece": "jus", "origin": "Latin", "meaning": "law, right"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "to make right",
+    "path": "Latin jus meant right or law. Justify means to make something appear right or reasonable.",
+    "cousins": ["justice", "adjust"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "juxtapose": {
+    "parts": [{"piece": "juxta", "origin": "Latin", "meaning": "near, beside"}, {"piece": "poser", "origin": "French", "meaning": "to place"}],
+    "literal": "to place beside",
+    "path": "Latin juxta meant near or beside. Juxtapose means to place two things side by side for comparison or contrast.",
+    "cousins": ["pose", "compose", "expose"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "keen": {
+    "parts": [{"piece": "cene", "origin": "Old English", "meaning": "bold, wise, clever"}],
+    "literal": "bold, wise",
+    "path": "Old English cene meant bold or clever. Keen narrowed toward sharpness, whether of a blade, the mind, or eager desire.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "kindle": {
+    "parts": [{"piece": "kynda", "origin": "Old Norse", "meaning": "to set on fire"}],
+    "literal": "to set on fire",
+    "path": "From Old Norse kynda, to set fire. Kindle means to start a fire literally, or to arouse a feeling figuratively.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "kinetic": {
+    "parts": [{"piece": "kinein", "origin": "Greek", "meaning": "to move"}],
+    "literal": "moving",
+    "path": "Greek kinein meant to move. Kinetic describes anything relating to motion or energetic movement.",
+    "cousins": ["cinema", "kinesthetic"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "knack": {
+    "parts": [{"piece": "knak", "origin": "Middle English (echoic)", "meaning": "a sharp blow or trick, imitative"}],
+    "literal": "a sharp trick (echoic)",
+    "path": "The word likely began as an echoic term for a sharp cracking sound or a sly trick, and settled into meaning a natural skill for doing something.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "knell": {
+    "parts": [{"piece": "cnyllan", "origin": "Old English (echoic)", "meaning": "to toll a bell"}],
+    "literal": "to toll",
+    "path": "An Old English word imitating the sound of a tolling bell. A knell is the sound, especially of a bell, signaling death or the end of something.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "knight": {
+    "parts": [{"piece": "cniht", "origin": "Old English", "meaning": "boy, servant, attendant"}],
+    "literal": "boy, servant",
+    "path": "Old English cniht originally meant a boy or household servant. In the feudal era it narrowed to a mounted warrior serving a lord, and finally an honored order, hence to knight someone is to confer that title.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "knoll": {
+    "parts": [{"piece": "cnoll", "origin": "Old English", "meaning": "hilltop, small hill"}],
+    "literal": "hilltop",
+    "path": "A straightforward Old English word for a small hilltop, retained with its original meaning of a small rounded hill.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "kowtow": {
+    "parts": [{"piece": "kau tau", "origin": "Chinese (Cantonese)", "meaning": "to knock the head"}],
+    "literal": "to knock the head",
+    "path": "The Chinese ritual of kneeling and touching the forehead to the ground before an emperor or superior gave English kowtow its meaning of behaving with excessive deference.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

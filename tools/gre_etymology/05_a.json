@@ -1,0 +1,1198 @@
+{
+  "indication": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "toward"
+      },
+      {
+        "piece": "dicare",
+        "origin": "Latin",
+        "meaning": "to proclaim, point out"
+      }
+    ],
+    "literal": "pointing out, proclaiming",
+    "path": "Latin indicare meant to point out or declare. An indication is the thing that points toward a fact, without stating it outright.",
+    "cousins": [
+      "dictate",
+      "predict",
+      "verdict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "indict": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "toward, against"
+      },
+      {
+        "piece": "dictare",
+        "origin": "Latin",
+        "meaning": "to declare, proclaim"
+      }
+    ],
+    "literal": "to declare formally against",
+    "path": "Latin indictare meant to proclaim publicly, especially an accusation. English borrowed it via French enditer, then later respelled it to match the Latin, though the old French pronunciation stuck (the c is silent).",
+    "cousins": [
+      "dictate",
+      "verdict",
+      "edict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "indictment": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "toward, against"
+      },
+      {
+        "piece": "dictare",
+        "origin": "Latin",
+        "meaning": "to declare"
+      },
+      {
+        "piece": "-ment",
+        "origin": "Latin",
+        "meaning": "result, act of"
+      }
+    ],
+    "literal": "the act of formally declaring against",
+    "path": "Built from indict plus the noun suffix -ment, naming the formal document or act of accusation, and by extension any damning criticism.",
+    "cousins": [
+      "dictate",
+      "verdict",
+      "edict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "indifference": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "differre",
+        "origin": "Latin",
+        "meaning": "to differ, carry apart"
+      }
+    ],
+    "literal": "not differing, not mattering",
+    "path": "Latin differre meant to carry in different directions, hence to differ or to matter. If two things don't differ to you, you feel no concern either way.",
+    "cousins": [
+      "differ",
+      "defer",
+      "transfer",
+      "offer"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "indifferent": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "differre",
+        "origin": "Latin",
+        "meaning": "to differ"
+      }
+    ],
+    "literal": "not differing, not mattering",
+    "path": "From the same root as indifference: if options don't differ to you, you're unconcerned. The sense extended to mediocre, since a middling thing doesn't stand out from the rest.",
+    "cousins": [
+      "differ",
+      "transfer",
+      "confer"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "indigence": {
+    "parts": [
+      {
+        "piece": "indu-",
+        "origin": "Latin",
+        "meaning": "in, within (archaic)"
+      },
+      {
+        "piece": "egere",
+        "origin": "Latin",
+        "meaning": "to lack, need"
+      }
+    ],
+    "literal": "being in want",
+    "path": "Latin egere meant to lack or need. Indigence is the state of deep, ongoing need, extreme poverty.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "indigenous": {
+    "parts": [
+      {
+        "piece": "indu-",
+        "origin": "Latin",
+        "meaning": "in, within"
+      },
+      {
+        "piece": "gignere / gen-",
+        "origin": "Latin",
+        "meaning": "to beget, produce, be born"
+      }
+    ],
+    "literal": "born within (a place)",
+    "path": "Latin indigena meant a native, literally one begotten or born within a place. Indigenous keeps that birth-in-place image: it describes peoples, plants, or animals that originated naturally where they're found, rather than being brought in from elsewhere.",
+    "cousins": [
+      "genesis",
+      "generate",
+      "genetic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "indigent": {
+    "parts": [
+      {
+        "piece": "indu-",
+        "origin": "Latin",
+        "meaning": "in, within"
+      },
+      {
+        "piece": "egere",
+        "origin": "Latin",
+        "meaning": "to lack, need"
+      }
+    ],
+    "literal": "in want, lacking",
+    "path": "Same root as indigence: Latin egere, to lack or need. An indigent person is one in a state of extreme, ongoing need.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "indignant": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "dignus",
+        "origin": "Latin",
+        "meaning": "worthy"
+      }
+    ],
+    "literal": "regarding as unworthy",
+    "path": "Latin indignari meant to consider something beneath one's dignity. Indignant anger is the reaction to treatment that feels unworthy or undeserved.",
+    "cousins": [
+      "dignity",
+      "dignify",
+      "deign"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "indignation": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "dignus",
+        "origin": "Latin",
+        "meaning": "worthy"
+      }
+    ],
+    "literal": "the state of regarding as unworthy",
+    "path": "The noun form of indignant, from Latin dignus, worthy. It names the anger that rises when something feels beneath what is deserved.",
+    "cousins": [
+      "dignity",
+      "dignify",
+      "deign"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "indiscriminate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "discrimen",
+        "origin": "Latin",
+        "meaning": "distinction, dividing line"
+      }
+    ],
+    "literal": "not distinguishing",
+    "path": "Latin discrimen, a dividing line, came from discernere, to sift apart. Something indiscriminate fails to separate or distinguish between options, treating everything alike.",
+    "cousins": [
+      "discern",
+      "certain",
+      "secret"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "indispensable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "dispensare",
+        "origin": "Latin",
+        "meaning": "to weigh out, distribute"
+      }
+    ],
+    "literal": "not able to be dispensed with",
+    "path": "Latin dispensare meant to pay or portion out. What you cannot dispense with, do without, is indispensable.",
+    "cousins": [
+      "dispense",
+      "expend",
+      "spend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "indite": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "toward"
+      },
+      {
+        "piece": "dictare",
+        "origin": "Latin",
+        "meaning": "to declare, proclaim"
+      }
+    ],
+    "literal": "to set down in words",
+    "path": "Indite and indict are etymological twins, both from Latin indictare, to declare. Indite kept the sense of composing text, while indict narrowed to formal accusation.",
+    "cousins": [
+      "dictate",
+      "dictionary",
+      "edict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "indolent": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "dolere",
+        "origin": "Latin",
+        "meaning": "to feel pain, suffer"
+      }
+    ],
+    "literal": "feeling no pain",
+    "path": "Latin indolens originally meant free from pain, a medical term. The sense drifted toward avoiding painful effort altogether, hence habitually lazy.",
+    "cousins": [
+      "doleful",
+      "condolence",
+      "dolorous"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "indomitable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "domitare",
+        "origin": "Latin",
+        "meaning": "to tame"
+      }
+    ],
+    "literal": "not able to be tamed",
+    "path": "Latin domare meant to tame or break an animal. An indomitable spirit is one that cannot be tamed or subdued.",
+    "cousins": [
+      "tame",
+      "daunt"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "industrious": {
+    "parts": [
+      {
+        "piece": "indu-",
+        "origin": "Latin",
+        "meaning": "in, within (archaic)"
+      },
+      {
+        "piece": "struere",
+        "origin": "Latin",
+        "meaning": "to build"
+      }
+    ],
+    "literal": "building busily within",
+    "path": "The root of Latin industria is disputed, but it likely joined within with build, giving a sense of busy construction that became hardworking diligence.",
+    "cousins": [
+      "structure",
+      "construct",
+      "instruct"
+    ],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ineffable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "fari",
+        "origin": "Latin",
+        "meaning": "to speak"
+      }
+    ],
+    "literal": "not able to be spoken out",
+    "path": "Latin fari meant to speak. Ineffable describes what is too great, sacred, or overwhelming to be put into words.",
+    "cousins": [
+      "fable",
+      "fate",
+      "fame"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ineluctable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "luctari",
+        "origin": "Latin",
+        "meaning": "to struggle, wrestle"
+      }
+    ],
+    "literal": "not able to struggle out of",
+    "path": "Latin luctari meant to wrestle. Something ineluctable, like fate, is a situation you cannot wrestle your way free of.",
+    "cousins": [
+      "reluctant",
+      "reluctance"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inept": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "aptus",
+        "origin": "Latin",
+        "meaning": "fit, suitable"
+      }
+    ],
+    "literal": "not fit, not apt",
+    "path": "Latin aptus meant fitting or suitable. Inept describes someone unfit for the task at hand, clumsy or incompetent.",
+    "cousins": [
+      "apt",
+      "adapt",
+      "aptitude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inequity": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "aequus",
+        "origin": "Latin",
+        "meaning": "equal, even"
+      }
+    ],
+    "literal": "not equal",
+    "path": "Latin aequus meant equal or level. Inequity is the absence of that evenness, plain unfairness.",
+    "cousins": [
+      "equal",
+      "equity",
+      "equanimity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inerrancy": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "errare",
+        "origin": "Latin",
+        "meaning": "to wander, stray, err"
+      }
+    ],
+    "literal": "not wandering, not erring",
+    "path": "Latin errare originally meant to wander, then to be mistaken. Inerrancy is the quality of never straying into error, often said of scripture.",
+    "cousins": [
+      "err",
+      "error",
+      "erratic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inert": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "without"
+      },
+      {
+        "piece": "ars, art-",
+        "origin": "Latin",
+        "meaning": "skill, art"
+      }
+    ],
+    "literal": "without skill or activity",
+    "path": "Latin iners meant unskilled or idle, literally without art. The word settled into describing what lacks the capacity to move or react, whether a person or a chemical.",
+    "cousins": [
+      "art",
+      "artisan",
+      "artifact"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inexorable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "orare",
+        "origin": "Latin",
+        "meaning": "to speak, plead, pray"
+      }
+    ],
+    "literal": "not able to be pleaded with",
+    "path": "Latin orare meant to pray or plead. An inexorable force cannot be moved by pleading or persuasion, so it cannot be stopped.",
+    "cousins": [
+      "orator",
+      "oracle",
+      "adore"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "infallible": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "fallere",
+        "origin": "Latin",
+        "meaning": "to deceive, trip up"
+      }
+    ],
+    "literal": "not able to fail",
+    "path": "Latin fallere meant to trip up or deceive. Infallible describes what cannot fail or mislead, incapable of being wrong.",
+    "cousins": [
+      "fail",
+      "fallacy",
+      "false"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "infelicitous": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "felix",
+        "origin": "Latin",
+        "meaning": "happy, fortunate"
+      }
+    ],
+    "literal": "not happily chosen",
+    "path": "Latin felix meant happy or fruitful. A felicitous phrase is a fittingly happy choice of words, so infelicitous means awkwardly or inappropriately expressed.",
+    "cousins": [
+      "felicity",
+      "felicitate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "infer": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "into"
+      },
+      {
+        "piece": "ferre",
+        "origin": "Latin",
+        "meaning": "to carry, bear"
+      }
+    ],
+    "literal": "to carry in",
+    "path": "Latin inferre meant to bring in or bring about. The logical sense narrowed to bringing in a conclusion from evidence, to infer.",
+    "cousins": [
+      "transfer",
+      "confer",
+      "offer"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "infest": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "intensive"
+      },
+      {
+        "piece": "festus",
+        "origin": "Latin",
+        "meaning": "hostile, attacking"
+      }
+    ],
+    "literal": "to attack, assail",
+    "path": "Latin infestus meant hostile or aggressive, and infestare meant to attack or harass. Infest now describes pests overrunning a place in troublesome numbers.",
+    "cousins": [
+      "defend",
+      "offend",
+      "fend"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inflammable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "intensive prefix, into"
+      },
+      {
+        "piece": "flammare",
+        "origin": "Latin",
+        "meaning": "to set on fire"
+      }
+    ],
+    "literal": "set into flame",
+    "path": "Here in- is an intensive prefix on flammare, to kindle, not a negative one. Inflammable means easily set on fire, despite widely being mistaken to mean the opposite.",
+    "cousins": [
+      "flame",
+      "flammable"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "inflammatory": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "intensive prefix"
+      },
+      {
+        "piece": "flammare",
+        "origin": "Latin",
+        "meaning": "to set on fire"
+      }
+    ],
+    "literal": "setting into flame",
+    "path": "From the same root as inflammable. The literal sense of catching fire extended metaphorically to speech or actions meant to ignite anger.",
+    "cousins": [
+      "flame",
+      "flammable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inform": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "into"
+      },
+      {
+        "piece": "formare",
+        "origin": "Latin",
+        "meaning": "to form, shape"
+      }
+    ],
+    "literal": "to give form to",
+    "path": "Latin informare literally meant to shape or mold. It extended to shaping someone's mind with knowledge, hence to inform, tell.",
+    "cousins": [
+      "form",
+      "formula",
+      "reform"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ingenious": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "gen-",
+        "origin": "Latin",
+        "meaning": "born, innate"
+      }
+    ],
+    "literal": "having inborn talent",
+    "path": "Latin ingenium meant an innate talent or natural cleverness. Ingenious describes cleverly inventive ability, as if drawing on natural genius.",
+    "cousins": [
+      "genius",
+      "generate",
+      "engine"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ingenue": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "gen-",
+        "origin": "Latin",
+        "meaning": "born"
+      }
+    ],
+    "literal": "freeborn",
+    "path": "Latin ingenuus described someone freeborn, hence naturally candid and unguarded. French narrowed it to name an artlessly innocent young woman, especially a stage role.",
+    "cousins": [
+      "genuine",
+      "generate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ingenuity": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "gen-",
+        "origin": "Latin",
+        "meaning": "born, innate"
+      }
+    ],
+    "literal": "inborn talent",
+    "path": "Like ingenious, this traces to Latin ingenium, natural talent. Ingenuity names the quality of clever inventiveness.",
+    "cousins": [
+      "genius",
+      "generate",
+      "engine"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ingenuous": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "gen-",
+        "origin": "Latin",
+        "meaning": "born"
+      }
+    ],
+    "literal": "freeborn, natural",
+    "path": "Freeborn Romans were seen as naturally candid, unlike the wary conduct expected of slaves, so Latin ingenuus came to mean frank and innocent.",
+    "cousins": [
+      "genuine",
+      "generate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ingrained": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "granum",
+        "origin": "Latin",
+        "meaning": "grain, seed"
+      }
+    ],
+    "literal": "dyed in the grain",
+    "path": "Cloth dyed in grain used a deep, fast dye made from dried kermes insects resembling grains, a color that would not fade. Ingrained came to mean deeply and permanently fixed.",
+    "cousins": [
+      "grain",
+      "granule",
+      "granary"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "ingrate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "gratus",
+        "origin": "Latin",
+        "meaning": "pleasing, thankful"
+      }
+    ],
+    "literal": "not thankful",
+    "path": "Latin gratus meant pleasing or grateful. An ingrate is literally not grateful, someone who fails to show thanks.",
+    "cousins": [
+      "grateful",
+      "gratitude",
+      "congratulate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ingratiate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "into"
+      },
+      {
+        "piece": "gratia",
+        "origin": "Latin",
+        "meaning": "favor, grace"
+      }
+    ],
+    "literal": "to bring into favor",
+    "path": "From Latin gratia, favor, ingratiate originally meant to bring oneself into someone's good graces. It now usually implies a calculated effort to win favor.",
+    "cousins": [
+      "grace",
+      "gratitude",
+      "grateful"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inherent": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "haerere",
+        "origin": "Latin",
+        "meaning": "to stick, cling"
+      }
+    ],
+    "literal": "sticking in",
+    "path": "Latin haerere meant to stick or cling. Something inherent clings so closely to a thing's nature that it is an essential, inseparable part of it.",
+    "cousins": [
+      "adhere",
+      "cohere",
+      "coherent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inhibit": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in, on"
+      },
+      {
+        "piece": "habere",
+        "origin": "Latin",
+        "meaning": "to hold, have"
+      }
+    ],
+    "literal": "to hold in",
+    "path": "Latin habere meant to hold or have. Inhibere meant to hold back or restrain, giving inhibit its sense of restraining an action or impulse.",
+    "cousins": [
+      "habit",
+      "exhibit",
+      "prohibit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inimical": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "amicus",
+        "origin": "Latin",
+        "meaning": "friend"
+      }
+    ],
+    "literal": "not friendly",
+    "path": "Latin amicus meant friend, and inimicus meant enemy. Inimical keeps the sense of being hostile or harmful to something.",
+    "cousins": [
+      "amicable",
+      "amiable",
+      "amity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inimitable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "imitari",
+        "origin": "Latin",
+        "meaning": "to copy, imitate"
+      }
+    ],
+    "literal": "not able to be copied",
+    "path": "Latin imitari meant to copy or imitate. Inimitable describes something so unique it cannot be copied.",
+    "cousins": [
+      "imitate",
+      "imitation"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "iniquitous": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "aequus",
+        "origin": "Latin",
+        "meaning": "equal, fair"
+      }
+    ],
+    "literal": "not equal, not fair",
+    "path": "Latin aequus meant equal or fair. Iniquitous is an intensified relative of inequitable, describing what is grossly unjust and wicked.",
+    "cousins": [
+      "equal",
+      "equity",
+      "equanimity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "iniquity": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "aequus",
+        "origin": "Latin",
+        "meaning": "equal, fair"
+      }
+    ],
+    "literal": "unfairness",
+    "path": "The noun form of iniquitous, from Latin aequus, equal. Iniquity names gross injustice or wickedness.",
+    "cousins": [
+      "equal",
+      "equity",
+      "equanimity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inkling": {
+    "parts": [
+      {
+        "piece": "inkling",
+        "origin": "unknown",
+        "meaning": "faint hint (origin obscure)"
+      }
+    ],
+    "literal": "no clear literal sense",
+    "path": "The word's origin is genuinely obscure. It appears already in Middle English meaning a faint hint or whisper of suspicion, with no reliable root story.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "innate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "natus",
+        "origin": "Latin",
+        "meaning": "born"
+      }
+    ],
+    "literal": "born in",
+    "path": "Latin nasci meant to be born. Innate describes qualities born in a person from the start, rather than acquired through learning.",
+    "cousins": [
+      "native",
+      "nature",
+      "natal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "innocuous": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "nocere",
+        "origin": "Latin",
+        "meaning": "to harm"
+      }
+    ],
+    "literal": "not harmful",
+    "path": "Latin nocere meant to harm. Innocuous describes something that does no harm, harmless and inoffensive.",
+    "cousins": [
+      "innocent",
+      "noxious",
+      "obnoxious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inopportune": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "opportunus",
+        "origin": "Latin",
+        "meaning": "timely, fitting"
+      }
+    ],
+    "literal": "not toward the harbor",
+    "path": "Latin opportunus originally described a wind blowing favorably toward the harbor, hence timely. Inopportune is the opposite, arriving at a bad, unfavorable moment.",
+    "cousins": [
+      "opportunity",
+      "port",
+      "import"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inordinate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "ordo",
+        "origin": "Latin",
+        "meaning": "order, row"
+      }
+    ],
+    "literal": "not in order",
+    "path": "Latin ordo meant order or rank. Inordinate originally meant disorderly, and came to describe something excessive because it exceeds the proper order or measure.",
+    "cousins": [
+      "order",
+      "ordinary",
+      "coordinate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inquest": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "into"
+      },
+      {
+        "piece": "quaerere",
+        "origin": "Latin",
+        "meaning": "to seek, ask"
+      }
+    ],
+    "literal": "a seeking into",
+    "path": "Latin quaerere meant to seek or ask. An inquest is a formal seeking into the facts of a case, especially a death.",
+    "cousins": [
+      "question",
+      "quest",
+      "require"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inquisitive": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "into"
+      },
+      {
+        "piece": "quaerere",
+        "origin": "Latin",
+        "meaning": "to seek, ask"
+      }
+    ],
+    "literal": "seeking into",
+    "path": "From the same root as inquest, Latin quaerere, to seek. Inquisitive describes someone eager to seek out information, sometimes to the point of prying.",
+    "cousins": [
+      "question",
+      "quest",
+      "inquire"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

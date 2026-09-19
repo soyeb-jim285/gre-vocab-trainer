@@ -1,0 +1,1177 @@
+{
+  "discord": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "cor",
+        "origin": "Latin",
+        "meaning": "heart"
+      }
+    ],
+    "literal": "hearts apart",
+    "path": "From cor, 'heart,' the same root as 'cordial.' Discord pictures two hearts pulling apart rather than beating together, disagreement or harsh conflict.",
+    "cousins": [
+      "cordial",
+      "accord",
+      "concord"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "discordant": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "cor",
+        "origin": "Latin",
+        "meaning": "heart"
+      }
+    ],
+    "literal": "hearts apart",
+    "path": "Same root as discord: discordant things pull apart from each other rather than fitting into harmony.",
+    "cousins": [
+      "cordial",
+      "accord",
+      "concord"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "discount": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "reverse, undo"
+      },
+      {
+        "piece": "computare",
+        "origin": "Latin",
+        "meaning": "to count"
+      }
+    ],
+    "literal": "to count against",
+    "path": "To discount something is to count it against its face value, treating it as worth less consideration than it seems.",
+    "cousins": [
+      "count",
+      "account",
+      "recount"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "discourse": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart, about"
+      },
+      {
+        "piece": "currere",
+        "origin": "Latin",
+        "meaning": "to run"
+      }
+    ],
+    "literal": "running about",
+    "path": "From currere, 'to run.' Discourse originally pictured thought running back and forth between speakers, now any extended, formal exchange of ideas.",
+    "cousins": [
+      "course",
+      "current",
+      "excursion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "discredit": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "credere",
+        "origin": "Latin",
+        "meaning": "to believe"
+      }
+    ],
+    "literal": "to remove belief",
+    "path": "From credere, 'to believe.' To discredit someone is to strip away the belief others place in them, damaging their reputation.",
+    "cousins": [
+      "credible",
+      "credit",
+      "creed"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "discreet": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "cernere",
+        "origin": "Latin",
+        "meaning": "to separate, sift"
+      }
+    ],
+    "literal": "sifted apart, discerning",
+    "path": "Same root as discern: originally meant having the judgment to sift things wisely. That judgment narrowed to knowing specifically what to keep private, tactful reserve.",
+    "cousins": [
+      "discern",
+      "discrete",
+      "secret"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "discrepancy": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "crepare",
+        "origin": "Latin",
+        "meaning": "to creak, sound"
+      }
+    ],
+    "literal": "sounding apart, out of tune",
+    "path": "From crepare, 'to make noise, creak,' the root behind 'decrepit' and 'crevice.' A discrepancy is where two accounts sound out of tune with each other.",
+    "cousins": [
+      "decrepit",
+      "crevice"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "discrete": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "cernere",
+        "origin": "Latin",
+        "meaning": "to separate, sift"
+      }
+    ],
+    "literal": "sifted apart, separated",
+    "path": "Same root as discern and discreet: something discrete has been sifted apart into its own distinct unit.",
+    "cousins": [
+      "discern",
+      "discreet",
+      "secret"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "discretion": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "cernere",
+        "origin": "Latin",
+        "meaning": "to separate, sift"
+      }
+    ],
+    "literal": "the power to sift and judge",
+    "path": "Same root as discern: discretion is the freedom and good judgment to sift out the right choice for oneself.",
+    "cousins": [
+      "discern",
+      "discreet"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "discretionary": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "cernere",
+        "origin": "Latin",
+        "meaning": "to separate, sift"
+      }
+    ],
+    "literal": "left to sifting and judgment",
+    "path": "Same root as discretion: something discretionary is left to an individual's own sifted judgment rather than fixed rule.",
+    "cousins": [
+      "discern",
+      "discreet"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "discriminate": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "cernere",
+        "origin": "Latin",
+        "meaning": "to separate, sift"
+      }
+    ],
+    "literal": "to sift apart, distinguish",
+    "path": "From discrimen, 'a distinction,' the same root as discern. To discriminate first meant simply to tell things apart; the word narrowed to unfairly sorting people by group.",
+    "cousins": [
+      "discern",
+      "crime"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "discriminating": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "cernere",
+        "origin": "Latin",
+        "meaning": "to separate, sift"
+      }
+    ],
+    "literal": "sifting apart finely",
+    "path": "Same root as discriminate, but kept its older, positive sense: a discriminating eye tells fine distinctions apart with refined judgment.",
+    "cousins": [
+      "discern",
+      "discreet"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "discursive": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart, about"
+      },
+      {
+        "piece": "currere",
+        "origin": "Latin",
+        "meaning": "to run"
+      }
+    ],
+    "literal": "running about",
+    "path": "Same root as discourse: discursive talk runs about from topic to topic instead of moving in a straight line.",
+    "cousins": [
+      "course",
+      "current",
+      "excursion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disdain": {
+    "parts": [
+      {
+        "piece": "des-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "dignari",
+        "origin": "Latin",
+        "meaning": "to deem worthy"
+      }
+    ],
+    "literal": "to not deem worthy",
+    "path": "The negative of 'deign': to disdain something is to refuse to deem it worthy of one's attention or respect.",
+    "cousins": [
+      "deign",
+      "dignity",
+      "indignant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disembark": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "undo"
+      },
+      {
+        "piece": "barca",
+        "origin": "Late Latin",
+        "meaning": "small boat"
+      }
+    ],
+    "literal": "to undo boarding a boat",
+    "path": "To embark is to get on a small boat; to disembark reverses that, stepping off it onto shore.",
+    "cousins": [
+      "embargo"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "disenfranchise": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "remove"
+      },
+      {
+        "piece": "franc",
+        "origin": "Old French",
+        "meaning": "free"
+      }
+    ],
+    "literal": "to remove freedom",
+    "path": "From franc, 'free,' the root of 'franchise' and 'frank.' To disenfranchise someone is to strip away a free citizen's rights, especially the right to vote.",
+    "cousins": [
+      "franchise",
+      "frank"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disentangle": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "undo"
+      },
+      {
+        "piece": "tangle",
+        "origin": "Scandinavian",
+        "meaning": "knotted mass"
+      }
+    ],
+    "literal": "to undo a tangled knot",
+    "path": "Simply to undo a tangle, whether literal threads or a complicated situation.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "disgorge": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "gorge",
+        "origin": "Latin",
+        "meaning": "throat"
+      }
+    ],
+    "literal": "to empty the throat",
+    "path": "From gurges, 'throat, whirlpool,' the same root as 'regurgitate.' To disgorge is to force something back out of the throat, unwillingly giving it up.",
+    "cousins": [
+      "gorge",
+      "regurgitate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disheartened": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "remove"
+      },
+      {
+        "piece": "heorte",
+        "origin": "Old English",
+        "meaning": "heart"
+      }
+    ],
+    "literal": "with heart removed",
+    "path": "Straightforward: to be disheartened is to have the heart, that is, the courage and hope, taken out of you.",
+    "cousins": [
+      "cordial",
+      "cardiac"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disillusion": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "undo"
+      },
+      {
+        "piece": "ludere",
+        "origin": "Latin",
+        "meaning": "to play, mock"
+      }
+    ],
+    "literal": "to undo an illusion",
+    "path": "From ludere, 'to play,' the same root as illusion and delusion. To disillusion someone is to strip away the pleasant game their mind had been playing on them.",
+    "cousins": [
+      "illusion",
+      "delusion",
+      "elude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disingenuous": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "ingenuus",
+        "origin": "Latin",
+        "meaning": "freeborn, noble, frank"
+      }
+    ],
+    "literal": "not naturally noble or frank",
+    "path": "Ingenuus described someone freeborn and therefore naturally candid. Disingenuous is the opposite: pretending that same natural frankness while actually being insincere.",
+    "cousins": [
+      "ingenious",
+      "genuine",
+      "generate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disinterest": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "interesse",
+        "origin": "Latin",
+        "meaning": "to be between, to concern"
+      }
+    ],
+    "literal": "not being involved between",
+    "path": "From interesse, 'to be between, have a stake.' Disinterest is having no personal stake between the two sides, hence impartiality.",
+    "cousins": [
+      "interest",
+      "essence"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "disinterested": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "interesse",
+        "origin": "Latin",
+        "meaning": "to be between, to concern"
+      }
+    ],
+    "literal": "not having a stake between",
+    "path": "Same root as disinterest: a disinterested judge has no personal stake in the outcome, making them impartial.",
+    "cousins": [
+      "interest",
+      "essence"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "disjointed": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "jungere",
+        "origin": "Latin",
+        "meaning": "to join"
+      }
+    ],
+    "literal": "taken apart at the joints",
+    "path": "From jungere, 'to join.' Disjointed writing has come apart at its joints, no longer connected into a coherent whole.",
+    "cousins": [
+      "join",
+      "junction",
+      "juncture"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dismiss": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "away"
+      },
+      {
+        "piece": "mittere",
+        "origin": "Latin",
+        "meaning": "to send"
+      }
+    ],
+    "literal": "to send away",
+    "path": "From mittere, 'to send.' To dismiss an idea is to send it away without further consideration.",
+    "cousins": [
+      "mission",
+      "transmit",
+      "permit",
+      "admit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disparage": {
+    "parts": [
+      {
+        "piece": "des-",
+        "origin": "Old French",
+        "meaning": "not"
+      },
+      {
+        "piece": "parage",
+        "origin": "Old French",
+        "meaning": "rank, equality of birth"
+      }
+    ],
+    "literal": "to lower in rank",
+    "path": "Originally meant marrying someone off to a partner of unequal, lower rank, dishonoring the family. The word broadened to belittling anyone's standing in general.",
+    "cousins": [
+      "par",
+      "peer",
+      "compare"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disparate": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "par",
+        "origin": "Latin",
+        "meaning": "equal"
+      }
+    ],
+    "literal": "unequal, set apart",
+    "path": "From par, 'equal.' Disparate things are so unequal or unlike that they cannot be compared on the same footing.",
+    "cousins": [
+      "par",
+      "peer",
+      "compare"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dispassionate": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "without"
+      },
+      {
+        "piece": "pati",
+        "origin": "Latin",
+        "meaning": "to suffer, feel"
+      }
+    ],
+    "literal": "without feeling",
+    "path": "From pati, 'to suffer, feel strongly,' the root of 'passion.' Someone dispassionate keeps free of that strong feeling, judging calmly instead.",
+    "cousins": [
+      "passion",
+      "patient",
+      "compassion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "dispatch": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "un-"
+      },
+      {
+        "piece": "pactus",
+        "origin": "Latin",
+        "meaning": "fastened"
+      }
+    ],
+    "literal": "to unfasten, clear an obstruction",
+    "path": "Probably from Latin pangere, 'to fasten.' To dispatch something is to unfasten whatever was holding it back, sending it off quickly or finishing it off promptly.",
+    "cousins": [
+      "pact",
+      "compact",
+      "impact"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dispensation": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "pendere",
+        "origin": "Latin",
+        "meaning": "to weigh, pay out"
+      }
+    ],
+    "literal": "a weighing out",
+    "path": "From pendere, 'to weigh.' A dispensation was originally a careful weighing-out of what was owed; it narrowed to an official exemption weighed out and granted to someone.",
+    "cousins": [
+      "pension",
+      "expense",
+      "compensate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dispense": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "pendere",
+        "origin": "Latin",
+        "meaning": "to weigh, pay out"
+      }
+    ],
+    "literal": "to weigh out",
+    "path": "Same root as dispensation: to dispense is to weigh out and distribute portions, or, with 'with,' to weigh something as unnecessary and do without it.",
+    "cousins": [
+      "pension",
+      "expense",
+      "compensate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "disperse": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "spargere",
+        "origin": "Latin",
+        "meaning": "to scatter, sprinkle"
+      }
+    ],
+    "literal": "to scatter apart",
+    "path": "From spargere, 'to scatter,' the root of 'sparse.' To disperse is to scatter in different directions.",
+    "cousins": [
+      "sparse",
+      "aspersion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dispersed": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "spargere",
+        "origin": "Latin",
+        "meaning": "to scatter, sprinkle"
+      }
+    ],
+    "literal": "scattered apart",
+    "path": "Same root as disperse: something dispersed has been scattered over a wide area.",
+    "cousins": [
+      "sparse",
+      "aspersion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "disport": {
+    "parts": [
+      {
+        "piece": "des-",
+        "origin": "Old French",
+        "meaning": "away"
+      },
+      {
+        "piece": "porter",
+        "origin": "Old French",
+        "meaning": "to carry"
+      }
+    ],
+    "literal": "to carry oneself away",
+    "path": "The same root that gives 'sport' (a shortened form of disport): to disport oneself is to carry yourself away from work into play and amusement.",
+    "cousins": [
+      "sport",
+      "portable",
+      "transport"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "disposition": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to place"
+      }
+    ],
+    "literal": "placing apart, arranging",
+    "path": "From ponere, 'to place.' Disposition covers both the arrangement of things and a person's underlying temperament, how they are 'placed' by nature.",
+    "cousins": [
+      "position",
+      "component",
+      "propose"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "disquieting": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "quietus",
+        "origin": "Latin",
+        "meaning": "calm, at rest"
+      }
+    ],
+    "literal": "not calm",
+    "path": "From quietus, the same root as 'quiet' and 'coy.' Something disquieting robs you of calm, leaving unease.",
+    "cousins": [
+      "quiescent",
+      "coy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disquisition": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "quaerere",
+        "origin": "Latin",
+        "meaning": "to seek, ask"
+      }
+    ],
+    "literal": "a thorough seeking out",
+    "path": "From quaerere, 'to seek,' the root of 'inquire' and 'query.' A disquisition thoroughly seeks out and examines a subject in formal detail.",
+    "cousins": [
+      "inquire",
+      "query",
+      "quest",
+      "acquire"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "disregard": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "garder",
+        "origin": "Old French",
+        "meaning": "to watch, guard"
+      }
+    ],
+    "literal": "to not watch",
+    "path": "From garder, 'to watch, guard.' To disregard something is to simply not watch or attend to it.",
+    "cousins": [
+      "regard",
+      "guard",
+      "reward"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dissemble": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "simulare",
+        "origin": "Latin",
+        "meaning": "to make similar, pretend"
+      }
+    ],
+    "literal": "to make (appear) unlike the truth",
+    "path": "From simulare, 'to feign,' the root of 'simulate.' To dissemble is to disguise your true feelings behind a false, similar-looking front.",
+    "cousins": [
+      "similar",
+      "simulate",
+      "resemble"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dissembler": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "simulare",
+        "origin": "Latin",
+        "meaning": "to make similar, pretend"
+      }
+    ],
+    "literal": "one who makes things appear unlike the truth",
+    "path": "Same root as dissemble: a dissembler hides true feelings or motives behind a false front.",
+    "cousins": [
+      "similar",
+      "simulate",
+      "resemble"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "disseminate": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "in different directions"
+      },
+      {
+        "piece": "seminare",
+        "origin": "Latin",
+        "meaning": "to sow, from semen 'seed'"
+      }
+    ],
+    "literal": "to sow seed broadly",
+    "path": "From semen, 'seed.' To disseminate information is to sow it broadly, like a farmer scattering seed across a field.",
+    "cousins": [
+      "seed",
+      "seminar",
+      "seminary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dissent": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "sentire",
+        "origin": "Latin",
+        "meaning": "to feel, think"
+      }
+    ],
+    "literal": "to feel apart, differently",
+    "path": "From sentire, 'to feel or think.' Dissent is feeling and thinking apart from the official or majority view.",
+    "cousins": [
+      "sense",
+      "sentiment",
+      "consent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dissident": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "sedere",
+        "origin": "Latin",
+        "meaning": "to sit"
+      }
+    ],
+    "literal": "sitting apart",
+    "path": "From sedere, 'to sit.' A dissident sits apart from the official line, refusing to take the seat of orthodoxy.",
+    "cousins": [
+      "sedentary",
+      "preside",
+      "reside"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dissimulate": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "simulare",
+        "origin": "Latin",
+        "meaning": "to make similar, pretend"
+      }
+    ],
+    "literal": "to make (appear) unlike the truth",
+    "path": "Same root as dissemble: to dissimulate is to hide true feelings behind a false, similar-looking surface.",
+    "cousins": [
+      "similar",
+      "simulate",
+      "resemble"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dissipate": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "supare",
+        "origin": "Latin",
+        "meaning": "to throw, scatter"
+      }
+    ],
+    "literal": "to throw apart",
+    "path": "From an old Latin verb for throwing or scattering. Energy or wealth that dissipates is thrown apart and scattered until it is gone.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dissolution": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "solvere",
+        "origin": "Latin",
+        "meaning": "to loosen, release"
+      }
+    ],
+    "literal": "a loosening apart",
+    "path": "From solvere, 'to loosen.' A dissolution is the formal loosening apart of something once bound together, like a marriage or a partnership.",
+    "cousins": [
+      "solve",
+      "resolve",
+      "absolve"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dissonance": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "sonare",
+        "origin": "Latin",
+        "meaning": "to sound"
+      }
+    ],
+    "literal": "sounding apart",
+    "path": "From sonus, 'sound.' Dissonance is sound (or ideas) that clash rather than blending into harmony.",
+    "cousins": [
+      "sonic",
+      "resonate",
+      "unison"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "distaff": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Low German",
+        "meaning": "bundle of flax"
+      },
+      {
+        "piece": "stæf",
+        "origin": "Old English",
+        "meaning": "staff, stick"
+      }
+    ],
+    "literal": "the staff for holding flax",
+    "path": "A distaff was the stick that held flax or wool ready for spinning, traditionally women's domestic work. 'The distaff side' of a family came to mean the female, maternal line.",
+    "cousins": [
+      "staff"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "distend": {
+    "parts": [
+      {
+        "piece": "dis-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "tendere",
+        "origin": "Latin",
+        "meaning": "to stretch"
+      }
+    ],
+    "literal": "to stretch apart",
+    "path": "From tendere, 'to stretch.' Something distended has been stretched apart and swollen by pressure from within.",
+    "cousins": [
+      "tense",
+      "extend",
+      "tendon"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "distill": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "stilla",
+        "origin": "Latin",
+        "meaning": "a drop"
+      }
+    ],
+    "literal": "to drip down",
+    "path": "From stilla, 'a drop.' Just as distilling liquid separates out its purest drops, to distill an idea is to boil it down to its essential meaning.",
+    "cousins": [
+      "instill"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

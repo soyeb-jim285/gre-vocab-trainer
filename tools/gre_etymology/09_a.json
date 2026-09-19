@@ -1,0 +1,958 @@
+{
+  "suspended": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "pendere",
+        "origin": "Latin",
+        "meaning": "to hang"
+      }
+    ],
+    "literal": "hung from below",
+    "path": "Something suspended is literally hung up, held in place rather than falling or moving. The sense extended to processes or rules held in place, not falling forward, put on hold.",
+    "cousins": [
+      "pendant",
+      "pending",
+      "suspense"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "swerve": {
+    "parts": [
+      {
+        "piece": "sweorfan",
+        "origin": "Old English",
+        "meaning": "to depart, turn aside (also: to rub, scour)"
+      }
+    ],
+    "literal": "to turn away",
+    "path": "Old English sweorfan meant both to rub or scour and to depart or turn aside; the surviving English sense narrowed to an abrupt change of direction. The link between the two old senses is unclear.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "swindle": {
+    "parts": [
+      {
+        "piece": "schwindeln",
+        "origin": "German",
+        "meaning": "to be dizzy, to act rashly"
+      }
+    ],
+    "literal": "to act giddily",
+    "path": "German Schwindler, 'a giddy or reckless person,' was borrowed into English for a reckless speculator, then narrowed to someone who dizzies others with false schemes in order to cheat them of money.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "sybarite": {
+    "parts": [
+      {
+        "piece": "Sybaris",
+        "origin": "Greek",
+        "meaning": "ancient Greek city in Italy famed for luxury"
+      }
+    ],
+    "literal": "a native of Sybaris",
+    "path": "Sybaris was a Greek colony in southern Italy whose citizens were proverbial in antiquity for wealth and self-indulgence. The city's name became a byword for anyone devoted to luxury and pleasure.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sycophant": {
+    "parts": [
+      {
+        "piece": "sykon",
+        "origin": "Greek",
+        "meaning": "fig"
+      },
+      {
+        "piece": "phainein",
+        "origin": "Greek",
+        "meaning": "to show"
+      }
+    ],
+    "literal": "fig-shower (disputed)",
+    "path": "The literal Greek sense is disputed: possibly an informer against illegal fig exporting, or someone making a vulgar 'showing the fig' gesture. By the time it reached English it meant an informer, and later a servile flatterer who curries favor.",
+    "cousins": [
+      "phantom",
+      "emphasis"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "syllogism": {
+    "parts": [
+      {
+        "piece": "syn-",
+        "origin": "Greek",
+        "meaning": "together"
+      },
+      {
+        "piece": "logizesthai",
+        "origin": "Greek",
+        "meaning": "to reckon, conclude"
+      }
+    ],
+    "literal": "a reckoning together",
+    "path": "Greek syllogismos meant a computation or inference. Aristotle used it for the formal three-part deductive argument, where a conclusion is reckoned together out of a major and minor premise.",
+    "cousins": [
+      "logic",
+      "dialogue",
+      "catalog"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "symbiosis": {
+    "parts": [
+      {
+        "piece": "syn-",
+        "origin": "Greek",
+        "meaning": "together"
+      },
+      {
+        "piece": "bios",
+        "origin": "Greek",
+        "meaning": "life"
+      }
+    ],
+    "literal": "living together",
+    "path": "Coined in 19th-century biology for two different organisms living together for mutual benefit, then extended to any mutually beneficial relationship, biological or not.",
+    "cousins": [
+      "biology",
+      "biography",
+      "amphibian"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "symmetry": {
+    "parts": [
+      {
+        "piece": "syn-",
+        "origin": "Greek",
+        "meaning": "together"
+      },
+      {
+        "piece": "metron",
+        "origin": "Greek",
+        "meaning": "measure"
+      }
+    ],
+    "literal": "measured together",
+    "path": "Greek symmetria meant agreement in dimensions, parts sharing a common measure. It came to denote balanced, proportionate correspondence between parts.",
+    "cousins": [
+      "meter",
+      "metric",
+      "geometry"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "synchronous": {
+    "parts": [
+      {
+        "piece": "syn-",
+        "origin": "Greek",
+        "meaning": "together"
+      },
+      {
+        "piece": "chronos",
+        "origin": "Greek",
+        "meaning": "time"
+      }
+    ],
+    "literal": "same time",
+    "path": "Direct from the parts: events that share the same time are synchronous.",
+    "cousins": [
+      "chronicle",
+      "chronology",
+      "anachronism"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "syncopated": {
+    "parts": [
+      {
+        "piece": "syn-",
+        "origin": "Greek",
+        "meaning": "together"
+      },
+      {
+        "piece": "koptein",
+        "origin": "Greek",
+        "meaning": "to cut, strike"
+      }
+    ],
+    "literal": "cut off together",
+    "path": "Syncope originally meant a cutting-short, of a word or of consciousness (a fainting fit). In music, syncopation 'cuts' the expected beat, shifting the stress to an unexpected point.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "synergy": {
+    "parts": [
+      {
+        "piece": "syn-",
+        "origin": "Greek",
+        "meaning": "together"
+      },
+      {
+        "piece": "ergon",
+        "origin": "Greek",
+        "meaning": "work"
+      }
+    ],
+    "literal": "working together",
+    "path": "Greek synergos meant a fellow worker. Combined action of separate parts working together was seen to produce an effect greater than any part alone.",
+    "cousins": [
+      "energy",
+      "ergonomic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "synoptic": {
+    "parts": [
+      {
+        "piece": "syn-",
+        "origin": "Greek",
+        "meaning": "together"
+      },
+      {
+        "piece": "opsis",
+        "origin": "Greek",
+        "meaning": "view, sight"
+      }
+    ],
+    "literal": "seen together",
+    "path": "A synoptic view takes everything in at a single glance, all parts seen together, hence a general summary rather than a detailed account.",
+    "cousins": [
+      "optic",
+      "optical",
+      "autopsy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "syntax": {
+    "parts": [
+      {
+        "piece": "syn-",
+        "origin": "Greek",
+        "meaning": "together"
+      },
+      {
+        "piece": "tassein",
+        "origin": "Greek",
+        "meaning": "to arrange"
+      }
+    ],
+    "literal": "arranged together",
+    "path": "Direct from the parts: syntax is how words are arranged together into sentences.",
+    "cousins": [
+      "tactic",
+      "taxonomy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "synthesize": {
+    "parts": [
+      {
+        "piece": "syn-",
+        "origin": "Greek",
+        "meaning": "together"
+      },
+      {
+        "piece": "tithenai",
+        "origin": "Greek",
+        "meaning": "to place, put"
+      }
+    ],
+    "literal": "to put together",
+    "path": "Direct from the parts: to synthesize is to put separate elements together into one whole.",
+    "cousins": [
+      "thesis",
+      "antithesis",
+      "epithet"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "table": {
+    "parts": [
+      {
+        "piece": "tabula",
+        "origin": "Latin",
+        "meaning": "board, plank, writing tablet"
+      }
+    ],
+    "literal": "a flat board",
+    "path": "To 'table' a motion originally meant laying it on the board for the group to look at. British usage kept this as 'bring up for discussion'; American usage drifted to the opposite, 'set aside for later.'",
+    "cousins": [
+      "tablet",
+      "tabular",
+      "tableau"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tacit": {
+    "parts": [
+      {
+        "piece": "tacere",
+        "origin": "Latin",
+        "meaning": "to be silent"
+      }
+    ],
+    "literal": "silent",
+    "path": "Something tacit is agreed to or understood in silence, without being put into words.",
+    "cousins": [
+      "reticent",
+      "taciturn"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "taciturn": {
+    "parts": [
+      {
+        "piece": "tacere",
+        "origin": "Latin",
+        "meaning": "to be silent"
+      }
+    ],
+    "literal": "inclined to silence",
+    "path": "From the same root as tacit; a taciturn person habitually keeps silent rather than speaking freely.",
+    "cousins": [
+      "tacit",
+      "reticent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tact": {
+    "parts": [
+      {
+        "piece": "tangere",
+        "origin": "Latin",
+        "meaning": "to touch"
+      }
+    ],
+    "literal": "touch",
+    "path": "Tact is a figurative 'sense of touch' for social situations, an intuitive feel for the right thing to say or do around sensitive matters.",
+    "cousins": [
+      "tangible",
+      "contact",
+      "tangent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "tangent": {
+    "parts": [
+      {
+        "piece": "tangere",
+        "origin": "Latin",
+        "meaning": "to touch"
+      }
+    ],
+    "literal": "touching",
+    "path": "A geometric tangent line touches a curve at one point without crossing it. 'Going off on a tangent' borrows this image for a discussion that touches the topic briefly, then veers away.",
+    "cousins": [
+      "tangible",
+      "contact",
+      "tact"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tangential": {
+    "parts": [
+      {
+        "piece": "tangere",
+        "origin": "Latin",
+        "meaning": "to touch"
+      }
+    ],
+    "literal": "touching only at one point",
+    "path": "Like a tangent line that meets a curve at a single point, something tangential connects to the main subject only slightly, at the margins.",
+    "cousins": [
+      "tangent",
+      "tangible",
+      "contact"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tangible": {
+    "parts": [
+      {
+        "piece": "tangere",
+        "origin": "Latin",
+        "meaning": "to touch"
+      }
+    ],
+    "literal": "able to be touched",
+    "path": "Direct from the root: physically touchable, hence concrete and real rather than abstract.",
+    "cousins": [
+      "tangent",
+      "contact",
+      "tact"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tantalize": {
+    "parts": [
+      {
+        "piece": "Tantalus",
+        "origin": "Greek",
+        "meaning": "mythical king punished with unreachable fruit and water"
+      }
+    ],
+    "literal": "to torment like Tantalus",
+    "path": "Tantalus stood in a pool beneath fruit branches that both receded whenever he reached for them. To tantalize is to tempt someone with something visible but always just out of reach.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tantalizing": {
+    "parts": [
+      {
+        "piece": "Tantalus",
+        "origin": "Greek",
+        "meaning": "mythical king punished with unreachable fruit and water"
+      }
+    ],
+    "literal": "torturing like Tantalus's fruit",
+    "path": "Same myth as tantalize: something tantalizing is temptingly visible but held just out of reach.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tantamount": {
+    "parts": [
+      {
+        "piece": "tant",
+        "origin": "Latin",
+        "meaning": "so much"
+      },
+      {
+        "piece": "amunter",
+        "origin": "Anglo-French",
+        "meaning": "to amount to"
+      }
+    ],
+    "literal": "amounting to as much",
+    "path": "Anglo-French tant amunter meant 'to amount to so much.' Something tantamount to a thing amounts to the same as it, equal to it in effect.",
+    "cousins": [
+      "amount",
+      "paramount"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tarnish": {
+    "parts": [
+      {
+        "piece": "ternir",
+        "origin": "Old French",
+        "meaning": "to dull, darken"
+      }
+    ],
+    "literal": "to make dull",
+    "path": "Originally described a bright surface, like metal, losing its shine and turning dull or dark. The figurative sense of damaging a reputation follows the same image of a lost luster.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tarry": {
+    "parts": [
+      {
+        "piece": "tarien",
+        "origin": "Middle English",
+        "meaning": "to delay, hinder (origin uncertain)"
+      }
+    ],
+    "literal": "uncertain",
+    "path": "The word's origin is disputed, perhaps linked to an Old English word for vexation or weariness, but the connection is unclear. Since Middle English it has simply meant to delay or linger.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "tautology": {
+    "parts": [
+      {
+        "piece": "tauto-",
+        "origin": "Greek",
+        "meaning": "the same"
+      },
+      {
+        "piece": "logos",
+        "origin": "Greek",
+        "meaning": "word, saying"
+      }
+    ],
+    "literal": "saying the same",
+    "path": "Direct from the parts: a tautology needlessly says the same thing twice in different words.",
+    "cousins": [
+      "logic",
+      "dialogue",
+      "monologue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tawdry": {
+    "parts": [
+      {
+        "piece": "St. Audrey",
+        "origin": "English",
+        "meaning": "St. Etheldreda of Ely"
+      }
+    ],
+    "literal": "of St. Audrey",
+    "path": "Cheap silk lace neckties sold at the fair of St. Audrey in Ely, England, were called 'St. Audrey's lace,' contracted to 'tawdry lace.' Their cheap showiness gave the word its meaning.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "taxing": {
+    "parts": [
+      {
+        "piece": "taxare",
+        "origin": "Latin",
+        "meaning": "to assess, charge"
+      }
+    ],
+    "literal": "assessing a burden",
+    "path": "A tax is a levied burden; something taxing places a heavy demand on one's strength or resources, the way a tax strains finances.",
+    "cousins": [
+      "task",
+      "taxation"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tedious": {
+    "parts": [
+      {
+        "piece": "taedium",
+        "origin": "Latin",
+        "meaning": "weariness, disgust"
+      }
+    ],
+    "literal": "full of weariness",
+    "path": "Direct from the root: something tedious induces weariness through its dull length.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "teem": {
+    "parts": [
+      {
+        "piece": "teman",
+        "origin": "Old English",
+        "meaning": "to give birth to, produce"
+      }
+    ],
+    "literal": "to bring forth abundantly",
+    "path": "Originally meant to bring forth young or produce offspring. The sense widened from a mother producing many young to any place being crowded or swarming with abundance.",
+    "cousins": [
+      "team"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "telling": {
+    "parts": [
+      {
+        "piece": "tellan",
+        "origin": "Old English",
+        "meaning": "to count, relate, tell"
+      }
+    ],
+    "literal": "telling a great deal",
+    "path": "Something telling effectively 'tells' or reveals a great deal, so striking or significant in what it shows.",
+    "cousins": [
+      "tale"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "telltale": {
+    "parts": [
+      {
+        "piece": "tell",
+        "origin": "Old English",
+        "meaning": "to relate"
+      },
+      {
+        "piece": "tale",
+        "origin": "Old English",
+        "meaning": "story"
+      }
+    ],
+    "literal": "one that tells a tale",
+    "path": "A telltale sign 'tells the tale' on its own, giving away something that was meant to stay hidden.",
+    "cousins": [
+      "tale"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "temerity": {
+    "parts": [
+      {
+        "piece": "temere",
+        "origin": "Latin",
+        "meaning": "blindly, rashly"
+      }
+    ],
+    "literal": "rashness",
+    "path": "From Latin temere, 'without foresight, by blind chance,' temerity is boldness that disregards danger or propriety, confidence with no thought for the consequences.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "temper": {
+    "parts": [
+      {
+        "piece": "temperare",
+        "origin": "Latin",
+        "meaning": "to mix in due proportion, regulate"
+      }
+    ],
+    "literal": "to mix in right proportion",
+    "path": "Originally meant combining elements in correct proportion, as in tempering metal through controlled heating and cooling. The sense extended to softening or moderating something by blending in a counteracting quality.",
+    "cousins": [
+      "temperature",
+      "temperament",
+      "temperate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "temperance": {
+    "parts": [
+      {
+        "piece": "temperare",
+        "origin": "Latin",
+        "meaning": "to mix in due proportion, regulate"
+      }
+    ],
+    "literal": "due mixing, moderation",
+    "path": "From the same family as temper: restraint achieved through balanced moderation, historically applied especially to abstaining from alcohol.",
+    "cousins": [
+      "temperature",
+      "temperate",
+      "temper"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "temperate": {
+    "parts": [
+      {
+        "piece": "temperare",
+        "origin": "Latin",
+        "meaning": "to mix in due proportion, regulate"
+      }
+    ],
+    "literal": "mixed in due proportion",
+    "path": "From the same root as temper: exercising moderation and self-restraint, or, of climate, mild and neither extreme.",
+    "cousins": [
+      "temperature",
+      "temper",
+      "temperance"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "tempered": {
+    "parts": [
+      {
+        "piece": "temperare",
+        "origin": "Latin",
+        "meaning": "to mix in due proportion, regulate"
+      }
+    ],
+    "literal": "moderated",
+    "path": "Past participle sense of temper: qualified or balanced by an offsetting quality, as optimism tempered by caution.",
+    "cousins": [
+      "temperate",
+      "temperature"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tempestuous": {
+    "parts": [
+      {
+        "piece": "tempestas",
+        "origin": "Latin",
+        "meaning": "storm, weather"
+      }
+    ],
+    "literal": "of a storm",
+    "path": "A tempest is a violent storm; tempestuous extends that image to emotional or situational turbulence, as stormy and turbulent as bad weather.",
+    "cousins": [
+      "tempest",
+      "temporal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "temporal": {
+    "parts": [
+      {
+        "piece": "tempus",
+        "origin": "Latin",
+        "meaning": "time"
+      }
+    ],
+    "literal": "of time",
+    "path": "Direct from the root: pertaining to time as opposed to eternity, and so also to worldly, secular affairs rather than spiritual ones.",
+    "cousins": [
+      "temporary",
+      "contemporary",
+      "tempo"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "temporize": {
+    "parts": [
+      {
+        "piece": "tempus",
+        "origin": "Latin",
+        "meaning": "time"
+      }
+    ],
+    "literal": "to act according to the time",
+    "path": "To temporize is to adapt one's actions to the moment, stalling or acting evasively in order to gain time before committing to a course.",
+    "cousins": [
+      "temporal",
+      "temporary",
+      "contemporary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tenable": {
+    "parts": [
+      {
+        "piece": "tenere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "able to be held",
+    "path": "A tenable position is one that can be held, defended against attack or objection, literally as ground or figuratively as an argument.",
+    "cousins": [
+      "contain",
+      "maintain",
+      "tenant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tenacious": {
+    "parts": [
+      {
+        "piece": "tenere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "holding fast",
+    "path": "Direct from the root: someone tenacious holds on firmly and persistently, refusing to let go.",
+    "cousins": [
+      "tenant",
+      "tenure",
+      "contain"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "tenacity": {
+    "parts": [
+      {
+        "piece": "tenere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "holding fast",
+    "path": "Same root as tenacious: the quality of holding firmly to a purpose despite obstacles.",
+    "cousins": [
+      "tenant",
+      "tenure",
+      "retain"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "tendentious": {
+    "parts": [
+      {
+        "piece": "tendere",
+        "origin": "Latin",
+        "meaning": "to stretch, tend toward"
+      }
+    ],
+    "literal": "tending toward a direction",
+    "path": "A tendentious argument 'tends' or leans toward a particular conclusion, revealing an underlying bias rather than a neutral presentation of facts.",
+    "cousins": [
+      "tendency",
+      "extend",
+      "tension"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tender": {
+    "parts": [
+      {
+        "piece": "tendere",
+        "origin": "Latin",
+        "meaning": "to stretch out"
+      }
+    ],
+    "literal": "to stretch out",
+    "path": "To tender something is to hold it out or extend it formally for acceptance, as one extends a hand.",
+    "cousins": [
+      "extend",
+      "tension",
+      "tendency"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tentative": {
+    "parts": [
+      {
+        "piece": "tentare",
+        "origin": "Latin",
+        "meaning": "to try, test"
+      }
+    ],
+    "literal": "trying, testing",
+    "path": "Something tentative is offered as a trial or test run, not yet fixed or certain.",
+    "cousins": [
+      "tempt",
+      "attempt",
+      "temptation"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tenuous": {
+    "parts": [
+      {
+        "piece": "tenuis",
+        "origin": "Latin",
+        "meaning": "thin, slight"
+      }
+    ],
+    "literal": "thin",
+    "path": "Direct from the root: stretched thin, so flimsy or barely substantial, as in a tenuous argument or connection.",
+    "cousins": [
+      "attenuate",
+      "extenuate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tepid": {
+    "parts": [
+      {
+        "piece": "tepere",
+        "origin": "Latin",
+        "meaning": "to be warm"
+      }
+    ],
+    "literal": "lukewarm",
+    "path": "The physical sense of merely warm, not hot, extended to reactions that are lukewarm, halfhearted, unenthusiastic.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "terrestrial": {
+    "parts": [
+      {
+        "piece": "terra",
+        "origin": "Latin",
+        "meaning": "earth"
+      }
+    ],
+    "literal": "of the earth",
+    "path": "Direct from the root: relating to the earth or land, as opposed to sea, air, or sky.",
+    "cousins": [
+      "terrain",
+      "territory",
+      "subterranean"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

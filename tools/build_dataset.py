@@ -64,6 +64,7 @@ GRE_DIFFICULTY = ROOT / "tools" / "gre_difficulty.json"
 GRE_OPTIONS = ROOT / "tools" / "gre_options.json"
 GRE_GROUNDING = ROOT / "tools" / "gre_grounding"
 GRE_CONFUSION = ROOT / "tools" / "gre_confusion"
+GRE_ETYMOLOGY = ROOT / "tools" / "gre_etymology"
 GRE_ITEMS = ROOT / "tools" / "gre_items"
 ITEMS_OUT = ROOT / "Sources" / "GRECore" / "Resources" / "items.json"
 # 1-5 to the four bands the app already displays.
@@ -284,6 +285,34 @@ def load_confusion() -> dict[str, list[dict]]:
     return out
 
 
+def gregmat_groups(lines: list[str]) -> dict[str, int]:
+    """Which of GregMat's 30-word groups each of his words sits in, 1-based.
+
+    The source CSV carries no group column, but it is in group order, 30 words a
+    group. Counting in thirties is enough; the alphabetical runs inside most
+    groups confirm the boundaries by eye.
+    """
+    words = [w for line in lines if (w := normalize(line))]
+    groups: dict[str, int] = {}
+    for i, w in enumerate(words):
+        # "cumbersome" is listed twice; the group a learner meets it in first wins.
+        groups.setdefault(w, i // 30 + 1)
+    return groups
+
+
+def load_etymology() -> dict[str, dict]:
+    """Where each word came from, and the connotation of its tested sense.
+
+    Drafted by a model in shards and spot-checked by hand; `charge` rides in the
+    same shards because it was written in the same pass, and is split out here
+    because the app treats it as its own field.
+    """
+    out: dict[str, dict] = {}
+    for path in sorted(GRE_ETYMOLOGY.glob("*.json")):
+        out.update(json.loads(path.read_text(encoding="utf-8")))
+    return out
+
+
 def load_options() -> dict[str, list[str]]:
     if not GRE_OPTIONS.exists():
         return {}
@@ -379,6 +408,8 @@ def build() -> tuple[list[dict], list[str]]:
     options = load_options()
     grounding = load_grounding()
     confusion = load_confusion()
+    etymology = load_etymology()
+    groups = gregmat_groups(lists["gregmat"])
     print(f"Attaching WordNet senses ({len(gre_senses)} hand-written GRE senses)...")
     # Morphy falls back to lemmatization only when the surface form misses, so
     # inflected entries resolve while list typos still drop out.
@@ -414,8 +445,18 @@ def build() -> tuple[list[dict], list[str]]:
             **({"gre": gre} if gre else {}),
             **({"grounding": grounding[word]} if word in grounding else {}),
             **({"confusion": confusion[word]} if word in confusion else {}),
+            **({"gregmatGroup": groups[word]} if word in groups else {}),
+            **etymology_fields(etymology.get(word)),
         })
     return entries, missing
+
+
+def etymology_fields(entry: dict | None) -> dict:
+    if not entry:
+        return {}
+    entry = dict(entry)
+    charge = entry.pop("charge", None)
+    return {"etymology": entry, **({"charge": charge} if charge else {})}
 
 
 # --------------------------------------------------------------------------- checks
@@ -465,6 +506,20 @@ def verify(entries: list[dict]) -> None:
         for pair in e.get("confusion", []):
             assert pair["with"] in known, f"{e['id']}: confused with unknown word {pair['with']}"
             assert pair["distinction"], f"{e['id']}: confusion pair with no distinction"
+        if et := e.get("etymology"):
+            assert et["parts"] and all(p["piece"] and p["meaning"] for p in et["parts"]), \
+                f"{e['id']}: etymology with an empty part"
+            assert et["literal"] and et["path"], f"{e['id']}: etymology missing literal or path"
+            assert et["confidence"] in ("high", "medium", "low"), f"{e['id']}: bad confidence"
+            assert isinstance(et["transparent"], bool), f"{e['id']}: bad transparent flag"
+            # Prose rules (cousins that are the word itself, length) live in
+            # tools/etymology_verify.py, like grounding's do.
+            assert "\u2014" not in et["path"], f"{e['id']}: em dash in etymology"
+        if "charge" in e:
+            assert e["charge"] in ("positive", "negative", "neutral"), f"{e['id']}: bad charge"
+        if "gregmatGroup" in e:
+            assert 1 <= e["gregmatGroup"] <= 40, f"{e['id']}: bad GregMat group"
+            assert "gregmat" in e["sourceLists"], f"{e['id']}: grouped but not on his list"
         assert all(s["definition"] for s in e["senses"]), f"{e['id']}: blank definition"
         assert e["tier"] in ("core", "common", "extended"), f"{e['id']}: bad tier"
         assert e["listCount"] == len(e["sourceLists"]), f"{e['id']}: listCount mismatch"

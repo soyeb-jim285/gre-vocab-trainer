@@ -1,0 +1,875 @@
+{
+  "rigor": {
+    "parts": [
+      {
+        "piece": "rigere",
+        "origin": "Latin",
+        "meaning": "to be stiff, hard"
+      }
+    ],
+    "literal": "stiffness, hardness",
+    "path": "Latin rigor named physical stiffness or numbness from cold, as in rigor mortis, the stiffening of death. The word extended to mental and procedural stiffness: strict, unyielding thoroughness or harshness.",
+    "cousins": [
+      "rigid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rile": {
+    "parts": [
+      {
+        "piece": "rile",
+        "origin": "English",
+        "meaning": "dialectal variant of roil, origin uncertain"
+      }
+    ],
+    "literal": "to stir up, make turbid",
+    "path": "Rile is a dialectal variant of roil, whose deeper origin is uncertain, perhaps tied to a French word for stirring up mud. To rile someone is to stir them up into anger, muddying their calm.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ripple": {
+    "parts": [
+      {
+        "piece": "rip",
+        "origin": "English",
+        "meaning": "uncertain origin, possibly a frequentative of rip"
+      }
+    ],
+    "literal": "a small repeated rising motion",
+    "path": "Ripple's origin is uncertain, perhaps a frequentative of rip, suggesting a small repeated stirring. It named the small waves spreading across water and extended to any spreading effect moving outward from a source.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "robust": {
+    "parts": [
+      {
+        "piece": "robur",
+        "origin": "Latin",
+        "meaning": "oak; strength, hard timber"
+      }
+    ],
+    "literal": "oaken, made of oak",
+    "path": "Latin robustus meant made of oak, robur being the Romans' benchmark for the hardest, strongest wood. Robust carried that oak-tough image into general strength: a robust body or system is built like oak, sturdy enough to withstand stress.",
+    "cousins": [
+      "corroborate",
+      "corroboration"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "rococo": {
+    "parts": [
+      {
+        "piece": "rocaille",
+        "origin": "French",
+        "meaning": "shell-work, rock-work ornament, from roc, rock"
+      }
+    ],
+    "literal": "shell-and-rock decorative work",
+    "path": "French rococo derived playfully from rocaille, the shell and rock-work ornamentation fashionable in 18th-century French interiors. The word came to describe that whole style, and by extension anything extravagantly, fussily ornate.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "roil": {
+    "parts": [
+      {
+        "piece": "roil",
+        "origin": "Middle French",
+        "meaning": "uncertain origin, perhaps to make muddy"
+      }
+    ],
+    "literal": "to make muddy by stirring",
+    "path": "Roil is of uncertain origin, perhaps traceable to an Old French word for mixing mortar or mud. It named the stirring up of sediment in water, and extended to stirring up agitation in people.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "roseate": {
+    "parts": [
+      {
+        "piece": "rosa",
+        "origin": "Latin",
+        "meaning": "rose"
+      }
+    ],
+    "literal": "rose-colored",
+    "path": "Latin roseus meant rose-colored, tinged pink like the flower. Roseate kept the literal rosy sense and extended metaphorically to an overly optimistic view of things, seen through rose-colored light.",
+    "cousins": [
+      "rose",
+      "rosary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rout": {
+    "parts": [
+      {
+        "piece": "rumpere",
+        "origin": "Latin",
+        "meaning": "to break"
+      }
+    ],
+    "literal": "a broken, scattered group",
+    "path": "Old French route meant a troop, and also a defeat, from Vulgar Latin rupta, broken, from rumpere, to break. A rout is a defeat so total that the losing army is broken apart and put to disorderly flight.",
+    "cousins": [
+      "rupture",
+      "erupt",
+      "interrupt",
+      "corrupt"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "row": {
+    "parts": [
+      {
+        "piece": "row",
+        "origin": "English",
+        "meaning": "uncertain origin, slang for a noisy dispute"
+      }
+    ],
+    "literal": "unknown origin, a noisy commotion",
+    "path": "This sense of row, a noisy quarrel, appeared as English slang in the late 1700s, and its origin is simply unknown. It has no connection to the unrelated words row meaning a line or to paddle.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "rubric": {
+    "parts": [
+      {
+        "piece": "ruber",
+        "origin": "Latin",
+        "meaning": "red"
+      }
+    ],
+    "literal": "written in red",
+    "path": "Latin rubrica meant red ochre, the pigment scribes used to mark headings and instructions in manuscripts. Rubric kept that sense of a heading or category, and extended to any set of guidelines, like a grading rubric.",
+    "cousins": [
+      "ruby",
+      "rouge",
+      "rust"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rudiment": {
+    "parts": [
+      {
+        "piece": "rudis",
+        "origin": "Latin",
+        "meaning": "raw, unworked"
+      }
+    ],
+    "literal": "a raw, unworked beginning",
+    "path": "Latin rudimentum, from rudis, raw or unformed, named a first attempt or beginning stage of training. Rudiment kept that sense of the basic elements one starts with before mastering a subject.",
+    "cousins": [
+      "rude",
+      "erudite"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rudimentary": {
+    "parts": [
+      {
+        "piece": "rudis",
+        "origin": "Latin",
+        "meaning": "raw, unworked"
+      }
+    ],
+    "literal": "in a raw, first-stage form",
+    "path": "From the same Latin rudis as rudiment, rudimentary describes something still in its raw, basic, first stage of development, not yet refined.",
+    "cousins": [
+      "rude",
+      "erudite"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "rue": {
+    "parts": [
+      {
+        "piece": "hreowan",
+        "origin": "Old English",
+        "meaning": "to make sorry, cause regret"
+      }
+    ],
+    "literal": "to feel sorrowful regret",
+    "path": "Rue comes from Old English hreowan, to feel sorrow or distress over something done. It has kept its plain, old sense: to bitterly regret an action or its consequences.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ruminate": {
+    "parts": [
+      {
+        "piece": "rumen",
+        "origin": "Latin",
+        "meaning": "throat, first stomach of a cud-chewer"
+      }
+    ],
+    "literal": "to chew the cud",
+    "path": "Latin ruminare literally meant to chew the cud, as cattle do, bringing food back up to chew again. The word was extended to the mind: to ruminate on a thought is to chew it over slowly.",
+    "cousins": [
+      "ruminant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ruse": {
+    "parts": [
+      {
+        "piece": "reuser",
+        "origin": "Old French",
+        "meaning": "to dodge, turn back, from Latin recusare, to refuse"
+      }
+    ],
+    "literal": "a dodging, doubling back",
+    "path": "Old French ruse first named the doubling and dodging of a hunted animal escaping the hounds. The word carried that evasive maneuvering into general use: a ruse is a clever trick meant to dodge and deceive.",
+    "cousins": [
+      "recuse"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "rustic": {
+    "parts": [
+      {
+        "piece": "rus",
+        "origin": "Latin",
+        "meaning": "countryside, open land"
+      }
+    ],
+    "literal": "of the countryside",
+    "path": "Latin rusticus meant belonging to the countryside, as opposed to the city. Rustic kept that sense, describing what is plain and simple in the manner associated with rural life.",
+    "cousins": [
+      "rural"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sacrosanct": {
+    "parts": [
+      {
+        "piece": "sacer",
+        "origin": "Latin",
+        "meaning": "sacred"
+      },
+      {
+        "piece": "sanctus",
+        "origin": "Latin",
+        "meaning": "made holy, consecrated"
+      }
+    ],
+    "literal": "made holy by a sacred rite",
+    "path": "Latin sacrosanctus described things protected by religious consecration, rendered inviolable through a sacred ritual. Sacrosanct kept that sense of untouchable holiness, now applied to anything too important to interfere with.",
+    "cousins": [
+      "sacred",
+      "sanctuary",
+      "sanction"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "sadistic": {
+    "parts": [
+      {
+        "piece": "Sade",
+        "origin": "French",
+        "meaning": "proper name, the Marquis de Sade"
+      }
+    ],
+    "literal": "in the manner of the Marquis de Sade",
+    "path": "Sadistic derives from the name of the Marquis de Sade, whose writings depicted deriving pleasure from inflicting pain on others. The word generalized from his name to describe anyone who takes pleasure in others' suffering.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sagacious": {
+    "parts": [
+      {
+        "piece": "sagire",
+        "origin": "Latin",
+        "meaning": "to perceive keenly"
+      }
+    ],
+    "literal": "keenly perceiving",
+    "path": "Latin sagax described a keen, quick perceptiveness, originally used of animals with a sharp sense of smell tracking a trail. Sagacious carried that sharp, discerning quality into describing wise, shrewd human judgment.",
+    "cousins": [
+      "sage"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "sage": {
+    "parts": [
+      {
+        "piece": "sapere",
+        "origin": "Latin",
+        "meaning": "to know, taste, be wise"
+      }
+    ],
+    "literal": "one who tastes and discerns well",
+    "path": "Sage comes from Latin sapere, to have good taste or discernment, to know. A sage is someone whose judgment has that refined discernment, a profoundly wise person.",
+    "cousins": [
+      "savor",
+      "savvy",
+      "sagacious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "salient": {
+    "parts": [
+      {
+        "piece": "salire",
+        "origin": "Latin",
+        "meaning": "to leap, jump"
+      }
+    ],
+    "literal": "leaping out",
+    "path": "Latin saliens, leaping, described a fortification's angle that juts, or leaps, outward toward the enemy. Salient extended that image to any point or feature that stands out as most noticeable.",
+    "cousins": [
+      "resilient",
+      "exult",
+      "insult"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "salubrious": {
+    "parts": [
+      {
+        "piece": "salus",
+        "origin": "Latin",
+        "meaning": "health, well-being"
+      }
+    ],
+    "literal": "promoting health",
+    "path": "Latin salubris, from salus, health, described conditions that promote well-being, like a salubrious climate. English kept the sense of something wholesome and beneficial to health.",
+    "cousins": [
+      "salute",
+      "salutary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "salutary": {
+    "parts": [
+      {
+        "piece": "salus",
+        "origin": "Latin",
+        "meaning": "health, welfare"
+      }
+    ],
+    "literal": "promoting health and welfare",
+    "path": "Latin salutaris, from salus, health and welfare, described what promotes well-being. Salutary kept that sense but often implies the benefit comes through something initially unpleasant, like a salutary lesson learned the hard way.",
+    "cousins": [
+      "salute",
+      "salubrious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "salve": {
+    "parts": [
+      {
+        "piece": "sealf",
+        "origin": "Old English",
+        "meaning": "healing ointment"
+      }
+    ],
+    "literal": "to apply healing ointment",
+    "path": "Salve comes from Old English sealf, an ointment used to treat wounds, a Germanic word unrelated to the Latin greeting salve. To salve a pain, literal or emotional, is to apply something soothing to ease it.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "sanctimonious": {
+    "parts": [
+      {
+        "piece": "sanctus",
+        "origin": "Latin",
+        "meaning": "holy, sacred"
+      }
+    ],
+    "literal": "full of holiness",
+    "path": "Latin sanctimonia simply meant holiness or sanctity. Sanctimonious kept the root but took on an ironic edge in English, describing someone who makes a showy display of moral superiority rather than possessing genuine holiness.",
+    "cousins": [
+      "sacred",
+      "sanctuary",
+      "saint",
+      "sanction"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sanction": {
+    "parts": [
+      {
+        "piece": "sancire",
+        "origin": "Latin",
+        "meaning": "to make sacred, ratify"
+      }
+    ],
+    "literal": "to make sacred, ratify by decree",
+    "path": "Latin sanctio named the binding force a solemn decree gave a law, both the authority behind it and the penalty for breaking it. English kept both: to sanction can mean to officially authorize, or to penalize for violation.",
+    "cousins": [
+      "sacred",
+      "sanctuary",
+      "saint"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sanguine": {
+    "parts": [
+      {
+        "piece": "sanguis",
+        "origin": "Latin",
+        "meaning": "blood"
+      }
+    ],
+    "literal": "full of blood",
+    "path": "In medieval medicine, a person with an excess of blood, sanguis, was thought cheerful, ruddy, and confident under the theory of the four bodily humors. Sanguine kept that meaning: warmly optimistic and hopeful.",
+    "cousins": [
+      "sanguinary",
+      "consanguinity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "sap": {
+    "parts": [
+      {
+        "piece": "zappa",
+        "origin": "Italian",
+        "meaning": "spade, hoe"
+      }
+    ],
+    "literal": "to dig under with a spade",
+    "path": "Military sap named a trench dug to undermine an enemy's fortification wall, from Italian zappa, a spade. To sap someone's strength or will is to undermine it the same way, gradually digging away at its foundation.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "sardonic": {
+    "parts": [
+      {
+        "piece": "sardanios",
+        "origin": "Greek",
+        "meaning": "bitter, scornful; origin uncertain"
+      }
+    ],
+    "literal": "bitterly scornful (laughter)",
+    "path": "Greek sardanios described a scornful, bitter kind of laughter, its ultimate origin unclear. Later writers linked the spelling to Sardinia and a plant said to twist the face into a grim grin, but that link is likely a folk elaboration. Sardonic kept the sense of grim, mocking scorn.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sartorial": {
+    "parts": [
+      {
+        "piece": "sarcire",
+        "origin": "Latin",
+        "meaning": "to patch, mend"
+      }
+    ],
+    "literal": "of the tailor, the mender",
+    "path": "Latin sartor named a tailor, literally one who patches or mends, from sarcire, to mend. Sartorial describes anything relating to clothing, tailoring, and dress.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sate": {
+    "parts": [
+      {
+        "piece": "saed",
+        "origin": "Old English",
+        "meaning": "satisfied, full; related to Latin satis, enough"
+      }
+    ],
+    "literal": "made full, satisfied",
+    "path": "Sate traces to an old Germanic root meaning filled or satisfied, cognate with Latin satis, enough. To sate an appetite is to fill it completely, often to the point of excess.",
+    "cousins": [
+      "satisfy",
+      "satiate",
+      "saturate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "satiate": {
+    "parts": [
+      {
+        "piece": "satis",
+        "origin": "Latin",
+        "meaning": "enough"
+      }
+    ],
+    "literal": "to make enough, fill fully",
+    "path": "Latin satiare, from satis, enough, meant to fill something completely. Satiate kept that sense of filling a desire or appetite fully, often to the point of overfullness.",
+    "cousins": [
+      "satisfy",
+      "sate",
+      "saturate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "satire": {
+    "parts": [
+      {
+        "piece": "satur",
+        "origin": "Latin",
+        "meaning": "full, well-fed"
+      }
+    ],
+    "literal": "a full mixed dish, a medley",
+    "path": "Latin satura named a full dish heaped with mixed fruits, and by extension a medley of verses on varied topics. That miscellaneous form of writing became associated with mocking, critical humor, and satire narrowed to exposing folly or vice.",
+    "cousins": [
+      "saturate",
+      "satiate"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "satirical": {
+    "parts": [
+      {
+        "piece": "satur",
+        "origin": "Latin",
+        "meaning": "full, well-fed"
+      }
+    ],
+    "literal": "in the manner of a mixed, mocking medley",
+    "path": "From the same Latin satura as satire, satirical describes writing or humor that uses irony and exaggeration to expose folly or vice.",
+    "cousins": [
+      "saturate",
+      "satiate"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "saturate": {
+    "parts": [
+      {
+        "piece": "satur",
+        "origin": "Latin",
+        "meaning": "full, well-fed"
+      }
+    ],
+    "literal": "to make completely full",
+    "path": "Latin saturare, from satur, full, meant to fill something to capacity. Saturate kept that sense, whether soaking a cloth with liquid or filling a market completely with a product.",
+    "cousins": [
+      "satiate",
+      "satire"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "saturnine": {
+    "parts": [
+      {
+        "piece": "Saturnus",
+        "origin": "Latin",
+        "meaning": "the god and planet Saturn"
+      }
+    ],
+    "literal": "under Saturn's influence",
+    "path": "In medieval astrology, the planet Saturn, slowest and coldest of the visible planets, was believed to impart a cold, gloomy, sluggish temperament to those born under it. Saturnine kept that association: a dark, brooding, sardonic disposition.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "savant": {
+    "parts": [
+      {
+        "piece": "savoir",
+        "origin": "French",
+        "meaning": "to know"
+      },
+      {
+        "piece": "sapere",
+        "origin": "Latin",
+        "meaning": "to know, be wise"
+      }
+    ],
+    "literal": "one who knows",
+    "path": "French savant, knowing, is the present participle of savoir, to know, from Latin sapere, to be wise. A savant is one marked by deep knowledge, or exceptional ability in a specific area.",
+    "cousins": [
+      "sage",
+      "savvy",
+      "sapient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "savor": {
+    "parts": [
+      {
+        "piece": "sapere",
+        "origin": "Latin",
+        "meaning": "to taste, know"
+      }
+    ],
+    "literal": "to taste",
+    "path": "Latin sapor, taste or flavor, comes from sapere, to taste or perceive. Savor kept that sense of tasting, extended to any slow, appreciative enjoyment, of food, a moment, or an experience.",
+    "cousins": [
+      "sage",
+      "savvy",
+      "savant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "savvy": {
+    "parts": [
+      {
+        "piece": "savoir",
+        "origin": "Romance",
+        "meaning": "to know, from Latin sapere"
+      }
+    ],
+    "literal": "to know",
+    "path": "Savvy comes from a pidgin form of the Romance verb for to know, sabe or savez, ultimately from Latin sapere. It entered English through trade pidgins and settled into meaning shrewdly knowledgeable and practical.",
+    "cousins": [
+      "sage",
+      "savant",
+      "savor"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "scabbard": {
+    "parts": [
+      {
+        "piece": "skar",
+        "origin": "Germanic",
+        "meaning": "blade, related to shear"
+      },
+      {
+        "piece": "bergan",
+        "origin": "Germanic",
+        "meaning": "to protect, shelter"
+      }
+    ],
+    "literal": "blade protector",
+    "path": "Scabbard likely comes from a Germanic compound meaning blade-protection, combining a word for blade with bergan, to protect or shelter. It named the sheath that protects a sword's blade.",
+    "cousins": [
+      "shear",
+      "harbor"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "scale": {
+    "parts": [
+      {
+        "piece": "scandere",
+        "origin": "Latin",
+        "meaning": "to climb"
+      }
+    ],
+    "literal": "ladder, a series of climbing steps",
+    "path": "Latin scala meant ladder or staircase, from scandere, to climb. To scale a wall is to climb it as if by ladder, and a scale of graduated steps, like a map's scale, gave the sense of adjusting something proportionally.",
+    "cousins": [
+      "ascend",
+      "descend",
+      "transcend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "scant": {
+    "parts": [
+      {
+        "piece": "skammr",
+        "origin": "Old Norse",
+        "meaning": "short"
+      }
+    ],
+    "literal": "short, insufficient in measure",
+    "path": "Scant comes from Old Norse skammr, short. Applied to quantity, it described an amount cut short of what is needed, barely enough.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "scarce": {
+    "parts": [
+      {
+        "piece": "excerpere",
+        "origin": "Latin",
+        "meaning": "to pick out, select"
+      }
+    ],
+    "literal": "picked out sparingly, restricted",
+    "path": "Scarce traces to Vulgar Latin scarpsus, from Latin excerpere, to pick out or select. Something scarce was restricted to only what had been carefully picked out, hence in short supply.",
+    "cousins": [
+      "excerpt"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "scathing": {
+    "parts": [
+      {
+        "piece": "skada",
+        "origin": "Old Norse",
+        "meaning": "to harm, damage"
+      }
+    ],
+    "literal": "harming, injuring",
+    "path": "Scathing comes from scathe, to harm or injure, from Old Norse skaða. Scathing criticism is imagined as verbally wounding its target, severely critical.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "schadenfreude": {
+    "parts": [
+      {
+        "piece": "Schaden",
+        "origin": "German",
+        "meaning": "harm, damage"
+      },
+      {
+        "piece": "Freude",
+        "origin": "German",
+        "meaning": "joy"
+      }
+    ],
+    "literal": "harm-joy",
+    "path": "German Schadenfreude is a straightforward compound: Schaden, harm, plus Freude, joy. Borrowed whole into English, it names the specific pleasure taken in someone else's misfortune.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "scheme": {
+    "parts": [
+      {
+        "piece": "skhema",
+        "origin": "Greek",
+        "meaning": "form, figure, plan"
+      }
+    ],
+    "literal": "a form, a figure, a shape",
+    "path": "Greek skhema meant the form or shape of something, including the shape of an argument or plan. English scheme kept the sense of a structured plan, which over time picked up a suspicious, often devious connotation.",
+    "cousins": [
+      "schematic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "schism": {
+    "parts": [
+      {
+        "piece": "skhizein",
+        "origin": "Greek",
+        "meaning": "to split"
+      }
+    ],
+    "literal": "a splitting",
+    "path": "Greek skhisma, from skhizein, to split, named a division or cleft. Schism kept that sense of a group breaking apart, especially over doctrine or belief.",
+    "cousins": [
+      "schizophrenia"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "scintilla": {
+    "parts": [
+      {
+        "piece": "scintilla",
+        "origin": "Latin",
+        "meaning": "a spark"
+      }
+    ],
+    "literal": "a spark",
+    "path": "Latin scintilla meant a tiny spark thrown off from a fire. Scintilla kept that image for anything present only in the smallest, spark-like trace, as in not a scintilla of doubt.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "scintillating": {
+    "parts": [
+      {
+        "piece": "scintilla",
+        "origin": "Latin",
+        "meaning": "a spark"
+      }
+    ],
+    "literal": "sparking, throwing off sparks",
+    "path": "From the same Latin scintilla, spark, scintillare meant to sparkle or flash. Scintillating describes talk or wit that flashes with sparks of brilliance and liveliness.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "scoff": {
+    "parts": [
+      {
+        "piece": "skaup",
+        "origin": "Old Norse",
+        "meaning": "mockery; origin uncertain"
+      }
+    ],
+    "literal": "mockery",
+    "path": "Scoff traces probably to a Scandinavian word for mockery, though the exact path is uncertain. It has long meant to speak about something with open contempt or derision.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

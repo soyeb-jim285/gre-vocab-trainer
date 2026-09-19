@@ -1,0 +1,254 @@
+{
+  "illustrious": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "thoroughly"}, {"piece": "lustrare", "origin": "Latin", "meaning": "to illuminate, brighten"}],
+    "literal": "thoroughly lit up",
+    "path": "Latin illustris meant lit up, bright, from lustrare, to illuminate. A brilliant, shining reputation gave illustrious its sense of someone made famous and highly distinguished.",
+    "cousins": ["illuminate", "luster"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "imbibe": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "bibere", "origin": "Latin", "meaning": "to drink"}],
+    "literal": "to drink in",
+    "path": "Latin imbibere meant to drink in. The literal sense of taking in liquid extended naturally to taking in ideas, so imbibe covers both drinking a beverage and absorbing knowledge.",
+    "cousins": ["beverage"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "imbroglio": {
+    "parts": [{"piece": "in-", "origin": "Italian", "meaning": "in, into"}, {"piece": "brogliare", "origin": "Italian", "meaning": "to confuse, tangle"}],
+    "literal": "a tangling into confusion",
+    "path": "Italian imbrogliare meant to entangle or confuse, related to French brouiller, to mix up. An imbroglio is a situation so tangled it becomes an embarrassing mess to sort out.",
+    "cousins": ["embroil"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "imbue": {
+    "parts": [{"piece": "imbuere", "origin": "Latin", "meaning": "to moisten, soak"}],
+    "literal": "to soak into",
+    "path": "Latin imbuere meant to wet or soak thoroughly. Soaking a material with liquid became a figure for saturating a person or thing with a quality, belief, or feeling.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "immaculate": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "macula", "origin": "Latin", "meaning": "spot, stain"}],
+    "literal": "not spotted",
+    "path": "Latin immaculatus meant without stain or blemish. Immaculate kept that sense exactly: completely clean, without a single mark or flaw.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "immaterial": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "materia", "origin": "Latin", "meaning": "matter, substance"}],
+    "literal": "not made of matter",
+    "path": "Latin materia meant matter or substance. Something immaterial literally has no physical substance, and by extension, a fact with no bearing on a matter is dismissed as immaterial, beside the point.",
+    "cousins": ["matter"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "imminent": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "upon"}, {"piece": "minere", "origin": "Latin", "meaning": "to project, jut, overhang"}],
+    "literal": "overhanging",
+    "path": "Latin imminere meant to overhang or threaten from above, as a cliff looms over a path. Something looming overhead in that way is imminent: about to happen at any moment.",
+    "cousins": ["eminent", "prominent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "immure": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "murus", "origin": "Latin", "meaning": "wall"}],
+    "literal": "walled in",
+    "path": "Latin immurare meant to enclose within walls. Immure kept that literal sense of being shut in by walls, whether a real prison or any confining, isolating situation.",
+    "cousins": ["mural", "intramural"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "immutable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "mutare", "origin": "Latin", "meaning": "to change"}],
+    "literal": "not able to be changed",
+    "path": "Latin immutabilis meant unchangeable, from mutare, to change. Immutable describes whatever is fixed beyond the reach of change, whether a law of nature or a firm rule.",
+    "cousins": ["mutate", "mutual", "commute"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "impair": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "intensive"}, {"piece": "pejorare", "origin": "Latin", "meaning": "to make worse"}],
+    "literal": "to make worse",
+    "path": "Latin pejorare meant to make worse, from pejor, worse. Impair kept that exact sense: to weaken or damage something's condition or function.",
+    "cousins": ["pejorative"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impart": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "partire", "origin": "Latin", "meaning": "to share, divide"}],
+    "literal": "to give a share of",
+    "path": "Latin impartire meant to share out, give a portion of something. To impart knowledge or a quality is to give someone a share of it, passing it from oneself to another.",
+    "cousins": ["part", "partial", "participate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "impartial": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "pars", "origin": "Latin", "meaning": "part, side"}],
+    "literal": "not taking a side",
+    "path": "Latin pars meant a part or side. Someone impartial refuses to take a part, a side, in a dispute, weighing all sides fairly instead.",
+    "cousins": ["part", "participate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "impasse": {
+    "parts": [{"piece": "in-", "origin": "French", "meaning": "not"}, {"piece": "passer", "origin": "French", "meaning": "to pass"}],
+    "literal": "not able to pass",
+    "path": "French impasse named a dead-end street, one that cannot be passed through. The word extended from a blocked street to any deadlock or negotiation with no way forward.",
+    "cousins": ["pass", "passage", "passenger"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impassive": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "pati", "origin": "Latin", "meaning": "to suffer, feel"}],
+    "literal": "not feeling",
+    "path": "Latin passivus meant capable of feeling or suffering, from pati, to feel. Impassive describes a face or manner showing none of that feeling, betraying no emotion at all.",
+    "cousins": ["passion", "patient", "compassion"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "impeccable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "peccare", "origin": "Latin", "meaning": "to sin, err"}],
+    "literal": "not sinning",
+    "path": "Latin impeccabilis meant incapable of sin, unable to err, from peccare, to sin or make a mistake. Impeccable narrowed from moral perfection to any performance so flawless it is beyond criticism.",
+    "cousins": ["peccadillo"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "impecunious": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "pecunia", "origin": "Latin", "meaning": "money, wealth"}],
+    "literal": "without money",
+    "path": "Latin pecunia meant money, originally wealth measured in cattle, from pecu, livestock. Impecunious describes someone plainly lacking that money, having little or none to their name.",
+    "cousins": ["pecuniary"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impede": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "pes", "origin": "Latin", "meaning": "foot"}],
+    "literal": "to catch by the foot",
+    "path": "Latin impedire meant to shackle the feet, entangling someone so they cannot walk freely. Tripping up a person's feet gave impede its sense of obstructing progress of any kind.",
+    "cousins": ["pedal", "pedestrian", "expedite"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impediment": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "in"}, {"piece": "pes", "origin": "Latin", "meaning": "foot"}],
+    "literal": "a catching by the foot",
+    "path": "From the same root as impede, an impediment is the noun for whatever shackles the feet, literally or figuratively: an obstacle that trips up progress.",
+    "cousins": ["pedal", "pedestrian", "expedite"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impel": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "into"}, {"piece": "pellere", "origin": "Latin", "meaning": "to drive, push"}],
+    "literal": "to drive into",
+    "path": "Latin impellere meant to drive or push forward into motion. Impel kept that force of a push, whether physical or the inner push of a motive that drives someone to act.",
+    "cousins": ["propel", "compel", "expel"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "impending": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "over"}, {"piece": "pendere", "origin": "Latin", "meaning": "to hang"}],
+    "literal": "hanging over",
+    "path": "Latin impendere meant to hang over, overhang threateningly. Something impending hangs suspended just above the present moment, usually an unwelcome event about to fall.",
+    "cousins": ["pendant", "pendulum", "suspend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impenetrable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "penetrare", "origin": "Latin", "meaning": "to penetrate, enter"}],
+    "literal": "not able to be entered",
+    "path": "Latin penetrare meant to enter deeply into. Impenetrable describes whatever resists that entry, whether a physical barrier that cannot be passed through or an idea too dense to understand.",
+    "cousins": ["penetrate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "imperil": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "into"}, {"piece": "periculum", "origin": "Latin", "meaning": "danger, trial"}],
+    "literal": "to bring into danger",
+    "path": "Latin periculum meant danger or risk. To imperil something is literally to bring it into that danger, putting it at risk of harm.",
+    "cousins": ["peril", "perilous"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "imperious": {
+    "parts": [{"piece": "imperare", "origin": "Latin", "meaning": "to command"}],
+    "literal": "full of command",
+    "path": "Latin imperiosus meant commanding, powerful, from imperium, supreme power, from imperare, to command. Imperious describes someone who issues commands with the arrogant confidence of a ruler.",
+    "cousins": ["empire", "emperor", "imperative"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "impermeable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "meare", "origin": "Latin", "meaning": "to go, pass through"}],
+    "literal": "not able to be passed through",
+    "path": "Latin permeare meant to pass through, from meare, to go. Impermeable describes a material that blocks that passage entirely, letting nothing through, whether water, gas, or light.",
+    "cousins": ["permeate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "impertinent": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "tenere", "origin": "Latin", "meaning": "to hold"}],
+    "literal": "not holding to the matter",
+    "path": "Latin pertinere meant to belong to, relate to, from tenere, to hold. Something impertinent does not hold to what is relevant, and a person who is impertinent oversteps the bounds of what is fitting, rudely.",
+    "cousins": ["pertain", "tenant", "retain"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "imperturbable": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "turbare", "origin": "Latin", "meaning": "to disturb"}],
+    "literal": "not able to be disturbed",
+    "path": "Latin turbare meant to throw into disorder, from turba, crowd, commotion. Imperturbable describes a calm that no amount of disorder or upset can shake.",
+    "cousins": ["turbulent", "disturb", "turbine"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "impervious": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "not"}, {"piece": "via", "origin": "Latin", "meaning": "way, road"}],
+    "literal": "allowing no way through",
+    "path": "Latin pervius meant passable, having a way through, from via, road. Impervious describes a surface or a person that gives nothing a way in, whether water or an argument meant to change their mind.",
+    "cousins": ["voyage", "trivial"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "impetuous": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "into"}, {"piece": "petere", "origin": "Latin", "meaning": "to seek, rush at"}],
+    "literal": "rushing into",
+    "path": "Latin impetus meant a violent rushing attack, from petere, to seek or rush at. Impetuous describes acting with that same headlong rush, driven by sudden impulse rather than careful thought.",
+    "cousins": ["impetus", "appetite", "petition"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

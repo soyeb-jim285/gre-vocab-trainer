@@ -1,0 +1,898 @@
+{
+  "scorn": {
+    "parts": [
+      {
+        "piece": "skernon",
+        "origin": "Germanic",
+        "meaning": "to mock, deride"
+      }
+    ],
+    "literal": "mockery, derision",
+    "path": "Scorn comes from Old French escarnir, to mock or deride, of Germanic origin. It kept the sense of contemptuous mockery directed at something viewed as beneath respect.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "screed": {
+    "parts": [
+      {
+        "piece": "screade",
+        "origin": "Old English",
+        "meaning": "a fragment, strip, shred"
+      }
+    ],
+    "literal": "a torn strip, a shred",
+    "path": "Screed comes from Old English screade, a fragment or shred, the same root as shred. It came to mean a long strip of writing, then narrowed to a long, tedious piece of writing.",
+    "cousins": [
+      "shred"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "scrupulous": {
+    "parts": [
+      {
+        "piece": "scrupulus",
+        "origin": "Latin",
+        "meaning": "small sharp stone, source of unease"
+      }
+    ],
+    "literal": "a small sharp pebble that causes uneasy care",
+    "path": "Latin scrupulus was literally a small sharp stone, the kind that might lodge painfully in a sandal, and figuratively a nagging worry of conscience. Scrupulous describes someone who attends to every such small worry, extremely careful and morally exact.",
+    "cousins": [
+      "scruple"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "scrutinize": {
+    "parts": [
+      {
+        "piece": "scrutari",
+        "origin": "Latin",
+        "meaning": "to search thoroughly, from scruta, rags, trash"
+      }
+    ],
+    "literal": "to search through rubbish",
+    "path": "Latin scrutari meant to search thoroughly, possibly from scruta, rags or trash, evoking a ragpicker sifting junk for something of value. Scrutinize kept that sense of painstaking, close examination.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "scurvy": {
+    "parts": [
+      {
+        "piece": "sceorf",
+        "origin": "Old English",
+        "meaning": "scurf, scaly flaking skin"
+      }
+    ],
+    "literal": "covered in scurf, scabby",
+    "path": "Scurvy as a term of abuse is an alteration of scurfy, from scurf, a scaly, flaking skin condition in Old English. Something scurvy is imagined as scabby and disreputable, hence contemptible and mean.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "searchingly": {
+    "parts": [
+      {
+        "piece": "circare",
+        "origin": "Latin",
+        "meaning": "to go around, traverse"
+      },
+      {
+        "piece": "circus",
+        "origin": "Latin",
+        "meaning": "circle"
+      }
+    ],
+    "literal": "going around in circles, looking",
+    "path": "Search comes from Latin circare, to go around or traverse, from circus, circle: covering ground in a circuit while looking for something. Searchingly describes a probing, thorough manner of looking, as if leaving no area uncovered.",
+    "cousins": [
+      "circus",
+      "circuit",
+      "circle"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "secrete": {
+    "parts": [
+      {
+        "piece": "se-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "cernere",
+        "origin": "Latin",
+        "meaning": "to separate, sift"
+      }
+    ],
+    "literal": "separated apart, set apart",
+    "path": "Latin secretus, set apart, comes from se-, apart, and cernere, to separate or sift. To secrete something is either to sift it out and discharge it from the body, or to set it apart from view, to hide it.",
+    "cousins": [
+      "secret",
+      "discern",
+      "discreet"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "secular": {
+    "parts": [
+      {
+        "piece": "saeculum",
+        "origin": "Latin",
+        "meaning": "an age, generation, the world"
+      }
+    ],
+    "literal": "belonging to this age, this world",
+    "path": "Latin saeculum meant a generation or age, worldly time as opposed to eternity. Secular described what belongs to this present world, and in Church usage came to mean worldly matters as distinct from the spiritual, hence not religious.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sedative": {
+    "parts": [
+      {
+        "piece": "sedere",
+        "origin": "Latin",
+        "meaning": "to sit"
+      },
+      {
+        "piece": "sedare",
+        "origin": "Latin",
+        "meaning": "to make sit, settle, calm"
+      }
+    ],
+    "literal": "that which makes one sit still, settle down",
+    "path": "Latin sedare, to calm, is the causative of sedere, to sit: literally, to make something sit down. A sedative is a drug that settles a person down, calming agitation.",
+    "cousins": [
+      "sedentary",
+      "sediment",
+      "reside"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sediment": {
+    "parts": [
+      {
+        "piece": "sedere",
+        "origin": "Latin",
+        "meaning": "to sit, settle"
+      }
+    ],
+    "literal": "a sitting down, settling",
+    "path": "Latin sedimentum, from sedere, to sit, named the act of matter settling down. Sediment is the material that sits, settled, at the bottom of a liquid.",
+    "cousins": [
+      "sedentary",
+      "sedative",
+      "reside"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sedition": {
+    "parts": [
+      {
+        "piece": "se-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "ire",
+        "origin": "Latin",
+        "meaning": "to go"
+      }
+    ],
+    "literal": "a going apart, a separating off",
+    "path": "Latin seditio meant a going apart, a faction breaking off from the main body politic, from se-, apart, and ire, to go. Sedition kept that sense of a divisive going-off into revolt against authority.",
+    "cousins": [
+      "exit",
+      "transit",
+      "itinerary"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "sedulous": {
+    "parts": [
+      {
+        "piece": "sedere",
+        "origin": "Latin",
+        "meaning": "to sit; connection debated"
+      }
+    ],
+    "literal": "sitting busily at one's task",
+    "path": "Latin sedulus meant diligent and zealous, probably connected to sedere, to sit, in the sense of sitting persistently at a task, though the exact derivation is debated. Sedulous kept that sense of unflagging diligence.",
+    "cousins": [
+      "sedentary",
+      "sediment"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "seemly": {
+    "parts": [
+      {
+        "piece": "soema",
+        "origin": "Old Norse",
+        "meaning": "to befit, be fitting"
+      }
+    ],
+    "literal": "fitting, befitting",
+    "path": "Seemly comes from Old Norse sœma, to befit or be fitting, related to a root meaning things matching or suiting each other. Seemly describes what fittingly matches proper standards of taste and decorum.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "seethe": {
+    "parts": [
+      {
+        "piece": "seothan",
+        "origin": "Old English",
+        "meaning": "to boil"
+      }
+    ],
+    "literal": "to boil",
+    "path": "Seethe comes from Old English seothan, to boil. The literal boiling of a pot became a metaphor for a body boiling over with suppressed anger: to seethe is to be inwardly boiling with fury.",
+    "cousins": [
+      "sodden",
+      "suds"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "semantic": {
+    "parts": [
+      {
+        "piece": "sema",
+        "origin": "Greek",
+        "meaning": "sign, mark"
+      }
+    ],
+    "literal": "pertaining to signs and their meaning",
+    "path": "Greek sema, sign or mark, gave semainein, to signify, and semantikos, significant. Semantic kept that focus on signs and their meanings, describing anything relating to meaning in language.",
+    "cousins": [
+      "semaphore"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "semblance": {
+    "parts": [
+      {
+        "piece": "similis",
+        "origin": "Latin",
+        "meaning": "like, similar"
+      }
+    ],
+    "literal": "a likeness, resemblance",
+    "path": "Semblance comes from Old French sembler, to seem or resemble, from Latin similis, like. It named the outward likeness something bears, often implying that likeness is only surface-deep and not the reality beneath.",
+    "cousins": [
+      "similar",
+      "simulate",
+      "assimilate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sensational": {
+    "parts": [
+      {
+        "piece": "sentire",
+        "origin": "Latin",
+        "meaning": "to feel, perceive"
+      }
+    ],
+    "literal": "pertaining to exciting the senses",
+    "path": "Latin sentire, to feel or perceive, gave sensus, feeling. Sensational originally described anything perceived by the senses, then narrowed to writing or events deliberately pitched to excite strong, often lurid, reactions.",
+    "cousins": [
+      "sense",
+      "sentiment",
+      "consent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sententious": {
+    "parts": [
+      {
+        "piece": "sentire",
+        "origin": "Latin",
+        "meaning": "to feel, think"
+      }
+    ],
+    "literal": "full of pithy opinions and maxims",
+    "path": "Latin sententia meant an opinion or a pithy maxim, from sentire, to think or feel. Sententious originally praised terse, meaningful speech, but shifted to describe someone moralizing with pompous, self-important maxims.",
+    "cousins": [
+      "sentiment",
+      "sense",
+      "consent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sentient": {
+    "parts": [
+      {
+        "piece": "sentire",
+        "origin": "Latin",
+        "meaning": "to feel, perceive"
+      }
+    ],
+    "literal": "feeling, perceiving",
+    "path": "Latin sentire, to feel or perceive, gives sentient its plain sense: capable of feeling and perception, as opposed to inert, unconscious matter.",
+    "cousins": [
+      "sense",
+      "sentiment",
+      "resent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sentimental": {
+    "parts": [
+      {
+        "piece": "sentire",
+        "origin": "Latin",
+        "meaning": "to feel, perceive"
+      }
+    ],
+    "literal": "full of feeling",
+    "path": "Latin sentire meant to feel or perceive. 'Sentiment' came to mean an opinion colored by emotion, and sentimental describes leaning on that feeling too heavily, especially wistful nostalgia, past the point of measured judgment.",
+    "cousins": [
+      "sense",
+      "consent",
+      "resent",
+      "scent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sentinel": {
+    "parts": [
+      {
+        "piece": "sentire",
+        "origin": "Italian",
+        "meaning": "to perceive, hear"
+      }
+    ],
+    "literal": "one who perceives, keeps watch",
+    "path": "Sentinel comes through Italian sentinella, probably from sentire, to perceive or hear. A sentinel is one posted to keep watch, perceiving danger before it arrives.",
+    "cousins": [
+      "sense",
+      "sentiment",
+      "consent"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "seraphic": {
+    "parts": [
+      {
+        "piece": "saraph",
+        "origin": "Hebrew",
+        "meaning": "burning one, a class of angel"
+      }
+    ],
+    "literal": "like a seraph, a burning angelic being",
+    "path": "Seraph comes from Hebrew saraph, possibly connected to a root meaning to burn, naming the fiery angelic beings of Isaiah's vision. Seraphic describes a serene, radiant quality thought fitting for such celestial beings.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "serendipitous": {
+    "parts": [
+      {
+        "piece": "Serendip",
+        "origin": "Persian",
+        "meaning": "old name for Sri Lanka, from the tale The Three Princes of Serendip"
+      }
+    ],
+    "literal": "in the manner of the Princes of Serendip",
+    "path": "Horace Walpole coined serendipity in 1754 from the fairy tale The Three Princes of Serendip, whose heroes kept stumbling onto fortunate discoveries by accident. Serendipitous describes exactly that kind of lucky, unsought find.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "serendipity": {
+    "parts": [
+      {
+        "piece": "Serendip",
+        "origin": "Persian",
+        "meaning": "old name for Sri Lanka, from the tale The Three Princes of Serendip"
+      }
+    ],
+    "literal": "the luck of the Princes of Serendip",
+    "path": "Horace Walpole coined this word in 1754 from The Three Princes of Serendip, a Persian fairy tale whose heroes were always accidentally discovering wonderful things. Serendipity names that talent for lucky, unplanned discovery.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "serene": {
+    "parts": [
+      {
+        "piece": "serenus",
+        "origin": "Latin",
+        "meaning": "clear, cloudless, of the sky"
+      }
+    ],
+    "literal": "clear and cloudless sky",
+    "path": "Latin serenus described clear, cloudless weather. Serene carried that image of an untroubled open sky over into describing a calm, untroubled state of mind or place.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "serenity": {
+    "parts": [
+      {
+        "piece": "serenus",
+        "origin": "Latin",
+        "meaning": "clear, cloudless"
+      }
+    ],
+    "literal": "clearness, cloudlessness",
+    "path": "From the same Latin serenus as serene, serenity names the state of being clear and untroubled, calm as a cloudless sky.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "sever": {
+    "parts": [
+      {
+        "piece": "se-",
+        "origin": "Latin",
+        "meaning": "apart"
+      },
+      {
+        "piece": "parare",
+        "origin": "Latin",
+        "meaning": "to prepare, arrange"
+      }
+    ],
+    "literal": "to arrange apart, separate",
+    "path": "Sever comes from Latin separare, to separate, from se-, apart, and parare, to arrange. To sever a connection is to cut it apart completely, ending it.",
+    "cousins": [
+      "separate",
+      "prepare",
+      "disparate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sextant": {
+    "parts": [
+      {
+        "piece": "sex",
+        "origin": "Latin",
+        "meaning": "six"
+      },
+      {
+        "piece": "sextans",
+        "origin": "Latin",
+        "meaning": "a sixth part"
+      }
+    ],
+    "literal": "a sixth part of a circle",
+    "path": "A sextant takes its name from Latin sextans, a sixth part, from sex, six, because its graduated arc spans one-sixth of a circle, sixty degrees, used to measure angles between celestial bodies and the horizon.",
+    "cousins": [
+      "sextet",
+      "sextuple"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sham": {
+    "parts": [
+      {
+        "piece": "sham",
+        "origin": "English",
+        "meaning": "dialectal, possibly variant of shame; origin uncertain"
+      }
+    ],
+    "literal": "possibly related to shame",
+    "path": "Sham surfaced as English slang in the late 1600s, its exact origin unclear, though it may be a northern dialect variant of shame. It settled into naming something fake dressed up to pass as genuine.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "shard": {
+    "parts": [
+      {
+        "piece": "sceard",
+        "origin": "Old English",
+        "meaning": "fragment, broken piece"
+      }
+    ],
+    "literal": "a broken-off piece",
+    "path": "Shard comes from Old English sceard, a broken fragment or notch, related to shear, to cut. It names a sharp broken piece, typically of glass or pottery.",
+    "cousins": [
+      "shear"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sherbet": {
+    "parts": [
+      {
+        "piece": "shariba",
+        "origin": "Arabic",
+        "meaning": "to drink"
+      }
+    ],
+    "literal": "a drink",
+    "path": "Sherbet traces through Turkish and Persian to Arabic sharba, a drink, from shariba, to drink. It named a cooling sweetened drink in the Middle East before narrowing, in English, to a frozen fruit dessert.",
+    "cousins": [
+      "sorbet",
+      "syrup"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "shirk": {
+    "parts": [
+      {
+        "piece": "Schurke",
+        "origin": "German",
+        "meaning": "scoundrel, rogue; connection uncertain"
+      }
+    ],
+    "literal": "to act like a scoundrel or sponger",
+    "path": "Shirk probably comes from a Germanic word for a scoundrel or rascal, related to the sense of shark as a parasitic sponger. To shirk a duty is to weasel out of it like a rogue avoiding honest work.",
+    "cousins": [
+      "shark"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "shrill": {
+    "parts": [
+      {
+        "piece": "shrillen",
+        "origin": "Germanic",
+        "meaning": "imitative, to sound piercingly"
+      }
+    ],
+    "literal": "an imitative, piercing sound",
+    "path": "Shrill is likely echoic in origin, imitating the piercing sound itself, related to a Germanic word for a sharp ringing noise. It describes a high, piercing pitch, and by extension speech that is stridently insistent.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sibilant": {
+    "parts": [
+      {
+        "piece": "sibilare",
+        "origin": "Latin",
+        "meaning": "to hiss, whistle"
+      }
+    ],
+    "literal": "hissing",
+    "path": "Latin sibilare, to hiss, is imitative of the sound itself. Sibilant describes sounds, like s and sh, made with a hissing quality.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "siege": {
+    "parts": [
+      {
+        "piece": "sedere",
+        "origin": "Latin",
+        "meaning": "to sit"
+      }
+    ],
+    "literal": "a sitting down before a fortress",
+    "path": "Siege comes from Old French sege, seat, from Latin sedere, to sit. A besieging army camps and sits before a fortress for a prolonged time, blockading it until it falls.",
+    "cousins": [
+      "sedentary",
+      "reside",
+      "sediment"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "simper": {
+    "parts": [
+      {
+        "piece": "simper",
+        "origin": "English",
+        "meaning": "uncertain origin, perhaps related to a Scandinavian word for affected, prim"
+      }
+    ],
+    "literal": "unknown origin, an affected expression",
+    "path": "Simper's origin is uncertain, perhaps related to a Scandinavian word for something affected or overly prim. It settled into describing a silly, self-conscious, simpering smile.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "simulacrum": {
+    "parts": [
+      {
+        "piece": "similis",
+        "origin": "Latin",
+        "meaning": "like, similar"
+      },
+      {
+        "piece": "simulare",
+        "origin": "Latin",
+        "meaning": "to imitate, feign"
+      }
+    ],
+    "literal": "an imitation, a likeness",
+    "path": "Latin simulacrum, from simulare, to imitate or feign, named an image or effigy standing in for the real thing. Simulacrum kept that sense of a likeness that is only superficial, a copy without the substance.",
+    "cousins": [
+      "similar",
+      "simulate",
+      "dissimulate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "simultaneous": {
+    "parts": [
+      {
+        "piece": "simul",
+        "origin": "Latin",
+        "meaning": "at the same time, together"
+      }
+    ],
+    "literal": "together, at the same time",
+    "path": "Latin simul meant together, at the same time. Simultaneous kept that plain sense: events happening together, at once.",
+    "cousins": [
+      "simulate",
+      "ensemble"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sinecure": {
+    "parts": [
+      {
+        "piece": "sine",
+        "origin": "Latin",
+        "meaning": "without"
+      },
+      {
+        "piece": "cura",
+        "origin": "Latin",
+        "meaning": "care"
+      }
+    ],
+    "literal": "without care or duty",
+    "path": "Latin sine cura meant without care, first naming a church position that carried a salary but no pastoral duty, no cure of souls. Sinecure broadened to any position that pays well while requiring little or no real work.",
+    "cousins": [
+      "cure",
+      "curator",
+      "accurate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "singular": {
+    "parts": [
+      {
+        "piece": "singuli",
+        "origin": "Latin",
+        "meaning": "one at a time, single"
+      }
+    ],
+    "literal": "being one, alone of its kind",
+    "path": "Latin singularis, from singuli, one at a time, described what stands alone, unique. Singular kept the grammatical sense of one, and extended to mean so distinctively one-of-a-kind as to be remarkable.",
+    "cousins": [
+      "single"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "sinuous": {
+    "parts": [
+      {
+        "piece": "sinus",
+        "origin": "Latin",
+        "meaning": "a curve, bend, fold"
+      }
+    ],
+    "literal": "full of bends and curves",
+    "path": "Latin sinus meant a curve, fold, or bay, the same root behind the nasal sinuses. Sinuous kept the sense of winding, curving movement, and extended to bodies that move with supple, curving grace.",
+    "cousins": [
+      "sinus",
+      "insinuate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "skeptic": {
+    "parts": [
+      {
+        "piece": "skeptesthai",
+        "origin": "Greek",
+        "meaning": "to look carefully, consider"
+      }
+    ],
+    "literal": "one who looks carefully, considers",
+    "path": "Greek skeptikos, from skeptesthai, to look at or examine carefully, named a philosophical school that withheld judgment pending careful inquiry. Skeptic kept that sense of one who questions and examines claims before accepting them.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "skill": {
+    "parts": [
+      {
+        "piece": "skilja",
+        "origin": "Old Norse",
+        "meaning": "to separate, distinguish"
+      }
+    ],
+    "literal": "the ability to discern, distinguish",
+    "path": "Skill comes from Old Norse skil, distinction or discernment, from skilja, to separate or tell apart. The word shifted from the ability to judge wisely to practiced ability in any craft or activity.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "skirt": {
+    "parts": [
+      {
+        "piece": "skyrta",
+        "origin": "Old Norse",
+        "meaning": "a shirt-like garment"
+      }
+    ],
+    "literal": "to go along the edge, the hem",
+    "path": "Skirt is a doublet of shirt, both from Old Norse skyrta, a garment. A skirt is the part that hangs around the lower edge, and to skirt something is to go around its outer edge rather than through it, avoiding it directly.",
+    "cousins": [
+      "shirt"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "skittish": {
+    "parts": [
+      {
+        "piece": "skjota",
+        "origin": "Old Norse",
+        "meaning": "to shoot, dart"
+      }
+    ],
+    "literal": "darting about",
+    "path": "Skittish probably relates to Old Norse skjóta, to shoot or dart quickly. It described animals, especially horses, prone to darting suddenly, and extended to any nervous, easily startled temperament.",
+    "cousins": [
+      "shoot",
+      "shot"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "skullduggery": {
+    "parts": [
+      {
+        "piece": "sculduddery",
+        "origin": "Scots",
+        "meaning": "fornication, bawdiness; origin unknown"
+      }
+    ],
+    "literal": "unknown origin, originally meant bawdy misconduct",
+    "path": "Skullduggery is an alteration of Scots sculduddery, which meant fornication or bawdy misconduct, itself of obscure origin. The American form shifted from sexual scandal to underhanded scheming and trickery generally.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "slack": {
+    "parts": [
+      {
+        "piece": "slaec",
+        "origin": "Old English",
+        "meaning": "loose, sluggish, remiss"
+      }
+    ],
+    "literal": "loose, sluggish",
+    "path": "Slack comes from Old English slæc, loose or sluggish. It kept both threads of meaning: physically loose, like a slack rope, and metaphorically careless, lacking effort or energy.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "slake": {
+    "parts": [
+      {
+        "piece": "slaec",
+        "origin": "Old English",
+        "meaning": "slack, loose"
+      }
+    ],
+    "literal": "to make slack, loosen",
+    "path": "Slake comes from Old English slacian, to slacken or relax, from the same root as slack. To slake a thirst or desire is to loosen its grip, relaxing it into satisfaction.",
+    "cousins": [
+      "slack"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "slander": {
+    "parts": [
+      {
+        "piece": "skandalon",
+        "origin": "Greek",
+        "meaning": "a trap, snare, stumbling block"
+      }
+    ],
+    "literal": "a trap, a stumbling block",
+    "path": "Slander traces through Old French esclandre to Latin scandalum, from Greek skandalon, a trap or snare that causes one to stumble, the same root as scandal. Slander is speech set like a trap to damage someone's reputation falsely.",
+    "cousins": [
+      "scandal",
+      "scandalous"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "slapdash": {
+    "parts": [
+      {
+        "piece": "slap",
+        "origin": "English",
+        "meaning": "imitative, a quick blow"
+      },
+      {
+        "piece": "dash",
+        "origin": "English",
+        "meaning": "imitative, a sudden quick stroke"
+      }
+    ],
+    "literal": "with a slap and a dash",
+    "path": "Slapdash combines slap, a quick striking blow, and dash, a sudden hasty stroke, both imitative words for quick action. Together they picture work done in a few careless, hurried strokes, without proper care.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

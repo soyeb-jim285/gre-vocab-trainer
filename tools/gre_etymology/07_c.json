@@ -1,0 +1,1078 @@
+{
+  "proceeds": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go"
+      }
+    ],
+    "literal": "that which comes forth",
+    "path": "From the same Latin procedere, to go forward, as precede and proceed, proceeds are literally what comes forth or results from a sale or event: the money produced.",
+    "cousins": [
+      "exceed",
+      "recede"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "proclivity": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "clivus",
+        "origin": "Latin",
+        "meaning": "slope"
+      }
+    ],
+    "literal": "sloping forward",
+    "path": "Latin proclivis pictured a downward slope, something you naturally slide toward. A proclivity is that same natural tilt, a tendency you lean into without much resistance.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prodigal": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to drive, do"
+      }
+    ],
+    "literal": "driven forth, squandered",
+    "path": "Latin prodigere meant to drive something away or squander it. A prodigal spender drives money forth wastefully, recalling the prodigal son who squandered his inheritance.",
+    "cousins": [
+      "agent",
+      "act",
+      "exact"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "prodigious": {
+    "parts": [
+      {
+        "piece": "prodigium",
+        "origin": "Latin",
+        "meaning": "omen, portent"
+      }
+    ],
+    "literal": "like an omen, marvelous",
+    "path": "Latin prodigium named an omen, something so strange it seemed sent by the gods. Prodigious kept that sense of the marvelous, now applied to anything astonishingly great in size or degree.",
+    "cousins": [
+      "prodigy"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "prodigy": {
+    "parts": [
+      {
+        "piece": "prodigium",
+        "origin": "Latin",
+        "meaning": "omen, portent, marvel"
+      }
+    ],
+    "literal": "an omen, a marvel",
+    "path": "A prodigium was originally an omen, a marvelous sign. The word narrowed to describe a marvel of a person, especially a child whose talent seems almost supernatural.",
+    "cousins": [
+      "prodigious"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "proficient": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make, do"
+      }
+    ],
+    "literal": "making progress forward",
+    "path": "Latin proficere meant to make headway, to advance through effort. Someone proficient has advanced far enough in a skill to be genuinely capable.",
+    "cousins": [
+      "perfect",
+      "effect",
+      "fact"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "profligate": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "down, forth"
+      },
+      {
+        "piece": "fligere",
+        "origin": "Latin",
+        "meaning": "to strike down"
+      }
+    ],
+    "literal": "struck down, ruined",
+    "path": "Latin profligare meant to strike down or ruin utterly. A profligate person is one whose reckless waste strikes down, and ruins, their own fortune.",
+    "cousins": [
+      "conflict",
+      "inflict",
+      "afflict"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "profound": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth, toward"
+      },
+      {
+        "piece": "fundus",
+        "origin": "Latin",
+        "meaning": "bottom"
+      }
+    ],
+    "literal": "toward the bottom, deep",
+    "path": "Profundus first described physical depth, like a pit or a body of water going far down. The word was carried over to thought and feeling: a profound idea or emotion reaches far down past the surface, landing as deep and intense rather than shallow.",
+    "cousins": [
+      "fund",
+      "foundation"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "profundity": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "fundus",
+        "origin": "Latin",
+        "meaning": "bottom"
+      }
+    ],
+    "literal": "depth to the bottom",
+    "path": "Sharing its root with profound, fundus, bottom, profundity names a depth of insight that reaches all the way down.",
+    "cousins": [
+      "fund",
+      "foundation",
+      "fundamental"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "profuse": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "fundere",
+        "origin": "Latin",
+        "meaning": "to pour"
+      }
+    ],
+    "literal": "poured forth",
+    "path": "Latin profundere meant to pour out abundantly. Profuse describes something poured forth so freely it becomes excessive.",
+    "cousins": [
+      "fuse",
+      "refund",
+      "transfusion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "profusion": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "fundere",
+        "origin": "Latin",
+        "meaning": "to pour"
+      }
+    ],
+    "literal": "a pouring forth",
+    "path": "From the same root as profuse, profusion names a large abundance poured out freely, more than is strictly needed.",
+    "cousins": [
+      "fuse",
+      "refund",
+      "transfusion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "progenitor": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "gignere",
+        "origin": "Latin",
+        "meaning": "to beget"
+      }
+    ],
+    "literal": "one who begets forth",
+    "path": "Latin progignere meant to bring forth offspring. A progenitor is the ancestor who begot a line, or the originator of an idea or movement.",
+    "cousins": [
+      "gene",
+      "genesis",
+      "generate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prognosticate": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Greek",
+        "meaning": "before"
+      },
+      {
+        "piece": "gignoskein",
+        "origin": "Greek",
+        "meaning": "to know"
+      }
+    ],
+    "literal": "to know beforehand",
+    "path": "Greek prognostikos meant knowing something in advance. To prognosticate is to claim to know the future before it happens.",
+    "cousins": [
+      "diagnose",
+      "agnostic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prognostication": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Greek",
+        "meaning": "before"
+      },
+      {
+        "piece": "gignoskein",
+        "origin": "Greek",
+        "meaning": "to know"
+      }
+    ],
+    "literal": "knowledge stated beforehand",
+    "path": "From the same root as prognosticate, a prognostication is a claim of foreknowledge, a prediction of what is to come.",
+    "cousins": [
+      "diagnose",
+      "agnostic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prohibitive": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "away"
+      },
+      {
+        "piece": "habere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "holding away, restraining",
+    "path": "Latin prohibere meant to hold something back or away, to prevent it. Prohibitive describes a cost or condition so restrictive it effectively holds people back from acting.",
+    "cousins": [
+      "habit",
+      "exhibit",
+      "inhibit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "project": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "iacere",
+        "origin": "Latin",
+        "meaning": "to throw"
+      }
+    ],
+    "literal": "to throw forward",
+    "path": "Latin proicere meant to throw something forward. To project is to throw an estimate ahead into the future, or throw one's voice or image outward.",
+    "cousins": [
+      "eject",
+      "inject",
+      "reject"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "projection": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "iacere",
+        "origin": "Latin",
+        "meaning": "to throw"
+      }
+    ],
+    "literal": "a throwing forward",
+    "path": "From the same root as project, a projection is an estimate thrown forward from current trends into the future.",
+    "cousins": [
+      "eject",
+      "inject",
+      "reject"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "proletarian": {
+    "parts": [
+      {
+        "piece": "proles",
+        "origin": "Latin",
+        "meaning": "offspring"
+      }
+    ],
+    "literal": "one valued only for offspring",
+    "path": "In Rome, a proletarius was a citizen too poor to own property, contributing to the state only through proles, offspring, future soldiers and workers. Proletarian came to mean anything of the working class.",
+    "cousins": [
+      "prolific"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "proliferate": {
+    "parts": [
+      {
+        "piece": "proles",
+        "origin": "Latin",
+        "meaning": "offspring"
+      },
+      {
+        "piece": "ferre",
+        "origin": "Latin",
+        "meaning": "to bear, carry"
+      }
+    ],
+    "literal": "to bear offspring",
+    "path": "Combining proles, offspring, with ferre, to bear, proliferate literally means to bear offspring, and so to multiply or increase rapidly in number.",
+    "cousins": [
+      "prolific",
+      "transfer",
+      "fertile"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prolific": {
+    "parts": [
+      {
+        "piece": "proles",
+        "origin": "Latin",
+        "meaning": "offspring"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "offspring-making",
+    "path": "Medieval Latin prolificus combined proles, offspring, with facere, to make: producing offspring abundantly. Prolific broadened to anyone or anything that produces a great deal, of children, books, or ideas.",
+    "cousins": [
+      "proliferate",
+      "fact"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "prolix": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "liquere",
+        "origin": "Latin",
+        "meaning": "to flow"
+      }
+    ],
+    "literal": "flowing forth, poured out at length",
+    "path": "Latin prolixus pictured something poured forth and flowing on and on. Prolix describes speech or writing that flows far longer than needed, tediously wordy.",
+    "cousins": [
+      "liquid",
+      "liquefy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "prolixity": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "liquere",
+        "origin": "Latin",
+        "meaning": "to flow"
+      }
+    ],
+    "literal": "a flowing on at length",
+    "path": "From the same root as prolix, prolixity names the fault itself: excessive, tedious wordiness that just keeps flowing.",
+    "cousins": [
+      "liquid",
+      "liquefy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "prologue": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Greek",
+        "meaning": "before"
+      },
+      {
+        "piece": "logos",
+        "origin": "Greek",
+        "meaning": "word, speech"
+      }
+    ],
+    "literal": "a speech before",
+    "path": "Greek prologos meant a speech given before the main action, as in a play. A prologue still introduces a work before the story itself begins.",
+    "cousins": [
+      "logic",
+      "dialogue",
+      "monologue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "promiscuous": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "miscere",
+        "origin": "Latin",
+        "meaning": "to mix"
+      }
+    ],
+    "literal": "mixed together indiscriminately",
+    "path": "Latin promiscuus described things mixed together without distinction. Promiscuous kept that sense of indiscriminate mixing, applied to companions, ideas, or sexual relations.",
+    "cousins": [
+      "mix",
+      "miscellaneous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "promulgate": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "unknown second element",
+        "origin": "Latin (disputed)",
+        "meaning": "possibly related to vulgus, the common people"
+      }
+    ],
+    "literal": "to make forth to the people (disputed)",
+    "path": "Promulgate's exact roots are genuinely debated by scholars, but its sense has stayed constant since the 1400s: to make a law or doctrine officially and publicly known.",
+    "cousins": [
+      "divulge"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "prone": {
+    "parts": [
+      {
+        "piece": "pronus",
+        "origin": "Latin",
+        "meaning": "leaning forward"
+      }
+    ],
+    "literal": "leaning forward, face down",
+    "path": "Latin pronus described a body leaning or bent forward, face down. Prone kept the literal posture and extended it figuratively: inclined or susceptible toward something.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pronounced": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "nuntiare",
+        "origin": "Latin",
+        "meaning": "to announce"
+      }
+    ],
+    "literal": "announced forth clearly",
+    "path": "Latin pronuntiare meant to announce or declare publicly. Pronounced describes a feature declared so clearly it is unmistakably noticeable.",
+    "cousins": [
+      "announce",
+      "denounce",
+      "renounce"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "propagate": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "pangere",
+        "origin": "Latin",
+        "meaning": "to fasten, fix"
+      }
+    ],
+    "literal": "to fasten forth, extend by cuttings",
+    "path": "Latin propago named a plant cutting taken to root elsewhere. Propagate first meant multiplying plants by cuttings, then broadened to spreading anything, ideas, disease, offspring, further out.",
+    "cousins": [
+      "pact",
+      "compact"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "propensity": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "pendere",
+        "origin": "Latin",
+        "meaning": "to hang"
+      }
+    ],
+    "literal": "hanging forward, inclined toward",
+    "path": "Latin propendere meant to hang or lean forward toward something. A propensity is that natural lean, an inclination toward a particular behavior.",
+    "cousins": [
+      "pendant",
+      "suspend",
+      "pendulum"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "property": {
+    "parts": [
+      {
+        "piece": "proprius",
+        "origin": "Latin",
+        "meaning": "one's own, particular"
+      }
+    ],
+    "literal": "that which is one's own",
+    "path": "Latin proprius meant belonging particularly to oneself. Property kept both senses: a quality particular to a thing, and something particularly owned.",
+    "cousins": [
+      "proper",
+      "appropriate",
+      "proprietor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prophetic": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Greek",
+        "meaning": "before"
+      },
+      {
+        "piece": "phanai",
+        "origin": "Greek",
+        "meaning": "to speak"
+      }
+    ],
+    "literal": "speaking before, foretelling",
+    "path": "Greek prophetes named one who spoke on behalf of a god, foretelling events before they happened. Prophetic describes anything that accurately predicts what is to come.",
+    "cousins": [
+      "prophet",
+      "prophecy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "propitiate": {
+    "parts": [
+      {
+        "piece": "propitius",
+        "origin": "Latin",
+        "meaning": "favorable, well-disposed"
+      }
+    ],
+    "literal": "to make favorable",
+    "path": "Latin propitius meant favorably disposed, gracious. To propitiate someone is to win back their favor, to make them well-disposed again after anger.",
+    "cousins": [
+      "propitious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "propitious": {
+    "parts": [
+      {
+        "piece": "propitius",
+        "origin": "Latin",
+        "meaning": "favorable, well-disposed"
+      }
+    ],
+    "literal": "favorable, gracious",
+    "path": "From the same root as propitiate, propitious describes circumstances that are favorably disposed toward success.",
+    "cousins": [
+      "propitiate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "proponent": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to put, place"
+      }
+    ],
+    "literal": "one who puts forth",
+    "path": "Latin proponere meant to put something forward for consideration. A proponent is one who puts a cause forward and argues in its favor.",
+    "cousins": [
+      "propose",
+      "expose",
+      "position"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "propriety": {
+    "parts": [
+      {
+        "piece": "proprius",
+        "origin": "Latin",
+        "meaning": "one's own, particular, proper"
+      }
+    ],
+    "literal": "properness, fittingness",
+    "path": "Sharing its root with property and proper, propriety is behavior that is fitting and proper to the occasion, correct in its own right.",
+    "cousins": [
+      "proper",
+      "property",
+      "appropriate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "prosaic": {
+    "parts": [
+      {
+        "piece": "prosa",
+        "origin": "Latin",
+        "meaning": "prose, straightforward speech"
+      }
+    ],
+    "literal": "in prose, not poetry",
+    "path": "Latin prosa named plain, straightforward writing, as opposed to poetry's heightened language. Prosaic kept that contrast: dull and ordinary, lacking any poetic spark.",
+    "cousins": [
+      "prose"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "proscribe": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth, publicly"
+      },
+      {
+        "piece": "scribere",
+        "origin": "Latin",
+        "meaning": "to write"
+      }
+    ],
+    "literal": "to write up publicly as outlawed",
+    "path": "In Rome, proscribere meant to post someone's name publicly, typically as an outlaw whose property could be seized. Proscribe kept that sense of officially forbidding or condemning by open declaration.",
+    "cousins": [
+      "scribe",
+      "describe",
+      "script"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "proselytize": {
+    "parts": [
+      {
+        "piece": "pros-",
+        "origin": "Greek",
+        "meaning": "toward"
+      },
+      {
+        "piece": "erchesthai",
+        "origin": "Greek",
+        "meaning": "to come"
+      }
+    ],
+    "literal": "to make (one) come toward",
+    "path": "Greek proselytos named someone who had come over, a newcomer or convert to a faith. Proselytize is the act of trying to make others come toward your own belief.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "prospective": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forward"
+      },
+      {
+        "piece": "specere",
+        "origin": "Latin",
+        "meaning": "to look"
+      }
+    ],
+    "literal": "looking forward",
+    "path": "Latin prospicere meant to look ahead. Prospective describes someone or something looked at with an eye toward the future, expected or likely to happen.",
+    "cousins": [
+      "spectator",
+      "inspect",
+      "respect"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "protean": {
+    "parts": [
+      {
+        "piece": "Proteus",
+        "origin": "Greek mythology",
+        "meaning": "shape-shifting sea god"
+      }
+    ],
+    "literal": "like Proteus",
+    "path": "In Greek myth, Proteus was a sea god who constantly changed shape to escape questioners. Protean describes anything as fluidly changeable as he was.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "provender": {
+    "parts": [
+      {
+        "piece": "praebere",
+        "origin": "Latin",
+        "meaning": "to supply, furnish"
+      }
+    ],
+    "literal": "an allowance supplied",
+    "path": "Late Latin praebenda meant a thing to be provided, an allowance. Provender kept that sense narrowed to food, especially feed supplied for livestock.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "provident": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "ahead"
+      },
+      {
+        "piece": "videre",
+        "origin": "Latin",
+        "meaning": "to see"
+      }
+    ],
+    "literal": "seeing ahead",
+    "path": "Latin providere meant to see something coming and prepare for it. A provident person sees ahead and plans carefully for the future.",
+    "cousins": [
+      "vision",
+      "evident",
+      "supervise"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "providential": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "ahead"
+      },
+      {
+        "piece": "videre",
+        "origin": "Latin",
+        "meaning": "to see"
+      }
+    ],
+    "literal": "seen ahead, foreseen",
+    "path": "From providence, a foreseeing care, providential describes an event that arrives by that same fortunate, foreseeing guidance, luck so well-timed it feels like fate.",
+    "cousins": [
+      "vision",
+      "evident"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "provincial": {
+    "parts": [
+      {
+        "piece": "provincia",
+        "origin": "Latin",
+        "meaning": "a province, territory under Roman control"
+      }
+    ],
+    "literal": "of a province, outlying territory",
+    "path": "A provincia was a Roman territory outside the capital, governed but considered less sophisticated. Provincial kept both senses: literally of the provinces, and figuratively narrow-minded, as if shaped by distance from the cultural center.",
+    "cousins": [
+      "province"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "provisional": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "ahead"
+      },
+      {
+        "piece": "videre",
+        "origin": "Latin",
+        "meaning": "to see"
+      }
+    ],
+    "literal": "provided for in advance",
+    "path": "From the same root as provide, foreseeing and preparing ahead, provisional describes an arrangement made as a temporary stopgap while a permanent one is worked out.",
+    "cousins": [
+      "provide",
+      "vision"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "provocative": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "vocare",
+        "origin": "Latin",
+        "meaning": "to call"
+      }
+    ],
+    "literal": "calling forth",
+    "path": "Latin provocare meant to call something forth, to challenge or summon a response. Provocative describes anything meant to call forth a strong reaction.",
+    "cousins": [
+      "vocal",
+      "voice",
+      "invoke"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "provoke": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "forth"
+      },
+      {
+        "piece": "vocare",
+        "origin": "Latin",
+        "meaning": "to call"
+      }
+    ],
+    "literal": "to call forth",
+    "path": "From the same root as provocative, to provoke is to call forth a reaction, usually anger, by challenge or irritation.",
+    "cousins": [
+      "vocal",
+      "voice",
+      "invoke"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "prowess": {
+    "parts": [
+      {
+        "piece": "prode/prodesse",
+        "origin": "Latin (via Old French prou/prud)",
+        "meaning": "to be of use, be brave and valiant"
+      }
+    ],
+    "literal": "valor, being of advantage",
+    "path": "Old French prou meant brave or valiant, tracing back to Latin prodesse, to be of use or advantage. Prowess named the outstanding bravery and skill of a valiant person, courage that proved genuinely useful.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "proxy": {
+    "parts": [
+      {
+        "piece": "pro-",
+        "origin": "Latin",
+        "meaning": "on behalf of"
+      },
+      {
+        "piece": "curare",
+        "origin": "Latin",
+        "meaning": "to care for, manage"
+      }
+    ],
+    "literal": "one managing on behalf of another",
+    "path": "Proxy is a worn-down form of procuracy, the office of a procurator, someone who manages affairs on behalf of another. A proxy still stands in, authorized to act for someone else.",
+    "cousins": [
+      "procure",
+      "curator",
+      "accurate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "prude": {
+    "parts": [
+      {
+        "piece": "prod-",
+        "origin": "Old French",
+        "meaning": "good, valiant, worthy (from Latin prodesse, to be of use)"
+      }
+    ],
+    "literal": "a good, worthy woman",
+    "path": "Prude comes from Old French prudefemme, an excellent, virtuous woman, once a compliment. Over time the word narrowed and soured in English, mocking someone whose virtue is so excessive they are easily shocked by any impropriety.",
+    "cousins": [
+      "prowess"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  }
+}

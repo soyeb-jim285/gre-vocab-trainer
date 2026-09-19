@@ -1,0 +1,707 @@
+{
+  "masticate": {
+    "parts": [
+      {
+        "piece": "mastax",
+        "origin": "Greek",
+        "meaning": "jaws, mouth"
+      }
+    ],
+    "literal": "to chew",
+    "path": "Latin masticare meant to chew, likely borrowed from Greek mastax, jaws or mouth. Masticate kept the literal meaning intact: to grind food with the teeth.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "matriarch": {
+    "parts": [
+      {
+        "piece": "mater",
+        "origin": "Latin",
+        "meaning": "mother"
+      },
+      {
+        "piece": "archein",
+        "origin": "Greek",
+        "meaning": "to rule"
+      }
+    ],
+    "literal": "mother ruler",
+    "path": "Matriarch combines Latin mater, mother, with Greek archein, to rule, modeled on patriarch. It names a woman who holds the position of head and ruler within a family or group.",
+    "cousins": [
+      "maternal",
+      "monarch",
+      "patriarch"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "maudlin": {
+    "parts": [
+      {
+        "piece": "Maudelen",
+        "origin": "English",
+        "meaning": "Mary Magdalene, depicted weeping in art"
+      }
+    ],
+    "literal": "like the weeping Magdalene",
+    "path": "Maudlin is a worn-down form of Magdalene, from Mary Magdalene, traditionally painted with eyes swollen from weeping. Her tearful image gave the word its sense of excessive, self-indulgent sentimentality.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "maul": {
+    "parts": [
+      {
+        "piece": "malleus",
+        "origin": "Latin",
+        "meaning": "hammer"
+      }
+    ],
+    "literal": "to strike with a hammer",
+    "path": "Maul comes from Latin malleus, a hammer or mallet, the same root as mallet. To maul originally meant to beat with such a heavy club, and it broadened to any brutal, mangling attack.",
+    "cousins": [
+      "mallet",
+      "malleable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "maunder": {
+    "parts": [
+      {
+        "piece": "maunder",
+        "origin": "English",
+        "meaning": "origin uncertain, possibly linked to muttering or begging"
+      }
+    ],
+    "literal": "to mutter, wander in talk",
+    "path": "Maunder's origin is uncertain, possibly connected to an old sense of muttering or begging. Whatever its source, it settled into meaning talking or moving about in a rambling, aimless way.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "maverick": {
+    "parts": [
+      {
+        "piece": "Maverick",
+        "origin": "English",
+        "meaning": "surname of Samuel Maverick, who left cattle unbranded"
+      }
+    ],
+    "literal": "an unbranded animal",
+    "path": "Samuel Maverick was a 19th-century Texas rancher who did not brand his cattle. An unbranded calf became known as a maverick, and the word extended to any person who refuses to be marked by a group or follow the herd.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "mawkish": {
+    "parts": [
+      {
+        "piece": "mathkr",
+        "origin": "Old Norse",
+        "meaning": "maggot"
+      }
+    ],
+    "literal": "maggoty, nauseating",
+    "path": "Mawkish traces to an old word for maggot, from Old Norse mathkr. It first meant nauseated or squeamish, as if sickened by something rotten, and the sense shifted to describe emotion so oversweet it turns the stomach.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "maxim": {
+    "parts": [
+      {
+        "piece": "maximus",
+        "origin": "Latin",
+        "meaning": "greatest"
+      }
+    ],
+    "literal": "the greatest proposition",
+    "path": "Maxim shortens Latin maxima propositio, the greatest premise, the broadest general principle a chain of reasoning rests on. It settled into naming any concisely stated general truth or rule of conduct.",
+    "cousins": [
+      "maximum",
+      "magnify",
+      "maximize"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "meander": {
+    "parts": [
+      {
+        "piece": "Maiandros",
+        "origin": "Greek",
+        "meaning": "the Maeander River, known for its winding course"
+      }
+    ],
+    "literal": "to follow the Maeander's course",
+    "path": "The Maeander was a river in ancient Asia Minor famous for its extremely winding path. Its name became a common verb for any wandering, indirect course, whether a river, a road, or a conversation.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "mediate": {
+    "parts": [
+      {
+        "piece": "medius",
+        "origin": "Latin",
+        "meaning": "middle"
+      }
+    ],
+    "literal": "to stand in the middle",
+    "path": "Latin medius meant middle, and mediare meant to be in the middle, positioned between two parties. To mediate is literally to stand between two sides, helping them reach a settlement.",
+    "cousins": [
+      "medium",
+      "median",
+      "intermediate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "melancholy": {
+    "parts": [
+      {
+        "piece": "melas",
+        "origin": "Greek",
+        "meaning": "black"
+      },
+      {
+        "piece": "khole",
+        "origin": "Greek",
+        "meaning": "bile"
+      }
+    ],
+    "literal": "black bile",
+    "path": "Ancient physicians believed four bodily fluids, or humors, governed temperament, and an excess of black bile, melas plus khole, was thought to cause sadness and brooding. Melancholy kept that meaning long after the medical theory was abandoned.",
+    "cousins": [
+      "melanin",
+      "cholera"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "melange": {
+    "parts": [
+      {
+        "piece": "miscere",
+        "origin": "Latin",
+        "meaning": "to mix"
+      }
+    ],
+    "literal": "a mixing",
+    "path": "French melange comes from mesler, to mix, ultimately Latin miscere, to mix, the root of mix and miscellaneous. It names any varied blend of different elements.",
+    "cousins": [
+      "mix",
+      "miscellaneous",
+      "medley"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "melee": {
+    "parts": [
+      {
+        "piece": "miscere",
+        "origin": "Latin",
+        "meaning": "to mix"
+      }
+    ],
+    "literal": "a mixing together",
+    "path": "Melee comes from the same French mesler, to mix, as melange. A fight where combatants are mixed together in close, chaotic disorder gave melee its sense of a confused brawl.",
+    "cousins": [
+      "mix",
+      "medley",
+      "miscellaneous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "mellifluous": {
+    "parts": [
+      {
+        "piece": "mel",
+        "origin": "Latin",
+        "meaning": "honey"
+      },
+      {
+        "piece": "fluere",
+        "origin": "Latin",
+        "meaning": "to flow"
+      }
+    ],
+    "literal": "flowing with honey",
+    "path": "Latin mellifluus described something flowing with honey, sweet as it poured. Applied to sound, mellifluous describes a voice or music as smooth and sweet as honey flowing.",
+    "cousins": [
+      "fluid",
+      "fluent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "membrane": {
+    "parts": [
+      {
+        "piece": "membrum",
+        "origin": "Latin",
+        "meaning": "limb, body part"
+      }
+    ],
+    "literal": "skin covering a limb",
+    "path": "Latin membrana named the skin or parchment covering a body part, from membrum, limb, the root of member. The word broadened from skin on a limb to any thin, pliable layer or lining.",
+    "cousins": [
+      "member",
+      "dismember"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mendacious": {
+    "parts": [
+      {
+        "piece": "mendum",
+        "origin": "Latin",
+        "meaning": "fault, error, lie"
+      }
+    ],
+    "literal": "full of falsehood",
+    "path": "Latin mendax meant lying or false, from mendum, a fault or error. Mendacious describes a person given to habitual lying, someone whose words are riddled with falsehood.",
+    "cousins": [
+      "amend",
+      "emend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "mendacity": {
+    "parts": [
+      {
+        "piece": "mendum",
+        "origin": "Latin",
+        "meaning": "fault, error, lie"
+      }
+    ],
+    "literal": "falsehood, lying",
+    "path": "From the same Latin mendax as mendacious, mendacity is the abstract quality of being untruthful, a general disposition toward lying rather than one particular lie.",
+    "cousins": [
+      "amend",
+      "emend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "mendicant": {
+    "parts": [
+      {
+        "piece": "mendicus",
+        "origin": "Latin",
+        "meaning": "beggar"
+      }
+    ],
+    "literal": "one who begs",
+    "path": "Latin mendicus meant a beggar, perhaps originally someone marked by a physical defect who begged out of need. Mendicant kept that core sense, especially describing friars who took vows of poverty and lived by begging.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mercenary": {
+    "parts": [
+      {
+        "piece": "merces",
+        "origin": "Latin",
+        "meaning": "wages, pay"
+      }
+    ],
+    "literal": "working for pay",
+    "path": "Latin merces meant wages or pay, related to merx, merchandise, the root of market and commerce. Mercenary originally just meant hired for wages, and narrowed to a critical sense: acting for money alone, with no higher loyalty.",
+    "cousins": [
+      "market",
+      "merchant",
+      "commerce"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "mercurial": {
+    "parts": [
+      {
+        "piece": "Mercurius",
+        "origin": "Latin",
+        "meaning": "Mercury, swift messenger god"
+      }
+    ],
+    "literal": "of Mercury",
+    "path": "Mercury was the swift, quick-witted messenger god, and his name was given to the fast-moving planet and to quicksilver for its restless liquid motion. Mercurial borrowed that quickness for temperament: a mood that shifts rapidly and unpredictably.",
+    "cousins": [
+      "mercury"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "meretricious": {
+    "parts": [
+      {
+        "piece": "merere",
+        "origin": "Latin",
+        "meaning": "to earn, deserve"
+      }
+    ],
+    "literal": "of one who earns a wage (a prostitute)",
+    "path": "Latin meretrix meant a prostitute, literally one who earns, from merere, to earn. Meretricious kept the association with a prostitute's showy, put-on charm, describing anything superficially attractive but cheap and insincere underneath.",
+    "cousins": [
+      "merit"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "merit": {
+    "parts": [
+      {
+        "piece": "merere",
+        "origin": "Latin",
+        "meaning": "to earn, deserve"
+      }
+    ],
+    "literal": "that which is earned",
+    "path": "Latin merere meant to earn or deserve, and meritum was what one had rightfully earned. Merit kept that sense: intrinsic worth that rightly deserves recognition or reward.",
+    "cousins": [
+      "meritorious",
+      "emeritus"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "meritocracy": {
+    "parts": [
+      {
+        "piece": "meritum",
+        "origin": "Latin",
+        "meaning": "that which is earned, deserved"
+      },
+      {
+        "piece": "kratos",
+        "origin": "Greek",
+        "meaning": "power, rule"
+      }
+    ],
+    "literal": "rule by the deserving",
+    "path": "Meritocracy joins Latin meritum, what is earned or deserved, with Greek kratos, power, the root of democracy. Coined in the 20th century, it names a system where advancement is earned by ability rather than birth or wealth.",
+    "cousins": [
+      "democracy",
+      "aristocracy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "meritorious": {
+    "parts": [
+      {
+        "piece": "merere",
+        "origin": "Latin",
+        "meaning": "to earn, deserve"
+      }
+    ],
+    "literal": "deserving reward",
+    "path": "From the same Latin merere as merit, meritorious describes an act or quality that has earned genuine praise, worthy of recognition on its own merits.",
+    "cousins": [
+      "merit",
+      "emeritus"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "mesmerize": {
+    "parts": [
+      {
+        "piece": "Mesmer",
+        "origin": "German",
+        "meaning": "surname of Franz Mesmer, who practiced hypnotic 'animal magnetism'"
+      }
+    ],
+    "literal": "to treat with Mesmer's methods",
+    "path": "Franz Mesmer was an 18th-century physician whose theory of animal magnetism involved inducing trance-like states in patients. His name became the verb for holding someone spellbound, transfixed as if hypnotized.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "metamorphose": {
+    "parts": [
+      {
+        "piece": "meta-",
+        "origin": "Greek",
+        "meaning": "change, beyond"
+      },
+      {
+        "piece": "morphe",
+        "origin": "Greek",
+        "meaning": "form, shape"
+      }
+    ],
+    "literal": "to change shape",
+    "path": "Greek metamorphoun meant to change form, from morphe, shape, the root of morph. Metamorphose kept the literal sense of a complete transformation, not a partial adjustment but a change into a wholly different form.",
+    "cousins": [
+      "morph",
+      "amorphous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "metamorphosis": {
+    "parts": [
+      {
+        "piece": "meta-",
+        "origin": "Greek",
+        "meaning": "change, beyond"
+      },
+      {
+        "piece": "morphe",
+        "origin": "Greek",
+        "meaning": "form, shape"
+      }
+    ],
+    "literal": "a change of shape",
+    "path": "From the same Greek roots as metamorphose, metamorphosis names the process itself, a complete change of form, as vivid as a caterpillar transforming into a butterfly.",
+    "cousins": [
+      "morph",
+      "amorphous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "metaphorical": {
+    "parts": [
+      {
+        "piece": "meta-",
+        "origin": "Greek",
+        "meaning": "over, beyond"
+      },
+      {
+        "piece": "pherein",
+        "origin": "Greek",
+        "meaning": "to carry"
+      }
+    ],
+    "literal": "carrying over",
+    "path": "Greek metaphora meant a transfer, literally a carrying over, from pherein, to carry. A metaphor carries meaning over from one thing to another, and metaphorical describes language used that carried-over, figurative way rather than literally.",
+    "cousins": [
+      "metaphor",
+      "euphoria",
+      "periphery"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "metaphysical": {
+    "parts": [
+      {
+        "piece": "meta-",
+        "origin": "Greek",
+        "meaning": "after, beyond"
+      },
+      {
+        "piece": "physika",
+        "origin": "Greek",
+        "meaning": "natural things, physics"
+      }
+    ],
+    "literal": "after the physics",
+    "path": "Metaphysics comes from meta ta physika, the works placed after Aristotle's Physics in ancient manuscript ordering. Because those works dealt with being and abstract first principles, meta came to be read as beyond, and metaphysical now means concerning reality beyond the physical world.",
+    "cousins": [
+      "physics",
+      "physical"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "meteoric": {
+    "parts": [
+      {
+        "piece": "meta-",
+        "origin": "Greek",
+        "meaning": "beyond"
+      },
+      {
+        "piece": "aeirein",
+        "origin": "Greek",
+        "meaning": "to lift, raise"
+      }
+    ],
+    "literal": "lifted up in the air",
+    "path": "Greek meteoros meant raised up high, suspended in the air, giving meteoron, an atmospheric phenomenon, the source of meteor. A meteor blazes across the sky in a brilliant instant, and meteoric borrowed that image for a rise as sudden and rapid as a shooting star.",
+    "cousins": [
+      "meteor",
+      "meteorology"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "perjury": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "thoroughly (here: wrongly)"
+      },
+      {
+        "piece": "jurare",
+        "origin": "Latin",
+        "meaning": "to swear"
+      }
+    ],
+    "literal": "to swear falsely",
+    "path": "Latin perjurare meant to swear falsely, combining per-, here carrying a sense of wrongdoing, with jurare, to swear an oath, the root of jury and jurisdiction. Perjury kept that exact meaning: lying under a sworn oath.",
+    "cousins": [
+      "jury",
+      "jurisdiction",
+      "juror"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "permeate": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "through"
+      },
+      {
+        "piece": "meare",
+        "origin": "Latin",
+        "meaning": "to pass, go"
+      }
+    ],
+    "literal": "to pass through",
+    "path": "Latin permeare meant to pass or flow all the way through something, from meare, to go or pass. Permeate kept that sense: to spread through every part of a space or substance.",
+    "cousins": [
+      "permeable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pernicious": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "necare",
+        "origin": "Latin",
+        "meaning": "to kill"
+      }
+    ],
+    "literal": "thoroughly killing",
+    "path": "Latin pernicies meant utter destruction or ruin, from necare, to kill, the root of internecine. Pernicious kept that sense of deep harm, especially harm that works slowly and subtly rather than through open violence.",
+    "cousins": [
+      "internecine"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "peroration": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "orare",
+        "origin": "Latin",
+        "meaning": "to speak, plead"
+      }
+    ],
+    "literal": "speaking through to the end",
+    "path": "Latin perorare meant to speak through to the finish, to sum up a speech at its close, from orare, to speak or plead, the root of oration and orator. Peroration kept that exact sense: the elaborate closing part of a speech.",
+    "cousins": [
+      "oration",
+      "orator",
+      "adore"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "perpetrate": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "patrare",
+        "origin": "Latin",
+        "meaning": "to accomplish, bring about"
+      }
+    ],
+    "literal": "to bring about thoroughly",
+    "path": "Latin perpetrare meant to carry a task through to completion, from patrare, to accomplish, related to pater, father, in the sense of bringing something into being. The word narrowed in English to accomplishing something specifically bad: committing a crime or wrong.",
+    "cousins": [
+      "paternal",
+      "patron"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "perpetual": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "through"
+      },
+      {
+        "piece": "petere",
+        "origin": "Latin",
+        "meaning": "to seek, go toward"
+      }
+    ],
+    "literal": "going through continuously",
+    "path": "Latin perpetuus meant continuous or unbroken, built from per-, through, and a root shared with petere, to go toward. Perpetual kept that sense of something that keeps going all the way through, without end.",
+    "cousins": [
+      "petition",
+      "compete",
+      "impetus"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

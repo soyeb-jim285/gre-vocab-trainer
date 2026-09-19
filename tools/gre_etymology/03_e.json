@@ -1,0 +1,890 @@
+{
+  "extraneous": {
+    "parts": [
+      {
+        "piece": "extra",
+        "origin": "Latin",
+        "meaning": "outside"
+      }
+    ],
+    "literal": "coming from outside",
+    "path": "Latin extraneus meant external or foreign, from extra, outside. Something extraneous comes from outside the matter at hand, not truly belonging to it and therefore irrelevant.",
+    "cousins": [
+      "extra",
+      "strange",
+      "estrange"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "extrapolate": {
+    "parts": [
+      {
+        "piece": "extra",
+        "origin": "Latin",
+        "meaning": "outside"
+      },
+      {
+        "piece": "polire",
+        "origin": "Latin",
+        "meaning": "to polish, smooth"
+      }
+    ],
+    "literal": "to smooth outward beyond known data",
+    "path": "Extrapolate was formed in the 19th century by analogy with interpolate, combining extra, outside, with a piece of interpolate (from polire, to smooth). It names the act of projecting a known trend outward past the data actually observed.",
+    "cousins": [
+      "interpolate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "extrapolation": {
+    "parts": [
+      {
+        "piece": "extra",
+        "origin": "Latin",
+        "meaning": "outside"
+      },
+      {
+        "piece": "polire",
+        "origin": "Latin",
+        "meaning": "to polish, smooth"
+      }
+    ],
+    "literal": "the act of smoothing outward beyond known data",
+    "path": "From the same coinage as extrapolate, extrapolation names the resulting estimate: a projection pushed out beyond the range of the actual known data.",
+    "cousins": [
+      "interpolate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "extravagant": {
+    "parts": [
+      {
+        "piece": "extra",
+        "origin": "Latin",
+        "meaning": "outside"
+      },
+      {
+        "piece": "vagari",
+        "origin": "Latin",
+        "meaning": "to wander"
+      }
+    ],
+    "literal": "wandering outside",
+    "path": "Latin extravagari meant to wander outside normal bounds, from vagari, to wander, the root of vagrant. Wandering beyond reasonable limits gave extravagant its sense of excess in spending or expression.",
+    "cousins": [
+      "vagrant",
+      "vague",
+      "extravaganza"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "exuberant": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, thoroughly"
+      },
+      {
+        "piece": "uber",
+        "origin": "Latin",
+        "meaning": "fertile, udder"
+      }
+    ],
+    "literal": "overflowing with fertility",
+    "path": "Latin exuberare meant to grow luxuriantly, overflow abundantly, from uber, fruitful or udder, the source of abundant milk. Exuberant kept that image of overflowing abundance, now applied to a person's overflowing energy and enthusiasm.",
+    "cousins": [
+      "exuberance"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "fabricate": {
+    "parts": [
+      {
+        "piece": "faber",
+        "origin": "Latin",
+        "meaning": "craftsman"
+      }
+    ],
+    "literal": "to craft, build",
+    "path": "Latin fabricare meant to make or construct, from faber, a skilled craftsman. Building something with one's hands extended to building a false story by hand, giving fabricate both its neutral sense of manufacturing and its negative sense of inventing lies.",
+    "cousins": [
+      "fabric",
+      "forge"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "facetious": {
+    "parts": [
+      {
+        "piece": "facetus",
+        "origin": "Latin",
+        "meaning": "witty, elegant"
+      }
+    ],
+    "literal": "witty",
+    "path": "Latin facetus meant elegant or witty in speech. The word drifted toward its current sense of joking about things that call for seriousness, a wit misapplied to the wrong moment.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "facile": {
+    "parts": [
+      {
+        "piece": "facilis",
+        "origin": "Latin",
+        "meaning": "easy to do"
+      }
+    ],
+    "literal": "easy to do",
+    "path": "Latin facilis meant easy, from facere, to do or make. What is too easily done can lack depth, so facile shifted from simply meaning easy to meaning superficially, unconvincingly easy.",
+    "cousins": [
+      "difficult"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "facilitate": {
+    "parts": [
+      {
+        "piece": "facilis",
+        "origin": "Latin",
+        "meaning": "easy (from facere, to do/make)"
+      }
+    ],
+    "literal": "to make easy",
+    "path": "Facilis, easy, comes from facere, to do or make. Facilitare simply means to make something easy to do, and to facilitate a process is to smooth the path so it happens with less effort.",
+    "cousins": [
+      "facile",
+      "faculty",
+      "difficult"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "faction": {
+    "parts": [
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "a doing, a group that acts together",
+    "path": "Latin factio meant a group organized for doing something, a political grouping, from facere, to do. Faction narrowed to a smaller group breaking off within a larger body, often causing division.",
+    "cousins": [
+      "factious",
+      "act",
+      "faculty"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "factious": {
+    "parts": [
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "prone to forming factions",
+    "path": "From the same root as faction, factious describes a tendency toward forming quarreling subgroups, given to internal conflict and division.",
+    "cousins": [
+      "faction",
+      "act"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "factitious": {
+    "parts": [
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "made, artificial",
+    "path": "Latin facticius meant made by art rather than nature, from facere, to make. Factitious kept that sense: something manufactured to look real rather than arising naturally, so it lacks genuineness.",
+    "cousins": [
+      "fact",
+      "manufacture"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fad": {
+    "parts": [
+      {
+        "piece": "fad",
+        "origin": "unknown",
+        "meaning": "uncertain origin"
+      }
+    ],
+    "literal": "uncertain",
+    "path": "Fad's origin is genuinely obscure, possibly a shortening of fiddle-faddle, a term for fussing over trifles. Whatever its source, it has long meant a craze that catches on quickly and fades just as fast.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "fallacious": {
+    "parts": [
+      {
+        "piece": "fallere",
+        "origin": "Latin",
+        "meaning": "to deceive"
+      }
+    ],
+    "literal": "deceiving",
+    "path": "Latin fallax meant deceptive, from fallere, to deceive or trip up. Fallacious describes reasoning that deceives, appearing sound while actually resting on faulty logic.",
+    "cousins": [
+      "fallacy",
+      "fail",
+      "false"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fallacy": {
+    "parts": [
+      {
+        "piece": "fallere",
+        "origin": "Latin",
+        "meaning": "to deceive"
+      }
+    ],
+    "literal": "a deception",
+    "path": "From the same root as fallacious, Latin fallacia meant trickery or deceit. Fallacy narrowed to a specific mistaken belief or flawed piece of reasoning that misleads.",
+    "cousins": [
+      "fallacious",
+      "fail",
+      "false"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fallible": {
+    "parts": [
+      {
+        "piece": "fallere",
+        "origin": "Latin",
+        "meaning": "to deceive"
+      }
+    ],
+    "literal": "able to be deceived, able to fail",
+    "path": "From the same root as fallacy, Latin fallibilis meant liable to err. Fallible describes anyone capable of making mistakes, being tripped up like anyone else.",
+    "cousins": [
+      "fallacy",
+      "fail",
+      "false"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fallow": {
+    "parts": [
+      {
+        "piece": "fealgian",
+        "origin": "Old English",
+        "meaning": "to plow, break up land"
+      }
+    ],
+    "literal": "plowed but unsown",
+    "path": "Old English fealh described land that had been plowed but left unsown to rest and recover fertility. Fallow kept that agricultural sense, and extended figuratively to anything left temporarily inactive to recover.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "falter": {
+    "parts": [
+      {
+        "piece": "falt",
+        "origin": "unknown",
+        "meaning": "uncertain, possibly related to fold or stumble"
+      }
+    ],
+    "literal": "uncertain",
+    "path": "Falter's exact origin is uncertain, possibly linked to Old Norse words for stumbling or to a Scandinavian root for fold. Whatever its source, it has long meant to stumble, hesitate, or lose strength in mid-action.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "fanatical": {
+    "parts": [
+      {
+        "piece": "fanum",
+        "origin": "Latin",
+        "meaning": "temple"
+      }
+    ],
+    "literal": "inspired by the temple, possessed",
+    "path": "Latin fanaticus described someone inspired, even frenzied, by a deity, from fanum, temple. That temple-inspired frenzy became fanatical, describing extreme, uncritical zeal in any cause.",
+    "cousins": [
+      "profane"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "fanciful": {
+    "parts": [
+      {
+        "piece": "phantasia",
+        "origin": "Greek",
+        "meaning": "appearance, imagination"
+      }
+    ],
+    "literal": "full of imagination",
+    "path": "Fancy is a worn-down form of fantasy, from Greek phantasia, imagination. Fanciful describes something shaped more by imagination than by reality, whimsical and unrealistic.",
+    "cousins": [
+      "fantasy",
+      "phantom"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fancy": {
+    "parts": [
+      {
+        "piece": "phantasia",
+        "origin": "Greek",
+        "meaning": "appearance, imagination"
+      }
+    ],
+    "literal": "imagination",
+    "path": "From the same root as fanciful, fancy is a contracted form of fantasy. As a verb it kept the sense of picturing something in the mind, whether imagining an idea or taking an imaginative liking to someone.",
+    "cousins": [
+      "fantasy",
+      "phantom",
+      "fanciful"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fanfare": {
+    "parts": [
+      {
+        "piece": "fanfare",
+        "origin": "French",
+        "meaning": "a flourish of trumpets"
+      }
+    ],
+    "literal": "a trumpet flourish",
+    "path": "French fanfare, likely imitative of trumpet blasts, named a showy burst of trumpet music announcing something important. The word broadened to any showy public display or commotion, not just musical.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fare": {
+    "parts": [
+      {
+        "piece": "faran",
+        "origin": "Old English",
+        "meaning": "to travel, go"
+      }
+    ],
+    "literal": "to travel, go",
+    "path": "Old English faran meant to journey or travel. From traveling well or poorly on a road, fare extended to how anyone gets along or turns out in any circumstance.",
+    "cousins": [
+      "farewell",
+      "thoroughfare"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "fastidious": {
+    "parts": [
+      {
+        "piece": "fastidium",
+        "origin": "Latin",
+        "meaning": "loathing, disgust"
+      }
+    ],
+    "literal": "full of disgust, disdain",
+    "path": "Latin fastidium meant disgust or squeamish distaste. Someone easily disgusted by imperfection became fussy over every detail, giving fastidious its sense of extreme, hard-to-please attentiveness.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "fathom": {
+    "parts": [
+      {
+        "piece": "faethm",
+        "origin": "Old English",
+        "meaning": "outstretched arms, embrace"
+      }
+    ],
+    "literal": "the span of outstretched arms",
+    "path": "Old English faethm meant the length of the outstretched arms, later a nautical unit for measuring depth. Measuring the depth of water led to the figurative sense of measuring, and thus understanding, something deep and difficult.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "fatuous": {
+    "parts": [
+      {
+        "piece": "fatuus",
+        "origin": "Latin",
+        "meaning": "foolish, silly"
+      }
+    ],
+    "literal": "foolish",
+    "path": "Latin fatuus meant silly or foolish, of uncertain further origin. Fatuous kept that sense directly, describing foolishness that is also smug and self-satisfied.",
+    "cousins": [
+      "infatuate"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fawn": {
+    "parts": [
+      {
+        "piece": "fagnian",
+        "origin": "Old English",
+        "meaning": "to rejoice, be glad"
+      }
+    ],
+    "literal": "to show glad excitement, like a dog",
+    "path": "Old English fagnian meant to rejoice, and was used of a dog's excited, eager greeting to its master. That doglike eagerness to please became fawn, flattering someone in a servile, obsequious way.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "fawning": {
+    "parts": [
+      {
+        "piece": "fagnian",
+        "origin": "Old English",
+        "meaning": "to rejoice, be glad"
+      }
+    ],
+    "literal": "showing glad excitement, like a dog",
+    "path": "From the same root as fawn, fawning describes that same doglike eagerness turned into excessive, servile flattery toward a person of higher status.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "feasible": {
+    "parts": [
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "able to be done",
+    "path": "French faisible meant able to be done, from faire, to do, ultimately Latin facere. Feasible kept exactly that sense: something that is possible and practical to carry out.",
+    "cousins": [
+      "fact",
+      "feat",
+      "faculty"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "feckless": {
+    "parts": [
+      {
+        "piece": "feck",
+        "origin": "Scots",
+        "meaning": "effect, value"
+      },
+      {
+        "piece": "-less",
+        "origin": "Old English",
+        "meaning": "without"
+      }
+    ],
+    "literal": "without effect or worth",
+    "path": "Scots feck was a shortened form of effect, meaning value or vigor. Feckless describes someone without that effect: irresponsible and ineffective, lacking the vigor to get anything done.",
+    "cousins": [
+      "effect",
+      "effective"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fecund": {
+    "parts": [
+      {
+        "piece": "fecundus",
+        "origin": "Latin",
+        "meaning": "fruitful"
+      }
+    ],
+    "literal": "fruitful",
+    "path": "Latin fecundus meant fruitful or fertile, related to felix, happy or fruitful. Fecund kept that direct sense of being highly productive, whether of offspring, crops, or ideas.",
+    "cousins": [
+      "fetus",
+      "felicity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "feeble": {
+    "parts": [
+      {
+        "piece": "flebilis",
+        "origin": "Latin",
+        "meaning": "lamentable, weak"
+      }
+    ],
+    "literal": "lamentable, weak",
+    "path": "Latin flebilis meant worthy of weeping, from flere, to weep, and came to imply pitiable weakness. Feeble kept that sense of being weak and lacking force or strength.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "feign": {
+    "parts": [
+      {
+        "piece": "fingere",
+        "origin": "Latin",
+        "meaning": "to shape, form, fashion"
+      }
+    ],
+    "literal": "to shape, fashion falsely",
+    "path": "Latin fingere meant to shape or mold, the root of figure and fiction. Shaping a false appearance of something gave feign its sense of pretending or faking.",
+    "cousins": [
+      "fiction",
+      "figure",
+      "feint"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "feint": {
+    "parts": [
+      {
+        "piece": "fingere",
+        "origin": "Latin",
+        "meaning": "to shape, form, fashion"
+      }
+    ],
+    "literal": "a shaped, false move",
+    "path": "From the same root as feign, French feinte meant a pretense. A feint is a deceptive move shaped to look real, meant to distract an opponent from the actual intention.",
+    "cousins": [
+      "feign",
+      "fiction",
+      "figure"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "felicitous": {
+    "parts": [
+      {
+        "piece": "felix",
+        "origin": "Latin",
+        "meaning": "happy, fruitful"
+      }
+    ],
+    "literal": "happy, fortunate",
+    "path": "Latin felix meant happy or fortunate. Felicitous kept that sense, applied especially to a well-chosen word or action that happens to fit its moment perfectly, as if fortune guided it.",
+    "cousins": [
+      "felicity",
+      "felicitate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "felicity": {
+    "parts": [
+      {
+        "piece": "felix",
+        "origin": "Latin",
+        "meaning": "happy, fruitful"
+      }
+    ],
+    "literal": "happiness",
+    "path": "From the same root as felicitous, Latin felicitas meant happiness or good fortune. Felicity names both great happiness and, by extension, an aptness of expression that fits its purpose felicitously.",
+    "cousins": [
+      "felicitous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "fell": {
+    "parts": [
+      {
+        "piece": "fel",
+        "origin": "Old French",
+        "meaning": "cruel, fierce"
+      }
+    ],
+    "literal": "cruel",
+    "path": "Old French fel meant cruel or fierce, possibly related to Latin fel, gall or bile, associated with bitterness. Fell kept that sense of fierce, deadly cruelty, as in a fell blow or one fell swoop.",
+    "cousins": [
+      "felon"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "ferret": {
+    "parts": [
+      {
+        "piece": "fur",
+        "origin": "Latin",
+        "meaning": "thief"
+      }
+    ],
+    "literal": "little thief",
+    "path": "Ferret the animal gets its name from Latin furittus, little thief, from fur, thief, because ferrets were used to hunt rabbits out of their burrows. That hunting behavior, digging persistently after prey, gave the verb ferret its sense of searching out something doggedly.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "fervent": {
+    "parts": [
+      {
+        "piece": "fervere",
+        "origin": "Latin",
+        "meaning": "to boil, glow"
+      }
+    ],
+    "literal": "boiling, glowing hot",
+    "path": "Latin fervens meant boiling or glowing with heat, from fervere, to boil. That physical heat became a figure for intense passion, so fervent describes emotion burning with heat.",
+    "cousins": [
+      "fervor",
+      "fervid",
+      "effervescent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "fervid": {
+    "parts": [
+      {
+        "piece": "fervere",
+        "origin": "Latin",
+        "meaning": "to boil, glow"
+      }
+    ],
+    "literal": "boiling, glowing hot",
+    "path": "From the same root as fervent, fervid describes an even more intense heat of enthusiasm, so passionate it can tip into excess.",
+    "cousins": [
+      "fervor",
+      "fervent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fervor": {
+    "parts": [
+      {
+        "piece": "fervere",
+        "origin": "Latin",
+        "meaning": "to boil, glow"
+      }
+    ],
+    "literal": "boiling heat",
+    "path": "From the same root as fervent, Latin fervor meant boiling heat, glow, or passion. Fervor names that intense heat of feeling directly, passion or enthusiasm at full boil.",
+    "cousins": [
+      "fervent",
+      "fervid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "fester": {
+    "parts": [
+      {
+        "piece": "fistula",
+        "origin": "Latin",
+        "meaning": "pipe, ulcer"
+      }
+    ],
+    "literal": "to form an ulcerous sore",
+    "path": "Old French festre named a festering sore, from Latin fistula, a pipe-like ulcer. The physical image of a wound worsening through neglect extended to anything, like a grudge or problem, that worsens the same way.",
+    "cousins": [
+      "fistula"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fete": {
+    "parts": [
+      {
+        "piece": "festa",
+        "origin": "Latin",
+        "meaning": "feast, festival"
+      }
+    ],
+    "literal": "a feast day",
+    "path": "French fete meant a festival or feast day, from Latin festa. As a verb, fete kept that sense: to honor someone with the kind of celebration a feast day provides.",
+    "cousins": [
+      "feast",
+      "festival",
+      "festive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "fetid": {
+    "parts": [
+      {
+        "piece": "fetere",
+        "origin": "Latin",
+        "meaning": "to stink"
+      }
+    ],
+    "literal": "stinking",
+    "path": "Latin fetidus meant stinking, from fetere, to have a bad smell. Fetid kept that direct sense: smelling extremely and unpleasantly foul.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "fiasco": {
+    "parts": [
+      {
+        "piece": "fiasco",
+        "origin": "Italian",
+        "meaning": "bottle"
+      }
+    ],
+    "literal": "a bottle",
+    "path": "Italian fiasco simply means bottle. The connection to failure is debated, possibly from Italian theater slang far fiasco, to make a bottle, meaning to fail in performance, though the exact reasoning behind the phrase is uncertain.",
+    "cousins": [
+      "flask"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "fickle": {
+    "parts": [
+      {
+        "piece": "ficol",
+        "origin": "Old English",
+        "meaning": "deceitful, cunning"
+      }
+    ],
+    "literal": "deceitful",
+    "path": "Old English ficol meant deceitful or crafty, related to befician, to deceive. The sense of untrustworthy deception softened over time into fickle's modern meaning: changeable and unreliable in loyalty or affection.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "fidelity": {
+    "parts": [
+      {
+        "piece": "fides",
+        "origin": "Latin",
+        "meaning": "faith, trust"
+      }
+    ],
+    "literal": "faithfulness",
+    "path": "Latin fidelitas meant faithfulness or loyalty, from fides, faith. Fidelity kept that core meaning of faithful adherence, and extended to accuracy: how faithfully a copy reproduces its original.",
+    "cousins": [
+      "faith",
+      "confide",
+      "fiduciary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "figurative": {
+    "parts": [
+      {
+        "piece": "figura",
+        "origin": "Latin",
+        "meaning": "shape, form"
+      }
+    ],
+    "literal": "shaped, formed",
+    "path": "Latin figura meant shape or form, from fingere, to fashion. Figurative language shapes meaning indirectly through image and metaphor rather than stating it directly, in contrast to literal language.",
+    "cousins": [
+      "figure",
+      "configure",
+      "disfigure"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "filch": {
+    "parts": [
+      {
+        "piece": "filch",
+        "origin": "unknown",
+        "meaning": "uncertain origin"
+      }
+    ],
+    "literal": "uncertain",
+    "path": "Filch appeared in English thieves' slang with no clear source in another language. Its origin is genuinely obscure, but it has long meant to steal something small, a petty pilfering rather than a major theft.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "filibuster": {
+    "parts": [
+      {
+        "piece": "vrijbuiter",
+        "origin": "Dutch",
+        "meaning": "freebooter, pirate"
+      }
+    ],
+    "literal": "a pirate, freebooter",
+    "path": "Dutch vrijbuiter, free-booter, meant a pirate plundering freely, passed through Spanish filibustero for irregular adventurers seizing land. The lawless, obstructive seizing of that meaning shifted onto legislators who seize the floor with prolonged speech to block a vote.",
+    "cousins": [
+      "freebooter",
+      "buccaneer"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  }
+}

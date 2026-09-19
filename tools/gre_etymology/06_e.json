@@ -1,0 +1,999 @@
+{
+  "parsimonious": {
+    "parts": [
+      {
+        "piece": "parcere",
+        "origin": "Latin",
+        "meaning": "to spare"
+      }
+    ],
+    "literal": "sparingness",
+    "path": "Latin parcere, to spare or economize, gives parsimonia, careful frugality. Parsimonious pushed that thriftiness to an extreme: unwilling to spend even when reasonable.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "partial": {
+    "parts": [
+      {
+        "piece": "pars / part-",
+        "origin": "Latin",
+        "meaning": "part, share"
+      }
+    ],
+    "literal": "of a part, not the whole",
+    "path": "Latin partialis meant relating to a part rather than the whole. That gives both ordinary senses of partial: incomplete, when only part of a thing is present, and biased, when someone favors one part or side instead of judging the whole fairly.",
+    "cousins": [
+      "particle",
+      "partition",
+      "party"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "partiality": {
+    "parts": [
+      {
+        "piece": "pars, part-",
+        "origin": "Latin",
+        "meaning": "part, share"
+      }
+    ],
+    "literal": "state of favoring a part",
+    "path": "The noun form of partial (see partial): bias toward one part or side, or a special fondness for something.",
+    "cousins": [
+      "part",
+      "participate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "partisan": {
+    "parts": [
+      {
+        "piece": "parte",
+        "origin": "Italian",
+        "meaning": "part, side (Latin pars)"
+      }
+    ],
+    "literal": "one who takes a side",
+    "path": "Italian partigiano named someone who takes a part or side, especially in a faction. Partisan kept that sense: strongly biased or committed to one side.",
+    "cousins": [
+      "part",
+      "party"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "parvenu": {
+    "parts": [
+      {
+        "piece": "par-",
+        "origin": "French",
+        "meaning": "through"
+      },
+      {
+        "piece": "venir",
+        "origin": "French",
+        "meaning": "to come (Latin venire)"
+      }
+    ],
+    "literal": "one who has arrived",
+    "path": "French parvenir, to arrive or attain, gives parvenu: literally one who has arrived, specifically at wealth or high status without established lineage, hence a newly rich social climber viewed with some disdain.",
+    "cousins": [
+      "venue",
+      "convene",
+      "advent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "passage": {
+    "parts": [
+      {
+        "piece": "passus",
+        "origin": "Latin",
+        "meaning": "a step, pace"
+      }
+    ],
+    "literal": "a passing, a step",
+    "path": "French passer, to pass, from Latin passus, a step, gives passage: literally the act of passing through, and by extension a stretch one passes through, whether a corridor or a section of text.",
+    "cousins": [
+      "pass",
+      "compass"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "passe": {
+    "parts": [
+      {
+        "piece": "passer",
+        "origin": "French",
+        "meaning": "to pass"
+      }
+    ],
+    "literal": "passed by",
+    "path": "French passe, having passed, past participle of passer, to pass. Passe describes something that has passed its time, no longer current, out of fashion.",
+    "cousins": [
+      "pass",
+      "passage"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pastiche": {
+    "parts": [
+      {
+        "piece": "pasta",
+        "origin": "Latin",
+        "meaning": "paste, dough"
+      }
+    ],
+    "literal": "a mixed pie, hodgepodge",
+    "path": "Italian pasticcio named a pie of mixed ingredients, a hodgepodge. Pastiche kept that image of a mixture, an artistic work made by combining or imitating pieces of another's style.",
+    "cousins": [
+      "paste",
+      "pasta"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pastoral": {
+    "parts": [
+      {
+        "piece": "pascere",
+        "origin": "Latin",
+        "meaning": "to feed, graze"
+      }
+    ],
+    "literal": "of a shepherd",
+    "path": "Latin pascere, to feed or graze, gives pastor, shepherd. Pastoral described the idealized, simple life of shepherds and country folk in literature and art, so it came to mean relating to that idealized rural life.",
+    "cousins": [
+      "pasture"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "patent": {
+    "parts": [
+      {
+        "piece": "patere",
+        "origin": "Latin",
+        "meaning": "to lie open"
+      }
+    ],
+    "literal": "lying open",
+    "path": "Latin patere, to lie open, gives patens, openly evident. The adjective patent kept that sense: obvious and unconcealed, lying open for all to see.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pathogenic": {
+    "parts": [
+      {
+        "piece": "pathos",
+        "origin": "Greek",
+        "meaning": "suffering, disease"
+      },
+      {
+        "piece": "genes",
+        "origin": "Greek",
+        "meaning": "producing, born"
+      }
+    ],
+    "literal": "producing disease",
+    "path": "Greek pathos (suffering, disease) combined with genes (producing, born) names something that generates disease in the body.",
+    "cousins": [
+      "sympathy",
+      "genesis",
+      "genetic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pathological": {
+    "parts": [
+      {
+        "piece": "pathos",
+        "origin": "Greek",
+        "meaning": "suffering, disease"
+      },
+      {
+        "piece": "logos",
+        "origin": "Greek",
+        "meaning": "study, word"
+      }
+    ],
+    "literal": "relating to the study of disease",
+    "path": "Greek pathos (disease) combined with logos (study) named pathology, the medical study of disease. Pathological extended from relating to disease to describing any compulsive, unhealthy behavior, as if itself a symptom.",
+    "cousins": [
+      "sympathy",
+      "empathy",
+      "logic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "patriarch": {
+    "parts": [
+      {
+        "piece": "pater, patr-",
+        "origin": "Greek",
+        "meaning": "father"
+      },
+      {
+        "piece": "arkhein",
+        "origin": "Greek",
+        "meaning": "to rule"
+      }
+    ],
+    "literal": "father-ruler",
+    "path": "Greek pater (father) combined with arkhein (to rule) named the male head who rules as father over a family, tribe, or church. English patriarch kept that sense of the male head of a family or group.",
+    "cousins": [
+      "paternal",
+      "monarch",
+      "hierarchy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "patrician": {
+    "parts": [
+      {
+        "piece": "patres",
+        "origin": "Latin",
+        "meaning": "the senatorial fathers of early Rome"
+      }
+    ],
+    "literal": "descended from the founding fathers",
+    "path": "Latin patres named the founding fathers, the noble senatorial class of early Rome. Patricius described their aristocratic descendants. Patrician kept the sense of aristocratic, refined status.",
+    "cousins": [
+      "paternal",
+      "patriarch"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "patronize": {
+    "parts": [
+      {
+        "piece": "patronus",
+        "origin": "Latin",
+        "meaning": "protector, defender (pater, father)"
+      }
+    ],
+    "literal": "to act as a father-protector",
+    "path": "Latin patronus, protector, from pater, father, named a powerful figure who supported dependents. To patronize kept the financially supporting sense but also developed a negative one: treating someone as a dependent inferior.",
+    "cousins": [
+      "patron",
+      "paternal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "patronizing": {
+    "parts": [
+      {
+        "piece": "patronus",
+        "origin": "Latin",
+        "meaning": "protector, defender (pater, father)"
+      }
+    ],
+    "literal": "acting as a father-protector",
+    "path": "The adjective form of patronize (see patronize): condescending, treating someone as an inferior in need of protection.",
+    "cousins": [
+      "patron",
+      "paternal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "paucity": {
+    "parts": [
+      {
+        "piece": "paucus",
+        "origin": "Latin",
+        "meaning": "few, little"
+      }
+    ],
+    "literal": "fewness",
+    "path": "Latin paucus meant few or little; paucitas named the state of being few. English paucity kept that sense directly: a scarcity or shortage.",
+    "cousins": [
+      "few",
+      "pauper"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "peccadillo": {
+    "parts": [
+      {
+        "piece": "peccare",
+        "origin": "Latin",
+        "meaning": "to sin, err"
+      }
+    ],
+    "literal": "a little sin",
+    "path": "Spanish pecadillo, a little sin, diminutive of pecado, sin, from Latin peccare, to sin. Peccadillo kept that diminutive sense: a minor fault, a small, forgivable offense.",
+    "cousins": [
+      "impeccable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "peculiar": {
+    "parts": [
+      {
+        "piece": "pecu",
+        "origin": "Latin",
+        "meaning": "cattle, livestock"
+      }
+    ],
+    "literal": "one's own private property",
+    "path": "Latin pecu, cattle, the original measure of wealth, gave peculium, private property, and peculiaris, belonging exclusively to one person. English peculiar kept the exclusively-one's-own sense, plus the extended sense of distinctively strange.",
+    "cousins": [
+      "pecuniary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pecuniary": {
+    "parts": [
+      {
+        "piece": "pecu",
+        "origin": "Latin",
+        "meaning": "cattle, livestock"
+      }
+    ],
+    "literal": "of cattle-wealth, of money",
+    "path": "Latin pecu, cattle, was the ancient measure of a person's wealth, giving pecunia, money. Pecuniary simply means relating to money.",
+    "cousins": [
+      "peculiar",
+      "impecunious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pedagogical": {
+    "parts": [
+      {
+        "piece": "pais, paid-",
+        "origin": "Greek",
+        "meaning": "child"
+      },
+      {
+        "piece": "agogos",
+        "origin": "Greek",
+        "meaning": "leader (agein, to lead)"
+      }
+    ],
+    "literal": "child-leading",
+    "path": "In ancient Greece, a paidagogos was a slave who walked children to school and oversaw their conduct. Pedagogical kept the sense of educating children: relating to teaching methods.",
+    "cousins": [
+      "pediatric",
+      "demagogue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pedagogue": {
+    "parts": [
+      {
+        "piece": "pais, paid-",
+        "origin": "Greek",
+        "meaning": "child"
+      },
+      {
+        "piece": "agogos",
+        "origin": "Greek",
+        "meaning": "leader (agein, to lead)"
+      }
+    ],
+    "literal": "child-leader",
+    "path": "The noun form (see pedagogical): a teacher, especially one fussy and rule-bound like the child-escorting slave-tutors of ancient Greece.",
+    "cousins": [
+      "pediatric",
+      "demagogue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pedagogy": {
+    "parts": [
+      {
+        "piece": "pais, paid-",
+        "origin": "Greek",
+        "meaning": "child"
+      },
+      {
+        "piece": "agogos",
+        "origin": "Greek",
+        "meaning": "leader (agein, to lead)"
+      }
+    ],
+    "literal": "the leading of children",
+    "path": "The abstract noun form (see pedagogical): the theory and practice of teaching.",
+    "cousins": [
+      "pediatric",
+      "demagogue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pedantic": {
+    "parts": [
+      {
+        "piece": "pedante",
+        "origin": "Italian",
+        "meaning": "teacher, schoolmaster (uncertain origin)"
+      }
+    ],
+    "literal": "of a schoolmaster (uncertain origin)",
+    "path": "Pedante, an Italian word for a schoolmaster, is of disputed origin. The word soured into pedantic: excessively concerned with minor details, like a schoolmaster fussing over trivial rules.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "peddle": {
+    "parts": [
+      {
+        "piece": "ped",
+        "origin": "Middle English",
+        "meaning": "a basket (uncertain origin)"
+      }
+    ],
+    "literal": "to carry goods in a basket (uncertain)",
+    "path": "Peddle is a back-formation from peddler, itself of uncertain origin, perhaps linked to a ped, a basket itinerant traders once carried wares in. Peddle kept the sense of selling goods door to door, often dubious wares.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pedestrian": {
+    "parts": [
+      {
+        "piece": "pes, ped-",
+        "origin": "Latin",
+        "meaning": "foot"
+      }
+    ],
+    "literal": "going on foot",
+    "path": "Latin pes, foot, gives pedester, going on foot rather than riding. The adjective pedestrian first simply meant walking, then extended figuratively to writing or ideas that plod along without any spark.",
+    "cousins": [
+      "pedal",
+      "impede",
+      "expedite"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "peevish": {
+    "parts": [
+      {
+        "piece": "peyvesshe",
+        "origin": "Middle English",
+        "meaning": "capricious, silly (uncertain origin)"
+      }
+    ],
+    "literal": "capricious, silly (uncertain origin)",
+    "path": "The origin of peevish is unclear, perhaps distantly connected to Latin perversus, perverse. Whatever its source, by Middle English it meant irritable and difficult to please, later narrowing to querulous complaining.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "pejorative": {
+    "parts": [
+      {
+        "piece": "peior",
+        "origin": "Latin",
+        "meaning": "worse (comparative of malus, bad)"
+      }
+    ],
+    "literal": "making worse",
+    "path": "Latin peior meant worse; pejorative describes language that makes something seem worse, expressing disapproval or contempt through word choice.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "pellucid": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "through"
+      },
+      {
+        "piece": "lucidus",
+        "origin": "Latin",
+        "meaning": "clear, bright (lux, light)"
+      }
+    ],
+    "literal": "shining through",
+    "path": "Latin lux, light, gives lucidus, clear; combined with per- (through), pellucidus described light passing clearly through something. Pellucid kept that sense: perfectly clear, whether water or writing.",
+    "cousins": [
+      "lucid",
+      "translucent",
+      "illuminate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "penchant": {
+    "parts": [
+      {
+        "piece": "pencher",
+        "origin": "French",
+        "meaning": "to lean, incline (Latin pendere, to hang)"
+      }
+    ],
+    "literal": "leaning, inclining",
+    "path": "French pencher, to lean, from Latin pendere, to hang, gives penchant: a leaning toward something, a strong inclination or liking.",
+    "cousins": [
+      "pendulum",
+      "suspend",
+      "depend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pendulous": {
+    "parts": [
+      {
+        "piece": "pendere",
+        "origin": "Latin",
+        "meaning": "to hang"
+      }
+    ],
+    "literal": "hanging",
+    "path": "Latin pendere, to hang, gives pendulus, hanging down. Pendulous kept that direct sense: hanging loosely, swinging free.",
+    "cousins": [
+      "pendulum",
+      "pendant",
+      "suspend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "penitent": {
+    "parts": [
+      {
+        "piece": "paenitere",
+        "origin": "Latin",
+        "meaning": "to repent, cause regret"
+      }
+    ],
+    "literal": "repenting, causing regret",
+    "path": "Latin paenitere meant to feel or cause regret for wrongdoing. Penitent kept that sense: feeling genuine sorrow and regret for having done wrong.",
+    "cousins": [
+      "penance",
+      "repent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "pensive": {
+    "parts": [
+      {
+        "piece": "pensare",
+        "origin": "Latin",
+        "meaning": "to weigh, consider (pendere, to weigh)"
+      }
+    ],
+    "literal": "weighing, considering",
+    "path": "Latin pendere, to weigh, gives pensare, to weigh out mentally, to consider. Pensive kept that image of a mind weighing thoughts, deeply and rather sadly absorbed in reflection.",
+    "cousins": [
+      "pension",
+      "compensate",
+      "ponder"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "penultimate": {
+    "parts": [
+      {
+        "piece": "paene",
+        "origin": "Latin",
+        "meaning": "almost"
+      },
+      {
+        "piece": "ultimus",
+        "origin": "Latin",
+        "meaning": "last"
+      }
+    ],
+    "literal": "almost last",
+    "path": "Latin paene (almost) combined with ultimus (last) names the position right before the very last: second to last.",
+    "cousins": [
+      "ultimate",
+      "ultimatum"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "penumbra": {
+    "parts": [
+      {
+        "piece": "paene",
+        "origin": "Latin",
+        "meaning": "almost"
+      },
+      {
+        "piece": "umbra",
+        "origin": "Latin",
+        "meaning": "shadow"
+      }
+    ],
+    "literal": "almost a shadow",
+    "path": "Latin paene (almost) combined with umbra (shadow) names a partial shadow, the fringe zone between full shadow and full light seen in eclipses. Penumbra extended to any marginal, in-between area.",
+    "cousins": [
+      "umbrella",
+      "umbrage"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "penurious": {
+    "parts": [
+      {
+        "piece": "penuria",
+        "origin": "Latin",
+        "meaning": "need, scarcity, want"
+      }
+    ],
+    "literal": "in a state of need",
+    "path": "Latin penuria named scarcity or dire want. Penurious kept both directions of that need: describing someone extremely poor, and, by extension, someone who hoards out of a scarcity mindset, extremely stingy.",
+    "cousins": [
+      "penury"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "penury": {
+    "parts": [
+      {
+        "piece": "penuria",
+        "origin": "Latin",
+        "meaning": "need, scarcity, want"
+      }
+    ],
+    "literal": "need, scarcity, want",
+    "path": "Latin penuria named scarcity or dire want directly. English penury names the state of extreme poverty.",
+    "cousins": [
+      "penurious"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "peon": {
+    "parts": [
+      {
+        "piece": "pes, ped-",
+        "origin": "Latin",
+        "meaning": "foot"
+      }
+    ],
+    "literal": "a foot soldier",
+    "path": "Spanish peon named a foot soldier or day laborer, someone who works on foot rather than on horseback, historically at the bottom of the social hierarchy. English peon kept that sense: a lowly worker doing menial tasks.",
+    "cousins": [
+      "pedestrian",
+      "pedal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "perceive": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "capere",
+        "origin": "Latin",
+        "meaning": "to take, seize"
+      }
+    ],
+    "literal": "to seize thoroughly",
+    "path": "Latin capere, to take or seize, combined with per- (thoroughly) gives percipere, to grasp something fully with the mind. Perceive kept that sense: to become aware of or grasp meaning through the senses or intellect.",
+    "cousins": [
+      "capture",
+      "receive",
+      "concept"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "percipient": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "capere",
+        "origin": "Latin",
+        "meaning": "to take, seize"
+      }
+    ],
+    "literal": "seizing thoroughly",
+    "path": "The adjective form of perceive (see perceive): quick to seize on and grasp what others miss, perceptive.",
+    "cousins": [
+      "capture",
+      "concept",
+      "receive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "peregrinate": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "through"
+      },
+      {
+        "piece": "ager, agr-",
+        "origin": "Latin",
+        "meaning": "field, land"
+      }
+    ],
+    "literal": "through the fields, abroad",
+    "path": "Latin peregrinus, foreign, literally described someone from beyond the fields, from another land, built from per- (through) and ager (field). Peregrinate kept the sense of traveling through foreign lands, especially on foot.",
+    "cousins": [
+      "pilgrim",
+      "agriculture",
+      "agrarian"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "peremptory": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "emere",
+        "origin": "Latin",
+        "meaning": "to take, buy"
+      }
+    ],
+    "literal": "taking away entirely",
+    "path": "Latin emere, to take, combined with per- (thoroughly) gives perimere, to take away entirely, to cut off, hence decisive and final. Peremptory kept that sense: allowing no further discussion, insisting on immediate obedience.",
+    "cousins": [
+      "exempt",
+      "redeem",
+      "example"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "perennial": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "through"
+      },
+      {
+        "piece": "annus",
+        "origin": "Latin",
+        "meaning": "year"
+      }
+    ],
+    "literal": "through the years",
+    "path": "Latin annus, year, combined with per- (through) gives perennis, lasting through the years continuously. Perennial kept that sense: lasting or recurring year after year, as a perennial plant returns each season.",
+    "cousins": [
+      "annual",
+      "anniversary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "perfidious": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "away from, against (pejorative)"
+      },
+      {
+        "piece": "fides",
+        "origin": "Latin",
+        "meaning": "faith, trust"
+      }
+    ],
+    "literal": "faithless, against faith",
+    "path": "Latin fides, faith, combined with per- (signaling a breach) gives perfidia, faithlessness, betrayal of trust. Perfidious kept that sense: treacherously disloyal.",
+    "cousins": [
+      "fidelity",
+      "confide",
+      "faith"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "perfidy": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "away from, against (pejorative)"
+      },
+      {
+        "piece": "fides",
+        "origin": "Latin",
+        "meaning": "faith, trust"
+      }
+    ],
+    "literal": "faithlessness",
+    "path": "The noun form (see perfidious): betrayal of trust, treacherous disloyalty.",
+    "cousins": [
+      "fidelity",
+      "confide",
+      "faith"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "perfunctory": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "through, to completion"
+      },
+      {
+        "piece": "fungi",
+        "origin": "Latin",
+        "meaning": "to perform, discharge"
+      }
+    ],
+    "literal": "having gotten through a duty",
+    "path": "Latin fungi, to perform a duty, combined with per- (to completion) gives perfunctorius: done just enough to get through it, without real care. Perfunctory kept that sense: done as a mere formality.",
+    "cousins": [
+      "function",
+      "defunct"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "perilous": {
+    "parts": [
+      {
+        "piece": "periculum",
+        "origin": "Latin",
+        "meaning": "danger, risky trial (experiri, to try)"
+      }
+    ],
+    "literal": "full of danger, trial",
+    "path": "Latin periculum named danger or a risky trial, related to experiri, to try or test. Perilous kept that sense directly: dangerous, fraught with risk.",
+    "cousins": [
+      "experience",
+      "experiment",
+      "expert"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "peripatetic": {
+    "parts": [
+      {
+        "piece": "peri-",
+        "origin": "Greek",
+        "meaning": "around"
+      },
+      {
+        "piece": "patein",
+        "origin": "Greek",
+        "meaning": "to walk, tread"
+      }
+    ],
+    "literal": "walking around",
+    "path": "Greek peri- (around) combined with patein (to walk) named the practice of walking about while teaching, as Aristotle reportedly did in the Lyceum's covered walk. Peripatetic broadened to anyone who travels from place to place.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "peripheral": {
+    "parts": [
+      {
+        "piece": "peri-",
+        "origin": "Greek",
+        "meaning": "around"
+      },
+      {
+        "piece": "pherein",
+        "origin": "Greek",
+        "meaning": "to carry, bear"
+      }
+    ],
+    "literal": "carried around, circumference",
+    "path": "Greek pherein, to carry, combined with peri- (around) gives peripheria, the line carried around a shape, its outer edge. Peripheral kept that sense: on the outer edge, and by extension of minor importance.",
+    "cousins": [
+      "metaphor",
+      "euphoria"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "perish": {
+    "parts": [
+      {
+        "piece": "per-",
+        "origin": "Latin",
+        "meaning": "through, to destruction"
+      },
+      {
+        "piece": "ire",
+        "origin": "Latin",
+        "meaning": "to go"
+      }
+    ],
+    "literal": "to go away completely",
+    "path": "Latin ire, to go, combined with per- (thoroughly, to destruction) gives perire, to go away completely, to be destroyed. Perish kept that sense: to die or be utterly destroyed.",
+    "cousins": [
+      "exit",
+      "transit",
+      "itinerary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

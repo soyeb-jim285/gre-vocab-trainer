@@ -1,0 +1,452 @@
+{
+  "ambience": {
+    "parts": [{"piece": "ambi-", "origin": "Latin", "meaning": "around"}, {"piece": "ire", "origin": "Latin", "meaning": "to go"}],
+    "literal": "a going around",
+    "path": "Something that surrounds and encompasses a place became the sense of its pervasive atmosphere or character.",
+    "cousins": ["ambient"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ambiguous": {
+    "parts": [{"piece": "ambi-", "origin": "Latin", "meaning": "both ways, around"}, {"piece": "agere", "origin": "Latin", "meaning": "to drive, do"}],
+    "literal": "driven both ways",
+    "path": "Something driven or argued in two directions at once became the sense of having more than one possible interpretation.",
+    "cousins": ["act", "agent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ambivalence": {
+    "parts": [{"piece": "ambi-", "origin": "Latin", "meaning": "both"}, {"piece": "valentia", "origin": "Latin, from valere", "meaning": "strength"}],
+    "literal": "strength on both sides",
+    "path": "A modern coinage on the model of equivalence: strength or value pulling in two directions gave the psychological state of holding conflicting feelings at once.",
+    "cousins": ["valiant", "prevail", "equivalent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ambivalent": {
+    "parts": [{"piece": "ambi-", "origin": "Latin", "meaning": "both"}, {"piece": "valentia", "origin": "Latin, from valere", "meaning": "strength"}],
+    "literal": "strong on both sides",
+    "path": "Describes a mind pulled with equal force in two directions, unable to settle on one feeling.",
+    "cousins": ["valiant", "prevail", "equivalent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ambrosia": {
+    "parts": [{"piece": "a-", "origin": "Greek", "meaning": "not"}, {"piece": "mbrotos", "origin": "Greek", "meaning": "mortal"}],
+    "literal": "the immortal thing",
+    "path": "The mythical food or drink that granted the Greek gods their immortality became a byword for anything exceptionally delicious.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ameliorate": {
+    "parts": [{"piece": "melior", "origin": "Latin", "meaning": "better"}],
+    "literal": "to make better",
+    "path": "Directly built on the comparative 'better' to name the act of actively improving a bad situation.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "amenable": {
+    "parts": [{"piece": "a-", "origin": "French", "meaning": "to"}, {"piece": "mener", "origin": "French, from Latin minare", "meaning": "to lead, drive animals"}],
+    "literal": "able to be led",
+    "path": "Originally described animals that could be driven or led; extended to a person open to being led, i.e. willing to agree or be persuaded.",
+    "cousins": ["menace"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "amend": {
+    "parts": [{"piece": "ex-", "origin": "Latin", "meaning": "out"}, {"piece": "menda", "origin": "Latin", "meaning": "fault, blemish"}],
+    "literal": "to remove a fault",
+    "path": "Correcting a physical flaw or blemish extended to formally revising and improving a text or law.",
+    "cousins": ["mend", "emend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "amiable": {
+    "parts": [{"piece": "amicus", "origin": "Latin, from amare", "meaning": "friend, to love"}],
+    "literal": "friend-like",
+    "path": "Directly from the idea of being friend-like to describing a pleasant, good-natured disposition.",
+    "cousins": ["amateur", "amorous", "amity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "amicable": {
+    "parts": [{"piece": "amicus", "origin": "Latin", "meaning": "friend"}],
+    "literal": "friendly",
+    "path": "Directly describes relations or agreements conducted in a friendly spirit rather than a hostile one.",
+    "cousins": ["amiable", "amateur", "amity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "amorous": {
+    "parts": [{"piece": "amor", "origin": "Latin, from amare", "meaning": "love"}],
+    "literal": "loving",
+    "path": "Directly from the general word for love narrowed to specifically romantic desire.",
+    "cousins": ["amiable", "amateur"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "amorphous": {
+    "parts": [{"piece": "a-", "origin": "Greek", "meaning": "without"}, {"piece": "morphe", "origin": "Greek", "meaning": "shape, form"}],
+    "literal": "without shape",
+    "path": "Directly describes anything lacking a definite, recognizable shape or structure.",
+    "cousins": ["morph", "metamorphosis"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "amortize": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "mors, mortis", "origin": "Latin", "meaning": "death"}],
+    "literal": "to bring to death",
+    "path": "A legal term for formally 'killing' a debt or obligation, extended to gradually extinguishing it through scheduled payments.",
+    "cousins": ["mortal", "mortgage", "immortal"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "amply": {
+    "parts": [{"piece": "amplus", "origin": "Latin", "meaning": "large, spacious"}],
+    "literal": "in a large, spacious way",
+    "path": "Spatial largeness extended naturally to abundance or more-than-sufficient quantity in any sense.",
+    "cousins": ["ample", "amplify", "amplitude"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "amuck": {
+    "parts": [{"piece": "amuk", "origin": "Malay", "meaning": "attacking furiously, in a murderous frenzy"}],
+    "literal": "in a furious frenzy",
+    "path": "Borrowed directly from Malay descriptions of a frenzied, violent rampage; English 'run amuck' keeps that sense of wild, uncontrolled behavior.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "amulet": {
+    "parts": [{"piece": "amuletum", "origin": "Latin (origin disputed)", "meaning": "a thing carried or worn to avert harm"}],
+    "literal": "a thing that wards off harm",
+    "path": "Named an object carried or worn to avert evil or harm; the meaning has stayed essentially unchanged. The word before Latin is of uncertain origin.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "anachronism": {
+    "parts": [{"piece": "ana-", "origin": "Greek", "meaning": "against, back"}, {"piece": "khronos", "origin": "Greek", "meaning": "time"}],
+    "literal": "against time",
+    "path": "Something placed against, or outside, its proper chronological time became the word for that very inconsistency.",
+    "cousins": ["chronic", "chronicle", "synchronize"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "anachronistic": {
+    "parts": [{"piece": "ana-", "origin": "Greek", "meaning": "against, back"}, {"piece": "khronos", "origin": "Greek", "meaning": "time"}],
+    "literal": "belonging against time",
+    "path": "Describes anything misplaced in time, out of step with the era it appears in.",
+    "cousins": ["chronic", "chronicle", "synchronize"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "analgesia": {
+    "parts": [{"piece": "an-", "origin": "Greek", "meaning": "without"}, {"piece": "algesis", "origin": "Greek, from algos", "meaning": "sense of pain"}],
+    "literal": "without pain",
+    "path": "Directly names the medical state of pain relief or absence of pain.",
+    "cousins": ["analgesic", "nostalgia"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "analgesic": {
+    "parts": [{"piece": "an-", "origin": "Greek", "meaning": "without"}, {"piece": "algos", "origin": "Greek", "meaning": "pain"}],
+    "literal": "pain-removing",
+    "path": "Directly names a substance that produces analgesia, the absence of pain.",
+    "cousins": ["analgesia", "nostalgia"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "analogous": {
+    "parts": [{"piece": "ana-", "origin": "Greek", "meaning": "according to"}, {"piece": "logos", "origin": "Greek", "meaning": "ratio, proportion"}],
+    "literal": "according to ratio",
+    "path": "Originally a mathematical term for proportional relationships, extended to any similarity close enough to permit useful comparison.",
+    "cousins": ["analogy", "logic", "dialogue"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "anarchy": {
+    "parts": [{"piece": "an-", "origin": "Greek", "meaning": "without"}, {"piece": "arkhos", "origin": "Greek, from arkhein", "meaning": "ruler, to rule"}],
+    "literal": "without a ruler",
+    "path": "Directly names a state with no governing authority, hence disorder and lack of control.",
+    "cousins": ["monarchy", "hierarchy", "oligarchy"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "anathema": {
+    "parts": [{"piece": "ana-", "origin": "Greek", "meaning": "up"}, {"piece": "tithenai", "origin": "Greek", "meaning": "to place"}],
+    "literal": "a thing set up, dedicated",
+    "path": "Originally an offering set up and dedicated to a god; church usage inverted the sense to something set apart under a curse, hence something intensely detested.",
+    "cousins": ["thesis", "synthesis"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "ancillary": {
+    "parts": [{"piece": "ancilla", "origin": "Latin", "meaning": "maidservant"}],
+    "literal": "servant-like",
+    "path": "Something that serves a main matter the way a maidservant serves a household, hence subordinate and supportive rather than central.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "androgynous": {
+    "parts": [{"piece": "andro-", "origin": "Greek", "meaning": "man"}, {"piece": "gyne", "origin": "Greek", "meaning": "woman"}],
+    "literal": "man-woman",
+    "path": "Directly names the combination of both male and female characteristics in one form.",
+    "cousins": ["android", "misogyny", "gynecology"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "anemic": {
+    "parts": [{"piece": "an-", "origin": "Greek", "meaning": "without"}, {"piece": "haima", "origin": "Greek", "meaning": "blood"}],
+    "literal": "without blood",
+    "path": "The medical deficiency of blood extended figuratively to anything weak, pale, or lacking vitality and energy.",
+    "cousins": ["hemoglobin"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "anesthetic": {
+    "parts": [{"piece": "an-", "origin": "Greek", "meaning": "without"}, {"piece": "aisthesis", "origin": "Greek", "meaning": "sensation"}],
+    "literal": "without sensation",
+    "path": "Directly names a substance that removes sensation and feeling, used to prevent pain.",
+    "cousins": ["aesthetic", "aesthete"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "animosity": {
+    "parts": [{"piece": "animus", "origin": "Latin", "meaning": "spirit, mind, courage"}],
+    "literal": "spiritedness",
+    "path": "Originally meant spirited vehemence generally; narrowed specifically to a hostile spirit directed at someone, i.e. strong hostility.",
+    "cousins": ["animate", "unanimous", "animus"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "animus": {
+    "parts": [{"piece": "animus", "origin": "Latin", "meaning": "spirit, mind, intention"}],
+    "literal": "spirit, mind",
+    "path": "The general Latin word for mind or intention narrowed in English to specifically hostile intention or ill will.",
+    "cousins": ["animate", "unanimous", "animosity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "annul": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "nullus", "origin": "Latin", "meaning": "none"}],
+    "literal": "to make into nothing",
+    "path": "Directly, reducing something to nothing, i.e. formally cancelling its legal validity.",
+    "cousins": ["null", "nullify"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "anodyne": {
+    "parts": [{"piece": "an-", "origin": "Greek", "meaning": "without"}, {"piece": "odyne", "origin": "Greek", "meaning": "pain"}],
+    "literal": "without pain",
+    "path": "Originally described medicines that relieve pain; extended to anything mild and inoffensive that avoids causing controversy or upset.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "anoint": {
+    "parts": [{"piece": "in-", "origin": "Latin", "meaning": "on"}, {"piece": "unguere", "origin": "Latin", "meaning": "to smear, oil"}],
+    "literal": "to smear oil on",
+    "path": "The literal ritual of rubbing oil on someone, as in religious consecration, extended to ceremonially designating someone as chosen.",
+    "cousins": ["unguent", "ointment"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "anomalous": {
+    "parts": [{"piece": "an-", "origin": "Greek", "meaning": "not"}, {"piece": "homalos", "origin": "Greek, from homos", "meaning": "even, same"}],
+    "literal": "not even, uneven",
+    "path": "Something that fails to fit the regular, even pattern became the sense of deviating from what is standard.",
+    "cousins": ["homogeneous", "homonym"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "anomaly": {
+    "parts": [{"piece": "an-", "origin": "Greek", "meaning": "not"}, {"piece": "homalos", "origin": "Greek, from homos", "meaning": "even, same"}],
+    "literal": "unevenness",
+    "path": "Names the thing itself that fails to fit the regular pattern: a deviation from the norm.",
+    "cousins": ["homogeneous", "homonym"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "antagonize": {
+    "parts": [{"piece": "anti-", "origin": "Greek", "meaning": "against"}, {"piece": "agonizesthai", "origin": "Greek, from agon", "meaning": "to struggle, contest"}],
+    "literal": "to struggle against",
+    "path": "Contending against an opponent in a contest extended to provoking hostility or opposition in someone generally.",
+    "cousins": ["agony", "protagonist"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "antecedent": {
+    "parts": [{"piece": "ante-", "origin": "Latin", "meaning": "before"}, {"piece": "cedere", "origin": "Latin", "meaning": "to go"}],
+    "literal": "going before",
+    "path": "Directly names something that goes before another in time, order, or logic.",
+    "cousins": ["precede", "proceed", "exceed"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "antedate": {
+    "parts": [{"piece": "ante-", "origin": "Latin", "meaning": "before"}, {"piece": "datum", "origin": "Latin", "meaning": "given, date"}],
+    "literal": "before the date",
+    "path": "Directly, to come before in time, or to assign an earlier date than the actual one.",
+    "cousins": ["date", "data"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "antedated": {
+    "parts": [{"piece": "ante-", "origin": "Latin", "meaning": "before"}, {"piece": "datum", "origin": "Latin", "meaning": "given, date"}],
+    "literal": "given before the date",
+    "path": "The past-tense fact of having come before in time, or of having been dated earlier than the actual date.",
+    "cousins": ["date", "data"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "anthology": {
+    "parts": [{"piece": "anthos", "origin": "Greek", "meaning": "flower"}, {"piece": "legein", "origin": "Greek", "meaning": "to gather, choose"}],
+    "literal": "a gathering of flowers",
+    "path": "Originally a literal bouquet of chosen flowers, poems were compared to flowers, and the word came to mean a collection of chosen writings.",
+    "cousins": ["chrysanthemum"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "anthropocentrism": {
+    "parts": [{"piece": "anthropos", "origin": "Greek", "meaning": "human"}, {"piece": "centrum", "origin": "Latin", "meaning": "center"}],
+    "literal": "human-centeredness",
+    "path": "Directly names the worldview that places human beings at the center of consideration.",
+    "cousins": ["anthropology", "philanthropy", "misanthrope"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "anthropomorphic": {
+    "parts": [{"piece": "anthropos", "origin": "Greek", "meaning": "human"}, {"piece": "morphe", "origin": "Greek", "meaning": "form, shape"}],
+    "literal": "human-shaped",
+    "path": "Directly names the act of giving human form or traits to gods, animals, or objects.",
+    "cousins": ["anthropology", "philanthropy"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "antic": {
+    "parts": [{"piece": "antico", "origin": "Italian, from Latin antiquus", "meaning": "ancient"}],
+    "literal": "ancient (grotesque ornament)",
+    "path": "Originally described the bizarre, fantastical decorative figures found in ancient Roman ruins; the sense shifted from grotesque ornament to playful, absurd behavior.",
+    "cousins": ["antique", "antiquated"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "antipathy": {
+    "parts": [{"piece": "anti-", "origin": "Greek", "meaning": "against"}, {"piece": "pathos", "origin": "Greek", "meaning": "feeling"}],
+    "literal": "feeling against",
+    "path": "Directly names a feeling running against someone or something, i.e. a strong dislike.",
+    "cousins": ["pathos", "sympathy", "empathy"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "antiquated": {
+    "parts": [{"piece": "antiquus", "origin": "Latin", "meaning": "ancient, old"}],
+    "literal": "made ancient",
+    "path": "Directly describes something rendered old-fashioned and out of date by the passage of time.",
+    "cousins": ["antique", "ancient", "antic"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "antithesis": {
+    "parts": [{"piece": "anti-", "origin": "Greek", "meaning": "against"}, {"piece": "thesis", "origin": "Greek, from tithenai", "meaning": "a placing, position"}],
+    "literal": "a placing against",
+    "path": "Originally a rhetorical term for a statement placed in contrast against another; extended to mean the direct opposite of something.",
+    "cousins": ["thesis", "synthesis", "hypothesis"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "antithetical": {
+    "parts": [{"piece": "anti-", "origin": "Greek", "meaning": "against"}, {"piece": "thesis", "origin": "Greek", "meaning": "a placing, position"}],
+    "literal": "placed against",
+    "path": "Describes two things positioned as direct opposites, incompatible with each other.",
+    "cousins": ["thesis", "synthesis", "hypothesis"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "apathetic": {
+    "parts": [{"piece": "a-", "origin": "Greek", "meaning": "without"}, {"piece": "pathos", "origin": "Greek", "meaning": "feeling"}],
+    "literal": "without feeling",
+    "path": "Directly describes a lack of emotional engagement, showing no interest or concern.",
+    "cousins": ["pathos", "sympathy", "empathy"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "apathy": {
+    "parts": [{"piece": "a-", "origin": "Greek", "meaning": "without"}, {"piece": "pathos", "origin": "Greek", "meaning": "feeling"}],
+    "literal": "without feeling",
+    "path": "Names the state itself: an absence of feeling, hence a lack of interest or concern.",
+    "cousins": ["pathos", "sympathy", "empathy"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "apex": {
+    "parts": [{"piece": "apex", "origin": "Latin", "meaning": "tip, summit"}],
+    "literal": "the tip",
+    "path": "Directly names the topmost point of something, physical or figurative.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "aphorism": {
+    "parts": [{"piece": "apo-", "origin": "Greek", "meaning": "off, from"}, {"piece": "horizein", "origin": "Greek, from horos", "meaning": "to bound, define"}],
+    "literal": "a marking off, definition",
+    "path": "Originally a concise medical or philosophical definition marking off a precise idea, as in Hippocrates' Aphorisms; extended to any short saying expressing a general truth.",
+    "cousins": ["horizon", "aphoristic"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  }
+}

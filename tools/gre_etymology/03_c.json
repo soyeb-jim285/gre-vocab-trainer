@@ -1,0 +1,1057 @@
+{
+  "enumerate": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "numerus",
+        "origin": "Latin",
+        "meaning": "number"
+      }
+    ],
+    "literal": "to number out",
+    "path": "Latin enumerare meant to count out one by one, from numerus, number. Enumerate kept that precise sense: to list items individually, counting them out in order.",
+    "cousins": [
+      "number",
+      "numerous",
+      "numeral"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ephemeral": {
+    "parts": [
+      {
+        "piece": "epi-",
+        "origin": "Greek",
+        "meaning": "upon"
+      },
+      {
+        "piece": "hemera",
+        "origin": "Greek",
+        "meaning": "day"
+      }
+    ],
+    "literal": "lasting only a day",
+    "path": "Greek ephemeros described something lasting only a single day, like certain insects or fevers. Ephemeral broadened slightly but kept the core image of something fleeting, gone almost as soon as it appears.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "epicure": {
+    "parts": [
+      {
+        "piece": "Epikouros",
+        "origin": "Greek",
+        "meaning": "the philosopher Epicurus"
+      }
+    ],
+    "literal": "a follower of Epicurus",
+    "path": "Named for the Greek philosopher Epicurus, who taught that pleasure was the highest good, though he actually favored simple pleasures. His name came to describe anyone devoted to fine food and refined sensory pleasure.",
+    "cousins": [
+      "epicurean"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "epigram": {
+    "parts": [
+      {
+        "piece": "epi-",
+        "origin": "Greek",
+        "meaning": "upon"
+      },
+      {
+        "piece": "gramma",
+        "origin": "Greek",
+        "meaning": "something written"
+      }
+    ],
+    "literal": "an inscription written upon",
+    "path": "Greek epigramma originally meant an inscription carved upon a monument or statue. These were often terse and pointed, so epigram came to mean any short, witty, memorable saying.",
+    "cousins": [
+      "grammar",
+      "diagram",
+      "telegram"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "epiphany": {
+    "parts": [
+      {
+        "piece": "epi-",
+        "origin": "Greek",
+        "meaning": "upon"
+      },
+      {
+        "piece": "phainein",
+        "origin": "Greek",
+        "meaning": "to show, appear"
+      }
+    ],
+    "literal": "a showing forth",
+    "path": "Greek epiphaneia meant a manifestation or appearance, originally used for a god's appearance to mortals, and later the Christian feast marking Christ's manifestation to the Magi. The word broadened to any sudden striking realization, an idea seeming to appear before you.",
+    "cousins": [
+      "phenomenon",
+      "phase",
+      "fantasy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "episodic": {
+    "parts": [
+      {
+        "piece": "epi-",
+        "origin": "Greek",
+        "meaning": "upon"
+      },
+      {
+        "piece": "eisodos",
+        "origin": "Greek",
+        "meaning": "entrance, coming in"
+      }
+    ],
+    "literal": "coming in between",
+    "path": "Greek epeisodion named a scene inserted between choral songs in a play, a coming-in between the main action. Episodic came to describe anything made of loose, separate parts rather than one continuous whole.",
+    "cousins": [
+      "episode"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "epistolary": {
+    "parts": [
+      {
+        "piece": "epi-",
+        "origin": "Greek",
+        "meaning": "upon, to"
+      },
+      {
+        "piece": "stellein",
+        "origin": "Greek",
+        "meaning": "to send"
+      }
+    ],
+    "literal": "sent to someone, of letters",
+    "path": "Greek epistole meant a message sent to someone, a letter, from stellein, to send. Epistolary describes anything conducted or written in that letter form, like a novel told through correspondence.",
+    "cousins": [
+      "epistle",
+      "apostle"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "epitome": {
+    "parts": [
+      {
+        "piece": "epi-",
+        "origin": "Greek",
+        "meaning": "upon"
+      },
+      {
+        "piece": "temnein",
+        "origin": "Greek",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "cut down into a summary",
+    "path": "Greek epitome meant an abridgment, a text cut down to its essential points, from temnein, to cut. A concentrated summary of essential qualities became a perfect representative example of a larger whole.",
+    "cousins": [
+      "anatomy",
+      "tome"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "eponym": {
+    "parts": [
+      {
+        "piece": "epi-",
+        "origin": "Greek",
+        "meaning": "upon"
+      },
+      {
+        "piece": "onyma",
+        "origin": "Greek",
+        "meaning": "name"
+      }
+    ],
+    "literal": "a name set upon",
+    "path": "Greek eponymos meant giving one's name to something, from onyma, name. An eponym is the person whose name is placed upon a place, era, or invention, the source of its name.",
+    "cousins": [
+      "anonymous",
+      "synonym",
+      "pseudonym"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "equable": {
+    "parts": [
+      {
+        "piece": "aequus",
+        "origin": "Latin",
+        "meaning": "equal, even"
+      }
+    ],
+    "literal": "able to be even",
+    "path": "Latin aequabilis meant uniform or equal, from aequus, even or level. Equable describes something that stays level and even, whether weather without extremes or a person's steady, unvarying temperament.",
+    "cousins": [
+      "equal",
+      "equanimity",
+      "equity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "equanimity": {
+    "parts": [
+      {
+        "piece": "aequus",
+        "origin": "Latin",
+        "meaning": "equal, even"
+      },
+      {
+        "piece": "animus",
+        "origin": "Latin",
+        "meaning": "mind, spirit"
+      }
+    ],
+    "literal": "an even mind",
+    "path": "Latin aequanimitas combined aequus, even, with animus, mind, describing a mind kept level and balanced. Equanimity names that steady composure, calmness maintained even under strain.",
+    "cousins": [
+      "equal",
+      "animate",
+      "magnanimous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "equitable": {
+    "parts": [
+      {
+        "piece": "aequus",
+        "origin": "Latin",
+        "meaning": "equal, even"
+      }
+    ],
+    "literal": "characterized by evenness",
+    "path": "From Latin aequus, even or equal, French equite gave equity, fairness. Equitable describes treatment that is even-handed, fair and impartial to everyone involved.",
+    "cousins": [
+      "equal",
+      "equity",
+      "adequate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "equivocal": {
+    "parts": [
+      {
+        "piece": "aequus",
+        "origin": "Latin",
+        "meaning": "equal"
+      },
+      {
+        "piece": "vox",
+        "origin": "Latin",
+        "meaning": "voice, word"
+      }
+    ],
+    "literal": "of equal voice, meaning two things equally",
+    "path": "Latin aequivocus meant having the same name or sound for different things, combining aequus, equal, with vox, voice. A word carrying two meanings equally became the basis for equivocal, ambiguous and open to more than one reading.",
+    "cousins": [
+      "voice",
+      "vocal",
+      "vocabulary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "equivocate": {
+    "parts": [
+      {
+        "piece": "aequus",
+        "origin": "Latin",
+        "meaning": "equal"
+      },
+      {
+        "piece": "vox",
+        "origin": "Latin",
+        "meaning": "voice, word"
+      }
+    ],
+    "literal": "to speak with equally weighted meanings",
+    "path": "From the same root as equivocal, to equivocate is to deliberately use words carrying more than one meaning, speaking ambiguously to dodge a clear commitment.",
+    "cousins": [
+      "voice",
+      "vocal",
+      "vocabulary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "eradicate": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "radix",
+        "origin": "Latin",
+        "meaning": "root"
+      }
+    ],
+    "literal": "to tear out by the root",
+    "path": "Latin eradicare meant to pull up by the roots, from radix, root, the same root behind radish and radical. Eradicate kept that image: destroying something so completely it cannot regrow.",
+    "cousins": [
+      "radical",
+      "radish"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "erode": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "rodere",
+        "origin": "Latin",
+        "meaning": "to gnaw"
+      }
+    ],
+    "literal": "to gnaw away",
+    "path": "Latin erodere meant to gnaw or eat away, from rodere, to gnaw, the root of rodent. Erode kept the image of slow gnawing, whether water wearing away rock or something gradually diminishing.",
+    "cousins": [
+      "rodent",
+      "corrode"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "err": {
+    "parts": [
+      {
+        "piece": "errare",
+        "origin": "Latin",
+        "meaning": "to wander, stray"
+      }
+    ],
+    "literal": "to wander off the path",
+    "path": "Latin errare meant to wander or stray from the correct path. Wandering from the right course became the general word for making a mistake.",
+    "cousins": [
+      "error",
+      "erratic",
+      "aberration"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "errant": {
+    "parts": [
+      {
+        "piece": "errare",
+        "origin": "Latin",
+        "meaning": "to wander, stray"
+      }
+    ],
+    "literal": "wandering",
+    "path": "From the same root as err, errant originally described knights wandering in search of adventure. It came to mean straying from the proper course, whether literally roaming or figuratively misbehaving.",
+    "cousins": [
+      "error",
+      "erratic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "erratic": {
+    "parts": [
+      {
+        "piece": "errare",
+        "origin": "Latin",
+        "meaning": "to wander, stray"
+      }
+    ],
+    "literal": "wandering",
+    "path": "From the same root as err, erratic originally described planets that seemed to wander irregularly against the fixed stars. The word settled into describing anything unpredictable, wandering without a steady pattern.",
+    "cousins": [
+      "error",
+      "errant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "erroneous": {
+    "parts": [
+      {
+        "piece": "errare",
+        "origin": "Latin",
+        "meaning": "to wander, stray"
+      }
+    ],
+    "literal": "full of wandering, mistaken",
+    "path": "From the same root as err, Latin erroneus meant wandering or mistaken. Erroneous describes something based on error, having strayed from what is correct.",
+    "cousins": [
+      "error",
+      "err"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ersatz": {
+    "parts": [
+      {
+        "piece": "Ersatz",
+        "origin": "German",
+        "meaning": "replacement, substitute"
+      }
+    ],
+    "literal": "a substitute",
+    "path": "German Ersatz simply means replacement or substitute, from ersetzen, to replace. English borrowed it directly, keeping the sense of an inferior stand-in for the real thing.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "erstwhile": {
+    "parts": [
+      {
+        "piece": "erst",
+        "origin": "Old English",
+        "meaning": "first, formerly"
+      },
+      {
+        "piece": "hwile",
+        "origin": "Old English",
+        "meaning": "while, time"
+      }
+    ],
+    "literal": "at a former time",
+    "path": "Old English aerest meant first or formerly, combined with while, a period of time. Erstwhile kept that plain sense of a former time, describing something that used to be but is no longer.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "erudite": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "rudis",
+        "origin": "Latin",
+        "meaning": "rough, untrained"
+      }
+    ],
+    "literal": "trained out of rawness",
+    "path": "Latin eruditus meant instructed or polished, literally rubbed out of rudis, rough, untrained rawness. Erudite describes someone whose rough ignorance has been trained away into deep, wide learning.",
+    "cousins": [
+      "rude",
+      "rudimentary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "erudition": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "rudis",
+        "origin": "Latin",
+        "meaning": "rough, untrained"
+      }
+    ],
+    "literal": "the state of being trained out of rawness",
+    "path": "From the same root as erudite, erudition is the noun for that polished state: extensive scholarly knowledge gained by training the rawness out of the mind.",
+    "cousins": [
+      "rude",
+      "rudimentary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "escalate": {
+    "parts": [
+      {
+        "piece": "scala",
+        "origin": "Latin",
+        "meaning": "ladder"
+      }
+    ],
+    "literal": "to climb a ladder",
+    "path": "Escalate was back-formed from escalator, itself from Latin scala, ladder. Climbing step by step became the image for any process rapidly increasing in intensity, rung by rung.",
+    "cousins": [
+      "scale",
+      "escalator",
+      "echelon"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "eschew": {
+    "parts": [
+      {
+        "piece": "eschiver",
+        "origin": "Old French",
+        "meaning": "to shun, avoid"
+      }
+    ],
+    "literal": "to shun",
+    "path": "Old French eschiver meant to shun or avoid, related to Germanic roots for shy and shyness, the idea of shrinking away from something. Eschew kept that sense of deliberately steering clear of something.",
+    "cousins": [
+      "shy"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "esoteric": {
+    "parts": [
+      {
+        "piece": "esoterikos",
+        "origin": "Greek",
+        "meaning": "inner"
+      }
+    ],
+    "literal": "belonging to the inner circle",
+    "path": "Greek esoterikos meant inner, from eso, within. It described teachings shared only with initiated students, the inner circle, and esoteric kept that sense of knowledge understood only by a small, specialized group.",
+    "cousins": [
+      "exoteric"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "espouse": {
+    "parts": [
+      {
+        "piece": "sponsus",
+        "origin": "Latin",
+        "meaning": "betrothed, pledged"
+      }
+    ],
+    "literal": "to take as a spouse, pledge oneself to",
+    "path": "Latin sponsare meant to betroth, from spondere, to pledge, the root of spouse and sponsor. Marrying oneself to a cause figuratively extended espouse from marriage to committing to and supporting an idea.",
+    "cousins": [
+      "spouse",
+      "sponsor",
+      "respond"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "establish": {
+    "parts": [
+      {
+        "piece": "stabilire",
+        "origin": "Latin",
+        "meaning": "to make firm, stable"
+      }
+    ],
+    "literal": "to make firm and stable",
+    "path": "Latin stabilire meant to make stable, from stare, to stand. Establish kept that sense of setting something up on firm footing, whether founding an institution or firmly proving a fact.",
+    "cousins": [
+      "stable",
+      "stability",
+      "stand"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "esteem": {
+    "parts": [
+      {
+        "piece": "aestimare",
+        "origin": "Latin",
+        "meaning": "to value, assess"
+      }
+    ],
+    "literal": "an assessed value",
+    "path": "Latin aestimare meant to appraise or assess the worth of something, the root also behind estimate. Assessing someone's worth highly became the settled sense of esteem: respect and admiration.",
+    "cousins": [
+      "estimate",
+      "estimable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "estimable": {
+    "parts": [
+      {
+        "piece": "aestimare",
+        "origin": "Latin",
+        "meaning": "to value, assess"
+      }
+    ],
+    "literal": "able to be highly valued",
+    "path": "From the same root as esteem, estimable describes something or someone worthy of a high assessment, deserving of respect once properly appraised.",
+    "cousins": [
+      "estimate",
+      "esteem"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "estrange": {
+    "parts": [
+      {
+        "piece": "extraneus",
+        "origin": "Latin",
+        "meaning": "external, foreign"
+      }
+    ],
+    "literal": "to make foreign",
+    "path": "Latin extraneare meant to treat as a stranger, from extraneus, external or not belonging, the root of strange. To estrange someone is to turn them into a stranger, distant and hostile.",
+    "cousins": [
+      "strange",
+      "extraneous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "estranged": {
+    "parts": [
+      {
+        "piece": "extraneus",
+        "origin": "Latin",
+        "meaning": "external, foreign"
+      }
+    ],
+    "literal": "made foreign",
+    "path": "From the same root as estrange, estranged describes the resulting state of having been turned into a stranger, no longer close or on good terms.",
+    "cousins": [
+      "strange",
+      "extraneous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "ethereal": {
+    "parts": [
+      {
+        "piece": "aither",
+        "origin": "Greek",
+        "meaning": "upper pure air, sky"
+      }
+    ],
+    "literal": "of the upper sky",
+    "path": "Greek aither named the bright upper air the gods were thought to breathe, above the murky lower atmosphere. Ethereal kept that sense of something so light and delicate it seems to belong to that heavenly air, not the solid earth.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ethos": {
+    "parts": [
+      {
+        "piece": "ethos",
+        "origin": "Greek",
+        "meaning": "character, custom"
+      }
+    ],
+    "literal": "character",
+    "path": "Greek ethos meant custom or characteristic disposition, the root also behind ethics. English borrowed it directly for the defining character or spirit of a group or culture.",
+    "cousins": [
+      "ethic",
+      "ethical"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "eugenic": {
+    "parts": [
+      {
+        "piece": "eu-",
+        "origin": "Greek",
+        "meaning": "good, well"
+      },
+      {
+        "piece": "genos",
+        "origin": "Greek",
+        "meaning": "birth, race"
+      }
+    ],
+    "literal": "well-born",
+    "path": "Greek eugenes meant well-born or of good stock, combining eu, good, with genos, birth. Eugenic came to describe the movement and ideas aimed at improving inherited human traits.",
+    "cousins": [
+      "genesis",
+      "genetic",
+      "generation"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "eulogy": {
+    "parts": [
+      {
+        "piece": "eu-",
+        "origin": "Greek",
+        "meaning": "good, well"
+      },
+      {
+        "piece": "logos",
+        "origin": "Greek",
+        "meaning": "word, speech"
+      }
+    ],
+    "literal": "good words",
+    "path": "Greek eulogia meant well-speaking, praise, combining eu, good, with logos, word. Eulogy narrowed in English to a formal speech of high praise, most often for someone who has died.",
+    "cousins": [
+      "logic",
+      "dialogue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "euphemism": {
+    "parts": [
+      {
+        "piece": "eu-",
+        "origin": "Greek",
+        "meaning": "good, well"
+      },
+      {
+        "piece": "pheme",
+        "origin": "Greek",
+        "meaning": "speech"
+      }
+    ],
+    "literal": "good speech, auspicious words",
+    "path": "Greek euphemismos meant using a favorable word in place of an inauspicious one, combining eu, good, with pheme, speaking. A euphemism substitutes a milder, more pleasant word for a harsh or unpleasant one.",
+    "cousins": [
+      "prophet",
+      "blaspheme"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "euphony": {
+    "parts": [
+      {
+        "piece": "eu-",
+        "origin": "Greek",
+        "meaning": "good, well"
+      },
+      {
+        "piece": "phone",
+        "origin": "Greek",
+        "meaning": "sound, voice"
+      }
+    ],
+    "literal": "good sound",
+    "path": "Greek euphonia meant a pleasant sound, combining eu, good, with phone, sound or voice. Euphony simply names that quality of sound being pleasing to the ear.",
+    "cousins": [
+      "phone",
+      "symphony",
+      "telephone"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "euphoria": {
+    "parts": [
+      {
+        "piece": "eu-",
+        "origin": "Greek",
+        "meaning": "good, well"
+      },
+      {
+        "piece": "pherein",
+        "origin": "Greek",
+        "meaning": "to bear, carry"
+      }
+    ],
+    "literal": "bearing up well",
+    "path": "Greek euphoria meant the power of bearing something easily, combining eu, good, with pherein, to bear. Originally a medical term for a patient feeling well, it narrowed to intense elation in general.",
+    "cousins": [
+      "metaphor",
+      "euphoric"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "euphoric": {
+    "parts": [
+      {
+        "piece": "eu-",
+        "origin": "Greek",
+        "meaning": "good, well"
+      },
+      {
+        "piece": "pherein",
+        "origin": "Greek",
+        "meaning": "to bear, carry"
+      }
+    ],
+    "literal": "bearing up well",
+    "path": "From the same root as euphoria, euphoric describes the state itself: intensely happy and excited, as if buoyed up effortlessly.",
+    "cousins": [
+      "metaphor",
+      "euphoria"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "evade": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "vadere",
+        "origin": "Latin",
+        "meaning": "to go, walk"
+      }
+    ],
+    "literal": "to go out of the way",
+    "path": "Latin evadere meant to go out or escape, from vadere, to go. Evade kept that sense of slipping out and away, avoiding capture or confrontation by clever movement.",
+    "cousins": [
+      "invade",
+      "pervade"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "evanescent": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "vanescere",
+        "origin": "Latin",
+        "meaning": "to vanish"
+      }
+    ],
+    "literal": "vanishing away",
+    "path": "Latin evanescere meant to vanish or disappear, from vanus, empty, the root of vanish and vain. Evanescent describes something that fades out of existence almost as soon as it appears.",
+    "cousins": [
+      "vanish",
+      "vain",
+      "vanity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "evasive": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "vadere",
+        "origin": "Latin",
+        "meaning": "to go, walk"
+      }
+    ],
+    "literal": "tending to go out of the way",
+    "path": "From the same root as evade, evasive describes behavior deliberately designed to slip away from directness, dodging a straight answer or confrontation.",
+    "cousins": [
+      "invade",
+      "pervade",
+      "evade"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "evenhanded": {
+    "parts": [
+      {
+        "piece": "even",
+        "origin": "Old English",
+        "meaning": "level, equal"
+      },
+      {
+        "piece": "hand",
+        "origin": "Old English",
+        "meaning": "hand"
+      }
+    ],
+    "literal": "with a level hand",
+    "path": "This is a plain English compound: even, level or equal, plus hand. Holding the scale with an even hand pictures someone weighing things fairly, without tipping toward either side.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "evident": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "videre",
+        "origin": "Latin",
+        "meaning": "to see"
+      }
+    ],
+    "literal": "seen out clearly",
+    "path": "Latin evidens meant clearly seen or visible, from videre, to see, the root of vision and video. Something evident is plain to see, obvious without needing to be sought out.",
+    "cousins": [
+      "vision",
+      "video",
+      "visible"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "evoke": {
+    "parts": [
+      {
+        "piece": "e-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "vocare",
+        "origin": "Latin",
+        "meaning": "to call"
+      }
+    ],
+    "literal": "to call out",
+    "path": "Latin evocare meant to call out or summon forth, from vocare, to call, the root of voice and vocal. To evoke a memory or feeling is to call it forth into the mind.",
+    "cousins": [
+      "voice",
+      "vocal",
+      "invoke"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "exacerbate": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, thoroughly"
+      },
+      {
+        "piece": "acerbus",
+        "origin": "Latin",
+        "meaning": "bitter, harsh"
+      }
+    ],
+    "literal": "to make thoroughly bitter",
+    "path": "Latin exacerbare meant to irritate or embitter thoroughly, from acerbus, sour or harsh, the root of acerbic. Exacerbate kept the sense of making something already bad even more bitter and severe.",
+    "cousins": [
+      "acerbic",
+      "acid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "exacting": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to drive, do"
+      }
+    ],
+    "literal": "driving out, demanding fully",
+    "path": "Latin exigere meant to drive out or demand, from agere, to do or drive, the root of act and agent. Exacting describes someone who demands, or a task that requires, the full measure of care and effort.",
+    "cousins": [
+      "act",
+      "agent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "exalt": {
+    "parts": [
+      {
+        "piece": "ex-",
+        "origin": "Latin",
+        "meaning": "out, up"
+      },
+      {
+        "piece": "altus",
+        "origin": "Latin",
+        "meaning": "high"
+      }
+    ],
+    "literal": "to raise up high",
+    "path": "Latin exaltare meant to lift up high, from altus, high, the root of altitude. Exalt kept that sense of raising something to a lofty height, whether in praise or in rank.",
+    "cousins": [
+      "altitude",
+      "enhance"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "aphoristic": {
+    "parts": [{"piece": "apo-", "origin": "Greek", "meaning": "off, from"}, {"piece": "horizein", "origin": "Greek, from horos", "meaning": "to bound, define"}],
+    "literal": "marking off, defining",
+    "path": "Describes sayings that condense an idea into a sharply bounded, memorable form, the same image behind aphorism.",
+    "cousins": ["horizon", "aphorism"],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "aplomb": {
+    "parts": [{"piece": "a plomb", "origin": "French, from Latin plumbum", "meaning": "according to the plumb line, lead"}],
+    "literal": "according to the plumb line",
+    "path": "A plumb line hanging straight and steady under its lead weight became the image of a person standing balanced and composed, hence self-possessed poise under pressure.",
+    "cousins": ["plumber", "plummet"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "apocryphal": {
+    "parts": [{"piece": "apo-", "origin": "Greek", "meaning": "away"}, {"piece": "kryptein", "origin": "Greek", "meaning": "to hide"}],
+    "literal": "hidden away",
+    "path": "Religious texts of doubtful authorship were kept 'hidden' outside the accepted canon; the word extended to any widely circulated claim of doubtful truth.",
+    "cousins": ["crypt", "cryptic", "encrypt"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "apogee": {
+    "parts": [{"piece": "apo-", "origin": "Greek", "meaning": "away from"}, {"piece": "ge", "origin": "Greek", "meaning": "earth"}],
+    "literal": "away from earth",
+    "path": "An astronomical term for the point in an orbit farthest from earth, extended to the highest or most distant point of any career or process.",
+    "cousins": ["geography", "geology", "perigee"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "apologist": {
+    "parts": [{"piece": "apo-", "origin": "Greek", "meaning": "away, off"}, {"piece": "logos", "origin": "Greek", "meaning": "speech, account"}],
+    "literal": "one who gives a speech in defense",
+    "path": "From the formal defense speech (as in Socrates' Apology) to one who habitually defends a doctrine, practice, or institution, often a questionable one.",
+    "cousins": ["apology", "logic", "dialogue"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "apostate": {
+    "parts": [{"piece": "apo-", "origin": "Greek", "meaning": "away"}, {"piece": "histanai", "origin": "Greek", "meaning": "to stand"}],
+    "literal": "standing away",
+    "path": "Literally standing apart from a former position; extended to someone who formally abandons a religion or allegiance.",
+    "cousins": ["stable", "static"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "apostle": {
+    "parts": [{"piece": "apo-", "origin": "Greek", "meaning": "away, off"}, {"piece": "stellein", "origin": "Greek", "meaning": "to send"}],
+    "literal": "one sent off",
+    "path": "Named a messenger sent forth to spread a teaching; extended to any early, passionate advocate of a cause.",
+    "cousins": ["epistle"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "apothegm": {
+    "parts": [{"piece": "apo-", "origin": "Greek", "meaning": "from"}, {"piece": "phthengesthai", "origin": "Greek", "meaning": "to utter, speak out"}],
+    "literal": "a thing uttered out",
+    "path": "Directly, a pointed thing spoken aloud, narrowed to a terse, memorable, instructive saying.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "apotheosis": {
+    "parts": [{"piece": "apo-", "origin": "Greek", "meaning": "completion, thoroughly"}, {"piece": "theos", "origin": "Greek", "meaning": "god"}],
+    "literal": "making completely into a god",
+    "path": "The literal deification of a person, elevating them to god status, extended to reaching the highest, most perfect example of something.",
+    "cousins": ["theology", "atheist", "pantheon"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "apparent": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "parere", "origin": "Latin", "meaning": "to appear, come forth"}],
+    "literal": "appearing",
+    "path": "Something that shows itself can be either clearly visible and obvious, or merely seeming rather than actually real, and the word carries both senses.",
+    "cousins": ["appear", "transparent", "apparition"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "appeal": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "pellere", "origin": "Latin", "meaning": "to drive, push"}],
+    "literal": "to drive toward",
+    "path": "Originally a legal term for driving one's case toward a higher court; extended to making an earnest request, and separately to drawing someone's interest.",
+    "cousins": ["repel", "compel", "propel"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "appease": {
+    "parts": [{"piece": "a-", "origin": "Old French", "meaning": "to"}, {"piece": "pais", "origin": "Old French, from Latin pax", "meaning": "peace"}],
+    "literal": "to bring to peace",
+    "path": "Bringing a hostile or upset party to peace, often specifically by conceding to their demands.",
+    "cousins": ["peace", "pacify", "pacific"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "append": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "pendere", "origin": "Latin", "meaning": "to hang"}],
+    "literal": "to hang onto",
+    "path": "Literally hanging one object onto another extended to attaching or adding something at the end of a document or list.",
+    "cousins": ["pendant", "suspend", "depend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "appoint": {
+    "parts": [{"piece": "a-", "origin": "Old French", "meaning": "to"}, {"piece": "point", "origin": "Old French, from Latin punctum", "meaning": "point, detail"}],
+    "literal": "to fix to a point",
+    "path": "Settling and fixing the details of an arrangement extended to formally assigning a person to a position or office.",
+    "cousins": ["point", "punctual"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "apposite": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "ponere", "origin": "Latin", "meaning": "to place"}],
+    "literal": "placed next to",
+    "path": "Something placed right alongside the matter at hand became the figure for being strikingly appropriate and relevant.",
+    "cousins": ["position", "component", "opponent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "appreciable": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "pretium", "origin": "Latin", "meaning": "price, value"}],
+    "literal": "able to be priced",
+    "path": "Originally about assessing the value or price of something, extended to being significant enough in size to be noticed or measured.",
+    "cousins": ["appreciate", "precious"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "apprehension": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "prehendere", "origin": "Latin", "meaning": "to seize, grasp"}],
+    "literal": "a seizing, grasping",
+    "path": "Mentally grasping an idea gave the sense of understanding, while being gripped by a looming worry gave the sense of anxious anticipation.",
+    "cousins": ["comprehend", "prehensile", "reprehend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "apprise": {
+    "parts": [{"piece": "apprendre", "origin": "French, from Latin apprehendere", "meaning": "to learn, grasp"}],
+    "literal": "to have grasped (and pass on)",
+    "path": "From mentally grasping or learning a fact to formally passing that knowledge on, i.e. informing someone of it.",
+    "cousins": ["comprehend", "apprehend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "approach": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "prope", "origin": "Latin", "meaning": "near"}],
+    "literal": "to draw near",
+    "path": "The literal act of drawing physically near extended to a general method or way of dealing with a matter.",
+    "cousins": ["proximity", "approximate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "approbation": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "probare", "origin": "Latin, from probus", "meaning": "to test, prove good"}],
+    "literal": "a proving good",
+    "path": "The formal act of testing and proving something sound extended to official or general approval and praise.",
+    "cousins": ["probe", "probable", "prove"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "approbatory": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "probare", "origin": "Latin", "meaning": "to test, prove good"}],
+    "literal": "proving good",
+    "path": "Describes anything that carries or expresses approval, from the same root as approbation.",
+    "cousins": ["probe", "probable", "prove"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "appropriate": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "proprius", "origin": "Latin", "meaning": "one's own"}],
+    "literal": "to make one's own",
+    "path": "Directly, to take something and make it one's own property, often carrying the implication of doing so improperly.",
+    "cousins": ["proper", "property", "propriety"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "appurtenance": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "pertinere", "origin": "Latin", "meaning": "to pertain, belong"}],
+    "literal": "a belonging to",
+    "path": "Directly names something that belongs to and accompanies a main thing, i.e. an accessory or minor attachment.",
+    "cousins": ["pertain", "pertinent", "tenant"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "appurtenant": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "pertinere", "origin": "Latin", "meaning": "to pertain, belong"}],
+    "literal": "belonging to",
+    "path": "Describes something that belongs to a main thing as a subordinate part, from the same root as appurtenance.",
+    "cousins": ["pertain", "pertinent", "tenant"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "apropos": {
+    "parts": [{"piece": "a", "origin": "French, from Latin ad", "meaning": "to"}, {"piece": "propositum", "origin": "Latin, from proponere", "meaning": "that which is proposed, purpose"}],
+    "literal": "to the purpose",
+    "path": "Directly, being on point and well timed relative to the matter under discussion.",
+    "cousins": ["propose", "purpose", "proposition"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "apt": {
+    "parts": [{"piece": "aptus", "origin": "Latin, from apere", "meaning": "fastened, fitted"}],
+    "literal": "fastened, fitted",
+    "path": "Something well fastened to its purpose became the sense of being naturally fitting, or inclined and likely to do something.",
+    "cousins": ["adept", "adapt", "attitude"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "aquiline": {
+    "parts": [{"piece": "aquila", "origin": "Latin", "meaning": "eagle"}],
+    "literal": "eagle-like",
+    "path": "Directly describes a nose curved like the hooked beak of an eagle.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "arbiter": {
+    "parts": [{"piece": "arbiter", "origin": "Latin", "meaning": "a witness, one who comes to observe and judge"}],
+    "literal": "one who comes to observe",
+    "path": "Originally a witness called in to observe and give a ruling, directly the ancestor of today's sense: one with the power to settle disputes.",
+    "cousins": ["arbitrary", "arbitrate"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "arbitrary": {
+    "parts": [{"piece": "arbiter", "origin": "Latin", "meaning": "judge"}],
+    "literal": "of a judge's discretion",
+    "path": "Originally meant depending on a judge's personal will rather than fixed law; narrowed to mean based on whim rather than reason.",
+    "cousins": ["arbiter", "arbitrate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "arbitrate": {
+    "parts": [{"piece": "arbiter", "origin": "Latin", "meaning": "judge"}],
+    "literal": "to judge",
+    "path": "Directly, to act as a neutral arbiter or judge in order to settle a dispute between parties.",
+    "cousins": ["arbiter", "arbitrary"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "arcane": {
+    "parts": [{"piece": "arca", "origin": "Latin, from arcere", "meaning": "chest, box, to shut in"}],
+    "literal": "shut in a box",
+    "path": "Something locked away in a chest and kept secret extended to knowledge understood by only a select few, mysterious to the rest.",
+    "cousins": ["ark"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "arch": {
+    "parts": [{"piece": "arkhos", "origin": "Greek", "meaning": "chief, ruler"}],
+    "literal": "chief, principal",
+    "path": "Used in compounds like 'arch-wag' for a chief joker or mischief-maker; the standalone adjective was later clipped from these to mean knowingly playful or teasing.",
+    "cousins": ["archbishop", "monarch"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "archaic": {
+    "parts": [{"piece": "arkhaios", "origin": "Greek, from arkhe", "meaning": "ancient, beginning"}],
+    "literal": "of the beginning, ancient",
+    "path": "Directly describes something belonging to an earlier, ancient period, hence outdated by present standards.",
+    "cousins": ["archaeology", "monarch"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "archetype": {
+    "parts": [{"piece": "arkhe-", "origin": "Greek", "meaning": "first, original"}, {"piece": "typos", "origin": "Greek", "meaning": "type, impression"}],
+    "literal": "the first model",
+    "path": "Directly, the original pattern from which copies are made, extended to any typical, representative example of a category.",
+    "cousins": ["type", "typical", "prototype"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ardent": {
+    "parts": [{"piece": "ardere", "origin": "Latin", "meaning": "to burn"}],
+    "literal": "burning",
+    "path": "Literal burning or blazing extended metaphorically to a burning passion and enthusiasm for something.",
+    "cousins": ["ardor", "arson"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ardor": {
+    "parts": [{"piece": "ardere", "origin": "Latin", "meaning": "to burn"}],
+    "literal": "a burning",
+    "path": "Names the burning itself: intense passion or enthusiasm, from the same fire image as ardent.",
+    "cousins": ["ardent", "arson"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "arduous": {
+    "parts": [{"piece": "arduus", "origin": "Latin", "meaning": "steep, lofty"}],
+    "literal": "steep",
+    "path": "A steep, difficult-to-climb incline became the figure for any task requiring great, uphill effort.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "aria": {
+    "parts": [{"piece": "aria", "origin": "Italian, from Latin aer", "meaning": "air, tune"}],
+    "literal": "an air, tune",
+    "path": "Directly names a melodic 'air,' specifically an elaborate solo piece within an opera.",
+    "cousins": ["air", "aerial"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "armada": {
+    "parts": [{"piece": "armar", "origin": "Spanish, from Latin armare", "meaning": "to arm (from arma, weapons)"}],
+    "literal": "an armed fleet",
+    "path": "Directly, a fleet of armed warships, extended to any large fleet of ships or vehicles.",
+    "cousins": ["army", "arms", "armor"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "arrant": {
+    "parts": [{"piece": "errant", "origin": "Middle English, from Latin errare", "meaning": "wandering"}],
+    "literal": "wandering",
+    "path": "Applied so often to wandering vagabond thieves ('arrant thief') that it lost its literal sense and became an intensifier meaning utter or complete, always in a bad sense.",
+    "cousins": ["errant", "err", "error"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "arrest": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "restare", "origin": "Latin", "meaning": "to stay behind, remain"}],
+    "literal": "to stand back",
+    "path": "Causing something or someone to stop and stand still extended to legal detention and, more generally, to stopping any progress.",
+    "cousins": ["stable", "static"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "arresting": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "restare", "origin": "Latin", "meaning": "to stay, remain"}],
+    "literal": "stopping",
+    "path": "Something that literally stops you in your tracks became the figure for being strikingly noticeable, capturing attention.",
+    "cousins": ["stable", "static"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "arriviste": {
+    "parts": [{"piece": "arriver", "origin": "French, from Vulgar Latin adripare", "meaning": "to arrive (ad- to + ripa, riverbank)"}],
+    "literal": "one who has just arrived at shore",
+    "path": "Literally arriving at shore; in French the word shifted to describe an eager social climber who has just 'arrived' at wealth or status, usually with a pushy edge.",
+    "cousins": ["arrive"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "arrogate": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "rogare", "origin": "Latin", "meaning": "to ask, propose"}],
+    "literal": "to ask for oneself",
+    "path": "Originally to formally claim something through legal petition, narrowed to seizing or claiming something without proper right.",
+    "cousins": ["interrogate", "abrogate", "prerogative"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "artful": {
+    "parts": [{"piece": "art", "origin": "Latin ars", "meaning": "skill"}, {"piece": "-ful", "origin": "Old English", "meaning": "full of"}],
+    "literal": "full of skill",
+    "path": "General skillfulness narrowed to a cleverness that can tip into cunning or deceptive craft.",
+    "cousins": ["art", "artisan", "artifact"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "articulate": {
+    "parts": [{"piece": "articulus", "origin": "Latin, diminutive of artus", "meaning": "a joint"}],
+    "literal": "jointed",
+    "path": "Speech divided into distinct, clearly formed segments, like a jointed structure, became the sense of expressing oneself clearly and effectively.",
+    "cousins": ["article"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "artifact": {
+    "parts": [{"piece": "ars, artis", "origin": "Latin", "meaning": "art, skill"}, {"piece": "factum", "origin": "Latin, from facere", "meaning": "made"}],
+    "literal": "made by skill",
+    "path": "Directly, something made by human craft; in science, extended to a spurious result produced by the method itself rather than reflecting reality.",
+    "cousins": ["art", "fact", "manufacture"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "artifice": {
+    "parts": [{"piece": "ars", "origin": "Latin", "meaning": "art, skill"}, {"piece": "facere", "origin": "Latin", "meaning": "to make"}],
+    "literal": "a making by skill",
+    "path": "Skillful craft narrowed to imply cunning or deceptive craftsmanship, i.e. clever trickery.",
+    "cousins": ["art", "fact", "artificial"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "artless": {
+    "parts": [{"piece": "art", "origin": "Latin ars", "meaning": "skill"}, {"piece": "-less", "origin": "Old English", "meaning": "without"}],
+    "literal": "without artifice",
+    "path": "Directly, lacking artificial craft or contrivance, hence natural, sincere, and without guile.",
+    "cousins": ["art", "artisan"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "artlessness": {
+    "parts": [{"piece": "art", "origin": "Latin ars", "meaning": "skill"}, {"piece": "-less", "origin": "Old English", "meaning": "without"}],
+    "literal": "the state of being without artifice",
+    "path": "Names the quality itself behind artless: sincerity and freedom from deceit or affectation.",
+    "cousins": ["art", "artisan"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  }
+}

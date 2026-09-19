@@ -1,0 +1,958 @@
+{
+  "mulct": {
+    "parts": [
+      {
+        "piece": "mulcta",
+        "origin": "Latin",
+        "meaning": "fine, penalty"
+      }
+    ],
+    "literal": "a fine, penalty",
+    "path": "Latin mulcta named a monetary penalty imposed by law. English mulct kept the verb sense of punishing by fine, and loosened further to mean swindling someone out of money.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "multifaceted": {
+    "parts": [
+      {
+        "piece": "multi-",
+        "origin": "Latin",
+        "meaning": "many (multus)"
+      },
+      {
+        "piece": "facet",
+        "origin": "French",
+        "meaning": "little face"
+      }
+    ],
+    "literal": "having many little faces",
+    "path": "Facet comes from French facette, a little face, as in the cut faces of a gem. Multifaceted describes something with many such faces, many sides or aspects.",
+    "cousins": [
+      "multiple",
+      "facial"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "multifarious": {
+    "parts": [
+      {
+        "piece": "multus",
+        "origin": "Latin",
+        "meaning": "many"
+      },
+      {
+        "piece": "-farius",
+        "origin": "Latin",
+        "meaning": "divided into groups"
+      }
+    ],
+    "literal": "occurring in many groups",
+    "path": "Latin multifarius combined multus (many) with a suffix meaning divided into parts, describing something occurring in many different forms at once.",
+    "cousins": [
+      "multiple",
+      "multitude"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "multitude": {
+    "parts": [
+      {
+        "piece": "multus",
+        "origin": "Latin",
+        "meaning": "many"
+      },
+      {
+        "piece": "-tudo",
+        "origin": "Latin",
+        "meaning": "state of being (abstract noun suffix)"
+      }
+    ],
+    "literal": "the state of being many",
+    "path": "Latin multus (many) plus the abstract noun suffix -tudo gives multitudo, the state of being many, a great number of people or things.",
+    "cousins": [
+      "multiple",
+      "multiply"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mundane": {
+    "parts": [
+      {
+        "piece": "mundus",
+        "origin": "Latin",
+        "meaning": "world"
+      }
+    ],
+    "literal": "belonging to the world",
+    "path": "Latin mundus meant the world, especially as opposed to heaven. Mundane first meant worldly, of this earth rather than spiritual, then narrowed to the ordinary, unexciting business of daily life.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "munificent": {
+    "parts": [
+      {
+        "piece": "munus",
+        "origin": "Latin",
+        "meaning": "gift, service"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "making gifts",
+    "path": "Latin munus meant a gift or service; combined with facere (to make), munificus described one who habitually gives, generous to an exceptional degree.",
+    "cousins": [
+      "remunerate",
+      "municipal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "muse": {
+    "parts": [
+      {
+        "piece": "muse",
+        "origin": "Old French",
+        "meaning": "snout, muzzle (uncertain)"
+      }
+    ],
+    "literal": "to sniff about, nose around",
+    "path": "The verb muse probably comes from Old French muse, a snout, picturing an animal pausing with its nose in the air, sniffing out a scent. That image of absorbed, unhurried attention became English muse: to ponder. This is a different word from the noun Muse (the Greek goddesses), though the two are often popularly blended.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "muster": {
+    "parts": [
+      {
+        "piece": "monstrare",
+        "origin": "Latin",
+        "meaning": "to show"
+      }
+    ],
+    "literal": "to show, display",
+    "path": "Old French mostrer, to show, was used for showing up troops for inspection and counting. English muster kept that sense: to gather people, or courage, together as if presenting them for review.",
+    "cousins": [
+      "demonstrate",
+      "monster"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "muted": {
+    "parts": [
+      {
+        "piece": "mutus",
+        "origin": "Latin",
+        "meaning": "silent, unable to speak"
+      }
+    ],
+    "literal": "silenced",
+    "path": "Latin mutus meant silent or unable to speak. Muted extends that to anything deliberately softened, whether sound, color, or emotional reaction, as if partly silenced.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mutiny": {
+    "parts": [
+      {
+        "piece": "movere",
+        "origin": "Latin",
+        "meaning": "to move"
+      }
+    ],
+    "literal": "a movement, uprising",
+    "path": "Mutiny traces through Old French meute, a riot, to Latin movere, to move. A mutiny is literally a movement against authority, organized rebellion by those normally under command.",
+    "cousins": [
+      "move",
+      "motion",
+      "movement"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "myopic": {
+    "parts": [
+      {
+        "piece": "myein",
+        "origin": "Greek",
+        "meaning": "to shut, close"
+      },
+      {
+        "piece": "ops",
+        "origin": "Greek",
+        "meaning": "eye"
+      }
+    ],
+    "literal": "shutting the eyes",
+    "path": "Greek myein (to close) plus ops (eye) named someone who half-shuts their eyes to see things up close, i.e. nearsighted. Myopic extended metaphorically to shortsighted thinking that misses the bigger picture.",
+    "cousins": [
+      "optic",
+      "optical",
+      "synopsis"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "myriad": {
+    "parts": [
+      {
+        "piece": "myrioi",
+        "origin": "Greek",
+        "meaning": "ten thousand, countless"
+      }
+    ],
+    "literal": "ten thousand, countless",
+    "path": "Greek myrioi literally meant ten thousand, the largest numeral word in ordinary use, and so came to stand for any uncountably large number. English myriad kept that sense of countless multitude.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "nadir": {
+    "parts": [
+      {
+        "piece": "nazir as-samt",
+        "origin": "Arabic",
+        "meaning": "opposite the zenith"
+      }
+    ],
+    "literal": "the point opposite the peak",
+    "path": "Arabic astronomers named nadir the point on the celestial sphere directly opposite the zenith, straight down beneath the observer. English kept it as a metaphor for the lowest point of anything.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "naive": {
+    "parts": [
+      {
+        "piece": "nativus",
+        "origin": "Latin",
+        "meaning": "native, natural, innate (nasci, to be born)"
+      }
+    ],
+    "literal": "natural, as born",
+    "path": "Latin nativus meant natural or innate, as one is born. French naif applied that to a person's unspoiled manner, which shifted toward the negative sense of innocence reflecting a lack of experience or judgment.",
+    "cousins": [
+      "native",
+      "nature",
+      "innate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "narcissist": {
+    "parts": [
+      {
+        "piece": "Narkissos",
+        "origin": "Greek",
+        "meaning": "name of the youth in myth"
+      }
+    ],
+    "literal": "one like Narcissus",
+    "path": "In Greek myth, Narcissus fell fatally in love with his own reflection in a pool. Narcissist names anyone whose self-absorption echoes that myth, excessively preoccupied with themselves.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "nascent": {
+    "parts": [
+      {
+        "piece": "nasci",
+        "origin": "Latin",
+        "meaning": "to be born"
+      }
+    ],
+    "literal": "being born",
+    "path": "Latin nasci, to be born, gives nascent its literal sense of something in the process of being born. English uses it for anything just coming into existence, still in its earliest stage.",
+    "cousins": [
+      "native",
+      "nature",
+      "innate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "natty": {
+    "parts": [
+      {
+        "piece": "natty",
+        "origin": "unknown",
+        "meaning": "neat, trim (possibly related to neat)"
+      }
+    ],
+    "literal": "neat, trim (uncertain origin)",
+    "path": "The origin of natty is unclear; it may be a variant of neat. Whatever its source, by the 18th century it meant smartly, trimly dressed.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "nebulous": {
+    "parts": [
+      {
+        "piece": "nebula",
+        "origin": "Latin",
+        "meaning": "mist, cloud"
+      }
+    ],
+    "literal": "misty, cloudy",
+    "path": "Latin nebula meant mist or cloud; nebulosus described anything obscured by it. English nebulous extended that hazy image to ideas or plans that are vague and ill-defined.",
+    "cousins": [
+      "nebula"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "nefarious": {
+    "parts": [
+      {
+        "piece": "ne-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "fas",
+        "origin": "Latin",
+        "meaning": "divine law, what is right"
+      }
+    ],
+    "literal": "against divine law",
+    "path": "Latin fas meant what was divinely sanctioned, right by sacred law; ne- (not) plus fas gives nefas, a sin against that law. Nefarious describes wickedness so extreme it violates the most basic moral order.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "negate": {
+    "parts": [
+      {
+        "piece": "negare",
+        "origin": "Latin",
+        "meaning": "to deny, say no"
+      }
+    ],
+    "literal": "to say no, deny",
+    "path": "Latin negare meant simply to deny or refuse. English negate kept that sense: to deny the validity of something, nullifying or contradicting it.",
+    "cousins": [
+      "deny",
+      "renegade"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "neglect": {
+    "parts": [
+      {
+        "piece": "nec-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "legere",
+        "origin": "Latin",
+        "meaning": "to gather, pick out"
+      }
+    ],
+    "literal": "not to pick out, not to gather",
+    "path": "Latin legere meant to gather or pick out carefully; neglegere, not to pick out, meant to disregard, pay no attention to. English neglect kept that sense of failing to attend to something.",
+    "cousins": [
+      "elect",
+      "select",
+      "collect"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "negligent": {
+    "parts": [
+      {
+        "piece": "nec-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "legere",
+        "origin": "Latin",
+        "meaning": "to gather, pick out"
+      }
+    ],
+    "literal": "not picking out, disregarding",
+    "path": "The adjective form of neglect (see neglect): failing to give something the careful attention of picking it out.",
+    "cousins": [
+      "elect",
+      "select",
+      "collect"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "negligible": {
+    "parts": [
+      {
+        "piece": "nec-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "legere",
+        "origin": "Latin",
+        "meaning": "to gather, pick out"
+      }
+    ],
+    "literal": "able to be disregarded",
+    "path": "Built on neglegere (see neglect) with -ible, negligible describes something so small it can safely be disregarded, not worth picking out for attention.",
+    "cousins": [
+      "elect",
+      "collect"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "neologism": {
+    "parts": [
+      {
+        "piece": "neo-",
+        "origin": "Greek",
+        "meaning": "new"
+      },
+      {
+        "piece": "logos",
+        "origin": "Greek",
+        "meaning": "word"
+      }
+    ],
+    "literal": "new word",
+    "path": "Greek neo- (new) plus logos (word) names a newly coined word or expression, recently invented and not yet fully established.",
+    "cousins": [
+      "neon",
+      "dialogue",
+      "monologue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "neophyte": {
+    "parts": [
+      {
+        "piece": "neo-",
+        "origin": "Greek",
+        "meaning": "new"
+      },
+      {
+        "piece": "phyton",
+        "origin": "Greek",
+        "meaning": "a plant, thing grown"
+      }
+    ],
+    "literal": "newly planted",
+    "path": "Greek neophytos described a plant newly set in the ground. Early Christians borrowed it for a newly baptized convert, freshly planted in the faith, and English broadened it to any beginner.",
+    "cousins": [
+      "neon"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "net": {
+    "parts": [
+      {
+        "piece": "nitidus",
+        "origin": "Latin",
+        "meaning": "shining, neat"
+      }
+    ],
+    "literal": "clean, clear of deductions",
+    "path": "The adjective net, from French net (clean, neat, ultimately Latin nitidus, shining), described a sum left clean after all deductions. The verb net grew from that: to gain as a clear final profit after costs are subtracted.",
+    "cousins": [
+      "neat"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "nettle": {
+    "parts": [
+      {
+        "piece": "netele",
+        "origin": "Old English",
+        "meaning": "stinging plant"
+      }
+    ],
+    "literal": "to sting like a nettle",
+    "path": "A nettle is a plant whose fine hairs sting on contact. The verb nettle borrowed that sting figuratively: to provoke someone into annoyance as if pricked by the plant.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "nettlesome": {
+    "parts": [
+      {
+        "piece": "netele",
+        "origin": "Old English",
+        "meaning": "stinging plant"
+      }
+    ],
+    "literal": "full of stinging irritation",
+    "path": "Built from nettle (see nettle) with -some, describing something that keeps causing that irritating sting.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "neutralize": {
+    "parts": [
+      {
+        "piece": "ne-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "uter",
+        "origin": "Latin",
+        "meaning": "either of two"
+      }
+    ],
+    "literal": "to make neither one nor the other",
+    "path": "Latin neuter meant neither of two, from ne- (not) and uter (either). To neutralize is to bring something to that in-between state, canceling its effect so it favors neither side.",
+    "cousins": [
+      "neuter",
+      "neutral"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "nevertheless": {
+    "parts": [
+      {
+        "piece": "never",
+        "origin": "Old English",
+        "meaning": "not ever"
+      },
+      {
+        "piece": "the less",
+        "origin": "Old English",
+        "meaning": "by that amount less"
+      }
+    ],
+    "literal": "not the less (true) for that",
+    "path": "A Middle English compound literally meaning not the less, built from never, the, and less. It signals that a statement holds true despite something just said.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "nexus": {
+    "parts": [
+      {
+        "piece": "nectere",
+        "origin": "Latin",
+        "meaning": "to bind, tie"
+      }
+    ],
+    "literal": "a binding together",
+    "path": "Latin nectere meant to bind or tie; its noun nexus named the connection formed by that binding. English nexus kept the sense of a central link connecting multiple things.",
+    "cousins": [
+      "connect",
+      "annex"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "nicety": {
+    "parts": [
+      {
+        "piece": "ne-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "scire",
+        "origin": "Latin",
+        "meaning": "to know"
+      }
+    ],
+    "literal": "not knowing",
+    "path": "Nice traveled from Latin nescius, ignorant, through senses of foolish, then shy, then overly precise and fastidious, before settling as pleasant. Nicety preserves the fastidious stage: a fine distinction requiring careful discrimination.",
+    "cousins": [
+      "science",
+      "conscious",
+      "omniscient"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "nihilism": {
+    "parts": [
+      {
+        "piece": "nihil",
+        "origin": "Latin",
+        "meaning": "nothing"
+      }
+    ],
+    "literal": "nothing-ism",
+    "path": "Latin nihil means nothing. Nihilism, coined in the 19th century, names the belief that nothing, no value, meaning, or truth, has any real foundation.",
+    "cousins": [
+      "annihilate",
+      "nil"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "nihilist": {
+    "parts": [
+      {
+        "piece": "nihil",
+        "origin": "Latin",
+        "meaning": "nothing"
+      }
+    ],
+    "literal": "one who believes in nothing",
+    "path": "Built on nihil, nothing (see nihilism): one who rejects all values and meaning as ultimately baseless.",
+    "cousins": [
+      "annihilate",
+      "nil"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "nimble": {
+    "parts": [
+      {
+        "piece": "niman",
+        "origin": "Old English",
+        "meaning": "to take, seize"
+      }
+    ],
+    "literal": "quick to seize",
+    "path": "Old English numol described something quick to grasp or seize, from niman, to take. The sense shifted from mental quickness in grasping to physical quickness and lightness of movement.",
+    "cousins": [
+      "numb"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "noble": {
+    "parts": [
+      {
+        "piece": "noscere",
+        "origin": "Latin",
+        "meaning": "to know"
+      }
+    ],
+    "literal": "well-known, knowable",
+    "path": "Latin nobilis originally meant able to be known, hence well-known or famous, and came to describe those of famous lineage, the high-born. English noble kept both the social and the moral sense of admirable character.",
+    "cousins": [
+      "notable",
+      "recognize",
+      "notice"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "noisome": {
+    "parts": [
+      {
+        "piece": "noy",
+        "origin": "Middle English",
+        "meaning": "annoyance, harm (from annoy, Latin in odio)"
+      }
+    ],
+    "literal": "full of annoyance",
+    "path": "Noisome comes not from noise but from Middle English noy, a shortening of annoy, itself from Latin in odio, in hatred. It describes something harmful or offensive, especially foul-smelling, that provokes revulsion.",
+    "cousins": [
+      "annoy",
+      "odious"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "nominal": {
+    "parts": [
+      {
+        "piece": "nomen",
+        "origin": "Latin",
+        "meaning": "name"
+      }
+    ],
+    "literal": "of or in name",
+    "path": "Latin nomen means name; nominal describes something that exists in name only, a title or fee that is technically named but has little real substance or amount.",
+    "cousins": [
+      "noun",
+      "nominate",
+      "denominate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "nonchalant": {
+    "parts": [
+      {
+        "piece": "non-",
+        "origin": "French",
+        "meaning": "not"
+      },
+      {
+        "piece": "chaloir",
+        "origin": "French",
+        "meaning": "to be concerned, matter (Latin calere, to be warm)"
+      }
+    ],
+    "literal": "not being warmed up about it",
+    "path": "French chaloir, to matter or concern, traces to Latin calere, to be warm. Nonchalant literally means not warmed up about something, hence casually unconcerned.",
+    "cousins": [
+      "calorie"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "nonentity": {
+    "parts": [
+      {
+        "piece": "non-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "ens, entis",
+        "origin": "Latin",
+        "meaning": "being (esse, to be)"
+      }
+    ],
+    "literal": "a non-being",
+    "path": "Entity comes from Latin esse, to be, a thing that has being. Nonentity literally names a non-being: a person of so little consequence they barely seem to exist.",
+    "cousins": [
+      "essence",
+      "present",
+      "absent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "nonplus": {
+    "parts": [
+      {
+        "piece": "non plus",
+        "origin": "Latin",
+        "meaning": "not more, no further"
+      }
+    ],
+    "literal": "no further",
+    "path": "Borrowed from the Latin phrase non plus, not more, describing a point where reasoning could go no further. To nonplus someone is to bring them to that dead stop, utterly perplexed.",
+    "cousins": [
+      "plus",
+      "surplus"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "nonplused": {
+    "parts": [
+      {
+        "piece": "non plus",
+        "origin": "Latin",
+        "meaning": "not more, no further"
+      }
+    ],
+    "literal": "brought to no further point",
+    "path": "A variant spelling of nonplussed (see nonplus): left at a dead stop, unable to go further, utterly perplexed.",
+    "cousins": [
+      "plus"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "nonplussed": {
+    "parts": [
+      {
+        "piece": "non plus",
+        "origin": "Latin",
+        "meaning": "not more, no further"
+      }
+    ],
+    "literal": "brought to no further point",
+    "path": "Past-participle adjective of nonplus (see nonplus): left at a dead stop, unable to go further, utterly perplexed.",
+    "cousins": [
+      "plus",
+      "surplus"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "normative": {
+    "parts": [
+      {
+        "piece": "norma",
+        "origin": "Latin",
+        "meaning": "a carpenter's square, rule, pattern"
+      }
+    ],
+    "literal": "relating to a standard",
+    "path": "Latin norma named a carpenter's square used to measure a right angle, hence a standard or rule. Normative describes what conforms to or sets such a standard, concerning what ought to be rather than what is.",
+    "cousins": [
+      "norm",
+      "normal",
+      "enormous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "nostrum": {
+    "parts": [
+      {
+        "piece": "noster",
+        "origin": "Latin",
+        "meaning": "our (own)"
+      }
+    ],
+    "literal": "our own (remedy)",
+    "path": "Latin nostrum, our own, was used by peddlers of homemade remedies to tout a cure as their own special formula, of unproven, dubious origin. English nostrum kept that sense of a quack cure-all.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "notion": {
+    "parts": [
+      {
+        "piece": "noscere",
+        "origin": "Latin",
+        "meaning": "to come to know"
+      }
+    ],
+    "literal": "an idea, conception",
+    "path": "Latin noscere, to come to know, gives notio, a mental conception. English notion kept that sense but loosened it: a vague or informal idea rather than a rigorously known one.",
+    "cousins": [
+      "notice",
+      "notify",
+      "recognize"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "notoriety": {
+    "parts": [
+      {
+        "piece": "notus",
+        "origin": "Latin",
+        "meaning": "known (noscere, to know)"
+      }
+    ],
+    "literal": "state of being well-known",
+    "path": "Latin notus, known, gives notorious, well-known, and the sense narrowed to being well-known specifically for something bad. Notoriety is that infamous fame.",
+    "cousins": [
+      "notice",
+      "notify",
+      "note"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "notwithstanding": {
+    "parts": [
+      {
+        "piece": "with",
+        "origin": "Old English",
+        "meaning": "against (older sense)"
+      },
+      {
+        "piece": "standing",
+        "origin": "Old English",
+        "meaning": "standing"
+      }
+    ],
+    "literal": "not standing against",
+    "path": "A native compound literally meaning not standing in opposition to, using with in its older sense of against. It signals that something holds true despite an obstacle.",
+    "cousins": [
+      "withstand",
+      "stand"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "novel": {
+    "parts": [
+      {
+        "piece": "novus",
+        "origin": "Latin",
+        "meaning": "new"
+      }
+    ],
+    "literal": "new, young",
+    "path": "Latin novus (new) gave novellus, freshly new. English novel kept that core sense: new and original, not seen before.",
+    "cousins": [
+      "novice",
+      "innovate",
+      "renovate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "noxious": {
+    "parts": [
+      {
+        "piece": "nocere",
+        "origin": "Latin",
+        "meaning": "to hurt, injure"
+      }
+    ],
+    "literal": "harmful",
+    "path": "Latin nocere, to harm, gives noxius, injurious. English noxious kept the sense of something actively harmful or poisonous, especially fumes or substances.",
+    "cousins": [
+      "innocent",
+      "innocuous",
+      "obnoxious"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

@@ -1,0 +1,789 @@
+{
+  "incentive": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in, upon"
+      },
+      {
+        "piece": "canere",
+        "origin": "Latin",
+        "meaning": "to sing"
+      }
+    ],
+    "literal": "that which strikes up a tune",
+    "path": "Latin incentivum described something that sets the tune going, from incinere, to strike up, from canere, to sing. Setting something going musically shifted to setting someone going toward action, a motivating reward.",
+    "cousins": [
+      "chant",
+      "enchant",
+      "canticle"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "incessant": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "cessare",
+        "origin": "Latin",
+        "meaning": "to cease, stop"
+      }
+    ],
+    "literal": "not ceasing",
+    "path": "Latin cessare meant to stop or be idle, the root of cease and cessation. Incessant simply negates it: something incessant never stops, continuing relentlessly without pause.",
+    "cousins": [
+      "cease",
+      "cessation",
+      "recess"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inchoate": {
+    "parts": [
+      {
+        "piece": "inchoare",
+        "origin": "Latin",
+        "meaning": "to begin, start"
+      }
+    ],
+    "literal": "begun",
+    "path": "Latin inchoare meant to begin, perhaps originally to hitch up a plow to start work. Inchoate describes something still at that starting stage, begun but not yet developed into its finished form.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "incidental": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "upon"
+      },
+      {
+        "piece": "cadere",
+        "origin": "Latin",
+        "meaning": "to fall"
+      }
+    ],
+    "literal": "falling upon",
+    "path": "Latin incidere meant to fall upon or happen to occur, from cadere, to fall. What merely falls upon a situation, alongside the main event, gave incidental its sense of minor and secondary.",
+    "cousins": [
+      "accident",
+      "decadent",
+      "cadence"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "incipient": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "upon"
+      },
+      {
+        "piece": "capere",
+        "origin": "Latin",
+        "meaning": "to take, seize"
+      }
+    ],
+    "literal": "taking hold, beginning",
+    "path": "Latin incipere meant to begin or undertake, literally to take hold of something, from capere, to seize. Incipient describes a stage just taking hold, the first beginnings of something before it fully develops.",
+    "cousins": [
+      "capture",
+      "concept",
+      "recipient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "incisive": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "into"
+      },
+      {
+        "piece": "caedere",
+        "origin": "Latin",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "cutting into",
+    "path": "Latin incidere meant to cut into, from caedere, to cut, the root of scissors and concise. A blade that cuts cleanly into something gave incisive its figurative sense: thought or speech that cuts straight to the point.",
+    "cousins": [
+      "scissors",
+      "concise",
+      "precise"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "inclement": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "clemens",
+        "origin": "Latin",
+        "meaning": "mild, merciful"
+      }
+    ],
+    "literal": "not mild",
+    "path": "Latin clemens meant mild or merciful, the root of clemency. Inclement negates that mildness, originally of a harsh temperament and now almost always describing harsh, stormy weather.",
+    "cousins": [
+      "clemency"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inclined": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "toward"
+      },
+      {
+        "piece": "clinare",
+        "origin": "Latin",
+        "meaning": "to bend, lean"
+      }
+    ],
+    "literal": "leaning toward",
+    "path": "Latin inclinare meant to bend or lean toward something. A physical lean toward one direction became a figurative leaning: to be inclined toward an opinion or action is to favor it.",
+    "cousins": [
+      "decline",
+      "recline"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inclusive": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "claudere",
+        "origin": "Latin",
+        "meaning": "to shut, close"
+      }
+    ],
+    "literal": "shut in, enclosed",
+    "path": "Latin includere meant to shut in or enclose. What is shut in together, within one boundary, gave inclusive its sense of encompassing everyone or everything within its scope.",
+    "cousins": [
+      "close",
+      "conclude",
+      "exclude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "inconclusive": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "claudere",
+        "origin": "Latin",
+        "meaning": "to shut, close"
+      }
+    ],
+    "literal": "not shut, not closed",
+    "path": "Latin concludere meant to close an argument up, shutting it with a firm conclusion, from claudere, to shut. Inconclusive negates that: evidence that fails to close the question, leaving it undecided.",
+    "cousins": [
+      "close",
+      "conclude",
+      "exclude"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "incongruity": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "congruere",
+        "origin": "Latin",
+        "meaning": "to agree, fit together"
+      }
+    ],
+    "literal": "not fitting together",
+    "path": "Latin congruere meant to come together in agreement, to fit. Incongruity negates that fit, naming a mismatch between things that ought to go together but clash instead.",
+    "cousins": [
+      "congruent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "incongruous": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "congruere",
+        "origin": "Latin",
+        "meaning": "to agree, fit together"
+      }
+    ],
+    "literal": "not fitting together",
+    "path": "From the same Latin congruere as incongruity, incongruous describes something that clashes with its setting, out of place because it does not fit together with what surrounds it.",
+    "cousins": [
+      "congruent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inconsequential": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "sequi",
+        "origin": "Latin",
+        "meaning": "to follow"
+      }
+    ],
+    "literal": "not following with importance",
+    "path": "Latin consequi meant to follow closely, and a consequential matter is one whose effects follow and matter. Inconsequential negates that: something with no real consequences following from it, too trivial to matter.",
+    "cousins": [
+      "sequel",
+      "sequence",
+      "consequence"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "inconstancy": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "not standing firm",
+    "path": "Latin constans meant standing firm, unchanging, from stare, to stand. Inconstancy negates that steadiness, naming a tendency to shift and change rather than stand fast.",
+    "cousins": [
+      "constant",
+      "stable",
+      "stationary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "incontrovertible": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "contra-",
+        "origin": "Latin",
+        "meaning": "against"
+      },
+      {
+        "piece": "vertere",
+        "origin": "Latin",
+        "meaning": "to turn"
+      }
+    ],
+    "literal": "not able to be turned against",
+    "path": "Latin controversus meant turned against, disputed, from contra, against, and vertere, to turn. Incontrovertible negates that: a claim so solidly established it cannot be turned against or argued down.",
+    "cousins": [
+      "controversy",
+      "convert",
+      "reverse"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "incorporate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "into"
+      },
+      {
+        "piece": "corpus",
+        "origin": "Latin",
+        "meaning": "body"
+      }
+    ],
+    "literal": "to bring into a body",
+    "path": "Latin incorporare meant to embody or form into one body, from corpus, body. To incorporate something is to bring it into a larger body, whether an idea into a plan or a business into a legal entity.",
+    "cousins": [
+      "corporation",
+      "corpse",
+      "corporal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "incorrigible": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "regere",
+        "origin": "Latin",
+        "meaning": "to rule, guide straight"
+      }
+    ],
+    "literal": "not able to be set straight",
+    "path": "Latin corrigere meant to correct or straighten out, from regere, to rule or guide. Incorrigible negates that: a person or fault too set in its ways to be corrected.",
+    "cousins": [
+      "correct",
+      "regulate",
+      "erect"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "incredulous": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "credere",
+        "origin": "Latin",
+        "meaning": "to believe, trust"
+      }
+    ],
+    "literal": "not believing",
+    "path": "Latin credere meant to believe or trust, the root of credit and creed. Incredulous describes the state of refusing to believe something, met with visible skepticism.",
+    "cousins": [
+      "credible",
+      "credit",
+      "creed"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "incubation": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "upon"
+      },
+      {
+        "piece": "cubare",
+        "origin": "Latin",
+        "meaning": "to lie down"
+      }
+    ],
+    "literal": "lying down upon",
+    "path": "Latin incubare meant to lie down upon, used of a hen sitting on eggs to hatch them. Incubation kept that image of a sheltered period of lying in wait for something to develop and emerge.",
+    "cousins": [
+      "concubine",
+      "incubus"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "inculcate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "in"
+      },
+      {
+        "piece": "calx",
+        "origin": "Latin",
+        "meaning": "heel"
+      }
+    ],
+    "literal": "to trample in",
+    "path": "Latin inculcare meant to press in by trampling with the heel, from calx, heel. The image of stamping something in with repeated force became inculcate's sense of instilling ideas through persistent repetition.",
+    "cousins": [
+      "recalcitrant"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "incumbent": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "upon"
+      },
+      {
+        "piece": "cumbere",
+        "origin": "Latin",
+        "meaning": "to lie down, recline"
+      }
+    ],
+    "literal": "lying upon",
+    "path": "Latin incumbere meant to lean or press upon, to occupy a position by lying on it. That sense of occupying and pressing upon a duty gave incumbent both meanings: currently holding a position, and weighing as an obligation.",
+    "cousins": [
+      "recumbent",
+      "succumb"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "indebted": {
+    "parts": [
+      {
+        "piece": "debere",
+        "origin": "Latin",
+        "meaning": "to owe"
+      }
+    ],
+    "literal": "put into debt",
+    "path": "Debt traces to Latin debere, to owe, originally de- plus habere, to have from another. Indebted describes the state of owing something back, whether money or gratitude for a favor.",
+    "cousins": [
+      "debt",
+      "due",
+      "debit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "indecorous": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "decere",
+        "origin": "Latin",
+        "meaning": "to be fitting"
+      }
+    ],
+    "literal": "not fitting, unbecoming",
+    "path": "Latin decorus meant fitting or becoming, from decere, to be fitting, the root of decorum. Indecorous negates that: behavior that violates what is proper and tasteful.",
+    "cousins": [
+      "decorum",
+      "decorate",
+      "decent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "indefatigable": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "fatigare",
+        "origin": "Latin",
+        "meaning": "to tire, weary"
+      }
+    ],
+    "literal": "not able to be tired out",
+    "path": "Latin fatigare meant to tire or wear out, the root of fatigue. Indefatigable negates that: someone who cannot be worn down, keeping up effort without flagging.",
+    "cousins": [
+      "fatigue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "indemnify": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "damnum",
+        "origin": "Latin",
+        "meaning": "loss, damage"
+      }
+    ],
+    "literal": "to make free from loss",
+    "path": "Latin indemnis meant unharmed, free from loss, from damnum, damage, the root of damn and damage. To indemnify someone is to make them whole again, compensating for loss or shielding them from it.",
+    "cousins": [
+      "damage",
+      "condemn",
+      "damn"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "indeterminate": {
+    "parts": [
+      {
+        "piece": "in-",
+        "origin": "Latin",
+        "meaning": "not"
+      },
+      {
+        "piece": "terminus",
+        "origin": "Latin",
+        "meaning": "boundary, end"
+      }
+    ],
+    "literal": "not bounded, not fixed",
+    "path": "Latin terminus meant a boundary marker, and determinare meant to fix limits or settle a matter. Indeterminate negates that: something left without fixed boundaries, its outcome not yet settled.",
+    "cousins": [
+      "terminal",
+      "terminate",
+      "determine"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "manifest": {
+    "parts": [
+      {
+        "piece": "manus",
+        "origin": "Latin",
+        "meaning": "hand"
+      },
+      {
+        "piece": "festus",
+        "origin": "Latin",
+        "meaning": "struck, seized (disputed)"
+      }
+    ],
+    "literal": "caught by the hand",
+    "path": "Latin manifestus likely combined manus, hand, with a root meaning struck or seized, picturing evidence so plain it could be caught red-handed. Manifest describes something equally obvious, plain to see without argument.",
+    "cousins": [
+      "manual",
+      "manipulate",
+      "manufacture"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "manifestation": {
+    "parts": [
+      {
+        "piece": "manus",
+        "origin": "Latin",
+        "meaning": "hand"
+      },
+      {
+        "piece": "festus",
+        "origin": "Latin",
+        "meaning": "struck, seized (disputed)"
+      }
+    ],
+    "literal": "a making evident by hand",
+    "path": "From the same Latin manifestus as manifest, a manifestation is the visible display of something otherwise hidden, brought out plainly enough to be grasped.",
+    "cousins": [
+      "manual",
+      "manipulate",
+      "manufacture"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mannered": {
+    "parts": [
+      {
+        "piece": "manus",
+        "origin": "Latin",
+        "meaning": "hand"
+      }
+    ],
+    "literal": "handled in a particular way",
+    "path": "Manner traces to Latin manus, hand, by way of French maniere, a way of handling things. Mannered came to describe style so consciously handled and stylized that it feels artificial rather than natural.",
+    "cousins": [
+      "manual",
+      "manipulate",
+      "manicure"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "manumit": {
+    "parts": [
+      {
+        "piece": "manus",
+        "origin": "Latin",
+        "meaning": "hand"
+      },
+      {
+        "piece": "mittere",
+        "origin": "Latin",
+        "meaning": "to send, release"
+      }
+    ],
+    "literal": "to send from the hand",
+    "path": "Latin manumittere meant to release from one's hand or control, the formal Roman ceremony of freeing a slave by a symbolic touch and release of the hand. Manumit kept that precise legal sense of formally freeing someone enslaved.",
+    "cousins": [
+      "manual",
+      "transmit",
+      "emit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "mar": {
+    "parts": [
+      {
+        "piece": "merran",
+        "origin": "Old English",
+        "meaning": "to waste, hinder, spoil"
+      }
+    ],
+    "literal": "to hinder, spoil",
+    "path": "Old English merran meant to obstruct or waste. The word narrowed to its modern sense: to spoil or damage something, especially blemishing an otherwise good thing.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "maraud": {
+    "parts": [
+      {
+        "piece": "maraud",
+        "origin": "French",
+        "meaning": "rogue, vagabond (origin uncertain)"
+      }
+    ],
+    "literal": "to act like a rogue",
+    "path": "French maraud meant a rogue or vagabond, of uncertain origin, possibly a term of contempt borrowed from a word for tomcat. Marauder came to mean to roam about pillaging like such a rogue.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "marginal": {
+    "parts": [
+      {
+        "piece": "margo, marginis",
+        "origin": "Latin",
+        "meaning": "edge, border"
+      }
+    ],
+    "literal": "at the edge",
+    "path": "Latin margo meant an edge or border, the root of margin. Marginal describes what sits at the edge of importance, barely significant enough to count.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "marginalize": {
+    "parts": [
+      {
+        "piece": "margo, marginis",
+        "origin": "Latin",
+        "meaning": "edge, border"
+      }
+    ],
+    "literal": "to push to the edge",
+    "path": "From the same Latin margo, edge, as marginal, to marginalize someone is to push them to the periphery of attention or power, treating them as unimportant.",
+    "cousins": [
+      "margin"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "martial": {
+    "parts": [
+      {
+        "piece": "Mars, Martialis",
+        "origin": "Latin",
+        "meaning": "Mars, Roman god of war"
+      }
+    ],
+    "literal": "of Mars",
+    "path": "Mars was the Roman god of war, and martialis meant belonging to him. Martial kept that direct sense: anything pertaining to war, soldiers, or fighting.",
+    "cousins": [
+      "Mars"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "martinet": {
+    "parts": [
+      {
+        "piece": "Martinet",
+        "origin": "French",
+        "meaning": "surname of Jean Martinet, a strict drill-master"
+      }
+    ],
+    "literal": "like General Martinet",
+    "path": "Martinet was the surname of a 17th-century French drill-master notorious for rigid discipline in training troops. His name became a common noun for anyone who enforces rules with unbending strictness.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  }
+}

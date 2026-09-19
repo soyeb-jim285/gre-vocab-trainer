@@ -1,0 +1,993 @@
+{
+  "unremitting": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "remittere",
+        "origin": "Latin",
+        "meaning": "to send back, let go"
+      }
+    ],
+    "literal": "not letting up",
+    "path": "To 'remit' is to let up or release pressure; unremitting describes something that never relaxes or lets up, never ceasing.",
+    "cousins": [
+      "remit",
+      "transmit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "unruly": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "regula",
+        "origin": "Latin",
+        "meaning": "rule"
+      }
+    ],
+    "literal": "not ruled",
+    "path": "Direct from the parts: not governed by rule or control, disorderly and hard to manage.",
+    "cousins": [
+      "rule",
+      "regulate",
+      "correct"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "unscrupulous": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "scrupus",
+        "origin": "Latin",
+        "meaning": "sharp stone"
+      }
+    ],
+    "literal": "without a pebble of conscience",
+    "path": "A 'scruple' was originally a small sharp stone causing discomfort, figuratively a prick of conscience. Unscrupulous describes someone with no such prick, without moral principles.",
+    "cousins": [
+      "scruple",
+      "scrupulous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "unseemly": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "soemr",
+        "origin": "Old Norse",
+        "meaning": "fitting"
+      }
+    ],
+    "literal": "not fitting",
+    "path": "'Seemly' meant appropriate or fitting to look at; unseemly describes something improper, in poor taste.",
+    "cousins": [
+      "seem",
+      "seeming"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "unsparing": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "sparian",
+        "origin": "Old English",
+        "meaning": "to hold back, use frugally"
+      }
+    ],
+    "literal": "not holding back",
+    "path": "To 'spare' is to hold back or be frugal; unsparing describes someone who holds nothing back, whether in harsh frankness or in generosity.",
+    "cousins": [
+      "spare"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "unstinting": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "styntan",
+        "origin": "Old English",
+        "meaning": "to blunt, limit"
+      }
+    ],
+    "literal": "not limiting",
+    "path": "To 'stint' is to limit or ration something; unstinting describes giving generously without any such limit.",
+    "cousins": [
+      "stint",
+      "stunt"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "untempered": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "temperare",
+        "origin": "Latin",
+        "meaning": "to mix in due proportion"
+      }
+    ],
+    "literal": "not moderated",
+    "path": "To 'temper' is to moderate or soften by blending in a counteracting quality; untempered describes something left unmoderated by any such influence.",
+    "cousins": [
+      "temper",
+      "temperate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "untenable": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "tenere",
+        "origin": "Latin",
+        "meaning": "to hold"
+      }
+    ],
+    "literal": "not able to be held",
+    "path": "A tenable position can be held or defended; untenable cannot be held, impossible to defend or maintain.",
+    "cousins": [
+      "tenant",
+      "tenure",
+      "contain"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "untoward": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "toward",
+        "origin": "Old English",
+        "meaning": "compliant, favorable (old sense)"
+      }
+    ],
+    "literal": "not favorable",
+    "path": "'Toward' once described a person's disposition as promising or apt; untoward negates it, describing something unexpectedly inappropriate or unwelcome.",
+    "cousins": [
+      "toward"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "untrammeled": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "tramail",
+        "origin": "Old French",
+        "meaning": "a fishing net"
+      }
+    ],
+    "literal": "not netted",
+    "path": "A trammel was a net used to catch fish or a device to restrain a horse's gait; untrammeled describes freedom from such restraint, not restricted or hampered.",
+    "cousins": [
+      "trammel"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "unwonted": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "wunian",
+        "origin": "Old English",
+        "meaning": "to dwell, be accustomed"
+      }
+    ],
+    "literal": "not accustomed",
+    "path": "'Wont' means a customary habit; unwonted describes something unusual, not the accustomed practice for a person or situation.",
+    "cousins": [
+      "wont"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "upbraid": {
+    "parts": [
+      {
+        "piece": "up",
+        "origin": "Old English",
+        "meaning": "up"
+      },
+      {
+        "piece": "bregdan",
+        "origin": "Old English",
+        "meaning": "to pull, weave, brandish"
+      }
+    ],
+    "literal": "to weave up (a charge) against",
+    "path": "Originally meant to bring up or brandish reproaches against someone. Upbraid came to mean to scold or reproach severely.",
+    "cousins": [
+      "braid"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "upshot": {
+    "parts": [
+      {
+        "piece": "up",
+        "origin": "Old English",
+        "meaning": "up"
+      },
+      {
+        "piece": "shot",
+        "origin": "Old English",
+        "meaning": "a shot, act of shooting"
+      }
+    ],
+    "literal": "the final shot",
+    "path": "In archery contests, the 'upshot' was the last, decisive shot that settled the match. The word came to mean the final outcome of any matter.",
+    "cousins": [
+      "shoot"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "urbane": {
+    "parts": [
+      {
+        "piece": "urbs",
+        "origin": "Latin",
+        "meaning": "city"
+      }
+    ],
+    "literal": "of the city",
+    "path": "City dwellers were associated with refined, sophisticated manners as opposed to rustic simplicity, so urbane came to mean suave and socially polished.",
+    "cousins": [
+      "urban",
+      "suburb"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "usurp": {
+    "parts": [
+      {
+        "piece": "uti",
+        "origin": "Latin",
+        "meaning": "to use"
+      },
+      {
+        "piece": "rapere",
+        "origin": "Latin",
+        "meaning": "to seize"
+      }
+    ],
+    "literal": "to seize for use",
+    "path": "Direct from the parts: to seize and take over power or a position without legal right.",
+    "cousins": [
+      "use",
+      "rapture",
+      "rapid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "usury": {
+    "parts": [
+      {
+        "piece": "uti",
+        "origin": "Latin",
+        "meaning": "to use"
+      }
+    ],
+    "literal": "payment for use",
+    "path": "Originally simply the fee paid for the use of borrowed money. It narrowed to mean specifically excessive, exploitative interest.",
+    "cousins": [
+      "use",
+      "usage",
+      "abuse"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "utilitarian": {
+    "parts": [
+      {
+        "piece": "uti",
+        "origin": "Latin",
+        "meaning": "to use"
+      }
+    ],
+    "literal": "useful",
+    "path": "Direct from the root: designed for practical use rather than beauty, in the spirit of utilitarian philosophy's focus on usefulness.",
+    "cousins": [
+      "utility",
+      "use",
+      "utilize"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "utter": {
+    "parts": [
+      {
+        "piece": "utera",
+        "origin": "Old English",
+        "meaning": "outer, exterior"
+      }
+    ],
+    "literal": "outermost",
+    "path": "Originally meant outermost or utmost. It extended to mean complete and absolute, the furthest degree possible.",
+    "cousins": [
+      "out",
+      "outer",
+      "utmost"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "utterly": {
+    "parts": [
+      {
+        "piece": "utera",
+        "origin": "Old English",
+        "meaning": "outer, exterior"
+      }
+    ],
+    "literal": "to the outermost degree",
+    "path": "Same root as utter: completely, to the furthest possible degree.",
+    "cousins": [
+      "outer"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vacate": {
+    "parts": [
+      {
+        "piece": "vacare",
+        "origin": "Latin",
+        "meaning": "to be empty"
+      }
+    ],
+    "literal": "to be empty",
+    "path": "Direct from the root: to make a place empty by leaving it.",
+    "cousins": [
+      "vacant",
+      "vacuum"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vacillate": {
+    "parts": [
+      {
+        "piece": "vacillare",
+        "origin": "Latin",
+        "meaning": "to sway, stagger"
+      }
+    ],
+    "literal": "to sway",
+    "path": "Physically swaying or staggering extended to wavering mentally between choices.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vacuous": {
+    "parts": [
+      {
+        "piece": "vacuus",
+        "origin": "Latin",
+        "meaning": "empty"
+      }
+    ],
+    "literal": "empty",
+    "path": "Physically empty extended to empty of thought or meaning.",
+    "cousins": [
+      "vacate",
+      "vacant",
+      "vacuum"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vagary": {
+    "parts": [
+      {
+        "piece": "vagari",
+        "origin": "Latin",
+        "meaning": "to wander"
+      }
+    ],
+    "literal": "a wandering",
+    "path": "Originally meant a wandering journey or excursion. It came to mean an unpredictable wandering of thought or behavior, a whim.",
+    "cousins": [
+      "vague",
+      "vagrant",
+      "extravagant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vain": {
+    "parts": [
+      {
+        "piece": "vanus",
+        "origin": "Latin",
+        "meaning": "empty, void"
+      }
+    ],
+    "literal": "empty",
+    "path": "Something empty of substance is futile, empty of result; applied to a person it describes one puffed up with pride but empty of real merit.",
+    "cousins": [
+      "vanity",
+      "vanish",
+      "evanescent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vainglorious": {
+    "parts": [
+      {
+        "piece": "vanus",
+        "origin": "Latin",
+        "meaning": "empty"
+      },
+      {
+        "piece": "gloria",
+        "origin": "Latin",
+        "meaning": "fame, glory"
+      }
+    ],
+    "literal": "empty glory",
+    "path": "Direct from the parts: boastfully proud of empty, unearned glory.",
+    "cousins": [
+      "vain",
+      "vanity",
+      "glory"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "valor": {
+    "parts": [
+      {
+        "piece": "valere",
+        "origin": "Latin",
+        "meaning": "to be strong, be worth"
+      }
+    ],
+    "literal": "worth, strength",
+    "path": "From the sense of being strong or worthy in battle, valor came to mean great courage in danger.",
+    "cousins": [
+      "valid",
+      "value",
+      "prevail"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vanguard": {
+    "parts": [
+      {
+        "piece": "avant",
+        "origin": "Old French",
+        "meaning": "before"
+      },
+      {
+        "piece": "garde",
+        "origin": "Old French",
+        "meaning": "guard"
+      }
+    ],
+    "literal": "front guard",
+    "path": "Originally the troops positioned at the front of an army. The word extended to the leading position in any movement.",
+    "cousins": [
+      "avant-garde",
+      "guard",
+      "garrison"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "vanquish": {
+    "parts": [
+      {
+        "piece": "vincere",
+        "origin": "Latin",
+        "meaning": "to conquer"
+      }
+    ],
+    "literal": "to conquer",
+    "path": "Direct from the root: to defeat thoroughly.",
+    "cousins": [
+      "victor",
+      "convince"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vapid": {
+    "parts": [
+      {
+        "piece": "vapidus",
+        "origin": "Latin",
+        "meaning": "flat, having lost its flavor"
+      }
+    ],
+    "literal": "flat (of wine)",
+    "path": "Originally described wine that had gone flat and lost its zest. The image extended to talk or ideas that are dull and lacking substance.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "variance": {
+    "parts": [
+      {
+        "piece": "varius",
+        "origin": "Latin",
+        "meaning": "diverse, varied"
+      }
+    ],
+    "literal": "a varying",
+    "path": "Direct from the root: a state of differing from something else, a disagreement.",
+    "cousins": [
+      "vary",
+      "various",
+      "variety"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "variegated": {
+    "parts": [
+      {
+        "piece": "varius",
+        "origin": "Latin",
+        "meaning": "diverse"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "made varied",
+    "path": "Direct from the parts: made varied in color or character, spotted or diversified.",
+    "cousins": [
+      "vary",
+      "variety"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vassal": {
+    "parts": [
+      {
+        "piece": "gwas",
+        "origin": "Celtic (Gaulish)",
+        "meaning": "young man, servant"
+      }
+    ],
+    "literal": "a young man, servant",
+    "path": "In feudal times a vassal held land from and owed loyalty and service to a lord. The word extended to any subordinate dependent on a superior.",
+    "cousins": [
+      "valet"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "vat": {
+    "parts": [
+      {
+        "piece": "fæt",
+        "origin": "Old English",
+        "meaning": "vessel, cask"
+      }
+    ],
+    "literal": "a vessel, cask",
+    "path": "Direct from the root: a large container for liquids.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vaunted": {
+    "parts": [
+      {
+        "piece": "vanus",
+        "origin": "Latin",
+        "meaning": "empty, vain"
+      }
+    ],
+    "literal": "boasted emptily",
+    "path": "To vaunt is to boast, sharing its root with 'vain' (empty). Vaunted describes something much boasted about, often implying the boasting outruns the reality.",
+    "cousins": [
+      "vain",
+      "vanity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "vehement": {
+    "parts": [
+      {
+        "piece": "vehere",
+        "origin": "Latin",
+        "meaning": "to carry"
+      }
+    ],
+    "literal": "carried away (in mind)",
+    "path": "The exact formation is uncertain, but vehement likely comes from being 'carried' out of oneself by strong feeling, showing intense, forceful, hard-to-govern emotion.",
+    "cousins": [
+      "vehicle",
+      "convey"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "venal": {
+    "parts": [
+      {
+        "piece": "venum",
+        "origin": "Latin",
+        "meaning": "sale, thing for sale"
+      }
+    ],
+    "literal": "for sale",
+    "path": "Direct from the root: describes a person who is, in effect, 'for sale,' open to being bought or bribed.",
+    "cousins": [
+      "vend",
+      "vendor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "venality": {
+    "parts": [
+      {
+        "piece": "venum",
+        "origin": "Latin",
+        "meaning": "sale, thing for sale"
+      }
+    ],
+    "literal": "for-sale-ness",
+    "path": "Same root as venal: the state of being open to bribery, willing to be bought.",
+    "cousins": [
+      "vend",
+      "vendor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "veneer": {
+    "parts": [
+      {
+        "piece": "fournir",
+        "origin": "French",
+        "meaning": "to furnish, provide"
+      }
+    ],
+    "literal": "to furnish (a surface)",
+    "path": "Originally a thin decorative wood layer applied to cover a cheaper wood beneath. It extended figuratively to a thin, deceptive surface appearance concealing what lies underneath.",
+    "cousins": [
+      "furnish",
+      "furniture"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "venerable": {
+    "parts": [
+      {
+        "piece": "venerari",
+        "origin": "Latin",
+        "meaning": "to worship, revere"
+      }
+    ],
+    "literal": "worthy of reverence",
+    "path": "Direct from the root: commanding deep respect, often earned through age or achievement.",
+    "cousins": [
+      "venerate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "venerate": {
+    "parts": [
+      {
+        "piece": "venerari",
+        "origin": "Latin",
+        "meaning": "to worship, revere"
+      }
+    ],
+    "literal": "to regard with reverence",
+    "path": "Direct from the root: to worship or regard with deep respect and devotion.",
+    "cousins": [
+      "venerable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "venerated": {
+    "parts": [
+      {
+        "piece": "venerari",
+        "origin": "Latin",
+        "meaning": "to worship, revere"
+      }
+    ],
+    "literal": "reverently regarded",
+    "path": "Same root as venerate: deeply respected by others.",
+    "cousins": [
+      "venerable"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "venial": {
+    "parts": [
+      {
+        "piece": "venia",
+        "origin": "Latin",
+        "meaning": "forgiveness, favor"
+      }
+    ],
+    "literal": "forgivable",
+    "path": "In Catholic theology a venial sin is a minor, forgivable one, unlike a mortal sin. The word extended to mean minor and forgivable generally.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "venture": {
+    "parts": [
+      {
+        "piece": "advenire",
+        "origin": "Latin",
+        "meaning": "to arrive, happen"
+      }
+    ],
+    "literal": "something about to happen",
+    "path": "A clipped form of 'adventure': to venture is to risk doing or saying something, taking a chance on an uncertain outcome.",
+    "cousins": [
+      "adventure",
+      "advent",
+      "avenue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "veracious": {
+    "parts": [
+      {
+        "piece": "verus",
+        "origin": "Latin",
+        "meaning": "true"
+      }
+    ],
+    "literal": "truthful",
+    "path": "Direct from the root: describes someone habitually truthful.",
+    "cousins": [
+      "verify",
+      "verity",
+      "aver"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "veracity": {
+    "parts": [
+      {
+        "piece": "verus",
+        "origin": "Latin",
+        "meaning": "true"
+      }
+    ],
+    "literal": "truthfulness",
+    "path": "Direct from the root: the quality of being truthful.",
+    "cousins": [
+      "verify",
+      "verity",
+      "aver"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "verbose": {
+    "parts": [
+      {
+        "piece": "verbum",
+        "origin": "Latin",
+        "meaning": "word"
+      }
+    ],
+    "literal": "full of words",
+    "path": "Direct from the root: using far more words than needed.",
+    "cousins": [
+      "verb",
+      "verbal",
+      "adverb"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "verdant": {
+    "parts": [
+      {
+        "piece": "viridis",
+        "origin": "Latin",
+        "meaning": "green"
+      }
+    ],
+    "literal": "green",
+    "path": "Direct from the root: green with lush, thriving vegetation.",
+    "cousins": [
+      "verdure"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "verisimilar": {
+    "parts": [
+      {
+        "piece": "verus",
+        "origin": "Latin",
+        "meaning": "true"
+      },
+      {
+        "piece": "similis",
+        "origin": "Latin",
+        "meaning": "like"
+      }
+    ],
+    "literal": "like the truth",
+    "path": "Direct from the parts: having the appearance of being true, resembling truth without necessarily being fact.",
+    "cousins": [
+      "verify",
+      "similar",
+      "simile"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "verisimilitude": {
+    "parts": [
+      {
+        "piece": "verus",
+        "origin": "Latin",
+        "meaning": "true"
+      },
+      {
+        "piece": "similis",
+        "origin": "Latin",
+        "meaning": "like"
+      }
+    ],
+    "literal": "likeness to truth",
+    "path": "Same root as verisimilar: the quality or appearance of being true or real, especially in fiction or representation.",
+    "cousins": [
+      "verify",
+      "similar",
+      "simile"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "veritable": {
+    "parts": [
+      {
+        "piece": "verus",
+        "origin": "Latin",
+        "meaning": "true"
+      }
+    ],
+    "literal": "truthful",
+    "path": "Direct from the root: genuine, real, often used for emphasis, as in 'a veritable feast.'",
+    "cousins": [
+      "verify",
+      "verity",
+      "aver"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

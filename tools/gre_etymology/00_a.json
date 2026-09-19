@@ -1,0 +1,452 @@
+{
+  "abase": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "bassus", "origin": "Late Latin", "meaning": "low"}],
+    "literal": "bring low",
+    "path": "From physically lowering something, the word shifted to lowering a person's rank, dignity, or self-respect.",
+    "cousins": ["base", "debase", "bass"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abash": {
+    "parts": [{"piece": "es-", "origin": "Old French", "meaning": "out (intensive)"}, {"piece": "bahir", "origin": "Old French", "meaning": "to be astonished (obscure origin)"}],
+    "literal": "utterly astonish",
+    "path": "Old French esbahir meant to stun with amazement; that stunned feeling narrowed to the discomposure and embarrassment the word now names. The root bahir itself is of unclear, possibly imitative origin.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abate": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "battuere", "origin": "Vulgar Latin", "meaning": "to beat"}],
+    "literal": "beat down",
+    "path": "Beating something down in force gave the general sense of any intensity being beaten down, i.e. lessened.",
+    "cousins": ["batter", "battle", "combat"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "abdicate": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "away"}, {"piece": "dicare", "origin": "Latin", "meaning": "to proclaim"}],
+    "literal": "proclaim away",
+    "path": "A Roman legal term for formally disowning or renouncing a claim; applied especially to monarchs publicly declaring away their power or office.",
+    "cousins": ["dictate", "predict", "verdict"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "aberrant": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "away"}, {"piece": "errare", "origin": "Latin", "meaning": "to wander"}],
+    "literal": "wandering away",
+    "path": "Straying off a physical path became straying from the normal or expected course of things.",
+    "cousins": ["err", "error", "erratic"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "aberration": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "away"}, {"piece": "errare", "origin": "Latin", "meaning": "to wander"}],
+    "literal": "a wandering away",
+    "path": "Same image as aberrant: a straying off course, applied to any instance that departs from the normal pattern.",
+    "cousins": ["err", "error", "erratic"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abet": {
+    "parts": [{"piece": "a-", "origin": "Old French", "meaning": "to"}, {"piece": "beter", "origin": "Old French, from Old Norse beita", "meaning": "to bait, cause to bite"}],
+    "literal": "cause to bite",
+    "path": "Originally about goading a hunting dog to attack; extended to urging or encouraging someone on, usually in wrongdoing.",
+    "cousins": ["bait"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abeyance": {
+    "parts": [{"piece": "a-", "origin": "Old French", "meaning": "to"}, {"piece": "baer", "origin": "Old French, from Latin batare", "meaning": "to gape, aspire to"}],
+    "literal": "a gaping, expectant waiting",
+    "path": "A legal term for property whose ownership was in expectancy, gaping open awaiting a claimant; generalized to any state of temporary suspension.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "abhor": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "away from"}, {"piece": "horrere", "origin": "Latin", "meaning": "to bristle, shudder"}],
+    "literal": "to shudder away from",
+    "path": "The physical bristling of hair in fear or disgust became the strong revulsion and hatred the word now describes.",
+    "cousins": ["horror", "horrible", "horrendous"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abide": {
+    "parts": [{"piece": "a-", "origin": "Old English", "meaning": "intensive prefix"}, {"piece": "bidan", "origin": "Old English", "meaning": "to wait, remain"}],
+    "literal": "to wait, remain",
+    "path": "Remaining in place through something extended naturally to enduring or tolerating it, and separately to dwelling somewhere.",
+    "cousins": ["bide"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "abject": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "away"}, {"piece": "iacere", "origin": "Latin", "meaning": "to throw"}],
+    "literal": "thrown away, cast down",
+    "path": "Something cast off and left lying became the image for a wretched, degraded, hopeless condition.",
+    "cousins": ["eject", "reject", "project"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abjure": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "away"}, {"piece": "iurare", "origin": "Latin", "meaning": "to swear"}],
+    "literal": "to swear away",
+    "path": "Swearing an oath against something became the general act of formally renouncing it, often under oath.",
+    "cousins": ["jury", "perjure", "jurist"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "abound": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "intensive"}, {"piece": "undare", "origin": "Latin, from unda", "meaning": "to overflow, wave"}],
+    "literal": "to overflow",
+    "path": "A river overflowing its banks became the image for anything existing in overflowing, great quantity.",
+    "cousins": ["abundant", "undulate", "inundate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "aboveboard": {
+    "parts": [{"piece": "above", "origin": "Old English", "meaning": "above"}, {"piece": "board", "origin": "Old English", "meaning": "table"}],
+    "literal": "above the table",
+    "path": "From card players keeping their hands visible above the gaming table so no one could swap or hide cards, extended to any open, honest dealing.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "abrasive": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "off"}, {"piece": "radere", "origin": "Latin", "meaning": "to scrape"}],
+    "literal": "scraped off",
+    "path": "The physical scraping and grinding of a rough surface became the image for a harsh, grating personal manner.",
+    "cousins": ["erase", "raze", "razor"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abreast": {
+    "parts": [{"piece": "a-", "origin": "Old English", "meaning": "on"}, {"piece": "breast", "origin": "Old English", "meaning": "breast"}],
+    "literal": "side by side, breast to breast",
+    "path": "People or ships standing level in a row became the figure for staying level with, i.e. up to date on, current information.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "abridge": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "brevis", "origin": "Latin", "meaning": "short"}],
+    "literal": "to make short",
+    "path": "Making something physically shorter extended naturally to condensing a text while keeping its essential content.",
+    "cousins": ["brief", "abbreviate", "brevity"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "abrogate": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "away"}, {"piece": "rogare", "origin": "Latin", "meaning": "to propose a law, ask"}],
+    "literal": "propose away",
+    "path": "A Roman legal term for repealing a law by a formal vote, generalized to abolishing any rule or agreement.",
+    "cousins": ["interrogate", "prerogative", "derogatory"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abscission": {
+    "parts": [{"piece": "ab-", "origin": "Latin", "meaning": "off"}, {"piece": "scindere", "origin": "Latin", "meaning": "to cut, split"}],
+    "literal": "a cutting off",
+    "path": "The straightforward image of cutting something off applies equally to surgical removal and to a plant naturally shedding its leaves.",
+    "cousins": ["scissors", "schism", "rescind"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "abscond": {
+    "parts": [{"piece": "abs-", "origin": "Latin", "meaning": "away"}, {"piece": "condere", "origin": "Latin", "meaning": "to hide, put together"}],
+    "literal": "to hide away",
+    "path": "Hiding oneself away became specifically fleeing secretly, especially to escape capture or avoid an obligation.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abstain": {
+    "parts": [{"piece": "abs-", "origin": "Latin", "meaning": "away"}, {"piece": "tenere", "origin": "Latin", "meaning": "to hold"}],
+    "literal": "to hold oneself away",
+    "path": "Physically holding oneself back from something became deliberately refraining from an act, a vote, or an indulgence.",
+    "cousins": ["contain", "maintain", "retain"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "abstemious": {
+    "parts": [{"piece": "abs-", "origin": "Latin", "meaning": "away"}, {"piece": "temetum", "origin": "Latin", "meaning": "intoxicating drink"}],
+    "literal": "away from strong drink",
+    "path": "Originally about avoiding alcohol specifically, the word broadened to sparing moderation in eating and drinking generally.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "abstract": {
+    "parts": [{"piece": "abs-", "origin": "Latin", "meaning": "away"}, {"piece": "trahere", "origin": "Latin", "meaning": "to draw, pull"}],
+    "literal": "drawn away",
+    "path": "Drawing an idea away from its concrete, material instances gave the sense of something existing only as a concept.",
+    "cousins": ["attract", "extract", "traction"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "abstruse": {
+    "parts": [{"piece": "abs-", "origin": "Latin", "meaning": "away"}, {"piece": "trudere", "origin": "Latin", "meaning": "to push, thrust"}],
+    "literal": "pushed away, hidden",
+    "path": "Something thrust out of sight became the figure for ideas pushed beyond easy reach of understanding, i.e. obscure.",
+    "cousins": ["intrude", "protrude", "extrude"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abut": {
+    "parts": [{"piece": "a-", "origin": "Old French", "meaning": "to"}, {"piece": "bout", "origin": "Old French, Germanic origin", "meaning": "end"}],
+    "literal": "to push end to end",
+    "path": "Two pieces of land or structure pushed together end to end became the general sense of bordering on or touching.",
+    "cousins": ["butt"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "abysmal": {
+    "parts": [{"piece": "a-", "origin": "Greek", "meaning": "without"}, {"piece": "byssos", "origin": "Greek", "meaning": "bottom, depth"}],
+    "literal": "bottomless",
+    "path": "A literally bottomless pit became a hyperbole for anything of extreme, seemingly unmeasurable badness.",
+    "cousins": ["abyss"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "abyss": {
+    "parts": [{"piece": "a-", "origin": "Greek", "meaning": "without"}, {"piece": "byssos", "origin": "Greek", "meaning": "bottom, depth"}],
+    "literal": "without bottom",
+    "path": "Describes literally bottomless chasms and gulfs, and by extension any immense, seemingly unmeasurable void.",
+    "cousins": ["abysmal"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "accede": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "cedere", "origin": "Latin", "meaning": "to go, yield"}],
+    "literal": "to go toward",
+    "path": "Approaching and going along with a proposal became the sense of formally agreeing or yielding to a demand.",
+    "cousins": ["proceed", "exceed", "concede"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "accentuate": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "cantus", "origin": "Latin, from canere", "meaning": "song, singing"}],
+    "literal": "to add a singing tone",
+    "path": "Originally about vocal stress or pitch (an accent), the word broadened to emphasizing or making anything more noticeable.",
+    "cousins": ["chant", "enchant", "cantata"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "access": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "cedere", "origin": "Latin", "meaning": "to go"}],
+    "literal": "a going to",
+    "path": "The physical act of approaching a place became the general right or means of reaching it.",
+    "cousins": ["accede", "exceed", "proceed"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "accessible": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "cedere", "origin": "Latin", "meaning": "to go"}],
+    "literal": "able to be gone to",
+    "path": "Something one can physically go to or reach extended to anything easy to reach or, figuratively, easy to understand.",
+    "cousins": ["access", "accede", "proceed"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "acclaim": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "clamare", "origin": "Latin", "meaning": "to shout, cry out"}],
+    "literal": "to shout toward",
+    "path": "Crowds shouting their approval at someone gave rise to the general sense of enthusiastic public praise.",
+    "cousins": ["claim", "clamor", "exclaim"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "accolade": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "collum", "origin": "Latin", "meaning": "neck"}],
+    "literal": "an embracing around the neck",
+    "path": "The ceremonial neck embrace, or later the touch on the shoulders, used to confer knighthood became a symbol of honor, then any award or praise.",
+    "cousins": ["collar"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "accord": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "cor, cordis", "origin": "Latin", "meaning": "heart"}],
+    "literal": "heart to heart",
+    "path": "Bringing hearts into alignment gave the sense of harmony or agreement, especially between parties in a formal understanding.",
+    "cousins": ["cordial", "concord", "discord"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "accretion": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "crescere", "origin": "Latin", "meaning": "to grow"}],
+    "literal": "a growing onto",
+    "path": "Material growing onto a surface, layer by layer, became the general image for any gradual growth by accumulation.",
+    "cousins": ["increase", "crescent", "concrete"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "acerbic": {
+    "parts": [{"piece": "acerbus", "origin": "Latin", "meaning": "sour, harsh (related to acer, sharp)"}],
+    "literal": "sour, harsh",
+    "path": "The literal sourness of unripe fruit became a figure for a sharp, biting tone in speech or wit.",
+    "cousins": ["acid", "acrid", "exacerbate"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "acidulous": {
+    "parts": [{"piece": "acidus", "origin": "Latin", "meaning": "sour"}, {"piece": "-ulus", "origin": "Latin", "meaning": "somewhat, diminutive"}],
+    "literal": "somewhat sour",
+    "path": "A mild literal sourness in taste extended to a slightly sharp, biting quality in tone or manner.",
+    "cousins": ["acid", "acerbic"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "acme": {
+    "parts": [{"piece": "akme", "origin": "Greek", "meaning": "point, highest point"}],
+    "literal": "the sharp point",
+    "path": "A word for a sharp point or edge came to mark the highest point of achievement or development, the peak.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "acolyte": {
+    "parts": [{"piece": "a-", "origin": "Greek", "meaning": "together"}, {"piece": "keleuthos", "origin": "Greek", "meaning": "path, road"}],
+    "literal": "one who follows the same path",
+    "path": "Originally a church assistant who accompanied and served a priest; generalized to any devoted follower or assistant.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "acquiesce": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "quiescere", "origin": "Latin, from quies", "meaning": "to rest"}],
+    "literal": "to come to rest",
+    "path": "Settling into calm or rest became the sense of accepting something quietly, without protest, even if reluctantly.",
+    "cousins": ["quiet", "requiem"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "acquisitive": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "quaerere", "origin": "Latin", "meaning": "to seek, gain"}],
+    "literal": "seeking to get",
+    "path": "The act of seeking and obtaining things became a general disposition of eagerness for gaining possessions or wealth.",
+    "cousins": ["acquire", "inquire", "require"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "acrid": {
+    "parts": [{"piece": "acer, acris", "origin": "Latin", "meaning": "sharp, pungent"}],
+    "literal": "sharp, pungent",
+    "path": "A sharp, burning taste or smell became a figure for sharpness in tone, criticism, or manner.",
+    "cousins": ["acute", "acid", "acrimony"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "acrimonious": {
+    "parts": [{"piece": "acer", "origin": "Latin", "meaning": "sharp"}, {"piece": "-monia", "origin": "Latin", "meaning": "noun suffix, state of"}],
+    "literal": "in a state of sharpness",
+    "path": "The sharpness or bitterness of taste became a figure for the bitter, angry tone of a dispute.",
+    "cousins": ["acrid", "acute", "acid"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "acrimony": {
+    "parts": [{"piece": "acer", "origin": "Latin", "meaning": "sharp"}, {"piece": "-monia", "origin": "Latin", "meaning": "state of"}],
+    "literal": "a state of sharpness",
+    "path": "Sharpness of taste extended metaphorically to bitterness or sharpness of feeling between people in conflict.",
+    "cousins": ["acrid", "acute", "acid"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "activism": {
+    "parts": [{"piece": "actus", "origin": "Latin, from agere", "meaning": "a doing, driving"}, {"piece": "-ism", "origin": "Greek", "meaning": "doctrine, practice"}],
+    "literal": "the practice of acting",
+    "path": "From the general notion of taking action, the word narrowed to organized, vigorous action aimed at political or social change.",
+    "cousins": ["act", "agent", "react"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "actuate": {
+    "parts": [{"piece": "actus", "origin": "Latin, from agere", "meaning": "a doing, driving"}, {"piece": "-are", "origin": "Latin", "meaning": "verb-forming suffix"}],
+    "literal": "to put into action",
+    "path": "The idea of driving something into motion applies literally to mechanisms and figuratively to motivating a person to act.",
+    "cousins": ["act", "react", "agent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "acumen": {
+    "parts": [{"piece": "acumen", "origin": "Latin, from acuere", "meaning": "a sharpened point"}],
+    "literal": "a sharp point",
+    "path": "A physically sharpened point became a figure for a mind sharpened by experience: keen insight and shrewd judgment.",
+    "cousins": ["acute"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "adage": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "aio", "origin": "Latin", "meaning": "I say"}],
+    "literal": "a thing said",
+    "path": "Directly from the general notion of a saying to a traditional saying that has proven durable and expresses common wisdom.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "adamant": {
+    "parts": [{"piece": "a-", "origin": "Greek", "meaning": "not"}, {"piece": "daman", "origin": "Greek", "meaning": "to tame, subdue"}],
+    "literal": "untameable",
+    "path": "Originally named a legendary hardest substance that nothing could break or subdue, later diamond itself; applied to a person's will that cannot be bent.",
+    "cousins": ["diamond"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "adept": {
+    "parts": [{"piece": "ad-", "origin": "Latin", "meaning": "to"}, {"piece": "apisci", "origin": "Latin", "meaning": "to reach, attain"}],
+    "literal": "having attained",
+    "path": "Originally described alchemists who had attained the secret of transmutation; broadened to anyone who has attained mastery of a skill.",
+    "cousins": ["apt"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  }
+}

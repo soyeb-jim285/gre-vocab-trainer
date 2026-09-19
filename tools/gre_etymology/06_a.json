@@ -1,0 +1,984 @@
+{
+  "meticulous": {
+    "parts": [
+      {
+        "piece": "metus",
+        "origin": "Latin",
+        "meaning": "fear"
+      },
+      {
+        "piece": "-ulosus",
+        "origin": "Latin",
+        "meaning": "full of"
+      }
+    ],
+    "literal": "full of fear",
+    "path": "Latin meticulosus meant fearful or timid. In English use, that fear of making a mistake narrowed to extreme carefulness about detail, so meticulous came to mean scrupulously thorough rather than afraid.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "mettle": {
+    "parts": [
+      {
+        "piece": "metal",
+        "origin": "Middle English",
+        "meaning": "metal"
+      }
+    ],
+    "literal": "the metal one is made of",
+    "path": "Mettle is literally the same word as metal. The metaphor of testing metal by fire gave 'metal' a figurative sense of inner quality, and the spelling split off as mettle to carry that sense of courage and spirit alone.",
+    "cousins": [
+      "metal",
+      "metallic"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "mettlesome": {
+    "parts": [
+      {
+        "piece": "mettle",
+        "origin": "Middle English",
+        "meaning": "spirit, courage (from metal)"
+      },
+      {
+        "piece": "-some",
+        "origin": "Old English",
+        "meaning": "full of, given to"
+      }
+    ],
+    "literal": "full of mettle",
+    "path": "Built directly on mettle (see mettle) with the adjective suffix -some, as in tiresome or worrisome, giving a word for someone full of spirited courage.",
+    "cousins": [
+      "metal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "microcosm": {
+    "parts": [
+      {
+        "piece": "mikros",
+        "origin": "Greek",
+        "meaning": "small"
+      },
+      {
+        "piece": "kosmos",
+        "origin": "Greek",
+        "meaning": "world, order"
+      }
+    ],
+    "literal": "small world",
+    "path": "Greek philosophers described a human being, or any small system, as a mikros kosmos, a miniature version of the universe mirroring its structure. English microcosm keeps that sense of a small thing standing in for a much larger one.",
+    "cousins": [
+      "microscope",
+      "cosmos",
+      "cosmopolitan"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mien": {
+    "parts": [
+      {
+        "piece": "mine",
+        "origin": "French",
+        "meaning": "facial expression, appearance"
+      }
+    ],
+    "literal": "facial expression, look",
+    "path": "French mine meant expression or appearance; English borrowed it as mien for a person's overall bearing or manner. The word's own origin before French is disputed.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "milieu": {
+    "parts": [
+      {
+        "piece": "mi-",
+        "origin": "Latin",
+        "meaning": "middle (medius)"
+      },
+      {
+        "piece": "lieu",
+        "origin": "Latin",
+        "meaning": "place (locus)"
+      }
+    ],
+    "literal": "middle place",
+    "path": "French milieu literally names the middle place, the space one sits in the midst of. English borrowed it whole for the social or cultural surroundings that shape a person.",
+    "cousins": [
+      "medium",
+      "mediate",
+      "location"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "militate": {
+    "parts": [
+      {
+        "piece": "milit-",
+        "origin": "Latin",
+        "meaning": "soldier (miles)"
+      }
+    ],
+    "literal": "to serve as a soldier, fight",
+    "path": "Latin militare meant to serve in the army, to fight. The word generalized to any factor that 'fights' for or against an outcome, so evidence can militate for or against a conclusion.",
+    "cousins": [
+      "military",
+      "militia",
+      "militant"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "milk": {
+    "parts": [
+      {
+        "piece": "milk",
+        "origin": "Old English",
+        "meaning": "milk"
+      }
+    ],
+    "literal": "to draw milk from an animal",
+    "path": "The literal act of milking, drawing every last drop from an udder, extended figuratively to draining any situation, joke, or opportunity for everything it can yield.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "mimic": {
+    "parts": [
+      {
+        "piece": "mimos",
+        "origin": "Greek",
+        "meaning": "imitator, actor"
+      }
+    ],
+    "literal": "an imitator, actor",
+    "path": "Greek mimos named a comic actor who imitated others' voices and mannerisms on stage. English mimic kept that core sense: to closely copy someone's speech, actions, or appearance.",
+    "cousins": [
+      "mime",
+      "pantomime"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mincing": {
+    "parts": [
+      {
+        "piece": "minutia",
+        "origin": "Latin",
+        "meaning": "smallness (minutus, made small)"
+      }
+    ],
+    "literal": "cutting into small pieces",
+    "path": "To mince originally meant to cut food into tiny pieces. The verb extended to walking in small, dainty, affected steps, as if measuring each one out precisely, giving mincing its sense of exaggerated daintiness.",
+    "cousins": [
+      "minute",
+      "diminish",
+      "miniature"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "minute": {
+    "parts": [
+      {
+        "piece": "minutus",
+        "origin": "Latin",
+        "meaning": "made small (minuere, to lessen)"
+      }
+    ],
+    "literal": "made small",
+    "path": "Latin minuere meant to lessen or make smaller; its participle minutus described anything reduced to a small size. English minute (stressed on the second syllable) kept that sense of extreme smallness or fine detail.",
+    "cousins": [
+      "diminish",
+      "minor",
+      "miniature"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mired": {
+    "parts": [
+      {
+        "piece": "mýrr",
+        "origin": "Old Norse",
+        "meaning": "swamp, bog"
+      }
+    ],
+    "literal": "stuck in a swamp",
+    "path": "A mire is a boggy swamp that traps whatever steps into it. To be mired became figurative for being stuck fast in any difficult situation, unable to move forward.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "mirth": {
+    "parts": [
+      {
+        "piece": "myrge",
+        "origin": "Old English",
+        "meaning": "merry"
+      }
+    ],
+    "literal": "merriment, joy",
+    "path": "Old English myrgð was the noun form of merry, meaning joy or pleasure. Modern English narrowed it slightly to the amusement and laughter that comes with that joy.",
+    "cousins": [
+      "merry",
+      "merriment"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "misanthrope": {
+    "parts": [
+      {
+        "piece": "miso-",
+        "origin": "Greek",
+        "meaning": "hatred"
+      },
+      {
+        "piece": "anthropos",
+        "origin": "Greek",
+        "meaning": "human being"
+      }
+    ],
+    "literal": "hater of humankind",
+    "path": "Greek combined miso- (hate) with anthropos (human) to name someone who hates people in general, not from one bad experience but as a stance toward humanity itself.",
+    "cousins": [
+      "philanthropist",
+      "anthropology"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "misanthropic": {
+    "parts": [
+      {
+        "piece": "miso-",
+        "origin": "Greek",
+        "meaning": "hatred"
+      },
+      {
+        "piece": "anthropos",
+        "origin": "Greek",
+        "meaning": "human being"
+      }
+    ],
+    "literal": "hating humankind",
+    "path": "The adjective form of misanthrope (see misanthrope), describing an outlook of general dislike for humankind.",
+    "cousins": [
+      "philanthropic",
+      "anthropology"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "misappropriate": {
+    "parts": [
+      {
+        "piece": "mis-",
+        "origin": "Old French",
+        "meaning": "wrongly"
+      },
+      {
+        "piece": "proprius",
+        "origin": "Latin",
+        "meaning": "one's own"
+      }
+    ],
+    "literal": "to wrongly make one's own",
+    "path": "Appropriate comes from Latin proprius, one's own; to appropriate is to take something as your own. Adding mis- (wrongly) gives misappropriate: to take dishonestly what belongs to someone else.",
+    "cousins": [
+      "property",
+      "propriety",
+      "appropriate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "misconstrue": {
+    "parts": [
+      {
+        "piece": "mis-",
+        "origin": "Old French",
+        "meaning": "wrongly"
+      },
+      {
+        "piece": "construere",
+        "origin": "Latin",
+        "meaning": "to build together, arrange"
+      }
+    ],
+    "literal": "to wrongly build up (meaning)",
+    "path": "To construe originally meant to analyze how a sentence's parts fit together. Misconstrue adds wrongly to that: to build up the wrong meaning from someone's words.",
+    "cousins": [
+      "construct",
+      "structure",
+      "instruct"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "miscreant": {
+    "parts": [
+      {
+        "piece": "mes-",
+        "origin": "Old French",
+        "meaning": "wrongly"
+      },
+      {
+        "piece": "creant",
+        "origin": "Old French",
+        "meaning": "believing (croire, from Latin credere)"
+      }
+    ],
+    "literal": "wrongly believing, unbelieving",
+    "path": "In Old French a mescreant was literally a wrong believer, a heretic outside the true faith. Over time the religious insult drifted into a general term for any wrongdoer or villain.",
+    "cousins": [
+      "credible",
+      "credit",
+      "creed"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "miser": {
+    "parts": [
+      {
+        "piece": "miser",
+        "origin": "Latin",
+        "meaning": "wretched, unfortunate"
+      }
+    ],
+    "literal": "a wretched person",
+    "path": "Latin miser simply meant unhappy or wretched. English narrowed the word to a person whose self-imposed wretchedness comes specifically from hoarding money instead of spending it.",
+    "cousins": [
+      "miserable",
+      "misery",
+      "commiserate"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "miserly": {
+    "parts": [
+      {
+        "piece": "miser",
+        "origin": "Latin",
+        "meaning": "wretched, unfortunate"
+      }
+    ],
+    "literal": "wretched, like a hoarder",
+    "path": "Built from miser (see miser) with -ly, describing behavior fitting a person too wretchedly stingy to spend.",
+    "cousins": [
+      "miserable",
+      "misery"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "misnomer": {
+    "parts": [
+      {
+        "piece": "mis-",
+        "origin": "Old French",
+        "meaning": "wrongly"
+      },
+      {
+        "piece": "nomer",
+        "origin": "Old French",
+        "meaning": "to name (nomen)"
+      }
+    ],
+    "literal": "wrong naming",
+    "path": "Old French nomer, to name, combined with mis- gives a word for a wrongly applied name: a term that misleadingly labels the thing it refers to.",
+    "cousins": [
+      "nominate",
+      "nominal",
+      "nomenclature"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "misogynist": {
+    "parts": [
+      {
+        "piece": "miso-",
+        "origin": "Greek",
+        "meaning": "hatred"
+      },
+      {
+        "piece": "gyne",
+        "origin": "Greek",
+        "meaning": "woman"
+      }
+    ],
+    "literal": "hater of women",
+    "path": "Greek combined miso- (hate) with gyne (woman) to name someone whose contempt targets women specifically, paralleling how misanthrope names hatred of humankind generally.",
+    "cousins": [
+      "misanthrope",
+      "gynecology"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "missive": {
+    "parts": [
+      {
+        "piece": "missivus",
+        "origin": "Medieval Latin",
+        "meaning": "sent (mittere, to send)"
+      }
+    ],
+    "literal": "a sent thing",
+    "path": "Medieval Latin missivus described something sent, especially an official letter. English missive kept that narrow sense: a letter, especially a formal one.",
+    "cousins": [
+      "mission",
+      "transmit",
+      "dismiss"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mite": {
+    "parts": [
+      {
+        "piece": "mite",
+        "origin": "Old English",
+        "meaning": "tiny creature"
+      }
+    ],
+    "literal": "a tiny creature",
+    "path": "A mite is a minuscule parasitic arachnid barely visible to the eye. Its extreme smallness gave rise to the figurative sense of mite as any tiny amount, as in 'not one mite.'",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mitigate": {
+    "parts": [
+      {
+        "piece": "mitis",
+        "origin": "Latin",
+        "meaning": "mild, gentle"
+      },
+      {
+        "piece": "agere",
+        "origin": "Latin",
+        "meaning": "to do, drive"
+      }
+    ],
+    "literal": "to make mild",
+    "path": "Latin mitigare combined mitis (mild) with agere (to make), literally to render something mild. English mitigate kept that sense: to soften harshness, easing pain or severity.",
+    "cousins": [
+      "agent",
+      "react"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mode": {
+    "parts": [
+      {
+        "piece": "modus",
+        "origin": "Latin",
+        "meaning": "measure, manner"
+      }
+    ],
+    "literal": "a measure, manner",
+    "path": "Latin modus meant a measure or manner of doing something, the way something is done. English mode kept that core sense of a particular manner or way.",
+    "cousins": [
+      "modest",
+      "moderate",
+      "modify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "modest": {
+    "parts": [
+      {
+        "piece": "modus",
+        "origin": "Latin",
+        "meaning": "measure, manner, limit"
+      }
+    ],
+    "literal": "keeping to due measure",
+    "path": "Latin modestus meant staying within proper measure, not exceeding a limit. A modest person keeps their claims and behavior within due bounds instead of overstating them, and a modest size or amount stays moderate rather than large.",
+    "cousins": [
+      "mode",
+      "moderate",
+      "modify"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "modicum": {
+    "parts": [
+      {
+        "piece": "modicus",
+        "origin": "Latin",
+        "meaning": "moderate (from modus)"
+      }
+    ],
+    "literal": "a moderate amount",
+    "path": "Latin modicus described staying within moderate measure; its neuter noun modicum named a small, moderate quantity of something.",
+    "cousins": [
+      "mode",
+      "moderate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "modish": {
+    "parts": [
+      {
+        "piece": "mode",
+        "origin": "French",
+        "meaning": "fashion, style (from Latin modus)"
+      }
+    ],
+    "literal": "in the current fashion",
+    "path": "Here mode carries its secondary sense of fashion or style, as in 'a la mode.' Adding -ish gives modish: following the current fashion, often with a hint that the fashionableness is shallow.",
+    "cousins": [
+      "mode",
+      "model"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "mollify": {
+    "parts": [
+      {
+        "piece": "mollis",
+        "origin": "Latin",
+        "meaning": "soft"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "to make soft",
+    "path": "Latin mollis meant soft or gentle; combined with facere (to make), mollify literally means to make soft. English kept the figurative sense: to soften someone's anger, soothing them into calm.",
+    "cousins": [
+      "emollient",
+      "mollusk"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "molt": {
+    "parts": [
+      {
+        "piece": "mutare",
+        "origin": "Latin",
+        "meaning": "to change"
+      }
+    ],
+    "literal": "to change",
+    "path": "Molt traces to Latin mutare, to change. English narrowed the verb to the specific biological change of shedding feathers, skin, or shell as an animal renews itself.",
+    "cousins": [
+      "mutate",
+      "mutual",
+      "commute"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "moment": {
+    "parts": [
+      {
+        "piece": "movimentum",
+        "origin": "Latin",
+        "meaning": "movement, moving power (movere, to move)"
+      }
+    ],
+    "literal": "a moving, an instant of motion",
+    "path": "Latin momentum first meant the force that moves something, then narrowed to the brief instant in which motion happens. It also kept a sense of weight or importance, carried into English 'of great moment.'",
+    "cousins": [
+      "momentum",
+      "movement",
+      "motion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "momentary": {
+    "parts": [
+      {
+        "piece": "momentum",
+        "origin": "Latin",
+        "meaning": "instant of motion"
+      }
+    ],
+    "literal": "lasting only an instant",
+    "path": "Built from moment (see moment) with -ary, describing something that lasts only that brief instant.",
+    "cousins": [
+      "momentum",
+      "motion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "monastic": {
+    "parts": [
+      {
+        "piece": "monos",
+        "origin": "Greek",
+        "meaning": "alone, single"
+      }
+    ],
+    "literal": "living alone",
+    "path": "Greek monos (alone) gave monazein, to live in solitude, the root of the monks who withdrew from the world. Monastic describes the austere, secluded, rule-bound life of such communities.",
+    "cousins": [
+      "monk",
+      "monopoly",
+      "monotonous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "monetary": {
+    "parts": [
+      {
+        "piece": "moneta",
+        "origin": "Latin",
+        "meaning": "mint, coined money"
+      }
+    ],
+    "literal": "relating to the mint, money",
+    "path": "Latin moneta named the Roman mint, housed in the temple of Juno Moneta, and by extension the coins struck there, the source of English money. Monetary simply means relating to money or currency.",
+    "cousins": [
+      "money",
+      "mint"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "monotonous": {
+    "parts": [
+      {
+        "piece": "monos",
+        "origin": "Greek",
+        "meaning": "single, alone"
+      },
+      {
+        "piece": "tonos",
+        "origin": "Greek",
+        "meaning": "tone, pitch"
+      }
+    ],
+    "literal": "single-toned",
+    "path": "Greek combined monos (one) with tonos (tone) to describe speech or music stuck on a single note. English monotonous extended that to anything dull through sheer sameness.",
+    "cousins": [
+      "monotone",
+      "tone",
+      "intone"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "monotony": {
+    "parts": [
+      {
+        "piece": "monos",
+        "origin": "Greek",
+        "meaning": "single, alone"
+      },
+      {
+        "piece": "tonos",
+        "origin": "Greek",
+        "meaning": "tone, pitch"
+      }
+    ],
+    "literal": "single-toned state",
+    "path": "The noun form of monotonous (see monotonous): tedious sameness, as if everything were struck on the same note.",
+    "cousins": [
+      "monotone",
+      "tone"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "moot": {
+    "parts": [
+      {
+        "piece": "mot",
+        "origin": "Old English",
+        "meaning": "meeting, assembly"
+      }
+    ],
+    "literal": "a meeting for debate",
+    "path": "An Old English mot was a formal assembly where legal matters were argued, still preserved in 'moot court.' A moot point was one open for debate; the sense later drifted to also mean a point so hypothetical it's no longer practically relevant.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "morass": {
+    "parts": [
+      {
+        "piece": "moeras",
+        "origin": "Dutch",
+        "meaning": "marsh, swamp"
+      }
+    ],
+    "literal": "a marsh, swamp",
+    "path": "Morass entered English from Dutch moeras, a swamp. The literal boggy ground became a metaphor for any confusing, entangling situation one gets stuck in, like mud underfoot.",
+    "cousins": [
+      "marsh"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "moratorium": {
+    "parts": [
+      {
+        "piece": "morari",
+        "origin": "Latin",
+        "meaning": "to delay (mora, delay)"
+      },
+      {
+        "piece": "-orium",
+        "origin": "Latin",
+        "meaning": "place or instrument for"
+      }
+    ],
+    "literal": "an instrument for delaying",
+    "path": "Coined in the 19th century from Latin morari, to delay, moratorium first named a legal authorization to delay payment of debts. It now applies to any officially imposed suspension of an activity.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "morbid": {
+    "parts": [
+      {
+        "piece": "morbus",
+        "origin": "Latin",
+        "meaning": "disease, sickness"
+      }
+    ],
+    "literal": "diseased",
+    "path": "Latin morbus meant disease; morbidus described anything afflicted by it. English morbid kept the medical sense and extended it psychologically to an unhealthy preoccupation with death or gloom.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "mordant": {
+    "parts": [
+      {
+        "piece": "mordere",
+        "origin": "Latin",
+        "meaning": "to bite"
+      }
+    ],
+    "literal": "biting",
+    "path": "French mordre, to bite, gives mordant its literal sense. Applied to wit or criticism, mordant describes remarks that bite, cutting sharply and sarcastically into their target.",
+    "cousins": [
+      "remorse",
+      "morsel"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "moreover": {
+    "parts": [
+      {
+        "piece": "more",
+        "origin": "Old English",
+        "meaning": "more"
+      },
+      {
+        "piece": "over",
+        "origin": "Old English",
+        "meaning": "over, beyond"
+      }
+    ],
+    "literal": "more, over and above",
+    "path": "A straightforward Middle English compound of more and over, meaning beyond what has already been said. It simply signals that further information is coming.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mores": {
+    "parts": [
+      {
+        "piece": "mos, mor-",
+        "origin": "Latin",
+        "meaning": "custom, habit"
+      }
+    ],
+    "literal": "customs, habits",
+    "path": "Latin mos/mores named the customary norms a community lives by, the unwritten rules of acceptable behavior. English borrowed the plural directly with the same sense.",
+    "cousins": [
+      "moral",
+      "morale"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "moribund": {
+    "parts": [
+      {
+        "piece": "mori",
+        "origin": "Latin",
+        "meaning": "to die"
+      }
+    ],
+    "literal": "dying, at the point of death",
+    "path": "Latin mori, to die, gives moribundus its literal sense of being on the verge of death. English moribund applies to the literally dying and, figuratively, to institutions in terminal decline.",
+    "cousins": [
+      "mortal",
+      "mortuary",
+      "immortal"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "morose": {
+    "parts": [
+      {
+        "piece": "mos, mor-",
+        "origin": "Latin",
+        "meaning": "custom, disposition"
+      }
+    ],
+    "literal": "fixed in one's ways",
+    "path": "Latin morosus described someone stubbornly fixed in their own temperament, hard to please. English narrowed that inflexible disposition to a specifically gloomy, sullen mood.",
+    "cousins": [
+      "moral",
+      "mores"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "morph": {
+    "parts": [
+      {
+        "piece": "morphe",
+        "origin": "Greek",
+        "meaning": "form, shape"
+      }
+    ],
+    "literal": "form, shape",
+    "path": "Morph was clipped in the late 20th century from metamorphosis, itself built on Greek morphe, form. Morphing names the fluid transformation from one shape into another, especially in computer animation.",
+    "cousins": [
+      "metamorphosis",
+      "amorphous"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mortify": {
+    "parts": [
+      {
+        "piece": "mors, mort-",
+        "origin": "Latin",
+        "meaning": "death"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make"
+      }
+    ],
+    "literal": "to make dead",
+    "path": "Latin mortificare meant literally to put to death or deaden, as ascetics 'mortified the flesh' to subdue desire. The sense weakened figuratively: to mortify someone now means to humiliate them deeply, as if withering them with shame.",
+    "cousins": [
+      "mortal",
+      "immortal",
+      "mortuary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "mote": {
+    "parts": [
+      {
+        "piece": "mot",
+        "origin": "Old English",
+        "meaning": "speck, particle"
+      }
+    ],
+    "literal": "a speck of dust",
+    "path": "An Old English mot was simply a tiny speck, especially of dust floating in a sunbeam, as in the biblical 'mote in thy brother's eye.' Modern English kept the word for any tiny particle.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "mountebank": {
+    "parts": [
+      {
+        "piece": "montare",
+        "origin": "Italian",
+        "meaning": "to mount, climb"
+      },
+      {
+        "piece": "banco",
+        "origin": "Italian",
+        "meaning": "bench"
+      }
+    ],
+    "literal": "one who climbs onto a bench",
+    "path": "In Italian marketplaces, a montambanco literally climbed onto a bench to draw a crowd and hawk fake medicines with a loud pitch. English mountebank kept that image: a showy charlatan peddling false remedies.",
+    "cousins": [
+      "mount",
+      "bank"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

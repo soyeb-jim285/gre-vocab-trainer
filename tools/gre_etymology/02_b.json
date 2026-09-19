@@ -1,0 +1,988 @@
+{
+  "culpable": {
+    "parts": [
+      {
+        "piece": "culpa",
+        "origin": "Latin",
+        "meaning": "fault, blame"
+      }
+    ],
+    "literal": "blameworthy",
+    "path": "From culpa, 'fault,' with the suffix meaning 'able to be.' Someone culpable is open to blame for a fault.",
+    "cousins": [
+      "culprit",
+      "exculpate",
+      "inculpate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cultured": {
+    "parts": [
+      {
+        "piece": "colere",
+        "origin": "Latin",
+        "meaning": "to cultivate, tend"
+      }
+    ],
+    "literal": "cultivated",
+    "path": "Like a field carefully tended, a cultured person has been developed and refined through education and exposure to the arts.",
+    "cousins": [
+      "cultivate",
+      "agriculture"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "cumbersome": {
+    "parts": [
+      {
+        "piece": "combrer",
+        "origin": "Old French",
+        "meaning": "to obstruct, block"
+      }
+    ],
+    "literal": "obstructive, like a heap in the way",
+    "path": "Rooted in an Old French word for blocking or heaping up an obstacle. Something cumbersome sits in the way like a heap, awkward to carry or manage.",
+    "cousins": [
+      "encumber",
+      "accumulate",
+      "cumulus"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cunning": {
+    "parts": [
+      {
+        "piece": "cunnan",
+        "origin": "Old English",
+        "meaning": "to know, be able"
+      }
+    ],
+    "literal": "knowing",
+    "path": "Originally just meant knowledgeable or skillful. Over time that skill narrowed specifically to skill used slyly, at others' expense.",
+    "cousins": [
+      "ken",
+      "uncanny"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cupidity": {
+    "parts": [
+      {
+        "piece": "cupere",
+        "origin": "Latin",
+        "meaning": "to desire"
+      }
+    ],
+    "literal": "strong desire",
+    "path": "From cupere, 'to desire,' the same root behind Cupid and covet. Cupidity narrows that desire to greed for wealth specifically.",
+    "cousins": [
+      "covet"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "curb": {
+    "parts": [
+      {
+        "piece": "curvus",
+        "origin": "Latin",
+        "meaning": "bent, curved"
+      }
+    ],
+    "literal": "a curved strap",
+    "path": "A curb was originally the curved strap or bit under a horse's jaw used to rein it in. The verb kept that sense of checking and restraining.",
+    "cousins": [
+      "curve",
+      "curvature"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "curmudgeon": {
+    "parts": [
+      {
+        "piece": "curmudgeon",
+        "origin": "unknown",
+        "meaning": "uncertain"
+      }
+    ],
+    "literal": "unknown",
+    "path": "Origin genuinely unknown; old guesses linking it to French words for 'evil heart' are not supported by evidence. The word has simply always meant a grouchy, complaining person.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "cursory": {
+    "parts": [
+      {
+        "piece": "cursor",
+        "origin": "Latin",
+        "meaning": "runner"
+      }
+    ],
+    "literal": "running, done at a run",
+    "path": "From currere, 'to run.' A cursory glance is done at a run, passing over something quickly without stopping to look closely.",
+    "cousins": [
+      "current",
+      "course",
+      "occur",
+      "excursion"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "curtail": {
+    "parts": [
+      {
+        "piece": "curtus",
+        "origin": "Latin",
+        "meaning": "cut short"
+      }
+    ],
+    "literal": "made short",
+    "path": "From Latin curtus, 'cut short' (the same idea behind docking a horse's tail short). To curtail something is to shorten or cut it back.",
+    "cousins": [
+      "curt"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "cynical": {
+    "parts": [
+      {
+        "piece": "kyon / kyn-",
+        "origin": "Greek",
+        "meaning": "dog"
+      }
+    ],
+    "literal": "dog-like",
+    "path": "Greek kynikos, dog-like, was the nickname stuck to the Cynic philosophers (followers of Diogenes), who scorned social convention and lived with a shameless, scavenging manner people compared to dogs. Exactly why 'dog' stuck is debated among historians (their manners, or a gymnasium called Cynosarges). Their sneering rejection of polite pretense narrowed over centuries into cynical: assuming people act from low self-interest and distrusting stated motives.",
+    "cousins": [
+      "cynosure"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "dais": {
+    "parts": [
+      {
+        "piece": "discus",
+        "origin": "Latin",
+        "meaning": "disk, platform"
+      }
+    ],
+    "literal": "a disk, a raised platform",
+    "path": "From the same Latin word as 'disk' and 'desk.' A dais is a raised platform, originally a table platform for the high table at a feast.",
+    "cousins": [
+      "disk",
+      "dish",
+      "desk"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dalliance": {
+    "parts": [
+      {
+        "piece": "dalier",
+        "origin": "Old French",
+        "meaning": "to chat, amuse oneself, flirt"
+      }
+    ],
+    "literal": "idle chatting, flirting",
+    "path": "Built on 'dally,' an Old French word of uncertain deeper origin for chatting and amusing oneself idly. A dalliance is exactly that: a brief flirtation or idle time-wasting.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "damp": {
+    "parts": [
+      {
+        "piece": "damp",
+        "origin": "Germanic",
+        "meaning": "vapor, noxious exhalation"
+      }
+    ],
+    "literal": "vapor, mist",
+    "path": "Originally a smothering vapor or noxious mine gas. The verb kept that smothering sense: to damp a fire or sound is to choke it down the way vapor smothers a flame.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "dapper": {
+    "parts": [
+      {
+        "piece": "dapper",
+        "origin": "Middle Dutch",
+        "meaning": "bold, sturdy, brave"
+      }
+    ],
+    "literal": "brave, sturdy",
+    "path": "Originally praised courage or sturdiness, often used half-mockingly of small, spirited men. The sense drifted from bold bearing to a sharp, neat bearing in dress.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "daunt": {
+    "parts": [
+      {
+        "piece": "domitare",
+        "origin": "Latin",
+        "meaning": "to tame"
+      }
+    ],
+    "literal": "to tame",
+    "path": "From the Latin verb for taming a wild animal. To daunt someone is to break their courage the way a wild creature is broken to obedience.",
+    "cousins": [
+      "indomitable",
+      "tame"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "daunting": {
+    "parts": [
+      {
+        "piece": "domitare",
+        "origin": "Latin",
+        "meaning": "to tame"
+      }
+    ],
+    "literal": "taming, subduing",
+    "path": "Same root as daunt: something daunting is imagined as strong enough to tame or subdue one's courage.",
+    "cousins": [
+      "indomitable",
+      "tame"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "dawdle": {
+    "parts": [
+      {
+        "piece": "dawdle",
+        "origin": "unknown",
+        "meaning": "uncertain, perhaps related to walking unsteadily"
+      }
+    ],
+    "literal": "uncertain",
+    "path": "Origin unclear, possibly linked to old dialect words for shuffling or working slovenly. The word has long simply meant wasting time by moving slowly.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "dearth": {
+    "parts": [
+      {
+        "piece": "deore",
+        "origin": "Old English",
+        "meaning": "dear, costly"
+      }
+    ],
+    "literal": "dearness, costliness",
+    "path": "Formed from 'dear' plus the abstract-noun ending in 'warmth' or 'width.' When something is scarce it becomes dear (expensive); dearth is literally that state of costly scarcity.",
+    "cousins": [
+      "dear",
+      "endear"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "debacle": {
+    "parts": [
+      {
+        "piece": "debacler",
+        "origin": "French",
+        "meaning": "to unbar, break loose"
+      }
+    ],
+    "literal": "a breaking loose",
+    "path": "Originally described river ice breaking up and crashing downstream in a violent torrent. The word was carried over to any sudden, chaotic collapse or failure.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "debase": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "bassus",
+        "origin": "Late Latin",
+        "meaning": "low"
+      }
+    ],
+    "literal": "to bring low",
+    "path": "Combines 'down' with the root for 'low.' To debase something is to force it down in quality, value, or dignity.",
+    "cousins": [
+      "abase",
+      "bass"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "debased": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "bassus",
+        "origin": "Late Latin",
+        "meaning": "low"
+      }
+    ],
+    "literal": "brought low",
+    "path": "Same root as debase: something debased has been forced down in quality or value.",
+    "cousins": [
+      "abase",
+      "bass"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "debauchery": {
+    "parts": [
+      {
+        "piece": "debaucher",
+        "origin": "French",
+        "meaning": "to lure away from duty"
+      }
+    ],
+    "literal": "luring away from one's work",
+    "path": "To 'debauch' someone originally meant to lure them away from their trade or duty into idle dissipation. Debauchery is the resulting life of excess.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "debilitating": {
+    "parts": [
+      {
+        "piece": "debilis",
+        "origin": "Latin",
+        "meaning": "weak"
+      }
+    ],
+    "literal": "making weak",
+    "path": "From debilis, 'weak' (de- plus an old root for strength, so literally 'without strength'). Something debilitating drains that strength away.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "debonair": {
+    "parts": [
+      {
+        "piece": "de bon aire",
+        "origin": "Old French",
+        "meaning": "of good stock, of good nest"
+      }
+    ],
+    "literal": "of good breeding",
+    "path": "Old French for 'of good lineage,' aire referring to a bird's nest or brood. Someone thought well-bred came to be seen as effortlessly graceful and charming.",
+    "cousins": [
+      "aerie"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "debunk": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "remove"
+      },
+      {
+        "piece": "bunkum",
+        "origin": "American English",
+        "meaning": "empty political talk, nonsense"
+      }
+    ],
+    "literal": "to strip away the nonsense",
+    "path": "Bunkum came from a meaningless congressional speech made 'for Buncombe' County. To debunk something is to strip that kind of empty nonsense away and reveal the truth.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "debutante": {
+    "parts": [
+      {
+        "piece": "debuter",
+        "origin": "French",
+        "meaning": "to begin, make a first appearance"
+      }
+    ],
+    "literal": "one making a first appearance",
+    "path": "From debuter, 'to take one's first shot' (but, 'goal, target'). A debutante is a young woman making her first formal appearance in society.",
+    "cousins": [
+      "debut"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "decadence": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "cadere",
+        "origin": "Latin",
+        "meaning": "to fall"
+      }
+    ],
+    "literal": "a falling down",
+    "path": "Something in decadence is pictured falling away from its earlier standard, decaying morally or culturally while indulging itself.",
+    "cousins": [
+      "cascade",
+      "decay",
+      "cadence"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "decadent": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "cadere",
+        "origin": "Latin",
+        "meaning": "to fall"
+      }
+    ],
+    "literal": "falling down",
+    "path": "Same root as decadence: something decadent is falling from its standard through self-indulgent excess.",
+    "cousins": [
+      "cascade",
+      "decay",
+      "cadence"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "decibel": {
+    "parts": [
+      {
+        "piece": "deci-",
+        "origin": "Latin",
+        "meaning": "tenth"
+      },
+      {
+        "piece": "bel",
+        "origin": "English",
+        "meaning": "unit named for Alexander Graham Bell"
+      }
+    ],
+    "literal": "a tenth of a bel",
+    "path": "A straightforward technical coinage: one tenth of the original 'bel' unit, itself named after Bell.",
+    "cousins": [
+      "decimal",
+      "decade"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "decimate": {
+    "parts": [
+      {
+        "piece": "decimus",
+        "origin": "Latin",
+        "meaning": "tenth"
+      }
+    ],
+    "literal": "to reduce by a tenth",
+    "path": "Named for the brutal Roman army punishment of executing one soldier in every ten from a mutinous unit. The word loosened over time to mean destroying a large part of anything, not literally one in ten.",
+    "cousins": [
+      "decimal",
+      "decade",
+      "December"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "decimation": {
+    "parts": [
+      {
+        "piece": "decimus",
+        "origin": "Latin",
+        "meaning": "tenth"
+      }
+    ],
+    "literal": "reduction by a tenth",
+    "path": "Same root as decimate: originally the Roman punishment of killing one in ten, loosened to mean destroying a large portion of something.",
+    "cousins": [
+      "decimal",
+      "decade"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "decipher": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "undo"
+      },
+      {
+        "piece": "cifre",
+        "origin": "Arabic via French",
+        "meaning": "cipher, code"
+      }
+    ],
+    "literal": "to undo a code",
+    "path": "Cipher traces back to Arabic sifr, 'zero.' To decipher something is to reverse-engineer its code and make its hidden meaning plain.",
+    "cousins": [
+      "cipher",
+      "zero"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "declaim": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "thoroughly"
+      },
+      {
+        "piece": "clamare",
+        "origin": "Latin",
+        "meaning": "to shout, cry out"
+      }
+    ],
+    "literal": "to cry out fully",
+    "path": "From clamare, 'to shout.' To declaim is to speak out loud and formally, as if delivering a speech meant to be heard.",
+    "cousins": [
+      "claim",
+      "exclaim",
+      "clamor",
+      "proclaim"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "declivity": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "clivus",
+        "origin": "Latin",
+        "meaning": "slope, hill"
+      }
+    ],
+    "literal": "a downward slope",
+    "path": "Straightforward: a declivity is a slope that goes down, the opposite of an acclivity, which rises.",
+    "cousins": [
+      "proclivity",
+      "acclivity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "decorous": {
+    "parts": [
+      {
+        "piece": "decor",
+        "origin": "Latin",
+        "meaning": "grace, elegance, propriety"
+      }
+    ],
+    "literal": "graceful, fitting",
+    "path": "From decere, 'to be fitting.' Decorous behavior is behavior that fits what is proper and dignified for the occasion.",
+    "cousins": [
+      "decor",
+      "decorate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "decorum": {
+    "parts": [
+      {
+        "piece": "decor",
+        "origin": "Latin",
+        "meaning": "grace, elegance, propriety"
+      }
+    ],
+    "literal": "fittingness, propriety",
+    "path": "Same root as decorous. Decorum is the state of proper, dignified conduct that fits the occasion.",
+    "cousins": [
+      "decor",
+      "decorate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "decree": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "off, apart"
+      },
+      {
+        "piece": "cernere",
+        "origin": "Latin",
+        "meaning": "to sift, decide"
+      }
+    ],
+    "literal": "something sifted apart and decided",
+    "path": "From cernere, 'to separate out, decide.' A decree is a matter that has been sifted through and formally settled by an authority.",
+    "cousins": [
+      "discern",
+      "discreet",
+      "secret"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "decry": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "crier",
+        "origin": "Old French",
+        "meaning": "to cry"
+      }
+    ],
+    "literal": "to cry down",
+    "path": "Literally to cry something down in public, condemning it loudly and openly.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "deduce": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down, from"
+      },
+      {
+        "piece": "ducere",
+        "origin": "Latin",
+        "meaning": "to lead"
+      }
+    ],
+    "literal": "to lead down from",
+    "path": "To deduce a conclusion is to lead it down step by step from established facts or premises.",
+    "cousins": [
+      "conduct",
+      "induce",
+      "produce",
+      "educate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "deem": {
+    "parts": [
+      {
+        "piece": "deman",
+        "origin": "Old English",
+        "meaning": "to judge, decide"
+      }
+    ],
+    "literal": "to judge",
+    "path": "Related to 'doom' (judgment). To deem something is to pass judgment on it, to consider it to be a certain way.",
+    "cousins": [
+      "doom"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "deface": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away, undo"
+      },
+      {
+        "piece": "facies",
+        "origin": "Latin",
+        "meaning": "face, appearance"
+      }
+    ],
+    "literal": "to strip away the face",
+    "path": "To deface something is to strip away or mar its outward appearance, its 'face.'",
+    "cousins": [
+      "face",
+      "facial",
+      "surface",
+      "facet"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "default": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away"
+      },
+      {
+        "piece": "fallere",
+        "origin": "Latin",
+        "meaning": "to deceive, fail"
+      }
+    ],
+    "literal": "a failing, a lack",
+    "path": "From the same root as 'fault' and 'fail.' A default is simply a failure to meet an obligation, or, by extension, the option left standing when nothing else is chosen.",
+    "cousins": [
+      "fault",
+      "fail",
+      "false",
+      "fallacy"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "defer": {
+    "parts": [
+      {
+        "piece": "de-/dis-",
+        "origin": "Latin",
+        "meaning": "away, apart"
+      },
+      {
+        "piece": "ferre",
+        "origin": "Latin",
+        "meaning": "to carry"
+      }
+    ],
+    "literal": "to carry apart or carry to another",
+    "path": "One sense (postpone) comes from carrying a matter apart, setting it off to later. The other (yield) comes from carrying a decision over to someone else's judgment. Both trace to ferre, 'to carry.'",
+    "cousins": [
+      "refer",
+      "transfer",
+      "confer",
+      "offer"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "deference": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down, to"
+      },
+      {
+        "piece": "ferre",
+        "origin": "Latin",
+        "meaning": "to carry"
+      }
+    ],
+    "literal": "carrying a matter to another",
+    "path": "To show deference is to carry the decision over to someone else's judgment, submitting to it out of respect.",
+    "cousins": [
+      "refer",
+      "confer",
+      "transfer"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "deferential": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down, to"
+      },
+      {
+        "piece": "ferre",
+        "origin": "Latin",
+        "meaning": "to carry"
+      }
+    ],
+    "literal": "carrying a matter to another",
+    "path": "Same root as deference: a deferential manner respectfully hands the decision over to another's judgment.",
+    "cousins": [
+      "refer",
+      "confer"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "deflect": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "away"
+      },
+      {
+        "piece": "flectere",
+        "origin": "Latin",
+        "meaning": "to bend"
+      }
+    ],
+    "literal": "to bend away",
+    "path": "To deflect something is to bend its path away, turning it aside from its original course.",
+    "cousins": [
+      "flexible",
+      "reflect",
+      "flex"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "defray": {
+    "parts": [
+      {
+        "piece": "des-",
+        "origin": "Latin",
+        "meaning": "undo"
+      },
+      {
+        "piece": "frait",
+        "origin": "Old French",
+        "meaning": "cost, expense"
+      }
+    ],
+    "literal": "to undo the cost",
+    "path": "Frait traces to Latin fractum, 'broken,' the same root behind fracture and fragment. To defray a cost is to cover or clear away that expense.",
+    "cousins": [
+      "fracture",
+      "fragment",
+      "fraction"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "deft": {
+    "parts": [
+      {
+        "piece": "gedæfte",
+        "origin": "Old English",
+        "meaning": "gentle, fitting"
+      }
+    ],
+    "literal": "fitting, apt",
+    "path": "Originally meant mild or fitting (the same root, oddly, as 'daft'). The sense of being well-suited to a task narrowed into being skillful and quick at it.",
+    "cousins": [
+      "daft"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "deftness": {
+    "parts": [
+      {
+        "piece": "gedæfte",
+        "origin": "Old English",
+        "meaning": "gentle, fitting"
+      }
+    ],
+    "literal": "fittingness, aptness",
+    "path": "Same root as deft: the quality of handling something skillfully and quickly.",
+    "cousins": [
+      "daft"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "degrade": {
+    "parts": [
+      {
+        "piece": "de-",
+        "origin": "Latin",
+        "meaning": "down"
+      },
+      {
+        "piece": "gradus",
+        "origin": "Latin",
+        "meaning": "step, degree"
+      }
+    ],
+    "literal": "to step down",
+    "path": "To degrade something is to move it down a step, lowering its rank, quality, or dignity.",
+    "cousins": [
+      "grade",
+      "gradual",
+      "graduate",
+      "progress"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

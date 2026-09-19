@@ -1,0 +1,362 @@
+{
+  "conspire": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "spirare", "origin": "Latin", "meaning": "to breathe"}],
+    "literal": "to breathe together",
+    "path": "Latin conspirare meant to breathe as one, to agree or harmonize. Breathing in unison became a figure for secretly agreeing on a plot, and later for anything combining toward a shared effect.",
+    "cousins": ["spirit", "respire", "inspire"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "constant": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "stare", "origin": "Latin", "meaning": "to stand"}],
+    "literal": "standing firm together",
+    "path": "Latin constare meant to stand firm, be fixed. Standing firm in one place extended naturally to standing firm over time, unchanging, and to a person who stands firmly by another in loyalty.",
+    "cousins": ["stable", "station", "stationary"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "consternation": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "sternere", "origin": "Latin", "meaning": "to strew, throw down"}],
+    "literal": "thoroughly thrown down",
+    "path": "Latin consternare meant to throw into confusion or terror, as if knocked flat. The sense of being floored by shock narrowed to the anxious, dismayed alarm the word names today.",
+    "cousins": ["stratum"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "constituency": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "statuere", "origin": "Latin", "meaning": "to set up, establish"}],
+    "literal": "a setting up together",
+    "path": "Latin statuere, to set up, gave constituere, to establish jointly. A constituency is the body of people who together establish and support a representative, the group that sets that person up in office.",
+    "cousins": ["constitute", "statute", "institute"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "constituent": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "statuere", "origin": "Latin", "meaning": "to set up, establish"}],
+    "literal": "setting up together, as a part",
+    "path": "From the same Latin root as constituency, a constituent is one of the parts that together make up a whole, or, in politics, one of the voters who together establish a representative.",
+    "cousins": ["constitute", "statute", "institute"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "constitute": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "statuere", "origin": "Latin", "meaning": "to set up, establish"}],
+    "literal": "to set up together",
+    "path": "Latin constituere meant to establish or set up firmly. Setting parts up together to form something extended into the modern sense of the parts that make up or compose a whole.",
+    "cousins": ["institute", "statute", "constituent"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "constrained": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "stringere", "origin": "Latin", "meaning": "to draw tight, bind"}],
+    "literal": "bound tightly",
+    "path": "Latin constringere meant to bind or draw tightly together. Being physically bound became being restricted or forced, and a person acting under that pressure seems stiff and unnatural.",
+    "cousins": ["strict", "string", "stress"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "constraint": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "stringere", "origin": "Latin", "meaning": "to draw tight, bind"}],
+    "literal": "a tight binding",
+    "path": "From the same root as constrained, a constraint is whatever binds or draws limits tight around an action, the noun for the force that restricts.",
+    "cousins": ["strict", "string", "stress"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "constrict": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "stringere", "origin": "Latin", "meaning": "to draw tight, bind"}],
+    "literal": "to draw tight together",
+    "path": "Latin constringere meant to bind tightly. To constrict is to squeeze or narrow something by drawing it tight, whether a passage, a blood vessel, or a person's freedom.",
+    "cousins": ["strict", "string", "stress"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "construe": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "struere", "origin": "Latin", "meaning": "to build, pile up"}],
+    "literal": "to build up together",
+    "path": "Latin construere meant to build or pile up. Grammarians used construe for building up the sense of a sentence from its parts, which gave English its meaning: to interpret how something should be understood.",
+    "cousins": ["construct", "structure", "instruct"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "consummate": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "summa", "origin": "Latin", "meaning": "sum, highest total"}],
+    "literal": "brought to the highest sum",
+    "path": "Latin consummare meant to add up to a total, to complete fully. Something brought all the way to its sum is finished and perfected, which is why consummate skill means skill brought to its highest degree.",
+    "cousins": ["sum", "summit"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "consumption": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "sumere", "origin": "Latin", "meaning": "to take up"}],
+    "literal": "a thorough taking up",
+    "path": "Latin consumere meant to take up completely, to use up. That gave the ordinary sense of using resources, and, because the disease seemed to consume and waste the body away, the old name for tuberculosis.",
+    "cousins": ["consume", "assume", "resume"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "contempt": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "temnere", "origin": "Latin", "meaning": "to scorn, despise"}],
+    "literal": "thorough scorning",
+    "path": "Latin contemnere meant to scorn or despise utterly. Contempt kept that sense exactly: a settled, scornful disregard for something judged beneath notice.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "contemptuous": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "temnere", "origin": "Latin", "meaning": "to scorn, despise"}],
+    "literal": "full of thorough scorning",
+    "path": "From the same root as contempt, contemptuous describes the outward manner of someone showing that scornful disregard, in tone, expression, or action.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "contend": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "tendere", "origin": "Latin", "meaning": "to stretch"}],
+    "literal": "to stretch together, strive",
+    "path": "Latin contendere meant to strain or stretch oneself in effort, to strive. Straining against a rival gave the sense of competing, and straining to make a point gave the sense of asserting an argument.",
+    "cousins": ["tend", "tension", "extend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "contention": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "tendere", "origin": "Latin", "meaning": "to stretch"}],
+    "literal": "a straining together, striving",
+    "path": "From the same root as contend, contention is the noun for that strained effort, whether a point argued for or the dispute that results from opposing strivings.",
+    "cousins": ["tend", "tension", "extend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "contentious": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "tendere", "origin": "Latin", "meaning": "to stretch"}],
+    "literal": "prone to straining against others",
+    "path": "From the same root as contend, contentious describes a person or issue inclined to strive and strain against opposition, quick to spark an argument.",
+    "cousins": ["tend", "tension", "extend"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "contiguous": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "tangere", "origin": "Latin", "meaning": "to touch"}],
+    "literal": "touching together",
+    "path": "Latin contiguus meant touching, bordering on. Two things contiguous are literally in contact along an edge, sharing a border with nothing between them.",
+    "cousins": ["tangent", "tactile", "contact"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "contingent": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "tangere", "origin": "Latin", "meaning": "to touch"}],
+    "literal": "touching together, coming into contact",
+    "path": "Latin contingere meant to touch on all sides, and also to happen or befall, since an event was pictured as touching a person. What merely touches by chance came to mean dependent on circumstance, not certain.",
+    "cousins": ["tangent", "contact", "tactile"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "contract": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "trahere", "origin": "Latin", "meaning": "to draw, pull"}],
+    "literal": "to draw together",
+    "path": "Latin contrahere meant to draw together, shrink, or bring parties into an agreement. Drawing together gave both the physical sense of shrinking and, oddly, the sense of catching an illness drawn onto oneself.",
+    "cousins": ["traction", "tract", "attract"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "contraries": {
+    "parts": [{"piece": "contra", "origin": "Latin", "meaning": "against, opposite"}],
+    "literal": "opposite things",
+    "path": "Latin contra meant against or opposite. Contraries are simply things standing directly opposed to one another.",
+    "cousins": ["contrast", "contradict"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "contravene": {
+    "parts": [{"piece": "contra", "origin": "Latin", "meaning": "against"}, {"piece": "venire", "origin": "Latin", "meaning": "to come"}],
+    "literal": "to come against",
+    "path": "Latin contravenire meant to come against, to oppose. Coming against a rule or law is exactly what it means to contravene it: to violate it by acting in direct opposition.",
+    "cousins": ["convene", "intervene", "venue"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "contretemps": {
+    "parts": [{"piece": "contre", "origin": "French", "meaning": "against"}, {"piece": "temps", "origin": "French", "meaning": "time"}],
+    "literal": "against time, mistimed",
+    "path": "French contretemps, from Latin contra tempus, originally named a fencing move made at the wrong moment. A mistimed move became any awkward, embarrassing mishap that catches someone off guard.",
+    "cousins": ["temporary", "tempo"],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "contrite": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "terere", "origin": "Latin", "meaning": "to rub, grind, wear down"}],
+    "literal": "ground down thoroughly",
+    "path": "Latin conterere meant to crush or grind to pieces. Medieval writers used contrite for a heart crushed by guilt, ground down until it broke into genuine sorrow and remorse for wrongdoing.",
+    "cousins": ["trite", "detriment"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "contrition": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "terere", "origin": "Latin", "meaning": "to rub, grind, wear down"}],
+    "literal": "a thorough grinding down",
+    "path": "From the same root as contrite, contrition is the noun for that crushed, worn-down state of heart: sincere remorse that has ground away all resistance to admitting wrong.",
+    "cousins": ["trite", "detriment"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "contrive": {
+    "parts": [{"piece": "tropare", "origin": "Vulgar Latin", "meaning": "to compose, invent in verse"}],
+    "literal": "to compose, find a way",
+    "path": "Contrive comes through Old French controver, to invent or find out, likely from an unrecorded Latin tropare, to compose, related to the word behind troubadour. Composing something cleverly out of nothing became devising a plan.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "contrived": {
+    "parts": [{"piece": "tropare", "origin": "Vulgar Latin", "meaning": "to compose, invent in verse"}],
+    "literal": "composed, invented",
+    "path": "From the same uncertain root as contrive, a contrived plan or story is one so visibly invented and engineered that it feels artificial and forced rather than natural.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "contumacious": {
+    "parts": [{"piece": "contumax", "origin": "Latin", "meaning": "insolent, obstinate"}],
+    "literal": "insolently obstinate",
+    "path": "Latin contumax meant haughty and obstinate, a word of disputed origin possibly tied to contemnere, to scorn. Whatever its exact root, it always named someone who stubbornly refuses to submit to authority.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "contusion": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "tundere", "origin": "Latin", "meaning": "to beat, pound"}],
+    "literal": "a thorough beating",
+    "path": "Latin contundere meant to beat or bruise severely by pounding. A contusion is exactly that: the bruised mark left by a hard blow.",
+    "cousins": ["obtuse"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "conundrum": {
+    "parts": [{"piece": "conundrum", "origin": "unknown", "meaning": "mock-Latin coinage of jocular origin"}],
+    "literal": "a fake-Latin puzzle word",
+    "path": "Conundrum surfaces in 16th-century Oxford student slang, apparently invented to sound like learned Latin without being real Latin. No genuine root lies behind it, yet the word stuck for a baffling, knotty problem.",
+    "cousins": [],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "convalesce": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "valere", "origin": "Latin", "meaning": "to be strong, well"}],
+    "literal": "to grow thoroughly strong",
+    "path": "Latin convalescere meant to grow fully strong again after illness. Convalesce keeps that exact sense: the gradual return of strength during recovery.",
+    "cousins": ["valid", "value", "prevail"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "convalescent": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "valere", "origin": "Latin", "meaning": "to be strong, well"}],
+    "literal": "growing thoroughly strong again",
+    "path": "From the same root as convalesce, convalescent describes someone in the process of regaining strength after sickness, or anything associated with that recovery period.",
+    "cousins": ["valid", "value", "prevail"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "convention": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "venire", "origin": "Latin", "meaning": "to come"}],
+    "literal": "a coming together",
+    "path": "Latin conventio meant an assembly or agreement, from people coming together. That gave both senses in English: a large gathering, and the agreed-upon customs a community comes together to follow.",
+    "cousins": ["convene", "venue", "avenue"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conventional": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "venire", "origin": "Latin", "meaning": "to come"}],
+    "literal": "of a coming together, agreed upon",
+    "path": "From the same root as convention, conventional describes what follows the customs a group has come together and agreed to, which is why it can also mean unoriginal or predictable.",
+    "cousins": ["convene", "venue", "avenue"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "converge": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "vergere", "origin": "Latin", "meaning": "to bend, turn, incline"}],
+    "literal": "to bend together",
+    "path": "Latin convergere meant to incline or bend toward a shared point. Lines, opinions, or paths that converge are all bending inward until they meet.",
+    "cousins": ["diverge", "verge"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conversant": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "versare", "origin": "Latin", "meaning": "to turn, keep turning"}],
+    "literal": "turning about together, keeping company",
+    "path": "Latin conversari meant to live among, to keep company with, from versare, to turn repeatedly. Constant company with a subject through frequent exposure is exactly what makes someone conversant, familiar with it.",
+    "cousins": ["versatile", "reverse", "universe"],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "conversely": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together"}, {"piece": "vertere", "origin": "Latin", "meaning": "to turn"}],
+    "literal": "turned around",
+    "path": "From vertere, to turn, converse came to mean the opposite or reverse case. Conversely introduces the statement obtained by turning the situation around to its opposite.",
+    "cousins": ["reverse", "versatile", "universe"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conversion": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "vertere", "origin": "Latin", "meaning": "to turn"}],
+    "literal": "a thorough turning",
+    "path": "Latin conversio meant a turning around or transformation. A conversion is a thorough turn from one form, belief, or use to another.",
+    "cousins": ["reverse", "versatile", "avert"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "conviction": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "vincere", "origin": "Latin", "meaning": "to conquer"}],
+    "literal": "a thorough conquering",
+    "path": "Latin convincere meant to conquer someone with proof, overcoming their doubt. Being conquered by an argument gave conviction its sense of firm belief, and in law, being conquered by evidence of guilt gave the verdict its name.",
+    "cousins": ["victory", "convince"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "convince": {
+    "parts": [{"piece": "con-", "origin": "Latin", "meaning": "together, thoroughly"}, {"piece": "vincere", "origin": "Latin", "meaning": "to conquer"}],
+    "literal": "to conquer thoroughly",
+    "path": "From the same root as conviction, to convince someone is to conquer their doubts and objections with argument or evidence until they believe.",
+    "cousins": ["victory", "invincible"],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

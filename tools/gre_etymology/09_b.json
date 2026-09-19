@@ -1,0 +1,932 @@
+{
+  "territory": {
+    "parts": [
+      {
+        "piece": "terra",
+        "origin": "Latin",
+        "meaning": "earth"
+      },
+      {
+        "piece": "-orium",
+        "origin": "Latin",
+        "meaning": "place of"
+      }
+    ],
+    "literal": "place of the earth",
+    "path": "Latin territorium meant the land under a town's jurisdiction. Some scholars instead link it to terrere, 'to frighten' (land from which outsiders were warned off), but the earth sense prevailed in English usage as land or a sphere of activity.",
+    "cousins": [
+      "terrain",
+      "terrestrial",
+      "subterranean"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "terse": {
+    "parts": [
+      {
+        "piece": "tergere",
+        "origin": "Latin",
+        "meaning": "to wipe, rub off"
+      }
+    ],
+    "literal": "wiped clean",
+    "path": "Latin tersus described polished, neat prose, wiped clean of excess. That sense narrowed to writing or speech free of superfluous words, brief and to the point.",
+    "cousins": [
+      "detergent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "testator": {
+    "parts": [
+      {
+        "piece": "testari",
+        "origin": "Latin",
+        "meaning": "to testify, bear witness"
+      }
+    ],
+    "literal": "one who testifies",
+    "path": "A testator formally 'testifies' to his wishes in a legal will, witnessing his own intentions for after death.",
+    "cousins": [
+      "testify",
+      "testimony",
+      "attest"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "theory": {
+    "parts": [
+      {
+        "piece": "theorein",
+        "origin": "Greek",
+        "meaning": "to look at, view, contemplate"
+      }
+    ],
+    "literal": "a viewing, contemplation",
+    "path": "Greek theoria meant contemplative looking, mental viewing of an idea. It came to mean a systematic explanation reached through reasoned contemplation, as opposed to raw practice.",
+    "cousins": [
+      "theater",
+      "theorem"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "thorough": {
+    "parts": [
+      {
+        "piece": "þuruh",
+        "origin": "Old English",
+        "meaning": "through"
+      }
+    ],
+    "literal": "through",
+    "path": "A variant of 'through': to do something thorough is to go all the way through it, leaving nothing unexamined, complete and careful in every detail.",
+    "cousins": [
+      "through"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "thoroughgoing": {
+    "parts": [
+      {
+        "piece": "þuruh",
+        "origin": "Old English",
+        "meaning": "through"
+      },
+      {
+        "piece": "going",
+        "origin": "Old English",
+        "meaning": "going"
+      }
+    ],
+    "literal": "going all the way through",
+    "path": "Same root as thorough: emphasizes completeness, going all the way through something without exception, absolute and complete.",
+    "cousins": [
+      "thorough"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "thrall": {
+    "parts": [
+      {
+        "piece": "þræll",
+        "origin": "Old Norse",
+        "meaning": "slave, servant"
+      }
+    ],
+    "literal": "a slave",
+    "path": "Direct from the root: to be 'in thrall' to something is to be enslaved or controlled by it, as a thrall was bound to a master.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "threadbare": {
+    "parts": [
+      {
+        "piece": "thread",
+        "origin": "Old English",
+        "meaning": "thread"
+      },
+      {
+        "piece": "bare",
+        "origin": "Old English",
+        "meaning": "bare, exposed"
+      }
+    ],
+    "literal": "bare down to the thread",
+    "path": "Fabric worn threadbare has lost its nap, leaving only the base threads showing. The image extended to anything worn out or overused, like an excuse worn threadbare from repetition.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "thrifty": {
+    "parts": [
+      {
+        "piece": "þrífask",
+        "origin": "Old Norse",
+        "meaning": "to thrive, prosper"
+      }
+    ],
+    "literal": "thriving",
+    "path": "Originally meant thriving or prospering. It narrowed to the careful management of resources that lets one thrive, hence careful with money.",
+    "cousins": [
+      "thrive"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "throng": {
+    "parts": [
+      {
+        "piece": "þringan",
+        "origin": "Old English",
+        "meaning": "to press, crowd"
+      }
+    ],
+    "literal": "a pressing crowd",
+    "path": "Direct from the root: a throng is a mass of people pressed tightly together.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "thwart": {
+    "parts": [
+      {
+        "piece": "þverr",
+        "origin": "Old Norse",
+        "meaning": "transverse, across"
+      }
+    ],
+    "literal": "across",
+    "path": "To thwart someone originally meant to lie or go athwart, crosswise to their path, blocking it. The sense settled into preventing someone from succeeding.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tide": {
+    "parts": [
+      {
+        "piece": "tid",
+        "origin": "Old English",
+        "meaning": "time, season, hour"
+      }
+    ],
+    "literal": "time",
+    "path": "Originally simply meant 'time' (preserved in Christmastide). It narrowed to the sea's rise and fall, tied to fixed times, then extended figuratively to any powerful recurring trend or current.",
+    "cousins": [
+      "tidy",
+      "betide"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "timely": {
+    "parts": [
+      {
+        "piece": "time",
+        "origin": "Old English",
+        "meaning": "time"
+      }
+    ],
+    "literal": "in time",
+    "path": "Direct from the root: happening at a suitable, fitting time.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "timorous": {
+    "parts": [
+      {
+        "piece": "timere",
+        "origin": "Latin",
+        "meaning": "to fear"
+      }
+    ],
+    "literal": "fearful",
+    "path": "Direct from the root: filled with fear, nervous and lacking confidence.",
+    "cousins": [
+      "timid",
+      "intimidate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tirade": {
+    "parts": [
+      {
+        "piece": "tirare",
+        "origin": "Italian",
+        "meaning": "to draw, pull, fire a shot"
+      }
+    ],
+    "literal": "a volley",
+    "path": "Italian tirata meant a volley of shots, a long pull or draw. It became a long, forceful outpouring of words, an angry speech fired off in a burst.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "toady": {
+    "parts": [
+      {
+        "piece": "toad-eater",
+        "origin": "English",
+        "meaning": "a charlatan's assistant who ate a toad"
+      }
+    ],
+    "literal": "a toad-eater",
+    "path": "Traveling quack doctors kept an assistant who would swallow a (supposedly poisonous) toad so the charlatan could dramatically 'cure' him in public, proving the remedy's power. The assistant's abject submission gave us toady for a servile flatterer.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "toil": {
+    "parts": [
+      {
+        "piece": "toeillier",
+        "origin": "Old French",
+        "meaning": "to struggle, wrangle, drag about"
+      }
+    ],
+    "literal": "to struggle, wrangle",
+    "path": "Originally meant to argue or struggle contentiously. The sense shifted from verbal wrangling to strenuous physical labor, hard, exhausting work.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "token": {
+    "parts": [
+      {
+        "piece": "tacen",
+        "origin": "Old English",
+        "meaning": "sign, symbol"
+      }
+    ],
+    "literal": "a sign",
+    "path": "A token is a symbolic sign standing for something larger. As an adjective it describes an act done merely as a symbolic gesture, a minimal show rather than substantial effort.",
+    "cousins": [
+      "betoken"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tome": {
+    "parts": [
+      {
+        "piece": "temnein",
+        "origin": "Greek",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "a cut section",
+    "path": "Long ancient texts were cut into sections or rolls (tomoi) for handling. Tome came to mean a large book, from the idea of a cut or divided volume of a larger work.",
+    "cousins": [
+      "atom",
+      "anatomy",
+      "epitome"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "torpid": {
+    "parts": [
+      {
+        "piece": "torpere",
+        "origin": "Latin",
+        "meaning": "to be numb, sluggish"
+      }
+    ],
+    "literal": "numb",
+    "path": "Direct from the root: physically numb or stiff, extended to sluggish and inactive generally.",
+    "cousins": [
+      "torpor",
+      "torpedo"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "torpor": {
+    "parts": [
+      {
+        "piece": "torpere",
+        "origin": "Latin",
+        "meaning": "to be numb, sluggish"
+      }
+    ],
+    "literal": "numbness",
+    "path": "Same root as torpid: a state of numb inactivity and lethargy.",
+    "cousins": [
+      "torpid",
+      "torpedo"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "torque": {
+    "parts": [
+      {
+        "piece": "torquere",
+        "origin": "Latin",
+        "meaning": "to twist"
+      }
+    ],
+    "literal": "a twisting",
+    "path": "Direct from the root: a rotational, twisting force.",
+    "cousins": [
+      "torture",
+      "contort",
+      "distort"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "torrid": {
+    "parts": [
+      {
+        "piece": "torrere",
+        "origin": "Latin",
+        "meaning": "to parch, roast, burn"
+      }
+    ],
+    "literal": "scorched",
+    "path": "Originally described land scorched by heat, as in the 'torrid zone' near the equator. The image of burning extended figuratively to intense passion.",
+    "cousins": [
+      "toast",
+      "torrent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tortuous": {
+    "parts": [
+      {
+        "piece": "torquere",
+        "origin": "Latin",
+        "meaning": "to twist"
+      }
+    ],
+    "literal": "full of twists",
+    "path": "Physically winding and twisted, extended to arguments or processes so full of turns that they become excessively complex and hard to follow.",
+    "cousins": [
+      "torque",
+      "contort",
+      "distort"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tour": {
+    "parts": [
+      {
+        "piece": "tornus",
+        "origin": "Latin",
+        "meaning": "a lathe"
+      }
+    ],
+    "literal": "a turning",
+    "path": "From the circular motion of a lathe came the sense of a circuit, a journey that visits several places and eventually turns back to the start.",
+    "cousins": [
+      "turn",
+      "tournament",
+      "contour"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tout": {
+    "parts": [
+      {
+        "piece": "totian",
+        "origin": "Old English",
+        "meaning": "to stick out, peep, spy"
+      }
+    ],
+    "literal": "to peer out",
+    "path": "Originally meant to peer or spy out, as watching for customers. The sense developed into loudly soliciting attention for something, promoting it aggressively.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "tract": {
+    "parts": [
+      {
+        "piece": "trahere",
+        "origin": "Latin",
+        "meaning": "to draw, drag"
+      }
+    ],
+    "literal": "something drawn out",
+    "path": "An area of land is a stretch 'drawn out' over a distance; a written tract is likewise a piece drawn out at length on a serious subject.",
+    "cousins": [
+      "attract",
+      "extract"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tractable": {
+    "parts": [
+      {
+        "piece": "tractare",
+        "origin": "Latin",
+        "meaning": "to handle, manage"
+      }
+    ],
+    "literal": "able to be handled",
+    "path": "Something tractable can be handled or led easily, like an animal that can be pulled along without resistance, hence easily managed or solved.",
+    "cousins": [
+      "tractor",
+      "treat"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "traduce": {
+    "parts": [
+      {
+        "piece": "trans-",
+        "origin": "Latin",
+        "meaning": "across"
+      },
+      {
+        "piece": "ducere",
+        "origin": "Latin",
+        "meaning": "to lead"
+      }
+    ],
+    "literal": "to lead across",
+    "path": "Latin traducere originally meant to lead someone across, as in a parade for public shame and ridicule. It came to mean speaking falsely and damagingly about someone.",
+    "cousins": [
+      "conduct",
+      "induce",
+      "reduce"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tranquil": {
+    "parts": [
+      {
+        "piece": "tranquillus",
+        "origin": "Latin",
+        "meaning": "calm, still"
+      }
+    ],
+    "literal": "calm, still",
+    "path": "A direct borrowing meaning calm and still; the word's internal formation is uncertain, but its sense of undisturbed peace has stayed constant.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "transcend": {
+    "parts": [
+      {
+        "piece": "trans-",
+        "origin": "Latin",
+        "meaning": "beyond"
+      },
+      {
+        "piece": "scandere",
+        "origin": "Latin",
+        "meaning": "to climb"
+      }
+    ],
+    "literal": "to climb beyond",
+    "path": "Direct from the parts: to transcend is to climb over or beyond ordinary limits.",
+    "cousins": [
+      "ascend",
+      "descend"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "transgression": {
+    "parts": [
+      {
+        "piece": "trans-",
+        "origin": "Latin",
+        "meaning": "across"
+      },
+      {
+        "piece": "gradi",
+        "origin": "Latin",
+        "meaning": "to step, go"
+      }
+    ],
+    "literal": "a stepping across",
+    "path": "To transgress is to step across a boundary or line, such as a law or rule; a transgression is that violation.",
+    "cousins": [
+      "progress",
+      "gradual",
+      "degrade"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "transient": {
+    "parts": [
+      {
+        "piece": "trans-",
+        "origin": "Latin",
+        "meaning": "across"
+      },
+      {
+        "piece": "ire",
+        "origin": "Latin",
+        "meaning": "to go"
+      }
+    ],
+    "literal": "passing across",
+    "path": "Direct from the parts: something transient passes through and moves on, lasting only briefly.",
+    "cousins": [
+      "transit",
+      "exit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "transitory": {
+    "parts": [
+      {
+        "piece": "trans-",
+        "origin": "Latin",
+        "meaning": "across"
+      },
+      {
+        "piece": "ire",
+        "origin": "Latin",
+        "meaning": "to go"
+      }
+    ],
+    "literal": "passing across",
+    "path": "Same root as transient: not permanent, passing through in time rather than lasting.",
+    "cousins": [
+      "transit",
+      "transient",
+      "exit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "transmute": {
+    "parts": [
+      {
+        "piece": "trans-",
+        "origin": "Latin",
+        "meaning": "across"
+      },
+      {
+        "piece": "mutare",
+        "origin": "Latin",
+        "meaning": "to change"
+      }
+    ],
+    "literal": "to change across form",
+    "path": "Direct from the parts: to change from one form into an entirely different one, as alchemists sought to transmute base metal into gold.",
+    "cousins": [
+      "mutate",
+      "mutable",
+      "commute"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "trappings": {
+    "parts": [
+      {
+        "piece": "drap",
+        "origin": "Old French",
+        "meaning": "cloth"
+      }
+    ],
+    "literal": "ornamental cloth",
+    "path": "Originally the decorative cloth draped over a horse to display its owner's status. The word extended to any outward accessories or ornaments that signal rank.",
+    "cousins": [
+      "drape",
+      "drapery"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "travail": {
+    "parts": [
+      {
+        "piece": "tripalium",
+        "origin": "Latin",
+        "meaning": "a three-staked instrument of torture"
+      }
+    ],
+    "literal": "torture with three stakes",
+    "path": "The presumed source is a Roman device of three stakes used to restrain or torture. The word for that suffering broadened into painful, laborious effort and labor pains.",
+    "cousins": [
+      "travel",
+      "impale"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "travesty": {
+    "parts": [
+      {
+        "piece": "tras-",
+        "origin": "Latin",
+        "meaning": "across"
+      },
+      {
+        "piece": "vestire",
+        "origin": "Latin",
+        "meaning": "to clothe"
+      }
+    ],
+    "literal": "dressed across, disguised",
+    "path": "Originally meant a comic work deliberately dressed up in a disguised, grotesque form to parody a serious original. It extended to any grotesque distortion of something.",
+    "cousins": [
+      "vest",
+      "invest",
+      "transvestite"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "treacherous": {
+    "parts": [
+      {
+        "piece": "trichier",
+        "origin": "Old French",
+        "meaning": "to cheat, deceive"
+      }
+    ],
+    "literal": "deceiving",
+    "path": "Direct from the root: describes disloyalty and deceit in a person, extended to anything dangerously unreliable, like treacherous terrain.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "treacly": {
+    "parts": [
+      {
+        "piece": "theriake",
+        "origin": "Greek",
+        "meaning": "antidote (against a wild beast's bite)"
+      }
+    ],
+    "literal": "like a medicinal syrup",
+    "path": "Treacle originally meant a medicinal antidote against venom, later a syrupy medicine and eventually molasses. Treacly describes something cloyingly sweet like syrup, sickly sentimental.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tread": {
+    "parts": [
+      {
+        "piece": "tredan",
+        "origin": "Old English",
+        "meaning": "to step on"
+      }
+    ],
+    "literal": "to step",
+    "path": "Direct from the root: to walk or step, often carefully, as in treading lightly.",
+    "cousins": [
+      "trade"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "treatise": {
+    "parts": [
+      {
+        "piece": "tractare",
+        "origin": "Latin",
+        "meaning": "to handle, deal with"
+      }
+    ],
+    "literal": "something handled in writing",
+    "path": "A treatise is a formal written work that 'treats' or handles a subject systematically and thoroughly.",
+    "cousins": [
+      "treat",
+      "tractable",
+      "contract"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "trenchant": {
+    "parts": [
+      {
+        "piece": "trenchier",
+        "origin": "Old French",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "cutting",
+    "path": "Direct from the root: physically cutting extended figuratively to speech or criticism that cuts sharply and effectively to the point.",
+    "cousins": [
+      "trench",
+      "retrench"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "trepidation": {
+    "parts": [
+      {
+        "piece": "trepidare",
+        "origin": "Latin",
+        "meaning": "to tremble, hurry with alarm"
+      }
+    ],
+    "literal": "trembling",
+    "path": "Direct from the root: a trembling, fearful anxiety about what may happen.",
+    "cousins": [
+      "intrepid"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tribulation": {
+    "parts": [
+      {
+        "piece": "tribulum",
+        "origin": "Latin",
+        "meaning": "a threshing sledge"
+      }
+    ],
+    "literal": "threshing under a sledge",
+    "path": "A tribulum was a heavy sledge dragged over harvested grain to separate it from the husks. Tribulation applies that grinding, crushing pressure figuratively to great trouble or suffering.",
+    "cousins": [
+      "attrition",
+      "detriment"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tribunal": {
+    "parts": [
+      {
+        "piece": "tribunus",
+        "origin": "Latin",
+        "meaning": "head of a tribe, magistrate"
+      }
+    ],
+    "literal": "a tribal magistrate's platform",
+    "path": "In Rome the tribunus represented a tribe or the people; the tribunal was his raised platform for judging, giving us the word for a body appointed to judge disputes.",
+    "cousins": [
+      "tribute",
+      "tribe",
+      "contribute"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "trifling": {
+    "parts": [
+      {
+        "piece": "trufle",
+        "origin": "Old French",
+        "meaning": "mockery, jest"
+      }
+    ],
+    "literal": "a jest",
+    "path": "A trifle was originally an idle jest or something of no serious value. Trifling describes something unimportant and trivial, not worth serious attention.",
+    "cousins": [
+      "truffle"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "trite": {
+    "parts": [
+      {
+        "piece": "terere",
+        "origin": "Latin",
+        "meaning": "to rub, wear down"
+      }
+    ],
+    "literal": "worn down",
+    "path": "Something used so often that it has been rubbed thin through overuse becomes trite, overused and lacking freshness.",
+    "cousins": [
+      "attrition",
+      "detriment"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "triumvirate": {
+    "parts": [
+      {
+        "piece": "tri-",
+        "origin": "Latin",
+        "meaning": "three"
+      },
+      {
+        "piece": "vir",
+        "origin": "Latin",
+        "meaning": "man"
+      }
+    ],
+    "literal": "a group of three men",
+    "path": "In Rome a triumvirate was an official ruling body of three men sharing power. It extended to any ruling group of three.",
+    "cousins": [
+      "virile",
+      "triple"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "trivial": {
+    "parts": [
+      {
+        "piece": "tri-",
+        "origin": "Latin",
+        "meaning": "three"
+      },
+      {
+        "piece": "via",
+        "origin": "Latin",
+        "meaning": "road"
+      }
+    ],
+    "literal": "of a place where three roads meet",
+    "path": "A trivium, where three roads met, was an ordinary public gathering spot. Things discussed there were common, everyday chatter, of little importance next to serious learned matters.",
+    "cousins": [
+      "via",
+      "viaduct",
+      "deviate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  }
+}

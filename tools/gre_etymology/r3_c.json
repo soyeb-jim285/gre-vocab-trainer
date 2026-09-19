@@ -1,0 +1,781 @@
+{
+  "substantiate": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "stare",
+        "origin": "Latin",
+        "meaning": "to stand"
+      }
+    ],
+    "literal": "to give standing to",
+    "path": "Substantiate is built on substance, from Latin substantia, essential being, itself from substare, to stand under. To substantiate a claim is to give it real substance, solid standing that can be verified with evidence.",
+    "cousins": [
+      "substance",
+      "substantial"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "subsume": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "sumere",
+        "origin": "Latin",
+        "meaning": "to take"
+      }
+    ],
+    "literal": "to take under",
+    "path": "Subsume combines sub-, under, with sumere, to take. To subsume something is to take it under a broader category, absorbing it as part of a larger classification.",
+    "cousins": [
+      "assume",
+      "consume",
+      "presume"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "subterfuge": {
+    "parts": [
+      {
+        "piece": "subter",
+        "origin": "Latin",
+        "meaning": "beneath, secretly"
+      },
+      {
+        "piece": "fugere",
+        "origin": "Latin",
+        "meaning": "to flee"
+      }
+    ],
+    "literal": "a fleeing beneath, escaping secretly",
+    "path": "Latin subterfugere meant to flee secretly or evade by stealth, combining subter, beneath, with fugere, to flee. Subterfuge kept that sense of a secret escape, applied to any deceptive trick used to evade the truth or gain an advantage.",
+    "cousins": [
+      "fugitive",
+      "refuge"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "subtle": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "tela",
+        "origin": "Latin",
+        "meaning": "web, woven cloth (from texere, to weave)"
+      }
+    ],
+    "literal": "so finely woven it seems to vanish underneath",
+    "path": "Latin subtilis was probably a weaver's word: thread fine enough to pass under the warp. From 'finely spun' it came to mean fine, thin, delicate, and then anything too fine to notice at a glance: a subtle point, scent, or difference.",
+    "cousins": [
+      "textile",
+      "texture"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "subversive": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under, from below"
+      },
+      {
+        "piece": "vertere",
+        "origin": "Latin",
+        "meaning": "to turn"
+      }
+    ],
+    "literal": "turning from underneath",
+    "path": "Subversive comes from Latin subvertere, to overturn, from sub-, from below, and vertere, to turn. Something subversive works to turn over an established order from underneath, undermining it from within.",
+    "cousins": [
+      "subvert",
+      "convert",
+      "reverse"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "subvert": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under, from below"
+      },
+      {
+        "piece": "vertere",
+        "origin": "Latin",
+        "meaning": "to turn"
+      }
+    ],
+    "literal": "to turn from underneath",
+    "path": "Latin subvertere meant to overturn or destroy, from sub-, from below, and vertere, to turn. Subvert kept the sense of turning something over from beneath: undermining an established system from within.",
+    "cousins": [
+      "subversive",
+      "convert",
+      "reverse"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "succeeding": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "close to, next after"
+      },
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go, move, yield"
+      }
+    ],
+    "literal": "going up next to",
+    "path": "Latin succedere meant to come after or follow close behind, from sub-, close to, and cedere, to go. Succeeding kept the sense of coming next: following in order, one after another.",
+    "cousins": [
+      "proceed",
+      "cede",
+      "exceed"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "succinct": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "cingere",
+        "origin": "Latin",
+        "meaning": "to gird, encircle"
+      }
+    ],
+    "literal": "girded up, tucked in tight",
+    "path": "Latin succingere meant to gird up from below, tucking in loose clothing so it would not hinder movement. Succinct kept that image of being cinched tight, applied to language trimmed of anything loose or unnecessary: brief and clear.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "succor": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "up to, under"
+      },
+      {
+        "piece": "currere",
+        "origin": "Latin",
+        "meaning": "to run"
+      }
+    ],
+    "literal": "a running to help",
+    "path": "Latin succurrere meant to run to someone's aid, from sub-, up to, and currere, to run. Succor kept that image of rushing to help: assistance given at a moment of need.",
+    "cousins": [
+      "current",
+      "courier",
+      "occur"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "sufficient": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "up to"
+      },
+      {
+        "piece": "facere",
+        "origin": "Latin",
+        "meaning": "to make, do"
+      }
+    ],
+    "literal": "made up to, supplied enough",
+    "path": "Latin sufficere meant to supply or put under as needed, from sub-, up to, and facere, to make. Sufficient kept the sense of being made up to the right measure: enough for the purpose.",
+    "cousins": [
+      "suffice",
+      "efficient",
+      "deficient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "suffrage": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "frangere",
+        "origin": "Latin",
+        "meaning": "to break"
+      }
+    ],
+    "literal": "a vote, possibly a broken shard cast as a ballot",
+    "path": "Latin suffragium meant a vote or support in a vote. Its deeper origin is disputed, perhaps tied to frangere, to break, from the broken pottery shards once used as ballots. Suffrage settled into the specific sense of the right to cast that vote.",
+    "cousins": [
+      "fragment",
+      "fracture"
+    ],
+    "confidence": "low",
+    "transparent": false,
+    "charge": "positive"
+  },
+  "sullen": {
+    "parts": [
+      {
+        "piece": "solus",
+        "origin": "Latin",
+        "meaning": "alone"
+      }
+    ],
+    "literal": "alone, solitary",
+    "path": "Sullen comes from an old word meaning solitary or unique, from Latin solus, alone. Someone who withdrew alone rather than share company came to be seen as morose, and sullen narrowed to that silent, bad-tempered isolation.",
+    "cousins": [
+      "solo",
+      "solitary",
+      "sole"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "sully": {
+    "parts": [
+      {
+        "piece": "souiller",
+        "origin": "Old French",
+        "meaning": "to soil, make dirty"
+      }
+    ],
+    "literal": "to soil, make dirty",
+    "path": "Sully likely comes from French souiller, to soil or make dirty, the same root as soil used as a verb. The literal dirtying extended to a figurative sense: damaging someone's purity or reputation.",
+    "cousins": [
+      "soil"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "sultry": {
+    "parts": [
+      {
+        "piece": "sweltan",
+        "origin": "Old English",
+        "meaning": "to be overcome by heat, to swelter"
+      }
+    ],
+    "literal": "sweltering, oppressively hot",
+    "path": "Sultry comes from swelter, ultimately Old English sweltan, to be overcome by heat, once even to die from it. From describing oppressive, humid heat, sultry extended by the 1700s to a heated, passionate allure in people.",
+    "cousins": [
+      "swelter"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "summit": {
+    "parts": [
+      {
+        "piece": "summus",
+        "origin": "Latin",
+        "meaning": "highest"
+      }
+    ],
+    "literal": "the highest point",
+    "path": "Summit comes from Latin summus, highest, by way of Old French somete, a little top. It named the highest point of a mountain, and in the 20th century extended to a meeting of top-level leaders: a summit conference.",
+    "cousins": [
+      "sum",
+      "summary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "sundry": {
+    "parts": [
+      {
+        "piece": "sundor",
+        "origin": "Old English",
+        "meaning": "apart, separately"
+      }
+    ],
+    "literal": "separate, apart",
+    "path": "Old English syndrig meant separate or distinct, from sundor, apart. Sundry kept that sense of separateness, applied to a collection of various items each distinct from the others: miscellaneous.",
+    "cousins": [
+      "sunder",
+      "asunder"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "superannuated": {
+    "parts": [
+      {
+        "piece": "super-",
+        "origin": "Latin",
+        "meaning": "beyond"
+      },
+      {
+        "piece": "annus",
+        "origin": "Latin",
+        "meaning": "year"
+      }
+    ],
+    "literal": "beyond the years",
+    "path": "Superannuated combines super-, beyond, with annus, year. It first described someone who had outlived their years of usefulness, retired due to age, and extended to anything outdated or too old to serve its purpose.",
+    "cousins": [
+      "annual",
+      "anniversary"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "superbly": {
+    "parts": [
+      {
+        "piece": "super-",
+        "origin": "Latin",
+        "meaning": "above"
+      },
+      {
+        "piece": "-ly",
+        "origin": "Old English",
+        "meaning": "forming an adverb of manner"
+      }
+    ],
+    "literal": "in a way that stands above",
+    "path": "Superb comes from Latin superbus, proud or magnificent, from super, above. What was once proud pride softened into a word for excellence, and superbly describes something done in a way that rises above the ordinary.",
+    "cousins": [
+      "superior",
+      "supreme"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "supercilious": {
+    "parts": [
+      {
+        "piece": "super-",
+        "origin": "Latin",
+        "meaning": "above"
+      },
+      {
+        "piece": "cilium",
+        "origin": "Latin",
+        "meaning": "eyelid"
+      }
+    ],
+    "literal": "of the raised eyebrow",
+    "path": "Latin supercilium meant eyebrow, from super, above, and cilium, eyelid, and it also meant haughtiness, since a raised eyebrow signals disdain. Supercilious kept that image of the arched, contemptuous eyebrow: arrogantly looking down on others.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "superficial": {
+    "parts": [
+      {
+        "piece": "super-",
+        "origin": "Latin",
+        "meaning": "above"
+      },
+      {
+        "piece": "facies",
+        "origin": "Latin",
+        "meaning": "face, surface, form"
+      }
+    ],
+    "literal": "of the surface, above the face",
+    "path": "Latin superficies meant surface, literally what lies above the face of a thing, from super, above, and facies, face. Superficial kept that sense of concerning only the outer surface, never reaching anything deeper.",
+    "cousins": [
+      "surface",
+      "face",
+      "facade"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "superfluous": {
+    "parts": [
+      {
+        "piece": "super-",
+        "origin": "Latin",
+        "meaning": "over"
+      },
+      {
+        "piece": "fluere",
+        "origin": "Latin",
+        "meaning": "to flow"
+      }
+    ],
+    "literal": "flowing over",
+    "path": "Latin superfluus meant overflowing, from super, over, and fluere, to flow. Something superfluous flows over and beyond what is needed, like a container filled past its brim: more than necessary.",
+    "cousins": [
+      "fluid",
+      "fluent",
+      "influx"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "supersede": {
+    "parts": [
+      {
+        "piece": "super-",
+        "origin": "Latin",
+        "meaning": "above"
+      },
+      {
+        "piece": "sedere",
+        "origin": "Latin",
+        "meaning": "to sit"
+      }
+    ],
+    "literal": "to sit above",
+    "path": "Latin supersedere meant to sit above or preside over, and by extension to refrain from or set aside. Supersede kept the sense of setting something aside because a superior version now sits above it: replacing it as obsolete.",
+    "cousins": [
+      "sedentary",
+      "preside",
+      "reside"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "supine": {
+    "parts": [
+      {
+        "piece": "supinus",
+        "origin": "Latin",
+        "meaning": "lying on the back, face upward"
+      }
+    ],
+    "literal": "lying on one's back",
+    "path": "Latin supinus described lying face upward, a posture of passivity, unable to act or defend oneself. Supine kept that image of helpless inaction, extended figuratively to someone passive who fails to act when they should.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "supplant": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "planta",
+        "origin": "Latin",
+        "meaning": "sole of the foot"
+      }
+    ],
+    "literal": "to trip up by the sole of the foot",
+    "path": "Latin supplantare meant to trip someone up, literally to catch them under the sole of the foot, from sub-, under, and planta, sole. Supplant kept the sense of knocking someone down to take their place.",
+    "cousins": [
+      "plant",
+      "plantation"
+    ],
+    "confidence": "high",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "supple": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold, bend"
+      }
+    ],
+    "literal": "bending under, folding easily",
+    "path": "Supple comes from Latin supplex, bending or kneeling under, from sub-, under, and plicare, to fold. The sense of easily bending under pressure became the physical quality of suppleness: flexible and adaptable.",
+    "cousins": [
+      "supplicate",
+      "complicate",
+      "duplicate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "suppliant": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold, bend"
+      }
+    ],
+    "literal": "one who bends the knee under",
+    "path": "Suppliant comes from Latin supplicare, to kneel down and beg, from sub-, under, and plicare, to fold, describing the knees folding under in a posture of humble pleading. A suppliant is someone in that kneeling, begging posture.",
+    "cousins": [
+      "supplicate",
+      "supple"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "supplicate": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "plicare",
+        "origin": "Latin",
+        "meaning": "to fold, bend"
+      }
+    ],
+    "literal": "to bend the knee under",
+    "path": "Latin supplicare meant to kneel down and beg, from sub-, under, and plicare, to fold, the knees folding under in submission. Supplicate kept that image of kneeling humbly to beg for something.",
+    "cousins": [
+      "suppliant",
+      "supple"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "supposition": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "under"
+      },
+      {
+        "piece": "ponere",
+        "origin": "Latin",
+        "meaning": "to put, place"
+      }
+    ],
+    "literal": "a putting under, placing beneath",
+    "path": "Latin suppositio meant a placing under or a substitution, from sub-, under, and ponere, to put. Supposition came to mean an idea put underneath an argument as its basis, before it is proven: something assumed without proof.",
+    "cousins": [
+      "position",
+      "compose",
+      "propose"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "surfeit": {
+    "parts": [
+      {
+        "piece": "sur-",
+        "origin": "Old French",
+        "meaning": "over"
+      },
+      {
+        "piece": "faire",
+        "origin": "Old French",
+        "meaning": "to do, make"
+      }
+    ],
+    "literal": "an overdoing",
+    "path": "Surfeit comes from Old French surfaire, to overdo, from sur-, over, and faire, to do, ultimately Latin facere. It kept the sense of doing or having too much: an excessive amount of something.",
+    "cousins": [
+      "affair",
+      "feat"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "surly": {
+    "parts": [
+      {
+        "piece": "sir",
+        "origin": "Old French",
+        "meaning": "lord, master"
+      },
+      {
+        "piece": "-ly",
+        "origin": "Old English",
+        "meaning": "having the quality of"
+      }
+    ],
+    "literal": "lordly, like a master",
+    "path": "Surly began as sirly, meaning lordly or haughty, like a sir addressing inferiors. The arrogance of that lordly manner curdled into rudeness, and surly narrowed to bad-tempered and unfriendly.",
+    "cousins": [
+      "sir"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "negative"
+  },
+  "surmise": {
+    "parts": [
+      {
+        "piece": "sur-",
+        "origin": "Old French",
+        "meaning": "upon"
+      },
+      {
+        "piece": "mettre",
+        "origin": "Old French",
+        "meaning": "to put"
+      }
+    ],
+    "literal": "to put upon, to accuse",
+    "path": "Surmise began as a legal term meaning an accusation or formal allegation, from Old French surmettre, to put upon someone, from sur-, upon, and mettre, to put. Because such allegations rested on incomplete proof, surmise settled into a general sense of guessing from partial evidence.",
+    "cousins": [
+      "mission",
+      "transmit",
+      "permit"
+    ],
+    "confidence": "medium",
+    "transparent": false,
+    "charge": "neutral"
+  },
+  "surmount": {
+    "parts": [
+      {
+        "piece": "sur-",
+        "origin": "Old French",
+        "meaning": "over"
+      },
+      {
+        "piece": "monter",
+        "origin": "Old French",
+        "meaning": "to climb, mount"
+      }
+    ],
+    "literal": "to climb over",
+    "path": "Surmount comes from Old French surmonter, to rise above, from sur-, over, and monter, to climb. To surmount a difficulty is literally to climb over it: to overcome it.",
+    "cousins": [
+      "mount",
+      "mountain",
+      "dismount"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "surreptitious": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "secretly, under"
+      },
+      {
+        "piece": "rapere",
+        "origin": "Latin",
+        "meaning": "to seize, snatch"
+      }
+    ],
+    "literal": "seized secretly",
+    "path": "Latin surripere meant to snatch something away secretly, to steal, from sub-, secretly, and rapere, to seize. Surreptitious kept that sense of a secret, stealthy seizing: anything done covertly to avoid notice.",
+    "cousins": [
+      "rapid",
+      "ravish"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "surrogate": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "in place of"
+      },
+      {
+        "piece": "rogare",
+        "origin": "Latin",
+        "meaning": "to ask, propose"
+      }
+    ],
+    "literal": "proposed in another's place",
+    "path": "Latin surrogare meant to elect or propose as a substitute, from sub-, in place of, and rogare, to ask or propose. Surrogate kept that sense directly: someone or something put in another's place.",
+    "cousins": [
+      "interrogate",
+      "abrogate",
+      "prerogative"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "suspect": {
+    "parts": [
+      {
+        "piece": "sub-",
+        "origin": "Latin",
+        "meaning": "up from below"
+      },
+      {
+        "piece": "specere",
+        "origin": "Latin",
+        "meaning": "to look"
+      }
+    ],
+    "literal": "looked at from below, eyed with suspicion",
+    "path": "Latin suspicere meant to look up at, which could mean admiration or, looking at someone askance, mistrust. Suspect kept the negative sense: something looked at with doubt, of questionable reliability.",
+    "cousins": [
+      "suspicion",
+      "inspect",
+      "spectator"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}

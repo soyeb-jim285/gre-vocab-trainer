@@ -1,0 +1,1039 @@
+{
+  "troth": {
+    "parts": [
+      {
+        "piece": "treowð",
+        "origin": "Old English",
+        "meaning": "truth, fidelity"
+      }
+    ],
+    "literal": "truth, fidelity",
+    "path": "An old form of 'truth': to 'plight one's troth' is to pledge one's faithfulness, a solemn promise of loyalty.",
+    "cousins": [
+      "truth",
+      "true",
+      "betroth"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "truculence": {
+    "parts": [
+      {
+        "piece": "trux",
+        "origin": "Latin",
+        "meaning": "fierce, savage"
+      }
+    ],
+    "literal": "fierceness",
+    "path": "Direct from the root: the quality of being fierce and aggressively defiant.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "truculent": {
+    "parts": [
+      {
+        "piece": "trux",
+        "origin": "Latin",
+        "meaning": "fierce, savage"
+      }
+    ],
+    "literal": "fierce, savage",
+    "path": "Direct from the root: aggressively defiant and fierce in manner.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "truncate": {
+    "parts": [
+      {
+        "piece": "truncus",
+        "origin": "Latin",
+        "meaning": "tree trunk, mutilated"
+      }
+    ],
+    "literal": "cut like a lopped trunk",
+    "path": "A truncus is a tree trunk with its branches lopped off; to truncate is to cut something short the same way.",
+    "cousins": [
+      "trunk"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "truncated": {
+    "parts": [
+      {
+        "piece": "truncus",
+        "origin": "Latin",
+        "meaning": "tree trunk, mutilated"
+      }
+    ],
+    "literal": "cut off",
+    "path": "Same root as truncate: shortened by having an end cut off, like a trunk stripped of its limbs.",
+    "cousins": [
+      "trunk"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tumult": {
+    "parts": [
+      {
+        "piece": "tumere",
+        "origin": "Latin",
+        "meaning": "to swell"
+      }
+    ],
+    "literal": "a swelling",
+    "path": "Linked to the image of swelling up into disorder: a tumult is loud confusion and disorder, as of an agitated crowd.",
+    "cousins": [
+      "tumor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tumultuous": {
+    "parts": [
+      {
+        "piece": "tumere",
+        "origin": "Latin",
+        "meaning": "to swell"
+      }
+    ],
+    "literal": "swollen with uproar",
+    "path": "Same root as tumult: loud, confused, and disorderly, as if swollen past control.",
+    "cousins": [
+      "tumult",
+      "tumor"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "turbid": {
+    "parts": [
+      {
+        "piece": "turba",
+        "origin": "Latin",
+        "meaning": "disorder, crowd, turmoil"
+      }
+    ],
+    "literal": "stirred up",
+    "path": "Originally described water stirred up and thick with sediment, cloudy and muddy. It extended to being confused or disordered in a figurative sense.",
+    "cousins": [
+      "turbulent",
+      "disturb",
+      "perturb"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "turbulent": {
+    "parts": [
+      {
+        "piece": "turba",
+        "origin": "Latin",
+        "meaning": "disorder, crowd, turmoil"
+      }
+    ],
+    "literal": "full of disorder",
+    "path": "Direct from the root: violently disordered, like a stirred-up crowd or storm-tossed water.",
+    "cousins": [
+      "turbid",
+      "disturb",
+      "perturb"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tureen": {
+    "parts": [
+      {
+        "piece": "terra",
+        "origin": "Latin",
+        "meaning": "earth"
+      }
+    ],
+    "literal": "earthen (vessel)",
+    "path": "Originally an earthenware dish (French terrine). The word came to denote a deep covered dish for serving soup, whatever material it is made of.",
+    "cousins": [
+      "terrain",
+      "terrestrial"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "turgid": {
+    "parts": [
+      {
+        "piece": "turgere",
+        "origin": "Latin",
+        "meaning": "to swell"
+      }
+    ],
+    "literal": "swollen",
+    "path": "Physically swollen extended to speech or writing puffed up and pompously overblown with self-importance.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "turpitude": {
+    "parts": [
+      {
+        "piece": "turpis",
+        "origin": "Latin",
+        "meaning": "vile, base, shameful"
+      }
+    ],
+    "literal": "vileness",
+    "path": "Direct from the root: depravity and moral wickedness, baseness of character.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "tutelage": {
+    "parts": [
+      {
+        "piece": "tueri",
+        "origin": "Latin",
+        "meaning": "to watch, guard"
+      }
+    ],
+    "literal": "guardianship",
+    "path": "Direct from the root: instruction or guardianship carried out under a protector's watchful guidance.",
+    "cousins": [
+      "tutor",
+      "tuition"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "tyro": {
+    "parts": [
+      {
+        "piece": "tiro",
+        "origin": "Latin",
+        "meaning": "young soldier, recruit"
+      }
+    ],
+    "literal": "a raw recruit",
+    "path": "A tiro was a newly enlisted army recruit; tyro came to mean any beginner untrained in a skill.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ubiquitous": {
+    "parts": [
+      {
+        "piece": "ubique",
+        "origin": "Latin",
+        "meaning": "everywhere"
+      }
+    ],
+    "literal": "everywhere",
+    "path": "Direct from the root: present everywhere at once.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "ulterior": {
+    "parts": [
+      {
+        "piece": "ultra",
+        "origin": "Latin",
+        "meaning": "beyond"
+      }
+    ],
+    "literal": "farther, beyond",
+    "path": "Something ulterior lies farther beyond what is visible or stated, a hidden purpose past the surface reason given.",
+    "cousins": [
+      "ultimate",
+      "ultra"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "umbrage": {
+    "parts": [
+      {
+        "piece": "umbra",
+        "origin": "Latin",
+        "meaning": "shadow"
+      }
+    ],
+    "literal": "shadow",
+    "path": "Umbrage originally meant shade, or a shadowy suspicion cast over someone. To 'take umbrage' is to feel darkened or overshadowed by offense, hence to take offense.",
+    "cousins": [
+      "umbrella",
+      "penumbra",
+      "adumbrate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "unadorned": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "adornare",
+        "origin": "Latin",
+        "meaning": "to embellish"
+      }
+    ],
+    "literal": "not decorated",
+    "path": "Direct from the parts: lacking any added decoration, plain.",
+    "cousins": [
+      "adorn",
+      "ornate",
+      "ornament"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "unaffected": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "affectare",
+        "origin": "Latin",
+        "meaning": "to aim at, put on"
+      }
+    ],
+    "literal": "not put on",
+    "path": "'Affected' describes artificial, put-on behavior, someone striving to appear a certain way; unaffected is the opposite, genuine and natural without pretense.",
+    "cousins": [
+      "affect",
+      "effect"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "unalloyed": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "alligare",
+        "origin": "Latin",
+        "meaning": "to bind to"
+      }
+    ],
+    "literal": "not mixed with another metal",
+    "path": "An alloy binds metals together, sometimes diluting purity; unalloyed describes something pure and unmixed, not diminished by any qualifying admixture.",
+    "cousins": [
+      "ally",
+      "alliance",
+      "rally"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "unanimity": {
+    "parts": [
+      {
+        "piece": "unus",
+        "origin": "Latin",
+        "meaning": "one"
+      },
+      {
+        "piece": "animus",
+        "origin": "Latin",
+        "meaning": "mind"
+      }
+    ],
+    "literal": "one mind",
+    "path": "Direct from the parts: everyone sharing a single mind on a matter, complete agreement.",
+    "cousins": [
+      "unite",
+      "animate",
+      "animosity"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "unassailable": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "salire",
+        "origin": "Latin",
+        "meaning": "to leap"
+      }
+    ],
+    "literal": "not able to be leapt upon",
+    "path": "To assail is to leap at and attack; unassailable describes a position that cannot be successfully attacked or disputed.",
+    "cousins": [
+      "assault",
+      "salient"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "unassuming": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "sumere",
+        "origin": "Latin",
+        "meaning": "to take"
+      }
+    ],
+    "literal": "not taking airs upon oneself",
+    "path": "To 'assume' airs is to take on a pretentious manner; unassuming describes someone who does not put on such airs, modest and unpretentious.",
+    "cousins": [
+      "assume",
+      "presume",
+      "consume"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "uncanny": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "cunnan",
+        "origin": "Old English",
+        "meaning": "to know how, be able"
+      }
+    ],
+    "literal": "not knowable, unsafe",
+    "path": "'Canny' once meant knowing, shrewd, and safely understood; something uncanny lies beyond what feels safely knowable or explicable, strange in an unsettling way.",
+    "cousins": [
+      "can",
+      "ken",
+      "cunning"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "uncompromising": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "promittere",
+        "origin": "Latin",
+        "meaning": "to promise"
+      }
+    ],
+    "literal": "not mutually promising",
+    "path": "A compromise involves each side promising to yield ground; uncompromising describes refusing to make such mutual concessions.",
+    "cousins": [
+      "promise",
+      "compromise",
+      "permit"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "unconscionable": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "conscientia",
+        "origin": "Latin",
+        "meaning": "conscience"
+      }
+    ],
+    "literal": "without conscience",
+    "path": "Direct from the parts: lacking the moral restraint of conscience, hence unreasonable or morally unacceptable.",
+    "cousins": [
+      "conscience",
+      "conscious",
+      "science"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "uncouth": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "cunnan",
+        "origin": "Old English",
+        "meaning": "to know"
+      }
+    ],
+    "literal": "unknown, unfamiliar",
+    "path": "Originally meant unfamiliar or strange. It narrowed to describe someone unfamiliar with polite manners, lacking cultured refinement.",
+    "cousins": [
+      "can",
+      "ken",
+      "uncanny"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "unction": {
+    "parts": [
+      {
+        "piece": "unguere",
+        "origin": "Latin",
+        "meaning": "to anoint"
+      }
+    ],
+    "literal": "an anointing",
+    "path": "Originally the religious act of anointing with oil. The word extended to a smooth, oily manner of speech, especially exaggerated, insincere earnestness in delivery.",
+    "cousins": [
+      "ointment",
+      "unguent",
+      "anoint"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "unctuous": {
+    "parts": [
+      {
+        "piece": "unguere",
+        "origin": "Latin",
+        "meaning": "to anoint"
+      }
+    ],
+    "literal": "oily, anointed",
+    "path": "Describes an oily texture, like ointment, extended to a person whose smooth, ingratiating earnestness feels excessive and insincere.",
+    "cousins": [
+      "unction",
+      "ointment",
+      "unguent"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "undercut": {
+    "parts": [
+      {
+        "piece": "under",
+        "origin": "Old English",
+        "meaning": "beneath"
+      },
+      {
+        "piece": "cut",
+        "origin": "Middle English",
+        "meaning": "to cut"
+      }
+    ],
+    "literal": "to cut from below",
+    "path": "Direct compound: to cut into the base of something, weakening it, or to offer a lower price than a competitor by cutting underneath their price.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "undermine": {
+    "parts": [
+      {
+        "piece": "under",
+        "origin": "Old English",
+        "meaning": "beneath"
+      },
+      {
+        "piece": "miner",
+        "origin": "Old French",
+        "meaning": "to dig, tunnel"
+      }
+    ],
+    "literal": "to dig beneath",
+    "path": "Originally literal: digging tunnels beneath a fortification's walls to make them collapse. It extended figuratively to weakening something gradually and covertly.",
+    "cousins": [
+      "mine",
+      "mineral"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "underscore": {
+    "parts": [
+      {
+        "piece": "under",
+        "origin": "Old English",
+        "meaning": "beneath"
+      },
+      {
+        "piece": "scoru",
+        "origin": "Old Norse",
+        "meaning": "notch, mark"
+      }
+    ],
+    "literal": "to mark underneath",
+    "path": "To underscore is to draw a line beneath a word to mark it as important, hence to emphasize it.",
+    "cousins": [],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "understated": {
+    "parts": [
+      {
+        "piece": "under",
+        "origin": "Old English",
+        "meaning": "less than"
+      },
+      {
+        "piece": "status",
+        "origin": "Latin",
+        "meaning": "condition, position"
+      }
+    ],
+    "literal": "stated as less than it is",
+    "path": "To understate is to state something as less than it really is; understated describes something presented with deliberate modesty rather than full emphasis.",
+    "cousins": [
+      "state",
+      "status",
+      "statue"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "undertake": {
+    "parts": [
+      {
+        "piece": "under",
+        "origin": "Old English",
+        "meaning": "among, in the midst of"
+      },
+      {
+        "piece": "take",
+        "origin": "Old Norse",
+        "meaning": "to grasp"
+      }
+    ],
+    "literal": "to take on",
+    "path": "To undertake is to take a task upon oneself, committing to carry it through.",
+    "cousins": [
+      "take"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "undertaking": {
+    "parts": [
+      {
+        "piece": "under",
+        "origin": "Old English",
+        "meaning": "among, in the midst of"
+      },
+      {
+        "piece": "take",
+        "origin": "Old Norse",
+        "meaning": "to grasp"
+      }
+    ],
+    "literal": "a taking on",
+    "path": "Same root as undertake: a formal promise to do something, or a large task one has committed to carry out.",
+    "cousins": [
+      "take"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "underwrite": {
+    "parts": [
+      {
+        "piece": "under",
+        "origin": "Old English",
+        "meaning": "beneath"
+      },
+      {
+        "piece": "write",
+        "origin": "Old English",
+        "meaning": "to write"
+      }
+    ],
+    "literal": "to write underneath",
+    "path": "Insurers originally signed their names underneath a policy document to accept the risk. Underwrite came to mean guaranteeing something financially.",
+    "cousins": [
+      "write"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "unearth": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "reversal"
+      },
+      {
+        "piece": "earth",
+        "origin": "Old English",
+        "meaning": "earth, ground"
+      }
+    ],
+    "literal": "to dig out of the ground",
+    "path": "Direct from the parts: to dig something out of the earth, hence to discover something hidden by searching.",
+    "cousins": [
+      "earth",
+      "earthly"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "unequivocal": {
+    "parts": [
+      {
+        "piece": "aequus",
+        "origin": "Latin",
+        "meaning": "equal"
+      },
+      {
+        "piece": "vox",
+        "origin": "Latin",
+        "meaning": "voice"
+      }
+    ],
+    "literal": "not of equal (ambiguous) voice",
+    "path": "'Equivocal' describes something that could equally be read as meaning two different things, ambiguous; unequivocal denies that ambiguity, leaving no doubt.",
+    "cousins": [
+      "equal",
+      "vocal",
+      "voice"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "unexceptionable": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "excipere",
+        "origin": "Latin",
+        "meaning": "to take out, except"
+      }
+    ],
+    "literal": "not able to be objected to",
+    "path": "To 'take exception' is to object; unexceptionable describes something so unobjectionable that no exception can be taken to it, beyond criticism.",
+    "cousins": [
+      "except",
+      "exception"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "unfaltering": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "falter",
+        "origin": "Middle English",
+        "meaning": "to stumble, hesitate (origin uncertain)"
+      }
+    ],
+    "literal": "not stumbling",
+    "path": "To falter is to stumble or hesitate; unfaltering describes a steadiness that never wavers.",
+    "cousins": [
+      "falter"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "unfettered": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "feter",
+        "origin": "Old English",
+        "meaning": "chain for the feet"
+      }
+    ],
+    "literal": "not chained at the feet",
+    "path": "A fetter is a shackle for the feet that restrains movement; unfettered describes freedom from such restraint, unrestricted.",
+    "cousins": [
+      "foot"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "unflappable": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "flap",
+        "origin": "English",
+        "meaning": "to flutter, panic (imitative)"
+      }
+    ],
+    "literal": "not prone to fluttering",
+    "path": "'Flap' became slang for a state of panic or agitation, from the frantic flapping of a startled bird. Unflappable describes someone who never becomes agitated, calm under pressure.",
+    "cousins": [
+      "flap"
+    ],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "ungainly": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "gegn",
+        "origin": "Old Norse",
+        "meaning": "straight, direct, helpful"
+      }
+    ],
+    "literal": "not straight or handy",
+    "path": "'Gainly' once meant graceful, handy, or straightforward; ungainly negates it, describing something awkward and clumsy in movement or form.",
+    "cousins": [],
+    "confidence": "medium",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "unimpeachable": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "pedica",
+        "origin": "Latin",
+        "meaning": "shackle, fetter (from pes, foot)"
+      }
+    ],
+    "literal": "not able to be shackled with blame",
+    "path": "'Impeach' originally meant to entangle or hinder, then to accuse of wrongdoing; unimpeachable describes something beyond doubt or reproach, not open to such accusation.",
+    "cousins": [
+      "impede",
+      "pedal",
+      "impediment"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "positive"
+  },
+  "universal": {
+    "parts": [
+      {
+        "piece": "uni-",
+        "origin": "Latin",
+        "meaning": "one"
+      },
+      {
+        "piece": "vertere",
+        "origin": "Latin",
+        "meaning": "to turn"
+      }
+    ],
+    "literal": "turned into one",
+    "path": "Direct from the parts: all parts turned or combined into a single whole, hence applying to every case.",
+    "cousins": [
+      "unite",
+      "verse",
+      "convert"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "unmitigated": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "mitis",
+        "origin": "Latin",
+        "meaning": "mild, soft"
+      }
+    ],
+    "literal": "not softened",
+    "path": "To mitigate is to soften or lessen severity; unmitigated describes something not lessened at all, absolute and complete, often of something bad.",
+    "cousins": [
+      "mitigate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "unnerve": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "reversal"
+      },
+      {
+        "piece": "nervus",
+        "origin": "Latin",
+        "meaning": "sinew, tendon"
+      }
+    ],
+    "literal": "to remove sinew",
+    "path": "'Nerve' figuratively meant courage or steely strength, like a taut sinew; to unnerve is to strip someone of that steadiness, depriving them of confidence.",
+    "cousins": [
+      "nerve",
+      "nervous",
+      "enervate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "unprecedented": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "cedere",
+        "origin": "Latin",
+        "meaning": "to go"
+      }
+    ],
+    "literal": "not gone before",
+    "path": "A precedent is an earlier case that has 'gone before' to serve as an example; unprecedented describes something with no such earlier case, never having happened before.",
+    "cousins": [
+      "precede",
+      "proceed",
+      "cede"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "neutral"
+  },
+  "unprepossessing": {
+    "parts": [
+      {
+        "piece": "prae-",
+        "origin": "Latin",
+        "meaning": "before"
+      },
+      {
+        "piece": "possidere",
+        "origin": "Latin",
+        "meaning": "to possess"
+      }
+    ],
+    "literal": "not taking possession of one's favor beforehand",
+    "path": "'Prepossessing' describes an appearance that immediately 'possesses' or wins over one's favorable opinion at first sight; unprepossessing is the opposite, unattractive at first glance.",
+    "cousins": [
+      "possess",
+      "possession"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  },
+  "unpropitious": {
+    "parts": [
+      {
+        "piece": "un-",
+        "origin": "Old English",
+        "meaning": "not"
+      },
+      {
+        "piece": "propitius",
+        "origin": "Latin",
+        "meaning": "favorable, well-disposed"
+      }
+    ],
+    "literal": "not favorable",
+    "path": "Direct from the parts: lacking favorable conditions, unfavorable circumstances or omens.",
+    "cousins": [
+      "propitiate"
+    ],
+    "confidence": "high",
+    "transparent": true,
+    "charge": "negative"
+  }
+}
