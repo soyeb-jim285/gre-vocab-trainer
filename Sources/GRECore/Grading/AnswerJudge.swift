@@ -12,6 +12,9 @@ public enum AnswerDraft: Equatable, Sendable {
     /// and a different one: this is graded against the word's grounding rather
     /// than against a single reference line.
     case meaning(String)
+    /// Said whether the meaning came to mind, after seeing it. Quick recall
+    /// only.
+    case recalled(Bool)
     /// Gave up without answering.
     case gaveUp
 
@@ -28,7 +31,7 @@ public enum AnswerDraft: Equatable, Sendable {
                 && !sentence.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
         case let .meaning(text):
             !text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
-        case .choice, .gaveUp:
+        case .choice, .recalled, .gaveUp:
             true
         }
     }
@@ -68,6 +71,7 @@ public enum AnswerJudge {
     public static func correctChoice(for item: SessionItem) -> String {
         switch item.mode {
         case .contextCloze, .discriminate: item.word.id
+        case .charge: (item.word.charge ?? .neutral).rawValue
         default: item.word.teachingDefinition
         }
     }
@@ -102,6 +106,19 @@ public enum AnswerJudge {
                 showsReference: true
             )
 
+        case let .recalled(knew):
+            // Self-rated, so the claim is taken at face value only downward: a
+            // miss is a miss, and a hit is Good at best.
+            let grade = Grade(score: knew ? 100 : 0)
+            return Judgement(
+                grade: grade,
+                rating: rate(grade, item: item, strictness: strictness,
+                             latency: latency, confidence: confidence,
+                             selfReport: selfReport, hints: hints),
+                headline: knew ? "Kept" : "Back soon",
+                detail: item.word.teachingDefinition
+            )
+
         case let .choice(chosen):
             let correct = chosen == correctChoice(for: item)
             let grade = Grade(score: correct ? 100 : 0)
@@ -111,6 +128,8 @@ public enum AnswerJudge {
                 (correct ? "That fits" : "Not that one", !correct)
             case .senseInContext:
                 (correct ? "Right meaning" : "That is the everyday meaning", true)
+            case .charge:
+                (correct ? "Right charge" : "It is \((item.word.charge ?? .neutral).label.lowercased())", true)
             case .discriminate:
                 // The distinction is the whole answer here, right or wrong: a
                 // learner who guessed correctly still has not been told what

@@ -37,12 +37,41 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     /// word it happens to test is a consequence rather than the point. It is
     /// here so that answering one still counts as evidence about that word.
     case greItem
+    /// Word shown; recall its short meaning, reveal, and say whether you had it.
+    ///
+    /// GregMat's pace: a gloss in a second or two, so a review pass covers far
+    /// more words than typing allows. Self-rated, so it is weak evidence, and it
+    /// is only offered for words already held -- the typed answer stays the
+    /// backbone for anything shaky.
+    case gist
+    /// Is the tested sense positive, negative or neutral?
+    ///
+    /// The first thing a Text Completion blank asks of a word, before any
+    /// particular meaning. A one-in-three guess, so a right answer can never
+    /// earn more than Hard.
+    case charge
 
     /// The modes that work with no API key.
     public static let locallyGraded: [StudyMode] = [
         .multipleChoice, .contextCloze, .senseInContext, .reverseRecall, .spelling,
-        .discriminate, .greItem,
+        .discriminate, .greItem, .gist, .charge,
     ]
+
+    /// Quick rounds over words already met. A session pinned to one of these
+    /// meets no new words: neither can teach one.
+    public var isQuickRound: Bool { self == .gist || self == .charge }
+
+    /// The best rating an answer in this mode can earn.
+    ///
+    /// A self-rated recall is a claim, not a test, so it stops at Good; a
+    /// three-way guess stops at Hard.
+    public var ratingCeiling: FSRSRating {
+        switch self {
+        case .gist: .good
+        case .charge: .hard
+        default: .easy
+        }
+    }
 
     /// Modes a session can be pinned to.
     ///
@@ -54,7 +83,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     /// Answered by tapping one of four options rather than by typing.
     public var isTapToAnswer: Bool {
         self == .multipleChoice || self == .contextCloze || self == .senseInContext
-            || self == .discriminate || self == .greItem
+            || self == .discriminate || self == .greItem || self == .charge
     }
 
     /// Only meaningful for a word whose everyday sense competes with the tested
@@ -71,7 +100,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
     /// however well chosen each one is.
     public var friction: Int {
         switch self {
-        case .multipleChoice, .contextCloze, .senseInContext, .discriminate: 1
+        case .multipleChoice, .contextCloze, .senseInContext, .discriminate, .gist, .charge: 1
         // Reading the stem is most of the work, and a pair has to be found
         // rather than a single option.
         case .greItem: 2
@@ -92,6 +121,8 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .typeMeaning: "Meaning"
         case .discriminate: "Tell apart"
         case .greItem: "Exam question"
+        case .gist: "Quick recall"
+        case .charge: "Positive or negative"
         }
     }
 
@@ -111,6 +142,8 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .typeMeaning: "What does this mean?"
         case .discriminate: "Which of these two means this?"
         case .greItem: "Complete the sentence"
+        case .gist: "What does it mean, in a word or two?"
+        case .charge: "Positive, negative or neutral?"
         }
     }
 
@@ -126,7 +159,7 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         // The stem is the question and it carries the blank, exactly as cloze
         // does.
         case .contextCloze, .greItem: .nothing
-        case .multipleChoice, .senseInContext, .defineAndUse, .typeMeaning: .word
+        case .multipleChoice, .senseInContext, .defineAndUse, .typeMeaning, .gist, .charge: .word
         }
     }
 
@@ -141,6 +174,8 @@ public enum StudyMode: String, Codable, Sendable, CaseIterable {
         case .typeMeaning: "text.cursor"
         case .discriminate: "arrow.left.and.right"
         case .greItem: "doc.text"
+        case .gist: "bolt"
+        case .charge: "plusminus"
         }
     }
 }

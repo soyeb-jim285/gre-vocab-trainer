@@ -57,7 +57,7 @@ public enum DayPlanner {
 
         let pacing = Pacing.advise(
             remaining: max(0, catalog.words.count - met.count),
-            profile: profile, from: now, calendar: calendar
+            profile: profile, met: met.count, from: now, calendar: calendar
         )
 
         return DayPlan(

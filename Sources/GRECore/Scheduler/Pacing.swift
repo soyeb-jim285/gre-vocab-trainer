@@ -11,6 +11,9 @@ public struct PacingAdvice: Equatable, Sendable {
     /// Nil when the cap is zero, so coverage never completes.
     public let completion: Date?
     public let wordsRemaining: Int
+    /// Inside the review-only stretch before the test. New words stop so that
+    /// the ones already met get their last spaced passes.
+    public var isFinalReview: Bool = false
 
     /// False only when there is a deadline and the cap cannot meet it. Saying so
     /// is the point: falling behind quietly is the failure mode.
@@ -21,13 +24,53 @@ public struct PacingAdvice: Equatable, Sendable {
 
     /// What the learner should actually meet today.
     public var newWordsToday: Int {
-        guard wordsRemaining > 0 else { return 0 }
+        guard wordsRemaining > 0, !isFinalReview else { return 0 }
         return min(allowed, max(required ?? allowed, 0), wordsRemaining)
     }
 }
 
 /// Turning a deadline into a daily rate, and a daily rate back into a date.
 public enum Pacing {
+
+    /// The last days before the test are review only.
+    ///
+    /// GregMat's forty-day plan ends with six review days, and the spacing
+    /// research says the same thing from the other side: a word met the day
+    /// before the exam gets one pass, where a word met a week out gets three.
+    public static let finalReviewDays = 6
+
+    /// The longest interval worth scheduling today: up to the eve of the test.
+    ///
+    /// A review booked for after the exam is a review that never happens, so a
+    /// well-held word is pulled back to be seen once more before the day. Nil
+    /// without a test date, or once the test has passed.
+    public static func maximumIntervalDays(
+        until testDate: Date?, from now: Date, calendar: Calendar = .current
+    ) -> Int? {
+        guard let testDate else { return nil }
+        let days = calendar.dateComponents(
+            [.day], from: calendar.startOfDay(for: now), to: calendar.startOfDay(for: testDate)
+        ).day ?? 0
+        guard days > 0 else { return nil }
+        return max(1, days - 1)
+    }
+
+    /// Where the learner is in a plan that runs from their first study day to
+    /// the test: "day 12 of 40". Nil without both ends.
+    public static func planDay(
+        started: Date?, testDate: Date?, now: Date, calendar: Calendar = .current
+    ) -> (day: Int, of: Int)? {
+        guard let started, let testDate else { return nil }
+        let first = calendar.startOfDay(for: started)
+        let total = calendar.dateComponents(
+            [.day], from: first, to: calendar.startOfDay(for: testDate)
+        ).day ?? 0
+        guard total > 0 else { return nil }
+        let day = (calendar.dateComponents(
+            [.day], from: first, to: calendar.startOfDay(for: now)
+        ).day ?? 0) + 1
+        return (min(max(day, 1), total), total)
+    }
 
     /// Days left to study on, counting today and stopping the day before the
     /// test. The morning of the exam is not a study day worth planning around.
@@ -56,7 +99,9 @@ public enum Pacing {
         remaining: Int, testDate: Date, from now: Date = .now, calendar: Calendar = .current
     ) -> Int {
         guard remaining > 0 else { return 0 }
-        let days = studyDaysRemaining(from: now, to: testDate, calendar: calendar)
+        // New words have to fit before the review-only stretch.
+        let days = max(1, studyDaysRemaining(from: now, to: testDate, calendar: calendar)
+                          - finalReviewDays)
         return Int((Double(remaining) / Double(days)).rounded(.up))
     }
 
@@ -73,8 +118,11 @@ public enum Pacing {
         return calendar.date(byAdding: .day, value: days - 1, to: today)
     }
 
+    /// - Parameter met: words already introduced. The review-only stretch only
+    ///   applies to someone with words to review: a learner who starts four
+    ///   days before the test still has to start.
     public static func advise(
-        remaining: Int, profile: LearnerProfile, from now: Date = .now,
+        remaining: Int, profile: LearnerProfile, met: Int = 0, from now: Date = .now,
         calendar: Calendar = .current
     ) -> PacingAdvice {
         let required = profile.testDate.map {
@@ -87,7 +135,10 @@ public enum Pacing {
                 remaining: remaining, newWordsPerDay: profile.newWordsPerDayCap,
                 from: now, calendar: calendar
             ),
-            wordsRemaining: remaining
+            wordsRemaining: remaining,
+            isFinalReview: met > 0 && profile.testDate.map {
+                studyDaysRemaining(from: now, to: $0, calendar: calendar) <= finalReviewDays
+            } ?? false
         )
     }
 }

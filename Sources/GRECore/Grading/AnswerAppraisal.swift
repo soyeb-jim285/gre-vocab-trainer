@@ -84,6 +84,7 @@ public enum AnswerAppraisal {
         if grade.rating(strictness: strictness) == .again { return .again }
 
         var rating = grade.rating(strictness: strictness)
+        rating = narrow(rating, to: mode.ratingCeiling)
         rating = narrow(rating, to: hints.ceiling)
 
         if let selfReport {
@@ -145,6 +146,8 @@ public enum AnswerAppraisal {
     public static func band(for mode: StudyMode) -> (fast: Duration, slow: Duration) {
         switch mode {
         case .multipleChoice: (.seconds(4), .seconds(12))
+        // One tap on a single word, and the three options never change.
+        case .charge, .gist: (.seconds(3), .seconds(8))
         // Two options, but the whole question is the hesitation between them:
         // an instant answer means the pair is genuinely separate in memory.
         case .discriminate: (.seconds(5), .seconds(15))

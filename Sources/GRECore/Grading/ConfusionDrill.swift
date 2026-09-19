@@ -37,8 +37,15 @@ public struct DiscriminationQuestion: Equatable, Sendable {
 public enum ConfusionDrill {
 
     /// Whether this word has a neighbour to be told apart from.
-    public static func isAvailable(for word: Word, in catalog: WordCatalog) -> Bool {
-        partners(for: word, in: catalog).isEmpty == false
+    ///
+    /// - Parameter met: words the learner has already been introduced to. A
+    ///   partner outside it is skipped: two similar words that are both new
+    ///   interfere with each other, and telling them apart only helps once one
+    ///   of them is held. Nil skips the check.
+    public static func isAvailable(
+        for word: Word, in catalog: WordCatalog, met: Set<String>? = nil
+    ) -> Bool {
+        partners(for: word, in: catalog, met: met).isEmpty == false
     }
 
     /// A question for this word, or nil when it has no usable neighbour.
@@ -51,9 +58,10 @@ public enum ConfusionDrill {
     ///   three neighbours is not asked against the same one every time.
     public static func question(
         for word: Word, from catalog: WordCatalog,
-        preferring confused: Set<String> = [], attempt: Int = 0
+        preferring confused: Set<String> = [], attempt: Int = 0,
+        met: Set<String>? = nil
     ) -> DiscriminationQuestion? {
-        let usable = partners(for: word, in: catalog)
+        let usable = partners(for: word, in: catalog, met: met)
         guard !usable.isEmpty else { return nil }
         let troubled = usable.filter { confused.contains($0.0.id) }
         let pool = troubled.isEmpty ? usable : troubled
@@ -71,10 +79,11 @@ public enum ConfusionDrill {
     /// Annotated neighbours that are actually in this catalog, in dataset order
     /// so the choice is reproducible.
     private static func partners(
-        for word: Word, in catalog: WordCatalog
+        for word: Word, in catalog: WordCatalog, met: Set<String>? = nil
     ) -> [(Word, String)] {
         (word.confusion ?? []).compactMap { pair in
-            catalog[pair.with].map { ($0, pair.distinction) }
+            guard met?.contains(pair.with) ?? true else { return nil }
+            return catalog[pair.with].map { ($0, pair.distinction) }
         }
     }
 }

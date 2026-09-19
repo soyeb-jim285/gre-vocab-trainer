@@ -121,7 +121,8 @@ import Testing
     @Test func everyRatingComesFromTheOneScoreMappingUnlessTheLearnerGaveUp() {
         let drafts: [AnswerDraft] = [.choice("abate"), .choice("wrong"), .typed("abate"),
                                      .typed("abaet"), .typed("")]
-        for mode in StudyMode.locallyGraded {
+        // Quick rounds cap the rating by design; `QuickRoundTests` covers them.
+        for mode in StudyMode.locallyGraded where !mode.isQuickRound {
             for draft in drafts {
                 for strictness in GradingStrictness.allCases {
                     guard let judgement = AnswerJudge.judge(draft, item: item(mode),

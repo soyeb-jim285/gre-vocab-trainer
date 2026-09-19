@@ -23,10 +23,14 @@ public enum SessionQueue {
     ///     else qualifies.
     ///   - allowEarly: review the weakest memory ahead of schedule rather than
     ///     returning nil.
+    ///   - belowCriterion: words met today that have not yet been answered
+    ///     correctly often enough; see ``LearningCriterion``. They come back
+    ///     before any new word does.
     public static func nextCard(
         cards: [StudyCard], catalog: WordCatalog, currentDeckID: String?,
         newWordsAllowed: Int, scheduler: FSRS, recentAccuracy: Double?,
-        recentWordIDs: [String], allowEarly: Bool = false, now: Date
+        recentWordIDs: [String], allowEarly: Bool = false,
+        belowCriterion: Set<String> = [], now: Date
     ) -> StudyCard? {
         let recent = Set(recentWordIDs.suffix(repeatWindow))
         let known = cards.filter { catalog[$0.wordID] != nil }
@@ -47,19 +51,32 @@ public enum SessionQueue {
             return soonest
         }
 
-        // 3. A new word from the current deck, then the decks after it.
+        // 3. A word met today that has not yet been got right enough times.
+        //    Finishing today's words beats starting tomorrow's: retrieval to a
+        //    criterion is the strongest lever there is, and a word left at one
+        //    lucky answer is mostly forgotten by morning.
+        if let owed = fresh
+            .filter({ belowCriterion.contains($0.wordID) })
+            .min(by: { $0.fsrs.due < $1.fsrs.due }) {
+            return owed
+        }
+
+        // 4. A new word from the current deck, then the decks after it.
         let studied = Set(known.map(\.wordID))
         if newWordsAllowed > 0,
            let word = nextNewWord(catalog: catalog, from: currentDeckID, excluding: studied) {
             return StudyCard(wordID: word.id)
         }
 
-        // 4. Only the just-shown words are due: repeating beats stalling.
-        if let due = mostAtRisk(known.filter { $0.fsrs.due <= now }, scheduler: scheduler, now: now) {
+        // 5. Only the just-shown words are due: repeating beats stalling.
+        if let due = mostAtRisk(
+            known.filter { $0.fsrs.due <= now || belowCriterion.contains($0.wordID) },
+            scheduler: scheduler, now: now
+        ) {
             return due
         }
 
-        // 5. Caught up. Early review only on request.
+        // 6. Caught up. Early review only on request.
         guard allowEarly else { return nil }
         let pool = fresh.isEmpty ? known : fresh
         return mostAtRisk(pool, scheduler: scheduler, now: now)

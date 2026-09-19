@@ -38,7 +38,8 @@ import Testing
         #expect(SessionSettings().forcedMode == nil)
     }
 
-    @Test(arguments: StudyMode.forceable)
+    /// Quick rounds have their own rules, tested in `QuickRoundTests`.
+    @Test(arguments: StudyMode.forceable.filter { !$0.isQuickRound })
     func forcingAModeAppliesItWhateverTheHistory(forced: StudyMode) {
         // "flag" is a trap word, so every mode including "which meaning" applies.
         for reviews in [1, 2, 3, 9] {

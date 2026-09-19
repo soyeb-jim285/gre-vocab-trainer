@@ -39,12 +39,14 @@ import Testing
 
     // MARK: - Rate from a deadline
 
-    @Test func theRateSpreadsTheBacklogOverTheDaysLeft() {
-        #expect(Pacing.newWordsPerDay(remaining: 300, testDate: days(30), from: now, calendar: calendar) == 10)
+    @Test func theRateSpreadsTheBacklogOverTheDaysBeforeTheReviewOnlyStretch() {
+        // Thirty days out, the last six are for review: 300 words over 24 days.
+        #expect(Pacing.finalReviewDays == 6)
+        #expect(Pacing.newWordsPerDay(remaining: 240, testDate: days(30), from: now, calendar: calendar) == 10)
     }
 
     @Test func aRemainderRoundsUpSoTheLastWordFitsBeforeTheTest() {
-        #expect(Pacing.newWordsPerDay(remaining: 301, testDate: days(30), from: now, calendar: calendar) == 11)
+        #expect(Pacing.newWordsPerDay(remaining: 241, testDate: days(30), from: now, calendar: calendar) == 11)
     }
 
     @Test func nothingLeftNeedsNoRate() {
@@ -87,7 +89,7 @@ import Testing
 
     @Test func aReachableGoalIsOnTrack() {
         let profile = LearnerProfile(testDate: days(30), newWordsPerDayCap: 15)
-        let advice = Pacing.advise(remaining: 300, profile: profile, from: now, calendar: calendar)
+        let advice = Pacing.advise(remaining: 240, profile: profile, from: now, calendar: calendar)
         #expect(advice.required == 10)
         #expect(advice.allowed == 15)
         #expect(advice.isOnTrack)
@@ -96,7 +98,7 @@ import Testing
     }
 
     @Test func aCapBelowWhatTheDeadlineDemandsSaysSo() {
-        let profile = LearnerProfile(testDate: days(10), newWordsPerDayCap: 15)
+        let profile = LearnerProfile(testDate: days(16), newWordsPerDayCap: 15)
         let advice = Pacing.advise(remaining: 900, profile: profile, from: now, calendar: calendar)
         #expect(advice.required == 90)
         #expect(advice.isOnTrack == false)

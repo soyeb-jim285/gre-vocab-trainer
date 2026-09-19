@@ -39,7 +39,12 @@ public enum Curriculum {
     /// harder steps fall back to, not something to return to once a word is
     /// known. Writing is missing because reaching it is a threshold decision
     /// rather than an evidence one.
-    public static func candidates(for word: Word, aiEnabled: Bool = false) -> [StudyMode] {
+    /// - Parameter met: words already introduced; see
+    ///   ``ConfusionDrill/isAvailable(for:in:met:)``. Nil skips the check.
+    public static func candidates(
+        for word: Word, aiEnabled: Bool = false, met: Set<String>? = nil,
+        catalog: WordCatalog? = nil
+    ) -> [StudyMode] {
         var modes: [StudyMode] = []
         // The free answer is the backbone: it is the only form that shows what
         // the learner actually holds rather than what they can recognise. It
@@ -54,7 +59,13 @@ public enum Curriculum {
         // A neighbour close enough to be mixed up is the exam's favourite trap,
         // and a word held only well enough to beat three unrelated distractors
         // fails here.
-        if !(word.confusion?.isEmpty ?? true) { modes.append(.discriminate) }
+        if let met, let catalog {
+            if ConfusionDrill.isAvailable(for: word, in: catalog, met: met) {
+                modes.append(.discriminate)
+            }
+        } else if !(word.confusion?.isEmpty ?? true) {
+            modes.append(.discriminate)
+        }
         return modes
     }
 
@@ -89,7 +100,8 @@ public enum Curriculum {
     ///   session and in every call that does not care.
     public static func step(
         for card: StudyCard, word: Word, competence: CardCompetence,
-        settings: SessionSettings, recentModes: [StudyMode] = []
+        settings: SessionSettings, recentModes: [StudyMode] = [],
+        met: Set<String>? = nil, catalog: WordCatalog? = nil
     ) -> StudyStep {
         // First contact is a question, not a lesson. Asking costs one typed
         // answer and buys the two facts teaching cannot: whether this learner
@@ -113,10 +125,16 @@ public enum Curriculum {
         // cannot conjure an API key, so writing without one still falls back
         // rather than stranding the learner on a locked mode, and "which
         // meaning" only exists for words that have two.
+        //
+        // A quick round is for words already held: a gloss recalled in a second
+        // says nothing about a word still in its learning steps, and a charge
+        // needs a charge to ask about.
         if let forced = settings.forcedMode,
            forced != .greItem,
            !forced.needsAI || settings.aiEnabled,
-           !forced.needsTrapWord || word.isTrap {
+           !forced.needsTrapWord || word.isTrap,
+           !forced.isQuickRound || card.fsrs.state == .review,
+           forced != .charge || word.charge != nil {
             return .drill(forced)
         }
 
@@ -143,7 +161,7 @@ public enum Curriculum {
             return .drill(.multipleChoice)
         }
 
-        let pool = candidates(for: word, aiEnabled: settings.aiEnabled)
+        let pool = candidates(for: word, aiEnabled: settings.aiEnabled, met: met, catalog: catalog)
         // Weakest evidence picks the question, unless the last few were heavy,
         // in which case the lightest form that still tests something wins. The
         // rotation falls out of this rather than being a cycle: after a typed

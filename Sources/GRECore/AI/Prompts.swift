@@ -20,8 +20,11 @@ enum Prompts {
                 Score the definition on meaning, not wording: a correct paraphrase \
                 scores full marks. Score the sentence on whether it shows real command \
                 of the word -- a grammatical sentence where the word carries no weight \
-                scores poorly. Keep feedback to one or two sentences, addressed to the \
-                learner. Return the corrected sentence even when the original was fine.
+                scores poorly. The learner was asked to write about their own life, so \
+                a personal, informal sentence is expected; judge whether the word fits \
+                that situation, not the register. Keep feedback to one or two sentences, \
+                addressed to the learner. Return the corrected sentence even when the \
+                original was fine.
 
                 Finish with one memorable sentence of your own: concrete, vivid, and \
                 built so the word's meaning is obvious from the situation rather than \
