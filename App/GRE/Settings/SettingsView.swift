@@ -111,9 +111,7 @@ struct SettingsView: View {
                         displayedComponents: .date
                     )
                 }
-                Stepper("New words a day: \(settings.newWordsPerDayCap)",
-                        value: $settings.newWordsPerDayCap, in: 0...60)
-                    .monospacedDigit()
+                WordsPerDayField(title: "New words a day", value: $settings.newWordsPerDayCap)
                 Picker("Day starts at", selection: $settings.dayStartHour) {
                     Text("Midnight").tag(0)
                     Text("2am").tag(2)
@@ -274,5 +272,27 @@ struct SettingsView: View {
 
     private func short(_ id: String) -> String {
         id.split(separator: "/").last.map(String.init) ?? id
+    }
+}
+
+/// New words a day: typed, or nudged with the stepper. No ceiling: the
+/// learner decides how hard to push, and the pace advice says what it means.
+struct WordsPerDayField: View {
+    let title: String
+    @Binding var value: Int
+
+    var body: some View {
+        HStack {
+            Text(title)
+            Spacer()
+            TextField("0", value: $value, format: .number)
+                .keyboardType(.numberPad)
+                .multilineTextAlignment(.trailing)
+                .monospacedDigit()
+                .frame(maxWidth: 80)
+            Stepper(title, value: $value, in: 0...Int.max)
+                .labelsHidden()
+        }
+        .onChange(of: value) { _, new in if new < 0 { value = 0 } }
     }
 }

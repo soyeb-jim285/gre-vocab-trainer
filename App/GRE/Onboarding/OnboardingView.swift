@@ -65,9 +65,8 @@ struct OnboardingView: View {
         VStack(alignment: .leading, spacing: 18) {
             Title("How many new words a day?",
                   subtitle: "A ceiling, not a target. Meeting forty new words in one sitting is how people quit on day three.")
-            Stepper("\(newWordsPerDay) a day", value: $newWordsPerDay, in: 0...60)
+            WordsPerDayField(title: "A day", value: $newWordsPerDay)
                 .tint(Theme.accent)
-                .monospacedDigit()
             Text(paceAdvice)
                 .font(.footnote)
                 .foregroundStyle(onTrack ? Theme.secondaryText : Theme.caution)
@@ -119,7 +118,7 @@ struct OnboardingView: View {
             settings.testDate = hasDeadline ? testDate : nil
             // Start them where their own deadline points rather than at a
             // number the app made up.
-            if let required { newWordsPerDay = min(max(required, 5), 40) }
+            if let required { newWordsPerDay = max(required, 5) }
             step = 1
         case 1:
             settings.newWordsPerDayCap = newWordsPerDay
